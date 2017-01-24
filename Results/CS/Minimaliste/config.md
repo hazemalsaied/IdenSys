@@ -1,0 +1,15 @@
+useFirstBufferElement = True
+useSecondBufferElement = False
+printReport = True
+serialize = False
+binaryMerge = True
+usePOS = True
+useSytax = False
+useTriGram = False
+useBiGram = True
+useDistance = True
+useLemma = True
+useTransitionHistory = False
+usePreviousTransition = False
+useAntepenultimateTransition = False
+CrossValidationEvaluation = False

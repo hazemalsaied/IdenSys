@@ -1,0 +1,27 @@
+{
+  "path": {
+    "corpusPath": "/Users/hazemalsaied/Parseme/MWEIdSys/Corpora/sharedtask/FR",
+    "resultPath": "/Users/hazemalsaied/Parseme/MWEIdSys/Results/",
+    "testCorpusPath": "/Users/hazemalsaied/Parseme/MWEIdSys/Corpora/testing/",
+    "dumpingPath": "/Users/hazemalsaied/Parseme/MWEIdSys/Serialization/"
+  },
+  "serialize": true,
+  "useFirstBufferElement": true,
+  "useSecondBufferElement": true,
+  "UseLinguistInfo": {
+    "useSytax": true,
+    "binaryMerge": true,
+    "usePOS": true,
+    "useLemma": true,
+    "useBiGram": true,
+    "useTriGram": true,
+    "useDistance": true
+  },
+  "useTransitionHistory": {
+    "usePreviousTransition": true,
+    "useAntepenultimateTransition": true,
+    "useTransitionHistory": true
+  },
+  "printReport": true,
+  "CrossValidationEvaluation": false
+}
