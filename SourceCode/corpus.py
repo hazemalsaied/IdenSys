@@ -62,6 +62,8 @@ class Corpus:
                     line = line[:-1]
                 if line.startswith('# sentid:'):
                     sentId = line.split('# sentid:')[1].strip()
+
+
                 elif line.startswith('# sentence-text:'):
                     # sentText = ''
                     # if len(line.split(':')) > 1:
@@ -109,43 +111,42 @@ class Corpus:
             sentIdx = 0
             for line in lines:
                 if line == '\n' or line.startswith('# sentence-text:') or (
-                            not line.startswith('# sentid:') and noSentToAssign):
+                             line.startswith('# sentid:') and noSentToAssign):
                     continue
                 if len(line) > 0 and line.endswith('\n'):
                     line = line[:-1]
                 if line.startswith('1\t'):
                     sent = sentences[sentIdx]
                     sentIdx += 1
+                lineParts = line.split('\t')
 
-                else:
-                    lineParts = line.split('\t')
+                if lineParts is not None and len(lineParts) == 4 and lineParts[3] != '_':
 
-                    if lineParts is not None and len(lineParts) == 4 and lineParts[3] != '_':
-                        tokens = [t for t in sent.tokens if t.position == int(lineParts[0])]
-                        if tokens is not None and len(tokens) > 0:
-                            token = tokens[0]
-                        if token == None:
-                            print 'Error: '
-                            print sent.text
-                        vMWEids = lineParts[3].split(';')
-                        for vMWEid in vMWEids:
-                            id = int(vMWEid.split(':')[0])
-                            # New MWE captured
-                            if id not in sent.getWMWEIds():
-                                if len(vMWEid.split(':')) > 1:
-                                    type = str(vMWEid.split(':')[1])
-                                    vMWE = VMWE(id, token, type)
-                                else:
-                                    vMWE = VMWE(id, token)
-                                mweNum += 1
-                                sent.vMWEs.append(vMWE)
-                            # Another token of an under-processing MWE
+                    token = sent.tokens[int(lineParts[0]) - 1] #[t for t in sent.tokens if t.position == int(lineParts[0])]
+                    #if tokens is not None and len(tokens) > 0:
+                    #    token = tokens[0]
+                    if token == None:
+                        print 'Error: '
+                        print sent.text
+                    vMWEids = lineParts[3].split(';')
+                    for vMWEid in vMWEids:
+                        id = int(vMWEid.split(':')[0])
+                        # New MWE captured
+                        if id not in sent.getWMWEIds():
+                            if len(vMWEid.split(':')) > 1:
+                                type = str(vMWEid.split(':')[1])
+                                vMWE = VMWE(id, token, type)
                             else:
-                                vMWE = sent.getVMWE(id)
-                                if vMWE is not None:
-                                    vMWE.addToken(token)
-                            # associate the token with the MWE
-                            token.setParent(vMWE)
+                                vMWE = VMWE(id, token)
+                            mweNum += 1
+                            sent.vMWEs.append(vMWE)
+                        # Another token of an under-processing MWE
+                        else:
+                            vMWE = sent.getVMWE(id)
+                            if vMWE is not None:
+                                vMWE.addToken(token)
+                        # associate the token with the MWE
+                        token.setParent(vMWE)
         return mweNum
 
     @staticmethod

@@ -30,3 +30,16 @@ F-score: 0.664 ,Recall: 0.592 ,Precision: 0.755
 
 # The experiementations on CS
 # The experiementations on CS
+### The Score of the experiementation Tuned is
+F-score: 0.581 ,Recall: 0.546 ,Precision: 0.620
+
+
+# The experiementations on FR 
+### The Score of the experiementation Tuned-without Syntax is
+F-score: 0.600 ,Recall: 0.541 ,Precision: 0.675
+
+# The experiementations on FR
+# The experiementations on FR
+### The Score of the experiementation Tuned is
+F-score: 0.677 ,Recall: 0.612 ,Precision: 0.758
+

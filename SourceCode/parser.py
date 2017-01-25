@@ -429,7 +429,7 @@ class Parser:
                                 parents.remove(parent)
                     if len(parents) > 1:
                         for parent in parents:
-                            if parent.isInterleavings or parent.isEmbeded:
+                            if parent.isInterleaving or parent.isEmbeded:
                                 parents.remove(parent)
                         # print sent
                         #print config

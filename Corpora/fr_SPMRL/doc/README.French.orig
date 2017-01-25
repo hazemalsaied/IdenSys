@@ -1,0 +1,366 @@
+=======================================
+French Treebank, SPMRL 2013 Shared Task
+=======================================
+Contact: marie.candito@gmail.com, djame.seddah@paris-sorbonne.fr
+
+(updated on June 18, 2013)
+
+1. Description of the data
+2. Formats
+3. Naming convention of the files
+4. Licence
+5. Version history
+6. References
+7. Appendix: tag set and morphological features
+
+=======================================
+1. Description of the data
+=======================================
+
+The French Treebank (Abeillé et al., 2003) is a treebank of sentences from 
+the newspaper Le Monde, manually annotated with morphological information and 
+phrase-structure.
+
+The phrase-structure trees contain compound words, for which a part-of-speech node
+dominates a sequence of part-of-speech nodes for the components of the compound word.
+
+Some of the sentences are further annotated with functional tags (grammatical functions 
+annotated on syntagmatic nodes) (Abeillé and Barrier, 2004).
+
+For the SPMRL Shared Task, the data corresponds to the part of the French Treebank 
+that contains functional annotations.
+
+We provide 6 versions of the treebank, each of them split into train and dev sets,
+leading to a total of 16 files.
+
+The 6 versions vary along three dimensions :
+
+  - syntactic representation type : constituency versus dependency
+
+  - representation of compound words : expanded  
+
+  - origin of POS and morphological features : gold versus predicted
+
+We describe below these three distinctions in more detail :
+
+** Syntactic representation type  
+   =============================
+   We provide the treebank both in constituency format and in dependency format, resulting from automatic
+   conversion to dependencies (Candito et al., 2010).
+
+   The tag set used for constituency trees is the one defined by (Crabbé and Candito, 2008),
+   and contains POS that combine the coarse tag of the original treebank and some morphological information
+   such as verbal mood, proper/common noun distinction etc...
+
+   The constituency trees were automatically slightly modified to normalize the syntagmatic projection
+   of prepositions and complementizers, in order to have prepositions and complementizers as heads in the
+   dependency trees, as described in (Candito et al. 2010).
+
+ 
+** Representation of compound words (or "multi word expressions")
+   ==============================================================
+   We provide the treebank both with "expanded" compound words 
+   (as encoded in the original treebank)
+   and with each multi word expression merged as one token
+   (entailing a bijection between tokens and words)
+
+   In the expanded versions, we concatenated a "+" to the part-of-speech tag dominating a compound word
+   in order to easily spot them. This can be also easily suppressed.
+
+   Example : for the sentence 
+             "La caisse d'épargne avait fermé la veille." 
+	     (The savings bank had closed the day before.)
+
+   The provided constituency tree with expanded compound words is :
+   (without the morphological features)
+
+   ( (SENT (NP-SUJ (DET La) (NC+ (NC caisse) (P d') (NC épargne))) (VN (V avait) (VPP fermé)) (ADV+ (DET la) (NC veille)) (PONCT .)) )
+
+   The compound word "caisse d'épargne" (savings bank) corresponds to the three tokens 
+   (NC caisse) (P d') (NC épargne)
+   which are dominated by the special POS tag NC+, for "a common noun which is a compound word"
+
+   Note that a version of the data set with merged compound (ie (ADV la_veille) instead of (ADV+ (DET la) (NC veille)) )
+   can be made available to the participants. We decided to finally not include that version in order to reduce the risk
+   of confusion. 
+  
+
+** Origin of POS and morphological features
+   ========================================
+   We provide the treebank both with gold morphological features and parts-of-speech
+   and with predicted morphological features and parts-of-speech, 
+   using the Morfette tool (Chrupala, 2008) adapted to French (Seddah et al., 2010)
+
+   Note though that in the original treebank,
+   the gold morphological features are available for words only,
+   and not for tokens that are components of words.
+   So for the compound (NC+ (NC caisse) (P d') (NC épargne)),
+   only the NC+ node has gold lemma and morpho features.
+   The (NC caisse) node for instance, only has gold part-of-speech.
+
+   Hence in the versions with "expanded" compound words,
+   even for the files with "gold" morphology,
+   the lemma and features for the components of compounds
+   were predicted with morfette.
+
+=======================================
+2. Formats
+=======================================
+
+   The constituency trees are provided in bracketed format, with one sentence per line.
+
+   The syntagmatic symbols are of the form SYMBOL or SYMBOL-FUNCTIONTAG (e.g. "NP" or "NP-SUJ")
+
+   The part-of-speech symbols are of the form POS-FCT##FEAT1=VAL1,FEAT2=VAL2,...##
+   - The part -FCT for the functional tag is optional.
+   - The features contain at least the lemma.
+     ( e.g. "NC" or "CLS-SUJ" or "NC##lemma=enfance,g=f,n=s##" or "CLS-SUJ##lemma=il,g=f,n=p##" )
+
+The dependency trees are provided in conll format (CoNLL 2006 Shared task)
+( see http://ilk.uvt.nl/conll/#dataformat ).
+
+For the expanded compound mode, the head of the token is systematically the first token of the compound,
+and it bears a feature (mwehead)  the POS tag of the compound.
+
+For instance, for the compound (ADV+ (DET la) (NC veille))   "the day before"
+the first token "la" has its feature mwehead set  to the ADV+ part-of-speech,
+and the second token "veille" keeps its NC tag, and depends on "la", with the special label "dep_cpd"
+
+1	La	le	D	DET	sentid=flmf7ab2ep-764|g=f|n=s|s=def	2	det	2	det
+2	caisse	caisse	N	NC	mwehead=NC+|g=f|n=s|s=c|pred=y	6	suj	6	suj
+3	d'	de	P	P	pred=y		2	dep_cpd	2	dep_cpd
+4	épargne	épargne	N	NC	g=f|n=s|s=c	2|pred=y	dep_cpd	2	dep_cpd
+5	avait	avoir	V	V	m=ind|n=s|p=3|t=impft	6	aux_tps	6	aux_tps
+6	fermée	fermer	V	VPP	g=f|m=part|n=s|t=past	0	root	0	root
+7	la	le	ADV	ADV+	_			6	mod	6	mod
+8	veille	veille	N	NC	g=f|n=s			7	dep_cpd	7	dep_cpd
+
+
+
+=======================================
+3. Naming convention of the files
+=======================================
+
+- training files           : train.*
+- developement files       : dev.*
+
+- expanded compound words  : *.expandedcpd.*
+- merged compound words    : *.mergedcpd.*
+
+- gold POS                 : *.gold.*
+- predicted                : *.automorph.*
+
+- constituency trees files : *.mrg
+- dependency trees files   : *.conll
+
+
+=======================================
+4. Licence
+=======================================
+
+The French treebank is distributed freely for research purposes, provided you fill and return the licence
+that can be found here : http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.php
+
+The organizers of SPMRL 2013 shared task will provide the participants the licence to fill
+and will transmit the filled licences to Anne Abeillé.
+
+
+=======================================
+5. Version history
+=======================================
+
+The whole French Treebank contains sentences with associated phrase-structure trees.
+Since the first release in 2004, only part of these sentences also contained functional annotations.
+
+The number of sentences with functionally annotated sentences is growing,
+as new syntagmatic trees are augmented with functional tags.
+The total number of fully annotated sentences was:
+- 12351 in 2007
+- 15953 in 2010
+- 18535 in 2013
+
+For the SPMRL Shared Task, we use the 2013 data, with the following split:
+- 14759 sentences for training   (the first 9981 sentences correspond to the canonical 2007 training set)
+-  1235 sentences for development
+-  2541 sentences for final test (not provided yet)
+
+=======================================
+6. References
+=======================================
+
+Abeillé, A., L. Clément, and F. Toussenel. 2003. Building a treebank for French, in A. Abeillé (ed) Treebanks , Kluwer, Dordrecht.
+
+Abeillé A. and Barrier N., 2004. Enriching a French Treebank. Proc. of LREC 2004, Lisbon, Portugal.
+
+Candito M., Crabbé B. and Denis P., 2010, Statistical French dependency parsing: treebank conversion and first results, Proc. of LREC'2010, La Valletta, Malta 
+
+Crabbé B. and Candito M., 2008, Expériences d'analyses syntaxique statistique du français. Proc. of TALN 2008, Avignon, France 
+
+Chrupała G., Dinu G. and van Genabith J., 2008. Learning morphology with morfette. In Proc. of LREC 2008, Marrakech, Morocco. ELDA/ELRA.
+
+Seddah D. and Chrupała G. and Cetinoglu O. and van Genabith J. and Candito M.-H., 2010, Lemmatization and Statistical Lexicalized Parsing of Morphologically-Rich Languages. Proc.of the NAACL/HLT Workshop SPMRL 2010, Los Angeles, USA 
+
+
+=======================================
+7. Appendix: tag set and morphological features
+=======================================
+
+7.1  Divergences with the the Candito et al's (2010) FTBDep version:
+
+- debug of the distinction between the catagories P and P+D :
+  now compound prepositions can bear the category P+D if they amalgamate the determiner
+  (e.g. "à cause du" (because of the) will have category P+D, like "du" (of the))
+
+- various debugs in constituency to dependency conversion including reducing the cases of missing heads 
+  and better prediction of labels absent from the constituency trees
+
+- specialization of the obj function into
+  obj (verbal objects), 
+  obj.p (objects of prepositions), 
+  obj.cpl (objects of complementizers)
+
+- renaming of "mod_rel", "aux_*", "dep_coord" labels to "mod.rel", "aux.*" and "dep.coord" respectively
+
+- complement versus adjunct distinction for prepositional dependents of adjectives or adverbs :
+  (possible labels for prepositional dependents of adjectives and adverbs are :
+  "mod" for modifiers, and "a_obj", "de_obj" or "p_obj" for complements
+
+- handling of coordination of determiners as normal coordination (despite the absence of DP in the FTB)
+  and better handling of ranges of determiners :
+  "trois ou quatre personnes" (three or four people) => coordinating conjunction now depends on the first determiner
+  "trois à quatre personnes" (three to four people) => "à" (to) now regularly depends on the first determiner
+
+ 
+
+
+
+
+7.2 Tag set :
+===============================================
+POS		Coarse POS	Description
+===============================================
+V			V		indicative verb
+VS			V		subjonctive verb
+VINF		V		infinitival verb
+VPP			V		past participle
+VPR			V		present participle
+VIMP		V		imperative verb
+NC			N		common noun
+NPP			N		propoer noun
+CS			C		coordinating conjunction
+CC			C		subordinating conjunction (complementizer)
+CLS			CL		nominative clitic
+CLO			CL		accusative or dative clitic
+CLR			CL		reflexive clitic (whether its interpretation is truly reflexive or not)
+P			P		non amalgamated preposition
+P+D			P+D		prep+determiner amalgam
+P+PRO		P+PRO	prep+relative pronoun amalgam (auquel (to which))
+I			I		interjection
+PONCT		PONCT		punctuation
+ET			ET		foreign words, with a POS that is not guessable from context
+ADJ			A		non interrogative adjectives
+ADJWH		A		interrogative adjectives
+ADV			ADV		non interrogative adjectives
+ADVWH		ADV		interrogative adjectives
+PRO			PRO		neither relative nor interrogative pronouns
+PROREL		PRO		relative pronouns
+PROWH		PRO		interrogative pronouns
+DET			D		non interrogative nor relative determiners
+DETWH		D		interrogative or relative determiners
+
+
+Please note that the constituent treebank contains function labels at the level of POS for the clitics (CLS,CLO,CLR).
+Those POS function labels are not present in the predicted const. treebank POS  they can be retrieved via a specific feature (see below).
+
+
+
+7.3 Features :
+(Note: some of the features are redundant with information contained in the fine-grained POS)
+
+=========================================================================
+attribute	meaning			value		meaning
+=========================================================================
+g		gender			f		feminine
+g		gender			m		masculine
+n		number			s		singular
+n		number			p		plural
+m		mood			ind		indicative
+m		mood			subj		subjonctive
+m		mood			inf		infinitival
+m		mood			part		participle
+t		tense			cond		conditional
+t		tense			fut		future
+t		tense			impft		imparfait
+t		tense			past		past
+t		tense			pst		present
+p		person			1		1st person
+p		person			2		2nd person
+p		person			3		3rd person
+s		subcat			card		cardinal adjective
+s		subcat			ord		ordinal adjective
+s		subcat			def		definite (determiners or P+D)
+s		subcat			ind		indefinite (determiners, adjectives or pronouns)
+s		subcat			dem		demonstrative determiners or pronouns
+s		subcat			poss		possessive determiners or pronouns
+s		subcat			excl		exclamative determiners, adjectives or adverbs
+s		subcat			int		interrogative pronouns, adjectives, determiners, adverbs, P+PRO
+s		subcat			neg		negative adverbs, determiners, pronouns
+s		subcat			part		partitive determiners
+s		subcat			rel		relative pronouns (PROREL or P+PRO)
+s		subcat			w		sentence internal punctuation
+s		subcat			s		for PONCT : sentence final punctuation
+
+Redundant with POS:
+s		subcat			p		proper noun (any NC)
+s		subcat			c		common noun (any NPP)
+s		subcat			suj		subject clitic (any CLS)
+s		subcat			obj		object clitic (any CLO)
+s		subcat			refl		reflexive (any CLR)
+
+
+
+7.4 Features present in the gold treebank but not in the predicted morph version:
+
+** mwehead:	POS tag of a compound MWE, suffixed with a plus sign (+) (as in the const treebank)
+
+
+================================================
+attribute		meaning					value
+================================================
+mwehead 	POS tag  of the compound	NC+
+mwehead 	""							ADV+
+mwehead 	""							P+
+mwehead 	""							NPP+
+mwehead	 	""							DET+
+mwehead 	""							CS+
+mwehead 	""							PRO+
+mwehead 	""							ADJ+
+mwehead 	""							V+
+mwehead 	""							VINF+
+mwehead 	""							VPP+
+mwehead 	""							CC+
+mwehead 	""							ET+
+mwehead 	""							VPR+
+mwehead 	""							ADVWH+
+mwehead 	""							I+
+mwehead 	""							VS+
+mwehead 	""							PROREL+
+
+** pred:   Feature that indicates that the morphology for a given token has been generated and not manually validated
+(this includes the lemma, the feature field  and the FPOS tag, the CPOS is gold.)
+
+**g (gender): for certain determiners and pronouns which are part of a compound (pred=y), the gender attribute is not predicted (not present in the gold data either) and as in French this attribute depends of the head word, we decided to not include it.
+
+===================================================
+attribute		meaning						value
+===================================================
+pred			automatically predicted 	yes
+
+
+
+======================================
+8. Contact
+======================================
+
+marie.candito@gmail.com
+djame.seddah@paris-sorbonne.fr

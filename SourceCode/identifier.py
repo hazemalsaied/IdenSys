@@ -20,7 +20,9 @@ class Identifier:
         time = datetime.datetime.now()
         corpus, languageName = Identifier.readCorpus()
         print 'Reading Corpus duration: ' + str(datetime.datetime.now() - time)
-
+        for sent in corpus.sentences:
+            if sent.sentid == 'Europar.550_00276':
+                print 'e'
         Report.createResultFolder(corpus)
 
         if not realExper and Parameters.useCrossValidation:
@@ -62,8 +64,42 @@ class Identifier:
                         trainingSents.append(sent)
                     idx += 1
 
+            for subdir, dirs, files in os.walk('Config'):
+                for dir in dirs:
+                    for subdir1, dirs1, files1 in os.walk(os.path.join('Config', dir)):
+                        report = '# The experiementations on ' + dir + '\n'
+                        with open(readMe, "a") as staticParsingFile:
+                            staticParsingFile.write(report)
+                        for file in files1:
+                            path = os.path.join(os.path.join('Config', dir), file)
+                            print path
+                            config = Parameters(path)
+
+                            for sent in trainingSents:
+                                sent.initialTransition = None
+                                sent.identifiedVMWEs = []
+                                sent.featuresInfo = []
+
+                            for sent in testingSents:
+                                sent.initialTransition = None
+                                sent.identifiedVMWEs = []
+                                sent.featuresInfo = []
+
+                            mweDictionary = {}
+                            clf = Identifier.train(6, corpus, trainingSents, testingSents, languageName, mweDictionary)
+                            Report.createEmbeddingSentsReports(trainingSents)
+                            fScore, recall, precision = Identifier.parse(testingSents, clf, mweDictionary, languageName, 6)
+
+                            report = '### The Score of the experiementation ' + str(
+                                Parameters.xpName) + ' is' + '\n' + 'F-score: ' + str(
+                                "%.3f" % fScore) + ' ,Recall: ' + str("%.3f" % recall) + ' ,Precision: ' + str(
+                                "%.3f" % precision) + '\n\n'
+                            with open(readMe, "a") as staticParsingFile:
+                                staticParsingFile.write(report)
+
             mweDictionary = {}
             clf = Identifier.train(6, corpus, trainingSents, testingSents, languageName, mweDictionary)
+            Report.createEmbeddingSentsReports(trainingSents)
             return Identifier.parse(testingSents, clf, mweDictionary, languageName, 6)
 
     @staticmethod

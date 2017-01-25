@@ -15,3 +15,7 @@ Score: 1.0, Number of merge operation: 2485
 ### 4- Perceptron : 
 Score: 1.0, Number of merge operation: 2507
 ### The Selected Classifier is: 4
+## Exact Identification Evaluation: 
+#### Recall: 0.546
+#### Precision: 0.620
+#### F-Score: 0.581

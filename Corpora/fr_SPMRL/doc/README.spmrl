@@ -1,0 +1,14 @@
+Addendum  to README.French.orig
+(updated July 4, 2013)
+
+A) feature cpos=XX was automatically added to the constituant morphological features.
+For a given token, it includes the content of the CONLL's CPOS field.
+If one wants to train a tagger or a morphological analyser from the const treebank data set, this feature should probably be removed ( with something like  perl -i.orig -pe 's/cpos=[^\|]+\|//g' FILE ).
+
+B) a bug was corrected in the Const treebank where some prepositionnal compounds were incorrectly projecting P+ instead of P+D+ (ie
+(P+D+ (P en) (NC faveur) (P+D des)) `in favor of_the .. 
+
+
+
+Djamé Seddah and Marie Candito
+

@@ -61,6 +61,25 @@ class Report:
         staticParsingFile.write(result)
 
     @staticmethod
+    def createEmbeddingSentsReports(sents, crossValidationIdx=6):
+        sentsForPrinting = [s for s in sents if Report.isEmbeddedSent(s)]
+
+        sentsForPrinting = sorted(sentsForPrinting, key=lambda Sentence: len(Sentence.vMWEs), reverse=True)
+        printingPath = os.path.join(Parameters.resultPath, 'EmbeddedSents' + str(crossValidationIdx) + '.md')
+        staticParsingFile = codecs.open(printingPath, 'w', "utf-8")
+        result = ''
+        for sent in sentsForPrinting:
+            result += str(sent)
+        staticParsingFile.write(result)
+
+    @staticmethod
+    def isEmbeddedSent(sent):
+        for mwe in sent.vMWEs:
+            if mwe.isEmbeded or mwe.isInterleaving:
+                return True
+        return False
+
+    @staticmethod
     def createParsingReport(testingSents, crossValidationIdx):
         sentsForPrinting = [s for s in testingSents if len(s.vMWEs) >= 1]
         sentsForPrinting = sorted(sentsForPrinting, key=lambda Sentence: len(Sentence.vMWEs), reverse=True)

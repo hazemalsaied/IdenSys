@@ -12,9 +12,9 @@ Nous voulons protéger notre droit à avoir des idées , des sentiments , des é
 ## Sentence No. 390 - Europar.550_00516
 Parce que ce rapport indique à plusieurs reprises qu' il faut contrôler , qu' il faut réagir à le vieillissement de la population - le nombre de personnes âgées ne cesse d' augmenter et cette situation rend difficile le soutien de les systèmes de pension - , qu' il faut se montrer vigilants et inviter les États membres à dépenser toujours moins d' argent pour le paiement de les pensions de les personnes âgées . 
 ### Existing MWEs: 
-1- **il faut** (ID, 61)
-2- **il faut** (ID, 61)
-3- **il faut** (ID, 61)
+1- **il faut** (ID, 91)
+2- **il faut** (ID, 91)
+3- **il faut** (ID, 91)
 4- **se montrer** (IReflV)
 ### Identified MWEs: 
 1- **il faut** 
@@ -23,17 +23,20 @@ Parce que ce rapport indique à plusieurs reprises qu' il faut contrôler , qu' 
 ## Sentence No. 20 - Europar.550_00146
 Il faut donc prendre des mesures dans le cadre de la politique commune de pêche et affecter les ressources financières adéquates afin d' assurer le rendement qui s' appuie exclusivement sur l' activité de pêche , plus précisément à des périodes de paralysie ou de réduction de l' activité de pêche . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
 2- **prendre mesures** (LVC, 6)
 3- **s' appuie** (IReflV)
 ### Identified MWEs: 
-1- **prendre mesures** 
+1- **Il faut** 
 ## Sentence No. 150 - Europar.550_00276
 Il y a un problème général de sécurité , dont je sais que le Haut Représentant s' occupe comme il le faut . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 3- **s' occupe** (IReflV, 1)
-2- **il faut** (ID, 61)
+2- **il faut** (ID, 91)
+### Identified MWEs: 
+1- **Il y a** 
+2- **il le faut** 
 ## Sentence No. 370 - Europar.550_00496
 à le cours de cette visite , j' ai été très honorée que vous m' ayez donné l' occasion de m' exprimer dans l' hémicycle de le Parlement slovène et je dois dire que , avec M. Podestá , vice-président chargé de l' élargissement , avec M. Brok , président de la commission de les affaires étrangères et M. Ebner , président de la délégation , nous avons été très impressionnés par les progrès considérables que votre pays avait accomplis dans la voie de l' appartenance à l' Europe . 
 ### Existing MWEs: 
@@ -45,11 +48,11 @@ Il y a un problème général de sécurité , dont je sais que le Haut Représen
 ## Sentence No. 1505 - fr-ud-train_00074
 Il en fut comme de tout ce qu' il avait fait jusqu' alors : les uns s' en édifièrent , les autres s' en scandalisèrent . 
 ### Existing MWEs: 
-2- **en fut** 
+2- **Il en fut** (ID, 4)
 3- **s' édifièrent** (IReflV)
 1- **s' scandalisèrent** (IReflV)
 ### Identified MWEs: 
-1- **en comme** 
+1- **Il en comme** 
 2- **s' en édifièrent** 
 3- **s' en scandalisèrent** 
 ## Sentence No. 4090 - fr-ud-train_02659
@@ -66,7 +69,7 @@ J' ai du mal à y croire ... J' ai plutôt tendance à penser qu' il s' agit d' 
 ### Existing MWEs: 
 1- **ai mal** (ID, 8)
 3- **ai tendance** (LVC, 9)
-2- **il s' agit** (ID, 45)
+2- **il s' agit** (ID, 91)
 ### Identified MWEs: 
 1- **il s' agit** 
 ## Sentence No. 10500 - fr-ud-train_09069
@@ -88,11 +91,11 @@ Le CEO fait de la recherche et mène des campagnes sur les menaces que fait pese
 ## Sentence No. 14800 - fr-ud-train_13369
 Il faudra se demander si la continence parfaite de les clercs n' est pas elle aussi une tradition orale ayant force d' obligation et reposant même sur l' autorité de les Apôtres . 
 ### Existing MWEs: 
-2- **faudra** 
+2- **Il faudra** (ID, 91)
 3- **se demander** (IReflV, 4)
 1- **ayant force** (ID)
 ### Identified MWEs: 
-1- **se demander** 
+1- **Il faudra** 
 ## Sentence No. 17425 - fr-ud-dev_01440
 ( ... ) Les universités , qui réclament à juste titre des ressources additionnelles pour s' acquitter correctement de leur mission , doivent faire un exercice d' autocritique et rendre compte de leur gestion . 
 ### Existing MWEs: 
@@ -106,15 +109,18 @@ Il faudra se demander si la continence parfaite de les clercs n' est pas elle au
 ## Sentence No. 35 - Europar.550_00161
 Monsieur le Président , comme en d' autres occasions , comme par le passé , à l' occasion de la conférence intergouvernementale de 1996 , il faut offrir à la Commission le soutien de ce Parlement pour assurer le suivi de ces actions d' information . 
 ### Existing MWEs: 
-1- **il faut** (ID, 61)
+1- **il faut** (ID, 91)
 2- **assurer suivi** (LVC, 1)
 ### Identified MWEs: 
 1- **il faut** 
 ## Sentence No. 140 - Europar.550_00266
 Il me semble que le gouvernement iranien n' a pas encore donné de réponse , ni dans un sens ni dans l' autre . 
 ### Existing MWEs: 
-2- **semble** 
+2- **Il semble** (ID, 9)
 1- **donné réponse** (LVC)
+### Identified MWEs: 
+1- **Il semble** 
+2- **donné réponse** 
 ## Sentence No. 165 - Europar.550_00291
 Et comme vous savez , Madame la Présidente , chers collègues , l' Union européenne en est arrivée là où elle est aujourd' hui , avec ses réussites , précisément parce qu' elle a fonctionné et continue à fonctionner sur la base d' un équilibre de forces qui avait été convenu et faisait l' objet d' un consensus . 
 ### Existing MWEs: 
@@ -170,7 +176,7 @@ Toutefois , je me vois dans l' impossibilité de porter un jugement sur le style
 ## Sentence No. 295 - Europar.550_00421
 Pour garantir une concurrence loyale , il convient que ces mesures soient prises à le niveau international . 
 ### Existing MWEs: 
-1- **il convient** (ID, 5)
+1- **il convient** (ID, 8)
 2- **mesures prises** (LVC, 3)
 ### Identified MWEs: 
 1- **il convient** 
@@ -206,7 +212,7 @@ Le juge , souhaitant en avoir le coeur net , prend une série d' initiatives .
 2- **se rend** (IReflV, 2)
 ### Identified MWEs: 
 1- **mis en cause** 
-2- **se rend** 
+2- **se rend juge** 
 ## Sentence No. 1340 - frwiki_50.1000_00905
 Plusieurs clichés de ce photographe sont particulièrement dénoncées à le début de le mois d' août 2006 , comme ayant subi d' importantes retouches ou des mises en scène [ 2 ] . 
 ### Existing MWEs: 
@@ -218,7 +224,7 @@ Plusieurs clichés de ce photographe sont particulièrement dénoncées à le d�
 Le bras armé est gardé près de le corps ( pas plus loin qu' une main ) , cependant lors de match à l' arme électrique le tireur doit prendre garde à ne pas toucher la veste puisque si l' adversaire touche sa lame il y aura une touche . 
 ### Existing MWEs: 
 1- **prendre garde** (ID)
-2- **il y aura** (ID, 95)
+2- **il y aura** (ID, 140)
 ### Identified MWEs: 
 1- **prendre garde** 
 2- **il y aura** 
@@ -233,7 +239,7 @@ Pourtant la grande affection qui lie les membres de la famille leur permet de fa
 Pour se rendre à le temple il faut environ 30 minutes en bus depuis Tanabé . 
 ### Existing MWEs: 
 1- **se rendre** (IReflV, 34)
-2- **il faut** (ID, 61)
+2- **il faut** (ID, 91)
 ### Identified MWEs: 
 1- **se rendre** 
 2- **il faut** 
@@ -277,14 +283,14 @@ Ils ont le pouvoir et le devoir de voter pour éliminer un de les leurs à chaqu
 Mais notre camarade Ayetullah Emin était un élève très réservé et timide , et le jour de l' assemblée générale s' approchait de plus en plus , donc il fallait a tout prix trouver une personne qui présente ce nouveau logo à la place d' Ayetullah Emin . 
 ### Existing MWEs: 
 1- **s' approchait** (IReflV, 8)
-2- **il fallait** (ID, 61)
+2- **il fallait** (ID, 91)
 ### Identified MWEs: 
 1- **s' approchait** 
 2- **il fallait** 
 ## Sentence No. 3500 - fr-ud-train_02069
 S' il décide de désigner un expert-comptable lors de la première réunion de la procédure , la première consultation se trouve reportée de 20 à 22 jours , délai dévolu à l' expert pour mener ses investigations et établir son rapport . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 2- **mener investigations** (LVC)
 ### Identified MWEs: 
 1- **se trouve** 
@@ -299,7 +305,7 @@ Pour les parents , c' est l' occasion de faire le plein d' idées dans les domai
 ## Sentence No. 3575 - fr-ud-train_02144
 On sent qu' il faut faire de le chiffre et c' est là seule chose qui compte . 
 ### Existing MWEs: 
-2- **il faut** (ID, 61)
+2- **il faut** (ID, 91)
 1- **faire de le chiffre** (ID)
 ### Identified MWEs: 
 1- **il faut** 
@@ -314,10 +320,11 @@ L' héroïne , jeune fille naïve , tente de se suicider quand elle prend consci
 ## Sentence No. 3760 - fr-ud-train_02329
 Il semblerait que son coût de production astronomique et les mauvaises audiences enregistrées ces derniers temps ont finalement eu raison de la série . 
 ### Existing MWEs: 
-2- **semblerait** 
+2- **Il semblerait** (ID, 9)
 1- **eu raison** (ID, 3)
 ### Identified MWEs: 
-1- **semblerait eu raison** 
+1- **Il semblerait** 
+2- **eu raison** 
 ## Sentence No. 4150 - fr-ud-train_02719
 La séparation de l' Eglise et de l' Etat ayant eu lieu en 1905 , aurait -elle eu une influence sur la suite de cette affaire ? 
 ### Existing MWEs: 
@@ -328,7 +335,7 @@ La séparation de l' Eglise et de l' Etat ayant eu lieu en 1905 , aurait -elle e
 ## Sentence No. 4215 - fr-ud-train_02784
 Les conservateurs , parfois royalistes mais surtout cléricaux , ne sont pas particulièrement anticoloniaux : la ligne de fracture se trouve en réalité parmi les républicains , en matière coloniale , entre une tendance radicale , celle de Ferry , requérant des solutions immédiates à les questions , et une tendance « opportuniste » ( Jean Ganiage ) , celle de Gambetta , qui estime que les expéditions coloniales doivent se lancer dès que l' opportunité s' en présente . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 2- **s' présente** (IReflV, 18)
 ### Identified MWEs: 
 1- **se trouve** 
@@ -336,15 +343,18 @@ Les conservateurs , parfois royalistes mais surtout cléricaux , ne sont pas par
 ## Sentence No. 4685 - fr-ud-train_03254
 Faut -il convoquer de nouveaux États généraux , représentant les provinces , ou faut -il convoquer une Assemblée nationale , représentant l' ensemble de les citoyens bataves ? 
 ### Existing MWEs: 
-1- **-il** 
-2- **faut -il** (ID, 10)
+1- **Faut -il** (ID, 14)
+2- **faut -il** (ID, 14)
+### Identified MWEs: 
+1- **Faut -il** 
+2- **faut -il** 
 ## Sentence No. 5330 - fr-ud-train_03899
 Il faut s' attendre néanmoins à des retrouvailles difficiles entre le Front Polisario et le Maroc . 
 ### Existing MWEs: 
-2- **faut** 
+2- **Il faut** (ID, 91)
 1- **s' attendre** (IReflV, 6)
 ### Identified MWEs: 
-1- **faut s' attendre** 
+1- **Il faut** 
 ## Sentence No. 5340 - fr-ud-train_03909
 Pour Vittel , cela veut dire une eau de source naturelle à les propriétés médicales reconnues et qui ne subit aucun traitement chimique . 
 ### Existing MWEs: 
@@ -374,7 +384,7 @@ Mais nous nous engageons à maintenir les liens entre le Nord et le Sud , et nou
 ## Sentence No. 6215 - fr-ud-train_04784
 Pour trouver des demoiselles dans un manga d' Hiroshi Takahashi , il faut se reporter à Hey Riki ! 
 ### Existing MWEs: 
-2- **il faut** (ID, 61)
+2- **il faut** (ID, 91)
 1- **se reporter** (IReflV, 1)
 ### Identified MWEs: 
 1- **il faut** 
@@ -409,7 +419,7 @@ Et pourtant , à y regarder de plus près , on se rend compte que le monde , don
 ## Sentence No. 7575 - fr-ud-train_06144
 Et pour la réservation , il faut , en général , s' y prendre 2 semaines à l' avance . 
 ### Existing MWEs: 
-1- **il faut** (ID, 61)
+1- **il faut** (ID, 91)
 2- **s' y prendre** (ID, 2)
 ### Identified MWEs: 
 1- **il faut** 
@@ -426,9 +436,10 @@ Elle prend le temps pour tout expliquer et ainsi effectuer des soins 100 % sans 
 Certains se plaignent de la longueur de le service , il ne faut pas oublier qu' on est dans un restaurant Italien , pas dans un Mc Donald . 
 ### Existing MWEs: 
 1- **se plaignent** (IReflV, 4)
-2- **il faut** (ID, 61)
+2- **il faut** (ID, 91)
 ### Identified MWEs: 
 1- **se plaignent** 
+2- **faut oublier** 
 ## Sentence No. 7810 - fr-ud-train_06379
 Pour illustrer mon propos , je rappellerai que le Parlement européen dispose aujourd'hui , grâce à le Traité de Lisbonne , de compétences et de pouvoirs accrus . 
 ### Existing MWEs: 
@@ -445,7 +456,7 @@ Les danseurs effectuent parfois des mouvements latéraux , ou de haut en bas en 
 Si l' on en croit Gerry L' Étang , il est question de Nagoumila en Martinique , de Nagoumira en Guadeloupe et de Nagura à le Suriname et à le Guyana , toutes ces formes dérivant de l' appellation originelle . 
 ### Existing MWEs: 
 2- **en croit** (ID, 2)
-1- **il est question** (ID, 3)
+1- **il est question** (ID, 6)
 ### Identified MWEs: 
 1- **en croit** 
 2- **il est question** 
@@ -453,7 +464,7 @@ Si l' on en croit Gerry L' Étang , il est question de Nagoumila en Martinique ,
 Les Israélites de les environs de l' an 1000 av. J.-C. vivaient semble -t -il sur les hautes terres se trouvant à l' ouest de le Jourdain , et un peu au-delà , sur le territoire de l' actuelle Jordanie . 
 ### Existing MWEs: 
 1- **semble -il** (ID, 5)
-2- **se trouvant** (IReflV, 79)
+2- **se trouvant** (IReflV, 80)
 ### Identified MWEs: 
 1- **semble -il** 
 2- **se trouvant** 
@@ -499,10 +510,10 @@ Ils se focalisent alors sur le rock et l' ambient jusque 2000 ou ils décideront
 ## Sentence No. 9480 - fr-ud-train_08049
 Il s' agit d' une dame de 93 ans , qui lui faisait toute confiance puisque c' est elle qui l' avait recommandée à sa voisine . 
 ### Existing MWEs: 
-2- **s' agit** 
+2- **Il s' agit** (ID, 91)
 1- **faisait confiance** (LVC, 3)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 9485 - fr-ud-train_08054
 Si elle échoue , tout s' écroulera , puisque le but n' était pas d' attaquer le camp , mais de montrer son insécurité et ainsi donner le coup de grâce à la coopération internationale . 
 ### Existing MWEs: 
@@ -528,8 +539,11 @@ De nombreux endroits connaissaient déjà une très grande difficulté pour avoi
 ## Sentence No. 10130 - fr-ud-train_08699
 Il faut frapper là où cela lui fait mal en ôtant à cette Institution fondée sur la foi toute crédibilité . 
 ### Existing MWEs: 
-2- **faut** 
+2- **Il faut** (ID, 91)
 1- **fait mal** (ID)
+### Identified MWEs: 
+1- **Il faut** 
+2- **fait mal** 
 ## Sentence No. 10275 - fr-ud-train_08844
 Après avoir suivi une formation en danse classique , Dominique Boivin suit les cours de Carolyn Carlson puis accède à la formation d' Alwin Nikolais à le CNDC d' Angers . 
 ### Existing MWEs: 
@@ -565,7 +579,7 @@ La rivalité se prenait fin le 31 Juillet 1994 à WCW Main Event ou Steamboat fa
 ## Sentence No. 10665 - fr-ud-train_09234
 De temps en temps ils font des démos privées en magasin , il faut s' inscrire sur le site , je suis pas encore allée mais ça a l' air génial ! 
 ### Existing MWEs: 
-2- **il faut** (ID, 61)
+2- **il faut** (ID, 91)
 1- **a l' air** (ID, 4)
 ### Identified MWEs: 
 1- **font démos** 
@@ -606,8 +620,6 @@ Voyant en elle une « actrice naturelle » , Depardieu lui donne trois conseils 
 ### Existing MWEs: 
 1- **donne conseils** (LVC, 2)
 2- **prendre cours** (LVC, 1)
-### Identified MWEs: 
-1- **prendre cours** 
 ## Sentence No. 11770 - fr-ud-train_10339
 Elle y joue dans Numance , mis en scène par Jean-Louis Barrault et dans les Paravents de Jean Genet , mis en scène par Roger Blin . 
 ### Existing MWEs: 
@@ -620,14 +632,14 @@ Elle y joue dans Numance , mis en scène par Jean-Louis Barrault et dans les Par
 Téléphone de la génération SMS , il y a peu à redire sur cette fonction , mais des bugs mineur sont tout de même bien présent . 
 ### Existing MWEs: 
 1- **il y a à redire** (ID, 1)
-2- **il y a** (ID, 95), Embedded
+2- **il y a** (ID, 140), Embedded
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 12070 - fr-ud-train_10639
 Le nombre de matches et donc de clubs n' est pas fixe , ainsi en 2004-2005 il y a eu quatre matches alors qu' en 2005-2006 il n' y en aura qu' un seul . 
 ### Existing MWEs: 
-1- **il y eu** (ID, 95)
-2- **il y aura** (ID, 95)
+1- **il y eu** (ID, 140)
+2- **il y aura** (ID, 140)
 ### Identified MWEs: 
 1- **il y eu** 
 2- **il y en aura** 
@@ -664,7 +676,7 @@ Mais la mission s' avère plus délicate que prévu : Tazuna , par manque d' arg
 Quand on pose la question à le premier sens , il s' agit donc de comprendre comment chaque réalité peut satisfaire la condition ; 
 ### Existing MWEs: 
 1- **pose question** (LVC, 5)
-2- **il s' agit** (ID, 45)
+2- **il s' agit** (ID, 91)
 ### Identified MWEs: 
 1- **pose question** 
 2- **il s' agit** 
@@ -715,7 +727,7 @@ Par exemple , elle pourrait en venir à favoriser le langage populaire par rappo
 ## Sentence No. 14405 - fr-ud-train_12974
 À l' époque de la solidarité avec l' Afrique australe , les anciennes colonies portugaises , l' Afrique de le Sud , la Namibie etc , il y avait un autre rapport de forces à les Nations unies , et ce rapport de forces permettait notamment à le mouvement de les Non-Alignés de faire prévaloir une ligne politique qui allait franchement dans le sens de les intérêts de les peuples concernés . 
 ### Existing MWEs: 
-2- **il y avait** (ID, 95)
+2- **il y avait** (ID, 140)
 1- **allait dans sens** (ID, 4)
 ### Identified MWEs: 
 1- **il y avait** 
@@ -796,7 +808,9 @@ Pour la première fois depuis dix ans , une délégation américaine de conseill
 ## Sentence No. 130 - Europar.550_00256
 Il me semble qu' en vertu de la présente réglementation , le gouvernement central peut intégrer dans ses calculs la contribution de l' UE à le financement structurel pour déterminer les budgets de le gouvernement régional . 
 ### Existing MWEs: 
-1- **semble** 
+1- **Il semble** (ID, 9)
+### Identified MWEs: 
+1- **Il semble** 
 ## Sentence No. 175 - Europar.550_00301
 Nous avons accompli bien des pas en avant et nous avons en tout cas deux exemples de coopération renforcée : les accords de Schengen et l' union économique et monétaire proprement dite . 
 ### Existing MWEs: 
@@ -818,9 +832,9 @@ C' était également une réussite , et je ne le dis pas seulement pour complime
 ## Sentence No. 230 - Europar.550_00356
 Il y avait aussi l' exigence que les projets et la planification de cette conférence soient répartis sur toutes les tables de travail : démocratie , reconstruction et sécurité , sachant qu' un pont coûte plus cher qu' un centre de formation ou un programme de déminage . 
 ### Existing MWEs: 
-1- **y avait** 
+1- **Il y avait** (ID, 140)
 ### Identified MWEs: 
-1- **y avait** 
+1- **Il y avait** 
 ## Sentence No. 235 - Europar.550_00361
 Un programme de déminage fait partie de la sécurité , est très important et ne devrait pas être laissé de côté . 
 ### Existing MWEs: 
@@ -831,6 +845,8 @@ Un programme de déminage fait partie de la sécurité , est très important et 
 La semaine passée , il a été accusé d' avoir voulu couper l' herbe sous le pied à le Président de la Commission , M. Prodi . 
 ### Existing MWEs: 
 1- **couper l' herbe sous le pied** (ID, 1)
+### Identified MWEs: 
+1- **couper l' herbe sous le pied** 
 ## Sentence No. 265 - Europar.550_00391
 La Finlande et le Royaume-Uni en ont tiré des conséquences et ont instauré une autorité prudentielle unique pour tout le secteur . 
 ### Existing MWEs: 
@@ -844,7 +860,7 @@ Madame la Présidente , le président de groupe M. Barón Crespo s' est aussi ad
 ## Sentence No. 335 - Europar.550_00461
 Je pense qu' il s' agit d' amendements essentiels . 
 ### Existing MWEs: 
-1- **il s' agit** (ID, 6)
+1- **il s' agit** (ID, 10)
 ### Identified MWEs: 
 1- **il s' agit** 
 ## Sentence No. 340 - Europar.550_00466
@@ -868,9 +884,9 @@ Je puis donc m' adresser à tous mes collègues pour les encourager à voter pou
 ## Sentence No. 410 - Europar.550_00536
 Il n' y a plus de mots pour condamner non seulement les assassins mais également ceux qui les soutiennent politiquement . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 415 - Europar.550_00541
 Ces faits se sont répétés en d' autres occasions . 
 ### Existing MWEs: 
@@ -928,11 +944,11 @@ L' instruction a révélé l' existence d' une lettre datée de décembre 1993 e
 ## Sentence No. 690 - frwiki_50.1000_00255
 - 25 mai 2000 : Les nouveaux juges d' instruction Jean-Paul Valat et Philippe Coirre mettent en examen quinze ex- élus ou ex- fonctionnaires de le 3e arrondissement , soupçonnés d' avoir mobilisé des réseaux politiques , familiaux ou professionnels afin d' inscrire indûment sur les listes électorales des sympathisants politiques . 
 ### Existing MWEs: 
-1- **mettent en examen** (ID, 14)
+1- **mettent en examen** (ID, 15)
 ## Sentence No. 695 - frwiki_50.1000_00260
 - 18 mars 2002 : La fin de l' instruction est notifiée à les quinze personnes mises en examen . 
 ### Existing MWEs: 
-1- **mises en examen** (ID, 14)
+1- **mises en examen** (ID, 15)
 ### Identified MWEs: 
 1- **mises en examen** 
 ## Sentence No. 770 - frwiki_50.1000_00335
@@ -960,7 +976,7 @@ Depuis , treize responsables militaires et quinze marchands d' armes ont été i
 ## Sentence No. 925 - frwiki_50.1000_00490
 Il aurait expliqué à les enquêteurs qu' il s' agissait d' un prêt personnel affirmant même l' avoir remboursé . 
 ### Existing MWEs: 
-1- **il s' agissait** (ID, 6)
+1- **il s' agissait** (ID, 10)
 ### Identified MWEs: 
 1- **il s' agissait** 
 ## Sentence No. 935 - frwiki_50.1000_00500
@@ -976,13 +992,15 @@ De nombreux protagonistes ont trouvé la mort depuis la signature de le contrat 
 ## Sentence No. 1000 - frwiki_50.1000_00565
 - Eric Halphen soupçonne un système de commissions occultes à le sein de l' office HLM de les Hauts-de-Seine , présidé par Patrick Balkany et dirigé par Didier Schuller , qui seront tous deux mis en examen . 
 ### Existing MWEs: 
-1- **mis en examen** (ID, 14)
+1- **mis en examen** (ID, 15)
 ### Identified MWEs: 
 1- **mis en examen** 
 ## Sentence No. 1035 - frwiki_50.1000_00600
 Dans son ordonnance de renvoi pour le procès de 49 prévenus qui s' est ouvert en janvier 2006 , le juge d' instruction Armand Riberolles , successeur de le juge Éric Halphen , écrit que " l' instruction n' est pas parvenue à établir formellement l' implication personnelle de responsables à le sein de l' appareil politique de le RPR " , tout en relevant qu' " un grand nombre de témoignages , corroborés par divers éléments factuels , concourent à établir que Jean-Claude Méry avait reçu mission d' assurer le financement de les activités politiques de ce parti en collectant des fonds , notamment auprès de les entreprises fournisseurs de l' OPAC . " ( cité par Le Monde de le 25/01/06 ) . 
 ### Existing MWEs: 
 1- **reçu mission** (ID)
+### Identified MWEs: 
+1- **ordonnance mission** 
 ## Sentence No. 1040 - frwiki_50.1000_00605
 - 20 janvier 1994 : la Direction générale de les impôts ( DGI ) transmet à le parquet de Créteil une enquête sur une entreprise appartenant à Francis Poullain , soupçonné d' avoir réglé des fausses factures par l' intermédiaire de ses sociétés , lesquelles auraient bénéficié de marchés passés par l' OPAC ( Office public d' aménagement et de construction de la ville de Paris ) . 
 ### Existing MWEs: 
@@ -1000,7 +1018,7 @@ Eric Halphen reçoit une personne désireuse de garder l' anonymat .
 ## Sentence No. 1075 - frwiki_50.1000_00640
 - 14 novembre 1994 : Michel Roussin , ancien directeur de cabinet de Jacques Chirac , est mis en examen . 
 ### Existing MWEs: 
-1- **mis en examen** (ID, 14)
+1- **mis en examen** (ID, 15)
 ### Identified MWEs: 
 1- **mis en examen** 
 ## Sentence No. 1095 - frwiki_50.1000_00660
@@ -1036,7 +1054,7 @@ Selon le procureur Jean-Pierre Dintilhac , rien ne s' opposait à une audition d
 ## Sentence No. 1190 - frwiki_50.1000_00755
 Le 1er décembre 2000 , Michel Roussin , ancien ministre RPR et ancien directeur de le cabinet de Jacques Chirac à la Mairie de Paris , est incarcéré , tandis que Louise-Yvonne Casetta , ex- trésorière officieuse de le RPR , est mise en examen . 
 ### Existing MWEs: 
-1- **mise en examen** (ID, 14)
+1- **mise en examen** (ID, 15)
 ### Identified MWEs: 
 1- **mise en examen** 
 ## Sentence No. 1215 - frwiki_50.1000_00780
@@ -1077,7 +1095,7 @@ René Mayer , Président de le Conseil , y mit fin en 1953 en ramenant le taux d
 ## Sentence No. 1495 - fr-ud-train_00064
 Des innocents se trouvent impliqués dans des affaires comme celle-ci alors qu' ils sont en fait utilisés dans des stratagèmes politiques . " 
 ### Existing MWEs: 
-1- **se trouvent** (IReflV, 79)
+1- **se trouvent** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouvent** 
 ## Sentence No. 1510 - fr-ud-train_00079
@@ -1096,8 +1114,6 @@ Les deux barmans salariés , sans aucun sourire , passent leur temps à rincer l
 Traditionnellement , la faute délictuelle supposait , au-delà de la violation d' une norme , que le responsable ait eu conscience de la portée de ses actes . 
 ### Existing MWEs: 
 1- **eu conscience** (LVC, 1)
-### Identified MWEs: 
-1- **eu conscience** 
 ## Sentence No. 1545 - fr-ud-train_00114
 Tout en exprimant sa « profonde préoccupation face à la nette détérioration de la situation à le Sahara occidental » , le Parlement européen « condamne fermement , les violents incidents qui se sont produits dans le camp de Gdeim Izik lors de son démantèlement , ainsi que dans la ville d' El Ayoun » . 
 ### Existing MWEs: 
@@ -1210,8 +1226,7 @@ C' est la question que se pose souvent les expatriés français .
 ### Existing MWEs: 
 1- **question se pose** (LVC)
 ### Identified MWEs: 
-1- **est question** 
-2- **se pose** 
+1- **se pose** 
 ## Sentence No. 2225 - fr-ud-train_00794
 Selon certains , Nacht und Nebel fait référence à l' opéra de Wagner L' Or de le Rhin , dans lequel Alberich , roi de les Nibelungen , coiffé de le casque magique , se change en colonne de fumée et disparaît tandis qu' il chante . 
 ### Existing MWEs: 
@@ -1221,9 +1236,9 @@ Selon certains , Nacht und Nebel fait référence à l' opéra de Wagner L' Or d
 ## Sentence No. 2245 - fr-ud-train_00814
 Il s' agit d' un dérivé de « foire » ( diarrhée ) attesté en vieux français sous les formes « feire » et « foire » . 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 2260 - fr-ud-train_00829
 Il s' est principalement attaché à le théâtre instrumental en renouvelant le matériau sonore ( électroacoustique , sons divers ) . 
 ### Existing MWEs: 
@@ -1269,19 +1284,19 @@ Un autre juge en revanche que le " Nexus One " ne reflète pas le savoir-faire d
 ## Sentence No. 2470 - fr-ud-train_01039
 Dans tous les cas , le principal actionnaire , ou groupe d' actionnaires , entendait ainsi clairement rappeler que le pouvoir se trouve chez lui et que la compétence technique ne modifie pas la légitimité de le pouvoir , c'est-à-dire sa source actionnariale . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouve** 
 ## Sentence No. 2485 - fr-ud-train_01054
 Il y a fréquemment des précipitations de 200 à 300 mm en 24 h . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 2495 - fr-ud-train_01064
 « Mais il n' y a pas un travailleur syndiqué qui va parler contre son syndicat . 
 ### Existing MWEs: 
-1- **il y a** (ID, 95)
+1- **il y a** (ID, 140)
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 2510 - fr-ud-train_01079
@@ -1399,13 +1414,13 @@ Ce travail sera remanié six ans plus tard pour donner lieu à la publication de
 ## Sentence No. 3260 - fr-ud-train_01829
 Pour les promoteurs de cette idée , cela a été en partie un succès , il faut le reconnaître . 
 ### Existing MWEs: 
-1- **il faut** (ID, 61)
+1- **il faut** (ID, 91)
 ### Identified MWEs: 
 1- **il faut** 
 ## Sentence No. 3270 - fr-ud-train_01839
 Ca fait un moment que ce restau a changé , c' est maintenant un délicieux petit restau très calme avec une cuisine très agréable 
 ### Existing MWEs: 
-1- **fait** 
+1- **Ca fait** (ID, 1)
 ### Identified MWEs: 
 1- **fait moment** 
 ## Sentence No. 3295 - fr-ud-train_01864
@@ -1427,11 +1442,15 @@ Renouant avec la prospérité , elle est cependant pillée dans les années 1225
 ## Sentence No. 3345 - fr-ud-train_01914
 Il faut bien distinguer la pensée critique de la méthode hypercritique . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
+### Identified MWEs: 
+1- **Il faut** 
 ## Sentence No. 3350 - fr-ud-train_01919
 Il faut donc chercher des solutions alternatives ( bioplastiques ) . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
+### Identified MWEs: 
+1- **Il faut** 
 ## Sentence No. 3355 - fr-ud-train_01924
 La commune de Monchaux-sur-Écaillon se situe à 15 km à le sud-est de Valenciennes , à le bord de l' Écaillon . 
 ### Existing MWEs: 
@@ -1445,7 +1464,7 @@ Le ménage est fait tous les jours et les serviettes changées régulièrement U
 ## Sentence No. 3420 - fr-ud-train_01989
 Pour un menu à 39 € , il y a de quoi être déçu ! 
 ### Existing MWEs: 
-1- **il y a** (ID, 95)
+1- **il y a** (ID, 140)
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 3425 - fr-ud-train_01994
@@ -1480,6 +1499,8 @@ Les produits sont bien mis en valeur et facilement accessible .
 Il n' a pas d' influence sur les courants mais peut provoquer une importante montée de le niveau de la mer et occasionner de violentes tempêtes sur la côte . 
 ### Existing MWEs: 
 1- **a influence** (LVC, 1)
+### Identified MWEs: 
+1- **Il a** 
 ## Sentence No. 3685 - fr-ud-train_02254
 En outre , seulement 9 % de les entreprises interrogées font appel à le cryptage pour sécuriser les périphériques de stockage amovibles , comme les clés USB . 
 ### Existing MWEs: 
@@ -1524,7 +1545,7 @@ Son choix se porte d' ailleurs ironiquement sur une comédie où , loin de caric
 ## Sentence No. 3830 - fr-ud-train_02399
 Certains furent gravement blessés , d' autres fait prisonniers . 
 ### Existing MWEs: 
-1- **fait prisonniers** (ID, 4)
+1- **fait prisonniers** (ID, 5)
 ### Identified MWEs: 
 1- **fait prisonniers** 
 ## Sentence No. 3845 - fr-ud-train_02414
@@ -1568,7 +1589,7 @@ Ses disciples lui firent cette question : Rabbi , qui a péché , cet homme ou s
 ## Sentence No. 4110 - fr-ud-train_02679
 De plus , il fait -5 ° dehors et le chauffage ne marche ni dans la chambre ni dans la salle de bain . 
 ### Existing MWEs: 
-1- **il fait** (ID, 2)
+1- **il fait** (ID, 3)
 ## Sentence No. 4205 - fr-ud-train_02774
 Ariane les suit , persuadée que Bacchus est en fait l' objet de son amour non partagé , Thésée . 
 ### Existing MWEs: 
@@ -1622,8 +1643,6 @@ D' ailleurs , le propriétaire de les lieux aurait d' ores et déjà fait appel 
 Un algorithme dynamique vise à obtenir de meilleurs résultats en effectuant continuellement des mesures de le taux d' occupation de chaque processeur . 
 ### Existing MWEs: 
 1- **effectuant mesures** (LVC, 2)
-### Identified MWEs: 
-1- **effectuant mesures** 
 ## Sentence No. 4485 - fr-ud-train_03054
 Wetteren est desservie par des trains InterCity ( IC ) , InterRegion ( IR ) , Omnibus ( L ) et Heure de pointe ( P ) de la SNCB , qui effectuent des missions sur les lignes commerciales : 50 ( Bruxelles -- Gand ) et 53 ( Malines -- Gand ) ( voir brochure SNCB en lien externe ) . 
 ### Existing MWEs: 
@@ -1643,9 +1662,9 @@ Les musiciens affluent à Harlem et l' on voit se constituer de nombreuses forma
 ## Sentence No. 4540 - fr-ud-train_03109
 Il y a plus d' un demi-siècle , Nguyễn Quảng Tuân , né le 11 juin 1925 , encore élève à l' époque à le Lycée de le Protectorat ( connu sous le nom de Trường Bưởi ) , a eu ses poèmes publiés dans les journaux tels que Tia sáng ( Éclair ) et Thời sự Chủ nhật ( Actualités de le Dimanche ) . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 4565 - fr-ud-train_03134
 Quelle œuvre accomplis -tu ? 
 ### Existing MWEs: 
@@ -1653,9 +1672,9 @@ Quelle œuvre accomplis -tu ?
 ## Sentence No. 4580 - fr-ud-train_03149
 Il y a un magasin généraliste . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 4605 - fr-ud-train_03174
 À son réveil , Ben demande à Géd , avec qui il est ami depuis la guerre de Sécession , pourquoi c' est toujours lui que l' on canarde lorsqu' il a des ennuis . 
 ### Existing MWEs: 
@@ -1693,7 +1712,7 @@ La guerre qui oppose Henri IV et Charles-Emmanuel de Savoie prend fin à le trai
 ## Sentence No. 4720 - fr-ud-train_03289
 " Pour la première fois depuis des mois , les élus de le conseil municipal se sont exprimés sur la situation de l' industrie navale . 
 ### Existing MWEs: 
-1- **se exprimés** (IReflV, 4)
+1- **se exprimés** (IReflV, 5)
 ### Identified MWEs: 
 1- **se exprimés** 
 ## Sentence No. 4755 - fr-ud-train_03324
@@ -1716,8 +1735,6 @@ Trois de ses produits sont très remarqués sur le circuit jeunes chevaux , Ques
 Cela se concrétise dès 1792 puisque les saisies révolutionnaires de biens de le clergé notamment sont effectuées selon le décret de 1789 . 
 ### Existing MWEs: 
 1- **saisies effectuées** (LVC)
-### Identified MWEs: 
-1- **se concrétise** 
 ## Sentence No. 4850 - fr-ud-train_03419
 en 2030 , le déficit sera de 920 millions de mètres cubes " , s' inquiète Ai Ping . 
 ### Existing MWEs: 
@@ -1739,7 +1756,7 @@ Bardas Sklèros , qui s' est réfugié en territoire arabe , se fait de nouveau 
 ## Sentence No. 4980 - fr-ud-train_03549
 Le docteur Guillaume estime que Léopold Storme ne se trouvait pas , à le moment de les faits , dans un état de démence , un état grave de déséquilibre mental ou de débilité mentale . 
 ### Existing MWEs: 
-1- **se trouvait** (IReflV, 79)
+1- **se trouvait** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouvait** 
 ## Sentence No. 4985 - fr-ud-train_03554
@@ -1815,11 +1832,13 @@ L' Alsace-Lorraine tombe à les mains de les Prussiens .
 ## Sentence No. 5495 - fr-ud-train_04064
 Il fut en outre le héros de À l' heure zéro ( 1957 ) de Hall Bartlett , titre précurseur dont le scénario fut très fidèlement pastiché dans Y a -t -il un pilote dans l' avion ? 
 ### Existing MWEs: 
-1- **Y a -il** (ID, 4)
+1- **Y a -il** (ID, 6)
+### Identified MWEs: 
+1- **Y a -il** 
 ## Sentence No. 5505 - fr-ud-train_04074
 Mais s' il y a suffisamment de molécules aromatiques dans la partie maltènes , les asphaltènes peuvent alors être floculés . 
 ### Existing MWEs: 
-1- **il y a** (ID, 95)
+1- **il y a** (ID, 140)
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 5550 - fr-ud-train_04119
@@ -1852,6 +1871,8 @@ Les pilotes périphériques pour Windows 2000 , et Windows XP utilisent les pilo
 La cause de son acharnement contre Cagliostro ( arrêté ) et contre Calonne ( disgrâcié ) est surtout liée à la volonté de plaire à Versailles et de donner des gages à ses employeurs successifs , que ce soit Charles Gravier de Vergennes ou Montmorin . 
 ### Existing MWEs: 
 1- **donner des gages** (ID)
+### Identified MWEs: 
+1- **donner gages** 
 ## Sentence No. 5680 - fr-ud-train_04249
 La conclusion de l' étude montre que la récupération de l' aquifère se fait à long terme et qu' elle entraîne des impacts économiques importants . 
 ### Existing MWEs: 
@@ -1891,9 +1912,9 @@ Il a montré jusqu' à la prochaine dans la United States Wrestling Association 
 ## Sentence No. 5785 - fr-ud-train_04354
 Il n' y a plus d' animateur , ni de DJ . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 5790 - fr-ud-train_04359
 Ce soutien financier permit ainsi à la Nya Banken et à la Guaranty Trust Company d' avoir un certain poids dans la direction de la banque bolchevique créée en 1922 , la Ruskombank . 
 ### Existing MWEs: 
@@ -1923,14 +1944,14 @@ Mercredi 24 novembre à 18h a eu lieu l' inauguration de le Point Information Je
 ## Sentence No. 5880 - fr-ud-train_04449
 Il s' agit de la première apparition de le Benfica Lisbonne dans cette compétition tandis que le CA Peñarol en est à sa deuxième participation consécutive . 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
-2- **en est à sa deuxième** 
+1- **Il s' agit** 
+2- **en à participation** 
 ## Sentence No. 5940 - fr-ud-train_04509
 Celui-ci , qui n' a pas pris la parole à le cours de l' audience , a approuvé d' un geste de la tête . 
 ### Existing MWEs: 
-1- **pris la parole** (ID)
+1- **pris la parole** (ID, 1)
 ### Identified MWEs: 
 1- **pris la parole** 
 ## Sentence No. 5945 - fr-ud-train_04514
@@ -1976,7 +1997,7 @@ Le 9 avril 1978 , le dernier jour de la saison régulière , Thompson marqua 73 
 ## Sentence No. 6220 - fr-ud-train_04789
 Bien que certaines sources citent une race « Auvergnate » peuplant les monts d' Auvergne à le XVIe siècle , il semble qu' elle se soit formée à le XIXe siècle . 
 ### Existing MWEs: 
-1- **il semble** (ID, 5)
+1- **il semble** (ID, 9)
 ### Identified MWEs: 
 1- **il semble** 
 ## Sentence No. 6225 - fr-ud-train_04794
@@ -1988,7 +2009,7 @@ Il abandonne pour la troisième fois de la saison à le Brésil à la suite d' u
 ## Sentence No. 6250 - fr-ud-train_04819
 Il en est de même pour le master recherche . 
 ### Existing MWEs: 
-1- **en est** 
+1- **Il en est** (ID, 4)
 ## Sentence No. 6275 - fr-ud-train_04844
 Cerise sur le gâteau : le patron vous accueillera avec le sourire et se montrera très disponible pour toutes vos demandes . 
 ### Existing MWEs: 
@@ -2074,7 +2095,7 @@ Bien à le contraire , son déclenchement a pour origine , dans le cas général
 ### Existing MWEs: 
 1- **a origine** (LVC, 1)
 ### Identified MWEs: 
-1- **a défaillance** 
+1- **a le cas** 
 ## Sentence No. 6655 - fr-ud-train_05224
 Blas Pérez fait ses débuts en équipe nationale de le Panama le 21 février 2001 contre le Guatemala . 
 ### Existing MWEs: 
@@ -2142,7 +2163,7 @@ Il dispute son dernier test match le 4 mars 1978 contre l' équipe d' Angleterre
 ## Sentence No. 6895 - fr-ud-train_05464
 Parmi les pièces qui constituent la collection se trouvent du mobilier , des récipients de tout type ( céramiques , verreries ... ) , des miroirs , des instruments de musique , des masques de gigaku ( 伎楽 ) , des armes , des jeux , des objets d' écriture , des peintures et des calligraphies , des vêtements et tissus , des objets de culte bouddhique , des remèdes , des parfums ... 
 ### Existing MWEs: 
-1- **se trouvent** (IReflV, 79)
+1- **se trouvent** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouvent** 
 ## Sentence No. 6955 - fr-ud-train_05524
@@ -2200,13 +2221,13 @@ L' un reste à le bas de la pente alors que le second s' approche à le plus pr�
 ## Sentence No. 7030 - fr-ud-train_05599
 Attention : il vaut mieux réserver le soir ! 
 ### Existing MWEs: 
-1- **il vaut mieux** (ID, 3)
+1- **il vaut mieux** (ID, 4)
 ### Identified MWEs: 
 1- **il vaut mieux** 
 ## Sentence No. 7040 - fr-ud-train_05609
 Quatorze communautés immigrées s' expriment notamment en bilingue ( français et langue de le pays d' origine ) sur l' antenne : maghrébine , africaine francophone , turque , caribéenne , kanak , iranienne , comorienne , rom , kurde , malgache , latino-américaine , tchétchène . 
 ### Existing MWEs: 
-1- **s' expriment** (IReflV, 4)
+1- **s' expriment** (IReflV, 5)
 ### Identified MWEs: 
 1- **s' expriment** 
 ## Sentence No. 7055 - fr-ud-train_05624
@@ -2224,7 +2245,7 @@ Chacun est responsable de ce qui se passe , de ses agissements , de sa liberté 
 ## Sentence No. 7100 - fr-ud-train_05669
 Il fera ensuite graduellement moins chaud . 
 ### Existing MWEs: 
-1- **fera** 
+1- **Il fera** (ID, 3)
 ## Sentence No. 7110 - fr-ud-train_05679
 La boxe anglaise est sport olympique depuis les Jeux olympiques d' été de 1904 à Saint-Louis , jouissant d' une très grande popularité à les États-Unis . 
 ### Existing MWEs: 
@@ -2242,7 +2263,9 @@ Ils ont réalisé cette récolte en deux après-midi seulement .
 ## Sentence No. 7170 - fr-ud-train_05739
 Il faut noter que Shere Khan est boiteux et qu' il tue des hommes plus facilement que des grands animaux . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
+### Identified MWEs: 
+1- **Il faut** 
 ## Sentence No. 7200 - fr-ud-train_05769
 Le gouvernement de le Nouveau-Brunswick est fier de jouer un rôle important à titre de partenaire dans ce projet communautaire à Grand Manan . 
 ### Existing MWEs: 
@@ -2268,7 +2291,9 @@ A recommander si vous voulez vous évader un petit moment de la triste réalité
 ## Sentence No. 7310 - fr-ud-train_05879
 S' agissant de le risque de pénurie , le magistrat vert juge qu' il n' est pas dramatique dans le canton de Berne mais que cela pourrait s' aggraver . 
 ### Existing MWEs: 
-1- **agissant** 
+1- **S' agissant** (IReflV, 1)
+### Identified MWEs: 
+1- **S' agissant** 
 ## Sentence No. 7345 - fr-ud-train_05914
 Des moustiquaires dans les chambres ne feraient pas de mal ! 
 ### Existing MWEs: 
@@ -2294,13 +2319,15 @@ Menacé d' excommunication , il dut se retirer , et promettre de respecter les d
 ## Sentence No. 7420 - fr-ud-train_05989
 À partir de le même procédé de fabrication , il y a , comme pour les céramiques usuelles , de substantielles déviations par rapport à les valeurs indiquées . 
 ### Existing MWEs: 
-1- **il y a** (ID, 95)
+1- **il y a** (ID, 140)
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 7435 - fr-ud-train_06004
 Fait prisonnier en juillet 1940 , il ne peut participer à le vote sur les pleins pouvoirs à le maréchal Philippe Pétain . 
 ### Existing MWEs: 
-1- **prisonnier** 
+1- **Fait prisonnier** (ID, 5)
+### Identified MWEs: 
+1- **Fait prisonnier** 
 ## Sentence No. 7450 - fr-ud-train_06019
 La déclaration porte sur chacun de les contrats souscrits , modifiés ou dénoués à le cours de l' année civile précédente par le déclarant ou par une personne à charge de le déclarant . 
 ### Existing MWEs: 
@@ -2310,9 +2337,9 @@ La déclaration porte sur chacun de les contrats souscrits , modifiés ou dénou
 ## Sentence No. 7455 - fr-ud-train_06024
 Il n' y a pas de méthode standard pour le hacking ASM , le code changeant fortement d' un jeu à l' autre , mais la plupart de les hackers ASM expérimentés peuvent utiliser soit un émulateur équipé d' un débogueur ou traceur intégré , ou parcourir la ROM à l' aide d' un désassembleur , puis analyser le code et le modifier à l' aide d' un éditeur hexadécimal ou un éditeur d' assembleur selon leurs besoins . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 7470 - fr-ud-train_06039
 Un homme qui pratique ces exercices doit être patient , cela peut prendre 4 à 6 semaines avant de noter une différence substantielle . 
 ### Existing MWEs: 
@@ -2362,7 +2389,7 @@ Ces recommandations , formulées par la majorité de les membres de le groupe de
 ## Sentence No. 7655 - fr-ud-train_06224
 à le XIe siècle , Michel Psellos signale que le tombeau d' Auxence se trouve dans l' enceinte de ce couvent et est encore à son époque un lieu de miracles . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouve** 
 ## Sentence No. 7665 - fr-ud-train_06234
@@ -2424,9 +2451,9 @@ Il fait son service militaire à Sélestat en 1935 .
 ## Sentence No. 7910 - fr-ud-train_06479
 Il s' agit d' une tour haute de 33 mètres , décorée de bandes lombardes ; 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 7990 - fr-ud-train_06559
 La 6e cérémonie de les Detroit Film Critics Society Awards , décernés par la Detroit Film Critics Society , a eu lieu le 14 décembre 2012 , et a récompensé les films réalisés dans l' année . 
 ### Existing MWEs: 
@@ -2474,9 +2501,9 @@ Contrairement à " Swagger Jagger " , ce nouveau single reçoit des critiques pl
 ## Sentence No. 8170 - fr-ud-train_06739
 Il ne s' agit donc pas d' une simple traduction de normes élaborées par les institutions communautaires et inscrites telles quelles dans le droit interne . 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 8210 - fr-ud-train_06779
 Il est inconcevable qu' une chose pareille puisse se produire dans l' enceinte d' un commissariat de police . 
 ### Existing MWEs: 
@@ -2487,8 +2514,6 @@ Il est inconcevable qu' une chose pareille puisse se produire dans l' enceinte d
 Pourquoi se gêner ? 
 ### Existing MWEs: 
 1- **se gêner** (IReflV)
-### Identified MWEs: 
-1- **se gêner** 
 ## Sentence No. 8290 - fr-ud-train_06859
 Les explorateurs non-autochtones n' y pénétrèrent pas avant les années 1820 , et c' est seulement à partir de la découverte d' or dans la ville actuelle d' Yreka en 1851 que le premier établissement euro-américain eut lieu . 
 ### Existing MWEs: 
@@ -2548,7 +2573,7 @@ Akhmatova est un opéra dont la création a lieu à l' Opéra Bastille de Paris 
 ## Sentence No. 8685 - fr-ud-train_07254
 La conception de Pikachu et de Raichu est le fait , comme pour la plupart de les Pokémon , de l' équipe chargée de le développement de les personnages à le sein de le studio Game Freak . 
 ### Existing MWEs: 
-1- **est le fait** (ID, 2)
+1- **est le fait** (ID, 3)
 ## Sentence No. 8725 - fr-ud-train_07294
 Les paroles sont très simple et très vite assimilées par le clubber qui s' empressera de chanter en cœur " Pump it , Pump it " , " Let me see your booty " , " You cant see me , i can see you " . 
 ### Existing MWEs: 
@@ -2574,7 +2599,7 @@ Cependant , cette ressemblance n' est pas omniprésente : d' après le réalisat
 ## Sentence No. 8850 - fr-ud-train_07419
 « Nous devons encore beaucoup enquêter sur les motivations de le suspect , mais nous savons qu' il y a des preuves considérables qu' il visait spécifiquement la représentante » , avait expliqué à MSNBC Clarence Dupnik , sheriff de le Comté de Pima . 
 ### Existing MWEs: 
-1- **il y a** (ID, 95)
+1- **il y a** (ID, 140)
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 8865 - fr-ud-train_07434
@@ -2584,7 +2609,7 @@ Alors qu' il patrouille à la recherche de le gangster Colorado , le shériff Ma
 ## Sentence No. 8875 - fr-ud-train_07444
 Toutefois , vue la proximité de Saint-Firmin et de Courteuil se trouvant sur l' itinéraire régulier de cette ligne , l' arrêt de car le plus proche d' Avilly et de Saint-Léonard n' est éloigné que d' un kilomètre environ . 
 ### Existing MWEs: 
-1- **se trouvant** (IReflV, 79)
+1- **se trouvant** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouvant** 
 ## Sentence No. 8890 - fr-ud-train_07459
@@ -2602,11 +2627,13 @@ Il fait partie de l' autoroute 19 .
 ## Sentence No. 8990 - fr-ud-train_07559
 Il faut bien admettre que le cas de le Sahara occidental et de la Palestine ont été à le centre de les préoccupations de la grande majorité de les participants . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
+### Identified MWEs: 
+1- **Il faut** 
 ## Sentence No. 9030 - fr-ud-train_07599
 La commune se trouve à la limite entre le Bassin Minier de Montceau-les-Mines et les premiers contreforts de le Morvan avec les hauteurs d' Uchon . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouve** 
 ## Sentence No. 9050 - fr-ud-train_07619
@@ -2660,13 +2687,13 @@ Ceux qui sont de trop fut initialement publiée dans la revue russe Le Journal d
 ## Sentence No. 9250 - fr-ud-train_07819
 " Tout le monde peut voir l' état de détérioration dans lequel se trouve cette sculpture " , a déclaré la sénatrice Maria Eugenia Estenssoro ( Coalition Civique , opposition ) . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouve** 
 ## Sentence No. 9265 - fr-ud-train_07834
 La lumière n' a jamais été vraiment faite sur ce qui était passé ce jour là . 
 ### Existing MWEs: 
-1- **lumière faite** 
+1- **La lumière faite** (ID)
 ## Sentence No. 9340 - fr-ud-train_07909
 Selon plusieurs sources , Gene Raymond aurait eu de nombreuses liaisons masculines , ce qui aurait déstabilisé leur mariage . 
 ### Existing MWEs: 
@@ -2691,6 +2718,8 @@ Je tombe de les nues !
 si vous passez par La Rochelle , prenez absolument le temps d' y aller ! 
 ### Existing MWEs: 
 1- **prenez le temps** (ID, 5)
+### Identified MWEs: 
+1- **prenez le temps** 
 ## Sentence No. 9690 - fr-ud-train_08259
 Il joue à Montréal une saison de 91 parties où il frappe sept coups de circuit et produit 37 points . 
 ### Existing MWEs: 
@@ -2742,7 +2771,7 @@ Il s' étale sur dix ans .
 ## Sentence No. 9900 - fr-ud-train_08469
 Dans le cas de les tatouages robustes , il s' agit d' un signal de faible amplitude ( indétectabilité ) et de large bande passante ( les images étant généralement de taille assez importante ) . 
 ### Existing MWEs: 
-1- **il s' agit** (ID, 45)
+1- **il s' agit** (ID, 91)
 ### Identified MWEs: 
 1- **il s' agit** 
 ## Sentence No. 9970 - fr-ud-train_08539
@@ -2764,7 +2793,7 @@ Devant l' attaque farouche de le général Jan Krukowiecki , les Russes avec de 
 ## Sentence No. 10070 - fr-ud-train_08639
 Le 8 Août à Raw , Triple H annonce également qu' il arbitrera lui-même ce match pour qu' il y ait selon lui , aucune faute ou triche . 
 ### Existing MWEs: 
-1- **il y ait** (ID, 95)
+1- **il y ait** (ID, 140)
 ### Identified MWEs: 
 1- **il y ait** 
 ## Sentence No. 10145 - fr-ud-train_08714
@@ -2794,7 +2823,7 @@ Cette proposition fut rejetée par les francophones : la Wallonie en effet n' av
 ## Sentence No. 10250 - fr-ud-train_08819
 Dans la crypte se trouve la tombe de Bagnots . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouve** 
 ## Sentence No. 10270 - fr-ud-train_08839
@@ -2837,7 +2866,7 @@ Malgré sa surprise en les lisant , il décida d' accomplir sa mission , soit de
 ## Sentence No. 10450 - fr-ud-train_09019
 L' Autriche a été le premier pays de l' Union européenne à émettre une pièce de collection : il s' agit de la pièce de 5 euro en argent 2002 consacrée à le Zoo de Vienne . 
 ### Existing MWEs: 
-1- **il s' agit** (ID, 45)
+1- **il s' agit** (ID, 91)
 ### Identified MWEs: 
 1- **il s' agit** 
 ## Sentence No. 10460 - fr-ud-train_09029
@@ -2871,7 +2900,9 @@ L' un d' entre eux se fait remarquer en 63 ...
 ## Sentence No. 10590 - fr-ud-train_09159
 Il ne faut pas oublier Idéfix , le petit chien écologiste d' Obélix , qui est aussi un ami d' Astérix , bien que ce dernier ne veuille jamais l' emmener en voyage car il le considère comme trop petit ( Idéfix apparaît dans Le tour de Gaule d' Astérix ) . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
+### Identified MWEs: 
+1- **faut oublier** 
 ## Sentence No. 10600 - fr-ud-train_09169
 Là , les survivants purent effectuer une défense efficace et éviter la destruction totale de le chapitre . 
 ### Existing MWEs: 
@@ -2941,15 +2972,13 @@ Il effectue quand même une mission archéologique sur l' Île de Samothrace en 
 ## Sentence No. 11005 - fr-ud-train_09574
 Il s' agit d' acétate de cyprotérone , un dérivé de la progestérone ayant une action anti-androgène : il contrecarre l' action de les hormones androgènes sécrétées par les testicules ( essentiellement la testostérone ) . 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 11035 - fr-ud-train_09604
 Il disputa 5 matchs de type One - day International avec l' équipe nationale de Namibie , tous en 2003 . 
 ### Existing MWEs: 
 1- **disputa matchs** (LVC, 9)
-### Identified MWEs: 
-1- **disputa matchs** 
 ## Sentence No. 11050 - fr-ud-train_09619
 En parallèle des recherches sont aussi menées sur des volontaires pour améliorer le confort et l' ergonomie de les véhicules . 
 ### Existing MWEs: 
@@ -2970,8 +2999,6 @@ La prise en charge de la pré-éclampsie se fait en milieu hospitalier avec une 
 Il inspire confiance de par son honnêteté . 
 ### Existing MWEs: 
 1- **inspire confiance** (LVC, 1)
-### Identified MWEs: 
-1- **inspire confiance** 
 ## Sentence No. 11130 - fr-ud-train_09699
 Le Petit Pingouin s' y reproduit également . 
 ### Existing MWEs: 
@@ -2981,7 +3008,9 @@ Le Petit Pingouin s' y reproduit également .
 ## Sentence No. 11135 - fr-ud-train_09704
 Ayant un problèmes à les oreilles , j' ai rencontré ce médecin qui m' a carrément fichu dehors et avec un traitement inadapté . 
 ### Existing MWEs: 
-1- **problèmes** 
+1- **Ayant problèmes** (LVC, 2)
+### Identified MWEs: 
+1- **Ayant problèmes** 
 ## Sentence No. 11150 - fr-ud-train_09719
 Ce ne sont pas seulement les connecteurs qui changent , mais aussi la logique de flux sous-jacente , qui de parallèle devient série et multiplexée , ce qui demande davantage d' électronique , mais se traduit par une nette baisse de la quantité de matières premières nécessaires à la fabrication . 
 ### Existing MWEs: 
@@ -2997,15 +3026,15 @@ En raison de problèmes de conception , Daniel a aussi été invité à faire l'
 ## Sentence No. 11210 - fr-ud-train_09779
 Ainsi , il faut considérer ce conflit à partir de divers enjeux politiques , économiques et juridiques . 
 ### Existing MWEs: 
-1- **il faut** (ID, 61)
+1- **il faut** (ID, 91)
 ### Identified MWEs: 
 1- **il faut** 
 ## Sentence No. 11250 - fr-ud-train_09819
 Il y a six ans que je répète : " La guerre de 70 est terminée " . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 11260 - fr-ud-train_09829
 Cela implique la mise en place d' un référendum qui n' a jamais eu lieu . 
 ### Existing MWEs: 
@@ -3031,7 +3060,7 @@ En effet , depuis longtemps Gandalf incarnait le seul véritable membre actif de
 ## Sentence No. 11415 - fr-ud-train_09984
 Dans cette école de danse , il vous sera possible d' apprendre toutes les danses de couple qu' il faut absolument connaitre : le rock , la salsa , le tango argentin , le paso doble , la valse , le cha-cha et d' autres encore . 
 ### Existing MWEs: 
-1- **il faut** (ID, 61)
+1- **il faut** (ID, 91)
 ### Identified MWEs: 
 1- **il faut** 
 ## Sentence No. 11440 - fr-ud-train_10009
@@ -3039,8 +3068,7 @@ Il se familiarise avec le langage psychiatrique , étant employé dans le labora
 ### Existing MWEs: 
 1- **met à le point** (ID, 4)
 ### Identified MWEs: 
-1- **se familiarise** 
-2- **met à le point** 
+1- **met à le point** 
 ## Sentence No. 11445 - fr-ud-train_10014
 La chaîne s' adresse à un public plus jeune que son aînée . 
 ### Existing MWEs: 
@@ -3074,7 +3102,7 @@ Dans une interview accordée à le mois d' août suivant , le directeur de Minar
 ## Sentence No. 11520 - fr-ud-train_10089
 En Savoie et en Haute-Savoie , il continue de neiger . 
 ### Existing MWEs: 
-1- **il neiger** (ID)
+1- **il neiger** (ID, 1)
 ## Sentence No. 11665 - fr-ud-train_10234
 L' Institut ferme ses portes à le printemps de 1940 . 
 ### Existing MWEs: 
@@ -3144,7 +3172,9 @@ Un second tour pourrait avoir lieu le 31 octobre si aucun de les candidats à la
 ## Sentence No. 12105 - fr-ud-train_10674
 Il faut signaler sa Fauna Hungariae qui paraît en 1967 pour la partie sur les amphibiens et en 1978 pour celle sur les reptiles . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
+### Identified MWEs: 
+1- **Il faut** 
 ## Sentence No. 12115 - fr-ud-train_10684
 Le 19 novembre , les nationalistes lancèrent leur dernier assaut frontal , après une importante préparation de l' artillerie . 
 ### Existing MWEs: 
@@ -3176,7 +3206,7 @@ En 1906 , Karl Aschoff y effectue la première radiothérapie avec le radon .
 ## Sentence No. 12285 - fr-ud-train_10854
 En fait , il semble que la situation soit très diverse selon les endroits , de l' abondance à la rareté . 
 ### Existing MWEs: 
-1- **il semble** (ID, 5)
+1- **il semble** (ID, 9)
 ### Identified MWEs: 
 1- **il semble** 
 ## Sentence No. 12310 - fr-ud-train_10879
@@ -3184,7 +3214,7 @@ Aussi , lorsqu' une personne y a recours , sa dépouille demeure intacte .
 ### Existing MWEs: 
 1- **a recours** (LVC, 7)
 ### Identified MWEs: 
-1- **y a** 
+1- **a recours** 
 ## Sentence No. 12340 - fr-ud-train_10909
 Ils s' emparèrent ensuite ( probablement suite à une fédération de différentes tribus ) de les camps romains de la région ( celui de Ratisbonne par exemple ) . 
 ### Existing MWEs: 
@@ -3206,7 +3236,7 @@ Si vous êtes locataire via Loft-One et que vous avez un problème , là vous ê
 ## Sentence No. 12470 - fr-ud-train_11039
 L' archevêque dit aussi qu' il faut suivre les voies de Dieu pour construire sa vie , en fait les vertus cardinales et théologales . 
 ### Existing MWEs: 
-1- **il faut** (ID, 61)
+1- **il faut** (ID, 91)
 ### Identified MWEs: 
 1- **il faut** 
 ## Sentence No. 12480 - fr-ud-train_11049
@@ -3226,7 +3256,7 @@ En seconde mi-temps , Pépi Humpal double la mise , tandis que Jacques inscrit u
 ## Sentence No. 12545 - fr-ud-train_11114
 Comme toute recette « générique » , il n' y a pas de recette précise mais des principes à respecter . 
 ### Existing MWEs: 
-1- **il y a** (ID, 95)
+1- **il y a** (ID, 140)
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 12550 - fr-ud-train_11119
@@ -3375,9 +3405,9 @@ Ce refus de présenter des excuses à l' Algérie a été clairement exprimé pa
 ## Sentence No. 13160 - fr-ud-train_11729
 Il s' agit d' une de les premières méthodes de chiffrement moderne destinée à un usage civil . 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 13180 - fr-ud-train_11749
 Bob , Mohinder et Claire partirent à la plage et se retrouvèrent en face de Bennet , West et Ella . 
 ### Existing MWEs: 
@@ -3393,11 +3423,15 @@ Les projectiles à tête creuse ( hollow point ) ont tendance à s' ouvrir en co
 ## Sentence No. 13220 - fr-ud-train_11789
 Faut -il alors , demain , donner un prix à l' eau , fixé sur un marché international , comme n' importe quel matière première , pour éviter les gaspillages ? 
 ### Existing MWEs: 
-1- **-il** 
+1- **Faut -il** (ID, 14)
+### Identified MWEs: 
+1- **Faut -il** 
 ## Sentence No. 13245 - fr-ud-train_11814
 À sa sortie de l' université , il fait un bref passage dans une entreprise de construction navale avant d' être engagé par le bureau de contrôle pour la sécurité de les constructions SECO . 
 ### Existing MWEs: 
 1- **fait passage** (LVC, 1)
+### Identified MWEs: 
+1- **fait passage** 
 ## Sentence No. 13330 - fr-ud-train_11899
 Il a ainsi signé des victoires à le Grand-Prix de Berne , à Morat-Fribourg et bien d' autres encore . 
 ### Existing MWEs: 
@@ -3407,9 +3441,9 @@ Il a ainsi signé des victoires à le Grand-Prix de Berne , à Morat-Fribourg et
 ## Sentence No. 13350 - fr-ud-train_11919
 Il s' agit d' une gêne ou douleur pelvienne , de pollakiurie et de constipation . 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 13410 - fr-ud-train_11979
 Nous effectuons des démonstrations pour que le public sache comment on travaillait le bois autrefois avec le débardage . 
 ### Existing MWEs: 
@@ -3425,9 +3459,9 @@ Mais le pape ne veut pas en entendre parler .
 ## Sentence No. 13420 - fr-ud-train_11989
 Il y a le lancement de son livre très controversé SEX et de son film Body of Evidence . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 13430 - fr-ud-train_11999
 Là aussi , le scénario se répète . 
 ### Existing MWEs: 
@@ -3462,8 +3496,6 @@ Les élections législatives françaises de 1997 ont eu lieu les dimanches 25 ma
 Il porte donc le nom de les deux communes propriétaires , Mende et Brenoux . 
 ### Existing MWEs: 
 1- **porte nom** (ID, 14)
-### Identified MWEs: 
-1- **porte nom** 
 ## Sentence No. 13640 - fr-ud-train_12209
 Ecrivain francophone , il se situe entre l' Orient et l' Occident et œuvre pour le dialogue de les hommes et de les cultures . 
 ### Existing MWEs: 
@@ -3485,7 +3517,7 @@ Juju fait la guerre totale est la trente-quatrième histoire de la série Le Bar
 ## Sentence No. 13765 - fr-ud-train_12334
 Quant à nous , voisins arabes et maghrébins , il faut bien reconnaître que les Tunisiens nous ont déjà administré leur leçon . 
 ### Existing MWEs: 
-1- **il faut** (ID, 61)
+1- **il faut** (ID, 91)
 ### Identified MWEs: 
 1- **il faut** 
 ## Sentence No. 13775 - fr-ud-train_12344
@@ -3537,9 +3569,9 @@ Lors de la tournée sur gazon , elle atteint la finale de le tournoi de Bois-le-
 ## Sentence No. 13930 - fr-ud-train_12499
 Il n' y a pas de doute . 
 ### Existing MWEs: 
-1- **y a** 
+1- **Il y a** (ID, 140)
 ### Identified MWEs: 
-1- **y a** 
+1- **Il y a** 
 ## Sentence No. 13935 - fr-ud-train_12504
 La bataille de Lonato eut lieu les 2 et pendant les guerres de la campagne d' Italie , entre les forces françaises et austro-sardes et se solda par une victoire française . 
 ### Existing MWEs: 
@@ -3603,7 +3635,9 @@ Administrativement , Eide fait partie de la kommune de Vågan .
 ## Sentence No. 14195 - fr-ud-train_12764
 Cela fait un an cette semaine que j' ai été élue -- que nous avons été élus -- à le Parlement européen . 
 ### Existing MWEs: 
-1- **fait** 
+1- **Cela fait** (ID, 4)
+### Identified MWEs: 
+1- **Cela fait** 
 ## Sentence No. 14240 - fr-ud-train_12809
 " Dans les nouveaux mouvements sociaux , la religion ne joue aucun rôle majeur . 
 ### Existing MWEs: 
@@ -3646,9 +3680,9 @@ Je suis ravie de ses interventions , il s' occupe de tous nos ordinateurs .
 ## Sentence No. 14375 - fr-ud-train_12944
 Il s' agissait à le XVIIe siècle d' un sentier muletier servant notamment à apporter les fromages de le Beaufortain sur les marchés de le Piémont en empruntant ensuite le col de le Mont-Cenis . 
 ### Existing MWEs: 
-1- **s' agissait** 
+1- **Il s' agissait** (ID, 91)
 ### Identified MWEs: 
-1- **s' agissait** 
+1- **Il s' agissait** 
 ## Sentence No. 14415 - fr-ud-train_12984
 À 21 h 30 , Lightoller ordonne à James Paul Moody , le sixième officier de le Titanic , de téléphoner à les veilleurs de le nid-de-pie , afin d' attirer leur attention sur la présence éventuelle de petits champs de glace . 
 ### Existing MWEs: 
@@ -3656,7 +3690,7 @@ Il s' agissait à le XVIIe siècle d' un sentier muletier servant notamment à a
 ## Sentence No. 14425 - fr-ud-train_12994
 Il n' est pas bien accueilli car , pour une fois , il y a une chanson sur une création de Tangerine Dream . 
 ### Existing MWEs: 
-1- **il y a** (ID, 95)
+1- **il y a** (ID, 140)
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 14480 - fr-ud-train_13049
@@ -3728,7 +3762,7 @@ Rouen s' impose pour la première fois de la saison face à Paris-Levallois ( 91
 ## Sentence No. 14895 - fr-ud-train_13464
 Clemenceau lui rétorqua : « il y a aussi des jésuites rouges » . 
 ### Existing MWEs: 
-1- **il y a** (ID, 95)
+1- **il y a** (ID, 140)
 ### Identified MWEs: 
 1- **il y a** 
 ## Sentence No. 14925 - fr-ud-train_13494
@@ -3756,7 +3790,9 @@ Le message de le président de la République a été délivré de le haut de la
 ## Sentence No. 14995 - fr-ud-train_13564
 Il faut que le " prems-égalité " soit utilisé dans les 2 secondes qui ont suivi le " prems " . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
+### Identified MWEs: 
+1- **Il faut** 
 ## Sentence No. 15020 - fr-ud-train_13589
 de les deux chutes de robots V1 , l' une occasionna quelques blessés et des dégâts à Crisnée , mais l' autre affecta plus sérieusement le centre de Fize où un G.I. se sacrifia pour sauver la vie d' un garçonnet . 
 ### Existing MWEs: 
@@ -3770,9 +3806,9 @@ L' année suivante , il accompagne le roi lorsque celui-ci lance la seconde croi
 ## Sentence No. 15125 - fr-ud-train_13694
 Il s' agit d' une radio de divertissement grand public . 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 15135 - fr-ud-train_13704
 Les costumes traditionnels témoignent de traditions artisanales extrêmement riches , d' une créativité et d' une exubérance remarquable chez des gens ordinaires qui menaient par ailleurs une vie difficile . 
 ### Existing MWEs: 
@@ -3827,8 +3863,6 @@ Il avait pour idéal politique de défendre le pays et d' assurer la sécurité 
 Mais elle va tomber amoureuse et pas de n' importe qui : de Luke ... 
 ### Existing MWEs: 
 1- **tomber amoureuse** (ID, 3)
-### Identified MWEs: 
-1- **tomber amoureuse** 
 ## Sentence No. 15465 - fr-ud-train_14034
 En Extrême-Orient russe , elle s' occupe de sélection d' espèces de blé locales Straube et Milogradovka . 
 ### Existing MWEs: 
@@ -3862,7 +3896,7 @@ Génie multiforme , son rôle de compositeur fait partie intégrante de son œuv
 ## Sentence No. 15630 - fr-ud-train_14199
 Édifiée à le XIII siècle , elle se trouve de nos jours à le cœur d' un site naturel inscrit de 31,63 ha par arrêté de le 18 mai 1984 . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouve** 
 ## Sentence No. 15645 - fr-ud-train_14214
@@ -3881,8 +3915,6 @@ Le parachutage de les troupes aéroportées , après l' ouverture d' une brèche
 Ils sont arrivés à Saint-Junien où ils peuvent parfaire leur français et faire le plein de vitamines . 
 ### Existing MWEs: 
 1- **faire le plein** (ID)
-### Identified MWEs: 
-1- **faire plein** 
 ## Sentence No. 15705 - fr-ud-train_14274
 Après avoir traversé la ville , elle se dirige vers le nord-est en traversant des terres agricoles pendant 35 kilomètres en traversant Jarvis et Hagersville en plus de croiser la Route 3 à Jarvis . 
 ### Existing MWEs: 
@@ -3994,7 +4026,7 @@ Velasco quitte Mexico le 10 juin et l' archevêque Guerra se retire de la mère 
 ## Sentence No. 16210 - fr-ud-dev_00225
 En ce qui concerne les influences classiques , il s' agit de Bach , Chopin , Saint-Saëns , Prokofiev , Albinoni , Pachelbel , Britten , ou encore Rachmaninov . 
 ### Existing MWEs: 
-1- **il s' agit** (ID, 45)
+1- **il s' agit** (ID, 91)
 ### Identified MWEs: 
 1- **il s' agit** 
 ## Sentence No. 16220 - fr-ud-dev_00235
@@ -4083,13 +4115,11 @@ Il se peut même que l' Athenæum et la bibliothèque de le Capitole ne fasse qu
 ## Sentence No. 16715 - fr-ud-dev_00730
 Mais cette fois -ci , y a un autre élément qui intervient dans ce débat : après la spoliation territoriale , c' est le temps de les violations graves de les droits humains . 
 ### Existing MWEs: 
-1- **y a** (ID, 45)
-### Identified MWEs: 
-1- **y a** 
+1- **y a** (ID)
 ## Sentence No. 16725 - fr-ud-dev_00740
 il ne s' agit pas d' un camping mais d' une chambre d' hotes ! ...... 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **il s' agit** (ID, 91)
 ### Identified MWEs: 
 1- **il s' agit** 
 ## Sentence No. 16755 - fr-ud-dev_00770
@@ -4129,7 +4159,7 @@ Cette terre riches en attraits naturels est maintenant bien implantée dans le d
 ## Sentence No. 16900 - fr-ud-dev_00915
 Beaucoup de boites de prestation s' inventent un passé et surtout un présent glorieux alors qu' en réalité il s' agit juste d' une seule personne parfois très incompétente et qui utilise son adresse personnelle comme adresse de domiciliation de la dite entreprise . 
 ### Existing MWEs: 
-1- **il s' agit** (ID, 45)
+1- **il s' agit** (ID, 91)
 ### Identified MWEs: 
 1- **il s' agit** 
 ## Sentence No. 16910 - fr-ud-dev_00925
@@ -4153,7 +4183,7 @@ L' action se déroule à partir de le port de Dutch Harbor , premier port de pê
 ## Sentence No. 17015 - fr-ud-dev_01030
 Il ajoute que face à la corruption généralisée , il est temps que les nationalistes s' unissent pour lutter contre ce qu' il appelle « une mafia politico-financière » . 
 ### Existing MWEs: 
-1- **il est temps** (ID, 4)
+1- **il est temps** (ID, 5)
 ## Sentence No. 17025 - fr-ud-dev_01040
 Ce champ indique la plupart de le temps la validité de la donnée , mais il peut avoir des significations différentes , comme le signe ou l' orientation , en fonction de le type de la donnée . 
 ### Existing MWEs: 
@@ -4177,7 +4207,7 @@ Pratiquant une danse dangereuse qui laisse des marques , Sigalit Landau fait mon
 ## Sentence No. 17185 - fr-ud-dev_01200
 Le secrétaire général de l' ONU , qui se trouve dans la capitale Espagnole , Madrid , a également appelé les autorités libyennes à " cesser immédiatement toutes les hostilités contre la population civile " . 
 ### Existing MWEs: 
-1- **se trouve** (IReflV, 79)
+1- **se trouve** (IReflV, 80)
 ### Identified MWEs: 
 1- **se trouve** 
 ## Sentence No. 17190 - fr-ud-dev_01205
@@ -4198,6 +4228,8 @@ Les campagnes napoléoniennes permettront de perfectionner l' industrialisation 
 À vouloir tous être anglo-saxons , il ne faut pas s' étonner que ce soient les anglo-saxons qui gagnent » . 
 ### Existing MWEs: 
 1- **s' étonner** (IReflV)
+### Identified MWEs: 
+1- **faut étonner** 
 ## Sentence No. 17245 - fr-ud-dev_01260
 Il se classe deuxième de les Championnats d' Europe de Paris où le Britannique Donald Finlay le devance en égalant son record continental . 
 ### Existing MWEs: 
@@ -4220,7 +4252,7 @@ Le jour précédent , trois autres jésuites ( Edmond Campion , Thomas Cottam et
 ## Sentence No. 17260 - fr-ud-dev_01275
 Sans qu' elle soit qualifiée d' autorité administrative indépendante , il s' agit néanmoins d' une structure autonome à le sein de le Ministère de l' Enseignement supérieur et de la Recherche dont les missions sont définies à les articles L. 642-3 et suivants de le code de l' éducation . 
 ### Existing MWEs: 
-1- **il s' agit** (ID, 45)
+1- **il s' agit** (ID, 91)
 ### Identified MWEs: 
 1- **il s' agit** 
 ## Sentence No. 17305 - fr-ud-dev_01320
@@ -4236,9 +4268,9 @@ Le souverain s' emporte : « Mais quelle importance que ce soit irrationnel puis
 ## Sentence No. 17340 - fr-ud-dev_01355
 Il s' agit d' une allusion à les deux premières versions de les premiers jeux vidéo Pokémon Rouge et Vert . 
 ### Existing MWEs: 
-1- **s' agit** 
+1- **Il s' agit** (ID, 91)
 ### Identified MWEs: 
-1- **s' agit** 
+1- **Il s' agit** 
 ## Sentence No. 17385 - fr-ud-dev_01400
 Bartolomeo de Benincà est un enlumineur et un peintre italien de miniatures de le XVe siècle , dont l' œuvre se situe entre la fin de la période gothique et le début de la première Renaissance . 
 ### Existing MWEs: 
@@ -4267,7 +4299,9 @@ Les plaines s' étendent à le nord .
 ## Sentence No. 17455 - fr-ud-dev_01470
 Il vaut donc mieux éviter l' expression « la clôture algébrique » et privilégier l' article indéfini « une » ( une autre façon de le voir est qu' il n' existe pas de foncteur de la catégorie de les corps dans elle-même qui envoie tout corps K sur une clôture algébrique de K ) . 
 ### Existing MWEs: 
-1- **vaut mieux** 
+1- **Il vaut mieux** (ID, 4)
+### Identified MWEs: 
+1- **Il vaut** 
 ## Sentence No. 17475 - fr-ud-dev_01490
 Chen Xitong ( né en juin 1930 dans le disctict d' Anyue , Sichuan -- ) est un homme politique de la République populaire de Chine , qui fut l' un de les hauts dirigeants de le Parti communiste chinois avant de connaître la disgrâce , et fut maire de Pékin de 1983 à 1993 . 
 ### Existing MWEs: 
@@ -4295,9 +4329,7 @@ Son discours , inspiré d' une pensée de le Moyen-âge , a trouvé preneur .
 ## Sentence No. 17600 - fr-ud-test_00019
 Selon lui , cette période sera mise à profit pour étudier les conséquences de l' accord sur les ressources de poisson , " ainsi que l' impact régional " de les fonds versés par l' Union européenne , sur la base notamment de les informations fournies par les autorités marocaines . 
 ### Existing MWEs: 
-1- **mise à profit** (ID)
-### Identified MWEs: 
-1- **à profit** 
+1- **mise à profit** (ID, 1)
 ## Sentence No. 17640 - fr-ud-test_00059
 A chaque fois qu' il sent la pression , le Makhzen appelle quelqu'un à son secours . 
 ### Existing MWEs: 
@@ -4315,7 +4347,9 @@ En tous cas , la réorientation de le géant de les réseaux IP ne constitue pas
 ## Sentence No. 17725 - fr-ud-test_00144
 Il faut toutefois noter qu' il est alors de bon ton pour tout homme jouissant d' une aisance financière , de posséder une ou plusieurs maîtresses . 
 ### Existing MWEs: 
-1- **faut** 
+1- **Il faut** (ID, 91)
+### Identified MWEs: 
+1- **Il faut** 
 ## Sentence No. 17740 - fr-ud-test_00159
 Côté organisation , la municipalité va apporter son soutien logistique à le président de la Boule Canéjanaise , Richard Juzanx , tandis que les 80 bénévoles canéjanais sont en plein dans les préparatifs et s' apprêtent à vivre un moment exceptionnel dans l' histoire de le club . 
 ### Existing MWEs: 
@@ -4331,13 +4365,11 @@ Fini les vacances pour le jeune Pascal Haupais qui fait sa rentrée en classe de
 ## Sentence No. 17750 - fr-ud-test_00169
 Le ton a d' ailleurs été donné hier par le général Michel Aoun à le cours de sa conférence de presse hebdomadaire après la réunion de le bloc parlementaire de le Changement et de la Réforme , lorsqu' il a affirmé que nul n' a parlé de démission . 
 ### Existing MWEs: 
-1- **ton donné** 
+1- **Le ton donné** (ID)
 ## Sentence No. 17765 - fr-ud-test_00184
 On a le droit " d' être contre " . 
 ### Existing MWEs: 
 1- **a droit** (LVC, 9)
-### Identified MWEs: 
-1- **a droit** 
 ## Sentence No. 17775 - fr-ud-test_00194
 Chicago ( 41-41 ) coiffe ainsi à le poteau Toronto ( 40-42 ) , dont la victoire à New York ( 131-113 ) n' a servi à rien . 
 ### Existing MWEs: 
@@ -4345,7 +4377,7 @@ Chicago ( 41-41 ) coiffe ainsi à le poteau Toronto ( 40-42 ) , dont la victoire
 ## Sentence No. 17790 - fr-ud-test_00209
 Aussitôt après le dessert on nous passe la serpillère entre les jambes , pour nous faire comprendre qu' il était temps de quitter l' endroit . 
 ### Existing MWEs: 
-1- **il était temps** (ID, 4)
+1- **il était temps** (ID, 5)
 ### Identified MWEs: 
 1- **il était temps** 
 ## Sentence No. 17830 - fr-ud-test_00249

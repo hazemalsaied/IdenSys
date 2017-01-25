@@ -1,7 +1,7 @@
 useFirstBufferElement = True
 useSecondBufferElement = False
 printReport = True
-serialize = False
+serialize = True
 binaryMerge = True
 usePOS = True
 useSytax = True
