@@ -1,4 +1,97 @@
 
+# BG1
+Traingin duration: 0:00:58.570174
+
+Recall: 0.517
+
+Precision: 0.670
+
+**F-Score: 0.584** 
+
+Parsing duration: 0:00:28.955292
+
+# BG2
+Traingin duration: 0:00:36.195822
+
+Recall: 0.562
+
+Precision: 0.618
+
+**F-Score: 0.589** 
+
+Parsing duration: 0:01:38.014510
+
+Reading Corpus duration: 0:00:16.600072
+
+# CS1
+Traingin duration: 0:06:52.112868
+
+Recall: 0.653
+
+Precision: 0.767
+
+**F-Score: 0.705** 
+
+Parsing duration: 0:02:15.220950
+
+# CS2
+Traingin duration: 0:04:10.878630
+
+Recall: 0.701
+
+Precision: 0.638
+
+**F-Score: 0.668** 
+
+Parsing duration: 0:02:22.522303
+
+# CS3
+Traingin duration: 0:05:49.100673
+
+Recall: 0.667
+
+Precision: 0.757
+
+**F-Score: 0.709** 
+
+**Parsing duration: 0:01:45.861351**
+
+# FR1
+Reading Corpus duration: 0:00:22.548859
+
+Traingin duration: 0:03:43.983724
+
+Recall: 0.569
+
+Precision: 0.832
+
+**F-Score: 0.675** 
+
+Parsing duration: 0:42:17.468738
+
+# FR2
+Traingin duration: 0:02:09.002912
+
+Recall: 0.687
+
+Precision: 0.684
+
+**F-Score: 0.685** 
+
+Parsing duration: 0:01:14.432895
+
+# FR3
+Traingin duration: 0:02:48.005958
+
+Recall: 0.672
+
+Precision: 0.780
+
+**F-Score: 0.722** 
+
+Parsing duration: 0:01:19.304125
+
+# Archive
 # The experiementations on Exemple
 ### The Score of the experiementation Maximaliste is :
 F-score: 0.574 ,Recall: 0.491 ,Precision: 0.691
