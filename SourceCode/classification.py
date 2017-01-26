@@ -31,9 +31,7 @@ class Classification:
         # clfs.append(Classification.trainClassifier(X, Y, Perceptron()))
         # clfs.append(Classification.trainClassifier(X, Y, OneVsRestClassifier(LinearSVC(random_state=0))))
         # clfs.append(Classification.trainClassifier(X, Y, OutputCodeClassifier(LinearSVC(random_state=0), code_size=2,
-        #                                                                       random_state=0)))
         # clfs.append(Classification.trainClassifier(X, Y, OneVsOneClassifier(LinearSVC(random_state=0))))
-
         score = []
         clfs = []
         oneVsRest = Classification.evaluateOneVsRest(X, Y)

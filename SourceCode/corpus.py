@@ -1,5 +1,5 @@
 import os
-
+import operator
 import nltk
 from nltk import WordNetLemmatizer
 from nltk.tokenize import WordPunctTokenizer
@@ -65,9 +65,6 @@ class Corpus:
 
 
                 elif line.startswith('# sentence-text:'):
-                    # sentText = ''
-                    # if len(line.split(':')) > 1:
-                    #     sent.text = line.split('# sentence-text:')[1]
                     continue
 
                 elif line.startswith('1\t'):
@@ -87,14 +84,15 @@ class Corpus:
                     if lineParts[5] != '_':
                         morpho = lineParts[5].split('|')
                     if lineParts[6] != '_':
-                        token = Token(lineParts[0], lineParts[1], lemma=lineParts[2], posTag=lineParts[4],
+                        token = Token(lineParts[0], lineParts[1], lemma=lineParts[2], posTag=lineParts[3],
                                       abstractPosTag=lineParts[3], morphologicalInfo=morpho,
                                       dependencyParent=int(lineParts[6]),
                                       dependencyLabel=lineParts[7])
                     else:
-                        token = Token(lineParts[0], lineParts[1], lemma=lineParts[2], posTag=lineParts[4],
+                        token = Token(lineParts[0], lineParts[1], lemma=lineParts[2], posTag=lineParts[3],
                                       abstractPosTag=lineParts[3], morphologicalInfo=morpho,
                                       dependencyLabel=lineParts[7])
+
                     # Associate the token with the sentence
                     sent.tokens.append(token)
                     sent.text += token.text + ' '
@@ -263,11 +261,6 @@ class Sentence:
             self.text += token.text + ' '
             tokensTextList.append(token.text)
         self.text = self.text.strip()
-        # posTags = nltk.pos_tag(tokensTextList)
-        # idx = 0
-        # for token in self.tokens:
-        #     token.addPosTag(posTags[idx][1])
-        #     idx += 1
 
     def recognizeEmbededVMWEs(self):
         if len(self.vMWEs) <= 1:
@@ -290,10 +283,11 @@ class Sentence:
                             masterVmwe = vMwe2
                             slaveVmwe = vMwe1
                         slaveVmwe.isEmbeded = True
-                        result += 1
                         for token in slaveVmwe.tokens:
                             if masterVmwe not in token.parentMWEs:
                                 slaveVmwe.isEmbeded = False
+                        if slaveVmwe.isEmbeded:
+                            result += 1
         return result
 
     def recognizeInterleavingVMWEs(self):
@@ -390,22 +384,50 @@ class Sentence:
         else:
             identifiedMWE = ''
         featuresInfo = ''
-        if len(self.featuresInfo) == 2:
-            labels = self.featuresInfo[0]
-            features = self.featuresInfo[1]
-            for x in xrange(0, len(labels)):
-                featuresInfo += str(x) + '- ' + str(labels[x]) + ' : ' + str(features[x]) + '\n\n'
+
+        result = ''
+        transition = self.initialTransition
+        idx = 0
+        while True:
+            type = ''
+            configuration = ''
+            if transition is not None:
+                if transition.type is not None:
+                    type = transition.type.name
+                else:
+                    type = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+                configuration = str(transition.configuration)
+                if type == 'MERGE':
+                    type = '**MERGE**&nbsp;&nbsp;&nbsp;'
+                if len(type) == 'SHIFT':
+                    type = type + '&nbsp;&nbsp;&nbsp;'
+                result += str(
+                    transition.id) + '- ' + type + '&nbsp;&nbsp;&nbsp;' + '>' + '&nbsp;&nbsp;&nbsp;' + configuration + '\n\n'
+                if transition.next is None:
+                    break
+                transition = transition.next
+                if len(self.featuresInfo) == 2 and len(self.featuresInfo[1] )> 0:
+                    sortedDic = sorted(self.featuresInfo[1][idx].items(), key=operator.itemgetter(0))
+                    for item in sortedDic:
+                        result += str(item[0]) + ': ' + str(item[1]) + ', '
+                idx += 1
+            else:        #result += str(self.featuresInfo[1][idx]) + '\n\n'
+                break
+
+        # if len(self.featuresInfo) == 2:
+        #     labels = self.featuresInfo[0]
+        #     features = self.featuresInfo[1]
+        #     for x in xrange(0, len(labels)):
+        #         featuresInfo += str(x) + '- ' + str(labels[x]) + ' : ' + str(features[x]) + '\n\n'
         return '## Sentence No. ' + str(self.id) + ' - ' + self.sentid + '\n' + self.text + \
                '\n### Existing MWEs: \n' + vMWEText + identifiedMWE \
-               + '\n' + str(self.initialTransition) + '\n### Features: \n' + featuresInfo
+               + '\n' + result #str(self.initialTransition) + '\n### Features: \n' + featuresInfo
 
 
 class Token:
     """
         a class used to encapsulate all the information of a sentence tokens
     """
-
-    # wordNetLemmatiser = WordNetLemmatizer()
 
     def __init__(self, position, txt, lemma='', posTag='', abstractPosTag='', morphologicalInfo=[], dependencyParent=-1,
                  dependencyLabel=''):
@@ -424,9 +446,6 @@ class Token:
 
     def setParent(self, vMWE):
         self.parentMWEs.append(vMWE)
-
-    def addPosTag(self, posTag):
-        self.posTag = posTag
 
     def __str__(self):
         parentTxt = ''

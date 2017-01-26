@@ -20,37 +20,41 @@ class Parser:
         transDicList = []
         transLebelsList = []
         while not transition.configuration.isTerminalConf():
-            featDic = Parser.getConfigurationFeatures(transition, sent)
-            transDicList.append(featDic)
-            # transPossibilities = []
-            transType = classifier.predict(dictVectorizer.transform(featDic))
-            # transType = Parser.getTransType(transPossibilities)
+
             config = transition.configuration
             if len(config.stack) == 0 and len(config.buffer) > 0:
                 transition = Parser.applyShift(transition)
+                transDicList.append({})
                 transLebelsList.append(0)
             elif len(config.buffer) == 0 and len(config.stack) == 1:
                 transition = Parser.applyComplete(transition, sent, parse=True)
-                transLebelsList.append(2)
-            elif transType == 0:
-                if len(config.buffer) > 0:
-                    transition = Parser.applyShift(transition)
-                    transLebelsList.append(0)
-                else:
-                    transition = Parser.applyComplete(transition, sent, parse=True)
-                    transLebelsList.append(2)
-            elif transType == 1:
-                if len(transition.configuration.stack) > 1:
-                    transition = Parser.applyMerge(transition)
-                    transLebelsList.append(1)
-                else:
-                    transition = Parser.applyComplete(transition, sent, parse=True)
-                    transLebelsList.append(2)
-            elif transType == 2:
-                transition = Parser.applyComplete(transition, sent, parse=True)
+                transDicList.append({})
                 transLebelsList.append(2)
             else:
-                print(Parser.NO_TRANSITION_TYPE)
+                featDic = Parser.getConfigurationFeatures(transition, sent)
+                transDicList.append(featDic)
+                # print sent# transPossibilities = []
+                transType = classifier.predict(dictVectorizer.transform(featDic))
+                # transType = Parser.getTransType(transPossibilities)
+                if transType == 0:
+                    if len(config.buffer) > 0:
+                        transition = Parser.applyShift(transition)
+                        transLebelsList.append(0)
+                    else:
+                        transition = Parser.applyComplete(transition, sent, parse=True)
+                        transLebelsList.append(2)
+                elif transType == 1:
+                    if len(transition.configuration.stack) > 1:
+                        transition = Parser.applyMerge(transition)
+                        transLebelsList.append(1)
+                    else:
+                        transition = Parser.applyComplete(transition, sent, parse=True)
+                        transLebelsList.append(2)
+                elif transType == 2:
+                    transition = Parser.applyComplete(transition, sent, parse=True)
+                    transLebelsList.append(2)
+                else:
+                    print(Parser.NO_TRANSITION_TYPE)
         sent.initialTransition = initialTransition
         sent.featuresInfo = [transLebelsList, transDicList]
         return sent
@@ -97,7 +101,6 @@ class Parser:
             if transition.next is None:
                 break
             transLebelsList.append(transition.next.type.value)
-            configuration = transition.configuration
             transDic = Parser.getConfigurationFeatures(transition, sent)
             transDicList.append(transDic)
             transition = transition.next
@@ -123,68 +126,72 @@ class Parser:
         transDic = {}
         elemIdx = 0
         configuration = transition.configuration
-        if len(configuration.stack) > 0:
-            transDic['Stack_length'] = len(configuration.stack)
+        if Parameters.useStackLength and len(configuration.stack) > 0:
+            transDic['StackLength'] = len(configuration.stack)
         if len(configuration.stack) >= 2:
             stackElements = [configuration.stack[-2], configuration.stack[-1]]
         else:
             stackElements = configuration.stack
-
-        for elem in stackElements:
-            Parser.generateLinguisticFeatures(elem, 'S' + str(elemIdx), transDic)
-            elemIdx += 1
-
-        if Parameters.useBiGram and len(stackElements) > 1:
-            # Generate a Bi-gram
-            Parser.generateBiGram(stackElements[0], stackElements[1], 'S0B0', transDic)
-
-        if len(stackElements) > 0 and len(configuration.buffer) > 0:
-            token0 = stackElements[-1]
-            token1 = configuration.buffer[0]
-            if Parameters.useBiGram:
-                Parser.generateBiGram(token0, token1, 'S0B0', transDic)
-            if Parameters.useTriGram and len(stackElements) > 1:
-                Parser.generateTriGram(stackElements[-2], token0, configuration.buffer[0], 'SSB', transDic)
-
-        if len(stackElements) > 0 and Parameters.useSyntax:
-            Parser.generateSyntaxicFeatures(configuration.stack, configuration.buffer, transDic)
-
-        if Parameters.useFirstBufferElement and len(configuration.buffer) > 0:
-            Parser.generateLinguisticFeatures(configuration.buffer[0], 'B0', transDic)
-
+        # General linguistic Informations
+        if len(stackElements) > 0:
+            elemIdx = len(stackElements) - 1
+            for elem in stackElements:
+                Parser.generateLinguisticFeatures(elem, 'S' + str(elemIdx), transDic)
+                elemIdx -= 1
+        if len(configuration.buffer) > 0:
+            if Parameters.useFirstBufferElement:
+                Parser.generateLinguisticFeatures(configuration.buffer[0], 'B0', transDic)
             if Parameters.useSecondBufferElement and len(configuration.buffer) > 1:
                 Parser.generateLinguisticFeatures(configuration.buffer[1], 'B1', transDic)
-
-        if Parameters.useDistance and len(configuration.stack) > 0 and len(configuration.buffer) > 0:
+        # Bi-Gram Generation
+        if Parameters.useBiGram:
+            if len(stackElements) > 1:
+                # Generate a Bi-gram
+                Parser.generateBiGram(stackElements[0], stackElements[1], 'S0S1', transDic)
+            if len(stackElements) > 0 and len(configuration.buffer) > 0:
+                Parser.generateBiGram(stackElements[-1], configuration.buffer[0], 'S0B0', transDic)
+                if len(stackElements) > 1:
+                    Parser.generateBiGram(stackElements[-2], configuration.buffer[0], 'S1B0', transDic)
+                if len(configuration.buffer) > 1:
+                    Parser.generateBiGram(stackElements[-1], configuration.buffer[1], 'S0B1', transDic)
+                    if Parameters.generateS0B2Bigram and len(configuration.buffer) > 2:
+                        Parser.generateBiGram(stackElements[-1], configuration.buffer[2], 'S0B2', transDic)
+        # Tri-Gram Generation
+        if Parameters.useTriGram and len(stackElements) > 1 and len(configuration.buffer) > 0:
+            Parser.generateTriGram(stackElements[-2], stackElements[-1], configuration.buffer[0], 'S1S0B0', transDic)
+        # Syntaxic Informations
+        if len(stackElements) > 0 and Parameters.useSyntax:
+            Parser.generateSyntaxicFeatures(configuration.stack, configuration.buffer, transDic)
+        # Distance information
+        if Parameters.useS0B0Distance and len(configuration.stack) > 0 and len(configuration.buffer) > 0:
             stackTokens = Configuration.getToken(configuration.stack[-1])
-            transDic['distance'] = str(sent.tokens.index(configuration.buffer[0]) - sent.tokens.index(stackTokens[-1]))
-
-        if Parameters.useDistance and len(configuration.stack) > 1 and isinstance(configuration.stack[-1], Token) \
+            transDic['S0B0Distance'] = str(
+                sent.tokens.index(configuration.buffer[0]) - sent.tokens.index(stackTokens[-1]))
+        if Parameters.useS0S1Distance and len(configuration.stack) > 1 and isinstance(configuration.stack[-1], Token) \
                 and isinstance(configuration.stack[-2], Token):
-            transDic['Stack_distance'] = str(
+            transDic['S0S1Distance'] = str(
                 sent.tokens.index(configuration.stack[-1]) - sent.tokens.index(configuration.stack[-2]))
-
-        if transition.previous is not None:
-            if Parameters.usePreviousTransition and transition.previous.type is not None:
-                transDic['prevriousT'] = str(transition.previous.type.value)
-            if Parameters.useTransitionHistory and transition.previous.type is not None:
-                transDic['transitionHistory'] = str(transition.previous.type.value)
-            if transition.previous.previous is not None:
-                if Parameters.useAntepenultimateTransition and transition.previous.previous.type is not None:
-                    transDic['antepenultimateT'] = str(transition.previous.previous.type.value)
-                if Parameters.useTransitionHistory and transition.previous.previous.type is not None:
-                    transDic['transitionHistory'] += str(transition.previous.previous.type.value)
-                    if transition.previous.previous.previous is not None and transition.previous.previous.previous.type is not None:
-                        transDic['transitionHistory'] += str(transition.previous.previous.previous.type.value)
-                        # else:
-                        #     transDic['transitionHistory'] += '_'
-                        # else:
-                        #     if Parameters.useTransitionHistory:
-                        #         transDic['transitionHistory'] = '___'
-
-        # for key in transDic.keys():
-        #    print key, ' : ' ,  transDic[key]
+        Parser.addTransitionHistory(transition, transDic)
         return transDic
+
+    @staticmethod
+    def addTransitionHistory(transition, transDic):
+        transitionHistoryLength1 = ''
+        transitionHistoryLength2 = ''
+        transitionHistoryLength3 = ''
+        if transition.previous is not None and transition.previous.type is not None:
+            transitionHistoryLength1 = str(transition.previous.type.value)
+            if transition.previous.previous is not None and transition.previous.previous.type is not None:
+                transitionHistoryLength2 = transitionHistoryLength1 + str(transition.previous.previous.type.value)
+                if transition.previous.previous.previous is not None and transition.previous.previous.previous.type is not None:
+                    transitionHistoryLength3 = transitionHistoryLength2 + str(
+                        transition.previous.previous.previous.type.value)
+        if Parameters.transitionHistoryLength1 and transitionHistoryLength1.strip() != '':
+            transDic['transitionHistoryLength1'] = transitionHistoryLength1
+        if Parameters.transitionHistoryLength2 and transitionHistoryLength2.strip() != '':
+            transDic['transitionHistoryLength2'] = transitionHistoryLength2
+        if Parameters.transitionHistoryLength3 and transitionHistoryLength3.strip() != '':
+            transDic['transitionHistoryLength3'] = transitionHistoryLength3
 
     @staticmethod
     def generateLinguisticFeatures(token, label, transDic):
@@ -431,9 +438,9 @@ class Parser:
                         for parent in parents:
                             if parent.isInterleaving or parent.isEmbeded:
                                 parents.remove(parent)
-                        # print sent
-                        #print config
-                        #print 'unexpected Scenario: two VMWE with the same lenght and the same components!'
+                                # print sent
+                                # print config
+                                # print 'unexpected Scenario: two VMWE with the same lenght and the same components!'
                     vMWE = parents[0]
                 if vMWE is not None and len(vMWE.tokens) == len(tokens):
                     return Parser.applyComplete(transition, sent, vMWE.id, vMWE.type)

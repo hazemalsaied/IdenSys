@@ -2,16 +2,22 @@ import json
 
 
 class Parameters:
+
     xpName = ''
     configPath = ''
-    corpusPath = ''
-    resultPath = ''
-    testCorpusPath = ''
-    dumpingPath = ''
+    languageName = ''
+    corpusPath = "/Users/hazemalsaied/Parseme/IdenSys/Corpora/sharedtask/"
+    resultPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
+    testCorpusPath = "/Users/hazemalsaied/Parseme/IdenSys/Corpora/testing/"
+    dumpingPath = "/Users/hazemalsaied/Parseme/IdenSys/Serialization/"
 
+    printReport = True
+    serialize = True
+    useCrossValidation = False
+
+    # Featue extraction parameters
     useFirstBufferElement = True
     useSecondBufferElement = True
-    useCrossValidation = False
     binaryMerge = True
     useToken = True
     useLemma = True
@@ -21,43 +27,42 @@ class Parameters:
     useDistance = True
     useSyntax = True
 
-    usePreviousTransition = True
-    useAntepenultimateTransition = True
-    useTransitionHistory = True
+    generateS0B2Bigram = True
 
-    printReport = True
-    serialize = False
+    transitionHistoryLength1 = True
+    transitionHistoryLength2 = True
+    transitionHistoryLength3 = True
+    useS0B0Distance = True
+    useS0S1Distance = True
+    useStackLength = True
 
     def __init__(self, filePath):
+
         with open(filePath, 'r') as configFile:
             config = json.load(configFile)
 
             if len(filePath.split('/')) > 0:
                 Parameters.xpName = filePath.split('/')[-1].split('.')[0]
             Parameters.configPath = filePath
-            Parameters.corpusPath = config["path"]["corpusPath"]
-            Parameters.resultPath = config["path"]["resultPath"]
-            Parameters.testCorpusPath = config["path"]["testCorpusPath"]
-            Parameters.dumpingPath = config["path"]["dumpingPath"]
 
             Parameters.useFirstBufferElement = config["useFirstBufferElement"]
             Parameters.useSecondBufferElement = config["useSecondBufferElement"]
 
-            Parameters.binaryMerge = config["UseLinguistInfo"]["binaryMerge"]
             Parameters.usePOS = config["UseLinguistInfo"]["usePOS"]
             Parameters.useLemma = config["UseLinguistInfo"]["useLemma"]
             Parameters.useBiGram = config["UseLinguistInfo"]["useBiGram"]
             Parameters.useTriGram = config["UseLinguistInfo"]["useTriGram"]
-            Parameters.useDistance = config["UseLinguistInfo"]["useDistance"]
+
+            Parameters.useS0B0Distance = config["S0B0Distance"]
+            Parameters.useS0S1Distance = config["S0S1Distance"]
+            Parameters.useStackLength =  config["useStackLength"]
             Parameters.useSyntax = config["UseLinguistInfo"]["useSytax"]
+            Parameters.generateS0B2Bigram = config["generateS0B2Bigram"]
 
-            Parameters.usePreviousTransition = config["useTransitionHistory"]["usePreviousTransition"]
-            Parameters.useAntepenultimateTransition = config["useTransitionHistory"]["useAntepenultimateTransition"]
-            Parameters.useTransitionHistory = config["useTransitionHistory"]["useTransitionHistory"]
+            Parameters.transitionHistoryLength1 = config["useTransitionHistory"]["transitionHistoryLength1"]
+            Parameters.transitionHistoryLength2 = config["useTransitionHistory"]["transitionHistoryLength2"]
+            Parameters.transitionHistoryLength3 = config["useTransitionHistory"]["transitionHistoryLength3"]
 
-            Parameters.printReport = config["printReport"]
-            Parameters.serialize = config["serialize"]
-            Parameters.useCrossValidation = config["CrossValidationEvaluation"]
 
     @staticmethod
     def toBinary():

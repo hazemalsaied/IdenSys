@@ -21,11 +21,15 @@ class Configuration:
         if len(self.buffer) > 0:
             buffStr = '[' + self.buffer[0].text
             if len(self.buffer) > 1:
-                buffStr += ' ,.. '
+                buffStr += ', ' +self.buffer[1].text
+                if len(self.buffer) > 2:
+                    buffStr += ', ' + self.buffer[2].text + ' ,.. '
+                else:
+                    buffStr +=  ' ,.. '
             buffStr += ']'
         else:
             buffStr = '[ ]'
-        return  stackStr + ' -|||- ' + buffStr  # + ' ; VMWEs = ' + tokensStr
+        return  'S= ' + stackStr + ' B= ' + buffStr  # + ' ; VMWEs = ' + tokensStr
 
     @staticmethod
     def printStack(elemlist):
