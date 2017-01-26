@@ -1,6 +1,5 @@
 import datetime
 import os
-import pickle
 import sys
 
 from classification import Classification
@@ -23,8 +22,6 @@ class Identifier:
 
     @staticmethod
     def identify(configPath, realExper=False):
-
-
 
         # if not realExper and Parameters.useCrossValidation:
         #     fScore, recall, precision = .0, .0, .0
@@ -55,39 +52,41 @@ class Identifier:
 
         for subdir, dirs, files in os.walk(configPath):
             for dir in dirs:
-                for subdir1, dirs1, files1 in os.walk(os.path.join(configPath, dir)):
-                    Parameters.resultPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
-                    time = datetime.datetime.now()
-                    corpus, languageName = Identifier.readCorpus(dir)
+                for subdir1, dirs1, configFiles in os.walk(os.path.join(configPath, dir)):
                     Parameters.languageName = dir
-                    print 'Reading Corpus duration: ' + str(datetime.datetime.now() - time)
+                    corpus = Corpus(os.path.join(Parameters.corpusPath, dir))
+                    Report.createLanguageFolder(dir)
+                    # corpus, languageName = Identifier.readCorpus(dir)
                     trainingSents, testingSents = Identifier.getTrainAndTestSents(realExper, corpus)
                     mweDictionary = Identifier.getMWEDic(trainingSents)
                     Report.createMWELexic(mweDictionary, dir)
                     report = '# The experiementations on ' + dir + '\n'
-                    with open(readMe, "a") as staticParsingFile:
+                    with open(Parameters.readMe, "a") as staticParsingFile:
                         staticParsingFile.write(report)
-
-                    for file in files1:
-                        path = os.path.join(os.path.join(configPath, dir), file)
-                        config = Parameters(path)
-                        Report.createResultFolder(corpus)
+                    for configFile in configFiles:
+                        if not configFile.endswith('.json'):
+                            continue
+                        Report.createXPFolder(configFile)
+                        config = Parameters(os.path.join(os.path.join(configPath, dir), configFile))
+                        Report.createConfigAndReadMe(corpus)
                         Identifier.initializeSents(trainingSents)
                         Identifier.initializeSents(testingSents)
                         clf = Identifier.train('', corpus, trainingSents)
-                        fScore, recall, precision = Identifier.parse(testingSents, clf, mweDictionary, languageName)
+                        fScore, recall, precision = Identifier.parse(testingSents, clf, mweDictionary,
+                                                                     Parameters.languageName)
                         report = '### The Score of the experiementation ' + str(
                             Parameters.xpName) + ' is' + '\n' + 'F-score: ' + str(
                             "%.3f" % fScore) + ' ,Recall: ' + str("%.3f" % recall) + ' ,Precision: ' + str(
                             "%.3f" % precision) + '\n\n'
-                        with open(readMe, "a") as staticParsingFile:
+                        with open(Parameters.readMe, "a") as staticParsingFile:
                             staticParsingFile.write(report)
 
-            # clf = Identifier.train(6, corpus, trainingSents, testingSents, languageName, mweDictionary)
-            # Report.createEmbeddingSentsReports(trainingSents)
-            # return Identifier.parse(testingSents, clf, mweDictionary, languageName, 6)
-    @staticmethod
+                        report = Parameters.languageName + ',' + Parameters.xpName + ',' + str(
+                            "%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str("%.3f" % precision) + '\n'
+                        with open(Parameters.results, "a") as staticParsingFile:
+                            staticParsingFile.write(report)
 
+    @staticmethod
     def getTrainAndTestSents(realExper, corpus):
         if realExper:
             trainingSents = corpus.sentences
@@ -103,6 +102,7 @@ class Identifier:
                     trainingSents.append(sent)
                 idx += 1
         return trainingSents, testingSents
+
     @staticmethod
     def getMWEDic(trainingSents):
         mweDictionary = {}
@@ -134,6 +134,7 @@ class Identifier:
             sent.featuresInfo = []
             for mwe in sent.vMWEs:
                 mwe.isInTrainingCorpus = 0
+
     @staticmethod
     def parse(testingSents, clf, mweDictionary, languageName, crossIdx=''):
 
@@ -161,7 +162,7 @@ class Identifier:
         goldCorpus = ''
         for sent in testingSents:
             goldCorpus += sent.getCorpusText() + '\n'
-        goldtestingCorpusPath = os.path.join(Parameters.resultPath,
+        goldtestingCorpusPath = os.path.join(Parameters.xpPath,
                                              languageName + str(crossIdx) + '.gold')
         goldtestingCorpusFile = open(goldtestingCorpusPath, 'w')
         goldtestingCorpusFile.write(goldCorpus)
@@ -170,7 +171,7 @@ class Identifier:
         for sent in testingSents:
             predCorpus += sent.getCorpusText(gold=False) + '\n'
         goldtestingCorpusPath = os.path.join(
-            Parameters.resultPath, languageName + str(crossIdx) + '.pred')
+            Parameters.xpPath, languageName + str(crossIdx) + '.pred')
         goldtestingCorpusFile = open(goldtestingCorpusPath, 'w')
         goldtestingCorpusFile.write(predCorpus)
 
@@ -236,12 +237,12 @@ class Identifier:
 
 reload(sys)
 sys.setdefaultencoding('utf8')
-readMe = "/Users/hazemalsaied/Parseme/MWEIdSys/Results/readMe.md"
-if not os.path.isfile(readMe):
-    staticParsingFile = open(readMe, 'w')
-else:
-    staticParsingFile = open(readMe, 'a')
-#staticParsingFile.write('')
+# readMe = "/Users/hazemalsaied/Parseme/MWEIdSys/Results/readMe.md"
+# if not os.path.isfile(readMe):
+#     staticParsingFile = open(readMe, 'w')
+# else:
+#     staticParsingFile = open(readMe, 'a')
+# staticParsingFile.write('')
 
 # for subdir, dirs, files in os.walk('Config'):
 #     for dir in dirs:

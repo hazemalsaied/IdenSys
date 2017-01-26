@@ -109,7 +109,7 @@ class Corpus:
             sentIdx = 0
             for line in lines:
                 if line == '\n' or line.startswith('# sentence-text:') or (
-                             line.startswith('# sentid:') and noSentToAssign):
+                             line.startswith('# sentid:') and noSentToAssign) :
                     continue
                 if len(line) > 0 and line.endswith('\n'):
                     line = line[:-1]
@@ -117,15 +117,13 @@ class Corpus:
                     sent = sentences[sentIdx]
                     sentIdx += 1
                 lineParts = line.split('\t')
-
+                if '-' in lineParts[0]:
+                    continue
                 if lineParts is not None and len(lineParts) == 4 and lineParts[3] != '_':
 
                     token = sent.tokens[int(lineParts[0]) - 1] #[t for t in sent.tokens if t.position == int(lineParts[0])]
                     #if tokens is not None and len(tokens) > 0:
                     #    token = tokens[0]
-                    if token == None:
-                        print 'Error: '
-                        print sent.text
                     vMWEids = lineParts[3].split(';')
                     for vMWEid in vMWEids:
                         id = int(vMWEid.split(':')[0])
@@ -401,7 +399,7 @@ class Sentence:
                     type = '**MERGE**&nbsp;&nbsp;&nbsp;'
                 if len(type) == 'SHIFT':
                     type = type + '&nbsp;&nbsp;&nbsp;'
-                result += str(
+                result += '\n\n' + str(
                     transition.id) + '- ' + type + '&nbsp;&nbsp;&nbsp;' + '>' + '&nbsp;&nbsp;&nbsp;' + configuration + '\n\n'
                 if transition.next is None:
                     break

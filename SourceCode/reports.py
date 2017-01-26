@@ -12,22 +12,23 @@ class Report:
     NumOFInterleaving = '\n## Number of Interleaving MWEs: '
 
     @staticmethod
-    def createResultFolder(corpus):
-        # creating an initial report
+    def createLanguageFolder(langName):
         if Parameters.printReport:
-            Parameters.resultPath = os.path.join(Parameters.resultPath, Parameters.languageName)
-            # languageName = Parameters.corpusPath.split('/')[-1]
-            # if len(languageName) > 0:
-            #     Parameters.resultPath = os.path.join(Parameters.resultPath, languageName)
-            # else:
-            #     Parameters.resultPath = os.path.join(Parameters.resultPath, Parameters.corpusPath.split('/')[-2])
+            Parameters.langFolder = os.path.join(Parameters.resultPath, langName)
+            if not os.path.exists(Parameters.langFolder):
+                os.makedirs(Parameters.langFolder)
 
-            Parameters.resultPath = os.path.join(Parameters.resultPath, Parameters.xpName)
-            if not os.path.exists(Parameters.resultPath):
-                os.makedirs(Parameters.resultPath)
-            # Create configuration file
+    @staticmethod
+    def createXPFolder( configFile):
+        if Parameters.printReport:
+            Parameters.xpPath = os.path.join(Parameters.langFolder, configFile)
+            if not os.path.exists(Parameters.xpPath):
+                os.makedirs(Parameters.xpPath)
 
-            staticParsingFile = open(os.path.join(Parameters.resultPath, 'config.md'), 'w')
+    @staticmethod
+    def createConfigAndReadMe(corpus):
+        if Parameters.printReport:
+            staticParsingFile = open(os.path.join(Parameters.xpPath, 'config.md'), 'w')
             staticParsingFile.write(Parameters.toString())
 
             result = Report.NumOFSent + str(corpus.sentNum) + Report.NumOFMWEs + str(
@@ -43,7 +44,7 @@ class Report:
             pathItems = pathItems[:-1]
         else:
             pathItems = pathItems[:-2]
-        path = '/'
+        path = ''
         for item in pathItems:
             path += item + '/'
         path = os.path.join(path, dir + '/Dictionary.md')
@@ -57,9 +58,9 @@ class Report:
     @staticmethod
     def editReadme(mode, text):
         if Parameters.useCrossValidation:
-            printingPath = os.path.join(Parameters.resultPath, 'Readme.md')
+            printingPath = os.path.join(Parameters.xpPath, 'Readme.md')
         else:
-            printingPath = os.path.join(Parameters.resultPath, 'Readme.md')
+            printingPath = os.path.join(Parameters.xpPath, 'Readme.md')
         staticParsingFile = open(printingPath, mode)
         staticParsingFile.write(text)
 
@@ -72,7 +73,7 @@ class Report:
         else:
             random = 0
         sentsForPrinting = sentsForPrinting[random:random + 5]
-        printingPath = os.path.join(Parameters.resultPath, 'StaticParsing' + str(crossValidationIdx) + '.md')
+        printingPath = os.path.join(Parameters.xpPath, 'StaticParsing' + str(crossValidationIdx) + '.md')
         staticParsingFile = open(printingPath, 'w')
         result = ''
         for sent in sentsForPrinting:
@@ -84,7 +85,7 @@ class Report:
         sentsForPrinting = [s for s in sents if Report.isEmbeddedSent(s)]
 
         sentsForPrinting = sorted(sentsForPrinting, key=lambda Sentence: len(Sentence.vMWEs), reverse=True)
-        printingPath = os.path.join(Parameters.resultPath, 'EmbeddedSents' + str(crossValidationIdx) + '.md')
+        printingPath = os.path.join(Parameters.xpPath, 'EmbeddedSents' + str(crossValidationIdx) + '.md')
         staticParsingFile = open(printingPath, 'w')
         result = ''
         for sent in sentsForPrinting:
@@ -106,7 +107,7 @@ class Report:
             random = randint(1, len(sentsForPrinting) - 30)
         else:
             random = 0
-        printingPath = os.path.join(Parameters.resultPath, 'Parsing' + str(crossValidationIdx) + '.md')
+        printingPath = os.path.join(Parameters.xpPath, 'Parsing' + str(crossValidationIdx) + '.md')
         staticParsingFile = open(printingPath, 'w')
         result = ''
         for sent in sentsForPrinting[random:random + 5]:
@@ -114,7 +115,7 @@ class Report:
         staticParsingFile.write(result)
 
         # Producing a long report
-        printingPath = os.path.join(Parameters.resultPath, 'Parsing' + str(crossValidationIdx) + '-long.md')
+        printingPath = os.path.join(Parameters.xpPath, 'Parsing' + str(crossValidationIdx) + '-long.md')
         staticParsingFile = open(printingPath, 'w')
         result = ''
         for sent in sentsForPrinting:

@@ -2,11 +2,14 @@ import json
 
 
 class Parameters:
-
     xpName = ''
     configPath = ''
     languageName = ''
+    readMe = "/Users/hazemalsaied/Parseme/IdenSys/Results/readMe.md"
+    results = "/Users/hazemalsaied/Parseme/IdenSys/Results/results.csv"
     corpusPath = "/Users/hazemalsaied/Parseme/IdenSys/Corpora/sharedtask/"
+    xpPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
+    langFolder = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     resultPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     testCorpusPath = "/Users/hazemalsaied/Parseme/IdenSys/Corpora/testing/"
     dumpingPath = "/Users/hazemalsaied/Parseme/IdenSys/Serialization/"
@@ -55,14 +58,13 @@ class Parameters:
 
             Parameters.useS0B0Distance = config["S0B0Distance"]
             Parameters.useS0S1Distance = config["S0S1Distance"]
-            Parameters.useStackLength =  config["useStackLength"]
+            Parameters.useStackLength = config["useStackLength"]
             Parameters.useSyntax = config["UseLinguistInfo"]["useSytax"]
             Parameters.generateS0B2Bigram = config["generateS0B2Bigram"]
 
             Parameters.transitionHistoryLength1 = config["useTransitionHistory"]["transitionHistoryLength1"]
             Parameters.transitionHistoryLength2 = config["useTransitionHistory"]["transitionHistoryLength2"]
             Parameters.transitionHistoryLength3 = config["useTransitionHistory"]["transitionHistoryLength3"]
-
 
     @staticmethod
     def toBinary():

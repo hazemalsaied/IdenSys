@@ -33,9 +33,7 @@ class Parser:
             else:
                 featDic = Parser.getConfigurationFeatures(transition, sent)
                 transDicList.append(featDic)
-                # print sent# transPossibilities = []
                 transType = classifier.predict(dictVectorizer.transform(featDic))
-                # transType = Parser.getTransType(transPossibilities)
                 if transType == 0:
                     if len(config.buffer) > 0:
                         transition = Parser.applyShift(transition)
@@ -110,19 +108,6 @@ class Parser:
     @staticmethod
     def getConfigurationFeatures(transition, sent):
 
-        # print sent.text
-        # if len(transition.configuration.stack) > 0:
-        #     if isinstance(transition.configuration.stack[-1], Token):
-        #         print 'S0 : ' + transition.configuration.stack[-1].text
-        #     if len(transition.configuration.stack) > 1:
-        #         if isinstance(transition.configuration.stack[-2], Token):
-        #             print 'S1 : ' + transition.configuration.stack[-2].text
-        #
-        # if len(transition.configuration.buffer) > 0:
-        #     print 'B0 : ' + transition.configuration.buffer[0].text
-        #
-        # print transition.configuration
-
         transDic = {}
         elemIdx = 0
         configuration = transition.configuration
@@ -147,7 +132,7 @@ class Parser:
         if Parameters.useBiGram:
             if len(stackElements) > 1:
                 # Generate a Bi-gram
-                Parser.generateBiGram(stackElements[0], stackElements[1], 'S0S1', transDic)
+                Parser.generateBiGram(stackElements[-2], stackElements[-1], 'S1S0', transDic)
             if len(stackElements) > 0 and len(configuration.buffer) > 0:
                 Parser.generateBiGram(stackElements[-1], configuration.buffer[0], 'S0B0', transDic)
                 if len(stackElements) > 1:
@@ -438,9 +423,6 @@ class Parser:
                         for parent in parents:
                             if parent.isInterleaving or parent.isEmbeded:
                                 parents.remove(parent)
-                                # print sent
-                                # print config
-                                # print 'unexpected Scenario: two VMWE with the same lenght and the same components!'
                     vMWE = parents[0]
                 if vMWE is not None and len(vMWE.tokens) == len(tokens):
                     return Parser.applyComplete(transition, sent, vMWE.id, vMWE.type)

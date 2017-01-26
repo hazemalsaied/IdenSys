@@ -49,12 +49,12 @@ class Classification:
             oneVsOne[1]) + '\n'
         score.append(oneVsOne[1])
         clfs.append(oneVsOne[2])
-        perceptron = Classification.evaluatePerceptron(X, Y)
-        report += '### 4- Perceptron : \n' + 'Score: ' + str(
-            perceptron[0]) + ', Number of merge operation: ' + str(
-            perceptron[1]) + '\n'
-        score.append(perceptron[1])
-        clfs.append(perceptron[2])
+        # perceptron = Classification.evaluatePerceptron(X, Y)
+        # report += '### 4- Perceptron : \n' + 'Score: ' + str(
+        #     perceptron[0]) + ', Number of merge operation: ' + str(
+        #     perceptron[1]) + '\n'
+        # score.append(perceptron[1])
+        # clfs.append(perceptron[2])
         idx = score.index(max(score))
         report += '### The Selected Classifier is: ' + str(idx + 1) + '\n'
         clf = clfs[idx]
