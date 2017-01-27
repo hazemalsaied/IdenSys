@@ -1,3 +1,4 @@
+Lang,Exper, F-score, Recall,Precision
 FR,Maximaliste1,0.735,0.676,0.807
 FR,Minimaliste1,0.685,0.687,0.684
 FR,Tuned1,0.722,0.672,0.780
@@ -49,3 +50,24 @@ SV,Tuned1,0.154,0.083,1.000
 TR,Maximaliste1,0.611,0.554,0.682
 TR,Minimaliste1,0.573,0.598,0.549
 TR,Tuned1,0.617,0.569,0.674
+DE,Maximaliste1,0.189,0.122,0.429
+DE,Minimaliste1,0.259,0.255,0.263
+DE,Tuned1,0.206,0.131,0.476
+DE,Minimaliste1,0.302,0.434,0.232
+DE,Minimaliste1,0.343,0.676,0.230
+DE,Minimaliste1,0.370,0.811,0.239
+DE,Minimaliste1,0.247,0.409,0.177
+DE,Minimaliste1,0.349,0.712,0.231
+DE,Minimaliste1,0.428,0.708,0.306
+DE,Minimaliste1,0.195,0.174,0.223
+DE,Minimaliste1,0.330,0.403,0.280
+DE,Minimaliste1,0.450,0.591,0.363
+DE,Minimaliste1,0.450,0.587,0.365
+DE,Minimaliste1,0.218,0.145,0.439
+DE,Minimaliste1,0.158,0.095,0.476
+DE,Minimaliste1,0.460,0.803,0.322
+DE,Minimaliste1,0.445,0.722,0.322
+DE,Minimaliste1,0.459,0.836,0.317
+DE,Minimaliste1,0.422,0.579,0.332
+DE,Minimaliste1,0.459,0.836,0.317
+DE,Minimaliste1,0.365,0.546,0.274
