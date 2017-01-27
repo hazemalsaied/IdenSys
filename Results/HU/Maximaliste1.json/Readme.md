@@ -6,7 +6,8 @@
 ## Number of Interleaving MWEs: 2
 
 ## Number of Continous MWEs: 506
-## Number of Single Word MWEs: 2205## Number of features used: 298099
+## Number of Single Word MWEs: 2205
+## Number of features used: 298099
 
 ### 1- SVM One Vs Rest: 
 Score: 1.0, Number of merge operation: 132

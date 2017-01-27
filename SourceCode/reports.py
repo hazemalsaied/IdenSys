@@ -134,10 +134,10 @@ class Report:
             staticParsingFile.write(report)
 
         report = Parameters.languageName + ',' + Parameters.xpName + ',' + str(
-            "%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str("%.3f" % precision) + ','+ str(
+            "%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str("%.3f" % precision) + ',' + str(
             corpus.sentNum) + ',' + str(corpus.mweNum) + ',' + str(
-            corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + ',' + str(
-            corpus.singleWordExp) + str(
+            corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + str(
+            corpus.singleWordExp) + ',' + str(
             corpus.emeddedNum) + ',' + Parameters.toBinary() + ',' '\n'
         with open(Parameters.results, "a") as staticParsingFile:
             staticParsingFile.write(report)
