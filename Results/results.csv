@@ -1,3 +1,4 @@
+Lang,Exper, F-score, Recall,Precision, Sent Num, MWE Num,Non Continous, intereaving, single Word,Emedded, Config
 BG,Tuned1,0.600,0.522,0.7046913,1933,347,0,,10,110101001000100,
 CS,Tuned1,0.721,0.668,0.78343955,12852,6227,136,,0159,111111100111101,
 DE,specialised,0.533,1.151,0.3476261,2447,1828,70,,71526,100001011011010,
