@@ -6,7 +6,8 @@ Peres oznámil , že izraelské úřady návštěvu samozřejmě povolí , vždy
 3- **setkat se nemusí** (IReflV)
 4- **setkat se** (IReflV, 7), Embedded
 ### Identified MWEs: 
-1- **nepřeje setkat se** 
+1- **nemají námitky** 
+2- **nepřeje setkat se** 
 ## Sentence No. 19205 - 
 Francie se také značně rozdělila podle generací : na mládež , která se evropského dobrodružství nebojí , a starší generaci , která by , jak se patří , radši zůstala při starém . 
 ### Existing MWEs: 
@@ -52,10 +53,9 @@ Na jaké potíže se při vyšetřování naráželo , dokládá část obsáhl�
 2- **pohybovat se** (IReflV, 4)
 3- **mohl se setkat** (IReflV)
 ### Identified MWEs: 
-1- **se naráželo** 
-2- **měl možnost** 
-3- **pohybovat se** 
-4- **mohl se setkat** 
+1- **se měl možnost** 
+2- **pohybovat se** 
+3- **mohl se setkat** 
 ## Sentence No. 4210 - 
 Asi mi nedělá problém vzít na sebe odpovědnost , " vysvětluje hokejista , který má se Spartou podepsanou tříletou smlouvu , ale nezastírá , že by se do Ameriky mohl někdy vrátit : " IHL je výborná soutěž , ve které se dá dost vydělat a člověk se musí dívat na budoucnost . 
 ### Existing MWEs: 
@@ -93,6 +93,7 @@ V současné době se Voleník snaží optimálně uvést v život zákonná ust
 ### Identified MWEs: 
 1- **se snaží** 
 2- **uvést v život** 
+3- **se má řídit** 
 ## Sentence No. 8015 - 
 Pokud klient v letošním roce již podal anebo ještě před skončením roku podá výpověď zmíněné smlouvy , uzavře s ním banka dohodu o skončení smluvního vztahu k poslednímu dni jeho výpovědi . 
 ### Existing MWEs: 
@@ -127,8 +128,7 @@ S hojící se sliznicí a s růstem obnovujících se střevních klků vlivem b
 2- **obnovujících se** (IReflV)
 3- **se zlepšuje** (IReflV, 2)
 ### Identified MWEs: 
-1- **hojící se** 
-2- **obnovujících se** 
+1- **se zlepšuje** 
 ## Sentence No. 14340 - 
 Ve vysvětlení pro tisk pak uvedl , že se " nedokáže ztotožnit s úkolem , který dnes Černínský palác má , a nelíbí se mu , jak tyto procesy probíhají " . 
 ### Existing MWEs: 
@@ -146,8 +146,7 @@ Autor se snažil napsat ji tak , aby si ji s užitkem mohl přečíst každý , 
 3- **získat přehled** (LVC, 1)
 ### Identified MWEs: 
 1- **se snažil** 
-2- **si mohl přečíst** 
-3- **má zájem** 
+2- **má zájem** 
 ## Sentence No. 16080 - 
 Dává mu ještě větší prostor k vlastním postřehům o výkonech fotbalistů , zatímco hráči se sami zbavují možnosti jakkoliv se vyjádřit a často se i hájit . 
 ### Existing MWEs: 
@@ -210,7 +209,7 @@ Navíc čistota vzduchu záleží jen v malé míře na naší vládě , je to p
 2- **držet na uzdě** (ID, 1)
 3- **nepřerostla přes hlavu** (ID)
 ### Identified MWEs: 
-1- **se bude držet** 
+1- **se rýsující** 
 ## Sentence No. 23765 - 
 Její důsledky se projevily nejprve v drastickém dopadu na sociální postavení velkých skupin obyvatelstva , odrazily se i v radikalizaci jejich politických názorů a promítaly se pak nepříznivě do všech oblastí fungování politického systému . 
 ### Existing MWEs: 
@@ -219,6 +218,7 @@ Její důsledky se projevily nejprve v drastickém dopadu na sociální postaven
 3- **promítaly se** (IReflV)
 ### Identified MWEs: 
 1- **odrazily se** 
+2- **promítaly se** 
 ## Sentence No. 23875 - 
 Sám kritizovaný premiér ještě včera večer ke svému vyjádření pro Český deník řekl , že pouze vyjádřil přání , aby na obhajování svých názorů nebo ideologie měl on nebo " kdokoli jiný " ve sdělovacích prostředcích alespoň takový prostor , jakého se dostává katolické církvi . 
 ### Existing MWEs: 
@@ -244,7 +244,8 @@ Mlčícím a co nejrychleji se vytrácejícím členům vedení ODS se není co 
 2- **se divit** (IReflV, 18)
 3- **by se snažili** (IReflV, 11)
 ### Identified MWEs: 
-1- **se uvést** 
+1- **se se divit** 
+2- **by se snažili** 
 ## Sentence No. 25120 - 
 Irský premiér Albert Reynolds se ve čtvrtek setkal s americkou delegací ( povětšinou složenou z Američanů irského původu ) , která se s požehnáním své vlády snaží uspíšit řešení problému Severního Irska . 
 ### Existing MWEs: 
@@ -367,11 +368,15 @@ Nedělejme si iluze , že výrobci tepla budou mít na investice do ekologie dos
 ### Existing MWEs: 
 1- **Nedělejme si iluze** (ID)
 2- **Nedělejme si** (IReflV), Embedded
+### Identified MWEs: 
+1- **Nedělejme si** 
 ## Sentence No. 225 - 
 Nedělejme si iluze , jako odběratelé to budeme platit dále . 
 ### Existing MWEs: 
 1- **Nedělejme si iluze** (ID)
 2- **Nedělejme si** (IReflV), Embedded
+### Identified MWEs: 
+1- **Nedělejme si** 
 ## Sentence No. 380 - 
 Zároveň s hovorem dostane referent na svůj monitor potřebné informace o volajícím zákazníkovi , které jsou v databance k dispozici . 
 ### Existing MWEs: 
@@ -383,15 +388,15 @@ Vana plechová se zahřeje rychle a rychle zchladne , vana litinová se chová n
 1- **se zahřeje** (IReflV)
 2- **se chová** (IReflV, 23)
 ### Identified MWEs: 
-1- **se chová** 
+1- **se zahřeje** 
+2- **se chová** 
 ## Sentence No. 1145 - 
 Pokud se nad svým přesyceným systémem organizování a hodnocení vědy včas vážně nezamyslíme , může se stát , že toho k hodnocení bude stále méně a méně . 
 ### Existing MWEs: 
 1- **se nezamyslíme** (IReflV)
 2- **může se stát** (IReflV, 5)
 ### Identified MWEs: 
-1- **se nezamyslíme** 
-2- **může se stát** 
+1- **se může se stát** 
 ## Sentence No. 1220 - 
 Navíc podmínky , které jsou často psány v cizím jazyce , takže potenciální klient má malou šanci jim do detailu porozumět , nemusí být mnohdy tak výhodné , jak se na první pohled zdá . 
 ### Existing MWEs: 
@@ -406,7 +411,7 @@ Ti , kteří se v této činnosti angažují , se navíc mohou dostat do rozporu
 2- **se mohou dostat** (IReflV, 4)
 ### Identified MWEs: 
 1- **se angažují** 
-2- **se mohou dostat do rozporu** 
+2- **se mohou dostat** 
 ## Sentence No. 1295 - 
 Domy sice nepadají tak snadno , ale vezmeme - li v úvahu , že mají za sebou padesát let socialistické neúdržby , proces chátrání se brzy začne zrychlovat . 
 ### Existing MWEs: 
@@ -414,14 +419,15 @@ Domy sice nepadají tak snadno , ale vezmeme - li v úvahu , že mají za sebou 
 2- **se zrychlovat** (IReflV)
 ### Identified MWEs: 
 1- **vezmeme v úvahu** 
-2- **mají se zrychlovat** 
+2- **mají neúdržby** 
+3- **se zrychlovat** 
 ## Sentence No. 1380 - 
 Rozhodli jsme se uvádět kmenová díla ruského zlatého a stříbrného věku , protože nám umožňují klást základní otázky o smyslu lidské existence a o tajemstvích života . 
 ### Existing MWEs: 
 1- **Rozhodli jsme se** (IReflV, 4)
 2- **klást otázky** (LVC, 6)
 ### Identified MWEs: 
-1- **Rozhodli jsme se** 
+1- **Rozhodli jsme se uvádět** 
 2- **klást otázky** 
 ## Sentence No. 1400 - 
 Ale snažíme se i v tomto směru navázat kontakt . 
@@ -483,8 +489,7 @@ V nepřeberné všehochuti dámských oděvů a doplňků jsou k vidění kreace
 2- **se hemží** (IReflV, 1)
 ### Identified MWEs: 
 1- **jsou k vidění** 
-2- **zpracovávají se** 
-3- **se hemží** 
+2- **se se hemží** 
 ## Sentence No. 2280 - 
 Změnil se absolutně a od základu . 
 ### Existing MWEs: 
@@ -499,6 +504,7 @@ Představte si lidi plné života , kteří si vysnívají , jaké budou mít d�
 2- **si vysnívají** (IReflV)
 ### Identified MWEs: 
 1- **Představte si** 
+2- **si vysnívají** 
 ## Sentence No. 2405 - 
 Bylo by žádoucí , kdyby se lidé nejprve zeptali Potřebujete pomoci ? , a teprve potom se podle toho zařídili . 
 ### Existing MWEs: 
@@ -513,7 +519,6 @@ To pravím , že by to řeč naši nectilo , kdyby ona proti gramatickým pravid
 2- **se neokázala** (IReflV)
 ### Identified MWEs: 
 1- **se plazila** 
-2- **se neokázala** 
 ## Sentence No. 2720 - 
 Budeme mít potíže nalézt výzkumné talenty , a zejména učitele , schopné poskytnout kvalitní výchovu malému kolektivu studentů . 
 ### Existing MWEs: 
@@ -560,7 +565,7 @@ Spoluautor televizního pořadu Bago věnoval skupině Už jsme doma krátký pr
 1- **Už jsme doma** (ID, 2)
 2- **se setkal** (IReflV, 29)
 ### Identified MWEs: 
-1- **Už jsme profil** 
+1- **Už jsme doma** 
 2- **se setkal** 
 ## Sentence No. 3670 - 
 Přelíčení bylo několikrát odloženo , někdy se zdálo , že celý případ bude uzavřen a založen ad acta . 
@@ -604,7 +609,7 @@ Na bruslení jsem měl dost času , protože jsem si původně myslel , že zůs
 1- **jsem měl dost času** (LVC)
 2- **jsem si myslel** (IReflV, 5)
 ### Identified MWEs: 
-1- **jsem měl času** 
+1- **jsem měl dost času** 
 2- **si myslel** 
 ## Sentence No. 4205 - 
 Vzhledem k mé vyšší postavě trvá trochu déle , než se dostanu do bruslařské formy a asi jsem ze začátku lidem připadal dost neohrabaný . " 
@@ -657,7 +662,7 @@ V Německu se po nehorázném zdůvodnění mírného rozsudku nad pravicovým r
 1- **se zvedla** (IReflV, 3)
 2- **se dopustil** (IReflV, 16)
 ### Identified MWEs: 
-1- **se zvedla** 
+1- **se se dopustil** 
 ## Sentence No. 6370 - 
 V Rakousku se muži dožívají 72 let , ve Švédsku 74 , v Maďarsku za 10 let od roku 1981 do roku 1991 se snížil průměrný věk z 65.5 na 65 let . 
 ### Existing MWEs: 
@@ -678,7 +683,7 @@ Zdůraznila však , že při jednání ústřední volební komise by se všech 
 1- **by se mohlo domluvit** (IReflV)
 2- **se účastní** (IReflV, 18)
 ### Identified MWEs: 
-1- **by se mohlo domluvit** 
+1- **se se účastní** 
 ## Sentence No. 7245 - 
 Tento stárnoucí vrátný na gynekologické klinice cítí potřebu kát se za hříchy , jež podle jeho názoru provedli muži na ženách . 
 ### Existing MWEs: 
@@ -686,8 +691,7 @@ Tento stárnoucí vrátný na gynekologické klinice cítí potřebu kát se za 
 2- **kát se** (IReflV)
 ### Identified MWEs: 
 1- **cítí potřebu** 
-2- **kát se** 
-3- **provedli muži** 
+2- **se provedli** 
 ## Sentence No. 7430 - 
 Již několik ministrů a poslanců parlamentu projevilo zájem startovat ve druhém ročníku běhu Špilberkem , který se uskuteční 15 . října v parku tohoto brněnského hradu . 
 ### Existing MWEs: 
@@ -716,8 +720,6 @@ Rozroste - li se válka natolik , že bude rozhodčích málo a že budou ješt�
 ### Existing MWEs: 
 1- **Rozroste se** (IReflV, 1)
 2- **ponechají na pospas** (ID)
-### Identified MWEs: 
-1- **se bude málo** 
 ## Sentence No. 7955 - 
 Podává informaci o způsobech jejího měření i o metodách , jimiž se vyspělé země snaží této hrozbě čelit . 
 ### Existing MWEs: 
@@ -753,6 +755,7 @@ Mezi výjimkami , které v zimní přestávce fotbalové ligy se snažily rozhý
 2- **rozhýbat stojaté vody** (ID, 1)
 ### Identified MWEs: 
 1- **se snažily** 
+2- **rozhýbat stojaté vody** 
 ## Sentence No. 8770 - 
 Při kontaktování spolupracovníků nebyl spolehlivý , získané poznatky často nebyly plně prokazatelné , dopouštěl se překročení mezí uložených nejen zákonem . 
 ### Existing MWEs: 
@@ -781,8 +784,6 @@ Jeho hnutí podle něj velmi uvítalo , že se KDU - ČSL jako koaliční strana
 ### Existing MWEs: 
 1- **se vyslovila** (IReflV, 25)
 2- **Máme názory** (LVC, 5)
-### Identified MWEs: 
-1- **se vyslovila** 
 ## Sentence No. 9350 - 
 Zatím soukromě téměř všichni členové parlamentní komise s vládou nesouhlasí , ale netroufají si svůj názor otevřeně projevit . 
 ### Existing MWEs: 
@@ -834,6 +835,7 @@ Realitní kancelář podala návrh na vklad do katastru nemovitostí - nutný p�
 2- **dali souhlas** (LVC, 1)
 ### Identified MWEs: 
 1- **podala návrh** 
+2- **zaplacením ceny** 
 ## Sentence No. 10335 - 
 Ukázalo se však , že nový vlastník nemovitost zastavil , z inkasovaných peněz ( na zástavu 30 milionů Kč vybral polovinu ) nezaplatil ani dlužné nájemné , které bez úroků z prodlení činilo do uzavření kupní smlouvy asi 15 milionů , a za získaný úvěr koupil další nemovitost . 
 ### Existing MWEs: 
@@ -868,7 +870,7 @@ Chvíli to sice trvalo , ale podařilo se to , co jsme vlastně před rokem měl
 2- **to jsme měli na mysli** (ID)
 ### Identified MWEs: 
 1- **podařilo se** 
-2- **na mysli** 
+2- **měli na mysli** 
 ## Sentence No. 10930 - 
 První chybou , kterou prezident udělal , bylo , že vůbec dopustil , aby se z kubánské migrace stala závažná aféra . 
 ### Existing MWEs: 
@@ -975,6 +977,8 @@ Děti chtěly psy líbat a chrti si to trpělivě a důstojně dávali líbit .
 ### Existing MWEs: 
 1- **si dávali líbit** (ID)
 2- **si dávali** (IReflV, 2), Embedded
+### Identified MWEs: 
+1- **dávali líbit** 
 ## Sentence No. 14075 - 
 " Zároveň však oceňuji , že vedení podniku se k prvnímu kroku - nevyrábět na sklad - rozhodlo již dnes a nikoliv třeba za půl roku , kdy by se vzniklá situace pravděpodobně stala naprosto neřešitelnou . " 
 ### Existing MWEs: 
@@ -988,8 +992,7 @@ Jako by se buňka kolem tebe roztahovala , když chceš , dostaneš se jinam .
 1- **by se roztahovala** (IReflV)
 2- **dostaneš se** (IReflV, 12)
 ### Identified MWEs: 
-1- **by se roztahovala** 
-2- **dostaneš se** 
+1- **by se chceš dostaneš se** 
 ## Sentence No. 14560 - 
 Zeptal jsem se na to pana profesora Vyskočila - laskavého a trpělivého patrona mého divadelního snažení - a on se tomu smál . " 
 ### Existing MWEs: 
@@ -1019,12 +1022,14 @@ Ptejme se proto na to , co podstatného se u našich vyspělých západoevropsk�
 2- **se odehrálo** (IReflV, 13)
 ### Identified MWEs: 
 1- **Ptejme se** 
-2- **podstatného se** 
+2- **se odehrálo** 
 ## Sentence No. 15185 - 
 Předseda vlády se jako vždy , když jde o slovo začínající na eko - , ale s nešťastnou záměnou hlásky l za n , vyjádří k věci s despektem , jen tak mimochodem ji zpolitizuje , tím zdiskredituje a jako nepřijatelnou shodí pod stůl . 
 ### Existing MWEs: 
 1- **se vyjádří** (IReflV, 29)
 2- **shodí pod stůl** (ID)
+### Identified MWEs: 
+1- **vyjádří věci** 
 ## Sentence No. 15360 - 
 Důkazem toho je , že jakmile se projevila poptávka , výkupní cena se rapidně zvýšila - u lepenky , která se před časem nebrala ani zadarmo , dokonce na 1.40 Kč za kilogram . 
 ### Existing MWEs: 
@@ -1062,7 +1067,7 @@ Postupem času pak narůstal tlak nově se tvořícího českého týmu a po ple
 1- **se tvořícího** (IReflV, 1)
 2- **se podařilo** (IReflV, 137)
 ### Identified MWEs: 
-1- **se podařilo** 
+1- **se tvořícího** 
 ## Sentence No. 15930 - 
 Zdá se , že v poslední době se evropská veřejnost rozpomíná , a je dobře , že je to za přispění nové , poválečné romské inteligence . 
 ### Existing MWEs: 
@@ -1084,8 +1089,7 @@ Nevěří v sebe , nevěří v ostatní a jejich život se klikatí , má různ�
 1- **se klikatí** (IReflV)
 2- **se hromadí** (IReflV, 1)
 ### Identified MWEs: 
-1- **se klikatí** 
-2- **se hromadí** 
+1- **se hromadí** 
 ## Sentence No. 16545 - 
 Byl jsem se podívat na video a to mi jasně ukázalo , že za stavu 1 : 2 , kdy jsme se dostávali do šance , nebyl Mičinec v ofsajdu . 
 ### Existing MWEs: 
@@ -1130,7 +1134,8 @@ Nestalo se , že by proti tomu protestovali , ale nestalo se také zhola nic jin
 2- **nestalo se** (IReflV, 49)
 ### Identified MWEs: 
 1- **Nestalo se** 
-2- **nestalo se** 
+2- **by protestovali** 
+3- **nestalo se** 
 ## Sentence No. 17240 - 
 Při přijímání studentů hraje samozřejmě hlavní roli vynikající prospěch a úspěšné zkoušky , nicméně při posuzování odvolání ( kterých je letos 500 ) bereme v úvahu potřeby Pohraniční policie , zejména na hranici se Slovenskem , takže určitou výhodu mají zájemci z příhraničních oblastí , řekl Šilpoch . 
 ### Existing MWEs: 
@@ -1156,14 +1161,12 @@ Někteří výtvarní autoři , kteří vyšli z alternativního neoficiálního
 1- **mají zpoždění** (LVC, 2)
 2- **mají zkušenost** (LVC, 11), Interleaving 
 ### Identified MWEs: 
-1- **se neškolili** 
+1- **se mají zpoždění** 
 ## Sentence No. 18025 - 
 Pan Alexander Mitrofanov z Rudého práva mě v článku " LN se chlubí cizím peřím " před svými čtenáři obviňuje , že jsem prý na víkendovém sněmu Svobodných demokratů zcizil rozhovor s Pavlem Rychetským . 
 ### Existing MWEs: 
 1- **se chlubí cizím peřím** (ID)
 2- **se chlubí** (IReflV), Embedded
-### Identified MWEs: 
-1- **se chlubí** 
 ## Sentence No. 18185 - 
 Je na čase zabývat se odpovědně státními svátky . 
 ### Existing MWEs: 
@@ -1218,7 +1221,7 @@ Petr upozorňoval , že Sparta odstupné dostat musí , ale zástupci Detroitu m
 2- **nemá nárok** (LVC, 10)
 ### Identified MWEs: 
 1- **nemá obavy** 
-2- **nemá Sparta** 
+2- **nemá nárok** 
 ## Sentence No. 19130 - 
 Myslíte si , že v případě neshody s Detroitem by se sám vrátil ? 
 ### Existing MWEs: 
@@ -1247,6 +1250,8 @@ Stát by si totiž neměl osobovat právo vstupovat nepřímými daněmi do trž
 ### Existing MWEs: 
 1- **by si neměl osobovat právo** (ID)
 2- **by si neměl osobovat** (IReflV), Embedded
+### Identified MWEs: 
+1- **neměl osobovat právo** 
 ## Sentence No. 19740 - 
 Dnes tento pocit , že jsou pro Británii pouze břemenem , s nímž si neví dost dobře rady , v ulsterských protestantech pouze zesílil - a není tak zcela neopodstatněný . 
 ### Existing MWEs: 
@@ -1288,7 +1293,7 @@ Pravá vypracovává podněty paralelně , dává jim celkový tvar a umožňuje
 1- **vztahující se** (IReflV, 1)
 2- **mít pocity** (LVC, 21)
 ### Identified MWEs: 
-1- **vztahující se** 
+1- **dává vztahující se** 
 ## Sentence No. 21490 - 
 Zda by si děti více přály lákavé metafory dětského světa ( cirkus , zámek , parník ) , zda by si spíše nezasloužily nejkvalitnější soudobou architekturu bez ohledu na její prvoplánovou přitažlivost , anebo zda by je architektura jejich školek neměla hlavně vychovávat ke skromnosti , pravdymilovnosti a k ekologickému myšlení , na to se zatím nenašla jednoznačná odpověď . 
 ### Existing MWEs: 
@@ -1304,7 +1309,6 @@ Zda by si děti více přály lákavé metafory dětského světa ( cirkus , zá
 2- **se zlepšovat** (IReflV, 2)
 ### Identified MWEs: 
 1- **se projevila** 
-2- **se zlepšovat** 
 ## Sentence No. 21690 - 
 Není náhoda , že toto téma se znovu a znovu vracelo v těch Hovorech a sám se též k tomuto tématu vracím . 
 ### Existing MWEs: 
@@ -1325,6 +1329,8 @@ Očistíme - li tuto kvintesenci od toporné ouředničtiny oficiálních papír
 ### Existing MWEs: 
 1- **Dejme právo** (LVC, 1)
 2- **chce přivést na svět** (ID)
+### Identified MWEs: 
+1- **přivést na svět** 
 ## Sentence No. 21860 - 
 Jejich přístup k rytmu je výrazně odlišný od souborů obdobného zaměření , bubeník ( a zároveň i cembalista ) István Márta se neomezuje na hraní nekonečně dlouhých ostinat , nýbrž improvizuje , nevyhýbá se synkopám a dokonce ani polyrytmům . 
 ### Existing MWEs: 
@@ -1390,7 +1396,6 @@ Mládež na Žofíně si tehdy , zdá se , vzala řeč Ludvíka Vaculíka k srdc
 2- **zdá se** (IReflV, 48)
 ### Identified MWEs: 
 1- **zdá se** 
-2- **zvolila si** 
 ## Sentence No. 22810 - 
 Z uhrančivě krásné Alžběty , jež podle svého vyprávění přináší mužům jen zkázu , se vyklube životem ubitá prostitutka , jež se ve skutečnosti jmenuje Eva . 
 ### Existing MWEs: 
@@ -1421,7 +1426,6 @@ Na tom by nebylo nic špatného , kdyby nebylo žadatelů z chudých rodin , kte
 2- **se nedostane** (IReflV, 112)
 ### Identified MWEs: 
 1- **se neprovinili** 
-2- **se nedostane** 
 ## Sentence No. 23585 - 
 Poněvadž ale mnoho z agendy , kterou konfederace zabezpečovala , přejde na republikové svazy , jsme toho názoru , že by se ze schopných lidí neměl ztratit pokud možno nikdo . 
 ### Existing MWEs: 
@@ -1450,7 +1454,7 @@ Jistý učitel podal dokonce letos v létě na vládu ke švýcarskému Ústavn�
 1- **podal žalobu** (LVC, 7)
 2- **se uchází** (IReflV, 12)
 ### Identified MWEs: 
-1- **podal létě** 
+1- **podal žalobu** 
 2- **se uchází** 
 ## Sentence No. 23860 - 
 Ba co víc : Švýcaři by s největší pravděpodobností přišli i o své právo vynutit si na vládě referendum nebo by se přinejmenším museli smířit s jeho radikálním okleštěním . 
@@ -1472,7 +1476,7 @@ Svěřenci trenéra Josefa Fröhlicha zanechali velký dojem a na rozhodující 
 2- **stálo v cestě** (ID)
 ### Identified MWEs: 
 1- **zanechali dojem** 
-2- **se bude v Přelouči** 
+2- **se bude v vzpomínat** 
 ## Sentence No. 24095 - 
 Posluchač a příznivec přesto , dovolím si tvrdit , nemůže současný život hodit za hlavu . 
 ### Existing MWEs: 
@@ -1501,7 +1505,7 @@ Toto nanejvýš zajímavé čtení musíme dát do souladu se skutečností , ž
 1- **musíme dát do souladu** (ID)
 2- **zabývajících se** (IReflV, 10)
 ### Identified MWEs: 
-1- **musíme dát do souladu** 
+1- **čtení musíme dát do souladu** 
 2- **se uvolnila** 
 3- **zabývajících se** 
 ## Sentence No. 24690 - 
@@ -1575,8 +1579,6 @@ Na vině však byla mlha , která se rozhostila nad ledem po rozbruslení .
 ### Existing MWEs: 
 1- **Na vině byla** (ID)
 2- **se rozhostila** (IReflV)
-### Identified MWEs: 
-1- **se rozhostila** 
 ## Sentence No. 26600 - 
 Ve svém článku , nazvaném Každý druhý ekologem ( LN 19 . 8 . 94 ) , se náš přední entomolog Dalibor Povolný ohrazuje proti tomu , aby se za ekology vydával kdekdo , včetně sociologů , a tím obor profanoval . 
 ### Existing MWEs: 
@@ -1598,8 +1600,6 @@ Institut sleduje kolem 50 způsobů trávení volného času , divadlo a kino se
 ### Existing MWEs: 
 2- **trávení času** (LVC)
 1- **se umísťují** (IReflV)
-### Identified MWEs: 
-1- **se umísťují** 
 ## Sentence No. 26830 - 
 Podle údajů , které má k dispozici Ústav pro informace ve vzdělávání , se také na vysoké školy hlásí více žen než mužů . 
 ### Existing MWEs: 
@@ -1623,7 +1623,6 @@ Sotva se exportérům podařilo sjednat v některém přístavu trajekt do Evrop
 ### Identified MWEs: 
 1- **se podařilo** 
 2- **objevily se** 
-3- **se nalodily** 
 ## Sentence No. 27875 - 
 Naplnila se tak slova žižkovského trenéra Kotrby , který se celou zimu obával opakování loňského nevydařeného startu do jarní sezóny . 
 ### Existing MWEs: 
@@ -1785,7 +1784,7 @@ Kdo si dnes vydluží schodkem v rozpočtu , aby později zaplatil ten , koho se
 1- **si vydluží** (IReflV)
 2- **se neptá** (IReflV, 20)
 ### Identified MWEs: 
-1- **si vydluží** 
+1- **si zaplatil** 
 2- **se neptá** 
 ## Sentence No. 31385 - 
 Pro všechny , kteří mají důvod k nespokojenosti , je zde PDS , čistá opozice , která nenese žádnou zodpovědnost . 
@@ -1816,14 +1815,15 @@ Obhájce titulu si mohl ve 4 . kole zopakovat loňské finále s Piolinem ( 15 .
 1- **rozdá si to** (ID)
 2- **rozdá si** (IReflV), Embedded
 ### Identified MWEs: 
-1- **si mohl vyřadil** 
+1- **si mohl rozdá** 
+2- **si mohl rozdá** 
 ## Sentence No. 32020 - 
 Měla jsem v úmyslu obsadit všechny soutěže a když Toddovi odřekla zraněná Helena , domluvili jsme se spolu . 
 ### Existing MWEs: 
 1- **Měla jsem v úmyslu** (ID)
 2- **domluvili jsme se** (IReflV, 2)
 ### Identified MWEs: 
-1- **domluvili jsme se spolu** 
+1- **domluvili jsme se** 
 ## Sentence No. 32080 - 
 Pracovníci stavební policie by měli mít stejné pravomoci jako zaměstnanci stavebního úřadu i jako městští policisté . 
 ### Existing MWEs: 
@@ -1844,7 +1844,7 @@ Těm , jimž se v tomto případě spravedlnost zdá hodně slepá , zbývá je�
 1- **se zdá** (IReflV, 61)
 2- **se bude odvolávat** (IReflV)
 ### Identified MWEs: 
-1- **se zbývá** 
+1- **se zdá** 
 2- **se bude odvolávat** 
 ## Sentence No. 32300 - 
 Místopředseda irácké vlády Tárik Azíz popřel včera v Londýně pravdivost informací , že Bagdád udržuje s Izraelem kontakty , jejichž smyslem je uzavřít mír se židovským státem výměnou za zrušení sankcí OSN proti režimu Saddáma Husajna . 
@@ -1864,7 +1864,7 @@ Petr Kysel se stejně jako většina ostatních přiklání k názoru , že po u
 1- **se vrátil** (IReflV, 70)
 2- **se chystá** (IReflV, 19)
 ### Identified MWEs: 
-1- **se střílí** 
+1- **se zabíjí** 
 2- **se vrátil** 
 3- **se chystá** 
 ## Sentence No. 32420 - 
@@ -1875,6 +1875,7 @@ Rovněž ředitelka IVVM Eliška Rendlová se domnívá , že standardní rozdí
 ### Identified MWEs: 
 1- **se domnívá** 
 2- **se projevuje** 
+3- **dán stylem** 
 ## Sentence No. 32605 - 
 Českým skokanům se dařilo - Sakalovi se zřejmě vrací forma , protože vyhrál 1 . i 2 . kolo . 
 ### Existing MWEs: 
@@ -1939,8 +1940,6 @@ Do jaké další extrémní akce se Pavel Nechanský pustí ?
 ### Existing MWEs: 
 1- **Do akce se pustí** (LVC)
 2- **se pustí** (IReflV, 4), Embedded
-### Identified MWEs: 
-1- **se pustí** 
 ## Sentence No. 34265 - 
 Giga se přesvědčila , že stále ještě existuje hodně menších i středních firem , které s počítači nemají žádné zkušenosti . 
 ### Existing MWEs: 
@@ -2086,7 +2085,8 @@ Ministři sedmi ekonomicky nejvyspělejších zemí světa zahájili včera v Br
 1- **uzavřely dohodu** (LVC, 10)
 2- **týkající se** (IReflV, 25)
 ### Identified MWEs: 
-1- **týkající se** 
+1- **uzavřely dohodu** 
+2- **týkající se** 
 ## Sentence No. 38610 - 
 Prvním krokem k takovému cíli je rozvoj regionálních hospodářských spoluprací se záměrem vytvoření společensko - politického spojenectví mezi státy , které se mohou stát základem ke změně anomálie hospodářské a politické geografie kontinentu , což se hlavní měrou podílí na pokračujícím zaostávání a " rozvoji nerozvojovosti " Afriky . 
 ### Existing MWEs: 
@@ -2127,7 +2127,8 @@ Na Slovensku je všeobecně rozšířen názor , že za čtrnáctiprocentní až
 1- **nese odpovědnost** (LVC, 6)
 2- **přijal rozhodnutí** (LVC)
 ### Identified MWEs: 
-1- **nese odpovědnost** 
+1- **rozšířen názor** 
+2- **nese odpovědnost** 
 ## Sentence No. 40625 - 
 Mnozí prodejci se obávají , že při současném růstu cen se bude tento ukazatel spokojenosti snižovat . 
 ### Existing MWEs: 
@@ -2177,7 +2178,7 @@ Ve speciálním povlečení však nemají příliš šancí se šířit .
 1- **nemají příliš šancí** (LVC)
 2- **se šířit** (IReflV, 4)
 ### Identified MWEs: 
-1- **nemají šancí** 
+1- **nemají příliš šancí** 
 2- **se šířit** 
 ## Sentence No. 42380 - 
 Podle údajů , které mají LN k dispozici , se na vládních úvěrech , které byly od počátku poskytnuty v konvertibilních měnách , nejvíce podílejí arabské státy . 
@@ -2193,7 +2194,7 @@ Najdeme v něm všechna velká témata , všechny vášně a všechny neustále 
 1- **se vracející** (IReflV, 1)
 2- **hledání smyslu** (LVC)
 ### Identified MWEs: 
-1- **se poslouchat** 
+1- **se vracející** 
 ## Sentence No. 42695 - 
 Představy se však podstatně rozcházely v tom , jak důsledná a dalekosáhlá má tato změna být a jak se má koho dotknout . 
 ### Existing MWEs: 
@@ -2231,7 +2232,6 @@ Názor maďarských policistů , kteří se zúčastnili zápasu a prohlásili ,
 2- **vinu nesou** (LVC)
 ### Identified MWEs: 
 1- **se zúčastnili** 
-2- **nesou výtržníci** 
 ## Sentence No. 43270 - 
 Sponzor tohoto klubu Jiří Chein , majitel rychlého občerstvení v Praze 4 , se dočetl v novinách , o čemž neměl ani tušení , že totiž Hrdina po návratu domů by případně za Popovice rád hrál , poněvadž tam má mnoho kamarádů , bývalých hráčů Sparty , Hajdůška , Honce , atd . 
 ### Existing MWEs: 
@@ -2246,7 +2246,7 @@ Princ Charles , pokud by se chtěl stát králem , by se v případě rozvodu ne
 2- **by se nesměl oženit** (IReflV)
 ### Identified MWEs: 
 1- **by se chtěl stát** 
-2- **by se nesměl** 
+2- **by se nesměl oženit** 
 ## Sentence No. 43800 - 
 Alves dal v zápase Zlatého poháru Mexiko - Martinique ( 9 : 0 ) sedm branek , což se předtím podařilo Colemu z Austrálie v srpnu 1981 v utkání kvalifikace MS Austrálie - Fidži ( 10 : 0 ) . 
 ### Existing MWEs: 
@@ -2424,7 +2424,8 @@ Určitě by neškodilo , kdyby byl natočen v duchu více strohém a méně líb
 ### Existing MWEs: 
 1- **vyvaroval se** (IReflV)
 ### Identified MWEs: 
-1- **v duchu závěru** 
+1- **v duchu více** 
+2- **vyvaroval se** 
 ## Sentence No. 795 - 
 Se Zlínem jsem loni uhrál v Ostravě bezbrankovou remízu , proto si myslím , že ani s Brnem nejsem bez šancí . 
 ### Existing MWEs: 
@@ -2517,7 +2518,6 @@ Zároveň se dva systémové prvky výhodně spojí v jeden a celá administrati
 1- **se spojí** (IReflV, 3)
 ### Identified MWEs: 
 1- **se spojí** 
-2- **se zredukuje** 
 ## Sentence No. 1175 - 
 Američtí volejbalisté Kiraly a Steffensemse se stali novými profesionálními mistry světa v plážovém volejbalu federace AVP . 
 ### Existing MWEs: 
@@ -2528,8 +2528,6 @@ Američtí volejbalisté Kiraly a Steffensemse se stali novými profesionálním
 Na nákladech se bude vedle Grundigu , britské vlády a města Liverpool podílet i Evropská unie , neboť jde o evropský projekt a pro členy Unie bude vyučování zdarma . 
 ### Existing MWEs: 
 1- **se bude podílet** (IReflV, 5)
-### Identified MWEs: 
-1- **se bude Grundigu** 
 ## Sentence No. 1205 - 
 Ministři kultury České republiky a Slovenska Pavel Tigrid a Ľubomír Roman budou dnes jednat v Praze o řešení současné krizové situace týkající se vrácení Bojnického oltáře Slovensku . 
 ### Existing MWEs: 
@@ -2588,8 +2586,6 @@ Druhým jednacím dnem pokračoval XII . olympijský kongres , kterého se zúč
 Mám tu přátele , chodíme na ryby , hrát tenis , navštěvujeme se . 
 ### Existing MWEs: 
 1- **chodíme na ryby** (ID)
-### Identified MWEs: 
-1- **navštěvujeme se** 
 ## Sentence No. 1465 - 
 Cizinec si tam nemůže moc dovolit . 
 ### Existing MWEs: 
@@ -2733,7 +2729,7 @@ Věřil jsem , že po přestávce se nám bude proti odkryté obraně soupeře h
 ### Existing MWEs: 
 1- **jsme neměli více sil** (LVC)
 ### Identified MWEs: 
-1- **se bude lépe** 
+1- **se bude hrát** 
 ## Sentence No. 1960 - 
 Co já jsem si jen na turnajích vytrpěla se svým pejskem KD , zdůvodnila při US Open svůj zamýšlený krok Navrátilová . 
 ### Existing MWEs: 
@@ -2748,6 +2744,8 @@ Navrátilová se domnívá , že počet turnajů neúměrně vzrostl , čímž k
 S orientací ČSFR na NATO , jež dala popud k přezbrojení armády , ucítily zahraniční firmy šanci , kterou plně využívaly . 
 ### Existing MWEs: 
 1- **dala popud** (LVC, 1)
+### Identified MWEs: 
+1- **dala popud** 
 ## Sentence No. 2025 - 
 Od r . 1991 je předsedou Svazu zaměstnavatelů v české energetice a letos se stal též viceprezidentem Svazu průmyslu ČR . 
 ### Existing MWEs: 
@@ -2768,8 +2766,6 @@ Dobré znalosti a obsáhlé vědění mají častěji větší význam pro ženy
 Třeba se zamyslí nad erotikou za peníze poplatníků , nad stlačením reklamního času obou programů do hlavního vysílacího času programu prvního , nad skrytou reklamou , nad objektivností ve věcech vlastního zájmu ( viz případ fotbalových přenosů ) . 
 ### Existing MWEs: 
 1- **se zamyslí** (IReflV)
-### Identified MWEs: 
-1- **se zamyslí** 
 ## Sentence No. 2125 - 
 Více než 60 lidí se otrávilo po požití vody z čerstvě opraveného vodovodu ve městě Kiseljovsku v ruském Kuzbasu ( Sibiř ) . 
 ### Existing MWEs: 
@@ -2782,7 +2778,6 @@ Jelikož si Klaus zvykl sám rozdělovat argumenty na věcné a nevěcné a ne p
 1- **si zvykl** (IReflV, 7)
 ### Identified MWEs: 
 1- **si zvykl** 
-2- **se odřezává** 
 ## Sentence No. 2155 - 
 Zdá se , že debata o tom , zdali klausule o vyrovnanosti rozpočtu je nebo není pro ústavu příliš konkrétní , je celkem legitimní . 
 ### Existing MWEs: 
@@ -2829,8 +2824,6 @@ Je to důsledek toho , že mozkový i osobnostní systém se rozvíjí přiměř
 Aby mohl nevidomý člověk vést důstojný život , je třeba mu poskytnout určité finanční , ale i jiné sociální úlevy . 
 ### Existing MWEs: 
 1- **mohl vést život** (ID)
-### Identified MWEs: 
-1- **vést život** 
 ## Sentence No. 2365 - 
 Pocit vlastní důstojnosti a pocit , že okolí věří , že i v téhle situaci se vše zlepší . 
 ### Existing MWEs: 
@@ -2872,12 +2865,11 @@ Dnes se ale stále více hovoří o tom , že pokud přijdou nové , velké pot�
 ### Identified MWEs: 
 1- **se hovoří** 
 2- **mohou se objevit** 
+3- **se důvěry** 
 ## Sentence No. 2425 - 
 Jako mladík chce na sebe upoutat pozornost , pak hraje pro novináře , ve třetí etapě se zaopatřuje na stáří a závěrečným stadiem je hra pro potěšení . 
 ### Existing MWEs: 
 1- **chce upoutat pozornost** (ID)
-### Identified MWEs: 
-1- **se zaopatřuje** 
 ## Sentence No. 2455 - 
 Před tréninkem si proto popovídal hlavně s útočníkem českého mužstva Tomášem Jelínkem , kterého podobné potíže trápily v minulosti několikrát . 
 ### Existing MWEs: 
@@ -2906,7 +2898,7 @@ Nikdo vlastně netušil , kde se berou peníze na jeho vydávání , jen někte�
 ### Existing MWEs: 
 1- **udělal chybu** (LVC, 2)
 ### Identified MWEs: 
-1- **udělal chybu** 
+1- **udělal těžkou chybu** 
 ## Sentence No. 2505 - 
 Novým šéfredaktorem Hlasatele se stal Víťa Švícko . 
 ### Existing MWEs: 
@@ -2958,7 +2950,7 @@ Již od časných hodin se před budovou Černínského paláce , který je síd
 ### Existing MWEs: 
 1- **se tvořila** (IReflV)
 ### Identified MWEs: 
-1- **se tvořila** 
+1- **se chtěli příležitosti** 
 ## Sentence No. 2690 - 
 U politiků , ale i ve veřejnosti se objevují pochyby o účelnosti vlastního českého výzkumu . 
 ### Existing MWEs: 
@@ -2976,7 +2968,7 @@ Je tedy namístě hýčkat dorost a nehřešit na to , že mladý badatel pracuj
 ### Existing MWEs: 
 1- **Je namístě** (ID, 4)
 ### Identified MWEs: 
-1- **Je hýčkat dorost** 
+1- **Je to** 
 ## Sentence No. 2740 - 
 Na jeho vystoupení ve Flushing Meadows padl tehdy jak ulitý popěvek švédské skupiny ABBA The Winner Takes It All ( Vítěz bere vše ) . 
 ### Existing MWEs: 
@@ -2995,8 +2987,6 @@ Autorizace na výrobu elektřiny , plynu a tepla či na jejich rozvod se má ud�
 Je jisté , že vzhledem ke vstupu Rakouska , Norska , Švédska a Finska do Unie , s nímž se počítá od ledna příštího roku , se dvanáctka poněkud zahltila , takže další rozšiřování bude extrémně komplikované . 
 ### Existing MWEs: 
 1- **se zahltila** (IReflV)
-### Identified MWEs: 
-1- **se zahltila** 
 ## Sentence No. 2840 - 
 Slavnostního otevření se zúčastnili i příbuzní generálů Eisenhowera a de Gaulla a hosty festivalu jsou také hollywoodské hvězdy J . Nicholson , T . Hanks , N . Cage a Danny de Vito . 
 ### Existing MWEs: 
@@ -3056,7 +3046,7 @@ Skutečnost , že se na realizaci těchto projektů v oblastech s vysokou nezam�
 1- **se budou podílet** (IReflV, 5)
 ### Identified MWEs: 
 1- **se budou podílet** 
-2- **by nepřistoupila** 
+2- **by na uhrazení dluhu** 
 ## Sentence No. 3040 - 
 Mohla se opřít o soubor s velmi pěknou hereckou úrovní ; 
 ### Existing MWEs: 
@@ -3184,13 +3174,13 @@ Snímek uvedlo letos v lednu divadlo Archa a jediné představení s živým hud
 ### Existing MWEs: 
 1- **Už jsme doma** (ID, 2)
 ### Identified MWEs: 
-1- **Už jsme bylo vyprodané** 
+1- **Už jsme doma** 
 ## Sentence No. 3460 - 
 Bizarní výjevy z Velíškových obrazů se ve snímku Jaro , peklo , podzim , zima zhmotňují ve fiktivní krajině , kde na konci každé cesty čeká na poutníka bezpečný domeček . 
 ### Existing MWEs: 
 1- **se zhmotňují** (IReflV)
 ### Identified MWEs: 
-1- **se zhmotňují** 
+1- **se čeká** 
 ## Sentence No. 3465 - 
 Proti " preferování " čtyř zemí visegrádské skupiny ( Polsko , Maďarsko , Česká republika a Slovensko ) před balkánskými státy v souvislosti se vstupem do Severoatlantické aliance ( NATO ) se vyslovil řecký ministr obrany Jerasimos Arsenis . 
 ### Existing MWEs: 
@@ -3366,8 +3356,6 @@ Jak se ukazuje , hlavním motivem byla záplava výhružných dopisů , v nichž
 Velmi dobře si vedli čeští závodníci Havel a Čáslavský , kteří skončili na třetím a čtvrtém místě . 
 ### Existing MWEs: 
 1- **si vedli** (IReflV, 9)
-### Identified MWEs: 
-1- **vedli závodníci** 
 ## Sentence No. 4220 - 
 Důvodem je snaha pokusit se pro Litvínov zachránit účast v play off . 
 ### Existing MWEs: 
@@ -3413,7 +3401,7 @@ Případ Bohemia podle Kryčera negativně působí v zahraničí : obchody na b
 ### Existing MWEs: 
 1- **se odvracet** (IReflV, 1)
 ### Identified MWEs: 
-1- **se začínají** 
+1- **se odvracet** 
 ## Sentence No. 4390 - 
 Gur připustil , že Christopher mohl mít z jednání kladný dojem , nicméně dodal : " Podle našich závěrů ještě nebyly vytvořeny podmínky , které by nám umožnily říci , že je možné přejít k mnohem významnější fázi v rozhovorech . " 
 ### Existing MWEs: 
@@ -3423,8 +3411,7 @@ Motocykly se již tradičně vyvážejí do Argentiny - loni se na celkovém če
 ### Existing MWEs: 
 1- **se podílely** (IReflV, 50)
 ### Identified MWEs: 
-1- **se vyvážejí** 
-2- **se podílely** 
+1- **se se podílely** 
 ## Sentence No. 4540 - 
 Bratislavský chemický koncern Slovnaft jedná v těchto dnech s pěti západními firmami o kooperaci a pravděpodobně ještě letos uzavře s jednou z nich dohodu o kapitálové účasti . 
 ### Existing MWEs: 
@@ -3518,8 +3505,7 @@ Mercedes pronásledovaný policejní hlídkou na uherskobrodské křižovatce do
 ### Existing MWEs: 
 1- **srazil se** (IReflV, 1)
 ### Identified MWEs: 
-1- **dostal smyk** 
-2- **srazil se** 
+1- **srazil se** 
 ## Sentence No. 5145 - 
 Totiž že se opatření dotkne také vztahu k české koruně . 
 ### Existing MWEs: 
@@ -3600,6 +3586,8 @@ Dalších 62 milionů korun si vyžádá výstavba vysílačů a převaděčů s
 O to více překvapila hladkost , s níž tento návrh ve vládě prošel : bezkonfliktní průběh jednání si pochvaloval i premiér . 
 ### Existing MWEs: 
 1- **si pochvaloval** (IReflV, 1)
+### Identified MWEs: 
+1- **si pochvaloval** 
 ## Sentence No. 5605 - 
 Prostý selský rozum se však bouří : o co důležitější jsou pro region jeho kompetence než volba místa , kde bude sídlit jeho ústřední orgán . 
 ### Existing MWEs: 
@@ -3633,7 +3621,7 @@ A jestliže se většina poslaneckého sboru ( tak jako pan poslanec Hofhanzl ) 
 ### Existing MWEs: 
 1- **netýkajících se** (IReflV, 25)
 ### Identified MWEs: 
-1- **se neobohatila** 
+1- **se nezneužívá** 
 2- **netýkajících se** 
 ## Sentence No. 5710 - 
 Hodlá tím předejít tomu , aby se redukce armády stala záminkou k vyřizování účtů . 
@@ -3681,6 +3669,8 @@ Vždyť v téhle zemi se zatím žádnému skutečně velkému podvodníkovi nez
 Jelikož na generálního ředitele Bohemie bez policejních zkušeností byla uvalena vazba , do Bruselu asi nepojede . 
 ### Existing MWEs: 
 1- **byla uvalena vazba** (LVC, 1)
+### Identified MWEs: 
+1- **uvalena vazba** 
 ## Sentence No. 5885 - 
 Pokud by totiž nevyužili svého předkupního práva , snížil by se jejich vliv v bance . 
 ### Existing MWEs: 
@@ -3696,7 +3686,7 @@ Počítá se nicméně s tím , že jestliže parlament dal zelenou Černomyrdin
 ### Existing MWEs: 
 1- **dal zelenou** (ID)
 ### Identified MWEs: 
-1- **dal politice** 
+1- **dal zelenou** 
 ## Sentence No. 5935 - 
 Dalších 13 příslušníků hnutí skinheads , kteří se v Bruntále 25 . června po pohřbu městského strážníka P . Valáška dopustili hrubé neslušnosti , obvinil okresní úřad vyšetřování z trestného činu výtržnictví . 
 ### Existing MWEs: 
@@ -3739,6 +3729,30 @@ Probouzí se sice zájem o postižené , vznikají různé nadace , ale ačkoliv
 1- **Probouzí se** (IReflV)
 ### Identified MWEs: 
 1- **Probouzí se** 
+2- **Probouzí se** 
+3- **Probouzí se** 
+4- **Probouzí se** 
+5- **Probouzí se** 
+6- **Probouzí se** 
+7- **Probouzí se** 
+8- **Probouzí se** 
+9- **Probouzí se** 
+10- **Probouzí se** 
+11- **Probouzí se** 
+12- **Probouzí se** 
+13- **Probouzí se** 
+14- **Probouzí se** 
+15- **Probouzí se** 
+16- **Probouzí se** 
+17- **Probouzí se** 
+18- **Probouzí se** 
+19- **Probouzí se** 
+20- **Probouzí se** 
+21- **Probouzí se** 
+22- **Probouzí se** 
+23- **Probouzí se** 
+24- **Probouzí se** 
+25- **Probouzí se** 
 ## Sentence No. 6095 - 
 Další kontrakt na dostavbu digitálních telefonních ústředen pro rok 1995 a začátek roku 1996 uzavřela včera akciová společnost SPT Telecom s firmou Siemens AG Mnichov . 
 ### Existing MWEs: 
@@ -3825,8 +3839,6 @@ Zájem projevili i maďarští Slováci .
 Ve všech ostatních částech světa , mimo jiné i v zemích střední a východní Evropy , se postavení ABB zlepšuje . 
 ### Existing MWEs: 
 1- **se zlepšuje** (IReflV, 2)
-### Identified MWEs: 
-1- **se zlepšuje** 
 ## Sentence No. 6480 - 
 V minulém týdnu se podílela na prohledávání nemocnice , kde měla být podle anonymního telefonátu uložena výbušnina . 
 ### Existing MWEs: 
@@ -3954,7 +3966,7 @@ Aby doktor vydělal stejně jako na jednom zahraničním pacientovi , musí posk
 ### Existing MWEs: 
 1- **musí poskytnout služby** (LVC)
 ### Identified MWEs: 
-1- **poskytnout služby** 
+1- **musí poskytnout služby** 
 ## Sentence No. 6925 - 
 Vydavatel se rozhodl , že mu nevyhovuje ideové zaměření těchto novin a odvolal šéfredaktora Pavla Šafra . 
 ### Existing MWEs: 
@@ -4041,6 +4053,8 @@ Pro druhý je příznačná existence velkých i mamutích podniků , technický
 Buržoazní třída , která zahájila proces moderní společenské transformace tím , že riskovala vlastní majetek , má tendenci postupně mizet a s ní i její politické a etické hodnoty . 
 ### Existing MWEs: 
 1- **má tendenci** (LVC, 5)
+### Identified MWEs: 
+1- **má tendenci** 
 ## Sentence No. 7375 - 
 Ale možná , že se ukáže , že mají pravdu v prognóze , že stagnovat bude - s vydatnou pomocí veřejného sektoru . 
 ### Existing MWEs: 
@@ -4051,8 +4065,6 @@ Ale možná , že se ukáže , že mají pravdu v prognóze , že stagnovat bude
 Kadlec si zápas s Maltou rád odsedí na lavičce 
 ### Existing MWEs: 
 1- **si odsedí** (IReflV)
-### Identified MWEs: 
-1- **si odsedí** 
 ## Sentence No. 7390 - 
 Dramatickou zápletku s dobrým koncem má nechtěně na svědomí Miroslav Kadlec . 
 ### Existing MWEs: 
@@ -4073,8 +4085,6 @@ Protože z pochopitelných důvodů chce škola mít třídy smíšené , děje 
 To , že zkušenosti doslova všech průmyslových zemí svědčí o opaku , jej nijak nevzrušuje - podle jeho názoru je to tím , že Američané , Japonci , Němci nebo Angličané prostě nepochopili , jak má správný kapitalismus vypadat , a je tedy nejvyšší čas , aby se přijeli do Prahy poučit . 
 ### Existing MWEs: 
 1- **se poučit** (IReflV, 2)
-### Identified MWEs: 
-1- **se přijeli** 
 ## Sentence No. 7500 - 
 Po odchodu Rudolfa Firkušného se této významné funkce ujímá šéfdirigent Královské filharmonie v Liverpoolu a největší český hudební festival tak jmenováním Libora Peška získává do svého čela mezinárodně uznávanou osobnost světového věhlasu , sdělil LN O . Podgorný , ředitel Pražského jara . 
 ### Existing MWEs: 
@@ -4182,7 +4192,7 @@ Tyto smlouvy byly většinou uzavírány k tomu , aby se za ně mohly převádě
 ### Existing MWEs: 
 1- **smlouvy byly uzavírány** (LVC)
 ### Identified MWEs: 
-1- **se mohly převádět** 
+1- **se mohly vkladů** 
 ## Sentence No. 8000 - 
 Její snižování má velký význam při posilování konkurenceschopnosti ve vztahu k zahraničním bankám , které zvyšují objem úvěrů poskytovaných našim podnikům za poměrně výhodnějších podmínek . 
 ### Existing MWEs: 
@@ -4253,8 +4263,6 @@ Myšlenky obsažené v posledních projevech prezidenta Václava Havla jsou " ve
 Stačí mít u sebe nebo v autě platnou sázenku některé z číselných her Sazky a ukázat ji , pokud se před motoristou někde u silnice rozsvítí tabule s nápisem Stop milión . 
 ### Existing MWEs: 
 1- **se rozsvítí** (IReflV)
-### Identified MWEs: 
-1- **se rozsvítí** 
 ## Sentence No. 8220 - 
 Ředitel Inspekce ministra vnitra Vladimír Nechanický je přesvědčen , že " organizovaný zločin se bez účasti policie nemůže konat " . 
 ### Existing MWEs: 
@@ -4287,8 +4295,6 @@ Pětatřicetiletý sportovec , který první na světě získal všechny zlaté 
 Homosexuální orientace se u Louganise začala projevovat již v chlapeckých letech . 
 ### Existing MWEs: 
 1- **se projevovat** (IReflV, 15)
-### Identified MWEs: 
-1- **se projevovat** 
 ## Sentence No. 8385 - 
 Francouzská skupina Wide Open Cage se objeví v pátek 24 . února v pražském rockovém klubu Bunkr . 
 ### Existing MWEs: 
@@ -4399,6 +4405,8 @@ Generálka s Duklou ( 1 : 1 - pozn . red . ) sice nevyšla podle představ , ale
 On sám si totiž vyzkoušel na vlastní kůži rub i líc komunistické politické kariéry - po osmi letech ve funkci byl odsouzen a dalších osm let prožil za mřížemi . 
 ### Existing MWEs: 
 1- **si vyzkoušel** (IReflV, 1)
+### Identified MWEs: 
+1- **si vyzkoušel** 
 ## Sentence No. 8785 - 
 Chalupa slíbil , že s jejich pomocí vybuduje později v exilu organizaci , která bude - ovšemže nevědomky - sbírat informace pro StB ( nakonec se Chalupa angažoval zejména v Československém zahraničním ústavu v exilu ) . 
 ### Existing MWEs: 
@@ -4449,8 +4457,6 @@ Trenér rovněž požádal Mezinárodní olympijský výbor , aby Louganise podp
 Potíže Alžírska vyvolaly v roce 1992 u jeho maghribských sousedů zprvu téměř pobavenou zvědavost . 
 ### Existing MWEs: 
 1- **vyvolaly zvědavost** (LVC)
-### Identified MWEs: 
-1- **vyvolaly zvědavost** 
 ## Sentence No. 9060 - 
 Pokračující vzestup německé ekonomiky se projevuje také ve statistice registrací užitkových vozidel . 
 ### Existing MWEs: 
@@ -4502,13 +4508,11 @@ Piloti by se měli dát dohromady a vést by je měl Ayrton .
 ### Existing MWEs: 
 1- **by měli dát dohromady** (ID)
 ### Identified MWEs: 
-1- **by se měli dát dohromady** 
+1- **by se měli dát** 
 ## Sentence No. 9225 - 
 " Byl jsem na ní v Berlíně a zaplatila ji Slavia , " vyprávěl český reprezentant , který se bez jakéhokoliv kulhání procházel po stadionu . 
 ### Existing MWEs: 
 1- **se procházel** (IReflV)
-### Identified MWEs: 
-1- **se procházel** 
 ## Sentence No. 9300 - 
 Otázka večera : jak se dokáže Trenčín vyrovnat s páteční prohrou 0 : 3 ve Vítkovicích ? 
 ### Existing MWEs: 
@@ -4533,6 +4537,8 @@ Stovky mrtvých si vyžádaly podle zpráv z Baku i Jerevanu v posledních dnech
 Nové projednání maastrichtské smlouvy , které je druhou volbou , je nepřijatelné pro další členské země ES , neboť by vyvolalo okamžitě požadavky změn ze strany dalších zemí . 
 ### Existing MWEs: 
 1- **by vyvolalo požadavky** (LVC)
+### Identified MWEs: 
+1- **vyvolalo požadavky** 
 ## Sentence No. 9390 - 
 Tajemník rady Federálního fondu tržní regulace ( FFTR ) Antonín Kotouč nám však potvrdil , že rada fondu udělala počátkem roku jediné omezení dovozu laciných vín tím , že určila sazbu vyrovnávací dávky na 50 procent . 
 ### Existing MWEs: 
@@ -4560,7 +4566,7 @@ Měl jsem sice i několik zahraničních nabídek , ale Sparta se objevila v dob
 ### Existing MWEs: 
 1- **se objevila** (IReflV, 94)
 ### Identified MWEs: 
-1- **Měl jsem nabídek** 
+1- **Měl jsem sice** 
 2- **se objevila** 
 ## Sentence No. 9765 - 
 Navíc mám Spartě co odvádět za to , že mi před lety umožnila dostat se do velkého fotbalu . 
@@ -4590,12 +4596,14 @@ Když se trenéru Dobiašovi bude dařit , jistě na Letné zůstane déle než 
 Objev poškozených pečetí na krabicích s archivem bývalé parlamentní komise 17 . listopadu vyvolal dohady o možném zneužití lustračních materiálů . 
 ### Existing MWEs: 
 1- **vyvolal dohady** (LVC, 1)
+### Identified MWEs: 
+1- **vyvolal dohady** 
 ## Sentence No. 9880 - 
 Běžné pivní láhve by se podle něho měly vykupovat bez problémů a na vykupování speciálních firemních lahví by se prodejci a výrobci měli dohodnout smluvně . 
 ### Existing MWEs: 
 1- **by se měli dohodnout** (IReflV)
 ### Identified MWEs: 
-1- **se měly vykupovat** 
+1- **se měly problémů** 
 2- **by se měli dohodnout** 
 ## Sentence No. 9900 - 
 Čekatelská lhůta na propůjčení známky by neměla být delší než dva měsíce od podání přihlášky . 
@@ -4785,8 +4793,6 @@ Jde o změnu proti dřívějšku , kdy se dávala přednost hokejistům působí
 Snaha V . Čekana najít původ informací , z nichž předseda FNM v tomto případě vychází , když hovoří o zastavení části majetku bývalého Elektroodbytu , vzbuzuje u R . Češky úsměv . 
 ### Existing MWEs: 
 1- **vzbuzuje úsměv** (LVC)
-### Identified MWEs: 
-1- **vzbuzuje R** 
 ## Sentence No. 10710 - 
 Nyní je na řadě vedení rozhlasových stanic , které má vejít ve styk s příslušnými českými úřady a sjednat podmínky nájmu budovy bývalého federálního parlamentu , začít budovat studia a rádia přestěhovat . 
 ### Existing MWEs: 
@@ -4814,7 +4820,7 @@ O místo Slovenského národního povstání v historii se vedou spory i v dneš
 ### Existing MWEs: 
 1- **vedou spory** (LVC, 2)
 ### Identified MWEs: 
-1- **vedou spory** 
+1- **se vedou** 
 ## Sentence No. 10820 - 
 Slovenské národní povstání sledovalo dvojjediný cíl : přispět k boji proti fašismu a přihlásit se k Československé republice . 
 ### Existing MWEs: 
@@ -4865,8 +4871,6 @@ Prohlášení kubánského exilového novináře může znít poněkud nadnesen�
 Výsledkem Castrovy taktiky bylo , že proud utečenců po celý minulý týden neslábl a zmírnil se až - kvůli špatnému počasí - o víkendu . 
 ### Existing MWEs: 
 1- **zmírnil se** (IReflV)
-### Identified MWEs: 
-1- **zmírnil se** 
 ## Sentence No. 10955 - 
 Kdo by si jej chtěl pořídit , měl by si zapamatovat několik důležitých věcí . 
 ### Existing MWEs: 
@@ -4878,13 +4882,11 @@ Delegáti se chtějí také velice intenzívně věnovat programovému gigantism
 ### Existing MWEs: 
 1- **se chtějí věnovat** (IReflV, 2)
 ### Identified MWEs: 
-1- **se chtějí věnovat** 
+1- **se chtějí** 
 ## Sentence No. 11035 - 
 Uvědomíme - li si zároveň , že také z Fondu národního majetku dostane v příštím roce erár o zhruba osm miliard korun méně ( místo osmnácti pouhých deset miliard ) , pak zřejmě poprvé budou finanční úředníci v Letenské pod jakýms takýms tlakem . 
 ### Existing MWEs: 
 1- **Uvědomíme si** (IReflV, 2)
-### Identified MWEs: 
-1- **si dostane** 
 ## Sentence No. 11055 - 
 Důvěru píšícím novinářům vyslovilo 58 procent obyvatel , starostům a primátorům 43 procent dotázaných . 
 ### Existing MWEs: 
@@ -4975,8 +4977,6 @@ Majetek pak opět spadne do klína státu ( Pozemkovému fondu ) , a jak bylo v 
 Ve smlouvě je uvedena pevná částka , kterou nájemce za byt platí , a ta se nemění . 
 ### Existing MWEs: 
 1- **se nemění** (IReflV, 16)
-### Identified MWEs: 
-1- **se nemění** 
 ## Sentence No. 11410 - 
 Za uzavření smlouvy a zařazení do databáze klient neplatí . 
 ### Existing MWEs: 
@@ -5022,8 +5022,7 @@ Podle vzoru znamená , že se využívaly absolutně všechny metody zpětného 
 ### Existing MWEs: 
 1- **si představit** (IReflV, 22)
 ### Identified MWEs: 
-1- **se využívaly** 
-2- **si představit** 
+1- **si představit** 
 ## Sentence No. 11670 - 
 Průměrné spotřebitelské ceny většiny potravinářských výrobků se v 36 . týdnu opět zvýšily . 
 ### Existing MWEs: 
@@ -5082,6 +5081,8 @@ Redaktor Adámek nebyl včera k dosažení , jeho rodinní příslušníci však
 Ze dne na den se tak svými podivnými finančními praktikami dostala na úroveň provinční kampeličky . 
 ### Existing MWEs: 
 1- **se dostala** (IReflV, 112)
+### Identified MWEs: 
+1- **dostala na úroveň** 
 ## Sentence No. 11900 - 
 S kázeňskými přestupky měl Serginho potíže už jako hráč . 
 ### Existing MWEs: 
@@ -5177,7 +5178,8 @@ Ale i z mečbolů umím utíkat , letos v Miláně jsem přežil dva proti Lecon
 ### Existing MWEs: 
 1- **zavzpomínal si** (IReflV, 1)
 ### Identified MWEs: 
-1- **jsem přežil Lecontovi** 
+1- **jsem přežil dva** 
+2- **zavzpomínal si** 
 ## Sentence No. 12140 - 
 Na osmifinále s Magdalenou Maleevovou ( 17 . ) se dívá optimisticky . 
 ### Existing MWEs: 
@@ -5219,8 +5221,6 @@ Dostatečnou vypovídací schopnost nemají prospekty emitenta jednotlivých fir
 V sobotu totiž předáci bosenských Srbů papežovu návštěvu zpochybnili , když se odmítli zaručit , že na něj nezaútočí . 
 ### Existing MWEs: 
 1- **se zaručit** (IReflV)
-### Identified MWEs: 
-1- **se zaručit** 
 ## Sentence No. 12260 - 
 Jeho hlavními konkurenty by se měly stát Opel Corsa , Fiat Punto , ale díky zajímavé ceně i dlouho ohlašovaná mladoboleslavská felicie . 
 ### Existing MWEs: 
@@ -5253,10 +5253,14 @@ Sociální problémy se netýkají jen vojáků odsunutých z Německa .
 Nyní tito skvěle vycvičení vojáci nemají střechu nad hlavou . 
 ### Existing MWEs: 
 1- **nemají střechu nad hlavou** (ID, 1)
+### Identified MWEs: 
+1- **nemají střechu** 
 ## Sentence No. 12340 - 
 Nad Morceliho účastí ještě v sobotu visel otazník . 
 ### Existing MWEs: 
 1- **visel otazník** (ID, 3)
+### Identified MWEs: 
+1- **visel otazník** 
 ## Sentence No. 12380 - 
 Pennacchini odkázal na papežovo konstatování ze soboty , kdy Jan Pavel II . prohlásil : Doufám , že odcestuji do Sarajeva , budou - li dány obyvatelstvu dostatečné bezpečnostní záruky . 
 ### Existing MWEs: 
@@ -5282,13 +5286,11 @@ Tím klesl až na šesté místo a ve snaze prodrat se v posledním kole na tře
 ### Existing MWEs: 
 1- **prodrat se** (IReflV)
 ### Identified MWEs: 
-1- **prodrat se** 
+1- **se došlo** 
 ## Sentence No. 12480 - 
 Jel jsem podél něj a on měl pouze dvě možnosti - nechat se předstihnout a nebo způsobit havárii . 
 ### Existing MWEs: 
 1- **měl možnosti** (LVC, 40)
-### Identified MWEs: 
-1- **se předstihnout** 
 ## Sentence No. 12485 - 
 V souvislosti s Mansellovým návratem a jeho působením v týmu Williams se objevují dohady o rekordní roční smlouvě . 
 ### Existing MWEs: 
@@ -5315,6 +5317,8 @@ Mohu říci , že se jedná o člověka nespokojeného s uplatňováním spraved
 Má - li soudce objektivně rozhodovat o trestu , musí mít pocit jistoty . 
 ### Existing MWEs: 
 1- **musí mít pocit** (LVC)
+### Identified MWEs: 
+1- **musí mít pocit** 
 ## Sentence No. 12615 - 
 Především je třeba současnou verzi pravopisné kodifikace přijetím citovaného dodatku považovat aspoň na čas za definitivní . 
 ### Existing MWEs: 
@@ -5396,7 +5400,7 @@ Severočeskou přetahovanou rozetnul jablonecký Pelta v první chvíli diplomat
 ### Existing MWEs: 
 1- **jsme se nerozhodli** (IReflV, 11)
 ### Identified MWEs: 
-1- **jsme se nerozhodli** 
+1- **jsme se** 
 ## Sentence No. 12930 - 
 Ministr předpokládá , že uvedená opatření vstoupí v platnost nejpozději od letošního července . 
 ### Existing MWEs: 
@@ -5459,8 +5463,6 @@ Ve vyhlášce č . 99 o silničním provozu jsou jednoznačně vyjmenovány osob
 Stížnost nemusí být podána prostřednictvím právního zástupce . 
 ### Existing MWEs: 
 1- **Stížnost nemusí být podána** (LVC)
-### Identified MWEs: 
-1- **podána zástupce** 
 ## Sentence No. 13205 - 
 Obecně lze říci , že musí být vyčerpány všechny podle zákona v úvahu přicházející opravné prostředky ( označované zpravidla jako odvolání , stížnost apod . ) . 
 ### Existing MWEs: 
@@ -5493,8 +5495,6 @@ Představitelé polské vládní koalice Polské lidové strany a Svazu demokrat
 Nemilému vetřelci můžeme vypálit rybník , když si uschováme všechny cennosti v bezpečnostní schránce u některé z bank . 
 ### Existing MWEs: 
 1- **můžeme vypálit rybník** (ID)
-### Identified MWEs: 
-1- **si uschováme** 
 ## Sentence No. 13335 - 
 Pro usnadnění orientace jsme se zeptali v některých náhodně vybraných bankách , kolik si účtují za pronájem " trezorků " . 
 ### Existing MWEs: 
@@ -5581,14 +5581,10 @@ Dramatičnosti sporu včera při jeho předání Mezinárodnímu soudnímu dvoru
 Podle názoru jihokorejských představitelů se KLDR zřejmě snaží nahradit dohodu o příměří mírovou smlouvou , kterou by podepsaly i Spojené státy . 
 ### Existing MWEs: 
 1- **se snaží** (IReflV, 95)
-### Identified MWEs: 
-1- **se snaží** 
 ## Sentence No. 13830 - 
 1986 - v jaderné elektrárně v Gore ( USA ; stát Oklahoma ) se přehřála nádrž hexafluoridu uranu používaného k výrobě jaderného paliva ; 
 ### Existing MWEs: 
 1- **se přehřála** (IReflV)
-### Identified MWEs: 
-1- **se přehřála** 
 ## Sentence No. 13860 - 
 Je to způsobeno tím , že ve svých úvahách se drží striktně pořizovacích cen nemovitostí , které činí v průměru 1500 Kč / m při průměrném stáří bytového fondu 46 let . 
 ### Existing MWEs: 
@@ -5636,7 +5632,7 @@ František Musil dostal za úkol pozdravovat všechny od Roberta Reichla , kter�
 ### Existing MWEs: 
 1- **Snažil jsem se** (IReflV, 4)
 ### Identified MWEs: 
-1- **Snažil jsem se odpočívat** 
+1- **Snažil jsem se** 
 ## Sentence No. 14065 - 
 Za celou dobu jednání v Českém Těšíně se neobjevil jediný hlas zpochybňující potřebu nových silnic . 
 ### Existing MWEs: 
@@ -5782,7 +5778,8 @@ Neklade si za cíl detailně a vyčerpávajícím způsobem popsat jednotlivá t
 ### Existing MWEs: 
 1- **se může ocitnout** (IReflV, 1)
 ### Identified MWEs: 
-1- **se může ocitnout** 
+1- **Neklade si** 
+2- **se může ocitnout** 
 ## Sentence No. 14800 - 
 Není proto zapotřebí uzavírat nové nájemní smlouvy . 
 ### Existing MWEs: 
@@ -5850,9 +5847,6 @@ Japonský hospodářský zázrak a s ním spojený způsob řízení se stal na 
 Na druhé straně se zahraničním podnikatelům rozhodně nevyplácí Japonce podceňovat a vystavovat se tak nebezpečí . . . 
 ### Existing MWEs: 
 1- **se nevyplácí** (IReflV, 7)
-### Identified MWEs: 
-1- **se nevyplácí** 
-2- **vystavovat se** 
 ## Sentence No. 14980 - 
 Přestože je v tomto oboru u nás velká konkurence , za tři roky činnosti se mu podařilo rozšířit činnost , takže místo několika zaměstnanců s nimiž začínal , jich má nyní zhruba 50 . 
 ### Existing MWEs: 
@@ -6057,7 +6051,7 @@ V posledních letech můžeme beze strachu vypovědět , co nás bolí , ale ži
 ### Existing MWEs: 
 1- **byly středem zájmu** (ID)
 ### Identified MWEs: 
-1- **byly při Milanem** 
+1- **byly středem zájmu** 
 ## Sentence No. 15855 - 
 Vyšetřování by ještě mohlo pokračovat , pokud by byla proti němu podána procesní stížnost a státní zástupce by věc vrátil k doplnění . 
 ### Existing MWEs: 
@@ -6076,8 +6070,7 @@ Ještě nedávno by se určitě našel alespoň jeden izraelský politik , kter�
 1- **spatří světlo světa** (ID, 3)
 ### Identified MWEs: 
 1- **by se našel** 
-2- **se předbíhá** 
-3- **spatří světlo světa** 
+2- **spatří světlo světa** 
 ## Sentence No. 15905 - 
 Je - li to známka toho , že se z něj opravdu stal politik , je možné , že žádnou Chartu nebude třeba měnit . 
 ### Existing MWEs: 
@@ -6089,7 +6082,7 @@ Mám na to nepochybně právo .
 ### Existing MWEs: 
 1- **Mám právo** (LVC, 51)
 ### Identified MWEs: 
-1- **Mám na to nepochybně právo** 
+1- **Mám na to** 
 ## Sentence No. 15950 - 
 Na základě čeho se však rozhodnout , zákon nespecifikuje . 
 ### Existing MWEs: 
@@ -6159,7 +6152,7 @@ Terorista vyjádřil v rozhovoru překvapení nad tím , že ho francouzská jus
 ### Existing MWEs: 
 1- **vyjádřil překvapení** (LVC)
 ### Identified MWEs: 
-1- **vyjádřil překvapení** 
+1- **vyjádřil rozhovoru** 
 ## Sentence No. 16195 - 
 Protože se vyskytly námitky proti výběrovému řízení , měla za úkol znovu zdůvodnit své rozhodnutí a předložit zprávu radě zastupitelstva hlavního města . 
 ### Existing MWEs: 
@@ -6247,8 +6240,6 @@ Ta zažije šok a táhne se to s ní celý život a s dítětem taky .
 Začne se rozvinovat . 
 ### Existing MWEs: 
 1- **se rozvinovat** (IReflV)
-### Identified MWEs: 
-1- **se rozvinovat** 
 ## Sentence No. 16510 - 
 Zrovna nyní mám jeden případ , kde se pokoušíme zkusit to ve čtvrté třídě . 
 ### Existing MWEs: 
@@ -6274,8 +6265,7 @@ Snad s věkem ( necelých 32 let - pozn . red . ) si tuto úlohu ulehčuje a za�
 ### Existing MWEs: 
 1- **se stahovat** (IReflV, 1)
 ### Identified MWEs: 
-1- **si ulehčuje** 
-2- **se stahovat obranu** 
+1- **si se stahovat zálohu** 
 ## Sentence No. 16575 - 
 Mohlo by dojít k tomu , že banka by se dostala do situace , kdy by musela poskytovat úvěry za podstatně nižší sazbu , než jakou by byla nucena platit za úvěrové zdroje , řekl . 
 ### Existing MWEs: 
@@ -6315,7 +6305,7 @@ Letošní požadavky vietnamské strany se týkají technologií pro potraviná�
 ### Existing MWEs: 
 1- **měly by se stát** (IReflV, 1)
 ### Identified MWEs: 
-1- **by se stát** 
+1- **se stát** 
 ## Sentence No. 16650 - 
 Napodobovat model , od kterého se Unie postupně odvrací , postrádá logiku . 
 ### Existing MWEs: 
@@ -6357,7 +6347,7 @@ Rád se tam uchyloval , byl tam častěji než u trůnu v Mnichově , přijímal
 ### Existing MWEs: 
 1- **se uchyloval** (IReflV, 1)
 ### Identified MWEs: 
-1- **oblažoval se** 
+1- **se hudbou** 
 ## Sentence No. 16875 - 
 Údajně to nakonec dopadlo tak , že se stal jeho osobním ošetřovatelem a zároveň i nenápadným dohližitelem . 
 ### Existing MWEs: 
@@ -6468,12 +6458,12 @@ Představitelé politických stran se staví většinou proti vydávání vlastn
 Rozhodně se neztotožňujeme pouze s Haló novinami a Špíglem . 
 ### Existing MWEs: 
 1- **se neztotožňujeme** (IReflV)
-### Identified MWEs: 
-1- **se neztotožňujeme** 
 ## Sentence No. 17315 - 
 Jediné , čím jsem se snad provinil proti pravidlům , mohlo být držení ( Jelínek nebyl vyloučen - pozn . red . ) . 
 ### Existing MWEs: 
 1- **jsem se provinil** (IReflV)
+### Identified MWEs: 
+1- **se provinil** 
 ## Sentence No. 17320 - 
 Jako kapitán by si to neměl dovolit , řekl Lundmark . 
 ### Existing MWEs: 
@@ -6554,6 +6544,8 @@ Zavolaná policie odmítne příchod na místo do té doby , než někdo doběhn
 Jestliže ve státě New Hampshire začne geometricky narůstat kriminalita mladistvých , veřejnost ocení svou přízní vládní akt zvýšení výdajů na boj se zločinností . 
 ### Existing MWEs: 
 1- **zvýšení výdajů** (LVC)
+### Identified MWEs: 
+1- **zvýšení výdajů** 
 ## Sentence No. 17590 - 
 První má účinek bezprostřední ( krátkodobý anebo žádný ) , druhé je systémovější a sklízí plody postupně , v delší perspektivě . 
 ### Existing MWEs: 
@@ -6563,7 +6555,7 @@ Ač to zní kacířsky v době množících se výroků o snižování počtu mi
 ### Existing MWEs: 
 1- **množících se** (IReflV)
 ### Identified MWEs: 
-1- **množících se** 
+1- **se nepomohlo** 
 ## Sentence No. 17660 - 
 Deset pohřebních firem působících na území města má ovšem možnost objednávat zpopelnění i mimo hranice Prahy , například v Kladně . 
 ### Existing MWEs: 
@@ -6574,8 +6566,6 @@ Deset pohřebních firem působících na území města má ovšem možnost obj
 Žádáme pana premiéra , aby specifikoval tuto politickou sílu i to , jakým způsobem se o osamostatnění Moravy snaží . 
 ### Existing MWEs: 
 1- **se snaží** (IReflV, 95)
-### Identified MWEs: 
-1- **se snaží** 
 ## Sentence No. 17685 - 
 Ani v případě přijetí některé z prvních dvou předloh by se již první volby do senátu nemohly konat ještě letos . 
 ### Existing MWEs: 
@@ -6606,8 +6596,6 @@ Hleďte , budou našeptávat komukoli , kdo bude řídit Kreml , hleďte , kam s
 A za druhé : euroamerický svět se povznesl , aniž k tomu potřeboval železnou pěst . 
 ### Existing MWEs: 
 1- **se povznesl** (IReflV)
-### Identified MWEs: 
-1- **se povznesl** 
 ## Sentence No. 17770 - 
 Obrat zahraničního obchodu se loni zvýšil o 9.9 procenta . 
 ### Existing MWEs: 
@@ -6623,7 +6611,7 @@ Trestní oznámení na J . Uhlíka podal Vladimír Hubáček , který jej v ledn
 ### Existing MWEs: 
 1- **oznámení podal** (LVC)
 ### Identified MWEs: 
-1- **podal Hubáček** 
+1- **podal vystřídal** 
 ## Sentence No. 17825 - 
 Ve 28 . minutě Tomek nastřelil tyčku , Vlach byl u odraženého puku první a strhl vedení na stranu domácích . 
 ### Existing MWEs: 
@@ -6667,7 +6655,7 @@ Oficiální návrh volebního programu ČSSD vychází podle Novotného z rozvah
 ### Existing MWEs: 
 1- **dát dohromady** (ID, 6)
 ### Identified MWEs: 
-1- **jsme se dát dohromady** 
+1- **jsme se dát** 
 ## Sentence No. 17975 - 
 Finanční krize v druholigovém fotbalovém klubu Terrex Kladno dosáhla pravděpodobně vrcholu . 
 ### Existing MWEs: 
@@ -6695,7 +6683,7 @@ Zmizí mnohé dosavadní bariéry , které znesnadňovaly kontakt se světem , a
 ### Existing MWEs: 
 1- **nabízejících se** (IReflV)
 ### Identified MWEs: 
-1- **nabízejících se** 
+1- **se příležitostí** 
 ## Sentence No. 18085 - 
 Společnost TelSource , kterou založily PTT Telecom Netherlands a Swiss Telecom , se bude ucházet o 27 procentní podíl v SPT Telecom . 
 ### Existing MWEs: 
@@ -6756,7 +6744,6 @@ Josef Janeček ( KDU - ČSL ) , poslanec : Myslím si , že by účast Němců b
 1- **Myslím si** (IReflV, 25)
 ### Identified MWEs: 
 1- **Myslím si** 
-2- **se vyřešily** 
 ## Sentence No. 18235 - 
 Nemám nic proti Němcům , ale zvát je zrovna na tento den ? 
 ### Existing MWEs: 
@@ -6803,6 +6790,7 @@ Mluví - li dnes někteří z nás o tradiční rodině , míní tím předevš�
 1- **se postarat** (IReflV, 16)
 ### Identified MWEs: 
 1- **se postarat** 
+2- **si přináší** 
 ## Sentence No. 18385 - 
 Nedávno sem prý přivedla matka svou sedmnáctiletou dceru , která si tetování přála k narozeninám . 
 ### Existing MWEs: 
@@ -6839,7 +6827,6 @@ Barna se však obává , že po schválení novely " se u nás bude střílet ja
 1- **se obává** (IReflV, 25)
 ### Identified MWEs: 
 1- **se obává** 
-2- **se bude střílet** 
 ## Sentence No. 18485 - 
 " Když udělám chybu , napravím ji a jedu dál , nemyslíte ? " konstatoval řečnicky předseda správní rady FC Petra Drnovice a generální ředitel Chemapolu Václav Junek . 
 ### Existing MWEs: 
@@ -6882,6 +6869,8 @@ Přestěhovat se například do zahraničí běžným jevem rozhodně není .
 Jaký vliv mohou mít reklamy nebo televizní pořady o transsexuálech ? 
 ### Existing MWEs: 
 1- **vliv mohou mít** (LVC)
+### Identified MWEs: 
+1- **vliv mohou mít** 
 ## Sentence No. 18595 - 
 Pak jsem se stal podporučíkem a tím jsem zůstal až do dnešních dnů . 
 ### Existing MWEs: 
@@ -6937,7 +6926,7 @@ Při koncipování Zlaté Harmonie se podle svých slov nechal inspirovat franco
 ### Existing MWEs: 
 1- **se inspirovat** (IReflV, 2)
 ### Identified MWEs: 
-1- **se inspirovat** 
+1- **se nechal inspirovat** 
 ## Sentence No. 18730 - 
 Myslíte si , že je tento předpoklad reálný ? 
 ### Existing MWEs: 
@@ -7191,7 +7180,7 @@ Schvalování výrobků před jejich uvedením na trh je upraveno zákonem čís
 ### Existing MWEs: 
 1- **uvedením na trh** (LVC, 3)
 ### Identified MWEs: 
-1- **uvedením na trh upraveno** 
+1- **uvedením na trh** 
 ## Sentence No. 19830 - 
 Pomocníkem by se mohla stát asociace vydavatelů obchodních katalogů a adresářů . 
 ### Existing MWEs: 
@@ -7243,7 +7232,7 @@ Horším žákem průmyslově vyspělých zemí s tržní ekonomikou je Slovensk
 ### Existing MWEs: 
 1- **prohlubuje se** (IReflV)
 ### Identified MWEs: 
-1- **se klesá** 
+1- **prohlubuje se** 
 ## Sentence No. 19965 - 
 Jako možná se jeví koalice mezi křesťanskými demokraty a bývalou komunistickou stranou . 
 ### Existing MWEs: 
@@ -7259,8 +7248,7 @@ Chytrý bankéř si klienty přece vytváří a ne se jich zbavuje .
 ### Existing MWEs: 
 1- **se zbavuje** (IReflV, 5)
 ### Identified MWEs: 
-1- **si vytváří** 
-2- **se zbavuje** 
+1- **si se zbavuje** 
 ## Sentence No. 20050 - 
 Patrně se shodneme , že jde o pozornost . 
 ### Existing MWEs: 
@@ -7271,8 +7259,6 @@ Patrně se shodneme , že jde o pozornost .
 * Bránit je třeba se darům , které mohou ovlivňovat , zavazovat a přímo vyzývat k protislužbě . 
 ### Existing MWEs: 
 1- **Bránit se** (IReflV, 3)
-### Identified MWEs: 
-1- **se mohou ovlivňovat** 
 ## Sentence No. 20085 - 
 Všimnou si jí i náhodní kolemjdoucí a cestující z tramvají . 
 ### Existing MWEs: 
@@ -7294,7 +7280,7 @@ Když bavorská policie udělala v červnu loňského roku zátah na gang , pro 
 ### Existing MWEs: 
 1- **udělala zátah** (LVC)
 ### Identified MWEs: 
-1- **udělala zátah** 
+1- **udělala službu** 
 ## Sentence No. 20220 - 
 V případě nepřekročení vámi uvedené částky snížení daně uplatnit může . 
 ### Existing MWEs: 
@@ -7317,8 +7303,6 @@ Ponechme stranou absurditu o poroučení větru , dešti , která jen dokazuje ,
 Nikdy se nezboří , navždy v něm bude stát dřevěný kříž s ostnatým drátem zavěšeným na růženci . 
 ### Existing MWEs: 
 1- **se nezboří** (IReflV)
-### Identified MWEs: 
-1- **se nezboří** 
 ## Sentence No. 20340 - 
 Podle něj by měly obdržet finanční odměny až po skončení základní části soutěže v závislosti na umístění , zatímco hokejisté si přejí rozměnit finální částku na drobnější prémie za jednotlivá vyhraná utkání . 
 ### Existing MWEs: 
@@ -7371,14 +7355,12 @@ Chelsea hrála v nové sezoně jen dva zápasy , ale z obou vyšla vítězně .
 Za své peníze se však případný zájemce povznese až k branám motoristického ráje . 
 ### Existing MWEs: 
 1- **se povznese** (IReflV)
-### Identified MWEs: 
-1- **se povznese** 
 ## Sentence No. 20600 - 
 I tím dává najevo výrobce vyhraněnost určení Hondy Legend . 
 ### Existing MWEs: 
 1- **dává najevo** (ID, 7)
 ### Identified MWEs: 
-1- **dává Legend** 
+1- **dává najevo** 
 ## Sentence No. 20625 - 
 Zúčastnily se ho čtyři desítky historických automobilů a motocyklů . 
 ### Existing MWEs: 
@@ -7436,7 +7418,7 @@ Na otázku , zda je tedy mužstvo stále ve stávce , řekl : Nechci se vyjadřo
 ### Existing MWEs: 
 1- **Nechci se vyjadřovat** (IReflV)
 ### Identified MWEs: 
-1- **Nechci se** 
+1- **Nechci se vyjadřovat** 
 ## Sentence No. 20750 - 
 Ministr pro privatizaci Středního Kabylska pan Taddart Nmirgem : Vaše kuponová privatizace nás tak nadchla , že jsme loni provedli urychlené znárodnění , abychom mohli Vaši metodu privatizace uplatnit i u nás . 
 ### Existing MWEs: 
@@ -7451,8 +7433,6 @@ Na nedávno schváleném financování kontraktu 70 tramvají za 87 milionů USD
 Na obálce jeho prvního čísla se 29 . srpna 1934 objevila tvář populární české herečky Antonie Nedošínské . 
 ### Existing MWEs: 
 1- **se objevila** (IReflV, 94)
-### Identified MWEs: 
-1- **se objevila** 
 ## Sentence No. 20795 - 
 Jsou schopni se školit v zahraničí a jsou také schopni nasát duch nového státu lépe než ti , kteří celý život prožili v bolševickém systému , domnívá se V . Šuman . 
 ### Existing MWEs: 
@@ -7534,6 +7514,8 @@ Názory na toto rozhodnutí se různí .
 I když nyní se tam rýsuje možnost happy endu . 
 ### Existing MWEs: 
 1- **se rýsuje** (IReflV, 3)
+### Identified MWEs: 
+1- **rýsuje možnost** 
 ## Sentence No. 21300 - 
 A přitom jde možná jen o to , že se vnitřně rozvrácená země pokouší hledat svou stabilitu ve zvetšelých symbolech vnější moci . 
 ### Existing MWEs: 
@@ -7596,8 +7578,6 @@ Jiří Beza , David Čechmánek a František Čuba jsou stíháni pro trestné �
 Šéfa haitského vojenského režimu generála Raoula Cédrase zatknou americké jednotky , které se vylodí na Haiti . 
 ### Existing MWEs: 
 1- **se vylodí** (IReflV)
-### Identified MWEs: 
-1- **se vylodí** 
 ## Sentence No. 21445 - 
 Referenda se zúčastnilo 91.04 procenta všech oprávněných voličů . 
 ### Existing MWEs: 
@@ -7691,7 +7671,7 @@ Pokud se nezmění destruktivní plodnost žen , pak dnešní miminka , až dovr
 ### Existing MWEs: 
 1- **se nezmění** (IReflV, 44)
 ### Identified MWEs: 
-1- **budou mít souputníků** 
+1- **budou mít sebe** 
 ## Sentence No. 21905 - 
 Hradní policie se dokonce o nadcházející demonstraci dozvěděla až ve chvíli , kdy dav již stál před branou . 
 ### Existing MWEs: 
@@ -7704,7 +7684,6 @@ Nezletilí se dopustili ublížení na zdraví , ale případ musí být pro jej
 1- **se dopustili** (IReflV, 16)
 ### Identified MWEs: 
 1- **se dopustili** 
-2- **musí být pro věk odložen** 
 ## Sentence No. 21940 - 
 Ani stoupenci tučnějších zákonů ale nevařili své argumenty z vody . 
 ### Existing MWEs: 
@@ -7729,6 +7708,8 @@ Tak , aby se množily pokud možno rychleji , než o kolik klesá jejich reáln�
 Vedení rakouského prvoligového klubu VfB Mödling vyslovilo nedůvěru slovenskému trenérovi Vladislavu Kunovi . 
 ### Existing MWEs: 
 1- **vyslovilo nedůvěru** (LVC)
+### Identified MWEs: 
+1- **vyslovilo nedůvěru** 
 ## Sentence No. 22130 - 
 Podle něj uzavírá ODS stále častěji nemístné kompromisy s postkomunistickou lobby , která tvoří špičku dnešního průmyslového managementu . 
 ### Existing MWEs: 
@@ -7763,8 +7744,6 @@ Kromě toho dává možnost uskutečňovat části studijních programů i mimo 
 Kdyby si to všechno telefonovali , nedozvěděli bychom se vůbec nic . 
 ### Existing MWEs: 
 1- **nedozvěděli bychom se** (IReflV)
-### Identified MWEs: 
-1- **bychom nic** 
 ## Sentence No. 22320 - 
 Společný podnik bude poskytovat komplexní služby v oblasti direct marketingu a direct mailu . 
 ### Existing MWEs: 
@@ -7788,7 +7767,7 @@ Víme , že jejich daňové zatížení je značné , ale musíme mít na mysli 
 ### Existing MWEs: 
 1- **musíme mít na mysli** (ID)
 ### Identified MWEs: 
-1- **mít na mysli** 
+1- **musíme mít na mysli** 
 ## Sentence No. 22395 - 
 Domníváme se , že jejich zrušení by nebylo správné a jednoduše ani možné , prohlásil Kukan . 
 ### Existing MWEs: 
@@ -7982,7 +7961,7 @@ V centru Carverových krátkých próz stojí člověk erodovaný a korodující
 ### Existing MWEs: 
 1- **se porvat** (IReflV)
 ### Identified MWEs: 
-1- **se porvat** 
+1- **se přichází** 
 ## Sentence No. 23090 - 
 Slušnost vyjadřuje míru zranitelnosti každého z nás a platí prostá úměra , že čím více je těch , kdo jsou nezranitelní , tím nižší je kritický práh této kolektivně zaručované normy , která se nikdy neocitne mezi paragrafovaným zněním zákonů . 
 ### Existing MWEs: 
@@ -8018,8 +7997,7 @@ Jak jinak označit chvíli , kdy jedna strana druhé nabízí , že bude zříze
 ### Existing MWEs: 
 1- **týkající se** (IReflV, 25)
 ### Identified MWEs: 
-1- **by se projednávaly** 
-2- **týkající se** 
+1- **týkající se** 
 ## Sentence No. 23170 - 
 Pro ruského prezidenta a jeho okolí může znamenat záruky , jichž se po celý loňský rok - a možná ještě dříve v tzv . Jelcinově dopise - dožadoval . 
 ### Existing MWEs: 
@@ -8046,14 +8024,10 @@ Nikdo doma nežije zadarmo a když užívá tzv . hotelové služby nemocnice , 
 Copak když půjde do nemocnice on , tak já se uskrovním , ale obráceně ? 
 ### Existing MWEs: 
 1- **se uskrovním** (IReflV)
-### Identified MWEs: 
-1- **se uskrovním** 
 ## Sentence No. 23310 - 
 Ale odmítám , aby se za mne bouřilo nějaké Hnutí důchodců . 
 ### Existing MWEs: 
 1- **se bouřilo** (IReflV)
-### Identified MWEs: 
-1- **se bouřilo** 
 ## Sentence No. 23345 - 
 Přes blížící se datum podpisu obavy o bezpečí na Blízkém východě přetrvávají . 
 ### Existing MWEs: 
@@ -8106,6 +8080,8 @@ Ti chytřejší studují práva , ti prostší se učí svářet .
 " Ať jim stát , když už je chce převychovat , poskytne půjčku na rozumný úrok , kterou budou poctivě po propuštění splácet . 
 ### Existing MWEs: 
 1- **poskytne půjčku** (LVC, 3)
+### Identified MWEs: 
+1- **poskytne půjčku** 
 ## Sentence No. 23520 - 
 Situace v kolínském divadle se po loňských potížích s výběrem ředitele znovu vyhrotila . 
 ### Existing MWEs: 
@@ -8159,11 +8135,13 @@ K tvrdosti zásahu řekl : " Nevylučuji , že některý z osmdesáti nasazenýc
 ### Existing MWEs: 
 1- **se zbavil** (IReflV, 7)
 ### Identified MWEs: 
-1- **se byl zbavil náhubku** 
+1- **se zbavil** 
 ## Sentence No. 23690 - 
 Požádala vládu ČR , aby urychleně přijala opatření , která zlepší situaci v příjmové části státního rozpočtu , především ve vybírání daně z obratu . 
 ### Existing MWEs: 
 1- **přijala opatření** (LVC, 4)
+### Identified MWEs: 
+1- **která zlepší** 
 ## Sentence No. 23730 - 
 " Nebylo to tak jednoduché , jak jsem si myslel . 
 ### Existing MWEs: 
@@ -8220,8 +8198,6 @@ Nejsem si vůbec jist , že to tak opravdu je .
 Aby se cisterny OSN dostaly do středu města , musí projet srbskými kontrolami . 
 ### Existing MWEs: 
 1- **se dostaly** (IReflV, 112)
-### Identified MWEs: 
-1- **se dostaly** 
 ## Sentence No. 24025 - 
 Vedoucí představitelé sedmi nejbohatších průmyslových zemí světa ( G 7 ) se včera na svém tokijském summitu vyslovili pro rozšíření mírových operací OSN a prohlásili , že nepřijmou žádné urovnání války v Bosně , kterého by bylo dosaženo na úkor Muslimů . 
 ### Existing MWEs: 
@@ -8247,6 +8223,7 @@ Tento princip byl navrhován především u nejdůležitějších zákonů nebo 
 1- **měl dojem** (LVC, 6)
 ### Identified MWEs: 
 1- **měl dojem** 
+2- **měla vědět** 
 ## Sentence No. 24185 - 
 Snížení souvisí s větším množstvím peněz , jež se na MBT objevily po 10 . červnu . 
 ### Existing MWEs: 
@@ -8390,7 +8367,7 @@ Je proto na rozhodnutí vlády , jak se s jejím doporučením vypořádá .
 ### Existing MWEs: 
 1- **se vypořádá** (IReflV, 6)
 ### Identified MWEs: 
-1- **Je na rozhodnutí** 
+1- **Je na rozhodnutí vlády** 
 2- **se vypořádá** 
 ## Sentence No. 24835 - 
 Skutečností je , že každý z předkladatelů může i přes nesouhlasné stanovisko rady svůj projekt vládě předložit , a také se tak již v několika případech stalo a vláda tento návrh přijala . 
@@ -8455,6 +8432,8 @@ Obě strany se dohodly na hostování do konce listopadu s opcí od 1 . prosince
 Situace německé ekonomiky se zatím zlepšuje rychleji , než se očekávalo . 
 ### Existing MWEs: 
 1- **se zlepšuje** (IReflV, 2)
+### Identified MWEs: 
+1- **se zlepšuje** 
 ## Sentence No. 25050 - 
 Dobře si vedou i německé koncerny chemického průmyslu . 
 ### Existing MWEs: 
@@ -8509,8 +8488,6 @@ V té době hájil barvy Hedosu Mnichov , který se však dostal do platební ne
 Z libereckého zápasu si prý žádné velké dojmy neodnesl , protože z mlhy , která se vytvářela nad ledem , měl neustále zapocené plexisklo . . . 
 ### Existing MWEs: 
 1- **se vytvářela** (IReflV)
-### Identified MWEs: 
-1- **se vytvářela** 
 ## Sentence No. 25205 - 
 Americký hráč Alexi Lalas , účastník letošního mistrovství světa a v současné době hráč Padovy z italské nejvyšší soutěže , nabídku přivítal , ale dodal , že se spolu se svými spoluhráči pokusí Angličany porazit bez ohledu na finanční efekt . 
 ### Existing MWEs: 
@@ -8533,8 +8510,6 @@ Koryta by se proto mohla stát předmětem soukromého vlastnictví bez ohledu n
 Měli by mít poslanci právo žádat informace o chodu státní správy nejen od ministrů , ale i od nižších úředníků ? 
 ### Existing MWEs: 
 1- **Měli by mít právo** (LVC)
-### Identified MWEs: 
-1- **mít právo** 
 ## Sentence No. 25330 - 
 Stěžoval si také na začlenění Daruvaru do tzv . růžové zóny pod kontrolou UNPROFOR . 
 ### Existing MWEs: 
@@ -8556,7 +8531,7 @@ Podle našeho názoru se nesmí v televizi objevit .
 ### Existing MWEs: 
 1- **se nesmí objevit** (IReflV)
 ### Identified MWEs: 
-1- **se nesmí objevit** 
+1- **se nesmí** 
 ## Sentence No. 25475 - 
 Vyšší ceny pšenice vyvolané nižší sklizní by měly rovněž způsobit pokles spotřeby pšenice jako krmiva pro dobytek , neboť zemědělci se budou muset uchýlit k levnějším druhům obilnin . 
 ### Existing MWEs: 
@@ -8580,7 +8555,7 @@ Dávala najevo souhlas k odprodeji NDR za 20 miliard dolarů plus neutralizaci c
 ### Existing MWEs: 
 1- **Dávala najevo** (ID, 7)
 ### Identified MWEs: 
-1- **Dávala souhlas** 
+1- **Dávala najevo souhlas** 
 ## Sentence No. 25545 - 
 Vozidlo se poté převrátilo na střechu a spadlo ze srázu . 
 ### Existing MWEs: 
@@ -8590,8 +8565,7 @@ Oba politici připustili , že vstupem mezinárodních sil se původní lokáln�
 ### Existing MWEs: 
 1- **stávají se** (IReflV, 16)
 ### Identified MWEs: 
-1- **se internacionalizují** 
-2- **stávají se** 
+1- **se stávají** 
 ## Sentence No. 25565 - 
 Vlastenci se odvolají k soudu 
 ### Existing MWEs: 
@@ -8643,7 +8617,8 @@ Otevřel tedy možnost , o které se dosud veřejně nemluvilo .
 ### Existing MWEs: 
 1- **Otevřel možnost** (LVC, 1)
 ### Identified MWEs: 
-1- **se nemluvilo** 
+1- **Otevřel možnost** 
+2- **se nemluvilo** 
 ## Sentence No. 25765 - 
 Srdcem střediska je sál počítače - místnost , v níž se nachází vlastní stroj . 
 ### Existing MWEs: 
@@ -8660,13 +8635,14 @@ Všimněte si , že jsem zničehonic přešel do mluvnického času přítomnéh
 Polská vláda zatím vyřešila situaci tak , že na úterním zasedání rozhodla o zvýšení úrovně delegace : povede ji místopředseda vlády a ministr spravedlnosti W . Cimoszewicz , který zastupuje Svaz demokratické levice . 
 ### Existing MWEs: 
 1- **zvýšení úrovně** (LVC)
+### Identified MWEs: 
+1- **zvýšení úrovně** 
 ## Sentence No. 25850 - 
 Jakmile se někde objevilo , že někdo nadměrně bohatne , už se kontrolovalo , kolik příjmů přiznával a zda nějaké nezatajuje . 
 ### Existing MWEs: 
 1- **se objevilo** (IReflV, 94)
 ### Identified MWEs: 
 1- **se objevilo** 
-2- **se kontrolovalo** 
 ## Sentence No. 25870 - 
 Asi mi zarůstá i nehet , je to dost bolestivé , stěžovala si Novotná , která se v průběhu zápasu nechala ošetřovat . 
 ### Existing MWEs: 
@@ -8684,8 +8660,6 @@ Nakonec se ze soupeřky vyklubala Nicole Provisová , na konci minulého roku 24
 Postup do 3 . kola je dosud jejím grandslamovým maximem , vzhledem k tomu , že další její soupeřkou je světová jednička Grafová , jen těžce bude svůj rekordní výsledek překonávat . 
 ### Existing MWEs: 
 1- **vzhledem k tomu je jednička** (ID)
-### Identified MWEs: 
-1- **je maximem** 
 ## Sentence No. 25890 - 
 Havířovským se potom v 90 . minutě podařilo alespoň snížit a přerušit tak sérii brankáře Lubčenka , který inkasoval poprvé v letošním ročníku po 359 minutách hry . 
 ### Existing MWEs: 
@@ -8963,7 +8937,8 @@ Přibývají na něj nové vklady , jsou dávány nové výpovědi ( třeba kaž
 ### Existing MWEs: 
 1- **jsou dávány výpovědi** (LVC)
 ### Identified MWEs: 
-1- **připraven se** 
+1- **dávány výpovědi** 
+2- **připraven se** 
 ## Sentence No. 27110 - 
 A právě takovouto smlouvou je ta , kterou banka nyní vypovídá - smlouva o vkladu s výpovědní lhůtou na 12 měsíců a s pevnou úrokovou sazbou - aniž by se tím dotýkala platnosti termínovaných smluv na dobu určitou . 
 ### Existing MWEs: 
@@ -8981,7 +8956,7 @@ Klientům , kteří si zřídili termínované účty s pevnou úrokovou sazbou 
 ### Existing MWEs: 
 1- **se naplňuje** (IReflV, 3)
 ### Identified MWEs: 
-1- **se úročí** 
+1- **se naplňuje** 
 ## Sentence No. 27130 - 
 Případ smrti politického vězně Pavla Wonky ve vězení v roce 1988 se dnes znova vrací do povědomí . 
 ### Existing MWEs: 
@@ -9022,8 +8997,6 @@ Loni v prosinci se Bruntálští obrátili na premiéra Klause .
 Kdyby se tvůrci večerníčkového seriálu rozhodli napsat pokračování Pohádek ovčí babičky pro dospělé , našli by zcela jistě inspiraci na britských ostrovech . 
 ### Existing MWEs: 
 1- **se rozhodli** (IReflV, 87)
-### Identified MWEs: 
-1- **se rozhodli** 
 ## Sentence No. 27200 - 
 V černé limuzíně , tmavých brýlích a černém kostýmu se dostavila Brigitte Bardotová , která Jill označila za " Johanku z Arku " anglických ochránců zvířat . 
 ### Existing MWEs: 
@@ -9044,6 +9017,8 @@ Soud totiž včera dostal k dispozici bundu , v které byl obžalovaný zatčen 
 Místo v městské radě se uvolnilo po rezignaci J . Valečka ( KSČM ) , který byl v minulosti členem Lidových milicí , kde údajně zastával vyšší velitelskou funkci . 
 ### Existing MWEs: 
 1- **se uvolnilo** (IReflV, 2)
+### Identified MWEs: 
+1- **se uvolnilo** 
 ## Sentence No. 27255 - 
 Nedostatek kvalitních kancelářských ploch , hlavně ve středu města , se citelně projevuje nejen v Praze , ale i v Brně . 
 ### Existing MWEs: 
@@ -9104,8 +9079,6 @@ Podle Teršla však nebyl projekt ekonomicky podložený , a proto správce stat
 Squateři tvrdí , že se do statku nastěhovali 3 . září 1993 s cílem nejen zde bydlet , ale vytvářet zde také Autonomní sociálně kulturní centrum . 
 ### Existing MWEs: 
 1- **se nastěhovali** (IReflV, 2)
-### Identified MWEs: 
-1- **se nastěhovali** 
 ## Sentence No. 27395 - 
 Pacienti se prý také budou více zamýšlet nad tím , jestli hospitalizaci skutečně potřebují . 
 ### Existing MWEs: 
@@ -9142,8 +9115,6 @@ Nepodstatná není ani jeho lítost nad tím , kolik miliónů lidských život�
 Ve skutečnosti se minulosti nelze vyhnout ani z dlouhodobého hlediska . 
 ### Existing MWEs: 
 1- **se vyhnout** (IReflV, 15)
-### Identified MWEs: 
-1- **se vyhnout** 
 ## Sentence No. 27535 - 
 Taková dohoda jen dokáže , že skrytá nenávist i pocity viny přežívají . 
 ### Existing MWEs: 
@@ -9201,15 +9172,12 @@ Takže je jasné , že Rilke se učil ruštině na základě znalostí češtiny
 Od začátku loňské sezóny se Petr Lébl stal uměleckým šéfem Divadla Na zábradlí , když zvítězil v konkursu , vyhlášeném po smrti režiséra a ředitele Zábradlí Jana Grossmana . 
 ### Existing MWEs: 
 1- **se stal** (IReflV, 275)
-### Identified MWEs: 
-1- **se stal** 
 ## Sentence No. 27690 - 
 Španělský spisovatel Camili José Cela připomíná , že zeman Cid ztělesňuje ideál drobné šlechty , která se v té době jako sociální vrstva profilovala vůči šlechtě , deroucí se k místu na slunci , pozoruhodně spojuje cidovský svět s naším . 
 ### Existing MWEs: 
 1- **deroucí se** (IReflV)
 ### Identified MWEs: 
 1- **se profilovala** 
-2- **deroucí se** 
 ## Sentence No. 27700 - 
 Také já jsem se s Karlem Poláčkem za války setkal . 
 ### Existing MWEs: 
@@ -9269,7 +9237,7 @@ Jiří Kotrba , trenér Viktorie : " Hradec si za nadšení a bojovnost , což p
 ### Existing MWEs: 
 1- **si zasloužil** (IReflV, 11)
 ### Identified MWEs: 
-1- **si chybělo** 
+1- **si zasloužil** 
 ## Sentence No. 27955 - 
 " Kluby se musí naučit pohár hrát . 
 ### Existing MWEs: 
@@ -9290,8 +9258,6 @@ Také jejich hlasy si svou ryze upřímnou naléhavostí příliš nezadají .
 Jako kdyby se Mikolášek rozřeďoval . . . 
 ### Existing MWEs: 
 1- **se rozřeďoval** (IReflV)
-### Identified MWEs: 
-1- **se rozřeďoval** 
 ## Sentence No. 28010 - 
 Všechno je sladěno , ačkoli Mikolášek se jednoduchému ztvárnění svých nápadů vyhýbá . 
 ### Existing MWEs: 
@@ -9320,6 +9286,8 @@ Rádio Echo chce vnášet do svého vysílání pozitivní vnímání světa , v
 Být viděn , slyšen , navázat kontakty - toto byl ostatně podle vyjádření premiéra Klause hlavní cíl jeho cesty do Latinské Ameriky . 
 ### Existing MWEs: 
 1- **navázat kontakty** (LVC, 6)
+### Identified MWEs: 
+1- **navázat kontakty** 
 ## Sentence No. 28160 - 
 V neposlední řadě je si třeba uvědomit jedno : pro všechny latinoameričany je prioritou Severoamerická zóna volného obchodu ( NAFTA ) a připojení se k ní , nikoli izolované společenství s jednou středoevropskou zemí . 
 ### Existing MWEs: 
@@ -9368,8 +9336,6 @@ Ochranným opatřením ES na dovoz čs . oceli bude věnováno zvláštní zased
 Z alba čiší obdivuhodná síla , vpřed se valící hudba podporuje naléhavý hlas Franze Treichlera . 
 ### Existing MWEs: 
 1- **se valící** (IReflV)
-### Identified MWEs: 
-1- **se podporuje** 
 ## Sentence No. 28455 - 
 Týká se linek 4 , 6 , 22 , 57 . 
 ### Existing MWEs: 
@@ -9386,12 +9352,12 @@ Ne na košickém trávníku , ale už včera v letadle se naši fotbaloví repre
 Stejně však uvažuje například náš Němec : " Už je nejvyšší čas , abychom se chytli . 
 ### Existing MWEs: 
 1- **se chytli** (IReflV)
-### Identified MWEs: 
-1- **se chytli** 
 ## Sentence No. 28505 - 
 Výbor fotbalistů Xaverova podává odvolání proti rozhodnutí disciplinární komise v případě zápasu Liberec - Xaverov a upozorňuje odvolací komise na nedostatečnou pořadatelskou službu po celý zápas . 
 ### Existing MWEs: 
 1- **podává odvolání** (LVC)
+### Identified MWEs: 
+1- **podává odvolání** 
 ## Sentence No. 28575 - 
 V prohlášení Iskandarov uvedl , že ti , kdo se nepodřídí , budou vyhlášeni za " zrádce lidu " , bude proti nim nasazena síla , budou odzbrojeni a podle zákona potrestáni . 
 ### Existing MWEs: 
@@ -9538,6 +9504,8 @@ Telecom má díky tzv . regulovanému monopolu možnost vnitřně přerozdělova
 A tak se nejméně jedenkrát měsíčně ozve velice rezolutní klepání na dveře , následuje dramatická pauza a pak již vchází On nebo Ona . 
 ### Existing MWEs: 
 1- **se ozve** (IReflV, 5)
+### Identified MWEs: 
+1- **se ozve** 
 ## Sentence No. 29400 - 
 Dá se však říci , že stále větší počet kvalitních lidí klade hlavní důraz na perspektivu podniku , do kterého by nastoupili . 
 ### Existing MWEs: 
@@ -9643,8 +9611,7 @@ Ten má díky § 191 Zákoníku práce možnost se své odpovědnosti zcela nebo
 ### Existing MWEs: 
 1- **má možnost** (LVC, 40)
 ### Identified MWEs: 
-1- **se zprostit** 
-2- **si může přivodit** 
+1- **se vznikla** 
 ## Sentence No. 29930 - 
 Tripartita se dále zabývala návrhem zákona o státní službě . 
 ### Existing MWEs: 
@@ -9675,6 +9642,7 @@ Na konci první půle se domácí probrali , když Klejch je dostal dvěma góly
 1- **se probrali** (IReflV)
 ### Identified MWEs: 
 1- **se probrali** 
+2- **dostal góly** 
 ## Sentence No. 30125 - 
 Týkaly se sedmadvaceti druhů potravin . 
 ### Existing MWEs: 
@@ -9749,8 +9717,6 @@ Ještě uprostřed minulého týdne jsem si nebyla jistá , zda budu vůbec star
 Bohužel i bez Businského , kterému vařila jeho škodovka a jak otevřel víčko , tak se opařil . 
 ### Existing MWEs: 
 1- **se opařil** (IReflV)
-### Identified MWEs: 
-1- **se opařil** 
 ## Sentence No. 30485 - 
 Náhoda tomu chtěla , že se v té malé zemi nacházela jedna ústřední tisková líheň , jež slula vlasteneckým označením Na Ferenci . 
 ### Existing MWEs: 
@@ -9761,8 +9727,6 @@ Náhoda tomu chtěla , že se v té malé zemi nacházela jedna ústřední tisk
 Společné sdílení všech vzájemně osnovaných nástrah se jim vůbec stalo osudným . 
 ### Existing MWEs: 
 1- **se stalo** (IReflV, 275)
-### Identified MWEs: 
-1- **se stalo** 
 ## Sentence No. 30495 - 
 Schlín , který se zmíněným obviněním cítil potrefen , na to odepsal , že on nekrade , nýbrž že Kudlín opět lže , a kdo prý lže , ten také krade . 
 ### Existing MWEs: 
@@ -9785,6 +9749,8 @@ Předčasných parlamentních voleb 30 . září a 1 . října se zúčastní 18
 Příštích deset let má pro uhelný průmysl znamenat poněkud těžké časy , i když částečnou úlevou bude zvýšení poptávky v Číně a v ostatních asijských zemích . 
 ### Existing MWEs: 
 1- **zvýšení poptávky** (LVC)
+### Identified MWEs: 
+1- **zvýšení poptávky** 
 ## Sentence No. 30600 - 
 Ministr Kovács , který včera přijel na dvoudenní návštěvu České republiky , se také setkal s prezidentem Václavem Havlem a předsedou poslanecké sněmovny Milanem Uhdem . 
 ### Existing MWEs: 
@@ -9908,7 +9874,7 @@ Tato extravagantní , třikrát rozvedená promovaná lékařka veřejně prohla
 ### Existing MWEs: 
 1- **se vyjádřit** (IReflV, 29)
 ### Identified MWEs: 
-1- **neváhala se vyjádřit** 
+1- **se vyjádřit** 
 ## Sentence No. 30955 - 
 Ze Stockholmu se nechala slyšet , že svůj boj nekončí . 
 ### Existing MWEs: 
@@ -9932,7 +9898,7 @@ Zadlužil se milionovými částkami .
 ### Existing MWEs: 
 1- **Zadlužil se** (IReflV)
 ### Identified MWEs: 
-1- **Zadlužil se** 
+1- **se částkami** 
 ## Sentence No. 31090 - 
 Příměří , které vyhlásila Irská republikánská armáda ( IRA ) , vstoupilo v Severním Irsku v platnost včera v 0.00 místního času . 
 ### Existing MWEs: 
@@ -9951,8 +9917,6 @@ Schodkový rozpočet bude mít volič rád .
 V polosvětě mlh vzbudila pobouření . 
 ### Existing MWEs: 
 1- **vzbudila pobouření** (LVC)
-### Identified MWEs: 
-1- **vzbudila pobouření** 
 ## Sentence No. 31145 - 
 Jednou si všimneme i její dimenze nepopulistické . 
 ### Existing MWEs: 
@@ -9963,8 +9927,6 @@ Jednou si všimneme i její dimenze nepopulistické .
 Ze zešílevšího se mechanismu , neovladatelně pracujícího ke smrti , může vyvést bezradné cestující jen hrdina , který vítězně projde tmou , ohněm a zoufalstvím . 
 ### Existing MWEs: 
 1- **zešílevšího se** (IReflV)
-### Identified MWEs: 
-1- **se může vyvést** 
 ## Sentence No. 31185 - 
 V roce 1944 je na vlastní žádost odvelen na východní frontu a účastní se osvobozování Slovenska . 
 ### Existing MWEs: 
@@ -9993,8 +9955,6 @@ Za nové The Smiths bývá označovaná irská skupina The Cranberries , jejíž
 Její charismatický projev se rozprostírá mezi pronikavým výrazem Sineád O ' Connorové ( Pretty ) , plachou cudností Harriet Wheelerové ze Sundays ( Everything I Said ) a roztoužeností Liz Fraserové z Cocteau Twins ( Waltzing Back ) . 
 ### Existing MWEs: 
 1- **se rozprostírá** (IReflV)
-### Identified MWEs: 
-1- **se rozprostírá** 
 ## Sentence No. 31240 - 
 Šéf politického křídla IRA měl na mysli vraždu katolíka , k níž došlo ve čtvrtek večer v Belfastu . 
 ### Existing MWEs: 
@@ -10021,8 +9981,6 @@ Někdejší oddanost současného francouzského prezidenta Françoise Mitterran
 Mitterrand doufá , že Francouzi ocení alespoň jeho odvahu vyzpovídat se . 
 ### Existing MWEs: 
 1- **vyzpovídat se** (IReflV)
-### Identified MWEs: 
-1- **vyzpovídat se** 
 ## Sentence No. 31295 - 
 Prvně jmenovaný import ze Švédska se blýskl nedávno vítězstvím ve Vídni a také v kvalifikaci na derby měl dobrý čas . 
 ### Existing MWEs: 
@@ -10034,8 +9992,6 @@ Prvně jmenovaný import ze Švédska se blýskl nedávno vítězstvím ve Vídn
 Pamatuje velmi dobře na zděšení Ulbrichtova režimu , když se do kopule věže poprvé opřelo slunce a vykouzlilo na stříbřitém plechu nepřehlédnutelný zlatý kříž nad Berlínem . 
 ### Existing MWEs: 
 1- **se opřelo** (IReflV, 1)
-### Identified MWEs: 
-1- **se opřelo** 
 ## Sentence No. 31405 - 
 Podle nich se 71 procent východních Němců domnívá , že socialismus byl dobrá věc , jenom prý v časech NDR chyběli správní politici . 
 ### Existing MWEs: 
@@ -10092,8 +10048,6 @@ Vývoz strojního a dopravního zařízení se na celkovém objemu podílí 27.1
 Zpráva UNCTAD zjišťuje , že největší důvěru investorů mají pořád Spojené státy , kam vloni připlynulo 32 miliard dolarů . 
 ### Existing MWEs: 
 1- **důvěru mají** (LVC)
-### Identified MWEs: 
-1- **mají státy** 
 ## Sentence No. 31645 - 
 Staří tygři Hongkong , Singapur , Tchaj - wan a Korea ztratily přitažlivost pro západní nadnárodní firmy , takže přestavují svoji ekonomiku a přehrávají se do role investorů v méně rozvinutých zemích . 
 ### Existing MWEs: 
@@ -10115,7 +10069,7 @@ Osobní rivalita a vzájemné vymezování se lídrů obou stran navozují myšl
 ### Existing MWEs: 
 1- **navozují myšlenky** (LVC)
 ### Identified MWEs: 
-1- **se navozují** 
+1- **navozují myšlenky** 
 ## Sentence No. 31680 - 
 Dříve nebo později se totiž dostane sociální demokracie k moci . 
 ### Existing MWEs: 
@@ -10176,8 +10130,6 @@ Ale Mary mívá i horší dny , vždyť se Studeníkovou mohla klidně prohrát 
 Mým cílem je naplnit požadavek , který vznesl orchestr , když mi bylo nabídnuto místo šéfdirigenta : Přivést kvalitu orchestru na vyšší úroveň . 
 ### Existing MWEs: 
 1- **který vznesl** (LVC)
-### Identified MWEs: 
-1- **vznesl orchestr** 
 ## Sentence No. 31980 - 
 V roce 1988 se stal šéfdirigentem Janáčkovy filharmonie v Ostravě , kde do té doby působil jako dirigent . 
 ### Existing MWEs: 
@@ -10195,7 +10147,7 @@ Poté , co ji loni nafackoval , napadl s nožem v ruce jejího přítele a popra
 ### Existing MWEs: 
 1- **popral se** (IReflV)
 ### Identified MWEs: 
-1- **popral se** 
+1- **se zapudila** 
 ## Sentence No. 32040 - 
 V jediném dosavadním vzájemném střetnutí byla před čtyřmi roky úspěšnější , mezitím se ovšem z Pierceové stala hráčka první světové pětky . 
 ### Existing MWEs: 
@@ -10336,8 +10288,6 @@ Co když však Neumannová neprojeví zájem o start ve štafetě ?
 Nicméně vyslovil uspokojení s názory poslanců , že oživení v okrese Nový Jičín , kde je největší nezaměstnanost v České republice , může přinést rychleji budovaná infrastruktura . 
 ### Existing MWEs: 
 1- **vyslovil uspokojení** (LVC)
-### Identified MWEs: 
-1- **vyslovil uspokojení** 
 ## Sentence No. 32680 - 
 V Moravskoslezské vagónce ve Studénce se poslanci chtěli přesvědčit , jak je továrna připravena na to , aby v konkurenčním prostředí získala objednávku Českých drah na obnovu osobního železničního vagónového parku . 
 ### Existing MWEs: 
@@ -10392,6 +10342,8 @@ Obsáhlejšímu pohledu do sněmovny se nikdo nevěnuje .
 Diskuse se sice vedou , ale mají velice nízkou věcnou úroveň . 
 ### Existing MWEs: 
 1- **Diskuse vedou** (LVC, 1)
+### Identified MWEs: 
+1- **se vedou** 
 ## Sentence No. 32890 - 
 Já tyto věci považuji za velmi nebezpečné , neboť se tu odehrává něco , čemu se říká imprint . 
 ### Existing MWEs: 
@@ -10403,8 +10355,7 @@ Dnes už se neodchází , má však společnost samočisticí schopnost , nechyb
 ### Existing MWEs: 
 1- **má schopnost** (LVC, 5)
 ### Identified MWEs: 
-1- **se neodchází** 
-2- **má schopnost** 
+1- **má schopnost** 
 ## Sentence No. 32920 - 
 Tuhle jsem četl článek jistého německého profesora zabývající se veřejným děním u nás . 
 ### Existing MWEs: 
@@ -10440,7 +10391,6 @@ Po utkání se v šatně Slavie bouřlivě oslavovalo , hlasy " abychom si vzali
 ### Identified MWEs: 
 1- **se oslavovalo** 
 2- **si vzali** 
-3- **si byli publika** 
 ## Sentence No. 33020 - 
 Jsme - li však svědky toho , že kritéria morálky a dokonce i dějinné události jsou přizpůsobovány vlastnímu životopisu , nelze se tomu vyhnout . 
 ### Existing MWEs: 
@@ -10473,8 +10423,6 @@ Tato eventualita v současné době hrozí například těm , kteří se rozhodl
 Vedle neotřelých módních dekorů zde absolvoval svou premiéru tvar " Praktik " , jímž se do KP vrací výroba hotelového porcelánu . 
 ### Existing MWEs: 
 1- **se vrací** (IReflV, 39)
-### Identified MWEs: 
-1- **se vrací** 
 ## Sentence No. 33150 - 
 Kéž by to tam padalo celé jaro , " usmíval se Siegl , jemuž moc nechybělo k tomu , aby si připsal hattrick . 
 ### Existing MWEs: 
@@ -10503,6 +10451,8 @@ Změna by podle KDS měla umožnit , aby se každý napadený občan mohl efekti
 Při včerejší návštěvě Brna uvedl ministr zemědělství Josef Lux , že zavedení certifikátů staví bariéry v obchodu mezi oběma státy a ve svém důsledku poškodí české podnikatele a slovenské spotřebitele . 
 ### Existing MWEs: 
 1- **staví bariéry** (LVC, 1)
+### Identified MWEs: 
+1- **staví bariéry** 
 ## Sentence No. 33295 - 
 Je jasné , že se nikdo nechová úplně stejně doma a v zaměstnání , doma a na trhu . 
 ### Existing MWEs: 
@@ -10736,8 +10686,6 @@ Umožňuje to změnit trasu automobilu v případě , že se hlavní silnice sta
 Během přepravy barva zlepšuje přehled o tom , zda se zásilka nezpožďuje . 
 ### Existing MWEs: 
 1- **se nezpožďuje** (IReflV)
-### Identified MWEs: 
-1- **se nezpožďuje** 
 ## Sentence No. 34410 - 
 V minulosti šly nejlépe na odbyt lednice , v současnosti jsou to kuchyňské sporáky . 
 ### Existing MWEs: 
@@ -10750,6 +10698,8 @@ Tehdy již byli noví majitelé v úzkých a přiznali , že sami fabriku neuko�
 Jak se vypořádat s bývalou sníženou kvalitou dodávek na východní trhy , jak reagovat na změny trhu , ( například šest teplých zim za sebou , přineslo recesi trhu ) , jak vybruslit z nekonkurenční struktury nákladů , když bylo vše zprůměrováno a není jasné , který provoz vydělává a který ne ? 
 ### Existing MWEs: 
 1- **se vypořádat** (IReflV, 6)
+### Identified MWEs: 
+1- **se vypořádat** 
 ## Sentence No. 34440 - 
 Nás pochopitelně nejvíce zajímalo , jak se využívá velká pravomoc , která člověku leží na bedrech . 
 ### Existing MWEs: 
@@ -10837,7 +10787,7 @@ Spor o ekologii není výrazem odlišného názoru na nezbytnost racionálního 
 ### Existing MWEs: 
 1- **se pokoušet** (IReflV, 27)
 ### Identified MWEs: 
-1- **se nahrazovat** 
+1- **se pokoušet** 
 ## Sentence No. 34875 - 
 Šest týdnů po jmenování prozatímní vlády národní jednoty nejsou finance na rekonstrukci zdevastované země . 
 ### Existing MWEs: 
@@ -10940,8 +10890,6 @@ Podle společnosti má na prodejních úspěších podíl akce finanční spole�
 Už několik měsíců se tak v Polsku vyhrocují vztahy mezi vládnoucím seskupením a hierarchií katolické církve . 
 ### Existing MWEs: 
 1- **se vyhrocují** (IReflV)
-### Identified MWEs: 
-1- **se vyhrocují** 
 ## Sentence No. 35255 - 
 Hierarchie si určitě uvědomuje , že v zemi vládnou dědicové lidového Polska . 
 ### Existing MWEs: 
@@ -11034,6 +10982,8 @@ Nestyďme se za vlastenectví a uspořádejme vojenskou přehlídku v Praze .
 Tomáš Jelínek , kapitán ČR : Rozhodčí vylučoval příliš často , připadal jsem si jako na basketbale . 
 ### Existing MWEs: 
 1- **připadal jsem si** (IReflV, 1)
+### Identified MWEs: 
+1- **připadal jsem si** 
 ## Sentence No. 35665 - 
 Slováci udělali hned v 5 . minutě chybu v obraně , kterou potrestal Molin . 
 ### Existing MWEs: 
@@ -11119,7 +11069,7 @@ Z toho důvodu je nutno považovat za protizákonný takový způsob prodeje zá
 ### Existing MWEs: 
 1- **by měl nárok** (LVC, 3)
 ### Identified MWEs: 
-1- **by se prodat** 
+1- **by se dala** 
 ## Sentence No. 35880 - 
 Romeo , Julie , Merkucio , Tybalt a další představitelé veronské mládeže jsou v Töpferově pojetí opravdu ještě dětmi ( podobně jako ve slavném Zefirelliho filmu ) a dosah svých činů si uvědomují až se zpožděním . 
 ### Existing MWEs: 
@@ -11181,6 +11131,8 @@ Ze studia se však dlouho netěšil , protože v květnu roku 1948 byl bez upozo
 * * * Čas mne časuje , jak zamane si , na ciferníku , který drží přísný anděl . 
 ### Existing MWEs: 
 1- **zamane si** (IReflV)
+### Identified MWEs: 
+1- **zamane si** 
 ## Sentence No. 36055 - 
 Mě je vůbec divné , že banka má zájem vlastnit tiskovinu , dodal . 
 ### Existing MWEs: 
@@ -11215,6 +11167,8 @@ o Jak byste si přál , aby na vás lidé vzpomínali ?
 Nechci vzbuzovat iluzi , že jsem byl dokonalý . 
 ### Existing MWEs: 
 1- **Nechci vzbuzovat iluzi** (LVC)
+### Identified MWEs: 
+1- **vzbuzovat iluzi** 
 ## Sentence No. 36110 - 
 I když jsem si nechal pootevřené dveře , fakticky jsou zabouchnuté . 
 ### Existing MWEs: 
@@ -11270,7 +11224,7 @@ K diskusi poslanců je připraven návrh zákona o držení zbraní , který z j
 ### Existing MWEs: 
 1- **dá právo** (LVC, 1)
 ### Identified MWEs: 
-1- **dá právo mít** 
+1- **dá právo** 
 2- **se bude žádat** 
 ## Sentence No. 36380 - 
 Svrchovanost spotřebitele si vždy nakonec vynutí i svrchovanost občanskou , jejíž je ostatně rozhodující složkou . 
@@ -11281,7 +11235,7 @@ Nechal jsem se ale zmalátnit výparem věty u nás se může stát cokoli , u n
 ### Existing MWEs: 
 1- **se může stát** (IReflV, 10)
 ### Identified MWEs: 
-1- **jsem se zmalátnit** 
+1- **Nechal jsem se** 
 2- **se může stát** 
 ## Sentence No. 36445 - 
 Život se zrychlil . 
@@ -11315,6 +11269,8 @@ V polovině třicátých let se zamilovala do Čecha od Humpolce .
 Pokud mají chudí duchem národnost , potom je tedy Slovákem , kdysi se tam narodil . 
 ### Existing MWEs: 
 1- **se narodil** (IReflV, 22)
+### Identified MWEs: 
+1- **se narodil** 
 ## Sentence No. 36540 - 
 Mnozí se tam narodili zcela náhodou , jsou proto hodně překvapeni . 
 ### Existing MWEs: 
@@ -11396,7 +11352,7 @@ Do té doby si slavní rockeři chtějí nerušeně prohlížet pražské památ
 ### Existing MWEs: 
 1- **si chtějí prohlížet** (IReflV)
 ### Identified MWEs: 
-1- **si chtějí prohlížet** 
+1- **si chtějí památky** 
 ## Sentence No. 36945 - 
 Zvýšená pozornost je věnována osobám , které chtějí vstoupit do soudní budovy mimo pracovní dobu . 
 ### Existing MWEs: 
@@ -11485,6 +11441,8 @@ Generální štáb ruských vojsk potvrdil letecké bombardování čečenských
 Přednost měl poslední přípravný zápas . 
 ### Existing MWEs: 
 1- **Přednost měl** (LVC)
+### Identified MWEs: 
+1- **Přednost měl** 
 ## Sentence No. 37310 - 
 Jedná se například o odebrání šekových knížek , pasů a řidičských průkazů . 
 ### Existing MWEs: 
@@ -11720,6 +11678,8 @@ Jiří Javorský : " Zbytek do toho půl miliónu jsou celkové náklady na uspo
 Může být spokojen , protože životní úkol , který si předsevzal , byl splněn . 
 ### Existing MWEs: 
 1- **si předsevzal** (IReflV, 1)
+### Identified MWEs: 
+1- **si předsevzal** 
 ## Sentence No. 38280 - 
 Spojené státy požádají o zvláštní zasedání Rady bezpečnosti OSN , které by se zabývalo posílením schopnosti Organizace spojených národů předcházet vojenským konfliktům , omezit je a řešit . 
 ### Existing MWEs: 
@@ -11811,7 +11771,6 @@ Snažte se med používat syrový , nedávejte jej do horkého čaje nebo mléka
 1- **Snažte se** (IReflV, 23)
 ### Identified MWEs: 
 1- **Snažte se** 
-2- **se ochudit** 
 ## Sentence No. 38635 - 
 Posluchači si na ni počkali dlouhých šest let , které uplynuly od vydání předchozího So . 
 ### Existing MWEs: 
@@ -11868,6 +11827,8 @@ Navzdory tomu , jak jsou rámy drahé , vyplatí se pořídit obrazu pěkný rá
 Prodávající na aukci nese zase jiné riziko . 
 ### Existing MWEs: 
 1- **nese riziko** (LVC, 1)
+### Identified MWEs: 
+1- **nese riziko** 
 ## Sentence No. 39055 - 
 Náš čtenář by si měl nalézt nestranného znalce a nespokojit se s posudkem , který si dal vypracovat prodejce . 
 ### Existing MWEs: 
@@ -11902,8 +11863,6 @@ Myslel jsem si totiž , že už všechno umím .
 Cena masa doslova kličkuje , zemědělci se bouří nad růstem nákladů . 
 ### Existing MWEs: 
 1- **se bouří** (IReflV)
-### Identified MWEs: 
-1- **se bouří** 
 ## Sentence No. 39225 - 
 Poté , kdy se výběr soutěžících zúžil na osm , šlo do tuhého . 
 ### Existing MWEs: 
@@ -11950,6 +11909,7 @@ Prostě doba se změnila a produkce jejich podniků nemá odbyt .
 1- **se změnila** (IReflV, 44)
 ### Identified MWEs: 
 1- **se změnila** 
+2- **nemá odbyt** 
 ## Sentence No. 39495 - 
 Dokážu si představit situaci , kdy se některé firmy vrátí státu 
 ### Existing MWEs: 
@@ -12053,8 +12013,6 @@ Do Strakonic se vedle místního publika sjeli lidé ze širokého okolí , z ni
 Posluchač se tak mohl v rozsáhlejší časové ploše více vcítit do hudby jednoho souboru či oblasti . 
 ### Existing MWEs: 
 1- **se mohl vcítit** (IReflV)
-### Identified MWEs: 
-1- **se mohl vcítit** 
 ## Sentence No. 39925 - 
 Smysl festivalu , spočívající ve snaze podpořit lidovou dudáckou tradici , se ovšem nemíjí účinkem a hra na dudy a regionální folklor je pěstován i na základních hudebních školách ( dětské soubory z Blatné , Strakonic , Českých Budějovic . . . vystoupily v rámci festivalu ) . 
 ### Existing MWEs: 
@@ -12102,8 +12060,7 @@ Dalo by se tedy předpokládat , že i Česká republika jako křižovatka dopra
 ### Existing MWEs: 
 1- **se přihlásí** (IReflV, 32)
 ### Identified MWEs: 
-1- **by se předpokládat** 
-2- **se přihlásí** 
+1- **by se se přihlásí** 
 ## Sentence No. 40060 - 
 Jednoduše řečeno , čím déle budeme projekt odkládat , tím vyšší pak budou náklady . 
 ### Existing MWEs: 
@@ -12123,8 +12080,7 @@ V České republice se opět začínají aktivizovat zahraniční pojišťovny ,
 ### Existing MWEs: 
 1- **nemají povolení** (LVC, 3)
 ### Identified MWEs: 
-1- **se aktivizovat** 
-2- **nemají povolení** 
+1- **se nemají povolení** 
 ## Sentence No. 40085 - 
 Je ovšem třeba se na věc podívat i z druhé strany . 
 ### Existing MWEs: 
@@ -12147,6 +12103,8 @@ Protiislámské pasáže návrhu rezoluce z konference OSN o populaci a rozvoji 
 Start se ale tentokrát přece jen něčím lišil . 
 ### Existing MWEs: 
 1- **se lišil** (IReflV, 25)
+### Identified MWEs: 
+1- **se lišil** 
 ## Sentence No. 40130 - 
 Přihlásila se tedy za zdravotní sestru a dobrovolně pomáhala na obou stranách bitevní čáry . 
 ### Existing MWEs: 
@@ -12230,7 +12188,7 @@ Není žádným tajemstvím , že těžko mohou dát něco dohromady , když mez
 ### Existing MWEs: 
 1- **mohou dát dohromady** (ID)
 ### Identified MWEs: 
-1- **dát dohromady** 
+1- **dát něco dohromady** 
 ## Sentence No. 40400 - 
 Mezinárodní bluesový festival v Tabánu , který se bude v této budapešťské čtvrti konat 10 . až 11 . září , je už druhým v pořadí . 
 ### Existing MWEs: 
@@ -12281,7 +12239,7 @@ Krátkozrakost a neodpovědnost politiky bývalých sovětských představitelů
 ### Existing MWEs: 
 1- **se musely přestěhovat** (IReflV)
 ### Identified MWEs: 
-1- **se musely přestěhovat** 
+1- **přestěhovat na zelenou** 
 ## Sentence No. 40655 - 
 Ředitel Aera Z . Chalupník se netají orientací na Elbit , který ho prý po ztrátě kontraktů na Východě naučil chodit po západních trzích . 
 ### Existing MWEs: 
@@ -12302,6 +12260,8 @@ Před zahraničními firmami dostala ve Volyni přednost škola
 Přesto , že se o koupi zajímaly i zahraniční firmy , městské zastupitelstvo nakonec rozhodlo převést objekt na školu , která byla jako součást Středního odborného učiliště založena ve Volyni před třemi roky a dosud fungovala ve značně stísněných podmínkách . 
 ### Existing MWEs: 
 1- **se zajímaly** (IReflV, 14)
+### Identified MWEs: 
+1- **se zajímaly** 
 ## Sentence No. 40715 - 
 Že by se nezachoval jediný protokol o použití zbraně ? 
 ### Existing MWEs: 
@@ -12313,9 +12273,8 @@ Nevím , kdy podpisoval jediný ještě žijící , ale Dubček se potom spíše
 ### Existing MWEs: 
 1- **vstoupilo v platnost** (LVC, 15)
 ### Identified MWEs: 
-1- **se vymlouval** 
-2- **vstoupilo v platnost** 
-3- **měl vědět** 
+1- **vstoupilo v platnost** 
+2- **měl mrtvých** 
 ## Sentence No. 40735 - 
 V roce 1985 se stal členem Slovinské akademie věd a letos obdržel tzv . Listinu Otona Župančiče ( pojmenovanou podle vůdčího představitele slovinské literární moderny ) za propagaci slovinské literatury v zahraničí . 
 ### Existing MWEs: 
@@ -12532,6 +12491,8 @@ Jeho patronem se stal doyen francouzských herců Jean Marais , který se však 
 Ministr Pilip včera prohlásil , že by ministerstvo jako zakladatel SPN mělo žaloby podat , protože v tomto případě byly obejity běžné kroky privatizace . 
 ### Existing MWEs: 
 1- **by mělo žaloby podat** (LVC)
+### Identified MWEs: 
+1- **mělo žaloby** 
 ## Sentence No. 41875 - 
 Slavnostního otevření se zúčastnil i ekonomický náměstek ministra zemědělství Václav Slavíček a prezident Agrární komory Jiří Netík . 
 ### Existing MWEs: 
@@ -12669,6 +12630,8 @@ Mimo jiné se podle obžaloby pokusila vylákat na řádu premonstrátů v Praze
 U většiny výrobků sice odpadne schvalování státní zkušebnou a odpovědnost se všemi důsledky ponese výrobce . 
 ### Existing MWEs: 
 1- **odpovědnost ponese** (LVC, 2)
+### Identified MWEs: 
+1- **ponese výrobce** 
 ## Sentence No. 42515 - 
 BNP a Dresdner Bank úzce spolupracují již několik let . 
 ### Existing MWEs: 
@@ -12703,8 +12666,6 @@ Smrt je poražena , osud se naplnil .
 V tvrdé konkurenci stále se množících penziónů a hotelů všude v okolí už dávno nelze sázet jen na romantické šumění Vydry . 
 ### Existing MWEs: 
 1- **se množících** (IReflV)
-### Identified MWEs: 
-1- **se sázet** 
 ## Sentence No. 42690 - 
 Tento nepříliš optimistický odhad bylo jen stěží možno pominout : výrazná bělovlasá postava Ernsta Ulricha von Weizsäckera z wuppertalského Institutu pro klima , životní prostředí a energii k sobě často přitahovala daleko více pozornosti než většina z řady ministrů , kteří se účastnili druhé Konference u kulatého stolu o udržitelné produkci a spotřebě v norském Oslu . 
 ### Existing MWEs: 
@@ -12749,8 +12710,6 @@ Zatím je " za vodou " pouze Všeobecná se svými šesti milióny klientů a Ho
 Až se situace uklidní a bude jasné , které z ústavů přežijí , bude již konec " turismu " za výhodami . 
 ### Existing MWEs: 
 1- **se uklidní** (IReflV)
-### Identified MWEs: 
-1- **se uklidní** 
 ## Sentence No. 42790 - 
 Bavorská vláda v úterý vyjádřila rozčarování z projevu , neboť v něm prezident odmítl odškodnění pro " německé oběti českých činů bezpráví " . 
 ### Existing MWEs: 
@@ -12776,12 +12735,14 @@ Když se setkám s nějakým člověkem , kterému opravdu věřím , věřím j
 Média dost sleduji , takže vím , kdo jak myslí a jaké zaujímá postoje . 
 ### Existing MWEs: 
 1- **zaujímá postoje** (LVC, 1)
+### Identified MWEs: 
+1- **zaujímá postoje** 
 ## Sentence No. 42890 - 
 První nasazená tenistka turnaje v Linci s dotací 161250 dolarů Novotná potvrdila roli favoritky , přestože první set finále s Němkou Rittnerovou prohrála a v tie breaku ve třetím se dopustila dvojchyby . 
 ### Existing MWEs: 
 1- **se dopustila** (IReflV, 16)
 ### Identified MWEs: 
-1- **se dopustila** 
+1- **třetím se** 
 ## Sentence No. 42895 - 
 Devítičlenná porota z nich v minulých dnech vybrala 76 pořadů , které se budou ve dnech 2 . až 5 . dubna ucházet o Cenu rektora Univerzity Palackého a dílčí ceny v jednotlivých oborech . 
 ### Existing MWEs: 
@@ -12824,8 +12785,6 @@ Podle údajů Nezávislé volební komise , které byly zveřejněny po sečten�
 Zde si můžete dát v restauraci oběd nebo jen kafe . 
 ### Existing MWEs: 
 1- **si můžete dát** (IReflV)
-### Identified MWEs: 
-1- **si můžete dát kafe** 
 ## Sentence No. 43065 - 
 Pak už jen krátkou cestou po žluté a jste v Libošovicích , kde máte opět příležitost k občerstvení a vlak . 
 ### Existing MWEs: 
@@ -12858,8 +12817,6 @@ Michal Soukup uvedl , že se za něj při útocích na jeho osobu postavila jak 
 V semifinále se však Bartošovi na vedoucí pozici zablokovala převodovka a bylo po finále . 
 ### Existing MWEs: 
 1- **se zablokovala** (IReflV)
-### Identified MWEs: 
-1- **se zablokovala** 
 ## Sentence No. 43280 - 
 Ministr Benda poukázal na programové prohlášení vlády ČR , podle něhož se vláda v krátkém čase k rozvoji jaderné energetiky včetně Temelína jasně vyjádří , což bude následovat až po důkladném ekonomickém a ekologickém rozboru . 
 ### Existing MWEs: 

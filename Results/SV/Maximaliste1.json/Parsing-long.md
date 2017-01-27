@@ -7,8 +7,6 @@ Jag är en av dem som tyckt att Mathias Ranégie aldrig fick chansen på Kamratg
 Att lära ut miljökunskap och sopsortering med hjälp av en hund har många fördelar enligt Anders Lundberg . 
 ### Existing MWEs: 
 1- **lära ut** (VPC)
-### Identified MWEs: 
-1- **lära ut** 
 ## Sentence No. 35 - 
 Stänga av en endaste minut – varför det ? 
 ### Existing MWEs: 
@@ -49,3 +47,5 @@ När hon med rätta kritiseras är hon opåverkbar och säger att man inte kan f
 I de två tidigare säsongerna är det idel kvinnor som gjort upp i finalen , något som gör Mannerström lite extra belåten . 
 ### Existing MWEs: 
 1- **gjort upp** (VPC)
+### Identified MWEs: 
+1- **gjort upp** 

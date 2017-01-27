@@ -15,8 +15,10 @@ Regizorul Spike Lee aduce în prim plan viața unui tip care nu - i prea sigur d
 3- **s - lăsat** (IReflV, 4), Interleaving 
 2- **se gândească** (IReflV, 4)
 ### Identified MWEs: 
-1- **s lăsat** 
-2- **se gândească** 
+1- **s** 
+2- **s** 
+3- **s lăsat** 
+4- **se gândească** 
 ## Sentence No. 21980 - 
 Dat fiind faptul că pentru baloane este nevoie de licențiere internațională , întrucât sunt considerate nave de zbor , act care costă mult , A * SALT se mulțumește deocamdată să înalțe aparatul său pe funie ancorată la sol , lucru care s - a întâmplat și pe 3 august 2002 , de Ziua Timișoarei , în Piața Unirii . 
 ### Existing MWEs: 
@@ -26,7 +28,9 @@ Dat fiind faptul că pentru baloane este nevoie de licențiere internațională 
 ### Identified MWEs: 
 1- **este nevoie** 
 2- **se mulțumește** 
-3- **s întâmplat** 
+3- **s** 
+4- **s** 
+5- **s întâmplat** 
 ## Sentence No. 29665 - 
 De atunci Lidia se ocupă de tatăl ei , se plimbă pe străzile Timișoarei , nu se mai satură de prieteni și de limba maternă , își face mâncare cum îi place și spune că are o singură și foarte mare durere : 
 ### Existing MWEs: 
@@ -35,6 +39,7 @@ De atunci Lidia se ocupă de tatăl ei , se plimbă pe străzile Timișoarei , n
 3- **se satură** (IReflV)
 ### Identified MWEs: 
 1- **se ocupă** 
+2- **se plimbă** 
 ## Sentence No. 32505 - 
 Cu ajutorul materialelor și cursurilor puse la dispoziție de „ Junior Achievement România ” , elevii au avut ocazia să se comporte ca viitori aspiranți la un loc de muncă , identificând performanțe și abilități proprii , analizând comportamente și situații concrete de la viitorul loc de muncă , observând strategii și particularități ale activităților din cadrul companiilor , au învățat să comunice , să se prezinte , să lucreze în echipă și să identifice cât mai bine locul de muncă unde pot avea succes . 
 ### Existing MWEs: 
@@ -43,8 +48,9 @@ Cu ajutorul materialelor și cursurilor puse la dispoziție de „ Junior Achiev
 3- **se comporte** (IReflV, 2)
 ### Identified MWEs: 
 1- **puse la dispoziție** 
-2- **se comporte** 
-3- **se prezinte** 
+2- **avut ocazia** 
+3- **se comporte** 
+4- **se prezinte** 
 ## Sentence No. 41785 - 
 În perioada 5 - 7 iunie , în Parlamentul Germaniei va avea loc acțiunea intitulată „ Rugăciunea berlineză “ , organizată în mod similar „ Micului Dejun cu Rugăciune “ ce se desfășoară anual la Washington D . C . , în S . U . A . Această manifestare - la care sunt invitați circa 200 de parlamentari , înalți ierarhi și reprezentanți ai cultelor , oameni de cultură din întreaga lume - se desfășoară sub deviza „ Responsabilitatea politicienilor în fața oamenilor și a lui Dumnezeu “ . 
 ### Existing MWEs: 
@@ -54,7 +60,8 @@ Cu ajutorul materialelor și cursurilor puse la dispoziție de „ Junior Achiev
 ### Identified MWEs: 
 1- **avea loc** 
 2- **se desfășoară** 
-3- **se desfășoară** 
+3- **S** 
+4- **se desfășoară** 
 ## Sentence No. 42075 - 
 Elevii corigenți din clasele terminale care s - au prezentat la sesiunile din iunie , respectiv august , și nu au promovat examenul de corigență , vor fi declarați repetenți și nu mai au dreptul să se prezinte la sesiunea din septembrie . 
 ### Existing MWEs: 
@@ -62,9 +69,11 @@ Elevii corigenți din clasele terminale care s - au prezentat la sesiunile din i
 3- **au dreptul** (LVC, 72)
 2- **se prezinte** (IReflV, 38)
 ### Identified MWEs: 
-1- **s prezentat** 
-2- **au dreptul** 
-3- **se prezinte** 
+1- **s** 
+2- **s** 
+3- **s prezentat** 
+4- **au dreptul** 
+5- **se prezinte** 
 ## Sentence No. 44905 - 
 Alta s - a întâmplat la Mănăstirea Brâncoveanu de la Sâmbăta de Sus , unde semnătura Voievodului nu s - a lăsat filmată din prima . 
 ### Existing MWEs: 
@@ -72,15 +81,20 @@ Alta s - a întâmplat la Mănăstirea Brâncoveanu de la Sâmbăta de Sus , und
 2- **s lăsat** (IReflV, 4)
 3- **s - lăsat** (IReflV, 4), Interleaving 
 ### Identified MWEs: 
-1- **s întâmplat** 
-2- **s lăsat** 
+1- **s** 
+2- **s** 
+3- **s întâmplat** 
+4- **s** 
+5- **s** 
+6- **s lăsat** 
 ## Sentence No. 10 - 
 După ce a luat contact în mod direct cu rasele românești propuse , în cadrul Expoziției Centrale Est - Europene din 2002 de la Arad , forul internațional a făcut precizarea că , începând din acest an , vor fi executate verificări în teren de către delegați FCI , ce se vor derula pe parcursul a câteva luni . 
 ### Existing MWEs: 
 2- **După a** (IReflV)
 1- **se derula** (IReflV, 48)
 ### Identified MWEs: 
-1- **se derula** 
+1- **luat contact** 
+2- **se derula** 
 ## Sentence No. 640 - 
 Miercuri , 18 iunie , membrii Cenaclului C . A . R . P . Timișoara se vor reuni pentru o nouă ședință - spectacol ce va avea loc , începând cu ora 16 , la sediul din str . Bogdăneștilor nr . 4 . 
 ### Existing MWEs: 
@@ -111,8 +125,12 @@ Printre modificările aduse de recenta Lege a metrologiei , ale cărei prevederi
 2- **pus în vânzare** (LVC, 27)
 1- **s desfășurat** (IReflV, 17)
 ### Identified MWEs: 
-1- **pus în vânzare** 
-2- **s desfășurat** 
+1- **S** 
+2- **S** 
+3- **pus în vânzare** 
+4- **s** 
+5- **s** 
+6- **s desfășurat** 
 ## Sentence No. 1910 - 
 Pentru asemenea informații , vă recomandăm să vă adresați Biroului Acționariat al firmei menționate . 
 ### Existing MWEs: 
@@ -125,6 +143,9 @@ victima , pe fondul consumului de alcool , s - a luat la ceartă cu B . F . și 
 ### Existing MWEs: 
 1- **s luat la ceartă** (ID)
 2- **s luat** (IReflV, 1), Embedded
+### Identified MWEs: 
+1- **s** 
+2- **S** 
 ## Sentence No. 2250 - 
 Ulterior a intrat în conflict cu președintele sârb , mai ales după ce a luat decizia de a - l preda pe Slobodan Miloșevici Tribunalului de la Haga . 
 ### Existing MWEs: 
@@ -139,8 +160,13 @@ l În luna februarie , rata infației s - a situat la 0 , 8 % , cel mai scăzut 
 2- **s situat** (IReflV, 2)
 1- **s situat** (IReflV, 2)
 ### Identified MWEs: 
-1- **s situat** 
-2- **s situat** 
+1- **s** 
+2- **s** 
+3- **s situat** 
+4- **s** 
+5- **s** 
+6- **s** 
+7- **s situat** 
 ## Sentence No. 2910 - 
 Deși le - a pus la dispoziție un comunicat referitor la oficiile poștale abilitate pentru încasarea impozitelor și taxelor locale , cetățenii nu s - au lăsat înduplecați . 
 ### Existing MWEs: 
@@ -148,7 +174,9 @@ Deși le - a pus la dispoziție un comunicat referitor la oficiile poștale abil
 1- **s - lăsat** (IReflV, 4)
 ### Identified MWEs: 
 1- **pus la dispoziție** 
-2- **s lăsat** 
+2- **s** 
+3- **s** 
+4- **s lăsat** 
 ## Sentence No. 2985 - 
 Din această lună a intrat în vigoare Instrucțiunea IRU - Măsuri de prevenire împotriva acțiunilor crimei organizate de pus în aplicare de către fiecare titular de carnete TIR . 
 ### Existing MWEs: 
@@ -210,31 +238,44 @@ Regia , coregrafia și adaptarea după libretul original aparțin maestrului cor
 1- **s reîntors** (IReflV, 1)
 2- **punându în valoare** (LVC)
 ### Identified MWEs: 
-1- **s reîntors** 
-2- **punându interpretat** 
+1- **s** 
+2- **s** 
+3- **s reîntors** 
+4- **punându și** 
 ## Sentence No. 10345 - 
 Apoi s - au retras în coliba în care se odihneau și au mâncat și ei . 
 ### Existing MWEs: 
 1- **s retras** (IReflV, 6)
 2- **se odihneau** (IReflV)
 ### Identified MWEs: 
-1- **s retras** 
+1- **s** 
+2- **s** 
+3- **s retras** 
 ## Sentence No. 10750 - 
 În ediția 2003 - 2004 , echipa feminină de volei C . S . U . Politehnica Tender Timișoara va evolua în Divizia A , după ce s - a clasat pe primul loc al turneului de baraj ce s - a desfășurat la finele săptămânii trecute în Sala Olimpia . 
 ### Existing MWEs: 
 1- **s clasat** (IReflV, 6)
 2- **s desfășurat** (IReflV, 17)
 ### Identified MWEs: 
-1- **s clasat** 
-2- **s desfășurat** 
+1- **S** 
+2- **s** 
+3- **s** 
+4- **s clasat** 
+5- **s** 
+6- **s** 
+7- **s desfășurat** 
 ## Sentence No. 11875 - 
 Unchiul său voia să - l înscrie la Academia de Export , însă el s - a dus la Medicină , drept pentru care s - a trezit alungat din casa rudei sale . 
 ### Existing MWEs: 
 1- **s dus** (IReflV, 6)
 2- **s trezit** (IReflV, 4)
 ### Identified MWEs: 
-1- **s dus** 
-2- **s trezit** 
+1- **s** 
+2- **s** 
+3- **s dus** 
+4- **s** 
+5- **s** 
+6- **s trezit** 
 ## Sentence No. 12800 - 
 În această zi , mulți dintre iudeii sosiți la Ierusalim în vederea serbării Paștilor care se apropiau , au venit în Betania ca să - L vadă pe Iisus , dar și pe Lazăr , ca să se convingă personal de realitatea învierii acestuia . 
 ### Existing MWEs: 
@@ -264,7 +305,9 @@ Marți , 15 aprilie s - a pus piatra de temelie la extinderea Laboratorului sani
 1- **pus piatra de temelie** (ID, 1)
 2- **se ridica** (IReflV, 37)
 ### Identified MWEs: 
-1- **se ridica** 
+1- **s** 
+2- **pus piatra de temelie** 
+3- **se ridica** 
 ## Sentence No. 15285 - 
 verificarea avizelor și autorizațiilor , a planurilor de intervenție , a stingătoarelor , modul de realizare a instalației electrice , locul de depunere al lumânărilor , dacă flacăra acestora nu se poate propaga la materiale care pot lua foc , dacă mobilierul nu blochează căile de acces , care sunt mijloacele de alarmare , ce măsuri se pot lua pentru a nu se instaura panica , în cazul unui incendiu . 
 ### Existing MWEs: 
@@ -302,23 +345,33 @@ Nu am înțeles de ce persoana respectivă s - a înscris în audiență , așa 
 1- **s înscris** (IReflV, 7)
 2- **dat curs** (ID, 2)
 ### Identified MWEs: 
-1- **s înscris** 
-2- **dat curs** 
+1- **s** 
+2- **s** 
+3- **s înscris** 
+4- **s** 
+5- **dat curs** 
 ## Sentence No. 17210 - 
 În decembrie 1999 , P . N . R . , de 30 de ani , din Sântana , județul Arad , s - a prezentat la Spitalul Clinic Municipal Timișoara și , profitând de coincidența de nume ce există cu prof . dr . I . A . R . , s - a recomandat ca fiind rudă cu el , solicitând efectuarea unui număr de 120 de ore de practică în cadrul Serviciului Urgențe Medico - Chirurgicale . 
 ### Existing MWEs: 
 2- **s prezentat** (IReflV, 17)
 1- **s recomandat** (IReflV, 1)
 ### Identified MWEs: 
-1- **s prezentat** 
+1- **s** 
+2- **s** 
+3- **s prezentat** 
+4- **s** 
 ## Sentence No. 18095 - 
 Cursa s - a desfășurat în cadrul etapei a 4 - a a Campionatului Mondial de Automobilism Formula 1 , în care pe locul secund s - a clasat finlandezul Kimi Raikkonen ( McLaren Mercedes ) , iar pe trei , brazilianul Rubens Barrichello . 
 ### Existing MWEs: 
 1- **s desfășurat** (IReflV, 17)
 2- **s clasat** (IReflV, 6)
 ### Identified MWEs: 
-1- **s desfășurat** 
-2- **s clasat** 
+1- **s** 
+2- **s** 
+3- **s desfășurat** 
+4- **s** 
+5- **s** 
+6- **s clasat** 
 ## Sentence No. 18240 - 
 În prim - plan se va afla decizia pe care gazdele au luat - o privind restaurarea vechiului Stadion Olimpic , operă ce a fost încredințată celebrului arhitect spaniol Santiago Calatrava . 
 ### Existing MWEs: 
@@ -332,7 +385,8 @@ Dacă s - a hotărât înlocuirea unor țevi comune și montarea interfonului , 
 1- **fost de acord** (ID, 2)
 2- **hotărârea luată** (LVC, 3)
 ### Identified MWEs: 
-1- **fost de acord** 
+1- **s** 
+2- **fost de acord** 
 ## Sentence No. 20685 - 
 Acesta din urmă a primit un pumn în plină figură și a avut nevoie de șapte zile de îngrijiri medicale pentru a se reface . 
 ### Existing MWEs: 
@@ -354,7 +408,10 @@ La mijlocul lunii trecute , planșeul unui cămin de nefamiliști aparținând S
 1- **s prăbușit** (IReflV, 5)
 2- **soldându se** (IReflV)
 ### Identified MWEs: 
-1- **s prăbușit** 
+1- **S** 
+2- **s** 
+3- **s** 
+4- **s prăbușit** 
 ## Sentence No. 21700 - 
 Preselecția pentru alegerea celor 20 de reprezentante ce se vor întrece în finală va avea loc după cum urmează : 
 ### Existing MWEs: 
@@ -369,7 +426,8 @@ Zilele trecute , administrația acestuia și - a dat acordul pentru ca A * SALT 
 1- **și dat acordul** (LVC)
 2- **se antreneze** (IReflV, 2)
 ### Identified MWEs: 
-1- **se antreneze** 
+1- **dat acordul** 
+2- **se antreneze** 
 ## Sentence No. 23420 - 
 Primul examen susținut în Timișoara va avea loc pe 10 aprilie ( în cele mai multe cazuri , aceasta este ultima șansă pentru a face dovada cunoștințelor de limbă germană în timp util pentru înmatricularea la o universitate din Germania în toamna anului 2003 ) ; 
 ### Existing MWEs: 
@@ -384,7 +442,9 @@ l O explozie produsă la rafinăria din orașul polonez Gdansk , la bordul unei 
 1- **s soldat** (IReflV, 3)
 2- **s soldat cu moartea** (ID, 1), Interleaving 
 ### Identified MWEs: 
-1- **s soldat cu moartea** 
+1- **s** 
+2- **s** 
+3- **s soldat cu moartea** 
 ## Sentence No. 24990 - 
 Joi , 8 mai , domnul Adrian Orza a avut întâlniri cu un grup de ziariști germani , condus de doamna Sabine Habersack , reprezentantul pentru România a Fundației „ Konrad Adenauer “ , care se documentează în vederea publicării unor articole despre Timișoara , iar după - amiază , cu reprezentanți ai conducerii firmei Philips , cu un grup de oameni de afaceri olandezi și reprezentanți ai Ambasadei Statelor Unite ale Americii la București . 
 ### Existing MWEs: 
@@ -392,7 +452,6 @@ Joi , 8 mai , domnul Adrian Orza a avut întâlniri cu un grup de ziariști germ
 2- **se documentează** (IReflV)
 ### Identified MWEs: 
 1- **avut întâlniri** 
-2- **se documentează** 
 ## Sentence No. 25570 - 
 De remarcat și faptul că în timpul existenței sale , un autoturism se găsește în mișcare / deplasare numai 4 % din timp , restul aflându - se în staționare , la domiciliul proprietarului , în parcarea de la locul de muncă , la complexele comerciale de unde proprietarul își face cumpărăturile etc . 
 ### Existing MWEs: 
@@ -413,6 +472,9 @@ S - a luat după el și , pe o stradă slab luminată , s - a năpustit asupra l
 ### Existing MWEs: 
 1- **S luat** (IReflV, 1)
 2- **s năpustit** (IReflV)
+### Identified MWEs: 
+1- **S** 
+2- **s** 
 ## Sentence No. 27635 - 
 Cu ocazia aceleiași întâlniri , vor fi discutate probleme legate de procesul de aderare a României la U . E . Totodată , președintele își propune să aibă o întâlnire și cu membrii comisiei 
 ### Existing MWEs: 
@@ -434,8 +496,7 @@ Printre obiectivele proiectului se numără construirea , amenajarea și dotarea
 1- **se urcau** (IReflV)
 2- **se așeza** (IReflV, 1)
 ### Identified MWEs: 
-1- **se urcau** 
-2- **se așeza** 
+1- **se așeza** 
 ## Sentence No. 30820 - 
 Din această săptămână și până în 5 iunie , membrii Casei de Ajutor Reciproc a Pensionarilor Militari Timișoara care doresc să participe la aniversarea celor zece ani de activitate a C . A . R . P . M . ( manifestare ce va avea loc pe data de 27 iunie 2003 la Cercul Militar din Piața Libertății ) se pot adresa dlui mr . Iosif Milos , secretarul C . A . R . P . M . , la sediul din str . Mărășești . 
 ### Existing MWEs: 
@@ -472,20 +533,26 @@ Conform art . 68 , alin . 2 ) , din legea menționată , soțul supraviețuitor 
 1- **s produs** (IReflV, 16)
 ### Identified MWEs: 
 1- **are dreptul** 
-2- **s produs** 
+2- **s** 
+3- **s** 
+4- **s produs** 
 ## Sentence No. 35200 - 
 În două nopți din februarie și trei din martie au sustras alte cinci autoturisme Dacia cu care au pornit la plimbare , iar după ce s - au plictisit , le - au distrus dându - le foc sau lovindu - le cu picioarele . 
 ### Existing MWEs: 
 1- **s plictisit** (IReflV)
 2- **dându foc** (LVC)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 35665 - 
 Timp de două zile Oliver Kahn s - a prezentat la antrenamentul echipei müncheneze cu bolidul model 360 Spider Modena F1 , încălcând contractul ce prevede că , în interes de serviciu , trebuie să folosească numai automobilul pus la dispoziție de sponsor . 
 ### Existing MWEs: 
 1- **s prezentat** (IReflV, 17)
 2- **pus la dispoziție** (ID, 12)
 ### Identified MWEs: 
-1- **s prezentat** 
-2- **pus la dispoziție** 
+1- **s** 
+2- **s** 
+3- **s prezentat** 
+4- **pus la dispoziție** 
 ## Sentence No. 35730 - 
 Dacă pentru cazurile amintite mai sus amenzile se situează între 250 000 și 500 000 de lei , cele prevăzute a fi aplicate celor care , la 15 zile după schimbarea domiciliului nu anunță acest lucru , precum și celor care locuiesc mai mult de 45 de zile la altă adresă decât cea de domiciliu și nu se prezintă în vederea aplicării vizei de reședință ( flotanți ) sunt de trei ori mai aspre - între 750 000 și 1 500 000 de lei . 
 ### Existing MWEs: 
@@ -508,7 +575,11 @@ Dacă pentru cazurile amintite mai sus amenzile se situează între 250 000 și 
 1- **s născut** (IReflV, 42)
 2- **ne hotărât** (IReflV)
 ### Identified MWEs: 
-1- **s născut** 
+1- **s** 
+2- **s** 
+3- **s născut** 
+4- **s** 
+5- **s** 
 ## Sentence No. 38985 - 
 Volumul se ocupă de aspectele concrete ale sexului , lăsând la o parte incertitudinile nebuloase ale laturii sentimentale . 
 ### Existing MWEs: 
@@ -598,12 +669,15 @@ Doritorii se pot adresa oricărei unități B . C . R .
 Ca urmare , „ Creditcoop “ a decis că și la agențiile proprii pot fi deschise depozite , persoanele fizice și juridice putându - se adresa și celei din Timișoara , str . Teiului nr . 10 ( Piața „ Dacia “ ) , tel . 125262 , 244 510 . 
 ### Existing MWEs: 
 1- **se adresa** (IReflV, 15)
+### Identified MWEs: 
+1- **se adresa** 
 ## Sentence No. 1430 - 
 La Catedrala Mitropolitană , în Duminica Rusaliilor , de la ora 9 , 30 , Î . P . S . Nicolae Corneanu , mitropolitul Banatului , va oficia Liturghia arhierească , după care , potrivit rânduielilor , are loc slujba Vecerniei . 
 ### Existing MWEs: 
 1- **are loc** (LVC, 368)
 ### Identified MWEs: 
-1- **are loc** 
+1- **S** 
+2- **are loc** 
 ## Sentence No. 1565 - 
 Cursul costă 300 000 de lei / lună și se desfășoară de marți până vineri de la orele 11 , 16 și 17 , iar sâmbătă de la ora 11 . 
 ### Existing MWEs: 
@@ -621,8 +695,13 @@ De asemenea , magazinul a pus în vânzare piese de schimb pentru aparate electr
 ### Existing MWEs: 
 1- **s prezentat** (IReflV, 17)
 ### Identified MWEs: 
-1- **s prezentat** 
-2- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s prezentat** 
+4- **s** 
+5- **s** 
+6- **s încheiat** 
+7- **s** 
 ## Sentence No. 1915 - 
 Pentru lămuriri în legătură cu posibilitatea cumpărării locuinței care v - a fost închiriată de Primărie , trebuie să vă adresați Direcției Patrimoniu a Primăriei municipiului Timișoara . 
 ### Existing MWEs: 
@@ -701,12 +780,16 @@ Se vor lansa volumele „ Iosif Costinaș - m - am întors “ , apărut la Ed .
 Remus Feraru se va referi la relația „ Biserica și valorile naționale “ l ultima conferință din Postul Paștelui va fi susținută de P . S . Lucian Lugojanul , episcop - vicar al Arhiepiscopiei Timișoarei , și va avea ca subiect „ Atitudinea Bisericii față de « credincioșii absenți » “ . 
 ### Existing MWEs: 
 1- **se referi** (IReflV, 16)
+### Identified MWEs: 
+1- **S** 
 ## Sentence No. 2930 - 
 După ce în 12 martie s - a întâlnit cu prefectul Horia Ciocârlie , în ziua următoare , directorul general al companiei UPC România , domnul Richard Anderson , a avut o întrevedere cu președintele C . J . T . , domnul Dan Ioan Șipoș . 
 ### Existing MWEs: 
 1- **s întâlnit** (IReflV, 17)
 ### Identified MWEs: 
-1- **s întâlnit** 
+1- **s** 
+2- **s** 
+3- **s întâlnit** 
 ## Sentence No. 2955 - 
 obligația de a acorda salariatului toate drepturile ce decurg din contractul individual de muncă , contractul colectiv de muncă aplicabil și legislație , de a asigura permanent condițiile tehnice și organizatorice avute în vedere la elaborarea normelor de muncă și condițiile corespunzătoare de muncă , de a informa salariatul despre condițiile de muncă și elementele ce privesc desfășurarea relațiilor de muncă , de a elibera salariatului , la cerere , toate documentele ce atestă calitatea de salariat a acestuia , de a asigura „ confidențialitatea datelor cu caracter personal ale salariatului “ ) , Dizpozițiile finale , precizarea că toate conflictele legate de încheierea , executarea , modificarea , suspendarea sau încetarea contractului individual de muncă respectiv vor fi soluționate de instanța judecătoarească competentă material și teritorial . 
 ### Existing MWEs: 
@@ -719,6 +802,8 @@ Pornind de la faptul că rețelele de apă - din oțel și montate direct în p�
 1- **se aflau** (IReflV, 145)
 ### Identified MWEs: 
 1- **se aflau** 
+2- **S** 
+3- **S** 
 ## Sentence No. 3110 - 
 După cum preciza dl Iosif Ingrisch , directorul sucursalei regionale Vest , prima inițiativă a LukOil se va materializa prin preluarea stației „ Avanti “ ( Bd . Eroilor ) , după care , în această vară , este programată începerea lucrărilor la construcția a alte două benzinării . 
 ### Existing MWEs: 
@@ -774,6 +859,8 @@ Societatea Studenților Mediciniști din cadrul Universității de Medicină și
 „ Din fericire , Ministerul Educației și Cercetării s - a conectat la eforturile internaționale pentru crearea GRID . 
 ### Existing MWEs: 
 1- **s - conectat** (IReflV)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 3505 - 
 Timișoara se poate mândri că de pe atunci avea , la Institutul Politehnic „ Traian Vuia ” , „ Mașina electronică de calcul ” ( MECIPT - ul ) . 
 ### Existing MWEs: 
@@ -809,7 +896,9 @@ De popularizarea și dezvoltarea acesteia s - a ocupat , însă , unul dintre el
 ### Existing MWEs: 
 1- **s ocupat** (IReflV, 3)
 ### Identified MWEs: 
-1- **s ocupat** 
+1- **s** 
+2- **s** 
+3- **s ocupat** 
 ## Sentence No. 3595 - 
 În prezent , există atât în Japonia , cât și în multe țări europene sau asiatice , centre medicale în care se pune un mare accent pe practica Terapiei Yumeiho , datorită complexității efectelor sale asupra corpului uman . 
 ### Existing MWEs: 
@@ -819,13 +908,18 @@ Pentru cei mai mulți dintre noi , primul contact cu biserica s - a petrecut la 
 ### Existing MWEs: 
 1- **s petrecut** (IReflV, 10)
 ### Identified MWEs: 
-1- **s petrecut** 
+1- **s** 
+2- **s** 
+3- **s petrecut** 
 ## Sentence No. 3635 - 
 Grație cinematecii organizate de acest cineclub , iubitorii celei de - a șaptea arte s - au putut bucura înainte de 1989 de pelicule ale unor regizori de excepție , dar și de discuții pertinente pe marginea acestora . 
 ### Existing MWEs: 
 1- **s bucura** (IReflV, 9)
 ### Identified MWEs: 
-1- **s putut** 
+1- **s** 
+2- **s** 
+3- **s** 
+4- **s bucura** 
 ## Sentence No. 3660 - 
 Iar cel care se încumetă să le viziteze va constata că în România arta vitraliilor se află din nou la loc de cinste , multe dintre adrese fiind ale atelierelor și societăților comerciale care au un asemenea obiect de activitate . 
 ### Existing MWEs: 
@@ -856,6 +950,7 @@ Premiile vor fi de 1 , 2 și 3 milioane de lei pentru balcoanele câștigătoare
 1- **se prezenta** (IReflV, 8)
 ### Identified MWEs: 
 1- **se prezenta** 
+2- **S** 
 ## Sentence No. 4325 - 
 Dacă suma crește până la 3 milioane de lei , se impune aducerea unui girant ; 
 ### Existing MWEs: 
@@ -878,6 +973,8 @@ Acestea sunt pentru persoane cu orice nivel de pregătire ( și anume , începă
 „ Amfitrioana de suflet “ a evenimentului , după cum s - a autodefinit , a fost actrița Adriana Trandafir , care i - a introdus pe invitații la show : 
 ### Existing MWEs: 
 1- **s autodefinit** (IReflV)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 5155 - 
 Direct la sufletul gazdelor a mers și afirmația artistului că se simte extraordinar în orașul de pe Bega și că are un respect aparte pentru bănățeni . 
 ### Existing MWEs: 
@@ -886,10 +983,14 @@ Direct la sufletul gazdelor a mers și afirmația artistului că se simte extrao
 Chiar dacă de data aceasta nu s - au numărat printre cei 10 câștigători ai premiilor oferite de „ Agenda “ , cititorii prezenți în sală au mai avut o șansă - aceea de a - și găsi propriul plic în imensa grămadă formată din aproape 20 000 de plicuri . 
 ### Existing MWEs: 
 1- **s numărat** (IReflV, 1)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 5235 - 
 fiind suferindă de inimă , i s - a făcut rău și a strigat - o pe fiica sa , care era în bucătărie și care a apărut cam târziu . 
 ### Existing MWEs: 
 1- **s făcut** (IReflV)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 5270 - 
 Nu i - a venit să creadă că este una dintre câștigătoare , mai ales că soțul ei a făcut glume auzind de cealaltă nominalizată cu același nume de familie , dar din Reșița . 
 ### Existing MWEs: 
@@ -905,7 +1006,9 @@ O delegație a Comunității Românilor din țara vecină , condusă de președi
 ### Existing MWEs: 
 1- **s întâlnit** (IReflV, 17)
 ### Identified MWEs: 
-1- **s întâlnit** 
+1- **s** 
+2- **s** 
+3- **s întâlnit** 
 ## Sentence No. 5415 - 
 Potrivit informațiilor furnizate de sucursala timișoreană a Băncii Transilvania , în prezent , se elaborează normele interne pentru ca în cel mai scurt timp acest gen de împrumuturi să poată fi pus la dispoziția celor interesați . 
 ### Existing MWEs: 
@@ -935,13 +1038,17 @@ l Vineri , 4 aprilie , la „ Sistem Psi “ ( str . Olt nr . 37 ) s - au înche
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
 ## Sentence No. 5865 - 
 Vineri , 4 aprilie , s - au încheiat lucrările Comitetului de Bazin Banat , în cadrul cărora au fost avizate programele de dezvoltare a amenajărilor de gospodărire a apelor din zonă , precum și regulamentele de exploatare a lucrărilor hidrotehnice proprii : 
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
 ## Sentence No. 5965 - 
 În fiecare joi , de la ora 21 , medicii se află on - line ( în direct ) cu cei care doresc să dialogheze pe teme medicale : 
 ### Existing MWEs: 
@@ -981,7 +1088,9 @@ Cu 145 de ani în urmă s - a născut compozitorul italian Ruggiero Leoncavallo 
 ### Existing MWEs: 
 1- **s născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **s născut** 
+1- **s** 
+2- **s** 
+3- **s născut** 
 ## Sentence No. 6620 - 
 În prima parte a intervalului , vremea se va încălzi ușor . 
 ### Existing MWEs: 
@@ -1005,7 +1114,8 @@ De asemenea , s - au pus în vânzare casete audio neînregistrate marca Memorex
 ### Existing MWEs: 
 1- **pus în vânzare** (LVC, 27)
 ### Identified MWEs: 
-1- **pus în vânzare** 
+1- **s** 
+2- **pus în vânzare** 
 ## Sentence No. 6990 - 
 Cercetările au scos la iveală și alte fapte , mai vechi . 
 ### Existing MWEs: 
@@ -1017,7 +1127,9 @@ Mașina s - a izbit cu partea laterală stângă de un stâlp .
 ### Existing MWEs: 
 1- **s izbit** (IReflV, 4)
 ### Identified MWEs: 
-1- **s izbit** 
+1- **s** 
+2- **s** 
+3- **s izbit** 
 ## Sentence No. 7010 - 
 Polițiștii spun că primul șofer a pătruns pe contrasens din cauza neatenției ciocnindu - se de a doua mașină care circula regulamentar . 
 ### Existing MWEs: 
@@ -1026,6 +1138,8 @@ Polițiștii spun că primul șofer a pătruns pe contrasens din cauza neatenți
 așa a protestat el față de instituțiile publice care nu au luat în seamă nenumăratele memorii pe care le - a făcut . 
 ### Existing MWEs: 
 1- **luat în seamă** (ID)
+### Identified MWEs: 
+1- **luat în seamă** 
 ## Sentence No. 7050 - 
 Acestea se ridică la sume incredibile : 
 ### Existing MWEs: 
@@ -1037,25 +1151,33 @@ l Premierul britanic Tony Blair și președintele francez Jacques Chirac s - au 
 ### Existing MWEs: 
 1- **s angajat** (IReflV, 4)
 ### Identified MWEs: 
-1- **s angajat** 
+1- **s** 
+2- **s** 
+3- **s angajat** 
 ## Sentence No. 7090 - 
 l Miniștrii de externe din țările NATO și U . E . s - au întâlnit la Bruxelles , discuțiile fiind axate pe situația din Irak . 
 ### Existing MWEs: 
 1- **s întâlnit** (IReflV, 17)
 ### Identified MWEs: 
-1- **s întâlnit** 
+1- **s** 
+2- **s** 
+3- **s întâlnit** 
 ## Sentence No. 7095 - 
 l Prim - miniștrii a șase state invitate să adere la NATO s - au reunit la Snagov , pentru a analiza modalitățile de susținere reciprocă în procesul de aderare ; 
 ### Existing MWEs: 
 1- **s reunit** (IReflV, 10)
 ### Identified MWEs: 
-1- **s reunit** 
+1- **s** 
+2- **s** 
+3- **s reunit** 
 ## Sentence No. 7420 - 
 l Echipele de fotbal Dinamo , F . C . Național , F . C . Argeș și Astra s - au calificat în semifinalele Cupei României . 
 ### Existing MWEs: 
 1- **s calificat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s calificat** 
+1- **s** 
+2- **s** 
+3- **s calificat** 
 ## Sentence No. 7435 - 
 l Între 9 - 13 aprilie , la Bratislava , se vor disputa meciurile turneului din grupa B de calificare a Campionatului European de polo pe apă pentru seniori la care va evolua și selecționata României , pregătită de antrenorii Liviu Răducanu și Eugen Georgescu . 
 ### Existing MWEs: 
@@ -1073,7 +1195,9 @@ Jumătate dintre acestea s - au calificat cu formațiile lor în „ play - off 
 ### Existing MWEs: 
 1- **s calificat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s calificat** 
+1- **s** 
+2- **s** 
+3- **s calificat** 
 ## Sentence No. 7565 - 
 În cazul unor fapte ilicite , făptașii vor trebui să achite o despăgubire plătită pentru fiecare exemplar în parte , al cărei cuantum se ridică la nu mai puțin de 15 milioane de lei . 
 ### Existing MWEs: 
@@ -1085,7 +1209,10 @@ l Potrivit datelor furnizate de I . N . S . , în luna februarie , salariul medi
 ### Existing MWEs: 
 1- **se situau** (IReflV, 19)
 ### Identified MWEs: 
-1- **se situau** 
+1- **S** 
+2- **S** 
+3- **se situau** 
+4- **s** 
 ## Sentence No. 7620 - 
 În județul Timiș , pentru inițierea transformării unor sate în comune și a unor comune în orașe au avut loc referendumuri în mai multe localități . 
 ### Existing MWEs: 
@@ -1097,19 +1224,23 @@ Printre subiectele discutate s - a înscris și cel vizând transformarea P . T 
 ### Existing MWEs: 
 1- **s înscris** (IReflV, 7)
 ### Identified MWEs: 
-1- **s înscris** 
+1- **s** 
+2- **s** 
+3- **s înscris** 
 ## Sentence No. 7670 - 
 ea va avea un cuantum fix , calculat pe baza salariului mediu pe economie prognozat și avut în vedere la fundamentarea bugetului de stat pentru 2004 , pentru toate beneficiarele și nu va depinde de nivelul contribuției de asigurări sociale plătite pentru fiecare femeie care dă naștere unui copil după 31 decembrie 2003 . 
 ### Existing MWEs: 
 1- **dă naștere** (LVC)
 ### Identified MWEs: 
 1- **avut în vedere** 
+2- **dă naștere** 
 ## Sentence No. 7705 - 
 Cu acest prilej vor fi reparate podurile și podețele l unde este posibil , se vor îmbunătăți elementele geometrice ale drumurilor l se vor amenaja scurgerile de apă , intersecțiile cu drumurile laterale , stațiile de oprire ale mijloacelor de transport în comun etc . În final , va crește capacitatea portantă a drumurilor , traficul rutier derulându - se în condiții superioare de siguranță și confort . 
 ### Existing MWEs: 
 1- **derulându se** (IReflV, 3)
 ### Identified MWEs: 
-1- **derulându se** 
+1- **se îmbunătăți** 
+2- **derulându se** 
 ## Sentence No. 7755 - 
 „ ecologic “ , „ biologic “ , „ organic “ , precum și traduceri ale acestora , sinonime sau cuvinte care provin din familia lexicală a acestora , în cazul în care nu se încadrează în prevederile legale în vigoare ; 
 ### Existing MWEs: 
@@ -1154,12 +1285,15 @@ Oaspetelui i se va asigura o cameră proprie și posibilitatea de a învăța li
 1- **având dreptul** (LVC, 72)
 ### Identified MWEs: 
 1- **se asigura** 
+2- **având și dreptul** 
 ## Sentence No. 8170 - 
 S - au deplasat efective ale Detașamentului II Pompieri Timișoara . 
 ### Existing MWEs: 
 1- **S deplasat** (IReflV, 13)
 ### Identified MWEs: 
-1- **S deplasat** 
+1- **S** 
+2- **S** 
+3- **S deplasat** 
 ## Sentence No. 8220 - 
 În aceste condiții , era nevoie de o reorganizare funcție de nevoile și așteptările actuale ale enoriașilor . 
 ### Existing MWEs: 
@@ -1169,7 +1303,9 @@ După mai mulți ani de activitate pastorală , dar și administrativă în Germ
 ### Existing MWEs: 
 1- **s reîntors** (IReflV, 1)
 ### Identified MWEs: 
-1- **s reîntors** 
+1- **s** 
+2- **s** 
+3- **s reîntors** 
 ## Sentence No. 8245 - 
 De remarcat că implicarea socială și caritativă diecezană nu ține cont de etnie sau de religie , proiectele derulate fiind deschise tuturor celor aflați în nevoie . 
 ### Existing MWEs: 
@@ -1180,12 +1316,16 @@ De remarcat că implicarea socială și caritativă diecezană nu ține cont de 
 Potrivit canoanelor , episcopii catolici se prezintă o dată la cinci ani la Sf . Părinte pentru o dare de seamă cu privire la activitatea desfășurată și pentru a călca pragul Bazilicii San Pietro . 
 ### Existing MWEs: 
 1- **se prezintă** (IReflV, 38)
+### Identified MWEs: 
+1- **se prezintă** 
 ## Sentence No. 8295 - 
 din istoria omenirii , care s - a concretizat ca știință 
 ### Existing MWEs: 
 1- **s concretizat** (IReflV, 4)
 ### Identified MWEs: 
-1- **s concretizat** 
+1- **s** 
+2- **s** 
+3- **s concretizat** 
 ## Sentence No. 8305 - 
 Centrul este deschis tuturor practicanților acestor discipline , celor interesați de filosofie și arte marțiale , cărora le sunt puse la dispoziție diverse materiale : 
 ### Existing MWEs: 
@@ -1352,6 +1492,8 @@ Având în vedere că obiectul acțiunii pe care vreți să o introduceți nu es
 Nici o lege nu îl obligă pe angajator să acorde vreun premiu dacă una dintre salariate dă naștere unui copil . 
 ### Existing MWEs: 
 1- **dă naștere** (LVC)
+### Identified MWEs: 
+1- **dă naștere** 
 ## Sentence No. 10235 - 
 Dispoziția este reluată și în normele de aplicare a O . G . nr . 7 / 2001 , unde se arată că „ veniturile din salarii și asimilate salariilor realizate din străinătate după data de 1 ianuarie 2002 de către persoanele fizice române cu domiciliul în România , cu excepția celor realizate într - o perioadă mai mică de 183 de zile , nu se supun impozitării în România , fiind excluse din procedura de globalizare ” . 
 ### Existing MWEs: 
@@ -1381,7 +1523,9 @@ G . V . nu a fost încântat de propunere , ci s - a întors pe partea cealaltă
 ### Existing MWEs: 
 1- **s întors** (IReflV, 5)
 ### Identified MWEs: 
-1- **s întors** 
+1- **s** 
+2- **s** 
+3- **s întors** 
 ## Sentence No. 10360 - 
 l Coreea de Nord a anunțat că nu va lua în considerare nici o reglementare a O . N . U . în privința crizei din regiune , iar o decizie de a aplica sancțiuni Phenianului va fi considerată o declarație de război . 
 ### Existing MWEs: 
@@ -1401,7 +1545,9 @@ l În turul semifinalelor Cupei U . E . F . A . la fotbal F . C . Porto a învin
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
 ## Sentence No. 10730 - 
 Formația țării noastre se află în grupă cu reprezentativele Kazahstanului , Ungariei , Poloniei , Olandei și Lituaniei . 
 ### Existing MWEs: 
@@ -1413,7 +1559,9 @@ La C . E . de tenis de masă pentru seniori și senioare de la Courmayeur ( Ital
 ### Existing MWEs: 
 1- **s clasat** (IReflV, 6)
 ### Identified MWEs: 
-1- **s clasat** 
+1- **s** 
+2- **s** 
+3- **s clasat** 
 ## Sentence No. 10770 - 
 În primele trei eșaloane ale fotbalului românesc , după etapa programată pentru finele acestei săptămâni , urmează o rundă intermediară , în care se va disputa tradiționalul derby bănățean între echipele F . C . Politehnica A . E . K . și U . T . A . Menționăm că ambele meciuri ale formației timișorene vor fi transmise în direct la televiziune . 
 ### Existing MWEs: 
@@ -1443,14 +1591,17 @@ Consulul S . U . A . a avut întâlniri cu reprezentanți ai Bisericilor Romano 
 ### Existing MWEs: 
 1- **avut întâlniri** (LVC, 13)
 ### Identified MWEs: 
-1- **avut întâlniri** 
+1- **S** 
+2- **avut întâlniri** 
 ## Sentence No. 11075 - 
 Potrivit datelor statistice , pe drumurile naționale din țara noastră se derulează 65 % din traficul rutier total și 90 % din traficul internațional , motiv pentru care , la nivel național , s - a impus extinderea programelor de reabilitare . 
 ### Existing MWEs: 
 1- **se derulează** (IReflV, 48)
 ### Identified MWEs: 
 1- **se derulează** 
-2- **s impus** 
+2- **s** 
+3- **s** 
+4- **s impus** 
 ## Sentence No. 11185 - 
 Tinerii se vor prezenta la sediul din strada Popa Șapcă nr . 5 ( de la ora 7 , 30 ) , C . M . Z . solicitând și un certificat din partea medicului de familie cu antecedentele medicale ale persoanei respective . 
 ### Existing MWEs: 
@@ -1486,19 +1637,22 @@ Doamna dr . Viorica Dumitru , inspector șef de stat în cadrul D . S . P . Timi
 ### Existing MWEs: 
 1- **se deplasa** (IReflV, 22)
 ### Identified MWEs: 
-1- **se deplasa** 
+1- **S** 
+2- **se deplasa** 
 ## Sentence No. 11275 - 
 M . S . F . atrage atenția că neprezentarea la data , locul și ora fixate pentru alegerea posturilor / cabinetelor de către candidați sau împuterniciții acestora atrage după sine pierderea drepturilor conferite de concursul din 24 februarie 2003 . 
 ### Existing MWEs: 
 1- **atrage atenția** (ID, 13)
 ### Identified MWEs: 
-1- **atrage atenția** 
+1- **S** 
+2- **atrage atenția** 
 ## Sentence No. 11365 - 
 Și în această primăvară , timp de o săptămână , Timișoara va fi epicentrul vieții cultural - artistice studențești , întrucât în perioada 15 - 20 aprilie se va desfășura tradiționalul StudentFest - proiect inițiat și derulat an de an de către Organizația Studenților din Universitatea de Vest Timișoara ( O . S . U . T . ) . 
 ### Existing MWEs: 
 1- **se desfășura** (IReflV, 224)
 ### Identified MWEs: 
 1- **se desfășura** 
+2- **S** 
 ## Sentence No. 11485 - 
 Valoarea totală a transportului se ridică la suma de 
 ### Existing MWEs: 
@@ -1521,6 +1675,8 @@ Prima încercare de reglementare juridică referitoare exclusiv la circulația p
 fân , ovăz și orz , căci orice trăsură cu cai în stare de slăbire se va opri d - a mai circula ( iată , așadar , prima impunere a anumitor tipuri de combustibil ) ; 
 ### Existing MWEs: 
 1- **se opri** (IReflV, 2)
+### Identified MWEs: 
+1- **se opri** 
 ## Sentence No. 11575 - 
 De asemenea , „ nu va putea ține hățurile în mână decât acela care va avea asupra sa un act semnat de notabilii suburbiei și de starostele respectiv , cum că are probitatea cerută și este capabil de a conduce cu știința trebuincioasă , pentru siguranța publică și vor fi îmbrăcați curat cu uniformă , șapcă cu două trese , surduc lung , până din jos de genunchi două rânduri de nasturi galbeni “ . 
 ### Existing MWEs: 
@@ -1587,12 +1743,19 @@ Aveți nevoie nu de unul , ci de doi martori .
 D . S . S . l - a contactat pe T . C . , care a făcut rost de invitațiile necesare . 
 ### Existing MWEs: 
 1- **făcut rost** (ID, 2)
+### Identified MWEs: 
+1- **S** 
+2- **S** 
+3- **făcut rost** 
 ## Sentence No. 12370 - 
 Astfel , timișorencele I . C . J . , de 24 de ani , V . S . C . , de 23 de ani , și bucureșteanul E . M . , de 24 de ani , au primit trei ani de închisoare cu executare , în timp ce N . O . , de 30 de ani , și C . C . M . , de 29 de ani , amândoi din orașul de pe Bega , s - au ales tot cu trei ani de „ pârnaie ” , dar cu suspendarea executării pedepsei . 
 ### Existing MWEs: 
 1- **s ales** (IReflV, 5)
 ### Identified MWEs: 
-1- **s ales** 
+1- **S** 
+2- **s** 
+3- **s** 
+4- **s ales** 
 ## Sentence No. 12395 - 
 l Libia și - a rechemat ambasadorul din Arabia Saudită după scandalul izbucnit la conferința Ligii Arabe , ce a avut loc în Egipt , în urma schimbului foarte aprins de replici dintre Moammer Gaddafi și prințul Abdullah . 
 ### Existing MWEs: 
@@ -1604,13 +1767,17 @@ l Un avion al companiei Air Algeria s - a prăbușit la decolarea de pe aeroport
 ### Existing MWEs: 
 1- **s prăbușit** (IReflV, 5)
 ### Identified MWEs: 
-1- **s prăbușit** 
+1- **s** 
+2- **s** 
+3- **s prăbușit** 
 ## Sentence No. 12440 - 
 Parlamentarii cehi au reușit să - l aleagă în funcția de președinte al țării în urma celui de - al treilea tur de scrutin , din 28 februarie , după ce precedentele ședințe de votare , din ianuarie și februarie , s - au încheiat fără rezultate clare . 
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
 ## Sentence No. 12460 - 
 MARȚI l Inaugurarea Curții Penale Internaționale , ce va avea sediul la Haga ( Olanda ) și va intra în funcțiune la 1 iulie l Reuniune a O . P . E . C . , în vederea analizării situației care se va crea în urma unui eventual atac armat asupra Irakului ( Viena ) l Sesiune a guvernatorilor O . N . U . ( Geneva ) . 
 ### Existing MWEs: 
@@ -1731,6 +1898,8 @@ Făra a se adresa în mod excluziv specialiștilor , ci mai degrabă cititorilor
 În zece zile s - au acumulat materiale documentare și analize unice în diversitate . 
 ### Existing MWEs: 
 1- **s acumulat** (IReflV)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 14580 - 
 După desfășurarea etapelor duble săptămânale din turul și returul campionatului , precum și al primului turneu , clasamentul general al Superligii Naționale se prezintă în felul următor : 
 ### Existing MWEs: 
@@ -1749,12 +1918,15 @@ Cu începere de la ora 20 , 00 se va desfășura o recepție de caritate ( din a
 1- **se desfășura** (IReflV, 224)
 ### Identified MWEs: 
 1- **se desfășura** 
+2- **s** 
 ## Sentence No. 14830 - 
 Această veste nouă a Învierii , ele - la îndemnul îngerilor - o vestesc apostolilor , amintindu - le acestora cuvintele Mântuitorului , care cuvinte , iată , acum s - au împlinit . 
 ### Existing MWEs: 
 1- **s împlinit** (IReflV, 2)
 ### Identified MWEs: 
-1- **s împlinit** 
+1- **s** 
+2- **s** 
+3- **s împlinit** 
 ## Sentence No. 14855 - 
 Moartea și Învierea lui Isus Hristos au fost necesare pentru ca noi să ne bucurăm împreună , după ce trec frica și spaima de moarte , ceea ce se poate învinge numai cu credință . 
 ### Existing MWEs: 
@@ -1803,10 +1975,13 @@ Astfel , de la sfârșitul săptămânii trecute , în cadrul Laboratorului se e
 1- **se află** (IReflV, 145)
 ### Identified MWEs: 
 1- **se află** 
+2- **S** 
 ## Sentence No. 15215 - 
 Compania Bere România s - a dezvoltat continuu , anul trecut înregistrând o creștere a cotei de piață de la 13 , 8 % la 15 , 2 % . 
 ### Existing MWEs: 
 1- **s a dezvoltat** (IReflV)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 15220 - 
 Cei care poartă numele de Florin sau Florica beneficiază de o reducere de 25 % dacă se înscriu la aceste cursuri în ziua de 21 aprilie . 
 ### Existing MWEs: 
@@ -1830,7 +2005,9 @@ Istoricii de artă care s - au ocupat de trecutul domului romano - catolic delim
 ### Existing MWEs: 
 1- **s ocupat** (IReflV, 3)
 ### Identified MWEs: 
-1- **s ocupat** 
+1- **s** 
+2- **s** 
+3- **s ocupat** 
 ## Sentence No. 15450 - 
 Cu aceeași ocazie , va avea loc și pelerinajul credincioșilor din protopopiatul Timiș la catedrala episcopală . 
 ### Existing MWEs: 
@@ -1852,7 +2029,9 @@ Una dintre ele se află la Timișoara .
 ### Existing MWEs: 
 1- **s înregistrat** (IReflV, 20)
 ### Identified MWEs: 
-1- **s înregistrat** 
+1- **s** 
+2- **s** 
+3- **s înregistrat** 
 ## Sentence No. 15550 - 
 l Cea mai mare variație de temperatură se produce în jurul „ polului frigului “ - în Siberia ( Rusia ) - variații de 105 grade Celsius . 
 ### Existing MWEs: 
@@ -1878,11 +2057,15 @@ Din 1994 , ca director executiv al societății amintite , Laila s - a ocupat î
 ### Existing MWEs: 
 1- **s ocupat** (IReflV, 3)
 ### Identified MWEs: 
-1- **s ocupat** 
+1- **s** 
+2- **s** 
+3- **s ocupat** 
 ## Sentence No. 15610 - 
 De - a lungul anilor , situația tinerilor s - a ameliorat atât din punct de vedere medical , dar mai ales social , mulți dintre ei fiind găzduiți în locuințe de tip familial , protejate . 
 ### Existing MWEs: 
 1- **s ameliorat** (IReflV)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 16095 - 
 Multe dintre acțiuni vor avea loc în școli . 
 ### Existing MWEs: 
@@ -1930,7 +2113,9 @@ Cu 120 de ani în urmă s - a născut scriitorul ceh Jaroslav Hašek .
 ### Existing MWEs: 
 1- **s născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **s născut** 
+1- **s** 
+2- **s** 
+3- **s născut** 
 ## Sentence No. 16665 - 
 Tot duminică , de la ora 13 , la reședința mitropolitană va avea loc recepția de Paști , la care sunt invitați reprezentanți ai tuturor cultelor timișorene , oficialități locale și bisericani ; 
 ### Existing MWEs: 
@@ -1976,25 +2161,34 @@ Potrivit regulamentului la care ne - am referit mai sus , dacă verificarea se f
 ### Existing MWEs: 
 1- **s datorat** (IReflV, 6)
 ### Identified MWEs: 
-1- **s datorat** 
+1- **s** 
+2- **s** 
+3- **s** 
+4- **s datorat** 
 ## Sentence No. 17160 - 
 Oamenii legii au stabilit că în luna februarie a acestui an , învinuita a întocmit în fals un certificat de atestare fiscală pentru administratorul S . C . Randevu S . R . L . Timișoara , în condițiile în care întocmirea unui asemenea document nu făcea parte din atribuțiile sale de serviciu . 
 ### Existing MWEs: 
 1- **făcea parte** (ID, 62)
 ### Identified MWEs: 
-1- **făcea parte** 
+1- **S** 
+2- **S** 
+3- **făcea parte** 
 ## Sentence No. 17170 - 
 În noaptea de 20 / 21 aprilie , pe DJ693 , la km 4 + 250 , pe raza localității Iecea Mică , s - a produs unul dintre cele mai grave accidente ale ultimilor ani : 
 ### Existing MWEs: 
 1- **s produs** (IReflV, 16)
 ### Identified MWEs: 
-1- **s produs** 
+1- **s** 
+2- **s** 
+3- **s produs** 
 ## Sentence No. 17175 - 
 La locul tragediei s - au strâns zeci de săteni . 
 ### Existing MWEs: 
 1- **s strâns** (IReflV, 1)
 ### Identified MWEs: 
-1- **s strâns** 
+1- **s** 
+2- **s** 
+3- **s strâns** 
 ## Sentence No. 17215 - 
 Activitatea infracțională a lui P . N . R . nu se oprește aici . 
 ### Existing MWEs: 
@@ -2006,7 +2200,9 @@ l În cursul dimineții s - au încheiat discuțiile de la Beijing , dintre Core
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
 ## Sentence No. 17450 - 
 Tabletele , parodiile , notele critice și comentariile acidulate poartă semnăturile unor autori renumiți - H . 
 ### Existing MWEs: 
@@ -2028,13 +2224,16 @@ l Jucătorul român de tenis Andrei Pavel a început cu „ stângul “ turneul
 ### Existing MWEs: 
 1- **început cu stângul** (ID, 1)
 ### Identified MWEs: 
-1- **început cu „** 
+1- **început cu stângul** 
+2- **S** 
 ## Sentence No. 17760 - 
 l În manșa secundă a optimilor de finală ale Cupei U . E . F . A . la fotbal , Lazio Roma a învins în deplasare formația poloneză Wisla Cracovia cu scorul de 2 - 1 , și pentru că în primul meci scorul a fost egal ( 3 - 3 ) , echipa italiană s - a calificat în sferturile de finală , în care va juca în compania lui Beșiktaș Istanbul , antrenată de românul Mircea Lucescu . 
 ### Existing MWEs: 
 1- **s calificat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s calificat** 
+1- **s** 
+2- **s** 
+3- **s calificat** 
 ## Sentence No. 17800 - 
 În ultima etapă vor avea loc următoarele întâlniri - feminin : 
 ### Existing MWEs: 
@@ -2058,7 +2257,8 @@ l La Adunarea generală a Federației Române de șah desfășurată la Brașov 
 ### Existing MWEs: 
 1- **se dispute** (IReflV, 2)
 ### Identified MWEs: 
-1- **se dispute** 
+1- **s** 
+2- **se dispute** 
 ## Sentence No. 18150 - 
 Cel mai bun jucător al ultimilor ani și liderul clasamentului mondial , australianul Lleyton Hewitt , a amenințat că va da în judecată Asociația Tenisului Profesionist , deoarece i - a pătat reputația internațională . 
 ### Existing MWEs: 
@@ -2123,6 +2323,7 @@ Programul de granturi se derulează prin fondul „ S .
 1- **se derulează** (IReflV, 48)
 ### Identified MWEs: 
 1- **se derulează** 
+2- **S** 
 ## Sentence No. 18865 - 
 29 , 30 aprilie și 2 mai sunt zile bancare , operațiunile de plăți interbancare și în relația cu B . N . R . , inclusiv cele aferente piețelor monetară și valutară , urmând a se desfășura în mod obișnuit în aceste zile l Direcția Generală a Finanțelor Publice Timiș : 
 ### Existing MWEs: 
@@ -2172,7 +2373,9 @@ S - a impus prin multitudinea aspectelor abordate în cele peste 400 de lucrări
 ### Existing MWEs: 
 1- **S impus** (IReflV, 7)
 ### Identified MWEs: 
-1- **S impus** 
+1- **S** 
+2- **S** 
+3- **S impus** 
 ## Sentence No. 19925 - 
 Și pentru că nici acum nu le vine să creadă , de bucurie , de data aceasta , Iisus le cere de mâncare și mănâncă în fața lor . 
 ### Existing MWEs: 
@@ -2213,7 +2416,10 @@ Operațiunea M . O . V . s - a încheiat sâmbătă , 26 aprilie , la „ Terra 
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
+4- **pus în joc** 
 ## Sentence No. 20160 - 
 Pentru perioada 21 - 24 mai , la Timișoara este programată a se desfășura cea de - a doua ediție a manifestării promoționale „ Connection - birotica “ , organizată de „ Expotim “ , firmă de specialitate a Camerei de Comerț , Industrie și Agricultură Timișoara . 
 ### Existing MWEs: 
@@ -2251,13 +2457,17 @@ Acum s - a ales cu dosar penal pentru tentativă la infracțiunea de trecere ile
 ### Existing MWEs: 
 1- **s ales** (IReflV, 5)
 ### Identified MWEs: 
-1- **s ales** 
+1- **s** 
+2- **s** 
+3- **s ales** 
 ## Sentence No. 20640 - 
 La un moment dat , el a surprins - o și a accidentat - o grav pe Teodora Iulia C . , de 18 ani , despre care polițiștii spun că s - a angajat în traversare prin loc nepermis . 
 ### Existing MWEs: 
 1- **s angajat** (IReflV, 4)
 ### Identified MWEs: 
-1- **s angajat** 
+1- **s** 
+2- **s** 
+3- **s angajat** 
 ## Sentence No. 20730 - 
 l Trupele americane aflate la vest de Bagdad au deschis focul asupra unui grup de câteva sute de protestatari irakieni , ucigând 13 dintre ei și rănind câteva zeci . 
 ### Existing MWEs: 
@@ -2267,7 +2477,9 @@ l Trupele americane aflate la vest de Bagdad au deschis focul asupra unui grup d
 ### Existing MWEs: 
 1- **s impus** (IReflV, 7)
 ### Identified MWEs: 
-1- **s impus** 
+1- **s** 
+2- **s** 
+3- **s impus** 
 ## Sentence No. 21080 - 
 Din lotul formației timișorene , între altele , fac parte următoarele jucătoare : 
 ### Existing MWEs: 
@@ -2278,6 +2490,9 @@ Din lotul formației timișorene , între altele , fac parte următoarele jucăt
 Fostul campion mondial de automobilism Formula 1 și lider al campionatului american al CART - ului , englezul Nigel Mansell , a ajuns la spital cu răni ușoare , după ce s - a încăierat cu opt tineri în grădina reședinței sale din Channel Island ( S . U . A . ) . 
 ### Existing MWEs: 
 1- **s încăierat** (IReflV)
+### Identified MWEs: 
+1- **s** 
+2- **S** 
 ## Sentence No. 21140 - 
 l La ediția din acest an a Maratonului Londrei a participat și fostul pugilist britanic Michael Watson , care în 1991 , în ultima rundă a meciului pentru titlul mondial al categoriei supermijlocii , versiunea W . B . O . , a primit o lovitură ce i - a lezat creierul și a intrat în comă , trezindu - se doar peste patruzeci de zile . 
 ### Existing MWEs: 
@@ -2298,12 +2513,16 @@ Un Florar al evenimentelor de excepție a pus la cale Centrul Cultural Francez d
 Ca un magician poznaș , artistul francez se distrează transformând obiectele din cotidian în artă , păstrându - le linia dadaistă sau suprarealistă într - o lume misterioasă , plină de încifrări . 
 ### Existing MWEs: 
 1- **se distrează** (IReflV, 1)
+### Identified MWEs: 
+1- **se distrează** 
 ## Sentence No. 21245 - 
 S - au înscris echipe din Belgia , Slovenia , Spania , Italia și , bineînțeles , România . 
 ### Existing MWEs: 
 1- **S înscris** (IReflV, 7)
 ### Identified MWEs: 
-1- **S înscris** 
+1- **S** 
+2- **S** 
+3- **S înscris** 
 ## Sentence No. 21270 - 
 l Prințul Charles a anunțat că va efectua o vizită de o săptămână în Bucovina , unde se va întâlni cu președintele Ion Iliescu . 
 ### Existing MWEs: 
@@ -2351,7 +2570,9 @@ Majoritatea spectacolelor din perioada de început au fost puse în scenă de re
 ### Existing MWEs: 
 1- **s născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **s născut** 
+1- **s** 
+2- **s** 
+3- **s născut** 
 ## Sentence No. 21885 - 
 De altfel , nu se poate să nu fi observat cum după o secetă prelungită , lanurile de porumb aproape îngălbenite renasc la cea dintâi ploaie . 
 ### Existing MWEs: 
@@ -2388,18 +2609,23 @@ Programele de pregătire se adresează candidaților care și - au depus dosarel
 Programul celorlalte zile se prezintă astfel : 
 ### Existing MWEs: 
 1- **se prezintă** (IReflV, 38)
+### Identified MWEs: 
+1- **se prezintă** 
 ## Sentence No. 22640 - 
 Radu Strubert de la clubul sportiv școlar din Lugoj s - a clasat pe locul I , cucerind titlul de campion republican “ . 
 ### Existing MWEs: 
 1- **s clasat** (IReflV, 6)
 ### Identified MWEs: 
-1- **s clasat** 
+1- **s** 
+2- **s** 
+3- **s clasat** 
 ## Sentence No. 22855 - 
 Disconturile cu care se vând acțiunile S . I . F . se situează la o valoare medie de 72 , 08 % , în creștere față de nivelul din luna trecută , intervalul de variație fiind de 64 - 78 % în comparație cu prețurile de închidere din ultima zi de tranzacționare din luna precedentă . 
 ### Existing MWEs: 
 1- **se situează** (IReflV, 19)
 ### Identified MWEs: 
-1- **se situează** 
+1- **S** 
+2- **se situează** 
 ## Sentence No. 23010 - 
 Alte hotărâri aprobate se referă la transmiterea în folosință gratuită a A . N . L . a unui teren de 2 000 mp pentru construirea unui bloc în regim de închiriere pentru medici rezidenți , aprobarea organigramelor și statelor de funcții ale instituțiilor publice din subordinea C . J . T . , respectiv , probleme patrimoniale de interes județean . 
 ### Existing MWEs: 
@@ -2435,7 +2661,9 @@ l Miercuri , 7 mai , la Casa Oamenilor de Știință din Timișoara s - a desfă
 ### Existing MWEs: 
 1- **s desfășurat** (IReflV, 17)
 ### Identified MWEs: 
-1- **s desfășurat** 
+1- **s** 
+2- **s** 
+3- **s desfășurat** 
 ## Sentence No. 23550 - 
 l Febra de sâmbătă noaptea se va instala la Discoland sâmbătă , 10 mai , la ora 22 , iar până la ora 23 intrarea este gratuită pentru studenți și domnișoare . 
 ### Existing MWEs: 
@@ -2445,13 +2673,16 @@ Bancomatele și P . O . S . vor fi reactivate treptat până în 10 mai ( chiar 
 ### Existing MWEs: 
 1- **se află** (IReflV, 145)
 ### Identified MWEs: 
-1- **se află** 
+1- **S** 
+2- **se află** 
 ## Sentence No. 23645 - 
 Sâmbăta trecută s - a desfășurat la Casino Senator Club Principele Leopoldo finala concursului „ Miss Primăvara Senator 2003 “ , care a fost câștigat de Ana Petrov ; 
 ### Existing MWEs: 
 1- **s desfășurat** (IReflV, 17)
 ### Identified MWEs: 
-1- **s desfășurat** 
+1- **s** 
+2- **s** 
+3- **s desfășurat** 
 ## Sentence No. 23650 - 
 Sâmbătă , 10 mai , cu începere de la ora 11 , în Sala Concertino a Facultății de Muzică din cadrul Universității de Vest va avea loc o audiție de violă și muzică de cameră susținută de studenții clasei lector univ . Eva Bloch : 
 ### Existing MWEs: 
@@ -2476,6 +2707,7 @@ Printre cele 17 companii cărora Asociația Română a Antreprenorilor de Constr
 1- **se numără** (IReflV, 29)
 ### Identified MWEs: 
 1- **se numără** 
+2- **S** 
 ## Sentence No. 24090 - 
 În problema subvențiilor menționate , beneficiarii trebuie să se adreseze compartimentului Relații cu publicul al Primăriei localității unde domiciliază . 
 ### Existing MWEs: 
@@ -2487,7 +2719,9 @@ Pentru bărbații care s - au născut în martie 1950 , vârsta standard de pens
 ### Existing MWEs: 
 1- **s născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **s născut** 
+1- **s** 
+2- **s** 
+3- **s născut** 
 ## Sentence No. 24110 - 
 Ne îndoim că Ministerul de Interne vă poate ajuta în vreun fel în problema menționată . 
 ### Existing MWEs: 
@@ -2508,6 +2742,11 @@ informațiile privind procedura în timpul anchetei penale sau disciplinare , da
 Ioan A . , de 45 de ani , vrând să irige grădina de zarzavaturi cu o pompă electrică care urma să tragă apa dintr - un bazin , s - a electrocutat , iar fiul său Gabriel A . , care a încercat să - și salveze tatăl , a avut aceeași soartă l Polițiștii lugojeni au continuat cercetările privind spargerile comise la S . C . Romtrans S . A . , Eurocooper S . R . L . și Biroul Vamal . 
 ### Existing MWEs: 
 1- **s electrocutat** (IReflV)
+### Identified MWEs: 
+1- **s** 
+2- **S** 
+3- **S** 
+4- **S** 
 ## Sentence No. 24250 - 
 l În seara zilei de 2 mai au avut loc două accidente în care au fost implicați conducătorii unor ciclomotoare . 
 ### Existing MWEs: 
@@ -2534,6 +2773,8 @@ l Surse guvernamentale au anunțat că premierul Adrian Năstase intenționează
 în perioada respectivă s - a specializat în drept internațional . 
 ### Existing MWEs: 
 1- **s specializat** (IReflV)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 24405 - 
 MIERCURI l Vizita în Rusia a secretarului de stat american , Colin Powell , în vederea pregătirii convorbirilor ce vor avea loc pe 1 iunie între președintele american , George W . Bush , și cel al Rusiei , Vladimir Putin ( Moscova ; 
 ### Existing MWEs: 
@@ -2551,13 +2792,17 @@ l Prezent pentru prima dată pe tabloul principal al unui turneu de „ Masters 
 ### Existing MWEs: 
 1- **s calificat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s calificat** 
+1- **s** 
+2- **s** 
+3- **s calificat** 
 ## Sentence No. 24725 - 
 l Cel de - al doilea meci contând pentru semifinalele Diviziei A de Baschet masculin dintre echipele West - Petrom Arad și Rompetrol București s - a încheiat cu victoria echipei din orașul de pe Mureș cu scorul de 75 - 58 . 
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
 ## Sentence No. 24730 - 
 Din lotul formației țării noastre pregătite de antrenorul Marian Constantin fac parte următorii jucători : 
 ### Existing MWEs: 
@@ -2569,7 +2814,10 @@ l Echipele de handbal juniori de categoria a II - a ale clubului L . P . S . Ban
 ### Existing MWEs: 
 1- **s calificat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s calificat** 
+1- **S** 
+2- **s** 
+3- **s** 
+4- **s calificat** 
 ## Sentence No. 24905 - 
 Următoarea etapă va avea loc la Lugoj , în data de 28 iunie . 
 ### Existing MWEs: 
@@ -2612,6 +2860,7 @@ M . Guttenbrunn “ va avea loc cel de al IV - lea Congres Național de Psihiatr
 1- **avea loc** (LVC, 368)
 ### Identified MWEs: 
 1- **avea loc** 
+2- **S** 
 ## Sentence No. 25265 - 
 La Ciacova , în prezența dl Klaus - Peter Marte , consulul Germaniei la Timișoara , dl Viorel Ștefan primarul comunei amintite și dl Hans Rosenkrantz , președintele Organizației „ Ajutor pentru România “ , a avut loc un moment festiv , în cadrul căruia au fost donate Primăriei comunei Ciacova o autospecială pentru intervenții în caz de incendiu și o mașină pentru urgențe medicale ( Salvare ) . 
 ### Existing MWEs: 
@@ -2664,8 +2913,6 @@ Mult din ce publica , prin tradiție , „ Forumul studențesc ” nu făcea par
 Noroc că din turelă a ieșit un american care și - a făcut cruce când i - a văzut ! 
 ### Existing MWEs: 
 1- **și făcut cruce** (ID)
-### Identified MWEs: 
-1- **făcut cruce** 
 ## Sentence No. 26205 - 
 Această evoluție se datorează majorării prețurilor la mărfurile alimentare , de 2 , 7 % , la mărfurile nealimentare , de 0 , 7 % , iar în sectorul serviciilor , creșterea a fost de 0 , 5 % . 
 ### Existing MWEs: 
@@ -2710,6 +2957,8 @@ Piesa va prinde viață în montarea regizoarei Alexandra Gandi și în interpre
 Marele fabricant de automobile din America , Henry Ford , s - a hotărât să întemeieze o fabrică de automobile la noi , în Constanța . . . 
 ### Existing MWEs: 
 1- **s hotărât** (IReflV, 2)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 26495 - 
 Activitatea de creditare se derulează prin conturi deschise la bănci , societățile de credit ipotecar fiind autorizate să acorde credite în lei și în valută . 
 ### Existing MWEs: 
@@ -2733,7 +2982,9 @@ După cum cititorii noștri au putut afla din ultimul număr al săptămânalulu
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
 ## Sentence No. 26825 - 
 l Pentru tragerea LOTO SPECIAL „ 6 / 49 “ de duminică , 12 ianuarie 2003 , reportul la categoria I este de 17 , 8 miliarde de lei , iar reporturile cumulate pentru tragerea NOROC din aceeași dată la categoriile I , a II - a - N - 3 și N + 3 se apropie de 5 miliarde de lei . 
 ### Existing MWEs: 
@@ -2782,6 +3033,8 @@ Cei interesați în achiziționarea unei uși metalice de siguranță au la disp
 1- **au la dispoziție** (ID, 11)
 ### Identified MWEs: 
 1- **au la dispoziție** 
+2- **S** 
+3- **S** 
 ## Sentence No. 27380 - 
 Potrivit reglementărilor în vigoare în momentul de față , dumneavoastră veți avea dreptul la pensie de urmaș după soțul decedat numai din luna în care împliniți vârsta standard de pensionare , care este de 57 de ani și 4 luni ( noiembrie 2003 ) , și dacă durata căsătoriei a fost de cel puțin 10 ani . 
 ### Existing MWEs: 
@@ -2803,20 +3056,23 @@ Acolo , trei tineri l - au contactat și s - au arătat interesați de mașină 
 ### Existing MWEs: 
 1- **s arătat** (IReflV, 4)
 ### Identified MWEs: 
-1- **s arătat** 
+1- **s** 
+2- **s** 
+3- **s arătat** 
 ## Sentence No. 27500 - 
 Din noiembrie 2002 până în ianuarie 2003 , mai precis până la sfârșitul săptămânii trecute , în evidențele Postului de Poliție Lovrin s - au adunat nu mai puțin de 12 furturi comise la Gottlob . 
 ### Existing MWEs: 
 1- **s adunat** (IReflV, 4)
 ### Identified MWEs: 
-1- **s adunat** 
+1- **s** 
+2- **s** 
+3- **s adunat** 
 ## Sentence No. 27525 - 
 Unul a intrat în compartimentul în care acesta se găsea singur să întrebe cât e ceasul , apoi au sărit ceilalți , iar unul a stat de „ pază “ . 
 ### Existing MWEs: 
 1- **se găsea** (IReflV, 12)
 ### Identified MWEs: 
 1- **se găsea** 
-2- **stat de „** 
 ## Sentence No. 27530 - 
 La trecerea de nivel de la stația C . F . R . Găvojdia se afla corpul fără viață a altui puștan , omorât de tren . 
 ### Existing MWEs: 
@@ -2827,12 +3083,16 @@ La trecerea de nivel de la stația C . F . R . Găvojdia se afla corpul fără v
 Ceilalți cetățeni au observat starea femeii și , după ce au întrebat - o dacă se simte bine , au sfătuit - o să meargă acasă . 
 ### Existing MWEs: 
 1- **se simte** (IReflV, 2)
+### Identified MWEs: 
+1- **se simte** 
 ## Sentence No. 27595 - 
 Inundații de proporții s - au înregistrat în Belgia , Franța , Germania , Portugalia și Marea Britanie . 
 ### Existing MWEs: 
 1- **s înregistrat** (IReflV, 20)
 ### Identified MWEs: 
-1- **s înregistrat** 
+1- **s** 
+2- **s** 
+3- **s înregistrat** 
 ## Sentence No. 27625 - 
 l Președintele Ion Iliescu , premierul Adrian Năstase , președinții Senatului și Camerei Deputaților , Nicolae Văcăroiu și Valer Dorneanu , și ministrul de externe Mircea Geoană , au avut o întâlnire de lucru , la Palatul Cotroceni , pentru a stabili prioritățile anului 2003 . 
 ### Existing MWEs: 
@@ -2844,7 +3104,9 @@ S - a născut în 10 iunie 1956 , în regiunea Telsiai .
 ### Existing MWEs: 
 1- **S născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **S născut** 
+1- **S** 
+2- **S** 
+3- **S născut** 
 ## Sentence No. 27670 - 
 În cel de - al doilea tur al alegerilor prezidențiale , care au avut loc în 2 ianuarie 2003 , după o campanie agresivă , Paksas a obținut 54 , 9 % din voturi , în timp ce Valdas Adamkus a dobândit 45 % ( în primul tur de scrutin , din 22 decembrie 2002 , Adamkus obținea 35 % din voturi , iar Paksas , doar 19 % ) . 
 ### Existing MWEs: 
@@ -2884,11 +3146,15 @@ Acest termen nu se aplică controalelor efectuate pe baza informațiilor care co
 ### Existing MWEs: 
 1- **s produs** (IReflV, 16)
 ### Identified MWEs: 
-1- **s produs** 
+1- **s** 
+2- **s** 
+3- **s produs** 
 ## Sentence No. 28375 - 
 Pentru a beneficia de aceste facilități , persoanele în cauză trebuie să nu figureze în evidențele Primăriei cu debite restante și , funcție de veniturile lunare , se pot încadra în categoriile de scutire de impozit sau reducere cu 25 % sau 50 % . 
 ### Existing MWEs: 
 1- **se încadra** (IReflV, 14)
+### Identified MWEs: 
+1- **se încadra** 
 ## Sentence No. 28495 - 
 Având în vedere că limba engleză va fi cea în care va fi susținut cursul , cunoașterea aceseia reprezintă un avantaj . 
 ### Existing MWEs: 
@@ -2909,6 +3175,8 @@ Fotbaliștii timișoreni , rămași fără serviciu , se răspândesc în toată
 din București - 3 , Arad , Cluj , Oradea și Timișoara ( Ripensia și RGMT ) - câte 2 , Brașov , Ploiești și Sibiu , se aliniază la startul primului campionat divizionar al României , structurat deocamdată pe două serii . 
 ### Existing MWEs: 
 1- **se aliniază** (IReflV, 2)
+### Identified MWEs: 
+1- **se aliniază** 
 ## Sentence No. 28735 - 
 Organismele de drept nu reușesc să facă față invaziei , astfel că de la un an la altul , numărul consumatorilor de droguri crește alarmant , o dată cu cel al transporturilor . 
 ### Existing MWEs: 
@@ -2930,14 +3198,19 @@ S - au retras 4 avize / autorizații sanitare de funcționare , iar valoarea ame
 ### Existing MWEs: 
 1- **s ridicat** (IReflV, 6)
 ### Identified MWEs: 
-1- **S retras** 
-2- **s ridicat** 
+1- **S** 
+2- **S** 
+3- **S retras** 
+4- **s** 
+5- **s** 
+6- **s ridicat** 
 ## Sentence No. 29050 - 
 Ținând seama de faptul că în țara noastră se înregistrează anual cca 42000 de decese cauzate de cancer și aproximativ 57 000 de cazuri noi , prin Ordinul nr . 871 / 2002 , M . S . F . a aprobat normele privind reorganizarea activității de declarare nominală , raportare și evidență a bolnavilor . 
 ### Existing MWEs: 
 1- **Ținând seama** (ID, 14)
 ### Identified MWEs: 
 1- **Ținând seama** 
+2- **S** 
 ## Sentence No. 29085 - 
 Amenzile au fost majorate , cifrându - se între 1 , 5 și 5 milioane de lei pentru : 
 ### Existing MWEs: 
@@ -3021,7 +3294,9 @@ Acum 190 de ani s - a născut , la Leipzig , compozitorul , dirijorul și dramat
 ### Existing MWEs: 
 1- **s născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **s născut** 
+1- **s** 
+2- **s** 
+3- **s născut** 
 ## Sentence No. 30730 - 
 bărbați - 10 000 m , respectiv , femei - 5 000 m . Concurenții de pe primele trei locuri se vor califica la faza regională . 
 ### Existing MWEs: 
@@ -3051,7 +3326,9 @@ l În 15 mai a . c . , în Aula Magna a Universității de Vest din Timișoara ,
 ### Existing MWEs: 
 1- **s desfășurat** (IReflV, 17)
 ### Identified MWEs: 
-1- **s desfășurat** 
+1- **s** 
+2- **s** 
+3- **s desfășurat** 
 ## Sentence No. 31055 - 
 Magazinul „ Triumph “ ( Shopping Center Bega , etajul III ) a pus în vânzare costume de baie destinate în special doamnelor supraponderale , prețurile oscilând între 1 000 000 și 1 300 000 de lei . 
 ### Existing MWEs: 
@@ -3072,12 +3349,15 @@ l Parchetul de pe lângă Tribunalul Timiș i - a trimis în judecată pentru t�
 1- **trimis în judecată** (LVC, 10)
 ### Identified MWEs: 
 1- **trimis în judecată** 
+2- **S** 
 ## Sentence No. 31505 - 
 Cei doi au fost prinși de autoritățile din țara vecină și s - au prezentat sub o identitate falsă , folosindu - se în acest sens de pașapoartele contrafăcute . 
 ### Existing MWEs: 
 1- **s prezentat** (IReflV, 17)
 ### Identified MWEs: 
-1- **s prezentat** 
+1- **s** 
+2- **s** 
+3- **s prezentat** 
 ## Sentence No. 31530 - 
 Anul trecut , în seara zilei de 30 septembrie , polițiștii de la Centrul Zonal pentru Combaterea Crimei Organizate și Antidrog Timișoara au fost sesizați că într - un autoturism marca Ford Sierra de culoare roșie , cu numărul de înmatriculare TM - 03 - RLG , se află trei tineri care consumă droguri prin injectare . 
 ### Existing MWEs: 
@@ -3089,43 +3369,57 @@ l Membrii Guvernului s - au întâlnit la Snagov pentru a discuta despre activit
 ### Existing MWEs: 
 1- **s întâlnit** (IReflV, 17)
 ### Identified MWEs: 
-1- **s întâlnit** 
+1- **s** 
+2- **s** 
+3- **s întâlnit** 
 ## Sentence No. 31565 - 
 l Ambasadorul Marii Britanii la București , Quinton Quayle , a declarat că lupta împotriva corupției este foarte importantă și s - a arătat mulțumit că legislația anticorupție a fost adoptată de Parlamentul român , menționând că autoritățile de la Londra sprijină România în lupta împotriva corupției . 
 ### Existing MWEs: 
 1- **s arătat** (IReflV, 4)
 ### Identified MWEs: 
-1- **s arătat** 
+1- **s** 
+2- **s** 
+3- **s arătat** 
 ## Sentence No. 31590 - 
 S - a născut în localitatea Niš , la 22 decembrie 1960 . 
 ### Existing MWEs: 
 1- **S născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **S născut** 
+1- **S** 
+2- **S** 
+3- **S născut** 
 ## Sentence No. 31605 - 
 Atentate sinucigașe s - au produs și în Cecenia , unde doi rebeli au detonat un camion încărcat cu explozivi , luni , în apropierea clădirii ce găzduiește administrația regională din Znamenskoie , producând moartea a cel puțin 40 de persoane și rănirea a circa 200 . 
 ### Existing MWEs: 
 1- **s produs** (IReflV, 16)
 ### Identified MWEs: 
-1- **s produs** 
+1- **s** 
+2- **s** 
+3- **s produs** 
 ## Sentence No. 31895 - 
 l În primele șase meciuri disputate în cadrul etapei a 27 - a a Diviziei A de fotbal s - au înregistrat următoarele rezultate : 
 ### Existing MWEs: 
 1- **s înregistrat** (IReflV, 20)
 ### Identified MWEs: 
-1- **s înregistrat** 
+1- **s** 
+2- **s** 
+3- **s înregistrat** 
 ## Sentence No. 31910 - 
 l Meciul de fotbal Inter Milano - A . C . Milan , disputat în cadrul returului semifinalelor Ligii Campionilor , s - a încheiat la egalitate , 1 - 1 . 
 ### Existing MWEs: 
 1- **s încheiat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s încheiat** 
+1- **s** 
+2- **s** 
+3- **s încheiat** 
 ## Sentence No. 31915 - 
 l În returul semifinalelor Ligii Campionilor de fotbal , Juventus Torino a învins acasă pe Real Madrid cu scorul de 3 - 1 și s - a calificat în finala competiției . 
 ### Existing MWEs: 
 1- **s calificat** (IReflV, 14)
 ### Identified MWEs: 
-1- **s calificat** 
+1- **s** 
+2- **s** 
+3- **s calificat** 
 ## Sentence No. 31920 - 
 l Atleta Mihaela Botezan , aflată în cantonament la Font Romeu , a recunoscut că fiolele de Actovegin depistate de ofițerii vamali din Menton ( Franța ) , în mașina Gabrielei Szabo , îi erau destinate , dar a adăugat că nu cunoștea faptul că acest produs se află pe lista substanțelor interzise . 
 ### Existing MWEs: 
@@ -3138,6 +3432,10 @@ l Între 21 - 25 mai , la București va avea loc turneul final al Campionatului 
 1- **avea loc** (LVC, 368)
 ### Identified MWEs: 
 1- **avea loc** 
+2- **S** 
+3- **S** 
+4- **S** 
+5- **S** 
 ## Sentence No. 32005 - 
 l Federația Internațională de Rugby a anunțat că va achita în premieră suma de 6 , 9 milioane de dolari drept indemnizații de participare celor douăzeci de selecționate naționale prezente la turneul final al Cupei Mondiale , care se va desfășura în perioada 10 octombrie - 22 noiembrie , în Australia . 
 ### Existing MWEs: 
@@ -3162,6 +3460,8 @@ Acțiunea va începe cu o expoziție de mașini și utilaje agricole puse la dis
 1- **puse la dispoziție** (ID, 12)
 ### Identified MWEs: 
 1- **puse la dispoziție** 
+2- **S** 
+3- **S** 
 ## Sentence No. 32160 - 
 O altă hotărâre de C . L . T . va avea în vedere modificarea zonării Timișoarei cu adaptarea la actualele situații din teren . 
 ### Existing MWEs: 
@@ -3210,13 +3510,16 @@ Pericolul pe care - l provoacă degradarea raporturilor omului cu mediul înconj
 ### Existing MWEs: 
 1- **luat ființă** (LVC, 10)
 ### Identified MWEs: 
-1- **luat ființă** 
+1- **S** 
+2- **luat ființă** 
 ## Sentence No. 32735 - 
 Racoviță , țara noastră s - a situat în primul eșalon al statelor preocupate de protejarea și conservarea valorilor naturale . 
 ### Existing MWEs: 
 1- **s situat** (IReflV, 2)
 ### Identified MWEs: 
-1- **s situat** 
+1- **s** 
+2- **s** 
+3- **s situat** 
 ## Sentence No. 32800 - 
 Era timpul să se nască o nouă generație culturală . 
 ### Existing MWEs: 
@@ -3347,12 +3650,14 @@ Recent , au intrat în vigoare prevederile Ordinului nr . 510 / 944 / 147 / 2002
 1- **intrat în vigoare** (ID, 11)
 ### Identified MWEs: 
 1- **intrat în vigoare** 
+2- **S** 
 ## Sentence No. 34675 - 
 În perioada 2 - 6 iunie , la sediul din str . S . Bărnuțiu nr . 62 al Camerei de Comerț , Industrie și Agricultură Timișoara se va desfășura cursul „ Marketingul produselor și serviciilor “ , organizat de către C . C . I . A . T . prin Centrul de formare și perfecționare profesională , în colaborare cu Netherland Management Cooperation Programme - N . M . C . P . Termenul limită de înscriere este 29 mai . 
 ### Existing MWEs: 
 1- **se desfășura** (IReflV, 224)
 ### Identified MWEs: 
-1- **se desfășura** 
+1- **S** 
+2- **se desfășura** 
 ## Sentence No. 34680 - 
 Concurenții care se vor clasa pe primele trei locuri la femei și bărbați vor participa la faza națională . 
 ### Existing MWEs: 
@@ -3404,7 +3709,9 @@ Flagrantul , realizat cu bancnote de 100 000 lei marcate , s - a consumat pe ter
 ### Existing MWEs: 
 1- **s consumat** (IReflV, 4)
 ### Identified MWEs: 
-1- **s consumat** 
+1- **s** 
+2- **s** 
+3- **s consumat** 
 ## Sentence No. 35155 - 
 Bărbatul se sustrăgea urmăririi penale pentru infracțiuni de vătămare corporală și ultraj contra bunelor moravuri . 
 ### Existing MWEs: 
@@ -3422,7 +3729,9 @@ Marți , la Palatul Administrativ s - a derulat o întâlnire a șefilor structu
 ### Existing MWEs: 
 1- **s derulat** (IReflV, 3)
 ### Identified MWEs: 
-1- **s derulat** 
+1- **s** 
+2- **s** 
+3- **s derulat** 
 ## Sentence No. 35190 - 
 l Parchetul de pe lângă Tribunalul Timiș l - a trimis în judecată pentru tâlhărie pe C . V . C . , de 32 de ani , din Recaș . 
 ### Existing MWEs: 
@@ -3434,29 +3743,38 @@ l T . F . S . și M . G . B . , amândoi de 17 ani , din Șag , vor da socoteal�
 ### Existing MWEs: 
 1- **da socoteală** (ID, 3)
 ### Identified MWEs: 
-1- **da socoteală** 
+1- **S** 
+2- **da socoteală** 
 ## Sentence No. 35230 - 
 Când mașina a oprit la un semafor , în urma unei înțelegeri prealabile , cele trei au sărit din autoturism și nu s - au mai oprit decât la Poliție . 
 ### Existing MWEs: 
 1- **s oprit** (IReflV, 5)
+### Identified MWEs: 
+1- **s** 
 ## Sentence No. 35240 - 
 l Inundațiile și alunecările de teren din Sri Lanka s - au soldat cu cel puțin 141 de morți . 
 ### Existing MWEs: 
 1- **s soldat** (IReflV, 3)
 ### Identified MWEs: 
-1- **s soldat** 
+1- **s** 
+2- **s** 
+3- **s soldat** 
 ## Sentence No. 35260 - 
 l În cursul serii , în zona orașului Alger din Algeria s - a produs un puternic cutremur , apreciat de Centrul mondial de seismologie din Denver la 6 , 8 grade pe scara Richter , soldat , potrivit bilanțului provizoriu , cu cel puțin 770 de morți și aproape 5 000 de răniți . 
 ### Existing MWEs: 
 1- **s produs** (IReflV, 16)
 ### Identified MWEs: 
-1- **s produs** 
+1- **s** 
+2- **s** 
+3- **s produs** 
 ## Sentence No. 35275 - 
 S - a născut în 1954 , la Belgrad . 
 ### Existing MWEs: 
 1- **S născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **S născut** 
+1- **S** 
+2- **S** 
+3- **S născut** 
 ## Sentence No. 35285 - 
 Consiliul de Securitate al O . N . U . a adoptat Rezoluția 1483 referitoare la Irak , care pune capăt celor 13 ani de sancțiuni împotriva Bagdadului . 
 ### Existing MWEs: 
@@ -3528,7 +3846,8 @@ De luni , 26 mai , Agenția de turism a sindicatelor U . J . S . L . Timiș - pu
 ### Existing MWEs: 
 1- **pune în vânzare** (LVC, 27)
 ### Identified MWEs: 
-1- **pune în vânzare** 
+1- **S** 
+2- **pune în vânzare** 
 ## Sentence No. 36155 - 
 Consumul de tutun , de către cei care fumează , prizează sau mestecă tutun , reprezintă una dintre cele mai grave probleme de sănătate publică în lumea de astăzi , aflându - se între primele cauze de deces prematur , care altfel ar putea fi evitate . 
 ### Existing MWEs: 
@@ -3540,7 +3859,9 @@ Săptămâna viitoare , în 31 mai , Ziua mondială fără tutun va fi marcată 
 ### Existing MWEs: 
 1- **se desfășura** (IReflV, 224)
 ### Identified MWEs: 
-1- **se desfășura** 
+1- **S** 
+2- **S** 
+3- **se desfășura** 
 ## Sentence No. 36245 - 
 Direcția Generală pentru Protecția Drepturilor Copilului Timiș în colaborare cu Fundația Serviciilor Sociale Bethany din Timișoara organizează , în perioada 26 - 30 mai , cea de - a treia ediție a manifestării intitulate „ Săptămâna Adopției “ - ce se înscrie în cadrul acțiunilor derulate cu regularitate de către D . G . P . D . C . T . în vederea promovării adopției . 
 ### Existing MWEs: 
@@ -3560,7 +3881,9 @@ S - au căsătorit în 26 aprilie 1997 , la New York , iar surse din mediul muzi
 ### Existing MWEs: 
 1- **S căsătorit** (IReflV, 1)
 ### Identified MWEs: 
-1- **S căsătorit** 
+1- **S** 
+2- **S** 
+3- **S căsătorit** 
 ## Sentence No. 36420 - 
 De altminteri , o parte a orchestrei simfonice timișorene se află deja într - un alt turneu prestigios , în Spania . 
 ### Existing MWEs: 
@@ -3662,19 +3985,23 @@ Iar ei , închinându - I - se , s - au întors la Ierusalim cu bucurie mare “
 ### Existing MWEs: 
 1- **s întors** (IReflV, 5)
 ### Identified MWEs: 
-1- **s întors** 
+1- **s** 
+2- **s** 
+3- **s întors** 
 ## Sentence No. 38025 - 
 l La magazinul „ EL - FY Sound SM “ ( Bd . 16 Decembrie 1989 nr . 9 - lângă Piața Maria ) s - au pus în vânzare radiocasetofoane cu CD player ( cu 1 900 000 de lei , 2 100 000 de lei , 3 000 000 de lei ș . a . ) , pentru toate acordându - se garanție de un an . 
 ### Existing MWEs: 
 1- **pus în vânzare** (LVC, 27)
 ### Identified MWEs: 
-1- **pus în vânzare** 
+1- **s** 
+2- **pus în vânzare** 
 ## Sentence No. 38060 - 
 În organizarea Asociației pentru Sănătate , Educație și Familie , Asociației Studențești AMiCUS , Asociației Familia Speranței și Radio Vocea Speranței , în colaborare cu D . S . P . Timiș , au loc manifestări grupate sub genericul „ Fii la modă ! 
 ### Existing MWEs: 
 1- **au loc** (LVC, 368)
 ### Identified MWEs: 
-1- **au loc** 
+1- **S** 
+2- **au loc** 
 ## Sentence No. 38085 - 
 Festivalul Internațional „ Zilele Muzicii de Orgă “ se va încheia duminică , 1 iunie , cu recitalul susținut de la ora 20 de organistul timișorean prof . univ . dr . Felician Roșca în Domul romano - catolic din Piața Unirii . 
 ### Existing MWEs: 
@@ -3740,13 +4067,16 @@ Joi dimineață , la IPJ Timiș s - a derulat o întâlnire pe tema cazurilor de
 ### Existing MWEs: 
 1- **s derulat** (IReflV, 3)
 ### Identified MWEs: 
-1- **s derulat** 
+1- **s** 
+2- **s** 
+3- **s derulat** 
 ## Sentence No. 38720 - 
 Tot pentru o tâlhărie a ajuns după gratii și P . A . , de 27 de ani , din Avrămeni , județul Botoșani , supranumit „ Omul păianjen ” după ce în vara anului trecut s - a urcat pe o clădire din centrul orașului și a amenințat că se sinucide deoarece este hărțuit de către polițiști . 
 ### Existing MWEs: 
 1- **se sinucide** (IReflV, 4)
 ### Identified MWEs: 
-1- **se sinucide** 
+1- **s** 
+2- **se sinucide** 
 ## Sentence No. 38845 - 
 W . I . T . C . H . Revistă lunară cu benzi desenate , publicată de Editura Egmont România , sub licența Walt Disney Pictures , apare la București și se adresează în primul rând copiilor și adolescenților . 
 ### Existing MWEs: 
@@ -3780,7 +4110,9 @@ l La București s - a desfășurat reuniunea Clubului guvernatorilor băncilor c
 ### Existing MWEs: 
 1- **s desfășurat** (IReflV, 17)
 ### Identified MWEs: 
-1- **s desfășurat** 
+1- **s** 
+2- **s** 
+3- **s desfășurat** 
 ## Sentence No. 39250 - 
 Festivalul , aflat la cea de - a cincea ediție a sa , se va desfășura la Costinești în perioada 12 - 16 iunie . 
 ### Existing MWEs: 
@@ -3804,13 +4136,17 @@ Reprezentanții Prefecturii Timiș s - au deplasat la sediul Primăriei comunei 
 ### Existing MWEs: 
 1- **s deplasat** (IReflV, 13)
 ### Identified MWEs: 
-1- **s deplasat** 
+1- **s** 
+2- **s** 
+3- **s deplasat** 
 ## Sentence No. 39445 - 
 La stabilirea celor patru zone s - au luat în considerare elemente specifice și anume faptul că în Zona I s - au realizat și se vor construi diferite construcții industriale , dar și cu alte scopuri economice și sociale - terenuri cu valoare ridicată . 
 ### Existing MWEs: 
 1- **luat în considerare** (LVC, 8)
 ### Identified MWEs: 
-1- **luat în considerare** 
+1- **s** 
+2- **luat în considerare** 
+3- **s** 
 ## Sentence No. 39525 - 
 El se numește Momirov Gheorghe de 18 ani , de naționalitate sârb , are o înălțime de 1 metru 10 cm . Corpul lui este tot așa de dezvoltat ca la oricare om , însă picioarele sunt foarte scurte , nu se îndoaie și nu are genunchi . 
 ### Existing MWEs: 
@@ -3829,13 +4165,16 @@ Disconturile cu care se vând acțiunile S . I . F . se situează la o valoare m
 ### Existing MWEs: 
 1- **se situează** (IReflV, 19)
 ### Identified MWEs: 
-1- **se situează** 
+1- **S** 
+2- **se situează** 
 ## Sentence No. 39855 - 
 Cu 135 de ani în urmă s - a născut scriitorul rus Maxim Gorki . 
 ### Existing MWEs: 
 1- **s născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **s născut** 
+1- **s** 
+2- **s** 
+3- **s născut** 
 ## Sentence No. 39860 - 
 Scrierile sale ( un pseudoroman - „ Pâlnia și Stamate “ , proză , schițe și fabule ) se numără printre primele exerciții predadaiste din lume , ele fiind citite și circulând înainte de 1916 , anul apariției dadaismului . 
 ### Existing MWEs: 
@@ -3847,7 +4186,8 @@ După cum am aflat , s - au executat lucrări de reabilitare de construcții și
 ### Existing MWEs: 
 1- **se află** (IReflV, 145)
 ### Identified MWEs: 
-1- **se află** 
+1- **s** 
+2- **se află** 
 ## Sentence No. 40185 - 
 La cerere , reprezentanții firmei se deplasează și la adresa indicată de clienți . 
 ### Existing MWEs: 
@@ -3859,7 +4199,9 @@ tot aici , contribuabilii persoane fizice pot să depună contribuția la F . N 
 ### Existing MWEs: 
 1- **se ocupă** (IReflV, 11)
 ### Identified MWEs: 
-1- **se ocupă** 
+1- **S** 
+2- **se ocupă** 
+3- **S** 
 ## Sentence No. 40270 - 
 Petru și Pavel “ din Timișoara derulează de la sfârșitul anului trecut un proiect ce se bucură de sprijinul financiar al Uniunii Europene , prin intermediul programului PHARE - ACCESS - Rolul comunității și al instituțiilor penale în reintegrarea socială a minorilor delincvenți . 
 ### Existing MWEs: 
@@ -3880,8 +4222,6 @@ Petru și Pavel “ din Timișoara derulează de la sfârșitul anului trecut un
 - ( 1 ) Acordul proprietarilor privind constituirea asociației de proprietari se consemnează într - un proces - verbal întocmit în două exemplare originale , semnate de toți proprietarii care și - au dat consimțământul . 
 ### Existing MWEs: 
 1- **dat consimțământul** (LVC, 3)
-### Identified MWEs: 
-1- **dat consimțământul** 
 ## Sentence No. 40405 - 
 ( 7 ) Pentru adoptarea hotărârilor asociației de proprietari se vor avea în vedere următoarele : 
 ### Existing MWEs: 
@@ -3905,12 +4245,12 @@ Zidurile interioare , podelele și tavanele se consideră ca făcând parte din 
 Ocupanții apartamentelor și ai spațiilor cu altă destinație decât cea de locuință trebuie să se abțină de la acțiunile care duc la tulburarea liniștii locatarilor între orele 22 , 00 - 8 , 00 , prin producerea de zgomote , larmă sau prin folosirea oricărui aparat , obiect ori instrument muzical la intensitate mare . 
 ### Existing MWEs: 
 1- **se abțină** (IReflV)
-### Identified MWEs: 
-1- **se abțină** 
 ## Sentence No. 40930 - 
 După prima întrunire organizatorică adunarea generală se întrunește cel puțin o dată în fiecare an calendaristic . 
 ### Existing MWEs: 
 1- **se întrunește** (IReflV, 1)
+### Identified MWEs: 
+1- **se întrunește** 
 ## Sentence No. 40980 - 
 ( 3 ) Comitetul executiv se va întruni de cel puțin 4 ori pe an . 
 ### Existing MWEs: 
@@ -3966,7 +4306,7 @@ Un accent deosebit s - a pus pe sănătate , pensionarii beneficiind acum de ser
 ### Existing MWEs: 
 1- **accent pus** (LVC, 1)
 ### Identified MWEs: 
-1- **pus pe sănătate** 
+1- **s** 
 ## Sentence No. 42090 - 
 se termină distracția , la Teatrul de Vară jimbolian ( str . Republicii ) , reînnoit special pentru acest eveniment . 
 ### Existing MWEs: 
@@ -4024,7 +4364,9 @@ Acum 150 de ani s - a născut folcloristul și prozatorul Ioan Pop - Reteganul .
 ### Existing MWEs: 
 1- **s născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **s născut** 
+1- **s** 
+2- **s** 
+3- **s născut** 
 ## Sentence No. 42670 - 
 Sâmbăta , 7 iunie , de la ora 18 , în Sala Orpheum a Facultății de Muzică din cadrul Universității de Vest va avea loc un recital susținut de studenții clasei de clarinet a conf . univ . Rodica Sas : 
 ### Existing MWEs: 
@@ -4066,13 +4408,16 @@ l Președinții S . U . A . și Rusiei , George W . Bush și Vladimir Putin , au
 ### Existing MWEs: 
 1- **pună capăt** (ID, 5)
 ### Identified MWEs: 
-1- **pună capăt dezvoltării** 
+1- **S** 
+2- **pună capăt** 
 ## Sentence No. 43160 - 
 Discuțiile s - au axat pe situația din Orientul Mijlociu și reconstrucția Irakului . 
 ### Existing MWEs: 
 1- **s axat** (IReflV, 1)
 ### Identified MWEs: 
-1- **s axat** 
+1- **s** 
+2- **s** 
+3- **s axat** 
 ## Sentence No. 43180 - 
 l Premierul Adrian Năstase și omologul său maghiar , Péter Medgyessy , au luat parte la deschiderea unui nou punct de frontieră la Satu Mare , care va facilita trecerea românilor către Occident și a ungurilor către România . 
 ### Existing MWEs: 
@@ -4084,13 +4429,17 @@ l Premierul Adrian Năstase și omologul său maghiar , Péter Medgyessy , au lu
 ### Existing MWEs: 
 1- **s întâlnit** (IReflV, 17)
 ### Identified MWEs: 
-1- **s întâlnit** 
+1- **s** 
+2- **s** 
+3- **s întâlnit** 
 ## Sentence No. 43190 - 
 S - a născut în anul 1935 , în Safad , din nordul Palestinei . 
 ### Existing MWEs: 
 1- **S născut** (IReflV, 42)
 ### Identified MWEs: 
-1- **S născut** 
+1- **S** 
+2- **S** 
+3- **S născut** 
 ## Sentence No. 43200 - 
 Președintele Statelor Unite , George W . Bush , și premierii israelian și palestinian , Ariel Sharon și Mahmoud Abbas , au avut prima lor întâlnire tripartită , gazda reuniunii fiind regele iordanian Abdallah II . 
 ### Existing MWEs: 
@@ -4114,7 +4463,9 @@ Binevoitorul apărător nu s - a prezentat însă la nici unul dintre termenele 
 ### Existing MWEs: 
 1- **s prezentat** (IReflV, 17)
 ### Identified MWEs: 
-1- **s prezentat** 
+1- **s** 
+2- **s** 
+3- **s prezentat** 
 ## Sentence No. 43565 - 
 Cunoscut în toată lumea datorită agenților săi valoroși , a tehnologiei avansate în ceea ce privește armele , acest serviciu se numără printre ultimele bastioane ale onoarei . 
 ### Existing MWEs: 
@@ -4148,7 +4499,9 @@ La începutul acestei săptămâni , o delegație din județul Böblingen s - a 
 ### Existing MWEs: 
 1- **s aflat** (IReflV, 21)
 ### Identified MWEs: 
-1- **s aflat** 
+1- **s** 
+2- **s** 
+3- **s aflat** 
 ## Sentence No. 43930 - 
 Domnul viceprimar Dorel Borza ne - a informat că în perioada 2 - 8 iunie se află în curs de execuție lucrări de întreținere și reparații la carosabil pe următoarele artere de circulație : 
 ### Existing MWEs: 
@@ -4160,7 +4513,9 @@ După cum ne spunea domnul viceprimar Dorel Borza , mulți timișoreni s - au co
 ### Existing MWEs: 
 1- **s conformat** (IReflV, 1)
 ### Identified MWEs: 
-1- **s conformat** 
+1- **s** 
+2- **s** 
+3- **s conformat** 
 ## Sentence No. 44015 - 
 Abia reveniți de la Szeged , unde au dat un concert de mare succes , elevii percuționiști ai prof . Doru Roman își completează turneul occidental la Centrul Cultural Român din Viena și la un festival din Offenbach , Germania . 
 ### Existing MWEs: 
@@ -4216,7 +4571,8 @@ Eșecul în alegeri , primirea destul de rece ( dacă nu chiar ostilă ) pe care
 ### Existing MWEs: 
 1- **se întoarcă** (IReflV, 7)
 ### Identified MWEs: 
-1- **se întoarcă** 
+1- **s** 
+2- **se întoarcă** 
 ## Sentence No. 44630 - 
 Așa se face că activitatea de promovare a Banatului în Canada va fi incomparabil mai ușoară după ce se va întoarce în țară corul „ Neil Michaud ” , care a concertat săptămâna trecută și la Timișoara . 
 ### Existing MWEs: 
@@ -4252,7 +4608,9 @@ Imagini document , pentru că Victor Popa s - a îndrăgostit de documentar înc
 ### Existing MWEs: 
 1- **s îndrăgostit** (IReflV, 1)
 ### Identified MWEs: 
-1- **s îndrăgostit** 
+1- **s** 
+2- **s** 
+3- **s îndrăgostit** 
 ## Sentence No. 44790 - 
 Dimineața , pe la opt , aveam de gând să surprindem ieșirea preoților cu Sfânta Cruce . 
 ### Existing MWEs: 
@@ -4270,13 +4628,17 @@ Iar filmele lui Victor Popa se înalță și atrag premii .
 ### Existing MWEs: 
 1- **se petrecuseră** (IReflV, 7)
 ### Identified MWEs: 
-1- **se petrecuseră** 
+1- **s** 
+2- **se petrecuseră** 
 ## Sentence No. 44930 - 
 “ Dacă știi s - o asculți și s - o privești , lumea îți vorbește și ți se - arată pentru ca , la rândul tău , s - o poți dărui . 
 ### Existing MWEs: 
 1- **se arată** (IReflV, 5)
 ### Identified MWEs: 
-1- **se arată** 
+1- **s** 
+2- **s** 
+3- **se arată** 
+4- **s** 
 ## Sentence No. 45030 - 
 Terenul , în suprafață de 60 de hectare , se află situat în extravilanul municipiului Timișoara , pe teritoriul administrativ al acestuia , la 8 km nord de oraș . 
 ### Existing MWEs: 
@@ -4330,4 +4692,6 @@ Valoarea produselor înlocuite , contravaloarea achitată sau valoarea reparați
 ### Existing MWEs: 
 1- **s ridicat** (IReflV, 6)
 ### Identified MWEs: 
-1- **s ridicat** 
+1- **s** 
+2- **s** 
+3- **s ridicat** 

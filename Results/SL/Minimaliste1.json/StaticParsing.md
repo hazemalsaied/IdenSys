@@ -1,258 +1,776 @@
-## Sentence No. 4501 - 
-Težave , ki mučijo najmlajše , se nam zdijo postranske , nepomembne , zanemarljive , pozabljamo pa , kakšne so se nam podobne težave zdele , ko smo bili sami majhni . 
+## Sentence No. 2066 - 
+Če potegnemo črto , ugotovimo , da se nam ne splača delati , kajti kot državni prvaki plačujemo ves mladinski in članski pogon . 
 ### Existing MWEs: 
-1- **se zdijo** (IReflV)
-2- **se zdele** (IReflV)
+1- **potegnemo črto** (ID)
+2- **se splača** (IReflV)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Težave, ,, ki ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Če, potegnemo, črto ,.. ]
 
-B0Lemma: težava, B0POS: Sozmi, B0Token: Težave, 
+B0Lemma: če, B0POS: Vd, B0Token: Če, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Težave]   B= [,, ki, mučijo ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Če]   B= [potegnemo, črto, , ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: težava_,, S0B0LemmaPOS: težava_,, S0B0POS: Sozmi_,, S0B0POSLemma: Sozmi_,, S0B0Token: Težave_,, S0B1Lemma: težava_ki, S0B1LemmaPOS: težava_Vd, S0B1POS: Sozmi_Vd, S0B1POSLemma: Sozmi_ki, S0B1Token: Težave_ki, S0Lemma: težava, S0POS: Sozmi, S0Token: Težave, 
+B0IsInLexic: true, B0Lemma: potegniti, B0POS: Ggdspm, B0Token: potegnemo, S0B0Lemma: če_potegniti, S0B0LemmaPOS: če_Ggdspm, S0B0POS: Vd_Ggdspm, S0B0POSLemma: Vd_potegniti, S0B0Token: Če_potegnemo, S0B1Lemma: če_črta, S0B1LemmaPOS: če_Sozet, S0B1POS: Vd_Sozet, S0B1POSLemma: Vd_črta, S0B1Token: Če_črto, S0Lemma: če, S0POS: Vd, S0Token: Če, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ki, mučijo ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [potegnemo, črto, , ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, 
+B0IsInLexic: true, B0Lemma: potegniti, B0POS: Ggdspm, B0Token: potegnemo, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ki, mučijo, najmlajše ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [potegnemo]   B= [črto, ,, ugotovimo ,.. ]
 
-B0Lemma: ki, B0POS: Vd, B0Token: ki, S0B0Lemma: ,_ki, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_ki, S0B0Token: ,_ki, S0B1Lemma: ,_mučiti, S0B1LemmaPOS: ,_Ggnstm, S0B1POS: ,_Ggnstm, S0B1POSLemma: ,_mučiti, S0B1Token: ,_mučijo, S0Lemma: ,, S0POS: ,, S0Token: ,, 
+B0IsInLexic: true, B0Lemma: črta, B0POS: Sozet, B0Token: črto, S0B0Lemma: potegniti_črta, S0B0LemmaPOS: potegniti_Sozet, S0B0POS: Ggdspm_Sozet, S0B0POSLemma: Ggdspm_črta, S0B0Token: potegnemo_črto, S0B1Lemma: potegniti_,, S0B1LemmaPOS: potegniti_,, S0B1POS: Ggdspm_,, S0B1POSLemma: Ggdspm_,, S0B1Token: potegnemo_,, S0IsInLexic: true, S0Lemma: potegniti, S0POS: Ggdspm, S0Token: potegnemo, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ki, mučijo, najmlajše ,.. ]
+4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [potegnemo, črto]   B= [,, ugotovimo, , ,.. ]
 
-B0Lemma: ki, B0POS: Vd, B0Token: ki, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: črta_,, S0B0LemmaPOS: črta_,, S0B0POS: Sozet_,, S0B0POSLemma: Sozet_,, S0B0Token: črto_,, S0B1Lemma: črta_ugotoviti, S0B1LemmaPOS: črta_Ggdspm, S0B1POS: Sozet_Ggdspm, S0B1POSLemma: Sozet_ugotoviti, S0B1Token: črto_ugotovimo, S0IsInLexic: true, S0Lemma: črta, S0POS: Sozet, S0Token: črto, S1B0Lemma: potegniti_,, S1B0LemmaPOS: potegniti_,, S1B0POS: Ggdspm_,, S1B0POSLemma: Ggdspm_,, S1B0Token: potegnemo_,, S1IsInLexic: true, S1Lemma: potegniti, S1POS: Ggdspm, S1S0Lemma: potegniti_črta, S1S0LemmaPOS: potegniti_Sozet, S1S0POS: Ggdspm_Sozet, S1S0POSLemma: Ggdspm_črta, S1S0Token: potegnemo_črto, S1Token: potegnemo, transitionHistoryLength3: 020, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ki]   B= [mučijo, najmlajše, , ,.. ]
+5- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[potegnemo, črto]]   B= [,, ugotovimo, , ,.. ]
 
-B0Lemma: mučiti, B0POS: Ggnstm, B0Token: mučijo, S0B0Lemma: ki_mučiti, S0B0LemmaPOS: ki_Ggnstm, S0B0POS: Vd_Ggnstm, S0B0POSLemma: Vd_mučiti, S0B0Token: ki_mučijo, S0B1Lemma: ki_mlad, S0B1LemmaPOS: ki_Ppsmmt, S0B1POS: Vd_Ppsmmt, S0B1POSLemma: Vd_mlad, S0B1Token: ki_najmlajše, S0Lemma: ki, S0POS: Vd, S0Token: ki, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: potegniti_črta_,, S0B0LemmaPOS: potegniti_črta_,, S0B0POS: Ggdspm_Sozet_,, S0B0POSLemma: Ggdspm_Sozet_,, S0B0Token: potegnemo_črto_,, S0B1Lemma: potegniti_črta_ugotoviti, S0B1LemmaPOS: potegniti_črta_Ggdspm, S0B1POS: Ggdspm_Sozet_Ggdspm, S0B1POSLemma: Ggdspm_Sozet_ugotoviti, S0B1Token: potegnemo_črto_ugotovimo, S0Lemma: potegniti_črta, S0POS: Ggdspm_Sozet, S0Token: potegnemo_črto, transitionHistoryLength3: 002, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mučijo, najmlajše, , ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ugotovimo, , ,.. ]
 
-B0Lemma: mučiti, B0POS: Ggnstm, B0Token: mučijo, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 100, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mučijo]   B= [najmlajše, ,, se ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ugotovimo, ,, da ,.. ]
 
-B0Lemma: mlad, B0POS: Ppsmmt, B0Token: najmlajše, S0B0Lemma: mučiti_mlad, S0B0LemmaPOS: mučiti_Ppsmmt, S0B0POS: Ggnstm_Ppsmmt, S0B0POSLemma: Ggnstm_mlad, S0B0Token: mučijo_najmlajše, S0B1Lemma: mučiti_,, S0B1LemmaPOS: mučiti_,, S0B1POS: Ggnstm_,, S0B1POSLemma: Ggnstm_,, S0B1Token: mučijo_,, S0Lemma: mučiti, S0POS: Ggnstm, S0Token: mučijo, transitionHistoryLength3: 202, 
+B0Lemma: ugotoviti, B0POS: Ggdspm, B0Token: ugotovimo, S0B0Lemma: ,_ugotoviti, S0B0LemmaPOS: ,_Ggdspm, S0B0POS: ,_Ggdspm, S0B0POSLemma: ,_ugotoviti, S0B0Token: ,_ugotovimo, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_,, S0B1POS: ,_,, S0B1POSLemma: ,_,, S0B1Token: ,_,, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 210, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [najmlajše, ,, se ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ugotovimo, ,, da ,.. ]
 
-B0Lemma: mlad, B0POS: Ppsmmt, B0Token: najmlajše, transitionHistoryLength3: 020, 
+B0Lemma: ugotoviti, B0POS: Ggdspm, B0Token: ugotovimo, transitionHistoryLength3: 021, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [najmlajše]   B= [,, se, nam ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ugotovimo]   B= [,, da, se ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: mlad_,, S0B0LemmaPOS: mlad_,, S0B0POS: Ppsmmt_,, S0B0POSLemma: Ppsmmt_,, S0B0Token: najmlajše_,, S0B1Lemma: mlad_se, S0B1LemmaPOS: mlad_Zp------k, S0B1POS: Ppsmmt_Zp------k, S0B1POSLemma: Ppsmmt_se, S0B1Token: najmlajše_se, S0Lemma: mlad, S0POS: Ppsmmt, S0Token: najmlajše, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: ugotoviti_,, S0B0LemmaPOS: ugotoviti_,, S0B0POS: Ggdspm_,, S0B0POSLemma: Ggdspm_,, S0B0Token: ugotovimo_,, S0B1Lemma: ugotoviti_da, S0B1LemmaPOS: ugotoviti_Vd, S0B1POS: Ggdspm_Vd, S0B1POSLemma: Ggdspm_da, S0B1Token: ugotovimo_da, S0Lemma: ugotoviti, S0POS: Ggdspm, S0Token: ugotovimo, transitionHistoryLength3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, se, nam ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, da, se ,.. ]
 
 B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [se, nam, zdijo ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [da, se, nam ,.. ]
 
-B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: ,_se, S0B0LemmaPOS: ,_Zp------k, S0B0POS: ,_Zp------k, S0B0POSLemma: ,_se, S0B0Token: ,_se, S0B1Lemma: ,_jaz, S0B1LemmaPOS: ,_Zop-md, S0B1POS: ,_Zop-md, S0B1POSLemma: ,_jaz, S0B1Token: ,_nam, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: da, B0POS: Vd, B0Token: da, S0B0Lemma: ,_da, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_da, S0B0Token: ,_da, S0B1Lemma: ,_se, S0B1LemmaPOS: ,_Zp------k, S0B1POS: ,_Zp------k, S0B1POSLemma: ,_se, S0B1Token: ,_se, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, nam, zdijo ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, se, nam ,.. ]
 
-B0Lemma: se, B0POS: Zp------k, B0Token: se, transitionHistoryLength3: 020, 
+B0Lemma: da, B0POS: Vd, B0Token: da, transitionHistoryLength3: 020, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [nam, zdijo, postranske ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [se, nam, ne ,.. ]
 
-B0Lemma: jaz, B0POS: Zop-md, B0Token: nam, S0B0Lemma: se_jaz, S0B0LemmaPOS: se_Zop-md, S0B0POS: Zp------k_Zop-md, S0B0POSLemma: Zp------k_jaz, S0B0Token: se_nam, S0B1Lemma: se_zdeti, S0B1LemmaPOS: se_Ggnstm, S0B1POS: Zp------k_Ggnstm, S0B1POSLemma: Zp------k_zdeti, S0B1Token: se_zdijo, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: da_se, S0B0LemmaPOS: da_Zp------k, S0B0POS: Vd_Zp------k, S0B0POSLemma: Vd_se, S0B0Token: da_se, S0B1Lemma: da_jaz, S0B1LemmaPOS: da_Zop-md, S0B1POS: Vd_Zop-md, S0B1POSLemma: Vd_jaz, S0B1Token: da_nam, S0Lemma: da, S0POS: Vd, S0Token: da, transitionHistoryLength3: 202, 
 
-14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, nam]   B= [zdijo, postranske, , ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, nam, ne ,.. ]
 
-B0Lemma: zdeti, B0POS: Ggnstm, B0Token: zdijo, S0B0Lemma: jaz_zdeti, S0B0LemmaPOS: jaz_Ggnstm, S0B0POS: Zop-md_Ggnstm, S0B0POSLemma: Zop-md_zdeti, S0B0Token: nam_zdijo, S0B1Lemma: jaz_postranski, S0B1LemmaPOS: jaz_Ppnzmi, S0B1POS: Zop-md_Ppnzmi, S0B1POSLemma: Zop-md_postranski, S0B1Token: nam_postranske, S0Lemma: jaz, S0POS: Zop-md, S0Token: nam, S1B0Lemma: se_zdeti, S1B0LemmaPOS: se_Ggnstm, S1B0POS: Zp------k_Ggnstm, S1B0POSLemma: Zp------k_zdeti, S1B0Token: se_zdijo, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_jaz, S1S0LemmaPOS: se_Zop-md, S1S0POS: Zp------k_Zop-md, S1S0POSLemma: Zp------k_jaz, S1S0Token: se_nam, S1Token: se, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp------k, B0Token: se, transitionHistoryLength3: 020, 
 
-15- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [zdijo, postranske, , ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [nam, ne, splača ,.. ]
 
-B0Lemma: zdeti, B0POS: Ggnstm, B0Token: zdijo, S0B0Lemma: se_zdeti, S0B0LemmaPOS: se_Ggnstm, S0B0POS: Zp------k_Ggnstm, S0B0POSLemma: Zp------k_zdeti, S0B0Token: se_zdijo, S0B1Lemma: se_postranski, S0B1LemmaPOS: se_Ppnzmi, S0B1POS: Zp------k_Ppnzmi, S0B1POSLemma: Zp------k_postranski, S0B1Token: se_postranske, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 002, 
+B0Lemma: jaz, B0POS: Zop-md, B0Token: nam, S0B0Lemma: se_jaz, S0B0LemmaPOS: se_Zop-md, S0B0POS: Zp------k_Zop-md, S0B0POSLemma: Zp------k_jaz, S0B0Token: se_nam, S0B1Lemma: se_ne, S0B1LemmaPOS: se_L, S0B1POS: Zp------k_L, S0B1POSLemma: Zp------k_ne, S0B1Token: se_ne, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 202, 
 
-16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, zdijo]   B= [postranske, ,, nepomembne ,.. ]
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, nam]   B= [ne, splača, delati ,.. ]
 
-B0Lemma: postranski, B0POS: Ppnzmi, B0Token: postranske, S0B0Lemma: zdeti_postranski, S0B0LemmaPOS: zdeti_Ppnzmi, S0B0POS: Ggnstm_Ppnzmi, S0B0POSLemma: Ggnstm_postranski, S0B0Token: zdijo_postranske, S0B1Lemma: zdeti_,, S0B1LemmaPOS: zdeti_,, S0B1POS: Ggnstm_,, S0B1POSLemma: Ggnstm_,, S0B1Token: zdijo_,, S0Lemma: zdeti, S0POS: Ggnstm, S0Token: zdijo, S1B0Lemma: se_postranski, S1B0LemmaPOS: se_Ppnzmi, S1B0POS: Zp------k_Ppnzmi, S1B0POSLemma: Zp------k_postranski, S1B0Token: se_postranske, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_zdeti, S1S0LemmaPOS: se_Ggnstm, S1S0POS: Zp------k_Ggnstm, S1S0POSLemma: Zp------k_zdeti, S1S0Token: se_zdijo, S1Token: se, transitionHistoryLength3: 200, 
+B0IsInLexic: true, B0Lemma: ne, B0POS: L, B0Token: ne, S0B0Lemma: jaz_ne, S0B0LemmaPOS: jaz_L, S0B0POS: Zop-md_L, S0B0POSLemma: Zop-md_ne, S0B0Token: nam_ne, S0B1Lemma: jaz_splačati, S0B1LemmaPOS: jaz_Ggvste, S0B1POS: Zop-md_Ggvste, S0B1POSLemma: Zop-md_splačati, S0B1Token: nam_splača, S0Lemma: jaz, S0POS: Zop-md, S0Token: nam, S1B0Lemma: se_ne, S1B0LemmaPOS: se_L, S1B0POS: Zp------k_L, S1B0POSLemma: Zp------k_ne, S1B0Token: se_ne, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_jaz, S1S0LemmaPOS: se_Zop-md, S1S0POS: Zp------k_Zop-md, S1S0POSLemma: Zp------k_jaz, S1S0Token: se_nam, S1Token: se, transitionHistoryLength3: 020, 
 
-17- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, zdijo]]   B= [postranske, ,, nepomembne ,.. ]
+17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [ne, splača, delati ,.. ]
 
-B0Lemma: postranski, B0POS: Ppnzmi, B0Token: postranske, S0B0Lemma: se_zdeti_postranski, S0B0LemmaPOS: se_zdeti_Ppnzmi, S0B0POS: Zp------k_Ggnstm_Ppnzmi, S0B0POSLemma: Zp------k_Ggnstm_postranski, S0B0Token: se_zdijo_postranske, S0B1Lemma: se_zdeti_,, S0B1LemmaPOS: se_zdeti_,, S0B1POS: Zp------k_Ggnstm_,, S0B1POSLemma: Zp------k_Ggnstm_,, S0B1Token: se_zdijo_,, S0Lemma: se_zdeti, S0POS: Zp------k_Ggnstm, S0Token: se_zdijo, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: ne, B0POS: L, B0Token: ne, S0B0Lemma: se_ne, S0B0LemmaPOS: se_L, S0B0POS: Zp------k_L, S0B0POSLemma: Zp------k_ne, S0B0Token: se_ne, S0B1Lemma: se_splačati, S0B1LemmaPOS: se_Ggvste, S0B1POS: Zp------k_Ggvste, S0B1POSLemma: Zp------k_splačati, S0B1Token: se_splača, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 002, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [postranske, ,, nepomembne ,.. ]
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, ne]   B= [splača, delati, , ,.. ]
 
-B0Lemma: postranski, B0POS: Ppnzmi, B0Token: postranske, transitionHistoryLength3: 102, 
+B0IsInLexic: true, B0Lemma: splačati, B0POS: Ggvste, B0Token: splača, S0B0Lemma: ne_splačati, S0B0LemmaPOS: ne_Ggvste, S0B0POS: L_Ggvste, S0B0POSLemma: L_splačati, S0B0Token: ne_splača, S0B1Lemma: ne_delati, S0B1LemmaPOS: ne_Ggnn, S0B1POS: L_Ggnn, S0B1POSLemma: L_delati, S0B1Token: ne_delati, S0IsInLexic: true, S0Lemma: ne, S0POS: L, S0Token: ne, S1B0Lemma: se_splačati, S1B0LemmaPOS: se_Ggvste, S1B0POS: Zp------k_Ggvste, S1B0POSLemma: Zp------k_splačati, S1B0Token: se_splača, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_ne, S1S0LemmaPOS: se_L, S1S0POS: Zp------k_L, S1S0POSLemma: Zp------k_ne, S1S0Token: se_ne, S1Token: se, transitionHistoryLength3: 200, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [postranske]   B= [,, nepomembne, , ,.. ]
+19- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [splača, delati, , ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: postranski_,, S0B0LemmaPOS: postranski_,, S0B0POS: Ppnzmi_,, S0B0POSLemma: Ppnzmi_,, S0B0Token: postranske_,, S0B1Lemma: postranski_nepomemben, S0B1LemmaPOS: postranski_Ppnzmi, S0B1POS: Ppnzmi_Ppnzmi, S0B1POSLemma: Ppnzmi_nepomemben, S0B1Token: postranske_nepomembne, S0Lemma: postranski, S0POS: Ppnzmi, S0Token: postranske, transitionHistoryLength3: 210, 
+B0IsInLexic: true, B0Lemma: splačati, B0POS: Ggvste, B0Token: splača, S0B0Lemma: se_splačati, S0B0LemmaPOS: se_Ggvste, S0B0POS: Zp------k_Ggvste, S0B0POSLemma: Zp------k_splačati, S0B0Token: se_splača, S0B1Lemma: se_delati, S0B1LemmaPOS: se_Ggnn, S0B1POS: Zp------k_Ggnn, S0B1POSLemma: Zp------k_delati, S0B1Token: se_delati, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 020, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, nepomembne, , ,.. ]
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, splača]   B= [delati, ,, kajti ,.. ]
+
+B0IsInLexic: true, B0Lemma: delati, B0POS: Ggnn, B0Token: delati, S0B0Lemma: splačati_delati, S0B0LemmaPOS: splačati_Ggnn, S0B0POS: Ggvste_Ggnn, S0B0POSLemma: Ggvste_delati, S0B0Token: splača_delati, S0B1Lemma: splačati_,, S0B1LemmaPOS: splačati_,, S0B1POS: Ggvste_,, S0B1POSLemma: Ggvste_,, S0B1Token: splača_,, S0IsInLexic: true, S0Lemma: splačati, S0POS: Ggvste, S0Token: splača, S1B0Lemma: se_delati, S1B0LemmaPOS: se_Ggnn, S1B0POS: Zp------k_Ggnn, S1B0POSLemma: Zp------k_delati, S1B0Token: se_delati, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_splačati, S1S0LemmaPOS: se_Ggvste, S1S0POS: Zp------k_Ggvste, S1S0POSLemma: Zp------k_splačati, S1S0Token: se_splača, S1Token: se, transitionHistoryLength3: 202, 
+
+21- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, splača]]   B= [delati, ,, kajti ,.. ]
+
+B0IsInLexic: true, B0Lemma: delati, B0POS: Ggnn, B0Token: delati, S0B0Lemma: se_splačati_delati, S0B0LemmaPOS: se_splačati_Ggnn, S0B0POS: Zp------k_Ggvste_Ggnn, S0B0POSLemma: Zp------k_Ggvste_delati, S0B0Token: se_splača_delati, S0B1Lemma: se_splačati_,, S0B1LemmaPOS: se_splačati_,, S0B1POS: Zp------k_Ggvste_,, S0B1POSLemma: Zp------k_Ggvste_,, S0B1Token: se_splača_,, S0Lemma: se_splačati, S0POS: Zp------k_Ggvste, S0Token: se_splača, transitionHistoryLength3: 020, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [delati, ,, kajti ,.. ]
+
+B0IsInLexic: true, B0Lemma: delati, B0POS: Ggnn, B0Token: delati, transitionHistoryLength3: 102, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [delati]   B= [,, kajti, kot ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: delati_,, S0B0LemmaPOS: delati_,, S0B0POS: Ggnn_,, S0B0POSLemma: Ggnn_,, S0B0Token: delati_,, S0B1Lemma: delati_kajti, S0B1LemmaPOS: delati_Vp, S0B1POS: Ggnn_Vp, S0B1POSLemma: Ggnn_kajti, S0B1Token: delati_kajti, S0IsInLexic: true, S0Lemma: delati, S0POS: Ggnn, S0Token: delati, transitionHistoryLength3: 210, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kajti, kot ,.. ]
 
 B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 021, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [nepomembne, ,, zanemarljive ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kajti, kot, državni ,.. ]
 
-B0Lemma: nepomemben, B0POS: Ppnzmi, B0Token: nepomembne, S0B0Lemma: ,_nepomemben, S0B0LemmaPOS: ,_Ppnzmi, S0B0POS: ,_Ppnzmi, S0B0POSLemma: ,_nepomemben, S0B0Token: ,_nepomembne, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_,, S0B1POS: ,_,, S0B1POSLemma: ,_,, S0B1Token: ,_,, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: kajti, B0POS: Vp, B0Token: kajti, S0B0Lemma: ,_kajti, S0B0LemmaPOS: ,_Vp, S0B0POS: ,_Vp, S0B0POSLemma: ,_kajti, S0B0Token: ,_kajti, S0B1Lemma: ,_kot, S0B1LemmaPOS: ,_Vd, S0B1POS: ,_Vd, S0B1POSLemma: ,_kot, S0B1Token: ,_kot, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nepomembne, ,, zanemarljive ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kajti, kot, državni ,.. ]
 
-B0Lemma: nepomemben, B0POS: Ppnzmi, B0Token: nepomembne, transitionHistoryLength3: 020, 
+B0Lemma: kajti, B0POS: Vp, B0Token: kajti, transitionHistoryLength3: 020, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nepomembne]   B= [,, zanemarljive, , ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kajti]   B= [kot, državni, prvaki ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: nepomemben_,, S0B0LemmaPOS: nepomemben_,, S0B0POS: Ppnzmi_,, S0B0POSLemma: Ppnzmi_,, S0B0Token: nepomembne_,, S0B1Lemma: nepomemben_zanemarljiv, S0B1LemmaPOS: nepomemben_Ppnzmi, S0B1POS: Ppnzmi_Ppnzmi, S0B1POSLemma: Ppnzmi_zanemarljiv, S0B1Token: nepomembne_zanemarljive, S0Lemma: nepomemben, S0POS: Ppnzmi, S0Token: nepomembne, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: kot, B0POS: Vd, B0Token: kot, S0B0Lemma: kajti_kot, S0B0LemmaPOS: kajti_Vd, S0B0POS: Vp_Vd, S0B0POSLemma: Vp_kot, S0B0Token: kajti_kot, S0B1Lemma: kajti_državen, S0B1LemmaPOS: kajti_Ppnmmi, S0B1POS: Vp_Ppnmmi, S0B1POSLemma: Vp_državen, S0B1Token: kajti_državni, S0Lemma: kajti, S0POS: Vp, S0Token: kajti, transitionHistoryLength3: 202, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, zanemarljive, , ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kot, državni, prvaki ,.. ]
+
+B0IsInLexic: true, B0Lemma: kot, B0POS: Vd, B0Token: kot, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kot]   B= [državni, prvaki, plačujemo ,.. ]
+
+B0Lemma: državen, B0POS: Ppnmmi, B0Token: državni, S0B0Lemma: kot_državen, S0B0LemmaPOS: kot_Ppnmmi, S0B0POS: Vd_Ppnmmi, S0B0POSLemma: Vd_državen, S0B0Token: kot_državni, S0B1Lemma: kot_prvak, S0B1LemmaPOS: kot_Sommi, S0B1POS: Vd_Sommi, S0B1POSLemma: Vd_prvak, S0B1Token: kot_prvaki, S0IsInLexic: true, S0Lemma: kot, S0POS: Vd, S0Token: kot, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [državni, prvaki, plačujemo ,.. ]
+
+B0Lemma: državen, B0POS: Ppnmmi, B0Token: državni, transitionHistoryLength3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [državni]   B= [prvaki, plačujemo, ves ,.. ]
+
+B0Lemma: prvak, B0POS: Sommi, B0Token: prvaki, S0B0Lemma: državen_prvak, S0B0LemmaPOS: državen_Sommi, S0B0POS: Ppnmmi_Sommi, S0B0POSLemma: Ppnmmi_prvak, S0B0Token: državni_prvaki, S0B1Lemma: državen_plačevati, S0B1LemmaPOS: državen_Ggnspm, S0B1POS: Ppnmmi_Ggnspm, S0B1POSLemma: Ppnmmi_plačevati, S0B1Token: državni_plačujemo, S0Lemma: državen, S0POS: Ppnmmi, S0Token: državni, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prvaki, plačujemo, ves ,.. ]
+
+B0Lemma: prvak, B0POS: Sommi, B0Token: prvaki, transitionHistoryLength3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prvaki]   B= [plačujemo, ves, mladinski ,.. ]
+
+B0IsInLexic: true, B0Lemma: plačevati, B0POS: Ggnspm, B0Token: plačujemo, S0B0Lemma: prvak_plačevati, S0B0LemmaPOS: prvak_Ggnspm, S0B0POS: Sommi_Ggnspm, S0B0POSLemma: Sommi_plačevati, S0B0Token: prvaki_plačujemo, S0B1Lemma: prvak_ves, S0B1LemmaPOS: prvak_Zc-met, S0B1POS: Sommi_Zc-met, S0B1POSLemma: Sommi_ves, S0B1Token: prvaki_ves, S0Lemma: prvak, S0POS: Sommi, S0Token: prvaki, transitionHistoryLength3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [plačujemo, ves, mladinski ,.. ]
+
+B0IsInLexic: true, B0Lemma: plačevati, B0POS: Ggnspm, B0Token: plačujemo, transitionHistoryLength3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [plačujemo]   B= [ves, mladinski, in ,.. ]
+
+B0IsInLexic: true, B0Lemma: ves, B0POS: Zc-met, B0Token: ves, S0B0Lemma: plačevati_ves, S0B0LemmaPOS: plačevati_Zc-met, S0B0POS: Ggnspm_Zc-met, S0B0POSLemma: Ggnspm_ves, S0B0Token: plačujemo_ves, S0B1Lemma: plačevati_mladinski, S0B1LemmaPOS: plačevati_Ppnmetd, S0B1POS: Ggnspm_Ppnmetd, S0B1POSLemma: Ggnspm_mladinski, S0B1Token: plačujemo_mladinski, S0IsInLexic: true, S0Lemma: plačevati, S0POS: Ggnspm, S0Token: plačujemo, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ves, mladinski, in ,.. ]
+
+B0IsInLexic: true, B0Lemma: ves, B0POS: Zc-met, B0Token: ves, transitionHistoryLength3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ves]   B= [mladinski, in, članski ,.. ]
+
+B0Lemma: mladinski, B0POS: Ppnmetd, B0Token: mladinski, S0B0Lemma: ves_mladinski, S0B0LemmaPOS: ves_Ppnmetd, S0B0POS: Zc-met_Ppnmetd, S0B0POSLemma: Zc-met_mladinski, S0B0Token: ves_mladinski, S0B1Lemma: ves_in, S0B1LemmaPOS: ves_Vp, S0B1POS: Zc-met_Vp, S0B1POSLemma: Zc-met_in, S0B1Token: ves_in, S0IsInLexic: true, S0Lemma: ves, S0POS: Zc-met, S0Token: ves, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mladinski, in, članski ,.. ]
+
+B0Lemma: mladinski, B0POS: Ppnmetd, B0Token: mladinski, transitionHistoryLength3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mladinski]   B= [in, članski, pogon ,.. ]
+
+B0IsInLexic: true, B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: mladinski_in, S0B0LemmaPOS: mladinski_Vp, S0B0POS: Ppnmetd_Vp, S0B0POSLemma: Ppnmetd_in, S0B0Token: mladinski_in, S0B1Lemma: mladinski_članski, S0B1LemmaPOS: mladinski_Ppnmetd, S0B1POS: Ppnmetd_Ppnmetd, S0B1POSLemma: Ppnmetd_članski, S0B1Token: mladinski_članski, S0Lemma: mladinski, S0POS: Ppnmetd, S0Token: mladinski, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, članski, pogon ,.. ]
+
+B0IsInLexic: true, B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [članski, pogon, . ,.. ]
+
+B0Lemma: članski, B0POS: Ppnmetd, B0Token: članski, S0B0Lemma: in_članski, S0B0LemmaPOS: in_Ppnmetd, S0B0POS: Vp_Ppnmetd, S0B0POSLemma: Vp_članski, S0B0Token: in_članski, S0B1Lemma: in_pogon, S0B1LemmaPOS: in_Sometn, S0B1POS: Vp_Sometn, S0B1POSLemma: Vp_pogon, S0B1Token: in_pogon, S0IsInLexic: true, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [članski, pogon, . ,.. ]
+
+B0Lemma: članski, B0POS: Ppnmetd, B0Token: članski, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [članski]   B= [pogon, . ,.. ]
+
+B0Lemma: pogon, B0POS: Sometn, B0Token: pogon, S0B0Lemma: članski_pogon, S0B0LemmaPOS: članski_Sometn, S0B0POS: Ppnmetd_Sometn, S0B0POSLemma: Ppnmetd_pogon, S0B0Token: članski_pogon, S0B1Lemma: članski_., S0B1LemmaPOS: članski_., S0B1POS: Ppnmetd_., S0B1POSLemma: Ppnmetd_., S0B1Token: članski_., S0Lemma: članski, S0POS: Ppnmetd, S0Token: članski, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pogon, . ,.. ]
+
+B0Lemma: pogon, B0POS: Sometn, B0Token: pogon, transitionHistoryLength3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pogon]   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: pogon_., S0B0LemmaPOS: pogon_., S0B0POS: Sometn_., S0B0POSLemma: Sometn_., S0B0Token: pogon_., S0Lemma: pogon, S0POS: Sometn, S0Token: pogon, transitionHistoryLength3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength3: 020, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2121 - 
+Nismo proti zasebni lastnini in zdi se nam prav , da imajo nekateri več denarja , vendar si želimo več pravičnosti . 
+### Existing MWEs: 
+1- **Nismo proti** (LVC)
+2- **zdi se** (IReflV)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Nismo, proti, zasebni ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-spm-d, B0Token: Nismo, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Nismo]   B= [proti, zasebni, lastnini ,.. ]
+
+B0IsInLexic: true, B0Lemma: proti, B0POS: Dd, B0Token: proti, S0B0Lemma: biti_proti, S0B0LemmaPOS: biti_Dd, S0B0POS: Gp-spm-d_Dd, S0B0POSLemma: Gp-spm-d_proti, S0B0Token: Nismo_proti, S0B1Lemma: biti_zaseben, S0B1LemmaPOS: biti_Ppnzed, S0B1POS: Gp-spm-d_Ppnzed, S0B1POSLemma: Gp-spm-d_zaseben, S0B1Token: Nismo_zasebni, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-spm-d, S0Token: Nismo, 
+
+2- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Nismo, proti]   B= [zasebni, lastnini, in ,.. ]
+
+B0Lemma: zaseben, B0POS: Ppnzed, B0Token: zasebni, S0B0Lemma: proti_zaseben, S0B0LemmaPOS: proti_Ppnzed, S0B0POS: Dd_Ppnzed, S0B0POSLemma: Dd_zaseben, S0B0Token: proti_zasebni, S0B1Lemma: proti_lastnina, S0B1LemmaPOS: proti_Sozed, S0B1POS: Dd_Sozed, S0B1POSLemma: Dd_lastnina, S0B1Token: proti_lastnini, S0IsInLexic: true, S0Lemma: proti, S0POS: Dd, S0Token: proti, S1B0Lemma: biti_zaseben, S1B0LemmaPOS: biti_Ppnzed, S1B0POS: Gp-spm-d_Ppnzed, S1B0POSLemma: Gp-spm-d_zaseben, S1B0Token: Nismo_zasebni, S1IsInLexic: true, S1Lemma: biti, S1POS: Gp-spm-d, S1S0Lemma: biti_proti, S1S0LemmaPOS: biti_Dd, S1S0POS: Gp-spm-d_Dd, S1S0POSLemma: Gp-spm-d_proti, S1S0Token: Nismo_proti, S1Token: Nismo, 
+
+3- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[Nismo, proti]]   B= [zasebni, lastnini, in ,.. ]
+
+B0Lemma: zaseben, B0POS: Ppnzed, B0Token: zasebni, S0B0Lemma: biti_proti_zaseben, S0B0LemmaPOS: biti_proti_Ppnzed, S0B0POS: Gp-spm-d_Dd_Ppnzed, S0B0POSLemma: Gp-spm-d_Dd_zaseben, S0B0Token: Nismo_proti_zasebni, S0B1Lemma: biti_proti_lastnina, S0B1LemmaPOS: biti_proti_Sozed, S0B1POS: Gp-spm-d_Dd_Sozed, S0B1POSLemma: Gp-spm-d_Dd_lastnina, S0B1Token: Nismo_proti_lastnini, S0Lemma: biti_proti, S0POS: Gp-spm-d_Dd, S0Token: Nismo_proti, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zasebni, lastnini, in ,.. ]
+
+B0Lemma: zaseben, B0POS: Ppnzed, B0Token: zasebni, transitionHistoryLength3: 100, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zasebni]   B= [lastnini, in, zdi ,.. ]
+
+B0Lemma: lastnina, B0POS: Sozed, B0Token: lastnini, S0B0Lemma: zaseben_lastnina, S0B0LemmaPOS: zaseben_Sozed, S0B0POS: Ppnzed_Sozed, S0B0POSLemma: Ppnzed_lastnina, S0B0Token: zasebni_lastnini, S0B1Lemma: zaseben_in, S0B1LemmaPOS: zaseben_Vp, S0B1POS: Ppnzed_Vp, S0B1POSLemma: Ppnzed_in, S0B1Token: zasebni_in, S0Lemma: zaseben, S0POS: Ppnzed, S0Token: zasebni, transitionHistoryLength3: 210, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lastnini, in, zdi ,.. ]
+
+B0Lemma: lastnina, B0POS: Sozed, B0Token: lastnini, transitionHistoryLength3: 021, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lastnini]   B= [in, zdi, se ,.. ]
+
+B0IsInLexic: true, B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: lastnina_in, S0B0LemmaPOS: lastnina_Vp, S0B0POS: Sozed_Vp, S0B0POSLemma: Sozed_in, S0B0Token: lastnini_in, S0B1Lemma: lastnina_zdeti, S0B1LemmaPOS: lastnina_Ggnste, S0B1POS: Sozed_Ggnste, S0B1POSLemma: Sozed_zdeti, S0B1Token: lastnini_zdi, S0Lemma: lastnina, S0POS: Sozed, S0Token: lastnini, transitionHistoryLength3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, zdi, se ,.. ]
+
+B0IsInLexic: true, B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [zdi, se, nam ,.. ]
+
+B0IsInLexic: true, B0Lemma: zdeti, B0POS: Ggnste, B0Token: zdi, S0B0Lemma: in_zdeti, S0B0LemmaPOS: in_Ggnste, S0B0POS: Vp_Ggnste, S0B0POSLemma: Vp_zdeti, S0B0Token: in_zdi, S0B1Lemma: in_se, S0B1LemmaPOS: in_Zp------k, S0B1POS: Vp_Zp------k, S0B1POSLemma: Vp_se, S0B1Token: in_se, S0IsInLexic: true, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zdi, se, nam ,.. ]
+
+B0IsInLexic: true, B0Lemma: zdeti, B0POS: Ggnste, B0Token: zdi, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zdi]   B= [se, nam, prav ,.. ]
+
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: zdeti_se, S0B0LemmaPOS: zdeti_Zp------k, S0B0POS: Ggnste_Zp------k, S0B0POSLemma: Ggnste_se, S0B0Token: zdi_se, S0B1Lemma: zdeti_jaz, S0B1LemmaPOS: zdeti_Zop-md, S0B1POS: Ggnste_Zop-md, S0B1POSLemma: Ggnste_jaz, S0B1Token: zdi_nam, S0IsInLexic: true, S0Lemma: zdeti, S0POS: Ggnste, S0Token: zdi, transitionHistoryLength3: 202, 
+
+12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zdi, se]   B= [nam, prav, , ,.. ]
+
+B0Lemma: jaz, B0POS: Zop-md, B0Token: nam, S0B0Lemma: se_jaz, S0B0LemmaPOS: se_Zop-md, S0B0POS: Zp------k_Zop-md, S0B0POSLemma: Zp------k_jaz, S0B0Token: se_nam, S0B1Lemma: se_prav, S0B1LemmaPOS: se_Rsn, S0B1POS: Zp------k_Rsn, S0B1POSLemma: Zp------k_prav, S0B1Token: se_prav, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, S1B0Lemma: zdeti_jaz, S1B0LemmaPOS: zdeti_Zop-md, S1B0POS: Ggnste_Zop-md, S1B0POSLemma: Ggnste_jaz, S1B0Token: zdi_nam, S1IsInLexic: true, S1Lemma: zdeti, S1POS: Ggnste, S1S0Lemma: zdeti_se, S1S0LemmaPOS: zdeti_Zp------k, S1S0POS: Ggnste_Zp------k, S1S0POSLemma: Ggnste_se, S1S0Token: zdi_se, S1Token: zdi, transitionHistoryLength3: 020, 
+
+13- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[zdi, se]]   B= [nam, prav, , ,.. ]
+
+B0Lemma: jaz, B0POS: Zop-md, B0Token: nam, S0B0Lemma: zdeti_se_jaz, S0B0LemmaPOS: zdeti_se_Zop-md, S0B0POS: Ggnste_Zp------k_Zop-md, S0B0POSLemma: Ggnste_Zp------k_jaz, S0B0Token: zdi_se_nam, S0B1Lemma: zdeti_se_prav, S0B1LemmaPOS: zdeti_se_Rsn, S0B1POS: Ggnste_Zp------k_Rsn, S0B1POSLemma: Ggnste_Zp------k_prav, S0B1Token: zdi_se_prav, S0Lemma: zdeti_se, S0POS: Ggnste_Zp------k, S0Token: zdi_se, transitionHistoryLength3: 002, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nam, prav, , ,.. ]
+
+B0Lemma: jaz, B0POS: Zop-md, B0Token: nam, transitionHistoryLength3: 100, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nam]   B= [prav, ,, da ,.. ]
+
+B0IsInLexic: true, B0Lemma: prav, B0POS: Rsn, B0Token: prav, S0B0Lemma: jaz_prav, S0B0LemmaPOS: jaz_Rsn, S0B0POS: Zop-md_Rsn, S0B0POSLemma: Zop-md_prav, S0B0Token: nam_prav, S0B1Lemma: jaz_,, S0B1LemmaPOS: jaz_,, S0B1POS: Zop-md_,, S0B1POSLemma: Zop-md_,, S0B1Token: nam_,, S0Lemma: jaz, S0POS: Zop-md, S0Token: nam, transitionHistoryLength3: 210, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prav, ,, da ,.. ]
+
+B0IsInLexic: true, B0Lemma: prav, B0POS: Rsn, B0Token: prav, transitionHistoryLength3: 021, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prav]   B= [,, da, imajo ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: prav_,, S0B0LemmaPOS: prav_,, S0B0POS: Rsn_,, S0B0POSLemma: Rsn_,, S0B0Token: prav_,, S0B1Lemma: prav_da, S0B1LemmaPOS: prav_Vd, S0B1POS: Rsn_Vd, S0B1POSLemma: Rsn_da, S0B1Token: prav_da, S0IsInLexic: true, S0Lemma: prav, S0POS: Rsn, S0Token: prav, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, da, imajo ,.. ]
 
 B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [zanemarljive, ,, pozabljamo ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [da, imajo, nekateri ,.. ]
 
-B0Lemma: zanemarljiv, B0POS: Ppnzmi, B0Token: zanemarljive, S0B0Lemma: ,_zanemarljiv, S0B0LemmaPOS: ,_Ppnzmi, S0B0POS: ,_Ppnzmi, S0B0POSLemma: ,_zanemarljiv, S0B0Token: ,_zanemarljive, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_,, S0B1POS: ,_,, S0B1POSLemma: ,_,, S0B1Token: ,_,, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: da, B0POS: Vd, B0Token: da, S0B0Lemma: ,_da, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_da, S0B0Token: ,_da, S0B1Lemma: ,_imeti, S0B1LemmaPOS: ,_Ggnstm-n, S0B1POS: ,_Ggnstm-n, S0B1POSLemma: ,_imeti, S0B1Token: ,_imajo, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zanemarljive, ,, pozabljamo ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, imajo, nekateri ,.. ]
 
-B0Lemma: zanemarljiv, B0POS: Ppnzmi, B0Token: zanemarljive, transitionHistoryLength3: 020, 
+B0Lemma: da, B0POS: Vd, B0Token: da, transitionHistoryLength3: 020, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zanemarljive]   B= [,, pozabljamo, pa ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [imajo, nekateri, več ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: zanemarljiv_,, S0B0LemmaPOS: zanemarljiv_,, S0B0POS: Ppnzmi_,, S0B0POSLemma: Ppnzmi_,, S0B0Token: zanemarljive_,, S0B1Lemma: zanemarljiv_pozabljati, S0B1LemmaPOS: zanemarljiv_Ggnspm, S0B1POS: Ppnzmi_Ggnspm, S0B1POSLemma: Ppnzmi_pozabljati, S0B1Token: zanemarljive_pozabljamo, S0Lemma: zanemarljiv, S0POS: Ppnzmi, S0Token: zanemarljive, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: imeti, B0POS: Ggnstm-n, B0Token: imajo, S0B0Lemma: da_imeti, S0B0LemmaPOS: da_Ggnstm-n, S0B0POS: Vd_Ggnstm-n, S0B0POSLemma: Vd_imeti, S0B0Token: da_imajo, S0B1Lemma: da_nekateri, S0B1LemmaPOS: da_Zn-mmi, S0B1POS: Vd_Zn-mmi, S0B1POSLemma: Vd_nekateri, S0B1Token: da_nekateri, S0Lemma: da, S0POS: Vd, S0Token: da, transitionHistoryLength3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pozabljamo, pa ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [imajo, nekateri, več ,.. ]
+
+B0IsInLexic: true, B0Lemma: imeti, B0POS: Ggnstm-n, B0Token: imajo, transitionHistoryLength3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [imajo]   B= [nekateri, več, denarja ,.. ]
+
+B0Lemma: nekateri, B0POS: Zn-mmi, B0Token: nekateri, S0B0Lemma: imeti_nekateri, S0B0LemmaPOS: imeti_Zn-mmi, S0B0POS: Ggnstm-n_Zn-mmi, S0B0POSLemma: Ggnstm-n_nekateri, S0B0Token: imajo_nekateri, S0B1Lemma: imeti_več, S0B1LemmaPOS: imeti_Rsr, S0B1POS: Ggnstm-n_Rsr, S0B1POSLemma: Ggnstm-n_več, S0B1Token: imajo_več, S0IsInLexic: true, S0Lemma: imeti, S0POS: Ggnstm-n, S0Token: imajo, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nekateri, več, denarja ,.. ]
+
+B0Lemma: nekateri, B0POS: Zn-mmi, B0Token: nekateri, transitionHistoryLength3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nekateri]   B= [več, denarja, , ,.. ]
+
+B0Lemma: več, B0POS: Rsr, B0Token: več, S0B0Lemma: nekateri_več, S0B0LemmaPOS: nekateri_Rsr, S0B0POS: Zn-mmi_Rsr, S0B0POSLemma: Zn-mmi_več, S0B0Token: nekateri_več, S0B1Lemma: nekateri_denar, S0B1LemmaPOS: nekateri_Somer, S0B1POS: Zn-mmi_Somer, S0B1POSLemma: Zn-mmi_denar, S0B1Token: nekateri_denarja, S0Lemma: nekateri, S0POS: Zn-mmi, S0Token: nekateri, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [več, denarja, , ,.. ]
+
+B0Lemma: več, B0POS: Rsr, B0Token: več, transitionHistoryLength3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [več]   B= [denarja, ,, vendar ,.. ]
+
+B0Lemma: denar, B0POS: Somer, B0Token: denarja, S0B0Lemma: več_denar, S0B0LemmaPOS: več_Somer, S0B0POS: Rsr_Somer, S0B0POSLemma: Rsr_denar, S0B0Token: več_denarja, S0B1Lemma: več_,, S0B1LemmaPOS: več_,, S0B1POS: Rsr_,, S0B1POSLemma: Rsr_,, S0B1Token: več_,, S0Lemma: več, S0POS: Rsr, S0Token: več, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [denarja, ,, vendar ,.. ]
+
+B0Lemma: denar, B0POS: Somer, B0Token: denarja, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [denarja]   B= [,, vendar, si ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: denar_,, S0B0LemmaPOS: denar_,, S0B0POS: Somer_,, S0B0POSLemma: Somer_,, S0B0Token: denarja_,, S0B1Lemma: denar_vendar, S0B1LemmaPOS: denar_Vp, S0B1POS: Somer_Vp, S0B1POSLemma: Somer_vendar, S0B1Token: denarja_vendar, S0Lemma: denar, S0POS: Somer, S0Token: denarja, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, vendar, si ,.. ]
 
 B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pozabljamo, pa, , ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [vendar, si, želimo ,.. ]
 
-B0Lemma: pozabljati, B0POS: Ggnspm, B0Token: pozabljamo, S0B0Lemma: ,_pozabljati, S0B0LemmaPOS: ,_Ggnspm, S0B0POS: ,_Ggnspm, S0B0POSLemma: ,_pozabljati, S0B0Token: ,_pozabljamo, S0B1Lemma: ,_pa, S0B1LemmaPOS: ,_Vp, S0B1POS: ,_Vp, S0B1POSLemma: ,_pa, S0B1Token: ,_pa, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: vendar, B0POS: Vp, B0Token: vendar, S0B0Lemma: ,_vendar, S0B0LemmaPOS: ,_Vp, S0B0POS: ,_Vp, S0B0POSLemma: ,_vendar, S0B0Token: ,_vendar, S0B1Lemma: ,_se, S0B1LemmaPOS: ,_Zp---d--k, S0B1POS: ,_Zp---d--k, S0B1POSLemma: ,_se, S0B1Token: ,_si, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pozabljamo, pa, , ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vendar, si, želimo ,.. ]
 
-B0Lemma: pozabljati, B0POS: Ggnspm, B0Token: pozabljamo, transitionHistoryLength3: 020, 
+B0Lemma: vendar, B0POS: Vp, B0Token: vendar, transitionHistoryLength3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pozabljamo]   B= [pa, ,, kakšne ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vendar]   B= [si, želimo, več ,.. ]
 
-B0Lemma: pa, B0POS: Vp, B0Token: pa, S0B0Lemma: pozabljati_pa, S0B0LemmaPOS: pozabljati_Vp, S0B0POS: Ggnspm_Vp, S0B0POSLemma: Ggnspm_pa, S0B0Token: pozabljamo_pa, S0B1Lemma: pozabljati_,, S0B1LemmaPOS: pozabljati_,, S0B1POS: Ggnspm_,, S0B1POSLemma: Ggnspm_,, S0B1Token: pozabljamo_,, S0Lemma: pozabljati, S0POS: Ggnspm, S0Token: pozabljamo, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp---d--k, B0Token: si, S0B0Lemma: vendar_se, S0B0LemmaPOS: vendar_Zp---d--k, S0B0POS: Vp_Zp---d--k, S0B0POSLemma: Vp_se, S0B0Token: vendar_si, S0B1Lemma: vendar_želeti, S0B1LemmaPOS: vendar_Ggnspm, S0B1POS: Vp_Ggnspm, S0B1POSLemma: Vp_želeti, S0B1Token: vendar_želimo, S0Lemma: vendar, S0POS: Vp, S0Token: vendar, transitionHistoryLength3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pa, ,, kakšne ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, želimo, več ,.. ]
 
-B0Lemma: pa, B0POS: Vp, B0Token: pa, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp---d--k, B0Token: si, transitionHistoryLength3: 020, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pa]   B= [,, kakšne, so ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [želimo, več, pravičnosti ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: pa_,, S0B0LemmaPOS: pa_,, S0B0POS: Vp_,, S0B0POSLemma: Vp_,, S0B0Token: pa_,, S0B1Lemma: pa_kakšen, S0B1LemmaPOS: pa_Zv-zmi, S0B1POS: Vp_Zv-zmi, S0B1POSLemma: Vp_kakšen, S0B1Token: pa_kakšne, S0Lemma: pa, S0POS: Vp, S0Token: pa, transitionHistoryLength3: 202, 
+B0Lemma: želeti, B0POS: Ggnspm, B0Token: želimo, S0B0Lemma: se_želeti, S0B0LemmaPOS: se_Ggnspm, S0B0POS: Zp---d--k_Ggnspm, S0B0POSLemma: Zp---d--k_želeti, S0B0Token: si_želimo, S0B1Lemma: se_več, S0B1LemmaPOS: se_Rsr, S0B1POS: Zp---d--k_Rsr, S0B1POSLemma: Zp---d--k_več, S0B1Token: si_več, S0IsInLexic: true, S0Lemma: se, S0POS: Zp---d--k, S0Token: si, transitionHistoryLength3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kakšne, so ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [želimo, več, pravičnosti ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: želeti, B0POS: Ggnspm, B0Token: želimo, transitionHistoryLength3: 020, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kakšne, so, se ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [želimo]   B= [več, pravičnosti, . ,.. ]
 
-B0Lemma: kakšen, B0POS: Zv-zmi, B0Token: kakšne, S0B0Lemma: ,_kakšen, S0B0LemmaPOS: ,_Zv-zmi, S0B0POS: ,_Zv-zmi, S0B0POSLemma: ,_kakšen, S0B0Token: ,_kakšne, S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-stm-n, S0B1POS: ,_Gp-stm-n, S0B1POSLemma: ,_biti, S0B1Token: ,_so, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: več, B0POS: Rsr, B0Token: več, S0B0Lemma: želeti_več, S0B0LemmaPOS: želeti_Rsr, S0B0POS: Ggnspm_Rsr, S0B0POSLemma: Ggnspm_več, S0B0Token: želimo_več, S0B1Lemma: želeti_pravičnost, S0B1LemmaPOS: želeti_Sozer, S0B1POS: Ggnspm_Sozer, S0B1POSLemma: Ggnspm_pravičnost, S0B1Token: želimo_pravičnosti, S0Lemma: želeti, S0POS: Ggnspm, S0Token: želimo, transitionHistoryLength3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kakšne, so, se ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [več, pravičnosti, . ,.. ]
 
-B0Lemma: kakšen, B0POS: Zv-zmi, B0Token: kakšne, transitionHistoryLength3: 020, 
+B0Lemma: več, B0POS: Rsr, B0Token: več, transitionHistoryLength3: 020, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kakšne]   B= [so, se, nam ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [več]   B= [pravičnosti, . ,.. ]
 
-B0Lemma: biti, B0POS: Gp-stm-n, B0Token: so, S0B0Lemma: kakšen_biti, S0B0LemmaPOS: kakšen_Gp-stm-n, S0B0POS: Zv-zmi_Gp-stm-n, S0B0POSLemma: Zv-zmi_biti, S0B0Token: kakšne_so, S0B1Lemma: kakšen_se, S0B1LemmaPOS: kakšen_Zp------k, S0B1POS: Zv-zmi_Zp------k, S0B1POSLemma: Zv-zmi_se, S0B1Token: kakšne_se, S0Lemma: kakšen, S0POS: Zv-zmi, S0Token: kakšne, transitionHistoryLength3: 202, 
+B0Lemma: pravičnost, B0POS: Sozer, B0Token: pravičnosti, S0B0Lemma: več_pravičnost, S0B0LemmaPOS: več_Sozer, S0B0POS: Rsr_Sozer, S0B0POSLemma: Rsr_pravičnost, S0B0Token: več_pravičnosti, S0B1Lemma: več_., S0B1LemmaPOS: več_., S0B1POS: Rsr_., S0B1POSLemma: Rsr_., S0B1Token: več_., S0Lemma: več, S0POS: Rsr, S0Token: več, transitionHistoryLength3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [so, se, nam ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pravičnosti, . ,.. ]
 
-B0Lemma: biti, B0POS: Gp-stm-n, B0Token: so, transitionHistoryLength3: 020, 
+B0Lemma: pravičnost, B0POS: Sozer, B0Token: pravičnosti, transitionHistoryLength3: 020, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so]   B= [se, nam, podobne ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pravičnosti]   B= [.]
 
-B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: biti_se, S0B0LemmaPOS: biti_Zp------k, S0B0POS: Gp-stm-n_Zp------k, S0B0POSLemma: Gp-stm-n_se, S0B0Token: so_se, S0B1Lemma: biti_jaz, S0B1LemmaPOS: biti_Zop-md, S0B1POS: Gp-stm-n_Zop-md, S0B1POSLemma: Gp-stm-n_jaz, S0B1Token: so_nam, S0Lemma: biti, S0POS: Gp-stm-n, S0Token: so, transitionHistoryLength3: 202, 
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: pravičnost_., S0B0LemmaPOS: pravičnost_., S0B0POS: Sozer_., S0B0POSLemma: Sozer_., S0B0Token: pravičnosti_., S0Lemma: pravičnost, S0POS: Sozer, S0Token: pravičnosti, transitionHistoryLength3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, nam, podobne ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-B0Lemma: se, B0POS: Zp------k, B0Token: se, transitionHistoryLength3: 020, 
+B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength3: 020, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [nam, podobne, težave ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-B0Lemma: jaz, B0POS: Zop-md, B0Token: nam, S0B0Lemma: se_jaz, S0B0LemmaPOS: se_Zop-md, S0B0POS: Zp------k_Zop-md, S0B0POSLemma: Zp------k_jaz, S0B0Token: se_nam, S0B1Lemma: se_podoben, S0B1LemmaPOS: se_Ppnzmi, S0B1POS: Zp------k_Ppnzmi, S0B1POSLemma: Zp------k_podoben, S0B1Token: se_podobne, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 202, 
+S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength3: 202, 
 
-42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, nam]   B= [podobne, težave, zdele ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-B0Lemma: podoben, B0POS: Ppnzmi, B0Token: podobne, S0B0Lemma: jaz_podoben, S0B0LemmaPOS: jaz_Ppnzmi, S0B0POS: Zop-md_Ppnzmi, S0B0POSLemma: Zop-md_podoben, S0B0Token: nam_podobne, S0B1Lemma: jaz_težava, S0B1LemmaPOS: jaz_Sozmi, S0B1POS: Zop-md_Sozmi, S0B1POSLemma: Zop-md_težava, S0B1Token: nam_težave, S0Lemma: jaz, S0POS: Zop-md, S0Token: nam, S1B0Lemma: se_podoben, S1B0LemmaPOS: se_Ppnzmi, S1B0POS: Zp------k_Ppnzmi, S1B0POSLemma: Zp------k_podoben, S1B0Token: se_podobne, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_jaz, S1S0LemmaPOS: se_Zop-md, S1S0POS: Zp------k_Zop-md, S1S0POSLemma: Zp------k_jaz, S1S0Token: se_nam, S1Token: se, transitionHistoryLength3: 020, 
+## Sentence No. 2428 - 
+Potem se ji je posvetilo , da se moje trditve ne ujemajo z njenimi . 
+### Existing MWEs: 
+1- **se posvetilo** (IReflV)
+2- **se ujemajo** (IReflV)
 
-43- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [podobne, težave, zdele ,.. ]
 
-B0Lemma: podoben, B0POS: Ppnzmi, B0Token: podobne, S0B0Lemma: se_podoben, S0B0LemmaPOS: se_Ppnzmi, S0B0POS: Zp------k_Ppnzmi, S0B0POSLemma: Zp------k_podoben, S0B0Token: se_podobne, S0B1Lemma: se_težava, S0B1LemmaPOS: se_Sozmi, S0B1POS: Zp------k_Sozmi, S0B1POSLemma: Zp------k_težava, S0B1Token: se_težave, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 002, 
 
-44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, podobne]   B= [težave, zdele, , ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Potem, se, ji ,.. ]
 
-B0Lemma: težava, B0POS: Sozmi, B0Token: težave, S0B0Lemma: podoben_težava, S0B0LemmaPOS: podoben_Sozmi, S0B0POS: Ppnzmi_Sozmi, S0B0POSLemma: Ppnzmi_težava, S0B0Token: podobne_težave, S0B1Lemma: podoben_zdeti, S0B1LemmaPOS: podoben_Ggnd-mz, S0B1POS: Ppnzmi_Ggnd-mz, S0B1POSLemma: Ppnzmi_zdeti, S0B1Token: podobne_zdele, S0Lemma: podoben, S0POS: Ppnzmi, S0Token: podobne, S1B0Lemma: se_težava, S1B0LemmaPOS: se_Sozmi, S1B0POS: Zp------k_Sozmi, S1B0POSLemma: Zp------k_težava, S1B0Token: se_težave, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_podoben, S1S0LemmaPOS: se_Ppnzmi, S1S0POS: Zp------k_Ppnzmi, S1S0POSLemma: Zp------k_podoben, S1S0Token: se_podobne, S1Token: se, transitionHistoryLength3: 200, 
+B0Lemma: potem, B0POS: Rsn, B0Token: Potem, 
 
-45- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [težave, zdele, , ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Potem]   B= [se, ji, je ,.. ]
 
-B0Lemma: težava, B0POS: Sozmi, B0Token: težave, S0B0Lemma: se_težava, S0B0LemmaPOS: se_Sozmi, S0B0POS: Zp------k_Sozmi, S0B0POSLemma: Zp------k_težava, S0B0Token: se_težave, S0B1Lemma: se_zdeti, S0B1LemmaPOS: se_Ggnd-mz, S0B1POS: Zp------k_Ggnd-mz, S0B1POSLemma: Zp------k_zdeti, S0B1Token: se_zdele, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: potem_se, S0B0LemmaPOS: potem_Zp------k, S0B0POS: Rsn_Zp------k, S0B0POSLemma: Rsn_se, S0B0Token: Potem_se, S0B1Lemma: potem_on, S0B1LemmaPOS: potem_Zotzed--k, S0B1POS: Rsn_Zotzed--k, S0B1POSLemma: Rsn_on, S0B1Token: Potem_ji, S0Lemma: potem, S0POS: Rsn, S0Token: Potem, 
 
-46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, težave]   B= [zdele, ,, ko ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, ji, je ,.. ]
 
-B0Lemma: zdeti, B0POS: Ggnd-mz, B0Token: zdele, S0B0Lemma: težava_zdeti, S0B0LemmaPOS: težava_Ggnd-mz, S0B0POS: Sozmi_Ggnd-mz, S0B0POSLemma: Sozmi_zdeti, S0B0Token: težave_zdele, S0B1Lemma: težava_,, S0B1LemmaPOS: težava_,, S0B1POS: Sozmi_,, S0B1POSLemma: Sozmi_,, S0B1Token: težave_,, S0Lemma: težava, S0POS: Sozmi, S0Token: težave, S1B0Lemma: se_zdeti, S1B0LemmaPOS: se_Ggnd-mz, S1B0POS: Zp------k_Ggnd-mz, S1B0POSLemma: Zp------k_zdeti, S1B0Token: se_zdele, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_težava, S1S0LemmaPOS: se_Sozmi, S1S0POS: Zp------k_Sozmi, S1S0POSLemma: Zp------k_težava, S1S0Token: se_težave, S1Token: se, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp------k, B0Token: se, 
 
-47- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [zdele, ,, ko ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [ji, je, posvetilo ,.. ]
 
-B0Lemma: zdeti, B0POS: Ggnd-mz, B0Token: zdele, S0B0Lemma: se_zdeti, S0B0LemmaPOS: se_Ggnd-mz, S0B0POS: Zp------k_Ggnd-mz, S0B0POSLemma: Zp------k_zdeti, S0B0Token: se_zdele, S0B1Lemma: se_,, S0B1LemmaPOS: se_,, S0B1POS: Zp------k_,, S0B1POSLemma: Zp------k_,, S0B1Token: se_,, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: on, B0POS: Zotzed--k, B0Token: ji, S0B0Lemma: se_on, S0B0LemmaPOS: se_Zotzed--k, S0B0POS: Zp------k_Zotzed--k, S0B0POSLemma: Zp------k_on, S0B0Token: se_ji, S0B1Lemma: se_biti, S0B1LemmaPOS: se_Gp-ste-n, S0B1POS: Zp------k_Gp-ste-n, S0B1POSLemma: Zp------k_biti, S0B1Token: se_je, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, 
 
-48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, zdele]   B= [,, ko, smo ,.. ]
+4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, ji]   B= [je, posvetilo, , ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: zdeti_,, S0B0LemmaPOS: zdeti_,, S0B0POS: Ggnd-mz_,, S0B0POSLemma: Ggnd-mz_,, S0B0Token: zdele_,, S0B1Lemma: zdeti_ko, S0B1LemmaPOS: zdeti_Vd, S0B1POS: Ggnd-mz_Vd, S0B1POSLemma: Ggnd-mz_ko, S0B1Token: zdele_ko, S0Lemma: zdeti, S0POS: Ggnd-mz, S0Token: zdele, S1B0Lemma: se_,, S1B0LemmaPOS: se_,, S1B0POS: Zp------k_,, S1B0POSLemma: Zp------k_,, S1B0Token: se_,, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_zdeti, S1S0LemmaPOS: se_Ggnd-mz, S1S0POS: Zp------k_Ggnd-mz, S1S0POSLemma: Zp------k_zdeti, S1S0Token: se_zdele, S1Token: se, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, S0B0Lemma: on_biti, S0B0LemmaPOS: on_Gp-ste-n, S0B0POS: Zotzed--k_Gp-ste-n, S0B0POSLemma: Zotzed--k_biti, S0B0Token: ji_je, S0B1Lemma: on_posvetiti, S0B1LemmaPOS: on_Ggdd-es, S0B1POS: Zotzed--k_Ggdd-es, S0B1POSLemma: Zotzed--k_posvetiti, S0B1Token: ji_posvetilo, S0IsInLexic: true, S0Lemma: on, S0POS: Zotzed--k, S0Token: ji, S1B0Lemma: se_biti, S1B0LemmaPOS: se_Gp-ste-n, S1B0POS: Zp------k_Gp-ste-n, S1B0POSLemma: Zp------k_biti, S1B0Token: se_je, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_on, S1S0LemmaPOS: se_Zotzed--k, S1S0POS: Zp------k_Zotzed--k, S1S0POSLemma: Zp------k_on, S1S0Token: se_ji, S1Token: se, transitionHistoryLength3: 020, 
 
-49- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, zdele]]   B= [,, ko, smo ,.. ]
+5- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [je, posvetilo, , ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: se_zdeti_,, S0B0LemmaPOS: se_zdeti_,, S0B0POS: Zp------k_Ggnd-mz_,, S0B0POSLemma: Zp------k_Ggnd-mz_,, S0B0Token: se_zdele_,, S0B1Lemma: se_zdeti_ko, S0B1LemmaPOS: se_zdeti_Vd, S0B1POS: Zp------k_Ggnd-mz_Vd, S0B1POSLemma: Zp------k_Ggnd-mz_ko, S0B1Token: se_zdele_ko, S0Lemma: se_zdeti, S0POS: Zp------k_Ggnd-mz, S0Token: se_zdele, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, S0B0Lemma: se_biti, S0B0LemmaPOS: se_Gp-ste-n, S0B0POS: Zp------k_Gp-ste-n, S0B0POSLemma: Zp------k_biti, S0B0Token: se_je, S0B1Lemma: se_posvetiti, S0B1LemmaPOS: se_Ggdd-es, S0B1POS: Zp------k_Ggdd-es, S0B1POSLemma: Zp------k_posvetiti, S0B1Token: se_posvetilo, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 002, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ko, smo ,.. ]
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, je]   B= [posvetilo, ,, da ,.. ]
+
+B0IsInLexic: true, B0Lemma: posvetiti, B0POS: Ggdd-es, B0Token: posvetilo, S0B0Lemma: biti_posvetiti, S0B0LemmaPOS: biti_Ggdd-es, S0B0POS: Gp-ste-n_Ggdd-es, S0B0POSLemma: Gp-ste-n_posvetiti, S0B0Token: je_posvetilo, S0B1Lemma: biti_,, S0B1LemmaPOS: biti_,, S0B1POS: Gp-ste-n_,, S0B1POSLemma: Gp-ste-n_,, S0B1Token: je_,, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-ste-n, S0Token: je, S1B0Lemma: se_posvetiti, S1B0LemmaPOS: se_Ggdd-es, S1B0POS: Zp------k_Ggdd-es, S1B0POSLemma: Zp------k_posvetiti, S1B0Token: se_posvetilo, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_biti, S1S0LemmaPOS: se_Gp-ste-n, S1S0POS: Zp------k_Gp-ste-n, S1S0POSLemma: Zp------k_biti, S1S0Token: se_je, S1Token: se, transitionHistoryLength3: 200, 
+
+7- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [posvetilo, ,, da ,.. ]
+
+B0IsInLexic: true, B0Lemma: posvetiti, B0POS: Ggdd-es, B0Token: posvetilo, S0B0Lemma: se_posvetiti, S0B0LemmaPOS: se_Ggdd-es, S0B0POS: Zp------k_Ggdd-es, S0B0POSLemma: Zp------k_posvetiti, S0B0Token: se_posvetilo, S0B1Lemma: se_,, S0B1LemmaPOS: se_,, S0B1POS: Zp------k_,, S0B1POSLemma: Zp------k_,, S0B1Token: se_,, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 020, 
+
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, posvetilo]   B= [,, da, se ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: posvetiti_,, S0B0LemmaPOS: posvetiti_,, S0B0POS: Ggdd-es_,, S0B0POSLemma: Ggdd-es_,, S0B0Token: posvetilo_,, S0B1Lemma: posvetiti_da, S0B1LemmaPOS: posvetiti_Vd, S0B1POS: Ggdd-es_Vd, S0B1POSLemma: Ggdd-es_da, S0B1Token: posvetilo_da, S0IsInLexic: true, S0Lemma: posvetiti, S0POS: Ggdd-es, S0Token: posvetilo, S1B0Lemma: se_,, S1B0LemmaPOS: se_,, S1B0POS: Zp------k_,, S1B0POSLemma: Zp------k_,, S1B0Token: se_,, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_posvetiti, S1S0LemmaPOS: se_Ggdd-es, S1S0POS: Zp------k_Ggdd-es, S1S0POSLemma: Zp------k_posvetiti, S1S0Token: se_posvetilo, S1Token: se, transitionHistoryLength3: 202, 
+
+9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, posvetilo]]   B= [,, da, se ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: se_posvetiti_,, S0B0LemmaPOS: se_posvetiti_,, S0B0POS: Zp------k_Ggdd-es_,, S0B0POSLemma: Zp------k_Ggdd-es_,, S0B0Token: se_posvetilo_,, S0B1Lemma: se_posvetiti_da, S0B1LemmaPOS: se_posvetiti_Vd, S0B1POS: Zp------k_Ggdd-es_Vd, S0B1POSLemma: Zp------k_Ggdd-es_da, S0B1Token: se_posvetilo_da, S0Lemma: se_posvetiti, S0POS: Zp------k_Ggdd-es, S0Token: se_posvetilo, transitionHistoryLength3: 020, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, da, se ,.. ]
 
 B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 102, 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ko, smo, bili ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [da, se, moje ,.. ]
 
-B0Lemma: ko, B0POS: Vd, B0Token: ko, S0B0Lemma: ,_ko, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_ko, S0B0Token: ,_ko, S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-spm-n, S0B1POS: ,_Gp-spm-n, S0B1POSLemma: ,_biti, S0B1Token: ,_smo, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 210, 
+B0Lemma: da, B0POS: Vd, B0Token: da, S0B0Lemma: ,_da, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_da, S0B0Token: ,_da, S0B1Lemma: ,_se, S0B1LemmaPOS: ,_Zp------k, S0B1POS: ,_Zp------k, S0B1POSLemma: ,_se, S0B1Token: ,_se, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 210, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ko, smo, bili ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, se, moje ,.. ]
 
-B0Lemma: ko, B0POS: Vd, B0Token: ko, transitionHistoryLength3: 021, 
+B0Lemma: da, B0POS: Vd, B0Token: da, transitionHistoryLength3: 021, 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ko]   B= [smo, bili, sami ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [se, moje, trditve ,.. ]
 
-B0Lemma: biti, B0POS: Gp-spm-n, B0Token: smo, S0B0Lemma: ko_biti, S0B0LemmaPOS: ko_Gp-spm-n, S0B0POS: Vd_Gp-spm-n, S0B0POSLemma: Vd_biti, S0B0Token: ko_smo, S0B1Lemma: ko_biti, S0B1LemmaPOS: ko_Gp-d-mm, S0B1POS: Vd_Gp-d-mm, S0B1POSLemma: Vd_biti, S0B1Token: ko_bili, S0Lemma: ko, S0POS: Vd, S0Token: ko, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: da_se, S0B0LemmaPOS: da_Zp------k, S0B0POS: Vd_Zp------k, S0B0POSLemma: Vd_se, S0B0Token: da_se, S0B1Lemma: da_moj, S0B1LemmaPOS: da_Zspzmie, S0B1POS: Vd_Zspzmie, S0B1POSLemma: Vd_moj, S0B1Token: da_moje, S0Lemma: da, S0POS: Vd, S0Token: da, transitionHistoryLength3: 202, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [smo, bili, sami ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, moje, trditve ,.. ]
 
-B0Lemma: biti, B0POS: Gp-spm-n, B0Token: smo, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: se, B0POS: Zp------k, B0Token: se, transitionHistoryLength3: 020, 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [smo]   B= [bili, sami, majhni ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [moje, trditve, ne ,.. ]
 
-B0Lemma: biti, B0POS: Gp-d-mm, B0Token: bili, S0B0Lemma: biti_biti, S0B0LemmaPOS: biti_Gp-d-mm, S0B0POS: Gp-spm-n_Gp-d-mm, S0B0POSLemma: Gp-spm-n_biti, S0B0Token: smo_bili, S0B1Lemma: biti_sam, S0B1LemmaPOS: biti_Ppnmmi, S0B1POS: Gp-spm-n_Ppnmmi, S0B1POSLemma: Gp-spm-n_sam, S0B1Token: smo_sami, S0Lemma: biti, S0POS: Gp-spm-n, S0Token: smo, transitionHistoryLength3: 202, 
+B0Lemma: moj, B0POS: Zspzmie, B0Token: moje, S0B0Lemma: se_moj, S0B0LemmaPOS: se_Zspzmie, S0B0POS: Zp------k_Zspzmie, S0B0POSLemma: Zp------k_moj, S0B0Token: se_moje, S0B1Lemma: se_trditev, S0B1LemmaPOS: se_Sozmi, S0B1POS: Zp------k_Sozmi, S0B1POSLemma: Zp------k_trditev, S0B1Token: se_trditve, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 202, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bili, sami, majhni ,.. ]
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, moje]   B= [trditve, ne, ujemajo ,.. ]
 
-B0Lemma: biti, B0POS: Gp-d-mm, B0Token: bili, transitionHistoryLength3: 020, 
+B0Lemma: trditev, B0POS: Sozmi, B0Token: trditve, S0B0Lemma: moj_trditev, S0B0LemmaPOS: moj_Sozmi, S0B0POS: Zspzmie_Sozmi, S0B0POSLemma: Zspzmie_trditev, S0B0Token: moje_trditve, S0B1Lemma: moj_ne, S0B1LemmaPOS: moj_L, S0B1POS: Zspzmie_L, S0B1POSLemma: Zspzmie_ne, S0B1Token: moje_ne, S0Lemma: moj, S0POS: Zspzmie, S0Token: moje, S1B0Lemma: se_trditev, S1B0LemmaPOS: se_Sozmi, S1B0POS: Zp------k_Sozmi, S1B0POSLemma: Zp------k_trditev, S1B0Token: se_trditve, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_moj, S1S0LemmaPOS: se_Zspzmie, S1S0POS: Zp------k_Zspzmie, S1S0POSLemma: Zp------k_moj, S1S0Token: se_moje, S1Token: se, transitionHistoryLength3: 020, 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bili]   B= [sami, majhni, . ,.. ]
+17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [trditve, ne, ujemajo ,.. ]
 
-B0Lemma: sam, B0POS: Ppnmmi, B0Token: sami, S0B0Lemma: biti_sam, S0B0LemmaPOS: biti_Ppnmmi, S0B0POS: Gp-d-mm_Ppnmmi, S0B0POSLemma: Gp-d-mm_sam, S0B0Token: bili_sami, S0B1Lemma: biti_majhen, S0B1LemmaPOS: biti_Ppnmmi, S0B1POS: Gp-d-mm_Ppnmmi, S0B1POSLemma: Gp-d-mm_majhen, S0B1Token: bili_majhni, S0Lemma: biti, S0POS: Gp-d-mm, S0Token: bili, transitionHistoryLength3: 202, 
+B0Lemma: trditev, B0POS: Sozmi, B0Token: trditve, S0B0Lemma: se_trditev, S0B0LemmaPOS: se_Sozmi, S0B0POS: Zp------k_Sozmi, S0B0POSLemma: Zp------k_trditev, S0B0Token: se_trditve, S0B1Lemma: se_ne, S0B1LemmaPOS: se_L, S0B1POS: Zp------k_L, S0B1POSLemma: Zp------k_ne, S0B1Token: se_ne, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 002, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sami, majhni, . ,.. ]
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, trditve]   B= [ne, ujemajo, z ,.. ]
 
-B0Lemma: sam, B0POS: Ppnmmi, B0Token: sami, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: ne, B0POS: L, B0Token: ne, S0B0Lemma: trditev_ne, S0B0LemmaPOS: trditev_L, S0B0POS: Sozmi_L, S0B0POSLemma: Sozmi_ne, S0B0Token: trditve_ne, S0B1Lemma: trditev_ujemati, S0B1LemmaPOS: trditev_Ggnstm, S0B1POS: Sozmi_Ggnstm, S0B1POSLemma: Sozmi_ujemati, S0B1Token: trditve_ujemajo, S0Lemma: trditev, S0POS: Sozmi, S0Token: trditve, S1B0Lemma: se_ne, S1B0LemmaPOS: se_L, S1B0POS: Zp------k_L, S1B0POSLemma: Zp------k_ne, S1B0Token: se_ne, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_trditev, S1S0LemmaPOS: se_Sozmi, S1S0POS: Zp------k_Sozmi, S1S0POSLemma: Zp------k_trditev, S1S0Token: se_trditve, S1Token: se, transitionHistoryLength3: 200, 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sami]   B= [majhni, . ,.. ]
+19- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [ne, ujemajo, z ,.. ]
 
-B0Lemma: majhen, B0POS: Ppnmmi, B0Token: majhni, S0B0Lemma: sam_majhen, S0B0LemmaPOS: sam_Ppnmmi, S0B0POS: Ppnmmi_Ppnmmi, S0B0POSLemma: Ppnmmi_majhen, S0B0Token: sami_majhni, S0B1Lemma: sam_., S0B1LemmaPOS: sam_., S0B1POS: Ppnmmi_., S0B1POSLemma: Ppnmmi_., S0B1Token: sami_., S0Lemma: sam, S0POS: Ppnmmi, S0Token: sami, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: ne, B0POS: L, B0Token: ne, S0B0Lemma: se_ne, S0B0LemmaPOS: se_L, S0B0POS: Zp------k_L, S0B0POSLemma: Zp------k_ne, S0B0Token: se_ne, S0B1Lemma: se_ujemati, S0B1LemmaPOS: se_Ggnstm, S0B1POS: Zp------k_Ggnstm, S0B1POSLemma: Zp------k_ujemati, S0B1Token: se_ujemajo, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 020, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [majhni, . ,.. ]
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, ne]   B= [ujemajo, z, njenimi ,.. ]
 
-B0Lemma: majhen, B0POS: Ppnmmi, B0Token: majhni, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: ujemati, B0POS: Ggnstm, B0Token: ujemajo, S0B0Lemma: ne_ujemati, S0B0LemmaPOS: ne_Ggnstm, S0B0POS: L_Ggnstm, S0B0POSLemma: L_ujemati, S0B0Token: ne_ujemajo, S0B1Lemma: ne_z, S0B1LemmaPOS: ne_Do, S0B1POS: L_Do, S0B1POSLemma: L_z, S0B1Token: ne_z, S0IsInLexic: true, S0Lemma: ne, S0POS: L, S0Token: ne, S1B0Lemma: se_ujemati, S1B0LemmaPOS: se_Ggnstm, S1B0POS: Zp------k_Ggnstm, S1B0POSLemma: Zp------k_ujemati, S1B0Token: se_ujemajo, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_ne, S1S0LemmaPOS: se_L, S1S0POS: Zp------k_L, S1S0POSLemma: Zp------k_ne, S1S0Token: se_ne, S1Token: se, transitionHistoryLength3: 202, 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [majhni]   B= [.]
+21- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [ujemajo, z, njenimi ,.. ]
 
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: majhen_., S0B0LemmaPOS: majhen_., S0B0POS: Ppnmmi_., S0B0POSLemma: Ppnmmi_., S0B0Token: majhni_., S0Lemma: majhen, S0POS: Ppnmmi, S0Token: majhni, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: ujemati, B0POS: Ggnstm, B0Token: ujemajo, S0B0Lemma: se_ujemati, S0B0LemmaPOS: se_Ggnstm, S0B0POS: Zp------k_Ggnstm, S0B0POSLemma: Zp------k_ujemati, S0B0Token: se_ujemajo, S0B1Lemma: se_z, S0B1LemmaPOS: se_Do, S0B1POS: Zp------k_Do, S0B1POSLemma: Zp------k_z, S0B1Token: se_z, S0IsInLexic: true, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 020, 
+
+22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, ujemajo]   B= [z, njenimi, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: z, B0POS: Do, B0Token: z, S0B0Lemma: ujemati_z, S0B0LemmaPOS: ujemati_Do, S0B0POS: Ggnstm_Do, S0B0POSLemma: Ggnstm_z, S0B0Token: ujemajo_z, S0B1Lemma: ujemati_njen, S0B1LemmaPOS: ujemati_Zstzmoez, S0B1POS: Ggnstm_Zstzmoez, S0B1POSLemma: Ggnstm_njen, S0B1Token: ujemajo_njenimi, S0IsInLexic: true, S0Lemma: ujemati, S0POS: Ggnstm, S0Token: ujemajo, S1B0Lemma: se_z, S1B0LemmaPOS: se_Do, S1B0POS: Zp------k_Do, S1B0POSLemma: Zp------k_z, S1B0Token: se_z, S1IsInLexic: true, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_ujemati, S1S0LemmaPOS: se_Ggnstm, S1S0POS: Zp------k_Ggnstm, S1S0POSLemma: Zp------k_ujemati, S1S0Token: se_ujemajo, S1Token: se, transitionHistoryLength3: 202, 
+
+23- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, ujemajo]]   B= [z, njenimi, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: z, B0POS: Do, B0Token: z, S0B0Lemma: se_ujemati_z, S0B0LemmaPOS: se_ujemati_Do, S0B0POS: Zp------k_Ggnstm_Do, S0B0POSLemma: Zp------k_Ggnstm_z, S0B0Token: se_ujemajo_z, S0B1Lemma: se_ujemati_njen, S0B1LemmaPOS: se_ujemati_Zstzmoez, S0B1POS: Zp------k_Ggnstm_Zstzmoez, S0B1POSLemma: Zp------k_Ggnstm_njen, S0B1Token: se_ujemajo_njenimi, S0Lemma: se_ujemati, S0POS: Zp------k_Ggnstm, S0Token: se_ujemajo, transitionHistoryLength3: 020, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [z, njenimi, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: z, B0POS: Do, B0Token: z, transitionHistoryLength3: 102, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [z]   B= [njenimi, . ,.. ]
+
+B0Lemma: njen, B0POS: Zstzmoez, B0Token: njenimi, S0B0Lemma: z_njen, S0B0LemmaPOS: z_Zstzmoez, S0B0POS: Do_Zstzmoez, S0B0POSLemma: Do_njen, S0B0Token: z_njenimi, S0B1Lemma: z_., S0B1LemmaPOS: z_., S0B1POS: Do_., S0B1POSLemma: Do_., S0B1Token: z_., S0IsInLexic: true, S0Lemma: z, S0POS: Do, S0Token: z, transitionHistoryLength3: 210, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [njenimi, . ,.. ]
+
+B0Lemma: njen, B0POS: Zstzmoez, B0Token: njenimi, transitionHistoryLength3: 021, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [njenimi]   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: njen_., S0B0LemmaPOS: njen_., S0B0POS: Zstzmoez_., S0B0POSLemma: Zstzmoez_., S0B0Token: njenimi_., S0Lemma: njen, S0POS: Zstzmoez, S0Token: njenimi, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2487 - 
+Njen predsednik John Howett je potrdil , da so pogajanja v teku , da pa sodelovanje v prihodnjem letu še ne pride v poštev , saj je premalo časa za reorganizacijo . 
+### Existing MWEs: 
+1- **so v teku** (LVC)
+2- **pride v poštev** (ID)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Njen, predsednik, John ,.. ]
+
+B0Lemma: njen, B0POS: Zstmeiez, B0Token: Njen, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Njen]   B= [predsednik, John, Howett ,.. ]
+
+B0Lemma: predsednik, B0POS: Somei, B0Token: predsednik, S0B0Lemma: njen_predsednik, S0B0LemmaPOS: njen_Somei, S0B0POS: Zstmeiez_Somei, S0B0POSLemma: Zstmeiez_predsednik, S0B0Token: Njen_predsednik, S0B1Lemma: njen_John, S0B1LemmaPOS: njen_Slmei, S0B1POS: Zstmeiez_Slmei, S0B1POSLemma: Zstmeiez_John, S0B1Token: Njen_John, S0Lemma: njen, S0POS: Zstmeiez, S0Token: Njen, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [predsednik, John, Howett ,.. ]
+
+B0Lemma: predsednik, B0POS: Somei, B0Token: predsednik, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [predsednik]   B= [John, Howett, je ,.. ]
+
+B0Lemma: John, B0POS: Slmei, B0Token: John, S0B0Lemma: predsednik_John, S0B0LemmaPOS: predsednik_Slmei, S0B0POS: Somei_Slmei, S0B0POSLemma: Somei_John, S0B0Token: predsednik_John, S0B1Lemma: predsednik_Howett, S0B1LemmaPOS: predsednik_Slmei, S0B1POS: Somei_Slmei, S0B1POSLemma: Somei_Howett, S0B1Token: predsednik_Howett, S0Lemma: predsednik, S0POS: Somei, S0Token: predsednik, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [John, Howett, je ,.. ]
+
+B0Lemma: John, B0POS: Slmei, B0Token: John, transitionHistoryLength3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [John]   B= [Howett, je, potrdil ,.. ]
+
+B0Lemma: Howett, B0POS: Slmei, B0Token: Howett, S0B0Lemma: John_Howett, S0B0LemmaPOS: John_Slmei, S0B0POS: Slmei_Slmei, S0B0POSLemma: Slmei_Howett, S0B0Token: John_Howett, S0B1Lemma: John_biti, S0B1LemmaPOS: John_Gp-ste-n, S0B1POS: Slmei_Gp-ste-n, S0B1POSLemma: Slmei_biti, S0B1Token: John_je, S0Lemma: John, S0POS: Slmei, S0Token: John, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Howett, je, potrdil ,.. ]
+
+B0Lemma: Howett, B0POS: Slmei, B0Token: Howett, transitionHistoryLength3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Howett]   B= [je, potrdil, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, S0B0Lemma: Howett_biti, S0B0LemmaPOS: Howett_Gp-ste-n, S0B0POS: Slmei_Gp-ste-n, S0B0POSLemma: Slmei_biti, S0B0Token: Howett_je, S0B1Lemma: Howett_potrditi, S0B1LemmaPOS: Howett_Ggdd-em, S0B1POS: Slmei_Ggdd-em, S0B1POSLemma: Slmei_potrditi, S0B1Token: Howett_potrdil, S0Lemma: Howett, S0POS: Slmei, S0Token: Howett, transitionHistoryLength3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [je, potrdil, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [je]   B= [potrdil, ,, da ,.. ]
+
+B0Lemma: potrditi, B0POS: Ggdd-em, B0Token: potrdil, S0B0Lemma: biti_potrditi, S0B0LemmaPOS: biti_Ggdd-em, S0B0POS: Gp-ste-n_Ggdd-em, S0B0POSLemma: Gp-ste-n_potrditi, S0B0Token: je_potrdil, S0B1Lemma: biti_,, S0B1LemmaPOS: biti_,, S0B1POS: Gp-ste-n_,, S0B1POSLemma: Gp-ste-n_,, S0B1Token: je_,, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-ste-n, S0Token: je, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [potrdil, ,, da ,.. ]
+
+B0Lemma: potrditi, B0POS: Ggdd-em, B0Token: potrdil, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [potrdil]   B= [,, da, so ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: potrditi_,, S0B0LemmaPOS: potrditi_,, S0B0POS: Ggdd-em_,, S0B0POSLemma: Ggdd-em_,, S0B0Token: potrdil_,, S0B1Lemma: potrditi_da, S0B1LemmaPOS: potrditi_Vd, S0B1POS: Ggdd-em_Vd, S0B1POSLemma: Ggdd-em_da, S0B1Token: potrdil_da, S0Lemma: potrditi, S0POS: Ggdd-em, S0Token: potrdil, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, da, so ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [da, so, pogajanja ,.. ]
+
+B0Lemma: da, B0POS: Vd, B0Token: da, S0B0Lemma: ,_da, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_da, S0B0Token: ,_da, S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-stm-n, S0B1POS: ,_Gp-stm-n, S0B1POSLemma: ,_biti, S0B1Token: ,_so, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, so, pogajanja ,.. ]
+
+B0Lemma: da, B0POS: Vd, B0Token: da, transitionHistoryLength3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [so, pogajanja, v ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-stm-n, B0Token: so, S0B0Lemma: da_biti, S0B0LemmaPOS: da_Gp-stm-n, S0B0POS: Vd_Gp-stm-n, S0B0POSLemma: Vd_biti, S0B0Token: da_so, S0B1Lemma: da_pogajanje, S0B1LemmaPOS: da_Sosmi, S0B1POS: Vd_Sosmi, S0B1POSLemma: Vd_pogajanje, S0B1Token: da_pogajanja, S0Lemma: da, S0POS: Vd, S0Token: da, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [so, pogajanja, v ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-stm-n, B0Token: so, transitionHistoryLength3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so]   B= [pogajanja, v, teku ,.. ]
+
+B0Lemma: pogajanje, B0POS: Sosmi, B0Token: pogajanja, S0B0Lemma: biti_pogajanje, S0B0LemmaPOS: biti_Sosmi, S0B0POS: Gp-stm-n_Sosmi, S0B0POSLemma: Gp-stm-n_pogajanje, S0B0Token: so_pogajanja, S0B1Lemma: biti_v, S0B1LemmaPOS: biti_Dm, S0B1POS: Gp-stm-n_Dm, S0B1POSLemma: Gp-stm-n_v, S0B1Token: so_v, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-stm-n, S0Token: so, transitionHistoryLength3: 202, 
+
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so, pogajanja]   B= [v, teku, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: v, B0POS: Dm, B0Token: v, S0B0Lemma: pogajanje_v, S0B0LemmaPOS: pogajanje_Dm, S0B0POS: Sosmi_Dm, S0B0POSLemma: Sosmi_v, S0B0Token: pogajanja_v, S0B1Lemma: pogajanje_tek, S0B1LemmaPOS: pogajanje_Somem, S0B1POS: Sosmi_Somem, S0B1POSLemma: Sosmi_tek, S0B1Token: pogajanja_teku, S0Lemma: pogajanje, S0POS: Sosmi, S0Token: pogajanja, S1B0Lemma: biti_v, S1B0LemmaPOS: biti_Dm, S1B0POS: Gp-stm-n_Dm, S1B0POSLemma: Gp-stm-n_v, S1B0Token: so_v, S1IsInLexic: true, S1Lemma: biti, S1POS: Gp-stm-n, S1S0Lemma: biti_pogajanje, S1S0LemmaPOS: biti_Sosmi, S1S0POS: Gp-stm-n_Sosmi, S1S0POSLemma: Gp-stm-n_pogajanje, S1S0Token: so_pogajanja, S1Token: so, transitionHistoryLength3: 020, 
+
+19- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so]   B= [v, teku, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: v, B0POS: Dm, B0Token: v, S0B0Lemma: biti_v, S0B0LemmaPOS: biti_Dm, S0B0POS: Gp-stm-n_Dm, S0B0POSLemma: Gp-stm-n_v, S0B0Token: so_v, S0B1Lemma: biti_tek, S0B1LemmaPOS: biti_Somem, S0B1POS: Gp-stm-n_Somem, S0B1POSLemma: Gp-stm-n_tek, S0B1Token: so_teku, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-stm-n, S0Token: so, transitionHistoryLength3: 002, 
+
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so, v]   B= [teku, ,, da ,.. ]
+
+B0IsInLexic: true, B0Lemma: tek, B0POS: Somem, B0Token: teku, S0B0Lemma: v_tek, S0B0LemmaPOS: v_Somem, S0B0POS: Dm_Somem, S0B0POSLemma: Dm_tek, S0B0Token: v_teku, S0B1Lemma: v_,, S0B1LemmaPOS: v_,, S0B1POS: Dm_,, S0B1POSLemma: Dm_,, S0B1Token: v_,, S0IsInLexic: true, S0Lemma: v, S0POS: Dm, S0Token: v, S1B0Lemma: biti_tek, S1B0LemmaPOS: biti_Somem, S1B0POS: Gp-stm-n_Somem, S1B0POSLemma: Gp-stm-n_tek, S1B0Token: so_teku, S1IsInLexic: true, S1Lemma: biti, S1POS: Gp-stm-n, S1S0Lemma: biti_v, S1S0LemmaPOS: biti_Dm, S1S0POS: Gp-stm-n_Dm, S1S0POSLemma: Gp-stm-n_v, S1S0Token: so_v, S1Token: so, transitionHistoryLength3: 200, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so, v, teku]   B= [,, da, pa ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: tek_,, S0B0LemmaPOS: tek_,, S0B0POS: Somem_,, S0B0POSLemma: Somem_,, S0B0Token: teku_,, S0B1Lemma: tek_da, S0B1LemmaPOS: tek_Vd, S0B1POS: Somem_Vd, S0B1POSLemma: Somem_da, S0B1Token: teku_da, S0IsInLexic: true, S0Lemma: tek, S0POS: Somem, S0Token: teku, S1B0Lemma: v_,, S1B0LemmaPOS: v_,, S1B0POS: Dm_,, S1B0POSLemma: Dm_,, S1B0Token: v_,, S1IsInLexic: true, S1Lemma: v, S1POS: Dm, S1S0Lemma: v_tek, S1S0LemmaPOS: v_Somem, S1S0POS: Dm_Somem, S1S0POSLemma: Dm_tek, S1S0Token: v_teku, S1Token: v, transitionHistoryLength3: 020, 
+
+22- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so, [v, teku]]   B= [,, da, pa ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: v_tek_,, S0B0LemmaPOS: v_tek_,, S0B0POS: Dm_Somem_,, S0B0POSLemma: Dm_Somem_,, S0B0Token: v_teku_,, S0B1Lemma: v_tek_da, S0B1LemmaPOS: v_tek_Vd, S0B1POS: Dm_Somem_Vd, S0B1POSLemma: Dm_Somem_da, S0B1Token: v_teku_da, S0Lemma: v_tek, S0POS: Dm_Somem, S0Token: v_teku, S1B0Lemma: biti_,, S1B0LemmaPOS: biti_,, S1B0POS: Gp-stm-n_,, S1B0POSLemma: Gp-stm-n_,, S1B0Token: so_,, S1IsInLexic: true, S1Lemma: biti, S1POS: Gp-stm-n, S1S0Lemma: biti_v_tek, S1S0LemmaPOS: biti_Dm_Somem, S1S0POS: Gp-stm-n_Dm_Somem, S1S0POSLemma: Gp-stm-n_v_tek, S1S0Token: so_v_teku, S1Token: so, transitionHistoryLength3: 002, 
+
+23- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[so, [v, teku]]]   B= [,, da, pa ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: biti_v_tek_,, S0B0LemmaPOS: biti_v_tek_,, S0B0POS: Gp-stm-n_Dm_Somem_,, S0B0POSLemma: Gp-stm-n_Dm_Somem_,, S0B0Token: so_v_teku_,, S0B1Lemma: biti_v_tek_da, S0B1LemmaPOS: biti_v_tek_Vd, S0B1POS: Gp-stm-n_Dm_Somem_Vd, S0B1POSLemma: Gp-stm-n_Dm_Somem_da, S0B1Token: so_v_teku_da, S0Lemma: biti_v_tek, S0POS: Gp-stm-n_Dm_Somem, S0Token: so_v_teku, transitionHistoryLength3: 100, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, da, pa ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 110, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [da, pa, sodelovanje ,.. ]
+
+B0Lemma: da, B0POS: Vd, B0Token: da, S0B0Lemma: ,_da, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_da, S0B0Token: ,_da, S0B1Lemma: ,_pa, S0B1LemmaPOS: ,_Vp, S0B1POS: ,_Vp, S0B1POSLemma: ,_pa, S0B1Token: ,_pa, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 211, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, pa, sodelovanje ,.. ]
+
+B0Lemma: da, B0POS: Vd, B0Token: da, transitionHistoryLength3: 021, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [pa, sodelovanje, v ,.. ]
+
+B0Lemma: pa, B0POS: Vp, B0Token: pa, S0B0Lemma: da_pa, S0B0LemmaPOS: da_Vp, S0B0POS: Vd_Vp, S0B0POSLemma: Vd_pa, S0B0Token: da_pa, S0B1Lemma: da_sodelovanje, S0B1LemmaPOS: da_Sosei, S0B1POS: Vd_Sosei, S0B1POSLemma: Vd_sodelovanje, S0B1Token: da_sodelovanje, S0Lemma: da, S0POS: Vd, S0Token: da, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pa, sodelovanje, v ,.. ]
+
+B0Lemma: pa, B0POS: Vp, B0Token: pa, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pa]   B= [sodelovanje, v, prihodnjem ,.. ]
+
+B0Lemma: sodelovanje, B0POS: Sosei, B0Token: sodelovanje, S0B0Lemma: pa_sodelovanje, S0B0LemmaPOS: pa_Sosei, S0B0POS: Vp_Sosei, S0B0POSLemma: Vp_sodelovanje, S0B0Token: pa_sodelovanje, S0B1Lemma: pa_v, S0B1LemmaPOS: pa_Dm, S0B1POS: Vp_Dm, S0B1POSLemma: Vp_v, S0B1Token: pa_v, S0Lemma: pa, S0POS: Vp, S0Token: pa, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sodelovanje, v, prihodnjem ,.. ]
+
+B0Lemma: sodelovanje, B0POS: Sosei, B0Token: sodelovanje, transitionHistoryLength3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sodelovanje]   B= [v, prihodnjem, letu ,.. ]
+
+B0IsInLexic: true, B0Lemma: v, B0POS: Dm, B0Token: v, S0B0Lemma: sodelovanje_v, S0B0LemmaPOS: sodelovanje_Dm, S0B0POS: Sosei_Dm, S0B0POSLemma: Sosei_v, S0B0Token: sodelovanje_v, S0B1Lemma: sodelovanje_prihodnji, S0B1LemmaPOS: sodelovanje_Ppnsem, S0B1POS: Sosei_Ppnsem, S0B1POSLemma: Sosei_prihodnji, S0B1Token: sodelovanje_prihodnjem, S0Lemma: sodelovanje, S0POS: Sosei, S0Token: sodelovanje, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [v, prihodnjem, letu ,.. ]
+
+B0IsInLexic: true, B0Lemma: v, B0POS: Dm, B0Token: v, transitionHistoryLength3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [v]   B= [prihodnjem, letu, še ,.. ]
+
+B0Lemma: prihodnji, B0POS: Ppnsem, B0Token: prihodnjem, S0B0Lemma: v_prihodnji, S0B0LemmaPOS: v_Ppnsem, S0B0POS: Dm_Ppnsem, S0B0POSLemma: Dm_prihodnji, S0B0Token: v_prihodnjem, S0B1Lemma: v_leto, S0B1LemmaPOS: v_Sosem, S0B1POS: Dm_Sosem, S0B1POSLemma: Dm_leto, S0B1Token: v_letu, S0IsInLexic: true, S0Lemma: v, S0POS: Dm, S0Token: v, transitionHistoryLength3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prihodnjem, letu, še ,.. ]
+
+B0Lemma: prihodnji, B0POS: Ppnsem, B0Token: prihodnjem, transitionHistoryLength3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prihodnjem]   B= [letu, še, ne ,.. ]
+
+B0IsInLexic: true, B0Lemma: leto, B0POS: Sosem, B0Token: letu, S0B0Lemma: prihodnji_leto, S0B0LemmaPOS: prihodnji_Sosem, S0B0POS: Ppnsem_Sosem, S0B0POSLemma: Ppnsem_leto, S0B0Token: prihodnjem_letu, S0B1Lemma: prihodnji_še, S0B1LemmaPOS: prihodnji_L, S0B1POS: Ppnsem_L, S0B1POSLemma: Ppnsem_še, S0B1Token: prihodnjem_še, S0Lemma: prihodnji, S0POS: Ppnsem, S0Token: prihodnjem, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [letu, še, ne ,.. ]
+
+B0IsInLexic: true, B0Lemma: leto, B0POS: Sosem, B0Token: letu, transitionHistoryLength3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [letu]   B= [še, ne, pride ,.. ]
+
+B0IsInLexic: true, B0Lemma: še, B0POS: L, B0Token: še, S0B0Lemma: leto_še, S0B0LemmaPOS: leto_L, S0B0POS: Sosem_L, S0B0POSLemma: Sosem_še, S0B0Token: letu_še, S0B1Lemma: leto_ne, S0B1LemmaPOS: leto_L, S0B1POS: Sosem_L, S0B1POSLemma: Sosem_ne, S0B1Token: letu_ne, S0IsInLexic: true, S0Lemma: leto, S0POS: Sosem, S0Token: letu, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [še, ne, pride ,.. ]
+
+B0IsInLexic: true, B0Lemma: še, B0POS: L, B0Token: še, transitionHistoryLength3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [še]   B= [ne, pride, v ,.. ]
+
+B0IsInLexic: true, B0Lemma: ne, B0POS: L, B0Token: ne, S0B0Lemma: še_ne, S0B0LemmaPOS: še_L, S0B0POS: L_L, S0B0POSLemma: L_ne, S0B0Token: še_ne, S0B1Lemma: še_priti, S0B1LemmaPOS: še_Ggdste, S0B1POS: L_Ggdste, S0B1POSLemma: L_priti, S0B1Token: še_pride, S0IsInLexic: true, S0Lemma: še, S0POS: L, S0Token: še, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ne, pride, v ,.. ]
+
+B0IsInLexic: true, B0Lemma: ne, B0POS: L, B0Token: ne, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ne]   B= [pride, v, poštev ,.. ]
+
+B0IsInLexic: true, B0Lemma: priti, B0POS: Ggdste, B0Token: pride, S0B0Lemma: ne_priti, S0B0LemmaPOS: ne_Ggdste, S0B0POS: L_Ggdste, S0B0POSLemma: L_priti, S0B0Token: ne_pride, S0B1Lemma: ne_v, S0B1LemmaPOS: ne_Dt, S0B1POS: L_Dt, S0B1POSLemma: L_v, S0B1Token: ne_v, S0IsInLexic: true, S0Lemma: ne, S0POS: L, S0Token: ne, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pride, v, poštev ,.. ]
+
+B0IsInLexic: true, B0Lemma: priti, B0POS: Ggdste, B0Token: pride, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pride]   B= [v, poštev, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: v, B0POS: Dt, B0Token: v, S0B0Lemma: priti_v, S0B0LemmaPOS: priti_Dt, S0B0POS: Ggdste_Dt, S0B0POSLemma: Ggdste_v, S0B0Token: pride_v, S0B1Lemma: priti_poštev, S0B1LemmaPOS: priti_Sometn, S0B1POS: Ggdste_Sometn, S0B1POSLemma: Ggdste_poštev, S0B1Token: pride_poštev, S0IsInLexic: true, S0Lemma: priti, S0POS: Ggdste, S0Token: pride, transitionHistoryLength3: 202, 
+
+44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pride, v]   B= [poštev, ,, saj ,.. ]
+
+B0IsInLexic: true, B0Lemma: poštev, B0POS: Sometn, B0Token: poštev, S0B0Lemma: v_poštev, S0B0LemmaPOS: v_Sometn, S0B0POS: Dt_Sometn, S0B0POSLemma: Dt_poštev, S0B0Token: v_poštev, S0B1Lemma: v_,, S0B1LemmaPOS: v_,, S0B1POS: Dt_,, S0B1POSLemma: Dt_,, S0B1Token: v_,, S0IsInLexic: true, S0Lemma: v, S0POS: Dt, S0Token: v, S1B0Lemma: priti_poštev, S1B0LemmaPOS: priti_Sometn, S1B0POS: Ggdste_Sometn, S1B0POSLemma: Ggdste_poštev, S1B0Token: pride_poštev, S1IsInLexic: true, S1Lemma: priti, S1POS: Ggdste, S1S0Lemma: priti_v, S1S0LemmaPOS: priti_Dt, S1S0POS: Ggdste_Dt, S1S0POSLemma: Ggdste_v, S1S0Token: pride_v, S1Token: pride, transitionHistoryLength3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pride, v, poštev]   B= [,, saj, je ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: poštev_,, S0B0LemmaPOS: poštev_,, S0B0POS: Sometn_,, S0B0POSLemma: Sometn_,, S0B0Token: poštev_,, S0B1Lemma: poštev_saj, S0B1LemmaPOS: poštev_Vp, S0B1POS: Sometn_Vp, S0B1POSLemma: Sometn_saj, S0B1Token: poštev_saj, S0IsInLexic: true, S0Lemma: poštev, S0POS: Sometn, S0Token: poštev, S1B0Lemma: v_,, S1B0LemmaPOS: v_,, S1B0POS: Dt_,, S1B0POSLemma: Dt_,, S1B0Token: v_,, S1IsInLexic: true, S1Lemma: v, S1POS: Dt, S1S0Lemma: v_poštev, S1S0LemmaPOS: v_Sometn, S1S0POS: Dt_Sometn, S1S0POSLemma: Dt_poštev, S1S0Token: v_poštev, S1Token: v, transitionHistoryLength3: 002, 
+
+46- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pride, [v, poštev]]   B= [,, saj, je ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: v_poštev_,, S0B0LemmaPOS: v_poštev_,, S0B0POS: Dt_Sometn_,, S0B0POSLemma: Dt_Sometn_,, S0B0Token: v_poštev_,, S0B1Lemma: v_poštev_saj, S0B1LemmaPOS: v_poštev_Vp, S0B1POS: Dt_Sometn_Vp, S0B1POSLemma: Dt_Sometn_saj, S0B1Token: v_poštev_saj, S0Lemma: v_poštev, S0POS: Dt_Sometn, S0Token: v_poštev, S1B0Lemma: priti_,, S1B0LemmaPOS: priti_,, S1B0POS: Ggdste_,, S1B0POSLemma: Ggdste_,, S1B0Token: pride_,, S1IsInLexic: true, S1Lemma: priti, S1POS: Ggdste, S1S0Lemma: priti_v_poštev, S1S0LemmaPOS: priti_Dt_Sometn, S1S0POS: Ggdste_Dt_Sometn, S1S0POSLemma: Ggdste_v_poštev, S1S0Token: pride_v_poštev, S1Token: pride, transitionHistoryLength3: 000, 
+
+47- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[pride, [v, poštev]]]   B= [,, saj, je ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: priti_v_poštev_,, S0B0LemmaPOS: priti_v_poštev_,, S0B0POS: Ggdste_Dt_Sometn_,, S0B0POSLemma: Ggdste_Dt_Sometn_,, S0B0Token: pride_v_poštev_,, S0B1Lemma: priti_v_poštev_saj, S0B1LemmaPOS: priti_v_poštev_Vp, S0B1POS: Ggdste_Dt_Sometn_Vp, S0B1POSLemma: Ggdste_Dt_Sometn_saj, S0B1Token: pride_v_poštev_saj, S0Lemma: priti_v_poštev, S0POS: Ggdste_Dt_Sometn, S0Token: pride_v_poštev, transitionHistoryLength3: 100, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, saj, je ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 110, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [saj, je, premalo ,.. ]
+
+B0Lemma: saj, B0POS: Vp, B0Token: saj, S0B0Lemma: ,_saj, S0B0LemmaPOS: ,_Vp, S0B0POS: ,_Vp, S0B0POSLemma: ,_saj, S0B0Token: ,_saj, S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-ste-n, S0B1POS: ,_Gp-ste-n, S0B1POSLemma: ,_biti, S0B1Token: ,_je, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 211, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saj, je, premalo ,.. ]
+
+B0Lemma: saj, B0POS: Vp, B0Token: saj, transitionHistoryLength3: 021, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saj]   B= [je, premalo, časa ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, S0B0Lemma: saj_biti, S0B0LemmaPOS: saj_Gp-ste-n, S0B0POS: Vp_Gp-ste-n, S0B0POSLemma: Vp_biti, S0B0Token: saj_je, S0B1Lemma: saj_premalo, S0B1LemmaPOS: saj_Rsn, S0B1POS: Vp_Rsn, S0B1POSLemma: Vp_premalo, S0B1Token: saj_premalo, S0Lemma: saj, S0POS: Vp, S0Token: saj, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [je, premalo, časa ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, transitionHistoryLength3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [je]   B= [premalo, časa, za ,.. ]
+
+B0Lemma: premalo, B0POS: Rsn, B0Token: premalo, S0B0Lemma: biti_premalo, S0B0LemmaPOS: biti_Rsn, S0B0POS: Gp-ste-n_Rsn, S0B0POSLemma: Gp-ste-n_premalo, S0B0Token: je_premalo, S0B1Lemma: biti_čas, S0B1LemmaPOS: biti_Somer, S0B1POS: Gp-ste-n_Somer, S0B1POSLemma: Gp-ste-n_čas, S0B1Token: je_časa, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-ste-n, S0Token: je, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [premalo, časa, za ,.. ]
+
+B0Lemma: premalo, B0POS: Rsn, B0Token: premalo, transitionHistoryLength3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [premalo]   B= [časa, za, reorganizacijo ,.. ]
+
+B0IsInLexic: true, B0Lemma: čas, B0POS: Somer, B0Token: časa, S0B0Lemma: premalo_čas, S0B0LemmaPOS: premalo_Somer, S0B0POS: Rsn_Somer, S0B0POSLemma: Rsn_čas, S0B0Token: premalo_časa, S0B1Lemma: premalo_za, S0B1LemmaPOS: premalo_Dt, S0B1POS: Rsn_Dt, S0B1POSLemma: Rsn_za, S0B1Token: premalo_za, S0Lemma: premalo, S0POS: Rsn, S0Token: premalo, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [časa, za, reorganizacijo ,.. ]
+
+B0IsInLexic: true, B0Lemma: čas, B0POS: Somer, B0Token: časa, transitionHistoryLength3: 020, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [časa]   B= [za, reorganizacijo, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: za, B0POS: Dt, B0Token: za, S0B0Lemma: čas_za, S0B0LemmaPOS: čas_Dt, S0B0POS: Somer_Dt, S0B0POSLemma: Somer_za, S0B0Token: časa_za, S0B1Lemma: čas_reorganizacija, S0B1LemmaPOS: čas_Sozet, S0B1POS: Somer_Sozet, S0B1POSLemma: Somer_reorganizacija, S0B1Token: časa_reorganizacijo, S0IsInLexic: true, S0Lemma: čas, S0POS: Somer, S0Token: časa, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [za, reorganizacijo, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: za, B0POS: Dt, B0Token: za, transitionHistoryLength3: 020, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [za]   B= [reorganizacijo, . ,.. ]
+
+B0Lemma: reorganizacija, B0POS: Sozet, B0Token: reorganizacijo, S0B0Lemma: za_reorganizacija, S0B0LemmaPOS: za_Sozet, S0B0POS: Dt_Sozet, S0B0POSLemma: Dt_reorganizacija, S0B0Token: za_reorganizacijo, S0B1Lemma: za_., S0B1LemmaPOS: za_., S0B1POS: Dt_., S0B1POSLemma: Dt_., S0B1Token: za_., S0IsInLexic: true, S0Lemma: za, S0POS: Dt, S0Token: za, transitionHistoryLength3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [reorganizacijo, . ,.. ]
+
+B0Lemma: reorganizacija, B0POS: Sozet, B0Token: reorganizacijo, transitionHistoryLength3: 020, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [reorganizacijo]   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: reorganizacija_., S0B0LemmaPOS: reorganizacija_., S0B0POS: Sozet_., S0B0POSLemma: Sozet_., S0B0Token: reorganizacijo_., S0Lemma: reorganizacija, S0POS: Sozet, S0Token: reorganizacijo, transitionHistoryLength3: 202, 
 
 62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
@@ -264,1171 +782,405 @@ S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength3: 202,
 
 64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 4504 - 
-• se začne neznosno obnašati , da bi zbudil pozornost in tako prekinil prepir med vama ; 
+## Sentence No. 2494 - 
+Toda če pride do prekinitve tekme , če so navijači , ki nosijo nove rdeče - bele drese našega kluba , deležni šikaniranja in če je napadena tudi policija , potem tako ne gre več in moramo temu narediti konec , ” je dejal eden od klubskih mož . 
 ### Existing MWEs: 
-1- **se obnašati** (IReflV)
-2- **zbudil pozornost** (LVC)
+1- **pride do** (VPC)
+2- **narediti konec** (LVC)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [•, se, začne ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Toda, če, pride ,.. ]
 
-B0Lemma: •, B0POS: •, B0Token: •, 
+B0Lemma: toda, B0POS: Vp, B0Token: Toda, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [•]   B= [se, začne, neznosno ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Toda]   B= [če, pride, do ,.. ]
 
-B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: •_se, S0B0LemmaPOS: •_Zp------k, S0B0POS: •_Zp------k, S0B0POSLemma: •_se, S0B0Token: •_se, S0B1Lemma: •_začeti, S0B1LemmaPOS: •_Ggdste, S0B1POS: •_Ggdste, S0B1POSLemma: •_začeti, S0B1Token: •_začne, S0Lemma: •, S0POS: •, S0Token: •, 
+B0Lemma: če, B0POS: Vd, B0Token: če, S0B0Lemma: toda_če, S0B0LemmaPOS: toda_Vd, S0B0POS: Vp_Vd, S0B0POSLemma: Vp_če, S0B0Token: Toda_če, S0B1Lemma: toda_priti, S0B1LemmaPOS: toda_Ggdste, S0B1POS: Vp_Ggdste, S0B1POSLemma: Vp_priti, S0B1Token: Toda_pride, S0Lemma: toda, S0POS: Vp, S0Token: Toda, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, začne, neznosno ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [če, pride, do ,.. ]
 
-B0Lemma: se, B0POS: Zp------k, B0Token: se, 
+B0Lemma: če, B0POS: Vd, B0Token: če, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [začne, neznosno, obnašati ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [če]   B= [pride, do, prekinitve ,.. ]
 
-B0Lemma: začeti, B0POS: Ggdste, B0Token: začne, S0B0Lemma: se_začeti, S0B0LemmaPOS: se_Ggdste, S0B0POS: Zp------k_Ggdste, S0B0POSLemma: Zp------k_začeti, S0B0Token: se_začne, S0B1Lemma: se_neznosno, S0B1LemmaPOS: se_Rsn, S0B1POS: Zp------k_Rsn, S0B1POSLemma: Zp------k_neznosno, S0B1Token: se_neznosno, S0Lemma: se, S0POS: Zp------k, S0Token: se, 
+B0IsInLexic: true, B0Lemma: priti, B0POS: Ggdste, B0Token: pride, S0B0Lemma: če_priti, S0B0LemmaPOS: če_Ggdste, S0B0POS: Vd_Ggdste, S0B0POSLemma: Vd_priti, S0B0Token: če_pride, S0B1Lemma: če_do, S0B1LemmaPOS: če_Dr, S0B1POS: Vd_Dr, S0B1POSLemma: Vd_do, S0B1Token: če_do, S0Lemma: če, S0POS: Vd, S0Token: če, 
 
-4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, začne]   B= [neznosno, obnašati, , ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pride, do, prekinitve ,.. ]
 
-B0Lemma: neznosno, B0POS: Rsn, B0Token: neznosno, S0B0Lemma: začeti_neznosno, S0B0LemmaPOS: začeti_Rsn, S0B0POS: Ggdste_Rsn, S0B0POSLemma: Ggdste_neznosno, S0B0Token: začne_neznosno, S0B1Lemma: začeti_obnašati, S0B1LemmaPOS: začeti_Ggnn, S0B1POS: Ggdste_Ggnn, S0B1POSLemma: Ggdste_obnašati, S0B1Token: začne_obnašati, S0Lemma: začeti, S0POS: Ggdste, S0Token: začne, S1B0Lemma: se_neznosno, S1B0LemmaPOS: se_Rsn, S1B0POS: Zp------k_Rsn, S1B0POSLemma: Zp------k_neznosno, S1B0Token: se_neznosno, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_začeti, S1S0LemmaPOS: se_Ggdste, S1S0POS: Zp------k_Ggdste, S1S0POSLemma: Zp------k_začeti, S1S0Token: se_začne, S1Token: se, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: priti, B0POS: Ggdste, B0Token: pride, transitionHistoryLength3: 020, 
 
-5- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [neznosno, obnašati, , ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pride]   B= [do, prekinitve, tekme ,.. ]
 
-B0Lemma: neznosno, B0POS: Rsn, B0Token: neznosno, S0B0Lemma: se_neznosno, S0B0LemmaPOS: se_Rsn, S0B0POS: Zp------k_Rsn, S0B0POSLemma: Zp------k_neznosno, S0B0Token: se_neznosno, S0B1Lemma: se_obnašati, S0B1LemmaPOS: se_Ggnn, S0B1POS: Zp------k_Ggnn, S0B1POSLemma: Zp------k_obnašati, S0B1Token: se_obnašati, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 002, 
+B0IsInLexic: true, B0Lemma: do, B0POS: Dr, B0Token: do, S0B0Lemma: priti_do, S0B0LemmaPOS: priti_Dr, S0B0POS: Ggdste_Dr, S0B0POSLemma: Ggdste_do, S0B0Token: pride_do, S0B1Lemma: priti_prekinitev, S0B1LemmaPOS: priti_Sozer, S0B1POS: Ggdste_Sozer, S0B1POSLemma: Ggdste_prekinitev, S0B1Token: pride_prekinitve, S0IsInLexic: true, S0Lemma: priti, S0POS: Ggdste, S0Token: pride, transitionHistoryLength3: 202, 
 
-6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, neznosno]   B= [obnašati, ,, da ,.. ]
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pride, do]   B= [prekinitve, tekme, , ,.. ]
 
-B0Lemma: obnašati, B0POS: Ggnn, B0Token: obnašati, S0B0Lemma: neznosno_obnašati, S0B0LemmaPOS: neznosno_Ggnn, S0B0POS: Rsn_Ggnn, S0B0POSLemma: Rsn_obnašati, S0B0Token: neznosno_obnašati, S0B1Lemma: neznosno_,, S0B1LemmaPOS: neznosno_,, S0B1POS: Rsn_,, S0B1POSLemma: Rsn_,, S0B1Token: neznosno_,, S0Lemma: neznosno, S0POS: Rsn, S0Token: neznosno, S1B0Lemma: se_obnašati, S1B0LemmaPOS: se_Ggnn, S1B0POS: Zp------k_Ggnn, S1B0POSLemma: Zp------k_obnašati, S1B0Token: se_obnašati, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_neznosno, S1S0LemmaPOS: se_Rsn, S1S0POS: Zp------k_Rsn, S1S0POSLemma: Zp------k_neznosno, S1S0Token: se_neznosno, S1Token: se, transitionHistoryLength3: 200, 
+B0Lemma: prekinitev, B0POS: Sozer, B0Token: prekinitve, S0B0Lemma: do_prekinitev, S0B0LemmaPOS: do_Sozer, S0B0POS: Dr_Sozer, S0B0POSLemma: Dr_prekinitev, S0B0Token: do_prekinitve, S0B1Lemma: do_tekma, S0B1LemmaPOS: do_Sozer, S0B1POS: Dr_Sozer, S0B1POSLemma: Dr_tekma, S0B1Token: do_tekme, S0IsInLexic: true, S0Lemma: do, S0POS: Dr, S0Token: do, S1B0Lemma: priti_prekinitev, S1B0LemmaPOS: priti_Sozer, S1B0POS: Ggdste_Sozer, S1B0POSLemma: Ggdste_prekinitev, S1B0Token: pride_prekinitve, S1IsInLexic: true, S1Lemma: priti, S1POS: Ggdste, S1S0Lemma: priti_do, S1S0LemmaPOS: priti_Dr, S1S0POS: Ggdste_Dr, S1S0POSLemma: Ggdste_do, S1S0Token: pride_do, S1Token: pride, transitionHistoryLength3: 020, 
 
-7- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [obnašati, ,, da ,.. ]
+7- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[pride, do]]   B= [prekinitve, tekme, , ,.. ]
 
-B0Lemma: obnašati, B0POS: Ggnn, B0Token: obnašati, S0B0Lemma: se_obnašati, S0B0LemmaPOS: se_Ggnn, S0B0POS: Zp------k_Ggnn, S0B0POSLemma: Zp------k_obnašati, S0B0Token: se_obnašati, S0B1Lemma: se_,, S0B1LemmaPOS: se_,, S0B1POS: Zp------k_,, S0B1POSLemma: Zp------k_,, S0B1Token: se_,, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 020, 
+B0Lemma: prekinitev, B0POS: Sozer, B0Token: prekinitve, S0B0Lemma: priti_do_prekinitev, S0B0LemmaPOS: priti_do_Sozer, S0B0POS: Ggdste_Dr_Sozer, S0B0POSLemma: Ggdste_Dr_prekinitev, S0B0Token: pride_do_prekinitve, S0B1Lemma: priti_do_tekma, S0B1LemmaPOS: priti_do_Sozer, S0B1POS: Ggdste_Dr_Sozer, S0B1POSLemma: Ggdste_Dr_tekma, S0B1Token: pride_do_tekme, S0Lemma: priti_do, S0POS: Ggdste_Dr, S0Token: pride_do, transitionHistoryLength3: 002, 
 
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, obnašati]   B= [,, da, bi ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prekinitve, tekme, , ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: obnašati_,, S0B0LemmaPOS: obnašati_,, S0B0POS: Ggnn_,, S0B0POSLemma: Ggnn_,, S0B0Token: obnašati_,, S0B1Lemma: obnašati_da, S0B1LemmaPOS: obnašati_Vd, S0B1POS: Ggnn_Vd, S0B1POSLemma: Ggnn_da, S0B1Token: obnašati_da, S0Lemma: obnašati, S0POS: Ggnn, S0Token: obnašati, S1B0Lemma: se_,, S1B0LemmaPOS: se_,, S1B0POS: Zp------k_,, S1B0POSLemma: Zp------k_,, S1B0Token: se_,, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_obnašati, S1S0LemmaPOS: se_Ggnn, S1S0POS: Zp------k_Ggnn, S1S0POSLemma: Zp------k_obnašati, S1S0Token: se_obnašati, S1Token: se, transitionHistoryLength3: 202, 
+B0Lemma: prekinitev, B0POS: Sozer, B0Token: prekinitve, transitionHistoryLength3: 100, 
 
-9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, obnašati]]   B= [,, da, bi ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prekinitve]   B= [tekme, ,, če ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: se_obnašati_,, S0B0LemmaPOS: se_obnašati_,, S0B0POS: Zp------k_Ggnn_,, S0B0POSLemma: Zp------k_Ggnn_,, S0B0Token: se_obnašati_,, S0B1Lemma: se_obnašati_da, S0B1LemmaPOS: se_obnašati_Vd, S0B1POS: Zp------k_Ggnn_Vd, S0B1POSLemma: Zp------k_Ggnn_da, S0B1Token: se_obnašati_da, S0Lemma: se_obnašati, S0POS: Zp------k_Ggnn, S0Token: se_obnašati, transitionHistoryLength3: 020, 
+B0Lemma: tekma, B0POS: Sozer, B0Token: tekme, S0B0Lemma: prekinitev_tekma, S0B0LemmaPOS: prekinitev_Sozer, S0B0POS: Sozer_Sozer, S0B0POSLemma: Sozer_tekma, S0B0Token: prekinitve_tekme, S0B1Lemma: prekinitev_,, S0B1LemmaPOS: prekinitev_,, S0B1POS: Sozer_,, S0B1POSLemma: Sozer_,, S0B1Token: prekinitve_,, S0Lemma: prekinitev, S0POS: Sozer, S0Token: prekinitve, transitionHistoryLength3: 210, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, da, bi ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tekme, ,, če ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 102, 
+B0Lemma: tekma, B0POS: Sozer, B0Token: tekme, transitionHistoryLength3: 021, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [da, bi, zbudil ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tekme]   B= [,, če, so ,.. ]
 
-B0Lemma: da, B0POS: Vd, B0Token: da, S0B0Lemma: ,_da, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_da, S0B0Token: ,_da, S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-g, S0B1POS: ,_Gp-g, S0B1POSLemma: ,_biti, S0B1Token: ,_bi, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 210, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: tekma_,, S0B0LemmaPOS: tekma_,, S0B0POS: Sozer_,, S0B0POSLemma: Sozer_,, S0B0Token: tekme_,, S0B1Lemma: tekma_če, S0B1LemmaPOS: tekma_Vd, S0B1POS: Sozer_Vd, S0B1POSLemma: Sozer_če, S0B1Token: tekme_če, S0Lemma: tekma, S0POS: Sozer, S0Token: tekme, transitionHistoryLength3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, bi, zbudil ,.. ]
-
-B0Lemma: da, B0POS: Vd, B0Token: da, transitionHistoryLength3: 021, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [bi, zbudil, pozornost ,.. ]
-
-B0Lemma: biti, B0POS: Gp-g, B0Token: bi, S0B0Lemma: da_biti, S0B0LemmaPOS: da_Gp-g, S0B0POS: Vd_Gp-g, S0B0POSLemma: Vd_biti, S0B0Token: da_bi, S0B1Lemma: da_zbuditi, S0B1LemmaPOS: da_Ggdd-em, S0B1POS: Vd_Ggdd-em, S0B1POSLemma: Vd_zbuditi, S0B1Token: da_zbudil, S0Lemma: da, S0POS: Vd, S0Token: da, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bi, zbudil, pozornost ,.. ]
-
-B0Lemma: biti, B0POS: Gp-g, B0Token: bi, transitionHistoryLength3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bi]   B= [zbudil, pozornost, in ,.. ]
-
-B0Lemma: zbuditi, B0POS: Ggdd-em, B0Token: zbudil, S0B0Lemma: biti_zbuditi, S0B0LemmaPOS: biti_Ggdd-em, S0B0POS: Gp-g_Ggdd-em, S0B0POSLemma: Gp-g_zbuditi, S0B0Token: bi_zbudil, S0B1Lemma: biti_pozornost, S0B1LemmaPOS: biti_Sozet, S0B1POS: Gp-g_Sozet, S0B1POSLemma: Gp-g_pozornost, S0B1Token: bi_pozornost, S0Lemma: biti, S0POS: Gp-g, S0Token: bi, transitionHistoryLength3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zbudil, pozornost, in ,.. ]
-
-B0Lemma: zbuditi, B0POS: Ggdd-em, B0Token: zbudil, transitionHistoryLength3: 020, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zbudil]   B= [pozornost, in, tako ,.. ]
-
-B0Lemma: pozornost, B0POS: Sozet, B0Token: pozornost, S0B0Lemma: zbuditi_pozornost, S0B0LemmaPOS: zbuditi_Sozet, S0B0POS: Ggdd-em_Sozet, S0B0POSLemma: Ggdd-em_pozornost, S0B0Token: zbudil_pozornost, S0B1Lemma: zbuditi_in, S0B1LemmaPOS: zbuditi_Vp, S0B1POS: Ggdd-em_Vp, S0B1POSLemma: Ggdd-em_in, S0B1Token: zbudil_in, S0Lemma: zbuditi, S0POS: Ggdd-em, S0Token: zbudil, transitionHistoryLength3: 202, 
-
-18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zbudil, pozornost]   B= [in, tako, prekinil ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: pozornost_in, S0B0LemmaPOS: pozornost_Vp, S0B0POS: Sozet_Vp, S0B0POSLemma: Sozet_in, S0B0Token: pozornost_in, S0B1Lemma: pozornost_tako, S0B1LemmaPOS: pozornost_Rsn, S0B1POS: Sozet_Rsn, S0B1POSLemma: Sozet_tako, S0B1Token: pozornost_tako, S0Lemma: pozornost, S0POS: Sozet, S0Token: pozornost, S1B0Lemma: zbuditi_in, S1B0LemmaPOS: zbuditi_Vp, S1B0POS: Ggdd-em_Vp, S1B0POSLemma: Ggdd-em_in, S1B0Token: zbudil_in, S1Lemma: zbuditi, S1POS: Ggdd-em, S1S0Lemma: zbuditi_pozornost, S1S0LemmaPOS: zbuditi_Sozet, S1S0POS: Ggdd-em_Sozet, S1S0POSLemma: Ggdd-em_pozornost, S1S0Token: zbudil_pozornost, S1Token: zbudil, transitionHistoryLength3: 020, 
-
-19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[zbudil, pozornost]]   B= [in, tako, prekinil ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: zbuditi_pozornost_in, S0B0LemmaPOS: zbuditi_pozornost_Vp, S0B0POS: Ggdd-em_Sozet_Vp, S0B0POSLemma: Ggdd-em_Sozet_in, S0B0Token: zbudil_pozornost_in, S0B1Lemma: zbuditi_pozornost_tako, S0B1LemmaPOS: zbuditi_pozornost_Rsn, S0B1POS: Ggdd-em_Sozet_Rsn, S0B1POSLemma: Ggdd-em_Sozet_tako, S0B1Token: zbudil_pozornost_tako, S0Lemma: zbuditi_pozornost, S0POS: Ggdd-em_Sozet, S0Token: zbudil_pozornost, transitionHistoryLength3: 002, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, tako, prekinil ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 100, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [tako, prekinil, prepir ,.. ]
-
-B0Lemma: tako, B0POS: Rsn, B0Token: tako, S0B0Lemma: in_tako, S0B0LemmaPOS: in_Rsn, S0B0POS: Vp_Rsn, S0B0POSLemma: Vp_tako, S0B0Token: in_tako, S0B1Lemma: in_prekiniti, S0B1LemmaPOS: in_Ggdd-em, S0B1POS: Vp_Ggdd-em, S0B1POSLemma: Vp_prekiniti, S0B1Token: in_prekinil, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 210, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tako, prekinil, prepir ,.. ]
-
-B0Lemma: tako, B0POS: Rsn, B0Token: tako, transitionHistoryLength3: 021, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tako]   B= [prekinil, prepir, med ,.. ]
-
-B0Lemma: prekiniti, B0POS: Ggdd-em, B0Token: prekinil, S0B0Lemma: tako_prekiniti, S0B0LemmaPOS: tako_Ggdd-em, S0B0POS: Rsn_Ggdd-em, S0B0POSLemma: Rsn_prekiniti, S0B0Token: tako_prekinil, S0B1Lemma: tako_prepir, S0B1LemmaPOS: tako_Sometn, S0B1POS: Rsn_Sometn, S0B1POSLemma: Rsn_prepir, S0B1Token: tako_prepir, S0Lemma: tako, S0POS: Rsn, S0Token: tako, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prekinil, prepir, med ,.. ]
-
-B0Lemma: prekiniti, B0POS: Ggdd-em, B0Token: prekinil, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prekinil]   B= [prepir, med, vama ,.. ]
-
-B0Lemma: prepir, B0POS: Sometn, B0Token: prepir, S0B0Lemma: prekiniti_prepir, S0B0LemmaPOS: prekiniti_Sometn, S0B0POS: Ggdd-em_Sometn, S0B0POSLemma: Ggdd-em_prepir, S0B0Token: prekinil_prepir, S0B1Lemma: prekiniti_med, S0B1LemmaPOS: prekiniti_Do, S0B1POS: Ggdd-em_Do, S0B1POSLemma: Ggdd-em_med, S0B1Token: prekinil_med, S0Lemma: prekiniti, S0POS: Ggdd-em, S0Token: prekinil, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prepir, med, vama ,.. ]
-
-B0Lemma: prepir, B0POS: Sometn, B0Token: prepir, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prepir]   B= [med, vama, ; ,.. ]
-
-B0Lemma: med, B0POS: Do, B0Token: med, S0B0Lemma: prepir_med, S0B0LemmaPOS: prepir_Do, S0B0POS: Sometn_Do, S0B0POSLemma: Sometn_med, S0B0Token: prepir_med, S0B1Lemma: prepir_ti, S0B1LemmaPOS: prepir_Zod-do, S0B1POS: Sometn_Zod-do, S0B1POSLemma: Sometn_ti, S0B1Token: prepir_vama, S0Lemma: prepir, S0POS: Sometn, S0Token: prepir, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [med, vama, ; ,.. ]
-
-B0Lemma: med, B0POS: Do, B0Token: med, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [med]   B= [vama, ; ,.. ]
-
-B0Lemma: ti, B0POS: Zod-do, B0Token: vama, S0B0Lemma: med_ti, S0B0LemmaPOS: med_Zod-do, S0B0POS: Do_Zod-do, S0B0POSLemma: Do_ti, S0B0Token: med_vama, S0B1Lemma: med_;, S0B1LemmaPOS: med_;, S0B1POS: Do_;, S0B1POSLemma: Do_;, S0B1Token: med_;, S0Lemma: med, S0POS: Do, S0Token: med, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vama, ; ,.. ]
-
-B0Lemma: ti, B0POS: Zod-do, B0Token: vama, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vama]   B= [;]
-
-B0Lemma: ;, B0POS: ;, B0Token: ;, S0B0Lemma: ti_;, S0B0LemmaPOS: ti_;, S0B0POS: Zod-do_;, S0B0POSLemma: Zod-do_;, S0B0Token: vama_;, S0Lemma: ti, S0POS: Zod-do, S0Token: vama, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [;]
-
-B0Lemma: ;, B0POS: ;, B0Token: ;, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [;]   B= [ ]
-
-S0Lemma: ;, S0POS: ;, S0Token: ;, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 4576 - 
-Moje delo v mirovnem komiteju mednarodnega PEN se seveda da povezovati tudi s prej omenjenimi spoznanji , saj gre v obeh primerih za človekove pravice in njihove kršitve , ki jih je še vedno veliko , in moramo nanje neprestano in odločno opozarjati . 
-### Existing MWEs: 
-1- **se da** (IReflV)
-2- **gre za** (VPC)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Moje, delo, v ,.. ]
-
-B0Lemma: moj, B0POS: Zspsete, B0Token: Moje, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Moje]   B= [delo, v, mirovnem ,.. ]
-
-B0Lemma: delo, B0POS: Soset, B0Token: delo, S0B0Lemma: moj_delo, S0B0LemmaPOS: moj_Soset, S0B0POS: Zspsete_Soset, S0B0POSLemma: Zspsete_delo, S0B0Token: Moje_delo, S0B1Lemma: moj_v, S0B1LemmaPOS: moj_Dm, S0B1POS: Zspsete_Dm, S0B1POSLemma: Zspsete_v, S0B1Token: Moje_v, S0Lemma: moj, S0POS: Zspsete, S0Token: Moje, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [delo, v, mirovnem ,.. ]
-
-B0Lemma: delo, B0POS: Soset, B0Token: delo, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [delo]   B= [v, mirovnem, komiteju ,.. ]
-
-B0Lemma: v, B0POS: Dm, B0Token: v, S0B0Lemma: delo_v, S0B0LemmaPOS: delo_Dm, S0B0POS: Soset_Dm, S0B0POSLemma: Soset_v, S0B0Token: delo_v, S0B1Lemma: delo_miroven, S0B1LemmaPOS: delo_Ppnmem, S0B1POS: Soset_Ppnmem, S0B1POSLemma: Soset_miroven, S0B1Token: delo_mirovnem, S0Lemma: delo, S0POS: Soset, S0Token: delo, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [v, mirovnem, komiteju ,.. ]
-
-B0Lemma: v, B0POS: Dm, B0Token: v, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [v]   B= [mirovnem, komiteju, mednarodnega ,.. ]
-
-B0Lemma: miroven, B0POS: Ppnmem, B0Token: mirovnem, S0B0Lemma: v_miroven, S0B0LemmaPOS: v_Ppnmem, S0B0POS: Dm_Ppnmem, S0B0POSLemma: Dm_miroven, S0B0Token: v_mirovnem, S0B1Lemma: v_komite, S0B1LemmaPOS: v_Somem, S0B1POS: Dm_Somem, S0B1POSLemma: Dm_komite, S0B1Token: v_komiteju, S0Lemma: v, S0POS: Dm, S0Token: v, transitionHistoryLength3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mirovnem, komiteju, mednarodnega ,.. ]
-
-B0Lemma: miroven, B0POS: Ppnmem, B0Token: mirovnem, transitionHistoryLength3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mirovnem]   B= [komiteju, mednarodnega, PEN ,.. ]
-
-B0Lemma: komite, B0POS: Somem, B0Token: komiteju, S0B0Lemma: miroven_komite, S0B0LemmaPOS: miroven_Somem, S0B0POS: Ppnmem_Somem, S0B0POSLemma: Ppnmem_komite, S0B0Token: mirovnem_komiteju, S0B1Lemma: miroven_mednaroden, S0B1LemmaPOS: miroven_Ppnmer, S0B1POS: Ppnmem_Ppnmer, S0B1POSLemma: Ppnmem_mednaroden, S0B1Token: mirovnem_mednarodnega, S0Lemma: miroven, S0POS: Ppnmem, S0Token: mirovnem, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [komiteju, mednarodnega, PEN ,.. ]
-
-B0Lemma: komite, B0POS: Somem, B0Token: komiteju, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [komiteju]   B= [mednarodnega, PEN, se ,.. ]
-
-B0Lemma: mednaroden, B0POS: Ppnmer, B0Token: mednarodnega, S0B0Lemma: komite_mednaroden, S0B0LemmaPOS: komite_Ppnmer, S0B0POS: Somem_Ppnmer, S0B0POSLemma: Somem_mednaroden, S0B0Token: komiteju_mednarodnega, S0B1Lemma: komite_PEN, S0B1LemmaPOS: komite_Slmer, S0B1POS: Somem_Slmer, S0B1POSLemma: Somem_PEN, S0B1Token: komiteju_PEN, S0Lemma: komite, S0POS: Somem, S0Token: komiteju, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mednarodnega, PEN, se ,.. ]
-
-B0Lemma: mednaroden, B0POS: Ppnmer, B0Token: mednarodnega, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mednarodnega]   B= [PEN, se, seveda ,.. ]
-
-B0Lemma: PEN, B0POS: Slmer, B0Token: PEN, S0B0Lemma: mednaroden_PEN, S0B0LemmaPOS: mednaroden_Slmer, S0B0POS: Ppnmer_Slmer, S0B0POSLemma: Ppnmer_PEN, S0B0Token: mednarodnega_PEN, S0B1Lemma: mednaroden_se, S0B1LemmaPOS: mednaroden_Zp------k, S0B1POS: Ppnmer_Zp------k, S0B1POSLemma: Ppnmer_se, S0B1Token: mednarodnega_se, S0Lemma: mednaroden, S0POS: Ppnmer, S0Token: mednarodnega, transitionHistoryLength3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [PEN, se, seveda ,.. ]
-
-B0Lemma: PEN, B0POS: Slmer, B0Token: PEN, transitionHistoryLength3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [PEN]   B= [se, seveda, da ,.. ]
-
-B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: PEN_se, S0B0LemmaPOS: PEN_Zp------k, S0B0POS: Slmer_Zp------k, S0B0POSLemma: Slmer_se, S0B0Token: PEN_se, S0B1Lemma: PEN_seveda, S0B1LemmaPOS: PEN_L, S0B1POS: Slmer_L, S0B1POSLemma: Slmer_seveda, S0B1Token: PEN_seveda, S0Lemma: PEN, S0POS: Slmer, S0Token: PEN, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, seveda, da ,.. ]
-
-B0Lemma: se, B0POS: Zp------k, B0Token: se, transitionHistoryLength3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [seveda, da, povezovati ,.. ]
-
-B0Lemma: seveda, B0POS: L, B0Token: seveda, S0B0Lemma: se_seveda, S0B0LemmaPOS: se_L, S0B0POS: Zp------k_L, S0B0POSLemma: Zp------k_seveda, S0B0Token: se_seveda, S0B1Lemma: se_dati, S0B1LemmaPOS: se_Ggdste, S0B1POS: Zp------k_Ggdste, S0B1POSLemma: Zp------k_dati, S0B1Token: se_da, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 202, 
-
-16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, seveda]   B= [da, povezovati, tudi ,.. ]
-
-B0Lemma: dati, B0POS: Ggdste, B0Token: da, S0B0Lemma: seveda_dati, S0B0LemmaPOS: seveda_Ggdste, S0B0POS: L_Ggdste, S0B0POSLemma: L_dati, S0B0Token: seveda_da, S0B1Lemma: seveda_povezovati, S0B1LemmaPOS: seveda_Ggnn, S0B1POS: L_Ggnn, S0B1POSLemma: L_povezovati, S0B1Token: seveda_povezovati, S0Lemma: seveda, S0POS: L, S0Token: seveda, S1B0Lemma: se_dati, S1B0LemmaPOS: se_Ggdste, S1B0POS: Zp------k_Ggdste, S1B0POSLemma: Zp------k_dati, S1B0Token: se_da, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_seveda, S1S0LemmaPOS: se_L, S1S0POS: Zp------k_L, S1S0POSLemma: Zp------k_seveda, S1S0Token: se_seveda, S1Token: se, transitionHistoryLength3: 020, 
-
-17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [da, povezovati, tudi ,.. ]
-
-B0Lemma: dati, B0POS: Ggdste, B0Token: da, S0B0Lemma: se_dati, S0B0LemmaPOS: se_Ggdste, S0B0POS: Zp------k_Ggdste, S0B0POSLemma: Zp------k_dati, S0B0Token: se_da, S0B1Lemma: se_povezovati, S0B1LemmaPOS: se_Ggnn, S0B1POS: Zp------k_Ggnn, S0B1POSLemma: Zp------k_povezovati, S0B1Token: se_povezovati, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 002, 
-
-18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, da]   B= [povezovati, tudi, s ,.. ]
-
-B0Lemma: povezovati, B0POS: Ggnn, B0Token: povezovati, S0B0Lemma: dati_povezovati, S0B0LemmaPOS: dati_Ggnn, S0B0POS: Ggdste_Ggnn, S0B0POSLemma: Ggdste_povezovati, S0B0Token: da_povezovati, S0B1Lemma: dati_tudi, S0B1LemmaPOS: dati_L, S0B1POS: Ggdste_L, S0B1POSLemma: Ggdste_tudi, S0B1Token: da_tudi, S0Lemma: dati, S0POS: Ggdste, S0Token: da, S1B0Lemma: se_povezovati, S1B0LemmaPOS: se_Ggnn, S1B0POS: Zp------k_Ggnn, S1B0POSLemma: Zp------k_povezovati, S1B0Token: se_povezovati, S1Lemma: se, S1POS: Zp------k, S1S0Lemma: se_dati, S1S0LemmaPOS: se_Ggdste, S1S0POS: Zp------k_Ggdste, S1S0POSLemma: Zp------k_dati, S1S0Token: se_da, S1Token: se, transitionHistoryLength3: 200, 
-
-19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, da]]   B= [povezovati, tudi, s ,.. ]
-
-B0Lemma: povezovati, B0POS: Ggnn, B0Token: povezovati, S0B0Lemma: se_dati_povezovati, S0B0LemmaPOS: se_dati_Ggnn, S0B0POS: Zp------k_Ggdste_Ggnn, S0B0POSLemma: Zp------k_Ggdste_povezovati, S0B0Token: se_da_povezovati, S0B1Lemma: se_dati_tudi, S0B1LemmaPOS: se_dati_L, S0B1POS: Zp------k_Ggdste_L, S0B1POSLemma: Zp------k_Ggdste_tudi, S0B1Token: se_da_tudi, S0Lemma: se_dati, S0POS: Zp------k_Ggdste, S0Token: se_da, transitionHistoryLength3: 020, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [povezovati, tudi, s ,.. ]
-
-B0Lemma: povezovati, B0POS: Ggnn, B0Token: povezovati, transitionHistoryLength3: 102, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [povezovati]   B= [tudi, s, prej ,.. ]
-
-B0Lemma: tudi, B0POS: L, B0Token: tudi, S0B0Lemma: povezovati_tudi, S0B0LemmaPOS: povezovati_L, S0B0POS: Ggnn_L, S0B0POSLemma: Ggnn_tudi, S0B0Token: povezovati_tudi, S0B1Lemma: povezovati_z, S0B1LemmaPOS: povezovati_Do, S0B1POS: Ggnn_Do, S0B1POSLemma: Ggnn_z, S0B1Token: povezovati_s, S0Lemma: povezovati, S0POS: Ggnn, S0Token: povezovati, transitionHistoryLength3: 210, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tudi, s, prej ,.. ]
-
-B0Lemma: tudi, B0POS: L, B0Token: tudi, transitionHistoryLength3: 021, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tudi]   B= [s, prej, omenjenimi ,.. ]
-
-B0Lemma: z, B0POS: Do, B0Token: s, S0B0Lemma: tudi_z, S0B0LemmaPOS: tudi_Do, S0B0POS: L_Do, S0B0POSLemma: L_z, S0B0Token: tudi_s, S0B1Lemma: tudi_prej, S0B1LemmaPOS: tudi_Rsr, S0B1POS: L_Rsr, S0B1POSLemma: L_prej, S0B1Token: tudi_prej, S0Lemma: tudi, S0POS: L, S0Token: tudi, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, prej, omenjenimi ,.. ]
-
-B0Lemma: z, B0POS: Do, B0Token: s, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [prej, omenjenimi, spoznanji ,.. ]
-
-B0Lemma: prej, B0POS: Rsr, B0Token: prej, S0B0Lemma: z_prej, S0B0LemmaPOS: z_Rsr, S0B0POS: Do_Rsr, S0B0POSLemma: Do_prej, S0B0Token: s_prej, S0B1Lemma: z_omenjen, S0B1LemmaPOS: z_Pdnsmo, S0B1POS: Do_Pdnsmo, S0B1POSLemma: Do_omenjen, S0B1Token: s_omenjenimi, S0Lemma: z, S0POS: Do, S0Token: s, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prej, omenjenimi, spoznanji ,.. ]
-
-B0Lemma: prej, B0POS: Rsr, B0Token: prej, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prej]   B= [omenjenimi, spoznanji, , ,.. ]
-
-B0Lemma: omenjen, B0POS: Pdnsmo, B0Token: omenjenimi, S0B0Lemma: prej_omenjen, S0B0LemmaPOS: prej_Pdnsmo, S0B0POS: Rsr_Pdnsmo, S0B0POSLemma: Rsr_omenjen, S0B0Token: prej_omenjenimi, S0B1Lemma: prej_spoznanje, S0B1LemmaPOS: prej_Sosmo, S0B1POS: Rsr_Sosmo, S0B1POSLemma: Rsr_spoznanje, S0B1Token: prej_spoznanji, S0Lemma: prej, S0POS: Rsr, S0Token: prej, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [omenjenimi, spoznanji, , ,.. ]
-
-B0Lemma: omenjen, B0POS: Pdnsmo, B0Token: omenjenimi, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [omenjenimi]   B= [spoznanji, ,, saj ,.. ]
-
-B0Lemma: spoznanje, B0POS: Sosmo, B0Token: spoznanji, S0B0Lemma: omenjen_spoznanje, S0B0LemmaPOS: omenjen_Sosmo, S0B0POS: Pdnsmo_Sosmo, S0B0POSLemma: Pdnsmo_spoznanje, S0B0Token: omenjenimi_spoznanji, S0B1Lemma: omenjen_,, S0B1LemmaPOS: omenjen_,, S0B1POS: Pdnsmo_,, S0B1POSLemma: Pdnsmo_,, S0B1Token: omenjenimi_,, S0Lemma: omenjen, S0POS: Pdnsmo, S0Token: omenjenimi, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [spoznanji, ,, saj ,.. ]
-
-B0Lemma: spoznanje, B0POS: Sosmo, B0Token: spoznanji, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [spoznanji]   B= [,, saj, gre ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: spoznanje_,, S0B0LemmaPOS: spoznanje_,, S0B0POS: Sosmo_,, S0B0POSLemma: Sosmo_,, S0B0Token: spoznanji_,, S0B1Lemma: spoznanje_saj, S0B1LemmaPOS: spoznanje_Vp, S0B1POS: Sosmo_Vp, S0B1POSLemma: Sosmo_saj, S0B1Token: spoznanji_saj, S0Lemma: spoznanje, S0POS: Sosmo, S0Token: spoznanji, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, saj, gre ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, če, so ,.. ]
 
 B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [saj, gre, v ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [če, so, navijači ,.. ]
 
-B0Lemma: saj, B0POS: Vp, B0Token: saj, S0B0Lemma: ,_saj, S0B0LemmaPOS: ,_Vp, S0B0POS: ,_Vp, S0B0POSLemma: ,_saj, S0B0Token: ,_saj, S0B1Lemma: ,_iti, S0B1LemmaPOS: ,_Ggvste, S0B1POS: ,_Ggvste, S0B1POSLemma: ,_iti, S0B1Token: ,_gre, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: če, B0POS: Vd, B0Token: če, S0B0Lemma: ,_če, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_če, S0B0Token: ,_če, S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-stm-n, S0B1POS: ,_Gp-stm-n, S0B1POSLemma: ,_biti, S0B1Token: ,_so, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saj, gre, v ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [če, so, navijači ,.. ]
 
-B0Lemma: saj, B0POS: Vp, B0Token: saj, transitionHistoryLength3: 020, 
+B0Lemma: če, B0POS: Vd, B0Token: če, transitionHistoryLength3: 020, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saj]   B= [gre, v, obeh ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [če]   B= [so, navijači, , ,.. ]
 
-B0Lemma: iti, B0POS: Ggvste, B0Token: gre, S0B0Lemma: saj_iti, S0B0LemmaPOS: saj_Ggvste, S0B0POS: Vp_Ggvste, S0B0POSLemma: Vp_iti, S0B0Token: saj_gre, S0B1Lemma: saj_v, S0B1LemmaPOS: saj_Dm, S0B1POS: Vp_Dm, S0B1POSLemma: Vp_v, S0B1Token: saj_v, S0Lemma: saj, S0POS: Vp, S0Token: saj, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-stm-n, B0Token: so, S0B0Lemma: če_biti, S0B0LemmaPOS: če_Gp-stm-n, S0B0POS: Vd_Gp-stm-n, S0B0POSLemma: Vd_biti, S0B0Token: če_so, S0B1Lemma: če_navijač, S0B1LemmaPOS: če_Sommi, S0B1POS: Vd_Sommi, S0B1POSLemma: Vd_navijač, S0B1Token: če_navijači, S0Lemma: če, S0POS: Vd, S0Token: če, transitionHistoryLength3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gre, v, obeh ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [so, navijači, , ,.. ]
 
-B0Lemma: iti, B0POS: Ggvste, B0Token: gre, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-stm-n, B0Token: so, transitionHistoryLength3: 020, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre]   B= [v, obeh, primerih ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so]   B= [navijači, ,, ki ,.. ]
 
-B0Lemma: v, B0POS: Dm, B0Token: v, S0B0Lemma: iti_v, S0B0LemmaPOS: iti_Dm, S0B0POS: Ggvste_Dm, S0B0POSLemma: Ggvste_v, S0B0Token: gre_v, S0B1Lemma: iti_oba, S0B1LemmaPOS: iti_Zc-mdm, S0B1POS: Ggvste_Zc-mdm, S0B1POSLemma: Ggvste_oba, S0B1Token: gre_obeh, S0Lemma: iti, S0POS: Ggvste, S0Token: gre, transitionHistoryLength3: 202, 
+B0Lemma: navijač, B0POS: Sommi, B0Token: navijači, S0B0Lemma: biti_navijač, S0B0LemmaPOS: biti_Sommi, S0B0POS: Gp-stm-n_Sommi, S0B0POSLemma: Gp-stm-n_navijač, S0B0Token: so_navijači, S0B1Lemma: biti_,, S0B1LemmaPOS: biti_,, S0B1POS: Gp-stm-n_,, S0B1POSLemma: Gp-stm-n_,, S0B1Token: so_,, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-stm-n, S0Token: so, transitionHistoryLength3: 202, 
 
-38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre, v]   B= [obeh, primerih, za ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [navijači, ,, ki ,.. ]
 
-B0Lemma: oba, B0POS: Zc-mdm, B0Token: obeh, S0B0Lemma: v_oba, S0B0LemmaPOS: v_Zc-mdm, S0B0POS: Dm_Zc-mdm, S0B0POSLemma: Dm_oba, S0B0Token: v_obeh, S0B1Lemma: v_primer, S0B1LemmaPOS: v_Somdm, S0B1POS: Dm_Somdm, S0B1POSLemma: Dm_primer, S0B1Token: v_primerih, S0Lemma: v, S0POS: Dm, S0Token: v, S1B0Lemma: iti_oba, S1B0LemmaPOS: iti_Zc-mdm, S1B0POS: Ggvste_Zc-mdm, S1B0POSLemma: Ggvste_oba, S1B0Token: gre_obeh, S1Lemma: iti, S1POS: Ggvste, S1S0Lemma: iti_v, S1S0LemmaPOS: iti_Dm, S1S0POS: Ggvste_Dm, S1S0POSLemma: Ggvste_v, S1S0Token: gre_v, S1Token: gre, transitionHistoryLength3: 020, 
+B0Lemma: navijač, B0POS: Sommi, B0Token: navijači, transitionHistoryLength3: 020, 
 
-39- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre]   B= [obeh, primerih, za ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [navijači]   B= [,, ki, nosijo ,.. ]
 
-B0Lemma: oba, B0POS: Zc-mdm, B0Token: obeh, S0B0Lemma: iti_oba, S0B0LemmaPOS: iti_Zc-mdm, S0B0POS: Ggvste_Zc-mdm, S0B0POSLemma: Ggvste_oba, S0B0Token: gre_obeh, S0B1Lemma: iti_primer, S0B1LemmaPOS: iti_Somdm, S0B1POS: Ggvste_Somdm, S0B1POSLemma: Ggvste_primer, S0B1Token: gre_primerih, S0Lemma: iti, S0POS: Ggvste, S0Token: gre, transitionHistoryLength3: 002, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: navijač_,, S0B0LemmaPOS: navijač_,, S0B0POS: Sommi_,, S0B0POSLemma: Sommi_,, S0B0Token: navijači_,, S0B1Lemma: navijač_ki, S0B1LemmaPOS: navijač_Vd, S0B1POS: Sommi_Vd, S0B1POSLemma: Sommi_ki, S0B1Token: navijači_ki, S0Lemma: navijač, S0POS: Sommi, S0Token: navijači, transitionHistoryLength3: 202, 
 
-40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre, obeh]   B= [primerih, za, človekove ,.. ]
-
-B0Lemma: primer, B0POS: Somdm, B0Token: primerih, S0B0Lemma: oba_primer, S0B0LemmaPOS: oba_Somdm, S0B0POS: Zc-mdm_Somdm, S0B0POSLemma: Zc-mdm_primer, S0B0Token: obeh_primerih, S0B1Lemma: oba_za, S0B1LemmaPOS: oba_Dt, S0B1POS: Zc-mdm_Dt, S0B1POSLemma: Zc-mdm_za, S0B1Token: obeh_za, S0Lemma: oba, S0POS: Zc-mdm, S0Token: obeh, S1B0Lemma: iti_primer, S1B0LemmaPOS: iti_Somdm, S1B0POS: Ggvste_Somdm, S1B0POSLemma: Ggvste_primer, S1B0Token: gre_primerih, S1Lemma: iti, S1POS: Ggvste, S1S0Lemma: iti_oba, S1S0LemmaPOS: iti_Zc-mdm, S1S0POS: Ggvste_Zc-mdm, S1S0POSLemma: Ggvste_oba, S1S0Token: gre_obeh, S1Token: gre, transitionHistoryLength3: 200, 
-
-41- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre]   B= [primerih, za, človekove ,.. ]
-
-B0Lemma: primer, B0POS: Somdm, B0Token: primerih, S0B0Lemma: iti_primer, S0B0LemmaPOS: iti_Somdm, S0B0POS: Ggvste_Somdm, S0B0POSLemma: Ggvste_primer, S0B0Token: gre_primerih, S0B1Lemma: iti_za, S0B1LemmaPOS: iti_Dt, S0B1POS: Ggvste_Dt, S0B1POSLemma: Ggvste_za, S0B1Token: gre_za, S0Lemma: iti, S0POS: Ggvste, S0Token: gre, transitionHistoryLength3: 020, 
-
-42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre, primerih]   B= [za, človekove, pravice ,.. ]
-
-B0Lemma: za, B0POS: Dt, B0Token: za, S0B0Lemma: primer_za, S0B0LemmaPOS: primer_Dt, S0B0POS: Somdm_Dt, S0B0POSLemma: Somdm_za, S0B0Token: primerih_za, S0B1Lemma: primer_človekov, S0B1LemmaPOS: primer_Psnzmt, S0B1POS: Somdm_Psnzmt, S0B1POSLemma: Somdm_človekov, S0B1Token: primerih_človekove, S0Lemma: primer, S0POS: Somdm, S0Token: primerih, S1B0Lemma: iti_za, S1B0LemmaPOS: iti_Dt, S1B0POS: Ggvste_Dt, S1B0POSLemma: Ggvste_za, S1B0Token: gre_za, S1Lemma: iti, S1POS: Ggvste, S1S0Lemma: iti_primer, S1S0LemmaPOS: iti_Somdm, S1S0POS: Ggvste_Somdm, S1S0POSLemma: Ggvste_primer, S1S0Token: gre_primerih, S1Token: gre, transitionHistoryLength3: 202, 
-
-43- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre]   B= [za, človekove, pravice ,.. ]
-
-B0Lemma: za, B0POS: Dt, B0Token: za, S0B0Lemma: iti_za, S0B0LemmaPOS: iti_Dt, S0B0POS: Ggvste_Dt, S0B0POSLemma: Ggvste_za, S0B0Token: gre_za, S0B1Lemma: iti_človekov, S0B1LemmaPOS: iti_Psnzmt, S0B1POS: Ggvste_Psnzmt, S0B1POSLemma: Ggvste_človekov, S0B1Token: gre_človekove, S0Lemma: iti, S0POS: Ggvste, S0Token: gre, transitionHistoryLength3: 020, 
-
-44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre, za]   B= [človekove, pravice, in ,.. ]
-
-B0Lemma: človekov, B0POS: Psnzmt, B0Token: človekove, S0B0Lemma: za_človekov, S0B0LemmaPOS: za_Psnzmt, S0B0POS: Dt_Psnzmt, S0B0POSLemma: Dt_človekov, S0B0Token: za_človekove, S0B1Lemma: za_pravica, S0B1LemmaPOS: za_Sozmt, S0B1POS: Dt_Sozmt, S0B1POSLemma: Dt_pravica, S0B1Token: za_pravice, S0Lemma: za, S0POS: Dt, S0Token: za, S1B0Lemma: iti_človekov, S1B0LemmaPOS: iti_Psnzmt, S1B0POS: Ggvste_Psnzmt, S1B0POSLemma: Ggvste_človekov, S1B0Token: gre_človekove, S1Lemma: iti, S1POS: Ggvste, S1S0Lemma: iti_za, S1S0LemmaPOS: iti_Dt, S1S0POS: Ggvste_Dt, S1S0POSLemma: Ggvste_za, S1S0Token: gre_za, S1Token: gre, transitionHistoryLength3: 202, 
-
-45- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gre, za]]   B= [človekove, pravice, in ,.. ]
-
-B0Lemma: človekov, B0POS: Psnzmt, B0Token: človekove, S0B0Lemma: iti_za_človekov, S0B0LemmaPOS: iti_za_Psnzmt, S0B0POS: Ggvste_Dt_Psnzmt, S0B0POSLemma: Ggvste_Dt_človekov, S0B0Token: gre_za_človekove, S0B1Lemma: iti_za_pravica, S0B1LemmaPOS: iti_za_Sozmt, S0B1POS: Ggvste_Dt_Sozmt, S0B1POSLemma: Ggvste_Dt_pravica, S0B1Token: gre_za_pravice, S0Lemma: iti_za, S0POS: Ggvste_Dt, S0Token: gre_za, transitionHistoryLength3: 020, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [človekove, pravice, in ,.. ]
-
-B0Lemma: človekov, B0POS: Psnzmt, B0Token: človekove, transitionHistoryLength3: 102, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [človekove]   B= [pravice, in, njihove ,.. ]
-
-B0Lemma: pravica, B0POS: Sozmt, B0Token: pravice, S0B0Lemma: človekov_pravica, S0B0LemmaPOS: človekov_Sozmt, S0B0POS: Psnzmt_Sozmt, S0B0POSLemma: Psnzmt_pravica, S0B0Token: človekove_pravice, S0B1Lemma: človekov_in, S0B1LemmaPOS: človekov_Vp, S0B1POS: Psnzmt_Vp, S0B1POSLemma: Psnzmt_in, S0B1Token: človekove_in, S0Lemma: človekov, S0POS: Psnzmt, S0Token: človekove, transitionHistoryLength3: 210, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pravice, in, njihove ,.. ]
-
-B0Lemma: pravica, B0POS: Sozmt, B0Token: pravice, transitionHistoryLength3: 021, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pravice]   B= [in, njihove, kršitve ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: pravica_in, S0B0LemmaPOS: pravica_Vp, S0B0POS: Sozmt_Vp, S0B0POSLemma: Sozmt_in, S0B0Token: pravice_in, S0B1Lemma: pravica_njihov, S0B1LemmaPOS: pravica_Zstzmtm, S0B1POS: Sozmt_Zstzmtm, S0B1POSLemma: Sozmt_njihov, S0B1Token: pravice_njihove, S0Lemma: pravica, S0POS: Sozmt, S0Token: pravice, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, njihove, kršitve ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [njihove, kršitve, , ,.. ]
-
-B0Lemma: njihov, B0POS: Zstzmtm, B0Token: njihove, S0B0Lemma: in_njihov, S0B0LemmaPOS: in_Zstzmtm, S0B0POS: Vp_Zstzmtm, S0B0POSLemma: Vp_njihov, S0B0Token: in_njihove, S0B1Lemma: in_kršitev, S0B1LemmaPOS: in_Sozmt, S0B1POS: Vp_Sozmt, S0B1POSLemma: Vp_kršitev, S0B1Token: in_kršitve, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [njihove, kršitve, , ,.. ]
-
-B0Lemma: njihov, B0POS: Zstzmtm, B0Token: njihove, transitionHistoryLength3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [njihove]   B= [kršitve, ,, ki ,.. ]
-
-B0Lemma: kršitev, B0POS: Sozmt, B0Token: kršitve, S0B0Lemma: njihov_kršitev, S0B0LemmaPOS: njihov_Sozmt, S0B0POS: Zstzmtm_Sozmt, S0B0POSLemma: Zstzmtm_kršitev, S0B0Token: njihove_kršitve, S0B1Lemma: njihov_,, S0B1LemmaPOS: njihov_,, S0B1POS: Zstzmtm_,, S0B1POSLemma: Zstzmtm_,, S0B1Token: njihove_,, S0Lemma: njihov, S0POS: Zstzmtm, S0Token: njihove, transitionHistoryLength3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kršitve, ,, ki ,.. ]
-
-B0Lemma: kršitev, B0POS: Sozmt, B0Token: kršitve, transitionHistoryLength3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kršitve]   B= [,, ki, jih ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: kršitev_,, S0B0LemmaPOS: kršitev_,, S0B0POS: Sozmt_,, S0B0POSLemma: Sozmt_,, S0B0Token: kršitve_,, S0B1Lemma: kršitev_ki, S0B1LemmaPOS: kršitev_Vd, S0B1POS: Sozmt_Vd, S0B1POSLemma: Sozmt_ki, S0B1Token: kršitve_ki, S0Lemma: kršitev, S0POS: Sozmt, S0Token: kršitve, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ki, jih ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ki, nosijo ,.. ]
 
 B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ki, jih, je ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ki, nosijo, nove ,.. ]
 
-B0Lemma: ki, B0POS: Vd, B0Token: ki, S0B0Lemma: ,_ki, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_ki, S0B0Token: ,_ki, S0B1Lemma: ,_on, S0B1LemmaPOS: ,_Zotzmr--k, S0B1POS: ,_Zotzmr--k, S0B1POSLemma: ,_on, S0B1Token: ,_jih, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: ki, B0POS: Vd, B0Token: ki, S0B0Lemma: ,_ki, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_ki, S0B0Token: ,_ki, S0B1Lemma: ,_nositi, S0B1LemmaPOS: ,_Ggnstm, S0B1POS: ,_Ggnstm, S0B1POSLemma: ,_nositi, S0B1Token: ,_nosijo, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ki, jih, je ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ki, nosijo, nove ,.. ]
 
 B0Lemma: ki, B0POS: Vd, B0Token: ki, transitionHistoryLength3: 020, 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ki]   B= [jih, je, še ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ki]   B= [nosijo, nove, rdeče ,.. ]
 
-B0Lemma: on, B0POS: Zotzmr--k, B0Token: jih, S0B0Lemma: ki_on, S0B0LemmaPOS: ki_Zotzmr--k, S0B0POS: Vd_Zotzmr--k, S0B0POSLemma: Vd_on, S0B0Token: ki_jih, S0B1Lemma: ki_biti, S0B1LemmaPOS: ki_Gp-ste-n, S0B1POS: Vd_Gp-ste-n, S0B1POSLemma: Vd_biti, S0B1Token: ki_je, S0Lemma: ki, S0POS: Vd, S0Token: ki, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: nositi, B0POS: Ggnstm, B0Token: nosijo, S0B0Lemma: ki_nositi, S0B0LemmaPOS: ki_Ggnstm, S0B0POS: Vd_Ggnstm, S0B0POSLemma: Vd_nositi, S0B0Token: ki_nosijo, S0B1Lemma: ki_nov, S0B1LemmaPOS: ki_Ppnmmt, S0B1POS: Vd_Ppnmmt, S0B1POSLemma: Vd_nov, S0B1Token: ki_nove, S0Lemma: ki, S0POS: Vd, S0Token: ki, transitionHistoryLength3: 202, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jih, je, še ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nosijo, nove, rdeče ,.. ]
 
-B0Lemma: on, B0POS: Zotzmr--k, B0Token: jih, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: nositi, B0POS: Ggnstm, B0Token: nosijo, transitionHistoryLength3: 020, 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jih]   B= [je, še, vedno ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nosijo]   B= [nove, rdeče, - ,.. ]
 
-B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, S0B0Lemma: on_biti, S0B0LemmaPOS: on_Gp-ste-n, S0B0POS: Zotzmr--k_Gp-ste-n, S0B0POSLemma: Zotzmr--k_biti, S0B0Token: jih_je, S0B1Lemma: on_še, S0B1LemmaPOS: on_L, S0B1POS: Zotzmr--k_L, S0B1POSLemma: Zotzmr--k_še, S0B1Token: jih_še, S0Lemma: on, S0POS: Zotzmr--k, S0Token: jih, transitionHistoryLength3: 202, 
+B0Lemma: nov, B0POS: Ppnmmt, B0Token: nove, S0B0Lemma: nositi_nov, S0B0LemmaPOS: nositi_Ppnmmt, S0B0POS: Ggnstm_Ppnmmt, S0B0POSLemma: Ggnstm_nov, S0B0Token: nosijo_nove, S0B1Lemma: nositi_rdeč, S0B1LemmaPOS: nositi_Ppnsei, S0B1POS: Ggnstm_Ppnsei, S0B1POSLemma: Ggnstm_rdeč, S0B1Token: nosijo_rdeče, S0IsInLexic: true, S0Lemma: nositi, S0POS: Ggnstm, S0Token: nosijo, transitionHistoryLength3: 202, 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [je, še, vedno ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nove, rdeče, - ,.. ]
 
-B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, transitionHistoryLength3: 020, 
+B0Lemma: nov, B0POS: Ppnmmt, B0Token: nove, transitionHistoryLength3: 020, 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [je]   B= [še, vedno, veliko ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nove]   B= [rdeče, -, bele ,.. ]
 
-B0Lemma: še, B0POS: L, B0Token: še, S0B0Lemma: biti_še, S0B0LemmaPOS: biti_L, S0B0POS: Gp-ste-n_L, S0B0POSLemma: Gp-ste-n_še, S0B0Token: je_še, S0B1Lemma: biti_vedno, S0B1LemmaPOS: biti_Rsn, S0B1POS: Gp-ste-n_Rsn, S0B1POSLemma: Gp-ste-n_vedno, S0B1Token: je_vedno, S0Lemma: biti, S0POS: Gp-ste-n, S0Token: je, transitionHistoryLength3: 202, 
+B0Lemma: rdeč, B0POS: Ppnsei, B0Token: rdeče, S0B0Lemma: nov_rdeč, S0B0LemmaPOS: nov_Ppnsei, S0B0POS: Ppnmmt_Ppnsei, S0B0POSLemma: Ppnmmt_rdeč, S0B0Token: nove_rdeče, S0B1Lemma: nov_-, S0B1LemmaPOS: nov_-, S0B1POS: Ppnmmt_-, S0B1POSLemma: Ppnmmt_-, S0B1Token: nove_-, S0Lemma: nov, S0POS: Ppnmmt, S0Token: nove, transitionHistoryLength3: 202, 
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [še, vedno, veliko ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rdeče, -, bele ,.. ]
 
-B0Lemma: še, B0POS: L, B0Token: še, transitionHistoryLength3: 020, 
+B0Lemma: rdeč, B0POS: Ppnsei, B0Token: rdeče, transitionHistoryLength3: 020, 
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [še]   B= [vedno, veliko, , ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rdeče]   B= [-, bele, drese ,.. ]
 
-B0Lemma: vedno, B0POS: Rsn, B0Token: vedno, S0B0Lemma: še_vedno, S0B0LemmaPOS: še_Rsn, S0B0POS: L_Rsn, S0B0POSLemma: L_vedno, S0B0Token: še_vedno, S0B1Lemma: še_veliko, S0B1LemmaPOS: še_Rsn, S0B1POS: L_Rsn, S0B1POSLemma: L_veliko, S0B1Token: še_veliko, S0Lemma: še, S0POS: L, S0Token: še, transitionHistoryLength3: 202, 
+B0Lemma: -, B0POS: -, B0Token: -, S0B0Lemma: rdeč_-, S0B0LemmaPOS: rdeč_-, S0B0POS: Ppnsei_-, S0B0POSLemma: Ppnsei_-, S0B0Token: rdeče_-, S0B1Lemma: rdeč_bel, S0B1LemmaPOS: rdeč_Ppnmmt, S0B1POS: Ppnsei_Ppnmmt, S0B1POSLemma: Ppnsei_bel, S0B1Token: rdeče_bele, S0Lemma: rdeč, S0POS: Ppnsei, S0Token: rdeče, transitionHistoryLength3: 202, 
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vedno, veliko, , ,.. ]
-
-B0Lemma: vedno, B0POS: Rsn, B0Token: vedno, transitionHistoryLength3: 020, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vedno]   B= [veliko, ,, in ,.. ]
-
-B0Lemma: veliko, B0POS: Rsn, B0Token: veliko, S0B0Lemma: vedno_veliko, S0B0LemmaPOS: vedno_Rsn, S0B0POS: Rsn_Rsn, S0B0POSLemma: Rsn_veliko, S0B0Token: vedno_veliko, S0B1Lemma: vedno_,, S0B1LemmaPOS: vedno_,, S0B1POS: Rsn_,, S0B1POSLemma: Rsn_,, S0B1Token: vedno_,, S0Lemma: vedno, S0POS: Rsn, S0Token: vedno, transitionHistoryLength3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [veliko, ,, in ,.. ]
-
-B0Lemma: veliko, B0POS: Rsn, B0Token: veliko, transitionHistoryLength3: 020, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [veliko]   B= [,, in, moramo ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: veliko_,, S0B0LemmaPOS: veliko_,, S0B0POS: Rsn_,, S0B0POSLemma: Rsn_,, S0B0Token: veliko_,, S0B1Lemma: veliko_in, S0B1LemmaPOS: veliko_Vp, S0B1POS: Rsn_Vp, S0B1POSLemma: Rsn_in, S0B1Token: veliko_in, S0Lemma: veliko, S0POS: Rsn, S0Token: veliko, transitionHistoryLength3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, in, moramo ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [in, moramo, nanje ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: ,_in, S0B0LemmaPOS: ,_Vp, S0B0POS: ,_Vp, S0B0POSLemma: ,_in, S0B0Token: ,_in, S0B1Lemma: ,_morati, S0B1LemmaPOS: ,_Ggnspm, S0B1POS: ,_Ggnspm, S0B1POSLemma: ,_morati, S0B1Token: ,_moramo, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, moramo, nanje ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [moramo, nanje, neprestano ,.. ]
-
-B0Lemma: morati, B0POS: Ggnspm, B0Token: moramo, S0B0Lemma: in_morati, S0B0LemmaPOS: in_Ggnspm, S0B0POS: Vp_Ggnspm, S0B0POSLemma: Vp_morati, S0B0Token: in_moramo, S0B1Lemma: in_name, S0B1LemmaPOS: in_Zotzmt--z, S0B1POS: Vp_Zotzmt--z, S0B1POSLemma: Vp_name, S0B1Token: in_nanje, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [moramo, nanje, neprestano ,.. ]
-
-B0Lemma: morati, B0POS: Ggnspm, B0Token: moramo, transitionHistoryLength3: 020, 
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [moramo]   B= [nanje, neprestano, in ,.. ]
-
-B0Lemma: name, B0POS: Zotzmt--z, B0Token: nanje, S0B0Lemma: morati_name, S0B0LemmaPOS: morati_Zotzmt--z, S0B0POS: Ggnspm_Zotzmt--z, S0B0POSLemma: Ggnspm_name, S0B0Token: moramo_nanje, S0B1Lemma: morati_neprestano, S0B1LemmaPOS: morati_Rsn, S0B1POS: Ggnspm_Rsn, S0B1POSLemma: Ggnspm_neprestano, S0B1Token: moramo_neprestano, S0Lemma: morati, S0POS: Ggnspm, S0Token: moramo, transitionHistoryLength3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nanje, neprestano, in ,.. ]
-
-B0Lemma: name, B0POS: Zotzmt--z, B0Token: nanje, transitionHistoryLength3: 020, 
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nanje]   B= [neprestano, in, odločno ,.. ]
-
-B0Lemma: neprestano, B0POS: Rsn, B0Token: neprestano, S0B0Lemma: name_neprestano, S0B0LemmaPOS: name_Rsn, S0B0POS: Zotzmt--z_Rsn, S0B0POSLemma: Zotzmt--z_neprestano, S0B0Token: nanje_neprestano, S0B1Lemma: name_in, S0B1LemmaPOS: name_Vp, S0B1POS: Zotzmt--z_Vp, S0B1POSLemma: Zotzmt--z_in, S0B1Token: nanje_in, S0Lemma: name, S0POS: Zotzmt--z, S0Token: nanje, transitionHistoryLength3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [neprestano, in, odločno ,.. ]
-
-B0Lemma: neprestano, B0POS: Rsn, B0Token: neprestano, transitionHistoryLength3: 020, 
-
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [neprestano]   B= [in, odločno, opozarjati ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: neprestano_in, S0B0LemmaPOS: neprestano_Vp, S0B0POS: Rsn_Vp, S0B0POSLemma: Rsn_in, S0B0Token: neprestano_in, S0B1Lemma: neprestano_odločno, S0B1LemmaPOS: neprestano_Rsn, S0B1POS: Rsn_Rsn, S0B1POSLemma: Rsn_odločno, S0B1Token: neprestano_odločno, S0Lemma: neprestano, S0POS: Rsn, S0Token: neprestano, transitionHistoryLength3: 202, 
-
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, odločno, opozarjati ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
-
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [odločno, opozarjati, . ,.. ]
-
-B0Lemma: odločno, B0POS: Rsn, B0Token: odločno, S0B0Lemma: in_odločno, S0B0LemmaPOS: in_Rsn, S0B0POS: Vp_Rsn, S0B0POSLemma: Vp_odločno, S0B0Token: in_odločno, S0B1Lemma: in_opozarjati, S0B1LemmaPOS: in_Ggnn, S0B1POS: Vp_Ggnn, S0B1POSLemma: Vp_opozarjati, S0B1Token: in_opozarjati, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [odločno, opozarjati, . ,.. ]
-
-B0Lemma: odločno, B0POS: Rsn, B0Token: odločno, transitionHistoryLength3: 020, 
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [odločno]   B= [opozarjati, . ,.. ]
-
-B0Lemma: opozarjati, B0POS: Ggnn, B0Token: opozarjati, S0B0Lemma: odločno_opozarjati, S0B0LemmaPOS: odločno_Ggnn, S0B0POS: Rsn_Ggnn, S0B0POSLemma: Rsn_opozarjati, S0B0Token: odločno_opozarjati, S0B1Lemma: odločno_., S0B1LemmaPOS: odločno_., S0B1POS: Rsn_., S0B1POSLemma: Rsn_., S0B1Token: odločno_., S0Lemma: odločno, S0POS: Rsn, S0Token: odločno, transitionHistoryLength3: 202, 
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [opozarjati, . ,.. ]
-
-B0Lemma: opozarjati, B0POS: Ggnn, B0Token: opozarjati, transitionHistoryLength3: 020, 
-
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [opozarjati]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: opozarjati_., S0B0LemmaPOS: opozarjati_., S0B0POS: Ggnn_., S0B0POSLemma: Ggnn_., S0B0Token: opozarjati_., S0Lemma: opozarjati, S0POS: Ggnn, S0Token: opozarjati, transitionHistoryLength3: 202, 
-
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength3: 020, 
-
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength3: 202, 
-
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 4701 - 
-" Še pes ima rad mir pri jedi , " je menda dejal Janez Janša podjetniku Milanu Šercerju - in tako z nezmotljivim političnim instinktom poskušal zajeti v svoja jadra vsaj del širokega ljudskega nezaupanja do takšnih in drugačnih " paparazzov " . 
-### Existing MWEs: 
-1- **Še pes ima rad mir pri jedi** (ID)
-2- **zajeti v jadra** (ID)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", Še, pes ,.. ]
-
-B0Lemma: ", B0POS: ", B0Token: ", 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [Še, pes, ima ,.. ]
-
-B0Lemma: še, B0POS: L, B0Token: Še, S0B0Lemma: "_še, S0B0LemmaPOS: "_L, S0B0POS: "_L, S0B0POSLemma: "_še, S0B0Token: "_Še, S0B1Lemma: "_pes, S0B1LemmaPOS: "_Somei, S0B1POS: "_Somei, S0B1POSLemma: "_pes, S0B1Token: "_pes, S0Lemma: ", S0POS: ", S0Token: ", 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Še, pes, ima ,.. ]
-
-B0Lemma: še, B0POS: L, B0Token: Še, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še]   B= [pes, ima, rad ,.. ]
-
-B0Lemma: pes, B0POS: Somei, B0Token: pes, S0B0Lemma: še_pes, S0B0LemmaPOS: še_Somei, S0B0POS: L_Somei, S0B0POSLemma: L_pes, S0B0Token: Še_pes, S0B1Lemma: še_imeti, S0B1LemmaPOS: še_Ggnste-n, S0B1POS: L_Ggnste-n, S0B1POSLemma: L_imeti, S0B1Token: Še_ima, S0Lemma: še, S0POS: L, S0Token: Še, 
-
-4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes]   B= [ima, rad, mir ,.. ]
-
-B0Lemma: imeti, B0POS: Ggnste-n, B0Token: ima, S0B0Lemma: pes_imeti, S0B0LemmaPOS: pes_Ggnste-n, S0B0POS: Somei_Ggnste-n, S0B0POSLemma: Somei_imeti, S0B0Token: pes_ima, S0B1Lemma: pes_rad, S0B1LemmaPOS: pes_Rsn, S0B1POS: Somei_Rsn, S0B1POSLemma: Somei_rad, S0B1Token: pes_rad, S0Lemma: pes, S0POS: Somei, S0Token: pes, S1B0Lemma: še_imeti, S1B0LemmaPOS: še_Ggnste-n, S1B0POS: L_Ggnste-n, S1B0POSLemma: L_imeti, S1B0Token: Še_ima, S1Lemma: še, S1POS: L, S1S0Lemma: še_pes, S1S0LemmaPOS: še_Somei, S1S0POS: L_Somei, S1S0POSLemma: L_pes, S1S0Token: Še_pes, S1Token: Še, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, ima]   B= [rad, mir, pri ,.. ]
-
-B0Lemma: rad, B0POS: Rsn, B0Token: rad, S0B0Lemma: imeti_rad, S0B0LemmaPOS: imeti_Rsn, S0B0POS: Ggnste-n_Rsn, S0B0POSLemma: Ggnste-n_rad, S0B0Token: ima_rad, S0B1Lemma: imeti_mir, S0B1LemmaPOS: imeti_Sometn, S0B1POS: Ggnste-n_Sometn, S0B1POSLemma: Ggnste-n_mir, S0B1Token: ima_mir, S0Lemma: imeti, S0POS: Ggnste-n, S0Token: ima, S1B0Lemma: pes_rad, S1B0LemmaPOS: pes_Rsn, S1B0POS: Somei_Rsn, S1B0POSLemma: Somei_rad, S1B0Token: pes_rad, S1Lemma: pes, S1POS: Somei, S1S0Lemma: pes_imeti, S1S0LemmaPOS: pes_Ggnste-n, S1S0POS: Somei_Ggnste-n, S1S0POSLemma: Somei_imeti, S1S0Token: pes_ima, S1Token: pes, transitionHistoryLength3: 002, 
-
-6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, ima, rad]   B= [mir, pri, jedi ,.. ]
-
-B0Lemma: mir, B0POS: Sometn, B0Token: mir, S0B0Lemma: rad_mir, S0B0LemmaPOS: rad_Sometn, S0B0POS: Rsn_Sometn, S0B0POSLemma: Rsn_mir, S0B0Token: rad_mir, S0B1Lemma: rad_pri, S0B1LemmaPOS: rad_Dm, S0B1POS: Rsn_Dm, S0B1POSLemma: Rsn_pri, S0B1Token: rad_pri, S0Lemma: rad, S0POS: Rsn, S0Token: rad, S1B0Lemma: imeti_mir, S1B0LemmaPOS: imeti_Sometn, S1B0POS: Ggnste-n_Sometn, S1B0POSLemma: Ggnste-n_mir, S1B0Token: ima_mir, S1Lemma: imeti, S1POS: Ggnste-n, S1S0Lemma: imeti_rad, S1S0LemmaPOS: imeti_Rsn, S1S0POS: Ggnste-n_Rsn, S1S0POSLemma: Ggnste-n_rad, S1S0Token: ima_rad, S1Token: ima, transitionHistoryLength3: 000, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, ima, rad, mir]   B= [pri, jedi, , ,.. ]
-
-B0Lemma: pri, B0POS: Dm, B0Token: pri, S0B0Lemma: mir_pri, S0B0LemmaPOS: mir_Dm, S0B0POS: Sometn_Dm, S0B0POSLemma: Sometn_pri, S0B0Token: mir_pri, S0B1Lemma: mir_jed, S0B1LemmaPOS: mir_Sozem, S0B1POS: Sometn_Sozem, S0B1POSLemma: Sometn_jed, S0B1Token: mir_jedi, S0Lemma: mir, S0POS: Sometn, S0Token: mir, S1B0Lemma: rad_pri, S1B0LemmaPOS: rad_Dm, S1B0POS: Rsn_Dm, S1B0POSLemma: Rsn_pri, S1B0Token: rad_pri, S1Lemma: rad, S1POS: Rsn, S1S0Lemma: rad_mir, S1S0LemmaPOS: rad_Sometn, S1S0POS: Rsn_Sometn, S1S0POSLemma: Rsn_mir, S1S0Token: rad_mir, S1Token: rad, transitionHistoryLength3: 000, 
-
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, ima, rad, mir, pri]   B= [jedi, ,, " ,.. ]
-
-B0Lemma: jed, B0POS: Sozem, B0Token: jedi, S0B0Lemma: pri_jed, S0B0LemmaPOS: pri_Sozem, S0B0POS: Dm_Sozem, S0B0POSLemma: Dm_jed, S0B0Token: pri_jedi, S0B1Lemma: pri_,, S0B1LemmaPOS: pri_,, S0B1POS: Dm_,, S0B1POSLemma: Dm_,, S0B1Token: pri_,, S0Lemma: pri, S0POS: Dm, S0Token: pri, S1B0Lemma: mir_jed, S1B0LemmaPOS: mir_Sozem, S1B0POS: Sometn_Sozem, S1B0POSLemma: Sometn_jed, S1B0Token: mir_jedi, S1Lemma: mir, S1POS: Sometn, S1S0Lemma: mir_pri, S1S0LemmaPOS: mir_Dm, S1S0POS: Sometn_Dm, S1S0POSLemma: Sometn_pri, S1S0Token: mir_pri, S1Token: mir, transitionHistoryLength3: 000, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, ima, rad, mir, pri, jedi]   B= [,, ", je ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: jed_,, S0B0LemmaPOS: jed_,, S0B0POS: Sozem_,, S0B0POSLemma: Sozem_,, S0B0Token: jedi_,, S0B1Lemma: jed_", S0B1LemmaPOS: jed_", S0B1POS: Sozem_", S0B1POSLemma: Sozem_", S0B1Token: jedi_", S0Lemma: jed, S0POS: Sozem, S0Token: jedi, S1B0Lemma: pri_,, S1B0LemmaPOS: pri_,, S1B0POS: Dm_,, S1B0POSLemma: Dm_,, S1B0Token: pri_,, S1Lemma: pri, S1POS: Dm, S1S0Lemma: pri_jed, S1S0LemmaPOS: pri_Sozem, S1S0POS: Dm_Sozem, S1S0POSLemma: Dm_jed, S1S0Token: pri_jedi, S1Token: pri, transitionHistoryLength3: 000, 
-
-10- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, ima, rad, mir, [pri, jedi]]   B= [,, ", je ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: pri_jed_,, S0B0LemmaPOS: pri_jed_,, S0B0POS: Dm_Sozem_,, S0B0POSLemma: Dm_Sozem_,, S0B0Token: pri_jedi_,, S0B1Lemma: pri_jed_", S0B1LemmaPOS: pri_jed_", S0B1POS: Dm_Sozem_", S0B1POSLemma: Dm_Sozem_", S0B1Token: pri_jedi_", S0Lemma: pri_jed, S0POS: Dm_Sozem, S0Token: pri_jedi, S1B0Lemma: mir_,, S1B0LemmaPOS: mir_,, S1B0POS: Sometn_,, S1B0POSLemma: Sometn_,, S1B0Token: mir_,, S1Lemma: mir, S1POS: Sometn, S1S0Lemma: mir_pri_jed, S1S0LemmaPOS: mir_Dm_Sozem, S1S0POS: Sometn_Dm_Sozem, S1S0POSLemma: Sometn_pri_jed, S1S0Token: mir_pri_jedi, S1Token: mir, transitionHistoryLength3: 000, 
-
-11- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, ima, rad, [mir, [pri, jedi]]]   B= [,, ", je ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: mir_pri_jed_,, S0B0LemmaPOS: mir_pri_jed_,, S0B0POS: Sometn_Dm_Sozem_,, S0B0POSLemma: Sometn_Dm_Sozem_,, S0B0Token: mir_pri_jedi_,, S0B1Lemma: mir_pri_jed_", S0B1LemmaPOS: mir_pri_jed_", S0B1POS: Sometn_Dm_Sozem_", S0B1POSLemma: Sometn_Dm_Sozem_", S0B1Token: mir_pri_jedi_", S0Lemma: mir_pri_jed, S0POS: Sometn_Dm_Sozem, S0Token: mir_pri_jedi, S1B0Lemma: rad_,, S1B0LemmaPOS: rad_,, S1B0POS: Rsn_,, S1B0POSLemma: Rsn_,, S1B0Token: rad_,, S1Lemma: rad, S1POS: Rsn, S1S0Lemma: rad_mir_pri_jed, S1S0LemmaPOS: rad_Sometn_Dm_Sozem, S1S0POS: Rsn_Sometn_Dm_Sozem, S1S0POSLemma: Rsn_mir_pri_jed, S1S0Token: rad_mir_pri_jedi, S1Token: rad, transitionHistoryLength3: 100, 
-
-12- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, ima, [rad, [mir, [pri, jedi]]]]   B= [,, ", je ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: rad_mir_pri_jed_,, S0B0LemmaPOS: rad_mir_pri_jed_,, S0B0POS: Rsn_Sometn_Dm_Sozem_,, S0B0POSLemma: Rsn_Sometn_Dm_Sozem_,, S0B0Token: rad_mir_pri_jedi_,, S0B1Lemma: rad_mir_pri_jed_", S0B1LemmaPOS: rad_mir_pri_jed_", S0B1POS: Rsn_Sometn_Dm_Sozem_", S0B1POSLemma: Rsn_Sometn_Dm_Sozem_", S0B1Token: rad_mir_pri_jedi_", S0Lemma: rad_mir_pri_jed, S0POS: Rsn_Sometn_Dm_Sozem, S0Token: rad_mir_pri_jedi, S1B0Lemma: imeti_,, S1B0LemmaPOS: imeti_,, S1B0POS: Ggnste-n_,, S1B0POSLemma: Ggnste-n_,, S1B0Token: ima_,, S1Lemma: imeti, S1POS: Ggnste-n, S1S0Lemma: imeti_rad_mir_pri_jed, S1S0LemmaPOS: imeti_Rsn_Sometn_Dm_Sozem, S1S0POS: Ggnste-n_Rsn_Sometn_Dm_Sozem, S1S0POSLemma: Ggnste-n_rad_mir_pri_jed, S1S0Token: ima_rad_mir_pri_jedi, S1Token: ima, transitionHistoryLength3: 110, 
-
-13- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, pes, [ima, [rad, [mir, [pri, jedi]]]]]   B= [,, ", je ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: imeti_rad_mir_pri_jed_,, S0B0LemmaPOS: imeti_rad_mir_pri_jed_,, S0B0POS: Ggnste-n_Rsn_Sometn_Dm_Sozem_,, S0B0POSLemma: Ggnste-n_Rsn_Sometn_Dm_Sozem_,, S0B0Token: ima_rad_mir_pri_jedi_,, S0B1Lemma: imeti_rad_mir_pri_jed_", S0B1LemmaPOS: imeti_rad_mir_pri_jed_", S0B1POS: Ggnste-n_Rsn_Sometn_Dm_Sozem_", S0B1POSLemma: Ggnste-n_Rsn_Sometn_Dm_Sozem_", S0B1Token: ima_rad_mir_pri_jedi_", S0Lemma: imeti_rad_mir_pri_jed, S0POS: Ggnste-n_Rsn_Sometn_Dm_Sozem, S0Token: ima_rad_mir_pri_jedi, S1B0Lemma: pes_,, S1B0LemmaPOS: pes_,, S1B0POS: Somei_,, S1B0POSLemma: Somei_,, S1B0Token: pes_,, S1Lemma: pes, S1POS: Somei, S1S0Lemma: pes_imeti_rad_mir_pri_jed, S1S0LemmaPOS: pes_Ggnste-n_Rsn_Sometn_Dm_Sozem, S1S0POS: Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem, S1S0POSLemma: Somei_imeti_rad_mir_pri_jed, S1S0Token: pes_ima_rad_mir_pri_jedi, S1Token: pes, transitionHistoryLength3: 111, 
-
-14- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Še, [pes, [ima, [rad, [mir, [pri, jedi]]]]]]   B= [,, ", je ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: pes_imeti_rad_mir_pri_jed_,, S0B0LemmaPOS: pes_imeti_rad_mir_pri_jed_,, S0B0POS: Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem_,, S0B0POSLemma: Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem_,, S0B0Token: pes_ima_rad_mir_pri_jedi_,, S0B1Lemma: pes_imeti_rad_mir_pri_jed_", S0B1LemmaPOS: pes_imeti_rad_mir_pri_jed_", S0B1POS: Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem_", S0B1POSLemma: Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem_", S0B1Token: pes_ima_rad_mir_pri_jedi_", S0Lemma: pes_imeti_rad_mir_pri_jed, S0POS: Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem, S0Token: pes_ima_rad_mir_pri_jedi, S1B0Lemma: še_,, S1B0LemmaPOS: še_,, S1B0POS: L_,, S1B0POSLemma: L_,, S1B0Token: Še_,, S1Lemma: še, S1POS: L, S1S0Lemma: še_pes_imeti_rad_mir_pri_jed, S1S0LemmaPOS: še_Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem, S1S0POS: L_Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem, S1S0POSLemma: L_pes_imeti_rad_mir_pri_jed, S1S0Token: Še_pes_ima_rad_mir_pri_jedi, S1Token: Še, transitionHistoryLength3: 111, 
-
-15- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[Še, [pes, [ima, [rad, [mir, [pri, jedi]]]]]]]   B= [,, ", je ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: še_pes_imeti_rad_mir_pri_jed_,, S0B0LemmaPOS: še_pes_imeti_rad_mir_pri_jed_,, S0B0POS: L_Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem_,, S0B0POSLemma: L_Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem_,, S0B0Token: Še_pes_ima_rad_mir_pri_jedi_,, S0B1Lemma: še_pes_imeti_rad_mir_pri_jed_", S0B1LemmaPOS: še_pes_imeti_rad_mir_pri_jed_", S0B1POS: L_Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem_", S0B1POSLemma: L_Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem_", S0B1Token: Še_pes_ima_rad_mir_pri_jedi_", S0Lemma: še_pes_imeti_rad_mir_pri_jed, S0POS: L_Somei_Ggnste-n_Rsn_Sometn_Dm_Sozem, S0Token: Še_pes_ima_rad_mir_pri_jedi, transitionHistoryLength3: 111, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ", je ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 111, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [", je, menda ,.. ]
-
-B0Lemma: ", B0POS: ", B0Token: ", S0B0Lemma: ,_", S0B0LemmaPOS: ,_", S0B0POS: ,_", S0B0POSLemma: ,_", S0B0Token: ,_", S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-ste-n, S0B1POS: ,_Gp-ste-n, S0B1POSLemma: ,_biti, S0B1Token: ,_je, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 211, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", je, menda ,.. ]
-
-B0Lemma: ", B0POS: ", B0Token: ", transitionHistoryLength3: 021, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [je, menda, dejal ,.. ]
-
-B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, S0B0Lemma: "_biti, S0B0LemmaPOS: "_Gp-ste-n, S0B0POS: "_Gp-ste-n, S0B0POSLemma: "_biti, S0B0Token: "_je, S0B1Lemma: "_menda, S0B1LemmaPOS: "_L, S0B1POS: "_L, S0B1POSLemma: "_menda, S0B1Token: "_menda, S0Lemma: ", S0POS: ", S0Token: ", transitionHistoryLength3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [je, menda, dejal ,.. ]
-
-B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, transitionHistoryLength3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [je]   B= [menda, dejal, Janez ,.. ]
-
-B0Lemma: menda, B0POS: L, B0Token: menda, S0B0Lemma: biti_menda, S0B0LemmaPOS: biti_L, S0B0POS: Gp-ste-n_L, S0B0POSLemma: Gp-ste-n_menda, S0B0Token: je_menda, S0B1Lemma: biti_dejati, S0B1LemmaPOS: biti_Ggdd-em, S0B1POS: Gp-ste-n_Ggdd-em, S0B1POSLemma: Gp-ste-n_dejati, S0B1Token: je_dejal, S0Lemma: biti, S0POS: Gp-ste-n, S0Token: je, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [menda, dejal, Janez ,.. ]
-
-B0Lemma: menda, B0POS: L, B0Token: menda, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [menda]   B= [dejal, Janez, Janša ,.. ]
-
-B0Lemma: dejati, B0POS: Ggdd-em, B0Token: dejal, S0B0Lemma: menda_dejati, S0B0LemmaPOS: menda_Ggdd-em, S0B0POS: L_Ggdd-em, S0B0POSLemma: L_dejati, S0B0Token: menda_dejal, S0B1Lemma: menda_Janez, S0B1LemmaPOS: menda_Slmei, S0B1POS: L_Slmei, S0B1POSLemma: L_Janez, S0B1Token: menda_Janez, S0Lemma: menda, S0POS: L, S0Token: menda, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dejal, Janez, Janša ,.. ]
-
-B0Lemma: dejati, B0POS: Ggdd-em, B0Token: dejal, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dejal]   B= [Janez, Janša, podjetniku ,.. ]
-
-B0Lemma: Janez, B0POS: Slmei, B0Token: Janez, S0B0Lemma: dejati_Janez, S0B0LemmaPOS: dejati_Slmei, S0B0POS: Ggdd-em_Slmei, S0B0POSLemma: Ggdd-em_Janez, S0B0Token: dejal_Janez, S0B1Lemma: dejati_Janša, S0B1LemmaPOS: dejati_Slmei, S0B1POS: Ggdd-em_Slmei, S0B1POSLemma: Ggdd-em_Janša, S0B1Token: dejal_Janša, S0Lemma: dejati, S0POS: Ggdd-em, S0Token: dejal, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Janez, Janša, podjetniku ,.. ]
-
-B0Lemma: Janez, B0POS: Slmei, B0Token: Janez, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Janez]   B= [Janša, podjetniku, Milanu ,.. ]
-
-B0Lemma: Janša, B0POS: Slmei, B0Token: Janša, S0B0Lemma: Janez_Janša, S0B0LemmaPOS: Janez_Slmei, S0B0POS: Slmei_Slmei, S0B0POSLemma: Slmei_Janša, S0B0Token: Janez_Janša, S0B1Lemma: Janez_podjetnik, S0B1LemmaPOS: Janez_Somed, S0B1POS: Slmei_Somed, S0B1POSLemma: Slmei_podjetnik, S0B1Token: Janez_podjetniku, S0Lemma: Janez, S0POS: Slmei, S0Token: Janez, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Janša, podjetniku, Milanu ,.. ]
-
-B0Lemma: Janša, B0POS: Slmei, B0Token: Janša, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Janša]   B= [podjetniku, Milanu, Šercerju ,.. ]
-
-B0Lemma: podjetnik, B0POS: Somed, B0Token: podjetniku, S0B0Lemma: Janša_podjetnik, S0B0LemmaPOS: Janša_Somed, S0B0POS: Slmei_Somed, S0B0POSLemma: Slmei_podjetnik, S0B0Token: Janša_podjetniku, S0B1Lemma: Janša_Milan, S0B1LemmaPOS: Janša_Slmed, S0B1POS: Slmei_Slmed, S0B1POSLemma: Slmei_Milan, S0B1Token: Janša_Milanu, S0Lemma: Janša, S0POS: Slmei, S0Token: Janša, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [podjetniku, Milanu, Šercerju ,.. ]
-
-B0Lemma: podjetnik, B0POS: Somed, B0Token: podjetniku, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [podjetniku]   B= [Milanu, Šercerju, - ,.. ]
-
-B0Lemma: Milan, B0POS: Slmed, B0Token: Milanu, S0B0Lemma: podjetnik_Milan, S0B0LemmaPOS: podjetnik_Slmed, S0B0POS: Somed_Slmed, S0B0POSLemma: Somed_Milan, S0B0Token: podjetniku_Milanu, S0B1Lemma: podjetnik_Šercer, S0B1LemmaPOS: podjetnik_Slmed, S0B1POS: Somed_Slmed, S0B1POSLemma: Somed_Šercer, S0B1Token: podjetniku_Šercerju, S0Lemma: podjetnik, S0POS: Somed, S0Token: podjetniku, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Milanu, Šercerju, - ,.. ]
-
-B0Lemma: Milan, B0POS: Slmed, B0Token: Milanu, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Milanu]   B= [Šercerju, -, in ,.. ]
-
-B0Lemma: Šercer, B0POS: Slmed, B0Token: Šercerju, S0B0Lemma: Milan_Šercer, S0B0LemmaPOS: Milan_Slmed, S0B0POS: Slmed_Slmed, S0B0POSLemma: Slmed_Šercer, S0B0Token: Milanu_Šercerju, S0B1Lemma: Milan_-, S0B1LemmaPOS: Milan_-, S0B1POS: Slmed_-, S0B1POSLemma: Slmed_-, S0B1Token: Milanu_-, S0Lemma: Milan, S0POS: Slmed, S0Token: Milanu, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Šercerju, -, in ,.. ]
-
-B0Lemma: Šercer, B0POS: Slmed, B0Token: Šercerju, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Šercerju]   B= [-, in, tako ,.. ]
-
-B0Lemma: -, B0POS: -, B0Token: -, S0B0Lemma: Šercer_-, S0B0LemmaPOS: Šercer_-, S0B0POS: Slmed_-, S0B0POSLemma: Slmed_-, S0B0Token: Šercerju_-, S0B1Lemma: Šercer_in, S0B1LemmaPOS: Šercer_Vp, S0B1POS: Slmed_Vp, S0B1POSLemma: Slmed_in, S0B1Token: Šercerju_in, S0Lemma: Šercer, S0POS: Slmed, S0Token: Šercerju, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, in, tako ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, bele, drese ,.. ]
 
 B0Lemma: -, B0POS: -, B0Token: -, transitionHistoryLength3: 020, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [in, tako, z ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [bele, drese, našega ,.. ]
 
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: -_in, S0B0LemmaPOS: -_Vp, S0B0POS: -_Vp, S0B0POSLemma: -_in, S0B0Token: -_in, S0B1Lemma: -_tako, S0B1LemmaPOS: -_Rsn, S0B1POS: -_Rsn, S0B1POSLemma: -_tako, S0B1Token: -_tako, S0Lemma: -, S0POS: -, S0Token: -, transitionHistoryLength3: 202, 
+B0Lemma: bel, B0POS: Ppnmmt, B0Token: bele, S0B0Lemma: -_bel, S0B0LemmaPOS: -_Ppnmmt, S0B0POS: -_Ppnmmt, S0B0POSLemma: -_bel, S0B0Token: -_bele, S0B1Lemma: -_dres, S0B1LemmaPOS: -_Sommt, S0B1POS: -_Sommt, S0B1POSLemma: -_dres, S0B1Token: -_drese, S0Lemma: -, S0POS: -, S0Token: -, transitionHistoryLength3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, tako, z ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bele, drese, našega ,.. ]
 
-B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
+B0Lemma: bel, B0POS: Ppnmmt, B0Token: bele, transitionHistoryLength3: 020, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [tako, z, nezmotljivim ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bele]   B= [drese, našega, kluba ,.. ]
 
-B0Lemma: tako, B0POS: Rsn, B0Token: tako, S0B0Lemma: in_tako, S0B0LemmaPOS: in_Rsn, S0B0POS: Vp_Rsn, S0B0POSLemma: Vp_tako, S0B0Token: in_tako, S0B1Lemma: in_z, S0B1LemmaPOS: in_Do, S0B1POS: Vp_Do, S0B1POSLemma: Vp_z, S0B1Token: in_z, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
+B0Lemma: dres, B0POS: Sommt, B0Token: drese, S0B0Lemma: bel_dres, S0B0LemmaPOS: bel_Sommt, S0B0POS: Ppnmmt_Sommt, S0B0POSLemma: Ppnmmt_dres, S0B0Token: bele_drese, S0B1Lemma: bel_naš, S0B1LemmaPOS: bel_Zspmerm, S0B1POS: Ppnmmt_Zspmerm, S0B1POSLemma: Ppnmmt_naš, S0B1Token: bele_našega, S0Lemma: bel, S0POS: Ppnmmt, S0Token: bele, transitionHistoryLength3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tako, z, nezmotljivim ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [drese, našega, kluba ,.. ]
+
+B0Lemma: dres, B0POS: Sommt, B0Token: drese, transitionHistoryLength3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [drese]   B= [našega, kluba, , ,.. ]
+
+B0Lemma: naš, B0POS: Zspmerm, B0Token: našega, S0B0Lemma: dres_naš, S0B0LemmaPOS: dres_Zspmerm, S0B0POS: Sommt_Zspmerm, S0B0POSLemma: Sommt_naš, S0B0Token: drese_našega, S0B1Lemma: dres_klub, S0B1LemmaPOS: dres_Somer, S0B1POS: Sommt_Somer, S0B1POSLemma: Sommt_klub, S0B1Token: drese_kluba, S0Lemma: dres, S0POS: Sommt, S0Token: drese, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [našega, kluba, , ,.. ]
+
+B0Lemma: naš, B0POS: Zspmerm, B0Token: našega, transitionHistoryLength3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [našega]   B= [kluba, ,, deležni ,.. ]
+
+B0Lemma: klub, B0POS: Somer, B0Token: kluba, S0B0Lemma: naš_klub, S0B0LemmaPOS: naš_Somer, S0B0POS: Zspmerm_Somer, S0B0POSLemma: Zspmerm_klub, S0B0Token: našega_kluba, S0B1Lemma: naš_,, S0B1LemmaPOS: naš_,, S0B1POS: Zspmerm_,, S0B1POSLemma: Zspmerm_,, S0B1Token: našega_,, S0Lemma: naš, S0POS: Zspmerm, S0Token: našega, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kluba, ,, deležni ,.. ]
+
+B0Lemma: klub, B0POS: Somer, B0Token: kluba, transitionHistoryLength3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kluba]   B= [,, deležni, šikaniranja ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: klub_,, S0B0LemmaPOS: klub_,, S0B0POS: Somer_,, S0B0POSLemma: Somer_,, S0B0Token: kluba_,, S0B1Lemma: klub_deležen, S0B1LemmaPOS: klub_Ppnmmi, S0B1POS: Somer_Ppnmmi, S0B1POSLemma: Somer_deležen, S0B1Token: kluba_deležni, S0Lemma: klub, S0POS: Somer, S0Token: kluba, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, deležni, šikaniranja ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [deležni, šikaniranja, in ,.. ]
+
+B0Lemma: deležen, B0POS: Ppnmmi, B0Token: deležni, S0B0Lemma: ,_deležen, S0B0LemmaPOS: ,_Ppnmmi, S0B0POS: ,_Ppnmmi, S0B0POSLemma: ,_deležen, S0B0Token: ,_deležni, S0B1Lemma: ,_šikaniranje, S0B1LemmaPOS: ,_Soser, S0B1POS: ,_Soser, S0B1POSLemma: ,_šikaniranje, S0B1Token: ,_šikaniranja, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [deležni, šikaniranja, in ,.. ]
+
+B0Lemma: deležen, B0POS: Ppnmmi, B0Token: deležni, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [deležni]   B= [šikaniranja, in, če ,.. ]
+
+B0Lemma: šikaniranje, B0POS: Soser, B0Token: šikaniranja, S0B0Lemma: deležen_šikaniranje, S0B0LemmaPOS: deležen_Soser, S0B0POS: Ppnmmi_Soser, S0B0POSLemma: Ppnmmi_šikaniranje, S0B0Token: deležni_šikaniranja, S0B1Lemma: deležen_in, S0B1LemmaPOS: deležen_Vp, S0B1POS: Ppnmmi_Vp, S0B1POSLemma: Ppnmmi_in, S0B1Token: deležni_in, S0Lemma: deležen, S0POS: Ppnmmi, S0Token: deležni, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [šikaniranja, in, če ,.. ]
+
+B0Lemma: šikaniranje, B0POS: Soser, B0Token: šikaniranja, transitionHistoryLength3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [šikaniranja]   B= [in, če, je ,.. ]
+
+B0IsInLexic: true, B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: šikaniranje_in, S0B0LemmaPOS: šikaniranje_Vp, S0B0POS: Soser_Vp, S0B0POSLemma: Soser_in, S0B0Token: šikaniranja_in, S0B1Lemma: šikaniranje_če, S0B1LemmaPOS: šikaniranje_Vd, S0B1POS: Soser_Vd, S0B1POSLemma: Soser_če, S0B1Token: šikaniranja_če, S0Lemma: šikaniranje, S0POS: Soser, S0Token: šikaniranja, transitionHistoryLength3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, če, je ,.. ]
+
+B0IsInLexic: true, B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [če, je, napadena ,.. ]
+
+B0Lemma: če, B0POS: Vd, B0Token: če, S0B0Lemma: in_če, S0B0LemmaPOS: in_Vd, S0B0POS: Vp_Vd, S0B0POSLemma: Vp_če, S0B0Token: in_če, S0B1Lemma: in_biti, S0B1LemmaPOS: in_Gp-ste-n, S0B1POS: Vp_Gp-ste-n, S0B1POSLemma: Vp_biti, S0B1Token: in_je, S0IsInLexic: true, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [če, je, napadena ,.. ]
+
+B0Lemma: če, B0POS: Vd, B0Token: če, transitionHistoryLength3: 020, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [če]   B= [je, napadena, tudi ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, S0B0Lemma: če_biti, S0B0LemmaPOS: če_Gp-ste-n, S0B0POS: Vd_Gp-ste-n, S0B0POSLemma: Vd_biti, S0B0Token: če_je, S0B1Lemma: če_napaden, S0B1LemmaPOS: če_Pdnzei, S0B1POS: Vd_Pdnzei, S0B1POSLemma: Vd_napaden, S0B1Token: če_napadena, S0Lemma: če, S0POS: Vd, S0Token: če, transitionHistoryLength3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [je, napadena, tudi ,.. ]
+
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, transitionHistoryLength3: 020, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [je]   B= [napadena, tudi, policija ,.. ]
+
+B0Lemma: napaden, B0POS: Pdnzei, B0Token: napadena, S0B0Lemma: biti_napaden, S0B0LemmaPOS: biti_Pdnzei, S0B0POS: Gp-ste-n_Pdnzei, S0B0POSLemma: Gp-ste-n_napaden, S0B0Token: je_napadena, S0B1Lemma: biti_tudi, S0B1LemmaPOS: biti_L, S0B1POS: Gp-ste-n_L, S0B1POSLemma: Gp-ste-n_tudi, S0B1Token: je_tudi, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-ste-n, S0Token: je, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [napadena, tudi, policija ,.. ]
+
+B0Lemma: napaden, B0POS: Pdnzei, B0Token: napadena, transitionHistoryLength3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [napadena]   B= [tudi, policija, , ,.. ]
+
+B0Lemma: tudi, B0POS: L, B0Token: tudi, S0B0Lemma: napaden_tudi, S0B0LemmaPOS: napaden_L, S0B0POS: Pdnzei_L, S0B0POSLemma: Pdnzei_tudi, S0B0Token: napadena_tudi, S0B1Lemma: napaden_policija, S0B1LemmaPOS: napaden_Sozei, S0B1POS: Pdnzei_Sozei, S0B1POSLemma: Pdnzei_policija, S0B1Token: napadena_policija, S0Lemma: napaden, S0POS: Pdnzei, S0Token: napadena, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tudi, policija, , ,.. ]
+
+B0Lemma: tudi, B0POS: L, B0Token: tudi, transitionHistoryLength3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tudi]   B= [policija, ,, potem ,.. ]
+
+B0Lemma: policija, B0POS: Sozei, B0Token: policija, S0B0Lemma: tudi_policija, S0B0LemmaPOS: tudi_Sozei, S0B0POS: L_Sozei, S0B0POSLemma: L_policija, S0B0Token: tudi_policija, S0B1Lemma: tudi_,, S0B1LemmaPOS: tudi_,, S0B1POS: L_,, S0B1POSLemma: L_,, S0B1Token: tudi_,, S0Lemma: tudi, S0POS: L, S0Token: tudi, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [policija, ,, potem ,.. ]
+
+B0Lemma: policija, B0POS: Sozei, B0Token: policija, transitionHistoryLength3: 020, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [policija]   B= [,, potem, tako ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: policija_,, S0B0LemmaPOS: policija_,, S0B0POS: Sozei_,, S0B0POSLemma: Sozei_,, S0B0Token: policija_,, S0B1Lemma: policija_potem, S0B1LemmaPOS: policija_Rsn, S0B1POS: Sozei_Rsn, S0B1POSLemma: Sozei_potem, S0B1Token: policija_potem, S0Lemma: policija, S0POS: Sozei, S0Token: policija, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, potem, tako ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [potem, tako, ne ,.. ]
+
+B0Lemma: potem, B0POS: Rsn, B0Token: potem, S0B0Lemma: ,_potem, S0B0LemmaPOS: ,_Rsn, S0B0POS: ,_Rsn, S0B0POSLemma: ,_potem, S0B0Token: ,_potem, S0B1Lemma: ,_tako, S0B1LemmaPOS: ,_Rsn, S0B1POS: ,_Rsn, S0B1POSLemma: ,_tako, S0B1Token: ,_tako, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [potem, tako, ne ,.. ]
+
+B0Lemma: potem, B0POS: Rsn, B0Token: potem, transitionHistoryLength3: 020, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [potem]   B= [tako, ne, gre ,.. ]
+
+B0Lemma: tako, B0POS: Rsn, B0Token: tako, S0B0Lemma: potem_tako, S0B0LemmaPOS: potem_Rsn, S0B0POS: Rsn_Rsn, S0B0POSLemma: Rsn_tako, S0B0Token: potem_tako, S0B1Lemma: potem_ne, S0B1LemmaPOS: potem_L, S0B1POS: Rsn_L, S0B1POSLemma: Rsn_ne, S0B1Token: potem_ne, S0Lemma: potem, S0POS: Rsn, S0Token: potem, transitionHistoryLength3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tako, ne, gre ,.. ]
 
 B0Lemma: tako, B0POS: Rsn, B0Token: tako, transitionHistoryLength3: 020, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tako]   B= [z, nezmotljivim, političnim ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tako]   B= [ne, gre, več ,.. ]
 
-B0Lemma: z, B0POS: Do, B0Token: z, S0B0Lemma: tako_z, S0B0LemmaPOS: tako_Do, S0B0POS: Rsn_Do, S0B0POSLemma: Rsn_z, S0B0Token: tako_z, S0B1Lemma: tako_nezmotljiv, S0B1LemmaPOS: tako_Ppnmeo, S0B1POS: Rsn_Ppnmeo, S0B1POSLemma: Rsn_nezmotljiv, S0B1Token: tako_nezmotljivim, S0Lemma: tako, S0POS: Rsn, S0Token: tako, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: ne, B0POS: L, B0Token: ne, S0B0Lemma: tako_ne, S0B0LemmaPOS: tako_L, S0B0POS: Rsn_L, S0B0POSLemma: Rsn_ne, S0B0Token: tako_ne, S0B1Lemma: tako_iti, S0B1LemmaPOS: tako_Ggvste, S0B1POS: Rsn_Ggvste, S0B1POSLemma: Rsn_iti, S0B1Token: tako_gre, S0Lemma: tako, S0POS: Rsn, S0Token: tako, transitionHistoryLength3: 202, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [z, nezmotljivim, političnim ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ne, gre, več ,.. ]
 
-B0Lemma: z, B0POS: Do, B0Token: z, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: ne, B0POS: L, B0Token: ne, transitionHistoryLength3: 020, 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [z]   B= [nezmotljivim, političnim, instinktom ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ne]   B= [gre, več, in ,.. ]
 
-B0Lemma: nezmotljiv, B0POS: Ppnmeo, B0Token: nezmotljivim, S0B0Lemma: z_nezmotljiv, S0B0LemmaPOS: z_Ppnmeo, S0B0POS: Do_Ppnmeo, S0B0POSLemma: Do_nezmotljiv, S0B0Token: z_nezmotljivim, S0B1Lemma: z_političen, S0B1LemmaPOS: z_Ppnmeo, S0B1POS: Do_Ppnmeo, S0B1POSLemma: Do_političen, S0B1Token: z_političnim, S0Lemma: z, S0POS: Do, S0Token: z, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: iti, B0POS: Ggvste, B0Token: gre, S0B0Lemma: ne_iti, S0B0LemmaPOS: ne_Ggvste, S0B0POS: L_Ggvste, S0B0POSLemma: L_iti, S0B0Token: ne_gre, S0B1Lemma: ne_več, S0B1LemmaPOS: ne_L, S0B1POS: L_L, S0B1POSLemma: L_več, S0B1Token: ne_več, S0IsInLexic: true, S0Lemma: ne, S0POS: L, S0Token: ne, transitionHistoryLength3: 202, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nezmotljivim, političnim, instinktom ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gre, več, in ,.. ]
 
-B0Lemma: nezmotljiv, B0POS: Ppnmeo, B0Token: nezmotljivim, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: iti, B0POS: Ggvste, B0Token: gre, transitionHistoryLength3: 020, 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nezmotljivim]   B= [političnim, instinktom, poskušal ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gre]   B= [več, in, moramo ,.. ]
 
-B0Lemma: političen, B0POS: Ppnmeo, B0Token: političnim, S0B0Lemma: nezmotljiv_političen, S0B0LemmaPOS: nezmotljiv_Ppnmeo, S0B0POS: Ppnmeo_Ppnmeo, S0B0POSLemma: Ppnmeo_političen, S0B0Token: nezmotljivim_političnim, S0B1Lemma: nezmotljiv_instinkt, S0B1LemmaPOS: nezmotljiv_Someo, S0B1POS: Ppnmeo_Someo, S0B1POSLemma: Ppnmeo_instinkt, S0B1Token: nezmotljivim_instinktom, S0Lemma: nezmotljiv, S0POS: Ppnmeo, S0Token: nezmotljivim, transitionHistoryLength3: 202, 
+B0Lemma: več, B0POS: L, B0Token: več, S0B0Lemma: iti_več, S0B0LemmaPOS: iti_L, S0B0POS: Ggvste_L, S0B0POSLemma: Ggvste_več, S0B0Token: gre_več, S0B1Lemma: iti_in, S0B1LemmaPOS: iti_Vp, S0B1POS: Ggvste_Vp, S0B1POSLemma: Ggvste_in, S0B1Token: gre_in, S0IsInLexic: true, S0Lemma: iti, S0POS: Ggvste, S0Token: gre, transitionHistoryLength3: 202, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [političnim, instinktom, poskušal ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [več, in, moramo ,.. ]
 
-B0Lemma: političen, B0POS: Ppnmeo, B0Token: političnim, transitionHistoryLength3: 020, 
+B0Lemma: več, B0POS: L, B0Token: več, transitionHistoryLength3: 020, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [političnim]   B= [instinktom, poskušal, zajeti ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [več]   B= [in, moramo, temu ,.. ]
 
-B0Lemma: instinkt, B0POS: Someo, B0Token: instinktom, S0B0Lemma: političen_instinkt, S0B0LemmaPOS: političen_Someo, S0B0POS: Ppnmeo_Someo, S0B0POSLemma: Ppnmeo_instinkt, S0B0Token: političnim_instinktom, S0B1Lemma: političen_poskušati, S0B1LemmaPOS: političen_Ggnd-em, S0B1POS: Ppnmeo_Ggnd-em, S0B1POSLemma: Ppnmeo_poskušati, S0B1Token: političnim_poskušal, S0Lemma: političen, S0POS: Ppnmeo, S0Token: političnim, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: več_in, S0B0LemmaPOS: več_Vp, S0B0POS: L_Vp, S0B0POSLemma: L_in, S0B0Token: več_in, S0B1Lemma: več_morati, S0B1LemmaPOS: več_Ggnspm, S0B1POS: L_Ggnspm, S0B1POSLemma: L_morati, S0B1Token: več_moramo, S0Lemma: več, S0POS: L, S0Token: več, transitionHistoryLength3: 202, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [instinktom, poskušal, zajeti ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, moramo, temu ,.. ]
 
-B0Lemma: instinkt, B0POS: Someo, B0Token: instinktom, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [instinktom]   B= [poskušal, zajeti, v ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [moramo, temu, narediti ,.. ]
 
-B0Lemma: poskušati, B0POS: Ggnd-em, B0Token: poskušal, S0B0Lemma: instinkt_poskušati, S0B0LemmaPOS: instinkt_Ggnd-em, S0B0POS: Someo_Ggnd-em, S0B0POSLemma: Someo_poskušati, S0B0Token: instinktom_poskušal, S0B1Lemma: instinkt_zajeti, S0B1LemmaPOS: instinkt_Ggdn, S0B1POS: Someo_Ggdn, S0B1POSLemma: Someo_zajeti, S0B1Token: instinktom_zajeti, S0Lemma: instinkt, S0POS: Someo, S0Token: instinktom, transitionHistoryLength3: 202, 
+B0Lemma: morati, B0POS: Ggnspm, B0Token: moramo, S0B0Lemma: in_morati, S0B0LemmaPOS: in_Ggnspm, S0B0POS: Vp_Ggnspm, S0B0POSLemma: Vp_morati, S0B0Token: in_moramo, S0B1Lemma: in_ta, S0B1LemmaPOS: in_Zk-sed, S0B1POS: Vp_Zk-sed, S0B1POSLemma: Vp_ta, S0B1Token: in_temu, S0IsInLexic: true, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [poskušal, zajeti, v ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [moramo, temu, narediti ,.. ]
 
-B0Lemma: poskušati, B0POS: Ggnd-em, B0Token: poskušal, transitionHistoryLength3: 020, 
+B0Lemma: morati, B0POS: Ggnspm, B0Token: moramo, transitionHistoryLength3: 020, 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [poskušal]   B= [zajeti, v, svoja ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [moramo]   B= [temu, narediti, konec ,.. ]
 
-B0Lemma: zajeti, B0POS: Ggdn, B0Token: zajeti, S0B0Lemma: poskušati_zajeti, S0B0LemmaPOS: poskušati_Ggdn, S0B0POS: Ggnd-em_Ggdn, S0B0POSLemma: Ggnd-em_zajeti, S0B0Token: poskušal_zajeti, S0B1Lemma: poskušati_v, S0B1LemmaPOS: poskušati_Dt, S0B1POS: Ggnd-em_Dt, S0B1POSLemma: Ggnd-em_v, S0B1Token: poskušal_v, S0Lemma: poskušati, S0POS: Ggnd-em, S0Token: poskušal, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: ta, B0POS: Zk-sed, B0Token: temu, S0B0Lemma: morati_ta, S0B0LemmaPOS: morati_Zk-sed, S0B0POS: Ggnspm_Zk-sed, S0B0POSLemma: Ggnspm_ta, S0B0Token: moramo_temu, S0B1Lemma: morati_narediti, S0B1LemmaPOS: morati_Ggdn, S0B1POS: Ggnspm_Ggdn, S0B1POSLemma: Ggnspm_narediti, S0B1Token: moramo_narediti, S0Lemma: morati, S0POS: Ggnspm, S0Token: moramo, transitionHistoryLength3: 202, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zajeti, v, svoja ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [temu, narediti, konec ,.. ]
 
-B0Lemma: zajeti, B0POS: Ggdn, B0Token: zajeti, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: ta, B0POS: Zk-sed, B0Token: temu, transitionHistoryLength3: 020, 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zajeti]   B= [v, svoja, jadra ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [temu]   B= [narediti, konec, , ,.. ]
 
-B0Lemma: v, B0POS: Dt, B0Token: v, S0B0Lemma: zajeti_v, S0B0LemmaPOS: zajeti_Dt, S0B0POS: Ggdn_Dt, S0B0POSLemma: Ggdn_v, S0B0Token: zajeti_v, S0B1Lemma: zajeti_svoj, S0B1LemmaPOS: zajeti_Zp-smt, S0B1POS: Ggdn_Zp-smt, S0B1POSLemma: Ggdn_svoj, S0B1Token: zajeti_svoja, S0Lemma: zajeti, S0POS: Ggdn, S0Token: zajeti, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: narediti, B0POS: Ggdn, B0Token: narediti, S0B0Lemma: ta_narediti, S0B0LemmaPOS: ta_Ggdn, S0B0POS: Zk-sed_Ggdn, S0B0POSLemma: Zk-sed_narediti, S0B0Token: temu_narediti, S0B1Lemma: ta_konec, S0B1LemmaPOS: ta_Sometn, S0B1POS: Zk-sed_Sometn, S0B1POSLemma: Zk-sed_konec, S0B1Token: temu_konec, S0IsInLexic: true, S0Lemma: ta, S0POS: Zk-sed, S0Token: temu, transitionHistoryLength3: 202, 
 
-54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zajeti, v]   B= [svoja, jadra, vsaj ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [narediti, konec, , ,.. ]
 
-B0Lemma: svoj, B0POS: Zp-smt, B0Token: svoja, S0B0Lemma: v_svoj, S0B0LemmaPOS: v_Zp-smt, S0B0POS: Dt_Zp-smt, S0B0POSLemma: Dt_svoj, S0B0Token: v_svoja, S0B1Lemma: v_jadro, S0B1LemmaPOS: v_Sosmt, S0B1POS: Dt_Sosmt, S0B1POSLemma: Dt_jadro, S0B1Token: v_jadra, S0Lemma: v, S0POS: Dt, S0Token: v, S1B0Lemma: zajeti_svoj, S1B0LemmaPOS: zajeti_Zp-smt, S1B0POS: Ggdn_Zp-smt, S1B0POSLemma: Ggdn_svoj, S1B0Token: zajeti_svoja, S1Lemma: zajeti, S1POS: Ggdn, S1S0Lemma: zajeti_v, S1S0LemmaPOS: zajeti_Dt, S1S0POS: Ggdn_Dt, S1S0POSLemma: Ggdn_v, S1S0Token: zajeti_v, S1Token: zajeti, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: narediti, B0POS: Ggdn, B0Token: narediti, transitionHistoryLength3: 020, 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zajeti, v, svoja]   B= [jadra, vsaj, del ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [narediti]   B= [konec, ,, ” ,.. ]
 
-B0Lemma: jadro, B0POS: Sosmt, B0Token: jadra, S0B0Lemma: svoj_jadro, S0B0LemmaPOS: svoj_Sosmt, S0B0POS: Zp-smt_Sosmt, S0B0POSLemma: Zp-smt_jadro, S0B0Token: svoja_jadra, S0B1Lemma: svoj_vsaj, S0B1LemmaPOS: svoj_L, S0B1POS: Zp-smt_L, S0B1POSLemma: Zp-smt_vsaj, S0B1Token: svoja_vsaj, S0Lemma: svoj, S0POS: Zp-smt, S0Token: svoja, S1B0Lemma: v_jadro, S1B0LemmaPOS: v_Sosmt, S1B0POS: Dt_Sosmt, S1B0POSLemma: Dt_jadro, S1B0Token: v_jadra, S1Lemma: v, S1POS: Dt, S1S0Lemma: v_svoj, S1S0LemmaPOS: v_Zp-smt, S1S0POS: Dt_Zp-smt, S1S0POSLemma: Dt_svoj, S1S0Token: v_svoja, S1Token: v, transitionHistoryLength3: 002, 
+B0IsInLexic: true, B0Lemma: konec, B0POS: Sometn, B0Token: konec, S0B0Lemma: narediti_konec, S0B0LemmaPOS: narediti_Sometn, S0B0POS: Ggdn_Sometn, S0B0POSLemma: Ggdn_konec, S0B0Token: narediti_konec, S0B1Lemma: narediti_,, S0B1LemmaPOS: narediti_,, S0B1POS: Ggdn_,, S0B1POSLemma: Ggdn_,, S0B1Token: narediti_,, S0IsInLexic: true, S0Lemma: narediti, S0POS: Ggdn, S0Token: narediti, transitionHistoryLength3: 202, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zajeti, v]   B= [jadra, vsaj, del ,.. ]
+78- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [narediti, konec]   B= [,, ”, je ,.. ]
 
-B0Lemma: jadro, B0POS: Sosmt, B0Token: jadra, S0B0Lemma: v_jadro, S0B0LemmaPOS: v_Sosmt, S0B0POS: Dt_Sosmt, S0B0POSLemma: Dt_jadro, S0B0Token: v_jadra, S0B1Lemma: v_vsaj, S0B1LemmaPOS: v_L, S0B1POS: Dt_L, S0B1POSLemma: Dt_vsaj, S0B1Token: v_vsaj, S0Lemma: v, S0POS: Dt, S0Token: v, S1B0Lemma: zajeti_jadro, S1B0LemmaPOS: zajeti_Sosmt, S1B0POS: Ggdn_Sosmt, S1B0POSLemma: Ggdn_jadro, S1B0Token: zajeti_jadra, S1Lemma: zajeti, S1POS: Ggdn, S1S0Lemma: zajeti_v, S1S0LemmaPOS: zajeti_Dt, S1S0POS: Ggdn_Dt, S1S0POSLemma: Ggdn_v, S1S0Token: zajeti_v, S1Token: zajeti, transitionHistoryLength3: 000, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: konec_,, S0B0LemmaPOS: konec_,, S0B0POS: Sometn_,, S0B0POSLemma: Sometn_,, S0B0Token: konec_,, S0B1Lemma: konec_”, S0B1LemmaPOS: konec_”, S0B1POS: Sometn_”, S0B1POSLemma: Sometn_”, S0B1Token: konec_”, S0IsInLexic: true, S0Lemma: konec, S0POS: Sometn, S0Token: konec, S1B0Lemma: narediti_,, S1B0LemmaPOS: narediti_,, S1B0POS: Ggdn_,, S1B0POSLemma: Ggdn_,, S1B0Token: narediti_,, S1IsInLexic: true, S1Lemma: narediti, S1POS: Ggdn, S1S0Lemma: narediti_konec, S1S0LemmaPOS: narediti_Sometn, S1S0POS: Ggdn_Sometn, S1S0POSLemma: Ggdn_konec, S1S0Token: narediti_konec, S1Token: narediti, transitionHistoryLength3: 020, 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zajeti, v, jadra]   B= [vsaj, del, širokega ,.. ]
+79- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[narediti, konec]]   B= [,, ”, je ,.. ]
 
-B0Lemma: vsaj, B0POS: L, B0Token: vsaj, S0B0Lemma: jadro_vsaj, S0B0LemmaPOS: jadro_L, S0B0POS: Sosmt_L, S0B0POSLemma: Sosmt_vsaj, S0B0Token: jadra_vsaj, S0B1Lemma: jadro_del, S0B1LemmaPOS: jadro_Sometn, S0B1POS: Sosmt_Sometn, S0B1POSLemma: Sosmt_del, S0B1Token: jadra_del, S0Lemma: jadro, S0POS: Sosmt, S0Token: jadra, S1B0Lemma: v_vsaj, S1B0LemmaPOS: v_L, S1B0POS: Dt_L, S1B0POSLemma: Dt_vsaj, S1B0Token: v_vsaj, S1Lemma: v, S1POS: Dt, S1S0Lemma: v_jadro, S1S0LemmaPOS: v_Sosmt, S1S0POS: Dt_Sosmt, S1S0POSLemma: Dt_jadro, S1S0Token: v_jadra, S1Token: v, transitionHistoryLength3: 200, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: narediti_konec_,, S0B0LemmaPOS: narediti_konec_,, S0B0POS: Ggdn_Sometn_,, S0B0POSLemma: Ggdn_Sometn_,, S0B0Token: narediti_konec_,, S0B1Lemma: narediti_konec_”, S0B1LemmaPOS: narediti_konec_”, S0B1POS: Ggdn_Sometn_”, S0B1POSLemma: Ggdn_Sometn_”, S0B1Token: narediti_konec_”, S0Lemma: narediti_konec, S0POS: Ggdn_Sometn, S0Token: narediti_konec, transitionHistoryLength3: 002, 
 
-58- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zajeti, [v, jadra]]   B= [vsaj, del, širokega ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ”, je ,.. ]
 
-B0Lemma: vsaj, B0POS: L, B0Token: vsaj, S0B0Lemma: v_jadro_vsaj, S0B0LemmaPOS: v_jadro_L, S0B0POS: Dt_Sosmt_L, S0B0POSLemma: Dt_Sosmt_vsaj, S0B0Token: v_jadra_vsaj, S0B1Lemma: v_jadro_del, S0B1LemmaPOS: v_jadro_Sometn, S0B1POS: Dt_Sosmt_Sometn, S0B1POSLemma: Dt_Sosmt_del, S0B1Token: v_jadra_del, S0Lemma: v_jadro, S0POS: Dt_Sosmt, S0Token: v_jadra, S1B0Lemma: zajeti_vsaj, S1B0LemmaPOS: zajeti_L, S1B0POS: Ggdn_L, S1B0POSLemma: Ggdn_vsaj, S1B0Token: zajeti_vsaj, S1Lemma: zajeti, S1POS: Ggdn, S1S0Lemma: zajeti_v_jadro, S1S0LemmaPOS: zajeti_Dt_Sosmt, S1S0POS: Ggdn_Dt_Sosmt, S1S0POSLemma: Ggdn_v_jadro, S1S0Token: zajeti_v_jadra, S1Token: zajeti, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 100, 
 
-59- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[zajeti, [v, jadra]]]   B= [vsaj, del, širokega ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [”, je, dejal ,.. ]
 
-B0Lemma: vsaj, B0POS: L, B0Token: vsaj, S0B0Lemma: zajeti_v_jadro_vsaj, S0B0LemmaPOS: zajeti_v_jadro_L, S0B0POS: Ggdn_Dt_Sosmt_L, S0B0POSLemma: Ggdn_Dt_Sosmt_vsaj, S0B0Token: zajeti_v_jadra_vsaj, S0B1Lemma: zajeti_v_jadro_del, S0B1LemmaPOS: zajeti_v_jadro_Sometn, S0B1POS: Ggdn_Dt_Sosmt_Sometn, S0B1POSLemma: Ggdn_Dt_Sosmt_del, S0B1Token: zajeti_v_jadra_del, S0Lemma: zajeti_v_jadro, S0POS: Ggdn_Dt_Sosmt, S0Token: zajeti_v_jadra, transitionHistoryLength3: 102, 
+B0Lemma: ”, B0POS: ”, B0Token: ”, S0B0Lemma: ,_”, S0B0LemmaPOS: ,_”, S0B0POS: ,_”, S0B0POSLemma: ,_”, S0B0Token: ,_”, S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-ste-n, S0B1POS: ,_Gp-ste-n, S0B1POSLemma: ,_biti, S0B1Token: ,_je, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 210, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vsaj, del, širokega ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [”, je, dejal ,.. ]
 
-B0Lemma: vsaj, B0POS: L, B0Token: vsaj, transitionHistoryLength3: 110, 
+B0Lemma: ”, B0POS: ”, B0Token: ”, transitionHistoryLength3: 021, 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vsaj]   B= [del, širokega, ljudskega ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [”]   B= [je, dejal, eden ,.. ]
 
-B0Lemma: del, B0POS: Sometn, B0Token: del, S0B0Lemma: vsaj_del, S0B0LemmaPOS: vsaj_Sometn, S0B0POS: L_Sometn, S0B0POSLemma: L_del, S0B0Token: vsaj_del, S0B1Lemma: vsaj_širok, S0B1LemmaPOS: vsaj_Ppnser, S0B1POS: L_Ppnser, S0B1POSLemma: L_širok, S0B1Token: vsaj_širokega, S0Lemma: vsaj, S0POS: L, S0Token: vsaj, transitionHistoryLength3: 211, 
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, S0B0Lemma: ”_biti, S0B0LemmaPOS: ”_Gp-ste-n, S0B0POS: ”_Gp-ste-n, S0B0POSLemma: ”_biti, S0B0Token: ”_je, S0B1Lemma: ”_dejati, S0B1LemmaPOS: ”_Ggdd-em, S0B1POS: ”_Ggdd-em, S0B1POSLemma: ”_dejati, S0B1Token: ”_dejal, S0Lemma: ”, S0POS: ”, S0Token: ”, transitionHistoryLength3: 202, 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [del, širokega, ljudskega ,.. ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [je, dejal, eden ,.. ]
 
-B0Lemma: del, B0POS: Sometn, B0Token: del, transitionHistoryLength3: 021, 
+B0IsInLexic: true, B0Lemma: biti, B0POS: Gp-ste-n, B0Token: je, transitionHistoryLength3: 020, 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [del]   B= [širokega, ljudskega, nezaupanja ,.. ]
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [je]   B= [dejal, eden, od ,.. ]
 
-B0Lemma: širok, B0POS: Ppnser, B0Token: širokega, S0B0Lemma: del_širok, S0B0LemmaPOS: del_Ppnser, S0B0POS: Sometn_Ppnser, S0B0POSLemma: Sometn_širok, S0B0Token: del_širokega, S0B1Lemma: del_ljudski, S0B1LemmaPOS: del_Ppnser, S0B1POS: Sometn_Ppnser, S0B1POSLemma: Sometn_ljudski, S0B1Token: del_ljudskega, S0Lemma: del, S0POS: Sometn, S0Token: del, transitionHistoryLength3: 202, 
+B0Lemma: dejati, B0POS: Ggdd-em, B0Token: dejal, S0B0Lemma: biti_dejati, S0B0LemmaPOS: biti_Ggdd-em, S0B0POS: Gp-ste-n_Ggdd-em, S0B0POSLemma: Gp-ste-n_dejati, S0B0Token: je_dejal, S0B1Lemma: biti_eden, S0B1LemmaPOS: biti_Kbzmei, S0B1POS: Gp-ste-n_Kbzmei, S0B1POSLemma: Gp-ste-n_eden, S0B1Token: je_eden, S0IsInLexic: true, S0Lemma: biti, S0POS: Gp-ste-n, S0Token: je, transitionHistoryLength3: 202, 
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [širokega, ljudskega, nezaupanja ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dejal, eden, od ,.. ]
 
-B0Lemma: širok, B0POS: Ppnser, B0Token: širokega, transitionHistoryLength3: 020, 
+B0Lemma: dejati, B0POS: Ggdd-em, B0Token: dejal, transitionHistoryLength3: 020, 
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [širokega]   B= [ljudskega, nezaupanja, do ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dejal]   B= [eden, od, klubskih ,.. ]
 
-B0Lemma: ljudski, B0POS: Ppnser, B0Token: ljudskega, S0B0Lemma: širok_ljudski, S0B0LemmaPOS: širok_Ppnser, S0B0POS: Ppnser_Ppnser, S0B0POSLemma: Ppnser_ljudski, S0B0Token: širokega_ljudskega, S0B1Lemma: širok_nezaupanje, S0B1LemmaPOS: širok_Soser, S0B1POS: Ppnser_Soser, S0B1POSLemma: Ppnser_nezaupanje, S0B1Token: širokega_nezaupanja, S0Lemma: širok, S0POS: Ppnser, S0Token: širokega, transitionHistoryLength3: 202, 
+B0Lemma: eden, B0POS: Kbzmei, B0Token: eden, S0B0Lemma: dejati_eden, S0B0LemmaPOS: dejati_Kbzmei, S0B0POS: Ggdd-em_Kbzmei, S0B0POSLemma: Ggdd-em_eden, S0B0Token: dejal_eden, S0B1Lemma: dejati_od, S0B1LemmaPOS: dejati_Dr, S0B1POS: Ggdd-em_Dr, S0B1POSLemma: Ggdd-em_od, S0B1Token: dejal_od, S0Lemma: dejati, S0POS: Ggdd-em, S0Token: dejal, transitionHistoryLength3: 202, 
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ljudskega, nezaupanja, do ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [eden, od, klubskih ,.. ]
 
-B0Lemma: ljudski, B0POS: Ppnser, B0Token: ljudskega, transitionHistoryLength3: 020, 
+B0Lemma: eden, B0POS: Kbzmei, B0Token: eden, transitionHistoryLength3: 020, 
 
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ljudskega]   B= [nezaupanja, do, takšnih ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [eden]   B= [od, klubskih, mož ,.. ]
 
-B0Lemma: nezaupanje, B0POS: Soser, B0Token: nezaupanja, S0B0Lemma: ljudski_nezaupanje, S0B0LemmaPOS: ljudski_Soser, S0B0POS: Ppnser_Soser, S0B0POSLemma: Ppnser_nezaupanje, S0B0Token: ljudskega_nezaupanja, S0B1Lemma: ljudski_do, S0B1LemmaPOS: ljudski_Dr, S0B1POS: Ppnser_Dr, S0B1POSLemma: Ppnser_do, S0B1Token: ljudskega_do, S0Lemma: ljudski, S0POS: Ppnser, S0Token: ljudskega, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: od, B0POS: Dr, B0Token: od, S0B0Lemma: eden_od, S0B0LemmaPOS: eden_Dr, S0B0POS: Kbzmei_Dr, S0B0POSLemma: Kbzmei_od, S0B0Token: eden_od, S0B1Lemma: eden_klubski, S0B1LemmaPOS: eden_Ppnmmr, S0B1POS: Kbzmei_Ppnmmr, S0B1POSLemma: Kbzmei_klubski, S0B1Token: eden_klubskih, S0Lemma: eden, S0POS: Kbzmei, S0Token: eden, transitionHistoryLength3: 202, 
 
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nezaupanja, do, takšnih ,.. ]
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [od, klubskih, mož ,.. ]
 
-B0Lemma: nezaupanje, B0POS: Soser, B0Token: nezaupanja, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: od, B0POS: Dr, B0Token: od, transitionHistoryLength3: 020, 
 
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nezaupanja]   B= [do, takšnih, in ,.. ]
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [od]   B= [klubskih, mož, . ,.. ]
 
-B0Lemma: do, B0POS: Dr, B0Token: do, S0B0Lemma: nezaupanje_do, S0B0LemmaPOS: nezaupanje_Dr, S0B0POS: Soser_Dr, S0B0POSLemma: Soser_do, S0B0Token: nezaupanja_do, S0B1Lemma: nezaupanje_takšen, S0B1LemmaPOS: nezaupanje_Zk-mmr, S0B1POS: Soser_Zk-mmr, S0B1POSLemma: Soser_takšen, S0B1Token: nezaupanja_takšnih, S0Lemma: nezaupanje, S0POS: Soser, S0Token: nezaupanja, transitionHistoryLength3: 202, 
+B0Lemma: klubski, B0POS: Ppnmmr, B0Token: klubskih, S0B0Lemma: od_klubski, S0B0LemmaPOS: od_Ppnmmr, S0B0POS: Dr_Ppnmmr, S0B0POSLemma: Dr_klubski, S0B0Token: od_klubskih, S0B1Lemma: od_mož, S0B1LemmaPOS: od_Sommr, S0B1POS: Dr_Sommr, S0B1POSLemma: Dr_mož, S0B1Token: od_mož, S0IsInLexic: true, S0Lemma: od, S0POS: Dr, S0Token: od, transitionHistoryLength3: 202, 
 
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [do, takšnih, in ,.. ]
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [klubskih, mož, . ,.. ]
 
-B0Lemma: do, B0POS: Dr, B0Token: do, transitionHistoryLength3: 020, 
+B0Lemma: klubski, B0POS: Ppnmmr, B0Token: klubskih, transitionHistoryLength3: 020, 
 
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [do]   B= [takšnih, in, drugačnih ,.. ]
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [klubskih]   B= [mož, . ,.. ]
 
-B0Lemma: takšen, B0POS: Zk-mmr, B0Token: takšnih, S0B0Lemma: do_takšen, S0B0LemmaPOS: do_Zk-mmr, S0B0POS: Dr_Zk-mmr, S0B0POSLemma: Dr_takšen, S0B0Token: do_takšnih, S0B1Lemma: do_in, S0B1LemmaPOS: do_Vp, S0B1POS: Dr_Vp, S0B1POSLemma: Dr_in, S0B1Token: do_in, S0Lemma: do, S0POS: Dr, S0Token: do, transitionHistoryLength3: 202, 
+B0Lemma: mož, B0POS: Sommr, B0Token: mož, S0B0Lemma: klubski_mož, S0B0LemmaPOS: klubski_Sommr, S0B0POS: Ppnmmr_Sommr, S0B0POSLemma: Ppnmmr_mož, S0B0Token: klubskih_mož, S0B1Lemma: klubski_., S0B1LemmaPOS: klubski_., S0B1POS: Ppnmmr_., S0B1POSLemma: Ppnmmr_., S0B1Token: klubskih_., S0Lemma: klubski, S0POS: Ppnmmr, S0Token: klubskih, transitionHistoryLength3: 202, 
 
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [takšnih, in, drugačnih ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mož, . ,.. ]
 
-B0Lemma: takšen, B0POS: Zk-mmr, B0Token: takšnih, transitionHistoryLength3: 020, 
+B0Lemma: mož, B0POS: Sommr, B0Token: mož, transitionHistoryLength3: 020, 
 
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [takšnih]   B= [in, drugačnih, " ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mož]   B= [.]
 
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: takšen_in, S0B0LemmaPOS: takšen_Vp, S0B0POS: Zk-mmr_Vp, S0B0POSLemma: Zk-mmr_in, S0B0Token: takšnih_in, S0B1Lemma: takšen_drugačen, S0B1LemmaPOS: takšen_Ppnmmr, S0B1POS: Zk-mmr_Ppnmmr, S0B1POSLemma: Zk-mmr_drugačen, S0B1Token: takšnih_drugačnih, S0Lemma: takšen, S0POS: Zk-mmr, S0Token: takšnih, transitionHistoryLength3: 202, 
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: mož_., S0B0LemmaPOS: mož_., S0B0POS: Sommr_., S0B0POSLemma: Sommr_., S0B0Token: mož_., S0Lemma: mož, S0POS: Sommr, S0Token: mož, transitionHistoryLength3: 202, 
 
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, drugačnih, " ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [drugačnih, ", paparazzov ,.. ]
-
-B0Lemma: drugačen, B0POS: Ppnmmr, B0Token: drugačnih, S0B0Lemma: in_drugačen, S0B0LemmaPOS: in_Ppnmmr, S0B0POS: Vp_Ppnmmr, S0B0POSLemma: Vp_drugačen, S0B0Token: in_drugačnih, S0B1Lemma: in_", S0B1LemmaPOS: in_", S0B1POS: Vp_", S0B1POSLemma: Vp_", S0B1Token: in_", S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [drugačnih, ", paparazzov ,.. ]
-
-B0Lemma: drugačen, B0POS: Ppnmmr, B0Token: drugačnih, transitionHistoryLength3: 020, 
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [drugačnih]   B= [", paparazzov, " ,.. ]
-
-B0Lemma: ", B0POS: ", B0Token: ", S0B0Lemma: drugačen_", S0B0LemmaPOS: drugačen_", S0B0POS: Ppnmmr_", S0B0POSLemma: Ppnmmr_", S0B0Token: drugačnih_", S0B1Lemma: drugačen_paparazzi, S0B1LemmaPOS: drugačen_Sommr, S0B1POS: Ppnmmr_Sommr, S0B1POSLemma: Ppnmmr_paparazzi, S0B1Token: drugačnih_paparazzov, S0Lemma: drugačen, S0POS: Ppnmmr, S0Token: drugačnih, transitionHistoryLength3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", paparazzov, " ,.. ]
-
-B0Lemma: ", B0POS: ", B0Token: ", transitionHistoryLength3: 020, 
-
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [paparazzov, ", . ,.. ]
-
-B0Lemma: paparazzi, B0POS: Sommr, B0Token: paparazzov, S0B0Lemma: "_paparazzi, S0B0LemmaPOS: "_Sommr, S0B0POS: "_Sommr, S0B0POSLemma: "_paparazzi, S0B0Token: "_paparazzov, S0B1Lemma: "_", S0B1LemmaPOS: "_", S0B1POS: "_", S0B1POSLemma: "_", S0B1Token: "_", S0Lemma: ", S0POS: ", S0Token: ", transitionHistoryLength3: 202, 
-
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [paparazzov, ", . ,.. ]
-
-B0Lemma: paparazzi, B0POS: Sommr, B0Token: paparazzov, transitionHistoryLength3: 020, 
-
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [paparazzov]   B= [", . ,.. ]
-
-B0Lemma: ", B0POS: ", B0Token: ", S0B0Lemma: paparazzi_", S0B0LemmaPOS: paparazzi_", S0B0POS: Sommr_", S0B0POSLemma: Sommr_", S0B0Token: paparazzov_", S0B1Lemma: paparazzi_., S0B1LemmaPOS: paparazzi_., S0B1POS: Sommr_., S0B1POSLemma: Sommr_., S0B1Token: paparazzov_., S0Lemma: paparazzi, S0POS: Sommr, S0Token: paparazzov, transitionHistoryLength3: 202, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", . ,.. ]
-
-B0Lemma: ", B0POS: ", B0Token: ", transitionHistoryLength3: 020, 
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: "_., S0B0LemmaPOS: "_., S0B0POS: "_., S0B0POSLemma: "_., S0B0Token: "_., S0Lemma: ", S0POS: ", S0Token: ", transitionHistoryLength3: 202, 
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
 B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength3: 020, 
 
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
 S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength3: 202, 
 
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 4791 - 
-Zadržuje se večinoma na dnu in pogosto naletimo nanj v zelo zarastlinjenih vodah , kjer se hrani večinoma z nevretenčarji , kot so ličinke žuželk in mehkužci , sicer pa je vse od rastlin do rib . 
-### Existing MWEs: 
-1- **Zadržuje se** (IReflV)
-2- **naletimo nanj** (VPC)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Zadržuje, se, večinoma ,.. ]
-
-B0Lemma: zadrževati, B0POS: Ggnste, B0Token: Zadržuje, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Zadržuje]   B= [se, večinoma, na ,.. ]
-
-B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: zadrževati_se, S0B0LemmaPOS: zadrževati_Zp------k, S0B0POS: Ggnste_Zp------k, S0B0POSLemma: Ggnste_se, S0B0Token: Zadržuje_se, S0B1Lemma: zadrževati_večinoma, S0B1LemmaPOS: zadrževati_Rsn, S0B1POS: Ggnste_Rsn, S0B1POSLemma: Ggnste_večinoma, S0B1Token: Zadržuje_večinoma, S0Lemma: zadrževati, S0POS: Ggnste, S0Token: Zadržuje, 
-
-2- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Zadržuje, se]   B= [večinoma, na, dnu ,.. ]
-
-B0Lemma: večinoma, B0POS: Rsn, B0Token: večinoma, S0B0Lemma: se_večinoma, S0B0LemmaPOS: se_Rsn, S0B0POS: Zp------k_Rsn, S0B0POSLemma: Zp------k_večinoma, S0B0Token: se_večinoma, S0B1Lemma: se_na, S0B1LemmaPOS: se_Dm, S0B1POS: Zp------k_Dm, S0B1POSLemma: Zp------k_na, S0B1Token: se_na, S0Lemma: se, S0POS: Zp------k, S0Token: se, S1B0Lemma: zadrževati_večinoma, S1B0LemmaPOS: zadrževati_Rsn, S1B0POS: Ggnste_Rsn, S1B0POSLemma: Ggnste_večinoma, S1B0Token: Zadržuje_večinoma, S1Lemma: zadrževati, S1POS: Ggnste, S1S0Lemma: zadrževati_se, S1S0LemmaPOS: zadrževati_Zp------k, S1S0POS: Ggnste_Zp------k, S1S0POSLemma: Ggnste_se, S1S0Token: Zadržuje_se, S1Token: Zadržuje, 
-
-3- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[Zadržuje, se]]   B= [večinoma, na, dnu ,.. ]
-
-B0Lemma: večinoma, B0POS: Rsn, B0Token: večinoma, S0B0Lemma: zadrževati_se_večinoma, S0B0LemmaPOS: zadrževati_se_Rsn, S0B0POS: Ggnste_Zp------k_Rsn, S0B0POSLemma: Ggnste_Zp------k_večinoma, S0B0Token: Zadržuje_se_večinoma, S0B1Lemma: zadrževati_se_na, S0B1LemmaPOS: zadrževati_se_Dm, S0B1POS: Ggnste_Zp------k_Dm, S0B1POSLemma: Ggnste_Zp------k_na, S0B1Token: Zadržuje_se_na, S0Lemma: zadrževati_se, S0POS: Ggnste_Zp------k, S0Token: Zadržuje_se, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [večinoma, na, dnu ,.. ]
-
-B0Lemma: večinoma, B0POS: Rsn, B0Token: večinoma, transitionHistoryLength3: 100, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [večinoma]   B= [na, dnu, in ,.. ]
-
-B0Lemma: na, B0POS: Dm, B0Token: na, S0B0Lemma: večinoma_na, S0B0LemmaPOS: večinoma_Dm, S0B0POS: Rsn_Dm, S0B0POSLemma: Rsn_na, S0B0Token: večinoma_na, S0B1Lemma: večinoma_dno, S0B1LemmaPOS: večinoma_Sosem, S0B1POS: Rsn_Sosem, S0B1POSLemma: Rsn_dno, S0B1Token: večinoma_dnu, S0Lemma: večinoma, S0POS: Rsn, S0Token: večinoma, transitionHistoryLength3: 210, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [na, dnu, in ,.. ]
-
-B0Lemma: na, B0POS: Dm, B0Token: na, transitionHistoryLength3: 021, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [na]   B= [dnu, in, pogosto ,.. ]
-
-B0Lemma: dno, B0POS: Sosem, B0Token: dnu, S0B0Lemma: na_dno, S0B0LemmaPOS: na_Sosem, S0B0POS: Dm_Sosem, S0B0POSLemma: Dm_dno, S0B0Token: na_dnu, S0B1Lemma: na_in, S0B1LemmaPOS: na_Vp, S0B1POS: Dm_Vp, S0B1POSLemma: Dm_in, S0B1Token: na_in, S0Lemma: na, S0POS: Dm, S0Token: na, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dnu, in, pogosto ,.. ]
-
-B0Lemma: dno, B0POS: Sosem, B0Token: dnu, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dnu]   B= [in, pogosto, naletimo ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: dno_in, S0B0LemmaPOS: dno_Vp, S0B0POS: Sosem_Vp, S0B0POSLemma: Sosem_in, S0B0Token: dnu_in, S0B1Lemma: dno_pogosto, S0B1LemmaPOS: dno_Rsn, S0B1POS: Sosem_Rsn, S0B1POSLemma: Sosem_pogosto, S0B1Token: dnu_pogosto, S0Lemma: dno, S0POS: Sosem, S0Token: dnu, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, pogosto, naletimo ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [pogosto, naletimo, nanj ,.. ]
-
-B0Lemma: pogosto, B0POS: Rsn, B0Token: pogosto, S0B0Lemma: in_pogosto, S0B0LemmaPOS: in_Rsn, S0B0POS: Vp_Rsn, S0B0POSLemma: Vp_pogosto, S0B0Token: in_pogosto, S0B1Lemma: in_naleteti, S0B1LemmaPOS: in_Ggdspm, S0B1POS: Vp_Ggdspm, S0B1POSLemma: Vp_naleteti, S0B1Token: in_naletimo, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pogosto, naletimo, nanj ,.. ]
-
-B0Lemma: pogosto, B0POS: Rsn, B0Token: pogosto, transitionHistoryLength3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pogosto]   B= [naletimo, nanj, v ,.. ]
-
-B0Lemma: naleteti, B0POS: Ggdspm, B0Token: naletimo, S0B0Lemma: pogosto_naleteti, S0B0LemmaPOS: pogosto_Ggdspm, S0B0POS: Rsn_Ggdspm, S0B0POSLemma: Rsn_naleteti, S0B0Token: pogosto_naletimo, S0B1Lemma: pogosto_name, S0B1LemmaPOS: pogosto_Zotmet--z, S0B1POS: Rsn_Zotmet--z, S0B1POSLemma: Rsn_name, S0B1Token: pogosto_nanj, S0Lemma: pogosto, S0POS: Rsn, S0Token: pogosto, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [naletimo, nanj, v ,.. ]
-
-B0Lemma: naleteti, B0POS: Ggdspm, B0Token: naletimo, transitionHistoryLength3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [naletimo]   B= [nanj, v, zelo ,.. ]
-
-B0Lemma: name, B0POS: Zotmet--z, B0Token: nanj, S0B0Lemma: naleteti_name, S0B0LemmaPOS: naleteti_Zotmet--z, S0B0POS: Ggdspm_Zotmet--z, S0B0POSLemma: Ggdspm_name, S0B0Token: naletimo_nanj, S0B1Lemma: naleteti_v, S0B1LemmaPOS: naleteti_Dm, S0B1POS: Ggdspm_Dm, S0B1POSLemma: Ggdspm_v, S0B1Token: naletimo_v, S0Lemma: naleteti, S0POS: Ggdspm, S0Token: naletimo, transitionHistoryLength3: 202, 
-
-16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [naletimo, nanj]   B= [v, zelo, zarastlinjenih ,.. ]
-
-B0Lemma: v, B0POS: Dm, B0Token: v, S0B0Lemma: name_v, S0B0LemmaPOS: name_Dm, S0B0POS: Zotmet--z_Dm, S0B0POSLemma: Zotmet--z_v, S0B0Token: nanj_v, S0B1Lemma: name_zelo, S0B1LemmaPOS: name_Rsn, S0B1POS: Zotmet--z_Rsn, S0B1POSLemma: Zotmet--z_zelo, S0B1Token: nanj_zelo, S0Lemma: name, S0POS: Zotmet--z, S0Token: nanj, S1B0Lemma: naleteti_v, S1B0LemmaPOS: naleteti_Dm, S1B0POS: Ggdspm_Dm, S1B0POSLemma: Ggdspm_v, S1B0Token: naletimo_v, S1Lemma: naleteti, S1POS: Ggdspm, S1S0Lemma: naleteti_name, S1S0LemmaPOS: naleteti_Zotmet--z, S1S0POS: Ggdspm_Zotmet--z, S1S0POSLemma: Ggdspm_name, S1S0Token: naletimo_nanj, S1Token: naletimo, transitionHistoryLength3: 020, 
-
-17- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[naletimo, nanj]]   B= [v, zelo, zarastlinjenih ,.. ]
-
-B0Lemma: v, B0POS: Dm, B0Token: v, S0B0Lemma: naleteti_name_v, S0B0LemmaPOS: naleteti_name_Dm, S0B0POS: Ggdspm_Zotmet--z_Dm, S0B0POSLemma: Ggdspm_Zotmet--z_v, S0B0Token: naletimo_nanj_v, S0B1Lemma: naleteti_name_zelo, S0B1LemmaPOS: naleteti_name_Rsn, S0B1POS: Ggdspm_Zotmet--z_Rsn, S0B1POSLemma: Ggdspm_Zotmet--z_zelo, S0B1Token: naletimo_nanj_zelo, S0Lemma: naleteti_name, S0POS: Ggdspm_Zotmet--z, S0Token: naletimo_nanj, transitionHistoryLength3: 002, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [v, zelo, zarastlinjenih ,.. ]
-
-B0Lemma: v, B0POS: Dm, B0Token: v, transitionHistoryLength3: 100, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [v]   B= [zelo, zarastlinjenih, vodah ,.. ]
-
-B0Lemma: zelo, B0POS: Rsn, B0Token: zelo, S0B0Lemma: v_zelo, S0B0LemmaPOS: v_Rsn, S0B0POS: Dm_Rsn, S0B0POSLemma: Dm_zelo, S0B0Token: v_zelo, S0B1Lemma: v_zarastlinjen, S0B1LemmaPOS: v_Pdnzmm, S0B1POS: Dm_Pdnzmm, S0B1POSLemma: Dm_zarastlinjen, S0B1Token: v_zarastlinjenih, S0Lemma: v, S0POS: Dm, S0Token: v, transitionHistoryLength3: 210, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zelo, zarastlinjenih, vodah ,.. ]
-
-B0Lemma: zelo, B0POS: Rsn, B0Token: zelo, transitionHistoryLength3: 021, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zelo]   B= [zarastlinjenih, vodah, , ,.. ]
-
-B0Lemma: zarastlinjen, B0POS: Pdnzmm, B0Token: zarastlinjenih, S0B0Lemma: zelo_zarastlinjen, S0B0LemmaPOS: zelo_Pdnzmm, S0B0POS: Rsn_Pdnzmm, S0B0POSLemma: Rsn_zarastlinjen, S0B0Token: zelo_zarastlinjenih, S0B1Lemma: zelo_voda, S0B1LemmaPOS: zelo_Sozmm, S0B1POS: Rsn_Sozmm, S0B1POSLemma: Rsn_voda, S0B1Token: zelo_vodah, S0Lemma: zelo, S0POS: Rsn, S0Token: zelo, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zarastlinjenih, vodah, , ,.. ]
-
-B0Lemma: zarastlinjen, B0POS: Pdnzmm, B0Token: zarastlinjenih, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zarastlinjenih]   B= [vodah, ,, kjer ,.. ]
-
-B0Lemma: voda, B0POS: Sozmm, B0Token: vodah, S0B0Lemma: zarastlinjen_voda, S0B0LemmaPOS: zarastlinjen_Sozmm, S0B0POS: Pdnzmm_Sozmm, S0B0POSLemma: Pdnzmm_voda, S0B0Token: zarastlinjenih_vodah, S0B1Lemma: zarastlinjen_,, S0B1LemmaPOS: zarastlinjen_,, S0B1POS: Pdnzmm_,, S0B1POSLemma: Pdnzmm_,, S0B1Token: zarastlinjenih_,, S0Lemma: zarastlinjen, S0POS: Pdnzmm, S0Token: zarastlinjenih, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vodah, ,, kjer ,.. ]
-
-B0Lemma: voda, B0POS: Sozmm, B0Token: vodah, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vodah]   B= [,, kjer, se ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: voda_,, S0B0LemmaPOS: voda_,, S0B0POS: Sozmm_,, S0B0POSLemma: Sozmm_,, S0B0Token: vodah_,, S0B1Lemma: voda_kjer, S0B1LemmaPOS: voda_Vd, S0B1POS: Sozmm_Vd, S0B1POSLemma: Sozmm_kjer, S0B1Token: vodah_kjer, S0Lemma: voda, S0POS: Sozmm, S0Token: vodah, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kjer, se ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kjer, se, hrani ,.. ]
-
-B0Lemma: kjer, B0POS: Vd, B0Token: kjer, S0B0Lemma: ,_kjer, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_kjer, S0B0Token: ,_kjer, S0B1Lemma: ,_se, S0B1LemmaPOS: ,_Zp------k, S0B1POS: ,_Zp------k, S0B1POSLemma: ,_se, S0B1Token: ,_se, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kjer, se, hrani ,.. ]
-
-B0Lemma: kjer, B0POS: Vd, B0Token: kjer, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kjer]   B= [se, hrani, večinoma ,.. ]
-
-B0Lemma: se, B0POS: Zp------k, B0Token: se, S0B0Lemma: kjer_se, S0B0LemmaPOS: kjer_Zp------k, S0B0POS: Vd_Zp------k, S0B0POSLemma: Vd_se, S0B0Token: kjer_se, S0B1Lemma: kjer_hraniti, S0B1LemmaPOS: kjer_Ggnste, S0B1POS: Vd_Ggnste, S0B1POSLemma: Vd_hraniti, S0B1Token: kjer_hrani, S0Lemma: kjer, S0POS: Vd, S0Token: kjer, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, hrani, večinoma ,.. ]
-
-B0Lemma: se, B0POS: Zp------k, B0Token: se, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [hrani, večinoma, z ,.. ]
-
-B0Lemma: hraniti, B0POS: Ggnste, B0Token: hrani, S0B0Lemma: se_hraniti, S0B0LemmaPOS: se_Ggnste, S0B0POS: Zp------k_Ggnste, S0B0POSLemma: Zp------k_hraniti, S0B0Token: se_hrani, S0B1Lemma: se_večinoma, S0B1LemmaPOS: se_Rsn, S0B1POS: Zp------k_Rsn, S0B1POSLemma: Zp------k_večinoma, S0B1Token: se_večinoma, S0Lemma: se, S0POS: Zp------k, S0Token: se, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hrani, večinoma, z ,.. ]
-
-B0Lemma: hraniti, B0POS: Ggnste, B0Token: hrani, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hrani]   B= [večinoma, z, nevretenčarji ,.. ]
-
-B0Lemma: večinoma, B0POS: Rsn, B0Token: večinoma, S0B0Lemma: hraniti_večinoma, S0B0LemmaPOS: hraniti_Rsn, S0B0POS: Ggnste_Rsn, S0B0POSLemma: Ggnste_večinoma, S0B0Token: hrani_večinoma, S0B1Lemma: hraniti_z, S0B1LemmaPOS: hraniti_Do, S0B1POS: Ggnste_Do, S0B1POSLemma: Ggnste_z, S0B1Token: hrani_z, S0Lemma: hraniti, S0POS: Ggnste, S0Token: hrani, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [večinoma, z, nevretenčarji ,.. ]
-
-B0Lemma: večinoma, B0POS: Rsn, B0Token: večinoma, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [večinoma]   B= [z, nevretenčarji, , ,.. ]
-
-B0Lemma: z, B0POS: Do, B0Token: z, S0B0Lemma: večinoma_z, S0B0LemmaPOS: večinoma_Do, S0B0POS: Rsn_Do, S0B0POSLemma: Rsn_z, S0B0Token: večinoma_z, S0B1Lemma: večinoma_nevretenčar, S0B1LemmaPOS: večinoma_Sommo, S0B1POS: Rsn_Sommo, S0B1POSLemma: Rsn_nevretenčar, S0B1Token: večinoma_nevretenčarji, S0Lemma: večinoma, S0POS: Rsn, S0Token: večinoma, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [z, nevretenčarji, , ,.. ]
-
-B0Lemma: z, B0POS: Do, B0Token: z, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [z]   B= [nevretenčarji, ,, kot ,.. ]
-
-B0Lemma: nevretenčar, B0POS: Sommo, B0Token: nevretenčarji, S0B0Lemma: z_nevretenčar, S0B0LemmaPOS: z_Sommo, S0B0POS: Do_Sommo, S0B0POSLemma: Do_nevretenčar, S0B0Token: z_nevretenčarji, S0B1Lemma: z_,, S0B1LemmaPOS: z_,, S0B1POS: Do_,, S0B1POSLemma: Do_,, S0B1Token: z_,, S0Lemma: z, S0POS: Do, S0Token: z, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nevretenčarji, ,, kot ,.. ]
-
-B0Lemma: nevretenčar, B0POS: Sommo, B0Token: nevretenčarji, transitionHistoryLength3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nevretenčarji]   B= [,, kot, so ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: nevretenčar_,, S0B0LemmaPOS: nevretenčar_,, S0B0POS: Sommo_,, S0B0POSLemma: Sommo_,, S0B0Token: nevretenčarji_,, S0B1Lemma: nevretenčar_kot, S0B1LemmaPOS: nevretenčar_Vd, S0B1POS: Sommo_Vd, S0B1POSLemma: Sommo_kot, S0B1Token: nevretenčarji_kot, S0Lemma: nevretenčar, S0POS: Sommo, S0Token: nevretenčarji, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kot, so ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kot, so, ličinke ,.. ]
-
-B0Lemma: kot, B0POS: Vd, B0Token: kot, S0B0Lemma: ,_kot, S0B0LemmaPOS: ,_Vd, S0B0POS: ,_Vd, S0B0POSLemma: ,_kot, S0B0Token: ,_kot, S0B1Lemma: ,_biti, S0B1LemmaPOS: ,_Gp-stm-n, S0B1POS: ,_Gp-stm-n, S0B1POSLemma: ,_biti, S0B1Token: ,_so, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kot, so, ličinke ,.. ]
-
-B0Lemma: kot, B0POS: Vd, B0Token: kot, transitionHistoryLength3: 020, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kot]   B= [so, ličinke, žuželk ,.. ]
-
-B0Lemma: biti, B0POS: Gp-stm-n, B0Token: so, S0B0Lemma: kot_biti, S0B0LemmaPOS: kot_Gp-stm-n, S0B0POS: Vd_Gp-stm-n, S0B0POSLemma: Vd_biti, S0B0Token: kot_so, S0B1Lemma: kot_ličinka, S0B1LemmaPOS: kot_Sozmi, S0B1POS: Vd_Sozmi, S0B1POSLemma: Vd_ličinka, S0B1Token: kot_ličinke, S0Lemma: kot, S0POS: Vd, S0Token: kot, transitionHistoryLength3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [so, ličinke, žuželk ,.. ]
-
-B0Lemma: biti, B0POS: Gp-stm-n, B0Token: so, transitionHistoryLength3: 020, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so]   B= [ličinke, žuželk, in ,.. ]
-
-B0Lemma: ličinka, B0POS: Sozmi, B0Token: ličinke, S0B0Lemma: biti_ličinka, S0B0LemmaPOS: biti_Sozmi, S0B0POS: Gp-stm-n_Sozmi, S0B0POSLemma: Gp-stm-n_ličinka, S0B0Token: so_ličinke, S0B1Lemma: biti_žuželka, S0B1LemmaPOS: biti_Sozmr, S0B1POS: Gp-stm-n_Sozmr, S0B1POSLemma: Gp-stm-n_žuželka, S0B1Token: so_žuželk, S0Lemma: biti, S0POS: Gp-stm-n, S0Token: so, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ličinke, žuželk, in ,.. ]
-
-B0Lemma: ličinka, B0POS: Sozmi, B0Token: ličinke, transitionHistoryLength3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ličinke]   B= [žuželk, in, mehkužci ,.. ]
-
-B0Lemma: žuželka, B0POS: Sozmr, B0Token: žuželk, S0B0Lemma: ličinka_žuželka, S0B0LemmaPOS: ličinka_Sozmr, S0B0POS: Sozmi_Sozmr, S0B0POSLemma: Sozmi_žuželka, S0B0Token: ličinke_žuželk, S0B1Lemma: ličinka_in, S0B1LemmaPOS: ličinka_Vp, S0B1POS: Sozmi_Vp, S0B1POSLemma: Sozmi_in, S0B1Token: ličinke_in, S0Lemma: ličinka, S0POS: Sozmi, S0Token: ličinke, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [žuželk, in, mehkužci ,.. ]
-
-B0Lemma: žuželka, B0POS: Sozmr, B0Token: žuželk, transitionHistoryLength3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [žuželk]   B= [in, mehkužci, , ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, S0B0Lemma: žuželka_in, S0B0LemmaPOS: žuželka_Vp, S0B0POS: Sozmr_Vp, S0B0POSLemma: Sozmr_in, S0B0Token: žuželk_in, S0B1Lemma: žuželka_mehkužec, S0B1LemmaPOS: žuželka_Sommi, S0B1POS: Sozmr_Sommi, S0B1POSLemma: Sozmr_mehkužec, S0B1Token: žuželk_mehkužci, S0Lemma: žuželka, S0POS: Sozmr, S0Token: žuželk, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, mehkužci, , ,.. ]
-
-B0Lemma: in, B0POS: Vp, B0Token: in, transitionHistoryLength3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [mehkužci, ,, sicer ,.. ]
-
-B0Lemma: mehkužec, B0POS: Sommi, B0Token: mehkužci, S0B0Lemma: in_mehkužec, S0B0LemmaPOS: in_Sommi, S0B0POS: Vp_Sommi, S0B0POSLemma: Vp_mehkužec, S0B0Token: in_mehkužci, S0B1Lemma: in_,, S0B1LemmaPOS: in_,, S0B1POS: Vp_,, S0B1POSLemma: Vp_,, S0B1Token: in_,, S0Lemma: in, S0POS: Vp, S0Token: in, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mehkužci, ,, sicer ,.. ]
-
-B0Lemma: mehkužec, B0POS: Sommi, B0Token: mehkužci, transitionHistoryLength3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mehkužci]   B= [,, sicer, pa ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, S0B0Lemma: mehkužec_,, S0B0LemmaPOS: mehkužec_,, S0B0POS: Sommi_,, S0B0POSLemma: Sommi_,, S0B0Token: mehkužci_,, S0B1Lemma: mehkužec_sicer, S0B1LemmaPOS: mehkužec_L, S0B1POS: Sommi_L, S0B1POSLemma: Sommi_sicer, S0B1Token: mehkužci_sicer, S0Lemma: mehkužec, S0POS: Sommi, S0Token: mehkužci, transitionHistoryLength3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, sicer, pa ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, transitionHistoryLength3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [sicer, pa, je ,.. ]
-
-B0Lemma: sicer, B0POS: L, B0Token: sicer, S0B0Lemma: ,_sicer, S0B0LemmaPOS: ,_L, S0B0POS: ,_L, S0B0POSLemma: ,_sicer, S0B0Token: ,_sicer, S0B1Lemma: ,_pa, S0B1LemmaPOS: ,_Vp, S0B1POS: ,_Vp, S0B1POSLemma: ,_pa, S0B1Token: ,_pa, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sicer, pa, je ,.. ]
-
-B0Lemma: sicer, B0POS: L, B0Token: sicer, transitionHistoryLength3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sicer]   B= [pa, je, vse ,.. ]
-
-B0Lemma: pa, B0POS: Vp, B0Token: pa, S0B0Lemma: sicer_pa, S0B0LemmaPOS: sicer_Vp, S0B0POS: L_Vp, S0B0POSLemma: L_pa, S0B0Token: sicer_pa, S0B1Lemma: sicer_jesti, S0B1LemmaPOS: sicer_Ggnste, S0B1POS: L_Ggnste, S0B1POSLemma: L_jesti, S0B1Token: sicer_je, S0Lemma: sicer, S0POS: L, S0Token: sicer, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pa, je, vse ,.. ]
-
-B0Lemma: pa, B0POS: Vp, B0Token: pa, transitionHistoryLength3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pa]   B= [je, vse, od ,.. ]
-
-B0Lemma: jesti, B0POS: Ggnste, B0Token: je, S0B0Lemma: pa_jesti, S0B0LemmaPOS: pa_Ggnste, S0B0POS: Vp_Ggnste, S0B0POSLemma: Vp_jesti, S0B0Token: pa_je, S0B1Lemma: pa_ves, S0B1LemmaPOS: pa_Zc-set, S0B1POS: Vp_Zc-set, S0B1POSLemma: Vp_ves, S0B1Token: pa_vse, S0Lemma: pa, S0POS: Vp, S0Token: pa, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [je, vse, od ,.. ]
-
-B0Lemma: jesti, B0POS: Ggnste, B0Token: je, transitionHistoryLength3: 020, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [je]   B= [vse, od, rastlin ,.. ]
-
-B0Lemma: ves, B0POS: Zc-set, B0Token: vse, S0B0Lemma: jesti_ves, S0B0LemmaPOS: jesti_Zc-set, S0B0POS: Ggnste_Zc-set, S0B0POSLemma: Ggnste_ves, S0B0Token: je_vse, S0B1Lemma: jesti_od, S0B1LemmaPOS: jesti_Dr, S0B1POS: Ggnste_Dr, S0B1POSLemma: Ggnste_od, S0B1Token: je_od, S0Lemma: jesti, S0POS: Ggnste, S0Token: je, transitionHistoryLength3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vse, od, rastlin ,.. ]
-
-B0Lemma: ves, B0POS: Zc-set, B0Token: vse, transitionHistoryLength3: 020, 
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vse]   B= [od, rastlin, do ,.. ]
-
-B0Lemma: od, B0POS: Dr, B0Token: od, S0B0Lemma: ves_od, S0B0LemmaPOS: ves_Dr, S0B0POS: Zc-set_Dr, S0B0POSLemma: Zc-set_od, S0B0Token: vse_od, S0B1Lemma: ves_rastlina, S0B1LemmaPOS: ves_Sozmr, S0B1POS: Zc-set_Sozmr, S0B1POSLemma: Zc-set_rastlina, S0B1Token: vse_rastlin, S0Lemma: ves, S0POS: Zc-set, S0Token: vse, transitionHistoryLength3: 202, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [od, rastlin, do ,.. ]
-
-B0Lemma: od, B0POS: Dr, B0Token: od, transitionHistoryLength3: 020, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [od]   B= [rastlin, do, rib ,.. ]
-
-B0Lemma: rastlina, B0POS: Sozmr, B0Token: rastlin, S0B0Lemma: od_rastlina, S0B0LemmaPOS: od_Sozmr, S0B0POS: Dr_Sozmr, S0B0POSLemma: Dr_rastlina, S0B0Token: od_rastlin, S0B1Lemma: od_do, S0B1LemmaPOS: od_Dr, S0B1POS: Dr_Dr, S0B1POSLemma: Dr_do, S0B1Token: od_do, S0Lemma: od, S0POS: Dr, S0Token: od, transitionHistoryLength3: 202, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rastlin, do, rib ,.. ]
-
-B0Lemma: rastlina, B0POS: Sozmr, B0Token: rastlin, transitionHistoryLength3: 020, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rastlin]   B= [do, rib, . ,.. ]
-
-B0Lemma: do, B0POS: Dr, B0Token: do, S0B0Lemma: rastlina_do, S0B0LemmaPOS: rastlina_Dr, S0B0POS: Sozmr_Dr, S0B0POSLemma: Sozmr_do, S0B0Token: rastlin_do, S0B1Lemma: rastlina_riba, S0B1LemmaPOS: rastlina_Sozmr, S0B1POS: Sozmr_Sozmr, S0B1POSLemma: Sozmr_riba, S0B1Token: rastlin_rib, S0Lemma: rastlina, S0POS: Sozmr, S0Token: rastlin, transitionHistoryLength3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [do, rib, . ,.. ]
-
-B0Lemma: do, B0POS: Dr, B0Token: do, transitionHistoryLength3: 020, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [do]   B= [rib, . ,.. ]
-
-B0Lemma: riba, B0POS: Sozmr, B0Token: rib, S0B0Lemma: do_riba, S0B0LemmaPOS: do_Sozmr, S0B0POS: Dr_Sozmr, S0B0POSLemma: Dr_riba, S0B0Token: do_rib, S0B1Lemma: do_., S0B1LemmaPOS: do_., S0B1POS: Dr_., S0B1POSLemma: Dr_., S0B1Token: do_., S0Lemma: do, S0POS: Dr, S0Token: do, transitionHistoryLength3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rib, . ,.. ]
-
-B0Lemma: riba, B0POS: Sozmr, B0Token: rib, transitionHistoryLength3: 020, 
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rib]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: riba_., S0B0LemmaPOS: riba_., S0B0POS: Sozmr_., S0B0POSLemma: Sozmr_., S0B0Token: rib_., S0Lemma: riba, S0POS: Sozmr, S0Token: rib, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength3: 020, 
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

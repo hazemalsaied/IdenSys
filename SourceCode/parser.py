@@ -12,6 +12,9 @@ class Parser:
     IMPOSSIBLE_COMPLETE_TRANSITION = "ERROR: It's impossible to apply a COMPLETE transition, the head of the STACK doesn't contain any element!"
     NO_TRANSITION_TYPE = "ERROR: No transition has been predicted by the classifier"
 
+    mweTokenDic = {}
+    mweDictionary = {}
+
     @staticmethod
     def parse(classifier, dictVectorizer, sent):
 
@@ -57,31 +60,6 @@ class Parser:
         sent.featuresInfo = [transLebelsList, transDicList]
         return sent
 
-    # @staticmethod
-    # def getTransType(possibilities):
-    #
-    #     zeros = Parser.getFrequency(possibilities, 0)
-    #     ones = Parser.getFrequency(possibilities, 1)
-    #     twos = Parser.getFrequency(possibilities, 2)
-    #     if zeros >= 2:
-    #         return 0
-    #     if twos >= 2:
-    #         return 2
-    #     if Parameters.useSurMerge:
-    #         if ones > 2:
-    #             return 1
-    #     elif ones >= 2:
-    #         return 1
-    #     return 2
-
-    @staticmethod
-    def getFrequency(list, value):
-        frequency = 0
-        for item in list:
-            if item == value:
-                frequency += 1
-        return frequency
-
     @staticmethod
     def staticParse(sent):
         sent = Parser.generateTransitions(sent)
@@ -123,9 +101,11 @@ class Parser:
             for elem in stackElements:
                 Parser.generateLinguisticFeatures(elem, 'S' + str(elemIdx), transDic)
                 elemIdx -= 1
+
         if len(configuration.buffer) > 0:
             if Parameters.useFirstBufferElement:
                 Parser.generateLinguisticFeatures(configuration.buffer[0], 'B0', transDic)
+
             if Parameters.useSecondBufferElement and len(configuration.buffer) > 1:
                 Parser.generateLinguisticFeatures(configuration.buffer[1], 'B1', transDic)
         # Bi-Gram Generation
@@ -189,6 +169,9 @@ class Parser:
                 transDic[label + 'Lemma'] = token.lemma
             if not Parameters.useLemma and not Parameters.usePOS:
                 transDic[label + '_LastThreeLetters'] = token.text[-3:]
+                transDic[label + '_LastTwoLetters'] = token.text[-2:]
+            if Parameters.useDictionary and token.lemma in Parser.mweTokenDic.keys():
+                transDic[label + 'IsInLexic'] = 'true'
         elif isinstance(token, list):
             tokens = Parser.getToken(token)
             transDic[label + 'Token'] = ''
@@ -426,6 +409,11 @@ class Parser:
                     vMWE = parents[0]
                 if vMWE is not None and len(vMWE.tokens) == len(tokens):
                     return Parser.applyComplete(transition, sent, vMWE.id, vMWE.type)
+        elif len(config.stack) == 1 and isinstance(config.stack[0], Token) \
+                and config.stack[0].parentMWEs is not None and len(config.stack[0].parentMWEs) == 1 \
+                and len(config.stack[0].parentMWEs[0].tokens) == 1:
+            return Parser.applyComplete(transition, sent, config.stack[0].parentMWEs[0].id,
+                                        config.stack[0].parentMWEs[0].type)
         return None
 
     @staticmethod
@@ -517,7 +505,7 @@ class Parser:
             vMWETokens = Parser.getToken(newStack[0])
             newStack = newStack[:-1]
             newTokens = list(config.tokens)
-            Parser.getVMWENumber(newTokens)
+            # Parser.getVMWENumber(newTokens)
             if len(vMWETokens) > 1:
                 if vMWEId is None:
                     vMWEId = Parser.getVMWENumber(newTokens) + 1
@@ -526,6 +514,17 @@ class Parser:
                     sent.identifiedVMWEs.append(vMWE)
                 vMWE.tokens = vMWETokens
                 newTokens.append(vMWE)
+            elif len(vMWETokens) == 1:
+                if vMWETokens[0].lemma in Parser.mweDictionary.keys() or vMWETokens[
+                    0].text in Parser.mweDictionary.keys():
+                    if vMWEId is None:
+                        vMWEId = Parser.getVMWENumber(newTokens) + 1
+                    vMWE = VMWE(vMWEId, vMWETokens[0], vMWEType)
+                    if parse:
+                        sent.identifiedVMWEs.append(vMWE)
+                    vMWE.tokens = vMWETokens
+                    newTokens.append(vMWE)
+
             else:
                 newTokens.append(vMWETokens[0])
             newConfig = Configuration(stack=newStack, buffer=newBuffer, tokens=newTokens)

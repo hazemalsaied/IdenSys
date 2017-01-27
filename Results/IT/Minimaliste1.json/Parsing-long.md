@@ -30,6 +30,7 @@ Anche Stati Uniti e Russia hanno avanzato rivendicazioni territoriali , ma le ma
 3- **dare seguito** (ID, 1)
 ### Identified MWEs: 
 1- **avanzato rivendicazioni** 
+2- **dare seguito** 
 ## Sentence No. 330 - 
 CERTO OCCORRE LAVORARE MOLTO PER STUDIARE UN NUOVO PIANO DI VIABILITà PER ADRIA ( E MAGARI DENTRO CI STARà ANCHE IL PONTE BETTOLA ) , OCCORRE TROVARE UN BUON FINANZIAMENTO , IL GIUSTO SPONSOR PRIVATO , E UNA NUOVA CLASSE POLITICA CAPACE DI SAPER FINALMENTE PARTIRE CON IL PIEDE GIUSTO , SAPER ANALIZZARE I PROGETTI REGIONALI DI VIABILITà NEL POLESINE , COGLIERE AL VOLO LE MOLTE OPPORTUNITà CHE VERRANNO MESSE IN MOTO CON LE PROSSIME ELEZIONI DI PRIMAVERA . 
 ### Existing MWEs: 
@@ -1559,6 +1560,8 @@ I composti dell' argento possono essere assorbiti nel sistema circolatorio e dep
 L' argento non ha alcun ruolo negli equilibri biologici degli esseri umani . 
 ### Existing MWEs: 
 1- **ha ruolo** (LVC)
+### Identified MWEs: 
+1- **ha ruolo** 
 ## Sentence No. 14965 - 
 È un semimetallo che si presenta in tre forme allotropiche diverse : gialla , nera e grigia . 
 ### Existing MWEs: 

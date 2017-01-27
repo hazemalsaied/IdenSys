@@ -1,7 +1,7 @@
-import codecs
+import operator
 import os
 from random import randint
-import operator
+
 from param import Parameters
 
 
@@ -10,6 +10,8 @@ class Report:
     NumOFMWEs = '\n## Number of MWEs: '
     NumOFEmbedded = '\n## Number of Embedded MWEs: '
     NumOFInterleaving = '\n## Number of Interleaving MWEs: '
+    NumContinousMWEs = '\n## Number of Continous MWEs: '
+    NumSingleWordMWEs = '\n## Number of Single Word MWEs: '
 
     @staticmethod
     def createLanguageFolder(langName):
@@ -19,7 +21,8 @@ class Report:
                 os.makedirs(Parameters.langFolder)
 
     @staticmethod
-    def createXPFolder( configFile):
+    def createXPFolder(configFile):
+        xpFolder = Parameters.toBinary()
         if Parameters.printReport:
             Parameters.xpPath = os.path.join(Parameters.langFolder, configFile)
             if not os.path.exists(Parameters.xpPath):
@@ -34,11 +37,13 @@ class Report:
             result = Report.NumOFSent + str(corpus.sentNum) + Report.NumOFMWEs + str(
                 corpus.mweNum) + '\n' + Report.NumOFEmbedded + str(
                 corpus.emeddedNum) + '\n' + Report.NumOFInterleaving + str(
-                corpus.intereavingNum) + '\n'
+                corpus.intereavingNum) + '\n' + Report.NumContinousMWEs + str(
+                corpus.continousExp) + Report.NumSingleWordMWEs + str(corpus.singleWordExp)
             Report.editReadme('w', result)
+
     @staticmethod
     def createMWELexic(dic, dir):
-        sortedDic = sorted(dic.items(), key=operator.itemgetter(1),reverse=True)
+        sortedDic = sorted(dic.items(), key=operator.itemgetter(1), reverse=True)
         pathItems = Parameters.resultPath.split('/')
         if pathItems[-1].split() != '':
             pathItems = pathItems[:-1]
@@ -48,7 +53,7 @@ class Report:
         for item in pathItems:
             path += item + '/'
         path = os.path.join(path, dir + '/Dictionary.md')
-        #path += dir + '/Dictionary.md'
+        # path += dir + '/Dictionary.md'
         result = ''
         for item in sortedDic:
             result += str(item[0]) + ': ' + str(item[1]) + '\n\n'
@@ -57,10 +62,7 @@ class Report:
 
     @staticmethod
     def editReadme(mode, text):
-        if Parameters.useCrossValidation:
-            printingPath = os.path.join(Parameters.xpPath, 'Readme.md')
-        else:
-            printingPath = os.path.join(Parameters.xpPath, 'Readme.md')
+        printingPath = os.path.join(Parameters.xpPath, 'Readme.md')
         staticParsingFile = open(printingPath, mode)
         staticParsingFile.write(text)
 
@@ -121,3 +123,21 @@ class Report:
         for sent in sentsForPrinting:
             result += sent.printSummary()
         staticParsingFile.write(result)
+
+    @staticmethod
+    def editTotalReadMe(fScore, recall, precision, corpus):
+        report = '### The Score of the experiementation ' + str(
+            Parameters.xpName) + ' is' + '\n' + 'F-score: ' + str(
+            "%.3f" % fScore) + ' ,Recall: ' + str("%.3f" % recall) + ' ,Precision: ' + str(
+            "%.3f" % precision) + '\n\n'
+        with open(Parameters.readMe, "a") as staticParsingFile:
+            staticParsingFile.write(report)
+
+        report = Parameters.languageName + ',' + Parameters.xpName + ',' + str(
+            "%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str("%.3f" % precision) + str(
+            corpus.sentNum) + ',' + str(corpus.mweNum) + ',' + str(
+            corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + ',' + str(
+            corpus.singleWordExp) + str(
+            corpus.emeddedNum) + ',' + Parameters.toBinary() + ',' '\n'
+        with open(Parameters.results, "a") as staticParsingFile:
+            staticParsingFile.write(report)

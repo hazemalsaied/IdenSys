@@ -15,8 +15,9 @@ El secretario de Estado de Asuntos Europeos , Ramón de Miguel , consideró hoy 
 1- **formar parte** (ID, 3)
 2- **se mostró** (IReflV, 18)
 ### Identified MWEs: 
-1- **formar parte** 
-2- **se mostró** 
+1- **se opusiera** 
+2- **formar parte** 
+3- **se mostró** 
 ## Sentence No. 1405 - 
 La única escudería que la semana pasada no estuvo en este circuito para hacer pruebas fue Minardi y eso le está costando muy caro , sobre todo en un circuito en el que los neumáticos se desgastan mucho y es difícil por ese motivo poner a punto los coches , ya que para el gran Premio el número de neumáticos está limitado a siete juegos y conviene dejar el mayor número posible nuevos , o casi , para la carrera de el domingo . 
 ### Existing MWEs: 
@@ -119,7 +120,6 @@ En la misma línea , el representante de la patronal mexicana en el Comité Cons
 1- **se instalen** (IReflV)
 ### Identified MWEs: 
 1- **se mostró** 
-2- **hagan presiones** 
 ## Sentence No. 1395 - 
 La nueva denominación de letra y número , explicó Satinet , " será válida para berlinas y " break " y sin embargo se mantendrán los nombres para lo que no va a ser una oferta estándar , como el Picasso , que se mantendrá así o el Pluriel " , éste ahora un " concept car " que seguirá llamando se así cuando sea realidad comercial . 
 ### Existing MWEs: 
@@ -250,8 +250,6 @@ Ha entrenado y jugado con molestias , pero ahora este problema se podía convert
 Ante los signos externos de embriaguez que presentaba Antonio Muñoz , el conductor fue sometido a diversas pruebas de alcoholemia y en la más fiable ( el análisis de sangre ) llegó a dar un resultado positivo de 2'70 gramos de alcohol por litro de sangre , cuando el nivel máximo permitido por la ley es de 0'5 . 
 ### Existing MWEs: 
 1- **dar resultado** (LVC)
-### Identified MWEs: 
-1- **dar resultado** 
 ## Sentence No. 360 - 
 Pero la burla ha despertado la ira de los polacos más identificados con el papa Wojtyla y ha causado malestar y desagrado incluso entre los partidarios y simpatizantes de Kwasniewski . 
 ### Existing MWEs: 
@@ -260,9 +258,6 @@ Pero la burla ha despertado la ira de los polacos más identificados con el papa
 La Comisión Jurídica de la Federación Alemana de Atletismo dio luz verde hoy , viernes , a su vuelta a los estadios , que se materializará con su participación en el mitin " Live 2000 " de Nuremberg , donde saldrá con el dorsal número 131 . 
 ### Existing MWEs: 
 1- **dio luz verde** (ID)
-### Identified MWEs: 
-1- **dio luz** 
-2- **se materializará** 
 ## Sentence No. 390 - 
 Sin embargo , para que se le levante la suspensión por dos años que se le dictaminó hace siete meses debe actuar aún la IAAF y su decisión podría demorar se aún varias semanas . 
 ### Existing MWEs: 
@@ -287,14 +282,10 @@ Los frentes sociales de Ecuador han decidido subir el tono de las protestas y pr
 Los dirigentes populares aseguran que la población ya no cree en la palabra de sus gobernantes y que no tolerará la imposición de más ajustes y sacrificios , pues recuerdan que en los últimos 20 años , ese tipo de políticas no han dado resultados . 
 ### Existing MWEs: 
 1- **dado resultados** (LVC)
-### Identified MWEs: 
-1- **dado resultados** 
 ## Sentence No. 475 - 
 La sesión estuvo dominada por la volatilidad , como es frecuente en estos días , aunque los analistas prevén que la de mañana lo sea aún más , ya que los inversores comenzarán a tomar posiciones por la entrada de Terra en el Ibex-35 , el próximo Lunes , día 31 , con una ponderación prevista de el 8 por ciento , lo que hará bajar el peso de otros valores . 
 ### Existing MWEs: 
 1- **tomar posiciones** (LVC)
-### Identified MWEs: 
-1- **tomar posiciones** 
 ## Sentence No. 480 - 
 Las acciones de el BBV han registrado un tirón importante en los últimos días y en la sesión de hoy ganaron un 3,93 por ciento , hasta situar se en los 13,50 euros , por la posibilidad de que esta entidad efectúe inversiones en Internet a nivel europeo , para competir con Bankinter , que hoy bajó un 2,03 por ciento . 
 ### Existing MWEs: 
@@ -345,6 +336,8 @@ La coincidencia de la final de Copa con el primer partido de España en la fase 
 El Gobierno está compuesto por representantes de esas tres fuerzas políticas , a las que no se han unido los ultranacionalistas de el Partido Radical Serbio ( SRS ) , de Vojislav Seselj , que acusa a sus antiguos aliados de Milosevic de haber claudicado ante la DOS " y sus amotinados " . 
 ### Existing MWEs: 
 1- **se unido** (IReflV, 2)
+### Identified MWEs: 
+1- **se unido** 
 ## Sentence No. 725 - 
 El canciller cubano fue preguntado también por la exposición que se celebra en Cuba en la que participan compañías farmacéuticas estadounidenses y rechazó que ello pueda ser un ejemplo de que se haya flexibilizado el bloqueo , que se mantiene " estricta y rigurosamente aplicado " . 
 ### Existing MWEs: 
@@ -385,7 +378,7 @@ Rodeado de decenas de cámaras de televisión y fotógrafos de todo el mundo , e
 ### Existing MWEs: 
 1- **dar se baño** (LVC)
 ### Identified MWEs: 
-1- **dar se** 
+1- **dar se baño** 
 ## Sentence No. 885 - 
 El equipo soriano rompió una racha de cinco jornadas sin conseguir un triunfo . 
 ### Existing MWEs: 
@@ -414,6 +407,8 @@ Fernández afirmó que una parte importante de el éxito obtenido corresponde a 
 " Parte de el actual Gobierno está bajo sospecha " , aseveró Alcaraz , quien calificó de " tapadera de la corrupción " a la empresa Saturno , que representó a el Gabinete en la compra de los terrenos en los que está prevista la construcción de el monumento , una operación " llena de absurdos y contradicciones " en la que un informe de la Audiencia de Cuentas ha detectado irregularidades . 
 ### Existing MWEs: 
 1- **está bajo sospecha** (ID)
+### Identified MWEs: 
+1- **está prevista** 
 ## Sentence No. 1060 - 
 Además , Alcaraz pidió a Rodríguez que impulse la creación de una comisión parlamentaria de investigación " para depurar responsabilidades políticas " y advirtió a el Gobierno de que estará " minusvalorando " a la Audiencia de Cuentas , si " sigue empeñando se " en esperar a conocer el informe de la Audiencia de Gestión de Servicios . 
 ### Existing MWEs: 
@@ -422,6 +417,8 @@ Además , Alcaraz pidió a Rodríguez que impulse la creación de una comisión 
 " Cuando en el torneo individual te quedas decepcionado , hacer el esfuerzo de mentalizar se para el doble , una modalidad en la que Albert y yo solo hemos jugado juntos seis o siete veces , y ser capaces de salir a la pista y dar todo lo que dimos , fue una demostración de valentía y de orgullo " , añadió . 
 ### Existing MWEs: 
 1- **hacer esfuerzo** (LVC, 1)
+### Identified MWEs: 
+1- **hacer esfuerzo** 
 ## Sentence No. 1080 - 
 Corretja y Costa se mostraron muy felices durante la conferencia de prensa e incluso bromearon . 
 ### Existing MWEs: 
@@ -442,6 +439,8 @@ La " monumental " metedura de pata de el jefe de el Gobierno no sólo no le ha p
 El episodio supone el traspié más grave de Jospin desde su ascenso a el poder , ya que hasta ahora había demostrado ser un maestro y equilibrista en el arte de esquivar adversidades y mantener una difícil cohesión en el Ejecutivo de coalición de izquierdas que encabeza , manteniendo se en la cresta de la popularidad . 
 ### Existing MWEs: 
 1- **manteniendo se** (IReflV)
+### Identified MWEs: 
+1- **manteniendo se** 
 ## Sentence No. 1170 - 
 Chirac aprovechará la ocasión para dar lecciones " , subraya un comentarista de " Liberation " . 
 ### Existing MWEs: 
@@ -452,10 +451,14 @@ Chirac aprovechará la ocasión para dar lecciones " , subraya un comentarista d
 Las autoridades estadounidenses de Inmigración reiteraron hoy que los familiares en Miami de el niño náufrago cubano Elián González , deben comprometer se por escrito a entregar lo si pierden una apelación para evitar su regreso a Cuba . 
 ### Existing MWEs: 
 1- **comprometer se** (IReflV)
+### Identified MWEs: 
+1- **comprometer se** 
 ## Sentence No. 1225 - 
 Las áreas definidas por el diplomático venezolano tienen que ver con el saneamiento ambiental y ecológico , sobre todo las cabeceras de las cuencas hidrográficas ; la reconstrucción estructural , y el desarrollo socioeconómico de Vargas . 
 ### Existing MWEs: 
 1- **tienen que ver** (ID, 4)
+### Identified MWEs: 
+1- **tienen que ver** 
 ## Sentence No. 1245 - 
 A juicio de la OCDE , las reducciones de impuestos tienen que ir acompañadas de recortes paralelos de el gasto público y los ingresos fiscales que se recauden por encima de lo previsto deben dedicar se a enjugar la deuda . 
 ### Existing MWEs: 
@@ -466,6 +469,8 @@ A juicio de la OCDE , las reducciones de impuestos tienen que ir acompañadas de
 La ley de financiación de partidos obliga a que todo donativo superior a 20.000 marcos sea declarado en la contabilidad interna con nombre y señas de los remitentes , algo que Kohl no hizo porque , argumenta , dio su palabra de honor de mantener a estas personas en el anonimato . 
 ### Existing MWEs: 
 1- **dio palabra** (LVC, 2)
+### Identified MWEs: 
+1- **dio palabra** 
 ## Sentence No. 1330 - 
 " Otra de las cuestiones que analicé tiene que ver con el Mundial de el 2002 : si bien estoy muy bien en lo físico , en lo técnico y en lo anímico , considero que para entonces habrán pasado dos años y ya no seré el mismo " , acotó el veterano jugador de 38 años . 
 ### Existing MWEs: 
@@ -480,10 +485,14 @@ La Comisión establece que la documentación aportada por el Ayuntamiento que pr
 En la misma línea que Fabius se pronunció su colega alemán , Hans Eichel . 
 ### Existing MWEs: 
 1- **se pronunció** (IReflV)
+### Identified MWEs: 
+1- **se pronunció** 
 ## Sentence No. 1380 - 
 Sabariz denunció ayer miércoles que había sido destituido por el presidente de la FGB , Francisco García , tras negar se a favorecer a los equipos de la Comunidad Autónoma gallega ante rivales de otras regiones . 
 ### Existing MWEs: 
 1- **negar se** (IReflV)
+### Identified MWEs: 
+1- **negar se** 
 ## Sentence No. 1410 - 
 Ha probado nuevas relaciones de la caja de cambios y con el problema que representan los neumáticos , hasta mañana no podrá comprobar si todas las mejoras introducidas marchan en la dirección correcta para volver a situar se entre los diez primeros en la formación de salida . 
 ### Existing MWEs: 
@@ -622,6 +631,8 @@ Para recuperar " la dinámica de el grupo " , según palabras de Rivera , su equ
 Los Juegos Olímpicos de Sydney serán un negocio redondo para los organizadores , las empresas de taxis , los dueños de los restaurantes y otros que se beneficiarán de la visita de ocho millones de turistas durante las competiciones . 
 ### Existing MWEs: 
 1- **se beneficiarán** (IReflV)
+### Identified MWEs: 
+1- **se beneficiarán** 
 ## Sentence No. 2080 - 
 Creo que por lo menos , los restaurantes deberían advertir a sus comensales de las medidas que tomarán durante los Juegos " . 
 ### Existing MWEs: 
@@ -652,6 +663,8 @@ Ferrari ha hecho todas las pruebas de el nuevo modelo F1-2000 en sus circuitos d
 En cuanto a el aspecto moral Svensson aclaró : " me da igual que ellos sean ahora nuestro rival , porque una semifinal es una semifinal , y aunque es cierto que el técnico de el Bidasoa les ha hecho creer a el equipo que tienen posibilidades , nosotros también creemos las nuestras " . 
 ### Existing MWEs: 
 1- **da igual** (ID, 1)
+### Identified MWEs: 
+1- **tienen posibilidades** 
 ## Sentence No. 2190 - 
 El Tribunal Regional Electoral ( TRE ) de Sao Paulo anuló la inscripción de el ex presidente brasileño Fernando Collor de Mello como residente en esta ciudad , lo que le impide de momento presentar se como candidato a la Alcaldía de Sao Paulo en las próximas elecciones , informa hoy la prensa . 
 ### Existing MWEs: 
@@ -662,6 +675,8 @@ El Tribunal Regional Electoral ( TRE ) de Sao Paulo anuló la inscripción de el
 El Partido de los Trabajadores ( PT ) , que se opone a la candidatura de el ex presidente , apeló ante la justicia con el argumento de que Collor no vive en la ciudad que aspira a gobernar . 
 ### Existing MWEs: 
 1- **se opone** (IReflV)
+### Identified MWEs: 
+1- **se opone** 
 ## Sentence No. 2200 - 
 En el transcurso de la reunión , este colectivo entregó a el jefe de el Ejecutivo un documento con propuestas para luchar contra la violencia doméstica , que Aznar se comprometió a estudiar . 
 ### Existing MWEs: 
@@ -706,6 +721,8 @@ Ella tiene un gran sentido de el humor sobre sí misma .
 Tosar insistió en que él no ha inventado nada , sino que se ha limitado a reproducir lo que Bonet dijo o escribió : " Él era un gran personaje ; no sólo cultivó todos los géneros , sino que inventó nuevos lenguajes " . 
 ### Existing MWEs: 
 1- **se limitado** (IReflV, 1)
+### Identified MWEs: 
+1- **se limitado** 
 ## Sentence No. 2450 - 
 Bonet abordó en gallego su ya conocida Campanas de Bastabales ( de Rosalía de Castro ) con integridad , pero Prada se quedó en una discreta intervención en catalán en Què volen aquesta gent y Per Hipòcrates . 
 ### Existing MWEs: 
@@ -722,3 +739,5 @@ Cuando el vasco se hizo cargo de el Deportivo , heredó un conjunto con problema
 El resultado fue que el Depor , hasta entonces un equipo funcionarial de juego aseado , se transformó en una escuadra sufridora , combativa , de esas que no dan un balón por perdido hasta el final . 
 ### Existing MWEs: 
 1- **dan por perdido** (LVC, 1)
+### Identified MWEs: 
+1- **dan balón** 

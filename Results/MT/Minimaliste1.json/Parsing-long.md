@@ -9,6 +9,8 @@ Hu spjega kif sitt snin ilu kienet saret talba għal parkeġġ residenzjali iżd
 ### Existing MWEs: 
 1- **saret talba** (LVC)
 2- **saret kundizzjoni** (LVC)
+### Identified MWEs: 
+1- **bi** 
 ## Sentence No. 120 - 
 Fil- preżent hawn mas- 600 tifel u tifla li qegħdin jingħataw attenzjoni u kura barra d- dar naturali tagħhom u l- Ministru Farrugia żvela li s- sena d- dieħla mistennija titħabbar skema li toffri inċentivi lil persuni li jieħdu bħala fostering tfal li jkunu aħwa biex tkompli ssir enfasi li l- aħwa ma jinfirdux . 
 ### Existing MWEs: 
@@ -78,11 +80,15 @@ Il- Ministru Mizzi qal li Gvern ġdid huwa Gvern li jaħdem u għalhekk ħa pass
 ### Existing MWEs: 
 1- **ħa passi** (LVC)
 2- **ta spinta** (ID)
+### Identified MWEs: 
+1- **ta spinta** 
 ## Sentence No. 4235 - 
 Il- mara akkużatu wkoll li kellu jdejh ħafifa u li kien jerfa’ jdejh fuqha spiss , li kien jheddidha li se jwaddabha t- taraġ , jobżqilha , jagħtiha bil- minkeb u jheddidha li jekk titkellem ma’ ħutha jsawwatha iktar . 
 ### Existing MWEs: 
 1- **jdejh ħafifa** (ID)
 2- **jerfa’ jdejh** (ID)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 4675 - 
 Jista’ xi ħadd jieħu azzjoni u jaqbad u jneħħi jew isewwi l- periklu li hemm darba għal dejjem ? 
 ### Existing MWEs: 
@@ -104,10 +110,15 @@ Il- Mument żvelat kif waqt il- laqgħa tal- Grupp Parlamentari Laburista ż- ż
 Il- PN qal li fid- dawl tar- retorika kontinwa tal- Gvern Laburista dwar kemm sejra tajjeb l- ekonomija u l- qagħda finanzjarja ta’ pajjiżna , jistenna li fil- Budget 2015 u fl- isfond ta’ strateġija ekonomika fit- tul , il- Gvern joħroġ bi programmi u inċentivi maħduma speċifikament għas- settur tal- manifattura . 
 ### Existing MWEs: 
 1- **sejra tajjeb** (ID)
+### Identified MWEs: 
+1- **bi** 
 ## Sentence No. 195 - 
 Il- pajjiż li arma lis- Sudafrika bil- bombi nukleari u l- waħdani mgħammar bihom fil- Lvant nofsani , kellu jerġa’ jibda jqis u jagħrbel . 
 ### Existing MWEs: 
 1- **jqis u jagħrbel** (ID)
+### Identified MWEs: 
+1- **bil-** 
+2- **bihom** 
 ## Sentence No. 210 - 
 Meta mistoqsi x’ kien jagħmel differenti f’ dan il- baġit , Joseph Muscat qal li l- ewwelnett kien ikun onest mal- poplu , filwaqt li jiffoka l- prijoritajiet finanzjarji fuq il- familji u fuq dawk li jaħdmu għal rashom . 
 ### Existing MWEs: 
@@ -162,6 +173,8 @@ Mela Simon , eżatt kif sar kapo tal- akbar partit li qatt rat id- dinja , qalil
 Sadanittant , mill- 2006 sal- ewwel xhur tal- 2003 , kien hemm 79 persuna li nstabu ħatjin fil- Qor ­ ti ta' Malta ta' abbuż fuq mi ­ norenni bil- pieni ta' ħabs ivarjaw minn 15 -il sena għal sena . 
 ### Existing MWEs: 
 1- **nstabu ħatjin** (LVC)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 635 - 
 L- ewwel post ta' referenza tiegħu dwar l- istudju tal- ikoni tmur lura sas- sena 1985 , l- is- tess sena li kien ordnat saċerdot . 
 ### Existing MWEs: 
@@ -174,10 +187,14 @@ Dan huwa r- raba’ jum li l- Ingilterra ilha għaddejja minn taqlib kbir f’ i
 Aġġornata : Il- Qorti ma tilqax talba biex il- ġuri dwar l- aggressjoni fuq Anthony Zammit tinstema’ bil- magħluq 
 ### Existing MWEs: 
 1- **ma tilqax talba** (LVC)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 755 - 
 Kull tentattivi li nagħmlu biex intejbu l- immaġini ta' Malta – li għad fadlilha ħafna – jispiċċaw itiru mar- riħ b' dawn it- tip ta' rapporti  . 
 ### Existing MWEs: 
 1- **itiru mar- riħ** (ID)
+### Identified MWEs: 
+1- **b'** 
 ## Sentence No. 765 - 
 Ftit tas- snin ilu , l- istess pizzerija kienet kisret ir- rekord tal- iktar pizza li tiswa flus fid- dinja kollha . 
 ### Existing MWEs: 
@@ -186,10 +203,14 @@ Ftit tas- snin ilu , l- istess pizzerija kienet kisret ir- rekord tal- iktar piz
 Il- Ministru Leo Brincat qal li l- Uffiċċju Nazzjonali tal- Istatistika ( NSO ) ġie kummissjonat biex jagħmel stħarriġ dwar l- impjiegi eżistenti fl- Ekonomija l- Ħadra ( Green Jobs ) bil- ħsieb li jkun kwantifikat in- numru ta’ impjiegi f’ azjendi li jipproduċu oġġetti u servizzi li minnhom jibbenefika l- ambjent , u impjiegi li fihom hemm il- potenzjal li l- ħaddiema jkunu qed jaħdmu fuq proċessi ta’ produzzjoni fl- azjenda tagħhom aktar favur l- ambjent . 
 ### Existing MWEs: 
 1- **jagħmel stħarriġ** (LVC)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 935 - 
 Għall- inqas dwar dan il- Ministeru tal- Ġustizzja u l- Intern qed jaħseb , anki jekk b' pass ta' nemlu . 
 ### Existing MWEs: 
 1- **jaħseb b' pass ta' nemlu** (ID)
+### Identified MWEs: 
+1- **b'** 
 ## Sentence No. 980 - 
 Apparti minn hekk kien hemm rikors li għamlet id- difiża dwar assi ffriżati fejn il- qorti laqgħet it- talba parzjalment . 
 ### Existing MWEs: 
@@ -198,6 +219,8 @@ Apparti minn hekk kien hemm rikors li għamlet id- difiża dwar assi ffriżati f
 “ Id- degradazzjoni ambjentali hi ħafna drabi frott politika li ma tħarisx fil- bogħod , u t- tfittxija ta’ interessi ekonomiċi mijopiċi , li traġikament isarrfu f’ theddida serja għall- ambjent ” . 
 ### Existing MWEs: 
 1- **frott politika** (ID)
+### Identified MWEs: 
+1- **frott** 
 ## Sentence No. 1090 - 
 Giovanna Debono fakkret li dawn kienu biss uħud mill- proġetti ewlenin li twettqu f' dawn l- aħħar snin barra xogħol u inizjattivi oħrajn li komplew itejbu s- servizzi u l- faċilitajiet f' diversi setturi fosthom is- saħħa , l- edukazzjoni , l- ekonomija , il- qasam soċjali , il- kultura u l- ambjent . 
 ### Existing MWEs: 
@@ -210,6 +233,8 @@ Giovanna Debono fakkret li dawn kienu biss uħud mill- proġetti ewlenin li twet
 Huma semmew ukoll id- dħul tad- divorzju f' pajjiżna fejn waqt li qalu li  issa għandna soċjetà li iktar faċli tindarab fil- kuntest taż- żwieġ u l- familja  reġgħu saħqu kif id- dħul tad- divorzju jferi kull żwieġ kemm jekk ikun ċivili kif ukoll dak bil- Knisja . 
 ### Existing MWEs: 
 1- **id- dħul tad- divorzju** (LVC)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 1415 - 
 Kien hemm ukoll persuna li weħlet sena u seba' xhur ħabs , oħra sentejn , persuna oħra ikkun ­ dannata sentejn u sitt xhur , oħra tliet snin u sitt xhur , waħda tmien snin u sitt xhur , oħra disa' snin ħabs u persuna oħra li ġiet ikkundannata għal 11 -il sena . 
 ### Existing MWEs: 
@@ -226,6 +251,8 @@ Keith Frendo , ta' 28 sena mill- Ħamrun , kien mixli quddiem il- Maġistrat Jac
 Mhux beħsiebni ngħaddi ħajti ngħatti x- xemx bil- pala ta’ jdejja . 
 ### Existing MWEs: 
 1- **ngħaddi ħajti** (LVC)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 1625 - 
 Minkejja li waqt attività politika f' Mejju li għadda l- Prim Ministru stqarr li xogħol prekarju mhuwiex aċċettabbli , jirriżulta li l- uffiċċju tiegħu jagħmel użu minn dan it- tip ta' xogħol . 
 ### Existing MWEs: 
@@ -263,7 +290,7 @@ Huwa mifhum li Emil Sebastian Engstrom Launoila ta daqqa ta' ponn lill- vittma w
 ### Existing MWEs: 
 1- **kkaġunalu feriti** (LVC)
 ### Identified MWEs: 
-1- **ta daqqa ta' ponn** 
+1- **ta daqqa ta'** 
 ## Sentence No. 1795 - 
 Għalhekk li l- ideal ta' Joseph Muscat li pajjiżna jidħol fi ` staġun politiku ġdid ' ġibed l- attenzjoni u l- approvazzjoni tal- kotra . 
 ### Existing MWEs: 
@@ -277,7 +304,8 @@ Bi stil avant - garde u kunfidenti , Hugo Fashion jagħti dehra progressiva b’
 ### Existing MWEs: 
 1- **jagħti dehra** (LVC, 1)
 ### Identified MWEs: 
-1- **jagħti dehra** 
+1- **Bi** 
+2- **jagħti dehra** 
 ## Sentence No. 1850 - 
 Sal- Ħadd li ġej – fl- istess okkazjoni qed tittella' wkoll wirja fil- knisja parrokkjali li titratta l- istorja fil- qosor tal- Parroċċa ta' Ħal Luqa . 
 ### Existing MWEs: 
@@ -299,7 +327,8 @@ B' kollox ħarbu seba' immigranti , li minnhom inqabdu tnejn - Niġerjan li meta
 ### Existing MWEs: 
 1- **intilef minn sensih** (ID, 1)
 ### Identified MWEs: 
-1- **intilef minn sensih** 
+1- **B'** 
+2- **intilef minn sensih** 
 ## Sentence No. 1955 - 
 Il- Banda Ċittadina La Stella ta' Victoria , Għawdex , se te ­ seg ­ wixxi Kunċert ta' Mużika Sagra , taħt id- direzzjoni tas- Surmast Direttur Mro Joseph Vella , illum is- Sibt , fit- 8.00 p . m . , fil- Bażilika ta' San Ġorġ . 
 ### Existing MWEs: 
@@ -312,6 +341,8 @@ Imma għamlet l- ewwel pass .
 Bil- wiċċ tost kollu din il- ġimgħa , argumenta ma' Charlon Gouder li , kieku Charlon kellu xi dar jew proprjetà , ma kienx joqgħod lura milli jaqla' l- flus minnha . 
 ### Existing MWEs: 
 1- **joqgħod lura** (ID)
+### Identified MWEs: 
+1- **Bil-** 
 ## Sentence No. 1990 - 
 Fost il- purċissjonijiet tradizzjonali hemm dik li ssir fil- Belt , li matulha jieħdu sehem eluf ta’ nies . 
 ### Existing MWEs: 
@@ -354,6 +385,8 @@ Jgħajruna kontinwament u mbagħad jgħidulek ' ma tista' tagħmilli xejn , ħa 
 Aqta' jiesek jekk kont qed tistenna li bir-  riforma  tal- MEPA l- affarijiet kienu se jkunu aħjar . 
 ### Existing MWEs: 
 1- **Aqta' jiesek** (ID)
+### Identified MWEs: 
+1- **bir-** 
 ## Sentence No. 2625 - 
 Dan it- tender ma kellu x' jaqsam xejn mat- tender tal- parkeġġi kollha ta' Malta li ħarġu u kienu rtirati . 
 ### Existing MWEs: 
@@ -367,7 +400,7 @@ Imqar jekk , skont il- qawl Malti , il- qattusa tkun irnexxielha , b' xi mod , t
 ### Existing MWEs: 
 1- **qattusa tgħatti ħmieġha** (OTH)
 ### Identified MWEs: 
-1- **tgħatti ħmieġha** 
+1- **b'** 
 ## Sentence No. 2720 - 
 Nittamaw li l- isforzi li qed jagħmlu dawn iż- żewġ deputati jsibu wkoll appoġġ fil- partiti rispettivi tagħhom . 
 ### Existing MWEs: 
@@ -398,6 +431,8 @@ L- ambjentalisti wkoll jinsabu diżappuntati u rrabjati għall- qerda li qegħdi
 F' pajjiżna n- nuqqas ta' parteċipazzjoni tal- mara fid- dinja tax- xogħol hija ta' tħassib kbir u wara li riċentament kien ippubblikat il- ` Global Gender Gap Report ' , għal kull 78 raġel li jinsabu f' impjieg bi ħlas , f' pajjiżna għandna biss 39 mara li għandhom impjieg . 
 ### Existing MWEs: 
 1- **fid- dinja tax- xogħol** (ID)
+### Identified MWEs: 
+1- **bi** 
 ## Sentence No. 3090 - 
 Min għandu moħħ , ħa jifhem . 
 ### Existing MWEs: 
@@ -406,6 +441,8 @@ Min għandu moħħ , ħa jifhem .
 B' ilsienna din l- espressjoni tfisser :  Il- mejtin jitkellmu  . 
 ### Existing MWEs: 
 1- **mejtin jitkellmu** (ID)
+### Identified MWEs: 
+1- **B'** 
 ## Sentence No. 3110 - 
 Ovvjament din l- għajnuna ma kenitx tkun possibbli li kieku Malta ma sseħbitx fl- Unjoni Ewropea . 
 ### Existing MWEs: 
@@ -414,6 +451,8 @@ Ovvjament din l- għajnuna ma kenitx tkun possibbli li kieku Malta ma sseħbitx 
 Hi qalet li għalkemm Malta għandha biss 2 % tal- kosta bil- bajjiet , xorta irnexxielha tidħol fil- mappa internazzjonali tal- bajjiet sostenibbli u tinsab fuq websites importanti turistiċi madwar id- dinja . 
 ### Existing MWEs: 
 1- **irnexxielha tidħol mappa** (LVC)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 3155 - 
 Skont l- istħariġ jidher li l- ogħla rata ta' impieg fost l- irġiel kien ta' bejn l- eta' ta' 25 u 54 snin , filwaqt li n- nisa bejn l- eta' ta' 15 u 24 kienu l- aktar li ħarġu jaħdmu . 
 ### Existing MWEs: 
@@ -438,6 +477,8 @@ Fl- aħħar mill- aħħar tagħhom hi ġlieda mitlufa .
 Tieġ ( drammatizzat mill- Qalin ) li kellu jsir f’ dawk l- inħawi s- Sibt filgħodu spicċa quddiem il- Bażilika ta’ San Ġorġ , bil- koppja tagħti s- Signor Si ! Is- Silos tal- Qamħ naf li ħafna ma tawx każ tar- riħ u telgħu jagħmlulhom żjara . 
 ### Existing MWEs: 
 1- **tagħti s- Signor Si** (ID)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 3355 - 
 Tpoġġiex kliem f’ ħalqi . 
 ### Existing MWEs: 
@@ -450,6 +491,8 @@ Dwar Tonio Borg kulħadd illum jaf li kieku ma kinux l- MEPs Soċjalisti Ewropej
 Il- Prim Ministru qal li l- akkuża li qed jakkużaw lil gvern biha , l- Oppożizzjoni hi la ma baxxejniex rasna u ngħidu iva għal kollox . 
 ### Existing MWEs: 
 1- **ma baxxejniex rasna** (ID)
+### Identified MWEs: 
+1- **biha** 
 ## Sentence No. 3535 - 
 Bħala stazzjon tal- Knisja , aktar kont nistenna li jħeġġeġ lill- ġenituri biex l- ewwel u qabel kollox iqattgħu aktar ħin ma’ wliedhom u bejniethom . 
 ### Existing MWEs: 
@@ -467,7 +510,9 @@ Jien membru tal- Kumitat tal- Parlament Ewropew għas- suq Intern u l- ħarsien 
 ### Existing MWEs: 
 1- **jolqot interessi** (LVC)
 ### Identified MWEs: 
-1- **għa liex** 
+1- **b'** 
+2- **għa regoli** 
+3- **bil-** 
 ## Sentence No. 3630 - 
 Jidher li kienet Berry stess li kkuntatjat lill- Pulizija u tat indikazzjoni ta' fejn jinsabu . 
 ### Existing MWEs: 
@@ -502,6 +547,8 @@ L- iżviluppatur magħruf Charles Polidano , magħruf bħala  ċ- Ċaqnu  , 
 Il- ħsara deffsuha xi erba' pampaluni li ddaħħlu bl- arja kollha ta' ` il- gvern tagħna , nagħmlu li rridu ' ! 
 ### Existing MWEs: 
 1- **nagħmlu li rridu** (LVC)
+### Identified MWEs: 
+1- **bl-** 
 ## Sentence No. 4265 - 
 Min- naħa l- oħra , il- PM saħaq li dawn il- ftit każi m' għandhomx jitfgħu dell ikraħ fuq il- ħafna ġid li għamlu l- kunsilli lokali . 
 ### Existing MWEs: 
@@ -512,10 +559,14 @@ Min- naħa l- oħra , il- PM saħaq li dawn il- ftit każi m' għandhomx jitfgħ
 Sakemm qrajt dan l- artiklu jiena kont taħt l- impressjoni li dan il- Gran Mastru miet bil- keded li kien ħa fl- Assedju l- Kbir . 
 ### Existing MWEs: 
 1- **kont taħt l- impressjoni** (LVC)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 4540 - 
 Semma wkoll il- Maltese Salt Tree , siġra endemika li bħalissa qed tiffjorixxi biss f' din ir- riserva , u qal li billi t- Torri San Luċjan issa se jaqa' f' idejn Heritage Malta , il- fkieren tal- baħar feruti li jinqabdu mis- sajjieda se jibdew jittieħdu għall- kura fir- riserva naturali ta' Xrobb l- Għaġin . 
 ### Existing MWEs: 
 1- **se jaqa' f' idejn** (ID)
+### Identified MWEs: 
+1- **jaqa' f' idejn** 
 ## Sentence No. 4640 - 
 Lejn wirja ġdida ta' saħħa li l- ħaddiem irid ta' kull darba juri meta jsib ruħu abbużat u mifni minn sitwazzjonijiet li fuq kollox ma jkunux ħoloqhom hu . 
 ### Existing MWEs: 
@@ -524,6 +575,8 @@ Lejn wirja ġdida ta' saħħa li l- ħaddiem irid ta' kull darba juri meta jsib 
 Ara veru trid tkun bħal Wiġi , bħal Żeppi l- kunduttur u bħal dak l- għanbaqru ta’ Norman - knows -it - all u l- kukkanja tagħhom biex ikollok wiċċek imċappas bil- ħaramija u ma tiddejjaqx tiżżattat u tippoppa sidrek tippretendiha tal- verġni u l- immakulat . 
 ### Existing MWEs: 
 1- **tippoppa sidrek** (ID)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 4660 - 
 Id- Deputat Laburista Deborah Schembri ikkritikat lill- Oppożizzjoni talli issa qed tagħti l- impressjoni li għandha għal qalbha d- drittijiet tal- korp dixxiplinati meta f’ 25 sena ma tathomx id- dritt li jissieħbu fl- unjin tal- għażla tagħhom . 
 ### Existing MWEs: 
@@ -532,6 +585,9 @@ Id- Deputat Laburista Deborah Schembri ikkritikat lill- Oppożizzjoni talli issa
 Ir- raġel , li huwa residenti San Ġwann kien miexi fit- triq imsemmija meta ġie avviċinat minn żewġ persuni mgħammda u armati b' arma li taqta' u bil- ponta . 
 ### Existing MWEs: 
 1- **miexi fit- triq** (LVC)
+### Identified MWEs: 
+1- **b'** 
+2- **bil-** 
 ## Sentence No. 4680 - 
 Il- kap ta’ l- AD qal li l- pjanijiet tal- Gvern mhumiex serji u intiżi biss biex jgħammxu l- għajnejn għal waqt il- kampanja elettorali . 
 ### Existing MWEs: 
@@ -544,6 +600,8 @@ Qajla li min ikun involut fil- korruzzjoni jħalli warajh evidenza ċara u inkon
 Fi spazju ta' inqas minn żewġ metri stajna naraw erba' ħaddiema jiżbgħu il- ħadid , oħrajn ipoġġu l- madum , mijiet ta' ħaddiema oħrajn jiġru bl- għodda , biċċiet tal- ħaxix ( turf ) , pajpijiet , injam u saħansitra anke jwaħħlu tabelli fejn jinsabu l- latrini . 
 ### Existing MWEs: 
 1- **ipoġġu l- madum** (OTH)
+### Identified MWEs: 
+1- **bl-** 
 ## Sentence No. 4905 - 
 Kelliema għall- Ministeru tal- Intern Pakistani qalu li l- ikkundannati kienu terroristi , qattiela jew kriminali li nstabu ħatja dwar delitti faħxija . 
 ### Existing MWEs: 
@@ -560,14 +618,20 @@ Issa huwa ż- żmien li wieħed jidħol waħda fih innifsu u jagħrbel u jiżen 
 Żewġt ibniet ta' tmien snin minn Ħ ' Attard għoddewa b' waħda , wara li dawn ittajru minn karozza fi Triq Ħal Warda f' Ħ ' Attard stess . 
 ### Existing MWEs: 
 1- **għoddewa b' waħda** (ID)
+### Identified MWEs: 
+1- **b'** 
 ## Sentence No. 5065 - 
 Mhux li qed idejqu lil min irid jaħdem bla lġiem , imma dawk li qed idejqu lil min irid jgħix bi kwietu mingħajr sikkatura żejda u esaġerata . 
 ### Existing MWEs: 
 1- **jgħix bi kwietu** (ID)
+### Identified MWEs: 
+1- **bi** 
 ## Sentence No. 5105 - 
 Qalu li bil- pensjoni kienu se jitkissru l- familji u l- anzjani jitilfu ruħhom għax jonfqu l- flus tal- pensjoni fix- xorb u jaħkimhom is- sokor . 
 ### Existing MWEs: 
 1- **jitilfu ruħhom** (ID)
+### Identified MWEs: 
+1- **bil-** 
 ## Sentence No. 5145 - 
 Għall- ewwel darba , il- Ministru Refalo żvela li snin ilu kien hemm ħaddiema waħda partikolari li kienet tkellmet mat- tmexxija tal- kumpanija dwar dak li kien għaddej u baqa' ma sar xejn . 
 ### Existing MWEs: 
@@ -576,6 +640,8 @@ Għall- ewwel darba , il- Ministru Refalo żvela li snin ilu kien hemm ħaddiema
 L- iskola li mistennija tinbena se iġġib l- isema ta’ Nirvana Azzopardi , li fl- 2013 tilfet il- ġlieda tagħha kontra l- marda tal- kanċer . 
 ### Existing MWEs: 
 1- **iġġib l- isema** (LVC)
+### Identified MWEs: 
+1- **tinbena** 
 ## Sentence No. 5215 - 
 F’ mument minnhom , l- Ispeaker saħansitra kellu jiġbed l- attenzjoni tas- Segretarju Parlamentari Stefan Buontempo li kien qiegħed ifixkel lill- Kelliem tal- Oppożizzjoni . 
 ### Existing MWEs: 
@@ -604,6 +670,9 @@ Fl- ewwel żjara uffiċjali lill- kumpanija Toly Products Ltd , il- Ministru għ
 Irrid ngħid ukoll li fl- ewwel logħba ħriġna rebbieħa kontra l- Portugall ( 16 - 8 ) u bil- punti li kellna , bi draw kontra l- Iżrael konna nispiċċaw fit- tieni post . 
 ### Existing MWEs: 
 1- **ħriġna rebbieħa** (OTH)
+### Identified MWEs: 
+1- **bil-** 
+2- **bi** 
 ## Sentence No. 5430 - 
 Fl- aħħar mill- aħħar , jien u intom nagħmlu parti min- nies kollha f' pajjiżna , fejn ħafna u ħafna ilhom u għadhom jitkellmu dwar dak li jħossu li għaddej madwarhom … Iltqajt ma' żewġ persuni minn oqsma differenti li għandhom ħaġa komuni : it- tnejn ilhom jgħixu Malta snin twal , anke tul l- aħħar ħames snin . 
 ### Existing MWEs: 

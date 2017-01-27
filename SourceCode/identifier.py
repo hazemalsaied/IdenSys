@@ -10,46 +10,11 @@ from parser import Parser
 from reports import Report
 
 
-# Bigram S0B1, "S0B2 " S0S1 S1B0 "S0B2"
-# l'historique de deux dernieres transitions, de trois, d'un seule transition
-# Le temps de parsing
-# Le bug de S0 ET S1
-# Le bug de POS
-# les embedded
-
 class Identifier:
-    config = {}
+
 
     @staticmethod
     def identify(configPath, realExper=False):
-
-        # if not realExper and Parameters.useCrossValidation:
-        #     fScore, recall, precision = .0, .0, .0
-        #     testRange, trainRange = Identifier.getRangs(corpus.sentences)
-        #
-        #     for x in xrange(0, len(testRange)):
-        #         testingSents, trainingSents = Identifier.divideSents(corpus.sentences, testRange,
-        #                                                              trainRange, x)
-        #         mweDictionary = Identifier.getMWEDic(trainingSents)
-        #         clfs = Identifier.train(x, corpus, trainingSents)
-        #         tempfScore, temprecall, tempprecision = Identifier.parse(testingSents, clfs, mweDictionary,
-        #                                                                  languageName, x)
-        #         fScore += tempfScore
-        #         recall += temprecall
-        #         precision += tempprecision
-        #     fScore = fScore / 5
-        #     recall = recall / 5
-        #     precision = precision / 5
-        #
-        #     if Parameters.printReport:
-        #         result = '## The Total Score for cross validation : F-score' + str(
-        #             "%.3f" % fScore) + ' ,Recall: ' + str("%.3f" % recall) + ' ,Precision: ' + str("%.3f" % precision)
-        #         Report.editReadme('a', result)
-        #     return fScore , recall, precision
-        #
-        # else:
-
-
         for subdir, dirs, files in os.walk(configPath):
             for dir in dirs:
                 for subdir1, dirs1, configFiles in os.walk(os.path.join(configPath, dir)):
@@ -58,33 +23,25 @@ class Identifier:
                     Report.createLanguageFolder(dir)
                     # corpus, languageName = Identifier.readCorpus(dir)
                     trainingSents, testingSents = Identifier.getTrainAndTestSents(realExper, corpus)
-                    mweDictionary = Identifier.getMWEDic(trainingSents)
-                    Report.createMWELexic(mweDictionary, dir)
+                    Parser.mweDictionary, Parser.mweTokenDic = Identifier.getMWEDic(trainingSents)
+                    Report.createMWELexic(Parser.mweDictionary, dir)
                     report = '# The experiementations on ' + dir + '\n'
                     with open(Parameters.readMe, "a") as staticParsingFile:
                         staticParsingFile.write(report)
                     for configFile in configFiles:
                         if not configFile.endswith('.json'):
                             continue
+                        Parameters.configPath = os.path.join(os.path.join(configPath, dir), configFile)
                         Report.createXPFolder(configFile)
                         config = Parameters(os.path.join(os.path.join(configPath, dir), configFile))
                         Report.createConfigAndReadMe(corpus)
                         Identifier.initializeSents(trainingSents)
                         Identifier.initializeSents(testingSents)
                         clf = Identifier.train('', corpus, trainingSents)
-                        fScore, recall, precision = Identifier.parse(testingSents, clf, mweDictionary,
+                        fScore, recall, precision = Identifier.parse(testingSents, clf, Parser.mweDictionary,
                                                                      Parameters.languageName)
-                        report = '### The Score of the experiementation ' + str(
-                            Parameters.xpName) + ' is' + '\n' + 'F-score: ' + str(
-                            "%.3f" % fScore) + ' ,Recall: ' + str("%.3f" % recall) + ' ,Precision: ' + str(
-                            "%.3f" % precision) + '\n\n'
-                        with open(Parameters.readMe, "a") as staticParsingFile:
-                            staticParsingFile.write(report)
+                        Report.editTotalReadMe(fScore, recall, precision , corpus)
 
-                        report = Parameters.languageName + ',' + Parameters.xpName + ',' + str(
-                            "%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str("%.3f" % precision) + '\n'
-                        with open(Parameters.results, "a") as staticParsingFile:
-                            staticParsingFile.write(report)
 
     @staticmethod
     def getTrainAndTestSents(realExper, corpus):
@@ -105,24 +62,34 @@ class Identifier:
 
     @staticmethod
     def getMWEDic(trainingSents):
+        mweTokenDictionary = {}
         mweDictionary = {}
         for sent in trainingSents:
             for mwe in sent.vMWEs:
                 if mwe.getLemmaString() in mweDictionary.keys():
                     mweDictionary[mwe.getLemmaString()] += 1
+                    for token in mwe.tokens:
+                        if token.lemma.strip() != '':
+                            mweTokenDictionary[token.lemma] = 1
+                        else:
+                            mweTokenDictionary[token.text] = 1
                 else:
                     mweDictionary[mwe.getLemmaString()] = 1
-        return mweDictionary
+                    for token in mwe.tokens:
+                        if token.lemma.strip() != '':
+                            mweTokenDictionary[token.lemma] = 1
+                        else:
+                            mweTokenDictionary[token.text] = 1
+
+        return mweDictionary, mweTokenDictionary
 
     @staticmethod
     def train(x, corpus, trainingSents):
 
-        time = datetime.datetime.now()
         # if Parameters.useCrossValidation:
         Identifier.initializeSents(corpus.sentences)
         # Training classifier
         clf = Classification.classify(trainingSents, x)
-        print 'Traingin duration: ' + str(datetime.datetime.now() - time)
         return clf
 
     @staticmethod
@@ -178,26 +145,6 @@ class Identifier:
         return fScore, recall, precision
 
     @staticmethod
-    def readCorpus(languageName):
-
-        # languageName = Parameters.corpusPath.split('/')[-1]
-        # if languageName.strip() == '':
-        #     languageName = Parameters.corpusPath.split('/')[-2]
-        # if not os.path.exists(Parameters.dumpingPath):
-        #     os.makedirs(Parameters.dumpingPath)
-
-        corpus = Corpus(os.path.join(Parameters.corpusPath, languageName))
-        # if Parameters.serialize:
-        #     # Reading the corpus
-        #     corpus = Corpus(Parameters.corpusPath)
-        #     with open(os.path.join(Parameters.dumpingPath, languageName + '.pickle'), 'wb') as f:
-        #         pickle.dump(corpus, f)
-        # else:
-        #     with open(os.path.join(Parameters.dumpingPath, languageName + '.pickle'), 'rb') as f:
-        #         corpus = pickle.load(f)
-        return corpus, languageName
-
-    @staticmethod
     def getRangs(sents):
 
         testNum = int(len(sents) * 0.2)
@@ -227,7 +174,6 @@ class Identifier:
         trainDataLabel = []
         time = datetime.datetime.now()
         for sent in sents:
-            # Parse the sentence
             trainingInfo = Parser.staticParse(sent)
             if trainingInfo is not None:
                 trainDataLabel.extend(trainingInfo[0])
@@ -237,29 +183,6 @@ class Identifier:
 
 reload(sys)
 sys.setdefaultencoding('utf8')
-# readMe = "/Users/hazemalsaied/Parseme/MWEIdSys/Results/readMe.md"
-# if not os.path.isfile(readMe):
-#     staticParsingFile = open(readMe, 'w')
-# else:
-#     staticParsingFile = open(readMe, 'a')
-# staticParsingFile.write('')
 
-# for subdir, dirs, files in os.walk('Config'):
-#     for dir in dirs:
-#         for subdir1, dirs1, files1 in os.walk(os.path.join('Config', dir)):
-#             report = '# The experiementations on ' + dir + '\n'
-#             with open(readMe, "a") as staticParsingFile:
-#                 staticParsingFile.write(report)
-#             for file in files1:
-#                 path = os.path.join(os.path.join('Config', dir), file)
-#                 print path
-#                 config = Parameters(path)
-#                 fScore, recall, precision = Identifier.identify()
-#                 report = '### The Score of the experiementation ' + str(Parameters.xpName) + ' is' + '\n' + 'F-score: '  + str(
-#                     "%.3f" % fScore) + ' ,Recall: ' + str("%.3f" % recall) + ' ,Precision: ' + str("%.3f" % precision) + '\n\n'
-#                 with open(readMe, "a") as staticParsingFile:
-#                     staticParsingFile.write(report)
-# configPath = 'Config/FR/tuned.json'
-# config = Parameters(configPath )
-# print Parameters.toBinary()
+# lst = list(itertools.product([0, 1], repeat=14))
 Identifier.identify('Config')

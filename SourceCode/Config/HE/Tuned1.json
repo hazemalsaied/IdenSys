@@ -1,0 +1,21 @@
+{
+  "useStackLength": false,
+  "S0B0Distance":false,
+  "S0S1Distance":false,
+  "useFirstBufferElement": true,
+  "useSecondBufferElement": true,
+  "generateS0B2Bigram":true,
+  "useDictionary":true,
+  "UseLinguistInfo": {
+    "useSytax": false,
+    "usePOS": false,
+    "useLemma": false,
+    "useBiGram": true,
+    "useTriGram": false
+  },
+  "useTransitionHistory": {
+    "transitionHistoryLength1": true,
+    "transitionHistoryLength2": true,
+    "transitionHistoryLength3": true
+  }
+}

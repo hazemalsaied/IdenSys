@@ -1,926 +1,908 @@
-## Sentence No. 2216 - 
-Žmonės nustemba , kad naftos randa vienoj užterščiausių jūrų pasaulyje , iki švarių laikų dar nekvepia : nei problemos išspręstos , nei kas žino , kaip jas išspręsti . “
+## Sentence No. 5331 - 
+Turkija planuoja radikaliai pertvarkyti savo žvalgybos tarnybą , atskirdama užsienio ir vidaus žvalgybos funkcijas po to , kai ši organizacija buvo griežtai sukritikuota dėl darbo trūkumų po nepavykusio mėginimo įvykdyti šalyje karinį perversmą , antradienį pranešė žiniasklaida .
 ### Existing MWEs: 
-1- **iki švarių laikų dar nekvepia** (ID)
+1- **įvykdyti perversmą** (LVC, 1)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Žmonės, nustemba, , ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Turkija, planuoja, radikaliai ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Žmonės]   B= [nustemba, ,, kad ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Turkija]   B= [planuoja, radikaliai, pertvarkyti ,.. ]
 
-B0Token: nustemba, B0_LastThreeLetters: mba, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: Žmonės_nustemba, S0B1Token: Žmonės_,, S0B2Token: Žmonės_kad, S0Token: Žmonės, S0_LastThreeLetters: ės, StackLength: 1, 
+B0Token: planuoja, B0_LastThreeLetters: oja, B0_LastTwoLetters: ja, B1Token: radikaliai, B1_LastThreeLetters: iai, B1_LastTwoLetters: ai, S0B0Distance: 1, S0B0Token: Turkija_planuoja, S0B1Token: Turkija_radikaliai, S0B2Token: Turkija_pertvarkyti, S0Token: Turkija, S0_LastThreeLetters: ija, S0_LastTwoLetters: ja, StackLength: 1, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nustemba, ,, kad ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [planuoja, radikaliai, pertvarkyti ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nustemba]   B= [,, kad, naftos ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [planuoja]   B= [radikaliai, pertvarkyti, savo ,.. ]
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: kad, B1_LastThreeLetters: kad, S0B0Distance: 1, S0B0Token: nustemba_,, S0B1Token: nustemba_kad, S0B2Token: nustemba_naftos, S0Token: nustemba, S0_LastThreeLetters: mba, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Token: radikaliai, B0_LastThreeLetters: iai, B0_LastTwoLetters: ai, B1Token: pertvarkyti, B1_LastThreeLetters: yti, B1_LastTwoLetters: ti, S0B0Distance: 1, S0B0Token: planuoja_radikaliai, S0B1Token: planuoja_pertvarkyti, S0B2Token: planuoja_savo, S0Token: planuoja, S0_LastThreeLetters: oja, S0_LastTwoLetters: ja, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kad, naftos ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [radikaliai, pertvarkyti, savo ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kad, naftos, randa ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [radikaliai]   B= [pertvarkyti, savo, žvalgybos ,.. ]
 
-B0Token: kad, B0_LastThreeLetters: kad, B1Token: naftos, B1_LastThreeLetters: tos, S0B0Distance: 1, S0B0Token: ,_kad, S0B1Token: ,_naftos, S0B2Token: ,_randa, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: pertvarkyti, B0_LastThreeLetters: yti, B0_LastTwoLetters: ti, B1Token: savo, B1_LastThreeLetters: avo, B1_LastTwoLetters: vo, S0B0Distance: 1, S0B0Token: radikaliai_pertvarkyti, S0B1Token: radikaliai_savo, S0B2Token: radikaliai_žvalgybos, S0Token: radikaliai, S0_LastThreeLetters: iai, S0_LastTwoLetters: ai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kad, naftos, randa ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pertvarkyti, savo, žvalgybos ,.. ]
 
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kad]   B= [naftos, randa, vienoj ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pertvarkyti]   B= [savo, žvalgybos, tarnybą ,.. ]
 
-B0Token: naftos, B0_LastThreeLetters: tos, B1Token: randa, B1_LastThreeLetters: nda, S0B0Distance: 1, S0B0Token: kad_naftos, S0B1Token: kad_randa, S0B2Token: kad_vienoj, S0Token: kad, S0_LastThreeLetters: kad, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: savo, B0_LastThreeLetters: avo, B0_LastTwoLetters: vo, B1Token: žvalgybos, B1_LastThreeLetters: bos, B1_LastTwoLetters: os, S0B0Distance: 1, S0B0Token: pertvarkyti_savo, S0B1Token: pertvarkyti_žvalgybos, S0B2Token: pertvarkyti_tarnybą, S0Token: pertvarkyti, S0_LastThreeLetters: yti, S0_LastTwoLetters: ti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [naftos, randa, vienoj ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [savo, žvalgybos, tarnybą ,.. ]
 
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [naftos]   B= [randa, vienoj, užterščiausių ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [savo]   B= [žvalgybos, tarnybą, , ,.. ]
 
-B0Token: randa, B0_LastThreeLetters: nda, B1Token: vienoj, B1_LastThreeLetters: noj, S0B0Distance: 1, S0B0Token: naftos_randa, S0B1Token: naftos_vienoj, S0B2Token: naftos_užterščiausių, S0Token: naftos, S0_LastThreeLetters: tos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: žvalgybos, B0_LastThreeLetters: bos, B0_LastTwoLetters: os, B1Token: tarnybą, B1_LastThreeLetters: bą, B1_LastTwoLetters: ą, S0B0Distance: 1, S0B0Token: savo_žvalgybos, S0B1Token: savo_tarnybą, S0B2Token: savo_,, S0Token: savo, S0_LastThreeLetters: avo, S0_LastTwoLetters: vo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [randa, vienoj, užterščiausių ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [žvalgybos, tarnybą, , ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [randa]   B= [vienoj, užterščiausių, jūrų ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [žvalgybos]   B= [tarnybą, ,, atskirdama ,.. ]
 
-B0Token: vienoj, B0_LastThreeLetters: noj, B1Token: užterščiausių, B1_LastThreeLetters: ių, S0B0Distance: 1, S0B0Token: randa_vienoj, S0B1Token: randa_užterščiausių, S0B2Token: randa_jūrų, S0Token: randa, S0_LastThreeLetters: nda, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: tarnybą, B0_LastThreeLetters: bą, B0_LastTwoLetters: ą, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: žvalgybos_tarnybą, S0B1Token: žvalgybos_,, S0B2Token: žvalgybos_atskirdama, S0Token: žvalgybos, S0_LastThreeLetters: bos, S0_LastTwoLetters: os, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vienoj, užterščiausių, jūrų ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tarnybą, ,, atskirdama ,.. ]
 
 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vienoj]   B= [užterščiausių, jūrų, pasaulyje ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tarnybą]   B= [,, atskirdama, užsienio ,.. ]
 
-B0Token: užterščiausių, B0_LastThreeLetters: ių, B1Token: jūrų, B1_LastThreeLetters: rų, S0B0Distance: 1, S0B0Token: vienoj_užterščiausių, S0B1Token: vienoj_jūrų, S0B2Token: vienoj_pasaulyje, S0Token: vienoj, S0_LastThreeLetters: noj, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: atskirdama, B1_LastThreeLetters: ama, B1_LastTwoLetters: ma, S0B0Distance: 1, S0B0Token: tarnybą_,, S0B1Token: tarnybą_atskirdama, S0B2Token: tarnybą_užsienio, S0Token: tarnybą, S0_LastThreeLetters: bą, S0_LastTwoLetters: ą, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [užterščiausių, jūrų, pasaulyje ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, atskirdama, užsienio ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [užterščiausių]   B= [jūrų, pasaulyje, , ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [atskirdama, užsienio, ir ,.. ]
 
-B0Token: jūrų, B0_LastThreeLetters: rų, B1Token: pasaulyje, B1_LastThreeLetters: yje, S0B0Distance: 1, S0B0Token: užterščiausių_jūrų, S0B1Token: užterščiausių_pasaulyje, S0B2Token: užterščiausių_,, S0Token: užterščiausių, S0_LastThreeLetters: ių, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: atskirdama, B0_LastThreeLetters: ama, B0_LastTwoLetters: ma, B1Token: užsienio, B1_LastThreeLetters: nio, B1_LastTwoLetters: io, S0B0Distance: 1, S0B0Token: ,_atskirdama, S0B1Token: ,_užsienio, S0B2Token: ,_ir, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jūrų, pasaulyje, , ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atskirdama, užsienio, ir ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jūrų]   B= [pasaulyje, ,, iki ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atskirdama]   B= [užsienio, ir, vidaus ,.. ]
 
-B0Token: pasaulyje, B0_LastThreeLetters: yje, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: jūrų_pasaulyje, S0B1Token: jūrų_,, S0B2Token: jūrų_iki, S0Token: jūrų, S0_LastThreeLetters: rų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: užsienio, B0_LastThreeLetters: nio, B0_LastTwoLetters: io, B1Token: ir, B1_LastThreeLetters: ir, B1_LastTwoLetters: ir, S0B0Distance: 1, S0B0Token: atskirdama_užsienio, S0B1Token: atskirdama_ir, S0B2Token: atskirdama_vidaus, S0Token: atskirdama, S0_LastThreeLetters: ama, S0_LastTwoLetters: ma, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pasaulyje, ,, iki ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [užsienio, ir, vidaus ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pasaulyje]   B= [,, iki, švarių ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [užsienio]   B= [ir, vidaus, žvalgybos ,.. ]
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: iki, B1_LastThreeLetters: iki, S0B0Distance: 1, S0B0Token: pasaulyje_,, S0B1Token: pasaulyje_iki, S0B2Token: pasaulyje_švarių, S0Token: pasaulyje, S0_LastThreeLetters: yje, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: ir, B0_LastThreeLetters: ir, B0_LastTwoLetters: ir, B1Token: vidaus, B1_LastThreeLetters: aus, B1_LastTwoLetters: us, S0B0Distance: 1, S0B0Token: užsienio_ir, S0B1Token: užsienio_vidaus, S0B2Token: užsienio_žvalgybos, S0Token: užsienio, S0_LastThreeLetters: nio, S0_LastTwoLetters: io, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, iki, švarių ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ir, vidaus, žvalgybos ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [iki, švarių, laikų ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ir]   B= [vidaus, žvalgybos, funkcijas ,.. ]
 
-B0Token: iki, B0_LastThreeLetters: iki, B1Token: švarių, B1_LastThreeLetters: ių, S0B0Distance: 1, S0B0Token: ,_iki, S0B1Token: ,_švarių, S0B2Token: ,_laikų, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: vidaus, B0_LastThreeLetters: aus, B0_LastTwoLetters: us, B1Token: žvalgybos, B1_LastThreeLetters: bos, B1_LastTwoLetters: os, S0B0Distance: 1, S0B0Token: ir_vidaus, S0B1Token: ir_žvalgybos, S0B2Token: ir_funkcijas, S0Token: ir, S0_LastThreeLetters: ir, S0_LastTwoLetters: ir, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iki, švarių, laikų ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vidaus, žvalgybos, funkcijas ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iki]   B= [švarių, laikų, dar ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vidaus]   B= [žvalgybos, funkcijas, po ,.. ]
 
-B0Token: švarių, B0_LastThreeLetters: ių, B1Token: laikų, B1_LastThreeLetters: kų, S0B0Distance: 1, S0B0Token: iki_švarių, S0B1Token: iki_laikų, S0B2Token: iki_dar, S0Token: iki, S0_LastThreeLetters: iki, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: žvalgybos, B0_LastThreeLetters: bos, B0_LastTwoLetters: os, B1Token: funkcijas, B1_LastThreeLetters: jas, B1_LastTwoLetters: as, S0B0Distance: 1, S0B0Token: vidaus_žvalgybos, S0B1Token: vidaus_funkcijas, S0B2Token: vidaus_po, S0Token: vidaus, S0_LastThreeLetters: aus, S0_LastTwoLetters: us, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [švarių, laikų, dar ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [žvalgybos, funkcijas, po ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [švarių]   B= [laikų, dar, nekvepia ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [žvalgybos]   B= [funkcijas, po, to ,.. ]
 
-B0Token: laikų, B0_LastThreeLetters: kų, B1Token: dar, B1_LastThreeLetters: dar, S0B0Distance: 1, S0B0Token: švarių_laikų, S0B1Token: švarių_dar, S0B2Token: švarių_nekvepia, S0Token: švarių, S0_LastThreeLetters: ių, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: funkcijas, B0_LastThreeLetters: jas, B0_LastTwoLetters: as, B1Token: po, B1_LastThreeLetters: po, B1_LastTwoLetters: po, S0B0Distance: 1, S0B0Token: žvalgybos_funkcijas, S0B1Token: žvalgybos_po, S0B2Token: žvalgybos_to, S0Token: žvalgybos, S0_LastThreeLetters: bos, S0_LastTwoLetters: os, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [laikų, dar, nekvepia ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [funkcijas, po, to ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [laikų]   B= [dar, nekvepia, : ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [funkcijas]   B= [po, to, , ,.. ]
 
-B0Token: dar, B0_LastThreeLetters: dar, B1Token: nekvepia, B1_LastThreeLetters: pia, S0B0Distance: 1, S0B0Token: laikų_dar, S0B1Token: laikų_nekvepia, S0B2Token: laikų_:, S0Token: laikų, S0_LastThreeLetters: kų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: po, B0_LastThreeLetters: po, B0_LastTwoLetters: po, B1Token: to, B1_LastThreeLetters: to, B1_LastTwoLetters: to, S0B0Distance: 1, S0B0Token: funkcijas_po, S0B1Token: funkcijas_to, S0B2Token: funkcijas_,, S0Token: funkcijas, S0_LastThreeLetters: jas, S0_LastTwoLetters: as, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dar, nekvepia, : ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [po, to, , ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dar]   B= [nekvepia, :, nei ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [po]   B= [to, ,, kai ,.. ]
 
-B0Token: nekvepia, B0_LastThreeLetters: pia, B1Token: :, B1_LastThreeLetters: :, S0B0Distance: 1, S0B0Token: dar_nekvepia, S0B1Token: dar_:, S0B2Token: dar_nei, S0Token: dar, S0_LastThreeLetters: dar, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: to, B0_LastThreeLetters: to, B0_LastTwoLetters: to, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: po_to, S0B1Token: po_,, S0B2Token: po_kai, S0Token: po, S0_LastThreeLetters: po, S0_LastTwoLetters: po, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nekvepia, :, nei ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [to, ,, kai ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nekvepia]   B= [:, nei, problemos ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [to]   B= [,, kai, ši ,.. ]
 
-B0Token: :, B0_LastThreeLetters: :, B1Token: nei, B1_LastThreeLetters: nei, S0B0Distance: 1, S0B0Token: nekvepia_:, S0B1Token: nekvepia_nei, S0B2Token: nekvepia_problemos, S0Token: nekvepia, S0_LastThreeLetters: pia, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: kai, B1_LastThreeLetters: kai, B1_LastTwoLetters: ai, S0B0Distance: 1, S0B0Token: to_,, S0B1Token: to_kai, S0B2Token: to_ši, S0Token: to, S0_LastThreeLetters: to, S0_LastTwoLetters: to, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:, nei, problemos ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kai, ši ,.. ]
 
 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [nei, problemos, išspręstos ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kai, ši, organizacija ,.. ]
 
-B0Token: nei, B0_LastThreeLetters: nei, B1Token: problemos, B1_LastThreeLetters: mos, S0B0Distance: 1, S0B0Token: :_nei, S0B1Token: :_problemos, S0B2Token: :_išspręstos, S0Token: :, S0_LastThreeLetters: :, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: kai, B0_LastThreeLetters: kai, B0_LastTwoLetters: ai, B1Token: ši, B1_LastThreeLetters: ši, B1_LastTwoLetters: �i, S0B0Distance: 1, S0B0Token: ,_kai, S0B1Token: ,_ši, S0B2Token: ,_organizacija, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nei, problemos, išspręstos ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kai, ši, organizacija ,.. ]
 
 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nei]   B= [problemos, išspręstos, , ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kai]   B= [ši, organizacija, buvo ,.. ]
 
-B0Token: problemos, B0_LastThreeLetters: mos, B1Token: išspręstos, B1_LastThreeLetters: tos, S0B0Distance: 1, S0B0Token: nei_problemos, S0B1Token: nei_išspręstos, S0B2Token: nei_,, S0Token: nei, S0_LastThreeLetters: nei, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: ši, B0_LastThreeLetters: ši, B0_LastTwoLetters: �i, B1Token: organizacija, B1_LastThreeLetters: ija, B1_LastTwoLetters: ja, S0B0Distance: 1, S0B0Token: kai_ši, S0B1Token: kai_organizacija, S0B2Token: kai_buvo, S0Token: kai, S0_LastThreeLetters: kai, S0_LastTwoLetters: ai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [problemos, išspręstos, , ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ši, organizacija, buvo ,.. ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [problemos]   B= [išspręstos, ,, nei ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ši]   B= [organizacija, buvo, griežtai ,.. ]
 
-B0Token: išspręstos, B0_LastThreeLetters: tos, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: problemos_išspręstos, S0B1Token: problemos_,, S0B2Token: problemos_nei, S0Token: problemos, S0_LastThreeLetters: mos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: organizacija, B0_LastThreeLetters: ija, B0_LastTwoLetters: ja, B1Token: buvo, B1_LastThreeLetters: uvo, B1_LastTwoLetters: vo, S0B0Distance: 1, S0B0Token: ši_organizacija, S0B1Token: ši_buvo, S0B2Token: ši_griežtai, S0Token: ši, S0_LastThreeLetters: ši, S0_LastTwoLetters: �i, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [išspręstos, ,, nei ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [organizacija, buvo, griežtai ,.. ]
 
 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [išspręstos]   B= [,, nei, kas ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [organizacija]   B= [buvo, griežtai, sukritikuota ,.. ]
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: nei, B1_LastThreeLetters: nei, S0B0Distance: 1, S0B0Token: išspręstos_,, S0B1Token: išspręstos_nei, S0B2Token: išspręstos_kas, S0Token: išspręstos, S0_LastThreeLetters: tos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: buvo, B0_LastThreeLetters: uvo, B0_LastTwoLetters: vo, B1Token: griežtai, B1_LastThreeLetters: tai, B1_LastTwoLetters: ai, S0B0Distance: 1, S0B0Token: organizacija_buvo, S0B1Token: organizacija_griežtai, S0B2Token: organizacija_sukritikuota, S0Token: organizacija, S0_LastThreeLetters: ija, S0_LastTwoLetters: ja, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, nei, kas ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [buvo, griežtai, sukritikuota ,.. ]
 
 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [nei, kas, žino ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [buvo]   B= [griežtai, sukritikuota, dėl ,.. ]
 
-B0Token: nei, B0_LastThreeLetters: nei, B1Token: kas, B1_LastThreeLetters: kas, S0B0Distance: 1, S0B0Token: ,_nei, S0B1Token: ,_kas, S0B2Token: ,_žino, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: griežtai, B0_LastThreeLetters: tai, B0_LastTwoLetters: ai, B1Token: sukritikuota, B1_LastThreeLetters: ota, B1_LastTwoLetters: ta, S0B0Distance: 1, S0B0Token: buvo_griežtai, S0B1Token: buvo_sukritikuota, S0B2Token: buvo_dėl, S0Token: buvo, S0_LastThreeLetters: uvo, S0_LastTwoLetters: vo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nei, kas, žino ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [griežtai, sukritikuota, dėl ,.. ]
 
 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nei]   B= [kas, žino, , ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [griežtai]   B= [sukritikuota, dėl, darbo ,.. ]
 
-B0Token: kas, B0_LastThreeLetters: kas, B1Token: žino, B1_LastThreeLetters: ino, S0B0Distance: 1, S0B0Token: nei_kas, S0B1Token: nei_žino, S0B2Token: nei_,, S0Token: nei, S0_LastThreeLetters: nei, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: sukritikuota, B0_LastThreeLetters: ota, B0_LastTwoLetters: ta, B1Token: dėl, B1_LastThreeLetters: ėl, B1_LastTwoLetters: �l, S0B0Distance: 1, S0B0Token: griežtai_sukritikuota, S0B1Token: griežtai_dėl, S0B2Token: griežtai_darbo, S0Token: griežtai, S0_LastThreeLetters: tai, S0_LastTwoLetters: ai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kas, žino, , ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sukritikuota, dėl, darbo ,.. ]
 
 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kas]   B= [žino, ,, kaip ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sukritikuota]   B= [dėl, darbo, trūkumų ,.. ]
 
-B0Token: žino, B0_LastThreeLetters: ino, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: kas_žino, S0B1Token: kas_,, S0B2Token: kas_kaip, S0Token: kas, S0_LastThreeLetters: kas, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: dėl, B0_LastThreeLetters: ėl, B0_LastTwoLetters: �l, B1Token: darbo, B1_LastThreeLetters: rbo, B1_LastTwoLetters: bo, S0B0Distance: 1, S0B0Token: sukritikuota_dėl, S0B1Token: sukritikuota_darbo, S0B2Token: sukritikuota_trūkumų, S0Token: sukritikuota, S0_LastThreeLetters: ota, S0_LastTwoLetters: ta, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [žino, ,, kaip ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dėl, darbo, trūkumų ,.. ]
 
 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [žino]   B= [,, kaip, jas ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dėl]   B= [darbo, trūkumų, po ,.. ]
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: kaip, B1_LastThreeLetters: aip, S0B0Distance: 1, S0B0Token: žino_,, S0B1Token: žino_kaip, S0B2Token: žino_jas, S0Token: žino, S0_LastThreeLetters: ino, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: darbo, B0_LastThreeLetters: rbo, B0_LastTwoLetters: bo, B1Token: trūkumų, B1_LastThreeLetters: mų, B1_LastTwoLetters: ų, S0B0Distance: 1, S0B0Token: dėl_darbo, S0B1Token: dėl_trūkumų, S0B2Token: dėl_po, S0Token: dėl, S0_LastThreeLetters: ėl, S0_LastTwoLetters: �l, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kaip, jas ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [darbo, trūkumų, po ,.. ]
 
 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kaip, jas, išspręsti ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [darbo]   B= [trūkumų, po, nepavykusio ,.. ]
 
-B0Token: kaip, B0_LastThreeLetters: aip, B1Token: jas, B1_LastThreeLetters: jas, S0B0Distance: 1, S0B0Token: ,_kaip, S0B1Token: ,_jas, S0B2Token: ,_išspręsti, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: trūkumų, B0_LastThreeLetters: mų, B0_LastTwoLetters: ų, B1Token: po, B1_LastThreeLetters: po, B1_LastTwoLetters: po, S0B0Distance: 1, S0B0Token: darbo_trūkumų, S0B1Token: darbo_po, S0B2Token: darbo_nepavykusio, S0Token: darbo, S0_LastThreeLetters: rbo, S0_LastTwoLetters: bo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kaip, jas, išspręsti ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [trūkumų, po, nepavykusio ,.. ]
 
 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kaip]   B= [jas, išspręsti, . ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [trūkumų]   B= [po, nepavykusio, mėginimo ,.. ]
 
-B0Token: jas, B0_LastThreeLetters: jas, B1Token: išspręsti, B1_LastThreeLetters: sti, S0B0Distance: 1, S0B0Token: kaip_jas, S0B1Token: kaip_išspręsti, S0B2Token: kaip_., S0Token: kaip, S0_LastThreeLetters: aip, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: po, B0_LastThreeLetters: po, B0_LastTwoLetters: po, B1Token: nepavykusio, B1_LastThreeLetters: sio, B1_LastTwoLetters: io, S0B0Distance: 1, S0B0Token: trūkumų_po, S0B1Token: trūkumų_nepavykusio, S0B2Token: trūkumų_mėginimo, S0Token: trūkumų, S0_LastThreeLetters: mų, S0_LastTwoLetters: ų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jas, išspręsti, . ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [po, nepavykusio, mėginimo ,.. ]
 
 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jas]   B= [išspręsti, ., “ ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [po]   B= [nepavykusio, mėginimo, įvykdyti ,.. ]
 
-B0Token: išspręsti, B0_LastThreeLetters: sti, B1Token: ., B1_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: jas_išspręsti, S0B1Token: jas_., S0B2Token: jas_“, S0Token: jas, S0_LastThreeLetters: jas, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: nepavykusio, B0_LastThreeLetters: sio, B0_LastTwoLetters: io, B1Token: mėginimo, B1_LastThreeLetters: imo, B1_LastTwoLetters: mo, S0B0Distance: 1, S0B0Token: po_nepavykusio, S0B1Token: po_mėginimo, S0B2Token: po_įvykdyti, S0Token: po, S0_LastThreeLetters: po, S0_LastTwoLetters: po, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [išspręsti, ., “ ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nepavykusio, mėginimo, įvykdyti ,.. ]
 
 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [išspręsti]   B= [., “ ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nepavykusio]   B= [mėginimo, įvykdyti, šalyje ,.. ]
 
-B0Token: ., B0_LastThreeLetters: ., B1Token: “, B1_LastThreeLetters: “, S0B0Distance: 1, S0B0Token: išspręsti_., S0B1Token: išspręsti_“, S0Token: išspręsti, S0_LastThreeLetters: sti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: mėginimo, B0_LastThreeLetters: imo, B0_LastTwoLetters: mo, B1Token: įvykdyti, B1_LastThreeLetters: yti, B1_LastTwoLetters: ti, S0B0Distance: 1, S0B0Token: nepavykusio_mėginimo, S0B1Token: nepavykusio_įvykdyti, S0B2Token: nepavykusio_šalyje, S0Token: nepavykusio, S0_LastThreeLetters: sio, S0_LastTwoLetters: io, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., “ ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mėginimo, įvykdyti, šalyje ,.. ]
 
 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [“]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mėginimo]   B= [įvykdyti, šalyje, karinį ,.. ]
 
-B0Token: “, B0_LastThreeLetters: “, S0B0Distance: 1, S0B0Token: ._“, S0Token: ., S0_LastThreeLetters: ., StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: įvykdyti, B0_LastThreeLetters: yti, B0_LastTwoLetters: ti, B1Token: šalyje, B1_LastThreeLetters: yje, B1_LastTwoLetters: je, S0B0Distance: 1, S0B0Token: mėginimo_įvykdyti, S0B1Token: mėginimo_šalyje, S0B2Token: mėginimo_karinį, S0Token: mėginimo, S0_LastThreeLetters: imo, S0_LastTwoLetters: mo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [įvykdyti, šalyje, karinį ,.. ]
 
 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [ ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [įvykdyti]   B= [šalyje, karinį, perversmą ,.. ]
 
+B0Token: šalyje, B0_LastThreeLetters: yje, B0_LastTwoLetters: je, B1Token: karinį, B1_LastThreeLetters: nį, B1_LastTwoLetters: į, S0B0Distance: 1, S0B0Token: įvykdyti_šalyje, S0B1Token: įvykdyti_karinį, S0B2Token: įvykdyti_perversmą, S0Token: įvykdyti, S0_LastThreeLetters: yti, S0_LastTwoLetters: ti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [šalyje, karinį, perversmą ,.. ]
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 2466 - 
-Teisėsauga yra pranešusi , kad jos turimi duomenys leidžia įtarti , jog maisto produktus gaminančios bendrovės vadovai , norėdami , kad įmonė išvengtų nuobaudų , kurios paprastai taikomos aptikus darbų saugos , pakavimo , ženklinimo , higienos ar kitus pažeidimus , savo neteisėtų tikslų siekė papirkdami įvairius atsakingus specialistus arba asmenis , galinčius tokiems specialistams , pareigūnams daryti poveikį .
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [šalyje]   B= [karinį, perversmą, , ,.. ]
+
+B0Token: karinį, B0_LastThreeLetters: nį, B0_LastTwoLetters: į, B1Token: perversmą, B1_LastThreeLetters: mą, B1_LastTwoLetters: ą, S0B0Distance: 1, S0B0Token: šalyje_karinį, S0B1Token: šalyje_perversmą, S0B2Token: šalyje_,, S0Token: šalyje, S0_LastThreeLetters: yje, S0_LastTwoLetters: je, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [karinį, perversmą, , ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [karinį]   B= [perversmą, ,, antradienį ,.. ]
+
+B0Token: perversmą, B0_LastThreeLetters: mą, B0_LastTwoLetters: ą, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: karinį_perversmą, S0B1Token: karinį_,, S0B2Token: karinį_antradienį, S0Token: karinį, S0_LastThreeLetters: nį, S0_LastTwoLetters: į, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [perversmą, ,, antradienį ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [perversmą]   B= [,, antradienį, pranešė ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: antradienį, B1_LastThreeLetters: nį, B1_LastTwoLetters: į, S0B0Distance: 1, S0B0Token: perversmą_,, S0B1Token: perversmą_antradienį, S0B2Token: perversmą_pranešė, S0Token: perversmą, S0_LastThreeLetters: mą, S0_LastTwoLetters: ą, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, antradienį, pranešė ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [antradienį, pranešė, žiniasklaida ,.. ]
+
+B0Token: antradienį, B0_LastThreeLetters: nį, B0_LastTwoLetters: į, B1Token: pranešė, B1_LastThreeLetters: �ė, B1_LastTwoLetters: ė, S0B0Distance: 1, S0B0Token: ,_antradienį, S0B1Token: ,_pranešė, S0B2Token: ,_žiniasklaida, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [antradienį, pranešė, žiniasklaida ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [antradienį]   B= [pranešė, žiniasklaida, . ,.. ]
+
+B0Token: pranešė, B0_LastThreeLetters: �ė, B0_LastTwoLetters: ė, B1Token: žiniasklaida, B1_LastThreeLetters: ida, B1_LastTwoLetters: da, S0B0Distance: 1, S0B0Token: antradienį_pranešė, S0B1Token: antradienį_žiniasklaida, S0B2Token: antradienį_., S0Token: antradienį, S0_LastThreeLetters: nį, S0_LastTwoLetters: į, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pranešė, žiniasklaida, . ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pranešė]   B= [žiniasklaida, . ,.. ]
+
+B0Token: žiniasklaida, B0_LastThreeLetters: ida, B0_LastTwoLetters: da, B1Token: ., B1_LastThreeLetters: ., B1_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: pranešė_žiniasklaida, S0B1Token: pranešė_., S0Token: pranešė, S0_LastThreeLetters: �ė, S0_LastTwoLetters: ė, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [žiniasklaida, . ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [žiniasklaida]   B= [.]
+
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: žiniasklaida_., S0Token: žiniasklaida, S0_LastThreeLetters: ida, S0_LastTwoLetters: da, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 5371 - 
+Tačiau aišku viena - mes stovime ant slenksčio , kurį peržengus žmogaus vaidmuo pramonėje ( o gal ir pasaulyje ?
 ### Existing MWEs: 
-1- **daryti poveikį** (LVC, 4)
-### Identified MWEs: 
-1- **daryti poveikį** 
+1- **stovime ant slenksčio** (ID)
 
 
 
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Tačiau, aišku, viena ,.. ]
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Teisėsauga, yra, pranešusi ,.. ]
 
 
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Tačiau]   B= [aišku, viena, - ,.. ]
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Teisėsauga]   B= [yra, pranešusi, , ,.. ]
+B0Token: aišku, B0_LastThreeLetters: �ku, B0_LastTwoLetters: ku, B1Token: viena, B1_LastThreeLetters: ena, B1_LastTwoLetters: na, S0B0Distance: 1, S0B0Token: Tačiau_aišku, S0B1Token: Tačiau_viena, S0B2Token: Tačiau_-, S0Token: Tačiau, S0_LastThreeLetters: iau, S0_LastTwoLetters: au, StackLength: 1, 
 
-B0Token: yra, B0_LastThreeLetters: yra, B1Token: pranešusi, B1_LastThreeLetters: usi, S0B0Distance: 1, S0B0Token: Teisėsauga_yra, S0B1Token: Teisėsauga_pranešusi, S0B2Token: Teisėsauga_,, S0Token: Teisėsauga, S0_LastThreeLetters: uga, StackLength: 1, 
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aišku, viena, - ,.. ]
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yra, pranešusi, , ,.. ]
 
 
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aišku]   B= [viena, -, mes ,.. ]
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yra]   B= [pranešusi, ,, kad ,.. ]
+B0Token: viena, B0_LastThreeLetters: ena, B0_LastTwoLetters: na, B1Token: -, B1_LastThreeLetters: -, B1_LastTwoLetters: -, S0B0Distance: 1, S0B0Token: aišku_viena, S0B1Token: aišku_-, S0B2Token: aišku_mes, S0Token: aišku, S0_LastThreeLetters: �ku, S0_LastTwoLetters: ku, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-B0Token: pranešusi, B0_LastThreeLetters: usi, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: yra_pranešusi, S0B1Token: yra_,, S0B2Token: yra_kad, S0Token: yra, S0_LastThreeLetters: yra, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [viena, -, mes ,.. ]
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pranešusi, ,, kad ,.. ]
 
 
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [viena]   B= [-, mes, stovime ,.. ]
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pranešusi]   B= [,, kad, jos ,.. ]
+B0Token: -, B0_LastThreeLetters: -, B0_LastTwoLetters: -, B1Token: mes, B1_LastThreeLetters: mes, B1_LastTwoLetters: es, S0B0Distance: 1, S0B0Token: viena_-, S0B1Token: viena_mes, S0B2Token: viena_stovime, S0Token: viena, S0_LastThreeLetters: ena, S0_LastTwoLetters: na, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: kad, B1_LastThreeLetters: kad, S0B0Distance: 1, S0B0Token: pranešusi_,, S0B1Token: pranešusi_kad, S0B2Token: pranešusi_jos, S0Token: pranešusi, S0_LastThreeLetters: usi, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, mes, stovime ,.. ]
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kad, jos ,.. ]
 
 
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [mes, stovime, ant ,.. ]
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kad, jos, turimi ,.. ]
+B0Token: mes, B0_LastThreeLetters: mes, B0_LastTwoLetters: es, B1Token: stovime, B1_LastThreeLetters: ime, B1_LastTwoLetters: me, S0B0Distance: 1, S0B0Token: -_mes, S0B1Token: -_stovime, S0B2Token: -_ant, S0Token: -, S0_LastThreeLetters: -, S0_LastTwoLetters: -, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: kad, B0_LastThreeLetters: kad, B1Token: jos, B1_LastThreeLetters: jos, S0B0Distance: 1, S0B0Token: ,_kad, S0B1Token: ,_jos, S0B2Token: ,_turimi, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mes, stovime, ant ,.. ]
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kad, jos, turimi ,.. ]
 
 
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mes]   B= [stovime, ant, slenksčio ,.. ]
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kad]   B= [jos, turimi, duomenys ,.. ]
+B0Token: stovime, B0_LastThreeLetters: ime, B0_LastTwoLetters: me, B1Token: ant, B1_LastThreeLetters: ant, B1_LastTwoLetters: nt, S0B0Distance: 1, S0B0Token: mes_stovime, S0B1Token: mes_ant, S0B2Token: mes_slenksčio, S0Token: mes, S0_LastThreeLetters: mes, S0_LastTwoLetters: es, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: jos, B0_LastThreeLetters: jos, B1Token: turimi, B1_LastThreeLetters: imi, S0B0Distance: 1, S0B0Token: kad_jos, S0B1Token: kad_turimi, S0B2Token: kad_duomenys, S0Token: kad, S0_LastThreeLetters: kad, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stovime, ant, slenksčio ,.. ]
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jos, turimi, duomenys ,.. ]
 
 
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stovime]   B= [ant, slenksčio, , ,.. ]
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jos]   B= [turimi, duomenys, leidžia ,.. ]
+B0Token: ant, B0_LastThreeLetters: ant, B0_LastTwoLetters: nt, B1Token: slenksčio, B1_LastThreeLetters: �io, B1_LastTwoLetters: io, S0B0Distance: 1, S0B0Token: stovime_ant, S0B1Token: stovime_slenksčio, S0B2Token: stovime_,, S0Token: stovime, S0_LastThreeLetters: ime, S0_LastTwoLetters: me, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: turimi, B0_LastThreeLetters: imi, B1Token: duomenys, B1_LastThreeLetters: nys, S0B0Distance: 1, S0B0Token: jos_turimi, S0B1Token: jos_duomenys, S0B2Token: jos_leidžia, S0Token: jos, S0_LastThreeLetters: jos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ant, slenksčio, , ,.. ]
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [turimi, duomenys, leidžia ,.. ]
 
 
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ant]   B= [slenksčio, ,, kurį ,.. ]
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [turimi]   B= [duomenys, leidžia, įtarti ,.. ]
+B0Token: slenksčio, B0_LastThreeLetters: �io, B0_LastTwoLetters: io, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: ant_slenksčio, S0B1Token: ant_,, S0B2Token: ant_kurį, S0Token: ant, S0_LastThreeLetters: ant, S0_LastTwoLetters: nt, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: duomenys, B0_LastThreeLetters: nys, B1Token: leidžia, B1_LastThreeLetters: �ia, S0B0Distance: 1, S0B0Token: turimi_duomenys, S0B1Token: turimi_leidžia, S0B2Token: turimi_įtarti, S0Token: turimi, S0_LastThreeLetters: imi, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [slenksčio, ,, kurį ,.. ]
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [duomenys, leidžia, įtarti ,.. ]
 
 
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [slenksčio]   B= [,, kurį, peržengus ,.. ]
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [duomenys]   B= [leidžia, įtarti, , ,.. ]
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: kurį, B1_LastThreeLetters: rį, B1_LastTwoLetters: į, S0B0Distance: 1, S0B0Token: slenksčio_,, S0B1Token: slenksčio_kurį, S0B2Token: slenksčio_peržengus, S0Token: slenksčio, S0_LastThreeLetters: �io, S0_LastTwoLetters: io, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: leidžia, B0_LastThreeLetters: �ia, B1Token: įtarti, B1_LastThreeLetters: rti, S0B0Distance: 1, S0B0Token: duomenys_leidžia, S0B1Token: duomenys_įtarti, S0B2Token: duomenys_,, S0Token: duomenys, S0_LastThreeLetters: nys, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kurį, peržengus ,.. ]
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [leidžia, įtarti, , ,.. ]
 
 
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kurį, peržengus, žmogaus ,.. ]
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [leidžia]   B= [įtarti, ,, jog ,.. ]
+B0Token: kurį, B0_LastThreeLetters: rį, B0_LastTwoLetters: į, B1Token: peržengus, B1_LastThreeLetters: gus, B1_LastTwoLetters: us, S0B0Distance: 1, S0B0Token: ,_kurį, S0B1Token: ,_peržengus, S0B2Token: ,_žmogaus, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: įtarti, B0_LastThreeLetters: rti, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: leidžia_įtarti, S0B1Token: leidžia_,, S0B2Token: leidžia_jog, S0Token: leidžia, S0_LastThreeLetters: �ia, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kurį, peržengus, žmogaus ,.. ]
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [įtarti, ,, jog ,.. ]
 
 
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kurį]   B= [peržengus, žmogaus, vaidmuo ,.. ]
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [įtarti]   B= [,, jog, maisto ,.. ]
+B0Token: peržengus, B0_LastThreeLetters: gus, B0_LastTwoLetters: us, B1Token: žmogaus, B1_LastThreeLetters: aus, B1_LastTwoLetters: us, S0B0Distance: 1, S0B0Token: kurį_peržengus, S0B1Token: kurį_žmogaus, S0B2Token: kurį_vaidmuo, S0Token: kurį, S0_LastThreeLetters: rį, S0_LastTwoLetters: į, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: jog, B1_LastThreeLetters: jog, S0B0Distance: 1, S0B0Token: įtarti_,, S0B1Token: įtarti_jog, S0B2Token: įtarti_maisto, S0Token: įtarti, S0_LastThreeLetters: rti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [peržengus, žmogaus, vaidmuo ,.. ]
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, jog, maisto ,.. ]
 
 
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [peržengus]   B= [žmogaus, vaidmuo, pramonėje ,.. ]
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [jog, maisto, produktus ,.. ]
+B0Token: žmogaus, B0_LastThreeLetters: aus, B0_LastTwoLetters: us, B1Token: vaidmuo, B1_LastThreeLetters: muo, B1_LastTwoLetters: uo, S0B0Distance: 1, S0B0Token: peržengus_žmogaus, S0B1Token: peržengus_vaidmuo, S0B2Token: peržengus_pramonėje, S0Token: peržengus, S0_LastThreeLetters: gus, S0_LastTwoLetters: us, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: jog, B0_LastThreeLetters: jog, B1Token: maisto, B1_LastThreeLetters: sto, S0B0Distance: 1, S0B0Token: ,_jog, S0B1Token: ,_maisto, S0B2Token: ,_produktus, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [žmogaus, vaidmuo, pramonėje ,.. ]
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jog, maisto, produktus ,.. ]
 
 
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [žmogaus]   B= [vaidmuo, pramonėje, ( ,.. ]
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jog]   B= [maisto, produktus, gaminančios ,.. ]
+B0Token: vaidmuo, B0_LastThreeLetters: muo, B0_LastTwoLetters: uo, B1Token: pramonėje, B1_LastThreeLetters: �je, B1_LastTwoLetters: je, S0B0Distance: 1, S0B0Token: žmogaus_vaidmuo, S0B1Token: žmogaus_pramonėje, S0B2Token: žmogaus_(, S0Token: žmogaus, S0_LastThreeLetters: aus, S0_LastTwoLetters: us, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: maisto, B0_LastThreeLetters: sto, B1Token: produktus, B1_LastThreeLetters: tus, S0B0Distance: 1, S0B0Token: jog_maisto, S0B1Token: jog_produktus, S0B2Token: jog_gaminančios, S0Token: jog, S0_LastThreeLetters: jog, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vaidmuo, pramonėje, ( ,.. ]
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [maisto, produktus, gaminančios ,.. ]
 
 
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vaidmuo]   B= [pramonėje, (, o ,.. ]
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [maisto]   B= [produktus, gaminančios, bendrovės ,.. ]
+B0Token: pramonėje, B0_LastThreeLetters: �je, B0_LastTwoLetters: je, B1Token: (, B1_LastThreeLetters: (, B1_LastTwoLetters: (, S0B0Distance: 1, S0B0Token: vaidmuo_pramonėje, S0B1Token: vaidmuo_(, S0B2Token: vaidmuo_o, S0Token: vaidmuo, S0_LastThreeLetters: muo, S0_LastTwoLetters: uo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: produktus, B0_LastThreeLetters: tus, B1Token: gaminančios, B1_LastThreeLetters: ios, S0B0Distance: 1, S0B0Token: maisto_produktus, S0B1Token: maisto_gaminančios, S0B2Token: maisto_bendrovės, S0Token: maisto, S0_LastThreeLetters: sto, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pramonėje, (, o ,.. ]
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [produktus, gaminančios, bendrovės ,.. ]
 
 
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pramonėje]   B= [(, o, gal ,.. ]
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [produktus]   B= [gaminančios, bendrovės, vadovai ,.. ]
+B0Token: (, B0_LastThreeLetters: (, B0_LastTwoLetters: (, B1Token: o, B1_LastThreeLetters: o, B1_LastTwoLetters: o, S0B0Distance: 1, S0B0Token: pramonėje_(, S0B1Token: pramonėje_o, S0B2Token: pramonėje_gal, S0Token: pramonėje, S0_LastThreeLetters: �je, S0_LastTwoLetters: je, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: gaminančios, B0_LastThreeLetters: ios, B1Token: bendrovės, B1_LastThreeLetters: ės, S0B0Distance: 1, S0B0Token: produktus_gaminančios, S0B1Token: produktus_bendrovės, S0B2Token: produktus_vadovai, S0Token: produktus, S0_LastThreeLetters: tus, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, o, gal ,.. ]
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gaminančios, bendrovės, vadovai ,.. ]
 
 
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [o, gal, ir ,.. ]
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gaminančios]   B= [bendrovės, vadovai, , ,.. ]
+B0Token: o, B0_LastThreeLetters: o, B0_LastTwoLetters: o, B1Token: gal, B1_LastThreeLetters: gal, B1_LastTwoLetters: al, S0B0Distance: 1, S0B0Token: (_o, S0B1Token: (_gal, S0B2Token: (_ir, S0Token: (, S0_LastThreeLetters: (, S0_LastTwoLetters: (, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: bendrovės, B0_LastThreeLetters: ės, B1Token: vadovai, B1_LastThreeLetters: vai, S0B0Distance: 1, S0B0Token: gaminančios_bendrovės, S0B1Token: gaminančios_vadovai, S0B2Token: gaminančios_,, S0Token: gaminančios, S0_LastThreeLetters: ios, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, gal, ir ,.. ]
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bendrovės, vadovai, , ,.. ]
 
 
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [gal, ir, pasaulyje ,.. ]
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bendrovės]   B= [vadovai, ,, norėdami ,.. ]
+B0Token: gal, B0_LastThreeLetters: gal, B0_LastTwoLetters: al, B1Token: ir, B1_LastThreeLetters: ir, B1_LastTwoLetters: ir, S0B0Distance: 1, S0B0Token: o_gal, S0B1Token: o_ir, S0B2Token: o_pasaulyje, S0Token: o, S0_LastThreeLetters: o, S0_LastTwoLetters: o, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: vadovai, B0_LastThreeLetters: vai, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: bendrovės_vadovai, S0B1Token: bendrovės_,, S0B2Token: bendrovės_norėdami, S0Token: bendrovės, S0_LastThreeLetters: ės, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gal, ir, pasaulyje ,.. ]
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vadovai, ,, norėdami ,.. ]
 
 
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gal]   B= [ir, pasaulyje, ? ,.. ]
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vadovai]   B= [,, norėdami, , ,.. ]
+B0Token: ir, B0_LastThreeLetters: ir, B0_LastTwoLetters: ir, B1Token: pasaulyje, B1_LastThreeLetters: yje, B1_LastTwoLetters: je, S0B0Distance: 1, S0B0Token: gal_ir, S0B1Token: gal_pasaulyje, S0B2Token: gal_?, S0Token: gal, S0_LastThreeLetters: gal, S0_LastTwoLetters: al, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: norėdami, B1_LastThreeLetters: ami, S0B0Distance: 1, S0B0Token: vadovai_,, S0B1Token: vadovai_norėdami, S0B2Token: vadovai_,, S0Token: vadovai, S0_LastThreeLetters: vai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ir, pasaulyje, ? ,.. ]
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, norėdami, , ,.. ]
 
 
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ir]   B= [pasaulyje, ? ,.. ]
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [norėdami, ,, kad ,.. ]
+B0Token: pasaulyje, B0_LastThreeLetters: yje, B0_LastTwoLetters: je, B1Token: ?, B1_LastThreeLetters: ?, B1_LastTwoLetters: ?, S0B0Distance: 1, S0B0Token: ir_pasaulyje, S0B1Token: ir_?, S0Token: ir, S0_LastThreeLetters: ir, S0_LastTwoLetters: ir, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: norėdami, B0_LastThreeLetters: ami, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: ,_norėdami, S0B1Token: ,_,, S0B2Token: ,_kad, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pasaulyje, ? ,.. ]
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [norėdami, ,, kad ,.. ]
 
 
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pasaulyje]   B= [?]
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [norėdami]   B= [,, kad, įmonė ,.. ]
+B0Token: ?, B0_LastThreeLetters: ?, B0_LastTwoLetters: ?, S0B0Distance: 1, S0B0Token: pasaulyje_?, S0Token: pasaulyje, S0_LastThreeLetters: yje, S0_LastTwoLetters: je, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: kad, B1_LastThreeLetters: kad, S0B0Distance: 1, S0B0Token: norėdami_,, S0B1Token: norėdami_kad, S0B2Token: norėdami_įmonė, S0Token: norėdami, S0_LastThreeLetters: ami, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [?]
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kad, įmonė ,.. ]
 
 
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [?]   B= [ ]
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kad, įmonė, išvengtų ,.. ]
 
-B0Token: kad, B0_LastThreeLetters: kad, B1Token: įmonė, B1_LastThreeLetters: nė, S0B0Distance: 1, S0B0Token: ,_kad, S0B1Token: ,_įmonė, S0B2Token: ,_išvengtų, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kad, įmonė, išvengtų ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kad]   B= [įmonė, išvengtų, nuobaudų ,.. ]
-
-B0Token: įmonė, B0_LastThreeLetters: nė, B1Token: išvengtų, B1_LastThreeLetters: tų, S0B0Distance: 1, S0B0Token: kad_įmonė, S0B1Token: kad_išvengtų, S0B2Token: kad_nuobaudų, S0Token: kad, S0_LastThreeLetters: kad, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [įmonė, išvengtų, nuobaudų ,.. ]
-
-
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [įmonė]   B= [išvengtų, nuobaudų, , ,.. ]
-
-B0Token: išvengtų, B0_LastThreeLetters: tų, B1Token: nuobaudų, B1_LastThreeLetters: dų, S0B0Distance: 1, S0B0Token: įmonė_išvengtų, S0B1Token: įmonė_nuobaudų, S0B2Token: įmonė_,, S0Token: įmonė, S0_LastThreeLetters: nė, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [išvengtų, nuobaudų, , ,.. ]
-
-
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [išvengtų]   B= [nuobaudų, ,, kurios ,.. ]
-
-B0Token: nuobaudų, B0_LastThreeLetters: dų, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: išvengtų_nuobaudų, S0B1Token: išvengtų_,, S0B2Token: išvengtų_kurios, S0Token: išvengtų, S0_LastThreeLetters: tų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nuobaudų, ,, kurios ,.. ]
-
-
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nuobaudų]   B= [,, kurios, paprastai ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: kurios, B1_LastThreeLetters: ios, S0B0Distance: 1, S0B0Token: nuobaudų_,, S0B1Token: nuobaudų_kurios, S0B2Token: nuobaudų_paprastai, S0Token: nuobaudų, S0_LastThreeLetters: dų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kurios, paprastai ,.. ]
-
-
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kurios, paprastai, taikomos ,.. ]
-
-B0Token: kurios, B0_LastThreeLetters: ios, B1Token: paprastai, B1_LastThreeLetters: tai, S0B0Distance: 1, S0B0Token: ,_kurios, S0B1Token: ,_paprastai, S0B2Token: ,_taikomos, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kurios, paprastai, taikomos ,.. ]
-
-
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kurios]   B= [paprastai, taikomos, aptikus ,.. ]
-
-B0Token: paprastai, B0_LastThreeLetters: tai, B1Token: taikomos, B1_LastThreeLetters: mos, S0B0Distance: 1, S0B0Token: kurios_paprastai, S0B1Token: kurios_taikomos, S0B2Token: kurios_aptikus, S0Token: kurios, S0_LastThreeLetters: ios, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [paprastai, taikomos, aptikus ,.. ]
-
-
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [paprastai]   B= [taikomos, aptikus, darbų ,.. ]
-
-B0Token: taikomos, B0_LastThreeLetters: mos, B1Token: aptikus, B1_LastThreeLetters: kus, S0B0Distance: 1, S0B0Token: paprastai_taikomos, S0B1Token: paprastai_aptikus, S0B2Token: paprastai_darbų, S0Token: paprastai, S0_LastThreeLetters: tai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [taikomos, aptikus, darbų ,.. ]
-
-
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [taikomos]   B= [aptikus, darbų, saugos ,.. ]
-
-B0Token: aptikus, B0_LastThreeLetters: kus, B1Token: darbų, B1_LastThreeLetters: bų, S0B0Distance: 1, S0B0Token: taikomos_aptikus, S0B1Token: taikomos_darbų, S0B2Token: taikomos_saugos, S0Token: taikomos, S0_LastThreeLetters: mos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aptikus, darbų, saugos ,.. ]
-
-
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aptikus]   B= [darbų, saugos, , ,.. ]
-
-B0Token: darbų, B0_LastThreeLetters: bų, B1Token: saugos, B1_LastThreeLetters: gos, S0B0Distance: 1, S0B0Token: aptikus_darbų, S0B1Token: aptikus_saugos, S0B2Token: aptikus_,, S0Token: aptikus, S0_LastThreeLetters: kus, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [darbų, saugos, , ,.. ]
-
-
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [darbų]   B= [saugos, ,, pakavimo ,.. ]
-
-B0Token: saugos, B0_LastThreeLetters: gos, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: darbų_saugos, S0B1Token: darbų_,, S0B2Token: darbų_pakavimo, S0Token: darbų, S0_LastThreeLetters: bų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saugos, ,, pakavimo ,.. ]
-
-
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saugos]   B= [,, pakavimo, , ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: pakavimo, B1_LastThreeLetters: imo, S0B0Distance: 1, S0B0Token: saugos_,, S0B1Token: saugos_pakavimo, S0B2Token: saugos_,, S0Token: saugos, S0_LastThreeLetters: gos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pakavimo, , ,.. ]
-
-
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pakavimo, ,, ženklinimo ,.. ]
-
-B0Token: pakavimo, B0_LastThreeLetters: imo, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: ,_pakavimo, S0B1Token: ,_,, S0B2Token: ,_ženklinimo, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pakavimo, ,, ženklinimo ,.. ]
-
-
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pakavimo]   B= [,, ženklinimo, , ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: ženklinimo, B1_LastThreeLetters: imo, S0B0Distance: 1, S0B0Token: pakavimo_,, S0B1Token: pakavimo_ženklinimo, S0B2Token: pakavimo_,, S0Token: pakavimo, S0_LastThreeLetters: imo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ženklinimo, , ,.. ]
-
-
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ženklinimo, ,, higienos ,.. ]
-
-B0Token: ženklinimo, B0_LastThreeLetters: imo, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: ,_ženklinimo, S0B1Token: ,_,, S0B2Token: ,_higienos, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ženklinimo, ,, higienos ,.. ]
-
-
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ženklinimo]   B= [,, higienos, ar ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: higienos, B1_LastThreeLetters: nos, S0B0Distance: 1, S0B0Token: ženklinimo_,, S0B1Token: ženklinimo_higienos, S0B2Token: ženklinimo_ar, S0Token: ženklinimo, S0_LastThreeLetters: imo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, higienos, ar ,.. ]
-
-
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [higienos, ar, kitus ,.. ]
-
-B0Token: higienos, B0_LastThreeLetters: nos, B1Token: ar, B1_LastThreeLetters: ar, S0B0Distance: 1, S0B0Token: ,_higienos, S0B1Token: ,_ar, S0B2Token: ,_kitus, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [higienos, ar, kitus ,.. ]
-
-
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [higienos]   B= [ar, kitus, pažeidimus ,.. ]
-
-B0Token: ar, B0_LastThreeLetters: ar, B1Token: kitus, B1_LastThreeLetters: tus, S0B0Distance: 1, S0B0Token: higienos_ar, S0B1Token: higienos_kitus, S0B2Token: higienos_pažeidimus, S0Token: higienos, S0_LastThreeLetters: nos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ar, kitus, pažeidimus ,.. ]
-
-
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ar]   B= [kitus, pažeidimus, , ,.. ]
-
-B0Token: kitus, B0_LastThreeLetters: tus, B1Token: pažeidimus, B1_LastThreeLetters: mus, S0B0Distance: 1, S0B0Token: ar_kitus, S0B1Token: ar_pažeidimus, S0B2Token: ar_,, S0Token: ar, S0_LastThreeLetters: ar, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kitus, pažeidimus, , ,.. ]
-
-
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kitus]   B= [pažeidimus, ,, savo ,.. ]
-
-B0Token: pažeidimus, B0_LastThreeLetters: mus, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: kitus_pažeidimus, S0B1Token: kitus_,, S0B2Token: kitus_savo, S0Token: kitus, S0_LastThreeLetters: tus, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pažeidimus, ,, savo ,.. ]
-
-
-
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pažeidimus]   B= [,, savo, neteisėtų ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: savo, B1_LastThreeLetters: avo, S0B0Distance: 1, S0B0Token: pažeidimus_,, S0B1Token: pažeidimus_savo, S0B2Token: pažeidimus_neteisėtų, S0Token: pažeidimus, S0_LastThreeLetters: mus, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, savo, neteisėtų ,.. ]
-
-
-
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [savo, neteisėtų, tikslų ,.. ]
-
-B0Token: savo, B0_LastThreeLetters: avo, B1Token: neteisėtų, B1_LastThreeLetters: tų, S0B0Distance: 1, S0B0Token: ,_savo, S0B1Token: ,_neteisėtų, S0B2Token: ,_tikslų, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [savo, neteisėtų, tikslų ,.. ]
-
-
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [savo]   B= [neteisėtų, tikslų, siekė ,.. ]
-
-B0Token: neteisėtų, B0_LastThreeLetters: tų, B1Token: tikslų, B1_LastThreeLetters: lų, S0B0Distance: 1, S0B0Token: savo_neteisėtų, S0B1Token: savo_tikslų, S0B2Token: savo_siekė, S0Token: savo, S0_LastThreeLetters: avo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [neteisėtų, tikslų, siekė ,.. ]
-
-
-
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [neteisėtų]   B= [tikslų, siekė, papirkdami ,.. ]
-
-B0Token: tikslų, B0_LastThreeLetters: lų, B1Token: siekė, B1_LastThreeLetters: kė, S0B0Distance: 1, S0B0Token: neteisėtų_tikslų, S0B1Token: neteisėtų_siekė, S0B2Token: neteisėtų_papirkdami, S0Token: neteisėtų, S0_LastThreeLetters: tų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tikslų, siekė, papirkdami ,.. ]
-
-
-
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tikslų]   B= [siekė, papirkdami, įvairius ,.. ]
-
-B0Token: siekė, B0_LastThreeLetters: kė, B1Token: papirkdami, B1_LastThreeLetters: ami, S0B0Distance: 1, S0B0Token: tikslų_siekė, S0B1Token: tikslų_papirkdami, S0B2Token: tikslų_įvairius, S0Token: tikslų, S0_LastThreeLetters: lų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [siekė, papirkdami, įvairius ,.. ]
-
-
-
-89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [siekė]   B= [papirkdami, įvairius, atsakingus ,.. ]
-
-B0Token: papirkdami, B0_LastThreeLetters: ami, B1Token: įvairius, B1_LastThreeLetters: ius, S0B0Distance: 1, S0B0Token: siekė_papirkdami, S0B1Token: siekė_įvairius, S0B2Token: siekė_atsakingus, S0Token: siekė, S0_LastThreeLetters: kė, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [papirkdami, įvairius, atsakingus ,.. ]
-
-
-
-91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [papirkdami]   B= [įvairius, atsakingus, specialistus ,.. ]
-
-B0Token: įvairius, B0_LastThreeLetters: ius, B1Token: atsakingus, B1_LastThreeLetters: gus, S0B0Distance: 1, S0B0Token: papirkdami_įvairius, S0B1Token: papirkdami_atsakingus, S0B2Token: papirkdami_specialistus, S0Token: papirkdami, S0_LastThreeLetters: ami, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [įvairius, atsakingus, specialistus ,.. ]
-
-
-
-93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [įvairius]   B= [atsakingus, specialistus, arba ,.. ]
-
-B0Token: atsakingus, B0_LastThreeLetters: gus, B1Token: specialistus, B1_LastThreeLetters: tus, S0B0Distance: 1, S0B0Token: įvairius_atsakingus, S0B1Token: įvairius_specialistus, S0B2Token: įvairius_arba, S0Token: įvairius, S0_LastThreeLetters: ius, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atsakingus, specialistus, arba ,.. ]
-
-
-
-95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atsakingus]   B= [specialistus, arba, asmenis ,.. ]
-
-B0Token: specialistus, B0_LastThreeLetters: tus, B1Token: arba, B1_LastThreeLetters: rba, S0B0Distance: 1, S0B0Token: atsakingus_specialistus, S0B1Token: atsakingus_arba, S0B2Token: atsakingus_asmenis, S0Token: atsakingus, S0_LastThreeLetters: gus, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [specialistus, arba, asmenis ,.. ]
-
-
-
-97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [specialistus]   B= [arba, asmenis, , ,.. ]
-
-B0Token: arba, B0_LastThreeLetters: rba, B1Token: asmenis, B1_LastThreeLetters: nis, S0B0Distance: 1, S0B0Token: specialistus_arba, S0B1Token: specialistus_asmenis, S0B2Token: specialistus_,, S0Token: specialistus, S0_LastThreeLetters: tus, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [arba, asmenis, , ,.. ]
-
-
-
-99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [arba]   B= [asmenis, ,, galinčius ,.. ]
-
-B0Token: asmenis, B0_LastThreeLetters: nis, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: arba_asmenis, S0B1Token: arba_,, S0B2Token: arba_galinčius, S0Token: arba, S0_LastThreeLetters: rba, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [asmenis, ,, galinčius ,.. ]
-
-
-
-101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [asmenis]   B= [,, galinčius, tokiems ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: galinčius, B1_LastThreeLetters: ius, S0B0Distance: 1, S0B0Token: asmenis_,, S0B1Token: asmenis_galinčius, S0B2Token: asmenis_tokiems, S0Token: asmenis, S0_LastThreeLetters: nis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, galinčius, tokiems ,.. ]
-
-
-
-103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [galinčius, tokiems, specialistams ,.. ]
-
-B0Token: galinčius, B0_LastThreeLetters: ius, B1Token: tokiems, B1_LastThreeLetters: ems, S0B0Distance: 1, S0B0Token: ,_galinčius, S0B1Token: ,_tokiems, S0B2Token: ,_specialistams, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [galinčius, tokiems, specialistams ,.. ]
-
-
-
-105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [galinčius]   B= [tokiems, specialistams, , ,.. ]
-
-B0Token: tokiems, B0_LastThreeLetters: ems, B1Token: specialistams, B1_LastThreeLetters: ams, S0B0Distance: 1, S0B0Token: galinčius_tokiems, S0B1Token: galinčius_specialistams, S0B2Token: galinčius_,, S0Token: galinčius, S0_LastThreeLetters: ius, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tokiems, specialistams, , ,.. ]
-
-
-
-107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tokiems]   B= [specialistams, ,, pareigūnams ,.. ]
-
-B0Token: specialistams, B0_LastThreeLetters: ams, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: tokiems_specialistams, S0B1Token: tokiems_,, S0B2Token: tokiems_pareigūnams, S0Token: tokiems, S0_LastThreeLetters: ems, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [specialistams, ,, pareigūnams ,.. ]
-
-
-
-109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [specialistams]   B= [,, pareigūnams, daryti ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: pareigūnams, B1_LastThreeLetters: ams, S0B0Distance: 1, S0B0Token: specialistams_,, S0B1Token: specialistams_pareigūnams, S0B2Token: specialistams_daryti, S0Token: specialistams, S0_LastThreeLetters: ams, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pareigūnams, daryti ,.. ]
-
-
-
-111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pareigūnams, daryti, poveikį ,.. ]
-
-B0Token: pareigūnams, B0_LastThreeLetters: ams, B1Token: daryti, B1_LastThreeLetters: yti, S0B0Distance: 1, S0B0Token: ,_pareigūnams, S0B1Token: ,_daryti, S0B2Token: ,_poveikį, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pareigūnams, daryti, poveikį ,.. ]
-
-
-
-113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pareigūnams]   B= [daryti, poveikį, . ,.. ]
-
-B0Token: daryti, B0_LastThreeLetters: yti, B1Token: poveikį, B1_LastThreeLetters: kį, S0B0Distance: 1, S0B0Token: pareigūnams_daryti, S0B1Token: pareigūnams_poveikį, S0B2Token: pareigūnams_., S0Token: pareigūnams, S0_LastThreeLetters: ams, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [daryti, poveikį, . ,.. ]
-
-
-
-115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daryti]   B= [poveikį, . ,.. ]
-
-B0Token: poveikį, B0_LastThreeLetters: kį, B1Token: ., B1_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: daryti_poveikį, S0B1Token: daryti_., S0Token: daryti, S0_LastThreeLetters: yti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-116- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daryti, poveikį]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: poveikį_., S0S1Distance: 1, S0Token: poveikį, S0_LastThreeLetters: kį, S1B0Token: daryti_., S1S0B0Token: daryti_poveikį_., S1S0Token: daryti_poveikį, S1Token: daryti, S1_LastThreeLetters: yti, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-117- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[daryti, poveikį]]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: daryti_poveikį_., S0Token: daryti_poveikį, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 2521 - 
-Antradienį Klaipėdos rajone , pratybų „ Ugninis griausmas “ metu , artileristai atliks pirmuosius šūvius kariuomenės nupirktomis vokiškomis savaeigėmis haubicomis PZH 2000 .
+## Sentence No. 5621 - 
+Kitos dvi padavimus galinčios atlikti žaidėjos niekaip nesusitvarkė su savo užduotimi , o britų „ pičerės “ padavimai buvo mūsiškėms per greiti , todėl pralaimėta 0 : 15 .
 ### Existing MWEs: 
-1- **atliks šūvius** (LVC)
+1- **padavimus atlikti** (LVC)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Antradienį, Klaipėdos, rajone ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kitos, dvi, padavimus ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Antradienį]   B= [Klaipėdos, rajone, , ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kitos]   B= [dvi, padavimus, galinčios ,.. ]
 
-B0Token: Klaipėdos, B0_LastThreeLetters: dos, B1Token: rajone, B1_LastThreeLetters: one, S0B0Distance: 1, S0B0Token: Antradienį_Klaipėdos, S0B1Token: Antradienį_rajone, S0B2Token: Antradienį_,, S0Token: Antradienį, S0_LastThreeLetters: nį, StackLength: 1, 
+B0Token: dvi, B0_LastThreeLetters: dvi, B0_LastTwoLetters: vi, B1Token: padavimus, B1_LastThreeLetters: mus, B1_LastTwoLetters: us, S0B0Distance: 1, S0B0Token: Kitos_dvi, S0B1Token: Kitos_padavimus, S0B2Token: Kitos_galinčios, S0Token: Kitos, S0_LastThreeLetters: tos, S0_LastTwoLetters: os, StackLength: 1, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Klaipėdos, rajone, , ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dvi, padavimus, galinčios ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Klaipėdos]   B= [rajone, ,, pratybų ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dvi]   B= [padavimus, galinčios, atlikti ,.. ]
 
-B0Token: rajone, B0_LastThreeLetters: one, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: Klaipėdos_rajone, S0B1Token: Klaipėdos_,, S0B2Token: Klaipėdos_pratybų, S0Token: Klaipėdos, S0_LastThreeLetters: dos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Token: padavimus, B0_LastThreeLetters: mus, B0_LastTwoLetters: us, B1Token: galinčios, B1_LastThreeLetters: ios, B1_LastTwoLetters: os, S0B0Distance: 1, S0B0Token: dvi_padavimus, S0B1Token: dvi_galinčios, S0B2Token: dvi_atlikti, S0Token: dvi, S0_LastThreeLetters: dvi, S0_LastTwoLetters: vi, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rajone, ,, pratybų ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [padavimus, galinčios, atlikti ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rajone]   B= [,, pratybų, „ ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [padavimus]   B= [galinčios, atlikti, žaidėjos ,.. ]
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: pratybų, B1_LastThreeLetters: bų, S0B0Distance: 1, S0B0Token: rajone_,, S0B1Token: rajone_pratybų, S0B2Token: rajone_„, S0Token: rajone, S0_LastThreeLetters: one, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: galinčios, B0_LastThreeLetters: ios, B0_LastTwoLetters: os, B1Token: atlikti, B1_LastThreeLetters: kti, B1_LastTwoLetters: ti, S0B0Distance: 1, S0B0Token: padavimus_galinčios, S0B1Token: padavimus_atlikti, S0B2Token: padavimus_žaidėjos, S0Token: padavimus, S0_LastThreeLetters: mus, S0_LastTwoLetters: us, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pratybų, „ ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [galinčios, atlikti, žaidėjos ,.. ]
 
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pratybų, „, Ugninis ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [galinčios]   B= [atlikti, žaidėjos, niekaip ,.. ]
 
-B0Token: pratybų, B0_LastThreeLetters: bų, B1Token: „, B1_LastThreeLetters: „, S0B0Distance: 1, S0B0Token: ,_pratybų, S0B1Token: ,_„, S0B2Token: ,_Ugninis, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: atlikti, B0_LastThreeLetters: kti, B0_LastTwoLetters: ti, B1Token: žaidėjos, B1_LastThreeLetters: jos, B1_LastTwoLetters: os, S0B0Distance: 1, S0B0Token: galinčios_atlikti, S0B1Token: galinčios_žaidėjos, S0B2Token: galinčios_niekaip, S0Token: galinčios, S0_LastThreeLetters: ios, S0_LastTwoLetters: os, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pratybų, „, Ugninis ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atlikti, žaidėjos, niekaip ,.. ]
 
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pratybų]   B= [„, Ugninis, griausmas ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atlikti]   B= [žaidėjos, niekaip, nesusitvarkė ,.. ]
 
-B0Token: „, B0_LastThreeLetters: „, B1Token: Ugninis, B1_LastThreeLetters: nis, S0B0Distance: 1, S0B0Token: pratybų_„, S0B1Token: pratybų_Ugninis, S0B2Token: pratybų_griausmas, S0Token: pratybų, S0_LastThreeLetters: bų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: žaidėjos, B0_LastThreeLetters: jos, B0_LastTwoLetters: os, B1Token: niekaip, B1_LastThreeLetters: aip, B1_LastTwoLetters: ip, S0B0Distance: 1, S0B0Token: atlikti_žaidėjos, S0B1Token: atlikti_niekaip, S0B2Token: atlikti_nesusitvarkė, S0Token: atlikti, S0_LastThreeLetters: kti, S0_LastTwoLetters: ti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [„, Ugninis, griausmas ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [žaidėjos, niekaip, nesusitvarkė ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [„]   B= [Ugninis, griausmas, “ ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [žaidėjos]   B= [niekaip, nesusitvarkė, su ,.. ]
 
-B0Token: Ugninis, B0_LastThreeLetters: nis, B1Token: griausmas, B1_LastThreeLetters: mas, S0B0Distance: 1, S0B0Token: „_Ugninis, S0B1Token: „_griausmas, S0B2Token: „_“, S0Token: „, S0_LastThreeLetters: „, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: niekaip, B0_LastThreeLetters: aip, B0_LastTwoLetters: ip, B1Token: nesusitvarkė, B1_LastThreeLetters: kė, B1_LastTwoLetters: ė, S0B0Distance: 1, S0B0Token: žaidėjos_niekaip, S0B1Token: žaidėjos_nesusitvarkė, S0B2Token: žaidėjos_su, S0Token: žaidėjos, S0_LastThreeLetters: jos, S0_LastTwoLetters: os, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ugninis, griausmas, “ ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [niekaip, nesusitvarkė, su ,.. ]
 
 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ugninis]   B= [griausmas, “, metu ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niekaip]   B= [nesusitvarkė, su, savo ,.. ]
 
-B0Token: griausmas, B0_LastThreeLetters: mas, B1Token: “, B1_LastThreeLetters: “, S0B0Distance: 1, S0B0Token: Ugninis_griausmas, S0B1Token: Ugninis_“, S0B2Token: Ugninis_metu, S0Token: Ugninis, S0_LastThreeLetters: nis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: nesusitvarkė, B0_LastThreeLetters: kė, B0_LastTwoLetters: ė, B1Token: su, B1_LastThreeLetters: su, B1_LastTwoLetters: su, S0B0Distance: 1, S0B0Token: niekaip_nesusitvarkė, S0B1Token: niekaip_su, S0B2Token: niekaip_savo, S0Token: niekaip, S0_LastThreeLetters: aip, S0_LastTwoLetters: ip, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [griausmas, “, metu ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nesusitvarkė, su, savo ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [griausmas]   B= [“, metu, , ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nesusitvarkė]   B= [su, savo, užduotimi ,.. ]
 
-B0Token: “, B0_LastThreeLetters: “, B1Token: metu, B1_LastThreeLetters: etu, S0B0Distance: 1, S0B0Token: griausmas_“, S0B1Token: griausmas_metu, S0B2Token: griausmas_,, S0Token: griausmas, S0_LastThreeLetters: mas, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: su, B0_LastThreeLetters: su, B0_LastTwoLetters: su, B1Token: savo, B1_LastThreeLetters: avo, B1_LastTwoLetters: vo, S0B0Distance: 1, S0B0Token: nesusitvarkė_su, S0B1Token: nesusitvarkė_savo, S0B2Token: nesusitvarkė_užduotimi, S0Token: nesusitvarkė, S0_LastThreeLetters: kė, S0_LastTwoLetters: ė, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, metu, , ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [su, savo, užduotimi ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [metu, ,, artileristai ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [su]   B= [savo, užduotimi, , ,.. ]
 
-B0Token: metu, B0_LastThreeLetters: etu, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: “_metu, S0B1Token: “_,, S0B2Token: “_artileristai, S0Token: “, S0_LastThreeLetters: “, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: savo, B0_LastThreeLetters: avo, B0_LastTwoLetters: vo, B1Token: užduotimi, B1_LastThreeLetters: imi, B1_LastTwoLetters: mi, S0B0Distance: 1, S0B0Token: su_savo, S0B1Token: su_užduotimi, S0B2Token: su_,, S0Token: su, S0_LastThreeLetters: su, S0_LastTwoLetters: su, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [metu, ,, artileristai ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [savo, užduotimi, , ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [metu]   B= [,, artileristai, atliks ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [savo]   B= [užduotimi, ,, o ,.. ]
 
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: artileristai, B1_LastThreeLetters: tai, S0B0Distance: 1, S0B0Token: metu_,, S0B1Token: metu_artileristai, S0B2Token: metu_atliks, S0Token: metu, S0_LastThreeLetters: etu, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: užduotimi, B0_LastThreeLetters: imi, B0_LastTwoLetters: mi, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: savo_užduotimi, S0B1Token: savo_,, S0B2Token: savo_o, S0Token: savo, S0_LastThreeLetters: avo, S0_LastTwoLetters: vo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, artileristai, atliks ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [užduotimi, ,, o ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [artileristai, atliks, pirmuosius ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [užduotimi]   B= [,, o, britų ,.. ]
 
-B0Token: artileristai, B0_LastThreeLetters: tai, B1Token: atliks, B1_LastThreeLetters: iks, S0B0Distance: 1, S0B0Token: ,_artileristai, S0B1Token: ,_atliks, S0B2Token: ,_pirmuosius, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: o, B1_LastThreeLetters: o, B1_LastTwoLetters: o, S0B0Distance: 1, S0B0Token: užduotimi_,, S0B1Token: užduotimi_o, S0B2Token: užduotimi_britų, S0Token: užduotimi, S0_LastThreeLetters: imi, S0_LastTwoLetters: mi, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [artileristai, atliks, pirmuosius ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, o, britų ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [artileristai]   B= [atliks, pirmuosius, šūvius ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [o, britų, „ ,.. ]
 
-B0Token: atliks, B0_LastThreeLetters: iks, B1Token: pirmuosius, B1_LastThreeLetters: ius, S0B0Distance: 1, S0B0Token: artileristai_atliks, S0B1Token: artileristai_pirmuosius, S0B2Token: artileristai_šūvius, S0Token: artileristai, S0_LastThreeLetters: tai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: o, B0_LastThreeLetters: o, B0_LastTwoLetters: o, B1Token: britų, B1_LastThreeLetters: tų, B1_LastTwoLetters: ų, S0B0Distance: 1, S0B0Token: ,_o, S0B1Token: ,_britų, S0B2Token: ,_„, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atliks, pirmuosius, šūvius ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, britų, „ ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atliks]   B= [pirmuosius, šūvius, kariuomenės ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [britų, „, pičerės ,.. ]
 
-B0Token: pirmuosius, B0_LastThreeLetters: ius, B1Token: šūvius, B1_LastThreeLetters: ius, S0B0Distance: 1, S0B0Token: atliks_pirmuosius, S0B1Token: atliks_šūvius, S0B2Token: atliks_kariuomenės, S0Token: atliks, S0_LastThreeLetters: iks, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: britų, B0_LastThreeLetters: tų, B0_LastTwoLetters: ų, B1Token: „, B1_LastThreeLetters: „, B1_LastTwoLetters: ��, S0B0Distance: 1, S0B0Token: o_britų, S0B1Token: o_„, S0B2Token: o_pičerės, S0Token: o, S0_LastThreeLetters: o, S0_LastTwoLetters: o, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pirmuosius, šūvius, kariuomenės ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [britų, „, pičerės ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pirmuosius]   B= [šūvius, kariuomenės, nupirktomis ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [britų]   B= [„, pičerės, “ ,.. ]
 
-B0Token: šūvius, B0_LastThreeLetters: ius, B1Token: kariuomenės, B1_LastThreeLetters: ės, S0B0Distance: 1, S0B0Token: pirmuosius_šūvius, S0B1Token: pirmuosius_kariuomenės, S0B2Token: pirmuosius_nupirktomis, S0Token: pirmuosius, S0_LastThreeLetters: ius, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: „, B0_LastThreeLetters: „, B0_LastTwoLetters: ��, B1Token: pičerės, B1_LastThreeLetters: ės, B1_LastTwoLetters: �s, S0B0Distance: 1, S0B0Token: britų_„, S0B1Token: britų_pičerės, S0B2Token: britų_“, S0Token: britų, S0_LastThreeLetters: tų, S0_LastTwoLetters: ų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [šūvius, kariuomenės, nupirktomis ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [„, pičerės, “ ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [šūvius]   B= [kariuomenės, nupirktomis, vokiškomis ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [„]   B= [pičerės, “, padavimai ,.. ]
 
-B0Token: kariuomenės, B0_LastThreeLetters: ės, B1Token: nupirktomis, B1_LastThreeLetters: mis, S0B0Distance: 1, S0B0Token: šūvius_kariuomenės, S0B1Token: šūvius_nupirktomis, S0B2Token: šūvius_vokiškomis, S0Token: šūvius, S0_LastThreeLetters: ius, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: pičerės, B0_LastThreeLetters: ės, B0_LastTwoLetters: �s, B1Token: “, B1_LastThreeLetters: “, B1_LastTwoLetters: ��, S0B0Distance: 1, S0B0Token: „_pičerės, S0B1Token: „_“, S0B2Token: „_padavimai, S0Token: „, S0_LastThreeLetters: „, S0_LastTwoLetters: ��, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kariuomenės, nupirktomis, vokiškomis ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pičerės, “, padavimai ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kariuomenės]   B= [nupirktomis, vokiškomis, savaeigėmis ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pičerės]   B= [“, padavimai, buvo ,.. ]
 
-B0Token: nupirktomis, B0_LastThreeLetters: mis, B1Token: vokiškomis, B1_LastThreeLetters: mis, S0B0Distance: 1, S0B0Token: kariuomenės_nupirktomis, S0B1Token: kariuomenės_vokiškomis, S0B2Token: kariuomenės_savaeigėmis, S0Token: kariuomenės, S0_LastThreeLetters: ės, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: “, B0_LastThreeLetters: “, B0_LastTwoLetters: ��, B1Token: padavimai, B1_LastThreeLetters: mai, B1_LastTwoLetters: ai, S0B0Distance: 1, S0B0Token: pičerės_“, S0B1Token: pičerės_padavimai, S0B2Token: pičerės_buvo, S0Token: pičerės, S0_LastThreeLetters: ės, S0_LastTwoLetters: �s, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nupirktomis, vokiškomis, savaeigėmis ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, padavimai, buvo ,.. ]
 
 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nupirktomis]   B= [vokiškomis, savaeigėmis, haubicomis ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [padavimai, buvo, mūsiškėms ,.. ]
 
-B0Token: vokiškomis, B0_LastThreeLetters: mis, B1Token: savaeigėmis, B1_LastThreeLetters: mis, S0B0Distance: 1, S0B0Token: nupirktomis_vokiškomis, S0B1Token: nupirktomis_savaeigėmis, S0B2Token: nupirktomis_haubicomis, S0Token: nupirktomis, S0_LastThreeLetters: mis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: padavimai, B0_LastThreeLetters: mai, B0_LastTwoLetters: ai, B1Token: buvo, B1_LastThreeLetters: uvo, B1_LastTwoLetters: vo, S0B0Distance: 1, S0B0Token: “_padavimai, S0B1Token: “_buvo, S0B2Token: “_mūsiškėms, S0Token: “, S0_LastThreeLetters: “, S0_LastTwoLetters: ��, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vokiškomis, savaeigėmis, haubicomis ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [padavimai, buvo, mūsiškėms ,.. ]
 
 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vokiškomis]   B= [savaeigėmis, haubicomis, PZH ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [padavimai]   B= [buvo, mūsiškėms, per ,.. ]
 
-B0Token: savaeigėmis, B0_LastThreeLetters: mis, B1Token: haubicomis, B1_LastThreeLetters: mis, S0B0Distance: 1, S0B0Token: vokiškomis_savaeigėmis, S0B1Token: vokiškomis_haubicomis, S0B2Token: vokiškomis_PZH, S0Token: vokiškomis, S0_LastThreeLetters: mis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: buvo, B0_LastThreeLetters: uvo, B0_LastTwoLetters: vo, B1Token: mūsiškėms, B1_LastThreeLetters: �ms, B1_LastTwoLetters: ms, S0B0Distance: 1, S0B0Token: padavimai_buvo, S0B1Token: padavimai_mūsiškėms, S0B2Token: padavimai_per, S0Token: padavimai, S0_LastThreeLetters: mai, S0_LastTwoLetters: ai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [savaeigėmis, haubicomis, PZH ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [buvo, mūsiškėms, per ,.. ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [savaeigėmis]   B= [haubicomis, PZH, 2000 ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [buvo]   B= [mūsiškėms, per, greiti ,.. ]
 
-B0Token: haubicomis, B0_LastThreeLetters: mis, B1Token: PZH, B1_LastThreeLetters: PZH, S0B0Distance: 1, S0B0Token: savaeigėmis_haubicomis, S0B1Token: savaeigėmis_PZH, S0B2Token: savaeigėmis_2000, S0Token: savaeigėmis, S0_LastThreeLetters: mis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: mūsiškėms, B0_LastThreeLetters: �ms, B0_LastTwoLetters: ms, B1Token: per, B1_LastThreeLetters: per, B1_LastTwoLetters: er, S0B0Distance: 1, S0B0Token: buvo_mūsiškėms, S0B1Token: buvo_per, S0B2Token: buvo_greiti, S0Token: buvo, S0_LastThreeLetters: uvo, S0_LastTwoLetters: vo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [haubicomis, PZH, 2000 ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mūsiškėms, per, greiti ,.. ]
 
 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [haubicomis]   B= [PZH, 2000, . ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mūsiškėms]   B= [per, greiti, , ,.. ]
 
-B0Token: PZH, B0_LastThreeLetters: PZH, B1Token: 2000, B1_LastThreeLetters: 000, S0B0Distance: 1, S0B0Token: haubicomis_PZH, S0B1Token: haubicomis_2000, S0B2Token: haubicomis_., S0Token: haubicomis, S0_LastThreeLetters: mis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: per, B0_LastThreeLetters: per, B0_LastTwoLetters: er, B1Token: greiti, B1_LastThreeLetters: iti, B1_LastTwoLetters: ti, S0B0Distance: 1, S0B0Token: mūsiškėms_per, S0B1Token: mūsiškėms_greiti, S0B2Token: mūsiškėms_,, S0Token: mūsiškėms, S0_LastThreeLetters: �ms, S0_LastTwoLetters: ms, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [PZH, 2000, . ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, greiti, , ,.. ]
 
 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [PZH]   B= [2000, . ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [greiti, ,, todėl ,.. ]
 
-B0Token: 2000, B0_LastThreeLetters: 000, B1Token: ., B1_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: PZH_2000, S0B1Token: PZH_., S0Token: PZH, S0_LastThreeLetters: PZH, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: greiti, B0_LastThreeLetters: iti, B0_LastTwoLetters: ti, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: per_greiti, S0B1Token: per_,, S0B2Token: per_todėl, S0Token: per, S0_LastThreeLetters: per, S0_LastTwoLetters: er, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [2000, . ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [greiti, ,, todėl ,.. ]
 
 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [2000]   B= [.]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [greiti]   B= [,, todėl, pralaimėta ,.. ]
 
-B0Token: ., B0_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: 2000_., S0Token: 2000, S0_LastThreeLetters: 000, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: todėl, B1_LastThreeLetters: ėl, B1_LastTwoLetters: �l, S0B0Distance: 1, S0B0Token: greiti_,, S0B1Token: greiti_todėl, S0B2Token: greiti_pralaimėta, S0Token: greiti, S0_LastThreeLetters: iti, S0_LastTwoLetters: ti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, todėl, pralaimėta ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [todėl, pralaimėta, 0 ,.. ]
+
+B0Token: todėl, B0_LastThreeLetters: ėl, B0_LastTwoLetters: �l, B1Token: pralaimėta, B1_LastThreeLetters: �ta, B1_LastTwoLetters: ta, S0B0Distance: 1, S0B0Token: ,_todėl, S0B1Token: ,_pralaimėta, S0B2Token: ,_0, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [todėl, pralaimėta, 0 ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [todėl]   B= [pralaimėta, 0, : ,.. ]
+
+B0Token: pralaimėta, B0_LastThreeLetters: �ta, B0_LastTwoLetters: ta, B1Token: 0, B1_LastThreeLetters: 0, B1_LastTwoLetters: 0, S0B0Distance: 1, S0B0Token: todėl_pralaimėta, S0B1Token: todėl_0, S0B2Token: todėl_:, S0Token: todėl, S0_LastThreeLetters: ėl, S0_LastTwoLetters: �l, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pralaimėta, 0, : ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pralaimėta]   B= [0, :, 15 ,.. ]
+
+B0Token: 0, B0_LastThreeLetters: 0, B0_LastTwoLetters: 0, B1Token: :, B1_LastThreeLetters: :, B1_LastTwoLetters: :, S0B0Distance: 1, S0B0Token: pralaimėta_0, S0B1Token: pralaimėta_:, S0B2Token: pralaimėta_15, S0Token: pralaimėta, S0_LastThreeLetters: �ta, S0_LastTwoLetters: ta, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [0, :, 15 ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [0]   B= [:, 15, . ,.. ]
+
+B0Token: :, B0_LastThreeLetters: :, B0_LastTwoLetters: :, B1Token: 15, B1_LastThreeLetters: 15, B1_LastTwoLetters: 15, S0B0Distance: 1, S0B0Token: 0_:, S0B1Token: 0_15, S0B2Token: 0_., S0Token: 0, S0_LastThreeLetters: 0, S0_LastTwoLetters: 0, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:, 15, . ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [15, . ,.. ]
+
+B0Token: 15, B0_LastThreeLetters: 15, B0_LastTwoLetters: 15, B1Token: ., B1_LastThreeLetters: ., B1_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: :_15, S0B1Token: :_., S0Token: :, S0_LastThreeLetters: :, S0_LastTwoLetters: :, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [15, . ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [15]   B= [.]
+
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: 15_., S0Token: 15, S0_LastThreeLetters: 15, S0_LastTwoLetters: 15, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 5766 - 
+Be to , pakartojo : jeigu D . Trumpas bus išrinktas prezidentu , jis pasirūpintų , kad Rusija laikytųsi nuo Ukrainos atokiai .
+### Existing MWEs: 
+1- **laikytųsi atokiai** (ID)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Be, to, , ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Be]   B= [to, ,, pakartojo ,.. ]
+
+B0Token: to, B0_LastThreeLetters: to, B0_LastTwoLetters: to, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: Be_to, S0B1Token: Be_,, S0B2Token: Be_pakartojo, S0Token: Be, S0_LastThreeLetters: Be, S0_LastTwoLetters: Be, StackLength: 1, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [to, ,, pakartojo ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [to]   B= [,, pakartojo, : ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: pakartojo, B1_LastThreeLetters: ojo, B1_LastTwoLetters: jo, S0B0Distance: 1, S0B0Token: to_,, S0B1Token: to_pakartojo, S0B2Token: to_:, S0Token: to, S0_LastThreeLetters: to, S0_LastTwoLetters: to, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pakartojo, : ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pakartojo, :, jeigu ,.. ]
+
+B0Token: pakartojo, B0_LastThreeLetters: ojo, B0_LastTwoLetters: jo, B1Token: :, B1_LastThreeLetters: :, B1_LastTwoLetters: :, S0B0Distance: 1, S0B0Token: ,_pakartojo, S0B1Token: ,_:, S0B2Token: ,_jeigu, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pakartojo, :, jeigu ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pakartojo]   B= [:, jeigu, D ,.. ]
+
+B0Token: :, B0_LastThreeLetters: :, B0_LastTwoLetters: :, B1Token: jeigu, B1_LastThreeLetters: igu, B1_LastTwoLetters: gu, S0B0Distance: 1, S0B0Token: pakartojo_:, S0B1Token: pakartojo_jeigu, S0B2Token: pakartojo_D, S0Token: pakartojo, S0_LastThreeLetters: ojo, S0_LastTwoLetters: jo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:, jeigu, D ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [jeigu, D, . ,.. ]
+
+B0Token: jeigu, B0_LastThreeLetters: igu, B0_LastTwoLetters: gu, B1Token: D, B1_LastThreeLetters: D, B1_LastTwoLetters: D, S0B0Distance: 1, S0B0Token: :_jeigu, S0B1Token: :_D, S0B2Token: :_., S0Token: :, S0_LastThreeLetters: :, S0_LastTwoLetters: :, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jeigu, D, . ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jeigu]   B= [D, ., Trumpas ,.. ]
+
+B0Token: D, B0_LastThreeLetters: D, B0_LastTwoLetters: D, B1Token: ., B1_LastThreeLetters: ., B1_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: jeigu_D, S0B1Token: jeigu_., S0B2Token: jeigu_Trumpas, S0Token: jeigu, S0_LastThreeLetters: igu, S0_LastTwoLetters: gu, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [D, ., Trumpas ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [D]   B= [., Trumpas, bus ,.. ]
+
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., B1Token: Trumpas, B1_LastThreeLetters: pas, B1_LastTwoLetters: as, S0B0Distance: 1, S0B0Token: D_., S0B1Token: D_Trumpas, S0B2Token: D_bus, S0Token: D, S0_LastThreeLetters: D, S0_LastTwoLetters: D, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., Trumpas, bus ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [Trumpas, bus, išrinktas ,.. ]
+
+B0Token: Trumpas, B0_LastThreeLetters: pas, B0_LastTwoLetters: as, B1Token: bus, B1_LastThreeLetters: bus, B1_LastTwoLetters: us, S0B0Distance: 1, S0B0Token: ._Trumpas, S0B1Token: ._bus, S0B2Token: ._išrinktas, S0Token: ., S0_LastThreeLetters: ., S0_LastTwoLetters: ., StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Trumpas, bus, išrinktas ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Trumpas]   B= [bus, išrinktas, prezidentu ,.. ]
+
+B0Token: bus, B0_LastThreeLetters: bus, B0_LastTwoLetters: us, B1Token: išrinktas, B1_LastThreeLetters: tas, B1_LastTwoLetters: as, S0B0Distance: 1, S0B0Token: Trumpas_bus, S0B1Token: Trumpas_išrinktas, S0B2Token: Trumpas_prezidentu, S0Token: Trumpas, S0_LastThreeLetters: pas, S0_LastTwoLetters: as, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bus, išrinktas, prezidentu ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bus]   B= [išrinktas, prezidentu, , ,.. ]
+
+B0Token: išrinktas, B0_LastThreeLetters: tas, B0_LastTwoLetters: as, B1Token: prezidentu, B1_LastThreeLetters: ntu, B1_LastTwoLetters: tu, S0B0Distance: 1, S0B0Token: bus_išrinktas, S0B1Token: bus_prezidentu, S0B2Token: bus_,, S0Token: bus, S0_LastThreeLetters: bus, S0_LastTwoLetters: us, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [išrinktas, prezidentu, , ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [išrinktas]   B= [prezidentu, ,, jis ,.. ]
+
+B0Token: prezidentu, B0_LastThreeLetters: ntu, B0_LastTwoLetters: tu, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: išrinktas_prezidentu, S0B1Token: išrinktas_,, S0B2Token: išrinktas_jis, S0Token: išrinktas, S0_LastThreeLetters: tas, S0_LastTwoLetters: as, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prezidentu, ,, jis ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prezidentu]   B= [,, jis, pasirūpintų ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: jis, B1_LastThreeLetters: jis, B1_LastTwoLetters: is, S0B0Distance: 1, S0B0Token: prezidentu_,, S0B1Token: prezidentu_jis, S0B2Token: prezidentu_pasirūpintų, S0Token: prezidentu, S0_LastThreeLetters: ntu, S0_LastTwoLetters: tu, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, jis, pasirūpintų ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [jis, pasirūpintų, , ,.. ]
+
+B0Token: jis, B0_LastThreeLetters: jis, B0_LastTwoLetters: is, B1Token: pasirūpintų, B1_LastThreeLetters: tų, B1_LastTwoLetters: ų, S0B0Distance: 1, S0B0Token: ,_jis, S0B1Token: ,_pasirūpintų, S0B2Token: ,_,, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jis, pasirūpintų, , ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jis]   B= [pasirūpintų, ,, kad ,.. ]
+
+B0Token: pasirūpintų, B0_LastThreeLetters: tų, B0_LastTwoLetters: ų, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: jis_pasirūpintų, S0B1Token: jis_,, S0B2Token: jis_kad, S0Token: jis, S0_LastThreeLetters: jis, S0_LastTwoLetters: is, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pasirūpintų, ,, kad ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pasirūpintų]   B= [,, kad, Rusija ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: kad, B1_LastThreeLetters: kad, B1_LastTwoLetters: ad, S0B0Distance: 1, S0B0Token: pasirūpintų_,, S0B1Token: pasirūpintų_kad, S0B2Token: pasirūpintų_Rusija, S0Token: pasirūpintų, S0_LastThreeLetters: tų, S0_LastTwoLetters: ų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kad, Rusija ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kad, Rusija, laikytųsi ,.. ]
+
+B0Token: kad, B0_LastThreeLetters: kad, B0_LastTwoLetters: ad, B1Token: Rusija, B1_LastThreeLetters: ija, B1_LastTwoLetters: ja, S0B0Distance: 1, S0B0Token: ,_kad, S0B1Token: ,_Rusija, S0B2Token: ,_laikytųsi, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kad, Rusija, laikytųsi ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kad]   B= [Rusija, laikytųsi, nuo ,.. ]
+
+B0Token: Rusija, B0_LastThreeLetters: ija, B0_LastTwoLetters: ja, B1Token: laikytųsi, B1_LastThreeLetters: �si, B1_LastTwoLetters: si, S0B0Distance: 1, S0B0Token: kad_Rusija, S0B1Token: kad_laikytųsi, S0B2Token: kad_nuo, S0Token: kad, S0_LastThreeLetters: kad, S0_LastTwoLetters: ad, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Rusija, laikytųsi, nuo ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Rusija]   B= [laikytųsi, nuo, Ukrainos ,.. ]
+
+B0Token: laikytųsi, B0_LastThreeLetters: �si, B0_LastTwoLetters: si, B1Token: nuo, B1_LastThreeLetters: nuo, B1_LastTwoLetters: uo, S0B0Distance: 1, S0B0Token: Rusija_laikytųsi, S0B1Token: Rusija_nuo, S0B2Token: Rusija_Ukrainos, S0Token: Rusija, S0_LastThreeLetters: ija, S0_LastTwoLetters: ja, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [laikytųsi, nuo, Ukrainos ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [laikytųsi]   B= [nuo, Ukrainos, atokiai ,.. ]
+
+B0Token: nuo, B0_LastThreeLetters: nuo, B0_LastTwoLetters: uo, B1Token: Ukrainos, B1_LastThreeLetters: nos, B1_LastTwoLetters: os, S0B0Distance: 1, S0B0Token: laikytųsi_nuo, S0B1Token: laikytųsi_Ukrainos, S0B2Token: laikytųsi_atokiai, S0Token: laikytųsi, S0_LastThreeLetters: �si, S0_LastTwoLetters: si, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nuo, Ukrainos, atokiai ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nuo]   B= [Ukrainos, atokiai, . ,.. ]
+
+B0Token: Ukrainos, B0_LastThreeLetters: nos, B0_LastTwoLetters: os, B1Token: atokiai, B1_LastThreeLetters: iai, B1_LastTwoLetters: ai, S0B0Distance: 1, S0B0Token: nuo_Ukrainos, S0B1Token: nuo_atokiai, S0B2Token: nuo_., S0Token: nuo, S0_LastThreeLetters: nuo, S0_LastTwoLetters: uo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ukrainos, atokiai, . ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ukrainos]   B= [atokiai, . ,.. ]
+
+B0Token: atokiai, B0_LastThreeLetters: iai, B0_LastTwoLetters: ai, B1Token: ., B1_LastThreeLetters: ., B1_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: Ukrainos_atokiai, S0B1Token: Ukrainos_., S0Token: Ukrainos, S0_LastThreeLetters: nos, S0_LastTwoLetters: os, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atokiai, . ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atokiai]   B= [.]
+
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: atokiai_., S0Token: atokiai, S0_LastThreeLetters: iai, S0_LastTwoLetters: ai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
@@ -932,616 +914,76 @@ B0Token: ., B0_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: 2000_., S0Token:
 
 46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 2581 - 
-Lietuvos bankų asociacijos ( LBA ) prezidentas Stasys Kropas DELFI sakė , kad sutinka su finansų ministre Rasa Budbergyte dėl to , jog naujasis įstatymas atvers kelią užtikrintai vartotojų apsaugai .
+## Sentence No. 5976 - 
+Pareiškimo neparašiau , tačiau pamoką merginos gavo .
 ### Existing MWEs: 
-1- **atvers kelią** (ID, 1)
-### Identified MWEs: 
-1- **atvers kelią** 
+1- **pamoką gavo** (ID)
 
 
 
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Pareiškimo, neparašiau, , ,.. ]
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Lietuvos, bankų, asociacijos ,.. ]
 
 
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Pareiškimo]   B= [neparašiau, ,, tačiau ,.. ]
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Lietuvos]   B= [bankų, asociacijos, ( ,.. ]
+B0Token: neparašiau, B0_LastThreeLetters: iau, B0_LastTwoLetters: au, B1Token: ,, B1_LastThreeLetters: ,, B1_LastTwoLetters: ,, S0B0Distance: 1, S0B0Token: Pareiškimo_neparašiau, S0B1Token: Pareiškimo_,, S0B2Token: Pareiškimo_tačiau, S0Token: Pareiškimo, S0_LastThreeLetters: imo, S0_LastTwoLetters: mo, StackLength: 1, 
 
-B0Token: bankų, B0_LastThreeLetters: kų, B1Token: asociacijos, B1_LastThreeLetters: jos, S0B0Distance: 1, S0B0Token: Lietuvos_bankų, S0B1Token: Lietuvos_asociacijos, S0B2Token: Lietuvos_(, S0Token: Lietuvos, S0_LastThreeLetters: vos, StackLength: 1, 
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [neparašiau, ,, tačiau ,.. ]
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bankų, asociacijos, ( ,.. ]
 
 
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [neparašiau]   B= [,, tačiau, pamoką ,.. ]
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bankų]   B= [asociacijos, (, LBA ,.. ]
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, B1Token: tačiau, B1_LastThreeLetters: iau, B1_LastTwoLetters: au, S0B0Distance: 1, S0B0Token: neparašiau_,, S0B1Token: neparašiau_tačiau, S0B2Token: neparašiau_pamoką, S0Token: neparašiau, S0_LastThreeLetters: iau, S0_LastTwoLetters: au, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-B0Token: asociacijos, B0_LastThreeLetters: jos, B1Token: (, B1_LastThreeLetters: (, S0B0Distance: 1, S0B0Token: bankų_asociacijos, S0B1Token: bankų_(, S0B2Token: bankų_LBA, S0Token: bankų, S0_LastThreeLetters: kų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, tačiau, pamoką ,.. ]
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [asociacijos, (, LBA ,.. ]
 
 
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [tačiau, pamoką, merginos ,.. ]
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [asociacijos]   B= [(, LBA, ) ,.. ]
+B0Token: tačiau, B0_LastThreeLetters: iau, B0_LastTwoLetters: au, B1Token: pamoką, B1_LastThreeLetters: ką, B1_LastTwoLetters: ą, S0B0Distance: 1, S0B0Token: ,_tačiau, S0B1Token: ,_pamoką, S0B2Token: ,_merginos, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: (, B0_LastThreeLetters: (, B1Token: LBA, B1_LastThreeLetters: LBA, S0B0Distance: 1, S0B0Token: asociacijos_(, S0B1Token: asociacijos_LBA, S0B2Token: asociacijos_), S0Token: asociacijos, S0_LastThreeLetters: jos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tačiau, pamoką, merginos ,.. ]
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, LBA, ) ,.. ]
 
 
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tačiau]   B= [pamoką, merginos, gavo ,.. ]
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [LBA, ), prezidentas ,.. ]
+B0Token: pamoką, B0_LastThreeLetters: ką, B0_LastTwoLetters: ą, B1Token: merginos, B1_LastThreeLetters: nos, B1_LastTwoLetters: os, S0B0Distance: 1, S0B0Token: tačiau_pamoką, S0B1Token: tačiau_merginos, S0B2Token: tačiau_gavo, S0Token: tačiau, S0_LastThreeLetters: iau, S0_LastTwoLetters: au, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: LBA, B0_LastThreeLetters: LBA, B1Token: ), B1_LastThreeLetters: ), S0B0Distance: 1, S0B0Token: (_LBA, S0B1Token: (_), S0B2Token: (_prezidentas, S0Token: (, S0_LastThreeLetters: (, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pamoką, merginos, gavo ,.. ]
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [LBA, ), prezidentas ,.. ]
 
 
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pamoką]   B= [merginos, gavo, . ,.. ]
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [LBA]   B= [), prezidentas, Stasys ,.. ]
+B0Token: merginos, B0_LastThreeLetters: nos, B0_LastTwoLetters: os, B1Token: gavo, B1_LastThreeLetters: avo, B1_LastTwoLetters: vo, S0B0Distance: 1, S0B0Token: pamoką_merginos, S0B1Token: pamoką_gavo, S0B2Token: pamoką_., S0Token: pamoką, S0_LastThreeLetters: ką, S0_LastTwoLetters: ą, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: ), B0_LastThreeLetters: ), B1Token: prezidentas, B1_LastThreeLetters: tas, S0B0Distance: 1, S0B0Token: LBA_), S0B1Token: LBA_prezidentas, S0B2Token: LBA_Stasys, S0Token: LBA, S0_LastThreeLetters: LBA, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [merginos, gavo, . ,.. ]
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), prezidentas, Stasys ,.. ]
 
 
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [merginos]   B= [gavo, . ,.. ]
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [prezidentas, Stasys, Kropas ,.. ]
+B0Token: gavo, B0_LastThreeLetters: avo, B0_LastTwoLetters: vo, B1Token: ., B1_LastThreeLetters: ., B1_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: merginos_gavo, S0B1Token: merginos_., S0Token: merginos, S0_LastThreeLetters: nos, S0_LastTwoLetters: os, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: prezidentas, B0_LastThreeLetters: tas, B1Token: Stasys, B1_LastThreeLetters: sys, S0B0Distance: 1, S0B0Token: )_prezidentas, S0B1Token: )_Stasys, S0B2Token: )_Kropas, S0Token: ), S0_LastThreeLetters: ), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gavo, . ,.. ]
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prezidentas, Stasys, Kropas ,.. ]
 
 
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gavo]   B= [.]
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prezidentas]   B= [Stasys, Kropas, DELFI ,.. ]
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Distance: 1, S0B0Token: gavo_., S0Token: gavo, S0_LastThreeLetters: avo, S0_LastTwoLetters: vo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Token: Stasys, B0_LastThreeLetters: sys, B1Token: Kropas, B1_LastThreeLetters: pas, S0B0Distance: 1, S0B0Token: prezidentas_Stasys, S0B1Token: prezidentas_Kropas, S0B2Token: prezidentas_DELFI, S0Token: prezidentas, S0_LastThreeLetters: tas, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Stasys, Kropas, DELFI ,.. ]
 
 
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Stasys]   B= [Kropas, DELFI, sakė ,.. ]
 
-B0Token: Kropas, B0_LastThreeLetters: pas, B1Token: DELFI, B1_LastThreeLetters: LFI, S0B0Distance: 1, S0B0Token: Stasys_Kropas, S0B1Token: Stasys_DELFI, S0B2Token: Stasys_sakė, S0Token: Stasys, S0_LastThreeLetters: sys, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kropas, DELFI, sakė ,.. ]
-
-
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kropas]   B= [DELFI, sakė, , ,.. ]
-
-B0Token: DELFI, B0_LastThreeLetters: LFI, B1Token: sakė, B1_LastThreeLetters: kė, S0B0Distance: 1, S0B0Token: Kropas_DELFI, S0B1Token: Kropas_sakė, S0B2Token: Kropas_,, S0Token: Kropas, S0_LastThreeLetters: pas, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [DELFI, sakė, , ,.. ]
-
-
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [DELFI]   B= [sakė, ,, kad ,.. ]
-
-B0Token: sakė, B0_LastThreeLetters: kė, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: DELFI_sakė, S0B1Token: DELFI_,, S0B2Token: DELFI_kad, S0Token: DELFI, S0_LastThreeLetters: LFI, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sakė, ,, kad ,.. ]
-
-
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sakė]   B= [,, kad, sutinka ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: kad, B1_LastThreeLetters: kad, S0B0Distance: 1, S0B0Token: sakė_,, S0B1Token: sakė_kad, S0B2Token: sakė_sutinka, S0Token: sakė, S0_LastThreeLetters: kė, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kad, sutinka ,.. ]
-
-
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kad, sutinka, su ,.. ]
-
-B0Token: kad, B0_LastThreeLetters: kad, B1Token: sutinka, B1_LastThreeLetters: nka, S0B0Distance: 1, S0B0Token: ,_kad, S0B1Token: ,_sutinka, S0B2Token: ,_su, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kad, sutinka, su ,.. ]
-
-
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kad]   B= [sutinka, su, finansų ,.. ]
-
-B0Token: sutinka, B0_LastThreeLetters: nka, B1Token: su, B1_LastThreeLetters: su, S0B0Distance: 1, S0B0Token: kad_sutinka, S0B1Token: kad_su, S0B2Token: kad_finansų, S0Token: kad, S0_LastThreeLetters: kad, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sutinka, su, finansų ,.. ]
-
-
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sutinka]   B= [su, finansų, ministre ,.. ]
-
-B0Token: su, B0_LastThreeLetters: su, B1Token: finansų, B1_LastThreeLetters: sų, S0B0Distance: 1, S0B0Token: sutinka_su, S0B1Token: sutinka_finansų, S0B2Token: sutinka_ministre, S0Token: sutinka, S0_LastThreeLetters: nka, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [su, finansų, ministre ,.. ]
-
-
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [su]   B= [finansų, ministre, Rasa ,.. ]
-
-B0Token: finansų, B0_LastThreeLetters: sų, B1Token: ministre, B1_LastThreeLetters: tre, S0B0Distance: 1, S0B0Token: su_finansų, S0B1Token: su_ministre, S0B2Token: su_Rasa, S0Token: su, S0_LastThreeLetters: su, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [finansų, ministre, Rasa ,.. ]
-
-
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [finansų]   B= [ministre, Rasa, Budbergyte ,.. ]
-
-B0Token: ministre, B0_LastThreeLetters: tre, B1Token: Rasa, B1_LastThreeLetters: asa, S0B0Distance: 1, S0B0Token: finansų_ministre, S0B1Token: finansų_Rasa, S0B2Token: finansų_Budbergyte, S0Token: finansų, S0_LastThreeLetters: sų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ministre, Rasa, Budbergyte ,.. ]
-
-
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ministre]   B= [Rasa, Budbergyte, dėl ,.. ]
-
-B0Token: Rasa, B0_LastThreeLetters: asa, B1Token: Budbergyte, B1_LastThreeLetters: yte, S0B0Distance: 1, S0B0Token: ministre_Rasa, S0B1Token: ministre_Budbergyte, S0B2Token: ministre_dėl, S0Token: ministre, S0_LastThreeLetters: tre, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Rasa, Budbergyte, dėl ,.. ]
-
-
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Rasa]   B= [Budbergyte, dėl, to ,.. ]
-
-B0Token: Budbergyte, B0_LastThreeLetters: yte, B1Token: dėl, B1_LastThreeLetters: ėl, S0B0Distance: 1, S0B0Token: Rasa_Budbergyte, S0B1Token: Rasa_dėl, S0B2Token: Rasa_to, S0Token: Rasa, S0_LastThreeLetters: asa, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Budbergyte, dėl, to ,.. ]
-
-
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Budbergyte]   B= [dėl, to, , ,.. ]
-
-B0Token: dėl, B0_LastThreeLetters: ėl, B1Token: to, B1_LastThreeLetters: to, S0B0Distance: 1, S0B0Token: Budbergyte_dėl, S0B1Token: Budbergyte_to, S0B2Token: Budbergyte_,, S0Token: Budbergyte, S0_LastThreeLetters: yte, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dėl, to, , ,.. ]
-
-
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dėl]   B= [to, ,, jog ,.. ]
-
-B0Token: to, B0_LastThreeLetters: to, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: dėl_to, S0B1Token: dėl_,, S0B2Token: dėl_jog, S0Token: dėl, S0_LastThreeLetters: ėl, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [to, ,, jog ,.. ]
-
-
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [to]   B= [,, jog, naujasis ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: jog, B1_LastThreeLetters: jog, S0B0Distance: 1, S0B0Token: to_,, S0B1Token: to_jog, S0B2Token: to_naujasis, S0Token: to, S0_LastThreeLetters: to, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, jog, naujasis ,.. ]
-
-
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [jog, naujasis, įstatymas ,.. ]
-
-B0Token: jog, B0_LastThreeLetters: jog, B1Token: naujasis, B1_LastThreeLetters: sis, S0B0Distance: 1, S0B0Token: ,_jog, S0B1Token: ,_naujasis, S0B2Token: ,_įstatymas, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jog, naujasis, įstatymas ,.. ]
-
-
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jog]   B= [naujasis, įstatymas, atvers ,.. ]
-
-B0Token: naujasis, B0_LastThreeLetters: sis, B1Token: įstatymas, B1_LastThreeLetters: mas, S0B0Distance: 1, S0B0Token: jog_naujasis, S0B1Token: jog_įstatymas, S0B2Token: jog_atvers, S0Token: jog, S0_LastThreeLetters: jog, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [naujasis, įstatymas, atvers ,.. ]
-
-
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [naujasis]   B= [įstatymas, atvers, kelią ,.. ]
-
-B0Token: įstatymas, B0_LastThreeLetters: mas, B1Token: atvers, B1_LastThreeLetters: ers, S0B0Distance: 1, S0B0Token: naujasis_įstatymas, S0B1Token: naujasis_atvers, S0B2Token: naujasis_kelią, S0Token: naujasis, S0_LastThreeLetters: sis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [įstatymas, atvers, kelią ,.. ]
-
-
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [įstatymas]   B= [atvers, kelią, užtikrintai ,.. ]
-
-B0Token: atvers, B0_LastThreeLetters: ers, B1Token: kelią, B1_LastThreeLetters: ią, S0B0Distance: 1, S0B0Token: įstatymas_atvers, S0B1Token: įstatymas_kelią, S0B2Token: įstatymas_užtikrintai, S0Token: įstatymas, S0_LastThreeLetters: mas, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atvers, kelią, užtikrintai ,.. ]
-
-
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atvers]   B= [kelią, užtikrintai, vartotojų ,.. ]
-
-B0Token: kelią, B0_LastThreeLetters: ią, B1Token: užtikrintai, B1_LastThreeLetters: tai, S0B0Distance: 1, S0B0Token: atvers_kelią, S0B1Token: atvers_užtikrintai, S0B2Token: atvers_vartotojų, S0Token: atvers, S0_LastThreeLetters: ers, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atvers, kelią]   B= [užtikrintai, vartotojų, apsaugai ,.. ]
-
-B0Token: užtikrintai, B0_LastThreeLetters: tai, B1Token: vartotojų, B1_LastThreeLetters: jų, S0B0Distance: 1, S0B0Token: kelią_užtikrintai, S0B1Token: kelią_vartotojų, S0B2Token: kelią_apsaugai, S0S1Distance: 1, S0Token: kelią, S0_LastThreeLetters: ią, S1B0Token: atvers_užtikrintai, S1S0B0Token: atvers_kelią_užtikrintai, S1S0Token: atvers_kelią, S1Token: atvers, S1_LastThreeLetters: ers, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-53- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[atvers, kelią]]   B= [užtikrintai, vartotojų, apsaugai ,.. ]
-
-B0Token: užtikrintai, B0_LastThreeLetters: tai, B1Token: vartotojų, B1_LastThreeLetters: jų, S0B0Distance: 1, S0B0Token: atvers_kelią_užtikrintai, S0B1Token: atvers_kelią_vartotojų, S0B2Token: atvers_kelią_apsaugai, S0Token: atvers_kelią, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [užtikrintai, vartotojų, apsaugai ,.. ]
-
-
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [užtikrintai]   B= [vartotojų, apsaugai, . ,.. ]
-
-B0Token: vartotojų, B0_LastThreeLetters: jų, B1Token: apsaugai, B1_LastThreeLetters: gai, S0B0Distance: 1, S0B0Token: užtikrintai_vartotojų, S0B1Token: užtikrintai_apsaugai, S0B2Token: užtikrintai_., S0Token: užtikrintai, S0_LastThreeLetters: tai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vartotojų, apsaugai, . ,.. ]
-
-
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vartotojų]   B= [apsaugai, . ,.. ]
-
-B0Token: apsaugai, B0_LastThreeLetters: gai, B1Token: ., B1_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: vartotojų_apsaugai, S0B1Token: vartotojų_., S0Token: vartotojų, S0_LastThreeLetters: jų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [apsaugai, . ,.. ]
-
-
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [apsaugai]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: apsaugai_., S0Token: apsaugai, S0_LastThreeLetters: gai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 2606 - 
-Finansų ministerija pabrėžia , kad siekiant , jog kredito gavėjai nepriimtų skubotų sprendimų dėl ilgalaikių įsipareigojimų , projekte numatytas 30 dienų laikotarpis iki sutarties pasirašymo , per kurį kredito gavėjas galėtų atidžiai palyginti , apsvarstyti ir įvertinti paskolos pasiūlymus bei savo galimybes .
-### Existing MWEs: 
-1- **nepriimtų sprendimų** (LVC)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Finansų, ministerija, pabrėžia ,.. ]
-
-
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Finansų]   B= [ministerija, pabrėžia, , ,.. ]
-
-B0Token: ministerija, B0_LastThreeLetters: ija, B1Token: pabrėžia, B1_LastThreeLetters: �ia, S0B0Distance: 1, S0B0Token: Finansų_ministerija, S0B1Token: Finansų_pabrėžia, S0B2Token: Finansų_,, S0Token: Finansų, S0_LastThreeLetters: sų, StackLength: 1, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ministerija, pabrėžia, , ,.. ]
-
-
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ministerija]   B= [pabrėžia, ,, kad ,.. ]
-
-B0Token: pabrėžia, B0_LastThreeLetters: �ia, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: ministerija_pabrėžia, S0B1Token: ministerija_,, S0B2Token: ministerija_kad, S0Token: ministerija, S0_LastThreeLetters: ija, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pabrėžia, ,, kad ,.. ]
-
-
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pabrėžia]   B= [,, kad, siekiant ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: kad, B1_LastThreeLetters: kad, S0B0Distance: 1, S0B0Token: pabrėžia_,, S0B1Token: pabrėžia_kad, S0B2Token: pabrėžia_siekiant, S0Token: pabrėžia, S0_LastThreeLetters: �ia, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kad, siekiant ,.. ]
-
-
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kad, siekiant, , ,.. ]
-
-B0Token: kad, B0_LastThreeLetters: kad, B1Token: siekiant, B1_LastThreeLetters: ant, S0B0Distance: 1, S0B0Token: ,_kad, S0B1Token: ,_siekiant, S0B2Token: ,_,, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kad, siekiant, , ,.. ]
-
-
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kad]   B= [siekiant, ,, jog ,.. ]
-
-B0Token: siekiant, B0_LastThreeLetters: ant, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: kad_siekiant, S0B1Token: kad_,, S0B2Token: kad_jog, S0Token: kad, S0_LastThreeLetters: kad, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [siekiant, ,, jog ,.. ]
-
-
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [siekiant]   B= [,, jog, kredito ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: jog, B1_LastThreeLetters: jog, S0B0Distance: 1, S0B0Token: siekiant_,, S0B1Token: siekiant_jog, S0B2Token: siekiant_kredito, S0Token: siekiant, S0_LastThreeLetters: ant, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, jog, kredito ,.. ]
-
-
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [jog, kredito, gavėjai ,.. ]
-
-B0Token: jog, B0_LastThreeLetters: jog, B1Token: kredito, B1_LastThreeLetters: ito, S0B0Distance: 1, S0B0Token: ,_jog, S0B1Token: ,_kredito, S0B2Token: ,_gavėjai, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jog, kredito, gavėjai ,.. ]
-
-
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jog]   B= [kredito, gavėjai, nepriimtų ,.. ]
-
-B0Token: kredito, B0_LastThreeLetters: ito, B1Token: gavėjai, B1_LastThreeLetters: jai, S0B0Distance: 1, S0B0Token: jog_kredito, S0B1Token: jog_gavėjai, S0B2Token: jog_nepriimtų, S0Token: jog, S0_LastThreeLetters: jog, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kredito, gavėjai, nepriimtų ,.. ]
-
-
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kredito]   B= [gavėjai, nepriimtų, skubotų ,.. ]
-
-B0Token: gavėjai, B0_LastThreeLetters: jai, B1Token: nepriimtų, B1_LastThreeLetters: tų, S0B0Distance: 1, S0B0Token: kredito_gavėjai, S0B1Token: kredito_nepriimtų, S0B2Token: kredito_skubotų, S0Token: kredito, S0_LastThreeLetters: ito, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gavėjai, nepriimtų, skubotų ,.. ]
-
-
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gavėjai]   B= [nepriimtų, skubotų, sprendimų ,.. ]
-
-B0Token: nepriimtų, B0_LastThreeLetters: tų, B1Token: skubotų, B1_LastThreeLetters: tų, S0B0Distance: 1, S0B0Token: gavėjai_nepriimtų, S0B1Token: gavėjai_skubotų, S0B2Token: gavėjai_sprendimų, S0Token: gavėjai, S0_LastThreeLetters: jai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nepriimtų, skubotų, sprendimų ,.. ]
-
-
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nepriimtų]   B= [skubotų, sprendimų, dėl ,.. ]
-
-B0Token: skubotų, B0_LastThreeLetters: tų, B1Token: sprendimų, B1_LastThreeLetters: mų, S0B0Distance: 1, S0B0Token: nepriimtų_skubotų, S0B1Token: nepriimtų_sprendimų, S0B2Token: nepriimtų_dėl, S0Token: nepriimtų, S0_LastThreeLetters: tų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [skubotų, sprendimų, dėl ,.. ]
-
-
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [skubotų]   B= [sprendimų, dėl, ilgalaikių ,.. ]
-
-B0Token: sprendimų, B0_LastThreeLetters: mų, B1Token: dėl, B1_LastThreeLetters: ėl, S0B0Distance: 1, S0B0Token: skubotų_sprendimų, S0B1Token: skubotų_dėl, S0B2Token: skubotų_ilgalaikių, S0Token: skubotų, S0_LastThreeLetters: tų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sprendimų, dėl, ilgalaikių ,.. ]
-
-
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sprendimų]   B= [dėl, ilgalaikių, įsipareigojimų ,.. ]
-
-B0Token: dėl, B0_LastThreeLetters: ėl, B1Token: ilgalaikių, B1_LastThreeLetters: ių, S0B0Distance: 1, S0B0Token: sprendimų_dėl, S0B1Token: sprendimų_ilgalaikių, S0B2Token: sprendimų_įsipareigojimų, S0Token: sprendimų, S0_LastThreeLetters: mų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dėl, ilgalaikių, įsipareigojimų ,.. ]
-
-
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dėl]   B= [ilgalaikių, įsipareigojimų, , ,.. ]
-
-B0Token: ilgalaikių, B0_LastThreeLetters: ių, B1Token: įsipareigojimų, B1_LastThreeLetters: mų, S0B0Distance: 1, S0B0Token: dėl_ilgalaikių, S0B1Token: dėl_įsipareigojimų, S0B2Token: dėl_,, S0Token: dėl, S0_LastThreeLetters: ėl, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ilgalaikių, įsipareigojimų, , ,.. ]
-
-
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ilgalaikių]   B= [įsipareigojimų, ,, projekte ,.. ]
-
-B0Token: įsipareigojimų, B0_LastThreeLetters: mų, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: ilgalaikių_įsipareigojimų, S0B1Token: ilgalaikių_,, S0B2Token: ilgalaikių_projekte, S0Token: ilgalaikių, S0_LastThreeLetters: ių, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [įsipareigojimų, ,, projekte ,.. ]
-
-
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [įsipareigojimų]   B= [,, projekte, numatytas ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: projekte, B1_LastThreeLetters: kte, S0B0Distance: 1, S0B0Token: įsipareigojimų_,, S0B1Token: įsipareigojimų_projekte, S0B2Token: įsipareigojimų_numatytas, S0Token: įsipareigojimų, S0_LastThreeLetters: mų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, projekte, numatytas ,.. ]
-
-
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [projekte, numatytas, 30 ,.. ]
-
-B0Token: projekte, B0_LastThreeLetters: kte, B1Token: numatytas, B1_LastThreeLetters: tas, S0B0Distance: 1, S0B0Token: ,_projekte, S0B1Token: ,_numatytas, S0B2Token: ,_30, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [projekte, numatytas, 30 ,.. ]
-
-
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [projekte]   B= [numatytas, 30, dienų ,.. ]
-
-B0Token: numatytas, B0_LastThreeLetters: tas, B1Token: 30, B1_LastThreeLetters: 30, S0B0Distance: 1, S0B0Token: projekte_numatytas, S0B1Token: projekte_30, S0B2Token: projekte_dienų, S0Token: projekte, S0_LastThreeLetters: kte, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [numatytas, 30, dienų ,.. ]
-
-
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [numatytas]   B= [30, dienų, laikotarpis ,.. ]
-
-B0Token: 30, B0_LastThreeLetters: 30, B1Token: dienų, B1_LastThreeLetters: nų, S0B0Distance: 1, S0B0Token: numatytas_30, S0B1Token: numatytas_dienų, S0B2Token: numatytas_laikotarpis, S0Token: numatytas, S0_LastThreeLetters: tas, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [30, dienų, laikotarpis ,.. ]
-
-
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [30]   B= [dienų, laikotarpis, iki ,.. ]
-
-B0Token: dienų, B0_LastThreeLetters: nų, B1Token: laikotarpis, B1_LastThreeLetters: pis, S0B0Distance: 1, S0B0Token: 30_dienų, S0B1Token: 30_laikotarpis, S0B2Token: 30_iki, S0Token: 30, S0_LastThreeLetters: 30, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dienų, laikotarpis, iki ,.. ]
-
-
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dienų]   B= [laikotarpis, iki, sutarties ,.. ]
-
-B0Token: laikotarpis, B0_LastThreeLetters: pis, B1Token: iki, B1_LastThreeLetters: iki, S0B0Distance: 1, S0B0Token: dienų_laikotarpis, S0B1Token: dienų_iki, S0B2Token: dienų_sutarties, S0Token: dienų, S0_LastThreeLetters: nų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [laikotarpis, iki, sutarties ,.. ]
-
-
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [laikotarpis]   B= [iki, sutarties, pasirašymo ,.. ]
-
-B0Token: iki, B0_LastThreeLetters: iki, B1Token: sutarties, B1_LastThreeLetters: ies, S0B0Distance: 1, S0B0Token: laikotarpis_iki, S0B1Token: laikotarpis_sutarties, S0B2Token: laikotarpis_pasirašymo, S0Token: laikotarpis, S0_LastThreeLetters: pis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iki, sutarties, pasirašymo ,.. ]
-
-
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iki]   B= [sutarties, pasirašymo, , ,.. ]
-
-B0Token: sutarties, B0_LastThreeLetters: ies, B1Token: pasirašymo, B1_LastThreeLetters: ymo, S0B0Distance: 1, S0B0Token: iki_sutarties, S0B1Token: iki_pasirašymo, S0B2Token: iki_,, S0Token: iki, S0_LastThreeLetters: iki, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sutarties, pasirašymo, , ,.. ]
-
-
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sutarties]   B= [pasirašymo, ,, per ,.. ]
-
-B0Token: pasirašymo, B0_LastThreeLetters: ymo, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: sutarties_pasirašymo, S0B1Token: sutarties_,, S0B2Token: sutarties_per, S0Token: sutarties, S0_LastThreeLetters: ies, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pasirašymo, ,, per ,.. ]
-
-
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pasirašymo]   B= [,, per, kurį ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: per, B1_LastThreeLetters: per, S0B0Distance: 1, S0B0Token: pasirašymo_,, S0B1Token: pasirašymo_per, S0B2Token: pasirašymo_kurį, S0Token: pasirašymo, S0_LastThreeLetters: ymo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, per, kurį ,.. ]
-
-
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [per, kurį, kredito ,.. ]
-
-B0Token: per, B0_LastThreeLetters: per, B1Token: kurį, B1_LastThreeLetters: rį, S0B0Distance: 1, S0B0Token: ,_per, S0B1Token: ,_kurį, S0B2Token: ,_kredito, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, kurį, kredito ,.. ]
-
-
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [kurį, kredito, gavėjas ,.. ]
-
-B0Token: kurį, B0_LastThreeLetters: rį, B1Token: kredito, B1_LastThreeLetters: ito, S0B0Distance: 1, S0B0Token: per_kurį, S0B1Token: per_kredito, S0B2Token: per_gavėjas, S0Token: per, S0_LastThreeLetters: per, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kurį, kredito, gavėjas ,.. ]
-
-
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kurį]   B= [kredito, gavėjas, galėtų ,.. ]
-
-B0Token: kredito, B0_LastThreeLetters: ito, B1Token: gavėjas, B1_LastThreeLetters: jas, S0B0Distance: 1, S0B0Token: kurį_kredito, S0B1Token: kurį_gavėjas, S0B2Token: kurį_galėtų, S0Token: kurį, S0_LastThreeLetters: rį, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kredito, gavėjas, galėtų ,.. ]
-
-
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kredito]   B= [gavėjas, galėtų, atidžiai ,.. ]
-
-B0Token: gavėjas, B0_LastThreeLetters: jas, B1Token: galėtų, B1_LastThreeLetters: tų, S0B0Distance: 1, S0B0Token: kredito_gavėjas, S0B1Token: kredito_galėtų, S0B2Token: kredito_atidžiai, S0Token: kredito, S0_LastThreeLetters: ito, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gavėjas, galėtų, atidžiai ,.. ]
-
-
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gavėjas]   B= [galėtų, atidžiai, palyginti ,.. ]
-
-B0Token: galėtų, B0_LastThreeLetters: tų, B1Token: atidžiai, B1_LastThreeLetters: iai, S0B0Distance: 1, S0B0Token: gavėjas_galėtų, S0B1Token: gavėjas_atidžiai, S0B2Token: gavėjas_palyginti, S0Token: gavėjas, S0_LastThreeLetters: jas, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [galėtų, atidžiai, palyginti ,.. ]
-
-
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [galėtų]   B= [atidžiai, palyginti, , ,.. ]
-
-B0Token: atidžiai, B0_LastThreeLetters: iai, B1Token: palyginti, B1_LastThreeLetters: nti, S0B0Distance: 1, S0B0Token: galėtų_atidžiai, S0B1Token: galėtų_palyginti, S0B2Token: galėtų_,, S0Token: galėtų, S0_LastThreeLetters: tų, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atidžiai, palyginti, , ,.. ]
-
-
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atidžiai]   B= [palyginti, ,, apsvarstyti ,.. ]
-
-B0Token: palyginti, B0_LastThreeLetters: nti, B1Token: ,, B1_LastThreeLetters: ,, S0B0Distance: 1, S0B0Token: atidžiai_palyginti, S0B1Token: atidžiai_,, S0B2Token: atidžiai_apsvarstyti, S0Token: atidžiai, S0_LastThreeLetters: iai, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [palyginti, ,, apsvarstyti ,.. ]
-
-
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [palyginti]   B= [,, apsvarstyti, ir ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B1Token: apsvarstyti, B1_LastThreeLetters: yti, S0B0Distance: 1, S0B0Token: palyginti_,, S0B1Token: palyginti_apsvarstyti, S0B2Token: palyginti_ir, S0Token: palyginti, S0_LastThreeLetters: nti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, apsvarstyti, ir ,.. ]
-
-
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [apsvarstyti, ir, įvertinti ,.. ]
-
-B0Token: apsvarstyti, B0_LastThreeLetters: yti, B1Token: ir, B1_LastThreeLetters: ir, S0B0Distance: 1, S0B0Token: ,_apsvarstyti, S0B1Token: ,_ir, S0B2Token: ,_įvertinti, S0Token: ,, S0_LastThreeLetters: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [apsvarstyti, ir, įvertinti ,.. ]
-
-
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [apsvarstyti]   B= [ir, įvertinti, paskolos ,.. ]
-
-B0Token: ir, B0_LastThreeLetters: ir, B1Token: įvertinti, B1_LastThreeLetters: nti, S0B0Distance: 1, S0B0Token: apsvarstyti_ir, S0B1Token: apsvarstyti_įvertinti, S0B2Token: apsvarstyti_paskolos, S0Token: apsvarstyti, S0_LastThreeLetters: yti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ir, įvertinti, paskolos ,.. ]
-
-
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ir]   B= [įvertinti, paskolos, pasiūlymus ,.. ]
-
-B0Token: įvertinti, B0_LastThreeLetters: nti, B1Token: paskolos, B1_LastThreeLetters: los, S0B0Distance: 1, S0B0Token: ir_įvertinti, S0B1Token: ir_paskolos, S0B2Token: ir_pasiūlymus, S0Token: ir, S0_LastThreeLetters: ir, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [įvertinti, paskolos, pasiūlymus ,.. ]
-
-
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [įvertinti]   B= [paskolos, pasiūlymus, bei ,.. ]
-
-B0Token: paskolos, B0_LastThreeLetters: los, B1Token: pasiūlymus, B1_LastThreeLetters: mus, S0B0Distance: 1, S0B0Token: įvertinti_paskolos, S0B1Token: įvertinti_pasiūlymus, S0B2Token: įvertinti_bei, S0Token: įvertinti, S0_LastThreeLetters: nti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [paskolos, pasiūlymus, bei ,.. ]
-
-
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [paskolos]   B= [pasiūlymus, bei, savo ,.. ]
-
-B0Token: pasiūlymus, B0_LastThreeLetters: mus, B1Token: bei, B1_LastThreeLetters: bei, S0B0Distance: 1, S0B0Token: paskolos_pasiūlymus, S0B1Token: paskolos_bei, S0B2Token: paskolos_savo, S0Token: paskolos, S0_LastThreeLetters: los, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pasiūlymus, bei, savo ,.. ]
-
-
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pasiūlymus]   B= [bei, savo, galimybes ,.. ]
-
-B0Token: bei, B0_LastThreeLetters: bei, B1Token: savo, B1_LastThreeLetters: avo, S0B0Distance: 1, S0B0Token: pasiūlymus_bei, S0B1Token: pasiūlymus_savo, S0B2Token: pasiūlymus_galimybes, S0Token: pasiūlymus, S0_LastThreeLetters: mus, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bei, savo, galimybes ,.. ]
-
-
-
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bei]   B= [savo, galimybes, . ,.. ]
-
-B0Token: savo, B0_LastThreeLetters: avo, B1Token: galimybes, B1_LastThreeLetters: bes, S0B0Distance: 1, S0B0Token: bei_savo, S0B1Token: bei_galimybes, S0B2Token: bei_., S0Token: bei, S0_LastThreeLetters: bei, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [savo, galimybes, . ,.. ]
-
-
-
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [savo]   B= [galimybes, . ,.. ]
-
-B0Token: galimybes, B0_LastThreeLetters: bes, B1Token: ., B1_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: savo_galimybes, S0B1Token: savo_., S0Token: savo, S0_LastThreeLetters: avo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [galimybes, . ,.. ]
-
-
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [galimybes]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., S0B0Distance: 1, S0B0Token: galimybes_., S0Token: galimybes, S0_LastThreeLetters: bes, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

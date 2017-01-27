@@ -1,1239 +1,1271 @@
-## Sentence No. 1977 - 
-فقط مي‌دانست يادآورِ عملي است که دوست نداشت ولي مجبور بود انجام دهد . 
+## Sentence No. 2389 - 
+بيش از همه آرزو کرد جايي داشتند که مي‌توانستند در آن با هم تنها باشند و مجبور نباشند هر بار فقط برايِ ارضايِ غريزه با هم ملاقات کنند . 
 ### Existing MWEs: 
-1- **دوست نداشت** (OTH)
-2- **مجبور بود** (OTH)
-3- **انجام دهد** (OTH)
+1- **آرزو کرد** (OTH)
+2- **مجبور نباشند** (OTH)
+3- **ملاقات کنند** (OTH)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [فقط, مي‌دانست, يادآورِ ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بيش, از, همه ,.. ]
 
-B0Lemma: فقط, B0POS: ADV, B0Token: فقط, B1Lemma: دانست, B1POS: VERB, B1Token: مي‌دانست, 
+B0Lemma: بيش, B0POS: ADV, B0Token: بيش, B1Lemma: از, B1POS: ADP, B1Token: از, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فقط]   B= [مي‌دانست, يادآورِ, عملي ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بيش]   B= [از, همه, آرزو ,.. ]
 
-B0Lemma: دانست, B0POS: VERB, B0Token: مي‌دانست, B1Lemma: يادآور, B1POS: ADJ, B1Token: يادآورِ, S0B0Distance: 1, S0B0Lemma: فقط_دانست, S0B0LemmaPOS: فقط_VERB, S0B0POS: ADV_VERB, S0B0POSLemma: ADV_دانست, S0B0Token: فقط_مي‌دانست, S0B1Lemma: فقط_يادآور, S0B1LemmaPOS: فقط_ADJ, S0B1POS: ADV_ADJ, S0B1POSLemma: ADV_يادآور, S0B1Token: فقط_يادآورِ, S0Lemma: فقط, S0POS: ADV, S0Token: فقط, 
+B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: همه, B1POS: PRON, B1Token: همه, S0B0Distance: 1, S0B0Lemma: بيش_از, S0B0LemmaPOS: بيش_ADP, S0B0POS: ADV_ADP, S0B0POSLemma: ADV_از, S0B0Token: بيش_از, S0B1Lemma: بيش_همه, S0B1LemmaPOS: بيش_PRON, S0B1POS: ADV_PRON, S0B1POSLemma: ADV_همه, S0B1Token: بيش_همه, S0Lemma: بيش, S0POS: ADV, S0Token: بيش, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌دانست, يادآورِ, عملي ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [از, همه, آرزو ,.. ]
 
-B0Lemma: دانست, B0POS: VERB, B0Token: مي‌دانست, B1Lemma: يادآور, B1POS: ADJ, B1Token: يادآورِ, transitionHistoryLength1: 0, 
+B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: همه, B1POS: PRON, B1Token: همه, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌دانست]   B= [يادآورِ, عملي, است ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [از]   B= [همه, آرزو, کرد ,.. ]
 
-B0Lemma: يادآور, B0POS: ADJ, B0Token: يادآورِ, B1Lemma: عمل, B1POS: NOUN, B1Token: عملي, S0B0Distance: 1, S0B0Lemma: دانست_يادآور, S0B0LemmaPOS: دانست_ADJ, S0B0POS: VERB_ADJ, S0B0POSLemma: VERB_يادآور, S0B0Token: مي‌دانست_يادآورِ, S0B1Lemma: دانست_عمل, S0B1LemmaPOS: دانست_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_عمل, S0B1Token: مي‌دانست_عملي, S0Lemma: دانست, S0POS: VERB, S0Token: مي‌دانست, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: همه, B0POS: PRON, B0Token: همه, B1Lemma: آرزو, B1POS: NOUN, B1Token: آرزو, S0B0Distance: 1, S0B0Lemma: از_همه, S0B0LemmaPOS: از_PRON, S0B0POS: ADP_PRON, S0B0POSLemma: ADP_همه, S0B0Token: از_همه, S0B1Lemma: از_آرزو, S0B1LemmaPOS: از_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_آرزو, S0B1Token: از_آرزو, S0Lemma: از, S0POS: ADP, S0Token: از, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [يادآورِ, عملي, است ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [همه, آرزو, کرد ,.. ]
 
-B0Lemma: يادآور, B0POS: ADJ, B0Token: يادآورِ, B1Lemma: عمل, B1POS: NOUN, B1Token: عملي, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: همه, B0POS: PRON, B0Token: همه, B1Lemma: آرزو, B1POS: NOUN, B1Token: آرزو, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [يادآورِ]   B= [عملي, است, که ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [همه]   B= [آرزو, کرد, جايي ,.. ]
 
-B0Lemma: عمل, B0POS: NOUN, B0Token: عملي, B1Lemma: است, B1POS: VERB, B1Token: است, S0B0Distance: 1, S0B0Lemma: يادآور_عمل, S0B0LemmaPOS: يادآور_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_عمل, S0B0Token: يادآورِ_عملي, S0B1Lemma: يادآور_است, S0B1LemmaPOS: يادآور_VERB, S0B1POS: ADJ_VERB, S0B1POSLemma: ADJ_است, S0B1Token: يادآورِ_است, S0Lemma: يادآور, S0POS: ADJ, S0Token: يادآورِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: آرزو, B0POS: NOUN, B0Token: آرزو, B1Lemma: کرد, B1POS: VERB, B1Token: کرد, S0B0Distance: 1, S0B0Lemma: همه_آرزو, S0B0LemmaPOS: همه_NOUN, S0B0POS: PRON_NOUN, S0B0POSLemma: PRON_آرزو, S0B0Token: همه_آرزو, S0B1Lemma: همه_کرد, S0B1LemmaPOS: همه_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_کرد, S0B1Token: همه_کرد, S0Lemma: همه, S0POS: PRON, S0Token: همه, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [عملي, است, که ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آرزو, کرد, جايي ,.. ]
 
-B0Lemma: عمل, B0POS: NOUN, B0Token: عملي, B1Lemma: است, B1POS: VERB, B1Token: است, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: آرزو, B0POS: NOUN, B0Token: آرزو, B1Lemma: کرد, B1POS: VERB, B1Token: کرد, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [عملي]   B= [است, که, دوست ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آرزو]   B= [کرد, جايي, داشتند ,.. ]
 
-B0Lemma: است, B0POS: VERB, B0Token: است, B1Lemma: که, B1POS: SCONJ, B1Token: که, S0B0Distance: 1, S0B0Lemma: عمل_است, S0B0LemmaPOS: عمل_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_است, S0B0Token: عملي_است, S0B1Lemma: عمل_که, S0B1LemmaPOS: عمل_SCONJ, S0B1POS: NOUN_SCONJ, S0B1POSLemma: NOUN_که, S0B1Token: عملي_که, S0Lemma: عمل, S0POS: NOUN, S0Token: عملي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: کرد, B0POS: VERB, B0Token: کرد, B1Lemma: جا, B1POS: NOUN, B1Token: جايي, S0B0Distance: 1, S0B0Lemma: آرزو_کرد, S0B0LemmaPOS: آرزو_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کرد, S0B0Token: آرزو_کرد, S0B1Lemma: آرزو_جا, S0B1LemmaPOS: آرزو_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_جا, S0B1Token: آرزو_جايي, S0Lemma: آرزو, S0POS: NOUN, S0Token: آرزو, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [است, که, دوست ,.. ]
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آرزو, کرد]   B= [جايي, داشتند, که ,.. ]
 
-B0Lemma: است, B0POS: VERB, B0Token: است, B1Lemma: که, B1POS: SCONJ, B1Token: که, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: جا, B0POS: NOUN, B0Token: جايي, B1Lemma: داشت, B1POS: VERB, B1Token: داشتند, S0B0Distance: 1, S0B0Lemma: کرد_جا, S0B0LemmaPOS: کرد_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_جا, S0B0Token: کرد_جايي, S0B1Lemma: کرد_داشت, S0B1LemmaPOS: کرد_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_داشت, S0B1Token: کرد_داشتند, S0Lemma: کرد, S0POS: VERB, S0S1Distance: 1, S0Token: کرد, S1B0Lemma: آرزو_جا, S1B0LemmaPOS: آرزو_NOUN, S1B0POS: NOUN_NOUN, S1B0POSLemma: NOUN_جا, S1B0Token: آرزو_جايي, S1Lemma: آرزو, S1POS: NOUN, S1S0Lemma: آرزو_کرد, S1S0LemmaPOS: آرزو_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کرد, S1S0Token: آرزو_کرد, S1Token: آرزو, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [است]   B= [که, دوست, نداشت ,.. ]
+9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[آرزو, کرد]]   B= [جايي, داشتند, که ,.. ]
 
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: دوست, B1POS: NOUN, B1Token: دوست, S0B0Distance: 1, S0B0Lemma: است_که, S0B0LemmaPOS: است_SCONJ, S0B0POS: VERB_SCONJ, S0B0POSLemma: VERB_که, S0B0Token: است_که, S0B1Lemma: است_دوست, S0B1LemmaPOS: است_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_دوست, S0B1Token: است_دوست, S0Lemma: است, S0POS: VERB, S0Token: است, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: جا, B0POS: NOUN, B0Token: جايي, B1Lemma: داشت, B1POS: VERB, B1Token: داشتند, S0B0Distance: 1, S0B0Lemma: آرزو_کرد_جا, S0B0LemmaPOS: آرزو_کرد_NOUN, S0B0POS: NOUN_VERB_NOUN, S0B0POSLemma: NOUN_VERB_جا, S0B0Token: آرزو_کرد_جايي, S0B1Lemma: آرزو_کرد_داشت, S0B1LemmaPOS: آرزو_کرد_VERB, S0B1POS: NOUN_VERB_VERB, S0B1POSLemma: NOUN_VERB_داشت, S0B1Token: آرزو_کرد_داشتند, S0Lemma: آرزو_کرد, S0POS: NOUN_VERB, S0Token: آرزو_کرد, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [که, دوست, نداشت ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [جايي, داشتند, که ,.. ]
 
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: دوست, B1POS: NOUN, B1Token: دوست, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: جا, B0POS: NOUN, B0Token: جايي, B1Lemma: داشت, B1POS: VERB, B1Token: داشتند, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [که]   B= [دوست, نداشت, ولي ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [جايي]   B= [داشتند, که, مي‌توانستند ,.. ]
 
-B0Lemma: دوست, B0POS: NOUN, B0Token: دوست, B1Lemma: داشت, B1POS: VERB, B1Token: نداشت, S0B0Distance: 1, S0B0Lemma: که_دوست, S0B0LemmaPOS: که_NOUN, S0B0POS: SCONJ_NOUN, S0B0POSLemma: SCONJ_دوست, S0B0Token: که_دوست, S0B1Lemma: که_داشت, S0B1LemmaPOS: که_VERB, S0B1POS: SCONJ_VERB, S0B1POSLemma: SCONJ_داشت, S0B1Token: که_نداشت, S0Lemma: که, S0POS: SCONJ, S0Token: که, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: داشت, B0POS: VERB, B0Token: داشتند, B1Lemma: که, B1POS: SCONJ, B1Token: که, S0B0Distance: 1, S0B0Lemma: جا_داشت, S0B0LemmaPOS: جا_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_داشت, S0B0Token: جايي_داشتند, S0B1Lemma: جا_که, S0B1LemmaPOS: جا_SCONJ, S0B1POS: NOUN_SCONJ, S0B1POSLemma: NOUN_که, S0B1Token: جايي_که, S0Lemma: جا, S0POS: NOUN, S0Token: جايي, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [دوست, نداشت, ولي ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [داشتند, که, مي‌توانستند ,.. ]
 
-B0Lemma: دوست, B0POS: NOUN, B0Token: دوست, B1Lemma: داشت, B1POS: VERB, B1Token: نداشت, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: داشت, B0POS: VERB, B0Token: داشتند, B1Lemma: که, B1POS: SCONJ, B1Token: که, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [دوست]   B= [نداشت, ولي, مجبور ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [داشتند]   B= [که, مي‌توانستند, در ,.. ]
 
-B0Lemma: داشت, B0POS: VERB, B0Token: نداشت, B1Lemma: ولي, B1POS: CCONJ, B1Token: ولي, S0B0Distance: 1, S0B0Lemma: دوست_داشت, S0B0LemmaPOS: دوست_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_داشت, S0B0Token: دوست_نداشت, S0B1Lemma: دوست_ولي, S0B1LemmaPOS: دوست_CCONJ, S0B1POS: NOUN_CCONJ, S0B1POSLemma: NOUN_ولي, S0B1Token: دوست_ولي, S0Lemma: دوست, S0POS: NOUN, S0Token: دوست, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: توانست, B1POS: AUX, B1Token: مي‌توانستند, S0B0Distance: 1, S0B0Lemma: داشت_که, S0B0LemmaPOS: داشت_SCONJ, S0B0POS: VERB_SCONJ, S0B0POSLemma: VERB_که, S0B0Token: داشتند_که, S0B1Lemma: داشت_توانست, S0B1LemmaPOS: داشت_AUX, S0B1POS: VERB_AUX, S0B1POSLemma: VERB_توانست, S0B1Token: داشتند_مي‌توانستند, S0Lemma: داشت, S0POS: VERB, S0Token: داشتند, 
 
-14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [دوست, نداشت]   B= [ولي, مجبور, بود ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [که, مي‌توانستند, در ,.. ]
 
-B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: مجبور, B1POS: ADJ, B1Token: مجبور, S0B0Distance: 1, S0B0Lemma: داشت_ولي, S0B0LemmaPOS: داشت_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_ولي, S0B0Token: نداشت_ولي, S0B1Lemma: داشت_مجبور, S0B1LemmaPOS: داشت_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_مجبور, S0B1Token: نداشت_مجبور, S0Lemma: داشت, S0POS: VERB, S0Token: نداشت, S1B0Lemma: دوست_ولي, S1B0LemmaPOS: دوست_CCONJ, S1B0POS: NOUN_CCONJ, S1B0POSLemma: NOUN_ولي, S1B0Token: دوست_ولي, S1Lemma: دوست, S1POS: NOUN, S1S0Lemma: دوست_داشت, S1S0LemmaPOS: دوست_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_داشت, S1S0Token: دوست_نداشت, S1Token: دوست, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: توانست, B1POS: AUX, B1Token: مي‌توانستند, 
 
-15- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[دوست, نداشت]]   B= [ولي, مجبور, بود ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [که]   B= [مي‌توانستند, در, آن ,.. ]
 
-B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: مجبور, B1POS: ADJ, B1Token: مجبور, S0B0Distance: 1, S0B0Lemma: دوست_داشت_ولي, S0B0LemmaPOS: دوست_داشت_CCONJ, S0B0POS: NOUN_VERB_CCONJ, S0B0POSLemma: NOUN_VERB_ولي, S0B0Token: دوست_نداشت_ولي, S0B1Lemma: دوست_داشت_مجبور, S0B1LemmaPOS: دوست_داشت_ADJ, S0B1POS: NOUN_VERB_ADJ, S0B1POSLemma: NOUN_VERB_مجبور, S0B1Token: دوست_نداشت_مجبور, S0Lemma: دوست_داشت, S0POS: NOUN_VERB, S0Token: دوست_نداشت, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: توانست, B0POS: AUX, B0Token: مي‌توانستند, B1Lemma: در, B1POS: ADP, B1Token: در, S0B0Distance: 1, S0B0Lemma: که_توانست, S0B0LemmaPOS: که_AUX, S0B0POS: SCONJ_AUX, S0B0POSLemma: SCONJ_توانست, S0B0Token: که_مي‌توانستند, S0B1Lemma: که_در, S0B1LemmaPOS: که_ADP, S0B1POS: SCONJ_ADP, S0B1POSLemma: SCONJ_در, S0B1Token: که_در, S0Lemma: که, S0POS: SCONJ, S0Token: که, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ولي, مجبور, بود ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌توانستند, در, آن ,.. ]
 
-B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: مجبور, B1POS: ADJ, B1Token: مجبور, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: توانست, B0POS: AUX, B0Token: مي‌توانستند, B1Lemma: در, B1POS: ADP, B1Token: در, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ولي]   B= [مجبور, بود, انجام ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌توانستند]   B= [در, آن, با ,.. ]
 
-B0Lemma: مجبور, B0POS: ADJ, B0Token: مجبور, B1Lemma: بود, B1POS: VERB, B1Token: بود, S0B0Distance: 1, S0B0Lemma: ولي_مجبور, S0B0LemmaPOS: ولي_ADJ, S0B0POS: CCONJ_ADJ, S0B0POSLemma: CCONJ_مجبور, S0B0Token: ولي_مجبور, S0B1Lemma: ولي_بود, S0B1LemmaPOS: ولي_VERB, S0B1POS: CCONJ_VERB, S0B1POSLemma: CCONJ_بود, S0B1Token: ولي_بود, S0Lemma: ولي, S0POS: CCONJ, S0Token: ولي, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: آن, B1POS: PRON, B1Token: آن, S0B0Distance: 1, S0B0Lemma: توانست_در, S0B0LemmaPOS: توانست_ADP, S0B0POS: AUX_ADP, S0B0POSLemma: AUX_در, S0B0Token: مي‌توانستند_در, S0B1Lemma: توانست_آن, S0B1LemmaPOS: توانست_PRON, S0B1POS: AUX_PRON, S0B1POSLemma: AUX_آن, S0B1Token: مي‌توانستند_آن, S0Lemma: توانست, S0POS: AUX, S0Token: مي‌توانستند, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مجبور, بود, انجام ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [در, آن, با ,.. ]
 
-B0Lemma: مجبور, B0POS: ADJ, B0Token: مجبور, B1Lemma: بود, B1POS: VERB, B1Token: بود, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: آن, B1POS: PRON, B1Token: آن, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مجبور]   B= [بود, انجام, دهد ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [در]   B= [آن, با, هم ,.. ]
 
-B0Lemma: بود, B0POS: VERB, B0Token: بود, B1Lemma: انجام, B1POS: NOUN, B1Token: انجام, S0B0Distance: 1, S0B0Lemma: مجبور_بود, S0B0LemmaPOS: مجبور_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_بود, S0B0Token: مجبور_بود, S0B1Lemma: مجبور_انجام, S0B1LemmaPOS: مجبور_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_انجام, S0B1Token: مجبور_انجام, S0Lemma: مجبور, S0POS: ADJ, S0Token: مجبور, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: آن, B0POS: PRON, B0Token: آن, B1Lemma: با, B1POS: ADP, B1Token: با, S0B0Distance: 1, S0B0Lemma: در_آن, S0B0LemmaPOS: در_PRON, S0B0POS: ADP_PRON, S0B0POSLemma: ADP_آن, S0B0Token: در_آن, S0B1Lemma: در_با, S0B1LemmaPOS: در_ADP, S0B1POS: ADP_ADP, S0B1POSLemma: ADP_با, S0B1Token: در_با, S0Lemma: در, S0POS: ADP, S0Token: در, 
 
-20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مجبور, بود]   B= [انجام, دهد, . ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آن, با, هم ,.. ]
 
-B0Lemma: انجام, B0POS: NOUN, B0Token: انجام, B1Lemma: ده, B1POS: VERB, B1Token: دهد, S0B0Distance: 1, S0B0Lemma: بود_انجام, S0B0LemmaPOS: بود_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_انجام, S0B0Token: بود_انجام, S0B1Lemma: بود_ده, S0B1LemmaPOS: بود_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_ده, S0B1Token: بود_دهد, S0Lemma: بود, S0POS: VERB, S0Token: بود, S1B0Lemma: مجبور_انجام, S1B0LemmaPOS: مجبور_NOUN, S1B0POS: ADJ_NOUN, S1B0POSLemma: ADJ_انجام, S1B0Token: مجبور_انجام, S1Lemma: مجبور, S1POS: ADJ, S1S0Lemma: مجبور_بود, S1S0LemmaPOS: مجبور_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_بود, S1S0Token: مجبور_بود, S1Token: مجبور, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: آن, B0POS: PRON, B0Token: آن, B1Lemma: با, B1POS: ADP, B1Token: با, 
 
-21- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[مجبور, بود]]   B= [انجام, دهد, . ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آن]   B= [با, هم, تنها ,.. ]
 
-B0Lemma: انجام, B0POS: NOUN, B0Token: انجام, B1Lemma: ده, B1POS: VERB, B1Token: دهد, S0B0Distance: 1, S0B0Lemma: مجبور_بود_انجام, S0B0LemmaPOS: مجبور_بود_NOUN, S0B0POS: ADJ_VERB_NOUN, S0B0POSLemma: ADJ_VERB_انجام, S0B0Token: مجبور_بود_انجام, S0B1Lemma: مجبور_بود_ده, S0B1LemmaPOS: مجبور_بود_VERB, S0B1POS: ADJ_VERB_VERB, S0B1POSLemma: ADJ_VERB_ده, S0B1Token: مجبور_بود_دهد, S0Lemma: مجبور_بود, S0POS: ADJ_VERB, S0Token: مجبور_بود, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: با, B0POS: ADP, B0Token: با, B1Lemma: هم, B1POS: PRON, B1Token: هم, S0B0Distance: 1, S0B0Lemma: آن_با, S0B0LemmaPOS: آن_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_با, S0B0Token: آن_با, S0B1Lemma: آن_هم, S0B1LemmaPOS: آن_PRON, S0B1POS: PRON_PRON, S0B1POSLemma: PRON_هم, S0B1Token: آن_هم, S0Lemma: آن, S0POS: PRON, S0Token: آن, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [انجام, دهد, . ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [با, هم, تنها ,.. ]
 
-B0Lemma: انجام, B0POS: NOUN, B0Token: انجام, B1Lemma: ده, B1POS: VERB, B1Token: دهد, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: با, B0POS: ADP, B0Token: با, B1Lemma: هم, B1POS: PRON, B1Token: هم, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [انجام]   B= [دهد, . ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [با]   B= [هم, تنها, باشند ,.. ]
 
-B0Lemma: ده, B0POS: VERB, B0Token: دهد, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: انجام_ده, S0B0LemmaPOS: انجام_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_ده, S0B0Token: انجام_دهد, S0B1Lemma: انجام_., S0B1LemmaPOS: انجام_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: انجام_., S0Lemma: انجام, S0POS: NOUN, S0Token: انجام, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: هم, B0POS: PRON, B0Token: هم, B1Lemma: تنها, B1POS: ADJ, B1Token: تنها, S0B0Distance: 1, S0B0Lemma: با_هم, S0B0LemmaPOS: با_PRON, S0B0POS: ADP_PRON, S0B0POSLemma: ADP_هم, S0B0Token: با_هم, S0B1Lemma: با_تنها, S0B1LemmaPOS: با_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_تنها, S0B1Token: با_تنها, S0Lemma: با, S0POS: ADP, S0Token: با, 
 
-24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [انجام, دهد]   B= [.]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [هم, تنها, باشند ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: ده_., S0B0LemmaPOS: ده_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: دهد_., S0Lemma: ده, S0POS: VERB, S0Token: دهد, S1B0Lemma: انجام_., S1B0LemmaPOS: انجام_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_., S1B0Token: انجام_., S1Lemma: انجام, S1POS: NOUN, S1S0Lemma: انجام_ده, S1S0LemmaPOS: انجام_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_ده, S1S0Token: انجام_دهد, S1Token: انجام, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+B0Lemma: هم, B0POS: PRON, B0Token: هم, B1Lemma: تنها, B1POS: ADJ, B1Token: تنها, 
 
-25- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[انجام, دهد]]   B= [.]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [هم]   B= [تنها, باشند, و ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: انجام_ده_., S0B0LemmaPOS: انجام_ده_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_., S0B0Token: انجام_دهد_., S0Lemma: انجام_ده, S0POS: NOUN_VERB, S0Token: انجام_دهد, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: تنها, B0POS: ADJ, B0Token: تنها, B1Lemma: باش, B1POS: VERB, B1Token: باشند, S0B0Distance: 1, S0B0Lemma: هم_تنها, S0B0LemmaPOS: هم_ADJ, S0B0POS: PRON_ADJ, S0B0POSLemma: PRON_تنها, S0B0Token: هم_تنها, S0B1Lemma: هم_باش, S0B1LemmaPOS: هم_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_باش, S0B1Token: هم_باشند, S0Lemma: هم, S0POS: PRON, S0Token: هم, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [تنها, باشند, و ,.. ]
+
+B0Lemma: تنها, B0POS: ADJ, B0Token: تنها, B1Lemma: باش, B1POS: VERB, B1Token: باشند, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [تنها]   B= [باشند, و, مجبور ,.. ]
+
+B0Lemma: باش, B0POS: VERB, B0Token: باشند, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: تنها_باش, S0B0LemmaPOS: تنها_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_باش, S0B0Token: تنها_باشند, S0B1Lemma: تنها_و, S0B1LemmaPOS: تنها_CCONJ, S0B1POS: ADJ_CCONJ, S0B1POSLemma: ADJ_و, S0B1Token: تنها_و, S0Lemma: تنها, S0POS: ADJ, S0Token: تنها, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [باشند, و, مجبور ,.. ]
+
+B0Lemma: باش, B0POS: VERB, B0Token: باشند, B1Lemma: و, B1POS: CCONJ, B1Token: و, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [باشند]   B= [و, مجبور, نباشند ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: مجبور, B1POS: ADJ, B1Token: مجبور, S0B0Distance: 1, S0B0Lemma: باش_و, S0B0LemmaPOS: باش_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: باشند_و, S0B1Lemma: باش_مجبور, S0B1LemmaPOS: باش_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_مجبور, S0B1Token: باشند_مجبور, S0Lemma: باش, S0POS: VERB, S0Token: باشند, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, مجبور, نباشند ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: مجبور, B1POS: ADJ, B1Token: مجبور, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [مجبور, نباشند, هر ,.. ]
+
+B0Lemma: مجبور, B0POS: ADJ, B0Token: مجبور, B1Lemma: باش, B1POS: VERB, B1Token: نباشند, S0B0Distance: 1, S0B0Lemma: و_مجبور, S0B0LemmaPOS: و_ADJ, S0B0POS: CCONJ_ADJ, S0B0POSLemma: CCONJ_مجبور, S0B0Token: و_مجبور, S0B1Lemma: و_باش, S0B1LemmaPOS: و_VERB, S0B1POS: CCONJ_VERB, S0B1POSLemma: CCONJ_باش, S0B1Token: و_نباشند, S0Lemma: و, S0POS: CCONJ, S0Token: و, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مجبور, نباشند, هر ,.. ]
+
+B0Lemma: مجبور, B0POS: ADJ, B0Token: مجبور, B1Lemma: باش, B1POS: VERB, B1Token: نباشند, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مجبور]   B= [نباشند, هر, بار ,.. ]
+
+B0Lemma: باش, B0POS: VERB, B0Token: نباشند, B1Lemma: هر, B1POS: DET, B1Token: هر, S0B0Distance: 1, S0B0Lemma: مجبور_باش, S0B0LemmaPOS: مجبور_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_باش, S0B0Token: مجبور_نباشند, S0B1Lemma: مجبور_هر, S0B1LemmaPOS: مجبور_DET, S0B1POS: ADJ_DET, S0B1POSLemma: ADJ_هر, S0B1Token: مجبور_هر, S0Lemma: مجبور, S0POS: ADJ, S0Token: مجبور, 
+
+34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مجبور, نباشند]   B= [هر, بار, فقط ,.. ]
+
+B0Lemma: هر, B0POS: DET, B0Token: هر, B1Lemma: بار, B1POS: NOUN, B1Token: بار, S0B0Distance: 1, S0B0Lemma: باش_هر, S0B0LemmaPOS: باش_DET, S0B0POS: VERB_DET, S0B0POSLemma: VERB_هر, S0B0Token: نباشند_هر, S0B1Lemma: باش_بار, S0B1LemmaPOS: باش_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_بار, S0B1Token: نباشند_بار, S0Lemma: باش, S0POS: VERB, S0S1Distance: 1, S0Token: نباشند, S1B0Lemma: مجبور_هر, S1B0LemmaPOS: مجبور_DET, S1B0POS: ADJ_DET, S1B0POSLemma: ADJ_هر, S1B0Token: مجبور_هر, S1Lemma: مجبور, S1POS: ADJ, S1S0Lemma: مجبور_باش, S1S0LemmaPOS: مجبور_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_باش, S1S0Token: مجبور_نباشند, S1Token: مجبور, 
+
+35- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[مجبور, نباشند]]   B= [هر, بار, فقط ,.. ]
+
+B0Lemma: هر, B0POS: DET, B0Token: هر, B1Lemma: بار, B1POS: NOUN, B1Token: بار, S0B0Distance: 1, S0B0Lemma: مجبور_باش_هر, S0B0LemmaPOS: مجبور_باش_DET, S0B0POS: ADJ_VERB_DET, S0B0POSLemma: ADJ_VERB_هر, S0B0Token: مجبور_نباشند_هر, S0B1Lemma: مجبور_باش_بار, S0B1LemmaPOS: مجبور_باش_NOUN, S0B1POS: ADJ_VERB_NOUN, S0B1POSLemma: ADJ_VERB_بار, S0B1Token: مجبور_نباشند_بار, S0Lemma: مجبور_باش, S0POS: ADJ_VERB, S0Token: مجبور_نباشند, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [هر, بار, فقط ,.. ]
+
+B0Lemma: هر, B0POS: DET, B0Token: هر, B1Lemma: بار, B1POS: NOUN, B1Token: بار, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [هر]   B= [بار, فقط, برايِ ,.. ]
+
+B0Lemma: بار, B0POS: NOUN, B0Token: بار, B1Lemma: فقط, B1POS: ADV, B1Token: فقط, S0B0Distance: 1, S0B0Lemma: هر_بار, S0B0LemmaPOS: هر_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_بار, S0B0Token: هر_بار, S0B1Lemma: هر_فقط, S0B1LemmaPOS: هر_ADV, S0B1POS: DET_ADV, S0B1POSLemma: DET_فقط, S0B1Token: هر_فقط, S0Lemma: هر, S0POS: DET, S0Token: هر, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بار, فقط, برايِ ,.. ]
+
+B0Lemma: بار, B0POS: NOUN, B0Token: بار, B1Lemma: فقط, B1POS: ADV, B1Token: فقط, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بار]   B= [فقط, برايِ, ارضايِ ,.. ]
+
+B0Lemma: فقط, B0POS: ADV, B0Token: فقط, B1Lemma: برايِ, B1POS: ADP, B1Token: برايِ, S0B0Distance: 1, S0B0Lemma: بار_فقط, S0B0LemmaPOS: بار_ADV, S0B0POS: NOUN_ADV, S0B0POSLemma: NOUN_فقط, S0B0Token: بار_فقط, S0B1Lemma: بار_برايِ, S0B1LemmaPOS: بار_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_برايِ, S0B1Token: بار_برايِ, S0Lemma: بار, S0POS: NOUN, S0Token: بار, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [فقط, برايِ, ارضايِ ,.. ]
+
+B0Lemma: فقط, B0POS: ADV, B0Token: فقط, B1Lemma: برايِ, B1POS: ADP, B1Token: برايِ, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فقط]   B= [برايِ, ارضايِ, غريزه ,.. ]
+
+B0Lemma: برايِ, B0POS: ADP, B0Token: برايِ, B1Lemma: ارضا, B1POS: NOUN, B1Token: ارضايِ, S0B0Distance: 1, S0B0Lemma: فقط_برايِ, S0B0LemmaPOS: فقط_ADP, S0B0POS: ADV_ADP, S0B0POSLemma: ADV_برايِ, S0B0Token: فقط_برايِ, S0B1Lemma: فقط_ارضا, S0B1LemmaPOS: فقط_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_ارضا, S0B1Token: فقط_ارضايِ, S0Lemma: فقط, S0POS: ADV, S0Token: فقط, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [برايِ, ارضايِ, غريزه ,.. ]
+
+B0Lemma: برايِ, B0POS: ADP, B0Token: برايِ, B1Lemma: ارضا, B1POS: NOUN, B1Token: ارضايِ, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [برايِ]   B= [ارضايِ, غريزه, با ,.. ]
+
+B0Lemma: ارضا, B0POS: NOUN, B0Token: ارضايِ, B1Lemma: غريزه, B1POS: NOUN, B1Token: غريزه, S0B0Distance: 1, S0B0Lemma: برايِ_ارضا, S0B0LemmaPOS: برايِ_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_ارضا, S0B0Token: برايِ_ارضايِ, S0B1Lemma: برايِ_غريزه, S0B1LemmaPOS: برايِ_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_غريزه, S0B1Token: برايِ_غريزه, S0Lemma: برايِ, S0POS: ADP, S0Token: برايِ, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ارضايِ, غريزه, با ,.. ]
+
+B0Lemma: ارضا, B0POS: NOUN, B0Token: ارضايِ, B1Lemma: غريزه, B1POS: NOUN, B1Token: غريزه, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ارضايِ]   B= [غريزه, با, هم ,.. ]
+
+B0Lemma: غريزه, B0POS: NOUN, B0Token: غريزه, B1Lemma: با, B1POS: ADP, B1Token: با, S0B0Distance: 1, S0B0Lemma: ارضا_غريزه, S0B0LemmaPOS: ارضا_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_غريزه, S0B0Token: ارضايِ_غريزه, S0B1Lemma: ارضا_با, S0B1LemmaPOS: ارضا_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_با, S0B1Token: ارضايِ_با, S0Lemma: ارضا, S0POS: NOUN, S0Token: ارضايِ, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [غريزه, با, هم ,.. ]
+
+B0Lemma: غريزه, B0POS: NOUN, B0Token: غريزه, B1Lemma: با, B1POS: ADP, B1Token: با, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [غريزه]   B= [با, هم, ملاقات ,.. ]
+
+B0Lemma: با, B0POS: ADP, B0Token: با, B1Lemma: هم, B1POS: PRON, B1Token: هم, S0B0Distance: 1, S0B0Lemma: غريزه_با, S0B0LemmaPOS: غريزه_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_با, S0B0Token: غريزه_با, S0B1Lemma: غريزه_هم, S0B1LemmaPOS: غريزه_PRON, S0B1POS: NOUN_PRON, S0B1POSLemma: NOUN_هم, S0B1Token: غريزه_هم, S0Lemma: غريزه, S0POS: NOUN, S0Token: غريزه, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [با, هم, ملاقات ,.. ]
+
+B0Lemma: با, B0POS: ADP, B0Token: با, B1Lemma: هم, B1POS: PRON, B1Token: هم, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [با]   B= [هم, ملاقات, کنند ,.. ]
+
+B0Lemma: هم, B0POS: PRON, B0Token: هم, B1Lemma: ملاقات, B1POS: NOUN, B1Token: ملاقات, S0B0Distance: 1, S0B0Lemma: با_هم, S0B0LemmaPOS: با_PRON, S0B0POS: ADP_PRON, S0B0POSLemma: ADP_هم, S0B0Token: با_هم, S0B1Lemma: با_ملاقات, S0B1LemmaPOS: با_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_ملاقات, S0B1Token: با_ملاقات, S0Lemma: با, S0POS: ADP, S0Token: با, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [هم, ملاقات, کنند ,.. ]
+
+B0Lemma: هم, B0POS: PRON, B0Token: هم, B1Lemma: ملاقات, B1POS: NOUN, B1Token: ملاقات, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [هم]   B= [ملاقات, کنند, . ,.. ]
+
+B0Lemma: ملاقات, B0POS: NOUN, B0Token: ملاقات, B1Lemma: کن, B1POS: VERB, B1Token: کنند, S0B0Distance: 1, S0B0Lemma: هم_ملاقات, S0B0LemmaPOS: هم_NOUN, S0B0POS: PRON_NOUN, S0B0POSLemma: PRON_ملاقات, S0B0Token: هم_ملاقات, S0B1Lemma: هم_کن, S0B1LemmaPOS: هم_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_کن, S0B1Token: هم_کنند, S0Lemma: هم, S0POS: PRON, S0Token: هم, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ملاقات, کنند, . ,.. ]
+
+B0Lemma: ملاقات, B0POS: NOUN, B0Token: ملاقات, B1Lemma: کن, B1POS: VERB, B1Token: کنند, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ملاقات]   B= [کنند, . ,.. ]
+
+B0Lemma: کن, B0POS: VERB, B0Token: کنند, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: ملاقات_کن, S0B0LemmaPOS: ملاقات_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کن, S0B0Token: ملاقات_کنند, S0B1Lemma: ملاقات_., S0B1LemmaPOS: ملاقات_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: ملاقات_., S0Lemma: ملاقات, S0POS: NOUN, S0Token: ملاقات, 
+
+54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ملاقات, کنند]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: کن_., S0B0LemmaPOS: کن_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: کنند_., S0Lemma: کن, S0POS: VERB, S0S1Distance: 1, S0Token: کنند, S1B0Lemma: ملاقات_., S1B0LemmaPOS: ملاقات_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_., S1B0Token: ملاقات_., S1Lemma: ملاقات, S1POS: NOUN, S1S0Lemma: ملاقات_کن, S1S0LemmaPOS: ملاقات_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کن, S1S0Token: ملاقات_کنند, S1Token: ملاقات, 
+
+55- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ملاقات, کنند]]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: ملاقات_کن_., S0B0LemmaPOS: ملاقات_کن_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_., S0B0Token: ملاقات_کنند_., S0Lemma: ملاقات_کن, S0POS: NOUN_VERB, S0Token: ملاقات_کنند, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: PUNCT, S0Token: ., 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2397 - 
+نمي‌توان از آن اجتناب کرد ولي مي‌توان آن را به تأخير انداخت : ولي در عوض انسان هرازگاهي با عملي آرزومندانه و آگاهانه با دستِ خود اين فاصله را کمتر مي‌کند . 
+### Existing MWEs: 
+1- **اجتناب کرد** (OTH)
+2- **به تأخير انداخت** (OTH)
+3- **کمتر مي‌کند** (OTH)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نمي‌توان, از, آن ,.. ]
+
+B0Lemma: توان, B0POS: AUX, B0Token: نمي‌توان, B1Lemma: از, B1POS: ADP, B1Token: از, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نمي‌توان]   B= [از, آن, اجتناب ,.. ]
+
+B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: آن, B1POS: PRON, B1Token: آن, S0B0Distance: 1, S0B0Lemma: توان_از, S0B0LemmaPOS: توان_ADP, S0B0POS: AUX_ADP, S0B0POSLemma: AUX_از, S0B0Token: نمي‌توان_از, S0B1Lemma: توان_آن, S0B1LemmaPOS: توان_PRON, S0B1POS: AUX_PRON, S0B1POSLemma: AUX_آن, S0B1Token: نمي‌توان_آن, S0Lemma: توان, S0POS: AUX, S0Token: نمي‌توان, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [از, آن, اجتناب ,.. ]
+
+B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: آن, B1POS: PRON, B1Token: آن, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [از]   B= [آن, اجتناب, کرد ,.. ]
+
+B0Lemma: آن, B0POS: PRON, B0Token: آن, B1Lemma: اجتناب, B1POS: NOUN, B1Token: اجتناب, S0B0Distance: 1, S0B0Lemma: از_آن, S0B0LemmaPOS: از_PRON, S0B0POS: ADP_PRON, S0B0POSLemma: ADP_آن, S0B0Token: از_آن, S0B1Lemma: از_اجتناب, S0B1LemmaPOS: از_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_اجتناب, S0B1Token: از_اجتناب, S0Lemma: از, S0POS: ADP, S0Token: از, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آن, اجتناب, کرد ,.. ]
+
+B0Lemma: آن, B0POS: PRON, B0Token: آن, B1Lemma: اجتناب, B1POS: NOUN, B1Token: اجتناب, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آن]   B= [اجتناب, کرد, ولي ,.. ]
+
+B0Lemma: اجتناب, B0POS: NOUN, B0Token: اجتناب, B1Lemma: کرد, B1POS: VERB, B1Token: کرد, S0B0Distance: 1, S0B0Lemma: آن_اجتناب, S0B0LemmaPOS: آن_NOUN, S0B0POS: PRON_NOUN, S0B0POSLemma: PRON_اجتناب, S0B0Token: آن_اجتناب, S0B1Lemma: آن_کرد, S0B1LemmaPOS: آن_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_کرد, S0B1Token: آن_کرد, S0Lemma: آن, S0POS: PRON, S0Token: آن, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [اجتناب, کرد, ولي ,.. ]
+
+B0Lemma: اجتناب, B0POS: NOUN, B0Token: اجتناب, B1Lemma: کرد, B1POS: VERB, B1Token: کرد, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [اجتناب]   B= [کرد, ولي, مي‌توان ,.. ]
+
+B0Lemma: کرد, B0POS: VERB, B0Token: کرد, B1Lemma: ولي, B1POS: CCONJ, B1Token: ولي, S0B0Distance: 1, S0B0Lemma: اجتناب_کرد, S0B0LemmaPOS: اجتناب_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کرد, S0B0Token: اجتناب_کرد, S0B1Lemma: اجتناب_ولي, S0B1LemmaPOS: اجتناب_CCONJ, S0B1POS: NOUN_CCONJ, S0B1POSLemma: NOUN_ولي, S0B1Token: اجتناب_ولي, S0Lemma: اجتناب, S0POS: NOUN, S0Token: اجتناب, 
+
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [اجتناب, کرد]   B= [ولي, مي‌توان, آن ,.. ]
+
+B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: توان, B1POS: AUX, B1Token: مي‌توان, S0B0Distance: 1, S0B0Lemma: کرد_ولي, S0B0LemmaPOS: کرد_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_ولي, S0B0Token: کرد_ولي, S0B1Lemma: کرد_توان, S0B1LemmaPOS: کرد_AUX, S0B1POS: VERB_AUX, S0B1POSLemma: VERB_توان, S0B1Token: کرد_مي‌توان, S0Lemma: کرد, S0POS: VERB, S0S1Distance: 1, S0Token: کرد, S1B0Lemma: اجتناب_ولي, S1B0LemmaPOS: اجتناب_CCONJ, S1B0POS: NOUN_CCONJ, S1B0POSLemma: NOUN_ولي, S1B0Token: اجتناب_ولي, S1Lemma: اجتناب, S1POS: NOUN, S1S0Lemma: اجتناب_کرد, S1S0LemmaPOS: اجتناب_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کرد, S1S0Token: اجتناب_کرد, S1Token: اجتناب, 
+
+9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[اجتناب, کرد]]   B= [ولي, مي‌توان, آن ,.. ]
+
+B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: توان, B1POS: AUX, B1Token: مي‌توان, S0B0Distance: 1, S0B0Lemma: اجتناب_کرد_ولي, S0B0LemmaPOS: اجتناب_کرد_CCONJ, S0B0POS: NOUN_VERB_CCONJ, S0B0POSLemma: NOUN_VERB_ولي, S0B0Token: اجتناب_کرد_ولي, S0B1Lemma: اجتناب_کرد_توان, S0B1LemmaPOS: اجتناب_کرد_AUX, S0B1POS: NOUN_VERB_AUX, S0B1POSLemma: NOUN_VERB_توان, S0B1Token: اجتناب_کرد_مي‌توان, S0Lemma: اجتناب_کرد, S0POS: NOUN_VERB, S0Token: اجتناب_کرد, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ولي, مي‌توان, آن ,.. ]
+
+B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: توان, B1POS: AUX, B1Token: مي‌توان, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ولي]   B= [مي‌توان, آن, را ,.. ]
+
+B0Lemma: توان, B0POS: AUX, B0Token: مي‌توان, B1Lemma: آن, B1POS: PRON, B1Token: آن, S0B0Distance: 1, S0B0Lemma: ولي_توان, S0B0LemmaPOS: ولي_AUX, S0B0POS: CCONJ_AUX, S0B0POSLemma: CCONJ_توان, S0B0Token: ولي_مي‌توان, S0B1Lemma: ولي_آن, S0B1LemmaPOS: ولي_PRON, S0B1POS: CCONJ_PRON, S0B1POSLemma: CCONJ_آن, S0B1Token: ولي_آن, S0Lemma: ولي, S0POS: CCONJ, S0Token: ولي, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌توان, آن, را ,.. ]
+
+B0Lemma: توان, B0POS: AUX, B0Token: مي‌توان, B1Lemma: آن, B1POS: PRON, B1Token: آن, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌توان]   B= [آن, را, به ,.. ]
+
+B0Lemma: آن, B0POS: PRON, B0Token: آن, B1Lemma: را, B1POS: ADP, B1Token: را, S0B0Distance: 1, S0B0Lemma: توان_آن, S0B0LemmaPOS: توان_PRON, S0B0POS: AUX_PRON, S0B0POSLemma: AUX_آن, S0B0Token: مي‌توان_آن, S0B1Lemma: توان_را, S0B1LemmaPOS: توان_ADP, S0B1POS: AUX_ADP, S0B1POSLemma: AUX_را, S0B1Token: مي‌توان_را, S0Lemma: توان, S0POS: AUX, S0Token: مي‌توان, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آن, را, به ,.. ]
+
+B0Lemma: آن, B0POS: PRON, B0Token: آن, B1Lemma: را, B1POS: ADP, B1Token: را, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آن]   B= [را, به, تأخير ,.. ]
+
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: به, B1POS: ADP, B1Token: به, S0B0Distance: 1, S0B0Lemma: آن_را, S0B0LemmaPOS: آن_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_را, S0B0Token: آن_را, S0B1Lemma: آن_به, S0B1LemmaPOS: آن_ADP, S0B1POS: PRON_ADP, S0B1POSLemma: PRON_به, S0B1Token: آن_به, S0Lemma: آن, S0POS: PRON, S0Token: آن, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [را, به, تأخير ,.. ]
+
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: به, B1POS: ADP, B1Token: به, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [را]   B= [به, تأخير, انداخت ,.. ]
+
+B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: تأخير, B1POS: NOUN, B1Token: تأخير, S0B0Distance: 1, S0B0Lemma: را_به, S0B0LemmaPOS: را_ADP, S0B0POS: ADP_ADP, S0B0POSLemma: ADP_به, S0B0Token: را_به, S0B1Lemma: را_تأخير, S0B1LemmaPOS: را_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_تأخير, S0B1Token: را_تأخير, S0Lemma: را, S0POS: ADP, S0Token: را, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [به, تأخير, انداخت ,.. ]
+
+B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: تأخير, B1POS: NOUN, B1Token: تأخير, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به]   B= [تأخير, انداخت, : ,.. ]
+
+B0Lemma: تأخير, B0POS: NOUN, B0Token: تأخير, B1Lemma: انداخت, B1POS: VERB, B1Token: انداخت, S0B0Distance: 1, S0B0Lemma: به_تأخير, S0B0LemmaPOS: به_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_تأخير, S0B0Token: به_تأخير, S0B1Lemma: به_انداخت, S0B1LemmaPOS: به_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_انداخت, S0B1Token: به_انداخت, S0Lemma: به, S0POS: ADP, S0Token: به, 
+
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به, تأخير]   B= [انداخت, :, ولي ,.. ]
+
+B0Lemma: انداخت, B0POS: VERB, B0Token: انداخت, B1Lemma: :, B1POS: PUNCT, B1Token: :, S0B0Distance: 1, S0B0Lemma: تأخير_انداخت, S0B0LemmaPOS: تأخير_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_انداخت, S0B0Token: تأخير_انداخت, S0B1Lemma: تأخير_:, S0B1LemmaPOS: تأخير_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_:, S0B1Token: تأخير_:, S0Lemma: تأخير, S0POS: NOUN, S0S1Distance: 1, S0Token: تأخير, S1B0Lemma: به_انداخت, S1B0LemmaPOS: به_VERB, S1B0POS: ADP_VERB, S1B0POSLemma: ADP_انداخت, S1B0Token: به_انداخت, S1Lemma: به, S1POS: ADP, S1S0Lemma: به_تأخير, S1S0LemmaPOS: به_NOUN, S1S0POS: ADP_NOUN, S1S0POSLemma: ADP_تأخير, S1S0Token: به_تأخير, S1Token: به, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به, تأخير, انداخت]   B= [:, ولي, در ,.. ]
+
+B0Lemma: :, B0POS: PUNCT, B0Token: :, B1Lemma: ولي, B1POS: CCONJ, B1Token: ولي, S0B0Distance: 1, S0B0Lemma: انداخت_:, S0B0LemmaPOS: انداخت_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_:, S0B0Token: انداخت_:, S0B1Lemma: انداخت_ولي, S0B1LemmaPOS: انداخت_CCONJ, S0B1POS: VERB_CCONJ, S0B1POSLemma: VERB_ولي, S0B1Token: انداخت_ولي, S0Lemma: انداخت, S0POS: VERB, S0S1Distance: 1, S0Token: انداخت, S1B0Lemma: تأخير_:, S1B0LemmaPOS: تأخير_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_:, S1B0Token: تأخير_:, S1Lemma: تأخير, S1POS: NOUN, S1S0Lemma: تأخير_انداخت, S1S0LemmaPOS: تأخير_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_انداخت, S1S0Token: تأخير_انداخت, S1Token: تأخير, 
+
+22- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به, [تأخير, انداخت]]   B= [:, ولي, در ,.. ]
+
+B0Lemma: :, B0POS: PUNCT, B0Token: :, B1Lemma: ولي, B1POS: CCONJ, B1Token: ولي, S0B0Distance: 1, S0B0Lemma: تأخير_انداخت_:, S0B0LemmaPOS: تأخير_انداخت_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_:, S0B0Token: تأخير_انداخت_:, S0B1Lemma: تأخير_انداخت_ولي, S0B1LemmaPOS: تأخير_انداخت_CCONJ, S0B1POS: NOUN_VERB_CCONJ, S0B1POSLemma: NOUN_VERB_ولي, S0B1Token: تأخير_انداخت_ولي, S0Lemma: تأخير_انداخت, S0POS: NOUN_VERB, S0Token: تأخير_انداخت, S1B0Lemma: به_:, S1B0LemmaPOS: به_PUNCT, S1B0POS: ADP_PUNCT, S1B0POSLemma: ADP_:, S1B0Token: به_:, S1Lemma: به, S1POS: ADP, S1S0Lemma: به_تأخير_انداخت, S1S0LemmaPOS: به_NOUN_VERB, S1S0POS: ADP_NOUN_VERB, S1S0POSLemma: ADP_تأخير_انداخت, S1S0Token: به_تأخير_انداخت, S1Token: به, 
+
+23- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[به, [تأخير, انداخت]]]   B= [:, ولي, در ,.. ]
+
+B0Lemma: :, B0POS: PUNCT, B0Token: :, B1Lemma: ولي, B1POS: CCONJ, B1Token: ولي, S0B0Distance: 1, S0B0Lemma: به_تأخير_انداخت_:, S0B0LemmaPOS: به_تأخير_انداخت_PUNCT, S0B0POS: ADP_NOUN_VERB_PUNCT, S0B0POSLemma: ADP_NOUN_VERB_:, S0B0Token: به_تأخير_انداخت_:, S0B1Lemma: به_تأخير_انداخت_ولي, S0B1LemmaPOS: به_تأخير_انداخت_CCONJ, S0B1POS: ADP_NOUN_VERB_CCONJ, S0B1POSLemma: ADP_NOUN_VERB_ولي, S0B1Token: به_تأخير_انداخت_ولي, S0Lemma: به_تأخير_انداخت, S0POS: ADP_NOUN_VERB, S0Token: به_تأخير_انداخت, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:, ولي, در ,.. ]
+
+B0Lemma: :, B0POS: PUNCT, B0Token: :, B1Lemma: ولي, B1POS: CCONJ, B1Token: ولي, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [ولي, در, عوض ,.. ]
+
+B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: در, B1POS: ADP, B1Token: در, S0B0Distance: 1, S0B0Lemma: :_ولي, S0B0LemmaPOS: :_CCONJ, S0B0POS: PUNCT_CCONJ, S0B0POSLemma: PUNCT_ولي, S0B0Token: :_ولي, S0B1Lemma: :_در, S0B1LemmaPOS: :_ADP, S0B1POS: PUNCT_ADP, S0B1POSLemma: PUNCT_در, S0B1Token: :_در, S0Lemma: :, S0POS: PUNCT, S0Token: :, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ولي, در, عوض ,.. ]
+
+B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: در, B1POS: ADP, B1Token: در, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ولي]   B= [در, عوض, انسان ,.. ]
+
+B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: عوض, B1POS: NOUN, B1Token: عوض, S0B0Distance: 1, S0B0Lemma: ولي_در, S0B0LemmaPOS: ولي_ADP, S0B0POS: CCONJ_ADP, S0B0POSLemma: CCONJ_در, S0B0Token: ولي_در, S0B1Lemma: ولي_عوض, S0B1LemmaPOS: ولي_NOUN, S0B1POS: CCONJ_NOUN, S0B1POSLemma: CCONJ_عوض, S0B1Token: ولي_عوض, S0Lemma: ولي, S0POS: CCONJ, S0Token: ولي, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [در, عوض, انسان ,.. ]
+
+B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: عوض, B1POS: NOUN, B1Token: عوض, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [در]   B= [عوض, انسان, هرازگاهي ,.. ]
+
+B0Lemma: عوض, B0POS: NOUN, B0Token: عوض, B1Lemma: انسان, B1POS: NOUN, B1Token: انسان, S0B0Distance: 1, S0B0Lemma: در_عوض, S0B0LemmaPOS: در_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_عوض, S0B0Token: در_عوض, S0B1Lemma: در_انسان, S0B1LemmaPOS: در_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_انسان, S0B1Token: در_انسان, S0Lemma: در, S0POS: ADP, S0Token: در, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [عوض, انسان, هرازگاهي ,.. ]
+
+B0Lemma: عوض, B0POS: NOUN, B0Token: عوض, B1Lemma: انسان, B1POS: NOUN, B1Token: انسان, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [عوض]   B= [انسان, هرازگاهي, با ,.. ]
+
+B0Lemma: انسان, B0POS: NOUN, B0Token: انسان, B1Lemma: هرازگاه, B1POS: ADV, B1Token: هرازگاهي, S0B0Distance: 1, S0B0Lemma: عوض_انسان, S0B0LemmaPOS: عوض_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_انسان, S0B0Token: عوض_انسان, S0B1Lemma: عوض_هرازگاه, S0B1LemmaPOS: عوض_ADV, S0B1POS: NOUN_ADV, S0B1POSLemma: NOUN_هرازگاه, S0B1Token: عوض_هرازگاهي, S0Lemma: عوض, S0POS: NOUN, S0Token: عوض, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [انسان, هرازگاهي, با ,.. ]
+
+B0Lemma: انسان, B0POS: NOUN, B0Token: انسان, B1Lemma: هرازگاه, B1POS: ADV, B1Token: هرازگاهي, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [انسان]   B= [هرازگاهي, با, عملي ,.. ]
+
+B0Lemma: هرازگاه, B0POS: ADV, B0Token: هرازگاهي, B1Lemma: با, B1POS: ADP, B1Token: با, S0B0Distance: 1, S0B0Lemma: انسان_هرازگاه, S0B0LemmaPOS: انسان_ADV, S0B0POS: NOUN_ADV, S0B0POSLemma: NOUN_هرازگاه, S0B0Token: انسان_هرازگاهي, S0B1Lemma: انسان_با, S0B1LemmaPOS: انسان_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_با, S0B1Token: انسان_با, S0Lemma: انسان, S0POS: NOUN, S0Token: انسان, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [هرازگاهي, با, عملي ,.. ]
+
+B0Lemma: هرازگاه, B0POS: ADV, B0Token: هرازگاهي, B1Lemma: با, B1POS: ADP, B1Token: با, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [هرازگاهي]   B= [با, عملي, آرزومندانه ,.. ]
+
+B0Lemma: با, B0POS: ADP, B0Token: با, B1Lemma: عمل, B1POS: NOUN, B1Token: عملي, S0B0Distance: 1, S0B0Lemma: هرازگاه_با, S0B0LemmaPOS: هرازگاه_ADP, S0B0POS: ADV_ADP, S0B0POSLemma: ADV_با, S0B0Token: هرازگاهي_با, S0B1Lemma: هرازگاه_عمل, S0B1LemmaPOS: هرازگاه_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_عمل, S0B1Token: هرازگاهي_عملي, S0Lemma: هرازگاه, S0POS: ADV, S0Token: هرازگاهي, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [با, عملي, آرزومندانه ,.. ]
+
+B0Lemma: با, B0POS: ADP, B0Token: با, B1Lemma: عمل, B1POS: NOUN, B1Token: عملي, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [با]   B= [عملي, آرزومندانه, و ,.. ]
+
+B0Lemma: عمل, B0POS: NOUN, B0Token: عملي, B1Lemma: آرزومندانه, B1POS: ADJ, B1Token: آرزومندانه, S0B0Distance: 1, S0B0Lemma: با_عمل, S0B0LemmaPOS: با_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_عمل, S0B0Token: با_عملي, S0B1Lemma: با_آرزومندانه, S0B1LemmaPOS: با_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_آرزومندانه, S0B1Token: با_آرزومندانه, S0Lemma: با, S0POS: ADP, S0Token: با, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [عملي, آرزومندانه, و ,.. ]
+
+B0Lemma: عمل, B0POS: NOUN, B0Token: عملي, B1Lemma: آرزومندانه, B1POS: ADJ, B1Token: آرزومندانه, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [عملي]   B= [آرزومندانه, و, آگاهانه ,.. ]
+
+B0Lemma: آرزومندانه, B0POS: ADJ, B0Token: آرزومندانه, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: عمل_آرزومندانه, S0B0LemmaPOS: عمل_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_آرزومندانه, S0B0Token: عملي_آرزومندانه, S0B1Lemma: عمل_و, S0B1LemmaPOS: عمل_CCONJ, S0B1POS: NOUN_CCONJ, S0B1POSLemma: NOUN_و, S0B1Token: عملي_و, S0Lemma: عمل, S0POS: NOUN, S0Token: عملي, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آرزومندانه, و, آگاهانه ,.. ]
+
+B0Lemma: آرزومندانه, B0POS: ADJ, B0Token: آرزومندانه, B1Lemma: و, B1POS: CCONJ, B1Token: و, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آرزومندانه]   B= [و, آگاهانه, با ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: آگاهانه, B1POS: ADJ, B1Token: آگاهانه, S0B0Distance: 1, S0B0Lemma: آرزومندانه_و, S0B0LemmaPOS: آرزومندانه_CCONJ, S0B0POS: ADJ_CCONJ, S0B0POSLemma: ADJ_و, S0B0Token: آرزومندانه_و, S0B1Lemma: آرزومندانه_آگاهانه, S0B1LemmaPOS: آرزومندانه_ADJ, S0B1POS: ADJ_ADJ, S0B1POSLemma: ADJ_آگاهانه, S0B1Token: آرزومندانه_آگاهانه, S0Lemma: آرزومندانه, S0POS: ADJ, S0Token: آرزومندانه, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, آگاهانه, با ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: آگاهانه, B1POS: ADJ, B1Token: آگاهانه, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [آگاهانه, با, دستِ ,.. ]
+
+B0Lemma: آگاهانه, B0POS: ADJ, B0Token: آگاهانه, B1Lemma: با, B1POS: ADP, B1Token: با, S0B0Distance: 1, S0B0Lemma: و_آگاهانه, S0B0LemmaPOS: و_ADJ, S0B0POS: CCONJ_ADJ, S0B0POSLemma: CCONJ_آگاهانه, S0B0Token: و_آگاهانه, S0B1Lemma: و_با, S0B1LemmaPOS: و_ADP, S0B1POS: CCONJ_ADP, S0B1POSLemma: CCONJ_با, S0B1Token: و_با, S0Lemma: و, S0POS: CCONJ, S0Token: و, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آگاهانه, با, دستِ ,.. ]
+
+B0Lemma: آگاهانه, B0POS: ADJ, B0Token: آگاهانه, B1Lemma: با, B1POS: ADP, B1Token: با, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آگاهانه]   B= [با, دستِ, خود ,.. ]
+
+B0Lemma: با, B0POS: ADP, B0Token: با, B1Lemma: دست, B1POS: NOUN, B1Token: دستِ, S0B0Distance: 1, S0B0Lemma: آگاهانه_با, S0B0LemmaPOS: آگاهانه_ADP, S0B0POS: ADJ_ADP, S0B0POSLemma: ADJ_با, S0B0Token: آگاهانه_با, S0B1Lemma: آگاهانه_دست, S0B1LemmaPOS: آگاهانه_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_دست, S0B1Token: آگاهانه_دستِ, S0Lemma: آگاهانه, S0POS: ADJ, S0Token: آگاهانه, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [با, دستِ, خود ,.. ]
+
+B0Lemma: با, B0POS: ADP, B0Token: با, B1Lemma: دست, B1POS: NOUN, B1Token: دستِ, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [با]   B= [دستِ, خود, اين ,.. ]
+
+B0Lemma: دست, B0POS: NOUN, B0Token: دستِ, B1Lemma: خود, B1POS: PRON, B1Token: خود, S0B0Distance: 1, S0B0Lemma: با_دست, S0B0LemmaPOS: با_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_دست, S0B0Token: با_دستِ, S0B1Lemma: با_خود, S0B1LemmaPOS: با_PRON, S0B1POS: ADP_PRON, S0B1POSLemma: ADP_خود, S0B1Token: با_خود, S0Lemma: با, S0POS: ADP, S0Token: با, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [دستِ, خود, اين ,.. ]
+
+B0Lemma: دست, B0POS: NOUN, B0Token: دستِ, B1Lemma: خود, B1POS: PRON, B1Token: خود, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [دستِ]   B= [خود, اين, فاصله ,.. ]
+
+B0Lemma: خود, B0POS: PRON, B0Token: خود, B1Lemma: اين, B1POS: DET, B1Token: اين, S0B0Distance: 1, S0B0Lemma: دست_خود, S0B0LemmaPOS: دست_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_خود, S0B0Token: دستِ_خود, S0B1Lemma: دست_اين, S0B1LemmaPOS: دست_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_اين, S0B1Token: دستِ_اين, S0Lemma: دست, S0POS: NOUN, S0Token: دستِ, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [خود, اين, فاصله ,.. ]
+
+B0Lemma: خود, B0POS: PRON, B0Token: خود, B1Lemma: اين, B1POS: DET, B1Token: اين, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [خود]   B= [اين, فاصله, را ,.. ]
+
+B0Lemma: اين, B0POS: DET, B0Token: اين, B1Lemma: فاصله, B1POS: NOUN, B1Token: فاصله, S0B0Distance: 1, S0B0Lemma: خود_اين, S0B0LemmaPOS: خود_DET, S0B0POS: PRON_DET, S0B0POSLemma: PRON_اين, S0B0Token: خود_اين, S0B1Lemma: خود_فاصله, S0B1LemmaPOS: خود_NOUN, S0B1POS: PRON_NOUN, S0B1POSLemma: PRON_فاصله, S0B1Token: خود_فاصله, S0Lemma: خود, S0POS: PRON, S0Token: خود, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [اين, فاصله, را ,.. ]
+
+B0Lemma: اين, B0POS: DET, B0Token: اين, B1Lemma: فاصله, B1POS: NOUN, B1Token: فاصله, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [اين]   B= [فاصله, را, کمتر ,.. ]
+
+B0Lemma: فاصله, B0POS: NOUN, B0Token: فاصله, B1Lemma: را, B1POS: ADP, B1Token: را, S0B0Distance: 1, S0B0Lemma: اين_فاصله, S0B0LemmaPOS: اين_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_فاصله, S0B0Token: اين_فاصله, S0B1Lemma: اين_را, S0B1LemmaPOS: اين_ADP, S0B1POS: DET_ADP, S0B1POSLemma: DET_را, S0B1Token: اين_را, S0Lemma: اين, S0POS: DET, S0Token: اين, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [فاصله, را, کمتر ,.. ]
+
+B0Lemma: فاصله, B0POS: NOUN, B0Token: فاصله, B1Lemma: را, B1POS: ADP, B1Token: را, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فاصله]   B= [را, کمتر, مي‌کند ,.. ]
+
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: کم, B1POS: ADJ, B1Token: کمتر, S0B0Distance: 1, S0B0Lemma: فاصله_را, S0B0LemmaPOS: فاصله_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_را, S0B0Token: فاصله_را, S0B1Lemma: فاصله_کم, S0B1LemmaPOS: فاصله_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_کم, S0B1Token: فاصله_کمتر, S0Lemma: فاصله, S0POS: NOUN, S0Token: فاصله, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [را, کمتر, مي‌کند ,.. ]
+
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: کم, B1POS: ADJ, B1Token: کمتر, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [را]   B= [کمتر, مي‌کند, . ,.. ]
+
+B0Lemma: کم, B0POS: ADJ, B0Token: کمتر, B1Lemma: کن, B1POS: VERB, B1Token: مي‌کند, S0B0Distance: 1, S0B0Lemma: را_کم, S0B0LemmaPOS: را_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_کم, S0B0Token: را_کمتر, S0B1Lemma: را_کن, S0B1LemmaPOS: را_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_کن, S0B1Token: را_مي‌کند, S0Lemma: را, S0POS: ADP, S0Token: را, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [کمتر, مي‌کند, . ,.. ]
+
+B0Lemma: کم, B0POS: ADJ, B0Token: کمتر, B1Lemma: کن, B1POS: VERB, B1Token: مي‌کند, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [کمتر]   B= [مي‌کند, . ,.. ]
+
+B0Lemma: کن, B0POS: VERB, B0Token: مي‌کند, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: کم_کن, S0B0LemmaPOS: کم_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_کن, S0B0Token: کمتر_مي‌کند, S0B1Lemma: کم_., S0B1LemmaPOS: کم_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_., S0B1Token: کمتر_., S0Lemma: کم, S0POS: ADJ, S0Token: کمتر, 
+
+60- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [کمتر, مي‌کند]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: کن_., S0B0LemmaPOS: کن_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: مي‌کند_., S0Lemma: کن, S0POS: VERB, S0S1Distance: 1, S0Token: مي‌کند, S1B0Lemma: کم_., S1B0LemmaPOS: کم_PUNCT, S1B0POS: ADJ_PUNCT, S1B0POSLemma: ADJ_., S1B0Token: کمتر_., S1Lemma: کم, S1POS: ADJ, S1S0Lemma: کم_کن, S1S0LemmaPOS: کم_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_کن, S1S0Token: کمتر_مي‌کند, S1Token: کمتر, 
+
+61- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[کمتر, مي‌کند]]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: کم_کن_., S0B0LemmaPOS: کم_کن_PUNCT, S0B0POS: ADJ_VERB_PUNCT, S0B0POSLemma: ADJ_VERB_., S0B0Token: کمتر_مي‌کند_., S0Lemma: کم_کن, S0POS: ADJ_VERB, S0Token: کمتر_مي‌کند, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: PUNCT, S0Token: ., 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2494 - 
+جوليا بيدار شد و چشمان ش را ماليد و بعد رويِ آرنج تکيه داد تا نگاهي به اجاقِ جلويِ بخاري بيندازد . 
+### Existing MWEs: 
+1- **بيدار شد** (OTH)
+2- **تکيه داد** (OTH)
+3- **نگاهي بيندازد** (OTH)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [جوليا, بيدار, شد ,.. ]
+
+B0Lemma: جوليا, B0POS: PROPN, B0Token: جوليا, B1Lemma: بيدار, B1POS: ADJ, B1Token: بيدار, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [جوليا]   B= [بيدار, شد, و ,.. ]
+
+B0Lemma: بيدار, B0POS: ADJ, B0Token: بيدار, B1Lemma: شد, B1POS: VERB, B1Token: شد, S0B0Distance: 1, S0B0Lemma: جوليا_بيدار, S0B0LemmaPOS: جوليا_ADJ, S0B0POS: PROPN_ADJ, S0B0POSLemma: PROPN_بيدار, S0B0Token: جوليا_بيدار, S0B1Lemma: جوليا_شد, S0B1LemmaPOS: جوليا_VERB, S0B1POS: PROPN_VERB, S0B1POSLemma: PROPN_شد, S0B1Token: جوليا_شد, S0Lemma: جوليا, S0POS: PROPN, S0Token: جوليا, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بيدار, شد, و ,.. ]
+
+B0Lemma: بيدار, B0POS: ADJ, B0Token: بيدار, B1Lemma: شد, B1POS: VERB, B1Token: شد, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بيدار]   B= [شد, و, چشمان ,.. ]
+
+B0Lemma: شد, B0POS: VERB, B0Token: شد, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: بيدار_شد, S0B0LemmaPOS: بيدار_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_شد, S0B0Token: بيدار_شد, S0B1Lemma: بيدار_و, S0B1LemmaPOS: بيدار_CCONJ, S0B1POS: ADJ_CCONJ, S0B1POSLemma: ADJ_و, S0B1Token: بيدار_و, S0Lemma: بيدار, S0POS: ADJ, S0Token: بيدار, 
+
+4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بيدار, شد]   B= [و, چشمان, ش ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: چشم, B1POS: NOUN, B1Token: چشمان, S0B0Distance: 1, S0B0Lemma: شد_و, S0B0LemmaPOS: شد_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: شد_و, S0B1Lemma: شد_چشم, S0B1LemmaPOS: شد_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_چشم, S0B1Token: شد_چشمان, S0Lemma: شد, S0POS: VERB, S0S1Distance: 1, S0Token: شد, S1B0Lemma: بيدار_و, S1B0LemmaPOS: بيدار_CCONJ, S1B0POS: ADJ_CCONJ, S1B0POSLemma: ADJ_و, S1B0Token: بيدار_و, S1Lemma: بيدار, S1POS: ADJ, S1S0Lemma: بيدار_شد, S1S0LemmaPOS: بيدار_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_شد, S1S0Token: بيدار_شد, S1Token: بيدار, 
+
+5- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[بيدار, شد]]   B= [و, چشمان, ش ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: چشم, B1POS: NOUN, B1Token: چشمان, S0B0Distance: 1, S0B0Lemma: بيدار_شد_و, S0B0LemmaPOS: بيدار_شد_CCONJ, S0B0POS: ADJ_VERB_CCONJ, S0B0POSLemma: ADJ_VERB_و, S0B0Token: بيدار_شد_و, S0B1Lemma: بيدار_شد_چشم, S0B1LemmaPOS: بيدار_شد_NOUN, S0B1POS: ADJ_VERB_NOUN, S0B1POSLemma: ADJ_VERB_چشم, S0B1Token: بيدار_شد_چشمان, S0Lemma: بيدار_شد, S0POS: ADJ_VERB, S0Token: بيدار_شد, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, چشمان, ش ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: چشم, B1POS: NOUN, B1Token: چشمان, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [چشمان, ش, را ,.. ]
+
+B0Lemma: چشم, B0POS: NOUN, B0Token: چشمان, B1Lemma: خود, B1POS: PRON, B1Token: ش, S0B0Distance: 1, S0B0Lemma: و_چشم, S0B0LemmaPOS: و_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_چشم, S0B0Token: و_چشمان, S0B1Lemma: و_خود, S0B1LemmaPOS: و_PRON, S0B1POS: CCONJ_PRON, S0B1POSLemma: CCONJ_خود, S0B1Token: و_ش, S0Lemma: و, S0POS: CCONJ, S0Token: و, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [چشمان, ش, را ,.. ]
+
+B0Lemma: چشم, B0POS: NOUN, B0Token: چشمان, B1Lemma: خود, B1POS: PRON, B1Token: ش, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [چشمان]   B= [ش, را, ماليد ,.. ]
+
+B0Lemma: خود, B0POS: PRON, B0Token: ش, B1Lemma: را, B1POS: ADP, B1Token: را, S0B0Distance: 1, S0B0Lemma: چشم_خود, S0B0LemmaPOS: چشم_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_خود, S0B0Token: چشمان_ش, S0B1Lemma: چشم_را, S0B1LemmaPOS: چشم_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_را, S0B1Token: چشمان_را, S0Lemma: چشم, S0POS: NOUN, S0Token: چشمان, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ش, را, ماليد ,.. ]
+
+B0Lemma: خود, B0POS: PRON, B0Token: ش, B1Lemma: را, B1POS: ADP, B1Token: را, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ش]   B= [را, ماليد, و ,.. ]
+
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: ماليد, B1POS: VERB, B1Token: ماليد, S0B0Distance: 1, S0B0Lemma: خود_را, S0B0LemmaPOS: خود_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_را, S0B0Token: ش_را, S0B1Lemma: خود_ماليد, S0B1LemmaPOS: خود_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_ماليد, S0B1Token: ش_ماليد, S0Lemma: خود, S0POS: PRON, S0Token: ش, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [را, ماليد, و ,.. ]
+
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: ماليد, B1POS: VERB, B1Token: ماليد, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [را]   B= [ماليد, و, بعد ,.. ]
+
+B0Lemma: ماليد, B0POS: VERB, B0Token: ماليد, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: را_ماليد, S0B0LemmaPOS: را_VERB, S0B0POS: ADP_VERB, S0B0POSLemma: ADP_ماليد, S0B0Token: را_ماليد, S0B1Lemma: را_و, S0B1LemmaPOS: را_CCONJ, S0B1POS: ADP_CCONJ, S0B1POSLemma: ADP_و, S0B1Token: را_و, S0Lemma: را, S0POS: ADP, S0Token: را, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ماليد, و, بعد ,.. ]
+
+B0Lemma: ماليد, B0POS: VERB, B0Token: ماليد, B1Lemma: و, B1POS: CCONJ, B1Token: و, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ماليد]   B= [و, بعد, رويِ ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: بعد, B1POS: ADV, B1Token: بعد, S0B0Distance: 1, S0B0Lemma: ماليد_و, S0B0LemmaPOS: ماليد_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: ماليد_و, S0B1Lemma: ماليد_بعد, S0B1LemmaPOS: ماليد_ADV, S0B1POS: VERB_ADV, S0B1POSLemma: VERB_بعد, S0B1Token: ماليد_بعد, S0Lemma: ماليد, S0POS: VERB, S0Token: ماليد, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, بعد, رويِ ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: بعد, B1POS: ADV, B1Token: بعد, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [بعد, رويِ, آرنج ,.. ]
+
+B0Lemma: بعد, B0POS: ADV, B0Token: بعد, B1Lemma: رو, B1POS: ADP, B1Token: رويِ, S0B0Distance: 1, S0B0Lemma: و_بعد, S0B0LemmaPOS: و_ADV, S0B0POS: CCONJ_ADV, S0B0POSLemma: CCONJ_بعد, S0B0Token: و_بعد, S0B1Lemma: و_رو, S0B1LemmaPOS: و_ADP, S0B1POS: CCONJ_ADP, S0B1POSLemma: CCONJ_رو, S0B1Token: و_رويِ, S0Lemma: و, S0POS: CCONJ, S0Token: و, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بعد, رويِ, آرنج ,.. ]
+
+B0Lemma: بعد, B0POS: ADV, B0Token: بعد, B1Lemma: رو, B1POS: ADP, B1Token: رويِ, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بعد]   B= [رويِ, آرنج, تکيه ,.. ]
+
+B0Lemma: رو, B0POS: ADP, B0Token: رويِ, B1Lemma: آرنج, B1POS: NOUN, B1Token: آرنج, S0B0Distance: 1, S0B0Lemma: بعد_رو, S0B0LemmaPOS: بعد_ADP, S0B0POS: ADV_ADP, S0B0POSLemma: ADV_رو, S0B0Token: بعد_رويِ, S0B1Lemma: بعد_آرنج, S0B1LemmaPOS: بعد_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_آرنج, S0B1Token: بعد_آرنج, S0Lemma: بعد, S0POS: ADV, S0Token: بعد, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [رويِ, آرنج, تکيه ,.. ]
+
+B0Lemma: رو, B0POS: ADP, B0Token: رويِ, B1Lemma: آرنج, B1POS: NOUN, B1Token: آرنج, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [رويِ]   B= [آرنج, تکيه, داد ,.. ]
+
+B0Lemma: آرنج, B0POS: NOUN, B0Token: آرنج, B1Lemma: تکيه, B1POS: NOUN, B1Token: تکيه, S0B0Distance: 1, S0B0Lemma: رو_آرنج, S0B0LemmaPOS: رو_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_آرنج, S0B0Token: رويِ_آرنج, S0B1Lemma: رو_تکيه, S0B1LemmaPOS: رو_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_تکيه, S0B1Token: رويِ_تکيه, S0Lemma: رو, S0POS: ADP, S0Token: رويِ, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آرنج, تکيه, داد ,.. ]
+
+B0Lemma: آرنج, B0POS: NOUN, B0Token: آرنج, B1Lemma: تکيه, B1POS: NOUN, B1Token: تکيه, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آرنج]   B= [تکيه, داد, تا ,.. ]
+
+B0Lemma: تکيه, B0POS: NOUN, B0Token: تکيه, B1Lemma: داد, B1POS: VERB, B1Token: داد, S0B0Distance: 1, S0B0Lemma: آرنج_تکيه, S0B0LemmaPOS: آرنج_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_تکيه, S0B0Token: آرنج_تکيه, S0B1Lemma: آرنج_داد, S0B1LemmaPOS: آرنج_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_داد, S0B1Token: آرنج_داد, S0Lemma: آرنج, S0POS: NOUN, S0Token: آرنج, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [تکيه, داد, تا ,.. ]
+
+B0Lemma: تکيه, B0POS: NOUN, B0Token: تکيه, B1Lemma: داد, B1POS: VERB, B1Token: داد, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [تکيه]   B= [داد, تا, نگاهي ,.. ]
+
+B0Lemma: داد, B0POS: VERB, B0Token: داد, B1Lemma: تا, B1POS: SCONJ, B1Token: تا, S0B0Distance: 1, S0B0Lemma: تکيه_داد, S0B0LemmaPOS: تکيه_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_داد, S0B0Token: تکيه_داد, S0B1Lemma: تکيه_تا, S0B1LemmaPOS: تکيه_SCONJ, S0B1POS: NOUN_SCONJ, S0B1POSLemma: NOUN_تا, S0B1Token: تکيه_تا, S0Lemma: تکيه, S0POS: NOUN, S0Token: تکيه, 
+
+26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [تکيه, داد]   B= [تا, نگاهي, به ,.. ]
+
+B0Lemma: تا, B0POS: SCONJ, B0Token: تا, B1Lemma: نگاه, B1POS: NOUN, B1Token: نگاهي, S0B0Distance: 1, S0B0Lemma: داد_تا, S0B0LemmaPOS: داد_SCONJ, S0B0POS: VERB_SCONJ, S0B0POSLemma: VERB_تا, S0B0Token: داد_تا, S0B1Lemma: داد_نگاه, S0B1LemmaPOS: داد_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_نگاه, S0B1Token: داد_نگاهي, S0Lemma: داد, S0POS: VERB, S0S1Distance: 1, S0Token: داد, S1B0Lemma: تکيه_تا, S1B0LemmaPOS: تکيه_SCONJ, S1B0POS: NOUN_SCONJ, S1B0POSLemma: NOUN_تا, S1B0Token: تکيه_تا, S1Lemma: تکيه, S1POS: NOUN, S1S0Lemma: تکيه_داد, S1S0LemmaPOS: تکيه_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_داد, S1S0Token: تکيه_داد, S1Token: تکيه, 
+
+27- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[تکيه, داد]]   B= [تا, نگاهي, به ,.. ]
+
+B0Lemma: تا, B0POS: SCONJ, B0Token: تا, B1Lemma: نگاه, B1POS: NOUN, B1Token: نگاهي, S0B0Distance: 1, S0B0Lemma: تکيه_داد_تا, S0B0LemmaPOS: تکيه_داد_SCONJ, S0B0POS: NOUN_VERB_SCONJ, S0B0POSLemma: NOUN_VERB_تا, S0B0Token: تکيه_داد_تا, S0B1Lemma: تکيه_داد_نگاه, S0B1LemmaPOS: تکيه_داد_NOUN, S0B1POS: NOUN_VERB_NOUN, S0B1POSLemma: NOUN_VERB_نگاه, S0B1Token: تکيه_داد_نگاهي, S0Lemma: تکيه_داد, S0POS: NOUN_VERB, S0Token: تکيه_داد, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [تا, نگاهي, به ,.. ]
+
+B0Lemma: تا, B0POS: SCONJ, B0Token: تا, B1Lemma: نگاه, B1POS: NOUN, B1Token: نگاهي, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [تا]   B= [نگاهي, به, اجاقِ ,.. ]
+
+B0Lemma: نگاه, B0POS: NOUN, B0Token: نگاهي, B1Lemma: به, B1POS: ADP, B1Token: به, S0B0Distance: 1, S0B0Lemma: تا_نگاه, S0B0LemmaPOS: تا_NOUN, S0B0POS: SCONJ_NOUN, S0B0POSLemma: SCONJ_نگاه, S0B0Token: تا_نگاهي, S0B1Lemma: تا_به, S0B1LemmaPOS: تا_ADP, S0B1POS: SCONJ_ADP, S0B1POSLemma: SCONJ_به, S0B1Token: تا_به, S0Lemma: تا, S0POS: SCONJ, S0Token: تا, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نگاهي, به, اجاقِ ,.. ]
+
+B0Lemma: نگاه, B0POS: NOUN, B0Token: نگاهي, B1Lemma: به, B1POS: ADP, B1Token: به, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي]   B= [به, اجاقِ, جلويِ ,.. ]
+
+B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: اجاق, B1POS: NOUN, B1Token: اجاقِ, S0B0Distance: 1, S0B0Lemma: نگاه_به, S0B0LemmaPOS: نگاه_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_به, S0B0Token: نگاهي_به, S0B1Lemma: نگاه_اجاق, S0B1LemmaPOS: نگاه_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_اجاق, S0B1Token: نگاهي_اجاقِ, S0Lemma: نگاه, S0POS: NOUN, S0Token: نگاهي, 
+
+32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي, به]   B= [اجاقِ, جلويِ, بخاري ,.. ]
+
+B0Lemma: اجاق, B0POS: NOUN, B0Token: اجاقِ, B1Lemma: جلو, B1POS: ADP, B1Token: جلويِ, S0B0Distance: 1, S0B0Lemma: به_اجاق, S0B0LemmaPOS: به_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_اجاق, S0B0Token: به_اجاقِ, S0B1Lemma: به_جلو, S0B1LemmaPOS: به_ADP, S0B1POS: ADP_ADP, S0B1POSLemma: ADP_جلو, S0B1Token: به_جلويِ, S0Lemma: به, S0POS: ADP, S0S1Distance: 1, S0Token: به, S1B0Lemma: نگاه_اجاق, S1B0LemmaPOS: نگاه_NOUN, S1B0POS: NOUN_NOUN, S1B0POSLemma: NOUN_اجاق, S1B0Token: نگاهي_اجاقِ, S1Lemma: نگاه, S1POS: NOUN, S1S0Lemma: نگاه_به, S1S0LemmaPOS: نگاه_ADP, S1S0POS: NOUN_ADP, S1S0POSLemma: NOUN_به, S1S0Token: نگاهي_به, S1Token: نگاهي, 
+
+33- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي]   B= [اجاقِ, جلويِ, بخاري ,.. ]
+
+B0Lemma: اجاق, B0POS: NOUN, B0Token: اجاقِ, B1Lemma: جلو, B1POS: ADP, B1Token: جلويِ, S0B0Distance: 2, S0B0Lemma: نگاه_اجاق, S0B0LemmaPOS: نگاه_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_اجاق, S0B0Token: نگاهي_اجاقِ, S0B1Lemma: نگاه_جلو, S0B1LemmaPOS: نگاه_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_جلو, S0B1Token: نگاهي_جلويِ, S0Lemma: نگاه, S0POS: NOUN, S0Token: نگاهي, 
+
+34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي, اجاقِ]   B= [جلويِ, بخاري, بيندازد ,.. ]
+
+B0Lemma: جلو, B0POS: ADP, B0Token: جلويِ, B1Lemma: بخاري, B1POS: NOUN, B1Token: بخاري, S0B0Distance: 1, S0B0Lemma: اجاق_جلو, S0B0LemmaPOS: اجاق_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_جلو, S0B0Token: اجاقِ_جلويِ, S0B1Lemma: اجاق_بخاري, S0B1LemmaPOS: اجاق_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_بخاري, S0B1Token: اجاقِ_بخاري, S0Lemma: اجاق, S0POS: NOUN, S0S1Distance: 2, S0Token: اجاقِ, S1B0Lemma: نگاه_جلو, S1B0LemmaPOS: نگاه_ADP, S1B0POS: NOUN_ADP, S1B0POSLemma: NOUN_جلو, S1B0Token: نگاهي_جلويِ, S1Lemma: نگاه, S1POS: NOUN, S1S0Lemma: نگاه_اجاق, S1S0LemmaPOS: نگاه_NOUN, S1S0POS: NOUN_NOUN, S1S0POSLemma: NOUN_اجاق, S1S0Token: نگاهي_اجاقِ, S1Token: نگاهي, 
+
+35- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي]   B= [جلويِ, بخاري, بيندازد ,.. ]
+
+B0Lemma: جلو, B0POS: ADP, B0Token: جلويِ, B1Lemma: بخاري, B1POS: NOUN, B1Token: بخاري, S0B0Distance: 3, S0B0Lemma: نگاه_جلو, S0B0LemmaPOS: نگاه_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_جلو, S0B0Token: نگاهي_جلويِ, S0B1Lemma: نگاه_بخاري, S0B1LemmaPOS: نگاه_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_بخاري, S0B1Token: نگاهي_بخاري, S0Lemma: نگاه, S0POS: NOUN, S0Token: نگاهي, 
+
+36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي, جلويِ]   B= [بخاري, بيندازد, . ,.. ]
+
+B0Lemma: بخاري, B0POS: NOUN, B0Token: بخاري, B1Lemma: انداز, B1POS: VERB, B1Token: بيندازد, S0B0Distance: 1, S0B0Lemma: جلو_بخاري, S0B0LemmaPOS: جلو_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_بخاري, S0B0Token: جلويِ_بخاري, S0B1Lemma: جلو_انداز, S0B1LemmaPOS: جلو_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_انداز, S0B1Token: جلويِ_بيندازد, S0Lemma: جلو, S0POS: ADP, S0S1Distance: 3, S0Token: جلويِ, S1B0Lemma: نگاه_بخاري, S1B0LemmaPOS: نگاه_NOUN, S1B0POS: NOUN_NOUN, S1B0POSLemma: NOUN_بخاري, S1B0Token: نگاهي_بخاري, S1Lemma: نگاه, S1POS: NOUN, S1S0Lemma: نگاه_جلو, S1S0LemmaPOS: نگاه_ADP, S1S0POS: NOUN_ADP, S1S0POSLemma: NOUN_جلو, S1S0Token: نگاهي_جلويِ, S1Token: نگاهي, 
+
+37- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي]   B= [بخاري, بيندازد, . ,.. ]
+
+B0Lemma: بخاري, B0POS: NOUN, B0Token: بخاري, B1Lemma: انداز, B1POS: VERB, B1Token: بيندازد, S0B0Distance: 4, S0B0Lemma: نگاه_بخاري, S0B0LemmaPOS: نگاه_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_بخاري, S0B0Token: نگاهي_بخاري, S0B1Lemma: نگاه_انداز, S0B1LemmaPOS: نگاه_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_انداز, S0B1Token: نگاهي_بيندازد, S0Lemma: نگاه, S0POS: NOUN, S0Token: نگاهي, 
+
+38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي, بخاري]   B= [بيندازد, . ,.. ]
+
+B0Lemma: انداز, B0POS: VERB, B0Token: بيندازد, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: بخاري_انداز, S0B0LemmaPOS: بخاري_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_انداز, S0B0Token: بخاري_بيندازد, S0B1Lemma: بخاري_., S0B1LemmaPOS: بخاري_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: بخاري_., S0Lemma: بخاري, S0POS: NOUN, S0S1Distance: 4, S0Token: بخاري, S1B0Lemma: نگاه_انداز, S1B0LemmaPOS: نگاه_VERB, S1B0POS: NOUN_VERB, S1B0POSLemma: NOUN_انداز, S1B0Token: نگاهي_بيندازد, S1Lemma: نگاه, S1POS: NOUN, S1S0Lemma: نگاه_بخاري, S1S0LemmaPOS: نگاه_NOUN, S1S0POS: NOUN_NOUN, S1S0POSLemma: NOUN_بخاري, S1S0Token: نگاهي_بخاري, S1Token: نگاهي, 
+
+39- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي]   B= [بيندازد, . ,.. ]
+
+B0Lemma: انداز, B0POS: VERB, B0Token: بيندازد, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 5, S0B0Lemma: نگاه_انداز, S0B0LemmaPOS: نگاه_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_انداز, S0B0Token: نگاهي_بيندازد, S0B1Lemma: نگاه_., S0B1LemmaPOS: نگاه_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: نگاهي_., S0Lemma: نگاه, S0POS: NOUN, S0Token: نگاهي, 
+
+40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي, بيندازد]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: انداز_., S0B0LemmaPOS: انداز_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: بيندازد_., S0Lemma: انداز, S0POS: VERB, S0S1Distance: 5, S0Token: بيندازد, S1B0Lemma: نگاه_., S1B0LemmaPOS: نگاه_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_., S1B0Token: نگاهي_., S1Lemma: نگاه, S1POS: NOUN, S1S0Lemma: نگاه_انداز, S1S0LemmaPOS: نگاه_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_انداز, S1S0Token: نگاهي_بيندازد, S1Token: نگاهي, 
+
+41- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[نگاهي, بيندازد]]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: نگاه_انداز_., S0B0LemmaPOS: نگاه_انداز_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_., S0B0Token: نگاهي_بيندازد_., S0Lemma: نگاه_انداز, S0POS: NOUN_VERB, S0Token: نگاهي_بيندازد, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: PUNCT, S0Token: ., 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2538 - 
+وينستون کمي آرام گرفت و سعي کرد آن لحظهٔ ترسناک را فراموش کند . 
+### Existing MWEs: 
+1- **آرام گرفت** (OTH)
+2- **سعي کرد** (OTH)
+3- **فراموش کند** (OTH)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [وينستون, کمي, آرام ,.. ]
+
+B0Lemma: وينستون, B0POS: PROPN, B0Token: وينستون, B1Lemma: کم, B1POS: ADV, B1Token: کمي, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [وينستون]   B= [کمي, آرام, گرفت ,.. ]
+
+B0Lemma: کم, B0POS: ADV, B0Token: کمي, B1Lemma: آرام, B1POS: ADJ, B1Token: آرام, S0B0Distance: 1, S0B0Lemma: وينستون_کم, S0B0LemmaPOS: وينستون_ADV, S0B0POS: PROPN_ADV, S0B0POSLemma: PROPN_کم, S0B0Token: وينستون_کمي, S0B1Lemma: وينستون_آرام, S0B1LemmaPOS: وينستون_ADJ, S0B1POS: PROPN_ADJ, S0B1POSLemma: PROPN_آرام, S0B1Token: وينستون_آرام, S0Lemma: وينستون, S0POS: PROPN, S0Token: وينستون, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [کمي, آرام, گرفت ,.. ]
+
+B0Lemma: کم, B0POS: ADV, B0Token: کمي, B1Lemma: آرام, B1POS: ADJ, B1Token: آرام, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [کمي]   B= [آرام, گرفت, و ,.. ]
+
+B0Lemma: آرام, B0POS: ADJ, B0Token: آرام, B1Lemma: گرفت, B1POS: VERB, B1Token: گرفت, S0B0Distance: 1, S0B0Lemma: کم_آرام, S0B0LemmaPOS: کم_ADJ, S0B0POS: ADV_ADJ, S0B0POSLemma: ADV_آرام, S0B0Token: کمي_آرام, S0B1Lemma: کم_گرفت, S0B1LemmaPOS: کم_VERB, S0B1POS: ADV_VERB, S0B1POSLemma: ADV_گرفت, S0B1Token: کمي_گرفت, S0Lemma: کم, S0POS: ADV, S0Token: کمي, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آرام, گرفت, و ,.. ]
+
+B0Lemma: آرام, B0POS: ADJ, B0Token: آرام, B1Lemma: گرفت, B1POS: VERB, B1Token: گرفت, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آرام]   B= [گرفت, و, سعي ,.. ]
+
+B0Lemma: گرفت, B0POS: VERB, B0Token: گرفت, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: آرام_گرفت, S0B0LemmaPOS: آرام_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_گرفت, S0B0Token: آرام_گرفت, S0B1Lemma: آرام_و, S0B1LemmaPOS: آرام_CCONJ, S0B1POS: ADJ_CCONJ, S0B1POSLemma: ADJ_و, S0B1Token: آرام_و, S0Lemma: آرام, S0POS: ADJ, S0Token: آرام, 
+
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آرام, گرفت]   B= [و, سعي, کرد ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: سعي, B1POS: NOUN, B1Token: سعي, S0B0Distance: 1, S0B0Lemma: گرفت_و, S0B0LemmaPOS: گرفت_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: گرفت_و, S0B1Lemma: گرفت_سعي, S0B1LemmaPOS: گرفت_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_سعي, S0B1Token: گرفت_سعي, S0Lemma: گرفت, S0POS: VERB, S0S1Distance: 1, S0Token: گرفت, S1B0Lemma: آرام_و, S1B0LemmaPOS: آرام_CCONJ, S1B0POS: ADJ_CCONJ, S1B0POSLemma: ADJ_و, S1B0Token: آرام_و, S1Lemma: آرام, S1POS: ADJ, S1S0Lemma: آرام_گرفت, S1S0LemmaPOS: آرام_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_گرفت, S1S0Token: آرام_گرفت, S1Token: آرام, 
+
+7- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[آرام, گرفت]]   B= [و, سعي, کرد ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: سعي, B1POS: NOUN, B1Token: سعي, S0B0Distance: 1, S0B0Lemma: آرام_گرفت_و, S0B0LemmaPOS: آرام_گرفت_CCONJ, S0B0POS: ADJ_VERB_CCONJ, S0B0POSLemma: ADJ_VERB_و, S0B0Token: آرام_گرفت_و, S0B1Lemma: آرام_گرفت_سعي, S0B1LemmaPOS: آرام_گرفت_NOUN, S0B1POS: ADJ_VERB_NOUN, S0B1POSLemma: ADJ_VERB_سعي, S0B1Token: آرام_گرفت_سعي, S0Lemma: آرام_گرفت, S0POS: ADJ_VERB, S0Token: آرام_گرفت, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, سعي, کرد ,.. ]
+
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: سعي, B1POS: NOUN, B1Token: سعي, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [سعي, کرد, آن ,.. ]
+
+B0Lemma: سعي, B0POS: NOUN, B0Token: سعي, B1Lemma: کرد, B1POS: VERB, B1Token: کرد, S0B0Distance: 1, S0B0Lemma: و_سعي, S0B0LemmaPOS: و_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_سعي, S0B0Token: و_سعي, S0B1Lemma: و_کرد, S0B1LemmaPOS: و_VERB, S0B1POS: CCONJ_VERB, S0B1POSLemma: CCONJ_کرد, S0B1Token: و_کرد, S0Lemma: و, S0POS: CCONJ, S0Token: و, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [سعي, کرد, آن ,.. ]
+
+B0Lemma: سعي, B0POS: NOUN, B0Token: سعي, B1Lemma: کرد, B1POS: VERB, B1Token: کرد, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سعي]   B= [کرد, آن, لحظهٔ ,.. ]
+
+B0Lemma: کرد, B0POS: VERB, B0Token: کرد, B1Lemma: آن, B1POS: DET, B1Token: آن, S0B0Distance: 1, S0B0Lemma: سعي_کرد, S0B0LemmaPOS: سعي_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کرد, S0B0Token: سعي_کرد, S0B1Lemma: سعي_آن, S0B1LemmaPOS: سعي_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_آن, S0B1Token: سعي_آن, S0Lemma: سعي, S0POS: NOUN, S0Token: سعي, 
+
+12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سعي, کرد]   B= [آن, لحظهٔ, ترسناک ,.. ]
+
+B0Lemma: آن, B0POS: DET, B0Token: آن, B1Lemma: لحظه, B1POS: NOUN, B1Token: لحظهٔ, S0B0Distance: 1, S0B0Lemma: کرد_آن, S0B0LemmaPOS: کرد_DET, S0B0POS: VERB_DET, S0B0POSLemma: VERB_آن, S0B0Token: کرد_آن, S0B1Lemma: کرد_لحظه, S0B1LemmaPOS: کرد_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_لحظه, S0B1Token: کرد_لحظهٔ, S0Lemma: کرد, S0POS: VERB, S0S1Distance: 1, S0Token: کرد, S1B0Lemma: سعي_آن, S1B0LemmaPOS: سعي_DET, S1B0POS: NOUN_DET, S1B0POSLemma: NOUN_آن, S1B0Token: سعي_آن, S1Lemma: سعي, S1POS: NOUN, S1S0Lemma: سعي_کرد, S1S0LemmaPOS: سعي_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کرد, S1S0Token: سعي_کرد, S1Token: سعي, 
+
+13- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[سعي, کرد]]   B= [آن, لحظهٔ, ترسناک ,.. ]
+
+B0Lemma: آن, B0POS: DET, B0Token: آن, B1Lemma: لحظه, B1POS: NOUN, B1Token: لحظهٔ, S0B0Distance: 1, S0B0Lemma: سعي_کرد_آن, S0B0LemmaPOS: سعي_کرد_DET, S0B0POS: NOUN_VERB_DET, S0B0POSLemma: NOUN_VERB_آن, S0B0Token: سعي_کرد_آن, S0B1Lemma: سعي_کرد_لحظه, S0B1LemmaPOS: سعي_کرد_NOUN, S0B1POS: NOUN_VERB_NOUN, S0B1POSLemma: NOUN_VERB_لحظه, S0B1Token: سعي_کرد_لحظهٔ, S0Lemma: سعي_کرد, S0POS: NOUN_VERB, S0Token: سعي_کرد, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آن, لحظهٔ, ترسناک ,.. ]
+
+B0Lemma: آن, B0POS: DET, B0Token: آن, B1Lemma: لحظه, B1POS: NOUN, B1Token: لحظهٔ, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آن]   B= [لحظهٔ, ترسناک, را ,.. ]
+
+B0Lemma: لحظه, B0POS: NOUN, B0Token: لحظهٔ, B1Lemma: ترسناک, B1POS: ADJ, B1Token: ترسناک, S0B0Distance: 1, S0B0Lemma: آن_لحظه, S0B0LemmaPOS: آن_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_لحظه, S0B0Token: آن_لحظهٔ, S0B1Lemma: آن_ترسناک, S0B1LemmaPOS: آن_ADJ, S0B1POS: DET_ADJ, S0B1POSLemma: DET_ترسناک, S0B1Token: آن_ترسناک, S0Lemma: آن, S0POS: DET, S0Token: آن, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [لحظهٔ, ترسناک, را ,.. ]
+
+B0Lemma: لحظه, B0POS: NOUN, B0Token: لحظهٔ, B1Lemma: ترسناک, B1POS: ADJ, B1Token: ترسناک, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [لحظهٔ]   B= [ترسناک, را, فراموش ,.. ]
+
+B0Lemma: ترسناک, B0POS: ADJ, B0Token: ترسناک, B1Lemma: را, B1POS: ADP, B1Token: را, S0B0Distance: 1, S0B0Lemma: لحظه_ترسناک, S0B0LemmaPOS: لحظه_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_ترسناک, S0B0Token: لحظهٔ_ترسناک, S0B1Lemma: لحظه_را, S0B1LemmaPOS: لحظه_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_را, S0B1Token: لحظهٔ_را, S0Lemma: لحظه, S0POS: NOUN, S0Token: لحظهٔ, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ترسناک, را, فراموش ,.. ]
+
+B0Lemma: ترسناک, B0POS: ADJ, B0Token: ترسناک, B1Lemma: را, B1POS: ADP, B1Token: را, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ترسناک]   B= [را, فراموش, کند ,.. ]
+
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: فراموش, B1POS: ADJ, B1Token: فراموش, S0B0Distance: 1, S0B0Lemma: ترسناک_را, S0B0LemmaPOS: ترسناک_ADP, S0B0POS: ADJ_ADP, S0B0POSLemma: ADJ_را, S0B0Token: ترسناک_را, S0B1Lemma: ترسناک_فراموش, S0B1LemmaPOS: ترسناک_ADJ, S0B1POS: ADJ_ADJ, S0B1POSLemma: ADJ_فراموش, S0B1Token: ترسناک_فراموش, S0Lemma: ترسناک, S0POS: ADJ, S0Token: ترسناک, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [را, فراموش, کند ,.. ]
+
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: فراموش, B1POS: ADJ, B1Token: فراموش, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [را]   B= [فراموش, کند, . ,.. ]
+
+B0Lemma: فراموش, B0POS: ADJ, B0Token: فراموش, B1Lemma: کن, B1POS: VERB, B1Token: کند, S0B0Distance: 1, S0B0Lemma: را_فراموش, S0B0LemmaPOS: را_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_فراموش, S0B0Token: را_فراموش, S0B1Lemma: را_کن, S0B1LemmaPOS: را_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_کن, S0B1Token: را_کند, S0Lemma: را, S0POS: ADP, S0Token: را, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [فراموش, کند, . ,.. ]
+
+B0Lemma: فراموش, B0POS: ADJ, B0Token: فراموش, B1Lemma: کن, B1POS: VERB, B1Token: کند, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فراموش]   B= [کند, . ,.. ]
+
+B0Lemma: کن, B0POS: VERB, B0Token: کند, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: فراموش_کن, S0B0LemmaPOS: فراموش_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_کن, S0B0Token: فراموش_کند, S0B1Lemma: فراموش_., S0B1LemmaPOS: فراموش_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_., S0B1Token: فراموش_., S0Lemma: فراموش, S0POS: ADJ, S0Token: فراموش, 
+
+24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فراموش, کند]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: کن_., S0B0LemmaPOS: کن_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: کند_., S0Lemma: کن, S0POS: VERB, S0S1Distance: 1, S0Token: کند, S1B0Lemma: فراموش_., S1B0LemmaPOS: فراموش_PUNCT, S1B0POS: ADJ_PUNCT, S1B0POSLemma: ADJ_., S1B0Token: فراموش_., S1Lemma: فراموش, S1POS: ADJ, S1S0Lemma: فراموش_کن, S1S0LemmaPOS: فراموش_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_کن, S1S0Token: فراموش_کند, S1Token: فراموش, 
+
+25- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[فراموش, کند]]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: فراموش_کن_., S0B0LemmaPOS: فراموش_کن_PUNCT, S0B0POS: ADJ_VERB_PUNCT, S0B0POSLemma: ADJ_VERB_., S0B0Token: فراموش_کند_., S0Lemma: فراموش_کن, S0POS: ADJ_VERB, S0Token: فراموش_کند, 
 
 26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: ., B0POS: PUNCT, B0Token: ., 
 
 27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-S0Lemma: ., S0POS: PUNCT, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+S0Lemma: ., S0POS: PUNCT, S0Token: ., 
 
 28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 2031 - 
-او و جوليا تمامِ مدت آهسته حرف زده بودند و ميکروفن نمي‌توانست صدايِ آنها را به وضوح ضبط کند ولي احتمالاً صدايِ پرنده را ضبط مي‌کرد . 
+## Sentence No. 2609 - 
+راه‌پيمايي‌ها ، جلسات ، رژه‌هايِ نظامي ، سخنراني‌ها مجسمه‌هايِ موميِ نمايش ، برنامه‌هايِ صفحهٔ سخنگو و نمايشِ فيلم ، همه بايد سازمان مي‌يافت ؛ بايد جايگاه‌ها بر پا مي‌شدند ، تمثال‌ها و مجسمه‌ها ساخته مي‌شدند ، شعارها نوشته مي‌شد ، اشعار سروده مي‌شد ، شايعات را به جريان مي‌انداختند و عکس‌ها را دستکاري مي‌کردند . 
 ### Existing MWEs: 
-1- **حرف زده** (OTH)
-2- **ضبط کند** (OTH)
-3- **ضبط مي‌کرد** (OTH)
+1- **سازمان مي‌يافت** (OTH)
+2- **بر پا مي‌شدند** (OTH)
+3- **دستکاري مي‌کردند** (OTH)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [او, و, جوليا ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [راه‌پيمايي‌ها, ،, جلسات ,.. ]
 
-B0Lemma: او, B0POS: PRON, B0Token: او, B1Lemma: و, B1POS: CCONJ, B1Token: و, 
+B0Lemma: راهپيمايي, B0POS: NOUN, B0Token: راه‌پيمايي‌ها, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [او]   B= [و, جوليا, تمامِ ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [راه‌پيمايي‌ها]   B= [،, جلسات, ، ,.. ]
 
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: جوليا, B1POS: PROPN, B1Token: جوليا, S0B0Distance: 1, S0B0Lemma: او_و, S0B0LemmaPOS: او_CCONJ, S0B0POS: PRON_CCONJ, S0B0POSLemma: PRON_و, S0B0Token: او_و, S0B1Lemma: او_جوليا, S0B1LemmaPOS: او_PROPN, S0B1POS: PRON_PROPN, S0B1POSLemma: PRON_جوليا, S0B1Token: او_جوليا, S0Lemma: او, S0POS: PRON, S0Token: او, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: جلسه, B1POS: NOUN, B1Token: جلسات, S0B0Distance: 1, S0B0Lemma: راهپيمايي_،, S0B0LemmaPOS: راهپيمايي_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_،, S0B0Token: راه‌پيمايي‌ها_،, S0B1Lemma: راهپيمايي_جلسه, S0B1LemmaPOS: راهپيمايي_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_جلسه, S0B1Token: راه‌پيمايي‌ها_جلسات, S0Lemma: راهپيمايي, S0POS: NOUN, S0Token: راه‌پيمايي‌ها, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, جوليا, تمامِ ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, جلسات, ، ,.. ]
 
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: جوليا, B1POS: PROPN, B1Token: جوليا, transitionHistoryLength1: 0, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: جلسه, B1POS: NOUN, B1Token: جلسات, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [جوليا, تمامِ, مدت ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [جلسات, ،, رژه‌هايِ ,.. ]
 
-B0Lemma: جوليا, B0POS: PROPN, B0Token: جوليا, B1Lemma: تمام, B1POS: DET, B1Token: تمامِ, S0B0Distance: 1, S0B0Lemma: و_جوليا, S0B0LemmaPOS: و_PROPN, S0B0POS: CCONJ_PROPN, S0B0POSLemma: CCONJ_جوليا, S0B0Token: و_جوليا, S0B1Lemma: و_تمام, S0B1LemmaPOS: و_DET, S0B1POS: CCONJ_DET, S0B1POSLemma: CCONJ_تمام, S0B1Token: و_تمامِ, S0Lemma: و, S0POS: CCONJ, S0Token: و, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: جلسه, B0POS: NOUN, B0Token: جلسات, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: ،_جلسه, S0B0LemmaPOS: ،_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_جلسه, S0B0Token: ،_جلسات, S0B1Lemma: ،_،, S0B1LemmaPOS: ،_PUNCT, S0B1POS: PUNCT_PUNCT, S0B1POSLemma: PUNCT_،, S0B1Token: ،_،, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [جوليا, تمامِ, مدت ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [جلسات, ،, رژه‌هايِ ,.. ]
 
-B0Lemma: جوليا, B0POS: PROPN, B0Token: جوليا, B1Lemma: تمام, B1POS: DET, B1Token: تمامِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: جلسه, B0POS: NOUN, B0Token: جلسات, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [جوليا]   B= [تمامِ, مدت, آهسته ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [جلسات]   B= [،, رژه‌هايِ, نظامي ,.. ]
 
-B0Lemma: تمام, B0POS: DET, B0Token: تمامِ, B1Lemma: مدت, B1POS: NOUN, B1Token: مدت, S0B0Distance: 1, S0B0Lemma: جوليا_تمام, S0B0LemmaPOS: جوليا_DET, S0B0POS: PROPN_DET, S0B0POSLemma: PROPN_تمام, S0B0Token: جوليا_تمامِ, S0B1Lemma: جوليا_مدت, S0B1LemmaPOS: جوليا_NOUN, S0B1POS: PROPN_NOUN, S0B1POSLemma: PROPN_مدت, S0B1Token: جوليا_مدت, S0Lemma: جوليا, S0POS: PROPN, S0Token: جوليا, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: رژه, B1POS: NOUN, B1Token: رژه‌هايِ, S0B0Distance: 1, S0B0Lemma: جلسه_،, S0B0LemmaPOS: جلسه_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_،, S0B0Token: جلسات_،, S0B1Lemma: جلسه_رژه, S0B1LemmaPOS: جلسه_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_رژه, S0B1Token: جلسات_رژه‌هايِ, S0Lemma: جلسه, S0POS: NOUN, S0Token: جلسات, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [تمامِ, مدت, آهسته ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, رژه‌هايِ, نظامي ,.. ]
 
-B0Lemma: تمام, B0POS: DET, B0Token: تمامِ, B1Lemma: مدت, B1POS: NOUN, B1Token: مدت, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: رژه, B1POS: NOUN, B1Token: رژه‌هايِ, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [تمامِ]   B= [مدت, آهسته, حرف ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [رژه‌هايِ, نظامي, ، ,.. ]
 
-B0Lemma: مدت, B0POS: NOUN, B0Token: مدت, B1Lemma: آهسته, B1POS: ADV, B1Token: آهسته, S0B0Distance: 1, S0B0Lemma: تمام_مدت, S0B0LemmaPOS: تمام_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_مدت, S0B0Token: تمامِ_مدت, S0B1Lemma: تمام_آهسته, S0B1LemmaPOS: تمام_ADV, S0B1POS: DET_ADV, S0B1POSLemma: DET_آهسته, S0B1Token: تمامِ_آهسته, S0Lemma: تمام, S0POS: DET, S0Token: تمامِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: رژه, B0POS: NOUN, B0Token: رژه‌هايِ, B1Lemma: نظامي, B1POS: ADJ, B1Token: نظامي, S0B0Distance: 1, S0B0Lemma: ،_رژه, S0B0LemmaPOS: ،_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_رژه, S0B0Token: ،_رژه‌هايِ, S0B1Lemma: ،_نظامي, S0B1LemmaPOS: ،_ADJ, S0B1POS: PUNCT_ADJ, S0B1POSLemma: PUNCT_نظامي, S0B1Token: ،_نظامي, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مدت, آهسته, حرف ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [رژه‌هايِ, نظامي, ، ,.. ]
 
-B0Lemma: مدت, B0POS: NOUN, B0Token: مدت, B1Lemma: آهسته, B1POS: ADV, B1Token: آهسته, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: رژه, B0POS: NOUN, B0Token: رژه‌هايِ, B1Lemma: نظامي, B1POS: ADJ, B1Token: نظامي, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مدت]   B= [آهسته, حرف, زده ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [رژه‌هايِ]   B= [نظامي, ،, سخنراني‌ها ,.. ]
 
-B0Lemma: آهسته, B0POS: ADV, B0Token: آهسته, B1Lemma: حرف, B1POS: NOUN, B1Token: حرف, S0B0Distance: 1, S0B0Lemma: مدت_آهسته, S0B0LemmaPOS: مدت_ADV, S0B0POS: NOUN_ADV, S0B0POSLemma: NOUN_آهسته, S0B0Token: مدت_آهسته, S0B1Lemma: مدت_حرف, S0B1LemmaPOS: مدت_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_حرف, S0B1Token: مدت_حرف, S0Lemma: مدت, S0POS: NOUN, S0Token: مدت, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: نظامي, B0POS: ADJ, B0Token: نظامي, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: رژه_نظامي, S0B0LemmaPOS: رژه_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_نظامي, S0B0Token: رژه‌هايِ_نظامي, S0B1Lemma: رژه_،, S0B1LemmaPOS: رژه_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_،, S0B1Token: رژه‌هايِ_،, S0Lemma: رژه, S0POS: NOUN, S0Token: رژه‌هايِ, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آهسته, حرف, زده ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نظامي, ،, سخنراني‌ها ,.. ]
 
-B0Lemma: آهسته, B0POS: ADV, B0Token: آهسته, B1Lemma: حرف, B1POS: NOUN, B1Token: حرف, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: نظامي, B0POS: ADJ, B0Token: نظامي, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آهسته]   B= [حرف, زده, بودند ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نظامي]   B= [،, سخنراني‌ها, مجسمه‌هايِ ,.. ]
 
-B0Lemma: حرف, B0POS: NOUN, B0Token: حرف, B1Lemma: زد, B1POS: VERB, B1Token: زده, S0B0Distance: 1, S0B0Lemma: آهسته_حرف, S0B0LemmaPOS: آهسته_NOUN, S0B0POS: ADV_NOUN, S0B0POSLemma: ADV_حرف, S0B0Token: آهسته_حرف, S0B1Lemma: آهسته_زد, S0B1LemmaPOS: آهسته_VERB, S0B1POS: ADV_VERB, S0B1POSLemma: ADV_زد, S0B1Token: آهسته_زده, S0Lemma: آهسته, S0POS: ADV, S0Token: آهسته, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: سخنراني, B1POS: NOUN, B1Token: سخنراني‌ها, S0B0Distance: 1, S0B0Lemma: نظامي_،, S0B0LemmaPOS: نظامي_PUNCT, S0B0POS: ADJ_PUNCT, S0B0POSLemma: ADJ_،, S0B0Token: نظامي_،, S0B1Lemma: نظامي_سخنراني, S0B1LemmaPOS: نظامي_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_سخنراني, S0B1Token: نظامي_سخنراني‌ها, S0Lemma: نظامي, S0POS: ADJ, S0Token: نظامي, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [حرف, زده, بودند ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, سخنراني‌ها, مجسمه‌هايِ ,.. ]
 
-B0Lemma: حرف, B0POS: NOUN, B0Token: حرف, B1Lemma: زد, B1POS: VERB, B1Token: زده, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: سخنراني, B1POS: NOUN, B1Token: سخنراني‌ها, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [حرف]   B= [زده, بودند, و ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [سخنراني‌ها, مجسمه‌هايِ, موميِ ,.. ]
 
-B0Lemma: زد, B0POS: VERB, B0Token: زده, B1Lemma: بود, B1POS: AUX, B1Token: بودند, S0B0Distance: 1, S0B0Lemma: حرف_زد, S0B0LemmaPOS: حرف_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_زد, S0B0Token: حرف_زده, S0B1Lemma: حرف_بود, S0B1LemmaPOS: حرف_AUX, S0B1POS: NOUN_AUX, S0B1POSLemma: NOUN_بود, S0B1Token: حرف_بودند, S0Lemma: حرف, S0POS: NOUN, S0Token: حرف, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: سخنراني, B0POS: NOUN, B0Token: سخنراني‌ها, B1Lemma: مجسمه, B1POS: NOUN, B1Token: مجسمه‌هايِ, S0B0Distance: 1, S0B0Lemma: ،_سخنراني, S0B0LemmaPOS: ،_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_سخنراني, S0B0Token: ،_سخنراني‌ها, S0B1Lemma: ،_مجسمه, S0B1LemmaPOS: ،_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_مجسمه, S0B1Token: ،_مجسمه‌هايِ, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [حرف, زده]   B= [بودند, و, ميکروفن ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [سخنراني‌ها, مجسمه‌هايِ, موميِ ,.. ]
 
-B0Lemma: بود, B0POS: AUX, B0Token: بودند, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: زد_بود, S0B0LemmaPOS: زد_AUX, S0B0POS: VERB_AUX, S0B0POSLemma: VERB_بود, S0B0Token: زده_بودند, S0B1Lemma: زد_و, S0B1LemmaPOS: زد_CCONJ, S0B1POS: VERB_CCONJ, S0B1POSLemma: VERB_و, S0B1Token: زده_و, S0Lemma: زد, S0POS: VERB, S0Token: زده, S1B0Lemma: حرف_بود, S1B0LemmaPOS: حرف_AUX, S1B0POS: NOUN_AUX, S1B0POSLemma: NOUN_بود, S1B0Token: حرف_بودند, S1Lemma: حرف, S1POS: NOUN, S1S0Lemma: حرف_زد, S1S0LemmaPOS: حرف_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_زد, S1S0Token: حرف_زده, S1Token: حرف, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: سخنراني, B0POS: NOUN, B0Token: سخنراني‌ها, B1Lemma: مجسمه, B1POS: NOUN, B1Token: مجسمه‌هايِ, 
 
-15- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[حرف, زده]]   B= [بودند, و, ميکروفن ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سخنراني‌ها]   B= [مجسمه‌هايِ, موميِ, نمايش ,.. ]
 
-B0Lemma: بود, B0POS: AUX, B0Token: بودند, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: حرف_زد_بود, S0B0LemmaPOS: حرف_زد_AUX, S0B0POS: NOUN_VERB_AUX, S0B0POSLemma: NOUN_VERB_بود, S0B0Token: حرف_زده_بودند, S0B1Lemma: حرف_زد_و, S0B1LemmaPOS: حرف_زد_CCONJ, S0B1POS: NOUN_VERB_CCONJ, S0B1POSLemma: NOUN_VERB_و, S0B1Token: حرف_زده_و, S0Lemma: حرف_زد, S0POS: NOUN_VERB, S0Token: حرف_زده, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: مجسمه, B0POS: NOUN, B0Token: مجسمه‌هايِ, B1Lemma: مومي, B1POS: ADJ, B1Token: موميِ, S0B0Distance: 1, S0B0Lemma: سخنراني_مجسمه, S0B0LemmaPOS: سخنراني_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_مجسمه, S0B0Token: سخنراني‌ها_مجسمه‌هايِ, S0B1Lemma: سخنراني_مومي, S0B1LemmaPOS: سخنراني_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_مومي, S0B1Token: سخنراني‌ها_موميِ, S0Lemma: سخنراني, S0POS: NOUN, S0Token: سخنراني‌ها, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بودند, و, ميکروفن ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مجسمه‌هايِ, موميِ, نمايش ,.. ]
 
-B0Lemma: بود, B0POS: AUX, B0Token: بودند, B1Lemma: و, B1POS: CCONJ, B1Token: و, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: مجسمه, B0POS: NOUN, B0Token: مجسمه‌هايِ, B1Lemma: مومي, B1POS: ADJ, B1Token: موميِ, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بودند]   B= [و, ميکروفن, نمي‌توانست ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مجسمه‌هايِ]   B= [موميِ, نمايش, ، ,.. ]
 
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: ميکروفن, B1POS: NOUN, B1Token: ميکروفن, S0B0Distance: 1, S0B0Lemma: بود_و, S0B0LemmaPOS: بود_CCONJ, S0B0POS: AUX_CCONJ, S0B0POSLemma: AUX_و, S0B0Token: بودند_و, S0B1Lemma: بود_ميکروفن, S0B1LemmaPOS: بود_NOUN, S0B1POS: AUX_NOUN, S0B1POSLemma: AUX_ميکروفن, S0B1Token: بودند_ميکروفن, S0Lemma: بود, S0POS: AUX, S0Token: بودند, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: مومي, B0POS: ADJ, B0Token: موميِ, B1Lemma: نمايش, B1POS: NOUN, B1Token: نمايش, S0B0Distance: 1, S0B0Lemma: مجسمه_مومي, S0B0LemmaPOS: مجسمه_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_مومي, S0B0Token: مجسمه‌هايِ_موميِ, S0B1Lemma: مجسمه_نمايش, S0B1LemmaPOS: مجسمه_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_نمايش, S0B1Token: مجسمه‌هايِ_نمايش, S0Lemma: مجسمه, S0POS: NOUN, S0Token: مجسمه‌هايِ, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, ميکروفن, نمي‌توانست ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [موميِ, نمايش, ، ,.. ]
 
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: ميکروفن, B1POS: NOUN, B1Token: ميکروفن, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+B0Lemma: مومي, B0POS: ADJ, B0Token: موميِ, B1Lemma: نمايش, B1POS: NOUN, B1Token: نمايش, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [ميکروفن, نمي‌توانست, صدايِ ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [موميِ]   B= [نمايش, ،, برنامه‌هايِ ,.. ]
 
-B0Lemma: ميکروفن, B0POS: NOUN, B0Token: ميکروفن, B1Lemma: توانست, B1POS: AUX, B1Token: نمي‌توانست, S0B0Distance: 1, S0B0Lemma: و_ميکروفن, S0B0LemmaPOS: و_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_ميکروفن, S0B0Token: و_ميکروفن, S0B1Lemma: و_توانست, S0B1LemmaPOS: و_AUX, S0B1POS: CCONJ_AUX, S0B1POSLemma: CCONJ_توانست, S0B1Token: و_نمي‌توانست, S0Lemma: و, S0POS: CCONJ, S0Token: و, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: نمايش, B0POS: NOUN, B0Token: نمايش, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: مومي_نمايش, S0B0LemmaPOS: مومي_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_نمايش, S0B0Token: موميِ_نمايش, S0B1Lemma: مومي_،, S0B1LemmaPOS: مومي_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_،, S0B1Token: موميِ_،, S0Lemma: مومي, S0POS: ADJ, S0Token: موميِ, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ميکروفن, نمي‌توانست, صدايِ ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نمايش, ،, برنامه‌هايِ ,.. ]
 
-B0Lemma: ميکروفن, B0POS: NOUN, B0Token: ميکروفن, B1Lemma: توانست, B1POS: AUX, B1Token: نمي‌توانست, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: نمايش, B0POS: NOUN, B0Token: نمايش, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ميکروفن]   B= [نمي‌توانست, صدايِ, آنها ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نمايش]   B= [،, برنامه‌هايِ, صفحهٔ ,.. ]
 
-B0Lemma: توانست, B0POS: AUX, B0Token: نمي‌توانست, B1Lemma: صدا, B1POS: NOUN, B1Token: صدايِ, S0B0Distance: 1, S0B0Lemma: ميکروفن_توانست, S0B0LemmaPOS: ميکروفن_AUX, S0B0POS: NOUN_AUX, S0B0POSLemma: NOUN_توانست, S0B0Token: ميکروفن_نمي‌توانست, S0B1Lemma: ميکروفن_صدا, S0B1LemmaPOS: ميکروفن_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_صدا, S0B1Token: ميکروفن_صدايِ, S0Lemma: ميکروفن, S0POS: NOUN, S0Token: ميکروفن, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: برنامه, B1POS: NOUN, B1Token: برنامه‌هايِ, S0B0Distance: 1, S0B0Lemma: نمايش_،, S0B0LemmaPOS: نمايش_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_،, S0B0Token: نمايش_،, S0B1Lemma: نمايش_برنامه, S0B1LemmaPOS: نمايش_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_برنامه, S0B1Token: نمايش_برنامه‌هايِ, S0Lemma: نمايش, S0POS: NOUN, S0Token: نمايش, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نمي‌توانست, صدايِ, آنها ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, برنامه‌هايِ, صفحهٔ ,.. ]
 
-B0Lemma: توانست, B0POS: AUX, B0Token: نمي‌توانست, B1Lemma: صدا, B1POS: NOUN, B1Token: صدايِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: برنامه, B1POS: NOUN, B1Token: برنامه‌هايِ, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نمي‌توانست]   B= [صدايِ, آنها, را ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [برنامه‌هايِ, صفحهٔ, سخنگو ,.. ]
 
-B0Lemma: صدا, B0POS: NOUN, B0Token: صدايِ, B1Lemma: آنها, B1POS: PRON, B1Token: آنها, S0B0Distance: 1, S0B0Lemma: توانست_صدا, S0B0LemmaPOS: توانست_NOUN, S0B0POS: AUX_NOUN, S0B0POSLemma: AUX_صدا, S0B0Token: نمي‌توانست_صدايِ, S0B1Lemma: توانست_آنها, S0B1LemmaPOS: توانست_PRON, S0B1POS: AUX_PRON, S0B1POSLemma: AUX_آنها, S0B1Token: نمي‌توانست_آنها, S0Lemma: توانست, S0POS: AUX, S0Token: نمي‌توانست, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: برنامه, B0POS: NOUN, B0Token: برنامه‌هايِ, B1Lemma: صفحه, B1POS: NOUN, B1Token: صفحهٔ, S0B0Distance: 1, S0B0Lemma: ،_برنامه, S0B0LemmaPOS: ،_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_برنامه, S0B0Token: ،_برنامه‌هايِ, S0B1Lemma: ،_صفحه, S0B1LemmaPOS: ،_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_صفحه, S0B1Token: ،_صفحهٔ, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [صدايِ, آنها, را ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [برنامه‌هايِ, صفحهٔ, سخنگو ,.. ]
 
-B0Lemma: صدا, B0POS: NOUN, B0Token: صدايِ, B1Lemma: آنها, B1POS: PRON, B1Token: آنها, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: برنامه, B0POS: NOUN, B0Token: برنامه‌هايِ, B1Lemma: صفحه, B1POS: NOUN, B1Token: صفحهٔ, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [صدايِ]   B= [آنها, را, به ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [برنامه‌هايِ]   B= [صفحهٔ, سخنگو, و ,.. ]
 
-B0Lemma: آنها, B0POS: PRON, B0Token: آنها, B1Lemma: را, B1POS: ADP, B1Token: را, S0B0Distance: 1, S0B0Lemma: صدا_آنها, S0B0LemmaPOS: صدا_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_آنها, S0B0Token: صدايِ_آنها, S0B1Lemma: صدا_را, S0B1LemmaPOS: صدا_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_را, S0B1Token: صدايِ_را, S0Lemma: صدا, S0POS: NOUN, S0Token: صدايِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: صفحه, B0POS: NOUN, B0Token: صفحهٔ, B1Lemma: سخنگو, B1POS: ADJ, B1Token: سخنگو, S0B0Distance: 1, S0B0Lemma: برنامه_صفحه, S0B0LemmaPOS: برنامه_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_صفحه, S0B0Token: برنامه‌هايِ_صفحهٔ, S0B1Lemma: برنامه_سخنگو, S0B1LemmaPOS: برنامه_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_سخنگو, S0B1Token: برنامه‌هايِ_سخنگو, S0Lemma: برنامه, S0POS: NOUN, S0Token: برنامه‌هايِ, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آنها, را, به ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [صفحهٔ, سخنگو, و ,.. ]
 
-B0Lemma: آنها, B0POS: PRON, B0Token: آنها, B1Lemma: را, B1POS: ADP, B1Token: را, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: صفحه, B0POS: NOUN, B0Token: صفحهٔ, B1Lemma: سخنگو, B1POS: ADJ, B1Token: سخنگو, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آنها]   B= [را, به, وضوح ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [صفحهٔ]   B= [سخنگو, و, نمايشِ ,.. ]
 
-B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: به, B1POS: ADP, B1Token: به, S0B0Distance: 1, S0B0Lemma: آنها_را, S0B0LemmaPOS: آنها_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_را, S0B0Token: آنها_را, S0B1Lemma: آنها_به, S0B1LemmaPOS: آنها_ADP, S0B1POS: PRON_ADP, S0B1POSLemma: PRON_به, S0B1Token: آنها_به, S0Lemma: آنها, S0POS: PRON, S0Token: آنها, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: سخنگو, B0POS: ADJ, B0Token: سخنگو, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: صفحه_سخنگو, S0B0LemmaPOS: صفحه_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_سخنگو, S0B0Token: صفحهٔ_سخنگو, S0B1Lemma: صفحه_و, S0B1LemmaPOS: صفحه_CCONJ, S0B1POS: NOUN_CCONJ, S0B1POSLemma: NOUN_و, S0B1Token: صفحهٔ_و, S0Lemma: صفحه, S0POS: NOUN, S0Token: صفحهٔ, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [را, به, وضوح ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [سخنگو, و, نمايشِ ,.. ]
 
-B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: به, B1POS: ADP, B1Token: به, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: سخنگو, B0POS: ADJ, B0Token: سخنگو, B1Lemma: و, B1POS: CCONJ, B1Token: و, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [را]   B= [به, وضوح, ضبط ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سخنگو]   B= [و, نمايشِ, فيلم ,.. ]
 
-B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: وضوح, B1POS: NOUN, B1Token: وضوح, S0B0Distance: 1, S0B0Lemma: را_به, S0B0LemmaPOS: را_ADP, S0B0POS: ADP_ADP, S0B0POSLemma: ADP_به, S0B0Token: را_به, S0B1Lemma: را_وضوح, S0B1LemmaPOS: را_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_وضوح, S0B1Token: را_وضوح, S0Lemma: را, S0POS: ADP, S0Token: را, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: نمايش, B1POS: NOUN, B1Token: نمايشِ, S0B0Distance: 1, S0B0Lemma: سخنگو_و, S0B0LemmaPOS: سخنگو_CCONJ, S0B0POS: ADJ_CCONJ, S0B0POSLemma: ADJ_و, S0B0Token: سخنگو_و, S0B1Lemma: سخنگو_نمايش, S0B1LemmaPOS: سخنگو_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_نمايش, S0B1Token: سخنگو_نمايشِ, S0Lemma: سخنگو, S0POS: ADJ, S0Token: سخنگو, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [به, وضوح, ضبط ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, نمايشِ, فيلم ,.. ]
 
-B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: وضوح, B1POS: NOUN, B1Token: وضوح, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: نمايش, B1POS: NOUN, B1Token: نمايشِ, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به]   B= [وضوح, ضبط, کند ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [نمايشِ, فيلم, ، ,.. ]
 
-B0Lemma: وضوح, B0POS: NOUN, B0Token: وضوح, B1Lemma: ضبط, B1POS: NOUN, B1Token: ضبط, S0B0Distance: 1, S0B0Lemma: به_وضوح, S0B0LemmaPOS: به_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_وضوح, S0B0Token: به_وضوح, S0B1Lemma: به_ضبط, S0B1LemmaPOS: به_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_ضبط, S0B1Token: به_ضبط, S0Lemma: به, S0POS: ADP, S0Token: به, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: نمايش, B0POS: NOUN, B0Token: نمايشِ, B1Lemma: فيلم, B1POS: NOUN, B1Token: فيلم, S0B0Distance: 1, S0B0Lemma: و_نمايش, S0B0LemmaPOS: و_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_نمايش, S0B0Token: و_نمايشِ, S0B1Lemma: و_فيلم, S0B1LemmaPOS: و_NOUN, S0B1POS: CCONJ_NOUN, S0B1POSLemma: CCONJ_فيلم, S0B1Token: و_فيلم, S0Lemma: و, S0POS: CCONJ, S0Token: و, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [وضوح, ضبط, کند ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نمايشِ, فيلم, ، ,.. ]
 
-B0Lemma: وضوح, B0POS: NOUN, B0Token: وضوح, B1Lemma: ضبط, B1POS: NOUN, B1Token: ضبط, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: نمايش, B0POS: NOUN, B0Token: نمايشِ, B1Lemma: فيلم, B1POS: NOUN, B1Token: فيلم, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [وضوح]   B= [ضبط, کند, ولي ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نمايشِ]   B= [فيلم, ،, همه ,.. ]
 
-B0Lemma: ضبط, B0POS: NOUN, B0Token: ضبط, B1Lemma: کن, B1POS: VERB, B1Token: کند, S0B0Distance: 1, S0B0Lemma: وضوح_ضبط, S0B0LemmaPOS: وضوح_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_ضبط, S0B0Token: وضوح_ضبط, S0B1Lemma: وضوح_کن, S0B1LemmaPOS: وضوح_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_کن, S0B1Token: وضوح_کند, S0Lemma: وضوح, S0POS: NOUN, S0Token: وضوح, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: فيلم, B0POS: NOUN, B0Token: فيلم, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: نمايش_فيلم, S0B0LemmaPOS: نمايش_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_فيلم, S0B0Token: نمايشِ_فيلم, S0B1Lemma: نمايش_،, S0B1LemmaPOS: نمايش_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_،, S0B1Token: نمايشِ_،, S0Lemma: نمايش, S0POS: NOUN, S0Token: نمايشِ, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ضبط, کند, ولي ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [فيلم, ،, همه ,.. ]
 
-B0Lemma: ضبط, B0POS: NOUN, B0Token: ضبط, B1Lemma: کن, B1POS: VERB, B1Token: کند, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: فيلم, B0POS: NOUN, B0Token: فيلم, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ضبط]   B= [کند, ولي, احتمالاً ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فيلم]   B= [،, همه, بايد ,.. ]
 
-B0Lemma: کن, B0POS: VERB, B0Token: کند, B1Lemma: ولي, B1POS: CCONJ, B1Token: ولي, S0B0Distance: 1, S0B0Lemma: ضبط_کن, S0B0LemmaPOS: ضبط_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کن, S0B0Token: ضبط_کند, S0B1Lemma: ضبط_ولي, S0B1LemmaPOS: ضبط_CCONJ, S0B1POS: NOUN_CCONJ, S0B1POSLemma: NOUN_ولي, S0B1Token: ضبط_ولي, S0Lemma: ضبط, S0POS: NOUN, S0Token: ضبط, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: همه, B1POS: PRON, B1Token: همه, S0B0Distance: 1, S0B0Lemma: فيلم_،, S0B0LemmaPOS: فيلم_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_،, S0B0Token: فيلم_،, S0B1Lemma: فيلم_همه, S0B1LemmaPOS: فيلم_PRON, S0B1POS: NOUN_PRON, S0B1POSLemma: NOUN_همه, S0B1Token: فيلم_همه, S0Lemma: فيلم, S0POS: NOUN, S0Token: فيلم, 
 
-36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ضبط, کند]   B= [ولي, احتمالاً, صدايِ ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, همه, بايد ,.. ]
 
-B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: احتمالاً, B1POS: ADV, B1Token: احتمالاً, S0B0Distance: 1, S0B0Lemma: کن_ولي, S0B0LemmaPOS: کن_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_ولي, S0B0Token: کند_ولي, S0B1Lemma: کن_احتمالاً, S0B1LemmaPOS: کن_ADV, S0B1POS: VERB_ADV, S0B1POSLemma: VERB_احتمالاً, S0B1Token: کند_احتمالاً, S0Lemma: کن, S0POS: VERB, S0Token: کند, S1B0Lemma: ضبط_ولي, S1B0LemmaPOS: ضبط_CCONJ, S1B0POS: NOUN_CCONJ, S1B0POSLemma: NOUN_ولي, S1B0Token: ضبط_ولي, S1Lemma: ضبط, S1POS: NOUN, S1S0Lemma: ضبط_کن, S1S0LemmaPOS: ضبط_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کن, S1S0Token: ضبط_کند, S1Token: ضبط, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: همه, B1POS: PRON, B1Token: همه, 
 
-37- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ضبط, کند]]   B= [ولي, احتمالاً, صدايِ ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [همه, بايد, سازمان ,.. ]
 
-B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: احتمالاً, B1POS: ADV, B1Token: احتمالاً, S0B0Distance: 1, S0B0Lemma: ضبط_کن_ولي, S0B0LemmaPOS: ضبط_کن_CCONJ, S0B0POS: NOUN_VERB_CCONJ, S0B0POSLemma: NOUN_VERB_ولي, S0B0Token: ضبط_کند_ولي, S0B1Lemma: ضبط_کن_احتمالاً, S0B1LemmaPOS: ضبط_کن_ADV, S0B1POS: NOUN_VERB_ADV, S0B1POSLemma: NOUN_VERB_احتمالاً, S0B1Token: ضبط_کند_احتمالاً, S0Lemma: ضبط_کن, S0POS: NOUN_VERB, S0Token: ضبط_کند, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: همه, B0POS: PRON, B0Token: همه, B1Lemma: بايد, B1POS: AUX, B1Token: بايد, S0B0Distance: 1, S0B0Lemma: ،_همه, S0B0LemmaPOS: ،_PRON, S0B0POS: PUNCT_PRON, S0B0POSLemma: PUNCT_همه, S0B0Token: ،_همه, S0B1Lemma: ،_بايد, S0B1LemmaPOS: ،_AUX, S0B1POS: PUNCT_AUX, S0B1POSLemma: PUNCT_بايد, S0B1Token: ،_بايد, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ولي, احتمالاً, صدايِ ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [همه, بايد, سازمان ,.. ]
 
-B0Lemma: ولي, B0POS: CCONJ, B0Token: ولي, B1Lemma: احتمالاً, B1POS: ADV, B1Token: احتمالاً, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: همه, B0POS: PRON, B0Token: همه, B1Lemma: بايد, B1POS: AUX, B1Token: بايد, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ولي]   B= [احتمالاً, صدايِ, پرنده ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [همه]   B= [بايد, سازمان, مي‌يافت ,.. ]
 
-B0Lemma: احتمالاً, B0POS: ADV, B0Token: احتمالاً, B1Lemma: صدا, B1POS: NOUN, B1Token: صدايِ, S0B0Distance: 1, S0B0Lemma: ولي_احتمالاً, S0B0LemmaPOS: ولي_ADV, S0B0POS: CCONJ_ADV, S0B0POSLemma: CCONJ_احتمالاً, S0B0Token: ولي_احتمالاً, S0B1Lemma: ولي_صدا, S0B1LemmaPOS: ولي_NOUN, S0B1POS: CCONJ_NOUN, S0B1POSLemma: CCONJ_صدا, S0B1Token: ولي_صدايِ, S0Lemma: ولي, S0POS: CCONJ, S0Token: ولي, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: بايد, B0POS: AUX, B0Token: بايد, B1Lemma: سازمان, B1POS: NOUN, B1Token: سازمان, S0B0Distance: 1, S0B0Lemma: همه_بايد, S0B0LemmaPOS: همه_AUX, S0B0POS: PRON_AUX, S0B0POSLemma: PRON_بايد, S0B0Token: همه_بايد, S0B1Lemma: همه_سازمان, S0B1LemmaPOS: همه_NOUN, S0B1POS: PRON_NOUN, S0B1POSLemma: PRON_سازمان, S0B1Token: همه_سازمان, S0Lemma: همه, S0POS: PRON, S0Token: همه, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [احتمالاً, صدايِ, پرنده ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بايد, سازمان, مي‌يافت ,.. ]
 
-B0Lemma: احتمالاً, B0POS: ADV, B0Token: احتمالاً, B1Lemma: صدا, B1POS: NOUN, B1Token: صدايِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+B0Lemma: بايد, B0POS: AUX, B0Token: بايد, B1Lemma: سازمان, B1POS: NOUN, B1Token: سازمان, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [احتمالاً]   B= [صدايِ, پرنده, را ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بايد]   B= [سازمان, مي‌يافت, ؛ ,.. ]
 
-B0Lemma: صدا, B0POS: NOUN, B0Token: صدايِ, B1Lemma: پرنده, B1POS: NOUN, B1Token: پرنده, S0B0Distance: 1, S0B0Lemma: احتمالاً_صدا, S0B0LemmaPOS: احتمالاً_NOUN, S0B0POS: ADV_NOUN, S0B0POSLemma: ADV_صدا, S0B0Token: احتمالاً_صدايِ, S0B1Lemma: احتمالاً_پرنده, S0B1LemmaPOS: احتمالاً_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_پرنده, S0B1Token: احتمالاً_پرنده, S0Lemma: احتمالاً, S0POS: ADV, S0Token: احتمالاً, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: سازمان, B0POS: NOUN, B0Token: سازمان, B1Lemma: يافت, B1POS: VERB, B1Token: مي‌يافت, S0B0Distance: 1, S0B0Lemma: بايد_سازمان, S0B0LemmaPOS: بايد_NOUN, S0B0POS: AUX_NOUN, S0B0POSLemma: AUX_سازمان, S0B0Token: بايد_سازمان, S0B1Lemma: بايد_يافت, S0B1LemmaPOS: بايد_VERB, S0B1POS: AUX_VERB, S0B1POSLemma: AUX_يافت, S0B1Token: بايد_مي‌يافت, S0Lemma: بايد, S0POS: AUX, S0Token: بايد, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [صدايِ, پرنده, را ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [سازمان, مي‌يافت, ؛ ,.. ]
 
-B0Lemma: صدا, B0POS: NOUN, B0Token: صدايِ, B1Lemma: پرنده, B1POS: NOUN, B1Token: پرنده, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: سازمان, B0POS: NOUN, B0Token: سازمان, B1Lemma: يافت, B1POS: VERB, B1Token: مي‌يافت, 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [صدايِ]   B= [پرنده, را, ضبط ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سازمان]   B= [مي‌يافت, ؛, بايد ,.. ]
 
-B0Lemma: پرنده, B0POS: NOUN, B0Token: پرنده, B1Lemma: را, B1POS: ADP, B1Token: را, S0B0Distance: 1, S0B0Lemma: صدا_پرنده, S0B0LemmaPOS: صدا_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_پرنده, S0B0Token: صدايِ_پرنده, S0B1Lemma: صدا_را, S0B1LemmaPOS: صدا_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_را, S0B1Token: صدايِ_را, S0Lemma: صدا, S0POS: NOUN, S0Token: صدايِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: يافت, B0POS: VERB, B0Token: مي‌يافت, B1Lemma: ؛, B1POS: PUNCT, B1Token: ؛, S0B0Distance: 1, S0B0Lemma: سازمان_يافت, S0B0LemmaPOS: سازمان_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_يافت, S0B0Token: سازمان_مي‌يافت, S0B1Lemma: سازمان_؛, S0B1LemmaPOS: سازمان_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_؛, S0B1Token: سازمان_؛, S0Lemma: سازمان, S0POS: NOUN, S0Token: سازمان, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [پرنده, را, ضبط ,.. ]
+44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سازمان, مي‌يافت]   B= [؛, بايد, جايگاه‌ها ,.. ]
 
-B0Lemma: پرنده, B0POS: NOUN, B0Token: پرنده, B1Lemma: را, B1POS: ADP, B1Token: را, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ؛, B0POS: PUNCT, B0Token: ؛, B1Lemma: بايد, B1POS: AUX, B1Token: بايد, S0B0Distance: 1, S0B0Lemma: يافت_؛, S0B0LemmaPOS: يافت_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_؛, S0B0Token: مي‌يافت_؛, S0B1Lemma: يافت_بايد, S0B1LemmaPOS: يافت_AUX, S0B1POS: VERB_AUX, S0B1POSLemma: VERB_بايد, S0B1Token: مي‌يافت_بايد, S0Lemma: يافت, S0POS: VERB, S0S1Distance: 1, S0Token: مي‌يافت, S1B0Lemma: سازمان_؛, S1B0LemmaPOS: سازمان_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_؛, S1B0Token: سازمان_؛, S1Lemma: سازمان, S1POS: NOUN, S1S0Lemma: سازمان_يافت, S1S0LemmaPOS: سازمان_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_يافت, S1S0Token: سازمان_مي‌يافت, S1Token: سازمان, 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پرنده]   B= [را, ضبط, مي‌کرد ,.. ]
+45- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[سازمان, مي‌يافت]]   B= [؛, بايد, جايگاه‌ها ,.. ]
 
-B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: ضبط, B1POS: NOUN, B1Token: ضبط, S0B0Distance: 1, S0B0Lemma: پرنده_را, S0B0LemmaPOS: پرنده_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_را, S0B0Token: پرنده_را, S0B1Lemma: پرنده_ضبط, S0B1LemmaPOS: پرنده_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_ضبط, S0B1Token: پرنده_ضبط, S0Lemma: پرنده, S0POS: NOUN, S0Token: پرنده, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ؛, B0POS: PUNCT, B0Token: ؛, B1Lemma: بايد, B1POS: AUX, B1Token: بايد, S0B0Distance: 1, S0B0Lemma: سازمان_يافت_؛, S0B0LemmaPOS: سازمان_يافت_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_؛, S0B0Token: سازمان_مي‌يافت_؛, S0B1Lemma: سازمان_يافت_بايد, S0B1LemmaPOS: سازمان_يافت_AUX, S0B1POS: NOUN_VERB_AUX, S0B1POSLemma: NOUN_VERB_بايد, S0B1Token: سازمان_مي‌يافت_بايد, S0Lemma: سازمان_يافت, S0POS: NOUN_VERB, S0Token: سازمان_مي‌يافت, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [را, ضبط, مي‌کرد ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [؛, بايد, جايگاه‌ها ,.. ]
 
-B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: ضبط, B1POS: NOUN, B1Token: ضبط, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ؛, B0POS: PUNCT, B0Token: ؛, B1Lemma: بايد, B1POS: AUX, B1Token: بايد, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [را]   B= [ضبط, مي‌کرد, . ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [؛]   B= [بايد, جايگاه‌ها, بر ,.. ]
 
-B0Lemma: ضبط, B0POS: NOUN, B0Token: ضبط, B1Lemma: کرد, B1POS: VERB, B1Token: مي‌کرد, S0B0Distance: 1, S0B0Lemma: را_ضبط, S0B0LemmaPOS: را_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_ضبط, S0B0Token: را_ضبط, S0B1Lemma: را_کرد, S0B1LemmaPOS: را_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_کرد, S0B1Token: را_مي‌کرد, S0Lemma: را, S0POS: ADP, S0Token: را, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: بايد, B0POS: AUX, B0Token: بايد, B1Lemma: جايگاه, B1POS: NOUN, B1Token: جايگاه‌ها, S0B0Distance: 1, S0B0Lemma: ؛_بايد, S0B0LemmaPOS: ؛_AUX, S0B0POS: PUNCT_AUX, S0B0POSLemma: PUNCT_بايد, S0B0Token: ؛_بايد, S0B1Lemma: ؛_جايگاه, S0B1LemmaPOS: ؛_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_جايگاه, S0B1Token: ؛_جايگاه‌ها, S0Lemma: ؛, S0POS: PUNCT, S0Token: ؛, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ضبط, مي‌کرد, . ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بايد, جايگاه‌ها, بر ,.. ]
 
-B0Lemma: ضبط, B0POS: NOUN, B0Token: ضبط, B1Lemma: کرد, B1POS: VERB, B1Token: مي‌کرد, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: بايد, B0POS: AUX, B0Token: بايد, B1Lemma: جايگاه, B1POS: NOUN, B1Token: جايگاه‌ها, 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ضبط]   B= [مي‌کرد, . ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بايد]   B= [جايگاه‌ها, بر, پا ,.. ]
 
-B0Lemma: کرد, B0POS: VERB, B0Token: مي‌کرد, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: ضبط_کرد, S0B0LemmaPOS: ضبط_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کرد, S0B0Token: ضبط_مي‌کرد, S0B1Lemma: ضبط_., S0B1LemmaPOS: ضبط_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: ضبط_., S0Lemma: ضبط, S0POS: NOUN, S0Token: ضبط, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: جايگاه, B0POS: NOUN, B0Token: جايگاه‌ها, B1Lemma: بر, B1POS: ADP, B1Token: بر, S0B0Distance: 1, S0B0Lemma: بايد_جايگاه, S0B0LemmaPOS: بايد_NOUN, S0B0POS: AUX_NOUN, S0B0POSLemma: AUX_جايگاه, S0B0Token: بايد_جايگاه‌ها, S0B1Lemma: بايد_بر, S0B1LemmaPOS: بايد_ADP, S0B1POS: AUX_ADP, S0B1POSLemma: AUX_بر, S0B1Token: بايد_بر, S0Lemma: بايد, S0POS: AUX, S0Token: بايد, 
 
-50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ضبط, مي‌کرد]   B= [.]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [جايگاه‌ها, بر, پا ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: کرد_., S0B0LemmaPOS: کرد_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: مي‌کرد_., S0Lemma: کرد, S0POS: VERB, S0Token: مي‌کرد, S1B0Lemma: ضبط_., S1B0LemmaPOS: ضبط_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_., S1B0Token: ضبط_., S1Lemma: ضبط, S1POS: NOUN, S1S0Lemma: ضبط_کرد, S1S0LemmaPOS: ضبط_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کرد, S1S0Token: ضبط_مي‌کرد, S1Token: ضبط, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: جايگاه, B0POS: NOUN, B0Token: جايگاه‌ها, B1Lemma: بر, B1POS: ADP, B1Token: بر, 
 
-51- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ضبط, مي‌کرد]]   B= [.]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [جايگاه‌ها]   B= [بر, پا, مي‌شدند ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: ضبط_کرد_., S0B0LemmaPOS: ضبط_کرد_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_., S0B0Token: ضبط_مي‌کرد_., S0Lemma: ضبط_کرد, S0POS: NOUN_VERB, S0Token: ضبط_مي‌کرد, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: بر, B0POS: ADP, B0Token: بر, B1Lemma: پا, B1POS: NOUN, B1Token: پا, S0B0Distance: 1, S0B0Lemma: جايگاه_بر, S0B0LemmaPOS: جايگاه_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_بر, S0B0Token: جايگاه‌ها_بر, S0B1Lemma: جايگاه_پا, S0B1LemmaPOS: جايگاه_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_پا, S0B1Token: جايگاه‌ها_پا, S0Lemma: جايگاه, S0POS: NOUN, S0Token: جايگاه‌ها, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بر, پا, مي‌شدند ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: بر, B0POS: ADP, B0Token: بر, B1Lemma: پا, B1POS: NOUN, B1Token: پا, 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بر]   B= [پا, مي‌شدند, ، ,.. ]
 
-S0Lemma: ., S0POS: PUNCT, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: پا, B0POS: NOUN, B0Token: پا, B1Lemma: شد, B1POS: VERB, B1Token: مي‌شدند, S0B0Distance: 1, S0B0Lemma: بر_پا, S0B0LemmaPOS: بر_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_پا, S0B0Token: بر_پا, S0B1Lemma: بر_شد, S0B1LemmaPOS: بر_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_شد, S0B1Token: بر_مي‌شدند, S0Lemma: بر, S0POS: ADP, S0Token: بر, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بر, پا]   B= [مي‌شدند, ،, تمثال‌ها ,.. ]
 
-## Sentence No. 2123 - 
-گرچه فرقي هم نمي‌کرد ، زيرا بعيد به نظر مي‌رسيد آنها هرگز بتوانند در خانه ملاقات داشته باشند و يا نامه‌اي ردوبدل کنند . 
-### Existing MWEs: 
-1- **فرقي نمي‌کرد** (OTH)
-2- **به نظر مي‌رسيد** (OTH)
-3- **ردوبدل کنند** (OTH)
+B0Lemma: شد, B0POS: VERB, B0Token: مي‌شدند, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: پا_شد, S0B0LemmaPOS: پا_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_شد, S0B0Token: پا_مي‌شدند, S0B1Lemma: پا_،, S0B1LemmaPOS: پا_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_،, S0B1Token: پا_،, S0Lemma: پا, S0POS: NOUN, S0S1Distance: 1, S0Token: پا, S1B0Lemma: بر_شد, S1B0LemmaPOS: بر_VERB, S1B0POS: ADP_VERB, S1B0POSLemma: ADP_شد, S1B0Token: بر_مي‌شدند, S1Lemma: بر, S1POS: ADP, S1S0Lemma: بر_پا, S1S0LemmaPOS: بر_NOUN, S1S0POS: ADP_NOUN, S1S0POSLemma: ADP_پا, S1S0Token: بر_پا, S1Token: بر, 
 
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بر, پا, مي‌شدند]   B= [،, تمثال‌ها, و ,.. ]
 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: تمثال, B1POS: NOUN, B1Token: تمثال‌ها, S0B0Distance: 1, S0B0Lemma: شد_،, S0B0LemmaPOS: شد_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_،, S0B0Token: مي‌شدند_،, S0B1Lemma: شد_تمثال, S0B1LemmaPOS: شد_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_تمثال, S0B1Token: مي‌شدند_تمثال‌ها, S0Lemma: شد, S0POS: VERB, S0S1Distance: 1, S0Token: مي‌شدند, S1B0Lemma: پا_،, S1B0LemmaPOS: پا_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_،, S1B0Token: پا_،, S1Lemma: پا, S1POS: NOUN, S1S0Lemma: پا_شد, S1S0LemmaPOS: پا_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_شد, S1S0Token: پا_مي‌شدند, S1Token: پا, 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [گرچه, فرقي, هم ,.. ]
+56- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بر, [پا, مي‌شدند]]   B= [،, تمثال‌ها, و ,.. ]
 
-B0Lemma: گرچه, B0POS: SCONJ, B0Token: گرچه, B1Lemma: فرق, B1POS: NOUN, B1Token: فرقي, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: تمثال, B1POS: NOUN, B1Token: تمثال‌ها, S0B0Distance: 1, S0B0Lemma: پا_شد_،, S0B0LemmaPOS: پا_شد_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_،, S0B0Token: پا_مي‌شدند_،, S0B1Lemma: پا_شد_تمثال, S0B1LemmaPOS: پا_شد_NOUN, S0B1POS: NOUN_VERB_NOUN, S0B1POSLemma: NOUN_VERB_تمثال, S0B1Token: پا_مي‌شدند_تمثال‌ها, S0Lemma: پا_شد, S0POS: NOUN_VERB, S0Token: پا_مي‌شدند, S1B0Lemma: بر_،, S1B0LemmaPOS: بر_PUNCT, S1B0POS: ADP_PUNCT, S1B0POSLemma: ADP_،, S1B0Token: بر_،, S1Lemma: بر, S1POS: ADP, S1S0Lemma: بر_پا_شد, S1S0LemmaPOS: بر_NOUN_VERB, S1S0POS: ADP_NOUN_VERB, S1S0POSLemma: ADP_پا_شد, S1S0Token: بر_پا_مي‌شدند, S1Token: بر, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [گرچه]   B= [فرقي, هم, نمي‌کرد ,.. ]
+57- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[بر, [پا, مي‌شدند]]]   B= [،, تمثال‌ها, و ,.. ]
 
-B0Lemma: فرق, B0POS: NOUN, B0Token: فرقي, B1Lemma: هم, B1POS: CCONJ, B1Token: هم, S0B0Distance: 1, S0B0Lemma: گرچه_فرق, S0B0LemmaPOS: گرچه_NOUN, S0B0POS: SCONJ_NOUN, S0B0POSLemma: SCONJ_فرق, S0B0Token: گرچه_فرقي, S0B1Lemma: گرچه_هم, S0B1LemmaPOS: گرچه_CCONJ, S0B1POS: SCONJ_CCONJ, S0B1POSLemma: SCONJ_هم, S0B1Token: گرچه_هم, S0Lemma: گرچه, S0POS: SCONJ, S0Token: گرچه, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: تمثال, B1POS: NOUN, B1Token: تمثال‌ها, S0B0Distance: 1, S0B0Lemma: بر_پا_شد_،, S0B0LemmaPOS: بر_پا_شد_PUNCT, S0B0POS: ADP_NOUN_VERB_PUNCT, S0B0POSLemma: ADP_NOUN_VERB_،, S0B0Token: بر_پا_مي‌شدند_،, S0B1Lemma: بر_پا_شد_تمثال, S0B1LemmaPOS: بر_پا_شد_NOUN, S0B1POS: ADP_NOUN_VERB_NOUN, S0B1POSLemma: ADP_NOUN_VERB_تمثال, S0B1Token: بر_پا_مي‌شدند_تمثال‌ها, S0Lemma: بر_پا_شد, S0POS: ADP_NOUN_VERB, S0Token: بر_پا_مي‌شدند, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [فرقي, هم, نمي‌کرد ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, تمثال‌ها, و ,.. ]
 
-B0Lemma: فرق, B0POS: NOUN, B0Token: فرقي, B1Lemma: هم, B1POS: CCONJ, B1Token: هم, transitionHistoryLength1: 0, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: تمثال, B1POS: NOUN, B1Token: تمثال‌ها, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فرقي]   B= [هم, نمي‌کرد, ، ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [تمثال‌ها, و, مجسمه‌ها ,.. ]
 
-B0Lemma: هم, B0POS: CCONJ, B0Token: هم, B1Lemma: کرد, B1POS: VERB, B1Token: نمي‌کرد, S0B0Distance: 1, S0B0Lemma: فرق_هم, S0B0LemmaPOS: فرق_CCONJ, S0B0POS: NOUN_CCONJ, S0B0POSLemma: NOUN_هم, S0B0Token: فرقي_هم, S0B1Lemma: فرق_کرد, S0B1LemmaPOS: فرق_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_کرد, S0B1Token: فرقي_نمي‌کرد, S0Lemma: فرق, S0POS: NOUN, S0Token: فرقي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: تمثال, B0POS: NOUN, B0Token: تمثال‌ها, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: ،_تمثال, S0B0LemmaPOS: ،_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_تمثال, S0B0Token: ،_تمثال‌ها, S0B1Lemma: ،_و, S0B1LemmaPOS: ،_CCONJ, S0B1POS: PUNCT_CCONJ, S0B1POSLemma: PUNCT_و, S0B1Token: ،_و, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فرقي, هم]   B= [نمي‌کرد, ،, زيرا ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [تمثال‌ها, و, مجسمه‌ها ,.. ]
 
-B0Lemma: کرد, B0POS: VERB, B0Token: نمي‌کرد, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: هم_کرد, S0B0LemmaPOS: هم_VERB, S0B0POS: CCONJ_VERB, S0B0POSLemma: CCONJ_کرد, S0B0Token: هم_نمي‌کرد, S0B1Lemma: هم_،, S0B1LemmaPOS: هم_PUNCT, S0B1POS: CCONJ_PUNCT, S0B1POSLemma: CCONJ_،, S0B1Token: هم_،, S0Lemma: هم, S0POS: CCONJ, S0Token: هم, S1B0Lemma: فرق_کرد, S1B0LemmaPOS: فرق_VERB, S1B0POS: NOUN_VERB, S1B0POSLemma: NOUN_کرد, S1B0Token: فرقي_نمي‌کرد, S1Lemma: فرق, S1POS: NOUN, S1S0Lemma: فرق_هم, S1S0LemmaPOS: فرق_CCONJ, S1S0POS: NOUN_CCONJ, S1S0POSLemma: NOUN_هم, S1S0Token: فرقي_هم, S1Token: فرقي, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: تمثال, B0POS: NOUN, B0Token: تمثال‌ها, B1Lemma: و, B1POS: CCONJ, B1Token: و, 
 
-5- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فرقي]   B= [نمي‌کرد, ،, زيرا ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [تمثال‌ها]   B= [و, مجسمه‌ها, ساخته ,.. ]
 
-B0Lemma: کرد, B0POS: VERB, B0Token: نمي‌کرد, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 2, S0B0Lemma: فرق_کرد, S0B0LemmaPOS: فرق_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کرد, S0B0Token: فرقي_نمي‌کرد, S0B1Lemma: فرق_،, S0B1LemmaPOS: فرق_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_،, S0B1Token: فرقي_،, S0Lemma: فرق, S0POS: NOUN, S0Token: فرقي, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: مجسمه, B1POS: NOUN, B1Token: مجسمه‌ها, S0B0Distance: 1, S0B0Lemma: تمثال_و, S0B0LemmaPOS: تمثال_CCONJ, S0B0POS: NOUN_CCONJ, S0B0POSLemma: NOUN_و, S0B0Token: تمثال‌ها_و, S0B1Lemma: تمثال_مجسمه, S0B1LemmaPOS: تمثال_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_مجسمه, S0B1Token: تمثال‌ها_مجسمه‌ها, S0Lemma: تمثال, S0POS: NOUN, S0Token: تمثال‌ها, 
 
-6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فرقي, نمي‌کرد]   B= [،, زيرا, بعيد ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, مجسمه‌ها, ساخته ,.. ]
 
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: زيرا, B1POS: SCONJ, B1Token: زيرا, S0B0Distance: 1, S0B0Lemma: کرد_،, S0B0LemmaPOS: کرد_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_،, S0B0Token: نمي‌کرد_،, S0B1Lemma: کرد_زيرا, S0B1LemmaPOS: کرد_SCONJ, S0B1POS: VERB_SCONJ, S0B1POSLemma: VERB_زيرا, S0B1Token: نمي‌کرد_زيرا, S0Lemma: کرد, S0POS: VERB, S0Token: نمي‌کرد, S1B0Lemma: فرق_،, S1B0LemmaPOS: فرق_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_،, S1B0Token: فرقي_،, S1Lemma: فرق, S1POS: NOUN, S1S0Lemma: فرق_کرد, S1S0LemmaPOS: فرق_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کرد, S1S0Token: فرقي_نمي‌کرد, S1Token: فرقي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: مجسمه, B1POS: NOUN, B1Token: مجسمه‌ها, 
 
-7- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[فرقي, نمي‌کرد]]   B= [،, زيرا, بعيد ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [مجسمه‌ها, ساخته, مي‌شدند ,.. ]
 
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: زيرا, B1POS: SCONJ, B1Token: زيرا, S0B0Distance: 1, S0B0Lemma: فرق_کرد_،, S0B0LemmaPOS: فرق_کرد_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_،, S0B0Token: فرقي_نمي‌کرد_،, S0B1Lemma: فرق_کرد_زيرا, S0B1LemmaPOS: فرق_کرد_SCONJ, S0B1POS: NOUN_VERB_SCONJ, S0B1POSLemma: NOUN_VERB_زيرا, S0B1Token: فرقي_نمي‌کرد_زيرا, S0Lemma: فرق_کرد, S0POS: NOUN_VERB, S0Token: فرقي_نمي‌کرد, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: مجسمه, B0POS: NOUN, B0Token: مجسمه‌ها, B1Lemma: ساخت, B1POS: VERB, B1Token: ساخته, S0B0Distance: 1, S0B0Lemma: و_مجسمه, S0B0LemmaPOS: و_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_مجسمه, S0B0Token: و_مجسمه‌ها, S0B1Lemma: و_ساخت, S0B1LemmaPOS: و_VERB, S0B1POS: CCONJ_VERB, S0B1POSLemma: CCONJ_ساخت, S0B1Token: و_ساخته, S0Lemma: و, S0POS: CCONJ, S0Token: و, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, زيرا, بعيد ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مجسمه‌ها, ساخته, مي‌شدند ,.. ]
 
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: زيرا, B1POS: SCONJ, B1Token: زيرا, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+B0Lemma: مجسمه, B0POS: NOUN, B0Token: مجسمه‌ها, B1Lemma: ساخت, B1POS: VERB, B1Token: ساخته, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [زيرا, بعيد, به ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مجسمه‌ها]   B= [ساخته, مي‌شدند, ، ,.. ]
 
-B0Lemma: زيرا, B0POS: SCONJ, B0Token: زيرا, B1Lemma: بعيد, B1POS: ADJ, B1Token: بعيد, S0B0Distance: 1, S0B0Lemma: ،_زيرا, S0B0LemmaPOS: ،_SCONJ, S0B0POS: PUNCT_SCONJ, S0B0POSLemma: PUNCT_زيرا, S0B0Token: ،_زيرا, S0B1Lemma: ،_بعيد, S0B1LemmaPOS: ،_ADJ, S0B1POS: PUNCT_ADJ, S0B1POSLemma: PUNCT_بعيد, S0B1Token: ،_بعيد, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: ساخت, B0POS: VERB, B0Token: ساخته, B1Lemma: شد, B1POS: AUX, B1Token: مي‌شدند, S0B0Distance: 1, S0B0Lemma: مجسمه_ساخت, S0B0LemmaPOS: مجسمه_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_ساخت, S0B0Token: مجسمه‌ها_ساخته, S0B1Lemma: مجسمه_شد, S0B1LemmaPOS: مجسمه_AUX, S0B1POS: NOUN_AUX, S0B1POSLemma: NOUN_شد, S0B1Token: مجسمه‌ها_مي‌شدند, S0Lemma: مجسمه, S0POS: NOUN, S0Token: مجسمه‌ها, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [زيرا, بعيد, به ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ساخته, مي‌شدند, ، ,.. ]
 
-B0Lemma: زيرا, B0POS: SCONJ, B0Token: زيرا, B1Lemma: بعيد, B1POS: ADJ, B1Token: بعيد, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+B0Lemma: ساخت, B0POS: VERB, B0Token: ساخته, B1Lemma: شد, B1POS: AUX, B1Token: مي‌شدند, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [زيرا]   B= [بعيد, به, نظر ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ساخته]   B= [مي‌شدند, ،, شعارها ,.. ]
 
-B0Lemma: بعيد, B0POS: ADJ, B0Token: بعيد, B1Lemma: به, B1POS: ADP, B1Token: به, S0B0Distance: 1, S0B0Lemma: زيرا_بعيد, S0B0LemmaPOS: زيرا_ADJ, S0B0POS: SCONJ_ADJ, S0B0POSLemma: SCONJ_بعيد, S0B0Token: زيرا_بعيد, S0B1Lemma: زيرا_به, S0B1LemmaPOS: زيرا_ADP, S0B1POS: SCONJ_ADP, S0B1POSLemma: SCONJ_به, S0B1Token: زيرا_به, S0Lemma: زيرا, S0POS: SCONJ, S0Token: زيرا, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: شد, B0POS: AUX, B0Token: مي‌شدند, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: ساخت_شد, S0B0LemmaPOS: ساخت_AUX, S0B0POS: VERB_AUX, S0B0POSLemma: VERB_شد, S0B0Token: ساخته_مي‌شدند, S0B1Lemma: ساخت_،, S0B1LemmaPOS: ساخت_PUNCT, S0B1POS: VERB_PUNCT, S0B1POSLemma: VERB_،, S0B1Token: ساخته_،, S0Lemma: ساخت, S0POS: VERB, S0Token: ساخته, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بعيد, به, نظر ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌شدند, ،, شعارها ,.. ]
 
-B0Lemma: بعيد, B0POS: ADJ, B0Token: بعيد, B1Lemma: به, B1POS: ADP, B1Token: به, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: شد, B0POS: AUX, B0Token: مي‌شدند, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بعيد]   B= [به, نظر, مي‌رسيد ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌شدند]   B= [،, شعارها, نوشته ,.. ]
 
-B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: نظر, B1POS: NOUN, B1Token: نظر, S0B0Distance: 1, S0B0Lemma: بعيد_به, S0B0LemmaPOS: بعيد_ADP, S0B0POS: ADJ_ADP, S0B0POSLemma: ADJ_به, S0B0Token: بعيد_به, S0B1Lemma: بعيد_نظر, S0B1LemmaPOS: بعيد_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_نظر, S0B1Token: بعيد_نظر, S0Lemma: بعيد, S0POS: ADJ, S0Token: بعيد, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: شعار, B1POS: NOUN, B1Token: شعارها, S0B0Distance: 1, S0B0Lemma: شد_،, S0B0LemmaPOS: شد_PUNCT, S0B0POS: AUX_PUNCT, S0B0POSLemma: AUX_،, S0B0Token: مي‌شدند_،, S0B1Lemma: شد_شعار, S0B1LemmaPOS: شد_NOUN, S0B1POS: AUX_NOUN, S0B1POSLemma: AUX_شعار, S0B1Token: مي‌شدند_شعارها, S0Lemma: شد, S0POS: AUX, S0Token: مي‌شدند, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [به, نظر, مي‌رسيد ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, شعارها, نوشته ,.. ]
 
-B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: نظر, B1POS: NOUN, B1Token: نظر, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: شعار, B1POS: NOUN, B1Token: شعارها, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به]   B= [نظر, مي‌رسيد, آنها ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [شعارها, نوشته, مي‌شد ,.. ]
 
-B0Lemma: نظر, B0POS: NOUN, B0Token: نظر, B1Lemma: رسيد, B1POS: VERB, B1Token: مي‌رسيد, S0B0Distance: 1, S0B0Lemma: به_نظر, S0B0LemmaPOS: به_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_نظر, S0B0Token: به_نظر, S0B1Lemma: به_رسيد, S0B1LemmaPOS: به_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_رسيد, S0B1Token: به_مي‌رسيد, S0Lemma: به, S0POS: ADP, S0Token: به, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: شعار, B0POS: NOUN, B0Token: شعارها, B1Lemma: نوشت, B1POS: VERB, B1Token: نوشته, S0B0Distance: 1, S0B0Lemma: ،_شعار, S0B0LemmaPOS: ،_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_شعار, S0B0Token: ،_شعارها, S0B1Lemma: ،_نوشت, S0B1LemmaPOS: ،_VERB, S0B1POS: PUNCT_VERB, S0B1POSLemma: PUNCT_نوشت, S0B1Token: ،_نوشته, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به, نظر]   B= [مي‌رسيد, آنها, هرگز ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [شعارها, نوشته, مي‌شد ,.. ]
 
-B0Lemma: رسيد, B0POS: VERB, B0Token: مي‌رسيد, B1Lemma: آنها, B1POS: PRON, B1Token: آنها, S0B0Distance: 1, S0B0Lemma: نظر_رسيد, S0B0LemmaPOS: نظر_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_رسيد, S0B0Token: نظر_مي‌رسيد, S0B1Lemma: نظر_آنها, S0B1LemmaPOS: نظر_PRON, S0B1POS: NOUN_PRON, S0B1POSLemma: NOUN_آنها, S0B1Token: نظر_آنها, S0Lemma: نظر, S0POS: NOUN, S0Token: نظر, S1B0Lemma: به_رسيد, S1B0LemmaPOS: به_VERB, S1B0POS: ADP_VERB, S1B0POSLemma: ADP_رسيد, S1B0Token: به_مي‌رسيد, S1Lemma: به, S1POS: ADP, S1S0Lemma: به_نظر, S1S0LemmaPOS: به_NOUN, S1S0POS: ADP_NOUN, S1S0POSLemma: ADP_نظر, S1S0Token: به_نظر, S1Token: به, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: شعار, B0POS: NOUN, B0Token: شعارها, B1Lemma: نوشت, B1POS: VERB, B1Token: نوشته, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به, نظر, مي‌رسيد]   B= [آنها, هرگز, بتوانند ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [شعارها]   B= [نوشته, مي‌شد, ، ,.. ]
 
-B0Lemma: آنها, B0POS: PRON, B0Token: آنها, B1Lemma: هرگز, B1POS: ADV, B1Token: هرگز, S0B0Distance: 1, S0B0Lemma: رسيد_آنها, S0B0LemmaPOS: رسيد_PRON, S0B0POS: VERB_PRON, S0B0POSLemma: VERB_آنها, S0B0Token: مي‌رسيد_آنها, S0B1Lemma: رسيد_هرگز, S0B1LemmaPOS: رسيد_ADV, S0B1POS: VERB_ADV, S0B1POSLemma: VERB_هرگز, S0B1Token: مي‌رسيد_هرگز, S0Lemma: رسيد, S0POS: VERB, S0Token: مي‌رسيد, S1B0Lemma: نظر_آنها, S1B0LemmaPOS: نظر_PRON, S1B0POS: NOUN_PRON, S1B0POSLemma: NOUN_آنها, S1B0Token: نظر_آنها, S1Lemma: نظر, S1POS: NOUN, S1S0Lemma: نظر_رسيد, S1S0LemmaPOS: نظر_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_رسيد, S1S0Token: نظر_مي‌رسيد, S1Token: نظر, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: نوشت, B0POS: VERB, B0Token: نوشته, B1Lemma: شد, B1POS: AUX, B1Token: مي‌شد, S0B0Distance: 1, S0B0Lemma: شعار_نوشت, S0B0LemmaPOS: شعار_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_نوشت, S0B0Token: شعارها_نوشته, S0B1Lemma: شعار_شد, S0B1LemmaPOS: شعار_AUX, S0B1POS: NOUN_AUX, S0B1POSLemma: NOUN_شد, S0B1Token: شعارها_مي‌شد, S0Lemma: شعار, S0POS: NOUN, S0Token: شعارها, 
 
-18- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به, [نظر, مي‌رسيد]]   B= [آنها, هرگز, بتوانند ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نوشته, مي‌شد, ، ,.. ]
 
-B0Lemma: آنها, B0POS: PRON, B0Token: آنها, B1Lemma: هرگز, B1POS: ADV, B1Token: هرگز, S0B0Distance: 1, S0B0Lemma: نظر_رسيد_آنها, S0B0LemmaPOS: نظر_رسيد_PRON, S0B0POS: NOUN_VERB_PRON, S0B0POSLemma: NOUN_VERB_آنها, S0B0Token: نظر_مي‌رسيد_آنها, S0B1Lemma: نظر_رسيد_هرگز, S0B1LemmaPOS: نظر_رسيد_ADV, S0B1POS: NOUN_VERB_ADV, S0B1POSLemma: NOUN_VERB_هرگز, S0B1Token: نظر_مي‌رسيد_هرگز, S0Lemma: نظر_رسيد, S0POS: NOUN_VERB, S0Token: نظر_مي‌رسيد, S1B0Lemma: به_آنها, S1B0LemmaPOS: به_PRON, S1B0POS: ADP_PRON, S1B0POSLemma: ADP_آنها, S1B0Token: به_آنها, S1Lemma: به, S1POS: ADP, S1S0Lemma: به_نظر_رسيد, S1S0LemmaPOS: به_NOUN_VERB, S1S0POS: ADP_NOUN_VERB, S1S0POSLemma: ADP_نظر_رسيد, S1S0Token: به_نظر_مي‌رسيد, S1Token: به, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 000, 
+B0Lemma: نوشت, B0POS: VERB, B0Token: نوشته, B1Lemma: شد, B1POS: AUX, B1Token: مي‌شد, 
 
-19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[به, [نظر, مي‌رسيد]]]   B= [آنها, هرگز, بتوانند ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نوشته]   B= [مي‌شد, ،, اشعار ,.. ]
 
-B0Lemma: آنها, B0POS: PRON, B0Token: آنها, B1Lemma: هرگز, B1POS: ADV, B1Token: هرگز, S0B0Distance: 1, S0B0Lemma: به_نظر_رسيد_آنها, S0B0LemmaPOS: به_نظر_رسيد_PRON, S0B0POS: ADP_NOUN_VERB_PRON, S0B0POSLemma: ADP_NOUN_VERB_آنها, S0B0Token: به_نظر_مي‌رسيد_آنها, S0B1Lemma: به_نظر_رسيد_هرگز, S0B1LemmaPOS: به_نظر_رسيد_ADV, S0B1POS: ADP_NOUN_VERB_ADV, S0B1POSLemma: ADP_NOUN_VERB_هرگز, S0B1Token: به_نظر_مي‌رسيد_هرگز, S0Lemma: به_نظر_رسيد, S0POS: ADP_NOUN_VERB, S0Token: به_نظر_مي‌رسيد, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: شد, B0POS: AUX, B0Token: مي‌شد, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: نوشت_شد, S0B0LemmaPOS: نوشت_AUX, S0B0POS: VERB_AUX, S0B0POSLemma: VERB_شد, S0B0Token: نوشته_مي‌شد, S0B1Lemma: نوشت_،, S0B1LemmaPOS: نوشت_PUNCT, S0B1POS: VERB_PUNCT, S0B1POSLemma: VERB_،, S0B1Token: نوشته_،, S0Lemma: نوشت, S0POS: VERB, S0Token: نوشته, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آنها, هرگز, بتوانند ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌شد, ،, اشعار ,.. ]
 
-B0Lemma: آنها, B0POS: PRON, B0Token: آنها, B1Lemma: هرگز, B1POS: ADV, B1Token: هرگز, transitionHistoryLength1: 1, transitionHistoryLength2: 11, transitionHistoryLength3: 110, 
+B0Lemma: شد, B0POS: AUX, B0Token: مي‌شد, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آنها]   B= [هرگز, بتوانند, در ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌شد]   B= [،, اشعار, سروده ,.. ]
 
-B0Lemma: هرگز, B0POS: ADV, B0Token: هرگز, B1Lemma: توان, B1POS: AUX, B1Token: بتوانند, S0B0Distance: 1, S0B0Lemma: آنها_هرگز, S0B0LemmaPOS: آنها_ADV, S0B0POS: PRON_ADV, S0B0POSLemma: PRON_هرگز, S0B0Token: آنها_هرگز, S0B1Lemma: آنها_توان, S0B1LemmaPOS: آنها_AUX, S0B1POS: PRON_AUX, S0B1POSLemma: PRON_توان, S0B1Token: آنها_بتوانند, S0Lemma: آنها, S0POS: PRON, S0Token: آنها, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 211, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: شعر, B1POS: NOUN, B1Token: اشعار, S0B0Distance: 1, S0B0Lemma: شد_،, S0B0LemmaPOS: شد_PUNCT, S0B0POS: AUX_PUNCT, S0B0POSLemma: AUX_،, S0B0Token: مي‌شد_،, S0B1Lemma: شد_شعر, S0B1LemmaPOS: شد_NOUN, S0B1POS: AUX_NOUN, S0B1POSLemma: AUX_شعر, S0B1Token: مي‌شد_اشعار, S0Lemma: شد, S0POS: AUX, S0Token: مي‌شد, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [هرگز, بتوانند, در ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, اشعار, سروده ,.. ]
 
-B0Lemma: هرگز, B0POS: ADV, B0Token: هرگز, B1Lemma: توان, B1POS: AUX, B1Token: بتوانند, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: شعر, B1POS: NOUN, B1Token: اشعار, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [هرگز]   B= [بتوانند, در, خانه ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [اشعار, سروده, مي‌شد ,.. ]
 
-B0Lemma: توان, B0POS: AUX, B0Token: بتوانند, B1Lemma: در, B1POS: ADP, B1Token: در, S0B0Distance: 1, S0B0Lemma: هرگز_توان, S0B0LemmaPOS: هرگز_AUX, S0B0POS: ADV_AUX, S0B0POSLemma: ADV_توان, S0B0Token: هرگز_بتوانند, S0B1Lemma: هرگز_در, S0B1LemmaPOS: هرگز_ADP, S0B1POS: ADV_ADP, S0B1POSLemma: ADV_در, S0B1Token: هرگز_در, S0Lemma: هرگز, S0POS: ADV, S0Token: هرگز, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: شعر, B0POS: NOUN, B0Token: اشعار, B1Lemma: سرود, B1POS: VERB, B1Token: سروده, S0B0Distance: 1, S0B0Lemma: ،_شعر, S0B0LemmaPOS: ،_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_شعر, S0B0Token: ،_اشعار, S0B1Lemma: ،_سرود, S0B1LemmaPOS: ،_VERB, S0B1POS: PUNCT_VERB, S0B1POSLemma: PUNCT_سرود, S0B1Token: ،_سروده, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بتوانند, در, خانه ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [اشعار, سروده, مي‌شد ,.. ]
 
-B0Lemma: توان, B0POS: AUX, B0Token: بتوانند, B1Lemma: در, B1POS: ADP, B1Token: در, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: شعر, B0POS: NOUN, B0Token: اشعار, B1Lemma: سرود, B1POS: VERB, B1Token: سروده, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بتوانند]   B= [در, خانه, ملاقات ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [اشعار]   B= [سروده, مي‌شد, ، ,.. ]
 
-B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: خانه, B1POS: NOUN, B1Token: خانه, S0B0Distance: 1, S0B0Lemma: توان_در, S0B0LemmaPOS: توان_ADP, S0B0POS: AUX_ADP, S0B0POSLemma: AUX_در, S0B0Token: بتوانند_در, S0B1Lemma: توان_خانه, S0B1LemmaPOS: توان_NOUN, S0B1POS: AUX_NOUN, S0B1POSLemma: AUX_خانه, S0B1Token: بتوانند_خانه, S0Lemma: توان, S0POS: AUX, S0Token: بتوانند, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: سرود, B0POS: VERB, B0Token: سروده, B1Lemma: شد, B1POS: AUX, B1Token: مي‌شد, S0B0Distance: 1, S0B0Lemma: شعر_سرود, S0B0LemmaPOS: شعر_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_سرود, S0B0Token: اشعار_سروده, S0B1Lemma: شعر_شد, S0B1LemmaPOS: شعر_AUX, S0B1POS: NOUN_AUX, S0B1POSLemma: NOUN_شد, S0B1Token: اشعار_مي‌شد, S0Lemma: شعر, S0POS: NOUN, S0Token: اشعار, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [در, خانه, ملاقات ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [سروده, مي‌شد, ، ,.. ]
 
-B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: خانه, B1POS: NOUN, B1Token: خانه, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: سرود, B0POS: VERB, B0Token: سروده, B1Lemma: شد, B1POS: AUX, B1Token: مي‌شد, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [در]   B= [خانه, ملاقات, داشته ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سروده]   B= [مي‌شد, ،, شايعات ,.. ]
 
-B0Lemma: خانه, B0POS: NOUN, B0Token: خانه, B1Lemma: ملاقات, B1POS: NOUN, B1Token: ملاقات, S0B0Distance: 1, S0B0Lemma: در_خانه, S0B0LemmaPOS: در_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_خانه, S0B0Token: در_خانه, S0B1Lemma: در_ملاقات, S0B1LemmaPOS: در_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_ملاقات, S0B1Token: در_ملاقات, S0Lemma: در, S0POS: ADP, S0Token: در, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: شد, B0POS: AUX, B0Token: مي‌شد, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: سرود_شد, S0B0LemmaPOS: سرود_AUX, S0B0POS: VERB_AUX, S0B0POSLemma: VERB_شد, S0B0Token: سروده_مي‌شد, S0B1Lemma: سرود_،, S0B1LemmaPOS: سرود_PUNCT, S0B1POS: VERB_PUNCT, S0B1POSLemma: VERB_،, S0B1Token: سروده_،, S0Lemma: سرود, S0POS: VERB, S0Token: سروده, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [خانه, ملاقات, داشته ,.. ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌شد, ،, شايعات ,.. ]
 
-B0Lemma: خانه, B0POS: NOUN, B0Token: خانه, B1Lemma: ملاقات, B1POS: NOUN, B1Token: ملاقات, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: شد, B0POS: AUX, B0Token: مي‌شد, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [خانه]   B= [ملاقات, داشته, باشند ,.. ]
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌شد]   B= [،, شايعات, را ,.. ]
 
-B0Lemma: ملاقات, B0POS: NOUN, B0Token: ملاقات, B1Lemma: داشت, B1POS: VERB, B1Token: داشته, S0B0Distance: 1, S0B0Lemma: خانه_ملاقات, S0B0LemmaPOS: خانه_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_ملاقات, S0B0Token: خانه_ملاقات, S0B1Lemma: خانه_داشت, S0B1LemmaPOS: خانه_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_داشت, S0B1Token: خانه_داشته, S0Lemma: خانه, S0POS: NOUN, S0Token: خانه, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: شايعه, B1POS: NOUN, B1Token: شايعات, S0B0Distance: 1, S0B0Lemma: شد_،, S0B0LemmaPOS: شد_PUNCT, S0B0POS: AUX_PUNCT, S0B0POSLemma: AUX_،, S0B0Token: مي‌شد_،, S0B1Lemma: شد_شايعه, S0B1LemmaPOS: شد_NOUN, S0B1POS: AUX_NOUN, S0B1POSLemma: AUX_شايعه, S0B1Token: مي‌شد_شايعات, S0Lemma: شد, S0POS: AUX, S0Token: مي‌شد, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ملاقات, داشته, باشند ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, شايعات, را ,.. ]
 
-B0Lemma: ملاقات, B0POS: NOUN, B0Token: ملاقات, B1Lemma: داشت, B1POS: VERB, B1Token: داشته, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: شايعه, B1POS: NOUN, B1Token: شايعات, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ملاقات]   B= [داشته, باشند, و ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [شايعات, را, به ,.. ]
 
-B0Lemma: داشت, B0POS: VERB, B0Token: داشته, B1Lemma: باش, B1POS: AUX, B1Token: باشند, S0B0Distance: 1, S0B0Lemma: ملاقات_داشت, S0B0LemmaPOS: ملاقات_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_داشت, S0B0Token: ملاقات_داشته, S0B1Lemma: ملاقات_باش, S0B1LemmaPOS: ملاقات_AUX, S0B1POS: NOUN_AUX, S0B1POSLemma: NOUN_باش, S0B1Token: ملاقات_باشند, S0Lemma: ملاقات, S0POS: NOUN, S0Token: ملاقات, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: شايعه, B0POS: NOUN, B0Token: شايعات, B1Lemma: را, B1POS: ADP, B1Token: را, S0B0Distance: 1, S0B0Lemma: ،_شايعه, S0B0LemmaPOS: ،_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_شايعه, S0B0Token: ،_شايعات, S0B1Lemma: ،_را, S0B1LemmaPOS: ،_ADP, S0B1POS: PUNCT_ADP, S0B1POSLemma: PUNCT_را, S0B1Token: ،_را, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [داشته, باشند, و ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [شايعات, را, به ,.. ]
 
-B0Lemma: داشت, B0POS: VERB, B0Token: داشته, B1Lemma: باش, B1POS: AUX, B1Token: باشند, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: شايعه, B0POS: NOUN, B0Token: شايعات, B1Lemma: را, B1POS: ADP, B1Token: را, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [داشته]   B= [باشند, و, يا ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [شايعات]   B= [را, به, جريان ,.. ]
 
-B0Lemma: باش, B0POS: AUX, B0Token: باشند, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: داشت_باش, S0B0LemmaPOS: داشت_AUX, S0B0POS: VERB_AUX, S0B0POSLemma: VERB_باش, S0B0Token: داشته_باشند, S0B1Lemma: داشت_و, S0B1LemmaPOS: داشت_CCONJ, S0B1POS: VERB_CCONJ, S0B1POSLemma: VERB_و, S0B1Token: داشته_و, S0Lemma: داشت, S0POS: VERB, S0Token: داشته, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: به, B1POS: ADP, B1Token: به, S0B0Distance: 1, S0B0Lemma: شايعه_را, S0B0LemmaPOS: شايعه_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_را, S0B0Token: شايعات_را, S0B1Lemma: شايعه_به, S0B1LemmaPOS: شايعه_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_به, S0B1Token: شايعات_به, S0Lemma: شايعه, S0POS: NOUN, S0Token: شايعات, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [باشند, و, يا ,.. ]
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [را, به, جريان ,.. ]
 
-B0Lemma: باش, B0POS: AUX, B0Token: باشند, B1Lemma: و, B1POS: CCONJ, B1Token: و, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: به, B1POS: ADP, B1Token: به, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [باشند]   B= [و, يا, نامه‌اي ,.. ]
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [را]   B= [به, جريان, مي‌انداختند ,.. ]
 
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: يا, B1POS: CCONJ, B1Token: يا, S0B0Distance: 1, S0B0Lemma: باش_و, S0B0LemmaPOS: باش_CCONJ, S0B0POS: AUX_CCONJ, S0B0POSLemma: AUX_و, S0B0Token: باشند_و, S0B1Lemma: باش_يا, S0B1LemmaPOS: باش_CCONJ, S0B1POS: AUX_CCONJ, S0B1POSLemma: AUX_يا, S0B1Token: باشند_يا, S0Lemma: باش, S0POS: AUX, S0Token: باشند, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: جريان, B1POS: NOUN, B1Token: جريان, S0B0Distance: 1, S0B0Lemma: را_به, S0B0LemmaPOS: را_ADP, S0B0POS: ADP_ADP, S0B0POSLemma: ADP_به, S0B0Token: را_به, S0B1Lemma: را_جريان, S0B1LemmaPOS: را_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_جريان, S0B1Token: را_جريان, S0Lemma: را, S0POS: ADP, S0Token: را, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, يا, نامه‌اي ,.. ]
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [به, جريان, مي‌انداختند ,.. ]
 
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: يا, B1POS: CCONJ, B1Token: يا, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: جريان, B1POS: NOUN, B1Token: جريان, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [يا, نامه‌اي, ردوبدل ,.. ]
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به]   B= [جريان, مي‌انداختند, و ,.. ]
 
-B0Lemma: يا, B0POS: CCONJ, B0Token: يا, B1Lemma: نامه, B1POS: NOUN, B1Token: نامه‌اي, S0B0Distance: 1, S0B0Lemma: و_يا, S0B0LemmaPOS: و_CCONJ, S0B0POS: CCONJ_CCONJ, S0B0POSLemma: CCONJ_يا, S0B0Token: و_يا, S0B1Lemma: و_نامه, S0B1LemmaPOS: و_NOUN, S0B1POS: CCONJ_NOUN, S0B1POSLemma: CCONJ_نامه, S0B1Token: و_نامه‌اي, S0Lemma: و, S0POS: CCONJ, S0Token: و, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: جريان, B0POS: NOUN, B0Token: جريان, B1Lemma: انداخت, B1POS: VERB, B1Token: مي‌انداختند, S0B0Distance: 1, S0B0Lemma: به_جريان, S0B0LemmaPOS: به_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_جريان, S0B0Token: به_جريان, S0B1Lemma: به_انداخت, S0B1LemmaPOS: به_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_انداخت, S0B1Token: به_مي‌انداختند, S0Lemma: به, S0POS: ADP, S0Token: به, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [يا, نامه‌اي, ردوبدل ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [جريان, مي‌انداختند, و ,.. ]
 
-B0Lemma: يا, B0POS: CCONJ, B0Token: يا, B1Lemma: نامه, B1POS: NOUN, B1Token: نامه‌اي, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: جريان, B0POS: NOUN, B0Token: جريان, B1Lemma: انداخت, B1POS: VERB, B1Token: مي‌انداختند, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [يا]   B= [نامه‌اي, ردوبدل, کنند ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [جريان]   B= [مي‌انداختند, و, عکس‌ها ,.. ]
 
-B0Lemma: نامه, B0POS: NOUN, B0Token: نامه‌اي, B1Lemma: ردوبدل, B1POS: NOUN, B1Token: ردوبدل, S0B0Distance: 1, S0B0Lemma: يا_نامه, S0B0LemmaPOS: يا_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_نامه, S0B0Token: يا_نامه‌اي, S0B1Lemma: يا_ردوبدل, S0B1LemmaPOS: يا_NOUN, S0B1POS: CCONJ_NOUN, S0B1POSLemma: CCONJ_ردوبدل, S0B1Token: يا_ردوبدل, S0Lemma: يا, S0POS: CCONJ, S0Token: يا, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: انداخت, B0POS: VERB, B0Token: مي‌انداختند, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: جريان_انداخت, S0B0LemmaPOS: جريان_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_انداخت, S0B0Token: جريان_مي‌انداختند, S0B1Lemma: جريان_و, S0B1LemmaPOS: جريان_CCONJ, S0B1POS: NOUN_CCONJ, S0B1POSLemma: NOUN_و, S0B1Token: جريان_و, S0Lemma: جريان, S0POS: NOUN, S0Token: جريان, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نامه‌اي, ردوبدل, کنند ,.. ]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌انداختند, و, عکس‌ها ,.. ]
 
-B0Lemma: نامه, B0POS: NOUN, B0Token: نامه‌اي, B1Lemma: ردوبدل, B1POS: NOUN, B1Token: ردوبدل, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: انداخت, B0POS: VERB, B0Token: مي‌انداختند, B1Lemma: و, B1POS: CCONJ, B1Token: و, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نامه‌اي]   B= [ردوبدل, کنند, . ,.. ]
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌انداختند]   B= [و, عکس‌ها, را ,.. ]
 
-B0Lemma: ردوبدل, B0POS: NOUN, B0Token: ردوبدل, B1Lemma: کن, B1POS: VERB, B1Token: کنند, S0B0Distance: 1, S0B0Lemma: نامه_ردوبدل, S0B0LemmaPOS: نامه_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_ردوبدل, S0B0Token: نامه‌اي_ردوبدل, S0B1Lemma: نامه_کن, S0B1LemmaPOS: نامه_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_کن, S0B1Token: نامه‌اي_کنند, S0Lemma: نامه, S0POS: NOUN, S0Token: نامه‌اي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: عکس, B1POS: NOUN, B1Token: عکس‌ها, S0B0Distance: 1, S0B0Lemma: انداخت_و, S0B0LemmaPOS: انداخت_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: مي‌انداختند_و, S0B1Lemma: انداخت_عکس, S0B1LemmaPOS: انداخت_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_عکس, S0B1Token: مي‌انداختند_عکس‌ها, S0Lemma: انداخت, S0POS: VERB, S0Token: مي‌انداختند, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ردوبدل, کنند, . ,.. ]
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, عکس‌ها, را ,.. ]
 
-B0Lemma: ردوبدل, B0POS: NOUN, B0Token: ردوبدل, B1Lemma: کن, B1POS: VERB, B1Token: کنند, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: عکس, B1POS: NOUN, B1Token: عکس‌ها, 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ردوبدل]   B= [کنند, . ,.. ]
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [عکس‌ها, را, دستکاري ,.. ]
 
-B0Lemma: کن, B0POS: VERB, B0Token: کنند, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: ردوبدل_کن, S0B0LemmaPOS: ردوبدل_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کن, S0B0Token: ردوبدل_کنند, S0B1Lemma: ردوبدل_., S0B1LemmaPOS: ردوبدل_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: ردوبدل_., S0Lemma: ردوبدل, S0POS: NOUN, S0Token: ردوبدل, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: عکس, B0POS: NOUN, B0Token: عکس‌ها, B1Lemma: را, B1POS: ADP, B1Token: را, S0B0Distance: 1, S0B0Lemma: و_عکس, S0B0LemmaPOS: و_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_عکس, S0B0Token: و_عکس‌ها, S0B1Lemma: و_را, S0B1LemmaPOS: و_ADP, S0B1POS: CCONJ_ADP, S0B1POSLemma: CCONJ_را, S0B1Token: و_را, S0Lemma: و, S0POS: CCONJ, S0Token: و, 
 
-44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ردوبدل, کنند]   B= [.]
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [عکس‌ها, را, دستکاري ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: کن_., S0B0LemmaPOS: کن_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: کنند_., S0Lemma: کن, S0POS: VERB, S0Token: کنند, S1B0Lemma: ردوبدل_., S1B0LemmaPOS: ردوبدل_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_., S1B0Token: ردوبدل_., S1Lemma: ردوبدل, S1POS: NOUN, S1S0Lemma: ردوبدل_کن, S1S0LemmaPOS: ردوبدل_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کن, S1S0Token: ردوبدل_کنند, S1Token: ردوبدل, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: عکس, B0POS: NOUN, B0Token: عکس‌ها, B1Lemma: را, B1POS: ADP, B1Token: را, 
 
-45- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ردوبدل, کنند]]   B= [.]
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [عکس‌ها]   B= [را, دستکاري, مي‌کردند ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: ردوبدل_کن_., S0B0LemmaPOS: ردوبدل_کن_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_., S0B0Token: ردوبدل_کنند_., S0Lemma: ردوبدل_کن, S0POS: NOUN_VERB, S0Token: ردوبدل_کنند, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: دستکاري, B1POS: NOUN, B1Token: دستکاري, S0B0Distance: 1, S0B0Lemma: عکس_را, S0B0LemmaPOS: عکس_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_را, S0B0Token: عکس‌ها_را, S0B1Lemma: عکس_دستکاري, S0B1LemmaPOS: عکس_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_دستکاري, S0B1Token: عکس‌ها_دستکاري, S0Lemma: عکس, S0POS: NOUN, S0Token: عکس‌ها, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [را, دستکاري, مي‌کردند ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: را, B0POS: ADP, B0Token: را, B1Lemma: دستکاري, B1POS: NOUN, B1Token: دستکاري, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [را]   B= [دستکاري, مي‌کردند, . ,.. ]
 
-S0Lemma: ., S0POS: PUNCT, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: دستکاري, B0POS: NOUN, B0Token: دستکاري, B1Lemma: کرد, B1POS: VERB, B1Token: مي‌کردند, S0B0Distance: 1, S0B0Lemma: را_دستکاري, S0B0LemmaPOS: را_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_دستکاري, S0B0Token: را_دستکاري, S0B1Lemma: را_کرد, S0B1LemmaPOS: را_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_کرد, S0B1Token: را_مي‌کردند, S0Lemma: را, S0POS: ADP, S0Token: را, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [دستکاري, مي‌کردند, . ,.. ]
 
-## Sentence No. 2142 - 
-شب‌هايي هم بود که آنها سرِ قرارِ خود حاضر مي‌شدند ، اما به‌دليلِ وجودِ گشتي‌هايي که همان لحظه از گوشه‌اي سرمي‌رسيدند و يا هليکوپتري که بالايِ سر شان در پرواز بود ، مجبور مي‌شدند بدونِ دادنِ آشنايي ، از کنارِ يکديگر عبور کنند . 
-### Existing MWEs: 
-1- **سرِ قرارِ حاضر مي‌شدند** (OTH)
-2- **مجبور مي‌شدند** (OTH)
-3- **عبور کنند** (OTH)
+B0Lemma: دستکاري, B0POS: NOUN, B0Token: دستکاري, B1Lemma: کرد, B1POS: VERB, B1Token: مي‌کردند, 
 
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [دستکاري]   B= [مي‌کردند, . ,.. ]
 
+B0Lemma: کرد, B0POS: VERB, B0Token: مي‌کردند, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: دستکاري_کرد, S0B0LemmaPOS: دستکاري_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کرد, S0B0Token: دستکاري_مي‌کردند, S0B1Lemma: دستکاري_., S0B1LemmaPOS: دستکاري_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: دستکاري_., S0Lemma: دستکاري, S0POS: NOUN, S0Token: دستکاري, 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [شب‌هايي, هم, بود ,.. ]
+106- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [دستکاري, مي‌کردند]   B= [.]
 
-B0Lemma: شب, B0POS: NOUN, B0Token: شب‌هايي, B1Lemma: هم, B1POS: CCONJ, B1Token: هم, 
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: کرد_., S0B0LemmaPOS: کرد_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: مي‌کردند_., S0Lemma: کرد, S0POS: VERB, S0S1Distance: 1, S0Token: مي‌کردند, S1B0Lemma: دستکاري_., S1B0LemmaPOS: دستکاري_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_., S1B0Token: دستکاري_., S1Lemma: دستکاري, S1POS: NOUN, S1S0Lemma: دستکاري_کرد, S1S0LemmaPOS: دستکاري_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کرد, S1S0Token: دستکاري_مي‌کردند, S1Token: دستکاري, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [شب‌هايي]   B= [هم, بود, که ,.. ]
+107- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[دستکاري, مي‌کردند]]   B= [.]
 
-B0Lemma: هم, B0POS: CCONJ, B0Token: هم, B1Lemma: بود, B1POS: VERB, B1Token: بود, S0B0Distance: 1, S0B0Lemma: شب_هم, S0B0LemmaPOS: شب_CCONJ, S0B0POS: NOUN_CCONJ, S0B0POSLemma: NOUN_هم, S0B0Token: شب‌هايي_هم, S0B1Lemma: شب_بود, S0B1LemmaPOS: شب_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_بود, S0B1Token: شب‌هايي_بود, S0Lemma: شب, S0POS: NOUN, S0Token: شب‌هايي, 
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: دستکاري_کرد_., S0B0LemmaPOS: دستکاري_کرد_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_., S0B0Token: دستکاري_مي‌کردند_., S0Lemma: دستکاري_کرد, S0POS: NOUN_VERB, S0Token: دستکاري_مي‌کردند, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [هم, بود, که ,.. ]
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-B0Lemma: هم, B0POS: CCONJ, B0Token: هم, B1Lemma: بود, B1POS: VERB, B1Token: بود, transitionHistoryLength1: 0, 
+B0Lemma: ., B0POS: PUNCT, B0Token: ., 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [هم]   B= [بود, که, آنها ,.. ]
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-B0Lemma: بود, B0POS: VERB, B0Token: بود, B1Lemma: که, B1POS: SCONJ, B1Token: که, S0B0Distance: 1, S0B0Lemma: هم_بود, S0B0LemmaPOS: هم_VERB, S0B0POS: CCONJ_VERB, S0B0POSLemma: CCONJ_بود, S0B0Token: هم_بود, S0B1Lemma: هم_که, S0B1LemmaPOS: هم_SCONJ, S0B1POS: CCONJ_SCONJ, S0B1POSLemma: CCONJ_که, S0B1Token: هم_که, S0Lemma: هم, S0POS: CCONJ, S0Token: هم, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+S0Lemma: ., S0POS: PUNCT, S0Token: ., 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بود, که, آنها ,.. ]
-
-B0Lemma: بود, B0POS: VERB, B0Token: بود, B1Lemma: که, B1POS: SCONJ, B1Token: که, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بود]   B= [که, آنها, سرِ ,.. ]
-
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: آنها, B1POS: PRON, B1Token: آنها, S0B0Distance: 1, S0B0Lemma: بود_که, S0B0LemmaPOS: بود_SCONJ, S0B0POS: VERB_SCONJ, S0B0POSLemma: VERB_که, S0B0Token: بود_که, S0B1Lemma: بود_آنها, S0B1LemmaPOS: بود_PRON, S0B1POS: VERB_PRON, S0B1POSLemma: VERB_آنها, S0B1Token: بود_آنها, S0Lemma: بود, S0POS: VERB, S0Token: بود, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [که, آنها, سرِ ,.. ]
-
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: آنها, B1POS: PRON, B1Token: آنها, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [که]   B= [آنها, سرِ, قرارِ ,.. ]
-
-B0Lemma: آنها, B0POS: PRON, B0Token: آنها, B1Lemma: سر, B1POS: ADP, B1Token: سرِ, S0B0Distance: 1, S0B0Lemma: که_آنها, S0B0LemmaPOS: که_PRON, S0B0POS: SCONJ_PRON, S0B0POSLemma: SCONJ_آنها, S0B0Token: که_آنها, S0B1Lemma: که_سر, S0B1LemmaPOS: که_ADP, S0B1POS: SCONJ_ADP, S0B1POSLemma: SCONJ_سر, S0B1Token: که_سرِ, S0Lemma: که, S0POS: SCONJ, S0Token: که, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آنها, سرِ, قرارِ ,.. ]
-
-B0Lemma: آنها, B0POS: PRON, B0Token: آنها, B1Lemma: سر, B1POS: ADP, B1Token: سرِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آنها]   B= [سرِ, قرارِ, خود ,.. ]
-
-B0Lemma: سر, B0POS: ADP, B0Token: سرِ, B1Lemma: قرار, B1POS: NOUN, B1Token: قرارِ, S0B0Distance: 1, S0B0Lemma: آنها_سر, S0B0LemmaPOS: آنها_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_سر, S0B0Token: آنها_سرِ, S0B1Lemma: آنها_قرار, S0B1LemmaPOS: آنها_NOUN, S0B1POS: PRON_NOUN, S0B1POSLemma: PRON_قرار, S0B1Token: آنها_قرارِ, S0Lemma: آنها, S0POS: PRON, S0Token: آنها, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [سرِ, قرارِ, خود ,.. ]
-
-B0Lemma: سر, B0POS: ADP, B0Token: سرِ, B1Lemma: قرار, B1POS: NOUN, B1Token: قرارِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرِ]   B= [قرارِ, خود, حاضر ,.. ]
-
-B0Lemma: قرار, B0POS: NOUN, B0Token: قرارِ, B1Lemma: خود, B1POS: PRON, B1Token: خود, S0B0Distance: 1, S0B0Lemma: سر_قرار, S0B0LemmaPOS: سر_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_قرار, S0B0Token: سرِ_قرارِ, S0B1Lemma: سر_خود, S0B1LemmaPOS: سر_PRON, S0B1POS: ADP_PRON, S0B1POSLemma: ADP_خود, S0B1Token: سرِ_خود, S0Lemma: سر, S0POS: ADP, S0Token: سرِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرِ, قرارِ]   B= [خود, حاضر, مي‌شدند ,.. ]
-
-B0Lemma: خود, B0POS: PRON, B0Token: خود, B1Lemma: حاضر, B1POS: NOUN, B1Token: حاضر, S0B0Distance: 1, S0B0Lemma: قرار_خود, S0B0LemmaPOS: قرار_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_خود, S0B0Token: قرارِ_خود, S0B1Lemma: قرار_حاضر, S0B1LemmaPOS: قرار_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_حاضر, S0B1Token: قرارِ_حاضر, S0Lemma: قرار, S0POS: NOUN, S0Token: قرارِ, S1B0Lemma: سر_خود, S1B0LemmaPOS: سر_PRON, S1B0POS: ADP_PRON, S1B0POSLemma: ADP_خود, S1B0Token: سرِ_خود, S1Lemma: سر, S1POS: ADP, S1S0Lemma: سر_قرار, S1S0LemmaPOS: سر_NOUN, S1S0POS: ADP_NOUN, S1S0POSLemma: ADP_قرار, S1S0Token: سرِ_قرارِ, S1Token: سرِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرِ, قرارِ, خود]   B= [حاضر, مي‌شدند, ، ,.. ]
-
-B0Lemma: حاضر, B0POS: NOUN, B0Token: حاضر, B1Lemma: شد, B1POS: VERB, B1Token: مي‌شدند, S0B0Distance: 1, S0B0Lemma: خود_حاضر, S0B0LemmaPOS: خود_NOUN, S0B0POS: PRON_NOUN, S0B0POSLemma: PRON_حاضر, S0B0Token: خود_حاضر, S0B1Lemma: خود_شد, S0B1LemmaPOS: خود_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_شد, S0B1Token: خود_مي‌شدند, S0Lemma: خود, S0POS: PRON, S0Token: خود, S1B0Lemma: قرار_حاضر, S1B0LemmaPOS: قرار_NOUN, S1B0POS: NOUN_NOUN, S1B0POSLemma: NOUN_حاضر, S1B0Token: قرارِ_حاضر, S1Lemma: قرار, S1POS: NOUN, S1S0Lemma: قرار_خود, S1S0LemmaPOS: قرار_PRON, S1S0POS: NOUN_PRON, S1S0POSLemma: NOUN_خود, S1S0Token: قرارِ_خود, S1Token: قرارِ, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرِ, قرارِ]   B= [حاضر, مي‌شدند, ، ,.. ]
-
-B0Lemma: حاضر, B0POS: NOUN, B0Token: حاضر, B1Lemma: شد, B1POS: VERB, B1Token: مي‌شدند, S0B0Distance: 2, S0B0Lemma: قرار_حاضر, S0B0LemmaPOS: قرار_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_حاضر, S0B0Token: قرارِ_حاضر, S0B1Lemma: قرار_شد, S0B1LemmaPOS: قرار_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_شد, S0B1Token: قرارِ_مي‌شدند, S0Lemma: قرار, S0POS: NOUN, S0Token: قرارِ, S1B0Lemma: سر_حاضر, S1B0LemmaPOS: سر_NOUN, S1B0POS: ADP_NOUN, S1B0POSLemma: ADP_حاضر, S1B0Token: سرِ_حاضر, S1Lemma: سر, S1POS: ADP, S1S0Lemma: سر_قرار, S1S0LemmaPOS: سر_NOUN, S1S0POS: ADP_NOUN, S1S0POSLemma: ADP_قرار, S1S0Token: سرِ_قرارِ, S1Token: سرِ, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 000, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرِ, قرارِ, حاضر]   B= [مي‌شدند, ،, اما ,.. ]
-
-B0Lemma: شد, B0POS: VERB, B0Token: مي‌شدند, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: حاضر_شد, S0B0LemmaPOS: حاضر_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_شد, S0B0Token: حاضر_مي‌شدند, S0B1Lemma: حاضر_،, S0B1LemmaPOS: حاضر_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_،, S0B1Token: حاضر_،, S0Lemma: حاضر, S0POS: NOUN, S0Token: حاضر, S1B0Lemma: قرار_شد, S1B0LemmaPOS: قرار_VERB, S1B0POS: NOUN_VERB, S1B0POSLemma: NOUN_شد, S1B0Token: قرارِ_مي‌شدند, S1Lemma: قرار, S1POS: NOUN, S1S0Lemma: قرار_حاضر, S1S0LemmaPOS: قرار_NOUN, S1S0POS: NOUN_NOUN, S1S0POSLemma: NOUN_حاضر, S1S0Token: قرارِ_حاضر, S1Token: قرارِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرِ, قرارِ, حاضر, مي‌شدند]   B= [،, اما, به‌دليلِ ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: اما, B1POS: CCONJ, B1Token: اما, S0B0Distance: 1, S0B0Lemma: شد_،, S0B0LemmaPOS: شد_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_،, S0B0Token: مي‌شدند_،, S0B1Lemma: شد_اما, S0B1LemmaPOS: شد_CCONJ, S0B1POS: VERB_CCONJ, S0B1POSLemma: VERB_اما, S0B1Token: مي‌شدند_اما, S0Lemma: شد, S0POS: VERB, S0Token: مي‌شدند, S1B0Lemma: حاضر_،, S1B0LemmaPOS: حاضر_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_،, S1B0Token: حاضر_،, S1Lemma: حاضر, S1POS: NOUN, S1S0Lemma: حاضر_شد, S1S0LemmaPOS: حاضر_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_شد, S1S0Token: حاضر_مي‌شدند, S1Token: حاضر, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-17- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرِ, قرارِ, [حاضر, مي‌شدند]]   B= [،, اما, به‌دليلِ ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: اما, B1POS: CCONJ, B1Token: اما, S0B0Distance: 1, S0B0Lemma: حاضر_شد_،, S0B0LemmaPOS: حاضر_شد_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_،, S0B0Token: حاضر_مي‌شدند_،, S0B1Lemma: حاضر_شد_اما, S0B1LemmaPOS: حاضر_شد_CCONJ, S0B1POS: NOUN_VERB_CCONJ, S0B1POSLemma: NOUN_VERB_اما, S0B1Token: حاضر_مي‌شدند_اما, S0Lemma: حاضر_شد, S0POS: NOUN_VERB, S0Token: حاضر_مي‌شدند, S1B0Lemma: قرار_،, S1B0LemmaPOS: قرار_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_،, S1B0Token: قرارِ_،, S1Lemma: قرار, S1POS: NOUN, S1S0Lemma: قرار_حاضر_شد, S1S0LemmaPOS: قرار_NOUN_VERB, S1S0POS: NOUN_NOUN_VERB, S1S0POSLemma: NOUN_حاضر_شد, S1S0Token: قرارِ_حاضر_مي‌شدند, S1Token: قرارِ, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-18- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرِ, [قرارِ, [حاضر, مي‌شدند]]]   B= [،, اما, به‌دليلِ ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: اما, B1POS: CCONJ, B1Token: اما, S0B0Distance: 1, S0B0Lemma: قرار_حاضر_شد_،, S0B0LemmaPOS: قرار_حاضر_شد_PUNCT, S0B0POS: NOUN_NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_NOUN_VERB_،, S0B0Token: قرارِ_حاضر_مي‌شدند_،, S0B1Lemma: قرار_حاضر_شد_اما, S0B1LemmaPOS: قرار_حاضر_شد_CCONJ, S0B1POS: NOUN_NOUN_VERB_CCONJ, S0B1POSLemma: NOUN_NOUN_VERB_اما, S0B1Token: قرارِ_حاضر_مي‌شدند_اما, S0Lemma: قرار_حاضر_شد, S0POS: NOUN_NOUN_VERB, S0Token: قرارِ_حاضر_مي‌شدند, S1B0Lemma: سر_،, S1B0LemmaPOS: سر_PUNCT, S1B0POS: ADP_PUNCT, S1B0POSLemma: ADP_،, S1B0Token: سرِ_،, S1Lemma: سر, S1POS: ADP, S1S0Lemma: سر_قرار_حاضر_شد, S1S0LemmaPOS: سر_NOUN_NOUN_VERB, S1S0POS: ADP_NOUN_NOUN_VERB, S1S0POSLemma: ADP_قرار_حاضر_شد, S1S0Token: سرِ_قرارِ_حاضر_مي‌شدند, S1Token: سرِ, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
-
-19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[سرِ, [قرارِ, [حاضر, مي‌شدند]]]]   B= [،, اما, به‌دليلِ ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: اما, B1POS: CCONJ, B1Token: اما, S0B0Distance: 1, S0B0Lemma: سر_قرار_حاضر_شد_،, S0B0LemmaPOS: سر_قرار_حاضر_شد_PUNCT, S0B0POS: ADP_NOUN_NOUN_VERB_PUNCT, S0B0POSLemma: ADP_NOUN_NOUN_VERB_،, S0B0Token: سرِ_قرارِ_حاضر_مي‌شدند_،, S0B1Lemma: سر_قرار_حاضر_شد_اما, S0B1LemmaPOS: سر_قرار_حاضر_شد_CCONJ, S0B1POS: ADP_NOUN_NOUN_VERB_CCONJ, S0B1POSLemma: ADP_NOUN_NOUN_VERB_اما, S0B1Token: سرِ_قرارِ_حاضر_مي‌شدند_اما, S0Lemma: سر_قرار_حاضر_شد, S0POS: ADP_NOUN_NOUN_VERB, S0Token: سرِ_قرارِ_حاضر_مي‌شدند, transitionHistoryLength1: 1, transitionHistoryLength2: 11, transitionHistoryLength3: 110, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, اما, به‌دليلِ ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: اما, B1POS: CCONJ, B1Token: اما, transitionHistoryLength1: 1, transitionHistoryLength2: 11, transitionHistoryLength3: 111, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [اما, به‌دليلِ, وجودِ ,.. ]
-
-B0Lemma: اما, B0POS: CCONJ, B0Token: اما, B1Lemma: به‌دليل, B1POS: ADP, B1Token: به‌دليلِ, S0B0Distance: 1, S0B0Lemma: ،_اما, S0B0LemmaPOS: ،_CCONJ, S0B0POS: PUNCT_CCONJ, S0B0POSLemma: PUNCT_اما, S0B0Token: ،_اما, S0B1Lemma: ،_به‌دليل, S0B1LemmaPOS: ،_ADP, S0B1POS: PUNCT_ADP, S0B1POSLemma: PUNCT_به‌دليل, S0B1Token: ،_به‌دليلِ, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 211, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [اما, به‌دليلِ, وجودِ ,.. ]
-
-B0Lemma: اما, B0POS: CCONJ, B0Token: اما, B1Lemma: به‌دليل, B1POS: ADP, B1Token: به‌دليلِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [اما]   B= [به‌دليلِ, وجودِ, گشتي‌هايي ,.. ]
-
-B0Lemma: به‌دليل, B0POS: ADP, B0Token: به‌دليلِ, B1Lemma: وجود, B1POS: NOUN, B1Token: وجودِ, S0B0Distance: 1, S0B0Lemma: اما_به‌دليل, S0B0LemmaPOS: اما_ADP, S0B0POS: CCONJ_ADP, S0B0POSLemma: CCONJ_به‌دليل, S0B0Token: اما_به‌دليلِ, S0B1Lemma: اما_وجود, S0B1LemmaPOS: اما_NOUN, S0B1POS: CCONJ_NOUN, S0B1POSLemma: CCONJ_وجود, S0B1Token: اما_وجودِ, S0Lemma: اما, S0POS: CCONJ, S0Token: اما, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [به‌دليلِ, وجودِ, گشتي‌هايي ,.. ]
-
-B0Lemma: به‌دليل, B0POS: ADP, B0Token: به‌دليلِ, B1Lemma: وجود, B1POS: NOUN, B1Token: وجودِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به‌دليلِ]   B= [وجودِ, گشتي‌هايي, که ,.. ]
-
-B0Lemma: وجود, B0POS: NOUN, B0Token: وجودِ, B1Lemma: گشتي, B1POS: NOUN, B1Token: گشتي‌هايي, S0B0Distance: 1, S0B0Lemma: به‌دليل_وجود, S0B0LemmaPOS: به‌دليل_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_وجود, S0B0Token: به‌دليلِ_وجودِ, S0B1Lemma: به‌دليل_گشتي, S0B1LemmaPOS: به‌دليل_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_گشتي, S0B1Token: به‌دليلِ_گشتي‌هايي, S0Lemma: به‌دليل, S0POS: ADP, S0Token: به‌دليلِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [وجودِ, گشتي‌هايي, که ,.. ]
-
-B0Lemma: وجود, B0POS: NOUN, B0Token: وجودِ, B1Lemma: گشتي, B1POS: NOUN, B1Token: گشتي‌هايي, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [وجودِ]   B= [گشتي‌هايي, که, همان ,.. ]
-
-B0Lemma: گشتي, B0POS: NOUN, B0Token: گشتي‌هايي, B1Lemma: که, B1POS: SCONJ, B1Token: که, S0B0Distance: 1, S0B0Lemma: وجود_گشتي, S0B0LemmaPOS: وجود_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_گشتي, S0B0Token: وجودِ_گشتي‌هايي, S0B1Lemma: وجود_که, S0B1LemmaPOS: وجود_SCONJ, S0B1POS: NOUN_SCONJ, S0B1POSLemma: NOUN_که, S0B1Token: وجودِ_که, S0Lemma: وجود, S0POS: NOUN, S0Token: وجودِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [گشتي‌هايي, که, همان ,.. ]
-
-B0Lemma: گشتي, B0POS: NOUN, B0Token: گشتي‌هايي, B1Lemma: که, B1POS: SCONJ, B1Token: که, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [گشتي‌هايي]   B= [که, همان, لحظه ,.. ]
-
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: همان, B1POS: DET, B1Token: همان, S0B0Distance: 1, S0B0Lemma: گشتي_که, S0B0LemmaPOS: گشتي_SCONJ, S0B0POS: NOUN_SCONJ, S0B0POSLemma: NOUN_که, S0B0Token: گشتي‌هايي_که, S0B1Lemma: گشتي_همان, S0B1LemmaPOS: گشتي_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_همان, S0B1Token: گشتي‌هايي_همان, S0Lemma: گشتي, S0POS: NOUN, S0Token: گشتي‌هايي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [که, همان, لحظه ,.. ]
-
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: همان, B1POS: DET, B1Token: همان, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [که]   B= [همان, لحظه, از ,.. ]
-
-B0Lemma: همان, B0POS: DET, B0Token: همان, B1Lemma: لحظه, B1POS: NOUN, B1Token: لحظه, S0B0Distance: 1, S0B0Lemma: که_همان, S0B0LemmaPOS: که_DET, S0B0POS: SCONJ_DET, S0B0POSLemma: SCONJ_همان, S0B0Token: که_همان, S0B1Lemma: که_لحظه, S0B1LemmaPOS: که_NOUN, S0B1POS: SCONJ_NOUN, S0B1POSLemma: SCONJ_لحظه, S0B1Token: که_لحظه, S0Lemma: که, S0POS: SCONJ, S0Token: که, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [همان, لحظه, از ,.. ]
-
-B0Lemma: همان, B0POS: DET, B0Token: همان, B1Lemma: لحظه, B1POS: NOUN, B1Token: لحظه, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [همان]   B= [لحظه, از, گوشه‌اي ,.. ]
-
-B0Lemma: لحظه, B0POS: NOUN, B0Token: لحظه, B1Lemma: از, B1POS: ADP, B1Token: از, S0B0Distance: 1, S0B0Lemma: همان_لحظه, S0B0LemmaPOS: همان_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_لحظه, S0B0Token: همان_لحظه, S0B1Lemma: همان_از, S0B1LemmaPOS: همان_ADP, S0B1POS: DET_ADP, S0B1POSLemma: DET_از, S0B1Token: همان_از, S0Lemma: همان, S0POS: DET, S0Token: همان, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [لحظه, از, گوشه‌اي ,.. ]
-
-B0Lemma: لحظه, B0POS: NOUN, B0Token: لحظه, B1Lemma: از, B1POS: ADP, B1Token: از, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [لحظه]   B= [از, گوشه‌اي, سرمي‌رسيدند ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: گوشه, B1POS: NOUN, B1Token: گوشه‌اي, S0B0Distance: 1, S0B0Lemma: لحظه_از, S0B0LemmaPOS: لحظه_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_از, S0B0Token: لحظه_از, S0B1Lemma: لحظه_گوشه, S0B1LemmaPOS: لحظه_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_گوشه, S0B1Token: لحظه_گوشه‌اي, S0Lemma: لحظه, S0POS: NOUN, S0Token: لحظه, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [از, گوشه‌اي, سرمي‌رسيدند ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: گوشه, B1POS: NOUN, B1Token: گوشه‌اي, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [از]   B= [گوشه‌اي, سرمي‌رسيدند, و ,.. ]
-
-B0Lemma: گوشه, B0POS: NOUN, B0Token: گوشه‌اي, B1Lemma: سررسيد, B1POS: VERB, B1Token: سرمي‌رسيدند, S0B0Distance: 1, S0B0Lemma: از_گوشه, S0B0LemmaPOS: از_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_گوشه, S0B0Token: از_گوشه‌اي, S0B1Lemma: از_سررسيد, S0B1LemmaPOS: از_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_سررسيد, S0B1Token: از_سرمي‌رسيدند, S0Lemma: از, S0POS: ADP, S0Token: از, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [گوشه‌اي, سرمي‌رسيدند, و ,.. ]
-
-B0Lemma: گوشه, B0POS: NOUN, B0Token: گوشه‌اي, B1Lemma: سررسيد, B1POS: VERB, B1Token: سرمي‌رسيدند, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [گوشه‌اي]   B= [سرمي‌رسيدند, و, يا ,.. ]
-
-B0Lemma: سررسيد, B0POS: VERB, B0Token: سرمي‌رسيدند, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: گوشه_سررسيد, S0B0LemmaPOS: گوشه_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_سررسيد, S0B0Token: گوشه‌اي_سرمي‌رسيدند, S0B1Lemma: گوشه_و, S0B1LemmaPOS: گوشه_CCONJ, S0B1POS: NOUN_CCONJ, S0B1POSLemma: NOUN_و, S0B1Token: گوشه‌اي_و, S0Lemma: گوشه, S0POS: NOUN, S0Token: گوشه‌اي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [سرمي‌رسيدند, و, يا ,.. ]
-
-B0Lemma: سررسيد, B0POS: VERB, B0Token: سرمي‌رسيدند, B1Lemma: و, B1POS: CCONJ, B1Token: و, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سرمي‌رسيدند]   B= [و, يا, هليکوپتري ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: يا, B1POS: CCONJ, B1Token: يا, S0B0Distance: 1, S0B0Lemma: سررسيد_و, S0B0LemmaPOS: سررسيد_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: سرمي‌رسيدند_و, S0B1Lemma: سررسيد_يا, S0B1LemmaPOS: سررسيد_CCONJ, S0B1POS: VERB_CCONJ, S0B1POSLemma: VERB_يا, S0B1Token: سرمي‌رسيدند_يا, S0Lemma: سررسيد, S0POS: VERB, S0Token: سرمي‌رسيدند, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, يا, هليکوپتري ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: يا, B1POS: CCONJ, B1Token: يا, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [يا, هليکوپتري, که ,.. ]
-
-B0Lemma: يا, B0POS: CCONJ, B0Token: يا, B1Lemma: هليکوپتر, B1POS: NOUN, B1Token: هليکوپتري, S0B0Distance: 1, S0B0Lemma: و_يا, S0B0LemmaPOS: و_CCONJ, S0B0POS: CCONJ_CCONJ, S0B0POSLemma: CCONJ_يا, S0B0Token: و_يا, S0B1Lemma: و_هليکوپتر, S0B1LemmaPOS: و_NOUN, S0B1POS: CCONJ_NOUN, S0B1POSLemma: CCONJ_هليکوپتر, S0B1Token: و_هليکوپتري, S0Lemma: و, S0POS: CCONJ, S0Token: و, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [يا, هليکوپتري, که ,.. ]
-
-B0Lemma: يا, B0POS: CCONJ, B0Token: يا, B1Lemma: هليکوپتر, B1POS: NOUN, B1Token: هليکوپتري, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [يا]   B= [هليکوپتري, که, بالايِ ,.. ]
-
-B0Lemma: هليکوپتر, B0POS: NOUN, B0Token: هليکوپتري, B1Lemma: که, B1POS: SCONJ, B1Token: که, S0B0Distance: 1, S0B0Lemma: يا_هليکوپتر, S0B0LemmaPOS: يا_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_هليکوپتر, S0B0Token: يا_هليکوپتري, S0B1Lemma: يا_که, S0B1LemmaPOS: يا_SCONJ, S0B1POS: CCONJ_SCONJ, S0B1POSLemma: CCONJ_که, S0B1Token: يا_که, S0Lemma: يا, S0POS: CCONJ, S0Token: يا, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [هليکوپتري, که, بالايِ ,.. ]
-
-B0Lemma: هليکوپتر, B0POS: NOUN, B0Token: هليکوپتري, B1Lemma: که, B1POS: SCONJ, B1Token: که, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [هليکوپتري]   B= [که, بالايِ, سر ,.. ]
-
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: بالا, B1POS: ADP, B1Token: بالايِ, S0B0Distance: 1, S0B0Lemma: هليکوپتر_که, S0B0LemmaPOS: هليکوپتر_SCONJ, S0B0POS: NOUN_SCONJ, S0B0POSLemma: NOUN_که, S0B0Token: هليکوپتري_که, S0B1Lemma: هليکوپتر_بالا, S0B1LemmaPOS: هليکوپتر_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_بالا, S0B1Token: هليکوپتري_بالايِ, S0Lemma: هليکوپتر, S0POS: NOUN, S0Token: هليکوپتري, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [که, بالايِ, سر ,.. ]
-
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: بالا, B1POS: ADP, B1Token: بالايِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [که]   B= [بالايِ, سر, شان ,.. ]
-
-B0Lemma: بالا, B0POS: ADP, B0Token: بالايِ, B1Lemma: سر, B1POS: NOUN, B1Token: سر, S0B0Distance: 1, S0B0Lemma: که_بالا, S0B0LemmaPOS: که_ADP, S0B0POS: SCONJ_ADP, S0B0POSLemma: SCONJ_بالا, S0B0Token: که_بالايِ, S0B1Lemma: که_سر, S0B1LemmaPOS: که_NOUN, S0B1POS: SCONJ_NOUN, S0B1POSLemma: SCONJ_سر, S0B1Token: که_سر, S0Lemma: که, S0POS: SCONJ, S0Token: که, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بالايِ, سر, شان ,.. ]
-
-B0Lemma: بالا, B0POS: ADP, B0Token: بالايِ, B1Lemma: سر, B1POS: NOUN, B1Token: سر, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بالايِ]   B= [سر, شان, در ,.. ]
-
-B0Lemma: سر, B0POS: NOUN, B0Token: سر, B1Lemma: آنها, B1POS: PRON, B1Token: شان, S0B0Distance: 1, S0B0Lemma: بالا_سر, S0B0LemmaPOS: بالا_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_سر, S0B0Token: بالايِ_سر, S0B1Lemma: بالا_آنها, S0B1LemmaPOS: بالا_PRON, S0B1POS: ADP_PRON, S0B1POSLemma: ADP_آنها, S0B1Token: بالايِ_شان, S0Lemma: بالا, S0POS: ADP, S0Token: بالايِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [سر, شان, در ,.. ]
-
-B0Lemma: سر, B0POS: NOUN, B0Token: سر, B1Lemma: آنها, B1POS: PRON, B1Token: شان, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [سر]   B= [شان, در, پرواز ,.. ]
-
-B0Lemma: آنها, B0POS: PRON, B0Token: شان, B1Lemma: در, B1POS: ADP, B1Token: در, S0B0Distance: 1, S0B0Lemma: سر_آنها, S0B0LemmaPOS: سر_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_آنها, S0B0Token: سر_شان, S0B1Lemma: سر_در, S0B1LemmaPOS: سر_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_در, S0B1Token: سر_در, S0Lemma: سر, S0POS: NOUN, S0Token: سر, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [شان, در, پرواز ,.. ]
-
-B0Lemma: آنها, B0POS: PRON, B0Token: شان, B1Lemma: در, B1POS: ADP, B1Token: در, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [شان]   B= [در, پرواز, بود ,.. ]
-
-B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: پرواز, B1POS: NOUN, B1Token: پرواز, S0B0Distance: 1, S0B0Lemma: آنها_در, S0B0LemmaPOS: آنها_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_در, S0B0Token: شان_در, S0B1Lemma: آنها_پرواز, S0B1LemmaPOS: آنها_NOUN, S0B1POS: PRON_NOUN, S0B1POSLemma: PRON_پرواز, S0B1Token: شان_پرواز, S0Lemma: آنها, S0POS: PRON, S0Token: شان, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [در, پرواز, بود ,.. ]
-
-B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: پرواز, B1POS: NOUN, B1Token: پرواز, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [در]   B= [پرواز, بود, ، ,.. ]
-
-B0Lemma: پرواز, B0POS: NOUN, B0Token: پرواز, B1Lemma: بود, B1POS: VERB, B1Token: بود, S0B0Distance: 1, S0B0Lemma: در_پرواز, S0B0LemmaPOS: در_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_پرواز, S0B0Token: در_پرواز, S0B1Lemma: در_بود, S0B1LemmaPOS: در_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_بود, S0B1Token: در_بود, S0Lemma: در, S0POS: ADP, S0Token: در, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [پرواز, بود, ، ,.. ]
-
-B0Lemma: پرواز, B0POS: NOUN, B0Token: پرواز, B1Lemma: بود, B1POS: VERB, B1Token: بود, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پرواز]   B= [بود, ،, مجبور ,.. ]
-
-B0Lemma: بود, B0POS: VERB, B0Token: بود, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: پرواز_بود, S0B0LemmaPOS: پرواز_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_بود, S0B0Token: پرواز_بود, S0B1Lemma: پرواز_،, S0B1LemmaPOS: پرواز_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_،, S0B1Token: پرواز_،, S0Lemma: پرواز, S0POS: NOUN, S0Token: پرواز, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بود, ،, مجبور ,.. ]
-
-B0Lemma: بود, B0POS: VERB, B0Token: بود, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بود]   B= [،, مجبور, مي‌شدند ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: مجبور, B1POS: ADJ, B1Token: مجبور, S0B0Distance: 1, S0B0Lemma: بود_،, S0B0LemmaPOS: بود_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_،, S0B0Token: بود_،, S0B1Lemma: بود_مجبور, S0B1LemmaPOS: بود_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_مجبور, S0B1Token: بود_مجبور, S0Lemma: بود, S0POS: VERB, S0Token: بود, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, مجبور, مي‌شدند ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: مجبور, B1POS: ADJ, B1Token: مجبور, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [مجبور, مي‌شدند, بدونِ ,.. ]
-
-B0Lemma: مجبور, B0POS: ADJ, B0Token: مجبور, B1Lemma: شد, B1POS: VERB, B1Token: مي‌شدند, S0B0Distance: 1, S0B0Lemma: ،_مجبور, S0B0LemmaPOS: ،_ADJ, S0B0POS: PUNCT_ADJ, S0B0POSLemma: PUNCT_مجبور, S0B0Token: ،_مجبور, S0B1Lemma: ،_شد, S0B1LemmaPOS: ،_VERB, S0B1POS: PUNCT_VERB, S0B1POSLemma: PUNCT_شد, S0B1Token: ،_مي‌شدند, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مجبور, مي‌شدند, بدونِ ,.. ]
-
-B0Lemma: مجبور, B0POS: ADJ, B0Token: مجبور, B1Lemma: شد, B1POS: VERB, B1Token: مي‌شدند, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مجبور]   B= [مي‌شدند, بدونِ, دادنِ ,.. ]
-
-B0Lemma: شد, B0POS: VERB, B0Token: مي‌شدند, B1Lemma: بدون, B1POS: ADP, B1Token: بدونِ, S0B0Distance: 1, S0B0Lemma: مجبور_شد, S0B0LemmaPOS: مجبور_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_شد, S0B0Token: مجبور_مي‌شدند, S0B1Lemma: مجبور_بدون, S0B1LemmaPOS: مجبور_ADP, S0B1POS: ADJ_ADP, S0B1POSLemma: ADJ_بدون, S0B1Token: مجبور_بدونِ, S0Lemma: مجبور, S0POS: ADJ, S0Token: مجبور, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-66- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مجبور, مي‌شدند]   B= [بدونِ, دادنِ, آشنايي ,.. ]
-
-B0Lemma: بدون, B0POS: ADP, B0Token: بدونِ, B1Lemma: دادن, B1POS: NOUN, B1Token: دادنِ, S0B0Distance: 1, S0B0Lemma: شد_بدون, S0B0LemmaPOS: شد_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_بدون, S0B0Token: مي‌شدند_بدونِ, S0B1Lemma: شد_دادن, S0B1LemmaPOS: شد_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_دادن, S0B1Token: مي‌شدند_دادنِ, S0Lemma: شد, S0POS: VERB, S0Token: مي‌شدند, S1B0Lemma: مجبور_بدون, S1B0LemmaPOS: مجبور_ADP, S1B0POS: ADJ_ADP, S1B0POSLemma: ADJ_بدون, S1B0Token: مجبور_بدونِ, S1Lemma: مجبور, S1POS: ADJ, S1S0Lemma: مجبور_شد, S1S0LemmaPOS: مجبور_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_شد, S1S0Token: مجبور_مي‌شدند, S1Token: مجبور, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-67- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[مجبور, مي‌شدند]]   B= [بدونِ, دادنِ, آشنايي ,.. ]
-
-B0Lemma: بدون, B0POS: ADP, B0Token: بدونِ, B1Lemma: دادن, B1POS: NOUN, B1Token: دادنِ, S0B0Distance: 1, S0B0Lemma: مجبور_شد_بدون, S0B0LemmaPOS: مجبور_شد_ADP, S0B0POS: ADJ_VERB_ADP, S0B0POSLemma: ADJ_VERB_بدون, S0B0Token: مجبور_مي‌شدند_بدونِ, S0B1Lemma: مجبور_شد_دادن, S0B1LemmaPOS: مجبور_شد_NOUN, S0B1POS: ADJ_VERB_NOUN, S0B1POSLemma: ADJ_VERB_دادن, S0B1Token: مجبور_مي‌شدند_دادنِ, S0Lemma: مجبور_شد, S0POS: ADJ_VERB, S0Token: مجبور_مي‌شدند, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بدونِ, دادنِ, آشنايي ,.. ]
-
-B0Lemma: بدون, B0POS: ADP, B0Token: بدونِ, B1Lemma: دادن, B1POS: NOUN, B1Token: دادنِ, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بدونِ]   B= [دادنِ, آشنايي, ، ,.. ]
-
-B0Lemma: دادن, B0POS: NOUN, B0Token: دادنِ, B1Lemma: آشنايي, B1POS: NOUN, B1Token: آشنايي, S0B0Distance: 1, S0B0Lemma: بدون_دادن, S0B0LemmaPOS: بدون_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_دادن, S0B0Token: بدونِ_دادنِ, S0B1Lemma: بدون_آشنايي, S0B1LemmaPOS: بدون_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_آشنايي, S0B1Token: بدونِ_آشنايي, S0Lemma: بدون, S0POS: ADP, S0Token: بدونِ, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [دادنِ, آشنايي, ، ,.. ]
-
-B0Lemma: دادن, B0POS: NOUN, B0Token: دادنِ, B1Lemma: آشنايي, B1POS: NOUN, B1Token: آشنايي, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [دادنِ]   B= [آشنايي, ،, از ,.. ]
-
-B0Lemma: آشنايي, B0POS: NOUN, B0Token: آشنايي, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: دادن_آشنايي, S0B0LemmaPOS: دادن_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_آشنايي, S0B0Token: دادنِ_آشنايي, S0B1Lemma: دادن_،, S0B1LemmaPOS: دادن_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_،, S0B1Token: دادنِ_،, S0Lemma: دادن, S0POS: NOUN, S0Token: دادنِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آشنايي, ،, از ,.. ]
-
-B0Lemma: آشنايي, B0POS: NOUN, B0Token: آشنايي, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آشنايي]   B= [،, از, کنارِ ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: از, B1POS: ADP, B1Token: از, S0B0Distance: 1, S0B0Lemma: آشنايي_،, S0B0LemmaPOS: آشنايي_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_،, S0B0Token: آشنايي_،, S0B1Lemma: آشنايي_از, S0B1LemmaPOS: آشنايي_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_از, S0B1Token: آشنايي_از, S0Lemma: آشنايي, S0POS: NOUN, S0Token: آشنايي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, از, کنارِ ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: از, B1POS: ADP, B1Token: از, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [از, کنارِ, يکديگر ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: کنار, B1POS: NOUN, B1Token: کنارِ, S0B0Distance: 1, S0B0Lemma: ،_از, S0B0LemmaPOS: ،_ADP, S0B0POS: PUNCT_ADP, S0B0POSLemma: PUNCT_از, S0B0Token: ،_از, S0B1Lemma: ،_کنار, S0B1LemmaPOS: ،_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_کنار, S0B1Token: ،_کنارِ, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [از, کنارِ, يکديگر ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: کنار, B1POS: NOUN, B1Token: کنارِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [از]   B= [کنارِ, يکديگر, عبور ,.. ]
-
-B0Lemma: کنار, B0POS: NOUN, B0Token: کنارِ, B1Lemma: يکديگر, B1POS: PRON, B1Token: يکديگر, S0B0Distance: 1, S0B0Lemma: از_کنار, S0B0LemmaPOS: از_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_کنار, S0B0Token: از_کنارِ, S0B1Lemma: از_يکديگر, S0B1LemmaPOS: از_PRON, S0B1POS: ADP_PRON, S0B1POSLemma: ADP_يکديگر, S0B1Token: از_يکديگر, S0Lemma: از, S0POS: ADP, S0Token: از, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [کنارِ, يکديگر, عبور ,.. ]
-
-B0Lemma: کنار, B0POS: NOUN, B0Token: کنارِ, B1Lemma: يکديگر, B1POS: PRON, B1Token: يکديگر, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [کنارِ]   B= [يکديگر, عبور, کنند ,.. ]
-
-B0Lemma: يکديگر, B0POS: PRON, B0Token: يکديگر, B1Lemma: عبور, B1POS: NOUN, B1Token: عبور, S0B0Distance: 1, S0B0Lemma: کنار_يکديگر, S0B0LemmaPOS: کنار_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_يکديگر, S0B0Token: کنارِ_يکديگر, S0B1Lemma: کنار_عبور, S0B1LemmaPOS: کنار_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_عبور, S0B1Token: کنارِ_عبور, S0Lemma: کنار, S0POS: NOUN, S0Token: کنارِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [يکديگر, عبور, کنند ,.. ]
-
-B0Lemma: يکديگر, B0POS: PRON, B0Token: يکديگر, B1Lemma: عبور, B1POS: NOUN, B1Token: عبور, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [يکديگر]   B= [عبور, کنند, . ,.. ]
-
-B0Lemma: عبور, B0POS: NOUN, B0Token: عبور, B1Lemma: کن, B1POS: VERB, B1Token: کنند, S0B0Distance: 1, S0B0Lemma: يکديگر_عبور, S0B0LemmaPOS: يکديگر_NOUN, S0B0POS: PRON_NOUN, S0B0POSLemma: PRON_عبور, S0B0Token: يکديگر_عبور, S0B1Lemma: يکديگر_کن, S0B1LemmaPOS: يکديگر_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_کن, S0B1Token: يکديگر_کنند, S0Lemma: يکديگر, S0POS: PRON, S0Token: يکديگر, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [عبور, کنند, . ,.. ]
-
-B0Lemma: عبور, B0POS: NOUN, B0Token: عبور, B1Lemma: کن, B1POS: VERB, B1Token: کنند, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [عبور]   B= [کنند, . ,.. ]
-
-B0Lemma: کن, B0POS: VERB, B0Token: کنند, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: عبور_کن, S0B0LemmaPOS: عبور_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_کن, S0B0Token: عبور_کنند, S0B1Lemma: عبور_., S0B1LemmaPOS: عبور_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: عبور_., S0Lemma: عبور, S0POS: NOUN, S0Token: عبور, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-84- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [عبور, کنند]   B= [.]
-
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: کن_., S0B0LemmaPOS: کن_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: کنند_., S0Lemma: کن, S0POS: VERB, S0Token: کنند, S1B0Lemma: عبور_., S1B0LemmaPOS: عبور_PUNCT, S1B0POS: NOUN_PUNCT, S1B0POSLemma: NOUN_., S1B0Token: عبور_., S1Lemma: عبور, S1POS: NOUN, S1S0Lemma: عبور_کن, S1S0LemmaPOS: عبور_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_کن, S1S0Token: عبور_کنند, S1Token: عبور, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-85- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[عبور, کنند]]   B= [.]
-
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: عبور_کن_., S0B0LemmaPOS: عبور_کن_PUNCT, S0B0POS: NOUN_VERB_PUNCT, S0B0POSLemma: NOUN_VERB_., S0B0Token: عبور_کنند_., S0Lemma: عبور_کن, S0POS: NOUN_VERB, S0Token: عبور_کنند, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: PUNCT, B0Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
-
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: PUNCT, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 2157 - 
-ساعت‌ها در فضايِ خاک‌آلود که پر از فضلهٔ پرنده بود ، مي‌نشستند و حرف مي‌زدند و هرازگاهي يکي از آن دو برمي‌خاست و از شکاف‌هايِ باريک نگاهي به بيرون مي‌انداخت تا مطمئن شود کسي به آن طرف نمي‌آيد . 
-### Existing MWEs: 
-1- **پر بود** (OTH)
-2- **حرف مي‌زدند** (OTH)
-3- **مطمئن شود** (OTH)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ساعت‌ها, در, فضايِ ,.. ]
-
-B0Lemma: ساعت, B0POS: NOUN, B0Token: ساعت‌ها, B1Lemma: در, B1POS: ADP, B1Token: در, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ساعت‌ها]   B= [در, فضايِ, خاک‌آلود ,.. ]
-
-B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: فضا, B1POS: NOUN, B1Token: فضايِ, S0B0Distance: 1, S0B0Lemma: ساعت_در, S0B0LemmaPOS: ساعت_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_در, S0B0Token: ساعت‌ها_در, S0B1Lemma: ساعت_فضا, S0B1LemmaPOS: ساعت_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_فضا, S0B1Token: ساعت‌ها_فضايِ, S0Lemma: ساعت, S0POS: NOUN, S0Token: ساعت‌ها, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [در, فضايِ, خاک‌آلود ,.. ]
-
-B0Lemma: در, B0POS: ADP, B0Token: در, B1Lemma: فضا, B1POS: NOUN, B1Token: فضايِ, transitionHistoryLength1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [در]   B= [فضايِ, خاک‌آلود, که ,.. ]
-
-B0Lemma: فضا, B0POS: NOUN, B0Token: فضايِ, B1Lemma: خاک‌آلود, B1POS: ADJ, B1Token: خاک‌آلود, S0B0Distance: 1, S0B0Lemma: در_فضا, S0B0LemmaPOS: در_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_فضا, S0B0Token: در_فضايِ, S0B1Lemma: در_خاک‌آلود, S0B1LemmaPOS: در_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_خاک‌آلود, S0B1Token: در_خاک‌آلود, S0Lemma: در, S0POS: ADP, S0Token: در, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [فضايِ, خاک‌آلود, که ,.. ]
-
-B0Lemma: فضا, B0POS: NOUN, B0Token: فضايِ, B1Lemma: خاک‌آلود, B1POS: ADJ, B1Token: خاک‌آلود, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [فضايِ]   B= [خاک‌آلود, که, پر ,.. ]
-
-B0Lemma: خاک‌آلود, B0POS: ADJ, B0Token: خاک‌آلود, B1Lemma: که, B1POS: SCONJ, B1Token: که, S0B0Distance: 1, S0B0Lemma: فضا_خاک‌آلود, S0B0LemmaPOS: فضا_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_خاک‌آلود, S0B0Token: فضايِ_خاک‌آلود, S0B1Lemma: فضا_که, S0B1LemmaPOS: فضا_SCONJ, S0B1POS: NOUN_SCONJ, S0B1POSLemma: NOUN_که, S0B1Token: فضايِ_که, S0Lemma: فضا, S0POS: NOUN, S0Token: فضايِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [خاک‌آلود, که, پر ,.. ]
-
-B0Lemma: خاک‌آلود, B0POS: ADJ, B0Token: خاک‌آلود, B1Lemma: که, B1POS: SCONJ, B1Token: که, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [خاک‌آلود]   B= [که, پر, از ,.. ]
-
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: پر, B1POS: ADJ, B1Token: پر, S0B0Distance: 1, S0B0Lemma: خاک‌آلود_که, S0B0LemmaPOS: خاک‌آلود_SCONJ, S0B0POS: ADJ_SCONJ, S0B0POSLemma: ADJ_که, S0B0Token: خاک‌آلود_که, S0B1Lemma: خاک‌آلود_پر, S0B1LemmaPOS: خاک‌آلود_ADJ, S0B1POS: ADJ_ADJ, S0B1POSLemma: ADJ_پر, S0B1Token: خاک‌آلود_پر, S0Lemma: خاک‌آلود, S0POS: ADJ, S0Token: خاک‌آلود, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [که, پر, از ,.. ]
-
-B0Lemma: که, B0POS: SCONJ, B0Token: که, B1Lemma: پر, B1POS: ADJ, B1Token: پر, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [که]   B= [پر, از, فضلهٔ ,.. ]
-
-B0Lemma: پر, B0POS: ADJ, B0Token: پر, B1Lemma: از, B1POS: ADP, B1Token: از, S0B0Distance: 1, S0B0Lemma: که_پر, S0B0LemmaPOS: که_ADJ, S0B0POS: SCONJ_ADJ, S0B0POSLemma: SCONJ_پر, S0B0Token: که_پر, S0B1Lemma: که_از, S0B1LemmaPOS: که_ADP, S0B1POS: SCONJ_ADP, S0B1POSLemma: SCONJ_از, S0B1Token: که_از, S0Lemma: که, S0POS: SCONJ, S0Token: که, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [پر, از, فضلهٔ ,.. ]
-
-B0Lemma: پر, B0POS: ADJ, B0Token: پر, B1Lemma: از, B1POS: ADP, B1Token: از, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پر]   B= [از, فضلهٔ, پرنده ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: فضله, B1POS: NOUN, B1Token: فضلهٔ, S0B0Distance: 1, S0B0Lemma: پر_از, S0B0LemmaPOS: پر_ADP, S0B0POS: ADJ_ADP, S0B0POSLemma: ADJ_از, S0B0Token: پر_از, S0B1Lemma: پر_فضله, S0B1LemmaPOS: پر_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_فضله, S0B1Token: پر_فضلهٔ, S0Lemma: پر, S0POS: ADJ, S0Token: پر, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پر, از]   B= [فضلهٔ, پرنده, بود ,.. ]
-
-B0Lemma: فضله, B0POS: NOUN, B0Token: فضلهٔ, B1Lemma: پرنده, B1POS: NOUN, B1Token: پرنده, S0B0Distance: 1, S0B0Lemma: از_فضله, S0B0LemmaPOS: از_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_فضله, S0B0Token: از_فضلهٔ, S0B1Lemma: از_پرنده, S0B1LemmaPOS: از_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_پرنده, S0B1Token: از_پرنده, S0Lemma: از, S0POS: ADP, S0Token: از, S1B0Lemma: پر_فضله, S1B0LemmaPOS: پر_NOUN, S1B0POS: ADJ_NOUN, S1B0POSLemma: ADJ_فضله, S1B0Token: پر_فضلهٔ, S1Lemma: پر, S1POS: ADJ, S1S0Lemma: پر_از, S1S0LemmaPOS: پر_ADP, S1S0POS: ADJ_ADP, S1S0POSLemma: ADJ_از, S1S0Token: پر_از, S1Token: پر, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-13- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پر]   B= [فضلهٔ, پرنده, بود ,.. ]
-
-B0Lemma: فضله, B0POS: NOUN, B0Token: فضلهٔ, B1Lemma: پرنده, B1POS: NOUN, B1Token: پرنده, S0B0Distance: 2, S0B0Lemma: پر_فضله, S0B0LemmaPOS: پر_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_فضله, S0B0Token: پر_فضلهٔ, S0B1Lemma: پر_پرنده, S0B1LemmaPOS: پر_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_پرنده, S0B1Token: پر_پرنده, S0Lemma: پر, S0POS: ADJ, S0Token: پر, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پر, فضلهٔ]   B= [پرنده, بود, ، ,.. ]
-
-B0Lemma: پرنده, B0POS: NOUN, B0Token: پرنده, B1Lemma: بود, B1POS: VERB, B1Token: بود, S0B0Distance: 1, S0B0Lemma: فضله_پرنده, S0B0LemmaPOS: فضله_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_پرنده, S0B0Token: فضلهٔ_پرنده, S0B1Lemma: فضله_بود, S0B1LemmaPOS: فضله_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_بود, S0B1Token: فضلهٔ_بود, S0Lemma: فضله, S0POS: NOUN, S0Token: فضلهٔ, S1B0Lemma: پر_پرنده, S1B0LemmaPOS: پر_NOUN, S1B0POS: ADJ_NOUN, S1B0POSLemma: ADJ_پرنده, S1B0Token: پر_پرنده, S1Lemma: پر, S1POS: ADJ, S1S0Lemma: پر_فضله, S1S0LemmaPOS: پر_NOUN, S1S0POS: ADJ_NOUN, S1S0POSLemma: ADJ_فضله, S1S0Token: پر_فضلهٔ, S1Token: پر, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-15- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پر]   B= [پرنده, بود, ، ,.. ]
-
-B0Lemma: پرنده, B0POS: NOUN, B0Token: پرنده, B1Lemma: بود, B1POS: VERB, B1Token: بود, S0B0Distance: 3, S0B0Lemma: پر_پرنده, S0B0LemmaPOS: پر_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_پرنده, S0B0Token: پر_پرنده, S0B1Lemma: پر_بود, S0B1LemmaPOS: پر_VERB, S0B1POS: ADJ_VERB, S0B1POSLemma: ADJ_بود, S0B1Token: پر_بود, S0Lemma: پر, S0POS: ADJ, S0Token: پر, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پر, پرنده]   B= [بود, ،, مي‌نشستند ,.. ]
-
-B0Lemma: بود, B0POS: VERB, B0Token: بود, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 1, S0B0Lemma: پرنده_بود, S0B0LemmaPOS: پرنده_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_بود, S0B0Token: پرنده_بود, S0B1Lemma: پرنده_،, S0B1LemmaPOS: پرنده_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_،, S0B1Token: پرنده_،, S0Lemma: پرنده, S0POS: NOUN, S0Token: پرنده, S1B0Lemma: پر_بود, S1B0LemmaPOS: پر_VERB, S1B0POS: ADJ_VERB, S1B0POSLemma: ADJ_بود, S1B0Token: پر_بود, S1Lemma: پر, S1POS: ADJ, S1S0Lemma: پر_پرنده, S1S0LemmaPOS: پر_NOUN, S1S0POS: ADJ_NOUN, S1S0POSLemma: ADJ_پرنده, S1S0Token: پر_پرنده, S1Token: پر, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پر]   B= [بود, ،, مي‌نشستند ,.. ]
-
-B0Lemma: بود, B0POS: VERB, B0Token: بود, B1Lemma: ،, B1POS: PUNCT, B1Token: ،, S0B0Distance: 4, S0B0Lemma: پر_بود, S0B0LemmaPOS: پر_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_بود, S0B0Token: پر_بود, S0B1Lemma: پر_،, S0B1LemmaPOS: پر_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_،, S0B1Token: پر_،, S0Lemma: پر, S0POS: ADJ, S0Token: پر, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [پر, بود]   B= [،, مي‌نشستند, و ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: نشست, B1POS: VERB, B1Token: مي‌نشستند, S0B0Distance: 1, S0B0Lemma: بود_،, S0B0LemmaPOS: بود_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_،, S0B0Token: بود_،, S0B1Lemma: بود_نشست, S0B1LemmaPOS: بود_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_نشست, S0B1Token: بود_مي‌نشستند, S0Lemma: بود, S0POS: VERB, S0Token: بود, S1B0Lemma: پر_،, S1B0LemmaPOS: پر_PUNCT, S1B0POS: ADJ_PUNCT, S1B0POSLemma: ADJ_،, S1B0Token: پر_،, S1Lemma: پر, S1POS: ADJ, S1S0Lemma: پر_بود, S1S0LemmaPOS: پر_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_بود, S1S0Token: پر_بود, S1Token: پر, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[پر, بود]]   B= [،, مي‌نشستند, و ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: نشست, B1POS: VERB, B1Token: مي‌نشستند, S0B0Distance: 1, S0B0Lemma: پر_بود_،, S0B0LemmaPOS: پر_بود_PUNCT, S0B0POS: ADJ_VERB_PUNCT, S0B0POSLemma: ADJ_VERB_،, S0B0Token: پر_بود_،, S0B1Lemma: پر_بود_نشست, S0B1LemmaPOS: پر_بود_VERB, S0B1POS: ADJ_VERB_VERB, S0B1POSLemma: ADJ_VERB_نشست, S0B1Token: پر_بود_مي‌نشستند, S0Lemma: پر_بود, S0POS: ADJ_VERB, S0Token: پر_بود, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [،, مي‌نشستند, و ,.. ]
-
-B0Lemma: ،, B0POS: PUNCT, B0Token: ،, B1Lemma: نشست, B1POS: VERB, B1Token: مي‌نشستند, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [،]   B= [مي‌نشستند, و, حرف ,.. ]
-
-B0Lemma: نشست, B0POS: VERB, B0Token: مي‌نشستند, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: ،_نشست, S0B0LemmaPOS: ،_VERB, S0B0POS: PUNCT_VERB, S0B0POSLemma: PUNCT_نشست, S0B0Token: ،_مي‌نشستند, S0B1Lemma: ،_و, S0B1LemmaPOS: ،_CCONJ, S0B1POS: PUNCT_CCONJ, S0B1POSLemma: PUNCT_و, S0B1Token: ،_و, S0Lemma: ،, S0POS: PUNCT, S0Token: ،, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌نشستند, و, حرف ,.. ]
-
-B0Lemma: نشست, B0POS: VERB, B0Token: مي‌نشستند, B1Lemma: و, B1POS: CCONJ, B1Token: و, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌نشستند]   B= [و, حرف, مي‌زدند ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: حرف, B1POS: NOUN, B1Token: حرف, S0B0Distance: 1, S0B0Lemma: نشست_و, S0B0LemmaPOS: نشست_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: مي‌نشستند_و, S0B1Lemma: نشست_حرف, S0B1LemmaPOS: نشست_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_حرف, S0B1Token: مي‌نشستند_حرف, S0Lemma: نشست, S0POS: VERB, S0Token: مي‌نشستند, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, حرف, مي‌زدند ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: حرف, B1POS: NOUN, B1Token: حرف, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [حرف, مي‌زدند, و ,.. ]
-
-B0Lemma: حرف, B0POS: NOUN, B0Token: حرف, B1Lemma: زد, B1POS: VERB, B1Token: مي‌زدند, S0B0Distance: 1, S0B0Lemma: و_حرف, S0B0LemmaPOS: و_NOUN, S0B0POS: CCONJ_NOUN, S0B0POSLemma: CCONJ_حرف, S0B0Token: و_حرف, S0B1Lemma: و_زد, S0B1LemmaPOS: و_VERB, S0B1POS: CCONJ_VERB, S0B1POSLemma: CCONJ_زد, S0B1Token: و_مي‌زدند, S0Lemma: و, S0POS: CCONJ, S0Token: و, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [حرف, مي‌زدند, و ,.. ]
-
-B0Lemma: حرف, B0POS: NOUN, B0Token: حرف, B1Lemma: زد, B1POS: VERB, B1Token: مي‌زدند, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [حرف]   B= [مي‌زدند, و, هرازگاهي ,.. ]
-
-B0Lemma: زد, B0POS: VERB, B0Token: مي‌زدند, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: حرف_زد, S0B0LemmaPOS: حرف_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_زد, S0B0Token: حرف_مي‌زدند, S0B1Lemma: حرف_و, S0B1LemmaPOS: حرف_CCONJ, S0B1POS: NOUN_CCONJ, S0B1POSLemma: NOUN_و, S0B1Token: حرف_و, S0Lemma: حرف, S0POS: NOUN, S0Token: حرف, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [حرف, مي‌زدند]   B= [و, هرازگاهي, يکي ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: هرازگاه, B1POS: ADV, B1Token: هرازگاهي, S0B0Distance: 1, S0B0Lemma: زد_و, S0B0LemmaPOS: زد_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: مي‌زدند_و, S0B1Lemma: زد_هرازگاه, S0B1LemmaPOS: زد_ADV, S0B1POS: VERB_ADV, S0B1POSLemma: VERB_هرازگاه, S0B1Token: مي‌زدند_هرازگاهي, S0Lemma: زد, S0POS: VERB, S0Token: مي‌زدند, S1B0Lemma: حرف_و, S1B0LemmaPOS: حرف_CCONJ, S1B0POS: NOUN_CCONJ, S1B0POSLemma: NOUN_و, S1B0Token: حرف_و, S1Lemma: حرف, S1POS: NOUN, S1S0Lemma: حرف_زد, S1S0LemmaPOS: حرف_VERB, S1S0POS: NOUN_VERB, S1S0POSLemma: NOUN_زد, S1S0Token: حرف_مي‌زدند, S1Token: حرف, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-29- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[حرف, مي‌زدند]]   B= [و, هرازگاهي, يکي ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: هرازگاه, B1POS: ADV, B1Token: هرازگاهي, S0B0Distance: 1, S0B0Lemma: حرف_زد_و, S0B0LemmaPOS: حرف_زد_CCONJ, S0B0POS: NOUN_VERB_CCONJ, S0B0POSLemma: NOUN_VERB_و, S0B0Token: حرف_مي‌زدند_و, S0B1Lemma: حرف_زد_هرازگاه, S0B1LemmaPOS: حرف_زد_ADV, S0B1POS: NOUN_VERB_ADV, S0B1POSLemma: NOUN_VERB_هرازگاه, S0B1Token: حرف_مي‌زدند_هرازگاهي, S0Lemma: حرف_زد, S0POS: NOUN_VERB, S0Token: حرف_مي‌زدند, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, هرازگاهي, يکي ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: هرازگاه, B1POS: ADV, B1Token: هرازگاهي, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [هرازگاهي, يکي, از ,.. ]
-
-B0Lemma: هرازگاه, B0POS: ADV, B0Token: هرازگاهي, B1Lemma: يک, B1POS: NUM, B1Token: يکي, S0B0Distance: 1, S0B0Lemma: و_هرازگاه, S0B0LemmaPOS: و_ADV, S0B0POS: CCONJ_ADV, S0B0POSLemma: CCONJ_هرازگاه, S0B0Token: و_هرازگاهي, S0B1Lemma: و_يک, S0B1LemmaPOS: و_NUM, S0B1POS: CCONJ_NUM, S0B1POSLemma: CCONJ_يک, S0B1Token: و_يکي, S0Lemma: و, S0POS: CCONJ, S0Token: و, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [هرازگاهي, يکي, از ,.. ]
-
-B0Lemma: هرازگاه, B0POS: ADV, B0Token: هرازگاهي, B1Lemma: يک, B1POS: NUM, B1Token: يکي, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [هرازگاهي]   B= [يکي, از, آن ,.. ]
-
-B0Lemma: يک, B0POS: NUM, B0Token: يکي, B1Lemma: از, B1POS: ADP, B1Token: از, S0B0Distance: 1, S0B0Lemma: هرازگاه_يک, S0B0LemmaPOS: هرازگاه_NUM, S0B0POS: ADV_NUM, S0B0POSLemma: ADV_يک, S0B0Token: هرازگاهي_يکي, S0B1Lemma: هرازگاه_از, S0B1LemmaPOS: هرازگاه_ADP, S0B1POS: ADV_ADP, S0B1POSLemma: ADV_از, S0B1Token: هرازگاهي_از, S0Lemma: هرازگاه, S0POS: ADV, S0Token: هرازگاهي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [يکي, از, آن ,.. ]
-
-B0Lemma: يک, B0POS: NUM, B0Token: يکي, B1Lemma: از, B1POS: ADP, B1Token: از, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [يکي]   B= [از, آن, دو ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: آن, B1POS: DET, B1Token: آن, S0B0Distance: 1, S0B0Lemma: يک_از, S0B0LemmaPOS: يک_ADP, S0B0POS: NUM_ADP, S0B0POSLemma: NUM_از, S0B0Token: يکي_از, S0B1Lemma: يک_آن, S0B1LemmaPOS: يک_DET, S0B1POS: NUM_DET, S0B1POSLemma: NUM_آن, S0B1Token: يکي_آن, S0Lemma: يک, S0POS: NUM, S0Token: يکي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [از, آن, دو ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: آن, B1POS: DET, B1Token: آن, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [از]   B= [آن, دو, برمي‌خاست ,.. ]
-
-B0Lemma: آن, B0POS: DET, B0Token: آن, B1Lemma: دو, B1POS: NUM, B1Token: دو, S0B0Distance: 1, S0B0Lemma: از_آن, S0B0LemmaPOS: از_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_آن, S0B0Token: از_آن, S0B1Lemma: از_دو, S0B1LemmaPOS: از_NUM, S0B1POS: ADP_NUM, S0B1POSLemma: ADP_دو, S0B1Token: از_دو, S0Lemma: از, S0POS: ADP, S0Token: از, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آن, دو, برمي‌خاست ,.. ]
-
-B0Lemma: آن, B0POS: DET, B0Token: آن, B1Lemma: دو, B1POS: NUM, B1Token: دو, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آن]   B= [دو, برمي‌خاست, و ,.. ]
-
-B0Lemma: دو, B0POS: NUM, B0Token: دو, B1Lemma: برخاست, B1POS: VERB, B1Token: برمي‌خاست, S0B0Distance: 1, S0B0Lemma: آن_دو, S0B0LemmaPOS: آن_NUM, S0B0POS: DET_NUM, S0B0POSLemma: DET_دو, S0B0Token: آن_دو, S0B1Lemma: آن_برخاست, S0B1LemmaPOS: آن_VERB, S0B1POS: DET_VERB, S0B1POSLemma: DET_برخاست, S0B1Token: آن_برمي‌خاست, S0Lemma: آن, S0POS: DET, S0Token: آن, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [دو, برمي‌خاست, و ,.. ]
-
-B0Lemma: دو, B0POS: NUM, B0Token: دو, B1Lemma: برخاست, B1POS: VERB, B1Token: برمي‌خاست, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [دو]   B= [برمي‌خاست, و, از ,.. ]
-
-B0Lemma: برخاست, B0POS: VERB, B0Token: برمي‌خاست, B1Lemma: و, B1POS: CCONJ, B1Token: و, S0B0Distance: 1, S0B0Lemma: دو_برخاست, S0B0LemmaPOS: دو_VERB, S0B0POS: NUM_VERB, S0B0POSLemma: NUM_برخاست, S0B0Token: دو_برمي‌خاست, S0B1Lemma: دو_و, S0B1LemmaPOS: دو_CCONJ, S0B1POS: NUM_CCONJ, S0B1POSLemma: NUM_و, S0B1Token: دو_و, S0Lemma: دو, S0POS: NUM, S0Token: دو, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [برمي‌خاست, و, از ,.. ]
-
-B0Lemma: برخاست, B0POS: VERB, B0Token: برمي‌خاست, B1Lemma: و, B1POS: CCONJ, B1Token: و, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [برمي‌خاست]   B= [و, از, شکاف‌هايِ ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: از, B1POS: ADP, B1Token: از, S0B0Distance: 1, S0B0Lemma: برخاست_و, S0B0LemmaPOS: برخاست_CCONJ, S0B0POS: VERB_CCONJ, S0B0POSLemma: VERB_و, S0B0Token: برمي‌خاست_و, S0B1Lemma: برخاست_از, S0B1LemmaPOS: برخاست_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_از, S0B1Token: برمي‌خاست_از, S0Lemma: برخاست, S0POS: VERB, S0Token: برمي‌خاست, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [و, از, شکاف‌هايِ ,.. ]
-
-B0Lemma: و, B0POS: CCONJ, B0Token: و, B1Lemma: از, B1POS: ADP, B1Token: از, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [و]   B= [از, شکاف‌هايِ, باريک ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: شکاف, B1POS: NOUN, B1Token: شکاف‌هايِ, S0B0Distance: 1, S0B0Lemma: و_از, S0B0LemmaPOS: و_ADP, S0B0POS: CCONJ_ADP, S0B0POSLemma: CCONJ_از, S0B0Token: و_از, S0B1Lemma: و_شکاف, S0B1LemmaPOS: و_NOUN, S0B1POS: CCONJ_NOUN, S0B1POSLemma: CCONJ_شکاف, S0B1Token: و_شکاف‌هايِ, S0Lemma: و, S0POS: CCONJ, S0Token: و, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [از, شکاف‌هايِ, باريک ,.. ]
-
-B0Lemma: از, B0POS: ADP, B0Token: از, B1Lemma: شکاف, B1POS: NOUN, B1Token: شکاف‌هايِ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [از]   B= [شکاف‌هايِ, باريک, نگاهي ,.. ]
-
-B0Lemma: شکاف, B0POS: NOUN, B0Token: شکاف‌هايِ, B1Lemma: باريک, B1POS: ADJ, B1Token: باريک, S0B0Distance: 1, S0B0Lemma: از_شکاف, S0B0LemmaPOS: از_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_شکاف, S0B0Token: از_شکاف‌هايِ, S0B1Lemma: از_باريک, S0B1LemmaPOS: از_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_باريک, S0B1Token: از_باريک, S0Lemma: از, S0POS: ADP, S0Token: از, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [شکاف‌هايِ, باريک, نگاهي ,.. ]
-
-B0Lemma: شکاف, B0POS: NOUN, B0Token: شکاف‌هايِ, B1Lemma: باريک, B1POS: ADJ, B1Token: باريک, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [شکاف‌هايِ]   B= [باريک, نگاهي, به ,.. ]
-
-B0Lemma: باريک, B0POS: ADJ, B0Token: باريک, B1Lemma: نگاه, B1POS: NOUN, B1Token: نگاهي, S0B0Distance: 1, S0B0Lemma: شکاف_باريک, S0B0LemmaPOS: شکاف_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_باريک, S0B0Token: شکاف‌هايِ_باريک, S0B1Lemma: شکاف_نگاه, S0B1LemmaPOS: شکاف_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_نگاه, S0B1Token: شکاف‌هايِ_نگاهي, S0Lemma: شکاف, S0POS: NOUN, S0Token: شکاف‌هايِ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [باريک, نگاهي, به ,.. ]
-
-B0Lemma: باريک, B0POS: ADJ, B0Token: باريک, B1Lemma: نگاه, B1POS: NOUN, B1Token: نگاهي, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [باريک]   B= [نگاهي, به, بيرون ,.. ]
-
-B0Lemma: نگاه, B0POS: NOUN, B0Token: نگاهي, B1Lemma: به, B1POS: ADP, B1Token: به, S0B0Distance: 1, S0B0Lemma: باريک_نگاه, S0B0LemmaPOS: باريک_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_نگاه, S0B0Token: باريک_نگاهي, S0B1Lemma: باريک_به, S0B1LemmaPOS: باريک_ADP, S0B1POS: ADJ_ADP, S0B1POSLemma: ADJ_به, S0B1Token: باريک_به, S0Lemma: باريک, S0POS: ADJ, S0Token: باريک, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نگاهي, به, بيرون ,.. ]
-
-B0Lemma: نگاه, B0POS: NOUN, B0Token: نگاهي, B1Lemma: به, B1POS: ADP, B1Token: به, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نگاهي]   B= [به, بيرون, مي‌انداخت ,.. ]
-
-B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: بيرون, B1POS: NOUN, B1Token: بيرون, S0B0Distance: 1, S0B0Lemma: نگاه_به, S0B0LemmaPOS: نگاه_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_به, S0B0Token: نگاهي_به, S0B1Lemma: نگاه_بيرون, S0B1LemmaPOS: نگاه_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_بيرون, S0B1Token: نگاهي_بيرون, S0Lemma: نگاه, S0POS: NOUN, S0Token: نگاهي, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [به, بيرون, مي‌انداخت ,.. ]
-
-B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: بيرون, B1POS: NOUN, B1Token: بيرون, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به]   B= [بيرون, مي‌انداخت, تا ,.. ]
-
-B0Lemma: بيرون, B0POS: NOUN, B0Token: بيرون, B1Lemma: انداخت, B1POS: VERB, B1Token: مي‌انداخت, S0B0Distance: 1, S0B0Lemma: به_بيرون, S0B0LemmaPOS: به_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_بيرون, S0B0Token: به_بيرون, S0B1Lemma: به_انداخت, S0B1LemmaPOS: به_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_انداخت, S0B1Token: به_مي‌انداخت, S0Lemma: به, S0POS: ADP, S0Token: به, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [بيرون, مي‌انداخت, تا ,.. ]
-
-B0Lemma: بيرون, B0POS: NOUN, B0Token: بيرون, B1Lemma: انداخت, B1POS: VERB, B1Token: مي‌انداخت, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [بيرون]   B= [مي‌انداخت, تا, مطمئن ,.. ]
-
-B0Lemma: انداخت, B0POS: VERB, B0Token: مي‌انداخت, B1Lemma: تا, B1POS: SCONJ, B1Token: تا, S0B0Distance: 1, S0B0Lemma: بيرون_انداخت, S0B0LemmaPOS: بيرون_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_انداخت, S0B0Token: بيرون_مي‌انداخت, S0B1Lemma: بيرون_تا, S0B1LemmaPOS: بيرون_SCONJ, S0B1POS: NOUN_SCONJ, S0B1POSLemma: NOUN_تا, S0B1Token: بيرون_تا, S0Lemma: بيرون, S0POS: NOUN, S0Token: بيرون, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مي‌انداخت, تا, مطمئن ,.. ]
-
-B0Lemma: انداخت, B0POS: VERB, B0Token: مي‌انداخت, B1Lemma: تا, B1POS: SCONJ, B1Token: تا, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مي‌انداخت]   B= [تا, مطمئن, شود ,.. ]
-
-B0Lemma: تا, B0POS: SCONJ, B0Token: تا, B1Lemma: مطمئن, B1POS: ADJ, B1Token: مطمئن, S0B0Distance: 1, S0B0Lemma: انداخت_تا, S0B0LemmaPOS: انداخت_SCONJ, S0B0POS: VERB_SCONJ, S0B0POSLemma: VERB_تا, S0B0Token: مي‌انداخت_تا, S0B1Lemma: انداخت_مطمئن, S0B1LemmaPOS: انداخت_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_مطمئن, S0B1Token: مي‌انداخت_مطمئن, S0Lemma: انداخت, S0POS: VERB, S0Token: مي‌انداخت, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [تا, مطمئن, شود ,.. ]
-
-B0Lemma: تا, B0POS: SCONJ, B0Token: تا, B1Lemma: مطمئن, B1POS: ADJ, B1Token: مطمئن, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [تا]   B= [مطمئن, شود, کسي ,.. ]
-
-B0Lemma: مطمئن, B0POS: ADJ, B0Token: مطمئن, B1Lemma: شو, B1POS: VERB, B1Token: شود, S0B0Distance: 1, S0B0Lemma: تا_مطمئن, S0B0LemmaPOS: تا_ADJ, S0B0POS: SCONJ_ADJ, S0B0POSLemma: SCONJ_مطمئن, S0B0Token: تا_مطمئن, S0B1Lemma: تا_شو, S0B1LemmaPOS: تا_VERB, S0B1POS: SCONJ_VERB, S0B1POSLemma: SCONJ_شو, S0B1Token: تا_شود, S0Lemma: تا, S0POS: SCONJ, S0Token: تا, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [مطمئن, شود, کسي ,.. ]
-
-B0Lemma: مطمئن, B0POS: ADJ, B0Token: مطمئن, B1Lemma: شو, B1POS: VERB, B1Token: شود, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مطمئن]   B= [شود, کسي, به ,.. ]
-
-B0Lemma: شو, B0POS: VERB, B0Token: شود, B1Lemma: کس, B1POS: NOUN, B1Token: کسي, S0B0Distance: 1, S0B0Lemma: مطمئن_شو, S0B0LemmaPOS: مطمئن_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_شو, S0B0Token: مطمئن_شود, S0B1Lemma: مطمئن_کس, S0B1LemmaPOS: مطمئن_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_کس, S0B1Token: مطمئن_کسي, S0Lemma: مطمئن, S0POS: ADJ, S0Token: مطمئن, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-64- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [مطمئن, شود]   B= [کسي, به, آن ,.. ]
-
-B0Lemma: کس, B0POS: NOUN, B0Token: کسي, B1Lemma: به, B1POS: ADP, B1Token: به, S0B0Distance: 1, S0B0Lemma: شو_کس, S0B0LemmaPOS: شو_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_کس, S0B0Token: شود_کسي, S0B1Lemma: شو_به, S0B1LemmaPOS: شو_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_به, S0B1Token: شود_به, S0Lemma: شو, S0POS: VERB, S0Token: شود, S1B0Lemma: مطمئن_کس, S1B0LemmaPOS: مطمئن_NOUN, S1B0POS: ADJ_NOUN, S1B0POSLemma: ADJ_کس, S1B0Token: مطمئن_کسي, S1Lemma: مطمئن, S1POS: ADJ, S1S0Lemma: مطمئن_شو, S1S0LemmaPOS: مطمئن_VERB, S1S0POS: ADJ_VERB, S1S0POSLemma: ADJ_شو, S1S0Token: مطمئن_شود, S1Token: مطمئن, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-65- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[مطمئن, شود]]   B= [کسي, به, آن ,.. ]
-
-B0Lemma: کس, B0POS: NOUN, B0Token: کسي, B1Lemma: به, B1POS: ADP, B1Token: به, S0B0Distance: 1, S0B0Lemma: مطمئن_شو_کس, S0B0LemmaPOS: مطمئن_شو_NOUN, S0B0POS: ADJ_VERB_NOUN, S0B0POSLemma: ADJ_VERB_کس, S0B0Token: مطمئن_شود_کسي, S0B1Lemma: مطمئن_شو_به, S0B1LemmaPOS: مطمئن_شو_ADP, S0B1POS: ADJ_VERB_ADP, S0B1POSLemma: ADJ_VERB_به, S0B1Token: مطمئن_شود_به, S0Lemma: مطمئن_شو, S0POS: ADJ_VERB, S0Token: مطمئن_شود, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [کسي, به, آن ,.. ]
-
-B0Lemma: کس, B0POS: NOUN, B0Token: کسي, B1Lemma: به, B1POS: ADP, B1Token: به, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [کسي]   B= [به, آن, طرف ,.. ]
-
-B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: آن, B1POS: DET, B1Token: آن, S0B0Distance: 1, S0B0Lemma: کس_به, S0B0LemmaPOS: کس_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_به, S0B0Token: کسي_به, S0B1Lemma: کس_آن, S0B1LemmaPOS: کس_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_آن, S0B1Token: کسي_آن, S0Lemma: کس, S0POS: NOUN, S0Token: کسي, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [به, آن, طرف ,.. ]
-
-B0Lemma: به, B0POS: ADP, B0Token: به, B1Lemma: آن, B1POS: DET, B1Token: آن, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [به]   B= [آن, طرف, نمي‌آيد ,.. ]
-
-B0Lemma: آن, B0POS: DET, B0Token: آن, B1Lemma: طرف, B1POS: NOUN, B1Token: طرف, S0B0Distance: 1, S0B0Lemma: به_آن, S0B0LemmaPOS: به_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_آن, S0B0Token: به_آن, S0B1Lemma: به_طرف, S0B1LemmaPOS: به_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_طرف, S0B1Token: به_طرف, S0Lemma: به, S0POS: ADP, S0Token: به, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [آن, طرف, نمي‌آيد ,.. ]
-
-B0Lemma: آن, B0POS: DET, B0Token: آن, B1Lemma: طرف, B1POS: NOUN, B1Token: طرف, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [آن]   B= [طرف, نمي‌آيد, . ,.. ]
-
-B0Lemma: طرف, B0POS: NOUN, B0Token: طرف, B1Lemma: آ, B1POS: VERB, B1Token: نمي‌آيد, S0B0Distance: 1, S0B0Lemma: آن_طرف, S0B0LemmaPOS: آن_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_طرف, S0B0Token: آن_طرف, S0B1Lemma: آن_آ, S0B1LemmaPOS: آن_VERB, S0B1POS: DET_VERB, S0B1POSLemma: DET_آ, S0B1Token: آن_نمي‌آيد, S0Lemma: آن, S0POS: DET, S0Token: آن, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [طرف, نمي‌آيد, . ,.. ]
-
-B0Lemma: طرف, B0POS: NOUN, B0Token: طرف, B1Lemma: آ, B1POS: VERB, B1Token: نمي‌آيد, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [طرف]   B= [نمي‌آيد, . ,.. ]
-
-B0Lemma: آ, B0POS: VERB, B0Token: نمي‌آيد, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: طرف_آ, S0B0LemmaPOS: طرف_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_آ, S0B0Token: طرف_نمي‌آيد, S0B1Lemma: طرف_., S0B1LemmaPOS: طرف_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: طرف_., S0Lemma: طرف, S0POS: NOUN, S0Token: طرف, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [نمي‌آيد, . ,.. ]
-
-B0Lemma: آ, B0POS: VERB, B0Token: نمي‌آيد, B1Lemma: ., B1POS: PUNCT, B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [نمي‌آيد]   B= [.]
-
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: آ_., S0B0LemmaPOS: آ_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: نمي‌آيد_., S0Lemma: آ, S0POS: VERB, S0Token: نمي‌آيد, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: PUNCT, B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: PUNCT, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

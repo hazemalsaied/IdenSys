@@ -18,7 +18,7 @@ class Corpus:
             This function iterate over the lines of corpus document to create the precedent ontology
         :param path: the physical path of the corpus document
         """
-        self.sentNum, self.mweNum, self.intereavingNum, self.emeddedNum = 0, 0, 0, 0
+        self.sentNum, self.mweNum, self.intereavingNum, self.emeddedNum, self.singleWordExp, self.continousExp = 0, 0, 0, 0,0,0
 
         conlluFile = None
         if os.path.isfile(os.path.join(path, 'train.conllu')):
@@ -38,6 +38,10 @@ class Corpus:
             for sent in self.sentences:
                 self.emeddedNum += sent.recognizeEmbededVMWEs()
                 self.intereavingNum += sent.recognizeInterleavingVMWEs()
+                x,y = sent.recognizeContinouosandSingleVMWEs()
+                self.singleWordExp += x
+                self.continousExp += y
+
 
             self.testSents = Corpus.readConlluFile(testConllu)
         else:
@@ -46,6 +50,9 @@ class Corpus:
             for sent in self.sentences:
                 self.emeddedNum += sent.recognizeEmbededVMWEs()
                 self.intereavingNum += sent.recognizeInterleavingVMWEs()
+                x, y = sent.recognizeContinouosandSingleVMWEs()
+                self.singleWordExp += x
+                self.continousExp += y
 
     @staticmethod
     def readConlluFile(conlluFile):
@@ -92,7 +99,6 @@ class Corpus:
                         token = Token(lineParts[0], lineParts[1], lemma=lineParts[2], posTag=lineParts[3],
                                       abstractPosTag=lineParts[3], morphologicalInfo=morpho,
                                       dependencyLabel=lineParts[7])
-
                     # Associate the token with the sentence
                     sent.tokens.append(token)
                     sent.text += token.text + ' '
@@ -121,9 +127,7 @@ class Corpus:
                     continue
                 if lineParts is not None and len(lineParts) == 4 and lineParts[3] != '_':
 
-                    token = sent.tokens[int(lineParts[0]) - 1] #[t for t in sent.tokens if t.position == int(lineParts[0])]
-                    #if tokens is not None and len(tokens) > 0:
-                    #    token = tokens[0]
+                    token = sent.tokens[int(lineParts[0]) - 1]
                     vMWEids = lineParts[3].split(';')
                     for vMWEid in vMWEids:
                         id = int(vMWEid.split(':')[0])
@@ -165,6 +169,7 @@ class Corpus:
                         if not forTest:
                             sent.recognizeEmbededVMWEs()
                             sent.recognizeInterleavingVMWEs()
+
                     sent = Sentence(senIdx)
                     senIdx += 1
                     sentences.append(sent)
@@ -286,7 +291,28 @@ class Sentence:
                                 slaveVmwe.isEmbeded = False
                         if slaveVmwe.isEmbeded:
                             result += 1
+
         return result
+
+    def recognizeContinouosandSingleVMWEs(self):
+        singleWordExp, continousExp = 0,0
+        for mwe in self.vMWEs:
+            if len(mwe.tokens) == 1:
+                mwe.isSingleWordExp = True
+                mwe.isContinousExp = True
+                singleWordExp +=1
+            else:
+                idxs = []
+                for token in mwe.tokens:
+                    idxs.append(self.tokens.index(token))
+                range = xrange(min(idxs), max(idxs))
+                mwe.isContinousExp = True
+                for i in range:
+                    if i not in idxs:
+                        mwe.isContinousExp = False
+                if mwe.isContinousExp:
+                    continousExp +=1
+        return singleWordExp, continousExp
 
     def recognizeInterleavingVMWEs(self):
         if len(self.vMWEs) <= 1:
@@ -463,6 +489,8 @@ class VMWE:
         self.id = int(id)
         self.isInTrainingCorpus = isInTrainingCorpus
         self.tokens = []
+        self.isSingleWordExp = False
+        self.isContinousExp = False
         if token is not None:
             self.tokens.append(token)
         self.type = ''
@@ -497,6 +525,9 @@ class VMWE:
         isEmbedded = ''
         if self.isEmbeded:
             isEmbedded = ', Embedded'
+        #isContinousExp =''
+        #if self.isContinousExp:
+            #isContinousExp = 'Continous'
         inTrainingCorpus = ''
         if self.isInTrainingCorpus != 0:
             inTrainingCorpus = ', ' + str(self.isInTrainingCorpus)

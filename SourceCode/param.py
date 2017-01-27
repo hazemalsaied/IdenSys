@@ -11,12 +11,9 @@ class Parameters:
     xpPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     langFolder = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     resultPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
-    testCorpusPath = "/Users/hazemalsaied/Parseme/IdenSys/Corpora/testing/"
-    dumpingPath = "/Users/hazemalsaied/Parseme/IdenSys/Serialization/"
 
     printReport = True
     serialize = True
-    useCrossValidation = False
 
     # Featue extraction parameters
     useFirstBufferElement = True
@@ -31,6 +28,7 @@ class Parameters:
     useSyntax = True
 
     generateS0B2Bigram = True
+    useDictionary = True
 
     transitionHistoryLength1 = True
     transitionHistoryLength2 = True
@@ -61,6 +59,7 @@ class Parameters:
             Parameters.useStackLength = config["useStackLength"]
             Parameters.useSyntax = config["UseLinguistInfo"]["useSytax"]
             Parameters.generateS0B2Bigram = config["generateS0B2Bigram"]
+            Parameters.useDictionary = config["useDictionary"]
 
             Parameters.transitionHistoryLength1 = config["useTransitionHistory"]["transitionHistoryLength1"]
             Parameters.transitionHistoryLength2 = config["useTransitionHistory"]["transitionHistoryLength2"]
@@ -101,16 +100,16 @@ class Parameters:
                 if isinstance(config[key], bool):
                     result += str(key)
                     if config[key]:
-                        result += ' = True\n'
+                        result += ' = True\n\n'
                     else:
-                        result += ' = False\n'
+                        result += ' = False\n\n'
 
                 elif isinstance(config[key], dict):
                     for subkey in config[key].keys():
                         if isinstance(config[key][subkey], bool):
                             result += str(subkey)
                             if config[key][subkey]:
-                                result += ' = True\n'
+                                result += ' = True\n\n'
                             else:
-                                result += ' = False\n'
+                                result += ' = False\n\n'
         return result

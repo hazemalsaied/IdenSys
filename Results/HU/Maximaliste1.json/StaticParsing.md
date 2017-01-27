@@ -1,1394 +1,1442 @@
-## Sentence No. 178 - 
-Ezt követően a Gt. ( új ) 62. § (3)-(4) bekezdésében írt eljárás mellett az egyesülésnél a Gt. ( új ) 75. §-ának a többletszabályából adódó feladatokat is teljesíteni kell . 
+## Sentence No. 1047 - 
+Miután azonban az egyszemélyes társaságnál az egyedüli tulajdonos a kizárólagos tulajdonát képező társaság működése felett közvetlen irányítást gyakorol , ezért alkalmazni kell a Gt. (új)-nak a közvetlen irányítást biztosító befolyás esetére vonatkozó 292. § (3) bek. és a 296. § (1) és (3) bek.-ben előírt speciális felelősségi szabályokat is . 
 ### Existing MWEs: 
-1- **bekezdésében** (VPC)
-2- **eljárás** (VPC)
+1- **irányítást gyakorol** (LVC)
+2- **előírt** (VPC)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ezt, követően, a ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Miután, azonban, az ,.. ]
 
-B0Lemma: ez, B0POS: P, B0Token: Ezt, B1Lemma: követő, B1POS: A, B1Token: követően, 
+B0Lemma: miután, B0POS: C, B0Token: Miután, B1Lemma: azonban, B1POS: C, B1Token: azonban, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ezt]   B= [követően, a, Gt. ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Miután]   B= [azonban, az, egyszemélyes ,.. ]
 
-B0Lemma: követő, B0POS: A, B0Token: követően, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 1, S0B0Lemma: ez_követő, S0B0LemmaPOS: ez_A, S0B0POS: P_A, S0B0POSLemma: P_követő, S0B0Token: Ezt_követően, S0B1Lemma: ez_a, S0B1LemmaPOS: ez_T, S0B1POS: P_T, S0B1POSLemma: P_a, S0B1Token: Ezt_a, S0B2Lemma: ez_Gt., S0B2LemmaPOS: ez_N, S0B2POS: P_N, S0B2POSLemma: P_Gt., S0B2Token: Ezt_Gt., S0Lemma: ez, S0POS: P, S0Token: Ezt, StackLength: 1, ez_isGouvernedBy_követő: true, ez_isGouvernedBy_követő_OBJ: true, 
+B0Lemma: azonban, B0POS: C, B0Token: azonban, B1Lemma: az, B1POS: T, B1Token: az, S0B0Lemma: miután_azonban, S0B0LemmaPOS: miután_C, S0B0POS: C_C, S0B0POSLemma: C_azonban, S0B0Token: Miután_azonban, S0B1Lemma: miután_az, S0B1LemmaPOS: miután_T, S0B1POS: C_T, S0B1POSLemma: C_az, S0B1Token: Miután_az, S0Lemma: miután, S0POS: C, S0Token: Miután, hasRighDep_ATT: true, miután_gyakorol_hasRighDep_ATT: true, miután_hasRighDep_ATT: true, miután_isGouvernedBy_kell: true, miután_isGouvernedBy_kell_CONJ: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [követően, a, Gt. ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [azonban, az, egyszemélyes ,.. ]
 
-B0Lemma: követő, B0POS: A, B0Token: követően, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, 
+B0Lemma: azonban, B0POS: C, B0Token: azonban, B1Lemma: az, B1POS: T, B1Token: az, transitionHistoryLength1: 0, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [követően]   B= [a, Gt., ( ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [azonban]   B= [az, egyszemélyes, társaságnál ,.. ]
 
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Distance: 1, S0B0Lemma: követő_a, S0B0LemmaPOS: követő_T, S0B0POS: A_T, S0B0POSLemma: A_a, S0B0Token: követően_a, S0B1Lemma: követő_Gt., S0B1LemmaPOS: követő_N, S0B1POS: A_N, S0B1POSLemma: A_Gt., S0B1Token: követően_Gt., S0B2Lemma: követő_(, S0B2LemmaPOS: követő_(, S0B2POS: A_(, S0B2POSLemma: A_(, S0B2Token: követően_(, S0Lemma: követő, S0POS: A, S0Token: követően, StackLength: 1, követő_isGouvernedBy_teljesít: true, követő_isGouvernedBy_teljesít_TLOCY: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyszemélyes, B1POS: A, B1Token: egyszemélyes, S0B0Lemma: azonban_az, S0B0LemmaPOS: azonban_T, S0B0POS: C_T, S0B0POSLemma: C_az, S0B0Token: azonban_az, S0B1Lemma: azonban_egyszemélyes, S0B1LemmaPOS: azonban_A, S0B1POS: C_A, S0B1POSLemma: C_egyszemélyes, S0B1Token: azonban_egyszemélyes, S0Lemma: azonban, S0POS: C, S0Token: azonban, azonban_isGouvernedBy_gyakorol: true, azonban_isGouvernedBy_gyakorol_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Gt., ( ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [az, egyszemélyes, társaságnál ,.. ]
+
+B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyszemélyes, B1POS: A, B1Token: egyszemélyes, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [az]   B= [egyszemélyes, társaságnál, az ,.. ]
+
+B0Lemma: egyszemélyes, B0POS: A, B0Token: egyszemélyes, B1Lemma: társaság, B1POS: N, B1Token: társaságnál, S0B0Lemma: az_egyszemélyes, S0B0LemmaPOS: az_A, S0B0POS: T_A, S0B0POSLemma: T_egyszemélyes, S0B0Token: az_egyszemélyes, S0B1Lemma: az_társaság, S0B1LemmaPOS: az_N, S0B1POS: T_N, S0B1POSLemma: T_társaság, S0B1Token: az_társaságnál, S0Lemma: az, S0POS: T, S0Token: az, az_isGouvernedBy_társaság: true, az_isGouvernedBy_társaság_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [egyszemélyes, társaságnál, az ,.. ]
+
+B0Lemma: egyszemélyes, B0POS: A, B0Token: egyszemélyes, B1Lemma: társaság, B1POS: N, B1Token: társaságnál, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [egyszemélyes]   B= [társaságnál, az, egyedüli ,.. ]
+
+B0Lemma: társaság, B0POS: N, B0Token: társaságnál, B1Lemma: az, B1POS: T, B1Token: az, S0B0Lemma: egyszemélyes_társaság, S0B0LemmaPOS: egyszemélyes_N, S0B0POS: A_N, S0B0POSLemma: A_társaság, S0B0Token: egyszemélyes_társaságnál, S0B1Lemma: egyszemélyes_az, S0B1LemmaPOS: egyszemélyes_T, S0B1POS: A_T, S0B1POSLemma: A_az, S0B1Token: egyszemélyes_az, S0Lemma: egyszemélyes, S0POS: A, S0Token: egyszemélyes, egyszemélyes_isGouvernedBy_társaság: true, egyszemélyes_isGouvernedBy_társaság_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [társaságnál, az, egyedüli ,.. ]
+
+B0Lemma: társaság, B0POS: N, B0Token: társaságnál, B1Lemma: az, B1POS: T, B1Token: az, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [társaságnál]   B= [az, egyedüli, tulajdonos ,.. ]
+
+B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyedüli, B1POS: A, B1Token: egyedüli, S0B0Lemma: társaság_az, S0B0LemmaPOS: társaság_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: társaságnál_az, S0B1Lemma: társaság_egyedüli, S0B1LemmaPOS: társaság_A, S0B1POS: N_A, S0B1POSLemma: N_egyedüli, S0B1Token: társaságnál_egyedüli, S0Lemma: társaság, S0POS: N, S0Token: társaságnál, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, társaság_isGouvernedBy_gyakorol: true, társaság_isGouvernedBy_gyakorol_OBL: true, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [az, egyedüli, tulajdonos ,.. ]
+
+B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyedüli, B1POS: A, B1Token: egyedüli, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [az]   B= [egyedüli, tulajdonos, a ,.. ]
+
+B0Lemma: egyedüli, B0POS: A, B0Token: egyedüli, B1Lemma: tulajdonos, B1POS: N, B1Token: tulajdonos, S0B0Lemma: az_egyedüli, S0B0LemmaPOS: az_A, S0B0POS: T_A, S0B0POSLemma: T_egyedüli, S0B0Token: az_egyedüli, S0B1Lemma: az_tulajdonos, S0B1LemmaPOS: az_N, S0B1POS: T_N, S0B1POSLemma: T_tulajdonos, S0B1Token: az_tulajdonos, S0Lemma: az, S0POS: T, S0Token: az, az_isGouvernedBy_tulajdonos: true, az_isGouvernedBy_tulajdonos_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [egyedüli, tulajdonos, a ,.. ]
+
+B0Lemma: egyedüli, B0POS: A, B0Token: egyedüli, B1Lemma: tulajdonos, B1POS: N, B1Token: tulajdonos, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [egyedüli]   B= [tulajdonos, a, kizárólagos ,.. ]
+
+B0Lemma: tulajdonos, B0POS: N, B0Token: tulajdonos, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: egyedüli_tulajdonos, S0B0LemmaPOS: egyedüli_N, S0B0POS: A_N, S0B0POSLemma: A_tulajdonos, S0B0Token: egyedüli_tulajdonos, S0B1Lemma: egyedüli_a, S0B1LemmaPOS: egyedüli_T, S0B1POS: A_T, S0B1POSLemma: A_a, S0B1Token: egyedüli_a, S0Lemma: egyedüli, S0POS: A, S0Token: egyedüli, egyedüli_isGouvernedBy_tulajdonos: true, egyedüli_isGouvernedBy_tulajdonos_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tulajdonos, a, kizárólagos ,.. ]
+
+B0Lemma: tulajdonos, B0POS: N, B0Token: tulajdonos, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tulajdonos]   B= [a, kizárólagos, tulajdonát ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: kizárólagos, B1POS: A, B1Token: kizárólagos, S0B0Lemma: tulajdonos_a, S0B0LemmaPOS: tulajdonos_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: tulajdonos_a, S0B1Lemma: tulajdonos_kizárólagos, S0B1LemmaPOS: tulajdonos_A, S0B1POS: N_A, S0B1POSLemma: N_kizárólagos, S0B1Token: tulajdonos_kizárólagos, S0Lemma: tulajdonos, S0POS: N, S0Token: tulajdonos, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, tulajdonos_isGouvernedBy_gyakorol: true, tulajdonos_isGouvernedBy_gyakorol_SUBJ: true, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, kizárólagos, tulajdonát ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: kizárólagos, B1POS: A, B1Token: kizárólagos, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [kizárólagos, tulajdonát, képező ,.. ]
+
+B0Lemma: kizárólagos, B0POS: A, B0Token: kizárólagos, B1Lemma: tulajdon, B1POS: N, B1Token: tulajdonát, S0B0Lemma: a_kizárólagos, S0B0LemmaPOS: a_A, S0B0POS: T_A, S0B0POSLemma: T_kizárólagos, S0B0Token: a_kizárólagos, S0B1Lemma: a_tulajdon, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_tulajdon, S0B1Token: a_tulajdonát, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_tulajdon: true, a_isGouvernedBy_tulajdon_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kizárólagos, tulajdonát, képező ,.. ]
+
+B0Lemma: kizárólagos, B0POS: A, B0Token: kizárólagos, B1Lemma: tulajdon, B1POS: N, B1Token: tulajdonát, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kizárólagos]   B= [tulajdonát, képező, társaság ,.. ]
+
+B0Lemma: tulajdon, B0POS: N, B0Token: tulajdonát, B1IsInLexic: true, B1Lemma: képező, B1POS: A, B1Token: képező, S0B0Lemma: kizárólagos_tulajdon, S0B0LemmaPOS: kizárólagos_N, S0B0POS: A_N, S0B0POSLemma: A_tulajdon, S0B0Token: kizárólagos_tulajdonát, S0B1Lemma: kizárólagos_képező, S0B1LemmaPOS: kizárólagos_A, S0B1POS: A_A, S0B1POSLemma: A_képező, S0B1Token: kizárólagos_képező, S0Lemma: kizárólagos, S0POS: A, S0Token: kizárólagos, kizárólagos_isGouvernedBy_tulajdon: true, kizárólagos_isGouvernedBy_tulajdon_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tulajdonát, képező, társaság ,.. ]
+
+B0Lemma: tulajdon, B0POS: N, B0Token: tulajdonát, B1IsInLexic: true, B1Lemma: képező, B1POS: A, B1Token: képező, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tulajdonát]   B= [képező, társaság, működése ,.. ]
+
+B0IsInLexic: true, B0Lemma: képező, B0POS: A, B0Token: képező, B1Lemma: társaság, B1POS: N, B1Token: társaság, S0B0Lemma: tulajdon_képező, S0B0LemmaPOS: tulajdon_A, S0B0POS: N_A, S0B0POSLemma: N_képező, S0B0Token: tulajdonát_képező, S0B1Lemma: tulajdon_társaság, S0B1LemmaPOS: tulajdon_N, S0B1POS: N_N, S0B1POSLemma: N_társaság, S0B1Token: tulajdonát_társaság, S0Lemma: tulajdon, S0POS: N, S0Token: tulajdonát, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, tulajdon_isGouvernedBy_képező: true, tulajdon_isGouvernedBy_képező_OBJ: true, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [képező, társaság, működése ,.. ]
+
+B0IsInLexic: true, B0Lemma: képező, B0POS: A, B0Token: képező, B1Lemma: társaság, B1POS: N, B1Token: társaság, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [képező]   B= [társaság, működése, felett ,.. ]
+
+B0Lemma: társaság, B0POS: N, B0Token: társaság, B1Lemma: működés, B1POS: N, B1Token: működése, S0B0Lemma: képező_társaság, S0B0LemmaPOS: képező_N, S0B0POS: A_N, S0B0POSLemma: A_társaság, S0B0Token: képező_társaság, S0B1Lemma: képező_működés, S0B1LemmaPOS: képező_N, S0B1POS: A_N, S0B1POSLemma: A_működés, S0B1Token: képező_működése, S0IsInLexic: true, S0Lemma: képező, S0POS: A, S0Token: képező, képező_isGouvernedBy_társaság: true, képező_isGouvernedBy_társaság_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [társaság, működése, felett ,.. ]
+
+B0Lemma: társaság, B0POS: N, B0Token: társaság, B1Lemma: működés, B1POS: N, B1Token: működése, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [társaság]   B= [működése, felett, közvetlen ,.. ]
+
+B0Lemma: működés, B0POS: N, B0Token: működése, B1Lemma: felett, B1POS: S, B1Token: felett, S0B0Lemma: társaság_működés, S0B0LemmaPOS: társaság_N, S0B0POS: N_N, S0B0POSLemma: N_működés, S0B0Token: társaság_működése, S0B1Lemma: társaság_felett, S0B1LemmaPOS: társaság_S, S0B1POS: N_S, S0B1POSLemma: N_felett, S0B1Token: társaság_felett, S0Lemma: társaság, S0POS: N, S0Token: társaság, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, társaság_isGouvernedBy_működés: true, társaság_isGouvernedBy_működés_ATT: true, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [működése, felett, közvetlen ,.. ]
+
+B0Lemma: működés, B0POS: N, B0Token: működése, B1Lemma: felett, B1POS: S, B1Token: felett, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [működése]   B= [felett, közvetlen, irányítást ,.. ]
+
+B0Lemma: felett, B0POS: S, B0Token: felett, B1Lemma: közvetlen, B1POS: A, B1Token: közvetlen, S0B0Lemma: működés_felett, S0B0LemmaPOS: működés_S, S0B0POS: N_S, S0B0POSLemma: N_felett, S0B0Token: működése_felett, S0B1Lemma: működés_közvetlen, S0B1LemmaPOS: működés_A, S0B1POS: N_A, S0B1POSLemma: N_közvetlen, S0B1Token: működése_közvetlen, S0Lemma: működés, S0POS: N, S0Token: működése, működés_isGouvernedBy_felett: true, működés_isGouvernedBy_felett_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [felett, közvetlen, irányítást ,.. ]
+
+B0Lemma: felett, B0POS: S, B0Token: felett, B1Lemma: közvetlen, B1POS: A, B1Token: közvetlen, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [felett]   B= [közvetlen, irányítást, gyakorol ,.. ]
+
+B0Lemma: közvetlen, B0POS: A, B0Token: közvetlen, B1IsInLexic: true, B1Lemma: irányítás, B1POS: N, B1Token: irányítást, S0B0Lemma: felett_közvetlen, S0B0LemmaPOS: felett_A, S0B0POS: S_A, S0B0POSLemma: S_közvetlen, S0B0Token: felett_közvetlen, S0B1Lemma: felett_irányítás, S0B1LemmaPOS: felett_N, S0B1POS: S_N, S0B1POSLemma: S_irányítás, S0B1Token: felett_irányítást, S0Lemma: felett, S0POS: S, S0Token: felett, felett_isGouvernedBy_gyakorol: true, felett_isGouvernedBy_gyakorol_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [közvetlen, irányítást, gyakorol ,.. ]
+
+B0Lemma: közvetlen, B0POS: A, B0Token: közvetlen, B1IsInLexic: true, B1Lemma: irányítás, B1POS: N, B1Token: irányítást, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [közvetlen]   B= [irányítást, gyakorol, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: irányítás, B0POS: N, B0Token: irányítást, B1IsInLexic: true, B1Lemma: gyakorol, B1POS: V, B1Token: gyakorol, S0B0Lemma: közvetlen_irányítás, S0B0LemmaPOS: közvetlen_N, S0B0POS: A_N, S0B0POSLemma: A_irányítás, S0B0Token: közvetlen_irányítást, S0B1Lemma: közvetlen_gyakorol, S0B1LemmaPOS: közvetlen_V, S0B1POS: A_V, S0B1POSLemma: A_gyakorol, S0B1Token: közvetlen_gyakorol, S0Lemma: közvetlen, S0POS: A, S0Token: közvetlen, közvetlen_isGouvernedBy_irányítás: true, közvetlen_isGouvernedBy_irányítás_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irányítást, gyakorol, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: irányítás, B0POS: N, B0Token: irányítást, B1IsInLexic: true, B1Lemma: gyakorol, B1POS: V, B1Token: gyakorol, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irányítást]   B= [gyakorol, ,, ezért ,.. ]
+
+B0IsInLexic: true, B0Lemma: gyakorol, B0POS: V, B0Token: gyakorol, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Lemma: irányítás_gyakorol, S0B0LemmaPOS: irányítás_V, S0B0POS: N_V, S0B0POSLemma: N_gyakorol, S0B0Token: irányítást_gyakorol, S0B1Lemma: irányítás_,, S0B1LemmaPOS: irányítás_,, S0B1POS: N_,, S0B1POSLemma: N_,, S0B1Token: irányítást_,, S0IsInLexic: true, S0Lemma: irányítás, S0POS: N, S0Token: irányítást, irányítás_isGouvernedBy_gyakorol: true, irányítás_isGouvernedBy_gyakorol_OBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irányítást, gyakorol]   B= [,, ezért, alkalmazni ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: ezért, B1POS: C, B1Token: ezért, S0B0Lemma: gyakorol_,, S0B0LemmaPOS: gyakorol_,, S0B0POS: V_,, S0B0POSLemma: V_,, S0B0Token: gyakorol_,, S0B1Lemma: gyakorol_ezért, S0B1LemmaPOS: gyakorol_C, S0B1POS: V_C, S0B1POSLemma: V_ezért, S0B1Token: gyakorol_ezért, S0IsInLexic: true, S0Lemma: gyakorol, S0POS: V, S0Token: gyakorol, S1B0Lemma: irányítás_,, S1B0LemmaPOS: irányítás_,, S1B0POS: N_,, S1B0POSLemma: N_,, S1B0Token: irányítást_,, S1IsInLexic: true, S1Lemma: irányítás, S1POS: N, S1S0B0Lemma: irányítás_gyakorol_,, S1S0B0LemmaPOS: irányítás_V_,, S1S0B0POS: N_V_,, S1S0B0POSLemma: N_V_,, S1S0B0Token: irányítást_gyakorol_,, S1S0Lemma: irányítás_gyakorol, S1S0LemmaPOS: irányítás_V, S1S0POS: N_V, S1S0POSLemma: N_gyakorol, S1S0Token: irányítást_gyakorol, S1Token: irányítást, SyntaxicRelation: -OBJ, gyakorol_,_hasRighDep_PUNCT: true, gyakorol_hasRighDep_PUNCT: true, hasRighDep_PUNCT: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+35- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[irányítást, gyakorol]]   B= [,, ezért, alkalmazni ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: ezért, B1POS: C, B1Token: ezért, S0B0Lemma: irányítás_gyakorol_,, S0B0LemmaPOS: irányítás_gyakorol_,, S0B0POS: N_V_,, S0B0POSLemma: N_V_,, S0B0Token: irányítást_gyakorol_,, S0B1Lemma: irányítás_gyakorol_ezért, S0B1LemmaPOS: irányítás_gyakorol_C, S0B1POS: N_V_C, S0B1POSLemma: N_V_ezért, S0B1Token: irányítást_gyakorol_ezért, S0Lemma: irányítás_gyakorol, S0POS: N_V, S0Token: irányítást_gyakorol, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ezért, alkalmazni ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: ezért, B1POS: C, B1Token: ezért, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ezért, alkalmazni, kell ,.. ]
+
+B0Lemma: ezért, B0POS: C, B0Token: ezért, B1Lemma: alkalmaz, B1POS: V, B1Token: alkalmazni, S0B0Lemma: ,_ezért, S0B0LemmaPOS: ,_C, S0B0POS: ,_C, S0B0POSLemma: ,_ezért, S0B0Token: ,_ezért, S0B1Lemma: ,_alkalmaz, S0B1LemmaPOS: ,_V, S0B1POS: ,_V, S0B1POSLemma: ,_alkalmaz, S0B1Token: ,_alkalmazni, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ezért, alkalmazni, kell ,.. ]
+
+B0Lemma: ezért, B0POS: C, B0Token: ezért, B1Lemma: alkalmaz, B1POS: V, B1Token: alkalmazni, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ezért]   B= [alkalmazni, kell, a ,.. ]
+
+B0Lemma: alkalmaz, B0POS: V, B0Token: alkalmazni, B1Lemma: kell, B1POS: V, B1Token: kell, S0B0Lemma: ezért_alkalmaz, S0B0LemmaPOS: ezért_V, S0B0POS: C_V, S0B0POSLemma: C_alkalmaz, S0B0Token: ezért_alkalmazni, S0B1Lemma: ezért_kell, S0B1LemmaPOS: ezért_V, S0B1POS: C_V, S0B1POSLemma: C_kell, S0B1Token: ezért_kell, S0Lemma: ezért, S0POS: C, S0Token: ezért, ezért_isGouvernedBy_kell: true, ezért_isGouvernedBy_kell_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alkalmazni, kell, a ,.. ]
+
+B0Lemma: alkalmaz, B0POS: V, B0Token: alkalmazni, B1Lemma: kell, B1POS: V, B1Token: kell, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alkalmazni]   B= [kell, a, Gt. ,.. ]
+
+B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: alkalmaz_kell, S0B0LemmaPOS: alkalmaz_V, S0B0POS: V_V, S0B0POSLemma: V_kell, S0B0Token: alkalmazni_kell, S0B1Lemma: alkalmaz_a, S0B1LemmaPOS: alkalmaz_T, S0B1POS: V_T, S0B1POSLemma: V_a, S0B1Token: alkalmazni_a, S0Lemma: alkalmaz, S0POS: V, S0Token: alkalmazni, alkalmaz_hasRighDep_OBJ: true, alkalmaz_isGouvernedBy_kell: true, alkalmaz_isGouvernedBy_kell_INF: true, alkalmaz_szabály_hasRighDep_OBJ: true, hasRighDep_OBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kell, a, Gt. ,.. ]
+
+B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kell]   B= [a, Gt., (új)-nak ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Lemma: kell_a, S0B0LemmaPOS: kell_T, S0B0POS: V_T, S0B0POSLemma: V_a, S0B0Token: kell_a, S0B1Lemma: kell_Gt., S0B1LemmaPOS: kell_N, S0B1POS: V_N, S0B1POSLemma: V_Gt., S0B1Token: kell_Gt., S0Lemma: kell, S0POS: V, S0Token: kell, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Gt., (új)-nak ,.. ]
 
 B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Gt., (, új ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Gt., (új)-nak, a ,.. ]
 
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Distance: 1, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: a_(, S0B2Lemma: a_új, S0B2LemmaPOS: a_A, S0B2POS: T_A, S0B2POSLemma: T_új, S0B2Token: a_új, S0Lemma: a, S0POS: T, S0Token: a, StackLength: 1, a_isGouvernedBy_Gt.: true, a_isGouvernedBy_Gt._DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (új), B1POS: N, B1Token: (új)-nak, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(új), S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_(új), S0B1Token: a_(új)-nak, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_Gt.: true, a_isGouvernedBy_Gt._DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (, új ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (új)-nak, a ,.. ]
 
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (új), B1POS: N, B1Token: (új)-nak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(, új, ) ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(új)-nak, a, közvetlen ,.. ]
 
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_§: true, Gt._isGouvernedBy_§_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Distance: 1, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0B2Lemma: Gt._), S0B2LemmaPOS: Gt._), S0B2POS: N_), S0B2POSLemma: N_), S0B2Token: Gt._), S0Lemma: Gt., S0POS: N, S0Token: Gt., StackLength: 1, hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: (új), B0POS: N, B0Token: (új)-nak, B1Lemma: a, B1POS: T, B1Token: a, Gt._(új)_hasRighDep_ATT: true, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_§: true, Gt._isGouvernedBy_§_ATT: true, S0B0Lemma: Gt._(új), S0B0LemmaPOS: Gt._N, S0B0POS: N_N, S0B0POSLemma: N_(új), S0B0Token: Gt._(új)-nak, S0B1Lemma: Gt._a, S0B1LemmaPOS: Gt._T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: Gt._a, S0Lemma: Gt., S0POS: N, S0Token: Gt., hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, új, ) ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(új)-nak, a, közvetlen ,.. ]
 
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: (új), B0POS: N, B0Token: (új)-nak, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [új, ), 62. ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(új)-nak]   B= [a, közvetlen, irányítást ,.. ]
 
-(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Distance: 1, S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0B2Lemma: (_62., S0B2LemmaPOS: (_M, S0B2POS: (_M, S0B2POSLemma: (_62., S0B2Token: (_62., S0Lemma: (, S0POS: (, S0Token: (, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: közvetlen, B1POS: A, B1Token: közvetlen, S0B0Lemma: (új)_a, S0B0LemmaPOS: (új)_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: (új)-nak_a, S0B1Lemma: (új)_közvetlen, S0B1LemmaPOS: (új)_A, S0B1POS: N_A, S0B1POSLemma: N_közvetlen, S0B1Token: (új)-nak_közvetlen, S0Lemma: (új), S0POS: N, S0Token: (új)-nak, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, ), 62. ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, közvetlen, irányítást ,.. ]
 
-B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: közvetlen, B1POS: A, B1Token: közvetlen, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [), 62., § ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [közvetlen, irányítást, biztosító ,.. ]
 
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 62., B1POS: M, B1Token: 62., S0B0Distance: 1, S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_62., S0B1LemmaPOS: új_M, S0B1POS: A_M, S0B1POSLemma: A_62., S0B1Token: új_62., S0B2Lemma: új_§, S0B2LemmaPOS: új_§, S0B2POS: A_§, S0B2POSLemma: A_§, S0B2Token: új_§, S0Lemma: új, S0POS: A, S0Token: új, StackLength: 1, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
+B0Lemma: közvetlen, B0POS: A, B0Token: közvetlen, B1IsInLexic: true, B1Lemma: irányítás, B1POS: N, B1Token: irányítást, S0B0Lemma: a_közvetlen, S0B0LemmaPOS: a_A, S0B0POS: T_A, S0B0POSLemma: T_közvetlen, S0B0Token: a_közvetlen, S0B1Lemma: a_irányítás, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_irányítás, S0B1Token: a_irányítást, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_irányítás: true, a_isGouvernedBy_irányítás_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), 62., § ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [közvetlen, irányítást, biztosító ,.. ]
 
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 62., B1POS: M, B1Token: 62., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: közvetlen, B0POS: A, B0Token: közvetlen, B1IsInLexic: true, B1Lemma: irányítás, B1POS: N, B1Token: irányítást, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [62., §, (3)-(4) ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [közvetlen]   B= [irányítást, biztosító, befolyás ,.. ]
 
-B0Lemma: 62., B0POS: M, B0Token: 62., B1Lemma: §, B1POS: §, B1Token: §, S0B0Distance: 1, S0B0Lemma: )_62., S0B0LemmaPOS: )_M, S0B0POS: )_M, S0B0POSLemma: )_62., S0B0Token: )_62., S0B1Lemma: )_§, S0B1LemmaPOS: )_§, S0B1POS: )_§, S0B1POSLemma: )_§, S0B1Token: )_§, S0B2Lemma: )_(3)-(4), S0B2LemmaPOS: )_O, S0B2POS: )_O, S0B2POSLemma: )_(3)-(4), S0B2Token: )_(3)-(4), S0Lemma: ), S0POS: ), S0Token: ), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: irányítás, B0POS: N, B0Token: irányítást, B1Lemma: biztosító, B1POS: A, B1Token: biztosító, S0B0Lemma: közvetlen_irányítás, S0B0LemmaPOS: közvetlen_N, S0B0POS: A_N, S0B0POSLemma: A_irányítás, S0B0Token: közvetlen_irányítást, S0B1Lemma: közvetlen_biztosító, S0B1LemmaPOS: közvetlen_A, S0B1POS: A_A, S0B1POSLemma: A_biztosító, S0B1Token: közvetlen_biztosító, S0Lemma: közvetlen, S0POS: A, S0Token: közvetlen, közvetlen_isGouvernedBy_irányítás: true, közvetlen_isGouvernedBy_irányítás_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [62., §, (3)-(4) ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irányítást, biztosító, befolyás ,.. ]
 
-B0Lemma: 62., B0POS: M, B0Token: 62., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: irányítás, B0POS: N, B0Token: irányítást, B1Lemma: biztosító, B1POS: A, B1Token: biztosító, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [62.]   B= [§, (3)-(4), bekezdésében ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irányítást]   B= [biztosító, befolyás, esetére ,.. ]
 
-62._isGouvernedBy_§: true, 62._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (3)-(4), B1POS: O, B1Token: (3)-(4), S0B0Distance: 1, S0B0Lemma: 62._§, S0B0LemmaPOS: 62._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 62._§, S0B1Lemma: 62._(3)-(4), S0B1LemmaPOS: 62._O, S0B1POS: M_O, S0B1POSLemma: M_(3)-(4), S0B1Token: 62._(3)-(4), S0B2Lemma: 62._bekezdés, S0B2LemmaPOS: 62._N, S0B2POS: M_N, S0B2POSLemma: M_bekezdés, S0B2Token: 62._bekezdésében, S0Lemma: 62., S0POS: M, S0Token: 62., StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: biztosító, B0POS: A, B0Token: biztosító, B1IsInLexic: true, B1Lemma: befolyás, B1POS: N, B1Token: befolyás, S0B0Lemma: irányítás_biztosító, S0B0LemmaPOS: irányítás_A, S0B0POS: N_A, S0B0POSLemma: N_biztosító, S0B0Token: irányítást_biztosító, S0B1Lemma: irányítás_befolyás, S0B1LemmaPOS: irányítás_N, S0B1POS: N_N, S0B1POSLemma: N_befolyás, S0B1Token: irányítást_befolyás, S0IsInLexic: true, S0Lemma: irányítás, S0POS: N, S0Token: irányítást, irányítás_isGouvernedBy_biztosító: true, irányítás_isGouvernedBy_biztosító_OBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (3)-(4), bekezdésében ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biztosító, befolyás, esetére ,.. ]
 
-B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (3)-(4), B1POS: O, B1Token: (3)-(4), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: biztosító, B0POS: A, B0Token: biztosító, B1IsInLexic: true, B1Lemma: befolyás, B1POS: N, B1Token: befolyás, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(3)-(4), bekezdésében, írt ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biztosító]   B= [befolyás, esetére, vonatkozó ,.. ]
 
-B0Lemma: (3)-(4), B0POS: O, B0Token: (3)-(4), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdésében, S0B0Distance: 1, S0B0Lemma: §_(3)-(4), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(3)-(4), S0B0Token: §_(3)-(4), S0B1Lemma: §_bekezdés, S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bekezdés, S0B1Token: §_bekezdésében, S0B2Lemma: §_írt, S0B2LemmaPOS: §_A, S0B2POS: §_A, S0B2POSLemma: §_írt, S0B2Token: §_írt, S0Lemma: §, S0POS: §, S0Token: §, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bekezdés: true, §_isGouvernedBy_bekezdés_ATT: true, 
+B0IsInLexic: true, B0Lemma: befolyás, B0POS: N, B0Token: befolyás, B1Lemma: eset, B1POS: N, B1Token: esetére, S0B0Lemma: biztosító_befolyás, S0B0LemmaPOS: biztosító_N, S0B0POS: A_N, S0B0POSLemma: A_befolyás, S0B0Token: biztosító_befolyás, S0B1Lemma: biztosító_eset, S0B1LemmaPOS: biztosító_N, S0B1POS: A_N, S0B1POSLemma: A_eset, S0B1Token: biztosító_esetére, S0Lemma: biztosító, S0POS: A, S0Token: biztosító, biztosító_isGouvernedBy_befolyás: true, biztosító_isGouvernedBy_befolyás_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(3)-(4), bekezdésében, írt ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [befolyás, esetére, vonatkozó ,.. ]
 
-B0Lemma: (3)-(4), B0POS: O, B0Token: (3)-(4), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdésében, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: befolyás, B0POS: N, B0Token: befolyás, B1Lemma: eset, B1POS: N, B1Token: esetére, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(3)-(4)]   B= [bekezdésében, írt, eljárás ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [befolyás]   B= [esetére, vonatkozó, 292. ,.. ]
 
-(3)-(4)_isGouvernedBy_bekezdés: true, (3)-(4)_isGouvernedBy_bekezdés_ATT: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdésében, B1Lemma: írt, B1POS: A, B1Token: írt, S0B0Distance: 1, S0B0Lemma: (3)-(4)_bekezdés, S0B0LemmaPOS: (3)-(4)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (3)-(4)_bekezdésében, S0B1Lemma: (3)-(4)_írt, S0B1LemmaPOS: (3)-(4)_A, S0B1POS: O_A, S0B1POSLemma: O_írt, S0B1Token: (3)-(4)_írt, S0B2Lemma: (3)-(4)_eljárás, S0B2LemmaPOS: (3)-(4)_N, S0B2POS: O_N, S0B2POSLemma: O_eljárás, S0B2Token: (3)-(4)_eljárás, S0Lemma: (3)-(4), S0POS: O, S0Token: (3)-(4), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: eset, B0POS: N, B0Token: esetére, B1Lemma: vonatkozó, B1POS: A, B1Token: vonatkozó, S0B0Lemma: befolyás_eset, S0B0LemmaPOS: befolyás_N, S0B0POS: N_N, S0B0POSLemma: N_eset, S0B0Token: befolyás_esetére, S0B1Lemma: befolyás_vonatkozó, S0B1LemmaPOS: befolyás_A, S0B1POS: N_A, S0B1POSLemma: N_vonatkozó, S0B1Token: befolyás_vonatkozó, S0IsInLexic: true, S0Lemma: befolyás, S0POS: N, S0Token: befolyás, befolyás_isGouvernedBy_eset: true, befolyás_isGouvernedBy_eset_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bekezdésében, írt, eljárás ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [esetére, vonatkozó, 292. ,.. ]
 
-B0Lemma: bekezdés, B0POS: N, B0Token: bekezdésében, B1Lemma: írt, B1POS: A, B1Token: írt, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: eset, B0POS: N, B0Token: esetére, B1Lemma: vonatkozó, B1POS: A, B1Token: vonatkozó, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében]   B= [írt, eljárás, mellett ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [esetére]   B= [vonatkozó, 292., § ,.. ]
 
-B0Lemma: írt, B0POS: A, B0Token: írt, B1Lemma: eljárás, B1POS: N, B1Token: eljárás, S0B0Distance: 1, S0B0Lemma: bekezdés_írt, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_írt, S0B0Token: bekezdésében_írt, S0B1Lemma: bekezdés_eljárás, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_eljárás, S0B1Token: bekezdésében_eljárás, S0B2Lemma: bekezdés_mellett, S0B2LemmaPOS: bekezdés_S, S0B2POS: N_S, S0B2POSLemma: N_mellett, S0B2Token: bekezdésében_mellett, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdésében, StackLength: 1, bekezdés_isGouvernedBy_írt: true, bekezdés_isGouvernedBy_írt_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: vonatkozó, B0POS: A, B0Token: vonatkozó, B1Lemma: 292., B1POS: M, B1Token: 292., S0B0Lemma: eset_vonatkozó, S0B0LemmaPOS: eset_A, S0B0POS: N_A, S0B0POSLemma: N_vonatkozó, S0B0Token: esetére_vonatkozó, S0B1Lemma: eset_292., S0B1LemmaPOS: eset_M, S0B1POS: N_M, S0B1POSLemma: N_292., S0B1Token: esetére_292., S0Lemma: eset, S0POS: N, S0Token: esetére, eset_isGouvernedBy_vonatkozó: true, eset_isGouvernedBy_vonatkozó_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, írt]   B= [eljárás, mellett, az ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vonatkozó, 292., § ,.. ]
 
-B0Lemma: eljárás, B0POS: N, B0Token: eljárás, B1Lemma: mellett, B1POS: S, B1Token: mellett, S0B0Distance: 1, S0B0Lemma: írt_eljárás, S0B0LemmaPOS: írt_N, S0B0POS: A_N, S0B0POSLemma: A_eljárás, S0B0Token: írt_eljárás, S0B1Lemma: írt_mellett, S0B1LemmaPOS: írt_S, S0B1POS: A_S, S0B1POSLemma: A_mellett, S0B1Token: írt_mellett, S0B2Lemma: írt_az, S0B2LemmaPOS: írt_T, S0B2POS: A_T, S0B2POSLemma: A_az, S0B2Token: írt_az, S0Lemma: írt, S0POS: A, S0S1Distance: 1, S0Token: írt, S1B0Lemma: bekezdés_eljárás, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_eljárás, S1B0Token: bekezdésében_eljárás, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_írt_eljárás, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_eljárás, S1S0B0Token: bekezdésében_írt_eljárás, S1S0Lemma: bekezdés_írt, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_írt, S1S0Token: bekezdésében_írt, S1Token: bekezdésében, StackLength: 2, SyntaxicRelation: -OBL, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, írt_isGouvernedBy_eljárás: true, írt_isGouvernedBy_eljárás_ATT: true, 
+B0Lemma: vonatkozó, B0POS: A, B0Token: vonatkozó, B1Lemma: 292., B1POS: M, B1Token: 292., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-23- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében]   B= [eljárás, mellett, az ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vonatkozó]   B= [292., §, (3) ,.. ]
 
-B0Lemma: eljárás, B0POS: N, B0Token: eljárás, B1Lemma: mellett, B1POS: S, B1Token: mellett, S0B0Distance: 2, S0B0Lemma: bekezdés_eljárás, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_eljárás, S0B0Token: bekezdésében_eljárás, S0B1Lemma: bekezdés_mellett, S0B1LemmaPOS: bekezdés_S, S0B1POS: N_S, S0B1POSLemma: N_mellett, S0B1Token: bekezdésében_mellett, S0B2Lemma: bekezdés_az, S0B2LemmaPOS: bekezdés_T, S0B2POS: N_T, S0B2POSLemma: N_az, S0B2Token: bekezdésében_az, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdésében, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: 292., B0POS: M, B0Token: 292., B1Lemma: §, B1POS: §, B1Token: §, S0B0Lemma: vonatkozó_292., S0B0LemmaPOS: vonatkozó_M, S0B0POS: A_M, S0B0POSLemma: A_292., S0B0Token: vonatkozó_292., S0B1Lemma: vonatkozó_§, S0B1LemmaPOS: vonatkozó_§, S0B1POS: A_§, S0B1POSLemma: A_§, S0B1Token: vonatkozó_§, S0Lemma: vonatkozó, S0POS: A, S0Token: vonatkozó, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, vonatkozó_isGouvernedBy_§: true, vonatkozó_isGouvernedBy_§_ATT: true, 
 
-24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [mellett, az, egyesülésnél ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [292., §, (3) ,.. ]
 
-B0Lemma: mellett, B0POS: S, B0Token: mellett, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 1, S0B0Lemma: eljárás_mellett, S0B0LemmaPOS: eljárás_S, S0B0POS: N_S, S0B0POSLemma: N_mellett, S0B0Token: eljárás_mellett, S0B1Lemma: eljárás_az, S0B1LemmaPOS: eljárás_T, S0B1POS: N_T, S0B1POSLemma: N_az, S0B1Token: eljárás_az, S0B2Lemma: eljárás_egyesülés, S0B2LemmaPOS: eljárás_N, S0B2POS: N_N, S0B2POSLemma: N_egyesülés, S0B2Token: eljárás_egyesülésnél, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_mellett, S1B0LemmaPOS: bekezdés_S, S1B0POS: N_S, S1B0POSLemma: N_mellett, S1B0Token: bekezdésében_mellett, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_mellett, S1S0B0LemmaPOS: bekezdés_N_S, S1S0B0POS: N_N_S, S1S0B0POSLemma: N_N_mellett, S1S0B0Token: bekezdésében_eljárás_mellett, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, eljárás_isGouvernedBy_mellett: true, eljárás_isGouvernedBy_mellett_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+B0Lemma: 292., B0POS: M, B0Token: 292., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, mellett]   B= [az, egyesülésnél, a ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [292.]   B= [§, (3), bek. ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülés, B1POS: N, B1Token: egyesülésnél, S0B0Distance: 1, S0B0Lemma: mellett_az, S0B0LemmaPOS: mellett_T, S0B0POS: S_T, S0B0POSLemma: S_az, S0B0Token: mellett_az, S0B1Lemma: mellett_egyesülés, S0B1LemmaPOS: mellett_N, S0B1POS: S_N, S0B1POSLemma: S_egyesülés, S0B1Token: mellett_egyesülésnél, S0B2Lemma: mellett_a, S0B2LemmaPOS: mellett_T, S0B2POS: S_T, S0B2POSLemma: S_a, S0B2Token: mellett_a, S0Lemma: mellett, S0POS: S, S0S1Distance: 1, S0Token: mellett, S1B0Lemma: eljárás_az, S1B0LemmaPOS: eljárás_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: eljárás_az, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_mellett_az, S1S0B0LemmaPOS: eljárás_S_T, S1S0B0POS: N_S_T, S1S0B0POSLemma: N_S_az, S1S0B0Token: eljárás_mellett_az, S1S0Lemma: eljárás_mellett, S1S0LemmaPOS: eljárás_S, S1S0POS: N_S, S1S0POSLemma: N_mellett, S1S0Token: eljárás_mellett, S1Token: eljárás, StackLength: 3, SyntaxicRelation: -ATT, mellett_isGouvernedBy_teljesít: true, mellett_isGouvernedBy_teljesít_MODE: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+292._isGouvernedBy_§: true, 292._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (3), B1POS: O, B1Token: (3), S0B0Lemma: 292._§, S0B0LemmaPOS: 292._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 292._§, S0B1Lemma: 292._(3), S0B1LemmaPOS: 292._O, S0B1POS: M_O, S0B1POSLemma: M_(3), S0B1Token: 292._(3), S0Lemma: 292., S0POS: M, S0Token: 292., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [az, egyesülésnél, a ,.. ]
-
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülés, B1POS: N, B1Token: egyesülésnél, S0B0Distance: 2, S0B0Lemma: eljárás_az, S0B0LemmaPOS: eljárás_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: eljárás_az, S0B1Lemma: eljárás_egyesülés, S0B1LemmaPOS: eljárás_N, S0B1POS: N_N, S0B1POSLemma: N_egyesülés, S0B1Token: eljárás_egyesülésnél, S0B2Lemma: eljárás_a, S0B2LemmaPOS: eljárás_T, S0B2POS: N_T, S0B2POSLemma: N_a, S0B2Token: eljárás_a, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_az, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: bekezdésében_az, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_az, S1S0B0LemmaPOS: bekezdés_N_T, S1S0B0POS: N_N_T, S1S0B0POSLemma: N_N_az, S1S0B0Token: bekezdésében_eljárás_az, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, az]   B= [egyesülésnél, a, Gt. ,.. ]
-
-B0Lemma: egyesülés, B0POS: N, B0Token: egyesülésnél, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 1, S0B0Lemma: az_egyesülés, S0B0LemmaPOS: az_N, S0B0POS: T_N, S0B0POSLemma: T_egyesülés, S0B0Token: az_egyesülésnél, S0B1Lemma: az_a, S0B1LemmaPOS: az_T, S0B1POS: T_T, S0B1POSLemma: T_a, S0B1Token: az_a, S0B2Lemma: az_Gt., S0B2LemmaPOS: az_N, S0B2POS: T_N, S0B2POSLemma: T_Gt., S0B2Token: az_Gt., S0Lemma: az, S0POS: T, S0S1Distance: 2, S0Token: az, S1B0Lemma: eljárás_egyesülés, S1B0LemmaPOS: eljárás_N, S1B0POS: N_N, S1B0POSLemma: N_egyesülés, S1B0Token: eljárás_egyesülésnél, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_az_egyesülés, S1S0B0LemmaPOS: eljárás_T_N, S1S0B0POS: N_T_N, S1S0B0POSLemma: N_T_egyesülés, S1S0B0Token: eljárás_az_egyesülésnél, S1S0Lemma: eljárás_az, S1S0LemmaPOS: eljárás_T, S1S0POS: N_T, S1S0POSLemma: N_az, S1S0Token: eljárás_az, S1Token: eljárás, StackLength: 3, az_isGouvernedBy_egyesülés: true, az_isGouvernedBy_egyesülés_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [egyesülésnél, a, Gt. ,.. ]
-
-B0Lemma: egyesülés, B0POS: N, B0Token: egyesülésnél, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 3, S0B0Lemma: eljárás_egyesülés, S0B0LemmaPOS: eljárás_N, S0B0POS: N_N, S0B0POSLemma: N_egyesülés, S0B0Token: eljárás_egyesülésnél, S0B1Lemma: eljárás_a, S0B1LemmaPOS: eljárás_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: eljárás_a, S0B2Lemma: eljárás_Gt., S0B2LemmaPOS: eljárás_N, S0B2POS: N_N, S0B2POSLemma: N_Gt., S0B2Token: eljárás_Gt., S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_egyesülés, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_egyesülés, S1B0Token: bekezdésében_egyesülésnél, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_egyesülés, S1S0B0LemmaPOS: bekezdés_N_N, S1S0B0POS: N_N_N, S1S0B0POSLemma: N_N_egyesülés, S1S0B0Token: bekezdésében_eljárás_egyesülésnél, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, egyesülésnél]   B= [a, Gt., ( ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Distance: 1, S0B0Lemma: egyesülés_a, S0B0LemmaPOS: egyesülés_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: egyesülésnél_a, S0B1Lemma: egyesülés_Gt., S0B1LemmaPOS: egyesülés_N, S0B1POS: N_N, S0B1POSLemma: N_Gt., S0B1Token: egyesülésnél_Gt., S0B2Lemma: egyesülés_(, S0B2LemmaPOS: egyesülés_(, S0B2POS: N_(, S0B2POSLemma: N_(, S0B2Token: egyesülésnél_(, S0Lemma: egyesülés, S0POS: N, S0S1Distance: 3, S0Token: egyesülésnél, S1B0Lemma: eljárás_a, S1B0LemmaPOS: eljárás_T, S1B0POS: N_T, S1B0POSLemma: N_a, S1B0Token: eljárás_a, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_egyesülés_a, S1S0B0LemmaPOS: eljárás_N_T, S1S0B0POS: N_N_T, S1S0B0POSLemma: N_N_a, S1S0B0Token: eljárás_egyesülésnél_a, S1S0Lemma: eljárás_egyesülés, S1S0LemmaPOS: eljárás_N, S1S0POS: N_N, S1S0POSLemma: N_egyesülés, S1S0Token: eljárás_egyesülésnél, S1Token: eljárás, StackLength: 3, egyesülés_isGouvernedBy_teljesít: true, egyesülés_isGouvernedBy_teljesít_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [a, Gt., ( ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Distance: 4, S0B0Lemma: eljárás_a, S0B0LemmaPOS: eljárás_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: eljárás_a, S0B1Lemma: eljárás_Gt., S0B1LemmaPOS: eljárás_N, S0B1POS: N_N, S0B1POSLemma: N_Gt., S0B1Token: eljárás_Gt., S0B2Lemma: eljárás_(, S0B2LemmaPOS: eljárás_(, S0B2POS: N_(, S0B2POSLemma: N_(, S0B2Token: eljárás_(, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_a, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_a, S1B0Token: bekezdésében_a, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_a, S1S0B0LemmaPOS: bekezdés_N_T, S1S0B0POS: N_N_T, S1S0B0POSLemma: N_N_a, S1S0B0Token: bekezdésében_eljárás_a, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, a]   B= [Gt., (, új ,.. ]
-
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Distance: 1, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: a_(, S0B2Lemma: a_új, S0B2LemmaPOS: a_A, S0B2POS: T_A, S0B2POSLemma: T_új, S0B2Token: a_új, S0Lemma: a, S0POS: T, S0S1Distance: 4, S0Token: a, S1B0Lemma: eljárás_Gt., S1B0LemmaPOS: eljárás_N, S1B0POS: N_N, S1B0POSLemma: N_Gt., S1B0Token: eljárás_Gt., S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_a_Gt., S1S0B0LemmaPOS: eljárás_T_N, S1S0B0POS: N_T_N, S1S0B0POSLemma: N_T_Gt., S1S0B0Token: eljárás_a_Gt., S1S0Lemma: eljárás_a, S1S0LemmaPOS: eljárás_T, S1S0POS: N_T, S1S0POSLemma: N_a, S1S0Token: eljárás_a, S1Token: eljárás, StackLength: 3, a_isGouvernedBy_Gt.: true, a_isGouvernedBy_Gt._DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [Gt., (, új ,.. ]
-
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Distance: 5, S0B0Lemma: eljárás_Gt., S0B0LemmaPOS: eljárás_N, S0B0POS: N_N, S0B0POSLemma: N_Gt., S0B0Token: eljárás_Gt., S0B1Lemma: eljárás_(, S0B1LemmaPOS: eljárás_(, S0B1POS: N_(, S0B1POSLemma: N_(, S0B1Token: eljárás_(, S0B2Lemma: eljárás_új, S0B2LemmaPOS: eljárás_A, S0B2POS: N_A, S0B2POSLemma: N_új, S0B2Token: eljárás_új, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_Gt., S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_Gt., S1B0Token: bekezdésében_Gt., S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_Gt., S1S0B0LemmaPOS: bekezdés_N_N, S1S0B0POS: N_N_N, S1S0B0POSLemma: N_N_Gt., S1S0B0Token: bekezdésében_eljárás_Gt., S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, Gt.]   B= [(, új, ) ,.. ]
-
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_§: true, Gt._isGouvernedBy_§_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Distance: 1, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0B2Lemma: Gt._), S0B2LemmaPOS: Gt._), S0B2POS: N_), S0B2POSLemma: N_), S0B2Token: Gt._), S0Lemma: Gt., S0POS: N, S0S1Distance: 5, S0Token: Gt., S1B0Lemma: eljárás_(, S1B0LemmaPOS: eljárás_(, S1B0POS: N_(, S1B0POSLemma: N_(, S1B0Token: eljárás_(, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_Gt._(, S1S0B0LemmaPOS: eljárás_N_(, S1S0B0POS: N_N_(, S1S0B0POSLemma: N_N_(, S1S0B0Token: eljárás_Gt._(, S1S0Lemma: eljárás_Gt., S1S0LemmaPOS: eljárás_N, S1S0POS: N_N, S1S0POSLemma: N_Gt., S1S0Token: eljárás_Gt., S1Token: eljárás, StackLength: 3, hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [(, új, ) ,.. ]
-
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, S0B0Distance: 6, S0B0Lemma: eljárás_(, S0B0LemmaPOS: eljárás_(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: eljárás_(, S0B1Lemma: eljárás_új, S0B1LemmaPOS: eljárás_A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: eljárás_új, S0B2Lemma: eljárás_), S0B2LemmaPOS: eljárás_), S0B2POS: N_), S0B2POSLemma: N_), S0B2Token: eljárás_), S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_(, S1B0LemmaPOS: bekezdés_(, S1B0POS: N_(, S1B0POSLemma: N_(, S1B0Token: bekezdésében_(, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_(, S1S0B0LemmaPOS: bekezdés_N_(, S1S0B0POS: N_N_(, S1S0B0POSLemma: N_N_(, S1S0B0Token: bekezdésében_eljárás_(, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, (]   B= [új, ), 75. ,.. ]
-
-(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Distance: 1, S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0B2Lemma: (_75., S0B2LemmaPOS: (_M, S0B2POS: (_M, S0B2POSLemma: (_75., S0B2Token: (_75., S0Lemma: (, S0POS: (, S0S1Distance: 6, S0Token: (, S1B0Lemma: eljárás_új, S1B0LemmaPOS: eljárás_A, S1B0POS: N_A, S1B0POSLemma: N_új, S1B0Token: eljárás_új, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_(_új, S1S0B0LemmaPOS: eljárás_(_A, S1S0B0POS: N_(_A, S1S0B0POSLemma: N_(_új, S1S0B0Token: eljárás_(_új, S1S0Lemma: eljárás_(, S1S0LemmaPOS: eljárás_(, S1S0POS: N_(, S1S0POSLemma: N_(, S1S0Token: eljárás_(, S1Token: eljárás, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [új, ), 75. ,.. ]
-
-B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Distance: 7, S0B0Lemma: eljárás_új, S0B0LemmaPOS: eljárás_A, S0B0POS: N_A, S0B0POSLemma: N_új, S0B0Token: eljárás_új, S0B1Lemma: eljárás_), S0B1LemmaPOS: eljárás_), S0B1POS: N_), S0B1POSLemma: N_), S0B1Token: eljárás_), S0B2Lemma: eljárás_75., S0B2LemmaPOS: eljárás_M, S0B2POS: N_M, S0B2POSLemma: N_75., S0B2Token: eljárás_75., S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_új, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_új, S1B0Token: bekezdésében_új, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_új, S1S0B0LemmaPOS: bekezdés_N_A, S1S0B0POS: N_N_A, S1S0B0POSLemma: N_N_új, S1S0B0Token: bekezdésében_eljárás_új, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, új]   B= [), 75., §-ának ,.. ]
-
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 75., B1POS: M, B1Token: 75., S0B0Distance: 1, S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_75., S0B1LemmaPOS: új_M, S0B1POS: A_M, S0B1POSLemma: A_75., S0B1Token: új_75., S0B2Lemma: új_§, S0B2LemmaPOS: új_N, S0B2POS: A_N, S0B2POSLemma: A_§, S0B2Token: új_§-ának, S0Lemma: új, S0POS: A, S0S1Distance: 7, S0Token: új, S1B0Lemma: eljárás_), S1B0LemmaPOS: eljárás_), S1B0POS: N_), S1B0POSLemma: N_), S1B0Token: eljárás_), S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_új_), S1S0B0LemmaPOS: eljárás_A_), S1S0B0POS: N_A_), S1S0B0POSLemma: N_A_), S1S0B0Token: eljárás_új_), S1S0Lemma: eljárás_új, S1S0LemmaPOS: eljárás_A, S1S0POS: N_A, S1S0POSLemma: N_új, S1S0Token: eljárás_új, S1Token: eljárás, StackLength: 3, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [), 75., §-ának ,.. ]
-
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 75., B1POS: M, B1Token: 75., S0B0Distance: 8, S0B0Lemma: eljárás_), S0B0LemmaPOS: eljárás_), S0B0POS: N_), S0B0POSLemma: N_), S0B0Token: eljárás_), S0B1Lemma: eljárás_75., S0B1LemmaPOS: eljárás_M, S0B1POS: N_M, S0B1POSLemma: N_75., S0B1Token: eljárás_75., S0B2Lemma: eljárás_§, S0B2LemmaPOS: eljárás_N, S0B2POS: N_N, S0B2POSLemma: N_§, S0B2Token: eljárás_§-ának, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_), S1B0LemmaPOS: bekezdés_), S1B0POS: N_), S1B0POSLemma: N_), S1B0Token: bekezdésében_), S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_), S1S0B0LemmaPOS: bekezdés_N_), S1S0B0POS: N_N_), S1S0B0POSLemma: N_N_), S1S0B0Token: bekezdésében_eljárás_), S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, )]   B= [75., §-ának, a ,.. ]
-
-B0Lemma: 75., B0POS: M, B0Token: 75., B1Lemma: §, B1POS: N, B1Token: §-ának, S0B0Distance: 1, S0B0Lemma: )_75., S0B0LemmaPOS: )_M, S0B0POS: )_M, S0B0POSLemma: )_75., S0B0Token: )_75., S0B1Lemma: )_§, S0B1LemmaPOS: )_N, S0B1POS: )_N, S0B1POSLemma: )_§, S0B1Token: )_§-ának, S0B2Lemma: )_a, S0B2LemmaPOS: )_T, S0B2POS: )_T, S0B2POSLemma: )_a, S0B2Token: )_a, S0Lemma: ), S0POS: ), S0S1Distance: 8, S0Token: ), S1B0Lemma: eljárás_75., S1B0LemmaPOS: eljárás_M, S1B0POS: N_M, S1B0POSLemma: N_75., S1B0Token: eljárás_75., S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_)_75., S1S0B0LemmaPOS: eljárás_)_M, S1S0B0POS: N_)_M, S1S0B0POSLemma: N_)_75., S1S0B0Token: eljárás_)_75., S1S0Lemma: eljárás_), S1S0LemmaPOS: eljárás_), S1S0POS: N_), S1S0POSLemma: N_), S1S0Token: eljárás_), S1Token: eljárás, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [75., §-ának, a ,.. ]
-
-B0Lemma: 75., B0POS: M, B0Token: 75., B1Lemma: §, B1POS: N, B1Token: §-ának, S0B0Distance: 9, S0B0Lemma: eljárás_75., S0B0LemmaPOS: eljárás_M, S0B0POS: N_M, S0B0POSLemma: N_75., S0B0Token: eljárás_75., S0B1Lemma: eljárás_§, S0B1LemmaPOS: eljárás_N, S0B1POS: N_N, S0B1POSLemma: N_§, S0B1Token: eljárás_§-ának, S0B2Lemma: eljárás_a, S0B2LemmaPOS: eljárás_T, S0B2POS: N_T, S0B2POSLemma: N_a, S0B2Token: eljárás_a, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_75., S1B0LemmaPOS: bekezdés_M, S1B0POS: N_M, S1B0POSLemma: N_75., S1B0Token: bekezdésében_75., S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_75., S1S0B0LemmaPOS: bekezdés_N_M, S1S0B0POS: N_N_M, S1S0B0POSLemma: N_N_75., S1S0B0Token: bekezdésében_eljárás_75., S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, 75.]   B= [§-ának, a, többletszabályából ,.. ]
-
-75._isGouvernedBy_§: true, 75._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: N, B0Token: §-ának, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 1, S0B0Lemma: 75._§, S0B0LemmaPOS: 75._N, S0B0POS: M_N, S0B0POSLemma: M_§, S0B0Token: 75._§-ának, S0B1Lemma: 75._a, S0B1LemmaPOS: 75._T, S0B1POS: M_T, S0B1POSLemma: M_a, S0B1Token: 75._a, S0B2Lemma: 75._többletszabály, S0B2LemmaPOS: 75._N, S0B2POS: M_N, S0B2POSLemma: M_többletszabály, S0B2Token: 75._többletszabályából, S0Lemma: 75., S0POS: M, S0S1Distance: 9, S0Token: 75., S1B0Lemma: eljárás_§, S1B0LemmaPOS: eljárás_N, S1B0POS: N_N, S1B0POSLemma: N_§, S1B0Token: eljárás_§-ának, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_75._§, S1S0B0LemmaPOS: eljárás_M_N, S1S0B0POS: N_M_N, S1S0B0POSLemma: N_M_§, S1S0B0Token: eljárás_75._§-ának, S1S0Lemma: eljárás_75., S1S0LemmaPOS: eljárás_M, S1S0POS: N_M, S1S0POSLemma: N_75., S1S0Token: eljárás_75., S1Token: eljárás, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [§-ának, a, többletszabályából ,.. ]
-
-B0Lemma: §, B0POS: N, B0Token: §-ának, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 10, S0B0Lemma: eljárás_§, S0B0LemmaPOS: eljárás_N, S0B0POS: N_N, S0B0POSLemma: N_§, S0B0Token: eljárás_§-ának, S0B1Lemma: eljárás_a, S0B1LemmaPOS: eljárás_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: eljárás_a, S0B2Lemma: eljárás_többletszabály, S0B2LemmaPOS: eljárás_N, S0B2POS: N_N, S0B2POSLemma: N_többletszabály, S0B2Token: eljárás_többletszabályából, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_§, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_§, S1B0Token: bekezdésében_§-ának, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_§, S1S0B0LemmaPOS: bekezdés_N_N, S1S0B0POS: N_N_N, S1S0B0POSLemma: N_N_§, S1S0B0Token: bekezdésében_eljárás_§-ának, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, §-ának]   B= [a, többletszabályából, adódó ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: többletszabály, B1POS: N, B1Token: többletszabályából, S0B0Distance: 1, S0B0Lemma: §_a, S0B0LemmaPOS: §_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: §-ának_a, S0B1Lemma: §_többletszabály, S0B1LemmaPOS: §_N, S0B1POS: N_N, S0B1POSLemma: N_többletszabály, S0B1Token: §-ának_többletszabályából, S0B2Lemma: §_adódó, S0B2LemmaPOS: §_A, S0B2POS: N_A, S0B2POSLemma: N_adódó, S0B2Token: §-ának_adódó, S0Lemma: §, S0POS: N, S0S1Distance: 10, S0Token: §-ának, S1B0Lemma: eljárás_a, S1B0LemmaPOS: eljárás_T, S1B0POS: N_T, S1B0POSLemma: N_a, S1B0Token: eljárás_a, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_§_a, S1S0B0LemmaPOS: eljárás_N_T, S1S0B0POS: N_N_T, S1S0B0POSLemma: N_N_a, S1S0B0Token: eljárás_§-ának_a, S1S0Lemma: eljárás_§, S1S0LemmaPOS: eljárás_N, S1S0POS: N_N, S1S0POSLemma: N_§, S1S0Token: eljárás_§-ának, S1Token: eljárás, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_többletszabály: true, §_isGouvernedBy_többletszabály_ATT: true, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [a, többletszabályából, adódó ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: többletszabály, B1POS: N, B1Token: többletszabályából, S0B0Distance: 11, S0B0Lemma: eljárás_a, S0B0LemmaPOS: eljárás_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: eljárás_a, S0B1Lemma: eljárás_többletszabály, S0B1LemmaPOS: eljárás_N, S0B1POS: N_N, S0B1POSLemma: N_többletszabály, S0B1Token: eljárás_többletszabályából, S0B2Lemma: eljárás_adódó, S0B2LemmaPOS: eljárás_A, S0B2POS: N_A, S0B2POSLemma: N_adódó, S0B2Token: eljárás_adódó, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_a, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_a, S1B0Token: bekezdésében_a, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_a, S1S0B0LemmaPOS: bekezdés_N_T, S1S0B0POS: N_N_T, S1S0B0POSLemma: N_N_a, S1S0B0Token: bekezdésében_eljárás_a, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, a]   B= [többletszabályából, adódó, feladatokat ,.. ]
-
-B0Lemma: többletszabály, B0POS: N, B0Token: többletszabályából, B1Lemma: adódó, B1POS: A, B1Token: adódó, S0B0Distance: 1, S0B0Lemma: a_többletszabály, S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_többletszabály, S0B0Token: a_többletszabályából, S0B1Lemma: a_adódó, S0B1LemmaPOS: a_A, S0B1POS: T_A, S0B1POSLemma: T_adódó, S0B1Token: a_adódó, S0B2Lemma: a_feladat, S0B2LemmaPOS: a_N, S0B2POS: T_N, S0B2POSLemma: T_feladat, S0B2Token: a_feladatokat, S0Lemma: a, S0POS: T, S0S1Distance: 11, S0Token: a, S1B0Lemma: eljárás_többletszabály, S1B0LemmaPOS: eljárás_N, S1B0POS: N_N, S1B0POSLemma: N_többletszabály, S1B0Token: eljárás_többletszabályából, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_a_többletszabály, S1S0B0LemmaPOS: eljárás_T_N, S1S0B0POS: N_T_N, S1S0B0POSLemma: N_T_többletszabály, S1S0B0Token: eljárás_a_többletszabályából, S1S0Lemma: eljárás_a, S1S0LemmaPOS: eljárás_T, S1S0POS: N_T, S1S0POSLemma: N_a, S1S0Token: eljárás_a, S1Token: eljárás, StackLength: 3, a_isGouvernedBy_többletszabály: true, a_isGouvernedBy_többletszabály_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [többletszabályából, adódó, feladatokat ,.. ]
-
-B0Lemma: többletszabály, B0POS: N, B0Token: többletszabályából, B1Lemma: adódó, B1POS: A, B1Token: adódó, S0B0Distance: 12, S0B0Lemma: eljárás_többletszabály, S0B0LemmaPOS: eljárás_N, S0B0POS: N_N, S0B0POSLemma: N_többletszabály, S0B0Token: eljárás_többletszabályából, S0B1Lemma: eljárás_adódó, S0B1LemmaPOS: eljárás_A, S0B1POS: N_A, S0B1POSLemma: N_adódó, S0B1Token: eljárás_adódó, S0B2Lemma: eljárás_feladat, S0B2LemmaPOS: eljárás_N, S0B2POS: N_N, S0B2POSLemma: N_feladat, S0B2Token: eljárás_feladatokat, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_többletszabály, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_többletszabály, S1B0Token: bekezdésében_többletszabályából, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_többletszabály, S1S0B0LemmaPOS: bekezdés_N_N, S1S0B0POS: N_N_N, S1S0B0POSLemma: N_N_többletszabály, S1S0B0Token: bekezdésében_eljárás_többletszabályából, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, többletszabályából]   B= [adódó, feladatokat, is ,.. ]
-
-B0Lemma: adódó, B0POS: A, B0Token: adódó, B1Lemma: feladat, B1POS: N, B1Token: feladatokat, S0B0Distance: 1, S0B0Lemma: többletszabály_adódó, S0B0LemmaPOS: többletszabály_A, S0B0POS: N_A, S0B0POSLemma: N_adódó, S0B0Token: többletszabályából_adódó, S0B1Lemma: többletszabály_feladat, S0B1LemmaPOS: többletszabály_N, S0B1POS: N_N, S0B1POSLemma: N_feladat, S0B1Token: többletszabályából_feladatokat, S0B2Lemma: többletszabály_is, S0B2LemmaPOS: többletszabály_C, S0B2POS: N_C, S0B2POSLemma: N_is, S0B2Token: többletszabályából_is, S0Lemma: többletszabály, S0POS: N, S0S1Distance: 12, S0Token: többletszabályából, S1B0Lemma: eljárás_adódó, S1B0LemmaPOS: eljárás_A, S1B0POS: N_A, S1B0POSLemma: N_adódó, S1B0Token: eljárás_adódó, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_többletszabály_adódó, S1S0B0LemmaPOS: eljárás_N_A, S1S0B0POS: N_N_A, S1S0B0POSLemma: N_N_adódó, S1S0B0Token: eljárás_többletszabályából_adódó, S1S0Lemma: eljárás_többletszabály, S1S0LemmaPOS: eljárás_N, S1S0POS: N_N, S1S0POSLemma: N_többletszabály, S1S0Token: eljárás_többletszabályából, S1Token: eljárás, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, többletszabály_isGouvernedBy_adódó: true, többletszabály_isGouvernedBy_adódó_OBL: true, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [adódó, feladatokat, is ,.. ]
-
-B0Lemma: adódó, B0POS: A, B0Token: adódó, B1Lemma: feladat, B1POS: N, B1Token: feladatokat, S0B0Distance: 13, S0B0Lemma: eljárás_adódó, S0B0LemmaPOS: eljárás_A, S0B0POS: N_A, S0B0POSLemma: N_adódó, S0B0Token: eljárás_adódó, S0B1Lemma: eljárás_feladat, S0B1LemmaPOS: eljárás_N, S0B1POS: N_N, S0B1POSLemma: N_feladat, S0B1Token: eljárás_feladatokat, S0B2Lemma: eljárás_is, S0B2LemmaPOS: eljárás_C, S0B2POS: N_C, S0B2POSLemma: N_is, S0B2Token: eljárás_is, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_adódó, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_adódó, S1B0Token: bekezdésében_adódó, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_adódó, S1S0B0LemmaPOS: bekezdés_N_A, S1S0B0POS: N_N_A, S1S0B0POSLemma: N_N_adódó, S1S0B0Token: bekezdésében_eljárás_adódó, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, adódó]   B= [feladatokat, is, teljesíteni ,.. ]
-
-B0Lemma: feladat, B0POS: N, B0Token: feladatokat, B1Lemma: is, B1POS: C, B1Token: is, S0B0Distance: 1, S0B0Lemma: adódó_feladat, S0B0LemmaPOS: adódó_N, S0B0POS: A_N, S0B0POSLemma: A_feladat, S0B0Token: adódó_feladatokat, S0B1Lemma: adódó_is, S0B1LemmaPOS: adódó_C, S0B1POS: A_C, S0B1POSLemma: A_is, S0B1Token: adódó_is, S0B2Lemma: adódó_teljesít, S0B2LemmaPOS: adódó_V, S0B2POS: A_V, S0B2POSLemma: A_teljesít, S0B2Token: adódó_teljesíteni, S0Lemma: adódó, S0POS: A, S0S1Distance: 13, S0Token: adódó, S1B0Lemma: eljárás_feladat, S1B0LemmaPOS: eljárás_N, S1B0POS: N_N, S1B0POSLemma: N_feladat, S1B0Token: eljárás_feladatokat, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_adódó_feladat, S1S0B0LemmaPOS: eljárás_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_feladat, S1S0B0Token: eljárás_adódó_feladatokat, S1S0Lemma: eljárás_adódó, S1S0LemmaPOS: eljárás_A, S1S0POS: N_A, S1S0POSLemma: N_adódó, S1S0Token: eljárás_adódó, S1Token: eljárás, StackLength: 3, adódó_isGouvernedBy_feladat: true, adódó_isGouvernedBy_feladat_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [feladatokat, is, teljesíteni ,.. ]
-
-B0Lemma: feladat, B0POS: N, B0Token: feladatokat, B1Lemma: is, B1POS: C, B1Token: is, S0B0Distance: 14, S0B0Lemma: eljárás_feladat, S0B0LemmaPOS: eljárás_N, S0B0POS: N_N, S0B0POSLemma: N_feladat, S0B0Token: eljárás_feladatokat, S0B1Lemma: eljárás_is, S0B1LemmaPOS: eljárás_C, S0B1POS: N_C, S0B1POSLemma: N_is, S0B1Token: eljárás_is, S0B2Lemma: eljárás_teljesít, S0B2LemmaPOS: eljárás_V, S0B2POS: N_V, S0B2POSLemma: N_teljesít, S0B2Token: eljárás_teljesíteni, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_feladat, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_feladat, S1B0Token: bekezdésében_feladatokat, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_feladat, S1S0B0LemmaPOS: bekezdés_N_N, S1S0B0POS: N_N_N, S1S0B0POSLemma: N_N_feladat, S1S0B0Token: bekezdésében_eljárás_feladatokat, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, feladatokat]   B= [is, teljesíteni, kell ,.. ]
-
-B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: teljesít, B1POS: V, B1Token: teljesíteni, S0B0Distance: 1, S0B0Lemma: feladat_is, S0B0LemmaPOS: feladat_C, S0B0POS: N_C, S0B0POSLemma: N_is, S0B0Token: feladatokat_is, S0B1Lemma: feladat_teljesít, S0B1LemmaPOS: feladat_V, S0B1POS: N_V, S0B1POSLemma: N_teljesít, S0B1Token: feladatokat_teljesíteni, S0B2Lemma: feladat_kell, S0B2LemmaPOS: feladat_V, S0B2POS: N_V, S0B2POSLemma: N_kell, S0B2Token: feladatokat_kell, S0Lemma: feladat, S0POS: N, S0S1Distance: 14, S0Token: feladatokat, S1B0Lemma: eljárás_is, S1B0LemmaPOS: eljárás_C, S1B0POS: N_C, S1B0POSLemma: N_is, S1B0Token: eljárás_is, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_feladat_is, S1S0B0LemmaPOS: eljárás_N_C, S1S0B0POS: N_N_C, S1S0B0POSLemma: N_N_is, S1S0B0Token: eljárás_feladatokat_is, S1S0Lemma: eljárás_feladat, S1S0LemmaPOS: eljárás_N, S1S0POS: N_N, S1S0POSLemma: N_feladat, S1S0Token: eljárás_feladatokat, S1Token: eljárás, StackLength: 3, feladat_hasRighDep_CONJ: true, feladat_isGouvernedBy_teljesít: true, feladat_isGouvernedBy_teljesít_OBJ: true, feladat_is_hasRighDep_CONJ: true, hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [is, teljesíteni, kell ,.. ]
-
-B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: teljesít, B1POS: V, B1Token: teljesíteni, S0B0Distance: 15, S0B0Lemma: eljárás_is, S0B0LemmaPOS: eljárás_C, S0B0POS: N_C, S0B0POSLemma: N_is, S0B0Token: eljárás_is, S0B1Lemma: eljárás_teljesít, S0B1LemmaPOS: eljárás_V, S0B1POS: N_V, S0B1POSLemma: N_teljesít, S0B1Token: eljárás_teljesíteni, S0B2Lemma: eljárás_kell, S0B2LemmaPOS: eljárás_V, S0B2POS: N_V, S0B2POSLemma: N_kell, S0B2Token: eljárás_kell, S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_is, S1B0LemmaPOS: bekezdés_C, S1B0POS: N_C, S1B0POSLemma: N_is, S1B0Token: bekezdésében_is, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_is, S1S0B0LemmaPOS: bekezdés_N_C, S1S0B0POS: N_N_C, S1S0B0POSLemma: N_N_is, S1S0B0Token: bekezdésében_eljárás_is, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, is]   B= [teljesíteni, kell, . ,.. ]
-
-B0Lemma: teljesít, B0POS: V, B0Token: teljesíteni, B1Lemma: kell, B1POS: V, B1Token: kell, S0B0Distance: 1, S0B0Lemma: is_teljesít, S0B0LemmaPOS: is_V, S0B0POS: C_V, S0B0POSLemma: C_teljesít, S0B0Token: is_teljesíteni, S0B1Lemma: is_kell, S0B1LemmaPOS: is_V, S0B1POS: C_V, S0B1POSLemma: C_kell, S0B1Token: is_kell, S0B2Lemma: is_., S0B2LemmaPOS: is_., S0B2POS: C_., S0B2POSLemma: C_., S0B2Token: is_., S0Lemma: is, S0POS: C, S0S1Distance: 15, S0Token: is, S1B0Lemma: eljárás_teljesít, S1B0LemmaPOS: eljárás_V, S1B0POS: N_V, S1B0POSLemma: N_teljesít, S1B0Token: eljárás_teljesíteni, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_is_teljesít, S1S0B0LemmaPOS: eljárás_C_V, S1S0B0POS: N_C_V, S1S0B0POSLemma: N_C_teljesít, S1S0B0Token: eljárás_is_teljesíteni, S1S0Lemma: eljárás_is, S1S0LemmaPOS: eljárás_C, S1S0POS: N_C, S1S0POSLemma: N_is, S1S0Token: eljárás_is, S1Token: eljárás, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [teljesíteni, kell, . ,.. ]
-
-B0Lemma: teljesít, B0POS: V, B0Token: teljesíteni, B1Lemma: kell, B1POS: V, B1Token: kell, S0B0Distance: 16, S0B0Lemma: eljárás_teljesít, S0B0LemmaPOS: eljárás_V, S0B0POS: N_V, S0B0POSLemma: N_teljesít, S0B0Token: eljárás_teljesíteni, S0B1Lemma: eljárás_kell, S0B1LemmaPOS: eljárás_V, S0B1POS: N_V, S0B1POSLemma: N_kell, S0B1Token: eljárás_kell, S0B2Lemma: eljárás_., S0B2LemmaPOS: eljárás_., S0B2POS: N_., S0B2POSLemma: N_., S0B2Token: eljárás_., S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_teljesít, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_teljesít, S1B0Token: bekezdésében_teljesíteni, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_teljesít, S1S0B0LemmaPOS: bekezdés_N_V, S1S0B0POS: N_N_V, S1S0B0POSLemma: N_N_teljesít, S1S0B0Token: bekezdésében_eljárás_teljesíteni, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, teljesíteni]   B= [kell, . ,.. ]
-
-B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 1, S0B0Lemma: teljesít_kell, S0B0LemmaPOS: teljesít_V, S0B0POS: V_V, S0B0POSLemma: V_kell, S0B0Token: teljesíteni_kell, S0B1Lemma: teljesít_., S0B1LemmaPOS: teljesít_., S0B1POS: V_., S0B1POSLemma: V_., S0B1Token: teljesíteni_., S0Lemma: teljesít, S0POS: V, S0S1Distance: 16, S0Token: teljesíteni, S1B0Lemma: eljárás_kell, S1B0LemmaPOS: eljárás_V, S1B0POS: N_V, S1B0POSLemma: N_kell, S1B0Token: eljárás_kell, S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_teljesít_kell, S1S0B0LemmaPOS: eljárás_V_V, S1S0B0POS: N_V_V, S1S0B0POSLemma: N_V_kell, S1S0B0Token: eljárás_teljesíteni_kell, S1S0Lemma: eljárás_teljesít, S1S0LemmaPOS: eljárás_V, S1S0POS: N_V, S1S0POSLemma: N_teljesít, S1S0Token: eljárás_teljesíteni, S1Token: eljárás, StackLength: 3, teljesít_isGouvernedBy_kell: true, teljesít_isGouvernedBy_kell_INF: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [kell, . ,.. ]
-
-B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 17, S0B0Lemma: eljárás_kell, S0B0LemmaPOS: eljárás_V, S0B0POS: N_V, S0B0POSLemma: N_kell, S0B0Token: eljárás_kell, S0B1Lemma: eljárás_., S0B1LemmaPOS: eljárás_., S0B1POS: N_., S0B1POSLemma: N_., S0B1Token: eljárás_., S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_kell, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_kell, S1B0Token: bekezdésében_kell, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_kell, S1S0B0LemmaPOS: bekezdés_N_V, S1S0B0POS: N_N_V, S1S0B0POSLemma: N_N_kell, S1S0B0Token: bekezdésében_eljárás_kell, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, kell]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 1, S0B0Lemma: kell_., S0B0LemmaPOS: kell_., S0B0POS: V_., S0B0POSLemma: V_., S0B0Token: kell_., S0Lemma: kell, S0POS: V, S0S1Distance: 17, S0Token: kell, S1B0Lemma: eljárás_., S1B0LemmaPOS: eljárás_., S1B0POS: N_., S1B0POSLemma: N_., S1B0Token: eljárás_., S1Lemma: eljárás, S1POS: N, S1S0B0Lemma: eljárás_kell_., S1S0B0LemmaPOS: eljárás_V_., S1S0B0POS: N_V_., S1S0B0POSLemma: N_V_., S1S0B0Token: eljárás_kell_., S1S0Lemma: eljárás_kell, S1S0LemmaPOS: eljárás_V, S1S0POS: N_V, S1S0POSLemma: N_kell, S1S0Token: eljárás_kell, S1Token: eljárás, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 18, S0B0Lemma: eljárás_., S0B0LemmaPOS: eljárás_., S0B0POS: N_., S0B0POSLemma: N_., S0B0Token: eljárás_., S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1B0Lemma: bekezdés_., S1B0LemmaPOS: bekezdés_., S1B0POS: N_., S1B0POSLemma: N_., S1B0Token: bekezdésében_., S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljárás_., S1S0B0LemmaPOS: bekezdés_N_., S1S0B0POS: N_N_., S1S0B0POSLemma: N_N_., S1S0B0Token: bekezdésében_eljárás_., S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás, .]   B= [ ]
-
-S0Lemma: ., S0POS: ., S0S1Distance: 18, S0Token: ., S1Lemma: eljárás, S1POS: N, S1S0Lemma: eljárás_., S1S0LemmaPOS: eljárás_., S1S0POS: N_., S1S0POSLemma: N_., S1S0Token: eljárás_., S1Token: eljárás, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében, eljárás]   B= [ ]
-
-S0Lemma: eljárás, S0POS: N, S0S1Distance: 2, S0Token: eljárás, S1Lemma: bekezdés, S1POS: N, S1S0Lemma: bekezdés_eljárás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_eljárás, S1S0Token: bekezdésében_eljárás, S1Token: bekezdésében, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-61- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésében]   B= [ ]
-
-S0Lemma: bekezdés, S0POS: N, S0Token: bekezdésében, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 187 - 
-A (4) bekezdésben foglaltak szerint eljáró könyvvizsgálónak vagy más , az egyesülő részvénytársaságoktól független szakértőnek a részvénytársaságok megbízása alapján készített jelentésében nyilatkoznia kell az egyesülési szerződés tervezetében és a vezető tisztségviselők írásbeli beszámolójában foglaltak megalapozottságáról . 
-### Existing MWEs: 
-1- **bekezdésben** (VPC)
-2- **eljáró** (VPC)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [A, (4), bekezdésben ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: A, B1Lemma: (4), B1POS: O, B1Token: (4), 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [A]   B= [(4), bekezdésben, foglaltak ,.. ]
-
-B0Lemma: (4), B0POS: O, B0Token: (4), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdésben, S0B0Distance: 1, S0B0Lemma: a_(4), S0B0LemmaPOS: a_O, S0B0POS: T_O, S0B0POSLemma: T_(4), S0B0Token: A_(4), S0B1Lemma: a_bekezdés, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_bekezdés, S0B1Token: A_bekezdésben, S0B2Lemma: a_foglalt, S0B2LemmaPOS: a_N, S0B2POS: T_N, S0B2POSLemma: T_foglalt, S0B2Token: A_foglaltak, S0Lemma: a, S0POS: T, S0Token: A, StackLength: 1, a_isGouvernedBy_bekezdés: true, a_isGouvernedBy_bekezdés_DET: true, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(4), bekezdésben, foglaltak ,.. ]
-
-B0Lemma: (4), B0POS: O, B0Token: (4), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdésben, transitionHistoryLength1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(4)]   B= [bekezdésben, foglaltak, szerint ,.. ]
-
-(4)_isGouvernedBy_bekezdés: true, (4)_isGouvernedBy_bekezdés_ATT: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdésben, B1Lemma: foglalt, B1POS: N, B1Token: foglaltak, S0B0Distance: 1, S0B0Lemma: (4)_bekezdés, S0B0LemmaPOS: (4)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (4)_bekezdésben, S0B1Lemma: (4)_foglalt, S0B1LemmaPOS: (4)_N, S0B1POS: O_N, S0B1POSLemma: O_foglalt, S0B1Token: (4)_foglaltak, S0B2Lemma: (4)_szerint, S0B2LemmaPOS: (4)_S, S0B2POS: O_S, S0B2POSLemma: O_szerint, S0B2Token: (4)_szerint, S0Lemma: (4), S0POS: O, S0Token: (4), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bekezdésben, foglaltak, szerint ,.. ]
-
-B0Lemma: bekezdés, B0POS: N, B0Token: bekezdésben, B1Lemma: foglalt, B1POS: N, B1Token: foglaltak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben]   B= [foglaltak, szerint, eljáró ,.. ]
-
-B0Lemma: foglalt, B0POS: N, B0Token: foglaltak, B1Lemma: szerint, B1POS: S, B1Token: szerint, S0B0Distance: 1, S0B0Lemma: bekezdés_foglalt, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_foglalt, S0B0Token: bekezdésben_foglaltak, S0B1Lemma: bekezdés_szerint, S0B1LemmaPOS: bekezdés_S, S0B1POS: N_S, S0B1POSLemma: N_szerint, S0B1Token: bekezdésben_szerint, S0B2Lemma: bekezdés_eljáró, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_eljáró, S0B2Token: bekezdésben_eljáró, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdésben, StackLength: 1, bekezdés_isGouvernedBy_foglalt: true, bekezdés_isGouvernedBy_foglalt_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, foglaltak]   B= [szerint, eljáró, könyvvizsgálónak ,.. ]
-
-B0Lemma: szerint, B0POS: S, B0Token: szerint, B1Lemma: eljáró, B1POS: A, B1Token: eljáró, S0B0Distance: 1, S0B0Lemma: foglalt_szerint, S0B0LemmaPOS: foglalt_S, S0B0POS: N_S, S0B0POSLemma: N_szerint, S0B0Token: foglaltak_szerint, S0B1Lemma: foglalt_eljáró, S0B1LemmaPOS: foglalt_A, S0B1POS: N_A, S0B1POSLemma: N_eljáró, S0B1Token: foglaltak_eljáró, S0B2Lemma: foglalt_könyvvizsgáló, S0B2LemmaPOS: foglalt_N, S0B2POS: N_N, S0B2POSLemma: N_könyvvizsgáló, S0B2Token: foglaltak_könyvvizsgálónak, S0Lemma: foglalt, S0POS: N, S0S1Distance: 1, S0Token: foglaltak, S1B0Lemma: bekezdés_szerint, S1B0LemmaPOS: bekezdés_S, S1B0POS: N_S, S1B0POSLemma: N_szerint, S1B0Token: bekezdésben_szerint, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_foglalt_szerint, S1S0B0LemmaPOS: bekezdés_N_S, S1S0B0POS: N_N_S, S1S0B0POSLemma: N_N_szerint, S1S0B0Token: bekezdésben_foglaltak_szerint, S1S0Lemma: bekezdés_foglalt, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_foglalt, S1S0Token: bekezdésben_foglaltak, S1Token: bekezdésben, StackLength: 2, SyntaxicRelation: -OBL, foglalt_isGouvernedBy_szerint: true, foglalt_isGouvernedBy_szerint_ATT: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-7- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben]   B= [szerint, eljáró, könyvvizsgálónak ,.. ]
-
-B0Lemma: szerint, B0POS: S, B0Token: szerint, B1Lemma: eljáró, B1POS: A, B1Token: eljáró, S0B0Distance: 2, S0B0Lemma: bekezdés_szerint, S0B0LemmaPOS: bekezdés_S, S0B0POS: N_S, S0B0POSLemma: N_szerint, S0B0Token: bekezdésben_szerint, S0B1Lemma: bekezdés_eljáró, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_eljáró, S0B1Token: bekezdésben_eljáró, S0B2Lemma: bekezdés_könyvvizsgáló, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_könyvvizsgáló, S0B2Token: bekezdésben_könyvvizsgálónak, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdésben, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, szerint]   B= [eljáró, könyvvizsgálónak, vagy ,.. ]
-
-B0Lemma: eljáró, B0POS: A, B0Token: eljáró, B1Lemma: könyvvizsgáló, B1POS: N, B1Token: könyvvizsgálónak, S0B0Distance: 1, S0B0Lemma: szerint_eljáró, S0B0LemmaPOS: szerint_A, S0B0POS: S_A, S0B0POSLemma: S_eljáró, S0B0Token: szerint_eljáró, S0B1Lemma: szerint_könyvvizsgáló, S0B1LemmaPOS: szerint_N, S0B1POS: S_N, S0B1POSLemma: S_könyvvizsgáló, S0B1Token: szerint_könyvvizsgálónak, S0B2Lemma: szerint_vagy, S0B2LemmaPOS: szerint_C, S0B2POS: S_C, S0B2POSLemma: S_vagy, S0B2Token: szerint_vagy, S0Lemma: szerint, S0POS: S, S0S1Distance: 2, S0Token: szerint, S1B0Lemma: bekezdés_eljáró, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_eljáró, S1B0Token: bekezdésben_eljáró, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_szerint_eljáró, S1S0B0LemmaPOS: bekezdés_S_A, S1S0B0POS: N_S_A, S1S0B0POSLemma: N_S_eljáró, S1S0B0Token: bekezdésben_szerint_eljáró, S1S0Lemma: bekezdés_szerint, S1S0LemmaPOS: bekezdés_S, S1S0POS: N_S, S1S0POSLemma: N_szerint, S1S0Token: bekezdésben_szerint, S1Token: bekezdésben, StackLength: 2, szerint_isGouvernedBy_eljáró: true, szerint_isGouvernedBy_eljáró_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-9- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben]   B= [eljáró, könyvvizsgálónak, vagy ,.. ]
-
-B0Lemma: eljáró, B0POS: A, B0Token: eljáró, B1Lemma: könyvvizsgáló, B1POS: N, B1Token: könyvvizsgálónak, S0B0Distance: 3, S0B0Lemma: bekezdés_eljáró, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_eljáró, S0B0Token: bekezdésben_eljáró, S0B1Lemma: bekezdés_könyvvizsgáló, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_könyvvizsgáló, S0B1Token: bekezdésben_könyvvizsgálónak, S0B2Lemma: bekezdés_vagy, S0B2LemmaPOS: bekezdés_C, S0B2POS: N_C, S0B2POSLemma: N_vagy, S0B2Token: bekezdésben_vagy, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdésben, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [könyvvizsgálónak, vagy, más ,.. ]
-
-B0Lemma: könyvvizsgáló, B0POS: N, B0Token: könyvvizsgálónak, B1Lemma: vagy, B1POS: C, B1Token: vagy, S0B0Distance: 1, S0B0Lemma: eljáró_könyvvizsgáló, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_könyvvizsgáló, S0B0Token: eljáró_könyvvizsgálónak, S0B1Lemma: eljáró_vagy, S0B1LemmaPOS: eljáró_C, S0B1POS: A_C, S0B1POSLemma: A_vagy, S0B1Token: eljáró_vagy, S0B2Lemma: eljáró_más, S0B2LemmaPOS: eljáró_P, S0B2POS: A_P, S0B2POSLemma: A_más, S0B2Token: eljáró_más, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_könyvvizsgáló, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_könyvvizsgáló, S1B0Token: bekezdésben_könyvvizsgálónak, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_könyvvizsgáló, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_könyvvizsgáló, S1S0B0Token: bekezdésben_eljáró_könyvvizsgálónak, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, eljáró_isGouvernedBy_könyvvizsgáló: true, eljáró_isGouvernedBy_könyvvizsgáló_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, könyvvizsgálónak]   B= [vagy, más, , ,.. ]
-
-B0Lemma: vagy, B0POS: C, B0Token: vagy, B1Lemma: más, B1POS: P, B1Token: más, S0B0Distance: 1, S0B0Lemma: könyvvizsgáló_vagy, S0B0LemmaPOS: könyvvizsgáló_C, S0B0POS: N_C, S0B0POSLemma: N_vagy, S0B0Token: könyvvizsgálónak_vagy, S0B1Lemma: könyvvizsgáló_más, S0B1LemmaPOS: könyvvizsgáló_P, S0B1POS: N_P, S0B1POSLemma: N_más, S0B1Token: könyvvizsgálónak_más, S0B2Lemma: könyvvizsgáló_,, S0B2LemmaPOS: könyvvizsgáló_,, S0B2POS: N_,, S0B2POSLemma: N_,, S0B2Token: könyvvizsgálónak_,, S0Lemma: könyvvizsgáló, S0POS: N, S0S1Distance: 1, S0Token: könyvvizsgálónak, S1B0Lemma: eljáró_vagy, S1B0LemmaPOS: eljáró_C, S1B0POS: A_C, S1B0POSLemma: A_vagy, S1B0Token: eljáró_vagy, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_könyvvizsgáló_vagy, S1S0B0LemmaPOS: eljáró_N_C, S1S0B0POS: A_N_C, S1S0B0POSLemma: A_N_vagy, S1S0B0Token: eljáró_könyvvizsgálónak_vagy, S1S0Lemma: eljáró_könyvvizsgáló, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_könyvvizsgáló, S1S0Token: eljáró_könyvvizsgálónak, S1Token: eljáró, StackLength: 3, SyntaxicRelation: -ATT, hasRighDep_CONJ: true, könyvvizsgáló_hasRighDep_CONJ: true, könyvvizsgáló_isGouvernedBy_kell: true, könyvvizsgáló_isGouvernedBy_kell_DAT: true, könyvvizsgáló_vagy_hasRighDep_CONJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [vagy, más, , ,.. ]
-
-B0Lemma: vagy, B0POS: C, B0Token: vagy, B1Lemma: más, B1POS: P, B1Token: más, S0B0Distance: 2, S0B0Lemma: eljáró_vagy, S0B0LemmaPOS: eljáró_C, S0B0POS: A_C, S0B0POSLemma: A_vagy, S0B0Token: eljáró_vagy, S0B1Lemma: eljáró_más, S0B1LemmaPOS: eljáró_P, S0B1POS: A_P, S0B1POSLemma: A_más, S0B1Token: eljáró_más, S0B2Lemma: eljáró_,, S0B2LemmaPOS: eljáró_,, S0B2POS: A_,, S0B2POSLemma: A_,, S0B2Token: eljáró_,, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_vagy, S1B0LemmaPOS: bekezdés_C, S1B0POS: N_C, S1B0POSLemma: N_vagy, S1B0Token: bekezdésben_vagy, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_vagy, S1S0B0LemmaPOS: bekezdés_A_C, S1S0B0POS: N_A_C, S1S0B0POSLemma: N_A_vagy, S1S0B0Token: bekezdésben_eljáró_vagy, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, vagy]   B= [más, ,, az ,.. ]
-
-B0Lemma: más, B0POS: P, B0Token: más, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Distance: 1, S0B0Lemma: vagy_más, S0B0LemmaPOS: vagy_P, S0B0POS: C_P, S0B0POSLemma: C_más, S0B0Token: vagy_más, S0B1Lemma: vagy_,, S0B1LemmaPOS: vagy_,, S0B1POS: C_,, S0B1POSLemma: C_,, S0B1Token: vagy_,, S0B2Lemma: vagy_az, S0B2LemmaPOS: vagy_T, S0B2POS: C_T, S0B2POSLemma: C_az, S0B2Token: vagy_az, S0Lemma: vagy, S0POS: C, S0S1Distance: 2, S0Token: vagy, S1B0Lemma: eljáró_más, S1B0LemmaPOS: eljáró_P, S1B0POS: A_P, S1B0POSLemma: A_más, S1B0Token: eljáró_más, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_vagy_más, S1S0B0LemmaPOS: eljáró_C_P, S1S0B0POS: A_C_P, S1S0B0POSLemma: A_C_más, S1S0B0Token: eljáró_vagy_más, S1S0Lemma: eljáró_vagy, S1S0LemmaPOS: eljáró_C, S1S0POS: A_C, S1S0POSLemma: A_vagy, S1S0Token: eljáró_vagy, S1Token: eljáró, StackLength: 3, hasRighDep_COORD: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, vagy_hasRighDep_COORD: true, vagy_szakértő_hasRighDep_COORD: true, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [más, ,, az ,.. ]
-
-B0Lemma: más, B0POS: P, B0Token: más, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Distance: 3, S0B0Lemma: eljáró_más, S0B0LemmaPOS: eljáró_P, S0B0POS: A_P, S0B0POSLemma: A_más, S0B0Token: eljáró_más, S0B1Lemma: eljáró_,, S0B1LemmaPOS: eljáró_,, S0B1POS: A_,, S0B1POSLemma: A_,, S0B1Token: eljáró_,, S0B2Lemma: eljáró_az, S0B2LemmaPOS: eljáró_T, S0B2POS: A_T, S0B2POSLemma: A_az, S0B2Token: eljáró_az, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_más, S1B0LemmaPOS: bekezdés_P, S1B0POS: N_P, S1B0POSLemma: N_más, S1B0Token: bekezdésben_más, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_más, S1S0B0LemmaPOS: bekezdés_A_P, S1S0B0POS: N_A_P, S1S0B0POSLemma: N_A_más, S1S0B0Token: bekezdésben_eljáró_más, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, más]   B= [,, az, egyesülő ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 1, S0B0Lemma: más_,, S0B0LemmaPOS: más_,, S0B0POS: P_,, S0B0POSLemma: P_,, S0B0Token: más_,, S0B1Lemma: más_az, S0B1LemmaPOS: más_T, S0B1POS: P_T, S0B1POSLemma: P_az, S0B1Token: más_az, S0B2Lemma: más_egyesülő, S0B2LemmaPOS: más_A, S0B2POS: P_A, S0B2POSLemma: P_egyesülő, S0B2Token: más_egyesülő, S0Lemma: más, S0POS: P, S0S1Distance: 3, S0Token: más, S1B0Lemma: eljáró_,, S1B0LemmaPOS: eljáró_,, S1B0POS: A_,, S1B0POSLemma: A_,, S1B0Token: eljáró_,, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_más_,, S1S0B0LemmaPOS: eljáró_P_,, S1S0B0POS: A_P_,, S1S0B0POSLemma: A_P_,, S1S0B0Token: eljáró_más_,, S1S0Lemma: eljáró_más, S1S0LemmaPOS: eljáró_P, S1S0POS: A_P, S1S0POSLemma: A_más, S1S0Token: eljáró_más, S1Token: eljáró, StackLength: 3, más_isGouvernedBy_szakértő: true, más_isGouvernedBy_szakértő_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [,, az, egyesülő ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 4, S0B0Lemma: eljáró_,, S0B0LemmaPOS: eljáró_,, S0B0POS: A_,, S0B0POSLemma: A_,, S0B0Token: eljáró_,, S0B1Lemma: eljáró_az, S0B1LemmaPOS: eljáró_T, S0B1POS: A_T, S0B1POSLemma: A_az, S0B1Token: eljáró_az, S0B2Lemma: eljáró_egyesülő, S0B2LemmaPOS: eljáró_A, S0B2POS: A_A, S0B2POSLemma: A_egyesülő, S0B2Token: eljáró_egyesülő, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_,, S1B0LemmaPOS: bekezdés_,, S1B0POS: N_,, S1B0POSLemma: N_,, S1B0Token: bekezdésben_,, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_,, S1S0B0LemmaPOS: bekezdés_A_,, S1S0B0POS: N_A_,, S1S0B0POSLemma: N_A_,, S1S0B0Token: bekezdésben_eljáró_,, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, ,]   B= [az, egyesülő, részvénytársaságoktól ,.. ]
-
-,_isGouvernedBy_szakértő: true, ,_isGouvernedBy_szakértő_PUNCT: true, B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülő, B1POS: A, B1Token: egyesülő, S0B0Distance: 1, S0B0Lemma: ,_az, S0B0LemmaPOS: ,_T, S0B0POS: ,_T, S0B0POSLemma: ,_az, S0B0Token: ,_az, S0B1Lemma: ,_egyesülő, S0B1LemmaPOS: ,_A, S0B1POS: ,_A, S0B1POSLemma: ,_egyesülő, S0B1Token: ,_egyesülő, S0B2Lemma: ,_részvénytársaság, S0B2LemmaPOS: ,_N, S0B2POS: ,_N, S0B2POSLemma: ,_részvénytársaság, S0B2Token: ,_részvénytársaságoktól, S0Lemma: ,, S0POS: ,, S0S1Distance: 4, S0Token: ,, S1B0Lemma: eljáró_az, S1B0LemmaPOS: eljáró_T, S1B0POS: A_T, S1B0POSLemma: A_az, S1B0Token: eljáró_az, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_,_az, S1S0B0LemmaPOS: eljáró_,_T, S1S0B0POS: A_,_T, S1S0B0POSLemma: A_,_az, S1S0B0Token: eljáró_,_az, S1S0Lemma: eljáró_,, S1S0LemmaPOS: eljáró_,, S1S0POS: A_,, S1S0POSLemma: A_,, S1S0Token: eljáró_,, S1Token: eljáró, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [az, egyesülő, részvénytársaságoktól ,.. ]
-
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülő, B1POS: A, B1Token: egyesülő, S0B0Distance: 5, S0B0Lemma: eljáró_az, S0B0LemmaPOS: eljáró_T, S0B0POS: A_T, S0B0POSLemma: A_az, S0B0Token: eljáró_az, S0B1Lemma: eljáró_egyesülő, S0B1LemmaPOS: eljáró_A, S0B1POS: A_A, S0B1POSLemma: A_egyesülő, S0B1Token: eljáró_egyesülő, S0B2Lemma: eljáró_részvénytársaság, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_részvénytársaság, S0B2Token: eljáró_részvénytársaságoktól, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_az, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: bekezdésben_az, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_az, S1S0B0LemmaPOS: bekezdés_A_T, S1S0B0POS: N_A_T, S1S0B0POSLemma: N_A_az, S1S0B0Token: bekezdésben_eljáró_az, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, az]   B= [egyesülő, részvénytársaságoktól, független ,.. ]
-
-B0Lemma: egyesülő, B0POS: A, B0Token: egyesülő, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársaságoktól, S0B0Distance: 1, S0B0Lemma: az_egyesülő, S0B0LemmaPOS: az_A, S0B0POS: T_A, S0B0POSLemma: T_egyesülő, S0B0Token: az_egyesülő, S0B1Lemma: az_részvénytársaság, S0B1LemmaPOS: az_N, S0B1POS: T_N, S0B1POSLemma: T_részvénytársaság, S0B1Token: az_részvénytársaságoktól, S0B2Lemma: az_független, S0B2LemmaPOS: az_A, S0B2POS: T_A, S0B2POSLemma: T_független, S0B2Token: az_független, S0Lemma: az, S0POS: T, S0S1Distance: 5, S0Token: az, S1B0Lemma: eljáró_egyesülő, S1B0LemmaPOS: eljáró_A, S1B0POS: A_A, S1B0POSLemma: A_egyesülő, S1B0Token: eljáró_egyesülő, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_az_egyesülő, S1S0B0LemmaPOS: eljáró_T_A, S1S0B0POS: A_T_A, S1S0B0POSLemma: A_T_egyesülő, S1S0B0Token: eljáró_az_egyesülő, S1S0Lemma: eljáró_az, S1S0LemmaPOS: eljáró_T, S1S0POS: A_T, S1S0POSLemma: A_az, S1S0Token: eljáró_az, S1Token: eljáró, StackLength: 3, az_isGouvernedBy_részvénytársaság: true, az_isGouvernedBy_részvénytársaság_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [egyesülő, részvénytársaságoktól, független ,.. ]
-
-B0Lemma: egyesülő, B0POS: A, B0Token: egyesülő, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársaságoktól, S0B0Distance: 6, S0B0Lemma: eljáró_egyesülő, S0B0LemmaPOS: eljáró_A, S0B0POS: A_A, S0B0POSLemma: A_egyesülő, S0B0Token: eljáró_egyesülő, S0B1Lemma: eljáró_részvénytársaság, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_részvénytársaság, S0B1Token: eljáró_részvénytársaságoktól, S0B2Lemma: eljáró_független, S0B2LemmaPOS: eljáró_A, S0B2POS: A_A, S0B2POSLemma: A_független, S0B2Token: eljáró_független, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_egyesülő, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_egyesülő, S1B0Token: bekezdésben_egyesülő, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_egyesülő, S1S0B0LemmaPOS: bekezdés_A_A, S1S0B0POS: N_A_A, S1S0B0POSLemma: N_A_egyesülő, S1S0B0Token: bekezdésben_eljáró_egyesülő, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, egyesülő]   B= [részvénytársaságoktól, független, szakértőnek ,.. ]
-
-B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársaságoktól, B1Lemma: független, B1POS: A, B1Token: független, S0B0Distance: 1, S0B0Lemma: egyesülő_részvénytársaság, S0B0LemmaPOS: egyesülő_N, S0B0POS: A_N, S0B0POSLemma: A_részvénytársaság, S0B0Token: egyesülő_részvénytársaságoktól, S0B1Lemma: egyesülő_független, S0B1LemmaPOS: egyesülő_A, S0B1POS: A_A, S0B1POSLemma: A_független, S0B1Token: egyesülő_független, S0B2Lemma: egyesülő_szakértő, S0B2LemmaPOS: egyesülő_N, S0B2POS: A_N, S0B2POSLemma: A_szakértő, S0B2Token: egyesülő_szakértőnek, S0Lemma: egyesülő, S0POS: A, S0S1Distance: 6, S0Token: egyesülő, S1B0Lemma: eljáró_részvénytársaság, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_részvénytársaság, S1B0Token: eljáró_részvénytársaságoktól, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_egyesülő_részvénytársaság, S1S0B0LemmaPOS: eljáró_A_N, S1S0B0POS: A_A_N, S1S0B0POSLemma: A_A_részvénytársaság, S1S0B0Token: eljáró_egyesülő_részvénytársaságoktól, S1S0Lemma: eljáró_egyesülő, S1S0LemmaPOS: eljáró_A, S1S0POS: A_A, S1S0POSLemma: A_egyesülő, S1S0Token: eljáró_egyesülő, S1Token: eljáró, StackLength: 3, egyesülő_isGouvernedBy_részvénytársaság: true, egyesülő_isGouvernedBy_részvénytársaság_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [részvénytársaságoktól, független, szakértőnek ,.. ]
-
-B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársaságoktól, B1Lemma: független, B1POS: A, B1Token: független, S0B0Distance: 7, S0B0Lemma: eljáró_részvénytársaság, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_részvénytársaság, S0B0Token: eljáró_részvénytársaságoktól, S0B1Lemma: eljáró_független, S0B1LemmaPOS: eljáró_A, S0B1POS: A_A, S0B1POSLemma: A_független, S0B1Token: eljáró_független, S0B2Lemma: eljáró_szakértő, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_szakértő, S0B2Token: eljáró_szakértőnek, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_részvénytársaság, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_részvénytársaság, S1B0Token: bekezdésben_részvénytársaságoktól, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_részvénytársaság, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_részvénytársaság, S1S0B0Token: bekezdésben_eljáró_részvénytársaságoktól, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, részvénytársaságoktól]   B= [független, szakértőnek, a ,.. ]
-
-B0Lemma: független, B0POS: A, B0Token: független, B1Lemma: szakértő, B1POS: N, B1Token: szakértőnek, S0B0Distance: 1, S0B0Lemma: részvénytársaság_független, S0B0LemmaPOS: részvénytársaság_A, S0B0POS: N_A, S0B0POSLemma: N_független, S0B0Token: részvénytársaságoktól_független, S0B1Lemma: részvénytársaság_szakértő, S0B1LemmaPOS: részvénytársaság_N, S0B1POS: N_N, S0B1POSLemma: N_szakértő, S0B1Token: részvénytársaságoktól_szakértőnek, S0B2Lemma: részvénytársaság_a, S0B2LemmaPOS: részvénytársaság_T, S0B2POS: N_T, S0B2POSLemma: N_a, S0B2Token: részvénytársaságoktól_a, S0Lemma: részvénytársaság, S0POS: N, S0S1Distance: 7, S0Token: részvénytársaságoktól, S1B0Lemma: eljáró_független, S1B0LemmaPOS: eljáró_A, S1B0POS: A_A, S1B0POSLemma: A_független, S1B0Token: eljáró_független, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_részvénytársaság_független, S1S0B0LemmaPOS: eljáró_N_A, S1S0B0POS: A_N_A, S1S0B0POSLemma: A_N_független, S1S0B0Token: eljáró_részvénytársaságoktól_független, S1S0Lemma: eljáró_részvénytársaság, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_részvénytársaság, S1S0Token: eljáró_részvénytársaságoktól, S1Token: eljáró, StackLength: 3, részvénytársaság_isGouvernedBy_független: true, részvénytársaság_isGouvernedBy_független_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [független, szakértőnek, a ,.. ]
-
-B0Lemma: független, B0POS: A, B0Token: független, B1Lemma: szakértő, B1POS: N, B1Token: szakértőnek, S0B0Distance: 8, S0B0Lemma: eljáró_független, S0B0LemmaPOS: eljáró_A, S0B0POS: A_A, S0B0POSLemma: A_független, S0B0Token: eljáró_független, S0B1Lemma: eljáró_szakértő, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_szakértő, S0B1Token: eljáró_szakértőnek, S0B2Lemma: eljáró_a, S0B2LemmaPOS: eljáró_T, S0B2POS: A_T, S0B2POSLemma: A_a, S0B2Token: eljáró_a, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_független, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_független, S1B0Token: bekezdésben_független, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_független, S1S0B0LemmaPOS: bekezdés_A_A, S1S0B0POS: N_A_A, S1S0B0POSLemma: N_A_független, S1S0B0Token: bekezdésben_eljáró_független, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, független]   B= [szakértőnek, a, részvénytársaságok ,.. ]
-
-B0Lemma: szakértő, B0POS: N, B0Token: szakértőnek, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 1, S0B0Lemma: független_szakértő, S0B0LemmaPOS: független_N, S0B0POS: A_N, S0B0POSLemma: A_szakértő, S0B0Token: független_szakértőnek, S0B1Lemma: független_a, S0B1LemmaPOS: független_T, S0B1POS: A_T, S0B1POSLemma: A_a, S0B1Token: független_a, S0B2Lemma: független_részvénytársaság, S0B2LemmaPOS: független_N, S0B2POS: A_N, S0B2POSLemma: A_részvénytársaság, S0B2Token: független_részvénytársaságok, S0Lemma: független, S0POS: A, S0S1Distance: 8, S0Token: független, S1B0Lemma: eljáró_szakértő, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_szakértő, S1B0Token: eljáró_szakértőnek, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_független_szakértő, S1S0B0LemmaPOS: eljáró_A_N, S1S0B0POS: A_A_N, S1S0B0POSLemma: A_A_szakértő, S1S0B0Token: eljáró_független_szakértőnek, S1S0Lemma: eljáró_független, S1S0LemmaPOS: eljáró_A, S1S0POS: A_A, S1S0POSLemma: A_független, S1S0Token: eljáró_független, S1Token: eljáró, StackLength: 3, független_isGouvernedBy_szakértő: true, független_isGouvernedBy_szakértő_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [szakértőnek, a, részvénytársaságok ,.. ]
-
-B0Lemma: szakértő, B0POS: N, B0Token: szakértőnek, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 9, S0B0Lemma: eljáró_szakértő, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_szakértő, S0B0Token: eljáró_szakértőnek, S0B1Lemma: eljáró_a, S0B1LemmaPOS: eljáró_T, S0B1POS: A_T, S0B1POSLemma: A_a, S0B1Token: eljáró_a, S0B2Lemma: eljáró_részvénytársaság, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_részvénytársaság, S0B2Token: eljáró_részvénytársaságok, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_szakértő, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_szakértő, S1B0Token: bekezdésben_szakértőnek, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_szakértő, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_szakértő, S1S0B0Token: bekezdésben_eljáró_szakértőnek, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, szakértőnek]   B= [a, részvénytársaságok, megbízása ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársaságok, S0B0Distance: 1, S0B0Lemma: szakértő_a, S0B0LemmaPOS: szakértő_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: szakértőnek_a, S0B1Lemma: szakértő_részvénytársaság, S0B1LemmaPOS: szakértő_N, S0B1POS: N_N, S0B1POSLemma: N_részvénytársaság, S0B1Token: szakértőnek_részvénytársaságok, S0B2Lemma: szakértő_megbízás, S0B2LemmaPOS: szakértő_N, S0B2POS: N_N, S0B2POSLemma: N_megbízás, S0B2Token: szakértőnek_megbízása, S0Lemma: szakértő, S0POS: N, S0S1Distance: 9, S0Token: szakértőnek, S1B0Lemma: eljáró_a, S1B0LemmaPOS: eljáró_T, S1B0POS: A_T, S1B0POSLemma: A_a, S1B0Token: eljáró_a, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_szakértő_a, S1S0B0LemmaPOS: eljáró_N_T, S1S0B0POS: A_N_T, S1S0B0POSLemma: A_N_a, S1S0B0Token: eljáró_szakértőnek_a, S1S0Lemma: eljáró_szakértő, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_szakértő, S1S0Token: eljáró_szakértőnek, S1Token: eljáró, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [a, részvénytársaságok, megbízása ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársaságok, S0B0Distance: 10, S0B0Lemma: eljáró_a, S0B0LemmaPOS: eljáró_T, S0B0POS: A_T, S0B0POSLemma: A_a, S0B0Token: eljáró_a, S0B1Lemma: eljáró_részvénytársaság, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_részvénytársaság, S0B1Token: eljáró_részvénytársaságok, S0B2Lemma: eljáró_megbízás, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_megbízás, S0B2Token: eljáró_megbízása, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_a, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_a, S1B0Token: bekezdésben_a, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_a, S1S0B0LemmaPOS: bekezdés_A_T, S1S0B0POS: N_A_T, S1S0B0POSLemma: N_A_a, S1S0B0Token: bekezdésben_eljáró_a, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, a]   B= [részvénytársaságok, megbízása, alapján ,.. ]
-
-B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársaságok, B1Lemma: megbízás, B1POS: N, B1Token: megbízása, S0B0Distance: 1, S0B0Lemma: a_részvénytársaság, S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_részvénytársaság, S0B0Token: a_részvénytársaságok, S0B1Lemma: a_megbízás, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_megbízás, S0B1Token: a_megbízása, S0B2Lemma: a_alap, S0B2LemmaPOS: a_N, S0B2POS: T_N, S0B2POSLemma: T_alap, S0B2Token: a_alapján, S0Lemma: a, S0POS: T, S0S1Distance: 10, S0Token: a, S1B0Lemma: eljáró_részvénytársaság, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_részvénytársaság, S1B0Token: eljáró_részvénytársaságok, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_a_részvénytársaság, S1S0B0LemmaPOS: eljáró_T_N, S1S0B0POS: A_T_N, S1S0B0POSLemma: A_T_részvénytársaság, S1S0B0Token: eljáró_a_részvénytársaságok, S1S0Lemma: eljáró_a, S1S0LemmaPOS: eljáró_T, S1S0POS: A_T, S1S0POSLemma: A_a, S1S0Token: eljáró_a, S1Token: eljáró, StackLength: 3, a_isGouvernedBy_részvénytársaság: true, a_isGouvernedBy_részvénytársaság_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [részvénytársaságok, megbízása, alapján ,.. ]
-
-B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársaságok, B1Lemma: megbízás, B1POS: N, B1Token: megbízása, S0B0Distance: 11, S0B0Lemma: eljáró_részvénytársaság, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_részvénytársaság, S0B0Token: eljáró_részvénytársaságok, S0B1Lemma: eljáró_megbízás, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_megbízás, S0B1Token: eljáró_megbízása, S0B2Lemma: eljáró_alap, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_alap, S0B2Token: eljáró_alapján, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_részvénytársaság, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_részvénytársaság, S1B0Token: bekezdésben_részvénytársaságok, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_részvénytársaság, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_részvénytársaság, S1S0B0Token: bekezdésben_eljáró_részvénytársaságok, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, részvénytársaságok]   B= [megbízása, alapján, készített ,.. ]
-
-B0Lemma: megbízás, B0POS: N, B0Token: megbízása, B1Lemma: alap, B1POS: N, B1Token: alapján, S0B0Distance: 1, S0B0Lemma: részvénytársaság_megbízás, S0B0LemmaPOS: részvénytársaság_N, S0B0POS: N_N, S0B0POSLemma: N_megbízás, S0B0Token: részvénytársaságok_megbízása, S0B1Lemma: részvénytársaság_alap, S0B1LemmaPOS: részvénytársaság_N, S0B1POS: N_N, S0B1POSLemma: N_alap, S0B1Token: részvénytársaságok_alapján, S0B2Lemma: részvénytársaság_készített, S0B2LemmaPOS: részvénytársaság_A, S0B2POS: N_A, S0B2POSLemma: N_készített, S0B2Token: részvénytársaságok_készített, S0Lemma: részvénytársaság, S0POS: N, S0S1Distance: 11, S0Token: részvénytársaságok, S1B0Lemma: eljáró_megbízás, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_megbízás, S1B0Token: eljáró_megbízása, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_részvénytársaság_megbízás, S1S0B0LemmaPOS: eljáró_N_N, S1S0B0POS: A_N_N, S1S0B0POSLemma: A_N_megbízás, S1S0B0Token: eljáró_részvénytársaságok_megbízása, S1S0Lemma: eljáró_részvénytársaság, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_részvénytársaság, S1S0Token: eljáró_részvénytársaságok, S1Token: eljáró, StackLength: 3, részvénytársaság_isGouvernedBy_megbízás: true, részvénytársaság_isGouvernedBy_megbízás_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [megbízása, alapján, készített ,.. ]
-
-B0Lemma: megbízás, B0POS: N, B0Token: megbízása, B1Lemma: alap, B1POS: N, B1Token: alapján, S0B0Distance: 12, S0B0Lemma: eljáró_megbízás, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_megbízás, S0B0Token: eljáró_megbízása, S0B1Lemma: eljáró_alap, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_alap, S0B1Token: eljáró_alapján, S0B2Lemma: eljáró_készített, S0B2LemmaPOS: eljáró_A, S0B2POS: A_A, S0B2POSLemma: A_készített, S0B2Token: eljáró_készített, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_megbízás, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_megbízás, S1B0Token: bekezdésben_megbízása, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_megbízás, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_megbízás, S1S0B0Token: bekezdésben_eljáró_megbízása, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, megbízása]   B= [alapján, készített, jelentésében ,.. ]
-
-B0Lemma: alap, B0POS: N, B0Token: alapján, B1Lemma: készített, B1POS: A, B1Token: készített, S0B0Distance: 1, S0B0Lemma: megbízás_alap, S0B0LemmaPOS: megbízás_N, S0B0POS: N_N, S0B0POSLemma: N_alap, S0B0Token: megbízása_alapján, S0B1Lemma: megbízás_készített, S0B1LemmaPOS: megbízás_A, S0B1POS: N_A, S0B1POSLemma: N_készített, S0B1Token: megbízása_készített, S0B2Lemma: megbízás_jelentés, S0B2LemmaPOS: megbízás_N, S0B2POS: N_N, S0B2POSLemma: N_jelentés, S0B2Token: megbízása_jelentésében, S0Lemma: megbízás, S0POS: N, S0S1Distance: 12, S0Token: megbízása, S1B0Lemma: eljáró_alap, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_alap, S1B0Token: eljáró_alapján, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_megbízás_alap, S1S0B0LemmaPOS: eljáró_N_N, S1S0B0POS: A_N_N, S1S0B0POSLemma: A_N_alap, S1S0B0Token: eljáró_megbízása_alapján, S1S0Lemma: eljáró_megbízás, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_megbízás, S1S0Token: eljáró_megbízása, S1Token: eljáró, StackLength: 3, megbízás_isGouvernedBy_alap: true, megbízás_isGouvernedBy_alap_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [alapján, készített, jelentésében ,.. ]
-
-B0Lemma: alap, B0POS: N, B0Token: alapján, B1Lemma: készített, B1POS: A, B1Token: készített, S0B0Distance: 13, S0B0Lemma: eljáró_alap, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_alap, S0B0Token: eljáró_alapján, S0B1Lemma: eljáró_készített, S0B1LemmaPOS: eljáró_A, S0B1POS: A_A, S0B1POSLemma: A_készített, S0B1Token: eljáró_készített, S0B2Lemma: eljáró_jelentés, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_jelentés, S0B2Token: eljáró_jelentésében, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_alap, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_alap, S1B0Token: bekezdésben_alapján, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_alap, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_alap, S1S0B0Token: bekezdésben_eljáró_alapján, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, alapján]   B= [készített, jelentésében, nyilatkoznia ,.. ]
-
-B0Lemma: készített, B0POS: A, B0Token: készített, B1Lemma: jelentés, B1POS: N, B1Token: jelentésében, S0B0Distance: 1, S0B0Lemma: alap_készített, S0B0LemmaPOS: alap_A, S0B0POS: N_A, S0B0POSLemma: N_készített, S0B0Token: alapján_készített, S0B1Lemma: alap_jelentés, S0B1LemmaPOS: alap_N, S0B1POS: N_N, S0B1POSLemma: N_jelentés, S0B1Token: alapján_jelentésében, S0B2Lemma: alap_nyilatkozik, S0B2LemmaPOS: alap_V, S0B2POS: N_V, S0B2POSLemma: N_nyilatkozik, S0B2Token: alapján_nyilatkoznia, S0Lemma: alap, S0POS: N, S0S1Distance: 13, S0Token: alapján, S1B0Lemma: eljáró_készített, S1B0LemmaPOS: eljáró_A, S1B0POS: A_A, S1B0POSLemma: A_készített, S1B0Token: eljáró_készített, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_alap_készített, S1S0B0LemmaPOS: eljáró_N_A, S1S0B0POS: A_N_A, S1S0B0POSLemma: A_N_készített, S1S0B0Token: eljáró_alapján_készített, S1S0Lemma: eljáró_alap, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_alap, S1S0Token: eljáró_alapján, S1Token: eljáró, StackLength: 3, alap_isGouvernedBy_készített: true, alap_isGouvernedBy_készített_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [készített, jelentésében, nyilatkoznia ,.. ]
-
-B0Lemma: készített, B0POS: A, B0Token: készített, B1Lemma: jelentés, B1POS: N, B1Token: jelentésében, S0B0Distance: 14, S0B0Lemma: eljáró_készített, S0B0LemmaPOS: eljáró_A, S0B0POS: A_A, S0B0POSLemma: A_készített, S0B0Token: eljáró_készített, S0B1Lemma: eljáró_jelentés, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_jelentés, S0B1Token: eljáró_jelentésében, S0B2Lemma: eljáró_nyilatkozik, S0B2LemmaPOS: eljáró_V, S0B2POS: A_V, S0B2POSLemma: A_nyilatkozik, S0B2Token: eljáró_nyilatkoznia, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_készített, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_készített, S1B0Token: bekezdésben_készített, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_készített, S1S0B0LemmaPOS: bekezdés_A_A, S1S0B0POS: N_A_A, S1S0B0POSLemma: N_A_készített, S1S0B0Token: bekezdésben_eljáró_készített, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, készített]   B= [jelentésében, nyilatkoznia, kell ,.. ]
-
-B0Lemma: jelentés, B0POS: N, B0Token: jelentésében, B1Lemma: nyilatkozik, B1POS: V, B1Token: nyilatkoznia, S0B0Distance: 1, S0B0Lemma: készített_jelentés, S0B0LemmaPOS: készített_N, S0B0POS: A_N, S0B0POSLemma: A_jelentés, S0B0Token: készített_jelentésében, S0B1Lemma: készített_nyilatkozik, S0B1LemmaPOS: készített_V, S0B1POS: A_V, S0B1POSLemma: A_nyilatkozik, S0B1Token: készített_nyilatkoznia, S0B2Lemma: készített_kell, S0B2LemmaPOS: készített_V, S0B2POS: A_V, S0B2POSLemma: A_kell, S0B2Token: készített_kell, S0Lemma: készített, S0POS: A, S0S1Distance: 14, S0Token: készített, S1B0Lemma: eljáró_jelentés, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_jelentés, S1B0Token: eljáró_jelentésében, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_készített_jelentés, S1S0B0LemmaPOS: eljáró_A_N, S1S0B0POS: A_A_N, S1S0B0POSLemma: A_A_jelentés, S1S0B0Token: eljáró_készített_jelentésében, S1S0Lemma: eljáró_készített, S1S0LemmaPOS: eljáró_A, S1S0POS: A_A, S1S0POSLemma: A_készített, S1S0Token: eljáró_készített, S1Token: eljáró, StackLength: 3, készített_isGouvernedBy_jelentés: true, készített_isGouvernedBy_jelentés_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [jelentésében, nyilatkoznia, kell ,.. ]
-
-B0Lemma: jelentés, B0POS: N, B0Token: jelentésében, B1Lemma: nyilatkozik, B1POS: V, B1Token: nyilatkoznia, S0B0Distance: 15, S0B0Lemma: eljáró_jelentés, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_jelentés, S0B0Token: eljáró_jelentésében, S0B1Lemma: eljáró_nyilatkozik, S0B1LemmaPOS: eljáró_V, S0B1POS: A_V, S0B1POSLemma: A_nyilatkozik, S0B1Token: eljáró_nyilatkoznia, S0B2Lemma: eljáró_kell, S0B2LemmaPOS: eljáró_V, S0B2POS: A_V, S0B2POSLemma: A_kell, S0B2Token: eljáró_kell, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_jelentés, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_jelentés, S1B0Token: bekezdésben_jelentésében, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_jelentés, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_jelentés, S1S0B0Token: bekezdésben_eljáró_jelentésében, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, jelentésében]   B= [nyilatkoznia, kell, az ,.. ]
-
-B0Lemma: nyilatkozik, B0POS: V, B0Token: nyilatkoznia, B1Lemma: kell, B1POS: V, B1Token: kell, S0B0Distance: 1, S0B0Lemma: jelentés_nyilatkozik, S0B0LemmaPOS: jelentés_V, S0B0POS: N_V, S0B0POSLemma: N_nyilatkozik, S0B0Token: jelentésében_nyilatkoznia, S0B1Lemma: jelentés_kell, S0B1LemmaPOS: jelentés_V, S0B1POS: N_V, S0B1POSLemma: N_kell, S0B1Token: jelentésében_kell, S0B2Lemma: jelentés_az, S0B2LemmaPOS: jelentés_T, S0B2POS: N_T, S0B2POSLemma: N_az, S0B2Token: jelentésében_az, S0Lemma: jelentés, S0POS: N, S0S1Distance: 15, S0Token: jelentésében, S1B0Lemma: eljáró_nyilatkozik, S1B0LemmaPOS: eljáró_V, S1B0POS: A_V, S1B0POSLemma: A_nyilatkozik, S1B0Token: eljáró_nyilatkoznia, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_jelentés_nyilatkozik, S1S0B0LemmaPOS: eljáró_N_V, S1S0B0POS: A_N_V, S1S0B0POSLemma: A_N_nyilatkozik, S1S0B0Token: eljáró_jelentésében_nyilatkoznia, S1S0Lemma: eljáró_jelentés, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_jelentés, S1S0Token: eljáró_jelentésében, S1Token: eljáró, StackLength: 3, jelentés_isGouvernedBy_nyilatkozik: true, jelentés_isGouvernedBy_nyilatkozik_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [nyilatkoznia, kell, az ,.. ]
-
-B0Lemma: nyilatkozik, B0POS: V, B0Token: nyilatkoznia, B1Lemma: kell, B1POS: V, B1Token: kell, S0B0Distance: 16, S0B0Lemma: eljáró_nyilatkozik, S0B0LemmaPOS: eljáró_V, S0B0POS: A_V, S0B0POSLemma: A_nyilatkozik, S0B0Token: eljáró_nyilatkoznia, S0B1Lemma: eljáró_kell, S0B1LemmaPOS: eljáró_V, S0B1POS: A_V, S0B1POSLemma: A_kell, S0B1Token: eljáró_kell, S0B2Lemma: eljáró_az, S0B2LemmaPOS: eljáró_T, S0B2POS: A_T, S0B2POSLemma: A_az, S0B2Token: eljáró_az, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_nyilatkozik, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_nyilatkozik, S1B0Token: bekezdésben_nyilatkoznia, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_nyilatkozik, S1S0B0LemmaPOS: bekezdés_A_V, S1S0B0POS: N_A_V, S1S0B0POSLemma: N_A_nyilatkozik, S1S0B0Token: bekezdésben_eljáró_nyilatkoznia, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, nyilatkoznia]   B= [kell, az, egyesülési ,.. ]
-
-B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 1, S0B0Lemma: nyilatkozik_kell, S0B0LemmaPOS: nyilatkozik_V, S0B0POS: V_V, S0B0POSLemma: V_kell, S0B0Token: nyilatkoznia_kell, S0B1Lemma: nyilatkozik_az, S0B1LemmaPOS: nyilatkozik_T, S0B1POS: V_T, S0B1POSLemma: V_az, S0B1Token: nyilatkoznia_az, S0B2Lemma: nyilatkozik_egyesülési, S0B2LemmaPOS: nyilatkozik_A, S0B2POS: V_A, S0B2POSLemma: V_egyesülési, S0B2Token: nyilatkoznia_egyesülési, S0Lemma: nyilatkozik, S0POS: V, S0S1Distance: 16, S0Token: nyilatkoznia, S1B0Lemma: eljáró_kell, S1B0LemmaPOS: eljáró_V, S1B0POS: A_V, S1B0POSLemma: A_kell, S1B0Token: eljáró_kell, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_nyilatkozik_kell, S1S0B0LemmaPOS: eljáró_V_V, S1S0B0POS: A_V_V, S1S0B0POSLemma: A_V_kell, S1S0B0Token: eljáró_nyilatkoznia_kell, S1S0Lemma: eljáró_nyilatkozik, S1S0LemmaPOS: eljáró_V, S1S0POS: A_V, S1S0POSLemma: A_nyilatkozik, S1S0Token: eljáró_nyilatkoznia, S1Token: eljáró, StackLength: 3, hasRighDep_OBL: true, nyilatkozik_hasRighDep_OBL: true, nyilatkozik_isGouvernedBy_kell: true, nyilatkozik_isGouvernedBy_kell_INF: true, nyilatkozik_megalapozottság_hasRighDep_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [kell, az, egyesülési ,.. ]
-
-B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 17, S0B0Lemma: eljáró_kell, S0B0LemmaPOS: eljáró_V, S0B0POS: A_V, S0B0POSLemma: A_kell, S0B0Token: eljáró_kell, S0B1Lemma: eljáró_az, S0B1LemmaPOS: eljáró_T, S0B1POS: A_T, S0B1POSLemma: A_az, S0B1Token: eljáró_az, S0B2Lemma: eljáró_egyesülési, S0B2LemmaPOS: eljáró_A, S0B2POS: A_A, S0B2POSLemma: A_egyesülési, S0B2Token: eljáró_egyesülési, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_kell, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_kell, S1B0Token: bekezdésben_kell, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_kell, S1S0B0LemmaPOS: bekezdés_A_V, S1S0B0POS: N_A_V, S1S0B0POSLemma: N_A_kell, S1S0B0Token: bekezdésben_eljáró_kell, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, kell]   B= [az, egyesülési, szerződés ,.. ]
-
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülési, B1POS: A, B1Token: egyesülési, S0B0Distance: 1, S0B0Lemma: kell_az, S0B0LemmaPOS: kell_T, S0B0POS: V_T, S0B0POSLemma: V_az, S0B0Token: kell_az, S0B1Lemma: kell_egyesülési, S0B1LemmaPOS: kell_A, S0B1POS: V_A, S0B1POSLemma: V_egyesülési, S0B1Token: kell_egyesülési, S0B2Lemma: kell_szerződés, S0B2LemmaPOS: kell_N, S0B2POS: V_N, S0B2POSLemma: V_szerződés, S0B2Token: kell_szerződés, S0Lemma: kell, S0POS: V, S0S1Distance: 17, S0Token: kell, S1B0Lemma: eljáró_az, S1B0LemmaPOS: eljáró_T, S1B0POS: A_T, S1B0POSLemma: A_az, S1B0Token: eljáró_az, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_kell_az, S1S0B0LemmaPOS: eljáró_V_T, S1S0B0POS: A_V_T, S1S0B0POSLemma: A_V_az, S1S0B0Token: eljáró_kell_az, S1S0Lemma: eljáró_kell, S1S0LemmaPOS: eljáró_V, S1S0POS: A_V, S1S0POSLemma: A_kell, S1S0Token: eljáró_kell, S1Token: eljáró, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [az, egyesülési, szerződés ,.. ]
-
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülési, B1POS: A, B1Token: egyesülési, S0B0Distance: 18, S0B0Lemma: eljáró_az, S0B0LemmaPOS: eljáró_T, S0B0POS: A_T, S0B0POSLemma: A_az, S0B0Token: eljáró_az, S0B1Lemma: eljáró_egyesülési, S0B1LemmaPOS: eljáró_A, S0B1POS: A_A, S0B1POSLemma: A_egyesülési, S0B1Token: eljáró_egyesülési, S0B2Lemma: eljáró_szerződés, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_szerződés, S0B2Token: eljáró_szerződés, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_az, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: bekezdésben_az, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_az, S1S0B0LemmaPOS: bekezdés_A_T, S1S0B0POS: N_A_T, S1S0B0POSLemma: N_A_az, S1S0B0Token: bekezdésben_eljáró_az, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, az]   B= [egyesülési, szerződés, tervezetében ,.. ]
-
-B0Lemma: egyesülési, B0POS: A, B0Token: egyesülési, B1Lemma: szerződés, B1POS: N, B1Token: szerződés, S0B0Distance: 1, S0B0Lemma: az_egyesülési, S0B0LemmaPOS: az_A, S0B0POS: T_A, S0B0POSLemma: T_egyesülési, S0B0Token: az_egyesülési, S0B1Lemma: az_szerződés, S0B1LemmaPOS: az_N, S0B1POS: T_N, S0B1POSLemma: T_szerződés, S0B1Token: az_szerződés, S0B2Lemma: az_tervezet, S0B2LemmaPOS: az_N, S0B2POS: T_N, S0B2POSLemma: T_tervezet, S0B2Token: az_tervezetében, S0Lemma: az, S0POS: T, S0S1Distance: 18, S0Token: az, S1B0Lemma: eljáró_egyesülési, S1B0LemmaPOS: eljáró_A, S1B0POS: A_A, S1B0POSLemma: A_egyesülési, S1B0Token: eljáró_egyesülési, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_az_egyesülési, S1S0B0LemmaPOS: eljáró_T_A, S1S0B0POS: A_T_A, S1S0B0POSLemma: A_T_egyesülési, S1S0B0Token: eljáró_az_egyesülési, S1S0Lemma: eljáró_az, S1S0LemmaPOS: eljáró_T, S1S0POS: A_T, S1S0POSLemma: A_az, S1S0Token: eljáró_az, S1Token: eljáró, StackLength: 3, az_isGouvernedBy_szerződés: true, az_isGouvernedBy_szerződés_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [egyesülési, szerződés, tervezetében ,.. ]
-
-B0Lemma: egyesülési, B0POS: A, B0Token: egyesülési, B1Lemma: szerződés, B1POS: N, B1Token: szerződés, S0B0Distance: 19, S0B0Lemma: eljáró_egyesülési, S0B0LemmaPOS: eljáró_A, S0B0POS: A_A, S0B0POSLemma: A_egyesülési, S0B0Token: eljáró_egyesülési, S0B1Lemma: eljáró_szerződés, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_szerződés, S0B1Token: eljáró_szerződés, S0B2Lemma: eljáró_tervezet, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_tervezet, S0B2Token: eljáró_tervezetében, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_egyesülési, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_egyesülési, S1B0Token: bekezdésben_egyesülési, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_egyesülési, S1S0B0LemmaPOS: bekezdés_A_A, S1S0B0POS: N_A_A, S1S0B0POSLemma: N_A_egyesülési, S1S0B0Token: bekezdésben_eljáró_egyesülési, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, egyesülési]   B= [szerződés, tervezetében, és ,.. ]
-
-B0Lemma: szerződés, B0POS: N, B0Token: szerződés, B1Lemma: tervezet, B1POS: N, B1Token: tervezetében, S0B0Distance: 1, S0B0Lemma: egyesülési_szerződés, S0B0LemmaPOS: egyesülési_N, S0B0POS: A_N, S0B0POSLemma: A_szerződés, S0B0Token: egyesülési_szerződés, S0B1Lemma: egyesülési_tervezet, S0B1LemmaPOS: egyesülési_N, S0B1POS: A_N, S0B1POSLemma: A_tervezet, S0B1Token: egyesülési_tervezetében, S0B2Lemma: egyesülési_és, S0B2LemmaPOS: egyesülési_C, S0B2POS: A_C, S0B2POSLemma: A_és, S0B2Token: egyesülési_és, S0Lemma: egyesülési, S0POS: A, S0S1Distance: 19, S0Token: egyesülési, S1B0Lemma: eljáró_szerződés, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_szerződés, S1B0Token: eljáró_szerződés, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_egyesülési_szerződés, S1S0B0LemmaPOS: eljáró_A_N, S1S0B0POS: A_A_N, S1S0B0POSLemma: A_A_szerződés, S1S0B0Token: eljáró_egyesülési_szerződés, S1S0Lemma: eljáró_egyesülési, S1S0LemmaPOS: eljáró_A, S1S0POS: A_A, S1S0POSLemma: A_egyesülési, S1S0Token: eljáró_egyesülési, S1Token: eljáró, StackLength: 3, egyesülési_isGouvernedBy_szerződés: true, egyesülési_isGouvernedBy_szerződés_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [szerződés, tervezetében, és ,.. ]
-
-B0Lemma: szerződés, B0POS: N, B0Token: szerződés, B1Lemma: tervezet, B1POS: N, B1Token: tervezetében, S0B0Distance: 20, S0B0Lemma: eljáró_szerződés, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_szerződés, S0B0Token: eljáró_szerződés, S0B1Lemma: eljáró_tervezet, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_tervezet, S0B1Token: eljáró_tervezetében, S0B2Lemma: eljáró_és, S0B2LemmaPOS: eljáró_C, S0B2POS: A_C, S0B2POSLemma: A_és, S0B2Token: eljáró_és, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_szerződés, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_szerződés, S1B0Token: bekezdésben_szerződés, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_szerződés, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_szerződés, S1S0B0Token: bekezdésben_eljáró_szerződés, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, szerződés]   B= [tervezetében, és, a ,.. ]
-
-B0Lemma: tervezet, B0POS: N, B0Token: tervezetében, B1Lemma: és, B1POS: C, B1Token: és, S0B0Distance: 1, S0B0Lemma: szerződés_tervezet, S0B0LemmaPOS: szerződés_N, S0B0POS: N_N, S0B0POSLemma: N_tervezet, S0B0Token: szerződés_tervezetében, S0B1Lemma: szerződés_és, S0B1LemmaPOS: szerződés_C, S0B1POS: N_C, S0B1POSLemma: N_és, S0B1Token: szerződés_és, S0B2Lemma: szerződés_a, S0B2LemmaPOS: szerződés_T, S0B2POS: N_T, S0B2POSLemma: N_a, S0B2Token: szerződés_a, S0Lemma: szerződés, S0POS: N, S0S1Distance: 20, S0Token: szerződés, S1B0Lemma: eljáró_tervezet, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_tervezet, S1B0Token: eljáró_tervezetében, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_szerződés_tervezet, S1S0B0LemmaPOS: eljáró_N_N, S1S0B0POS: A_N_N, S1S0B0POSLemma: A_N_tervezet, S1S0B0Token: eljáró_szerződés_tervezetében, S1S0Lemma: eljáró_szerződés, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_szerződés, S1S0Token: eljáró_szerződés, S1Token: eljáró, StackLength: 3, szerződés_isGouvernedBy_tervezet: true, szerződés_isGouvernedBy_tervezet_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [tervezetében, és, a ,.. ]
-
-B0Lemma: tervezet, B0POS: N, B0Token: tervezetében, B1Lemma: és, B1POS: C, B1Token: és, S0B0Distance: 21, S0B0Lemma: eljáró_tervezet, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_tervezet, S0B0Token: eljáró_tervezetében, S0B1Lemma: eljáró_és, S0B1LemmaPOS: eljáró_C, S0B1POS: A_C, S0B1POSLemma: A_és, S0B1Token: eljáró_és, S0B2Lemma: eljáró_a, S0B2LemmaPOS: eljáró_T, S0B2POS: A_T, S0B2POSLemma: A_a, S0B2Token: eljáró_a, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_tervezet, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_tervezet, S1B0Token: bekezdésben_tervezetében, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_tervezet, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_tervezet, S1S0B0Token: bekezdésben_eljáró_tervezetében, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, tervezetében]   B= [és, a, vezető ,.. ]
-
-B0Lemma: és, B0POS: C, B0Token: és, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 1, S0B0Lemma: tervezet_és, S0B0LemmaPOS: tervezet_C, S0B0POS: N_C, S0B0POSLemma: N_és, S0B0Token: tervezetében_és, S0B1Lemma: tervezet_a, S0B1LemmaPOS: tervezet_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: tervezetében_a, S0B2Lemma: tervezet_vezető, S0B2LemmaPOS: tervezet_A, S0B2POS: N_A, S0B2POSLemma: N_vezető, S0B2Token: tervezetében_vezető, S0Lemma: tervezet, S0POS: N, S0S1Distance: 21, S0Token: tervezetében, S1B0Lemma: eljáró_és, S1B0LemmaPOS: eljáró_C, S1B0POS: A_C, S1B0POSLemma: A_és, S1B0Token: eljáró_és, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_tervezet_és, S1S0B0LemmaPOS: eljáró_N_C, S1S0B0POS: A_N_C, S1S0B0POSLemma: A_N_és, S1S0B0Token: eljáró_tervezetében_és, S1S0Lemma: eljáró_tervezet, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_tervezet, S1S0Token: eljáró_tervezetében, S1Token: eljáró, StackLength: 3, hasRighDep_CONJ: true, tervezet_hasRighDep_CONJ: true, tervezet_isGouvernedBy_foglalt: true, tervezet_isGouvernedBy_foglalt_OBL: true, tervezet_és_hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [és, a, vezető ,.. ]
-
-B0Lemma: és, B0POS: C, B0Token: és, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 22, S0B0Lemma: eljáró_és, S0B0LemmaPOS: eljáró_C, S0B0POS: A_C, S0B0POSLemma: A_és, S0B0Token: eljáró_és, S0B1Lemma: eljáró_a, S0B1LemmaPOS: eljáró_T, S0B1POS: A_T, S0B1POSLemma: A_a, S0B1Token: eljáró_a, S0B2Lemma: eljáró_vezető, S0B2LemmaPOS: eljáró_A, S0B2POS: A_A, S0B2POSLemma: A_vezető, S0B2Token: eljáró_vezető, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_és, S1B0LemmaPOS: bekezdés_C, S1B0POS: N_C, S1B0POSLemma: N_és, S1B0Token: bekezdésben_és, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_és, S1S0B0LemmaPOS: bekezdés_A_C, S1S0B0POS: N_A_C, S1S0B0POSLemma: N_A_és, S1S0B0Token: bekezdésben_eljáró_és, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, és]   B= [a, vezető, tisztségviselők ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: vezető, B1POS: A, B1Token: vezető, S0B0Distance: 1, S0B0Lemma: és_a, S0B0LemmaPOS: és_T, S0B0POS: C_T, S0B0POSLemma: C_a, S0B0Token: és_a, S0B1Lemma: és_vezető, S0B1LemmaPOS: és_A, S0B1POS: C_A, S0B1POSLemma: C_vezető, S0B1Token: és_vezető, S0B2Lemma: és_tisztségviselő, S0B2LemmaPOS: és_N, S0B2POS: C_N, S0B2POSLemma: C_tisztségviselő, S0B2Token: és_tisztségviselők, S0Lemma: és, S0POS: C, S0S1Distance: 22, S0Token: és, S1B0Lemma: eljáró_a, S1B0LemmaPOS: eljáró_T, S1B0POS: A_T, S1B0POSLemma: A_a, S1B0Token: eljáró_a, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_és_a, S1S0B0LemmaPOS: eljáró_C_T, S1S0B0POS: A_C_T, S1S0B0POSLemma: A_C_a, S1S0B0Token: eljáró_és_a, S1S0Lemma: eljáró_és, S1S0LemmaPOS: eljáró_C, S1S0POS: A_C, S1S0POSLemma: A_és, S1S0Token: eljáró_és, S1Token: eljáró, StackLength: 3, hasRighDep_COORD: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, és_beszámoló_hasRighDep_COORD: true, és_hasRighDep_COORD: true, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [a, vezető, tisztségviselők ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: vezető, B1POS: A, B1Token: vezető, S0B0Distance: 23, S0B0Lemma: eljáró_a, S0B0LemmaPOS: eljáró_T, S0B0POS: A_T, S0B0POSLemma: A_a, S0B0Token: eljáró_a, S0B1Lemma: eljáró_vezető, S0B1LemmaPOS: eljáró_A, S0B1POS: A_A, S0B1POSLemma: A_vezető, S0B1Token: eljáró_vezető, S0B2Lemma: eljáró_tisztségviselő, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_tisztségviselő, S0B2Token: eljáró_tisztségviselők, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_a, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_a, S1B0Token: bekezdésben_a, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_a, S1S0B0LemmaPOS: bekezdés_A_T, S1S0B0POS: N_A_T, S1S0B0POSLemma: N_A_a, S1S0B0Token: bekezdésben_eljáró_a, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, a]   B= [vezető, tisztségviselők, írásbeli ,.. ]
-
-B0Lemma: vezető, B0POS: A, B0Token: vezető, B1Lemma: tisztségviselő, B1POS: N, B1Token: tisztségviselők, S0B0Distance: 1, S0B0Lemma: a_vezető, S0B0LemmaPOS: a_A, S0B0POS: T_A, S0B0POSLemma: T_vezető, S0B0Token: a_vezető, S0B1Lemma: a_tisztségviselő, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_tisztségviselő, S0B1Token: a_tisztségviselők, S0B2Lemma: a_írásbeli, S0B2LemmaPOS: a_A, S0B2POS: T_A, S0B2POSLemma: T_írásbeli, S0B2Token: a_írásbeli, S0Lemma: a, S0POS: T, S0S1Distance: 23, S0Token: a, S1B0Lemma: eljáró_vezető, S1B0LemmaPOS: eljáró_A, S1B0POS: A_A, S1B0POSLemma: A_vezető, S1B0Token: eljáró_vezető, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_a_vezető, S1S0B0LemmaPOS: eljáró_T_A, S1S0B0POS: A_T_A, S1S0B0POSLemma: A_T_vezető, S1S0B0Token: eljáró_a_vezető, S1S0Lemma: eljáró_a, S1S0LemmaPOS: eljáró_T, S1S0POS: A_T, S1S0POSLemma: A_a, S1S0Token: eljáró_a, S1Token: eljáró, StackLength: 3, a_isGouvernedBy_tisztségviselő: true, a_isGouvernedBy_tisztségviselő_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [vezető, tisztségviselők, írásbeli ,.. ]
-
-B0Lemma: vezető, B0POS: A, B0Token: vezető, B1Lemma: tisztségviselő, B1POS: N, B1Token: tisztségviselők, S0B0Distance: 24, S0B0Lemma: eljáró_vezető, S0B0LemmaPOS: eljáró_A, S0B0POS: A_A, S0B0POSLemma: A_vezető, S0B0Token: eljáró_vezető, S0B1Lemma: eljáró_tisztségviselő, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_tisztségviselő, S0B1Token: eljáró_tisztségviselők, S0B2Lemma: eljáró_írásbeli, S0B2LemmaPOS: eljáró_A, S0B2POS: A_A, S0B2POSLemma: A_írásbeli, S0B2Token: eljáró_írásbeli, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_vezető, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_vezető, S1B0Token: bekezdésben_vezető, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_vezető, S1S0B0LemmaPOS: bekezdés_A_A, S1S0B0POS: N_A_A, S1S0B0POSLemma: N_A_vezető, S1S0B0Token: bekezdésben_eljáró_vezető, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, vezető]   B= [tisztségviselők, írásbeli, beszámolójában ,.. ]
-
-B0Lemma: tisztségviselő, B0POS: N, B0Token: tisztségviselők, B1Lemma: írásbeli, B1POS: A, B1Token: írásbeli, S0B0Distance: 1, S0B0Lemma: vezető_tisztségviselő, S0B0LemmaPOS: vezető_N, S0B0POS: A_N, S0B0POSLemma: A_tisztségviselő, S0B0Token: vezető_tisztségviselők, S0B1Lemma: vezető_írásbeli, S0B1LemmaPOS: vezető_A, S0B1POS: A_A, S0B1POSLemma: A_írásbeli, S0B1Token: vezető_írásbeli, S0B2Lemma: vezető_beszámoló, S0B2LemmaPOS: vezető_N, S0B2POS: A_N, S0B2POSLemma: A_beszámoló, S0B2Token: vezető_beszámolójában, S0Lemma: vezető, S0POS: A, S0S1Distance: 24, S0Token: vezető, S1B0Lemma: eljáró_tisztségviselő, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_tisztségviselő, S1B0Token: eljáró_tisztségviselők, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_vezető_tisztségviselő, S1S0B0LemmaPOS: eljáró_A_N, S1S0B0POS: A_A_N, S1S0B0POSLemma: A_A_tisztségviselő, S1S0B0Token: eljáró_vezető_tisztségviselők, S1S0Lemma: eljáró_vezető, S1S0LemmaPOS: eljáró_A, S1S0POS: A_A, S1S0POSLemma: A_vezető, S1S0Token: eljáró_vezető, S1Token: eljáró, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, vezető_isGouvernedBy_tisztségviselő: true, vezető_isGouvernedBy_tisztségviselő_ATT: true, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [tisztségviselők, írásbeli, beszámolójában ,.. ]
-
-B0Lemma: tisztségviselő, B0POS: N, B0Token: tisztségviselők, B1Lemma: írásbeli, B1POS: A, B1Token: írásbeli, S0B0Distance: 25, S0B0Lemma: eljáró_tisztségviselő, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_tisztségviselő, S0B0Token: eljáró_tisztségviselők, S0B1Lemma: eljáró_írásbeli, S0B1LemmaPOS: eljáró_A, S0B1POS: A_A, S0B1POSLemma: A_írásbeli, S0B1Token: eljáró_írásbeli, S0B2Lemma: eljáró_beszámoló, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_beszámoló, S0B2Token: eljáró_beszámolójában, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_tisztségviselő, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_tisztségviselő, S1B0Token: bekezdésben_tisztségviselők, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_tisztségviselő, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_tisztségviselő, S1S0B0Token: bekezdésben_eljáró_tisztségviselők, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, tisztségviselők]   B= [írásbeli, beszámolójában, foglaltak ,.. ]
-
-B0Lemma: írásbeli, B0POS: A, B0Token: írásbeli, B1Lemma: beszámoló, B1POS: N, B1Token: beszámolójában, S0B0Distance: 1, S0B0Lemma: tisztségviselő_írásbeli, S0B0LemmaPOS: tisztségviselő_A, S0B0POS: N_A, S0B0POSLemma: N_írásbeli, S0B0Token: tisztségviselők_írásbeli, S0B1Lemma: tisztségviselő_beszámoló, S0B1LemmaPOS: tisztségviselő_N, S0B1POS: N_N, S0B1POSLemma: N_beszámoló, S0B1Token: tisztségviselők_beszámolójában, S0B2Lemma: tisztségviselő_foglalt, S0B2LemmaPOS: tisztségviselő_N, S0B2POS: N_N, S0B2POSLemma: N_foglalt, S0B2Token: tisztségviselők_foglaltak, S0Lemma: tisztségviselő, S0POS: N, S0S1Distance: 25, S0Token: tisztségviselők, S1B0Lemma: eljáró_írásbeli, S1B0LemmaPOS: eljáró_A, S1B0POS: A_A, S1B0POSLemma: A_írásbeli, S1B0Token: eljáró_írásbeli, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_tisztségviselő_írásbeli, S1S0B0LemmaPOS: eljáró_N_A, S1S0B0POS: A_N_A, S1S0B0POSLemma: A_N_írásbeli, S1S0B0Token: eljáró_tisztségviselők_írásbeli, S1S0Lemma: eljáró_tisztségviselő, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_tisztségviselő, S1S0Token: eljáró_tisztségviselők, S1Token: eljáró, StackLength: 3, tisztségviselő_isGouvernedBy_beszámoló: true, tisztségviselő_isGouvernedBy_beszámoló_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [írásbeli, beszámolójában, foglaltak ,.. ]
-
-B0Lemma: írásbeli, B0POS: A, B0Token: írásbeli, B1Lemma: beszámoló, B1POS: N, B1Token: beszámolójában, S0B0Distance: 26, S0B0Lemma: eljáró_írásbeli, S0B0LemmaPOS: eljáró_A, S0B0POS: A_A, S0B0POSLemma: A_írásbeli, S0B0Token: eljáró_írásbeli, S0B1Lemma: eljáró_beszámoló, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_beszámoló, S0B1Token: eljáró_beszámolójában, S0B2Lemma: eljáró_foglalt, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_foglalt, S0B2Token: eljáró_foglaltak, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_írásbeli, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_írásbeli, S1B0Token: bekezdésben_írásbeli, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_írásbeli, S1S0B0LemmaPOS: bekezdés_A_A, S1S0B0POS: N_A_A, S1S0B0POSLemma: N_A_írásbeli, S1S0B0Token: bekezdésben_eljáró_írásbeli, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, írásbeli]   B= [beszámolójában, foglaltak, megalapozottságáról ,.. ]
-
-B0Lemma: beszámoló, B0POS: N, B0Token: beszámolójában, B1Lemma: foglalt, B1POS: N, B1Token: foglaltak, S0B0Distance: 1, S0B0Lemma: írásbeli_beszámoló, S0B0LemmaPOS: írásbeli_N, S0B0POS: A_N, S0B0POSLemma: A_beszámoló, S0B0Token: írásbeli_beszámolójában, S0B1Lemma: írásbeli_foglalt, S0B1LemmaPOS: írásbeli_N, S0B1POS: A_N, S0B1POSLemma: A_foglalt, S0B1Token: írásbeli_foglaltak, S0B2Lemma: írásbeli_megalapozottság, S0B2LemmaPOS: írásbeli_N, S0B2POS: A_N, S0B2POSLemma: A_megalapozottság, S0B2Token: írásbeli_megalapozottságáról, S0Lemma: írásbeli, S0POS: A, S0S1Distance: 26, S0Token: írásbeli, S1B0Lemma: eljáró_beszámoló, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_beszámoló, S1B0Token: eljáró_beszámolójában, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_írásbeli_beszámoló, S1S0B0LemmaPOS: eljáró_A_N, S1S0B0POS: A_A_N, S1S0B0POSLemma: A_A_beszámoló, S1S0B0Token: eljáró_írásbeli_beszámolójában, S1S0Lemma: eljáró_írásbeli, S1S0LemmaPOS: eljáró_A, S1S0POS: A_A, S1S0POSLemma: A_írásbeli, S1S0Token: eljáró_írásbeli, S1Token: eljáró, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, írásbeli_isGouvernedBy_beszámoló: true, írásbeli_isGouvernedBy_beszámoló_ATT: true, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [beszámolójában, foglaltak, megalapozottságáról ,.. ]
-
-B0Lemma: beszámoló, B0POS: N, B0Token: beszámolójában, B1Lemma: foglalt, B1POS: N, B1Token: foglaltak, S0B0Distance: 27, S0B0Lemma: eljáró_beszámoló, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_beszámoló, S0B0Token: eljáró_beszámolójában, S0B1Lemma: eljáró_foglalt, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_foglalt, S0B1Token: eljáró_foglaltak, S0B2Lemma: eljáró_megalapozottság, S0B2LemmaPOS: eljáró_N, S0B2POS: A_N, S0B2POSLemma: A_megalapozottság, S0B2Token: eljáró_megalapozottságáról, S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_beszámoló, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_beszámoló, S1B0Token: bekezdésben_beszámolójában, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_beszámoló, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_beszámoló, S1S0B0Token: bekezdésben_eljáró_beszámolójában, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, beszámolójában]   B= [foglaltak, megalapozottságáról, . ,.. ]
-
-B0Lemma: foglalt, B0POS: N, B0Token: foglaltak, B1Lemma: megalapozottság, B1POS: N, B1Token: megalapozottságáról, S0B0Distance: 1, S0B0Lemma: beszámoló_foglalt, S0B0LemmaPOS: beszámoló_N, S0B0POS: N_N, S0B0POSLemma: N_foglalt, S0B0Token: beszámolójában_foglaltak, S0B1Lemma: beszámoló_megalapozottság, S0B1LemmaPOS: beszámoló_N, S0B1POS: N_N, S0B1POSLemma: N_megalapozottság, S0B1Token: beszámolójában_megalapozottságáról, S0B2Lemma: beszámoló_., S0B2LemmaPOS: beszámoló_., S0B2POS: N_., S0B2POSLemma: N_., S0B2Token: beszámolójában_., S0Lemma: beszámoló, S0POS: N, S0S1Distance: 27, S0Token: beszámolójában, S1B0Lemma: eljáró_foglalt, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_foglalt, S1B0Token: eljáró_foglaltak, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_beszámoló_foglalt, S1S0B0LemmaPOS: eljáró_N_N, S1S0B0POS: A_N_N, S1S0B0POSLemma: A_N_foglalt, S1S0B0Token: eljáró_beszámolójában_foglaltak, S1S0Lemma: eljáró_beszámoló, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_beszámoló, S1S0Token: eljáró_beszámolójában, S1Token: eljáró, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [foglaltak, megalapozottságáról, . ,.. ]
-
-B0Lemma: foglalt, B0POS: N, B0Token: foglaltak, B1Lemma: megalapozottság, B1POS: N, B1Token: megalapozottságáról, S0B0Distance: 28, S0B0Lemma: eljáró_foglalt, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_foglalt, S0B0Token: eljáró_foglaltak, S0B1Lemma: eljáró_megalapozottság, S0B1LemmaPOS: eljáró_N, S0B1POS: A_N, S0B1POSLemma: A_megalapozottság, S0B1Token: eljáró_megalapozottságáról, S0B2Lemma: eljáró_., S0B2LemmaPOS: eljáró_., S0B2POS: A_., S0B2POSLemma: A_., S0B2Token: eljáró_., S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_foglalt, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_foglalt, S1B0Token: bekezdésben_foglaltak, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_foglalt, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_foglalt, S1S0B0Token: bekezdésben_eljáró_foglaltak, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, foglaltak]   B= [megalapozottságáról, . ,.. ]
-
-B0Lemma: megalapozottság, B0POS: N, B0Token: megalapozottságáról, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 1, S0B0Lemma: foglalt_megalapozottság, S0B0LemmaPOS: foglalt_N, S0B0POS: N_N, S0B0POSLemma: N_megalapozottság, S0B0Token: foglaltak_megalapozottságáról, S0B1Lemma: foglalt_., S0B1LemmaPOS: foglalt_., S0B1POS: N_., S0B1POSLemma: N_., S0B1Token: foglaltak_., S0Lemma: foglalt, S0POS: N, S0S1Distance: 28, S0Token: foglaltak, S1B0Lemma: eljáró_megalapozottság, S1B0LemmaPOS: eljáró_N, S1B0POS: A_N, S1B0POSLemma: A_megalapozottság, S1B0Token: eljáró_megalapozottságáról, S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_foglalt_megalapozottság, S1S0B0LemmaPOS: eljáró_N_N, S1S0B0POS: A_N_N, S1S0B0POSLemma: A_N_megalapozottság, S1S0B0Token: eljáró_foglaltak_megalapozottságáról, S1S0Lemma: eljáró_foglalt, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_foglalt, S1S0Token: eljáró_foglaltak, S1Token: eljáró, StackLength: 3, foglalt_isGouvernedBy_megalapozottság: true, foglalt_isGouvernedBy_megalapozottság_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [megalapozottságáról, . ,.. ]
-
-B0Lemma: megalapozottság, B0POS: N, B0Token: megalapozottságáról, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 29, S0B0Lemma: eljáró_megalapozottság, S0B0LemmaPOS: eljáró_N, S0B0POS: A_N, S0B0POSLemma: A_megalapozottság, S0B0Token: eljáró_megalapozottságáról, S0B1Lemma: eljáró_., S0B1LemmaPOS: eljáró_., S0B1POS: A_., S0B1POSLemma: A_., S0B1Token: eljáró_., S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_megalapozottság, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_megalapozottság, S1B0Token: bekezdésben_megalapozottságáról, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_megalapozottság, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_megalapozottság, S1S0B0Token: bekezdésben_eljáró_megalapozottságáról, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, megalapozottságáról]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 1, S0B0Lemma: megalapozottság_., S0B0LemmaPOS: megalapozottság_., S0B0POS: N_., S0B0POSLemma: N_., S0B0Token: megalapozottságáról_., S0Lemma: megalapozottság, S0POS: N, S0S1Distance: 29, S0Token: megalapozottságáról, S1B0Lemma: eljáró_., S1B0LemmaPOS: eljáró_., S1B0POS: A_., S1B0POSLemma: A_., S1B0Token: eljáró_., S1Lemma: eljáró, S1POS: A, S1S0B0Lemma: eljáró_megalapozottság_., S1S0B0LemmaPOS: eljáró_N_., S1S0B0POS: A_N_., S1S0B0POSLemma: A_N_., S1S0B0Token: eljáró_megalapozottságáról_., S1S0Lemma: eljáró_megalapozottság, S1S0LemmaPOS: eljáró_N, S1S0POS: A_N, S1S0POSLemma: A_megalapozottság, S1S0Token: eljáró_megalapozottságáról, S1Token: eljáró, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 30, S0B0Lemma: eljáró_., S0B0LemmaPOS: eljáró_., S0B0POS: A_., S0B0POSLemma: A_., S0B0Token: eljáró_., S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1B0Lemma: bekezdés_., S1B0LemmaPOS: bekezdés_., S1B0POS: N_., S1B0POSLemma: N_., S1B0Token: bekezdésben_., S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_eljáró_., S1S0B0LemmaPOS: bekezdés_A_., S1S0B0POS: N_A_., S1S0B0POSLemma: N_A_., S1S0B0Token: bekezdésben_eljáró_., S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró, .]   B= [ ]
-
-S0Lemma: ., S0POS: ., S0S1Distance: 30, S0Token: ., S1Lemma: eljáró, S1POS: A, S1S0Lemma: eljáró_., S1S0LemmaPOS: eljáró_., S1S0POS: A_., S1S0POSLemma: A_., S1S0Token: eljáró_., S1Token: eljáró, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben, eljáró]   B= [ ]
-
-S0Lemma: eljáró, S0POS: A, S0S1Distance: 3, S0Token: eljáró, S1Lemma: bekezdés, S1POS: N, S1S0Lemma: bekezdés_eljáró, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_eljáró, S1S0Token: bekezdésben_eljáró, S1Token: bekezdésben, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-71- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdésben]   B= [ ]
-
-S0Lemma: bekezdés, S0POS: N, S0Token: bekezdésben, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 206 - 
-A kötvényesek helyzeténél egyébként a Gt. ( új ) 76. § (6) bekezdése már részletesebb útmutatásokat is ad , ezért ezek rendezésénél erre is figyelemmel kell lenni . 
-### Existing MWEs: 
-2- **bekezdése** (VPC)
-1- **útmutatásokat ad** (LVC)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [A, kötvényesek, helyzeténél ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: A, B1Lemma: kötvényes, B1POS: N, B1Token: kötvényesek, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [A]   B= [kötvényesek, helyzeténél, egyébként ,.. ]
-
-B0Lemma: kötvényes, B0POS: N, B0Token: kötvényesek, B1Lemma: helyzet, B1POS: N, B1Token: helyzeténél, S0B0Distance: 1, S0B0Lemma: a_kötvényes, S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_kötvényes, S0B0Token: A_kötvényesek, S0B1Lemma: a_helyzet, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_helyzet, S0B1Token: A_helyzeténél, S0B2Lemma: a_egyébként, S0B2LemmaPOS: a_R, S0B2POS: T_R, S0B2POSLemma: T_egyébként, S0B2Token: A_egyébként, S0Lemma: a, S0POS: T, S0Token: A, StackLength: 1, a_isGouvernedBy_kötvényes: true, a_isGouvernedBy_kötvényes_DET: true, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kötvényesek, helyzeténél, egyébként ,.. ]
-
-B0Lemma: kötvényes, B0POS: N, B0Token: kötvényesek, B1Lemma: helyzet, B1POS: N, B1Token: helyzeténél, transitionHistoryLength1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kötvényesek]   B= [helyzeténél, egyébként, a ,.. ]
-
-B0Lemma: helyzet, B0POS: N, B0Token: helyzeténél, B1Lemma: egyébként, B1POS: R, B1Token: egyébként, S0B0Distance: 1, S0B0Lemma: kötvényes_helyzet, S0B0LemmaPOS: kötvényes_N, S0B0POS: N_N, S0B0POSLemma: N_helyzet, S0B0Token: kötvényesek_helyzeténél, S0B1Lemma: kötvényes_egyébként, S0B1LemmaPOS: kötvényes_R, S0B1POS: N_R, S0B1POSLemma: N_egyébként, S0B1Token: kötvényesek_egyébként, S0B2Lemma: kötvényes_a, S0B2LemmaPOS: kötvényes_T, S0B2POS: N_T, S0B2POSLemma: N_a, S0B2Token: kötvényesek_a, S0Lemma: kötvényes, S0POS: N, S0Token: kötvényesek, StackLength: 1, kötvényes_isGouvernedBy_helyzet: true, kötvényes_isGouvernedBy_helyzet_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [helyzeténél, egyébként, a ,.. ]
-
-B0Lemma: helyzet, B0POS: N, B0Token: helyzeténél, B1Lemma: egyébként, B1POS: R, B1Token: egyébként, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [helyzeténél]   B= [egyébként, a, Gt. ,.. ]
-
-B0Lemma: egyébként, B0POS: R, B0Token: egyébként, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 1, S0B0Lemma: helyzet_egyébként, S0B0LemmaPOS: helyzet_R, S0B0POS: N_R, S0B0POSLemma: N_egyébként, S0B0Token: helyzeténél_egyébként, S0B1Lemma: helyzet_a, S0B1LemmaPOS: helyzet_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: helyzeténél_a, S0B2Lemma: helyzet_Gt., S0B2LemmaPOS: helyzet_N, S0B2POS: N_N, S0B2POSLemma: N_Gt., S0B2Token: helyzeténél_Gt., S0Lemma: helyzet, S0POS: N, S0Token: helyzeténél, StackLength: 1, helyzet_isGouvernedBy_ad: true, helyzet_isGouvernedBy_ad_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [egyébként, a, Gt. ,.. ]
-
-B0Lemma: egyébként, B0POS: R, B0Token: egyébként, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [egyébként]   B= [a, Gt., ( ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Distance: 1, S0B0Lemma: egyébként_a, S0B0LemmaPOS: egyébként_T, S0B0POS: R_T, S0B0POSLemma: R_a, S0B0Token: egyébként_a, S0B1Lemma: egyébként_Gt., S0B1LemmaPOS: egyébként_N, S0B1POS: R_N, S0B1POSLemma: R_Gt., S0B1Token: egyébként_Gt., S0B2Lemma: egyébként_(, S0B2LemmaPOS: egyébként_(, S0B2POS: R_(, S0B2POSLemma: R_(, S0B2Token: egyébként_(, S0Lemma: egyébként, S0POS: R, S0Token: egyébként, StackLength: 1, egyébként_isGouvernedBy_ad: true, egyébként_isGouvernedBy_ad_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Gt., ( ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Gt., (, új ,.. ]
-
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Distance: 1, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: a_(, S0B2Lemma: a_új, S0B2LemmaPOS: a_A, S0B2POS: T_A, S0B2POSLemma: T_új, S0B2Token: a_új, S0Lemma: a, S0POS: T, S0Token: a, StackLength: 1, a_isGouvernedBy_§: true, a_isGouvernedBy_§_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (, új ,.. ]
-
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(, új, ) ,.. ]
-
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_§: true, Gt._isGouvernedBy_§_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Distance: 1, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0B2Lemma: Gt._), S0B2LemmaPOS: Gt._), S0B2POS: N_), S0B2POSLemma: N_), S0B2Token: Gt._), S0Lemma: Gt., S0POS: N, S0Token: Gt., StackLength: 1, hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, új, ) ,.. ]
-
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [új, ), 76. ,.. ]
-
-(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Distance: 1, S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0B2Lemma: (_76., S0B2LemmaPOS: (_M, S0B2POS: (_M, S0B2POSLemma: (_76., S0B2Token: (_76., S0Lemma: (, S0POS: (, S0Token: (, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, ), 76. ,.. ]
-
-B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [), 76., § ,.. ]
-
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 76., B1POS: M, B1Token: 76., S0B0Distance: 1, S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_76., S0B1LemmaPOS: új_M, S0B1POS: A_M, S0B1POSLemma: A_76., S0B1Token: új_76., S0B2Lemma: új_§, S0B2LemmaPOS: új_§, S0B2POS: A_§, S0B2POSLemma: A_§, S0B2Token: új_§, S0Lemma: új, S0POS: A, S0Token: új, StackLength: 1, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), 76., § ,.. ]
-
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 76., B1POS: M, B1Token: 76., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [76., §, (6) ,.. ]
-
-B0Lemma: 76., B0POS: M, B0Token: 76., B1Lemma: §, B1POS: §, B1Token: §, S0B0Distance: 1, S0B0Lemma: )_76., S0B0LemmaPOS: )_M, S0B0POS: )_M, S0B0POSLemma: )_76., S0B0Token: )_76., S0B1Lemma: )_§, S0B1LemmaPOS: )_§, S0B1POS: )_§, S0B1POSLemma: )_§, S0B1Token: )_§, S0B2Lemma: )_(6), S0B2LemmaPOS: )_O, S0B2POS: )_O, S0B2POSLemma: )_(6), S0B2Token: )_(6), S0Lemma: ), S0POS: ), S0Token: ), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [76., §, (6) ,.. ]
-
-B0Lemma: 76., B0POS: M, B0Token: 76., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [76.]   B= [§, (6), bekezdése ,.. ]
-
-76._isGouvernedBy_§: true, 76._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (6), B1POS: O, B1Token: (6), S0B0Distance: 1, S0B0Lemma: 76._§, S0B0LemmaPOS: 76._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 76._§, S0B1Lemma: 76._(6), S0B1LemmaPOS: 76._O, S0B1POS: M_O, S0B1POSLemma: M_(6), S0B1Token: 76._(6), S0B2Lemma: 76._bekezdés, S0B2LemmaPOS: 76._N, S0B2POS: M_N, S0B2POSLemma: M_bekezdés, S0B2Token: 76._bekezdése, S0Lemma: 76., S0POS: M, S0Token: 76., StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (6), bekezdése ,.. ]
-
-B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (6), B1POS: O, B1Token: (6), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(6), bekezdése, már ,.. ]
-
-B0Lemma: (6), B0POS: O, B0Token: (6), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdése, S0B0Distance: 1, S0B0Lemma: §_(6), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(6), S0B0Token: §_(6), S0B1Lemma: §_bekezdés, S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bekezdés, S0B1Token: §_bekezdése, S0B2Lemma: §_már, S0B2LemmaPOS: §_R, S0B2POS: §_R, S0B2POSLemma: §_már, S0B2Token: §_már, S0Lemma: §, S0POS: §, S0Token: §, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bekezdés: true, §_isGouvernedBy_bekezdés_ATT: true, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(6), bekezdése, már ,.. ]
-
-B0Lemma: (6), B0POS: O, B0Token: (6), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdése, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(6)]   B= [bekezdése, már, részletesebb ,.. ]
-
-(6)_isGouvernedBy_bekezdés: true, (6)_isGouvernedBy_bekezdés_ATT: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdése, B1Lemma: már, B1POS: R, B1Token: már, S0B0Distance: 1, S0B0Lemma: (6)_bekezdés, S0B0LemmaPOS: (6)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (6)_bekezdése, S0B1Lemma: (6)_már, S0B1LemmaPOS: (6)_R, S0B1POS: O_R, S0B1POSLemma: O_már, S0B1Token: (6)_már, S0B2Lemma: (6)_részletes, S0B2LemmaPOS: (6)_A, S0B2POS: O_A, S0B2POSLemma: O_részletes, S0B2Token: (6)_részletesebb, S0Lemma: (6), S0POS: O, S0Token: (6), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bekezdése, már, részletesebb ,.. ]
-
-B0Lemma: bekezdés, B0POS: N, B0Token: bekezdése, B1Lemma: már, B1POS: R, B1Token: már, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [már, részletesebb, útmutatásokat ,.. ]
-
-B0Lemma: már, B0POS: R, B0Token: már, B1Lemma: részletes, B1POS: A, B1Token: részletesebb, S0B0Distance: 1, S0B0Lemma: bekezdés_már, S0B0LemmaPOS: bekezdés_R, S0B0POS: N_R, S0B0POSLemma: N_már, S0B0Token: bekezdése_már, S0B1Lemma: bekezdés_részletes, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_részletes, S0B1Token: bekezdése_részletesebb, S0B2Lemma: bekezdés_útmutatás, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_útmutatás, S0B2Token: bekezdése_útmutatásokat, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, bekezdés_isGouvernedBy_ad: true, bekezdés_isGouvernedBy_ad_SUBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, már]   B= [részletesebb, útmutatásokat, is ,.. ]
-
-B0Lemma: részletes, B0POS: A, B0Token: részletesebb, B1Lemma: útmutatás, B1POS: N, B1Token: útmutatásokat, S0B0Distance: 1, S0B0Lemma: már_részletes, S0B0LemmaPOS: már_A, S0B0POS: R_A, S0B0POSLemma: R_részletes, S0B0Token: már_részletesebb, S0B1Lemma: már_útmutatás, S0B1LemmaPOS: már_N, S0B1POS: R_N, S0B1POSLemma: R_útmutatás, S0B1Token: már_útmutatásokat, S0B2Lemma: már_is, S0B2LemmaPOS: már_C, S0B2POS: R_C, S0B2POSLemma: R_is, S0B2Token: már_is, S0Lemma: már, S0POS: R, S0S1Distance: 1, S0Token: már, S1B0Lemma: bekezdés_részletes, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_részletes, S1B0Token: bekezdése_részletesebb, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_már_részletes, S1S0B0LemmaPOS: bekezdés_R_A, S1S0B0POS: N_R_A, S1S0B0POSLemma: N_R_részletes, S1S0B0Token: bekezdése_már_részletesebb, S1S0Lemma: bekezdés_már, S1S0LemmaPOS: bekezdés_R, S1S0POS: N_R, S1S0POSLemma: N_már, S1S0Token: bekezdése_már, S1Token: bekezdése, StackLength: 2, már_isGouvernedBy_ad: true, már_isGouvernedBy_ad_TLOCY: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-27- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [részletesebb, útmutatásokat, is ,.. ]
-
-B0Lemma: részletes, B0POS: A, B0Token: részletesebb, B1Lemma: útmutatás, B1POS: N, B1Token: útmutatásokat, S0B0Distance: 2, S0B0Lemma: bekezdés_részletes, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_részletes, S0B0Token: bekezdése_részletesebb, S0B1Lemma: bekezdés_útmutatás, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_útmutatás, S0B1Token: bekezdése_útmutatásokat, S0B2Lemma: bekezdés_is, S0B2LemmaPOS: bekezdés_C, S0B2POS: N_C, S0B2POSLemma: N_is, S0B2Token: bekezdése_is, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, bekezdés_isGouvernedBy_ad: true, bekezdés_isGouvernedBy_ad_SUBJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, részletesebb]   B= [útmutatásokat, is, ad ,.. ]
-
-B0Lemma: útmutatás, B0POS: N, B0Token: útmutatásokat, B1Lemma: is, B1POS: C, B1Token: is, S0B0Distance: 1, S0B0Lemma: részletes_útmutatás, S0B0LemmaPOS: részletes_N, S0B0POS: A_N, S0B0POSLemma: A_útmutatás, S0B0Token: részletesebb_útmutatásokat, S0B1Lemma: részletes_is, S0B1LemmaPOS: részletes_C, S0B1POS: A_C, S0B1POSLemma: A_is, S0B1Token: részletesebb_is, S0B2Lemma: részletes_ad, S0B2LemmaPOS: részletes_V, S0B2POS: A_V, S0B2POSLemma: A_ad, S0B2Token: részletesebb_ad, S0Lemma: részletes, S0POS: A, S0S1Distance: 2, S0Token: részletesebb, S1B0Lemma: bekezdés_útmutatás, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_útmutatás, S1B0Token: bekezdése_útmutatásokat, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_részletes_útmutatás, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_útmutatás, S1S0B0Token: bekezdése_részletesebb_útmutatásokat, S1S0Lemma: bekezdés_részletes, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_részletes, S1S0Token: bekezdése_részletesebb, S1Token: bekezdése, StackLength: 2, részletes_isGouvernedBy_útmutatás: true, részletes_isGouvernedBy_útmutatás_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [útmutatásokat, is, ad ,.. ]
-
-B0Lemma: útmutatás, B0POS: N, B0Token: útmutatásokat, B1Lemma: is, B1POS: C, B1Token: is, S0B0Distance: 3, S0B0Lemma: bekezdés_útmutatás, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_útmutatás, S0B0Token: bekezdése_útmutatásokat, S0B1Lemma: bekezdés_is, S0B1LemmaPOS: bekezdés_C, S0B1POS: N_C, S0B1POSLemma: N_is, S0B1Token: bekezdése_is, S0B2Lemma: bekezdés_ad, S0B2LemmaPOS: bekezdés_V, S0B2POS: N_V, S0B2POSLemma: N_ad, S0B2Token: bekezdése_ad, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, bekezdés_isGouvernedBy_ad: true, bekezdés_isGouvernedBy_ad_SUBJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat]   B= [is, ad, , ,.. ]
-
-B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: ad, B1POS: V, B1Token: ad, S0B0Distance: 1, S0B0Lemma: útmutatás_is, S0B0LemmaPOS: útmutatás_C, S0B0POS: N_C, S0B0POSLemma: N_is, S0B0Token: útmutatásokat_is, S0B1Lemma: útmutatás_ad, S0B1LemmaPOS: útmutatás_V, S0B1POS: N_V, S0B1POSLemma: N_ad, S0B1Token: útmutatásokat_ad, S0B2Lemma: útmutatás_,, S0B2LemmaPOS: útmutatás_,, S0B2POS: N_,, S0B2POSLemma: N_,, S0B2Token: útmutatásokat_,, S0Lemma: útmutatás, S0POS: N, S0S1Distance: 3, S0Token: útmutatásokat, S1B0Lemma: bekezdés_is, S1B0LemmaPOS: bekezdés_C, S1B0POS: N_C, S1B0POSLemma: N_is, S1B0Token: bekezdése_is, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_útmutatás_is, S1S0B0LemmaPOS: bekezdés_N_C, S1S0B0POS: N_N_C, S1S0B0POSLemma: N_N_is, S1S0B0Token: bekezdése_útmutatásokat_is, S1S0Lemma: bekezdés_útmutatás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_útmutatás, S1S0Token: bekezdése_útmutatásokat, S1Token: bekezdése, StackLength: 2, hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, útmutatás_hasRighDep_CONJ: true, útmutatás_isGouvernedBy_ad: true, útmutatás_isGouvernedBy_ad_OBJ: true, útmutatás_is_hasRighDep_CONJ: true, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, is]   B= [ad, ,, ezért ,.. ]
-
-B0Lemma: ad, B0POS: V, B0Token: ad, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Distance: 1, S0B0Lemma: is_ad, S0B0LemmaPOS: is_V, S0B0POS: C_V, S0B0POSLemma: C_ad, S0B0Token: is_ad, S0B1Lemma: is_,, S0B1LemmaPOS: is_,, S0B1POS: C_,, S0B1POSLemma: C_,, S0B1Token: is_,, S0B2Lemma: is_ezért, S0B2LemmaPOS: is_C, S0B2POS: C_C, S0B2POSLemma: C_ezért, S0B2Token: is_ezért, S0Lemma: is, S0POS: C, S0S1Distance: 1, S0Token: is, S1B0Lemma: útmutatás_ad, S1B0LemmaPOS: útmutatás_V, S1B0POS: N_V, S1B0POSLemma: N_ad, S1B0Token: útmutatásokat_ad, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_is_ad, S1S0B0LemmaPOS: útmutatás_C_V, S1S0B0POS: N_C_V, S1S0B0POSLemma: N_C_ad, S1S0B0Token: útmutatásokat_is_ad, S1S0Lemma: útmutatás_is, S1S0LemmaPOS: útmutatás_C, S1S0POS: N_C, S1S0POSLemma: N_is, S1S0Token: útmutatásokat_is, S1Token: útmutatásokat, StackLength: 3, SyntaxicRelation: +CONJ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat]   B= [ad, ,, ezért ,.. ]
-
-B0Lemma: ad, B0POS: V, B0Token: ad, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Distance: 2, S0B0Lemma: útmutatás_ad, S0B0LemmaPOS: útmutatás_V, S0B0POS: N_V, S0B0POSLemma: N_ad, S0B0Token: útmutatásokat_ad, S0B1Lemma: útmutatás_,, S0B1LemmaPOS: útmutatás_,, S0B1POS: N_,, S0B1POSLemma: N_,, S0B1Token: útmutatásokat_,, S0B2Lemma: útmutatás_ezért, S0B2LemmaPOS: útmutatás_C, S0B2POS: N_C, S0B2POSLemma: N_ezért, S0B2Token: útmutatásokat_ezért, S0Lemma: útmutatás, S0POS: N, S0S1Distance: 3, S0Token: útmutatásokat, S1B0Lemma: bekezdés_ad, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_ad, S1B0Token: bekezdése_ad, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_útmutatás_ad, S1S0B0LemmaPOS: bekezdés_N_V, S1S0B0POS: N_N_V, S1S0B0POSLemma: N_N_ad, S1S0B0Token: bekezdése_útmutatásokat_ad, S1S0Lemma: bekezdés_útmutatás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_útmutatás, S1S0Token: bekezdése_útmutatásokat, S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, útmutatás_isGouvernedBy_ad: true, útmutatás_isGouvernedBy_ad_OBJ: true, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [,, ezért, ezek ,.. ]
-
-B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: ezért, B1POS: C, B1Token: ezért, S0B0Distance: 1, S0B0Lemma: ad_,, S0B0LemmaPOS: ad_,, S0B0POS: V_,, S0B0POSLemma: V_,, S0B0Token: ad_,, S0B1Lemma: ad_ezért, S0B1LemmaPOS: ad_C, S0B1POS: V_C, S0B1POSLemma: V_ezért, S0B1Token: ad_ezért, S0B2Lemma: ad_ez, S0B2LemmaPOS: ad_P, S0B2POS: V_P, S0B2POSLemma: V_ez, S0B2Token: ad_ezek, S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_,, S1B0LemmaPOS: útmutatás_,, S1B0POS: N_,, S1B0POSLemma: N_,, S1B0Token: útmutatásokat_,, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_,, S1S0B0LemmaPOS: útmutatás_V_,, S1S0B0POS: N_V_,, S1S0B0POSLemma: N_V_,, S1S0B0Token: útmutatásokat_ad_,, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, ,]   B= [ezért, ezek, rendezésénél ,.. ]
-
-B0Lemma: ezért, B0POS: C, B0Token: ezért, B1Lemma: ez, B1POS: P, B1Token: ezek, S0B0Distance: 1, S0B0Lemma: ,_ezért, S0B0LemmaPOS: ,_C, S0B0POS: ,_C, S0B0POSLemma: ,_ezért, S0B0Token: ,_ezért, S0B1Lemma: ,_ez, S0B1LemmaPOS: ,_P, S0B1POS: ,_P, S0B1POSLemma: ,_ez, S0B1Token: ,_ezek, S0B2Lemma: ,_rendezés, S0B2LemmaPOS: ,_N, S0B2POS: ,_N, S0B2POSLemma: ,_rendezés, S0B2Token: ,_rendezésénél, S0Lemma: ,, S0POS: ,, S0S1Distance: 1, S0Token: ,, S1B0Lemma: ad_ezért, S1B0LemmaPOS: ad_C, S1B0POS: V_C, S1B0POSLemma: V_ezért, S1B0Token: ad_ezért, S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_,_ezért, S1S0B0LemmaPOS: ad_,_C, S1S0B0POS: V_,_C, S1S0B0POSLemma: V_,_ezért, S1S0B0Token: ad_,_ezért, S1S0Lemma: ad_,, S1S0LemmaPOS: ad_,, S1S0POS: V_,, S1S0POSLemma: V_,, S1S0Token: ad_,, S1Token: ad, StackLength: 4, SyntaxicRelation: +PUNCT, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-35- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [ezért, ezek, rendezésénél ,.. ]
-
-B0Lemma: ezért, B0POS: C, B0Token: ezért, B1Lemma: ez, B1POS: P, B1Token: ezek, S0B0Distance: 2, S0B0Lemma: ad_ezért, S0B0LemmaPOS: ad_C, S0B0POS: V_C, S0B0POSLemma: V_ezért, S0B0Token: ad_ezért, S0B1Lemma: ad_ez, S0B1LemmaPOS: ad_P, S0B1POS: V_P, S0B1POSLemma: V_ez, S0B1Token: ad_ezek, S0B2Lemma: ad_rendezés, S0B2LemmaPOS: ad_N, S0B2POS: V_N, S0B2POSLemma: V_rendezés, S0B2Token: ad_rendezésénél, S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_ezért, S1B0LemmaPOS: útmutatás_C, S1B0POS: N_C, S1B0POSLemma: N_ezért, S1B0Token: útmutatásokat_ezért, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_ezért, S1S0B0LemmaPOS: útmutatás_V_C, S1S0B0POS: N_V_C, S1S0B0POSLemma: N_V_ezért, S1S0B0Token: útmutatásokat_ad_ezért, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, ezért]   B= [ezek, rendezésénél, erre ,.. ]
-
-B0Lemma: ez, B0POS: P, B0Token: ezek, B1Lemma: rendezés, B1POS: N, B1Token: rendezésénél, S0B0Distance: 1, S0B0Lemma: ezért_ez, S0B0LemmaPOS: ezért_P, S0B0POS: C_P, S0B0POSLemma: C_ez, S0B0Token: ezért_ezek, S0B1Lemma: ezért_rendezés, S0B1LemmaPOS: ezért_N, S0B1POS: C_N, S0B1POSLemma: C_rendezés, S0B1Token: ezért_rendezésénél, S0B2Lemma: ezért_ez, S0B2LemmaPOS: ezért_P, S0B2POS: C_P, S0B2POSLemma: C_ez, S0B2Token: ezért_erre, S0Lemma: ezért, S0POS: C, S0S1Distance: 2, S0Token: ezért, S1B0Lemma: ad_ez, S1B0LemmaPOS: ad_P, S1B0POS: V_P, S1B0POSLemma: V_ez, S1B0Token: ad_ezek, S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_ezért_ez, S1S0B0LemmaPOS: ad_C_P, S1S0B0POS: V_C_P, S1S0B0POSLemma: V_C_ez, S1S0B0Token: ad_ezért_ezek, S1S0Lemma: ad_ezért, S1S0LemmaPOS: ad_C, S1S0POS: V_C, S1S0POSLemma: V_ezért, S1S0Token: ad_ezért, S1Token: ad, StackLength: 4, SyntaxicRelation: +CONJ, ezért_hasRighDep_COORD: true, ezért_kell_hasRighDep_COORD: true, hasRighDep_COORD: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-37- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [ezek, rendezésénél, erre ,.. ]
-
-B0Lemma: ez, B0POS: P, B0Token: ezek, B1Lemma: rendezés, B1POS: N, B1Token: rendezésénél, S0B0Distance: 3, S0B0Lemma: ad_ez, S0B0LemmaPOS: ad_P, S0B0POS: V_P, S0B0POSLemma: V_ez, S0B0Token: ad_ezek, S0B1Lemma: ad_rendezés, S0B1LemmaPOS: ad_N, S0B1POS: V_N, S0B1POSLemma: V_rendezés, S0B1Token: ad_rendezésénél, S0B2Lemma: ad_ez, S0B2LemmaPOS: ad_P, S0B2POS: V_P, S0B2POSLemma: V_ez, S0B2Token: ad_erre, S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_ez, S1B0LemmaPOS: útmutatás_P, S1B0POS: N_P, S1B0POSLemma: N_ez, S1B0Token: útmutatásokat_ezek, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_ez, S1S0B0LemmaPOS: útmutatás_V_P, S1S0B0POS: N_V_P, S1S0B0POSLemma: N_V_ez, S1S0B0Token: útmutatásokat_ad_ezek, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, ezek]   B= [rendezésénél, erre, is ,.. ]
-
-B0Lemma: rendezés, B0POS: N, B0Token: rendezésénél, B1Lemma: ez, B1POS: P, B1Token: erre, S0B0Distance: 1, S0B0Lemma: ez_rendezés, S0B0LemmaPOS: ez_N, S0B0POS: P_N, S0B0POSLemma: P_rendezés, S0B0Token: ezek_rendezésénél, S0B1Lemma: ez_ez, S0B1LemmaPOS: ez_P, S0B1POS: P_P, S0B1POSLemma: P_ez, S0B1Token: ezek_erre, S0B2Lemma: ez_is, S0B2LemmaPOS: ez_C, S0B2POS: P_C, S0B2POSLemma: P_is, S0B2Token: ezek_is, S0Lemma: ez, S0POS: P, S0S1Distance: 3, S0Token: ezek, S1B0Lemma: ad_rendezés, S1B0LemmaPOS: ad_N, S1B0POS: V_N, S1B0POSLemma: V_rendezés, S1B0Token: ad_rendezésénél, S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_ez_rendezés, S1S0B0LemmaPOS: ad_P_N, S1S0B0POS: V_P_N, S1S0B0POSLemma: V_P_rendezés, S1S0B0Token: ad_ezek_rendezésénél, S1S0Lemma: ad_ez, S1S0LemmaPOS: ad_P, S1S0POS: V_P, S1S0POSLemma: V_ez, S1S0Token: ad_ezek, S1Token: ad, StackLength: 4, ez_isGouvernedBy_rendezés: true, ez_isGouvernedBy_rendezés_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-39- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [rendezésénél, erre, is ,.. ]
-
-B0Lemma: rendezés, B0POS: N, B0Token: rendezésénél, B1Lemma: ez, B1POS: P, B1Token: erre, S0B0Distance: 4, S0B0Lemma: ad_rendezés, S0B0LemmaPOS: ad_N, S0B0POS: V_N, S0B0POSLemma: V_rendezés, S0B0Token: ad_rendezésénél, S0B1Lemma: ad_ez, S0B1LemmaPOS: ad_P, S0B1POS: V_P, S0B1POSLemma: V_ez, S0B1Token: ad_erre, S0B2Lemma: ad_is, S0B2LemmaPOS: ad_C, S0B2POS: V_C, S0B2POSLemma: V_is, S0B2Token: ad_is, S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_rendezés, S1B0LemmaPOS: útmutatás_N, S1B0POS: N_N, S1B0POSLemma: N_rendezés, S1B0Token: útmutatásokat_rendezésénél, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_rendezés, S1S0B0LemmaPOS: útmutatás_V_N, S1S0B0POS: N_V_N, S1S0B0POSLemma: N_V_rendezés, S1S0B0Token: útmutatásokat_ad_rendezésénél, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, rendezésénél]   B= [erre, is, figyelemmel ,.. ]
-
-B0Lemma: ez, B0POS: P, B0Token: erre, B1Lemma: is, B1POS: C, B1Token: is, S0B0Distance: 1, S0B0Lemma: rendezés_ez, S0B0LemmaPOS: rendezés_P, S0B0POS: N_P, S0B0POSLemma: N_ez, S0B0Token: rendezésénél_erre, S0B1Lemma: rendezés_is, S0B1LemmaPOS: rendezés_C, S0B1POS: N_C, S0B1POSLemma: N_is, S0B1Token: rendezésénél_is, S0B2Lemma: rendezés_figyelem, S0B2LemmaPOS: rendezés_N, S0B2POS: N_N, S0B2POSLemma: N_figyelem, S0B2Token: rendezésénél_figyelemmel, S0Lemma: rendezés, S0POS: N, S0S1Distance: 4, S0Token: rendezésénél, S1B0Lemma: ad_ez, S1B0LemmaPOS: ad_P, S1B0POS: V_P, S1B0POSLemma: V_ez, S1B0Token: ad_erre, S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_rendezés_ez, S1S0B0LemmaPOS: ad_N_P, S1S0B0POS: V_N_P, S1S0B0POSLemma: V_N_ez, S1S0B0Token: ad_rendezésénél_erre, S1S0Lemma: ad_rendezés, S1S0LemmaPOS: ad_N, S1S0POS: V_N, S1S0POSLemma: V_rendezés, S1S0Token: ad_rendezésénél, S1Token: ad, StackLength: 4, rendezés_isGouvernedBy_lesz: true, rendezés_isGouvernedBy_lesz_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-41- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [erre, is, figyelemmel ,.. ]
-
-B0Lemma: ez, B0POS: P, B0Token: erre, B1Lemma: is, B1POS: C, B1Token: is, S0B0Distance: 5, S0B0Lemma: ad_ez, S0B0LemmaPOS: ad_P, S0B0POS: V_P, S0B0POSLemma: V_ez, S0B0Token: ad_erre, S0B1Lemma: ad_is, S0B1LemmaPOS: ad_C, S0B1POS: V_C, S0B1POSLemma: V_is, S0B1Token: ad_is, S0B2Lemma: ad_figyelem, S0B2LemmaPOS: ad_N, S0B2POS: V_N, S0B2POSLemma: V_figyelem, S0B2Token: ad_figyelemmel, S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_ez, S1B0LemmaPOS: útmutatás_P, S1B0POS: N_P, S1B0POSLemma: N_ez, S1B0Token: útmutatásokat_erre, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_ez, S1S0B0LemmaPOS: útmutatás_V_P, S1S0B0POS: N_V_P, S1S0B0POSLemma: N_V_ez, S1S0B0Token: útmutatásokat_ad_erre, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, erre]   B= [is, figyelemmel, kell ,.. ]
-
-B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: figyelem, B1POS: N, B1Token: figyelemmel, S0B0Distance: 1, S0B0Lemma: ez_is, S0B0LemmaPOS: ez_C, S0B0POS: P_C, S0B0POSLemma: P_is, S0B0Token: erre_is, S0B1Lemma: ez_figyelem, S0B1LemmaPOS: ez_N, S0B1POS: P_N, S0B1POSLemma: P_figyelem, S0B1Token: erre_figyelemmel, S0B2Lemma: ez_kell, S0B2LemmaPOS: ez_V, S0B2POS: P_V, S0B2POSLemma: P_kell, S0B2Token: erre_kell, S0Lemma: ez, S0POS: P, S0S1Distance: 5, S0Token: erre, S1B0Lemma: ad_is, S1B0LemmaPOS: ad_C, S1B0POS: V_C, S1B0POSLemma: V_is, S1B0Token: ad_is, S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_ez_is, S1S0B0LemmaPOS: ad_P_C, S1S0B0POS: V_P_C, S1S0B0POSLemma: V_P_is, S1S0B0Token: ad_erre_is, S1S0Lemma: ad_ez, S1S0LemmaPOS: ad_P, S1S0POS: V_P, S1S0POSLemma: V_ez, S1S0Token: ad_erre, S1Token: ad, StackLength: 4, ez_hasRighDep_CONJ: true, ez_isGouvernedBy_lesz: true, ez_isGouvernedBy_lesz_OBL: true, ez_is_hasRighDep_CONJ: true, hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-43- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [is, figyelemmel, kell ,.. ]
-
-B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: figyelem, B1POS: N, B1Token: figyelemmel, S0B0Distance: 6, S0B0Lemma: ad_is, S0B0LemmaPOS: ad_C, S0B0POS: V_C, S0B0POSLemma: V_is, S0B0Token: ad_is, S0B1Lemma: ad_figyelem, S0B1LemmaPOS: ad_N, S0B1POS: V_N, S0B1POSLemma: V_figyelem, S0B1Token: ad_figyelemmel, S0B2Lemma: ad_kell, S0B2LemmaPOS: ad_V, S0B2POS: V_V, S0B2POSLemma: V_kell, S0B2Token: ad_kell, S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_is, S1B0LemmaPOS: útmutatás_C, S1B0POS: N_C, S1B0POSLemma: N_is, S1B0Token: útmutatásokat_is, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_is, S1S0B0LemmaPOS: útmutatás_V_C, S1S0B0POS: N_V_C, S1S0B0POSLemma: N_V_is, S1S0B0Token: útmutatásokat_ad_is, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, is]   B= [figyelemmel, kell, lenni ,.. ]
-
-B0Lemma: figyelem, B0POS: N, B0Token: figyelemmel, B1Lemma: kell, B1POS: V, B1Token: kell, S0B0Distance: 1, S0B0Lemma: is_figyelem, S0B0LemmaPOS: is_N, S0B0POS: C_N, S0B0POSLemma: C_figyelem, S0B0Token: is_figyelemmel, S0B1Lemma: is_kell, S0B1LemmaPOS: is_V, S0B1POS: C_V, S0B1POSLemma: C_kell, S0B1Token: is_kell, S0B2Lemma: is_lesz, S0B2LemmaPOS: is_V, S0B2POS: C_V, S0B2POSLemma: C_lesz, S0B2Token: is_lenni, S0Lemma: is, S0POS: C, S0S1Distance: 6, S0Token: is, S1B0Lemma: ad_figyelem, S1B0LemmaPOS: ad_N, S1B0POS: V_N, S1B0POSLemma: V_figyelem, S1B0Token: ad_figyelemmel, S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_is_figyelem, S1S0B0LemmaPOS: ad_C_N, S1S0B0POS: V_C_N, S1S0B0POSLemma: V_C_figyelem, S1S0B0Token: ad_is_figyelemmel, S1S0Lemma: ad_is, S1S0LemmaPOS: ad_C, S1S0POS: V_C, S1S0POSLemma: V_is, S1S0Token: ad_is, S1Token: ad, StackLength: 4, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-45- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [figyelemmel, kell, lenni ,.. ]
-
-B0Lemma: figyelem, B0POS: N, B0Token: figyelemmel, B1Lemma: kell, B1POS: V, B1Token: kell, S0B0Distance: 7, S0B0Lemma: ad_figyelem, S0B0LemmaPOS: ad_N, S0B0POS: V_N, S0B0POSLemma: V_figyelem, S0B0Token: ad_figyelemmel, S0B1Lemma: ad_kell, S0B1LemmaPOS: ad_V, S0B1POS: V_V, S0B1POSLemma: V_kell, S0B1Token: ad_kell, S0B2Lemma: ad_lesz, S0B2LemmaPOS: ad_V, S0B2POS: V_V, S0B2POSLemma: V_lesz, S0B2Token: ad_lenni, S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_figyelem, S1B0LemmaPOS: útmutatás_N, S1B0POS: N_N, S1B0POSLemma: N_figyelem, S1B0Token: útmutatásokat_figyelemmel, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_figyelem, S1S0B0LemmaPOS: útmutatás_V_N, S1S0B0POS: N_V_N, S1S0B0POSLemma: N_V_figyelem, S1S0B0Token: útmutatásokat_ad_figyelemmel, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, figyelemmel]   B= [kell, lenni, . ,.. ]
-
-B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: lesz, B1POS: V, B1Token: lenni, S0B0Distance: 1, S0B0Lemma: figyelem_kell, S0B0LemmaPOS: figyelem_V, S0B0POS: N_V, S0B0POSLemma: N_kell, S0B0Token: figyelemmel_kell, S0B1Lemma: figyelem_lesz, S0B1LemmaPOS: figyelem_V, S0B1POS: N_V, S0B1POSLemma: N_lesz, S0B1Token: figyelemmel_lenni, S0B2Lemma: figyelem_., S0B2LemmaPOS: figyelem_., S0B2POS: N_., S0B2POSLemma: N_., S0B2Token: figyelemmel_., S0Lemma: figyelem, S0POS: N, S0S1Distance: 7, S0Token: figyelemmel, S1B0Lemma: ad_kell, S1B0LemmaPOS: ad_V, S1B0POS: V_V, S1B0POSLemma: V_kell, S1B0Token: ad_kell, S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_figyelem_kell, S1S0B0LemmaPOS: ad_N_V, S1S0B0POS: V_N_V, S1S0B0POSLemma: V_N_kell, S1S0B0Token: ad_figyelemmel_kell, S1S0Lemma: ad_figyelem, S1S0LemmaPOS: ad_N, S1S0POS: V_N, S1S0POSLemma: V_figyelem, S1S0Token: ad_figyelemmel, S1Token: ad, StackLength: 4, figyelem_isGouvernedBy_lesz: true, figyelem_isGouvernedBy_lesz_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-47- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [kell, lenni, . ,.. ]
-
-B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: lesz, B1POS: V, B1Token: lenni, S0B0Distance: 8, S0B0Lemma: ad_kell, S0B0LemmaPOS: ad_V, S0B0POS: V_V, S0B0POSLemma: V_kell, S0B0Token: ad_kell, S0B1Lemma: ad_lesz, S0B1LemmaPOS: ad_V, S0B1POS: V_V, S0B1POSLemma: V_lesz, S0B1Token: ad_lenni, S0B2Lemma: ad_., S0B2LemmaPOS: ad_., S0B2POS: V_., S0B2POSLemma: V_., S0B2Token: ad_., S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_kell, S1B0LemmaPOS: útmutatás_V, S1B0POS: N_V, S1B0POSLemma: N_kell, S1B0Token: útmutatásokat_kell, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_kell, S1S0B0LemmaPOS: útmutatás_V_V, S1S0B0POS: N_V_V, S1S0B0POSLemma: N_V_kell, S1S0B0Token: útmutatásokat_ad_kell, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, kell]   B= [lenni, . ,.. ]
-
-B0Lemma: lesz, B0POS: V, B0Token: lenni, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 1, S0B0Lemma: kell_lesz, S0B0LemmaPOS: kell_V, S0B0POS: V_V, S0B0POSLemma: V_lesz, S0B0Token: kell_lenni, S0B1Lemma: kell_., S0B1LemmaPOS: kell_., S0B1POS: V_., S0B1POSLemma: V_., S0B1Token: kell_., S0Lemma: kell, S0POS: V, S0S1Distance: 8, S0Token: kell, S1B0Lemma: ad_lesz, S1B0LemmaPOS: ad_V, S1B0POS: V_V, S1B0POSLemma: V_lesz, S1B0Token: ad_lenni, S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_kell_lesz, S1S0B0LemmaPOS: ad_V_V, S1S0B0POS: V_V_V, S1S0B0POSLemma: V_V_lesz, S1S0B0Token: ad_kell_lenni, S1S0Lemma: ad_kell, S1S0LemmaPOS: ad_V, S1S0POS: V_V, S1S0POSLemma: V_kell, S1S0Token: ad_kell, S1Token: ad, StackLength: 4, hasRighDep_INF: true, kell_hasRighDep_INF: true, kell_lesz_hasRighDep_INF: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-49- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [lenni, . ,.. ]
-
-B0Lemma: lesz, B0POS: V, B0Token: lenni, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 9, S0B0Lemma: ad_lesz, S0B0LemmaPOS: ad_V, S0B0POS: V_V, S0B0POSLemma: V_lesz, S0B0Token: ad_lenni, S0B1Lemma: ad_., S0B1LemmaPOS: ad_., S0B1POS: V_., S0B1POSLemma: V_., S0B1Token: ad_., S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_lesz, S1B0LemmaPOS: útmutatás_V, S1B0POS: N_V, S1B0POSLemma: N_lesz, S1B0Token: útmutatásokat_lenni, S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_lesz, S1S0B0LemmaPOS: útmutatás_V_V, S1S0B0POS: N_V_V, S1S0B0POSLemma: N_V_lesz, S1S0B0Token: útmutatásokat_ad_lenni, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, lenni]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 1, S0B0Lemma: lesz_., S0B0LemmaPOS: lesz_., S0B0POS: V_., S0B0POSLemma: V_., S0B0Token: lenni_., S0Lemma: lesz, S0POS: V, S0S1Distance: 9, S0Token: lenni, S1B0Lemma: ad_., S1B0LemmaPOS: ad_., S1B0POS: V_., S1B0POSLemma: V_., S1B0Token: ad_., S1Lemma: ad, S1POS: V, S1S0B0Lemma: ad_lesz_., S1S0B0LemmaPOS: ad_V_., S1S0B0POS: V_V_., S1S0B0POSLemma: V_V_., S1S0B0Token: ad_lenni_., S1S0Lemma: ad_lesz, S1S0LemmaPOS: ad_V, S1S0POS: V_V, S1S0POSLemma: V_lesz, S1S0Token: ad_lenni, S1Token: ad, StackLength: 4, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-51- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 10, S0B0Lemma: ad_., S0B0LemmaPOS: ad_., S0B0POS: V_., S0B0POSLemma: V_., S0B0Token: ad_., S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1B0Lemma: útmutatás_., S1B0LemmaPOS: útmutatás_., S1B0POS: N_., S1B0POSLemma: N_., S1B0Token: útmutatásokat_., S1Lemma: útmutatás, S1POS: N, S1S0B0Lemma: útmutatás_ad_., S1S0B0LemmaPOS: útmutatás_V_., S1S0B0POS: N_V_., S1S0B0POSLemma: N_V_., S1S0B0Token: útmutatásokat_ad_., S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad, .]   B= [ ]
-
-S0Lemma: ., S0POS: ., S0S1Distance: 10, S0Token: ., S1Lemma: ad, S1POS: V, S1S0Lemma: ad_., S1S0LemmaPOS: ad_., S1S0POS: V_., S1S0POSLemma: V_., S1S0Token: ad_., S1Token: ad, StackLength: 4, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-53- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat, ad]   B= [ ]
-
-S0Lemma: ad, S0POS: V, S0S1Distance: 2, S0Token: ad, S1Lemma: útmutatás, S1POS: N, S1S0Lemma: útmutatás_ad, S1S0LemmaPOS: útmutatás_V, S1S0POS: N_V, S1S0POSLemma: N_ad, S1S0Token: útmutatásokat_ad, S1Token: útmutatásokat, StackLength: 3, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, útmutatásokat]   B= [ ]
-
-S0Lemma: útmutatás, S0POS: N, S0S1Distance: 3, S0Token: útmutatásokat, S1Lemma: bekezdés, S1POS: N, S1S0Lemma: bekezdés_útmutatás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_útmutatás, S1S0Token: bekezdése_útmutatásokat, S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-55- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [ ]
-
-S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 22, transitionHistoryLength3: 220, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 209 - 
-Ezért a Gt. ( új ) 76. § (3) bekezdése alapján az egyesülő Gt. ( új ) vezető tisztségviselőinek az egyesülési szerződés elkészítésével egyidejűleg új szabályként írásbeli beszámolót is kell készíteniük . 
-### Existing MWEs: 
-1- **bekezdése** (VPC)
-2- **beszámolót** (VPC)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ezért, a, Gt. ,.. ]
-
-B0Lemma: ezért, B0POS: C, B0Token: Ezért, B1Lemma: a, B1POS: T, B1Token: a, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ezért]   B= [a, Gt., ( ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Distance: 1, S0B0Lemma: ezért_a, S0B0LemmaPOS: ezért_T, S0B0POS: C_T, S0B0POSLemma: C_a, S0B0Token: Ezért_a, S0B1Lemma: ezért_Gt., S0B1LemmaPOS: ezért_N, S0B1POS: C_N, S0B1POSLemma: C_Gt., S0B1Token: Ezért_Gt., S0B2Lemma: ezért_(, S0B2LemmaPOS: ezért_(, S0B2POS: C_(, S0B2POSLemma: C_(, S0B2Token: Ezért_(, S0Lemma: ezért, S0POS: C, S0Token: Ezért, StackLength: 1, ezért_isGouvernedBy_kell: true, ezért_isGouvernedBy_kell_CONJ: true, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Gt., ( ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., transitionHistoryLength1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Gt., (, új ,.. ]
-
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Distance: 1, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: a_(, S0B2Lemma: a_új, S0B2LemmaPOS: a_A, S0B2POS: T_A, S0B2POSLemma: T_új, S0B2Token: a_új, S0Lemma: a, S0POS: T, S0Token: a, StackLength: 1, a_isGouvernedBy_§: true, a_isGouvernedBy_§_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (, új ,.. ]
-
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(, új, ) ,.. ]
-
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_§: true, Gt._isGouvernedBy_§_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Distance: 1, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0B2Lemma: Gt._), S0B2LemmaPOS: Gt._), S0B2POS: N_), S0B2POSLemma: N_), S0B2Token: Gt._), S0Lemma: Gt., S0POS: N, S0Token: Gt., StackLength: 1, hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, új, ) ,.. ]
-
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [új, ), 76. ,.. ]
-
-(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Distance: 1, S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0B2Lemma: (_76., S0B2LemmaPOS: (_M, S0B2POS: (_M, S0B2POSLemma: (_76., S0B2Token: (_76., S0Lemma: (, S0POS: (, S0Token: (, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, ), 76. ,.. ]
-
-B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [), 76., § ,.. ]
-
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 76., B1POS: M, B1Token: 76., S0B0Distance: 1, S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_76., S0B1LemmaPOS: új_M, S0B1POS: A_M, S0B1POSLemma: A_76., S0B1Token: új_76., S0B2Lemma: új_§, S0B2LemmaPOS: új_§, S0B2POS: A_§, S0B2POSLemma: A_§, S0B2Token: új_§, S0Lemma: új, S0POS: A, S0Token: új, StackLength: 1, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), 76., § ,.. ]
-
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 76., B1POS: M, B1Token: 76., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [76., §, (3) ,.. ]
-
-B0Lemma: 76., B0POS: M, B0Token: 76., B1Lemma: §, B1POS: §, B1Token: §, S0B0Distance: 1, S0B0Lemma: )_76., S0B0LemmaPOS: )_M, S0B0POS: )_M, S0B0POSLemma: )_76., S0B0Token: )_76., S0B1Lemma: )_§, S0B1LemmaPOS: )_§, S0B1POS: )_§, S0B1POSLemma: )_§, S0B1Token: )_§, S0B2Lemma: )_(3), S0B2LemmaPOS: )_O, S0B2POS: )_O, S0B2POSLemma: )_(3), S0B2Token: )_(3), S0Lemma: ), S0POS: ), S0Token: ), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [76., §, (3) ,.. ]
-
-B0Lemma: 76., B0POS: M, B0Token: 76., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [76.]   B= [§, (3), bekezdése ,.. ]
-
-76._isGouvernedBy_§: true, 76._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (3), B1POS: O, B1Token: (3), S0B0Distance: 1, S0B0Lemma: 76._§, S0B0LemmaPOS: 76._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 76._§, S0B1Lemma: 76._(3), S0B1LemmaPOS: 76._O, S0B1POS: M_O, S0B1POSLemma: M_(3), S0B1Token: 76._(3), S0B2Lemma: 76._bekezdés, S0B2LemmaPOS: 76._N, S0B2POS: M_N, S0B2POSLemma: M_bekezdés, S0B2Token: 76._bekezdése, S0Lemma: 76., S0POS: M, S0Token: 76., StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (3), bekezdése ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (3), bek. ,.. ]
 
 B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (3), B1POS: O, B1Token: (3), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(3), bekezdése, alapján ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(3), bek., és ,.. ]
 
-B0Lemma: (3), B0POS: O, B0Token: (3), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdése, S0B0Distance: 1, S0B0Lemma: §_(3), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(3), S0B0Token: §_(3), S0B1Lemma: §_bekezdés, S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bekezdés, S0B1Token: §_bekezdése, S0B2Lemma: §_alap, S0B2LemmaPOS: §_N, S0B2POS: §_N, S0B2POSLemma: §_alap, S0B2Token: §_alapján, S0Lemma: §, S0POS: §, S0Token: §, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bekezdés: true, §_isGouvernedBy_bekezdés_ATT: true, 
+B0Lemma: (3), B0POS: O, B0Token: (3), B1Lemma: bek., B1POS: N, B1Token: bek., S0B0Lemma: §_(3), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(3), S0B0Token: §_(3), S0B1Lemma: §_bek., S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bek., S0B1Token: §_bek., S0Lemma: §, S0POS: §, S0Token: §, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bek.: true, §_isGouvernedBy_bek._ATT: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(3), bekezdése, alapján ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(3), bek., és ,.. ]
 
-B0Lemma: (3), B0POS: O, B0Token: (3), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdése, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: (3), B0POS: O, B0Token: (3), B1Lemma: bek., B1POS: N, B1Token: bek., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(3)]   B= [bekezdése, alapján, az ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(3)]   B= [bek., és, a ,.. ]
 
-(3)_isGouvernedBy_bekezdés: true, (3)_isGouvernedBy_bekezdés_ATT: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdése, B1Lemma: alap, B1POS: N, B1Token: alapján, S0B0Distance: 1, S0B0Lemma: (3)_bekezdés, S0B0LemmaPOS: (3)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (3)_bekezdése, S0B1Lemma: (3)_alap, S0B1LemmaPOS: (3)_N, S0B1POS: O_N, S0B1POSLemma: O_alap, S0B1Token: (3)_alapján, S0B2Lemma: (3)_az, S0B2LemmaPOS: (3)_T, S0B2POS: O_T, S0B2POSLemma: O_az, S0B2Token: (3)_az, S0Lemma: (3), S0POS: O, S0Token: (3), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+(3)_isGouvernedBy_bek.: true, (3)_isGouvernedBy_bek._ATT: true, B0Lemma: bek., B0POS: N, B0Token: bek., B1Lemma: és, B1POS: C, B1Token: és, S0B0Lemma: (3)_bek., S0B0LemmaPOS: (3)_N, S0B0POS: O_N, S0B0POSLemma: O_bek., S0B0Token: (3)_bek., S0B1Lemma: (3)_és, S0B1LemmaPOS: (3)_C, S0B1POS: O_C, S0B1POSLemma: O_és, S0B1Token: (3)_és, S0Lemma: (3), S0POS: O, S0Token: (3), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bekezdése, alapján, az ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bek., és, a ,.. ]
 
-B0Lemma: bekezdés, B0POS: N, B0Token: bekezdése, B1Lemma: alap, B1POS: N, B1Token: alapján, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: bek., B0POS: N, B0Token: bek., B1Lemma: és, B1POS: C, B1Token: és, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [alapján, az, egyesülő ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bek.]   B= [és, a, 296. ,.. ]
 
-B0Lemma: alap, B0POS: N, B0Token: alapján, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 1, S0B0Lemma: bekezdés_alap, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_alap, S0B0Token: bekezdése_alapján, S0B1Lemma: bekezdés_az, S0B1LemmaPOS: bekezdés_T, S0B1POS: N_T, S0B1POSLemma: N_az, S0B1Token: bekezdése_az, S0B2Lemma: bekezdés_egyesülő, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_egyesülő, S0B2Token: bekezdése_egyesülő, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, bekezdés_isGouvernedBy_alap: true, bekezdés_isGouvernedBy_alap_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: és, B0POS: C, B0Token: és, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: bek._és, S0B0LemmaPOS: bek._C, S0B0POS: N_C, S0B0POSLemma: N_és, S0B0Token: bek._és, S0B1Lemma: bek._a, S0B1LemmaPOS: bek._T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: bek._a, S0Lemma: bek., S0POS: N, S0Token: bek., bek._hasRighDep_CONJ: true, bek._isGouvernedBy_előírt: true, bek._isGouvernedBy_előírt_OBL: true, bek._és_hasRighDep_CONJ: true, hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, alapján]   B= [az, egyesülő, Gt. ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [és, a, 296. ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülő, B1POS: A, B1Token: egyesülő, S0B0Distance: 1, S0B0Lemma: alap_az, S0B0LemmaPOS: alap_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: alapján_az, S0B1Lemma: alap_egyesülő, S0B1LemmaPOS: alap_A, S0B1POS: N_A, S0B1POSLemma: N_egyesülő, S0B1Token: alapján_egyesülő, S0B2Lemma: alap_Gt., S0B2LemmaPOS: alap_N, S0B2POS: N_N, S0B2POSLemma: N_Gt., S0B2Token: alapján_Gt., S0Lemma: alap, S0POS: N, S0S1Distance: 1, S0Token: alapján, S1B0Lemma: bekezdés_az, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: bekezdése_az, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_alap_az, S1S0B0LemmaPOS: bekezdés_N_T, S1S0B0POS: N_N_T, S1S0B0POSLemma: N_N_az, S1S0B0Token: bekezdése_alapján_az, S1S0Lemma: bekezdés_alap, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_alap, S1S0Token: bekezdése_alapján, S1Token: bekezdése, StackLength: 2, SyntaxicRelation: -ATT, alap_isGouvernedBy_kell: true, alap_isGouvernedBy_kell_OBL: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: és, B0POS: C, B0Token: és, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-21- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [az, egyesülő, Gt. ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [és]   B= [a, 296., § ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülő, B1POS: A, B1Token: egyesülő, S0B0Distance: 2, S0B0Lemma: bekezdés_az, S0B0LemmaPOS: bekezdés_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: bekezdése_az, S0B1Lemma: bekezdés_egyesülő, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_egyesülő, S0B1Token: bekezdése_egyesülő, S0B2Lemma: bekezdés_Gt., S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_Gt., S0B2Token: bekezdése_Gt., S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: 296., B1POS: M, B1Token: 296., S0B0Lemma: és_a, S0B0LemmaPOS: és_T, S0B0POS: C_T, S0B0POSLemma: C_a, S0B0Token: és_a, S0B1Lemma: és_296., S0B1LemmaPOS: és_M, S0B1POS: C_M, S0B1POSLemma: C_296., S0B1Token: és_296., S0Lemma: és, S0POS: C, S0Token: és, hasRighDep_COORD: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, és_bek._hasRighDep_COORD: true, és_hasRighDep_COORD: true, 
 
-22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, az]   B= [egyesülő, Gt., ( ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, 296., § ,.. ]
 
-B0Lemma: egyesülő, B0POS: A, B0Token: egyesülő, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Distance: 1, S0B0Lemma: az_egyesülő, S0B0LemmaPOS: az_A, S0B0POS: T_A, S0B0POSLemma: T_egyesülő, S0B0Token: az_egyesülő, S0B1Lemma: az_Gt., S0B1LemmaPOS: az_N, S0B1POS: T_N, S0B1POSLemma: T_Gt., S0B1Token: az_Gt., S0B2Lemma: az_(, S0B2LemmaPOS: az_(, S0B2POS: T_(, S0B2POSLemma: T_(, S0B2Token: az_(, S0Lemma: az, S0POS: T, S0S1Distance: 2, S0Token: az, S1B0Lemma: bekezdés_egyesülő, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_egyesülő, S1B0Token: bekezdése_egyesülő, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_az_egyesülő, S1S0B0LemmaPOS: bekezdés_T_A, S1S0B0POS: N_T_A, S1S0B0POSLemma: N_T_egyesülő, S1S0B0Token: bekezdése_az_egyesülő, S1S0Lemma: bekezdés_az, S1S0LemmaPOS: bekezdés_T, S1S0POS: N_T, S1S0POSLemma: N_az, S1S0Token: bekezdése_az, S1Token: bekezdése, StackLength: 2, az_isGouvernedBy_Gt.: true, az_isGouvernedBy_Gt._DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: 296., B1POS: M, B1Token: 296., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-23- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [egyesülő, Gt., ( ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [296., §, (1) ,.. ]
 
-B0Lemma: egyesülő, B0POS: A, B0Token: egyesülő, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Distance: 3, S0B0Lemma: bekezdés_egyesülő, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_egyesülő, S0B0Token: bekezdése_egyesülő, S0B1Lemma: bekezdés_Gt., S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_Gt., S0B1Token: bekezdése_Gt., S0B2Lemma: bekezdés_(, S0B2LemmaPOS: bekezdés_(, S0B2POS: N_(, S0B2POSLemma: N_(, S0B2Token: bekezdése_(, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: 296., B0POS: M, B0Token: 296., B1Lemma: §, B1POS: §, B1Token: §, S0B0Lemma: a_296., S0B0LemmaPOS: a_M, S0B0POS: T_M, S0B0POSLemma: T_296., S0B0Token: a_296., S0B1Lemma: a_§, S0B1LemmaPOS: a_§, S0B1POS: T_§, S0B1POSLemma: T_§, S0B1Token: a_§, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_§: true, a_isGouvernedBy_§_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, egyesülő]   B= [Gt., (, új ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [296., §, (1) ,.. ]
 
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Distance: 1, S0B0Lemma: egyesülő_Gt., S0B0LemmaPOS: egyesülő_N, S0B0POS: A_N, S0B0POSLemma: A_Gt., S0B0Token: egyesülő_Gt., S0B1Lemma: egyesülő_(, S0B1LemmaPOS: egyesülő_(, S0B1POS: A_(, S0B1POSLemma: A_(, S0B1Token: egyesülő_(, S0B2Lemma: egyesülő_új, S0B2LemmaPOS: egyesülő_A, S0B2POS: A_A, S0B2POSLemma: A_új, S0B2Token: egyesülő_új, S0Lemma: egyesülő, S0POS: A, S0S1Distance: 3, S0Token: egyesülő, S1B0Lemma: bekezdés_Gt., S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_Gt., S1B0Token: bekezdése_Gt., S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_egyesülő_Gt., S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_Gt., S1S0B0Token: bekezdése_egyesülő_Gt., S1S0Lemma: bekezdés_egyesülő, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_egyesülő, S1S0Token: bekezdése_egyesülő, S1Token: bekezdése, StackLength: 2, egyesülő_isGouvernedBy_Gt.: true, egyesülő_isGouvernedBy_Gt._ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: 296., B0POS: M, B0Token: 296., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-25- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [Gt., (, új ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [296.]   B= [§, (1), és ,.. ]
 
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Distance: 4, S0B0Lemma: bekezdés_Gt., S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_Gt., S0B0Token: bekezdése_Gt., S0B1Lemma: bekezdés_(, S0B1LemmaPOS: bekezdés_(, S0B1POS: N_(, S0B1POSLemma: N_(, S0B1Token: bekezdése_(, S0B2Lemma: bekezdés_új, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_új, S0B2Token: bekezdése_új, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+296._isGouvernedBy_§: true, 296._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (1), B1POS: O, B1Token: (1), S0B0Lemma: 296._§, S0B0LemmaPOS: 296._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 296._§, S0B1Lemma: 296._(1), S0B1LemmaPOS: 296._O, S0B1POS: M_O, S0B1POSLemma: M_(1), S0B1Token: 296._(1), S0Lemma: 296., S0POS: M, S0Token: 296., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, Gt.]   B= [(, új, ) ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (1), és ,.. ]
 
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_tisztségviselő: true, Gt._isGouvernedBy_tisztségviselő_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Distance: 1, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0B2Lemma: Gt._), S0B2LemmaPOS: Gt._), S0B2POS: N_), S0B2POSLemma: N_), S0B2Token: Gt._), S0Lemma: Gt., S0POS: N, S0S1Distance: 4, S0Token: Gt., S1B0Lemma: bekezdés_(, S1B0LemmaPOS: bekezdés_(, S1B0POS: N_(, S1B0POSLemma: N_(, S1B0Token: bekezdése_(, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_Gt._(, S1S0B0LemmaPOS: bekezdés_N_(, S1S0B0POS: N_N_(, S1S0B0POSLemma: N_N_(, S1S0B0Token: bekezdése_Gt._(, S1S0Lemma: bekezdés_Gt., S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_Gt., S1S0Token: bekezdése_Gt., S1Token: bekezdése, StackLength: 2, hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (1), B1POS: O, B1Token: (1), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-27- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [(, új, ) ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(1), és, (3) ,.. ]
 
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, S0B0Distance: 5, S0B0Lemma: bekezdés_(, S0B0LemmaPOS: bekezdés_(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: bekezdése_(, S0B1Lemma: bekezdés_új, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: bekezdése_új, S0B2Lemma: bekezdés_), S0B2LemmaPOS: bekezdés_), S0B2POS: N_), S0B2POSLemma: N_), S0B2Token: bekezdése_), S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: (1), B0POS: O, B0Token: (1), B1Lemma: és, B1POS: C, B1Token: és, S0B0Lemma: §_(1), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(1), S0B0Token: §_(1), S0B1Lemma: §_és, S0B1LemmaPOS: §_C, S0B1POS: §_C, S0B1POSLemma: §_és, S0B1Token: §_és, S0Lemma: §, S0POS: §, S0Token: §, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bek.: true, §_isGouvernedBy_bek._ATT: true, 
 
-28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, (]   B= [új, ), vezető ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(1), és, (3) ,.. ]
 
-(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Distance: 1, S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0B2Lemma: (_vezető, S0B2LemmaPOS: (_A, S0B2POS: (_A, S0B2POSLemma: (_vezető, S0B2Token: (_vezető, S0Lemma: (, S0POS: (, S0S1Distance: 5, S0Token: (, S1B0Lemma: bekezdés_új, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_új, S1B0Token: bekezdése_új, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_(_új, S1S0B0LemmaPOS: bekezdés_(_A, S1S0B0POS: N_(_A, S1S0B0POSLemma: N_(_új, S1S0B0Token: bekezdése_(_új, S1S0Lemma: bekezdés_(, S1S0LemmaPOS: bekezdés_(, S1S0POS: N_(, S1S0POSLemma: N_(, S1S0Token: bekezdése_(, S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: (1), B0POS: O, B0Token: (1), B1Lemma: és, B1POS: C, B1Token: és, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [új, ), vezető ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(1)]   B= [és, (3), bek.-ben ,.. ]
 
-B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Distance: 6, S0B0Lemma: bekezdés_új, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_új, S0B0Token: bekezdése_új, S0B1Lemma: bekezdés_), S0B1LemmaPOS: bekezdés_), S0B1POS: N_), S0B1POSLemma: N_), S0B1Token: bekezdése_), S0B2Lemma: bekezdés_vezető, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_vezető, S0B2Token: bekezdése_vezető, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+(1)_hasRighDep_CONJ: true, (1)_isGouvernedBy_bek.: true, (1)_isGouvernedBy_bek._ATT: true, (1)_és_hasRighDep_CONJ: true, B0Lemma: és, B0POS: C, B0Token: és, B1Lemma: (3), B1POS: O, B1Token: (3), S0B0Lemma: (1)_és, S0B0LemmaPOS: (1)_C, S0B0POS: O_C, S0B0POSLemma: O_és, S0B0Token: (1)_és, S0B1Lemma: (1)_(3), S0B1LemmaPOS: (1)_O, S0B1POS: O_O, S0B1POSLemma: O_(3), S0B1Token: (1)_(3), S0Lemma: (1), S0POS: O, S0Token: (1), hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, új]   B= [), vezető, tisztségviselőinek ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [és, (3), bek.-ben ,.. ]
 
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: vezető, B1POS: A, B1Token: vezető, S0B0Distance: 1, S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_vezető, S0B1LemmaPOS: új_A, S0B1POS: A_A, S0B1POSLemma: A_vezető, S0B1Token: új_vezető, S0B2Lemma: új_tisztségviselő, S0B2LemmaPOS: új_N, S0B2POS: A_N, S0B2POSLemma: A_tisztségviselő, S0B2Token: új_tisztségviselőinek, S0Lemma: új, S0POS: A, S0S1Distance: 6, S0Token: új, S1B0Lemma: bekezdés_), S1B0LemmaPOS: bekezdés_), S1B0POS: N_), S1B0POSLemma: N_), S1B0Token: bekezdése_), S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_új_), S1S0B0LemmaPOS: bekezdés_A_), S1S0B0POS: N_A_), S1S0B0POSLemma: N_A_), S1S0B0Token: bekezdése_új_), S1S0Lemma: bekezdés_új, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_új, S1S0Token: bekezdése_új, S1Token: bekezdése, StackLength: 2, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
+B0Lemma: és, B0POS: C, B0Token: és, B1Lemma: (3), B1POS: O, B1Token: (3), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-31- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [), vezető, tisztségviselőinek ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [és]   B= [(3), bek.-ben, előírt ,.. ]
 
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: vezető, B1POS: A, B1Token: vezető, S0B0Distance: 7, S0B0Lemma: bekezdés_), S0B0LemmaPOS: bekezdés_), S0B0POS: N_), S0B0POSLemma: N_), S0B0Token: bekezdése_), S0B1Lemma: bekezdés_vezető, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_vezető, S0B1Token: bekezdése_vezető, S0B2Lemma: bekezdés_tisztségviselő, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_tisztségviselő, S0B2Token: bekezdése_tisztségviselőinek, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: (3), B0POS: O, B0Token: (3), B1Lemma: bek., B1POS: N, B1Token: bek.-ben, S0B0Lemma: és_(3), S0B0LemmaPOS: és_O, S0B0POS: C_O, S0B0POSLemma: C_(3), S0B0Token: és_(3), S0B1Lemma: és_bek., S0B1LemmaPOS: és_N, S0B1POS: C_N, S0B1POSLemma: C_bek., S0B1Token: és_bek.-ben, S0Lemma: és, S0POS: C, S0Token: és, hasRighDep_COORD: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, és_(3)_hasRighDep_COORD: true, és_hasRighDep_COORD: true, 
 
-32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, )]   B= [vezető, tisztségviselőinek, az ,.. ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(3), bek.-ben, előírt ,.. ]
 
-B0Lemma: vezető, B0POS: A, B0Token: vezető, B1Lemma: tisztségviselő, B1POS: N, B1Token: tisztségviselőinek, S0B0Distance: 1, S0B0Lemma: )_vezető, S0B0LemmaPOS: )_A, S0B0POS: )_A, S0B0POSLemma: )_vezető, S0B0Token: )_vezető, S0B1Lemma: )_tisztségviselő, S0B1LemmaPOS: )_N, S0B1POS: )_N, S0B1POSLemma: )_tisztségviselő, S0B1Token: )_tisztségviselőinek, S0B2Lemma: )_az, S0B2LemmaPOS: )_T, S0B2POS: )_T, S0B2POSLemma: )_az, S0B2Token: )_az, S0Lemma: ), S0POS: ), S0S1Distance: 7, S0Token: ), S1B0Lemma: bekezdés_vezető, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_vezető, S1B0Token: bekezdése_vezető, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_)_vezető, S1S0B0LemmaPOS: bekezdés_)_A, S1S0B0POS: N_)_A, S1S0B0POSLemma: N_)_vezető, S1S0B0Token: bekezdése_)_vezető, S1S0Lemma: bekezdés_), S1S0LemmaPOS: bekezdés_), S1S0POS: N_), S1S0POSLemma: N_), S1S0Token: bekezdése_), S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: (3), B0POS: O, B0Token: (3), B1Lemma: bek., B1POS: N, B1Token: bek.-ben, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-33- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [vezető, tisztségviselőinek, az ,.. ]
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(3)]   B= [bek.-ben, előírt, speciális ,.. ]
 
-B0Lemma: vezető, B0POS: A, B0Token: vezető, B1Lemma: tisztségviselő, B1POS: N, B1Token: tisztségviselőinek, S0B0Distance: 8, S0B0Lemma: bekezdés_vezető, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_vezető, S0B0Token: bekezdése_vezető, S0B1Lemma: bekezdés_tisztségviselő, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_tisztségviselő, S0B1Token: bekezdése_tisztségviselőinek, S0B2Lemma: bekezdés_az, S0B2LemmaPOS: bekezdés_T, S0B2POS: N_T, S0B2POSLemma: N_az, S0B2Token: bekezdése_az, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: bek., B0POS: N, B0Token: bek.-ben, B1IsInLexic: true, B1Lemma: előírt, B1POS: A, B1Token: előírt, S0B0Lemma: (3)_bek., S0B0LemmaPOS: (3)_N, S0B0POS: O_N, S0B0POSLemma: O_bek., S0B0Token: (3)_bek.-ben, S0B1Lemma: (3)_előírt, S0B1LemmaPOS: (3)_A, S0B1POS: O_A, S0B1POSLemma: O_előírt, S0B1Token: (3)_előírt, S0Lemma: (3), S0POS: O, S0Token: (3), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, vezető]   B= [tisztségviselőinek, az, egyesülési ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bek.-ben, előírt, speciális ,.. ]
 
-B0Lemma: tisztségviselő, B0POS: N, B0Token: tisztségviselőinek, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 1, S0B0Lemma: vezető_tisztségviselő, S0B0LemmaPOS: vezető_N, S0B0POS: A_N, S0B0POSLemma: A_tisztségviselő, S0B0Token: vezető_tisztségviselőinek, S0B1Lemma: vezető_az, S0B1LemmaPOS: vezető_T, S0B1POS: A_T, S0B1POSLemma: A_az, S0B1Token: vezető_az, S0B2Lemma: vezető_egyesülési, S0B2LemmaPOS: vezető_A, S0B2POS: A_A, S0B2POSLemma: A_egyesülési, S0B2Token: vezető_egyesülési, S0Lemma: vezető, S0POS: A, S0S1Distance: 8, S0Token: vezető, S1B0Lemma: bekezdés_tisztségviselő, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_tisztségviselő, S1B0Token: bekezdése_tisztségviselőinek, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_vezető_tisztségviselő, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_tisztségviselő, S1S0B0Token: bekezdése_vezető_tisztségviselőinek, S1S0Lemma: bekezdés_vezető, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_vezető, S1S0Token: bekezdése_vezető, S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, vezető_isGouvernedBy_tisztségviselő: true, vezető_isGouvernedBy_tisztségviselő_ATT: true, 
+B0Lemma: bek., B0POS: N, B0Token: bek.-ben, B1IsInLexic: true, B1Lemma: előírt, B1POS: A, B1Token: előírt, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-35- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [tisztségviselőinek, az, egyesülési ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bek.-ben]   B= [előírt, speciális, felelősségi ,.. ]
 
-B0Lemma: tisztségviselő, B0POS: N, B0Token: tisztségviselőinek, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 9, S0B0Lemma: bekezdés_tisztségviselő, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_tisztségviselő, S0B0Token: bekezdése_tisztségviselőinek, S0B1Lemma: bekezdés_az, S0B1LemmaPOS: bekezdés_T, S0B1POS: N_T, S0B1POSLemma: N_az, S0B1Token: bekezdése_az, S0B2Lemma: bekezdés_egyesülési, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_egyesülési, S0B2Token: bekezdése_egyesülési, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: előírt, B0POS: A, B0Token: előírt, B1Lemma: speciális, B1POS: A, B1Token: speciális, S0B0Lemma: bek._előírt, S0B0LemmaPOS: bek._A, S0B0POS: N_A, S0B0POSLemma: N_előírt, S0B0Token: bek.-ben_előírt, S0B1Lemma: bek._speciális, S0B1LemmaPOS: bek._A, S0B1POS: N_A, S0B1POSLemma: N_speciális, S0B1Token: bek.-ben_speciális, S0Lemma: bek., S0POS: N, S0Token: bek.-ben, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, tisztségviselőinek]   B= [az, egyesülési, szerződés ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [előírt, speciális, felelősségi ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülési, B1POS: A, B1Token: egyesülési, S0B0Distance: 1, S0B0Lemma: tisztségviselő_az, S0B0LemmaPOS: tisztségviselő_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: tisztségviselőinek_az, S0B1Lemma: tisztségviselő_egyesülési, S0B1LemmaPOS: tisztségviselő_A, S0B1POS: N_A, S0B1POSLemma: N_egyesülési, S0B1Token: tisztségviselőinek_egyesülési, S0B2Lemma: tisztségviselő_szerződés, S0B2LemmaPOS: tisztségviselő_N, S0B2POS: N_N, S0B2POSLemma: N_szerződés, S0B2Token: tisztségviselőinek_szerződés, S0Lemma: tisztségviselő, S0POS: N, S0S1Distance: 9, S0Token: tisztségviselőinek, S1B0Lemma: bekezdés_az, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: bekezdése_az, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_tisztségviselő_az, S1S0B0LemmaPOS: bekezdés_N_T, S1S0B0POS: N_N_T, S1S0B0POSLemma: N_N_az, S1S0B0Token: bekezdése_tisztségviselőinek_az, S1S0Lemma: bekezdés_tisztségviselő, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_tisztségviselő, S1S0Token: bekezdése_tisztségviselőinek, S1Token: bekezdése, StackLength: 2, tisztségviselő_isGouvernedBy_kell: true, tisztségviselő_isGouvernedBy_kell_DAT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: előírt, B0POS: A, B0Token: előírt, B1Lemma: speciális, B1POS: A, B1Token: speciális, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-37- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [az, egyesülési, szerződés ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [előírt]   B= [speciális, felelősségi, szabályokat ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: egyesülési, B1POS: A, B1Token: egyesülési, S0B0Distance: 10, S0B0Lemma: bekezdés_az, S0B0LemmaPOS: bekezdés_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: bekezdése_az, S0B1Lemma: bekezdés_egyesülési, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_egyesülési, S0B1Token: bekezdése_egyesülési, S0B2Lemma: bekezdés_szerződés, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_szerződés, S0B2Token: bekezdése_szerződés, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: speciális, B0POS: A, B0Token: speciális, B1Lemma: felelősségi, B1POS: A, B1Token: felelősségi, S0B0Lemma: előírt_speciális, S0B0LemmaPOS: előírt_A, S0B0POS: A_A, S0B0POSLemma: A_speciális, S0B0Token: előírt_speciális, S0B1Lemma: előírt_felelősségi, S0B1LemmaPOS: előírt_A, S0B1POS: A_A, S0B1POSLemma: A_felelősségi, S0B1Token: előírt_felelősségi, S0IsInLexic: true, S0Lemma: előírt, S0POS: A, S0Token: előírt, előírt_isGouvernedBy_szabály: true, előírt_isGouvernedBy_szabály_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, az]   B= [egyesülési, szerződés, elkészítésével ,.. ]
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [speciális, felelősségi, szabályokat ,.. ]
 
-B0Lemma: egyesülési, B0POS: A, B0Token: egyesülési, B1Lemma: szerződés, B1POS: N, B1Token: szerződés, S0B0Distance: 1, S0B0Lemma: az_egyesülési, S0B0LemmaPOS: az_A, S0B0POS: T_A, S0B0POSLemma: T_egyesülési, S0B0Token: az_egyesülési, S0B1Lemma: az_szerződés, S0B1LemmaPOS: az_N, S0B1POS: T_N, S0B1POSLemma: T_szerződés, S0B1Token: az_szerződés, S0B2Lemma: az_elkészítés, S0B2LemmaPOS: az_N, S0B2POS: T_N, S0B2POSLemma: T_elkészítés, S0B2Token: az_elkészítésével, S0Lemma: az, S0POS: T, S0S1Distance: 10, S0Token: az, S1B0Lemma: bekezdés_egyesülési, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_egyesülési, S1B0Token: bekezdése_egyesülési, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_az_egyesülési, S1S0B0LemmaPOS: bekezdés_T_A, S1S0B0POS: N_T_A, S1S0B0POSLemma: N_T_egyesülési, S1S0B0Token: bekezdése_az_egyesülési, S1S0Lemma: bekezdés_az, S1S0LemmaPOS: bekezdés_T, S1S0POS: N_T, S1S0POSLemma: N_az, S1S0Token: bekezdése_az, S1Token: bekezdése, StackLength: 2, az_isGouvernedBy_szerződés: true, az_isGouvernedBy_szerződés_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: speciális, B0POS: A, B0Token: speciális, B1Lemma: felelősségi, B1POS: A, B1Token: felelősségi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-39- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [egyesülési, szerződés, elkészítésével ,.. ]
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [speciális]   B= [felelősségi, szabályokat, is ,.. ]
 
-B0Lemma: egyesülési, B0POS: A, B0Token: egyesülési, B1Lemma: szerződés, B1POS: N, B1Token: szerződés, S0B0Distance: 11, S0B0Lemma: bekezdés_egyesülési, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_egyesülési, S0B0Token: bekezdése_egyesülési, S0B1Lemma: bekezdés_szerződés, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_szerződés, S0B1Token: bekezdése_szerződés, S0B2Lemma: bekezdés_elkészítés, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_elkészítés, S0B2Token: bekezdése_elkészítésével, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: felelősségi, B0POS: A, B0Token: felelősségi, B1Lemma: szabály, B1POS: N, B1Token: szabályokat, S0B0Lemma: speciális_felelősségi, S0B0LemmaPOS: speciális_A, S0B0POS: A_A, S0B0POSLemma: A_felelősségi, S0B0Token: speciális_felelősségi, S0B1Lemma: speciális_szabály, S0B1LemmaPOS: speciális_N, S0B1POS: A_N, S0B1POSLemma: A_szabály, S0B1Token: speciális_szabályokat, S0Lemma: speciális, S0POS: A, S0Token: speciális, speciális_isGouvernedBy_szabály: true, speciális_isGouvernedBy_szabály_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, egyesülési]   B= [szerződés, elkészítésével, egyidejűleg ,.. ]
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [felelősségi, szabályokat, is ,.. ]
 
-B0Lemma: szerződés, B0POS: N, B0Token: szerződés, B1Lemma: elkészítés, B1POS: N, B1Token: elkészítésével, S0B0Distance: 1, S0B0Lemma: egyesülési_szerződés, S0B0LemmaPOS: egyesülési_N, S0B0POS: A_N, S0B0POSLemma: A_szerződés, S0B0Token: egyesülési_szerződés, S0B1Lemma: egyesülési_elkészítés, S0B1LemmaPOS: egyesülési_N, S0B1POS: A_N, S0B1POSLemma: A_elkészítés, S0B1Token: egyesülési_elkészítésével, S0B2Lemma: egyesülési_egyidejű, S0B2LemmaPOS: egyesülési_A, S0B2POS: A_A, S0B2POSLemma: A_egyidejű, S0B2Token: egyesülési_egyidejűleg, S0Lemma: egyesülési, S0POS: A, S0S1Distance: 11, S0Token: egyesülési, S1B0Lemma: bekezdés_szerződés, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_szerződés, S1B0Token: bekezdése_szerződés, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_egyesülési_szerződés, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_szerződés, S1S0B0Token: bekezdése_egyesülési_szerződés, S1S0Lemma: bekezdés_egyesülési, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_egyesülési, S1S0Token: bekezdése_egyesülési, S1Token: bekezdése, StackLength: 2, egyesülési_isGouvernedBy_szerződés: true, egyesülési_isGouvernedBy_szerződés_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: felelősségi, B0POS: A, B0Token: felelősségi, B1Lemma: szabály, B1POS: N, B1Token: szabályokat, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-41- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [szerződés, elkészítésével, egyidejűleg ,.. ]
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [felelősségi]   B= [szabályokat, is, . ,.. ]
 
-B0Lemma: szerződés, B0POS: N, B0Token: szerződés, B1Lemma: elkészítés, B1POS: N, B1Token: elkészítésével, S0B0Distance: 12, S0B0Lemma: bekezdés_szerződés, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_szerződés, S0B0Token: bekezdése_szerződés, S0B1Lemma: bekezdés_elkészítés, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_elkészítés, S0B1Token: bekezdése_elkészítésével, S0B2Lemma: bekezdés_egyidejű, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_egyidejű, S0B2Token: bekezdése_egyidejűleg, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: szabály, B0POS: N, B0Token: szabályokat, B1Lemma: is, B1POS: C, B1Token: is, S0B0Lemma: felelősségi_szabály, S0B0LemmaPOS: felelősségi_N, S0B0POS: A_N, S0B0POSLemma: A_szabály, S0B0Token: felelősségi_szabályokat, S0B1Lemma: felelősségi_is, S0B1LemmaPOS: felelősségi_C, S0B1POS: A_C, S0B1POSLemma: A_is, S0B1Token: felelősségi_is, S0Lemma: felelősségi, S0POS: A, S0Token: felelősségi, felelősségi_isGouvernedBy_szabály: true, felelősségi_isGouvernedBy_szabály_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, szerződés]   B= [elkészítésével, egyidejűleg, új ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [szabályokat, is, . ,.. ]
 
-B0Lemma: elkészítés, B0POS: N, B0Token: elkészítésével, B1Lemma: egyidejű, B1POS: A, B1Token: egyidejűleg, S0B0Distance: 1, S0B0Lemma: szerződés_elkészítés, S0B0LemmaPOS: szerződés_N, S0B0POS: N_N, S0B0POSLemma: N_elkészítés, S0B0Token: szerződés_elkészítésével, S0B1Lemma: szerződés_egyidejű, S0B1LemmaPOS: szerződés_A, S0B1POS: N_A, S0B1POSLemma: N_egyidejű, S0B1Token: szerződés_egyidejűleg, S0B2Lemma: szerződés_új, S0B2LemmaPOS: szerződés_A, S0B2POS: N_A, S0B2POSLemma: N_új, S0B2Token: szerződés_új, S0Lemma: szerződés, S0POS: N, S0S1Distance: 12, S0Token: szerződés, S1B0Lemma: bekezdés_elkészítés, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_elkészítés, S1B0Token: bekezdése_elkészítésével, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_szerződés_elkészítés, S1S0B0LemmaPOS: bekezdés_N_N, S1S0B0POS: N_N_N, S1S0B0POSLemma: N_N_elkészítés, S1S0B0Token: bekezdése_szerződés_elkészítésével, S1S0Lemma: bekezdés_szerződés, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_szerződés, S1S0Token: bekezdése_szerződés, S1Token: bekezdése, StackLength: 2, szerződés_isGouvernedBy_elkészítés: true, szerződés_isGouvernedBy_elkészítés_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: szabály, B0POS: N, B0Token: szabályokat, B1Lemma: is, B1POS: C, B1Token: is, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-43- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [elkészítésével, egyidejűleg, új ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [szabályokat]   B= [is, . ,.. ]
 
-B0Lemma: elkészítés, B0POS: N, B0Token: elkészítésével, B1Lemma: egyidejű, B1POS: A, B1Token: egyidejűleg, S0B0Distance: 13, S0B0Lemma: bekezdés_elkészítés, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_elkészítés, S0B0Token: bekezdése_elkészítésével, S0B1Lemma: bekezdés_egyidejű, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_egyidejű, S0B1Token: bekezdése_egyidejűleg, S0B2Lemma: bekezdés_új, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_új, S0B2Token: bekezdése_új, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: ., B1POS: ., B1Token: ., S0B0Lemma: szabály_is, S0B0LemmaPOS: szabály_C, S0B0POS: N_C, S0B0POSLemma: N_is, S0B0Token: szabályokat_is, S0B1Lemma: szabály_., S0B1LemmaPOS: szabály_., S0B1POS: N_., S0B1POSLemma: N_., S0B1Token: szabályokat_., S0Lemma: szabály, S0POS: N, S0Token: szabályokat, hasRighDep_CONJ: true, szabály_hasRighDep_CONJ: true, szabály_is_hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, elkészítésével]   B= [egyidejűleg, új, szabályként ,.. ]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [is, . ,.. ]
 
-B0Lemma: egyidejű, B0POS: A, B0Token: egyidejűleg, B1Lemma: új, B1POS: A, B1Token: új, S0B0Distance: 1, S0B0Lemma: elkészítés_egyidejű, S0B0LemmaPOS: elkészítés_A, S0B0POS: N_A, S0B0POSLemma: N_egyidejű, S0B0Token: elkészítésével_egyidejűleg, S0B1Lemma: elkészítés_új, S0B1LemmaPOS: elkészítés_A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: elkészítésével_új, S0B2Lemma: elkészítés_szabály, S0B2LemmaPOS: elkészítés_N, S0B2POS: N_N, S0B2POSLemma: N_szabály, S0B2Token: elkészítésével_szabályként, S0Lemma: elkészítés, S0POS: N, S0S1Distance: 13, S0Token: elkészítésével, S1B0Lemma: bekezdés_egyidejű, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_egyidejű, S1B0Token: bekezdése_egyidejűleg, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_elkészítés_egyidejű, S1S0B0LemmaPOS: bekezdés_N_A, S1S0B0POS: N_N_A, S1S0B0POSLemma: N_N_egyidejű, S1S0B0Token: bekezdése_elkészítésével_egyidejűleg, S1S0Lemma: bekezdés_elkészítés, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_elkészítés, S1S0Token: bekezdése_elkészítésével, S1Token: bekezdése, StackLength: 2, elkészítés_isGouvernedBy_egyidejű: true, elkészítés_isGouvernedBy_egyidejű_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: ., B1POS: ., B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-45- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [egyidejűleg, új, szabályként ,.. ]
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [is]   B= [.]
 
-B0Lemma: egyidejű, B0POS: A, B0Token: egyidejűleg, B1Lemma: új, B1POS: A, B1Token: új, S0B0Distance: 14, S0B0Lemma: bekezdés_egyidejű, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_egyidejű, S0B0Token: bekezdése_egyidejűleg, S0B1Lemma: bekezdés_új, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: bekezdése_új, S0B2Lemma: bekezdés_szabály, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_szabály, S0B2Token: bekezdése_szabályként, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: is_., S0B0LemmaPOS: is_., S0B0POS: C_., S0B0POSLemma: C_., S0B0Token: is_., S0Lemma: is, S0POS: C, S0Token: is, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, egyidejűleg]   B= [új, szabályként, írásbeli ,.. ]
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: szabály, B1POS: N, B1Token: szabályként, S0B0Distance: 1, S0B0Lemma: egyidejű_új, S0B0LemmaPOS: egyidejű_A, S0B0POS: A_A, S0B0POSLemma: A_új, S0B0Token: egyidejűleg_új, S0B1Lemma: egyidejű_szabály, S0B1LemmaPOS: egyidejű_N, S0B1POS: A_N, S0B1POSLemma: A_szabály, S0B1Token: egyidejűleg_szabályként, S0B2Lemma: egyidejű_írásbeli, S0B2LemmaPOS: egyidejű_A, S0B2POS: A_A, S0B2POSLemma: A_írásbeli, S0B2Token: egyidejűleg_írásbeli, S0Lemma: egyidejű, S0POS: A, S0S1Distance: 14, S0Token: egyidejűleg, S1B0Lemma: bekezdés_új, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_új, S1B0Token: bekezdése_új, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_egyidejű_új, S1S0B0LemmaPOS: bekezdés_A_A, S1S0B0POS: N_A_A, S1S0B0POSLemma: N_A_új, S1S0B0Token: bekezdése_egyidejűleg_új, S1S0Lemma: bekezdés_egyidejű, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_egyidejű, S1S0Token: bekezdése_egyidejűleg, S1Token: bekezdése, StackLength: 2, egyidejű_isGouvernedBy_készít: true, egyidejű_isGouvernedBy_készít_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-47- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [új, szabályként, írásbeli ,.. ]
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: szabály, B1POS: N, B1Token: szabályként, S0B0Distance: 15, S0B0Lemma: bekezdés_új, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_új, S0B0Token: bekezdése_új, S0B1Lemma: bekezdés_szabály, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_szabály, S0B1Token: bekezdése_szabályként, S0B2Lemma: bekezdés_írásbeli, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_írásbeli, S0B2Token: bekezdése_írásbeli, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, új]   B= [szabályként, írásbeli, beszámolót ,.. ]
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-B0Lemma: szabály, B0POS: N, B0Token: szabályként, B1Lemma: írásbeli, B1POS: A, B1Token: írásbeli, S0B0Distance: 1, S0B0Lemma: új_szabály, S0B0LemmaPOS: új_N, S0B0POS: A_N, S0B0POSLemma: A_szabály, S0B0Token: új_szabályként, S0B1Lemma: új_írásbeli, S0B1LemmaPOS: új_A, S0B1POS: A_A, S0B1POSLemma: A_írásbeli, S0B1Token: új_írásbeli, S0B2Lemma: új_beszámoló, S0B2LemmaPOS: új_N, S0B2POS: A_N, S0B2POSLemma: A_beszámoló, S0B2Token: új_beszámolót, S0Lemma: új, S0POS: A, S0S1Distance: 15, S0Token: új, S1B0Lemma: bekezdés_szabály, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_szabály, S1B0Token: bekezdése_szabályként, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_új_szabály, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_szabály, S1S0B0Token: bekezdése_új_szabályként, S1S0Lemma: bekezdés_új, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_új, S1S0Token: bekezdése_új, S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_isGouvernedBy_szabály: true, új_isGouvernedBy_szabály_ATT: true, 
-
-49- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [szabályként, írásbeli, beszámolót ,.. ]
-
-B0Lemma: szabály, B0POS: N, B0Token: szabályként, B1Lemma: írásbeli, B1POS: A, B1Token: írásbeli, S0B0Distance: 16, S0B0Lemma: bekezdés_szabály, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_szabály, S0B0Token: bekezdése_szabályként, S0B1Lemma: bekezdés_írásbeli, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_írásbeli, S0B1Token: bekezdése_írásbeli, S0B2Lemma: bekezdés_beszámoló, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_beszámoló, S0B2Token: bekezdése_beszámolót, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, szabályként]   B= [írásbeli, beszámolót, is ,.. ]
-
-B0Lemma: írásbeli, B0POS: A, B0Token: írásbeli, B1Lemma: beszámoló, B1POS: N, B1Token: beszámolót, S0B0Distance: 1, S0B0Lemma: szabály_írásbeli, S0B0LemmaPOS: szabály_A, S0B0POS: N_A, S0B0POSLemma: N_írásbeli, S0B0Token: szabályként_írásbeli, S0B1Lemma: szabály_beszámoló, S0B1LemmaPOS: szabály_N, S0B1POS: N_N, S0B1POSLemma: N_beszámoló, S0B1Token: szabályként_beszámolót, S0B2Lemma: szabály_is, S0B2LemmaPOS: szabály_C, S0B2POS: N_C, S0B2POSLemma: N_is, S0B2Token: szabályként_is, S0Lemma: szabály, S0POS: N, S0S1Distance: 16, S0Token: szabályként, S1B0Lemma: bekezdés_írásbeli, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_írásbeli, S1B0Token: bekezdése_írásbeli, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_szabály_írásbeli, S1S0B0LemmaPOS: bekezdés_N_A, S1S0B0POS: N_N_A, S1S0B0POSLemma: N_N_írásbeli, S1S0B0Token: bekezdése_szabályként_írásbeli, S1S0Lemma: bekezdés_szabály, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_szabály, S1S0Token: bekezdése_szabályként, S1Token: bekezdése, StackLength: 2, szabály_isGouvernedBy_készít: true, szabály_isGouvernedBy_készít_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-51- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [írásbeli, beszámolót, is ,.. ]
-
-B0Lemma: írásbeli, B0POS: A, B0Token: írásbeli, B1Lemma: beszámoló, B1POS: N, B1Token: beszámolót, S0B0Distance: 17, S0B0Lemma: bekezdés_írásbeli, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_írásbeli, S0B0Token: bekezdése_írásbeli, S0B1Lemma: bekezdés_beszámoló, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_beszámoló, S0B1Token: bekezdése_beszámolót, S0B2Lemma: bekezdés_is, S0B2LemmaPOS: bekezdés_C, S0B2POS: N_C, S0B2POSLemma: N_is, S0B2Token: bekezdése_is, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, írásbeli]   B= [beszámolót, is, kell ,.. ]
-
-B0Lemma: beszámoló, B0POS: N, B0Token: beszámolót, B1Lemma: is, B1POS: C, B1Token: is, S0B0Distance: 1, S0B0Lemma: írásbeli_beszámoló, S0B0LemmaPOS: írásbeli_N, S0B0POS: A_N, S0B0POSLemma: A_beszámoló, S0B0Token: írásbeli_beszámolót, S0B1Lemma: írásbeli_is, S0B1LemmaPOS: írásbeli_C, S0B1POS: A_C, S0B1POSLemma: A_is, S0B1Token: írásbeli_is, S0B2Lemma: írásbeli_kell, S0B2LemmaPOS: írásbeli_V, S0B2POS: A_V, S0B2POSLemma: A_kell, S0B2Token: írásbeli_kell, S0Lemma: írásbeli, S0POS: A, S0S1Distance: 17, S0Token: írásbeli, S1B0Lemma: bekezdés_beszámoló, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_beszámoló, S1B0Token: bekezdése_beszámolót, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_írásbeli_beszámoló, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_beszámoló, S1S0B0Token: bekezdése_írásbeli_beszámolót, S1S0Lemma: bekezdés_írásbeli, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_írásbeli, S1S0Token: bekezdése_írásbeli, S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, írásbeli_isGouvernedBy_beszámoló: true, írásbeli_isGouvernedBy_beszámoló_ATT: true, 
-
-53- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [beszámolót, is, kell ,.. ]
-
-B0Lemma: beszámoló, B0POS: N, B0Token: beszámolót, B1Lemma: is, B1POS: C, B1Token: is, S0B0Distance: 18, S0B0Lemma: bekezdés_beszámoló, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_beszámoló, S0B0Token: bekezdése_beszámolót, S0B1Lemma: bekezdés_is, S0B1LemmaPOS: bekezdés_C, S0B1POS: N_C, S0B1POSLemma: N_is, S0B1Token: bekezdése_is, S0B2Lemma: bekezdés_kell, S0B2LemmaPOS: bekezdés_V, S0B2POS: N_V, S0B2POSLemma: N_kell, S0B2Token: bekezdése_kell, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót]   B= [is, kell, készíteniük ,.. ]
-
-B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: kell, B1POS: V, B1Token: kell, S0B0Distance: 1, S0B0Lemma: beszámoló_is, S0B0LemmaPOS: beszámoló_C, S0B0POS: N_C, S0B0POSLemma: N_is, S0B0Token: beszámolót_is, S0B1Lemma: beszámoló_kell, S0B1LemmaPOS: beszámoló_V, S0B1POS: N_V, S0B1POSLemma: N_kell, S0B1Token: beszámolót_kell, S0B2Lemma: beszámoló_készít, S0B2LemmaPOS: beszámoló_V, S0B2POS: N_V, S0B2POSLemma: N_készít, S0B2Token: beszámolót_készíteniük, S0Lemma: beszámoló, S0POS: N, S0S1Distance: 18, S0Token: beszámolót, S1B0Lemma: bekezdés_is, S1B0LemmaPOS: bekezdés_C, S1B0POS: N_C, S1B0POSLemma: N_is, S1B0Token: bekezdése_is, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_beszámoló_is, S1S0B0LemmaPOS: bekezdés_N_C, S1S0B0POS: N_N_C, S1S0B0POSLemma: N_N_is, S1S0B0Token: bekezdése_beszámolót_is, S1S0Lemma: bekezdés_beszámoló, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_beszámoló, S1S0Token: bekezdése_beszámolót, S1Token: bekezdése, StackLength: 2, beszámoló_hasRighDep_CONJ: true, beszámoló_isGouvernedBy_készít: true, beszámoló_isGouvernedBy_készít_OBJ: true, beszámoló_is_hasRighDep_CONJ: true, hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót, is]   B= [kell, készíteniük, . ,.. ]
-
-B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: készít, B1POS: V, B1Token: készíteniük, S0B0Distance: 1, S0B0Lemma: is_kell, S0B0LemmaPOS: is_V, S0B0POS: C_V, S0B0POSLemma: C_kell, S0B0Token: is_kell, S0B1Lemma: is_készít, S0B1LemmaPOS: is_V, S0B1POS: C_V, S0B1POSLemma: C_készít, S0B1Token: is_készíteniük, S0B2Lemma: is_., S0B2LemmaPOS: is_., S0B2POS: C_., S0B2POSLemma: C_., S0B2Token: is_., S0Lemma: is, S0POS: C, S0S1Distance: 1, S0Token: is, S1B0Lemma: beszámoló_kell, S1B0LemmaPOS: beszámoló_V, S1B0POS: N_V, S1B0POSLemma: N_kell, S1B0Token: beszámolót_kell, S1Lemma: beszámoló, S1POS: N, S1S0B0Lemma: beszámoló_is_kell, S1S0B0LemmaPOS: beszámoló_C_V, S1S0B0POS: N_C_V, S1S0B0POSLemma: N_C_kell, S1S0B0Token: beszámolót_is_kell, S1S0Lemma: beszámoló_is, S1S0LemmaPOS: beszámoló_C, S1S0POS: N_C, S1S0POSLemma: N_is, S1S0Token: beszámolót_is, S1Token: beszámolót, StackLength: 3, SyntaxicRelation: +CONJ, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót]   B= [kell, készíteniük, . ,.. ]
-
-B0Lemma: kell, B0POS: V, B0Token: kell, B1Lemma: készít, B1POS: V, B1Token: készíteniük, S0B0Distance: 2, S0B0Lemma: beszámoló_kell, S0B0LemmaPOS: beszámoló_V, S0B0POS: N_V, S0B0POSLemma: N_kell, S0B0Token: beszámolót_kell, S0B1Lemma: beszámoló_készít, S0B1LemmaPOS: beszámoló_V, S0B1POS: N_V, S0B1POSLemma: N_készít, S0B1Token: beszámolót_készíteniük, S0B2Lemma: beszámoló_., S0B2LemmaPOS: beszámoló_., S0B2POS: N_., S0B2POSLemma: N_., S0B2Token: beszámolót_., S0Lemma: beszámoló, S0POS: N, S0S1Distance: 18, S0Token: beszámolót, S1B0Lemma: bekezdés_kell, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_kell, S1B0Token: bekezdése_kell, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_beszámoló_kell, S1S0B0LemmaPOS: bekezdés_N_V, S1S0B0POS: N_N_V, S1S0B0POSLemma: N_N_kell, S1S0B0Token: bekezdése_beszámolót_kell, S1S0Lemma: bekezdés_beszámoló, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_beszámoló, S1S0Token: bekezdése_beszámolót, S1Token: bekezdése, StackLength: 2, beszámoló_isGouvernedBy_készít: true, beszámoló_isGouvernedBy_készít_OBJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót, kell]   B= [készíteniük, . ,.. ]
-
-B0Lemma: készít, B0POS: V, B0Token: készíteniük, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 1, S0B0Lemma: kell_készít, S0B0LemmaPOS: kell_V, S0B0POS: V_V, S0B0POSLemma: V_készít, S0B0Token: kell_készíteniük, S0B1Lemma: kell_., S0B1LemmaPOS: kell_., S0B1POS: V_., S0B1POSLemma: V_., S0B1Token: kell_., S0Lemma: kell, S0POS: V, S0S1Distance: 2, S0Token: kell, S1B0Lemma: beszámoló_készít, S1B0LemmaPOS: beszámoló_V, S1B0POS: N_V, S1B0POSLemma: N_készít, S1B0Token: beszámolót_készíteniük, S1Lemma: beszámoló, S1POS: N, S1S0B0Lemma: beszámoló_kell_készít, S1S0B0LemmaPOS: beszámoló_V_V, S1S0B0POS: N_V_V, S1S0B0POSLemma: N_V_készít, S1S0B0Token: beszámolót_kell_készíteniük, S1S0Lemma: beszámoló_kell, S1S0LemmaPOS: beszámoló_V, S1S0POS: N_V, S1S0POSLemma: N_kell, S1S0Token: beszámolót_kell, S1Token: beszámolót, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót]   B= [készíteniük, . ,.. ]
-
-B0Lemma: készít, B0POS: V, B0Token: készíteniük, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 3, S0B0Lemma: beszámoló_készít, S0B0LemmaPOS: beszámoló_V, S0B0POS: N_V, S0B0POSLemma: N_készít, S0B0Token: beszámolót_készíteniük, S0B1Lemma: beszámoló_., S0B1LemmaPOS: beszámoló_., S0B1POS: N_., S0B1POSLemma: N_., S0B1Token: beszámolót_., S0Lemma: beszámoló, S0POS: N, S0S1Distance: 18, S0Token: beszámolót, S1B0Lemma: bekezdés_készít, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_készít, S1B0Token: bekezdése_készíteniük, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_beszámoló_készít, S1S0B0LemmaPOS: bekezdés_N_V, S1S0B0POS: N_N_V, S1S0B0POSLemma: N_N_készít, S1S0B0Token: bekezdése_beszámolót_készíteniük, S1S0Lemma: bekezdés_beszámoló, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_beszámoló, S1S0Token: bekezdése_beszámolót, S1Token: bekezdése, StackLength: 2, beszámoló_isGouvernedBy_készít: true, beszámoló_isGouvernedBy_készít_OBJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót, készíteniük]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 1, S0B0Lemma: készít_., S0B0LemmaPOS: készít_., S0B0POS: V_., S0B0POSLemma: V_., S0B0Token: készíteniük_., S0Lemma: készít, S0POS: V, S0S1Distance: 3, S0Token: készíteniük, S1B0Lemma: beszámoló_., S1B0LemmaPOS: beszámoló_., S1B0POS: N_., S1B0POSLemma: N_., S1B0Token: beszámolót_., S1Lemma: beszámoló, S1POS: N, S1S0B0Lemma: beszámoló_készít_., S1S0B0LemmaPOS: beszámoló_V_., S1S0B0POS: N_V_., S1S0B0POSLemma: N_V_., S1S0B0Token: beszámolót_készíteniük_., S1S0Lemma: beszámoló_készít, S1S0LemmaPOS: beszámoló_V, S1S0POS: N_V, S1S0POSLemma: N_készít, S1S0Token: beszámolót_készíteniük, S1Token: beszámolót, StackLength: 3, SyntaxicRelation: -OBJ, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót]   B= [.]
-
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 4, S0B0Lemma: beszámoló_., S0B0LemmaPOS: beszámoló_., S0B0POS: N_., S0B0POSLemma: N_., S0B0Token: beszámolót_., S0Lemma: beszámoló, S0POS: N, S0S1Distance: 18, S0Token: beszámolót, S1B0Lemma: bekezdés_., S1B0LemmaPOS: bekezdés_., S1B0POS: N_., S1B0POSLemma: N_., S1B0Token: bekezdése_., S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_beszámoló_., S1S0B0LemmaPOS: bekezdés_N_., S1S0B0POS: N_N_., S1S0B0POSLemma: N_N_., S1S0B0Token: bekezdése_beszámolót_., S1S0Lemma: bekezdés_beszámoló, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_beszámoló, S1S0Token: bekezdése_beszámolót, S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót, .]   B= [ ]
-
-S0Lemma: ., S0POS: ., S0S1Distance: 4, S0Token: ., S1Lemma: beszámoló, S1POS: N, S1S0Lemma: beszámoló_., S1S0LemmaPOS: beszámoló_., S1S0POS: N_., S1S0POSLemma: N_., S1S0Token: beszámolót_., S1Token: beszámolót, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése, beszámolót]   B= [ ]
-
-S0Lemma: beszámoló, S0POS: N, S0S1Distance: 18, S0Token: beszámolót, S1Lemma: bekezdés, S1POS: N, S1S0Lemma: bekezdés_beszámoló, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_beszámoló, S1S0Token: bekezdése_beszámolót, S1Token: bekezdése, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-63- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [ ]
-
-S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 212 - 
-Ebből a túl általánosnak tűnő meghatározásból nehezen körvonalazható iratok körét szerintünk a Gt. ( új ) 72. § (2) bekezdés és 77. § (2) bekezdéssel összhangban lehet értelmezni , ezért ezek az iratok az átalakulással összefüggő iratok körére terjedhetnek ki . 
+## Sentence No. 1051 - 
+Kivételt csak azok az esetek képeznek ahol a Gt. ( új ) kifejezetten eltérően rendelkezik . 
 ### Existing MWEs: 
-1- **bekezdés** (VPC)
-2- **összefüggő** (VPC)
+1- **Kivételt képeznek** (LVC)
+2- **Kivételt** (VPC), Embedded
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ebből, a, túl ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kivételt, csak, azok ,.. ]
 
-B0Lemma: ez, B0POS: P, B0Token: Ebből, B1Lemma: a, B1POS: T, B1Token: a, 
+B0IsInLexic: true, B0Lemma: kivétel, B0POS: N, B0Token: Kivételt, B1Lemma: csak, B1POS: R, B1Token: csak, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ebből]   B= [a, túl, általánosnak ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt]   B= [csak, azok, az ,.. ]
 
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: túl, B1POS: R, B1Token: túl, S0B0Distance: 1, S0B0Lemma: ez_a, S0B0LemmaPOS: ez_T, S0B0POS: P_T, S0B0POSLemma: P_a, S0B0Token: Ebből_a, S0B1Lemma: ez_túl, S0B1LemmaPOS: ez_R, S0B1POS: P_R, S0B1POSLemma: P_túl, S0B1Token: Ebből_túl, S0B2Lemma: ez_általános, S0B2LemmaPOS: ez_A, S0B2POS: P_A, S0B2POSLemma: P_általános, S0B2Token: Ebből_általánosnak, S0Lemma: ez, S0POS: P, S0Token: Ebből, StackLength: 1, ez_isGouvernedBy_meghatározás: true, ez_isGouvernedBy_meghatározás_OBL: true, 
+B0Lemma: csak, B0POS: R, B0Token: csak, B1Lemma: az, B1POS: P, B1Token: azok, S0B0Lemma: kivétel_csak, S0B0LemmaPOS: kivétel_R, S0B0POS: N_R, S0B0POSLemma: N_csak, S0B0Token: Kivételt_csak, S0B1Lemma: kivétel_az, S0B1LemmaPOS: kivétel_P, S0B1POS: N_P, S0B1POSLemma: N_az, S0B1Token: Kivételt_azok, S0IsInLexic: true, S0Lemma: kivétel, S0POS: N, S0Token: Kivételt, kivétel_isGouvernedBy_képez: true, kivétel_isGouvernedBy_képez_OBJ: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, túl, általánosnak ,.. ]
+2- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt, csak]   B= [azok, az, esetek ,.. ]
 
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: túl, B1POS: R, B1Token: túl, transitionHistoryLength1: 0, 
+B0Lemma: az, B0POS: P, B0Token: azok, B1Lemma: az, B1POS: T, B1Token: az, S0B0Lemma: csak_az, S0B0LemmaPOS: csak_P, S0B0POS: R_P, S0B0POSLemma: R_az, S0B0Token: csak_azok, S0B1Lemma: csak_az, S0B1LemmaPOS: csak_T, S0B1POS: R_T, S0B1POSLemma: R_az, S0B1Token: csak_az, S0Lemma: csak, S0POS: R, S0Token: csak, S1B0Lemma: kivétel_az, S1B0LemmaPOS: kivétel_P, S1B0POS: N_P, S1B0POSLemma: N_az, S1B0Token: Kivételt_azok, S1IsInLexic: true, S1Lemma: kivétel, S1POS: N, S1S0B0Lemma: kivétel_csak_az, S1S0B0LemmaPOS: kivétel_R_P, S1S0B0POS: N_R_P, S1S0B0POSLemma: N_R_az, S1S0B0Token: Kivételt_csak_azok, S1S0Lemma: kivétel_csak, S1S0LemmaPOS: kivétel_R, S1S0POS: N_R, S1S0POSLemma: N_csak, S1S0Token: Kivételt_csak, S1Token: Kivételt, csak_isGouvernedBy_képez: true, csak_isGouvernedBy_képez_MODE: true, transitionHistoryLength1: 0, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [túl, általánosnak, tűnő ,.. ]
+3- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt]   B= [azok, az, esetek ,.. ]
 
-B0Lemma: túl, B0POS: R, B0Token: túl, B1Lemma: általános, B1POS: A, B1Token: általánosnak, S0B0Distance: 1, S0B0Lemma: a_túl, S0B0LemmaPOS: a_R, S0B0POS: T_R, S0B0POSLemma: T_túl, S0B0Token: a_túl, S0B1Lemma: a_általános, S0B1LemmaPOS: a_A, S0B1POS: T_A, S0B1POSLemma: T_általános, S0B1Token: a_általánosnak, S0B2Lemma: a_tűnő, S0B2LemmaPOS: a_A, S0B2POS: T_A, S0B2POSLemma: T_tűnő, S0B2Token: a_tűnő, S0Lemma: a, S0POS: T, S0Token: a, StackLength: 1, a_isGouvernedBy_meghatározás: true, a_isGouvernedBy_meghatározás_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: az, B0POS: P, B0Token: azok, B1Lemma: az, B1POS: T, B1Token: az, S0B0Lemma: kivétel_az, S0B0LemmaPOS: kivétel_P, S0B0POS: N_P, S0B0POSLemma: N_az, S0B0Token: Kivételt_azok, S0B1Lemma: kivétel_az, S0B1LemmaPOS: kivétel_T, S0B1POS: N_T, S0B1POSLemma: N_az, S0B1Token: Kivételt_az, S0IsInLexic: true, S0Lemma: kivétel, S0POS: N, S0Token: Kivételt, kivétel_isGouvernedBy_képez: true, kivétel_isGouvernedBy_képez_OBJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 00, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [túl, általánosnak, tűnő ,.. ]
+4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt, azok]   B= [az, esetek, képeznek ,.. ]
 
-B0Lemma: túl, B0POS: R, B0Token: túl, B1Lemma: általános, B1POS: A, B1Token: általánosnak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: eset, B1POS: N, B1Token: esetek, S0B0Lemma: az_az, S0B0LemmaPOS: az_T, S0B0POS: P_T, S0B0POSLemma: P_az, S0B0Token: azok_az, S0B1Lemma: az_eset, S0B1LemmaPOS: az_N, S0B1POS: P_N, S0B1POSLemma: P_eset, S0B1Token: azok_esetek, S0Lemma: az, S0POS: P, S0Token: azok, S1B0Lemma: kivétel_az, S1B0LemmaPOS: kivétel_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: Kivételt_az, S1IsInLexic: true, S1Lemma: kivétel, S1POS: N, S1S0B0Lemma: kivétel_az_az, S1S0B0LemmaPOS: kivétel_P_T, S1S0B0POS: N_P_T, S1S0B0POSLemma: N_P_az, S1S0B0Token: Kivételt_azok_az, S1S0Lemma: kivétel_az, S1S0LemmaPOS: kivétel_P, S1S0POS: N_P, S1S0POSLemma: N_az, S1S0Token: Kivételt_azok, S1Token: Kivételt, az_isGouvernedBy_eset: true, az_isGouvernedBy_eset_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [túl]   B= [általánosnak, tűnő, meghatározásból ,.. ]
+5- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt]   B= [az, esetek, képeznek ,.. ]
 
-B0Lemma: általános, B0POS: A, B0Token: általánosnak, B1Lemma: tűnő, B1POS: A, B1Token: tűnő, S0B0Distance: 1, S0B0Lemma: túl_általános, S0B0LemmaPOS: túl_A, S0B0POS: R_A, S0B0POSLemma: R_általános, S0B0Token: túl_általánosnak, S0B1Lemma: túl_tűnő, S0B1LemmaPOS: túl_A, S0B1POS: R_A, S0B1POSLemma: R_tűnő, S0B1Token: túl_tűnő, S0B2Lemma: túl_meghatározás, S0B2LemmaPOS: túl_N, S0B2POS: R_N, S0B2POSLemma: R_meghatározás, S0B2Token: túl_meghatározásból, S0Lemma: túl, S0POS: R, S0Token: túl, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, túl_isGouvernedBy_tűnő: true, túl_isGouvernedBy_tűnő_MODE: true, 
+B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: eset, B1POS: N, B1Token: esetek, S0B0Lemma: kivétel_az, S0B0LemmaPOS: kivétel_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: Kivételt_az, S0B1Lemma: kivétel_eset, S0B1LemmaPOS: kivétel_N, S0B1POS: N_N, S0B1POSLemma: N_eset, S0B1Token: Kivételt_esetek, S0IsInLexic: true, S0Lemma: kivétel, S0POS: N, S0Token: Kivételt, kivétel_isGouvernedBy_képez: true, kivétel_isGouvernedBy_képez_OBJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [általánosnak, tűnő, meghatározásból ,.. ]
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt, az]   B= [esetek, képeznek, ahol ,.. ]
 
-B0Lemma: általános, B0POS: A, B0Token: általánosnak, B1Lemma: tűnő, B1POS: A, B1Token: tűnő, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: eset, B0POS: N, B0Token: esetek, B1IsInLexic: true, B1Lemma: képez, B1POS: V, B1Token: képeznek, S0B0Lemma: az_eset, S0B0LemmaPOS: az_N, S0B0POS: T_N, S0B0POSLemma: T_eset, S0B0Token: az_esetek, S0B1Lemma: az_képez, S0B1LemmaPOS: az_V, S0B1POS: T_V, S0B1POSLemma: T_képez, S0B1Token: az_képeznek, S0Lemma: az, S0POS: T, S0Token: az, S1B0Lemma: kivétel_eset, S1B0LemmaPOS: kivétel_N, S1B0POS: N_N, S1B0POSLemma: N_eset, S1B0Token: Kivételt_esetek, S1IsInLexic: true, S1Lemma: kivétel, S1POS: N, S1S0B0Lemma: kivétel_az_eset, S1S0B0LemmaPOS: kivétel_T_N, S1S0B0POS: N_T_N, S1S0B0POSLemma: N_T_eset, S1S0B0Token: Kivételt_az_esetek, S1S0Lemma: kivétel_az, S1S0LemmaPOS: kivétel_T, S1S0POS: N_T, S1S0POSLemma: N_az, S1S0Token: Kivételt_az, S1Token: Kivételt, az_isGouvernedBy_eset: true, az_isGouvernedBy_eset_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [általánosnak]   B= [tűnő, meghatározásból, nehezen ,.. ]
+7- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt]   B= [esetek, képeznek, ahol ,.. ]
 
-B0Lemma: tűnő, B0POS: A, B0Token: tűnő, B1Lemma: meghatározás, B1POS: N, B1Token: meghatározásból, S0B0Distance: 1, S0B0Lemma: általános_tűnő, S0B0LemmaPOS: általános_A, S0B0POS: A_A, S0B0POSLemma: A_tűnő, S0B0Token: általánosnak_tűnő, S0B1Lemma: általános_meghatározás, S0B1LemmaPOS: általános_N, S0B1POS: A_N, S0B1POSLemma: A_meghatározás, S0B1Token: általánosnak_meghatározásból, S0B2Lemma: általános_nehéz, S0B2LemmaPOS: általános_A, S0B2POS: A_A, S0B2POSLemma: A_nehéz, S0B2Token: általánosnak_nehezen, S0Lemma: általános, S0POS: A, S0Token: általánosnak, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, általános_isGouvernedBy_tűnő: true, általános_isGouvernedBy_tűnő_ATT: true, 
+B0Lemma: eset, B0POS: N, B0Token: esetek, B1IsInLexic: true, B1Lemma: képez, B1POS: V, B1Token: képeznek, S0B0Lemma: kivétel_eset, S0B0LemmaPOS: kivétel_N, S0B0POS: N_N, S0B0POSLemma: N_eset, S0B0Token: Kivételt_esetek, S0B1Lemma: kivétel_képez, S0B1LemmaPOS: kivétel_V, S0B1POS: N_V, S0B1POSLemma: N_képez, S0B1Token: Kivételt_képeznek, S0IsInLexic: true, S0Lemma: kivétel, S0POS: N, S0Token: Kivételt, kivétel_isGouvernedBy_képez: true, kivétel_isGouvernedBy_képez_OBJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tűnő, meghatározásból, nehezen ,.. ]
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt, esetek]   B= [képeznek, ahol, a ,.. ]
 
-B0Lemma: tűnő, B0POS: A, B0Token: tűnő, B1Lemma: meghatározás, B1POS: N, B1Token: meghatározásból, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: képez, B0POS: V, B0Token: képeznek, B1Lemma: ahol, B1POS: R, B1Token: ahol, S0B0Lemma: eset_képez, S0B0LemmaPOS: eset_V, S0B0POS: N_V, S0B0POSLemma: N_képez, S0B0Token: esetek_képeznek, S0B1Lemma: eset_ahol, S0B1LemmaPOS: eset_R, S0B1POS: N_R, S0B1POSLemma: N_ahol, S0B1Token: esetek_ahol, S0Lemma: eset, S0POS: N, S0Token: esetek, S1B0Lemma: kivétel_képez, S1B0LemmaPOS: kivétel_V, S1B0POS: N_V, S1B0POSLemma: N_képez, S1B0Token: Kivételt_képeznek, S1IsInLexic: true, S1Lemma: kivétel, S1POS: N, S1S0B0Lemma: kivétel_eset_képez, S1S0B0LemmaPOS: kivétel_N_V, S1S0B0POS: N_N_V, S1S0B0POSLemma: N_N_képez, S1S0B0Token: Kivételt_esetek_képeznek, S1S0Lemma: kivétel_eset, S1S0LemmaPOS: kivétel_N, S1S0POS: N_N, S1S0POSLemma: N_eset, S1S0Token: Kivételt_esetek, S1Token: Kivételt, eset_isGouvernedBy_képez: true, eset_isGouvernedBy_képez_SUBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tűnő]   B= [meghatározásból, nehezen, körvonalazható ,.. ]
+9- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt]   B= [képeznek, ahol, a ,.. ]
 
-B0Lemma: meghatározás, B0POS: N, B0Token: meghatározásból, B1Lemma: nehéz, B1POS: A, B1Token: nehezen, S0B0Distance: 1, S0B0Lemma: tűnő_meghatározás, S0B0LemmaPOS: tűnő_N, S0B0POS: A_N, S0B0POSLemma: A_meghatározás, S0B0Token: tűnő_meghatározásból, S0B1Lemma: tűnő_nehéz, S0B1LemmaPOS: tűnő_A, S0B1POS: A_A, S0B1POSLemma: A_nehéz, S0B1Token: tűnő_nehezen, S0B2Lemma: tűnő_körvonalazható, S0B2LemmaPOS: tűnő_A, S0B2POS: A_A, S0B2POSLemma: A_körvonalazható, S0B2Token: tűnő_körvonalazható, S0Lemma: tűnő, S0POS: A, S0Token: tűnő, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, tűnő_isGouvernedBy_meghatározás: true, tűnő_isGouvernedBy_meghatározás_ATT: true, 
+B0IsInLexic: true, B0Lemma: képez, B0POS: V, B0Token: képeznek, B1Lemma: ahol, B1POS: R, B1Token: ahol, S0B0Lemma: kivétel_képez, S0B0LemmaPOS: kivétel_V, S0B0POS: N_V, S0B0POSLemma: N_képez, S0B0Token: Kivételt_képeznek, S0B1Lemma: kivétel_ahol, S0B1LemmaPOS: kivétel_R, S0B1POS: N_R, S0B1POSLemma: N_ahol, S0B1Token: Kivételt_ahol, S0IsInLexic: true, S0Lemma: kivétel, S0POS: N, S0Token: Kivételt, kivétel_isGouvernedBy_képez: true, kivétel_isGouvernedBy_képez_OBJ: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [meghatározásból, nehezen, körvonalazható ,.. ]
+10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kivételt, képeznek]   B= [ahol, a, Gt. ,.. ]
 
-B0Lemma: meghatározás, B0POS: N, B0Token: meghatározásból, B1Lemma: nehéz, B1POS: A, B1Token: nehezen, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ahol, B0POS: R, B0Token: ahol, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: képez_ahol, S0B0LemmaPOS: képez_R, S0B0POS: V_R, S0B0POSLemma: V_ahol, S0B0Token: képeznek_ahol, S0B1Lemma: képez_a, S0B1LemmaPOS: képez_T, S0B1POS: V_T, S0B1POSLemma: V_a, S0B1Token: képeznek_a, S0IsInLexic: true, S0Lemma: képez, S0POS: V, S0Token: képeznek, S1B0Lemma: kivétel_ahol, S1B0LemmaPOS: kivétel_R, S1B0POS: N_R, S1B0POSLemma: N_ahol, S1B0Token: Kivételt_ahol, S1IsInLexic: true, S1Lemma: kivétel, S1POS: N, S1S0B0Lemma: kivétel_képez_ahol, S1S0B0LemmaPOS: kivétel_V_R, S1S0B0POS: N_V_R, S1S0B0POSLemma: N_V_ahol, S1S0B0Token: Kivételt_képeznek_ahol, S1S0Lemma: kivétel_képez, S1S0LemmaPOS: kivétel_V, S1S0POS: N_V, S1S0POSLemma: N_képez, S1S0Token: Kivételt_képeznek, S1Token: Kivételt, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [meghatározásból]   B= [nehezen, körvonalazható, iratok ,.. ]
+11- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[Kivételt, képeznek]]   B= [ahol, a, Gt. ,.. ]
 
-B0Lemma: nehéz, B0POS: A, B0Token: nehezen, B1Lemma: körvonalazható, B1POS: A, B1Token: körvonalazható, S0B0Distance: 1, S0B0Lemma: meghatározás_nehéz, S0B0LemmaPOS: meghatározás_A, S0B0POS: N_A, S0B0POSLemma: N_nehéz, S0B0Token: meghatározásból_nehezen, S0B1Lemma: meghatározás_körvonalazható, S0B1LemmaPOS: meghatározás_A, S0B1POS: N_A, S0B1POSLemma: N_körvonalazható, S0B1Token: meghatározásból_körvonalazható, S0B2Lemma: meghatározás_irat, S0B2LemmaPOS: meghatározás_N, S0B2POS: N_N, S0B2POSLemma: N_irat, S0B2Token: meghatározásból_iratok, S0Lemma: meghatározás, S0POS: N, S0Token: meghatározásból, StackLength: 1, meghatározás_isGouvernedBy_körvonalazható: true, meghatározás_isGouvernedBy_körvonalazható_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ahol, B0POS: R, B0Token: ahol, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: kivétel_képez_ahol, S0B0LemmaPOS: kivétel_képez_R, S0B0POS: N_V_R, S0B0POSLemma: N_V_ahol, S0B0Token: Kivételt_képeznek_ahol, S0B1Lemma: kivétel_képez_a, S0B1LemmaPOS: kivétel_képez_T, S0B1POS: N_V_T, S0B1POSLemma: N_V_a, S0B1Token: Kivételt_képeznek_a, S0Lemma: kivétel_képez, S0POS: N_V, S0Token: Kivételt_képeznek, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nehezen, körvonalazható, iratok ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ahol, a, Gt. ,.. ]
 
-B0Lemma: nehéz, B0POS: A, B0Token: nehezen, B1Lemma: körvonalazható, B1POS: A, B1Token: körvonalazható, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ahol, B0POS: R, B0Token: ahol, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nehezen]   B= [körvonalazható, iratok, körét ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ahol]   B= [a, Gt., ( ,.. ]
 
-B0Lemma: körvonalazható, B0POS: A, B0Token: körvonalazható, B1Lemma: irat, B1POS: N, B1Token: iratok, S0B0Distance: 1, S0B0Lemma: nehéz_körvonalazható, S0B0LemmaPOS: nehéz_A, S0B0POS: A_A, S0B0POSLemma: A_körvonalazható, S0B0Token: nehezen_körvonalazható, S0B1Lemma: nehéz_irat, S0B1LemmaPOS: nehéz_N, S0B1POS: A_N, S0B1POSLemma: A_irat, S0B1Token: nehezen_iratok, S0B2Lemma: nehéz_kör, S0B2LemmaPOS: nehéz_N, S0B2POS: A_N, S0B2POSLemma: A_kör, S0B2Token: nehezen_körét, S0Lemma: nehéz, S0POS: A, S0Token: nehezen, StackLength: 1, nehéz_isGouvernedBy_körvonalazható: true, nehéz_isGouvernedBy_körvonalazható_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Lemma: ahol_a, S0B0LemmaPOS: ahol_T, S0B0POS: R_T, S0B0POSLemma: R_a, S0B0Token: ahol_a, S0B1Lemma: ahol_Gt., S0B1LemmaPOS: ahol_N, S0B1POS: R_N, S0B1POSLemma: R_Gt., S0B1Token: ahol_Gt., S0Lemma: ahol, S0POS: R, S0Token: ahol, ahol_isGouvernedBy_rendelkezik: true, ahol_isGouvernedBy_rendelkezik_LOCY: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [körvonalazható, iratok, körét ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Gt., ( ,.. ]
 
-B0Lemma: körvonalazható, B0POS: A, B0Token: körvonalazható, B1Lemma: irat, B1POS: N, B1Token: iratok, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [körvonalazható]   B= [iratok, körét, szerintünk ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Gt., (, új ,.. ]
 
-B0Lemma: irat, B0POS: N, B0Token: iratok, B1Lemma: kör, B1POS: N, B1Token: körét, S0B0Distance: 1, S0B0Lemma: körvonalazható_irat, S0B0LemmaPOS: körvonalazható_N, S0B0POS: A_N, S0B0POSLemma: A_irat, S0B0Token: körvonalazható_iratok, S0B1Lemma: körvonalazható_kör, S0B1LemmaPOS: körvonalazható_N, S0B1POS: A_N, S0B1POSLemma: A_kör, S0B1Token: körvonalazható_körét, S0B2Lemma: körvonalazható_szerinte, S0B2LemmaPOS: körvonalazható_R, S0B2POS: A_R, S0B2POSLemma: A_szerinte, S0B2Token: körvonalazható_szerintünk, S0Lemma: körvonalazható, S0POS: A, S0Token: körvonalazható, StackLength: 1, körvonalazható_isGouvernedBy_irat: true, körvonalazható_isGouvernedBy_irat_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: a_(, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_Gt.: true, a_isGouvernedBy_Gt._DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iratok, körét, szerintünk ,.. ]
-
-B0Lemma: irat, B0POS: N, B0Token: iratok, B1Lemma: kör, B1POS: N, B1Token: körét, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iratok]   B= [körét, szerintünk, a ,.. ]
-
-B0Lemma: kör, B0POS: N, B0Token: körét, B1Lemma: szerinte, B1POS: R, B1Token: szerintünk, S0B0Distance: 1, S0B0Lemma: irat_kör, S0B0LemmaPOS: irat_N, S0B0POS: N_N, S0B0POSLemma: N_kör, S0B0Token: iratok_körét, S0B1Lemma: irat_szerinte, S0B1LemmaPOS: irat_R, S0B1POS: N_R, S0B1POSLemma: N_szerinte, S0B1Token: iratok_szerintünk, S0B2Lemma: irat_a, S0B2LemmaPOS: irat_T, S0B2POS: N_T, S0B2POSLemma: N_a, S0B2Token: iratok_a, S0Lemma: irat, S0POS: N, S0Token: iratok, StackLength: 1, irat_isGouvernedBy_kör: true, irat_isGouvernedBy_kör_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [körét, szerintünk, a ,.. ]
-
-B0Lemma: kör, B0POS: N, B0Token: körét, B1Lemma: szerinte, B1POS: R, B1Token: szerintünk, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [körét]   B= [szerintünk, a, Gt. ,.. ]
-
-B0Lemma: szerinte, B0POS: R, B0Token: szerintünk, B1Lemma: a, B1POS: T, B1Token: a, S0B0Distance: 1, S0B0Lemma: kör_szerinte, S0B0LemmaPOS: kör_R, S0B0POS: N_R, S0B0POSLemma: N_szerinte, S0B0Token: körét_szerintünk, S0B1Lemma: kör_a, S0B1LemmaPOS: kör_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: körét_a, S0B2Lemma: kör_Gt., S0B2LemmaPOS: kör_N, S0B2POS: N_N, S0B2POSLemma: N_Gt., S0B2Token: körét_Gt., S0Lemma: kör, S0POS: N, S0Token: körét, StackLength: 1, kör_isGouvernedBy_értelmez: true, kör_isGouvernedBy_értelmez_OBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [szerintünk, a, Gt. ,.. ]
-
-B0Lemma: szerinte, B0POS: R, B0Token: szerintünk, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [szerintünk]   B= [a, Gt., ( ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Distance: 1, S0B0Lemma: szerinte_a, S0B0LemmaPOS: szerinte_T, S0B0POS: R_T, S0B0POSLemma: R_a, S0B0Token: szerintünk_a, S0B1Lemma: szerinte_Gt., S0B1LemmaPOS: szerinte_N, S0B1POS: R_N, S0B1POSLemma: R_Gt., S0B1Token: szerintünk_Gt., S0B2Lemma: szerinte_(, S0B2LemmaPOS: szerinte_(, S0B2POS: R_(, S0B2POSLemma: R_(, S0B2Token: szerintünk_(, S0Lemma: szerinte, S0POS: R, S0Token: szerintünk, StackLength: 1, szerinte_isGouvernedBy_lehet: true, szerinte_isGouvernedBy_lehet_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Gt., ( ,.. ]
-
-B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Gt., (, új ,.. ]
-
-B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Distance: 1, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: a_(, S0B2Lemma: a_új, S0B2LemmaPOS: a_A, S0B2POS: T_A, S0B2POSLemma: T_új, S0B2Token: a_új, S0Lemma: a, S0POS: T, S0Token: a, StackLength: 1, a_isGouvernedBy_§: true, a_isGouvernedBy_§_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (, új ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (, új ,.. ]
 
 B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(, új, ) ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(, új, ) ,.. ]
 
-B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_§: true, Gt._isGouvernedBy_§_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Distance: 1, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0B2Lemma: Gt._), S0B2LemmaPOS: Gt._), S0B2POS: N_), S0B2POSLemma: N_), S0B2Token: Gt._), S0Lemma: Gt., S0POS: N, S0Token: Gt., StackLength: 1, hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_rendelkezik: true, Gt._isGouvernedBy_rendelkezik_SUBJ: true, Gt._új_hasRighDep_ATT: true, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0Lemma: Gt., S0POS: N, S0Token: Gt., hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, új, ) ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, új, ) ,.. ]
 
 B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [új, ), 72. ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [új, ), kifejezetten ,.. ]
 
-(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Distance: 1, S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0B2Lemma: (_72., S0B2LemmaPOS: (_M, S0B2POS: (_M, S0B2POSLemma: (_72., S0B2Token: (_72., S0Lemma: (, S0POS: (, S0Token: (, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0Lemma: (, S0POS: (, S0Token: (, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, ), 72. ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, ), kifejezetten ,.. ]
 
 B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [), 72., § ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [), kifejezetten, eltérően ,.. ]
 
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 72., B1POS: M, B1Token: 72., S0B0Distance: 1, S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_72., S0B1LemmaPOS: új_M, S0B1POS: A_M, S0B1POSLemma: A_72., S0B1Token: új_72., S0B2Lemma: új_§, S0B2LemmaPOS: új_§, S0B2POS: A_§, S0B2POSLemma: A_§, S0B2Token: új_§, S0Lemma: új, S0POS: A, S0Token: új, StackLength: 1, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
+B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: kifejezett, B1POS: A, B1Token: kifejezetten, S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_kifejezett, S0B1LemmaPOS: új_A, S0B1POS: A_A, S0B1POSLemma: A_kifejezett, S0B1Token: új_kifejezetten, S0Lemma: új, S0POS: A, S0Token: új, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), 72., § ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), kifejezetten, eltérően ,.. ]
 
-B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 72., B1POS: M, B1Token: 72., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: kifejezett, B1POS: A, B1Token: kifejezetten, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [72., §, (2) ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [kifejezetten, eltérően, rendelkezik ,.. ]
 
-B0Lemma: 72., B0POS: M, B0Token: 72., B1Lemma: §, B1POS: §, B1Token: §, S0B0Distance: 1, S0B0Lemma: )_72., S0B0LemmaPOS: )_M, S0B0POS: )_M, S0B0POSLemma: )_72., S0B0Token: )_72., S0B1Lemma: )_§, S0B1LemmaPOS: )_§, S0B1POS: )_§, S0B1POSLemma: )_§, S0B1Token: )_§, S0B2Lemma: )_(2), S0B2LemmaPOS: )_O, S0B2POS: )_O, S0B2POSLemma: )_(2), S0B2Token: )_(2), S0Lemma: ), S0POS: ), S0Token: ), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: kifejezett, B0POS: A, B0Token: kifejezetten, B1Lemma: eltérő, B1POS: A, B1Token: eltérően, S0B0Lemma: )_kifejezett, S0B0LemmaPOS: )_A, S0B0POS: )_A, S0B0POSLemma: )_kifejezett, S0B0Token: )_kifejezetten, S0B1Lemma: )_eltérő, S0B1LemmaPOS: )_A, S0B1POS: )_A, S0B1POSLemma: )_eltérő, S0B1Token: )_eltérően, S0Lemma: ), S0POS: ), S0Token: ), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [72., §, (2) ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kifejezetten, eltérően, rendelkezik ,.. ]
 
-B0Lemma: 72., B0POS: M, B0Token: 72., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: kifejezett, B0POS: A, B0Token: kifejezetten, B1Lemma: eltérő, B1POS: A, B1Token: eltérően, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [72.]   B= [§, (2), bekezdés ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kifejezetten]   B= [eltérően, rendelkezik, . ,.. ]
 
-72._isGouvernedBy_§: true, 72._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (2), B1POS: O, B1Token: (2), S0B0Distance: 1, S0B0Lemma: 72._§, S0B0LemmaPOS: 72._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 72._§, S0B1Lemma: 72._(2), S0B1LemmaPOS: 72._O, S0B1POS: M_O, S0B1POSLemma: M_(2), S0B1Token: 72._(2), S0B2Lemma: 72._bekezdés, S0B2LemmaPOS: 72._N, S0B2POS: M_N, S0B2POSLemma: M_bekezdés, S0B2Token: 72._bekezdés, S0Lemma: 72., S0POS: M, S0Token: 72., StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: eltérő, B0POS: A, B0Token: eltérően, B1Lemma: rendelkezik, B1POS: V, B1Token: rendelkezik, S0B0Lemma: kifejezett_eltérő, S0B0LemmaPOS: kifejezett_A, S0B0POS: A_A, S0B0POSLemma: A_eltérő, S0B0Token: kifejezetten_eltérően, S0B1Lemma: kifejezett_rendelkezik, S0B1LemmaPOS: kifejezett_V, S0B1POS: A_V, S0B1POSLemma: A_rendelkezik, S0B1Token: kifejezetten_rendelkezik, S0Lemma: kifejezett, S0POS: A, S0Token: kifejezetten, kifejezett_isGouvernedBy_eltérő: true, kifejezett_isGouvernedBy_eltérő_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (2), bekezdés ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [eltérően, rendelkezik, . ,.. ]
 
-B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (2), B1POS: O, B1Token: (2), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: eltérő, B0POS: A, B0Token: eltérően, B1Lemma: rendelkezik, B1POS: V, B1Token: rendelkezik, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(2), bekezdés, és ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [eltérően]   B= [rendelkezik, . ,.. ]
 
-B0Lemma: (2), B0POS: O, B0Token: (2), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdés, S0B0Distance: 1, S0B0Lemma: §_(2), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(2), S0B0Token: §_(2), S0B1Lemma: §_bekezdés, S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bekezdés, S0B1Token: §_bekezdés, S0B2Lemma: §_és, S0B2LemmaPOS: §_C, S0B2POS: §_C, S0B2POSLemma: §_és, S0B2Token: §_és, S0Lemma: §, S0POS: §, S0Token: §, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bekezdés: true, §_isGouvernedBy_bekezdés_ATT: true, 
+B0Lemma: rendelkezik, B0POS: V, B0Token: rendelkezik, B1Lemma: ., B1POS: ., B1Token: ., S0B0Lemma: eltérő_rendelkezik, S0B0LemmaPOS: eltérő_V, S0B0POS: A_V, S0B0POSLemma: A_rendelkezik, S0B0Token: eltérően_rendelkezik, S0B1Lemma: eltérő_., S0B1LemmaPOS: eltérő_., S0B1POS: A_., S0B1POSLemma: A_., S0B1Token: eltérően_., S0Lemma: eltérő, S0POS: A, S0Token: eltérően, eltérő_isGouvernedBy_rendelkezik: true, eltérő_isGouvernedBy_rendelkezik_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(2), bekezdés, és ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rendelkezik, . ,.. ]
 
-B0Lemma: (2), B0POS: O, B0Token: (2), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdés, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: rendelkezik, B0POS: V, B0Token: rendelkezik, B1Lemma: ., B1POS: ., B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(2)]   B= [bekezdés, és, 77. ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rendelkezik]   B= [.]
 
-(2)_isGouvernedBy_bekezdés: true, (2)_isGouvernedBy_bekezdés_ATT: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdés, B1Lemma: és, B1POS: C, B1Token: és, S0B0Distance: 1, S0B0Lemma: (2)_bekezdés, S0B0LemmaPOS: (2)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (2)_bekezdés, S0B1Lemma: (2)_és, S0B1LemmaPOS: (2)_C, S0B1POS: O_C, S0B1POSLemma: O_és, S0B1Token: (2)_és, S0B2Lemma: (2)_77., S0B2LemmaPOS: (2)_M, S0B2POS: O_M, S0B2POSLemma: O_77., S0B2Token: (2)_77., S0Lemma: (2), S0POS: O, S0Token: (2), StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: rendelkezik_., S0B0LemmaPOS: rendelkezik_., S0B0POS: V_., S0B0POSLemma: V_., S0B0Token: rendelkezik_., S0Lemma: rendelkezik, S0POS: V, S0Token: rendelkezik, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bekezdés, és, 77. ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-B0Lemma: bekezdés, B0POS: N, B0Token: bekezdés, B1Lemma: és, B1POS: C, B1Token: és, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [és, 77., § ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-B0Lemma: és, B0POS: C, B0Token: és, B1Lemma: 77., B1POS: M, B1Token: 77., S0B0Distance: 1, S0B0Lemma: bekezdés_és, S0B0LemmaPOS: bekezdés_C, S0B0POS: N_C, S0B0POSLemma: N_és, S0B0Token: bekezdés_és, S0B1Lemma: bekezdés_77., S0B1LemmaPOS: bekezdés_M, S0B1POS: N_M, S0B1POSLemma: N_77., S0B1Token: bekezdés_77., S0B2Lemma: bekezdés_§, S0B2LemmaPOS: bekezdés_§, S0B2POS: N_§, S0B2POSLemma: N_§, S0B2Token: bekezdés_§, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, bekezdés_hasRighDep_CONJ: true, bekezdés_isGouvernedBy_összhang: true, bekezdés_isGouvernedBy_összhang_OBL: true, bekezdés_és_hasRighDep_CONJ: true, hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, és]   B= [77., §, (2) ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-B0Lemma: 77., B0POS: M, B0Token: 77., B1Lemma: §, B1POS: §, B1Token: §, S0B0Distance: 1, S0B0Lemma: és_77., S0B0LemmaPOS: és_M, S0B0POS: C_M, S0B0POSLemma: C_77., S0B0Token: és_77., S0B1Lemma: és_§, S0B1LemmaPOS: és_§, S0B1POS: C_§, S0B1POSLemma: C_§, S0B1Token: és_§, S0B2Lemma: és_(2), S0B2LemmaPOS: és_O, S0B2POS: C_O, S0B2POSLemma: C_(2), S0B2Token: és_(2), S0Lemma: és, S0POS: C, S0S1Distance: 1, S0Token: és, S1B0Lemma: bekezdés_77., S1B0LemmaPOS: bekezdés_M, S1B0POS: N_M, S1B0POSLemma: N_77., S1B0Token: bekezdés_77., S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_és_77., S1S0B0LemmaPOS: bekezdés_C_M, S1S0B0POS: N_C_M, S1S0B0POSLemma: N_C_77., S1S0B0Token: bekezdés_és_77., S1S0Lemma: bekezdés_és, S1S0LemmaPOS: bekezdés_C, S1S0POS: N_C, S1S0POSLemma: N_és, S1S0Token: bekezdés_és, S1Token: bekezdés, StackLength: 2, SyntaxicRelation: +CONJ, hasRighDep_COORD: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, és_bekezdés_hasRighDep_COORD: true, és_hasRighDep_COORD: true, 
+## Sentence No. 1056 - 
+Ezek a következők a társasági forma gazdasági fundementumát jelentő alaptőkét a számviteli törvénnyel való összhang megteremtése érdekében azonosítja a jegyzett tőkével , a részvényesi felelősség helyett a részvényesnek a részvénytársasággal szembeni " kötelezettségéről " ír , a részvénytársaság kötelezettségeiért való részvényesi felelősséget nem kizárólagos szabályként , hanem a Gt. (új)-ban megállapított esetek kivételével fennállónak mondja ki . 
+### Existing MWEs: 
+2- **kivételével** (VPC)
+1- **fennállónak** (VPC)
 
-41- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [77., §, (2) ,.. ]
 
-B0Lemma: 77., B0POS: M, B0Token: 77., B1Lemma: §, B1POS: §, B1Token: §, S0B0Distance: 2, S0B0Lemma: bekezdés_77., S0B0LemmaPOS: bekezdés_M, S0B0POS: N_M, S0B0POSLemma: N_77., S0B0Token: bekezdés_77., S0B1Lemma: bekezdés_§, S0B1LemmaPOS: bekezdés_§, S0B1POS: N_§, S0B1POSLemma: N_§, S0B1Token: bekezdés_§, S0B2Lemma: bekezdés_(2), S0B2LemmaPOS: bekezdés_O, S0B2POS: N_O, S0B2POSLemma: N_(2), S0B2Token: bekezdés_(2), S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, bekezdés_isGouvernedBy_összhang: true, bekezdés_isGouvernedBy_összhang_OBL: true, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
 
-42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, 77.]   B= [§, (2), bekezdéssel ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ezek, a, következők ,.. ]
 
-77._isGouvernedBy_§: true, 77._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (2), B1POS: O, B1Token: (2), S0B0Distance: 1, S0B0Lemma: 77._§, S0B0LemmaPOS: 77._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 77._§, S0B1Lemma: 77._(2), S0B1LemmaPOS: 77._O, S0B1POS: M_O, S0B1POSLemma: M_(2), S0B1Token: 77._(2), S0B2Lemma: 77._bekezdés, S0B2LemmaPOS: 77._N, S0B2POS: M_N, S0B2POSLemma: M_bekezdés, S0B2Token: 77._bekezdéssel, S0Lemma: 77., S0POS: M, S0S1Distance: 2, S0Token: 77., S1B0Lemma: bekezdés_§, S1B0LemmaPOS: bekezdés_§, S1B0POS: N_§, S1B0POSLemma: N_§, S1B0Token: bekezdés_§, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_77._§, S1S0B0LemmaPOS: bekezdés_M_§, S1S0B0POS: N_M_§, S1S0B0POSLemma: N_M_§, S1S0B0Token: bekezdés_77._§, S1S0Lemma: bekezdés_77., S1S0LemmaPOS: bekezdés_M, S1S0POS: N_M, S1S0POSLemma: N_77., S1S0Token: bekezdés_77., S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+B0Lemma: ez, B0POS: P, B0Token: Ezek, B1Lemma: a, B1POS: T, B1Token: a, 
 
-43- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [§, (2), bekezdéssel ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ezek]   B= [a, következők, a ,.. ]
 
-B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (2), B1POS: O, B1Token: (2), S0B0Distance: 3, S0B0Lemma: bekezdés_§, S0B0LemmaPOS: bekezdés_§, S0B0POS: N_§, S0B0POSLemma: N_§, S0B0Token: bekezdés_§, S0B1Lemma: bekezdés_(2), S0B1LemmaPOS: bekezdés_O, S0B1POS: N_O, S0B1POSLemma: N_(2), S0B1Token: bekezdés_(2), S0B2Lemma: bekezdés_bekezdés, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_bekezdés, S0B2Token: bekezdés_bekezdéssel, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, bekezdés_isGouvernedBy_összhang: true, bekezdés_isGouvernedBy_összhang_OBL: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: következő, B1POS: N, B1Token: következők, S0B0Lemma: ez_a, S0B0LemmaPOS: ez_T, S0B0POS: P_T, S0B0POSLemma: P_a, S0B0Token: Ezek_a, S0B1Lemma: ez_következő, S0B1LemmaPOS: ez_N, S0B1POS: P_N, S0B1POSLemma: P_következő, S0B1Token: Ezek_következők, S0Lemma: ez, S0POS: P, S0Token: Ezek, ez_isGouvernedBy_következő: true, ez_isGouvernedBy_következő_DET: true, 
 
-44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, §]   B= [(2), bekezdéssel, összhangban ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, következők, a ,.. ]
 
-B0Lemma: (2), B0POS: O, B0Token: (2), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdéssel, S0B0Distance: 1, S0B0Lemma: §_(2), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(2), S0B0Token: §_(2), S0B1Lemma: §_bekezdés, S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bekezdés, S0B1Token: §_bekezdéssel, S0B2Lemma: §_összhang, S0B2LemmaPOS: §_N, S0B2POS: §_N, S0B2POSLemma: §_összhang, S0B2Token: §_összhangban, S0Lemma: §, S0POS: §, S0S1Distance: 3, S0Token: §, S1B0Lemma: bekezdés_(2), S1B0LemmaPOS: bekezdés_O, S1B0POS: N_O, S1B0POSLemma: N_(2), S1B0Token: bekezdés_(2), S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_§_(2), S1S0B0LemmaPOS: bekezdés_§_O, S1S0B0POS: N_§_O, S1S0B0POSLemma: N_§_(2), S1S0B0Token: bekezdés_§_(2), S1S0Lemma: bekezdés_§, S1S0LemmaPOS: bekezdés_§, S1S0POS: N_§, S1S0POSLemma: N_§, S1S0Token: bekezdés_§, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bekezdés: true, §_isGouvernedBy_bekezdés_ATT: true, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: következő, B1POS: N, B1Token: következők, transitionHistoryLength1: 0, 
 
-45- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [(2), bekezdéssel, összhangban ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [következők, a, társasági ,.. ]
 
-B0Lemma: (2), B0POS: O, B0Token: (2), B1Lemma: bekezdés, B1POS: N, B1Token: bekezdéssel, S0B0Distance: 4, S0B0Lemma: bekezdés_(2), S0B0LemmaPOS: bekezdés_O, S0B0POS: N_O, S0B0POSLemma: N_(2), S0B0Token: bekezdés_(2), S0B1Lemma: bekezdés_bekezdés, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_bekezdés, S0B1Token: bekezdés_bekezdéssel, S0B2Lemma: bekezdés_összhang, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_összhang, S0B2Token: bekezdés_összhangban, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, bekezdés_isGouvernedBy_összhang: true, bekezdés_isGouvernedBy_összhang_OBL: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: következő, B0POS: N, B0Token: következők, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: a_következő, S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_következő, S0B0Token: a_következők, S0B1Lemma: a_a, S0B1LemmaPOS: a_T, S0B1POS: T_T, S0B1POSLemma: T_a, S0B1Token: a_a, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_következő: true, a_isGouvernedBy_következő_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, (2)]   B= [bekezdéssel, összhangban, lehet ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [következők, a, társasági ,.. ]
 
-(2)_isGouvernedBy_bekezdés: true, (2)_isGouvernedBy_bekezdés_ATT: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdéssel, B1Lemma: összhang, B1POS: N, B1Token: összhangban, S0B0Distance: 1, S0B0Lemma: (2)_bekezdés, S0B0LemmaPOS: (2)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (2)_bekezdéssel, S0B1Lemma: (2)_összhang, S0B1LemmaPOS: (2)_N, S0B1POS: O_N, S0B1POSLemma: O_összhang, S0B1Token: (2)_összhangban, S0B2Lemma: (2)_lehet, S0B2LemmaPOS: (2)_V, S0B2POS: O_V, S0B2POSLemma: O_lehet, S0B2Token: (2)_lehet, S0Lemma: (2), S0POS: O, S0S1Distance: 4, S0Token: (2), S1B0Lemma: bekezdés_bekezdés, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_bekezdés, S1B0Token: bekezdés_bekezdéssel, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_(2)_bekezdés, S1S0B0LemmaPOS: bekezdés_O_N, S1S0B0POS: N_O_N, S1S0B0POSLemma: N_O_bekezdés, S1S0B0Token: bekezdés_(2)_bekezdéssel, S1S0Lemma: bekezdés_(2), S1S0LemmaPOS: bekezdés_O, S1S0POS: N_O, S1S0POSLemma: N_(2), S1S0Token: bekezdés_(2), S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: következő, B0POS: N, B0Token: következők, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-47- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [bekezdéssel, összhangban, lehet ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [következők]   B= [a, társasági, forma ,.. ]
 
-B0Lemma: bekezdés, B0POS: N, B0Token: bekezdéssel, B1Lemma: összhang, B1POS: N, B1Token: összhangban, S0B0Distance: 5, S0B0Lemma: bekezdés_bekezdés, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_bekezdés, S0B0Token: bekezdés_bekezdéssel, S0B1Lemma: bekezdés_összhang, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_összhang, S0B1Token: bekezdés_összhangban, S0B2Lemma: bekezdés_lehet, S0B2LemmaPOS: bekezdés_V, S0B2POS: N_V, S0B2POSLemma: N_lehet, S0B2Token: bekezdés_lehet, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, bekezdés_isGouvernedBy_összhang: true, bekezdés_isGouvernedBy_összhang_OBL: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: társasági, B1POS: A, B1Token: társasági, S0B0Lemma: következő_a, S0B0LemmaPOS: következő_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: következők_a, S0B1Lemma: következő_társasági, S0B1LemmaPOS: következő_A, S0B1POS: N_A, S0B1POSLemma: N_társasági, S0B1Token: következők_társasági, S0Lemma: következő, S0POS: N, S0Token: következők, következő_isGouvernedBy_azonosít: true, következő_isGouvernedBy_azonosít_SUBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, bekezdéssel]   B= [összhangban, lehet, értelmezni ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, társasági, forma ,.. ]
 
-B0Lemma: összhang, B0POS: N, B0Token: összhangban, B1Lemma: lehet, B1POS: V, B1Token: lehet, S0B0Distance: 1, S0B0Lemma: bekezdés_összhang, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_összhang, S0B0Token: bekezdéssel_összhangban, S0B1Lemma: bekezdés_lehet, S0B1LemmaPOS: bekezdés_V, S0B1POS: N_V, S0B1POSLemma: N_lehet, S0B1Token: bekezdéssel_lehet, S0B2Lemma: bekezdés_értelmez, S0B2LemmaPOS: bekezdés_V, S0B2POS: N_V, S0B2POSLemma: N_értelmez, S0B2Token: bekezdéssel_értelmezni, S0Lemma: bekezdés, S0POS: N, S0S1Distance: 5, S0Token: bekezdéssel, S1B0Lemma: bekezdés_összhang, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_összhang, S1B0Token: bekezdés_összhangban, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_bekezdés_összhang, S1S0B0LemmaPOS: bekezdés_N_N, S1S0B0POS: N_N_N, S1S0B0POSLemma: N_N_összhang, S1S0B0Token: bekezdés_bekezdéssel_összhangban, S1S0Lemma: bekezdés_bekezdés, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_bekezdés, S1S0Token: bekezdés_bekezdéssel, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: társasági, B1POS: A, B1Token: társasági, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-49- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [összhangban, lehet, értelmezni ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [társasági, forma, gazdasági ,.. ]
 
-B0Lemma: összhang, B0POS: N, B0Token: összhangban, B1Lemma: lehet, B1POS: V, B1Token: lehet, S0B0Distance: 6, S0B0Lemma: bekezdés_összhang, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_összhang, S0B0Token: bekezdés_összhangban, S0B1Lemma: bekezdés_lehet, S0B1LemmaPOS: bekezdés_V, S0B1POS: N_V, S0B1POSLemma: N_lehet, S0B1Token: bekezdés_lehet, S0B2Lemma: bekezdés_értelmez, S0B2LemmaPOS: bekezdés_V, S0B2POS: N_V, S0B2POSLemma: N_értelmez, S0B2Token: bekezdés_értelmezni, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, bekezdés_isGouvernedBy_összhang: true, bekezdés_isGouvernedBy_összhang_OBL: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: társasági, B0POS: A, B0Token: társasági, B1Lemma: forma, B1POS: N, B1Token: forma, S0B0Lemma: a_társasági, S0B0LemmaPOS: a_A, S0B0POS: T_A, S0B0POSLemma: T_társasági, S0B0Token: a_társasági, S0B1Lemma: a_forma, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_forma, S0B1Token: a_forma, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_forma: true, a_isGouvernedBy_forma_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összhangban]   B= [lehet, értelmezni, , ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [társasági, forma, gazdasági ,.. ]
 
-B0Lemma: lehet, B0POS: V, B0Token: lehet, B1Lemma: értelmez, B1POS: V, B1Token: értelmezni, S0B0Distance: 1, S0B0Lemma: összhang_lehet, S0B0LemmaPOS: összhang_V, S0B0POS: N_V, S0B0POSLemma: N_lehet, S0B0Token: összhangban_lehet, S0B1Lemma: összhang_értelmez, S0B1LemmaPOS: összhang_V, S0B1POS: N_V, S0B1POSLemma: N_értelmez, S0B1Token: összhangban_értelmezni, S0B2Lemma: összhang_,, S0B2LemmaPOS: összhang_,, S0B2POS: N_,, S0B2POSLemma: N_,, S0B2Token: összhangban_,, S0Lemma: összhang, S0POS: N, S0S1Distance: 6, S0Token: összhangban, S1B0Lemma: bekezdés_lehet, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_lehet, S1B0Token: bekezdés_lehet, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_összhang_lehet, S1S0B0LemmaPOS: bekezdés_N_V, S1S0B0POS: N_N_V, S1S0B0POSLemma: N_N_lehet, S1S0B0Token: bekezdés_összhangban_lehet, S1S0Lemma: bekezdés_összhang, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_összhang, S1S0Token: bekezdés_összhangban, S1Token: bekezdés, StackLength: 2, SyntaxicRelation: -OBL, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, összhang_isGouvernedBy_értelmez: true, összhang_isGouvernedBy_értelmez_OBL: true, 
+B0Lemma: társasági, B0POS: A, B0Token: társasági, B1Lemma: forma, B1POS: N, B1Token: forma, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-51- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [lehet, értelmezni, , ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [társasági]   B= [forma, gazdasági, fundementumát ,.. ]
 
-B0Lemma: lehet, B0POS: V, B0Token: lehet, B1Lemma: értelmez, B1POS: V, B1Token: értelmezni, S0B0Distance: 7, S0B0Lemma: bekezdés_lehet, S0B0LemmaPOS: bekezdés_V, S0B0POS: N_V, S0B0POSLemma: N_lehet, S0B0Token: bekezdés_lehet, S0B1Lemma: bekezdés_értelmez, S0B1LemmaPOS: bekezdés_V, S0B1POS: N_V, S0B1POSLemma: N_értelmez, S0B1Token: bekezdés_értelmezni, S0B2Lemma: bekezdés_,, S0B2LemmaPOS: bekezdés_,, S0B2POS: N_,, S0B2POSLemma: N_,, S0B2Token: bekezdés_,, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: forma, B0POS: N, B0Token: forma, B1Lemma: gazdasági, B1POS: A, B1Token: gazdasági, S0B0Lemma: társasági_forma, S0B0LemmaPOS: társasági_N, S0B0POS: A_N, S0B0POSLemma: A_forma, S0B0Token: társasági_forma, S0B1Lemma: társasági_gazdasági, S0B1LemmaPOS: társasági_A, S0B1POS: A_A, S0B1POSLemma: A_gazdasági, S0B1Token: társasági_gazdasági, S0Lemma: társasági, S0POS: A, S0Token: társasági, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, társasági_isGouvernedBy_forma: true, társasági_isGouvernedBy_forma_ATT: true, 
 
-52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, lehet]   B= [értelmezni, ,, ezért ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forma, gazdasági, fundementumát ,.. ]
 
-B0Lemma: értelmez, B0POS: V, B0Token: értelmezni, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Distance: 1, S0B0Lemma: lehet_értelmez, S0B0LemmaPOS: lehet_V, S0B0POS: V_V, S0B0POSLemma: V_értelmez, S0B0Token: lehet_értelmezni, S0B1Lemma: lehet_,, S0B1LemmaPOS: lehet_,, S0B1POS: V_,, S0B1POSLemma: V_,, S0B1Token: lehet_,, S0B2Lemma: lehet_ezért, S0B2LemmaPOS: lehet_C, S0B2POS: V_C, S0B2POSLemma: V_ezért, S0B2Token: lehet_ezért, S0Lemma: lehet, S0POS: V, S0S1Distance: 7, S0Token: lehet, S1B0Lemma: bekezdés_értelmez, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_értelmez, S1B0Token: bekezdés_értelmezni, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_lehet_értelmez, S1S0B0LemmaPOS: bekezdés_V_V, S1S0B0POS: N_V_V, S1S0B0POSLemma: N_V_értelmez, S1S0B0Token: bekezdés_lehet_értelmezni, S1S0Lemma: bekezdés_lehet, S1S0LemmaPOS: bekezdés_V, S1S0POS: N_V, S1S0POSLemma: N_lehet, S1S0Token: bekezdés_lehet, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: forma, B0POS: N, B0Token: forma, B1Lemma: gazdasági, B1POS: A, B1Token: gazdasági, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-53- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [értelmezni, ,, ezért ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forma]   B= [gazdasági, fundementumát, jelentő ,.. ]
 
-B0Lemma: értelmez, B0POS: V, B0Token: értelmezni, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Distance: 8, S0B0Lemma: bekezdés_értelmez, S0B0LemmaPOS: bekezdés_V, S0B0POS: N_V, S0B0POSLemma: N_értelmez, S0B0Token: bekezdés_értelmezni, S0B1Lemma: bekezdés_,, S0B1LemmaPOS: bekezdés_,, S0B1POS: N_,, S0B1POSLemma: N_,, S0B1Token: bekezdés_,, S0B2Lemma: bekezdés_ezért, S0B2LemmaPOS: bekezdés_C, S0B2POS: N_C, S0B2POSLemma: N_ezért, S0B2Token: bekezdés_ezért, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: gazdasági, B0POS: A, B0Token: gazdasági, B1Lemma: fundementum, B1POS: N, B1Token: fundementumát, S0B0Lemma: forma_gazdasági, S0B0LemmaPOS: forma_A, S0B0POS: N_A, S0B0POSLemma: N_gazdasági, S0B0Token: forma_gazdasági, S0B1Lemma: forma_fundementum, S0B1LemmaPOS: forma_N, S0B1POS: N_N, S0B1POSLemma: N_fundementum, S0B1Token: forma_fundementumát, S0Lemma: forma, S0POS: N, S0Token: forma, forma_isGouvernedBy_fundementum: true, forma_isGouvernedBy_fundementum_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, értelmezni]   B= [,, ezért, ezek ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gazdasági, fundementumát, jelentő ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: ezért, B1POS: C, B1Token: ezért, S0B0Distance: 1, S0B0Lemma: értelmez_,, S0B0LemmaPOS: értelmez_,, S0B0POS: V_,, S0B0POSLemma: V_,, S0B0Token: értelmezni_,, S0B1Lemma: értelmez_ezért, S0B1LemmaPOS: értelmez_C, S0B1POS: V_C, S0B1POSLemma: V_ezért, S0B1Token: értelmezni_ezért, S0B2Lemma: értelmez_ez, S0B2LemmaPOS: értelmez_P, S0B2POS: V_P, S0B2POSLemma: V_ez, S0B2Token: értelmezni_ezek, S0Lemma: értelmez, S0POS: V, S0S1Distance: 8, S0Token: értelmezni, S1B0Lemma: bekezdés_,, S1B0LemmaPOS: bekezdés_,, S1B0POS: N_,, S1B0POSLemma: N_,, S1B0Token: bekezdés_,, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_értelmez_,, S1S0B0LemmaPOS: bekezdés_V_,, S1S0B0POS: N_V_,, S1S0B0POSLemma: N_V_,, S1S0B0Token: bekezdés_értelmezni_,, S1S0Lemma: bekezdés_értelmez, S1S0LemmaPOS: bekezdés_V, S1S0POS: N_V, S1S0POSLemma: N_értelmez, S1S0Token: bekezdés_értelmezni, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: gazdasági, B0POS: A, B0Token: gazdasági, B1Lemma: fundementum, B1POS: N, B1Token: fundementumát, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-55- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [,, ezért, ezek ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gazdasági]   B= [fundementumát, jelentő, alaptőkét ,.. ]
 
-B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: ezért, B1POS: C, B1Token: ezért, S0B0Distance: 9, S0B0Lemma: bekezdés_,, S0B0LemmaPOS: bekezdés_,, S0B0POS: N_,, S0B0POSLemma: N_,, S0B0Token: bekezdés_,, S0B1Lemma: bekezdés_ezért, S0B1LemmaPOS: bekezdés_C, S0B1POS: N_C, S0B1POSLemma: N_ezért, S0B1Token: bekezdés_ezért, S0B2Lemma: bekezdés_ez, S0B2LemmaPOS: bekezdés_P, S0B2POS: N_P, S0B2POSLemma: N_ez, S0B2Token: bekezdés_ezek, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: fundementum, B0POS: N, B0Token: fundementumát, B1Lemma: jelentő, B1POS: A, B1Token: jelentő, S0B0Lemma: gazdasági_fundementum, S0B0LemmaPOS: gazdasági_N, S0B0POS: A_N, S0B0POSLemma: A_fundementum, S0B0Token: gazdasági_fundementumát, S0B1Lemma: gazdasági_jelentő, S0B1LemmaPOS: gazdasági_A, S0B1POS: A_A, S0B1POSLemma: A_jelentő, S0B1Token: gazdasági_jelentő, S0Lemma: gazdasági, S0POS: A, S0Token: gazdasági, gazdasági_isGouvernedBy_fundementum: true, gazdasági_isGouvernedBy_fundementum_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-56- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, ,]   B= [ezért, ezek, az ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fundementumát, jelentő, alaptőkét ,.. ]
 
-B0Lemma: ezért, B0POS: C, B0Token: ezért, B1Lemma: ez, B1POS: P, B1Token: ezek, S0B0Distance: 1, S0B0Lemma: ,_ezért, S0B0LemmaPOS: ,_C, S0B0POS: ,_C, S0B0POSLemma: ,_ezért, S0B0Token: ,_ezért, S0B1Lemma: ,_ez, S0B1LemmaPOS: ,_P, S0B1POS: ,_P, S0B1POSLemma: ,_ez, S0B1Token: ,_ezek, S0B2Lemma: ,_az, S0B2LemmaPOS: ,_T, S0B2POS: ,_T, S0B2POSLemma: ,_az, S0B2Token: ,_az, S0Lemma: ,, S0POS: ,, S0S1Distance: 9, S0Token: ,, S1B0Lemma: bekezdés_ezért, S1B0LemmaPOS: bekezdés_C, S1B0POS: N_C, S1B0POSLemma: N_ezért, S1B0Token: bekezdés_ezért, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_,_ezért, S1S0B0LemmaPOS: bekezdés_,_C, S1S0B0POS: N_,_C, S1S0B0POSLemma: N_,_ezért, S1S0B0Token: bekezdés_,_ezért, S1S0Lemma: bekezdés_,, S1S0LemmaPOS: bekezdés_,, S1S0POS: N_,, S1S0POSLemma: N_,, S1S0Token: bekezdés_,, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: fundementum, B0POS: N, B0Token: fundementumát, B1Lemma: jelentő, B1POS: A, B1Token: jelentő, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-57- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [ezért, ezek, az ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fundementumát]   B= [jelentő, alaptőkét, a ,.. ]
 
-B0Lemma: ezért, B0POS: C, B0Token: ezért, B1Lemma: ez, B1POS: P, B1Token: ezek, S0B0Distance: 10, S0B0Lemma: bekezdés_ezért, S0B0LemmaPOS: bekezdés_C, S0B0POS: N_C, S0B0POSLemma: N_ezért, S0B0Token: bekezdés_ezért, S0B1Lemma: bekezdés_ez, S0B1LemmaPOS: bekezdés_P, S0B1POS: N_P, S0B1POSLemma: N_ez, S0B1Token: bekezdés_ezek, S0B2Lemma: bekezdés_az, S0B2LemmaPOS: bekezdés_T, S0B2POS: N_T, S0B2POSLemma: N_az, S0B2Token: bekezdés_az, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: jelentő, B0POS: A, B0Token: jelentő, B1Lemma: alaptőke, B1POS: N, B1Token: alaptőkét, S0B0Lemma: fundementum_jelentő, S0B0LemmaPOS: fundementum_A, S0B0POS: N_A, S0B0POSLemma: N_jelentő, S0B0Token: fundementumát_jelentő, S0B1Lemma: fundementum_alaptőke, S0B1LemmaPOS: fundementum_N, S0B1POS: N_N, S0B1POSLemma: N_alaptőke, S0B1Token: fundementumát_alaptőkét, S0Lemma: fundementum, S0POS: N, S0Token: fundementumát, fundementum_isGouvernedBy_jelentő: true, fundementum_isGouvernedBy_jelentő_OBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-58- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, ezért]   B= [ezek, az, iratok ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jelentő, alaptőkét, a ,.. ]
 
-B0Lemma: ez, B0POS: P, B0Token: ezek, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 1, S0B0Lemma: ezért_ez, S0B0LemmaPOS: ezért_P, S0B0POS: C_P, S0B0POSLemma: C_ez, S0B0Token: ezért_ezek, S0B1Lemma: ezért_az, S0B1LemmaPOS: ezért_T, S0B1POS: C_T, S0B1POSLemma: C_az, S0B1Token: ezért_az, S0B2Lemma: ezért_irat, S0B2LemmaPOS: ezért_N, S0B2POS: C_N, S0B2POSLemma: C_irat, S0B2Token: ezért_iratok, S0Lemma: ezért, S0POS: C, S0S1Distance: 10, S0Token: ezért, S1B0Lemma: bekezdés_ez, S1B0LemmaPOS: bekezdés_P, S1B0POS: N_P, S1B0POSLemma: N_ez, S1B0Token: bekezdés_ezek, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_ezért_ez, S1S0B0LemmaPOS: bekezdés_C_P, S1S0B0POS: N_C_P, S1S0B0POSLemma: N_C_ez, S1S0B0Token: bekezdés_ezért_ezek, S1S0Lemma: bekezdés_ezért, S1S0LemmaPOS: bekezdés_C, S1S0POS: N_C, S1S0POSLemma: N_ezért, S1S0Token: bekezdés_ezért, S1Token: bekezdés, StackLength: 2, ezért_hasRighDep_COORD: true, ezért_terjedhet_hasRighDep_COORD: true, hasRighDep_COORD: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: jelentő, B0POS: A, B0Token: jelentő, B1Lemma: alaptőke, B1POS: N, B1Token: alaptőkét, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-59- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [ezek, az, iratok ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jelentő]   B= [alaptőkét, a, számviteli ,.. ]
 
-B0Lemma: ez, B0POS: P, B0Token: ezek, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 11, S0B0Lemma: bekezdés_ez, S0B0LemmaPOS: bekezdés_P, S0B0POS: N_P, S0B0POSLemma: N_ez, S0B0Token: bekezdés_ezek, S0B1Lemma: bekezdés_az, S0B1LemmaPOS: bekezdés_T, S0B1POS: N_T, S0B1POSLemma: N_az, S0B1Token: bekezdés_az, S0B2Lemma: bekezdés_irat, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_irat, S0B2Token: bekezdés_iratok, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: alaptőke, B0POS: N, B0Token: alaptőkét, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: jelentő_alaptőke, S0B0LemmaPOS: jelentő_N, S0B0POS: A_N, S0B0POSLemma: A_alaptőke, S0B0Token: jelentő_alaptőkét, S0B1Lemma: jelentő_a, S0B1LemmaPOS: jelentő_T, S0B1POS: A_T, S0B1POSLemma: A_a, S0B1Token: jelentő_a, S0Lemma: jelentő, S0POS: A, S0Token: jelentő, jelentő_isGouvernedBy_alaptőke: true, jelentő_isGouvernedBy_alaptőke_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-60- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, ezek]   B= [az, iratok, az ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alaptőkét, a, számviteli ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: irat, B1POS: N, B1Token: iratok, S0B0Distance: 1, S0B0Lemma: ez_az, S0B0LemmaPOS: ez_T, S0B0POS: P_T, S0B0POSLemma: P_az, S0B0Token: ezek_az, S0B1Lemma: ez_irat, S0B1LemmaPOS: ez_N, S0B1POS: P_N, S0B1POSLemma: P_irat, S0B1Token: ezek_iratok, S0B2Lemma: ez_az, S0B2LemmaPOS: ez_T, S0B2POS: P_T, S0B2POSLemma: P_az, S0B2Token: ezek_az, S0Lemma: ez, S0POS: P, S0S1Distance: 11, S0Token: ezek, S1B0Lemma: bekezdés_az, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: bekezdés_az, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_ez_az, S1S0B0LemmaPOS: bekezdés_P_T, S1S0B0POS: N_P_T, S1S0B0POSLemma: N_P_az, S1S0B0Token: bekezdés_ezek_az, S1S0Lemma: bekezdés_ez, S1S0LemmaPOS: bekezdés_P, S1S0POS: N_P, S1S0POSLemma: N_ez, S1S0Token: bekezdés_ezek, S1Token: bekezdés, StackLength: 2, ez_isGouvernedBy_irat: true, ez_isGouvernedBy_irat_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: alaptőke, B0POS: N, B0Token: alaptőkét, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-61- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [az, iratok, az ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alaptőkét]   B= [a, számviteli, törvénnyel ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: irat, B1POS: N, B1Token: iratok, S0B0Distance: 12, S0B0Lemma: bekezdés_az, S0B0LemmaPOS: bekezdés_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: bekezdés_az, S0B1Lemma: bekezdés_irat, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_irat, S0B1Token: bekezdés_iratok, S0B2Lemma: bekezdés_az, S0B2LemmaPOS: bekezdés_T, S0B2POS: N_T, S0B2POSLemma: N_az, S0B2Token: bekezdés_az, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: számviteli, B1POS: A, B1Token: számviteli, S0B0Lemma: alaptőke_a, S0B0LemmaPOS: alaptőke_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: alaptőkét_a, S0B1Lemma: alaptőke_számviteli, S0B1LemmaPOS: alaptőke_A, S0B1POS: N_A, S0B1POSLemma: N_számviteli, S0B1Token: alaptőkét_számviteli, S0Lemma: alaptőke, S0POS: N, S0Token: alaptőkét, alaptőke_isGouvernedBy_azonosít: true, alaptőke_isGouvernedBy_azonosít_OBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-62- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, az]   B= [iratok, az, átalakulással ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, számviteli, törvénnyel ,.. ]
 
-B0Lemma: irat, B0POS: N, B0Token: iratok, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 1, S0B0Lemma: az_irat, S0B0LemmaPOS: az_N, S0B0POS: T_N, S0B0POSLemma: T_irat, S0B0Token: az_iratok, S0B1Lemma: az_az, S0B1LemmaPOS: az_T, S0B1POS: T_T, S0B1POSLemma: T_az, S0B1Token: az_az, S0B2Lemma: az_átalakulás, S0B2LemmaPOS: az_N, S0B2POS: T_N, S0B2POSLemma: T_átalakulás, S0B2Token: az_átalakulással, S0Lemma: az, S0POS: T, S0S1Distance: 12, S0Token: az, S1B0Lemma: bekezdés_irat, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_irat, S1B0Token: bekezdés_iratok, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_az_irat, S1S0B0LemmaPOS: bekezdés_T_N, S1S0B0POS: N_T_N, S1S0B0POSLemma: N_T_irat, S1S0B0Token: bekezdés_az_iratok, S1S0Lemma: bekezdés_az, S1S0LemmaPOS: bekezdés_T, S1S0POS: N_T, S1S0POSLemma: N_az, S1S0Token: bekezdés_az, S1Token: bekezdés, StackLength: 2, az_isGouvernedBy_irat: true, az_isGouvernedBy_irat_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: számviteli, B1POS: A, B1Token: számviteli, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-63- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [iratok, az, átalakulással ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [számviteli, törvénnyel, való ,.. ]
 
-B0Lemma: irat, B0POS: N, B0Token: iratok, B1Lemma: az, B1POS: T, B1Token: az, S0B0Distance: 13, S0B0Lemma: bekezdés_irat, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_irat, S0B0Token: bekezdés_iratok, S0B1Lemma: bekezdés_az, S0B1LemmaPOS: bekezdés_T, S0B1POS: N_T, S0B1POSLemma: N_az, S0B1Token: bekezdés_az, S0B2Lemma: bekezdés_átalakulás, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_átalakulás, S0B2Token: bekezdés_átalakulással, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: számviteli, B0POS: A, B0Token: számviteli, B1Lemma: törvény, B1POS: N, B1Token: törvénnyel, S0B0Lemma: a_számviteli, S0B0LemmaPOS: a_A, S0B0POS: T_A, S0B0POSLemma: T_számviteli, S0B0Token: a_számviteli, S0B1Lemma: a_törvény, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_törvény, S0B1Token: a_törvénnyel, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_törvény: true, a_isGouvernedBy_törvény_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-64- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, iratok]   B= [az, átalakulással, összefüggő ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [számviteli, törvénnyel, való ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: átalakulás, B1POS: N, B1Token: átalakulással, S0B0Distance: 1, S0B0Lemma: irat_az, S0B0LemmaPOS: irat_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: iratok_az, S0B1Lemma: irat_átalakulás, S0B1LemmaPOS: irat_N, S0B1POS: N_N, S0B1POSLemma: N_átalakulás, S0B1Token: iratok_átalakulással, S0B2Lemma: irat_összefüggő, S0B2LemmaPOS: irat_A, S0B2POS: N_A, S0B2POSLemma: N_összefüggő, S0B2Token: iratok_összefüggő, S0Lemma: irat, S0POS: N, S0S1Distance: 13, S0Token: iratok, S1B0Lemma: bekezdés_az, S1B0LemmaPOS: bekezdés_T, S1B0POS: N_T, S1B0POSLemma: N_az, S1B0Token: bekezdés_az, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_irat_az, S1S0B0LemmaPOS: bekezdés_N_T, S1S0B0POS: N_N_T, S1S0B0POSLemma: N_N_az, S1S0B0Token: bekezdés_iratok_az, S1S0Lemma: bekezdés_irat, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_irat, S1S0Token: bekezdés_iratok, S1Token: bekezdés, StackLength: 2, irat_isGouvernedBy_terjedhet: true, irat_isGouvernedBy_terjedhet_SUBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: számviteli, B0POS: A, B0Token: számviteli, B1Lemma: törvény, B1POS: N, B1Token: törvénnyel, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-65- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [az, átalakulással, összefüggő ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [számviteli]   B= [törvénnyel, való, összhang ,.. ]
 
-B0Lemma: az, B0POS: T, B0Token: az, B1Lemma: átalakulás, B1POS: N, B1Token: átalakulással, S0B0Distance: 14, S0B0Lemma: bekezdés_az, S0B0LemmaPOS: bekezdés_T, S0B0POS: N_T, S0B0POSLemma: N_az, S0B0Token: bekezdés_az, S0B1Lemma: bekezdés_átalakulás, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_átalakulás, S0B1Token: bekezdés_átalakulással, S0B2Lemma: bekezdés_összefüggő, S0B2LemmaPOS: bekezdés_A, S0B2POS: N_A, S0B2POSLemma: N_összefüggő, S0B2Token: bekezdés_összefüggő, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: törvény, B0POS: N, B0Token: törvénnyel, B1Lemma: való, B1POS: A, B1Token: való, S0B0Lemma: számviteli_törvény, S0B0LemmaPOS: számviteli_N, S0B0POS: A_N, S0B0POSLemma: A_törvény, S0B0Token: számviteli_törvénnyel, S0B1Lemma: számviteli_való, S0B1LemmaPOS: számviteli_A, S0B1POS: A_A, S0B1POSLemma: A_való, S0B1Token: számviteli_való, S0Lemma: számviteli, S0POS: A, S0Token: számviteli, számviteli_isGouvernedBy_törvény: true, számviteli_isGouvernedBy_törvény_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-66- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, az]   B= [átalakulással, összefüggő, iratok ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [törvénnyel, való, összhang ,.. ]
 
-B0Lemma: átalakulás, B0POS: N, B0Token: átalakulással, B1Lemma: összefüggő, B1POS: A, B1Token: összefüggő, S0B0Distance: 1, S0B0Lemma: az_átalakulás, S0B0LemmaPOS: az_N, S0B0POS: T_N, S0B0POSLemma: T_átalakulás, S0B0Token: az_átalakulással, S0B1Lemma: az_összefüggő, S0B1LemmaPOS: az_A, S0B1POS: T_A, S0B1POSLemma: T_összefüggő, S0B1Token: az_összefüggő, S0B2Lemma: az_irat, S0B2LemmaPOS: az_N, S0B2POS: T_N, S0B2POSLemma: T_irat, S0B2Token: az_iratok, S0Lemma: az, S0POS: T, S0S1Distance: 14, S0Token: az, S1B0Lemma: bekezdés_átalakulás, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_átalakulás, S1B0Token: bekezdés_átalakulással, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_az_átalakulás, S1S0B0LemmaPOS: bekezdés_T_N, S1S0B0POS: N_T_N, S1S0B0POSLemma: N_T_átalakulás, S1S0B0Token: bekezdés_az_átalakulással, S1S0Lemma: bekezdés_az, S1S0LemmaPOS: bekezdés_T, S1S0POS: N_T, S1S0POSLemma: N_az, S1S0Token: bekezdés_az, S1Token: bekezdés, StackLength: 2, az_isGouvernedBy_átalakulás: true, az_isGouvernedBy_átalakulás_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: törvény, B0POS: N, B0Token: törvénnyel, B1Lemma: való, B1POS: A, B1Token: való, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-67- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [átalakulással, összefüggő, iratok ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [törvénnyel]   B= [való, összhang, megteremtése ,.. ]
 
-B0Lemma: átalakulás, B0POS: N, B0Token: átalakulással, B1Lemma: összefüggő, B1POS: A, B1Token: összefüggő, S0B0Distance: 15, S0B0Lemma: bekezdés_átalakulás, S0B0LemmaPOS: bekezdés_N, S0B0POS: N_N, S0B0POSLemma: N_átalakulás, S0B0Token: bekezdés_átalakulással, S0B1Lemma: bekezdés_összefüggő, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_összefüggő, S0B1Token: bekezdés_összefüggő, S0B2Lemma: bekezdés_irat, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_irat, S0B2Token: bekezdés_iratok, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: való, B0POS: A, B0Token: való, B1IsInLexic: true, B1Lemma: összhang, B1POS: N, B1Token: összhang, S0B0Lemma: törvény_való, S0B0LemmaPOS: törvény_A, S0B0POS: N_A, S0B0POSLemma: N_való, S0B0Token: törvénnyel_való, S0B1Lemma: törvény_összhang, S0B1LemmaPOS: törvény_N, S0B1POS: N_N, S0B1POSLemma: N_összhang, S0B1Token: törvénnyel_összhang, S0Lemma: törvény, S0POS: N, S0Token: törvénnyel, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, törvény_isGouvernedBy_való: true, törvény_isGouvernedBy_való_OBL: true, 
 
-68- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, átalakulással]   B= [összefüggő, iratok, körére ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [való, összhang, megteremtése ,.. ]
 
-B0Lemma: összefüggő, B0POS: A, B0Token: összefüggő, B1Lemma: irat, B1POS: N, B1Token: iratok, S0B0Distance: 1, S0B0Lemma: átalakulás_összefüggő, S0B0LemmaPOS: átalakulás_A, S0B0POS: N_A, S0B0POSLemma: N_összefüggő, S0B0Token: átalakulással_összefüggő, S0B1Lemma: átalakulás_irat, S0B1LemmaPOS: átalakulás_N, S0B1POS: N_N, S0B1POSLemma: N_irat, S0B1Token: átalakulással_iratok, S0B2Lemma: átalakulás_kör, S0B2LemmaPOS: átalakulás_N, S0B2POS: N_N, S0B2POSLemma: N_kör, S0B2Token: átalakulással_körére, S0Lemma: átalakulás, S0POS: N, S0S1Distance: 15, S0Token: átalakulással, S1B0Lemma: bekezdés_összefüggő, S1B0LemmaPOS: bekezdés_A, S1B0POS: N_A, S1B0POSLemma: N_összefüggő, S1B0Token: bekezdés_összefüggő, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_átalakulás_összefüggő, S1S0B0LemmaPOS: bekezdés_N_A, S1S0B0POS: N_N_A, S1S0B0POSLemma: N_N_összefüggő, S1S0B0Token: bekezdés_átalakulással_összefüggő, S1S0Lemma: bekezdés_átalakulás, S1S0LemmaPOS: bekezdés_N, S1S0POS: N_N, S1S0POSLemma: N_átalakulás, S1S0Token: bekezdés_átalakulással, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, átalakulás_isGouvernedBy_összefüggő: true, átalakulás_isGouvernedBy_összefüggő_OBL: true, 
+B0Lemma: való, B0POS: A, B0Token: való, B1IsInLexic: true, B1Lemma: összhang, B1POS: N, B1Token: összhang, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-69- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [összefüggő, iratok, körére ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [való]   B= [összhang, megteremtése, érdekében ,.. ]
 
-B0Lemma: összefüggő, B0POS: A, B0Token: összefüggő, B1Lemma: irat, B1POS: N, B1Token: iratok, S0B0Distance: 16, S0B0Lemma: bekezdés_összefüggő, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_összefüggő, S0B0Token: bekezdés_összefüggő, S0B1Lemma: bekezdés_irat, S0B1LemmaPOS: bekezdés_N, S0B1POS: N_N, S0B1POSLemma: N_irat, S0B1Token: bekezdés_iratok, S0B2Lemma: bekezdés_kör, S0B2LemmaPOS: bekezdés_N, S0B2POS: N_N, S0B2POSLemma: N_kör, S0B2Token: bekezdés_körére, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: összhang, B0POS: N, B0Token: összhang, B1Lemma: megteremtés, B1POS: N, B1Token: megteremtése, S0B0Lemma: való_összhang, S0B0LemmaPOS: való_N, S0B0POS: A_N, S0B0POSLemma: A_összhang, S0B0Token: való_összhang, S0B1Lemma: való_megteremtés, S0B1LemmaPOS: való_N, S0B1POS: A_N, S0B1POSLemma: A_megteremtés, S0B1Token: való_megteremtése, S0Lemma: való, S0POS: A, S0Token: való, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, való_isGouvernedBy_összhang: true, való_isGouvernedBy_összhang_ATT: true, 
 
-70- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő]   B= [iratok, körére, terjedhetnek ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [összhang, megteremtése, érdekében ,.. ]
 
-B0Lemma: irat, B0POS: N, B0Token: iratok, B1Lemma: kör, B1POS: N, B1Token: körére, S0B0Distance: 1, S0B0Lemma: összefüggő_irat, S0B0LemmaPOS: összefüggő_N, S0B0POS: A_N, S0B0POSLemma: A_irat, S0B0Token: összefüggő_iratok, S0B1Lemma: összefüggő_kör, S0B1LemmaPOS: összefüggő_N, S0B1POS: A_N, S0B1POSLemma: A_kör, S0B1Token: összefüggő_körére, S0B2Lemma: összefüggő_terjedhet, S0B2LemmaPOS: összefüggő_V, S0B2POS: A_V, S0B2POSLemma: A_terjedhet, S0B2Token: összefüggő_terjedhetnek, S0Lemma: összefüggő, S0POS: A, S0S1Distance: 16, S0Token: összefüggő, S1B0Lemma: bekezdés_irat, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_irat, S1B0Token: bekezdés_iratok, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_összefüggő_irat, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_irat, S1S0B0Token: bekezdés_összefüggő_iratok, S1S0Lemma: bekezdés_összefüggő, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_összefüggő, S1S0Token: bekezdés_összefüggő, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, összefüggő_isGouvernedBy_irat: true, összefüggő_isGouvernedBy_irat_ATT: true, 
+B0IsInLexic: true, B0Lemma: összhang, B0POS: N, B0Token: összhang, B1Lemma: megteremtés, B1POS: N, B1Token: megteremtése, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő, iratok]   B= [körére, terjedhetnek, ki ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [összhang]   B= [megteremtése, érdekében, azonosítja ,.. ]
 
-B0Lemma: kör, B0POS: N, B0Token: körére, B1Lemma: terjedhet, B1POS: V, B1Token: terjedhetnek, S0B0Distance: 1, S0B0Lemma: irat_kör, S0B0LemmaPOS: irat_N, S0B0POS: N_N, S0B0POSLemma: N_kör, S0B0Token: iratok_körére, S0B1Lemma: irat_terjedhet, S0B1LemmaPOS: irat_V, S0B1POS: N_V, S0B1POSLemma: N_terjedhet, S0B1Token: iratok_terjedhetnek, S0B2Lemma: irat_ki, S0B2LemmaPOS: irat_R, S0B2POS: N_R, S0B2POSLemma: N_ki, S0B2Token: iratok_ki, S0Lemma: irat, S0POS: N, S0S1Distance: 1, S0Token: iratok, S1B0Lemma: összefüggő_kör, S1B0LemmaPOS: összefüggő_N, S1B0POS: A_N, S1B0POSLemma: A_kör, S1B0Token: összefüggő_körére, S1Lemma: összefüggő, S1POS: A, S1S0B0Lemma: összefüggő_irat_kör, S1S0B0LemmaPOS: összefüggő_N_N, S1S0B0POS: A_N_N, S1S0B0POSLemma: A_N_kör, S1S0B0Token: összefüggő_iratok_körére, S1S0Lemma: összefüggő_irat, S1S0LemmaPOS: összefüggő_N, S1S0POS: A_N, S1S0POSLemma: A_irat, S1S0Token: összefüggő_iratok, S1Token: összefüggő, StackLength: 3, SyntaxicRelation: -ATT, irat_isGouvernedBy_kör: true, irat_isGouvernedBy_kör_ATT: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: megteremtés, B0POS: N, B0Token: megteremtése, B1Lemma: érdek, B1POS: N, B1Token: érdekében, S0B0Lemma: összhang_megteremtés, S0B0LemmaPOS: összhang_N, S0B0POS: N_N, S0B0POSLemma: N_megteremtés, S0B0Token: összhang_megteremtése, S0B1Lemma: összhang_érdek, S0B1LemmaPOS: összhang_N, S0B1POS: N_N, S0B1POSLemma: N_érdek, S0B1Token: összhang_érdekében, S0IsInLexic: true, S0Lemma: összhang, S0POS: N, S0Token: összhang, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, összhang_isGouvernedBy_megteremtés: true, összhang_isGouvernedBy_megteremtés_ATT: true, 
 
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő]   B= [körére, terjedhetnek, ki ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [megteremtése, érdekében, azonosítja ,.. ]
 
-B0Lemma: kör, B0POS: N, B0Token: körére, B1Lemma: terjedhet, B1POS: V, B1Token: terjedhetnek, S0B0Distance: 2, S0B0Lemma: összefüggő_kör, S0B0LemmaPOS: összefüggő_N, S0B0POS: A_N, S0B0POSLemma: A_kör, S0B0Token: összefüggő_körére, S0B1Lemma: összefüggő_terjedhet, S0B1LemmaPOS: összefüggő_V, S0B1POS: A_V, S0B1POSLemma: A_terjedhet, S0B1Token: összefüggő_terjedhetnek, S0B2Lemma: összefüggő_ki, S0B2LemmaPOS: összefüggő_R, S0B2POS: A_R, S0B2POSLemma: A_ki, S0B2Token: összefüggő_ki, S0Lemma: összefüggő, S0POS: A, S0S1Distance: 16, S0Token: összefüggő, S1B0Lemma: bekezdés_kör, S1B0LemmaPOS: bekezdés_N, S1B0POS: N_N, S1B0POSLemma: N_kör, S1B0Token: bekezdés_körére, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_összefüggő_kör, S1S0B0LemmaPOS: bekezdés_A_N, S1S0B0POS: N_A_N, S1S0B0POSLemma: N_A_kör, S1S0B0Token: bekezdés_összefüggő_körére, S1S0Lemma: bekezdés_összefüggő, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_összefüggő, S1S0Token: bekezdés_összefüggő, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: megteremtés, B0POS: N, B0Token: megteremtése, B1Lemma: érdek, B1POS: N, B1Token: érdekében, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő, körére]   B= [terjedhetnek, ki, . ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [megteremtése]   B= [érdekében, azonosítja, a ,.. ]
 
-B0Lemma: terjedhet, B0POS: V, B0Token: terjedhetnek, B1Lemma: ki, B1POS: R, B1Token: ki, S0B0Distance: 1, S0B0Lemma: kör_terjedhet, S0B0LemmaPOS: kör_V, S0B0POS: N_V, S0B0POSLemma: N_terjedhet, S0B0Token: körére_terjedhetnek, S0B1Lemma: kör_ki, S0B1LemmaPOS: kör_R, S0B1POS: N_R, S0B1POSLemma: N_ki, S0B1Token: körére_ki, S0B2Lemma: kör_., S0B2LemmaPOS: kör_., S0B2POS: N_., S0B2POSLemma: N_., S0B2Token: körére_., S0Lemma: kör, S0POS: N, S0S1Distance: 2, S0Token: körére, S1B0Lemma: összefüggő_terjedhet, S1B0LemmaPOS: összefüggő_V, S1B0POS: A_V, S1B0POSLemma: A_terjedhet, S1B0Token: összefüggő_terjedhetnek, S1Lemma: összefüggő, S1POS: A, S1S0B0Lemma: összefüggő_kör_terjedhet, S1S0B0LemmaPOS: összefüggő_N_V, S1S0B0POS: A_N_V, S1S0B0POSLemma: A_N_terjedhet, S1S0B0Token: összefüggő_körére_terjedhetnek, S1S0Lemma: összefüggő_kör, S1S0LemmaPOS: összefüggő_N, S1S0POS: A_N, S1S0POSLemma: A_kör, S1S0Token: összefüggő_körére, S1Token: összefüggő, StackLength: 3, kör_isGouvernedBy_terjedhet: true, kör_isGouvernedBy_terjedhet_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+B0Lemma: érdek, B0POS: N, B0Token: érdekében, B1Lemma: azonosít, B1POS: V, B1Token: azonosítja, S0B0Lemma: megteremtés_érdek, S0B0LemmaPOS: megteremtés_N, S0B0POS: N_N, S0B0POSLemma: N_érdek, S0B0Token: megteremtése_érdekében, S0B1Lemma: megteremtés_azonosít, S0B1LemmaPOS: megteremtés_V, S0B1POS: N_V, S0B1POSLemma: N_azonosít, S0B1Token: megteremtése_azonosítja, S0Lemma: megteremtés, S0POS: N, S0Token: megteremtése, megteremtés_isGouvernedBy_érdek: true, megteremtés_isGouvernedBy_érdek_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő]   B= [terjedhetnek, ki, . ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [érdekében, azonosítja, a ,.. ]
 
-B0Lemma: terjedhet, B0POS: V, B0Token: terjedhetnek, B1Lemma: ki, B1POS: R, B1Token: ki, S0B0Distance: 3, S0B0Lemma: összefüggő_terjedhet, S0B0LemmaPOS: összefüggő_V, S0B0POS: A_V, S0B0POSLemma: A_terjedhet, S0B0Token: összefüggő_terjedhetnek, S0B1Lemma: összefüggő_ki, S0B1LemmaPOS: összefüggő_R, S0B1POS: A_R, S0B1POSLemma: A_ki, S0B1Token: összefüggő_ki, S0B2Lemma: összefüggő_., S0B2LemmaPOS: összefüggő_., S0B2POS: A_., S0B2POSLemma: A_., S0B2Token: összefüggő_., S0Lemma: összefüggő, S0POS: A, S0S1Distance: 16, S0Token: összefüggő, S1B0Lemma: bekezdés_terjedhet, S1B0LemmaPOS: bekezdés_V, S1B0POS: N_V, S1B0POSLemma: N_terjedhet, S1B0Token: bekezdés_terjedhetnek, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_összefüggő_terjedhet, S1S0B0LemmaPOS: bekezdés_A_V, S1S0B0POS: N_A_V, S1S0B0POSLemma: N_A_terjedhet, S1S0B0Token: bekezdés_összefüggő_terjedhetnek, S1S0Lemma: bekezdés_összefüggő, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_összefüggő, S1S0Token: bekezdés_összefüggő, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: érdek, B0POS: N, B0Token: érdekében, B1Lemma: azonosít, B1POS: V, B1Token: azonosítja, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő, terjedhetnek]   B= [ki, . ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [érdekében]   B= [azonosítja, a, jegyzett ,.. ]
 
-B0Lemma: ki, B0POS: R, B0Token: ki, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 1, S0B0Lemma: terjedhet_ki, S0B0LemmaPOS: terjedhet_R, S0B0POS: V_R, S0B0POSLemma: V_ki, S0B0Token: terjedhetnek_ki, S0B1Lemma: terjedhet_., S0B1LemmaPOS: terjedhet_., S0B1POS: V_., S0B1POSLemma: V_., S0B1Token: terjedhetnek_., S0Lemma: terjedhet, S0POS: V, S0S1Distance: 3, S0Token: terjedhetnek, S1B0Lemma: összefüggő_ki, S1B0LemmaPOS: összefüggő_R, S1B0POS: A_R, S1B0POSLemma: A_ki, S1B0Token: összefüggő_ki, S1Lemma: összefüggő, S1POS: A, S1S0B0Lemma: összefüggő_terjedhet_ki, S1S0B0LemmaPOS: összefüggő_V_R, S1S0B0POS: A_V_R, S1S0B0POSLemma: A_V_ki, S1S0B0Token: összefüggő_terjedhetnek_ki, S1S0Lemma: összefüggő_terjedhet, S1S0LemmaPOS: összefüggő_V, S1S0POS: A_V, S1S0POSLemma: A_terjedhet, S1S0Token: összefüggő_terjedhetnek, S1Token: összefüggő, StackLength: 3, hasRighDep_PREVERB: true, terjedhet_hasRighDep_PREVERB: true, terjedhet_ki_hasRighDep_PREVERB: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: azonosít, B0POS: V, B0Token: azonosítja, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: érdek_azonosít, S0B0LemmaPOS: érdek_V, S0B0POS: N_V, S0B0POSLemma: N_azonosít, S0B0Token: érdekében_azonosítja, S0B1Lemma: érdek_a, S0B1LemmaPOS: érdek_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: érdekében_a, S0Lemma: érdek, S0POS: N, S0Token: érdekében, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, érdek_isGouvernedBy_azonosít: true, érdek_isGouvernedBy_azonosít_OBL: true, 
 
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő]   B= [ki, . ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [azonosítja, a, jegyzett ,.. ]
 
-B0Lemma: ki, B0POS: R, B0Token: ki, B1Lemma: ., B1POS: ., B1Token: ., S0B0Distance: 4, S0B0Lemma: összefüggő_ki, S0B0LemmaPOS: összefüggő_R, S0B0POS: A_R, S0B0POSLemma: A_ki, S0B0Token: összefüggő_ki, S0B1Lemma: összefüggő_., S0B1LemmaPOS: összefüggő_., S0B1POS: A_., S0B1POSLemma: A_., S0B1Token: összefüggő_., S0Lemma: összefüggő, S0POS: A, S0S1Distance: 16, S0Token: összefüggő, S1B0Lemma: bekezdés_ki, S1B0LemmaPOS: bekezdés_R, S1B0POS: N_R, S1B0POSLemma: N_ki, S1B0Token: bekezdés_ki, S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_összefüggő_ki, S1S0B0LemmaPOS: bekezdés_A_R, S1S0B0POS: N_A_R, S1S0B0POSLemma: N_A_ki, S1S0B0Token: bekezdés_összefüggő_ki, S1S0Lemma: bekezdés_összefüggő, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_összefüggő, S1S0Token: bekezdés_összefüggő, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: azonosít, B0POS: V, B0Token: azonosítja, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő, ki]   B= [.]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [azonosítja]   B= [a, jegyzett, tőkével ,.. ]
 
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 1, S0B0Lemma: ki_., S0B0LemmaPOS: ki_., S0B0POS: R_., S0B0POSLemma: R_., S0B0Token: ki_., S0Lemma: ki, S0POS: R, S0S1Distance: 4, S0Token: ki, S1B0Lemma: összefüggő_., S1B0LemmaPOS: összefüggő_., S1B0POS: A_., S1B0POSLemma: A_., S1B0Token: összefüggő_., S1Lemma: összefüggő, S1POS: A, S1S0B0Lemma: összefüggő_ki_., S1S0B0LemmaPOS: összefüggő_R_., S1S0B0POS: A_R_., S1S0B0POSLemma: A_R_., S1S0B0Token: összefüggő_ki_., S1S0Lemma: összefüggő_ki, S1S0LemmaPOS: összefüggő_R, S1S0POS: A_R, S1S0POSLemma: A_ki, S1S0Token: összefüggő_ki, S1Token: összefüggő, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: jegyzett, B1POS: A, B1Token: jegyzett, S0B0Lemma: azonosít_a, S0B0LemmaPOS: azonosít_T, S0B0POS: V_T, S0B0POSLemma: V_a, S0B0Token: azonosítja_a, S0B1Lemma: azonosít_jegyzett, S0B1LemmaPOS: azonosít_A, S0B1POS: V_A, S0B1POSLemma: V_jegyzett, S0B1Token: azonosítja_jegyzett, S0Lemma: azonosít, S0POS: V, S0Token: azonosítja, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő]   B= [.]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, jegyzett, tőkével ,.. ]
 
-B0Lemma: ., B0POS: ., B0Token: ., S0B0Distance: 5, S0B0Lemma: összefüggő_., S0B0LemmaPOS: összefüggő_., S0B0POS: A_., S0B0POSLemma: A_., S0B0Token: összefüggő_., S0Lemma: összefüggő, S0POS: A, S0S1Distance: 16, S0Token: összefüggő, S1B0Lemma: bekezdés_., S1B0LemmaPOS: bekezdés_., S1B0POS: N_., S1B0POSLemma: N_., S1B0Token: bekezdés_., S1Lemma: bekezdés, S1POS: N, S1S0B0Lemma: bekezdés_összefüggő_., S1S0B0LemmaPOS: bekezdés_A_., S1S0B0POS: N_A_., S1S0B0POSLemma: N_A_., S1S0B0Token: bekezdés_összefüggő_., S1S0Lemma: bekezdés_összefüggő, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_összefüggő, S1S0Token: bekezdés_összefüggő, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: jegyzett, B1POS: A, B1Token: jegyzett, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő, .]   B= [ ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [jegyzett, tőkével, , ,.. ]
 
-S0Lemma: ., S0POS: ., S0S1Distance: 5, S0Token: ., S1Lemma: összefüggő, S1POS: A, S1S0Lemma: összefüggő_., S1S0LemmaPOS: összefüggő_., S1S0POS: A_., S1S0POSLemma: A_., S1S0Token: összefüggő_., S1Token: összefüggő, StackLength: 3, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: jegyzett, B0POS: A, B0Token: jegyzett, B1Lemma: tőke, B1POS: N, B1Token: tőkével, S0B0Lemma: a_jegyzett, S0B0LemmaPOS: a_A, S0B0POS: T_A, S0B0POSLemma: T_jegyzett, S0B0Token: a_jegyzett, S0B1Lemma: a_tőke, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_tőke, S0B1Token: a_tőkével, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_tőke: true, a_isGouvernedBy_tőke_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés, összefüggő]   B= [ ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jegyzett, tőkével, , ,.. ]
 
-S0Lemma: összefüggő, S0POS: A, S0S1Distance: 16, S0Token: összefüggő, S1Lemma: bekezdés, S1POS: N, S1S0Lemma: bekezdés_összefüggő, S1S0LemmaPOS: bekezdés_A, S1S0POS: N_A, S1S0POSLemma: N_összefüggő, S1S0Token: bekezdés_összefüggő, S1Token: bekezdés, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: jegyzett, B0POS: A, B0Token: jegyzett, B1Lemma: tőke, B1POS: N, B1Token: tőkével, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-81- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdés]   B= [ ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jegyzett]   B= [tőkével, ,, a ,.. ]
 
-S0Lemma: bekezdés, S0POS: N, S0Token: bekezdés, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: tőke, B0POS: N, B0Token: tőkével, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Lemma: jegyzett_tőke, S0B0LemmaPOS: jegyzett_N, S0B0POS: A_N, S0B0POSLemma: A_tőke, S0B0Token: jegyzett_tőkével, S0B1Lemma: jegyzett_,, S0B1LemmaPOS: jegyzett_,, S0B1POS: A_,, S0B1POSLemma: A_,, S0B1Token: jegyzett_,, S0Lemma: jegyzett, S0POS: A, S0Token: jegyzett, jegyzett_isGouvernedBy_tőke: true, jegyzett_isGouvernedBy_tőke_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tőkével, ,, a ,.. ]
+
+B0Lemma: tőke, B0POS: N, B0Token: tőkével, B1Lemma: ,, B1POS: ,, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tőkével]   B= [,, a, részvényesi ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: tőke_,, S0B0LemmaPOS: tőke_,, S0B0POS: N_,, S0B0POSLemma: N_,, S0B0Token: tőkével_,, S0B1Lemma: tőke_a, S0B1LemmaPOS: tőke_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: tőkével_a, S0Lemma: tőke, S0POS: N, S0Token: tőkével, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, a, részvényesi ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [a, részvényesi, felelősség ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvényesi, B1POS: A, B1Token: részvényesi, S0B0Lemma: ,_a, S0B0LemmaPOS: ,_T, S0B0POS: ,_T, S0B0POSLemma: ,_a, S0B0Token: ,_a, S0B1Lemma: ,_részvényesi, S0B1LemmaPOS: ,_A, S0B1POS: ,_A, S0B1POSLemma: ,_részvényesi, S0B1Token: ,_részvényesi, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, részvényesi, felelősség ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvényesi, B1POS: A, B1Token: részvényesi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [részvényesi, felelősség, helyett ,.. ]
+
+B0Lemma: részvényesi, B0POS: A, B0Token: részvényesi, B1IsInLexic: true, B1Lemma: felelősség, B1POS: N, B1Token: felelősség, S0B0Lemma: a_részvényesi, S0B0LemmaPOS: a_A, S0B0POS: T_A, S0B0POSLemma: T_részvényesi, S0B0Token: a_részvényesi, S0B1Lemma: a_felelősség, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_felelősség, S0B1Token: a_felelősség, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_felelősség: true, a_isGouvernedBy_felelősség_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [részvényesi, felelősség, helyett ,.. ]
+
+B0Lemma: részvényesi, B0POS: A, B0Token: részvényesi, B1IsInLexic: true, B1Lemma: felelősség, B1POS: N, B1Token: felelősség, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [részvényesi]   B= [felelősség, helyett, a ,.. ]
+
+B0IsInLexic: true, B0Lemma: felelősség, B0POS: N, B0Token: felelősség, B1Lemma: helyett, B1POS: S, B1Token: helyett, S0B0Lemma: részvényesi_felelősség, S0B0LemmaPOS: részvényesi_N, S0B0POS: A_N, S0B0POSLemma: A_felelősség, S0B0Token: részvényesi_felelősség, S0B1Lemma: részvényesi_helyett, S0B1LemmaPOS: részvényesi_S, S0B1POS: A_S, S0B1POSLemma: A_helyett, S0B1Token: részvényesi_helyett, S0Lemma: részvényesi, S0POS: A, S0Token: részvényesi, részvényesi_isGouvernedBy_felelősség: true, részvényesi_isGouvernedBy_felelősség_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [felelősség, helyett, a ,.. ]
+
+B0IsInLexic: true, B0Lemma: felelősség, B0POS: N, B0Token: felelősség, B1Lemma: helyett, B1POS: S, B1Token: helyett, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [felelősség]   B= [helyett, a, részvényesnek ,.. ]
+
+B0Lemma: helyett, B0POS: S, B0Token: helyett, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: felelősség_helyett, S0B0LemmaPOS: felelősség_S, S0B0POS: N_S, S0B0POSLemma: N_helyett, S0B0Token: felelősség_helyett, S0B1Lemma: felelősség_a, S0B1LemmaPOS: felelősség_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: felelősség_a, S0IsInLexic: true, S0Lemma: felelősség, S0POS: N, S0Token: felelősség, felelősség_isGouvernedBy_helyett: true, felelősség_isGouvernedBy_helyett_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [helyett, a, részvényesnek ,.. ]
+
+B0Lemma: helyett, B0POS: S, B0Token: helyett, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [helyett]   B= [a, részvényesnek, a ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvényes, B1POS: N, B1Token: részvényesnek, S0B0Lemma: helyett_a, S0B0LemmaPOS: helyett_T, S0B0POS: S_T, S0B0POSLemma: S_a, S0B0Token: helyett_a, S0B1Lemma: helyett_részvényes, S0B1LemmaPOS: helyett_N, S0B1POS: S_N, S0B1POSLemma: S_részvényes, S0B1Token: helyett_részvényesnek, S0Lemma: helyett, S0POS: S, S0Token: helyett, helyett_isGouvernedBy_ír: true, helyett_isGouvernedBy_ír_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, részvényesnek, a ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvényes, B1POS: N, B1Token: részvényesnek, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [részvényesnek, a, részvénytársasággal ,.. ]
+
+B0Lemma: részvényes, B0POS: N, B0Token: részvényesnek, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: a_részvényes, S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_részvényes, S0B0Token: a_részvényesnek, S0B1Lemma: a_a, S0B1LemmaPOS: a_T, S0B1POS: T_T, S0B1POSLemma: T_a, S0B1Token: a_a, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_részvényes: true, a_isGouvernedBy_részvényes_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [részvényesnek, a, részvénytársasággal ,.. ]
+
+B0Lemma: részvényes, B0POS: N, B0Token: részvényesnek, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [részvényesnek]   B= [a, részvénytársasággal, szembeni ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársasággal, S0B0Lemma: részvényes_a, S0B0LemmaPOS: részvényes_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: részvényesnek_a, S0B1Lemma: részvényes_részvénytársaság, S0B1LemmaPOS: részvényes_N, S0B1POS: N_N, S0B1POSLemma: N_részvénytársaság, S0B1Token: részvényesnek_részvénytársasággal, S0Lemma: részvényes, S0POS: N, S0Token: részvényesnek, részvényes_isGouvernedBy_ír: true, részvényes_isGouvernedBy_ír_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, részvénytársasággal, szembeni ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársasággal, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [részvénytársasággal, szembeni, " ,.. ]
+
+B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársasággal, B1Lemma: szembeni, B1POS: A, B1Token: szembeni, S0B0Lemma: a_részvénytársaság, S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_részvénytársaság, S0B0Token: a_részvénytársasággal, S0B1Lemma: a_szembeni, S0B1LemmaPOS: a_A, S0B1POS: T_A, S0B1POSLemma: T_szembeni, S0B1Token: a_szembeni, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_részvénytársaság: true, a_isGouvernedBy_részvénytársaság_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [részvénytársasággal, szembeni, " ,.. ]
+
+B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársasággal, B1Lemma: szembeni, B1POS: A, B1Token: szembeni, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [részvénytársasággal]   B= [szembeni, ", kötelezettségéről ,.. ]
+
+B0Lemma: szembeni, B0POS: A, B0Token: szembeni, B1Lemma: ", B1POS: ", B1Token: ", S0B0Lemma: részvénytársaság_szembeni, S0B0LemmaPOS: részvénytársaság_A, S0B0POS: N_A, S0B0POSLemma: N_szembeni, S0B0Token: részvénytársasággal_szembeni, S0B1Lemma: részvénytársaság_", S0B1LemmaPOS: részvénytársaság_", S0B1POS: N_", S0B1POSLemma: N_", S0B1Token: részvénytársasággal_", S0Lemma: részvénytársaság, S0POS: N, S0Token: részvénytársasággal, részvénytársaság_isGouvernedBy_szembeni: true, részvénytársaság_isGouvernedBy_szembeni_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [szembeni, ", kötelezettségéről ,.. ]
+
+B0Lemma: szembeni, B0POS: A, B0Token: szembeni, B1Lemma: ", B1POS: ", B1Token: ", transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [szembeni]   B= [", kötelezettségéről, " ,.. ]
+
+B0Lemma: ", B0POS: ", B0Token: ", B1IsInLexic: true, B1Lemma: kötelezettség, B1POS: N, B1Token: kötelezettségéről, S0B0Lemma: szembeni_", S0B0LemmaPOS: szembeni_", S0B0POS: A_", S0B0POSLemma: A_", S0B0Token: szembeni_", S0B1Lemma: szembeni_kötelezettség, S0B1LemmaPOS: szembeni_N, S0B1POS: A_N, S0B1POSLemma: A_kötelezettség, S0B1Token: szembeni_kötelezettségéről, S0Lemma: szembeni, S0POS: A, S0Token: szembeni, szembeni_isGouvernedBy_kötelezettség: true, szembeni_isGouvernedBy_kötelezettség_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", kötelezettségéről, " ,.. ]
+
+B0Lemma: ", B0POS: ", B0Token: ", B1IsInLexic: true, B1Lemma: kötelezettség, B1POS: N, B1Token: kötelezettségéről, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [kötelezettségéről, ", ír ,.. ]
+
+"_isGouvernedBy_kötelezettség: true, "_isGouvernedBy_kötelezettség_PUNCT: true, B0IsInLexic: true, B0Lemma: kötelezettség, B0POS: N, B0Token: kötelezettségéről, B1Lemma: ", B1POS: ", B1Token: ", S0B0Lemma: "_kötelezettség, S0B0LemmaPOS: "_N, S0B0POS: "_N, S0B0POSLemma: "_kötelezettség, S0B0Token: "_kötelezettségéről, S0B1Lemma: "_", S0B1LemmaPOS: "_", S0B1POS: "_", S0B1POSLemma: "_", S0B1Token: "_", S0Lemma: ", S0POS: ", S0Token: ", transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kötelezettségéről, ", ír ,.. ]
+
+B0IsInLexic: true, B0Lemma: kötelezettség, B0POS: N, B0Token: kötelezettségéről, B1Lemma: ", B1POS: ", B1Token: ", transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kötelezettségéről]   B= [", ír, , ,.. ]
+
+B0Lemma: ", B0POS: ", B0Token: ", B1IsInLexic: true, B1Lemma: ír, B1POS: V, B1Token: ír, S0B0Lemma: kötelezettség_", S0B0LemmaPOS: kötelezettség_", S0B0POS: N_", S0B0POSLemma: N_", S0B0Token: kötelezettségéről_", S0B1Lemma: kötelezettség_ír, S0B1LemmaPOS: kötelezettség_V, S0B1POS: N_V, S0B1POSLemma: N_ír, S0B1Token: kötelezettségéről_ír, S0IsInLexic: true, S0Lemma: kötelezettség, S0POS: N, S0Token: kötelezettségéről, hasRighDep_PUNCT: true, kötelezettség_"_hasRighDep_PUNCT: true, kötelezettség_hasRighDep_PUNCT: true, kötelezettség_isGouvernedBy_ír: true, kötelezettség_isGouvernedBy_ír_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", ír, , ,.. ]
+
+B0Lemma: ", B0POS: ", B0Token: ", B1IsInLexic: true, B1Lemma: ír, B1POS: V, B1Token: ír, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [ír, ,, a ,.. ]
+
+B0IsInLexic: true, B0Lemma: ír, B0POS: V, B0Token: ír, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Lemma: "_ír, S0B0LemmaPOS: "_V, S0B0POS: "_V, S0B0POSLemma: "_ír, S0B0Token: "_ír, S0B1Lemma: "_,, S0B1LemmaPOS: "_,, S0B1POS: "_,, S0B1POSLemma: "_,, S0B1Token: "_,, S0Lemma: ", S0POS: ", S0Token: ", transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ír, ,, a ,.. ]
+
+B0IsInLexic: true, B0Lemma: ír, B0POS: V, B0Token: ír, B1Lemma: ,, B1POS: ,, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ír]   B= [,, a, részvénytársaság ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: ír_,, S0B0LemmaPOS: ír_,, S0B0POS: V_,, S0B0POSLemma: V_,, S0B0Token: ír_,, S0B1Lemma: ír_a, S0B1LemmaPOS: ír_T, S0B1POS: V_T, S0B1POSLemma: V_a, S0B1Token: ír_a, S0IsInLexic: true, S0Lemma: ír, S0POS: V, S0Token: ír, hasRighDep_COORD: true, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, ír_,_hasRighDep_PUNCT: true, ír_hasRighDep_COORD: true, ír_hasRighDep_PUNCT: true, ír_mond_hasRighDep_COORD: true, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, a, részvénytársaság ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [a, részvénytársaság, kötelezettségeiért ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársaság, S0B0Lemma: ,_a, S0B0LemmaPOS: ,_T, S0B0POS: ,_T, S0B0POSLemma: ,_a, S0B0Token: ,_a, S0B1Lemma: ,_részvénytársaság, S0B1LemmaPOS: ,_N, S0B1POS: ,_N, S0B1POSLemma: ,_részvénytársaság, S0B1Token: ,_részvénytársaság, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, részvénytársaság, kötelezettségeiért ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársaság, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [részvénytársaság, kötelezettségeiért, való ,.. ]
+
+B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársaság, B1IsInLexic: true, B1Lemma: kötelezettség, B1POS: N, B1Token: kötelezettségeiért, S0B0Lemma: a_részvénytársaság, S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_részvénytársaság, S0B0Token: a_részvénytársaság, S0B1Lemma: a_kötelezettség, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_kötelezettség, S0B1Token: a_kötelezettségeiért, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_részvénytársaság: true, a_isGouvernedBy_részvénytársaság_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [részvénytársaság, kötelezettségeiért, való ,.. ]
+
+B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársaság, B1IsInLexic: true, B1Lemma: kötelezettség, B1POS: N, B1Token: kötelezettségeiért, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [részvénytársaság]   B= [kötelezettségeiért, való, részvényesi ,.. ]
+
+B0IsInLexic: true, B0Lemma: kötelezettség, B0POS: N, B0Token: kötelezettségeiért, B1Lemma: való, B1POS: A, B1Token: való, S0B0Lemma: részvénytársaság_kötelezettség, S0B0LemmaPOS: részvénytársaság_N, S0B0POS: N_N, S0B0POSLemma: N_kötelezettség, S0B0Token: részvénytársaság_kötelezettségeiért, S0B1Lemma: részvénytársaság_való, S0B1LemmaPOS: részvénytársaság_A, S0B1POS: N_A, S0B1POSLemma: N_való, S0B1Token: részvénytársaság_való, S0Lemma: részvénytársaság, S0POS: N, S0Token: részvénytársaság, részvénytársaság_isGouvernedBy_kötelezettség: true, részvénytársaság_isGouvernedBy_kötelezettség_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kötelezettségeiért, való, részvényesi ,.. ]
+
+B0IsInLexic: true, B0Lemma: kötelezettség, B0POS: N, B0Token: kötelezettségeiért, B1Lemma: való, B1POS: A, B1Token: való, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kötelezettségeiért]   B= [való, részvényesi, felelősséget ,.. ]
+
+B0Lemma: való, B0POS: A, B0Token: való, B1Lemma: részvényesi, B1POS: A, B1Token: részvényesi, S0B0Lemma: kötelezettség_való, S0B0LemmaPOS: kötelezettség_A, S0B0POS: N_A, S0B0POSLemma: N_való, S0B0Token: kötelezettségeiért_való, S0B1Lemma: kötelezettség_részvényesi, S0B1LemmaPOS: kötelezettség_A, S0B1POS: N_A, S0B1POSLemma: N_részvényesi, S0B1Token: kötelezettségeiért_részvényesi, S0IsInLexic: true, S0Lemma: kötelezettség, S0POS: N, S0Token: kötelezettségeiért, kötelezettség_isGouvernedBy_való: true, kötelezettség_isGouvernedBy_való_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [való, részvényesi, felelősséget ,.. ]
+
+B0Lemma: való, B0POS: A, B0Token: való, B1Lemma: részvényesi, B1POS: A, B1Token: részvényesi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [való]   B= [részvényesi, felelősséget, nem ,.. ]
+
+B0Lemma: részvényesi, B0POS: A, B0Token: részvényesi, B1IsInLexic: true, B1Lemma: felelősség, B1POS: N, B1Token: felelősséget, S0B0Lemma: való_részvényesi, S0B0LemmaPOS: való_A, S0B0POS: A_A, S0B0POSLemma: A_részvényesi, S0B0Token: való_részvényesi, S0B1Lemma: való_felelősség, S0B1LemmaPOS: való_N, S0B1POS: A_N, S0B1POSLemma: A_felelősség, S0B1Token: való_felelősséget, S0Lemma: való, S0POS: A, S0Token: való, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, való_isGouvernedBy_felelősség: true, való_isGouvernedBy_felelősség_ATT: true, 
+
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [részvényesi, felelősséget, nem ,.. ]
+
+B0Lemma: részvényesi, B0POS: A, B0Token: részvényesi, B1IsInLexic: true, B1Lemma: felelősség, B1POS: N, B1Token: felelősséget, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [részvényesi]   B= [felelősséget, nem, kizárólagos ,.. ]
+
+B0IsInLexic: true, B0Lemma: felelősség, B0POS: N, B0Token: felelősséget, B1Lemma: nem, B1POS: R, B1Token: nem, S0B0Lemma: részvényesi_felelősség, S0B0LemmaPOS: részvényesi_N, S0B0POS: A_N, S0B0POSLemma: A_felelősség, S0B0Token: részvényesi_felelősséget, S0B1Lemma: részvényesi_nem, S0B1LemmaPOS: részvényesi_R, S0B1POS: A_R, S0B1POSLemma: A_nem, S0B1Token: részvényesi_nem, S0Lemma: részvényesi, S0POS: A, S0Token: részvényesi, részvényesi_isGouvernedBy_felelősség: true, részvényesi_isGouvernedBy_felelősség_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [felelősséget, nem, kizárólagos ,.. ]
+
+B0IsInLexic: true, B0Lemma: felelősség, B0POS: N, B0Token: felelősséget, B1Lemma: nem, B1POS: R, B1Token: nem, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [felelősséget]   B= [nem, kizárólagos, szabályként ,.. ]
+
+B0Lemma: nem, B0POS: R, B0Token: nem, B1Lemma: kizárólagos, B1POS: A, B1Token: kizárólagos, S0B0Lemma: felelősség_nem, S0B0LemmaPOS: felelősség_R, S0B0POS: N_R, S0B0POSLemma: N_nem, S0B0Token: felelősséget_nem, S0B1Lemma: felelősség_kizárólagos, S0B1LemmaPOS: felelősség_A, S0B1POS: N_A, S0B1POSLemma: N_kizárólagos, S0B1Token: felelősséget_kizárólagos, S0IsInLexic: true, S0Lemma: felelősség, S0POS: N, S0Token: felelősséget, felelősség_isGouvernedBy_mond: true, felelősség_isGouvernedBy_mond_OBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nem, kizárólagos, szabályként ,.. ]
+
+B0Lemma: nem, B0POS: R, B0Token: nem, B1Lemma: kizárólagos, B1POS: A, B1Token: kizárólagos, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nem]   B= [kizárólagos, szabályként, , ,.. ]
+
+B0Lemma: kizárólagos, B0POS: A, B0Token: kizárólagos, B1Lemma: szabály, B1POS: N, B1Token: szabályként, S0B0Lemma: nem_kizárólagos, S0B0LemmaPOS: nem_A, S0B0POS: R_A, S0B0POSLemma: R_kizárólagos, S0B0Token: nem_kizárólagos, S0B1Lemma: nem_szabály, S0B1LemmaPOS: nem_N, S0B1POS: R_N, S0B1POSLemma: R_szabály, S0B1Token: nem_szabályként, S0Lemma: nem, S0POS: R, S0Token: nem, nem_isGouvernedBy_szabály: true, nem_isGouvernedBy_szabály_NEG: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kizárólagos, szabályként, , ,.. ]
+
+B0Lemma: kizárólagos, B0POS: A, B0Token: kizárólagos, B1Lemma: szabály, B1POS: N, B1Token: szabályként, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kizárólagos]   B= [szabályként, ,, hanem ,.. ]
+
+B0Lemma: szabály, B0POS: N, B0Token: szabályként, B1Lemma: ,, B1POS: ,, B1Token: ,, S0B0Lemma: kizárólagos_szabály, S0B0LemmaPOS: kizárólagos_N, S0B0POS: A_N, S0B0POSLemma: A_szabály, S0B0Token: kizárólagos_szabályként, S0B1Lemma: kizárólagos_,, S0B1LemmaPOS: kizárólagos_,, S0B1POS: A_,, S0B1POSLemma: A_,, S0B1Token: kizárólagos_,, S0Lemma: kizárólagos, S0POS: A, S0Token: kizárólagos, kizárólagos_isGouvernedBy_szabály: true, kizárólagos_isGouvernedBy_szabály_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [szabályként, ,, hanem ,.. ]
+
+B0Lemma: szabály, B0POS: N, B0Token: szabályként, B1Lemma: ,, B1POS: ,, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [szabályként]   B= [,, hanem, a ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: hanem, B1POS: C, B1Token: hanem, S0B0Lemma: szabály_,, S0B0LemmaPOS: szabály_,, S0B0POS: N_,, S0B0POSLemma: N_,, S0B0Token: szabályként_,, S0B1Lemma: szabály_hanem, S0B1LemmaPOS: szabály_C, S0B1POS: N_C, S0B1POSLemma: N_hanem, S0B1Token: szabályként_hanem, S0Lemma: szabály, S0POS: N, S0Token: szabályként, hasRighDep_CONJ: true, hasRighDep_PUNCT: true, szabály_,_hasRighDep_PUNCT: true, szabály_hanem_hasRighDep_CONJ: true, szabály_hasRighDep_CONJ: true, szabály_hasRighDep_PUNCT: true, szabály_isGouvernedBy_mond: true, szabály_isGouvernedBy_mond_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, hanem, a ,.. ]
+
+B0Lemma: ,, B0POS: ,, B0Token: ,, B1Lemma: hanem, B1POS: C, B1Token: hanem, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [hanem, a, Gt. ,.. ]
+
+B0Lemma: hanem, B0POS: C, B0Token: hanem, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: ,_hanem, S0B0LemmaPOS: ,_C, S0B0POS: ,_C, S0B0POSLemma: ,_hanem, S0B0Token: ,_hanem, S0B1Lemma: ,_a, S0B1LemmaPOS: ,_T, S0B1POS: ,_T, S0B1POSLemma: ,_a, S0B1Token: ,_a, S0Lemma: ,, S0POS: ,, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hanem, a, Gt. ,.. ]
+
+B0Lemma: hanem, B0POS: C, B0Token: hanem, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hanem]   B= [a, Gt., (új)-ban ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Lemma: hanem_a, S0B0LemmaPOS: hanem_T, S0B0POS: C_T, S0B0POSLemma: C_a, S0B0Token: hanem_a, S0B1Lemma: hanem_Gt., S0B1LemmaPOS: hanem_N, S0B1POS: C_N, S0B1POSLemma: C_Gt., S0B1Token: hanem_Gt., S0Lemma: hanem, S0POS: C, S0Token: hanem, hanem_fennálló_hasRighDep_COORD: true, hanem_hasRighDep_COORD: true, hasRighDep_COORD: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Gt., (új)-ban ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Gt., (új)-ban, megállapított ,.. ]
+
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (új), B1POS: N, B1Token: (új)-ban, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(új), S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_(új), S0B1Token: a_(új)-ban, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_Gt.: true, a_isGouvernedBy_Gt._DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (új)-ban, megállapított ,.. ]
+
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (új), B1POS: N, B1Token: (új)-ban, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(új)-ban, megállapított, esetek ,.. ]
+
+B0Lemma: (új), B0POS: N, B0Token: (új)-ban, B1Lemma: megállapított, B1POS: A, B1Token: megállapított, Gt._(új)_hasRighDep_ATT: true, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_megállapított: true, Gt._isGouvernedBy_megállapított_OBL: true, S0B0Lemma: Gt._(új), S0B0LemmaPOS: Gt._N, S0B0POS: N_N, S0B0POSLemma: N_(új), S0B0Token: Gt._(új)-ban, S0B1Lemma: Gt._megállapított, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_megállapított, S0B1Token: Gt._megállapított, S0Lemma: Gt., S0POS: N, S0Token: Gt., hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(új)-ban, megállapított, esetek ,.. ]
+
+B0Lemma: (új), B0POS: N, B0Token: (új)-ban, B1Lemma: megállapított, B1POS: A, B1Token: megállapított, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(új)-ban]   B= [megállapított, esetek, kivételével ,.. ]
+
+B0Lemma: megállapított, B0POS: A, B0Token: megállapított, B1Lemma: eset, B1POS: N, B1Token: esetek, S0B0Lemma: (új)_megállapított, S0B0LemmaPOS: (új)_A, S0B0POS: N_A, S0B0POSLemma: N_megállapított, S0B0Token: (új)-ban_megállapított, S0B1Lemma: (új)_eset, S0B1LemmaPOS: (új)_N, S0B1POS: N_N, S0B1POSLemma: N_eset, S0B1Token: (új)-ban_esetek, S0Lemma: (új), S0POS: N, S0Token: (új)-ban, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [megállapított, esetek, kivételével ,.. ]
+
+B0Lemma: megállapított, B0POS: A, B0Token: megállapított, B1Lemma: eset, B1POS: N, B1Token: esetek, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [megállapított]   B= [esetek, kivételével, fennállónak ,.. ]
+
+B0Lemma: eset, B0POS: N, B0Token: esetek, B1IsInLexic: true, B1Lemma: kivétel, B1POS: N, B1Token: kivételével, S0B0Lemma: megállapított_eset, S0B0LemmaPOS: megállapított_N, S0B0POS: A_N, S0B0POSLemma: A_eset, S0B0Token: megállapított_esetek, S0B1Lemma: megállapított_kivétel, S0B1LemmaPOS: megállapított_N, S0B1POS: A_N, S0B1POSLemma: A_kivétel, S0B1Token: megállapított_kivételével, S0Lemma: megállapított, S0POS: A, S0Token: megállapított, megállapított_isGouvernedBy_eset: true, megállapított_isGouvernedBy_eset_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [esetek, kivételével, fennállónak ,.. ]
+
+B0Lemma: eset, B0POS: N, B0Token: esetek, B1IsInLexic: true, B1Lemma: kivétel, B1POS: N, B1Token: kivételével, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [esetek]   B= [kivételével, fennállónak, mondja ,.. ]
+
+B0IsInLexic: true, B0Lemma: kivétel, B0POS: N, B0Token: kivételével, B1IsInLexic: true, B1Lemma: fennálló, B1POS: A, B1Token: fennállónak, S0B0Lemma: eset_kivétel, S0B0LemmaPOS: eset_N, S0B0POS: N_N, S0B0POSLemma: N_kivétel, S0B0Token: esetek_kivételével, S0B1Lemma: eset_fennálló, S0B1LemmaPOS: eset_A, S0B1POS: N_A, S0B1POSLemma: N_fennálló, S0B1Token: esetek_fennállónak, S0Lemma: eset, S0POS: N, S0Token: esetek, eset_isGouvernedBy_kivétel: true, eset_isGouvernedBy_kivétel_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kivételével, fennállónak, mondja ,.. ]
+
+B0IsInLexic: true, B0Lemma: kivétel, B0POS: N, B0Token: kivételével, B1IsInLexic: true, B1Lemma: fennálló, B1POS: A, B1Token: fennállónak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kivételével]   B= [fennállónak, mondja, ki ,.. ]
+
+B0IsInLexic: true, B0Lemma: fennálló, B0POS: A, B0Token: fennállónak, B1IsInLexic: true, B1Lemma: mond, B1POS: V, B1Token: mondja, S0B0Lemma: kivétel_fennálló, S0B0LemmaPOS: kivétel_A, S0B0POS: N_A, S0B0POSLemma: N_fennálló, S0B0Token: kivételével_fennállónak, S0B1Lemma: kivétel_mond, S0B1LemmaPOS: kivétel_V, S0B1POS: N_V, S0B1POSLemma: N_mond, S0B1Token: kivételével_mondja, S0IsInLexic: true, S0Lemma: kivétel, S0POS: N, S0Token: kivételével, kivétel_isGouvernedBy_fennálló: true, kivétel_isGouvernedBy_fennálló_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fennállónak, mondja, ki ,.. ]
+
+B0IsInLexic: true, B0Lemma: fennálló, B0POS: A, B0Token: fennállónak, B1IsInLexic: true, B1Lemma: mond, B1POS: V, B1Token: mondja, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fennállónak]   B= [mondja, ki, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: mond, B0POS: V, B0Token: mondja, B1IsInLexic: true, B1Lemma: ki, B1POS: R, B1Token: ki, S0B0Lemma: fennálló_mond, S0B0LemmaPOS: fennálló_V, S0B0POS: A_V, S0B0POSLemma: A_mond, S0B0Token: fennállónak_mondja, S0B1Lemma: fennálló_ki, S0B1LemmaPOS: fennálló_R, S0B1POS: A_R, S0B1POSLemma: A_ki, S0B1Token: fennállónak_ki, S0IsInLexic: true, S0Lemma: fennálló, S0POS: A, S0Token: fennállónak, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mondja, ki, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: mond, B0POS: V, B0Token: mondja, B1IsInLexic: true, B1Lemma: ki, B1POS: R, B1Token: ki, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mondja]   B= [ki, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: ki, B0POS: R, B0Token: ki, B1Lemma: ., B1POS: ., B1Token: ., S0B0Lemma: mond_ki, S0B0LemmaPOS: mond_R, S0B0POS: V_R, S0B0POSLemma: V_ki, S0B0Token: mondja_ki, S0B1Lemma: mond_., S0B1LemmaPOS: mond_., S0B1POS: V_., S0B1POSLemma: V_., S0B1Token: mondja_., S0IsInLexic: true, S0Lemma: mond, S0POS: V, S0Token: mondja, hasRighDep_PREVERB: true, mond_hasRighDep_PREVERB: true, mond_ki_hasRighDep_PREVERB: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ki, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: ki, B0POS: R, B0Token: ki, B1Lemma: ., B1POS: ., B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ki]   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: ki_., S0B0LemmaPOS: ki_., S0B0POS: R_., S0B0POSLemma: R_., S0B0Token: ki_., S0IsInLexic: true, S0Lemma: ki, S0POS: R, S0Token: ki, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 1061 - 
+A Gt. ( új ) 175. § (1) bekezdése mellett a Ptk. 53. § (4) bekezdése is megállapítja a részvénytársaság fogalmát . 
+### Existing MWEs: 
+1- **bekezdése** (VPC)
+2- **bekezdése** (VPC)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [A, Gt., ( ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: A, B1Lemma: Gt., B1POS: N, B1Token: Gt., 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [A]   B= [Gt., (, új ,.. ]
+
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: A_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: A_(, S0Lemma: a, S0POS: T, S0Token: A, a_isGouvernedBy_§: true, a_isGouvernedBy_§_DET: true, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (, új ,.. ]
+
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, transitionHistoryLength1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(, új, ) ,.. ]
+
+B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_§: true, Gt._isGouvernedBy_§_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0Lemma: Gt., S0POS: N, S0Token: Gt., hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, új, ) ,.. ]
+
+B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [új, ), 175. ,.. ]
+
+(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0Lemma: (, S0POS: (, S0Token: (, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, ), 175. ,.. ]
+
+B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [), 175., § ,.. ]
+
+B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 175., B1POS: M, B1Token: 175., S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_175., S0B1LemmaPOS: új_M, S0B1POS: A_M, S0B1POSLemma: A_175., S0B1Token: új_175., S0Lemma: új, S0POS: A, S0Token: új, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), 175., § ,.. ]
+
+B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 175., B1POS: M, B1Token: 175., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [175., §, (1) ,.. ]
+
+B0Lemma: 175., B0POS: M, B0Token: 175., B1Lemma: §, B1POS: §, B1Token: §, S0B0Lemma: )_175., S0B0LemmaPOS: )_M, S0B0POS: )_M, S0B0POSLemma: )_175., S0B0Token: )_175., S0B1Lemma: )_§, S0B1LemmaPOS: )_§, S0B1POS: )_§, S0B1POSLemma: )_§, S0B1Token: )_§, S0Lemma: ), S0POS: ), S0Token: ), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [175., §, (1) ,.. ]
+
+B0Lemma: 175., B0POS: M, B0Token: 175., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [175.]   B= [§, (1), bekezdése ,.. ]
+
+175._isGouvernedBy_§: true, 175._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (1), B1POS: O, B1Token: (1), S0B0Lemma: 175._§, S0B0LemmaPOS: 175._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 175._§, S0B1Lemma: 175._(1), S0B1LemmaPOS: 175._O, S0B1POS: M_O, S0B1POSLemma: M_(1), S0B1Token: 175._(1), S0Lemma: 175., S0POS: M, S0Token: 175., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (1), bekezdése ,.. ]
+
+B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (1), B1POS: O, B1Token: (1), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(1), bekezdése, mellett ,.. ]
+
+B0Lemma: (1), B0POS: O, B0Token: (1), B1IsInLexic: true, B1Lemma: bekezdés, B1POS: N, B1Token: bekezdése, S0B0Lemma: §_(1), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(1), S0B0Token: §_(1), S0B1Lemma: §_bekezdés, S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bekezdés, S0B1Token: §_bekezdése, S0Lemma: §, S0POS: §, S0Token: §, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bekezdés: true, §_isGouvernedBy_bekezdés_ATT: true, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(1), bekezdése, mellett ,.. ]
+
+B0Lemma: (1), B0POS: O, B0Token: (1), B1IsInLexic: true, B1Lemma: bekezdés, B1POS: N, B1Token: bekezdése, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(1)]   B= [bekezdése, mellett, a ,.. ]
+
+(1)_isGouvernedBy_bekezdés: true, (1)_isGouvernedBy_bekezdés_ATT: true, B0IsInLexic: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdése, B1Lemma: mellett, B1POS: S, B1Token: mellett, S0B0Lemma: (1)_bekezdés, S0B0LemmaPOS: (1)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (1)_bekezdése, S0B1Lemma: (1)_mellett, S0B1LemmaPOS: (1)_S, S0B1POS: O_S, S0B1POSLemma: O_mellett, S0B1Token: (1)_mellett, S0Lemma: (1), S0POS: O, S0Token: (1), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bekezdése, mellett, a ,.. ]
+
+B0IsInLexic: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdése, B1Lemma: mellett, B1POS: S, B1Token: mellett, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [mellett, a, Ptk. ,.. ]
+
+B0Lemma: mellett, B0POS: S, B0Token: mellett, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: bekezdés_mellett, S0B0LemmaPOS: bekezdés_S, S0B0POS: N_S, S0B0POSLemma: N_mellett, S0B0Token: bekezdése_mellett, S0B1Lemma: bekezdés_a, S0B1LemmaPOS: bekezdés_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: bekezdése_a, S0IsInLexic: true, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, bekezdés_isGouvernedBy_mellett: true, bekezdés_isGouvernedBy_mellett_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mellett, a, Ptk. ,.. ]
+
+B0Lemma: mellett, B0POS: S, B0Token: mellett, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mellett]   B= [a, Ptk., 53. ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Ptk., B1POS: N, B1Token: Ptk., S0B0Lemma: mellett_a, S0B0LemmaPOS: mellett_T, S0B0POS: S_T, S0B0POSLemma: S_a, S0B0Token: mellett_a, S0B1Lemma: mellett_Ptk., S0B1LemmaPOS: mellett_N, S0B1POS: S_N, S0B1POSLemma: S_Ptk., S0B1Token: mellett_Ptk., S0Lemma: mellett, S0POS: S, S0Token: mellett, mellett_isGouvernedBy_megállapít: true, mellett_isGouvernedBy_megállapít_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Ptk., 53. ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Ptk., B1POS: N, B1Token: Ptk., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Ptk., 53., § ,.. ]
+
+B0Lemma: Ptk., B0POS: N, B0Token: Ptk., B1Lemma: 53., B1POS: M, B1Token: 53., S0B0Lemma: a_Ptk., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Ptk., S0B0Token: a_Ptk., S0B1Lemma: a_53., S0B1LemmaPOS: a_M, S0B1POS: T_M, S0B1POSLemma: T_53., S0B1Token: a_53., S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_§: true, a_isGouvernedBy_§_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ptk., 53., § ,.. ]
+
+B0Lemma: Ptk., B0POS: N, B0Token: Ptk., B1Lemma: 53., B1POS: M, B1Token: 53., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ptk.]   B= [53., §, (4) ,.. ]
+
+B0Lemma: 53., B0POS: M, B0Token: 53., B1Lemma: §, B1POS: §, B1Token: §, Ptk._isGouvernedBy_§: true, Ptk._isGouvernedBy_§_ATT: true, S0B0Lemma: Ptk._53., S0B0LemmaPOS: Ptk._M, S0B0POS: N_M, S0B0POSLemma: N_53., S0B0Token: Ptk._53., S0B1Lemma: Ptk._§, S0B1LemmaPOS: Ptk._§, S0B1POS: N_§, S0B1POSLemma: N_§, S0B1Token: Ptk._§, S0Lemma: Ptk., S0POS: N, S0Token: Ptk., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [53., §, (4) ,.. ]
+
+B0Lemma: 53., B0POS: M, B0Token: 53., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [53.]   B= [§, (4), bekezdése ,.. ]
+
+53._isGouvernedBy_§: true, 53._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (4), B1POS: O, B1Token: (4), S0B0Lemma: 53._§, S0B0LemmaPOS: 53._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 53._§, S0B1Lemma: 53._(4), S0B1LemmaPOS: 53._O, S0B1POS: M_O, S0B1POSLemma: M_(4), S0B1Token: 53._(4), S0Lemma: 53., S0POS: M, S0Token: 53., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (4), bekezdése ,.. ]
+
+B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (4), B1POS: O, B1Token: (4), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(4), bekezdése, is ,.. ]
+
+B0Lemma: (4), B0POS: O, B0Token: (4), B1IsInLexic: true, B1Lemma: bekezdés, B1POS: N, B1Token: bekezdése, S0B0Lemma: §_(4), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(4), S0B0Token: §_(4), S0B1Lemma: §_bekezdés, S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bekezdés, S0B1Token: §_bekezdése, S0Lemma: §, S0POS: §, S0Token: §, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bekezdés: true, §_isGouvernedBy_bekezdés_ATT: true, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(4), bekezdése, is ,.. ]
+
+B0Lemma: (4), B0POS: O, B0Token: (4), B1IsInLexic: true, B1Lemma: bekezdés, B1POS: N, B1Token: bekezdése, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(4)]   B= [bekezdése, is, megállapítja ,.. ]
+
+(4)_isGouvernedBy_bekezdés: true, (4)_isGouvernedBy_bekezdés_ATT: true, B0IsInLexic: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdése, B1Lemma: is, B1POS: C, B1Token: is, S0B0Lemma: (4)_bekezdés, S0B0LemmaPOS: (4)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (4)_bekezdése, S0B1Lemma: (4)_is, S0B1LemmaPOS: (4)_C, S0B1POS: O_C, S0B1POSLemma: O_is, S0B1Token: (4)_is, S0Lemma: (4), S0POS: O, S0Token: (4), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bekezdése, is, megállapítja ,.. ]
+
+B0IsInLexic: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdése, B1Lemma: is, B1POS: C, B1Token: is, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdése]   B= [is, megállapítja, a ,.. ]
+
+B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: megállapít, B1POS: V, B1Token: megállapítja, S0B0Lemma: bekezdés_is, S0B0LemmaPOS: bekezdés_C, S0B0POS: N_C, S0B0POSLemma: N_is, S0B0Token: bekezdése_is, S0B1Lemma: bekezdés_megállapít, S0B1LemmaPOS: bekezdés_V, S0B1POS: N_V, S0B1POSLemma: N_megállapít, S0B1Token: bekezdése_megállapítja, S0IsInLexic: true, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdése, bekezdés_hasRighDep_CONJ: true, bekezdés_isGouvernedBy_megállapít: true, bekezdés_isGouvernedBy_megállapít_SUBJ: true, bekezdés_is_hasRighDep_CONJ: true, hasRighDep_CONJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [is, megállapítja, a ,.. ]
+
+B0Lemma: is, B0POS: C, B0Token: is, B1Lemma: megállapít, B1POS: V, B1Token: megállapítja, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [is]   B= [megállapítja, a, részvénytársaság ,.. ]
+
+B0Lemma: megállapít, B0POS: V, B0Token: megállapítja, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: is_megállapít, S0B0LemmaPOS: is_V, S0B0POS: C_V, S0B0POSLemma: C_megállapít, S0B0Token: is_megállapítja, S0B1Lemma: is_a, S0B1LemmaPOS: is_T, S0B1POS: C_T, S0B1POSLemma: C_a, S0B1Token: is_a, S0Lemma: is, S0POS: C, S0Token: is, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [megállapítja, a, részvénytársaság ,.. ]
+
+B0Lemma: megállapít, B0POS: V, B0Token: megállapítja, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [megállapítja]   B= [a, részvénytársaság, fogalmát ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársaság, S0B0Lemma: megállapít_a, S0B0LemmaPOS: megállapít_T, S0B0POS: V_T, S0B0POSLemma: V_a, S0B0Token: megállapítja_a, S0B1Lemma: megállapít_részvénytársaság, S0B1LemmaPOS: megállapít_N, S0B1POS: V_N, S0B1POSLemma: V_részvénytársaság, S0B1Token: megállapítja_részvénytársaság, S0Lemma: megállapít, S0POS: V, S0Token: megállapítja, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, részvénytársaság, fogalmát ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: részvénytársaság, B1POS: N, B1Token: részvénytársaság, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [részvénytársaság, fogalmát, . ,.. ]
+
+B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársaság, B1Lemma: fogalom, B1POS: N, B1Token: fogalmát, S0B0Lemma: a_részvénytársaság, S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_részvénytársaság, S0B0Token: a_részvénytársaság, S0B1Lemma: a_fogalom, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_fogalom, S0B1Token: a_fogalmát, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_részvénytársaság: true, a_isGouvernedBy_részvénytársaság_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [részvénytársaság, fogalmát, . ,.. ]
+
+B0Lemma: részvénytársaság, B0POS: N, B0Token: részvénytársaság, B1Lemma: fogalom, B1POS: N, B1Token: fogalmát, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [részvénytársaság]   B= [fogalmát, . ,.. ]
+
+B0Lemma: fogalom, B0POS: N, B0Token: fogalmát, B1Lemma: ., B1POS: ., B1Token: ., S0B0Lemma: részvénytársaság_fogalom, S0B0LemmaPOS: részvénytársaság_N, S0B0POS: N_N, S0B0POSLemma: N_fogalom, S0B0Token: részvénytársaság_fogalmát, S0B1Lemma: részvénytársaság_., S0B1LemmaPOS: részvénytársaság_., S0B1POS: N_., S0B1POSLemma: N_., S0B1Token: részvénytársaság_., S0Lemma: részvénytársaság, S0POS: N, S0Token: részvénytársaság, részvénytársaság_isGouvernedBy_fogalom: true, részvénytársaság_isGouvernedBy_fogalom_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fogalmát, . ,.. ]
+
+B0Lemma: fogalom, B0POS: N, B0Token: fogalmát, B1Lemma: ., B1POS: ., B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fogalmát]   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: fogalom_., S0B0LemmaPOS: fogalom_., S0B0POS: N_., S0B0POSLemma: N_., S0B0Token: fogalmát_., S0Lemma: fogalom, S0POS: N, S0Token: fogalmát, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 1062 - 
+A Gt. ( új ) 303. § (4) bekezdéssel módosított új Ptk. előírás a korábbi szabályával ellentétben már teljes összhangban van a Gt. ( új ) fogalmi meghatározásával . 
+### Existing MWEs: 
+1- **bekezdéssel** (VPC)
+2- **előírás** (VPC)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [A, Gt., ( ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: A, B1Lemma: Gt., B1POS: N, B1Token: Gt., 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [A]   B= [Gt., (, új ,.. ]
+
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: A_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: A_(, S0Lemma: a, S0POS: T, S0Token: A, a_isGouvernedBy_bekezdés: true, a_isGouvernedBy_bekezdés_DET: true, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (, új ,.. ]
+
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, transitionHistoryLength1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(, új, ) ,.. ]
+
+B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_§: true, Gt._isGouvernedBy_§_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0Lemma: Gt., S0POS: N, S0Token: Gt., hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, új, ) ,.. ]
+
+B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [új, ), 303. ,.. ]
+
+(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0Lemma: (, S0POS: (, S0Token: (, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, ), 303. ,.. ]
+
+B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [), 303., § ,.. ]
+
+B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 303., B1POS: M, B1Token: 303., S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_303., S0B1LemmaPOS: új_M, S0B1POS: A_M, S0B1POSLemma: A_303., S0B1Token: új_303., S0Lemma: új, S0POS: A, S0Token: új, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), 303., § ,.. ]
+
+B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: 303., B1POS: M, B1Token: 303., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [303., §, (4) ,.. ]
+
+B0Lemma: 303., B0POS: M, B0Token: 303., B1Lemma: §, B1POS: §, B1Token: §, S0B0Lemma: )_303., S0B0LemmaPOS: )_M, S0B0POS: )_M, S0B0POSLemma: )_303., S0B0Token: )_303., S0B1Lemma: )_§, S0B1LemmaPOS: )_§, S0B1POS: )_§, S0B1POSLemma: )_§, S0B1Token: )_§, S0Lemma: ), S0POS: ), S0Token: ), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [303., §, (4) ,.. ]
+
+B0Lemma: 303., B0POS: M, B0Token: 303., B1Lemma: §, B1POS: §, B1Token: §, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [303.]   B= [§, (4), bekezdéssel ,.. ]
+
+303._isGouvernedBy_§: true, 303._isGouvernedBy_§_ATT: true, B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (4), B1POS: O, B1Token: (4), S0B0Lemma: 303._§, S0B0LemmaPOS: 303._§, S0B0POS: M_§, S0B0POSLemma: M_§, S0B0Token: 303._§, S0B1Lemma: 303._(4), S0B1LemmaPOS: 303._O, S0B1POS: M_O, S0B1POSLemma: M_(4), S0B1Token: 303._(4), S0Lemma: 303., S0POS: M, S0Token: 303., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [§, (4), bekezdéssel ,.. ]
+
+B0Lemma: §, B0POS: §, B0Token: §, B1Lemma: (4), B1POS: O, B1Token: (4), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [§]   B= [(4), bekezdéssel, módosított ,.. ]
+
+B0Lemma: (4), B0POS: O, B0Token: (4), B1IsInLexic: true, B1Lemma: bekezdés, B1POS: N, B1Token: bekezdéssel, S0B0Lemma: §_(4), S0B0LemmaPOS: §_O, S0B0POS: §_O, S0B0POSLemma: §_(4), S0B0Token: §_(4), S0B1Lemma: §_bekezdés, S0B1LemmaPOS: §_N, S0B1POS: §_N, S0B1POSLemma: §_bekezdés, S0B1Token: §_bekezdéssel, S0Lemma: §, S0POS: §, S0Token: §, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, §_isGouvernedBy_bekezdés: true, §_isGouvernedBy_bekezdés_ATT: true, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(4), bekezdéssel, módosított ,.. ]
+
+B0Lemma: (4), B0POS: O, B0Token: (4), B1IsInLexic: true, B1Lemma: bekezdés, B1POS: N, B1Token: bekezdéssel, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(4)]   B= [bekezdéssel, módosított, új ,.. ]
+
+(4)_isGouvernedBy_bekezdés: true, (4)_isGouvernedBy_bekezdés_ATT: true, B0IsInLexic: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdéssel, B1Lemma: módosított, B1POS: A, B1Token: módosított, S0B0Lemma: (4)_bekezdés, S0B0LemmaPOS: (4)_N, S0B0POS: O_N, S0B0POSLemma: O_bekezdés, S0B0Token: (4)_bekezdéssel, S0B1Lemma: (4)_módosított, S0B1LemmaPOS: (4)_A, S0B1POS: O_A, S0B1POSLemma: O_módosított, S0B1Token: (4)_módosított, S0Lemma: (4), S0POS: O, S0Token: (4), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bekezdéssel, módosított, új ,.. ]
+
+B0IsInLexic: true, B0Lemma: bekezdés, B0POS: N, B0Token: bekezdéssel, B1Lemma: módosított, B1POS: A, B1Token: módosított, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bekezdéssel]   B= [módosított, új, Ptk. ,.. ]
+
+B0Lemma: módosított, B0POS: A, B0Token: módosított, B1Lemma: új, B1POS: A, B1Token: új, S0B0Lemma: bekezdés_módosított, S0B0LemmaPOS: bekezdés_A, S0B0POS: N_A, S0B0POSLemma: N_módosított, S0B0Token: bekezdéssel_módosított, S0B1Lemma: bekezdés_új, S0B1LemmaPOS: bekezdés_A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: bekezdéssel_új, S0IsInLexic: true, S0Lemma: bekezdés, S0POS: N, S0Token: bekezdéssel, bekezdés_isGouvernedBy_módosított: true, bekezdés_isGouvernedBy_módosított_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [módosított, új, Ptk. ,.. ]
+
+B0Lemma: módosított, B0POS: A, B0Token: módosított, B1Lemma: új, B1POS: A, B1Token: új, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [módosított]   B= [új, Ptk., előírás ,.. ]
+
+B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: Ptk., B1POS: N, B1Token: Ptk., S0B0Lemma: módosított_új, S0B0LemmaPOS: módosított_A, S0B0POS: A_A, S0B0POSLemma: A_új, S0B0Token: módosított_új, S0B1Lemma: módosított_Ptk., S0B1LemmaPOS: módosított_N, S0B1POS: A_N, S0B1POSLemma: A_Ptk., S0B1Token: módosított_Ptk., S0Lemma: módosított, S0POS: A, S0Token: módosított, módosított_isGouvernedBy_előírás: true, módosított_isGouvernedBy_előírás_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, Ptk., előírás ,.. ]
+
+B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: Ptk., B1POS: N, B1Token: Ptk., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [Ptk., előírás, a ,.. ]
+
+B0Lemma: Ptk., B0POS: N, B0Token: Ptk., B1IsInLexic: true, B1Lemma: előírás, B1POS: N, B1Token: előírás, S0B0Lemma: új_Ptk., S0B0LemmaPOS: új_N, S0B0POS: A_N, S0B0POSLemma: A_Ptk., S0B0Token: új_Ptk., S0B1Lemma: új_előírás, S0B1LemmaPOS: új_N, S0B1POS: A_N, S0B1POSLemma: A_előírás, S0B1Token: új_előírás, S0Lemma: új, S0POS: A, S0Token: új, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_isGouvernedBy_előírás: true, új_isGouvernedBy_előírás_ATT: true, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ptk., előírás, a ,.. ]
+
+B0Lemma: Ptk., B0POS: N, B0Token: Ptk., B1IsInLexic: true, B1Lemma: előírás, B1POS: N, B1Token: előírás, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ptk.]   B= [előírás, a, korábbi ,.. ]
+
+B0IsInLexic: true, B0Lemma: előírás, B0POS: N, B0Token: előírás, B1Lemma: a, B1POS: T, B1Token: a, Ptk._isGouvernedBy_előírás: true, Ptk._isGouvernedBy_előírás_ATT: true, S0B0Lemma: Ptk._előírás, S0B0LemmaPOS: Ptk._N, S0B0POS: N_N, S0B0POSLemma: N_előírás, S0B0Token: Ptk._előírás, S0B1Lemma: Ptk._a, S0B1LemmaPOS: Ptk._T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: Ptk._a, S0Lemma: Ptk., S0POS: N, S0Token: Ptk., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [előírás, a, korábbi ,.. ]
+
+B0IsInLexic: true, B0Lemma: előírás, B0POS: N, B0Token: előírás, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [előírás]   B= [a, korábbi, szabályával ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: korábbi, B1POS: A, B1Token: korábbi, S0B0Lemma: előírás_a, S0B0LemmaPOS: előírás_T, S0B0POS: N_T, S0B0POSLemma: N_a, S0B0Token: előírás_a, S0B1Lemma: előírás_korábbi, S0B1LemmaPOS: előírás_A, S0B1POS: N_A, S0B1POSLemma: N_korábbi, S0B1Token: előírás_korábbi, S0IsInLexic: true, S0Lemma: előírás, S0POS: N, S0Token: előírás, előírás_isGouvernedBy_van: true, előírás_isGouvernedBy_van_SUBJ: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, korábbi, szabályával ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: korábbi, B1POS: A, B1Token: korábbi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [korábbi, szabályával, ellentétben ,.. ]
+
+B0Lemma: korábbi, B0POS: A, B0Token: korábbi, B1Lemma: szabály, B1POS: N, B1Token: szabályával, S0B0Lemma: a_korábbi, S0B0LemmaPOS: a_A, S0B0POS: T_A, S0B0POSLemma: T_korábbi, S0B0Token: a_korábbi, S0B1Lemma: a_szabály, S0B1LemmaPOS: a_N, S0B1POS: T_N, S0B1POSLemma: T_szabály, S0B1Token: a_szabályával, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_szabály: true, a_isGouvernedBy_szabály_DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [korábbi, szabályával, ellentétben ,.. ]
+
+B0Lemma: korábbi, B0POS: A, B0Token: korábbi, B1Lemma: szabály, B1POS: N, B1Token: szabályával, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [korábbi]   B= [szabályával, ellentétben, már ,.. ]
+
+B0Lemma: szabály, B0POS: N, B0Token: szabályával, B1Lemma: ellentétben, B1POS: S, B1Token: ellentétben, S0B0Lemma: korábbi_szabály, S0B0LemmaPOS: korábbi_N, S0B0POS: A_N, S0B0POSLemma: A_szabály, S0B0Token: korábbi_szabályával, S0B1Lemma: korábbi_ellentétben, S0B1LemmaPOS: korábbi_S, S0B1POS: A_S, S0B1POSLemma: A_ellentétben, S0B1Token: korábbi_ellentétben, S0Lemma: korábbi, S0POS: A, S0Token: korábbi, korábbi_isGouvernedBy_szabály: true, korábbi_isGouvernedBy_szabály_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [szabályával, ellentétben, már ,.. ]
+
+B0Lemma: szabály, B0POS: N, B0Token: szabályával, B1Lemma: ellentétben, B1POS: S, B1Token: ellentétben, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [szabályával]   B= [ellentétben, már, teljes ,.. ]
+
+B0Lemma: ellentétben, B0POS: S, B0Token: ellentétben, B1Lemma: már, B1POS: R, B1Token: már, S0B0Lemma: szabály_ellentétben, S0B0LemmaPOS: szabály_S, S0B0POS: N_S, S0B0POSLemma: N_ellentétben, S0B0Token: szabályával_ellentétben, S0B1Lemma: szabály_már, S0B1LemmaPOS: szabály_R, S0B1POS: N_R, S0B1POSLemma: N_már, S0B1Token: szabályával_már, S0Lemma: szabály, S0POS: N, S0Token: szabályával, szabály_isGouvernedBy_ellentétben: true, szabály_isGouvernedBy_ellentétben_OBL: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ellentétben, már, teljes ,.. ]
+
+B0Lemma: ellentétben, B0POS: S, B0Token: ellentétben, B1Lemma: már, B1POS: R, B1Token: már, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ellentétben]   B= [már, teljes, összhangban ,.. ]
+
+B0Lemma: már, B0POS: R, B0Token: már, B1Lemma: teljes, B1POS: A, B1Token: teljes, S0B0Lemma: ellentétben_már, S0B0LemmaPOS: ellentétben_R, S0B0POS: S_R, S0B0POSLemma: S_már, S0B0Token: ellentétben_már, S0B1Lemma: ellentétben_teljes, S0B1LemmaPOS: ellentétben_A, S0B1POS: S_A, S0B1POSLemma: S_teljes, S0B1Token: ellentétben_teljes, S0Lemma: ellentétben, S0POS: S, S0Token: ellentétben, ellentétben_isGouvernedBy_van: true, ellentétben_isGouvernedBy_van_MODE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [már, teljes, összhangban ,.. ]
+
+B0Lemma: már, B0POS: R, B0Token: már, B1Lemma: teljes, B1POS: A, B1Token: teljes, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [már]   B= [teljes, összhangban, van ,.. ]
+
+B0Lemma: teljes, B0POS: A, B0Token: teljes, B1IsInLexic: true, B1Lemma: összhang, B1POS: N, B1Token: összhangban, S0B0Lemma: már_teljes, S0B0LemmaPOS: már_A, S0B0POS: R_A, S0B0POSLemma: R_teljes, S0B0Token: már_teljes, S0B1Lemma: már_összhang, S0B1LemmaPOS: már_N, S0B1POS: R_N, S0B1POSLemma: R_összhang, S0B1Token: már_összhangban, S0Lemma: már, S0POS: R, S0Token: már, már_isGouvernedBy_van: true, már_isGouvernedBy_van_TLOCY: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [teljes, összhangban, van ,.. ]
+
+B0Lemma: teljes, B0POS: A, B0Token: teljes, B1IsInLexic: true, B1Lemma: összhang, B1POS: N, B1Token: összhangban, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teljes]   B= [összhangban, van, a ,.. ]
+
+B0IsInLexic: true, B0Lemma: összhang, B0POS: N, B0Token: összhangban, B1Lemma: van, B1POS: V, B1Token: van, S0B0Lemma: teljes_összhang, S0B0LemmaPOS: teljes_N, S0B0POS: A_N, S0B0POSLemma: A_összhang, S0B0Token: teljes_összhangban, S0B1Lemma: teljes_van, S0B1LemmaPOS: teljes_V, S0B1POS: A_V, S0B1POSLemma: A_van, S0B1Token: teljes_van, S0Lemma: teljes, S0POS: A, S0Token: teljes, teljes_isGouvernedBy_összhang: true, teljes_isGouvernedBy_összhang_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [összhangban, van, a ,.. ]
+
+B0IsInLexic: true, B0Lemma: összhang, B0POS: N, B0Token: összhangban, B1Lemma: van, B1POS: V, B1Token: van, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [összhangban]   B= [van, a, Gt. ,.. ]
+
+B0Lemma: van, B0POS: V, B0Token: van, B1Lemma: a, B1POS: T, B1Token: a, S0B0Lemma: összhang_van, S0B0LemmaPOS: összhang_V, S0B0POS: N_V, S0B0POSLemma: N_van, S0B0Token: összhangban_van, S0B1Lemma: összhang_a, S0B1LemmaPOS: összhang_T, S0B1POS: N_T, S0B1POSLemma: N_a, S0B1Token: összhangban_a, S0IsInLexic: true, S0Lemma: összhang, S0POS: N, S0Token: összhangban, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, összhang_isGouvernedBy_van: true, összhang_isGouvernedBy_van_OBL: true, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [van, a, Gt. ,.. ]
+
+B0Lemma: van, B0POS: V, B0Token: van, B1Lemma: a, B1POS: T, B1Token: a, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [van]   B= [a, Gt., ( ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., S0B0Lemma: van_a, S0B0LemmaPOS: van_T, S0B0POS: V_T, S0B0POSLemma: V_a, S0B0Token: van_a, S0B1Lemma: van_Gt., S0B1LemmaPOS: van_N, S0B1POS: V_N, S0B1POSLemma: V_Gt., S0B1Token: van_Gt., S0Lemma: van, S0POS: V, S0Token: van, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Gt., ( ,.. ]
+
+B0Lemma: a, B0POS: T, B0Token: a, B1Lemma: Gt., B1POS: N, B1Token: Gt., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Gt., (, új ,.. ]
+
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, S0B0Lemma: a_Gt., S0B0LemmaPOS: a_N, S0B0POS: T_N, S0B0POSLemma: T_Gt., S0B0Token: a_Gt., S0B1Lemma: a_(, S0B1LemmaPOS: a_(, S0B1POS: T_(, S0B1POSLemma: T_(, S0B1Token: a_(, S0Lemma: a, S0POS: T, S0Token: a, a_isGouvernedBy_Gt.: true, a_isGouvernedBy_Gt._DET: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gt., (, új ,.. ]
+
+B0Lemma: Gt., B0POS: N, B0Token: Gt., B1Lemma: (, B1POS: (, B1Token: (, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gt.]   B= [(, új, ) ,.. ]
+
+B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, Gt._hasRighDep_ATT: true, Gt._isGouvernedBy_meghatározás: true, Gt._isGouvernedBy_meghatározás_ATT: true, Gt._új_hasRighDep_ATT: true, S0B0Lemma: Gt._(, S0B0LemmaPOS: Gt._(, S0B0POS: N_(, S0B0POSLemma: N_(, S0B0Token: Gt._(, S0B1Lemma: Gt._új, S0B1LemmaPOS: Gt._A, S0B1POS: N_A, S0B1POSLemma: N_új, S0B1Token: Gt._új, S0Lemma: Gt., S0POS: N, S0Token: Gt., hasRighDep_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, új, ) ,.. ]
+
+B0Lemma: (, B0POS: (, B0Token: (, B1Lemma: új, B1POS: A, B1Token: új, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [új, ), fogalmi ,.. ]
+
+(_isGouvernedBy_új: true, (_isGouvernedBy_új_PUNCT: true, B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), S0B0Lemma: (_új, S0B0LemmaPOS: (_A, S0B0POS: (_A, S0B0POSLemma: (_új, S0B0Token: (_új, S0B1Lemma: (_), S0B1LemmaPOS: (_), S0B1POS: (_), S0B1POSLemma: (_), S0B1Token: (_), S0Lemma: (, S0POS: (, S0Token: (, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [új, ), fogalmi ,.. ]
+
+B0Lemma: új, B0POS: A, B0Token: új, B1Lemma: ), B1POS: ), B1Token: ), transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [új]   B= [), fogalmi, meghatározásával ,.. ]
+
+B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: fogalmi, B1POS: A, B1Token: fogalmi, S0B0Lemma: új_), S0B0LemmaPOS: új_), S0B0POS: A_), S0B0POSLemma: A_), S0B0Token: új_), S0B1Lemma: új_fogalmi, S0B1LemmaPOS: új_A, S0B1POS: A_A, S0B1POSLemma: A_fogalmi, S0B1Token: új_fogalmi, S0Lemma: új, S0POS: A, S0Token: új, hasRighDep_PUNCT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, új_)_hasRighDep_PUNCT: true, új_hasRighDep_PUNCT: true, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), fogalmi, meghatározásával ,.. ]
+
+B0Lemma: ), B0POS: ), B0Token: ), B1Lemma: fogalmi, B1POS: A, B1Token: fogalmi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [fogalmi, meghatározásával, . ,.. ]
+
+B0Lemma: fogalmi, B0POS: A, B0Token: fogalmi, B1IsInLexic: true, B1Lemma: meghatározás, B1POS: N, B1Token: meghatározásával, S0B0Lemma: )_fogalmi, S0B0LemmaPOS: )_A, S0B0POS: )_A, S0B0POSLemma: )_fogalmi, S0B0Token: )_fogalmi, S0B1Lemma: )_meghatározás, S0B1LemmaPOS: )_N, S0B1POS: )_N, S0B1POSLemma: )_meghatározás, S0B1Token: )_meghatározásával, S0Lemma: ), S0POS: ), S0Token: ), transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fogalmi, meghatározásával, . ,.. ]
+
+B0Lemma: fogalmi, B0POS: A, B0Token: fogalmi, B1IsInLexic: true, B1Lemma: meghatározás, B1POS: N, B1Token: meghatározásával, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fogalmi]   B= [meghatározásával, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: meghatározás, B0POS: N, B0Token: meghatározásával, B1Lemma: ., B1POS: ., B1Token: ., S0B0Lemma: fogalmi_meghatározás, S0B0LemmaPOS: fogalmi_N, S0B0POS: A_N, S0B0POSLemma: A_meghatározás, S0B0Token: fogalmi_meghatározásával, S0B1Lemma: fogalmi_., S0B1LemmaPOS: fogalmi_., S0B1POS: A_., S0B1POSLemma: A_., S0B1Token: fogalmi_., S0Lemma: fogalmi, S0POS: A, S0Token: fogalmi, fogalmi_isGouvernedBy_meghatározás: true, fogalmi_isGouvernedBy_meghatározás_ATT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [meghatározásával, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: meghatározás, B0POS: N, B0Token: meghatározásával, B1Lemma: ., B1POS: ., B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [meghatározásával]   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: meghatározás_., S0B0LemmaPOS: meghatározás_., S0B0POS: N_., S0B0POSLemma: N_., S0B0Token: meghatározásával_., S0IsInLexic: true, S0Lemma: meghatározás, S0POS: N, S0Token: meghatározásával, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: ., B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: ., S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

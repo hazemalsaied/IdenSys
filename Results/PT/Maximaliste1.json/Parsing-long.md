@@ -11,7 +11,7 @@ Fazer bondade para quem faz o mal é deixar de fazer o bem a quem merece , é co
 2- **faz mal** (LVC, 5)
 3- **fazer bem** (LVC, 5)
 ### Identified MWEs: 
-1- **Fazer bondade** 
+1- **faz mal** 
 2- **fazer bem** 
 ## Sentence No. 19010 - 
 Bola correndo solta no gramado do Divino , quando Roni ( Daniel Rocha ) sofre uma falta e vai bater o pênalti . 
@@ -65,7 +65,7 @@ Autor de mais de mil gols , dono dos títulos mais importantes do planeta bola ,
 1- **fez o que tinha de fazer** (ID, 1)
 2- **pendurou as chuteiras** (ID)
 ### Identified MWEs: 
-1- **fez o que tinha de fazer** 
+1- **fez de fazer** 
 ## Sentence No. 2545 - 
 Ronildo ( Rodrigo Hilbert ) teve a chance de regenerar-se , mas a jogou fora . 
 ### Existing MWEs: 
@@ -241,6 +241,7 @@ Anderson dos Santos Raichel vai a júri depois de denunciado por cometer uma ten
 1- **cometer homicídio** (LVC, 1)
 ### Identified MWEs: 
 1- **vai a júri** 
+2- **cometer homicídio** 
 ## Sentence No. 11360 - 
 Ano passado , o Goiás fez uma campanha de chorar , escapou da degola na última rodada por milagre , mas parece que não aprendeu e já dá sinais de que vai passar uma temporada no fio da navalha . 
 ### Existing MWEs: 
@@ -262,7 +263,8 @@ Fez testes por quatro anos antes de seu primeiro papel na tevê . 2 ) Estudou te
 1- **Fez testes** (LVC, 4)
 2- **faz faculdade** (LVC, 1)
 ### Identified MWEs: 
-1- **faz faculdade** 
+1- **Fez testes** 
+2- **faz faculdade** 
 ## Sentence No. 11795 - 
 Mariléa Pessoa , 46 anos , a Léa , teve há três anos a idéia de montar a sua própria festa : Consegui unir o útil a o agradável , pois adoro bailes . 
 ### Existing MWEs: 
@@ -273,6 +275,9 @@ Inventário é o procedimento pelo qual se descrevem os bens deixados em razão 
 ### Existing MWEs: 
 1- **feita partilha** (LVC, 1)
 2- **feita adjudicação** (LVC), Interleaving 
+### Identified MWEs: 
+1- **deixados em razão** 
+2- **feita partilha** 
 ## Sentence No. 12185 - 
 Acenda-a e faça uma prece agradecendo pela graça recebida . 
 ### Existing MWEs: 
@@ -287,13 +292,15 @@ Com os três pontos , o segundo clube dos torcedores cariocas deu um pulo na tab
 2- **salvar a pele** (ID)
 ### Identified MWEs: 
 1- **deu um pulo** 
+2- **entrou no páreo** 
 ## Sentence No. 13360 - 
 Não é melhor ser livre , desimpedido , independente , levando a vida sem lenço e sem documento , passeando , divertindo-se , namorando , paquerando , estudando , em outras palavras , sendo jovem com tudo que se tem direito ? 
 ### Existing MWEs: 
 2- **levando vida** (LVC)
 1- **tem direito** (LVC, 17)
 ### Identified MWEs: 
-1- **tem direito** 
+1- **levando vida** 
+2- **tem direito** 
 ## Sentence No. 13585 - 
 O meia Alex admite que a responsabilidade é toda do Inter : Temos obrigação de fazer um bom resultado . 
 ### Existing MWEs: 
@@ -307,9 +314,6 @@ A criança que tem tendência para a obesidade , já está acima do peso para id
 ### Existing MWEs: 
 1- **tem tendência** (LVC)
 2- **tem hábitos** (LVC)
-### Identified MWEs: 
-1- **está acima** 
-2- **tem hábitos** 
 ## Sentence No. 14600 - 
 Se é verdade que a Ulbra não tem torcida , também é verdade que não sofre grande pressão . 
 ### Existing MWEs: 
@@ -338,6 +342,7 @@ Conforme o titular da 4ª DP , delegado Enizaldo Plentz , ele teria participaç�
 2- **crimes executados** (LVC, 1)
 ### Identified MWEs: 
 1- **teria participação** 
+2- **crimes executados** 
 ## Sentence No. 15190 - 
 O jovem não admitu esta morte , mas Enizaldo tem certeza de que se trata de outra vítima . 
 ### Existing MWEs: 
@@ -365,6 +370,7 @@ Para fazer o pedido , a leitora deverá comprovar que as filhas têm necessidade
 2- **têm necessidades** (LVC, 1)
 ### Identified MWEs: 
 1- **fazer pedido** 
+2- **têm necessidades** 
 ## Sentence No. 17010 - 
 Uma declaração feita pelos membros fundadores -- Tim Farriss , Andrew Farriss , Jon Farriss , Kirk Pengilly e Garry Beers -- dizia : " Nós entendemos que isso deve vir como um duro golpe para todos , mas tudo tem um fim . 
 ### Existing MWEs: 
@@ -384,8 +390,6 @@ Antecipou sua autocrítica perante o plenário do Parlamento do país : " Nós ,
 ### Existing MWEs: 
 1- **fazer sacrifícios** (LVC)
 2- **fazer sacrifícios** (LVC), Interleaving 
-### Identified MWEs: 
-1- **fazer sacrifícios** 
 ## Sentence No. 18865 - 
 O programa fala de como é distribuição das oficinas dentro do Caje e eles queriam dizer que acham preconceituosa a forma como a mídia se refere a eles . " 
 ### Existing MWEs: 
@@ -393,6 +397,7 @@ O programa fala de como é distribuição das oficinas dentro do Caje e eles que
 1- **se refere** (IReflV, 3)
 ### Identified MWEs: 
 1- **queriam dizer** 
+2- **se refere** 
 ## Sentence No. 18880 - 
 A crítica argentina , que dá nome a um espaço no Memorial da América Latina , em São Paulo , a Galeria Marta Traba , faz minucioso estudo de artistas latino - americanos na época , dividindo em duas categorias . 
 ### Existing MWEs: 
@@ -408,7 +413,6 @@ A diretoria está fazendo uma promoção e tenho certeza que mais uma vez ela va
 2- **tenho certeza** (LVC)
 ### Identified MWEs: 
 1- **fazendo promoção** 
-2- **tenho certeza** 
 ## Sentence No. 18940 - 
 " Acho que qualquer cristão deve passar seu tempo rezando antes de se recusar a votar em um homem de família com valores morais , experiência em negócios , que é contra o aborto e que , na convicção cristã , tem preocupações sobre o homossexualismo " , argumenta a mamãe Pitt em sua carta . 
 ### Existing MWEs: 
@@ -416,12 +420,13 @@ A diretoria está fazendo uma promoção e tenho certeza que mais uma vez ela va
 2- **tem preocupações** (LVC)
 ### Identified MWEs: 
 1- **se recusar** 
-2- **tem preocupações** 
 ## Sentence No. 19050 - 
 A adição de medidas e soluções voltadas à melhoria dos sistemas sanitários tem reflexos diretos na saúde das pessoas , na preservação dos solos e lençóis freáticos e na inclusão social da população , o que vem ao encontro dos objetivos da Mizumo , que trabalha para melhorar o ambiente em que vivemos . 
 ### Existing MWEs: 
 1- **tem reflexos** (LVC)
 2- **vem ao encontro** (ID)
+### Identified MWEs: 
+1- **vem ao encontro** 
 ## Sentence No. 19125 - 
 O Número e no Cálculo == A função exponencial y = e ^ { x } tem a intrigante propriedade de ser sua própria derivada , i.e. : \ frac { d } { dx } e ^ { x } = e ^ { x } Isto significa que e tem a notável propriedade de que a taxa de variação de e ^ { x } no ponto x = t vale e ^ { t } . 
 ### Existing MWEs: 
@@ -452,8 +457,6 @@ Ressurge , pois , a velha questão : o que mais prejudica uma equipe é quando o
 Colorado fez sondagem ? 
 ### Existing MWEs: 
 1- **fez sondagem** (LVC)
-### Identified MWEs: 
-1- **fez sondagem** 
 ## Sentence No. 110 - 
 O Grêmio voltou com derrota para o Atlético-GO , quatro pacientes na enfermaria , o que significa um saldo negativo para quem vinha navegando em águas calmas . 
 ### Existing MWEs: 
@@ -480,6 +483,8 @@ Por isso , sempre que necessário , abro espaço para divulgar seus pedidos de a
 Que precauções devo tomar a o visitar um hospital ? Deve-se lavar as mãos antes e depois da visita . 
 ### Existing MWEs: 
 1- **precauções tomar** (LVC)
+### Identified MWEs: 
+1- **lavar mãos** 
 ## Sentence No. 400 - 
 Eles fazem parte de um grupo de 400 pacientes em estado grave contaminados desde julho de 2007 . 
 ### Existing MWEs: 
@@ -490,8 +495,6 @@ Eles fazem parte de um grupo de 400 pacientes em estado grave contaminados desde
 É preciso ter inglês fluente . 
 ### Existing MWEs: 
 1- **ter inglês** (LVC)
-### Identified MWEs: 
-1- **ter inglês** 
 ## Sentence No. 520 - 
 As mulheres deveriam gostar da idéia , pelo menos , teriam com quem conversar quando ele pegasse no sono . 
 ### Existing MWEs: 
@@ -545,7 +548,7 @@ Que somente Rogério Ceni e Harley ( Goiás ) são os dois únicos jogadores em 
 ### Existing MWEs: 
 1- **fizeram jogos** (LVC, 4)
 ### Identified MWEs: 
-1- **fizeram jogos** 
+1- **atividade fizeram** 
 ## Sentence No. 910 - 
 Hamilton foi 13º. Rubinho chegou em 11º. Ganhou números o escândalo que envolve o presidente da Federação Internacional de Automobilismo ( Fia ) , Max Mosley , 67 anos . 
 ### Existing MWEs: 
@@ -598,6 +601,8 @@ Você também faz parte de um clube de apaixonados por um carro ?
 De acordo com a empresa Symantec , uma das maiores do mundo no ramo da segurança , os spams ( mensagens de e-mail não desejadas que trazem vírus ou simplesmente coisas que não queremos ) bateram recorde . 
 ### Existing MWEs: 
 1- **bateram recorde** (LVC, 3)
+### Identified MWEs: 
+1- **bateram recorde** 
 ## Sentence No. 1340 - 
 “ Doutor Batista , tive a minha primeira relação com camisinha . 
 ### Existing MWEs: 
@@ -608,6 +613,8 @@ De acordo com a empresa Symantec , uma das maiores do mundo no ramo da seguranç
 Paciência e nada de fechar-se para a vida . 
 ### Existing MWEs: 
 1- **fechar-se** (IReflV, 1)
+### Identified MWEs: 
+1- **fechar-se** 
 ## Sentence No. 1430 - 
 As cenas devem ir a o ar a partir de sexta-feira . 
 ### Existing MWEs: 
@@ -670,8 +677,6 @@ Sabe- se que , até os cinco anos , todos os pequenos terão algum contato com e
 Nós não costumamos seguir padrões , até porque fazemos o nosso caminho . 
 ### Existing MWEs: 
 1- **fazemos caminho** (LVC, 1)
-### Identified MWEs: 
-1- **fazemos caminho** 
 ## Sentence No. 2175 - 
 O problema não tem relação com despejos químicos , mas com o esgoto cloacal lançado . 
 ### Existing MWEs: 
@@ -749,12 +754,12 @@ Agora foi o goleiro Bruno , do Flamengo , que marcou o primeiro gol na vitória 
 Também faz revelações sobre a natureza e inspira na meditação . 
 ### Existing MWEs: 
 1- **faz revelações** (LVC)
-### Identified MWEs: 
-1- **faz revelações** 
 ## Sentence No. 2870 - 
 Conforme as notícias que pipocam na Internet , a eleita é cearense e chama-se Iara . 
 ### Existing MWEs: 
 1- **chama-se** (IReflV, 2)
+### Identified MWEs: 
+1- **chama-se** 
 ## Sentence No. 2900 - 
 A velocidade 5 Ensinei para vocês Agora , eu quero ver 
 ### Existing MWEs: 
@@ -866,10 +871,14 @@ O casal namorava havia um ano e quatro meses , mas haviam se separado em feverei
 Vagner Mancini tem consciência disso , porque preserva Roger , por exemplo , para estrear no dia 9 de fevereiro , quando estará apto , em vez de colocá-lo na fogueira . 
 ### Existing MWEs: 
 1- **tem consciência** (LVC, 3)
+### Identified MWEs: 
+1- **tem consciência** 
 ## Sentence No. 3695 - 
 O time caxiense tem grandeza suficiente para enfrentamentos com este grau de dificuldade . 
 ### Existing MWEs: 
 1- **tem grandeza** (LVC, 1)
+### Identified MWEs: 
+1- **tem grandeza** 
 ## Sentence No. 3720 - 
 Tudo dependerá de como se sair no primeiro semestre . 
 ### Existing MWEs: 
@@ -919,7 +928,8 @@ Emocionado , o repórter pegou autógrafos e tirou fotos com os astros .
 ### Existing MWEs: 
 1- **tirou fotos** (LVC, 5)
 ### Identified MWEs: 
-1- **tirou fotos** 
+1- **pegou autógrafos** 
+2- **tirou fotos** 
 ## Sentence No. 4125 - 
 Pena que o consumidor não leve isso em conta e continue enchendo o bolso desses criminosos . 
 ### Existing MWEs: 
@@ -929,7 +939,7 @@ O que viveram serve como combustível para dar ânimo àqueles que passam por di
 ### Existing MWEs: 
 1- **passam por dificuldades** (LVC)
 ### Identified MWEs: 
-1- **dar ânimo** 
+1- **passam por dificuldades** 
 ## Sentence No. 4350 - 
 Alex começa , mas feliz é quem que pode ter dúvidas deste porte disse Abelão . 
 ### Existing MWEs: 
@@ -944,8 +954,6 @@ Para despedir-se de 2007 e receber 2008 no mais alto astral , a TV Globo exibe n
 Depois , tentaria fazer um regime , pois a barriga já mostrava um volume bem acentuado . 
 ### Existing MWEs: 
 1- **fazer regime** (LVC)
-### Identified MWEs: 
-1- **fazer regime** 
 ## Sentence No. 4455 - 
 Para não se esquecer , resolveu escrever uma por uma em uma folha de papel . 
 ### Existing MWEs: 
@@ -1014,6 +1022,8 @@ A brincadeira deve ir a o ar no dia 9 de janeiro .
 No ar em Sete Pecados , que termina em fevereiro , Nívea Stelmann ainda não tem planos profissionais para 2008 . 
 ### Existing MWEs: 
 1- **tem planos** (LVC, 1)
+### Identified MWEs: 
+1- **tem planos** 
 ## Sentence No. 4935 - 
 A esta me entrego . 
 ### Existing MWEs: 
@@ -1034,6 +1044,8 @@ Pergunta ­ Você tem namorada ?
 Quem bota filho no mundo tem que ter . 
 ### Existing MWEs: 
 1- **bota no mundo** (ID)
+### Identified MWEs: 
+1- **bota filho** 
 ## Sentence No. 5070 - 
 Tiroteio em festa no Vale do Caí Participantes de uma festa realizada no Ano Novo viveram momentos de pânico na madrugada de ontem no Loteamento Popular , em São Sebastião do Caí , no Vale do Caí . 
 ### Existing MWEs: 
@@ -1042,6 +1054,8 @@ Tiroteio em festa no Vale do Caí Participantes de uma festa realizada no Ano No
 Entre as atrações da programação , destacam-se o recanto do escritor , com lançamento de livros e autógrafos , espetáculos musicais , oficinas de artes plásticas , roda de chimarrão e área especial para recreação infantil . 
 ### Existing MWEs: 
 1- **destacam-se** (IReflV, 1)
+### Identified MWEs: 
+1- **destacam-se** 
 ## Sentence No. 5170 - 
 ­ Foi a escola que me deu nome - diz , emocionado . 
 ### Existing MWEs: 
@@ -1091,7 +1105,8 @@ Para marcar a conquista , líderes do movimento realizam um show de graça no pr
 ### Existing MWEs: 
 1- **realizam show** (LVC, 4)
 ### Identified MWEs: 
-1- **realizam show** 
+1- **marcar conquista** 
+2- **realizam show** 
 ## Sentence No. 5690 - 
 Muita gente não abre mão da tradicional caminhada à beira-mar . 
 ### Existing MWEs: 
@@ -1102,12 +1117,12 @@ Muita gente não abre mão da tradicional caminhada à beira-mar .
 Pernas pra que te quero ! 
 ### Existing MWEs: 
 1- **Pernas pra que te quero** (ID)
+### Identified MWEs: 
+1- **te quero** 
 ## Sentence No. 5755 - 
 Os criminosos tentaram roubar o malote do súper no momento em que uma empresa de transporte de valores fazia o recolhimento . 
 ### Existing MWEs: 
 1- **fazia recolhimento** (LVC)
-### Identified MWEs: 
-1- **fazia recolhimento** 
 ## Sentence No. 5770 - 
 Assim que levantar fervura , ponha as colheres de açúcar e deixe derreter para untar a fôrma com a própria calda . 
 ### Existing MWEs: 
@@ -1140,6 +1155,8 @@ Sem jogadores de expressão , o Rubro Negro deposita em Círio a esperança de b
 Diz que não possui direito a benefício previdenciário porque nunca contribuiu para o INSS . 
 ### Existing MWEs: 
 1- **possui direito** (LVC)
+### Identified MWEs: 
+1- **possui direito** 
 ## Sentence No. 6065 - 
 Nós , mulheres , temos muita facilidade para criar fantasias . 
 ### Existing MWEs: 
@@ -1168,6 +1185,8 @@ Eu tenho bloqueio , não sei dançar .
 Bombeiros procuram rapaz em Montenegro Bombeiros de Montenegro fazem buscas no Rio Caí para localizar um rapaz que teria sumido nas águas . 
 ### Existing MWEs: 
 1- **fazem buscas** (LVC, 1)
+### Identified MWEs: 
+1- **fazem buscas** 
 ## Sentence No. 6265 - 
 A viatura alcançava os bandidos , já à Avenida Nilo Peçanha , Bairro Chácara das Pedras , quando se chocou com o veículo Strada . 
 ### Existing MWEs: 
@@ -1186,6 +1205,8 @@ Calêndula : apresenta ação antiinflamatória , emoliente , anti-séptica , ca
 Quem tem cacos de vidros sobre os muros , deve ter o cuidado de colocar areia para evitar a água parada . 
 ### Existing MWEs: 
 1- **ter cuidado** (LVC)
+### Identified MWEs: 
+1- **ter cuidado** 
 ## Sentence No. 6345 - 
 Os segmentos residenciais e os clientes atendidos com gás natural comprimido ( GNC ) não sofrerão reajustes . 
 ### Existing MWEs: 
@@ -1234,6 +1255,8 @@ Outros , como o desempregado Luciano Ferreira , 38 anos , se escoram nas paredes
 Acho que vão tocar ficha na obra . 
 ### Existing MWEs: 
 1- **tocar ficha** (ID)
+### Identified MWEs: 
+1- **tocar ficha** 
 ## Sentence No. 6680 - 
 As inscrições deverão ser feitas pela Internet . 
 ### Existing MWEs: 
@@ -1300,12 +1323,12 @@ Cerca de 60 passageiros estavam no ônibus , conforme o motorista , mas nenhum d
 Os nomes das ações da PF se referem a os líderes dos bandos : Profeta , em relação a o nome de Messias , e Retrocesso a Renatinho , que já havia sido preso cinco vezes , sempre retrocedendo a o sistema penitenciário . 
 ### Existing MWEs: 
 1- **se referem** (IReflV, 3)
+### Identified MWEs: 
+1- **se referem** 
 ## Sentence No. 7005 - 
 2. Alinhave com uma costura manual ou passe na máquina , fazendo uma costura simples . 
 ### Existing MWEs: 
 1- **fazendo costura** (LVC)
-### Identified MWEs: 
-1- **fazendo costura** 
 ## Sentence No. 7035 - 
 Com oito dias a mais de duração do que a edição anterior , o 12º Liquida Porto Alegre começa na próxima segunda-feira e se estende até o dia 24 de fevereiro . 
 ### Existing MWEs: 
@@ -1326,8 +1349,6 @@ Um time chinês fará proposta a o Inter , até o fim desta semana , pelo atacan
 Cristiane Sousa , Porto Alegre “ Estou grávida de três meses e não tenho situação financeira muito boa . 
 ### Existing MWEs: 
 1- **tenho situação** (LVC)
-### Identified MWEs: 
-1- **tenho situação** 
 ## Sentence No. 7155 - 
 A apresentadora da RBS TV e do Programa de Cinema , da TVCOM , Ana Luiza Engel , deu à luz Antônio na noite de terça-feira passada . 
 ### Existing MWEs: 
@@ -1370,6 +1391,8 @@ Ainda que os crimes continuassem a acontecer , as autoridades passavam à popula
 46min ­ Alex bate falta e Marcão faz Inter 2 a 1 . 
 ### Existing MWEs: 
 1- **bate falta** (ID)
+### Identified MWEs: 
+1- **bate falta** 
 ## Sentence No. 7450 - 
 Deixou a impressão de que tem futebol para lutar por um lugar no time . 
 ### Existing MWEs: 
@@ -1398,6 +1421,8 @@ Não é à toa que se chama Estrada do Inferno .
 Maria Paula ( Marjorie Estiano ) vai envolver-se novamente com Marconi Ferraço ( Dalton Vigh ) , em Duas Caras . 
 ### Existing MWEs: 
 1- **envolver-se** (IReflV, 3)
+### Identified MWEs: 
+1- **envolver-se** 
 ## Sentence No. 7620 - 
 As cenas devem ir a o ar no capítulo de sábado . 
 ### Existing MWEs: 
@@ -1628,8 +1653,6 @@ O trabalho faz parte do projeto Raridades , da gravadora Som Livre .
 Renato dá uma bronca em Betão . 
 ### Existing MWEs: 
 1- **dá bronca** (LVC)
-### Identified MWEs: 
-1- **dá bronca** 
 ## Sentence No. 8990 - 
 Petrus manda Ramona dizer a Bijouzinha que ligará quando tiver vontade de falar com ela . 
 ### Existing MWEs: 
@@ -1658,6 +1681,8 @@ O Ju , diferentemente , só errou , levando uma das maiores goleadas da sua hist
 João Luís , alvo constante de piadas dos colegas de trabalho pelas derrotas para o Juventude , vai poder vingar-se hoje . 
 ### Existing MWEs: 
 1- **vingar-se** (IReflV, 1)
+### Identified MWEs: 
+1- **vingar-se** 
 ## Sentence No. 9350 - 
 Mas também tenho os meus dias ruins . 
 ### Existing MWEs: 
@@ -1703,7 +1728,9 @@ Caso se confirme a ausência do volante , o técnico Abel Braga vai ter que acha
 ### Existing MWEs: 
 1- **tem obrigação** (LVC, 6)
 ### Identified MWEs: 
-1- **fazer time** 
+1- **fazer marcando** 
+2- **tem obrigação** 
+3- **levar gol** 
 ## Sentence No. 9715 - 
 Que tal se embrenhar nesses cabelos ? 
 ### Existing MWEs: 
@@ -1720,6 +1747,8 @@ Das duas empresas da cidade , a Empresa de Transporte Coletivo Viamão tem ampla
 Depois de realizar buscas , os policiais militares capturaram Wilceu na Rua das Neves , Bairro Santa Teresa , e recuperaram o automóvel . 
 ### Existing MWEs: 
 1- **realizar buscas** (LVC, 2)
+### Identified MWEs: 
+1- **realizar buscas** 
 ## Sentence No. 9790 - 
 A 3ª Delegacia da Polícia Civil do município investiga o caso e até ontem não tinha suspeitos . 
 ### Existing MWEs: 
@@ -1776,8 +1805,6 @@ Caso contrário , se sentir-se bem , não há razão para evitar .
 Fora os jornalísticos , somente o Fantástico e o Vídeo Show têm tantos anos de vida na emissora . 
 ### Existing MWEs: 
 1- **têm vida** (LVC, 3)
-### Identified MWEs: 
-1- **têm anos** 
 ## Sentence No. 10400 - 
 Os manifestantes dos dois grupos , que fazem parte da Via Campesina , permaneciam até a noite de ontem na propriedade , de 883 hectares . 
 ### Existing MWEs: 
@@ -1788,12 +1815,12 @@ Os manifestantes dos dois grupos , que fazem parte da Via Campesina , permanecia
 Ambos terão igualdade nas responsabilidades e nas decisões . 
 ### Existing MWEs: 
 1- **terão igualdade** (LVC)
-### Identified MWEs: 
-1- **terão igualdade** 
 ## Sentence No. 10520 - 
 Foi-se o tempo em que os craques jogavam no Brasil . 
 ### Existing MWEs: 
 1- **Foi-se** (IReflV, 1)
+### Identified MWEs: 
+1- **Foi-se** 
 ## Sentence No. 10540 - 
 Este é o mérito do treinador , que , por ter conseguido armar um bom time , tem esta vantagem de repetir a equipe e ajustá-la ainda melhor . 
 ### Existing MWEs: 
@@ -1922,6 +1949,8 @@ O segundo tropeço consecutivo em apenas três rodadas deixou a certeza de que o
 Meu rapaz , estás pondo em risco tua ereção . 
 ### Existing MWEs: 
 1- **pondo em risco** (ID)
+### Identified MWEs: 
+1- **pondo em risco** 
 ## Sentence No. 11120 - 
 Não façam experiências com seus organismos . 
 ### Existing MWEs: 
@@ -1948,6 +1977,8 @@ No Departamento Estadual da Criança e do Adolescente ( Deca ) , a soldado fez u
 Meninos de 12 e 13 anos já se exibem de armas em punho e carregam a droga para os traficantes . 
 ### Existing MWEs: 
 1- **se exibem** (IReflV)
+### Identified MWEs: 
+1- **se exibem** 
 ## Sentence No. 11230 - 
 Ele tinha ferimentos provocados por golpes de faca nas costas . 
 ### Existing MWEs: 
@@ -1964,6 +1995,8 @@ Em depoimento à CPI do Detran ontem , o empresário Lair Ferst afirmou que tem 
 Até dezembro , os 36 banheiros públicos da Capital passarão por reforma . 
 ### Existing MWEs: 
 1- **passarão por reforma** (LVC, 1)
+### Identified MWEs: 
+1- **passarão por reforma** 
 ## Sentence No. 11310 - 
 Não custa porém , fazer uma previsão que vá do realismo a o otimismo para o Grêmio . 
 ### Existing MWEs: 
@@ -2020,8 +2053,6 @@ Mulheres e crianças terão entrada franca ( cota limitada por jogo ) .
 Além de Jean e Hidalgo , o torcedor terá a oportunidade de assistir em ação a dupla Júlio dos Santos e Roger , confirmados como titulares pelo técnico Celso Roth e que podem fazer o time render mais do que tem rendido . 
 ### Existing MWEs: 
 1- **terá oportunidade** (LVC, 8)
-### Identified MWEs: 
-1- **terá oportunidade** 
 ## Sentence No. 11725 - 
 Também interpretei uma empregada ( a Iara de "Celebridade" , em 2003 ) , mas em seguida fiz outros papéis fora deste padrão . 
 ### Existing MWEs: 
@@ -2053,7 +2084,7 @@ Bruno , queremos dar parabéns pelo grande dia que marca nossos corações : o d
 ### Existing MWEs: 
 1- **dar parabéns** (LVC, 1)
 ### Identified MWEs: 
-1- **dar parabéns** 
+1- **queremos dar parabéns** 
 ## Sentence No. 11870 - 
 Contou ainda ter descoberto o corpo da criança somente quando sua cunhada pediu o carregador de celular emprestado e ele foi buscar , no quarto . 
 ### Existing MWEs: 
@@ -2088,6 +2119,8 @@ Ronaldinho faz golaço de bicicleta , mas ...
 Estou me sentindo muito bem . 
 ### Existing MWEs: 
 1- **me sentindo** (IReflV, 2)
+### Identified MWEs: 
+1- **sentindo bem** 
 ## Sentence No. 12130 - 
 Da mesma forma , se o patrimônio deixado tiver credores , a partilha não será amigável . 
 ### Existing MWEs: 
@@ -2110,7 +2143,6 @@ Vai ter fila de marmanjo querendo dar uma voltinha de carro novo !
 1- **dar voltinha** (LVC)
 ### Identified MWEs: 
 1- **ter fila** 
-2- **dar voltinha** 
 ## Sentence No. 12260 - 
 Mande um fax para 3218-1618 ou e-mail para divirtase@diariogaucho.com.br . 
 ### Existing MWEs: 
@@ -2120,7 +2152,7 @@ Em local reservado , o visitante deverá tirar todas as roupas e passar , nu , p
 ### Existing MWEs: 
 1- **realizar agachamentos** (LVC)
 ### Identified MWEs: 
-1- **realizar agachamentos** 
+1- **tirar roupas** 
 ## Sentence No. 12385 - 
 Na Assembléia Legislativa , a denúncia sobre a falta de controle do Departamento Estadual de Trânsito ( Detran ) no registro de habilitações para o transporte de cargas perigosas teve o impacto de um novo escândalo . 
 ### Existing MWEs: 
@@ -2131,6 +2163,8 @@ Na Assembléia Legislativa , a denúncia sobre a falta de controle do Departamen
 Somente em 2008 , a mercadoria teve um salto de 65,52 % . 
 ### Existing MWEs: 
 1- **teve salto** (LVC, 1)
+### Identified MWEs: 
+1- **teve salto** 
 ## Sentence No. 12450 - 
 No caso do embrião congelado , ele só irá virar vida quando for colocado no útero de uma mulher , já que a fecundação foi feita fora do útero . 
 ### Existing MWEs: 
@@ -2172,7 +2206,7 @@ Quem dá a dica é o artesão Florêncio Castilhos , de Montenegro .
 ### Existing MWEs: 
 1- **dá dica** (LVC, 9)
 ### Identified MWEs: 
-1- **dá dica** 
+1- **dá a dica** 
 ## Sentence No. 12830 - 
 Segundo a assessoria do Palácio do Planalto , a medida já está em vigor e tem como principal objetivo tornar o mercado de trabalho mais acessível a os jovens . 
 ### Existing MWEs: 
@@ -2185,14 +2219,10 @@ Segundo a assessoria do Palácio do Planalto , a medida já está em vigor e tem
 Ulbra x Santa Cruz estão fora da zona de classificação ( G4 ) e fazem duelo direto . 
 ### Existing MWEs: 
 1- **fazem duelo** (LVC)
-### Identified MWEs: 
-1- **fazem duelo** 
 ## Sentence No. 13000 - 
 Para ter fartura no seu lar Na primeira noite de lua cheia , varra a casa com uma vassoura piaçaba nova . 
 ### Existing MWEs: 
 1- **ter fartura** (LVC)
-### Identified MWEs: 
-1- **ter fartura** 
 ## Sentence No. 13030 - 
 Para manter a ótima forma que exibe nas páginas , Débora confessa que se dedica : Vou à academia três a quatro vezes por semana . 
 ### Existing MWEs: 
@@ -2207,8 +2237,6 @@ Mande um fax para 3218-1618 ou e-mail para divirtase@diariogaucho.com.br .
 As provas já realizadas serão guardadas em cofre . 
 ### Existing MWEs: 
 1- **provas realizadas** (LVC, 1)
-### Identified MWEs: 
-1- **provas realizadas** 
 ## Sentence No. 13155 - 
 Acrescenta que , em todo o Estado , as coordenadorias regionais estão orientadas a dar prioridade para professor em sala de aula . 
 ### Existing MWEs: 
@@ -2249,8 +2277,6 @@ Disse que , embora derrotados circunstancialmente , os jogadores não devem ser 
 O Sapucaiense levou uma bolachada do Novo Hamburgo e fechou a rodada fora da turma dos melhores . 
 ### Existing MWEs: 
 1- **levou bolachada** (LVC)
-### Identified MWEs: 
-1- **levou bolachada** 
 ## Sentence No. 13365 - 
 Ele apresentou uma forte rinite alérgica , que evoluiu para uma inflamação nos pulmões . 
 ### Existing MWEs: 
@@ -2307,12 +2333,12 @@ Com quase dez exames já feitos , Lia reclama que a Secretaria Municipal de Saú
 Moradora da Rua Telino Chagas Teles , no Parque Santa Fé , na Capital , queixa-se : 
 ### Existing MWEs: 
 1- **queixa-se** (IReflV, 24)
+### Identified MWEs: 
+1- **queixa-se** 
 ## Sentence No. 13755 - 
 O Véio que dá duro , e o Vladimir que é carregado para um beco ! 
 ### Existing MWEs: 
 1- **dá duro** (ID)
-### Identified MWEs: 
-1- **dá duro** 
 ## Sentence No. 13760 - 
 De sair dançando Sucessos de grupos de baile e de fandango estão reunidos em Bailão Guararema Volume 2. Na seleção realizada pela rádio Guararema , de Santa Catarina , estão canções como 
 ### Existing MWEs: 
@@ -2359,8 +2385,6 @@ Somente um grande homem é capaz de fazer uma declaração assim para a sua comp
 Além da missão de comandar esta disputa , em que universos feminino e masculino serão postos à prova , Daniella também fará reportagens . 
 ### Existing MWEs: 
 1- **postos à prova** (ID)
-### Identified MWEs: 
-1- **fará reportagens** 
 ## Sentence No. 14220 - 
 João Medeiros alerta para o golpe que ciganas vêm aplicando no Centro da Capital . 
 ### Existing MWEs: 
@@ -2369,6 +2393,8 @@ João Medeiros alerta para o golpe que ciganas vêm aplicando no Centro da Capit
 Claro que , em mata-mata , tudo pode acontecer , mas a previsão que faço é que o título será disputado em Gre-Nais , mesmo sabendo que opinar é arriscado e que a lógica não persegue a verdade em futebol . 
 ### Existing MWEs: 
 1- **previsão faço** (LVC, 1)
+### Identified MWEs: 
+1- **previsão faço** 
 ## Sentence No. 14315 - 
 Que o Veranópolis eliminou o Inter no campeonato do ano passado e o Colorado deu o troco ontem , eliminando o time da Serra ? 
 ### Existing MWEs: 
@@ -2431,8 +2457,6 @@ Terça-feira Giovane Rosa Nunes vai a júri por tentativa de homicídio qualific
 Mas é também muito calórico e devemos ter bom senso a o oferecê-lo para os pequenos . 
 ### Existing MWEs: 
 1- **ter bom senso** (LVC)
-### Identified MWEs: 
-1- **ter senso** 
 ## Sentence No. 14620 - 
 Deu tudo certo . 
 ### Existing MWEs: 
@@ -2447,12 +2471,12 @@ O novo chefe dos boleiros do time caxiense se apresenta hoje pela manhã e pode 
 Fãs tiraram fotos . 
 ### Existing MWEs: 
 1- **tiraram fotos** (LVC, 5)
+### Identified MWEs: 
+1- **tiraram fotos** 
 ## Sentence No. 14710 - 
 Tem que ter cacife ! 
 ### Existing MWEs: 
 1- **ter cacife** (LVC)
-### Identified MWEs: 
-1- **ter cacife** 
 ## Sentence No. 14745 - 
 Em uma disputa para eleger o melhor agente secreto do mundo , um italiano , um brasileiro e um português receberam um revólver e o aviso : nada de sentir piedade ! 
 ### Existing MWEs: 
@@ -2501,6 +2525,8 @@ Faz bem por quê ?
 O atleta André Luís , do Botafogo , foi expulso injustamente , já que não cometeu a falta . 
 ### Existing MWEs: 
 1- **cometeu falta** (LVC, 1)
+### Identified MWEs: 
+1- **cometeu falta** 
 ## Sentence No. 15355 - 
 Este é daqueles jogos em que o Colorado tem a obrigação de jogar o que não tem jogado , buscar os três pontos , estancar os maus resultados , para terminar o domingo melhor colocado na tabela . 
 ### Existing MWEs: 
@@ -2531,6 +2557,8 @@ Com o corte na película , o sangue se esvaiu , e o órgão voltou a pulsar norm
 Um operação de rotina tirou de circulação um dos mais procurados assaltantes de Porto Alegre . 
 ### Existing MWEs: 
 1- **tirou de circulação** (ID, 2)
+### Identified MWEs: 
+1- **tirou de circulação** 
 ## Sentence No. 15520 - 
 A assessoria de comunicação social da Puc informou que o episódio não colocou em risco freqüentadores do hospital nem causou danos a o patrimônio . 
 ### Existing MWEs: 
@@ -2556,8 +2584,7 @@ Responsável pelas finanças do Grêmio , o experiente Túlio Macedo avisou que 
 ### Existing MWEs: 
 1- **fazer contratação** (LVC, 1)
 ### Identified MWEs: 
-1- **tem grana** 
-2- **fazer contratação** 
+1- **fazer contratação** 
 ## Sentence No. 15715 - 
 Creio que o Cristiano se manifestará . 
 ### Existing MWEs: 
@@ -2575,7 +2602,7 @@ O meia Roger , dono de rara habilidade , maior responsável pela criação de jo
 ### Existing MWEs: 
 1- **realizou exames** (LVC, 2)
 ### Identified MWEs: 
-1- **realizou bateria** 
+1- **realizou exames** 
 ## Sentence No. 16035 - 
 É normal sentir essa dor ? 
 ### Existing MWEs: 
@@ -2602,6 +2629,8 @@ Que Iarley deve fazer sua estréia pelo Goiás contra o Grêmio ?
 Rocco vive um eletricista que acaba sendo preso por um crime que não cometeu . 
 ### Existing MWEs: 
 1- **crime cometeu** (LVC, 3)
+### Identified MWEs: 
+1- **crime cometeu** 
 ## Sentence No. 16405 - 
 Ju fará apenas uma participação na trama . 
 ### Existing MWEs: 
@@ -2644,6 +2673,8 @@ Trégua Está mais do que na hora .
 Uma leitora conta que é separada , tem duas filhas e seu ex-marido paga a elas R$ 150 mensais , valor insuficiente para ajudar no sustento . 
 ### Existing MWEs: 
 1- **tem filhas** (LVC, 1)
+### Identified MWEs: 
+1- **tem filhas** 
 ## Sentence No. 16780 - 
 Desesperada com as mudanças em seu corpo e com a possibilidade de ter de tomar conta de uma criança , diz que Raul criará o filho sozinho ! 
 ### Existing MWEs: 
@@ -2654,6 +2685,8 @@ Desesperada com as mudanças em seu corpo e com a possibilidade de ter de tomar 
 “ São Jorge , santo guerreiro , com a vossa graça e com a ajuda de Deus , não corro perigo . 
 ### Existing MWEs: 
 1- **corro perigo** (LVC)
+### Identified MWEs: 
+1- **corro perigo** 
 ## Sentence No. 16830 - 
 Ele tinha antecedentes por assalto e por porte ilegal de arma . 
 ### Existing MWEs: 
@@ -2670,6 +2703,8 @@ Paulo Ricardo Silva da Rosa vai a julgamento por tentativa de homicídio contra 
 O B2 apresenta índice de 2 % de biodiesel , enquanto o B100 é composto 100 % de biodiesel . 
 ### Existing MWEs: 
 1- **apresenta índice** (LVC, 1)
+### Identified MWEs: 
+1- **apresenta índice** 
 ## Sentence No. 16925 - 
 Como todo empréstimo , o penhor não tem mistério . 
 ### Existing MWEs: 
@@ -2698,8 +2733,6 @@ Segundo o presidente da Abiape , Mário Menel , a emenda à MP 579 é a soluçã
 No comunicado , o Fisco ressalta que não se comunica com os contribuintes por e - mail e diz que qualquer mensagem deve ser desconsiderada . 
 ### Existing MWEs: 
 1- **se comunica** (IReflV)
-### Identified MWEs: 
-1- **se comunica** 
 ## Sentence No. 17050 - 
 O toque de ousadia ficou por conta do turbante que ela pegou do armário da vovó . 
 ### Existing MWEs: 
@@ -2757,7 +2790,8 @@ Ele é mais especialista na posição que o Danilo , que faz mais o volante e te
 ### Existing MWEs: 
 1- **tem preferência** (LVC, 1)
 ### Identified MWEs: 
-1- **tem preferência** 
+1- **faz volante** 
+2- **tem preferência** 
 ## Sentence No. 17390 - 
 De acordo com nota divulgada pela polícia , os médicos disseram que ela só sobreviveu porque recebeu atendimento quase imediato . 
 ### Existing MWEs: 
@@ -2808,6 +2842,8 @@ Mas nós temos condições de conseguirmos essa classificação , jogando com in
 Bom para o RN , que passa por problemas financeiros . 
 ### Existing MWEs: 
 1- **passa por problemas** (LVC)
+### Identified MWEs: 
+1- **passa por problemas** 
 ## Sentence No. 17600 - 
 Todos os encaminhamentos realizados a cada encontro são levados ao conhecimento do gestor estadual para as devidas providências . 
 ### Existing MWEs: 
@@ -2856,10 +2892,14 @@ Já tínhamos tentado outras opções para lidar com esse problema , como contro
 Neste capitulo da divertida animação , Lewis Hamilton , Jenson Button eo Professor X recebem a visita da Rainha da Inglaterra na fábrica da equipe . 
 ### Existing MWEs: 
 1- **recebem visita** (LVC, 7)
+### Identified MWEs: 
+1- **recebem visita** 
 ## Sentence No. 17860 - 
 Mesmo com a presença de Evra ea cobertura de Vidic , dois titulares , o Everton levava vantagem com o lateral Hibbert se juntando a Osman contra o lateral francês , que apenas eventualmente contava com a ajuda de Welbeck na recomposição . 
 ### Existing MWEs: 
 1- **levava vantagem** (LVC, 1)
+### Identified MWEs: 
+1- **levava vantagem** 
 ## Sentence No. 17865 - 
 Cachoeira e Andressa se casaram no dia 28 de dezembro em uma cerimônia no condomínio de luxo onde moram , em Goiânia . 
 ### Existing MWEs: 
@@ -2880,8 +2920,6 @@ Temos quatro , quando três dá conta .
 A Justiça Eleitoral de São Paulo concedeu , na noite de sábado ( 1 º / 9 ) , uma liminar que suspende a exibição de uma propaganda de José Serra ( PSDB ) que sugere que a proposta do Bilhete Único Mensal , de Fernando Haddad ( PT ) , " não tem pé nem cabeça " . 
 ### Existing MWEs: 
 1- **não tem pé nem cabeça** (ID)
-### Identified MWEs: 
-1- **tem pé** 
 ## Sentence No. 18050 - 
 O acesso a TN Online poderá ser feito com a sua senha atual do facebook ou twitter . 
 ### Existing MWEs: 
@@ -2904,14 +2942,10 @@ Por telefone o diretor da guarda , Marco Túlio Gianvecchio , informou que vai i
 Com um belo desempenho no carnaval 2009 a Acadêmicos de São Francisco conquistou o título do carnaval sebastianense sagrando se penta campeão num desfile perfeito , com belas esculturas dando inicio a um nivel de campeã . 
 ### Existing MWEs: 
 1- **dando inicio** (ID)
-### Identified MWEs: 
-1- **dando inicio** 
 ## Sentence No. 18145 - 
 Enquanto não tem seu futuro definido , Kaká segue a rotina de jogador do Real Madrid e , inclusive , atuou como titular durante um amistoso contra o Benfica , na última sexta - feira . 
 ### Existing MWEs: 
 1- **tem futuro** (LVC)
-### Identified MWEs: 
-1- **tem futuro** 
 ## Sentence No. 18155 - 
 " Ele tomou uma decisão com a família e vai me comunicar " , afirmou . 
 ### Existing MWEs: 
@@ -2964,6 +2998,8 @@ Dois dias antes da escolha do novo presidente , que será feita apenas por conse
 Ela é a tal mulher que virou a cabeça do nosso filho . 
 ### Existing MWEs: 
 1- **virou a cabeça** (ID)
+### Identified MWEs: 
+1- **virou a cabeça** 
 ## Sentence No. 18355 - 
 " De qualquer forma , estou numa boa situação , porque tenho a condição de escolher onde vou trabalhar . 
 ### Existing MWEs: 
@@ -3065,8 +3101,6 @@ Aos dois minutos , ele já mostrou serviço ao cortar um marcador para o meio e 
 A assessoria do TSE informou que a urna eletrônica tem autonomia de 12 horas e pode funcionar mesmo desligada da rede elétrica . 
 ### Existing MWEs: 
 1- **tem autonomia** (LVC)
-### Identified MWEs: 
-1- **tem autonomia** 
 ## Sentence No. 18925 - 
 Está indo muito bem , e espero que possa . 
 ### Existing MWEs: 
@@ -3097,8 +3131,6 @@ O tenista Novak Djokovic também faz uma ponta no filme , interpretando a si pr�
 Em nota , a Novacap informou que não tem qualquer responsabilidade legal sobre os trabalhos ou projetos desenvolvidos pela ONG e que já aceitou o pedido de afastamento do funcionário apontado de ligação com o caso . 
 ### Existing MWEs: 
 1- **tem responsabilidade** (LVC)
-### Identified MWEs: 
-1- **tem responsabilidade** 
 ## Sentence No. 19160 - 
 O IBGE informou que , no grupo Despesas pessoais , os itens empregado doméstico e mão - de - obra para pequenos reparos tiveram uma diferença na metodologia de cálculo , devido à falta de dados da Pesquisa Mensal de Emprego referente a junho para o Rio de Janeiro . 
 ### Existing MWEs: 
@@ -3109,8 +3141,6 @@ O IBGE informou que , no grupo Despesas pessoais , os itens empregado doméstico
 Se a população fosse consultada , jamais a gente teria insistência no modelo rodoviário , jamais o transporte para a zona oeste seria sobre rodas , mas sobre trilhos . 
 ### Existing MWEs: 
 1- **teria insistência** (LVC)
-### Identified MWEs: 
-1- **teria insistência** 
 ## Sentence No. 19255 - 
 De acordo com o United States Census Bureau tem uma área de 4,3 km ² , dos quais 3,1 km ² cobertos por terra e 1,2 km ² cobertos por água . 
 ### Existing MWEs: 
@@ -3121,12 +3151,12 @@ De acordo com o United States Census Bureau tem uma área de 4,3 km ² , dos qua
 A guerrilha também fez uma convocação ao povo colombiano para que lute " tenazmente por seu direito a participar de maneira direta na mesa de diálogos " . 
 ### Existing MWEs: 
 1- **fez convocação** (LVC)
-### Identified MWEs: 
-1- **fez convocação** 
 ## Sentence No. 19355 - 
 O Grupo Gay da Bahia tem um trabalho bastante interessante quando o assunto é esse . 
 ### Existing MWEs: 
 1- **tem trabalho** (LVC, 3)
+### Identified MWEs: 
+1- **tem trabalho** 
 ## Sentence No. 19360 - 
 Até o fim do ano , vistorias serão realizadas até as 19h durante a semana . 
 ### Existing MWEs: 
@@ -3141,6 +3171,8 @@ Quando uma casa , das 25 monitoradas , é invadida , o morador alerta aos outros
 Entre diversos temas , Mecias falou sobre as dificuldades enfrentadas pelas empresas industriais , como obtenção de licenças . 
 ### Existing MWEs: 
 1- **dificuldades enfrentadas** (LVC, 6)
+### Identified MWEs: 
+1- **dificuldades enfrentadas** 
 ## Sentence No. 19480 - 
 A taxa teve uma alta em relação a setembro , quando havia sido registrado índice de 0,63 % , segundo dados divulgados nesta quarta - feira ( 7 ) pelo Instituto Brasileiro de Geografia e Estatística ( IBGE ) . 
 ### Existing MWEs: 
@@ -3151,6 +3183,8 @@ A taxa teve uma alta em relação a setembro , quando havia sido registrado índ
 Haddad disse que colocou os dois coordenadores de sua campanha , Antonio Donato e Chico Macena , para tratar do assunto , mas a decisão final será tomada por ele . 
 ### Existing MWEs: 
 1- **decisão tomada** (LVC, 2)
+### Identified MWEs: 
+1- **decisão tomada** 
 ## Sentence No. 19565 - 
 A água já está batendo na bunda . 
 ### Existing MWEs: 
@@ -3163,3 +3197,5 @@ Cogitou - se a princípio que era utilizado para realizar contagens , porque há
 Oh foi o terceiro atleta classificado para as Olimpíadas pela Coréia do Sul , mas se aproveitou das eliminações de Dong - Hyun e Kim Bubmin para manter o favoritismo do País e faturar sua primeira medalha olímpica desde que começou a participar da competição -- ele já havia estado em Sidney , 2000 , Atenas , 2004 , e Pequim , 2008 . 
 ### Existing MWEs: 
 1- **se aproveitou** (IReflV, 1)
+### Identified MWEs: 
+1- **se aproveitou** 

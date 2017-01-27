@@ -1,828 +1,1222 @@
-## Sentence No. 10420 - 
-Jde o některé další formy , kde by si měly najít prostor různé naše komerční firmy , jimž Ministerstvo financí bude ochotno dát konkrétní pověření pro tyto operace . 
+## Sentence No. 20455 - 
+Setkání je určeno pro malé a střední soukromé podniky bez účasti cizího kapitálu , které mají zájem o konkrétní činnost v zahraničním obchodě , o malovýrobní spolupráci či o joint - venture ve výše uvedených oborech . 
 ### Existing MWEs: 
-1- **dát pověření** (LVC)
+1- **mají zájem** (LVC, 44)
 ### Identified MWEs: 
-1- **dát operace** 
+1- **mají zájem** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Jde, o, některé ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Setkání, je, určeno ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Jde]   B= [o, některé, další ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Setkání]   B= [je, určeno, pro ,.. ]
 
-B0Lemma: o, B0POS: ADP, B0Token: o, B1Lemma: některý, B1POS: PRON, B1Token: některé, S0B0Distance: 1, S0B0Lemma: jít_o, S0B0LemmaPOS: jít_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_o, S0B0Token: Jde_o, S0B1Lemma: jít_některý, S0B1LemmaPOS: jít_PRON, S0B1POS: VERB_PRON, S0B1POSLemma: VERB_některý, S0B1Token: Jde_některé, S0Lemma: jít, S0POS: VERB, S0Token: Jde, 
+B0IsInLexic: true, B0Lemma: být, B0POS: VERB, B0Token: je, B1Lemma: určit, B1POS: VERB, B1Token: určeno, S0B0Distance: 1, S0B0Lemma: setkání_být, S0B0LemmaPOS: setkání_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_být, S0B0Token: Setkání_je, S0B1Lemma: setkání_určit, S0B1LemmaPOS: setkání_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_určit, S0B1Token: Setkání_určeno, S0Lemma: setkání, S0POS: NOUN, S0Token: Setkání, StackLength: 1, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, některé, další ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [je, určeno, pro ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [některé, další, formy ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [je]   B= [určeno, pro, malé ,.. ]
 
-B0Lemma: některý, B0POS: PRON, B0Token: některé, B1Lemma: další, B1POS: ADJ, B1Token: další, S0B0Distance: 1, S0B0Lemma: o_některý, S0B0LemmaPOS: o_PRON, S0B0POS: ADP_PRON, S0B0POSLemma: ADP_některý, S0B0Token: o_některé, S0B1Lemma: o_další, S0B1LemmaPOS: o_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_další, S0B1Token: o_další, S0Lemma: o, S0POS: ADP, S0Token: o, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: určit, B0POS: VERB, B0Token: určeno, B1IsInLexic: true, B1Lemma: pro, B1POS: ADP, B1Token: pro, S0B0Distance: 1, S0B0Lemma: být_určit, S0B0LemmaPOS: být_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_určit, S0B0Token: je_určeno, S0B1Lemma: být_pro, S0B1LemmaPOS: být_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_pro, S0B1Token: je_pro, S0IsInLexic: true, S0Lemma: být, S0POS: VERB, S0Token: je, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [některé, další, formy ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [určeno, pro, malé ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [některé]   B= [další, formy, , ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [určeno]   B= [pro, malé, a ,.. ]
 
-B0Lemma: další, B0POS: ADJ, B0Token: další, B1Lemma: forma, B1POS: NOUN, B1Token: formy, S0B0Distance: 1, S0B0Lemma: některý_další, S0B0LemmaPOS: některý_ADJ, S0B0POS: PRON_ADJ, S0B0POSLemma: PRON_další, S0B0Token: některé_další, S0B1Lemma: některý_forma, S0B1LemmaPOS: některý_NOUN, S0B1POS: PRON_NOUN, S0B1POSLemma: PRON_forma, S0B1Token: některé_formy, S0Lemma: některý, S0POS: PRON, S0Token: některé, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: pro, B0POS: ADP, B0Token: pro, B1Lemma: malý, B1POS: ADJ, B1Token: malé, S0B0Distance: 1, S0B0Lemma: určit_pro, S0B0LemmaPOS: určit_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_pro, S0B0Token: určeno_pro, S0B1Lemma: určit_malý, S0B1LemmaPOS: určit_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_malý, S0B1Token: určeno_malé, S0Lemma: určit, S0POS: VERB, S0Token: určeno, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [další, formy, , ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pro, malé, a ,.. ]
 
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [další]   B= [formy, ,, kde ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pro]   B= [malé, a, střední ,.. ]
 
-B0Lemma: forma, B0POS: NOUN, B0Token: formy, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: další_forma, S0B0LemmaPOS: další_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_forma, S0B0Token: další_formy, S0B1Lemma: další_,, S0B1LemmaPOS: další_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_,, S0B1Token: další_,, S0Lemma: další, S0POS: ADJ, S0Token: další, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: malý, B0POS: ADJ, B0Token: malé, B1IsInLexic: true, B1Lemma: a, B1POS: CONJ, B1Token: a, S0B0Distance: 1, S0B0Lemma: pro_malý, S0B0LemmaPOS: pro_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_malý, S0B0Token: pro_malé, S0B1Lemma: pro_a, S0B1LemmaPOS: pro_CONJ, S0B1POS: ADP_CONJ, S0B1POSLemma: ADP_a, S0B1Token: pro_a, S0IsInLexic: true, S0Lemma: pro, S0POS: ADP, S0Token: pro, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [formy, ,, kde ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [malé, a, střední ,.. ]
 
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [formy]   B= [,, kde, by ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [malé]   B= [a, střední, soukromé ,.. ]
 
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: kde, B1POS: ADV, B1Token: kde, S0B0Distance: 1, S0B0Lemma: forma_,, S0B0LemmaPOS: forma_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: formy_,, S0B1Lemma: forma_kde, S0B1LemmaPOS: forma_ADV, S0B1POS: NOUN_ADV, S0B1POSLemma: NOUN_kde, S0B1Token: formy_kde, S0Lemma: forma, S0POS: NOUN, S0Token: formy, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: a, B0POS: CONJ, B0Token: a, B1Lemma: střední, B1POS: ADJ, B1Token: střední, S0B0Distance: 1, S0B0Lemma: malý_a, S0B0LemmaPOS: malý_CONJ, S0B0POS: ADJ_CONJ, S0B0POSLemma: ADJ_a, S0B0Token: malé_a, S0B1Lemma: malý_střední, S0B1LemmaPOS: malý_ADJ, S0B1POS: ADJ_ADJ, S0B1POSLemma: ADJ_střední, S0B1Token: malé_střední, S0Lemma: malý, S0POS: ADJ, S0Token: malé, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kde, by ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, střední, soukromé ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kde, by, si ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [střední, soukromé, podniky ,.. ]
 
-B0Lemma: kde, B0POS: ADV, B0Token: kde, B1Lemma: být, B1POS: VERB, B1Token: by, S0B0Distance: 1, S0B0Lemma: ,_kde, S0B0LemmaPOS: ,_ADV, S0B0POS: PUNCT_ADV, S0B0POSLemma: PUNCT_kde, S0B0Token: ,_kde, S0B1Lemma: ,_být, S0B1LemmaPOS: ,_VERB, S0B1POS: PUNCT_VERB, S0B1POSLemma: PUNCT_být, S0B1Token: ,_by, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: střední, B0POS: ADJ, B0Token: střední, B1Lemma: soukromý, B1POS: ADJ, B1Token: soukromé, S0B0Distance: 1, S0B0Lemma: a_střední, S0B0LemmaPOS: a_ADJ, S0B0POS: CONJ_ADJ, S0B0POSLemma: CONJ_střední, S0B0Token: a_střední, S0B1Lemma: a_soukromý, S0B1LemmaPOS: a_ADJ, S0B1POS: CONJ_ADJ, S0B1POSLemma: CONJ_soukromý, S0B1Token: a_soukromé, S0IsInLexic: true, S0Lemma: a, S0POS: CONJ, S0Token: a, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kde, by, si ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [střední, soukromé, podniky ,.. ]
 
 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kde]   B= [by, si, měly ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [střední]   B= [soukromé, podniky, bez ,.. ]
 
-B0Lemma: být, B0POS: VERB, B0Token: by, B1Lemma: se, B1POS: PRON, B1Token: si, S0B0Distance: 1, S0B0Lemma: kde_být, S0B0LemmaPOS: kde_VERB, S0B0POS: ADV_VERB, S0B0POSLemma: ADV_být, S0B0Token: kde_by, S0B1Lemma: kde_se, S0B1LemmaPOS: kde_PRON, S0B1POS: ADV_PRON, S0B1POSLemma: ADV_se, S0B1Token: kde_si, S0Lemma: kde, S0POS: ADV, S0Token: kde, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: soukromý, B0POS: ADJ, B0Token: soukromé, B1Lemma: podnik, B1POS: NOUN, B1Token: podniky, S0B0Distance: 1, S0B0Lemma: střední_soukromý, S0B0LemmaPOS: střední_ADJ, S0B0POS: ADJ_ADJ, S0B0POSLemma: ADJ_soukromý, S0B0Token: střední_soukromé, S0B1Lemma: střední_podnik, S0B1LemmaPOS: střední_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_podnik, S0B1Token: střední_podniky, S0Lemma: střední, S0POS: ADJ, S0Token: střední, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [by, si, měly ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [soukromé, podniky, bez ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [by]   B= [si, měly, najít ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [soukromé]   B= [podniky, bez, účasti ,.. ]
 
-B0Lemma: se, B0POS: PRON, B0Token: si, B1Lemma: mít, B1POS: VERB, B1Token: měly, S0B0Distance: 1, S0B0Lemma: být_se, S0B0LemmaPOS: být_PRON, S0B0POS: VERB_PRON, S0B0POSLemma: VERB_se, S0B0Token: by_si, S0B1Lemma: být_mít, S0B1LemmaPOS: být_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_mít, S0B1Token: by_měly, S0Lemma: být, S0POS: VERB, S0Token: by, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: podnik, B0POS: NOUN, B0Token: podniky, B1IsInLexic: true, B1Lemma: bez, B1POS: ADP, B1Token: bez, S0B0Distance: 1, S0B0Lemma: soukromý_podnik, S0B0LemmaPOS: soukromý_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_podnik, S0B0Token: soukromé_podniky, S0B1Lemma: soukromý_bez, S0B1LemmaPOS: soukromý_ADP, S0B1POS: ADJ_ADP, S0B1POSLemma: ADJ_bez, S0B1Token: soukromé_bez, S0Lemma: soukromý, S0POS: ADJ, S0Token: soukromé, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, měly, najít ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [podniky, bez, účasti ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [měly, najít, prostor ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [podniky]   B= [bez, účasti, cizího ,.. ]
 
-B0Lemma: mít, B0POS: VERB, B0Token: měly, B1Lemma: najít, B1POS: VERB, B1Token: najít, S0B0Distance: 1, S0B0Lemma: se_mít, S0B0LemmaPOS: se_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_mít, S0B0Token: si_měly, S0B1Lemma: se_najít, S0B1LemmaPOS: se_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_najít, S0B1Token: si_najít, S0Lemma: se, S0POS: PRON, S0Token: si, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: bez, B0POS: ADP, B0Token: bez, B1Lemma: účast, B1POS: NOUN, B1Token: účasti, S0B0Distance: 1, S0B0Lemma: podnik_bez, S0B0LemmaPOS: podnik_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_bez, S0B0Token: podniky_bez, S0B1Lemma: podnik_účast, S0B1LemmaPOS: podnik_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_účast, S0B1Token: podniky_účasti, S0Lemma: podnik, S0POS: NOUN, S0Token: podniky, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [měly, najít, prostor ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bez, účasti, cizího ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [měly]   B= [najít, prostor, různé ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bez]   B= [účasti, cizího, kapitálu ,.. ]
 
-B0Lemma: najít, B0POS: VERB, B0Token: najít, B1Lemma: prostor, B1POS: NOUN, B1Token: prostor, S0B0Distance: 1, S0B0Lemma: mít_najít, S0B0LemmaPOS: mít_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_najít, S0B0Token: měly_najít, S0B1Lemma: mít_prostor, S0B1LemmaPOS: mít_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_prostor, S0B1Token: měly_prostor, S0Lemma: mít, S0POS: VERB, S0Token: měly, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: účast, B0POS: NOUN, B0Token: účasti, B1Lemma: cizí, B1POS: ADJ, B1Token: cizího, S0B0Distance: 1, S0B0Lemma: bez_účast, S0B0LemmaPOS: bez_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_účast, S0B0Token: bez_účasti, S0B1Lemma: bez_cizí, S0B1LemmaPOS: bez_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_cizí, S0B1Token: bez_cizího, S0IsInLexic: true, S0Lemma: bez, S0POS: ADP, S0Token: bez, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [najít, prostor, různé ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [účasti, cizího, kapitálu ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [najít]   B= [prostor, různé, naše ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [účasti]   B= [cizího, kapitálu, , ,.. ]
 
-B0Lemma: prostor, B0POS: NOUN, B0Token: prostor, B1Lemma: různý, B1POS: ADJ, B1Token: různé, S0B0Distance: 1, S0B0Lemma: najít_prostor, S0B0LemmaPOS: najít_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_prostor, S0B0Token: najít_prostor, S0B1Lemma: najít_různý, S0B1LemmaPOS: najít_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_různý, S0B1Token: najít_různé, S0Lemma: najít, S0POS: VERB, S0Token: najít, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: cizí, B0POS: ADJ, B0Token: cizího, B1IsInLexic: true, B1Lemma: kapitál, B1POS: NOUN, B1Token: kapitálu, S0B0Distance: 1, S0B0Lemma: účast_cizí, S0B0LemmaPOS: účast_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_cizí, S0B0Token: účasti_cizího, S0B1Lemma: účast_kapitál, S0B1LemmaPOS: účast_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_kapitál, S0B1Token: účasti_kapitálu, S0Lemma: účast, S0POS: NOUN, S0Token: účasti, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prostor, různé, naše ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cizího, kapitálu, , ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prostor]   B= [různé, naše, komerční ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cizího]   B= [kapitálu, ,, které ,.. ]
 
-B0Lemma: různý, B0POS: ADJ, B0Token: různé, B1Lemma: můj, B1POS: DET, B1Token: naše, S0B0Distance: 1, S0B0Lemma: prostor_různý, S0B0LemmaPOS: prostor_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_různý, S0B0Token: prostor_různé, S0B1Lemma: prostor_můj, S0B1LemmaPOS: prostor_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_můj, S0B1Token: prostor_naše, S0Lemma: prostor, S0POS: NOUN, S0Token: prostor, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: kapitál, B0POS: NOUN, B0Token: kapitálu, B1IsInLexic: true, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: cizí_kapitál, S0B0LemmaPOS: cizí_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_kapitál, S0B0Token: cizího_kapitálu, S0B1Lemma: cizí_,, S0B1LemmaPOS: cizí_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_,, S0B1Token: cizího_,, S0Lemma: cizí, S0POS: ADJ, S0Token: cizího, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [různé, naše, komerční ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kapitálu, ,, které ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [různé]   B= [naše, komerční, firmy ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kapitálu]   B= [,, které, mají ,.. ]
 
-B0Lemma: můj, B0POS: DET, B0Token: naše, B1Lemma: komerční, B1POS: ADJ, B1Token: komerční, S0B0Distance: 1, S0B0Lemma: různý_můj, S0B0LemmaPOS: různý_DET, S0B0POS: ADJ_DET, S0B0POSLemma: ADJ_můj, S0B0Token: různé_naše, S0B1Lemma: různý_komerční, S0B1LemmaPOS: různý_ADJ, S0B1POS: ADJ_ADJ, S0B1POSLemma: ADJ_komerční, S0B1Token: různé_komerční, S0Lemma: různý, S0POS: ADJ, S0Token: různé, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: který, B1POS: DET, B1Token: které, S0B0Distance: 1, S0B0Lemma: kapitál_,, S0B0LemmaPOS: kapitál_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: kapitálu_,, S0B1Lemma: kapitál_který, S0B1LemmaPOS: kapitál_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_který, S0B1Token: kapitálu_které, S0IsInLexic: true, S0Lemma: kapitál, S0POS: NOUN, S0Token: kapitálu, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [naše, komerční, firmy ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, které, mají ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [naše]   B= [komerční, firmy, , ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [které, mají, zájem ,.. ]
 
-B0Lemma: komerční, B0POS: ADJ, B0Token: komerční, B1Lemma: firma, B1POS: NOUN, B1Token: firmy, S0B0Distance: 1, S0B0Lemma: můj_komerční, S0B0LemmaPOS: můj_ADJ, S0B0POS: DET_ADJ, S0B0POSLemma: DET_komerční, S0B0Token: naše_komerční, S0B1Lemma: můj_firma, S0B1LemmaPOS: můj_NOUN, S0B1POS: DET_NOUN, S0B1POSLemma: DET_firma, S0B1Token: naše_firmy, S0Lemma: můj, S0POS: DET, S0Token: naše, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: který, B0POS: DET, B0Token: které, B1IsInLexic: true, B1Lemma: mít, B1POS: VERB, B1Token: mají, S0B0Distance: 1, S0B0Lemma: ,_který, S0B0LemmaPOS: ,_DET, S0B0POS: PUNCT_DET, S0B0POSLemma: PUNCT_který, S0B0Token: ,_které, S0B1Lemma: ,_mít, S0B1LemmaPOS: ,_VERB, S0B1POS: PUNCT_VERB, S0B1POSLemma: PUNCT_mít, S0B1Token: ,_mají, S0IsInLexic: true, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [komerční, firmy, , ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [které, mají, zájem ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [komerční]   B= [firmy, ,, jimž ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [které]   B= [mají, zájem, o ,.. ]
 
-B0Lemma: firma, B0POS: NOUN, B0Token: firmy, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: komerční_firma, S0B0LemmaPOS: komerční_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_firma, S0B0Token: komerční_firmy, S0B1Lemma: komerční_,, S0B1LemmaPOS: komerční_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_,, S0B1Token: komerční_,, S0Lemma: komerční, S0POS: ADJ, S0Token: komerční, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: mít, B0POS: VERB, B0Token: mají, B1IsInLexic: true, B1Lemma: zájem, B1POS: NOUN, B1Token: zájem, S0B0Distance: 1, S0B0Lemma: který_mít, S0B0LemmaPOS: který_VERB, S0B0POS: DET_VERB, S0B0POSLemma: DET_mít, S0B0Token: které_mají, S0B1Lemma: který_zájem, S0B1LemmaPOS: který_NOUN, S0B1POS: DET_NOUN, S0B1POSLemma: DET_zájem, S0B1Token: které_zájem, S0IsInLexic: true, S0Lemma: který, S0POS: DET, S0Token: které, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [firmy, ,, jimž ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mají, zájem, o ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [firmy]   B= [,, jimž, Ministerstvo ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mají]   B= [zájem, o, konkrétní ,.. ]
 
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: jenž, B1POS: PRON, B1Token: jimž, S0B0Distance: 1, S0B0Lemma: firma_,, S0B0LemmaPOS: firma_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: firmy_,, S0B1Lemma: firma_jenž, S0B1LemmaPOS: firma_PRON, S0B1POS: NOUN_PRON, S0B1POSLemma: NOUN_jenž, S0B1Token: firmy_jimž, S0Lemma: firma, S0POS: NOUN, S0Token: firmy, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: zájem, B0POS: NOUN, B0Token: zájem, B1IsInLexic: true, B1Lemma: o, B1POS: ADP, B1Token: o, S0B0Distance: 1, S0B0Lemma: mít_zájem, S0B0LemmaPOS: mít_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_zájem, S0B0Token: mají_zájem, S0B1Lemma: mít_o, S0B1LemmaPOS: mít_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_o, S0B1Token: mají_o, S0IsInLexic: true, S0Lemma: mít, S0POS: VERB, S0Token: mají, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, jimž, Ministerstvo ,.. ]
+32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mají, zájem]   B= [o, konkrétní, činnost ,.. ]
 
+B0IsInLexic: true, B0Lemma: o, B0POS: ADP, B0Token: o, B1Lemma: konkrétní, B1POS: ADJ, B1Token: konkrétní, S0B0Distance: 1, S0B0Lemma: zájem_o, S0B0LemmaPOS: zájem_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_o, S0B0Token: zájem_o, S0B1Lemma: zájem_konkrétní, S0B1LemmaPOS: zájem_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_konkrétní, S0B1Token: zájem_konkrétní, S0IsInLexic: true, S0Lemma: zájem, S0POS: NOUN, S0S1Distance: 1, S0Token: zájem, S1B0Lemma: mít_o, S1B0LemmaPOS: mít_ADP, S1B0POS: VERB_ADP, S1B0POSLemma: VERB_o, S1B0Token: mají_o, S1IsInLexic: true, S1Lemma: mít, S1POS: VERB, S1S0Lemma: mít_zájem, S1S0LemmaPOS: mít_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_zájem, S1S0Token: mají_zájem, S1Token: mají, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
+33- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[mají, zájem]]   B= [o, konkrétní, činnost ,.. ]
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [jimž, Ministerstvo, financí ,.. ]
+B0IsInLexic: true, B0Lemma: o, B0POS: ADP, B0Token: o, B1Lemma: konkrétní, B1POS: ADJ, B1Token: konkrétní, S0B0Distance: 1, S0B0Lemma: mít_zájem_o, S0B0LemmaPOS: mít_zájem_ADP, S0B0POS: VERB_NOUN_ADP, S0B0POSLemma: VERB_NOUN_o, S0B0Token: mají_zájem_o, S0B1Lemma: mít_zájem_konkrétní, S0B1LemmaPOS: mít_zájem_ADJ, S0B1POS: VERB_NOUN_ADJ, S0B1POSLemma: VERB_NOUN_konkrétní, S0B1Token: mají_zájem_konkrétní, S0Lemma: mít_zájem, S0POS: VERB_NOUN, S0Token: mají_zájem, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
 
-B0Lemma: jenž, B0POS: PRON, B0Token: jimž, B1Lemma: ministerstvo, B1POS: NOUN, B1Token: Ministerstvo, S0B0Distance: 1, S0B0Lemma: ,_jenž, S0B0LemmaPOS: ,_PRON, S0B0POS: PUNCT_PRON, S0B0POSLemma: PUNCT_jenž, S0B0Token: ,_jimž, S0B1Lemma: ,_ministerstvo, S0B1LemmaPOS: ,_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_ministerstvo, S0B1Token: ,_Ministerstvo, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, konkrétní, činnost ,.. ]
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jimž, Ministerstvo, financí ,.. ]
 
 
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [konkrétní, činnost, v ,.. ]
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jimž]   B= [Ministerstvo, financí, bude ,.. ]
+B0Lemma: konkrétní, B0POS: ADJ, B0Token: konkrétní, B1IsInLexic: true, B1Lemma: činnost, B1POS: NOUN, B1Token: činnost, S0B0Distance: 1, S0B0Lemma: o_konkrétní, S0B0LemmaPOS: o_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_konkrétní, S0B0Token: o_konkrétní, S0B1Lemma: o_činnost, S0B1LemmaPOS: o_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_činnost, S0B1Token: o_činnost, S0IsInLexic: true, S0Lemma: o, S0POS: ADP, S0Token: o, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
 
-B0Lemma: ministerstvo, B0POS: NOUN, B0Token: Ministerstvo, B1Lemma: finance, B1POS: NOUN, B1Token: financí, S0B0Distance: 1, S0B0Lemma: jenž_ministerstvo, S0B0LemmaPOS: jenž_NOUN, S0B0POS: PRON_NOUN, S0B0POSLemma: PRON_ministerstvo, S0B0Token: jimž_Ministerstvo, S0B1Lemma: jenž_finance, S0B1LemmaPOS: jenž_NOUN, S0B1POS: PRON_NOUN, S0B1POSLemma: PRON_finance, S0B1Token: jimž_financí, S0Lemma: jenž, S0POS: PRON, S0Token: jimž, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [konkrétní, činnost, v ,.. ]
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ministerstvo, financí, bude ,.. ]
 
 
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [konkrétní]   B= [činnost, v, zahraničním ,.. ]
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ministerstvo]   B= [financí, bude, ochotno ,.. ]
+B0IsInLexic: true, B0Lemma: činnost, B0POS: NOUN, B0Token: činnost, B1IsInLexic: true, B1Lemma: v, B1POS: ADP, B1Token: v, S0B0Distance: 1, S0B0Lemma: konkrétní_činnost, S0B0LemmaPOS: konkrétní_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_činnost, S0B0Token: konkrétní_činnost, S0B1Lemma: konkrétní_v, S0B1LemmaPOS: konkrétní_ADP, S0B1POS: ADJ_ADP, S0B1POSLemma: ADJ_v, S0B1Token: konkrétní_v, S0Lemma: konkrétní, S0POS: ADJ, S0Token: konkrétní, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: finance, B0POS: NOUN, B0Token: financí, B1Lemma: být, B1POS: VERB, B1Token: bude, S0B0Distance: 1, S0B0Lemma: ministerstvo_finance, S0B0LemmaPOS: ministerstvo_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_finance, S0B0Token: Ministerstvo_financí, S0B1Lemma: ministerstvo_být, S0B1LemmaPOS: ministerstvo_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_být, S0B1Token: Ministerstvo_bude, S0Lemma: ministerstvo, S0POS: NOUN, S0Token: Ministerstvo, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [činnost, v, zahraničním ,.. ]
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [financí, bude, ochotno ,.. ]
 
 
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [činnost]   B= [v, zahraničním, obchodě ,.. ]
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [financí]   B= [bude, ochotno, dát ,.. ]
+B0IsInLexic: true, B0Lemma: v, B0POS: ADP, B0Token: v, B1Lemma: zahraniční, B1POS: ADJ, B1Token: zahraničním, S0B0Distance: 1, S0B0Lemma: činnost_v, S0B0LemmaPOS: činnost_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_v, S0B0Token: činnost_v, S0B1Lemma: činnost_zahraniční, S0B1LemmaPOS: činnost_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_zahraniční, S0B1Token: činnost_zahraničním, S0IsInLexic: true, S0Lemma: činnost, S0POS: NOUN, S0Token: činnost, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: být, B0POS: VERB, B0Token: bude, B1Lemma: ochotný, B1POS: ADJ, B1Token: ochotno, S0B0Distance: 1, S0B0Lemma: finance_být, S0B0LemmaPOS: finance_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_být, S0B0Token: financí_bude, S0B1Lemma: finance_ochotný, S0B1LemmaPOS: finance_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_ochotný, S0B1Token: financí_ochotno, S0Lemma: finance, S0POS: NOUN, S0Token: financí, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [v, zahraničním, obchodě ,.. ]
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bude, ochotno, dát ,.. ]
 
 
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [v]   B= [zahraničním, obchodě, , ,.. ]
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bude]   B= [ochotno, dát, konkrétní ,.. ]
+B0Lemma: zahraniční, B0POS: ADJ, B0Token: zahraničním, B1Lemma: obchod, B1POS: NOUN, B1Token: obchodě, S0B0Distance: 1, S0B0Lemma: v_zahraniční, S0B0LemmaPOS: v_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_zahraniční, S0B0Token: v_zahraničním, S0B1Lemma: v_obchod, S0B1LemmaPOS: v_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_obchod, S0B1Token: v_obchodě, S0IsInLexic: true, S0Lemma: v, S0POS: ADP, S0Token: v, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: ochotný, B0POS: ADJ, B0Token: ochotno, B1Lemma: dát, B1POS: VERB, B1Token: dát, S0B0Distance: 1, S0B0Lemma: být_ochotný, S0B0LemmaPOS: být_ADJ, S0B0POS: VERB_ADJ, S0B0POSLemma: VERB_ochotný, S0B0Token: bude_ochotno, S0B1Lemma: být_dát, S0B1LemmaPOS: být_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_dát, S0B1Token: bude_dát, S0Lemma: být, S0POS: VERB, S0Token: bude, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zahraničním, obchodě, , ,.. ]
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ochotno, dát, konkrétní ,.. ]
 
 
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zahraničním]   B= [obchodě, ,, o ,.. ]
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ochotno]   B= [dát, konkrétní, pověření ,.. ]
+B0Lemma: obchod, B0POS: NOUN, B0Token: obchodě, B1IsInLexic: true, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: zahraniční_obchod, S0B0LemmaPOS: zahraniční_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_obchod, S0B0Token: zahraničním_obchodě, S0B1Lemma: zahraniční_,, S0B1LemmaPOS: zahraniční_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_,, S0B1Token: zahraničním_,, S0Lemma: zahraniční, S0POS: ADJ, S0Token: zahraničním, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: dát, B0POS: VERB, B0Token: dát, B1Lemma: konkrétní, B1POS: ADJ, B1Token: konkrétní, S0B0Distance: 1, S0B0Lemma: ochotný_dát, S0B0LemmaPOS: ochotný_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_dát, S0B0Token: ochotno_dát, S0B1Lemma: ochotný_konkrétní, S0B1LemmaPOS: ochotný_ADJ, S0B1POS: ADJ_ADJ, S0B1POSLemma: ADJ_konkrétní, S0B1Token: ochotno_konkrétní, S0Lemma: ochotný, S0POS: ADJ, S0Token: ochotno, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [obchodě, ,, o ,.. ]
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dát, konkrétní, pověření ,.. ]
 
 
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [obchodě]   B= [,, o, malovýrobní ,.. ]
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát]   B= [konkrétní, pověření, pro ,.. ]
+B0IsInLexic: true, B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: o, B1POS: ADP, B1Token: o, S0B0Distance: 1, S0B0Lemma: obchod_,, S0B0LemmaPOS: obchod_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: obchodě_,, S0B1Lemma: obchod_o, S0B1LemmaPOS: obchod_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_o, S0B1Token: obchodě_o, S0Lemma: obchod, S0POS: NOUN, S0Token: obchodě, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: konkrétní, B0POS: ADJ, B0Token: konkrétní, B1Lemma: pověření, B1POS: NOUN, B1Token: pověření, S0B0Distance: 1, S0B0Lemma: dát_konkrétní, S0B0LemmaPOS: dát_ADJ, S0B0POS: VERB_ADJ, S0B0POSLemma: VERB_konkrétní, S0B0Token: dát_konkrétní, S0B1Lemma: dát_pověření, S0B1LemmaPOS: dát_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_pověření, S0B1Token: dát_pověření, S0Lemma: dát, S0POS: VERB, S0Token: dát, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, o, malovýrobní ,.. ]
 
-46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát, konkrétní]   B= [pověření, pro, tyto ,.. ]
 
-B0Lemma: pověření, B0POS: NOUN, B0Token: pověření, B1Lemma: pro, B1POS: ADP, B1Token: pro, S0B0Distance: 1, S0B0Lemma: konkrétní_pověření, S0B0LemmaPOS: konkrétní_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_pověření, S0B0Token: konkrétní_pověření, S0B1Lemma: konkrétní_pro, S0B1LemmaPOS: konkrétní_ADP, S0B1POS: ADJ_ADP, S0B1POSLemma: ADJ_pro, S0B1Token: konkrétní_pro, S0Lemma: konkrétní, S0POS: ADJ, S0Token: konkrétní, S1B0Lemma: dát_pověření, S1B0LemmaPOS: dát_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_pověření, S1B0Token: dát_pověření, S1Lemma: dát, S1POS: VERB, S1S0Lemma: dát_konkrétní, S1S0LemmaPOS: dát_ADJ, S1S0POS: VERB_ADJ, S1S0POSLemma: VERB_konkrétní, S1S0Token: dát_konkrétní, S1Token: dát, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-47- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát]   B= [pověření, pro, tyto ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [o, malovýrobní, spolupráci ,.. ]
 
-B0Lemma: pověření, B0POS: NOUN, B0Token: pověření, B1Lemma: pro, B1POS: ADP, B1Token: pro, S0B0Distance: 2, S0B0Lemma: dát_pověření, S0B0LemmaPOS: dát_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_pověření, S0B0Token: dát_pověření, S0B1Lemma: dát_pro, S0B1LemmaPOS: dát_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_pro, S0B1Token: dát_pro, S0Lemma: dát, S0POS: VERB, S0Token: dát, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0IsInLexic: true, B0Lemma: o, B0POS: ADP, B0Token: o, B1Lemma: malovýrobní, B1POS: ADJ, B1Token: malovýrobní, S0B0Distance: 1, S0B0Lemma: ,_o, S0B0LemmaPOS: ,_ADP, S0B0POS: PUNCT_ADP, S0B0POSLemma: PUNCT_o, S0B0Token: ,_o, S0B1Lemma: ,_malovýrobní, S0B1LemmaPOS: ,_ADJ, S0B1POS: PUNCT_ADJ, S0B1POSLemma: PUNCT_malovýrobní, S0B1Token: ,_malovýrobní, S0IsInLexic: true, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát, pověření]   B= [pro, tyto, operace ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, malovýrobní, spolupráci ,.. ]
 
-B0Lemma: pro, B0POS: ADP, B0Token: pro, B1Lemma: tento, B1POS: DET, B1Token: tyto, S0B0Distance: 1, S0B0Lemma: pověření_pro, S0B0LemmaPOS: pověření_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_pro, S0B0Token: pověření_pro, S0B1Lemma: pověření_tento, S0B1LemmaPOS: pověření_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_tento, S0B1Token: pověření_tyto, S0Lemma: pověření, S0POS: NOUN, S0Token: pověření, S1B0Lemma: dát_pro, S1B0LemmaPOS: dát_ADP, S1B0POS: VERB_ADP, S1B0POSLemma: VERB_pro, S1B0Token: dát_pro, S1Lemma: dát, S1POS: VERB, S1S0Lemma: dát_pověření, S1S0LemmaPOS: dát_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_pověření, S1S0Token: dát_pověření, S1Token: dát, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
 
-49- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát]   B= [pro, tyto, operace ,.. ]
 
-B0Lemma: pro, B0POS: ADP, B0Token: pro, B1Lemma: tento, B1POS: DET, B1Token: tyto, S0B0Distance: 3, S0B0Lemma: dát_pro, S0B0LemmaPOS: dát_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_pro, S0B0Token: dát_pro, S0B1Lemma: dát_tento, S0B1LemmaPOS: dát_DET, S0B1POS: VERB_DET, S0B1POSLemma: VERB_tento, S0B1Token: dát_tyto, S0Lemma: dát, S0POS: VERB, S0Token: dát, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [malovýrobní, spolupráci, či ,.. ]
 
-50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát, pro]   B= [tyto, operace, . ,.. ]
+B0Lemma: malovýrobní, B0POS: ADJ, B0Token: malovýrobní, B1IsInLexic: true, B1Lemma: spolupráce, B1POS: NOUN, B1Token: spolupráci, S0B0Distance: 1, S0B0Lemma: o_malovýrobní, S0B0LemmaPOS: o_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_malovýrobní, S0B0Token: o_malovýrobní, S0B1Lemma: o_spolupráce, S0B1LemmaPOS: o_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_spolupráce, S0B1Token: o_spolupráci, S0IsInLexic: true, S0Lemma: o, S0POS: ADP, S0Token: o, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: tento, B0POS: DET, B0Token: tyto, B1Lemma: operace, B1POS: NOUN, B1Token: operace, S0B0Distance: 1, S0B0Lemma: pro_tento, S0B0LemmaPOS: pro_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_tento, S0B0Token: pro_tyto, S0B1Lemma: pro_operace, S0B1LemmaPOS: pro_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_operace, S0B1Token: pro_operace, S0Lemma: pro, S0POS: ADP, S0Token: pro, S1B0Lemma: dát_tento, S1B0LemmaPOS: dát_DET, S1B0POS: VERB_DET, S1B0POSLemma: VERB_tento, S1B0Token: dát_tyto, S1Lemma: dát, S1POS: VERB, S1S0Lemma: dát_pro, S1S0LemmaPOS: dát_ADP, S1S0POS: VERB_ADP, S1S0POSLemma: VERB_pro, S1S0Token: dát_pro, S1Token: dát, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [malovýrobní, spolupráci, či ,.. ]
 
-51- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát]   B= [tyto, operace, . ,.. ]
 
-B0Lemma: tento, B0POS: DET, B0Token: tyto, B1Lemma: operace, B1POS: NOUN, B1Token: operace, S0B0Distance: 4, S0B0Lemma: dát_tento, S0B0LemmaPOS: dát_DET, S0B0POS: VERB_DET, S0B0POSLemma: VERB_tento, S0B0Token: dát_tyto, S0B1Lemma: dát_operace, S0B1LemmaPOS: dát_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_operace, S0B1Token: dát_operace, S0Lemma: dát, S0POS: VERB, S0Token: dát, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát, tyto]   B= [operace, . ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [malovýrobní]   B= [spolupráci, či, o ,.. ]
 
-B0Lemma: operace, B0POS: NOUN, B0Token: operace, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: tento_operace, S0B0LemmaPOS: tento_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_operace, S0B0Token: tyto_operace, S0B1Lemma: tento_., S0B1LemmaPOS: tento_PUNCT, S0B1POS: DET_PUNCT, S0B1POSLemma: DET_., S0B1Token: tyto_., S0Lemma: tento, S0POS: DET, S0Token: tyto, S1B0Lemma: dát_operace, S1B0LemmaPOS: dát_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_operace, S1B0Token: dát_operace, S1Lemma: dát, S1POS: VERB, S1S0Lemma: dát_tento, S1S0LemmaPOS: dát_DET, S1S0POS: VERB_DET, S1S0POSLemma: VERB_tento, S1S0Token: dát_tyto, S1Token: dát, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: spolupráce, B0POS: NOUN, B0Token: spolupráci, B1Lemma: či, B1POS: CONJ, B1Token: či, S0B0Distance: 1, S0B0Lemma: malovýrobní_spolupráce, S0B0LemmaPOS: malovýrobní_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_spolupráce, S0B0Token: malovýrobní_spolupráci, S0B1Lemma: malovýrobní_či, S0B1LemmaPOS: malovýrobní_CONJ, S0B1POS: ADJ_CONJ, S0B1POSLemma: ADJ_či, S0B1Token: malovýrobní_či, S0Lemma: malovýrobní, S0POS: ADJ, S0Token: malovýrobní, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-53- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát]   B= [operace, . ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [spolupráci, či, o ,.. ]
 
-B0Lemma: operace, B0POS: NOUN, B0Token: operace, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 5, S0B0Lemma: dát_operace, S0B0LemmaPOS: dát_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_operace, S0B0Token: dát_operace, S0B1Lemma: dát_., S0B1LemmaPOS: dát_PUNCT, S0B1POS: VERB_PUNCT, S0B1POSLemma: VERB_., S0B1Token: dát_., S0Lemma: dát, S0POS: VERB, S0Token: dát, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dát, operace]   B= [.]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: operace_., S0B0LemmaPOS: operace_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: operace_., S0Lemma: operace, S0POS: NOUN, S0Token: operace, S1B0Lemma: dát_., S1B0LemmaPOS: dát_PUNCT, S1B0POS: VERB_PUNCT, S1B0POSLemma: VERB_., S1B0Token: dát_., S1Lemma: dát, S1POS: VERB, S1S0Lemma: dát_operace, S1S0LemmaPOS: dát_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_operace, S1S0Token: dát_operace, S1Token: dát, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [spolupráci]   B= [či, o, joint ,.. ]
 
-55- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[dát, operace]]   B= [.]
+B0Lemma: či, B0POS: CONJ, B0Token: či, B1IsInLexic: true, B1Lemma: o, B1POS: ADP, B1Token: o, S0B0Distance: 1, S0B0Lemma: spolupráce_či, S0B0LemmaPOS: spolupráce_CONJ, S0B0POS: NOUN_CONJ, S0B0POSLemma: NOUN_či, S0B0Token: spolupráci_či, S0B1Lemma: spolupráce_o, S0B1LemmaPOS: spolupráce_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_o, S0B1Token: spolupráci_o, S0IsInLexic: true, S0Lemma: spolupráce, S0POS: NOUN, S0Token: spolupráci, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: dát_operace_., S0B0LemmaPOS: dát_operace_PUNCT, S0B0POS: VERB_NOUN_PUNCT, S0B0POSLemma: VERB_NOUN_., S0B0Token: dát_operace_., S0Lemma: dát_operace, S0POS: VERB_NOUN, S0Token: dát_operace, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [či, o, joint ,.. ]
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
 
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [či]   B= [o, joint, - ,.. ]
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+B0IsInLexic: true, B0Lemma: o, B0POS: ADP, B0Token: o, B1Lemma: joint, B1POS: ADJ, B1Token: joint, S0B0Distance: 1, S0B0Lemma: či_o, S0B0LemmaPOS: či_ADP, S0B0POS: CONJ_ADP, S0B0POSLemma: CONJ_o, S0B0Token: či_o, S0B1Lemma: či_joint, S0B1LemmaPOS: či_ADJ, S0B1POS: CONJ_ADJ, S0B1POSLemma: CONJ_joint, S0B1Token: či_joint, S0Lemma: či, S0POS: CONJ, S0Token: či, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, joint, - ,.. ]
 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 10480 - 
-Když se mu to nepodaří , přijde o 30 % platu . 
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [joint, -, venture ,.. ]
+
+B0Lemma: joint, B0POS: ADJ, B0Token: joint, B1Lemma: -, B1POS: PUNCT, B1Token: -, S0B0Distance: 1, S0B0Lemma: o_joint, S0B0LemmaPOS: o_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_joint, S0B0Token: o_joint, S0B1Lemma: o_-, S0B1LemmaPOS: o_PUNCT, S0B1POS: ADP_PUNCT, S0B1POSLemma: ADP_-, S0B1Token: o_-, S0IsInLexic: true, S0Lemma: o, S0POS: ADP, S0Token: o, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [joint, -, venture ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [joint]   B= [-, venture, ve ,.. ]
+
+B0Lemma: -, B0POS: PUNCT, B0Token: -, B1Lemma: venture, B1POS: NOUN, B1Token: venture, S0B0Distance: 1, S0B0Lemma: joint_-, S0B0LemmaPOS: joint_PUNCT, S0B0POS: ADJ_PUNCT, S0B0POSLemma: ADJ_-, S0B0Token: joint_-, S0B1Lemma: joint_venture, S0B1LemmaPOS: joint_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_venture, S0B1Token: joint_venture, S0Lemma: joint, S0POS: ADJ, S0Token: joint, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, venture, ve ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [venture, ve, výše ,.. ]
+
+B0Lemma: venture, B0POS: NOUN, B0Token: venture, B1IsInLexic: true, B1Lemma: v, B1POS: ADP, B1Token: ve, S0B0Distance: 1, S0B0Lemma: -_venture, S0B0LemmaPOS: -_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_venture, S0B0Token: -_venture, S0B1Lemma: -_v, S0B1LemmaPOS: -_ADP, S0B1POS: PUNCT_ADP, S0B1POSLemma: PUNCT_v, S0B1Token: -_ve, S0Lemma: -, S0POS: PUNCT, S0Token: -, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [venture, ve, výše ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [venture]   B= [ve, výše, uvedených ,.. ]
+
+B0IsInLexic: true, B0Lemma: v, B0POS: ADP, B0Token: ve, B1Lemma: vysoko, B1POS: ADV, B1Token: výše, S0B0Distance: 1, S0B0Lemma: venture_v, S0B0LemmaPOS: venture_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_v, S0B0Token: venture_ve, S0B1Lemma: venture_vysoko, S0B1LemmaPOS: venture_ADV, S0B1POS: NOUN_ADV, S0B1POSLemma: NOUN_vysoko, S0B1Token: venture_výše, S0Lemma: venture, S0POS: NOUN, S0Token: venture, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, výše, uvedených ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [výše, uvedených, oborech ,.. ]
+
+B0Lemma: vysoko, B0POS: ADV, B0Token: výše, B1Lemma: uvedený, B1POS: ADJ, B1Token: uvedených, S0B0Distance: 1, S0B0Lemma: v_vysoko, S0B0LemmaPOS: v_ADV, S0B0POS: ADP_ADV, S0B0POSLemma: ADP_vysoko, S0B0Token: ve_výše, S0B1Lemma: v_uvedený, S0B1LemmaPOS: v_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_uvedený, S0B1Token: ve_uvedených, S0IsInLexic: true, S0Lemma: v, S0POS: ADP, S0Token: ve, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [výše, uvedených, oborech ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [výše]   B= [uvedených, oborech, . ,.. ]
+
+B0Lemma: uvedený, B0POS: ADJ, B0Token: uvedených, B1Lemma: obor, B1POS: NOUN, B1Token: oborech, S0B0Distance: 1, S0B0Lemma: vysoko_uvedený, S0B0LemmaPOS: vysoko_ADJ, S0B0POS: ADV_ADJ, S0B0POSLemma: ADV_uvedený, S0B0Token: výše_uvedených, S0B1Lemma: vysoko_obor, S0B1LemmaPOS: vysoko_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_obor, S0B1Token: výše_oborech, S0Lemma: vysoko, S0POS: ADV, S0Token: výše, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [uvedených, oborech, . ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uvedených]   B= [oborech, . ,.. ]
+
+B0Lemma: obor, B0POS: NOUN, B0Token: oborech, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: uvedený_obor, S0B0LemmaPOS: uvedený_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_obor, S0B0Token: uvedených_oborech, S0B1Lemma: uvedený_., S0B1LemmaPOS: uvedený_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_., S0B1Token: uvedených_., S0Lemma: uvedený, S0POS: ADJ, S0Token: uvedených, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [oborech, . ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [oborech]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: obor_., S0B0LemmaPOS: obor_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: oborech_., S0Lemma: obor, S0POS: NOUN, S0Token: oborech, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 20475 - 
+V osmi autobusech pražských Dopravních podniků - garáže Klíčov , jezdících na lince 187 , která vede z Palmovky na holešovické nádraží , bylo namontováno zařízení umožňující nevidomým rozeznat , o jakou linku se jedná . 
 ### Existing MWEs: 
-1- **se nepodaří** (IReflV, 137)
+1- **se jedná** (IReflV, 25)
 ### Identified MWEs: 
-1- **se nepodaří** 
+1- **se jedná** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Když, se, mu ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [V, osmi, autobusech ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Když]   B= [se, mu, to ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [V]   B= [osmi, autobusech, pražských ,.. ]
 
-B0Lemma: se, B0POS: PRON, B0Token: se, B1Lemma: on, B1POS: PRON, B1Token: mu, S0B0Distance: 1, S0B0Lemma: když_se, S0B0LemmaPOS: když_PRON, S0B0POS: SCONJ_PRON, S0B0POSLemma: SCONJ_se, S0B0Token: Když_se, S0B1Lemma: když_on, S0B1LemmaPOS: když_PRON, S0B1POS: SCONJ_PRON, S0B1POSLemma: SCONJ_on, S0B1Token: Když_mu, S0Lemma: když, S0POS: SCONJ, S0Token: Když, 
+B0Lemma: osm, B0POS: NUM, B0Token: osmi, B1Lemma: autobus, B1POS: NOUN, B1Token: autobusech, S0B0Distance: 1, S0B0Lemma: v_osm, S0B0LemmaPOS: v_NUM, S0B0POS: ADP_NUM, S0B0POSLemma: ADP_osm, S0B0Token: V_osmi, S0B1Lemma: v_autobus, S0B1LemmaPOS: v_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_autobus, S0B1Token: V_autobusech, S0IsInLexic: true, S0Lemma: v, S0POS: ADP, S0Token: V, StackLength: 1, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, mu, to ,.. ]
-
-
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [mu, to, nepodaří ,.. ]
-
-B0Lemma: on, B0POS: PRON, B0Token: mu, B1Lemma: ten, B1POS: DET, B1Token: to, S0B0Distance: 1, S0B0Lemma: se_on, S0B0LemmaPOS: se_PRON, S0B0POS: PRON_PRON, S0B0POSLemma: PRON_on, S0B0Token: se_mu, S0B1Lemma: se_ten, S0B1LemmaPOS: se_DET, S0B1POS: PRON_DET, S0B1POSLemma: PRON_ten, S0B1Token: se_to, S0Lemma: se, S0POS: PRON, S0Token: se, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, mu]   B= [to, nepodaří, , ,.. ]
-
-B0Lemma: ten, B0POS: DET, B0Token: to, B1Lemma: podařit, B1POS: VERB, B1Token: nepodaří, S0B0Distance: 1, S0B0Lemma: on_ten, S0B0LemmaPOS: on_DET, S0B0POS: PRON_DET, S0B0POSLemma: PRON_ten, S0B0Token: mu_to, S0B1Lemma: on_podařit, S0B1LemmaPOS: on_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_podařit, S0B1Token: mu_nepodaří, S0Lemma: on, S0POS: PRON, S0Token: mu, S1B0Lemma: se_ten, S1B0LemmaPOS: se_DET, S1B0POS: PRON_DET, S1B0POSLemma: PRON_ten, S1B0Token: se_to, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_on, S1S0LemmaPOS: se_PRON, S1S0POS: PRON_PRON, S1S0POSLemma: PRON_on, S1S0Token: se_mu, S1Token: se, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [to, nepodaří, , ,.. ]
-
-B0Lemma: ten, B0POS: DET, B0Token: to, B1Lemma: podařit, B1POS: VERB, B1Token: nepodaří, S0B0Distance: 2, S0B0Lemma: se_ten, S0B0LemmaPOS: se_DET, S0B0POS: PRON_DET, S0B0POSLemma: PRON_ten, S0B0Token: se_to, S0B1Lemma: se_podařit, S0B1LemmaPOS: se_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_podařit, S0B1Token: se_nepodaří, S0Lemma: se, S0POS: PRON, S0Token: se, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, to]   B= [nepodaří, ,, přijde ,.. ]
-
-B0Lemma: podařit, B0POS: VERB, B0Token: nepodaří, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: ten_podařit, S0B0LemmaPOS: ten_VERB, S0B0POS: DET_VERB, S0B0POSLemma: DET_podařit, S0B0Token: to_nepodaří, S0B1Lemma: ten_,, S0B1LemmaPOS: ten_PUNCT, S0B1POS: DET_PUNCT, S0B1POSLemma: DET_,, S0B1Token: to_,, S0Lemma: ten, S0POS: DET, S0Token: to, S1B0Lemma: se_podařit, S1B0LemmaPOS: se_VERB, S1B0POS: PRON_VERB, S1B0POSLemma: PRON_podařit, S1B0Token: se_nepodaří, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_ten, S1S0LemmaPOS: se_DET, S1S0POS: PRON_DET, S1S0POSLemma: PRON_ten, S1S0Token: se_to, S1Token: se, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-7- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [nepodaří, ,, přijde ,.. ]
-
-B0Lemma: podařit, B0POS: VERB, B0Token: nepodaří, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 3, S0B0Lemma: se_podařit, S0B0LemmaPOS: se_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_podařit, S0B0Token: se_nepodaří, S0B1Lemma: se_,, S0B1LemmaPOS: se_PUNCT, S0B1POS: PRON_PUNCT, S0B1POSLemma: PRON_,, S0B1Token: se_,, S0Lemma: se, S0POS: PRON, S0Token: se, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, nepodaří]   B= [,, přijde, o ,.. ]
-
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: přijít, B1POS: VERB, B1Token: přijde, S0B0Distance: 1, S0B0Lemma: podařit_,, S0B0LemmaPOS: podařit_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_,, S0B0Token: nepodaří_,, S0B1Lemma: podařit_přijít, S0B1LemmaPOS: podařit_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_přijít, S0B1Token: nepodaří_přijde, S0Lemma: podařit, S0POS: VERB, S0Token: nepodaří, S1B0Lemma: se_,, S1B0LemmaPOS: se_PUNCT, S1B0POS: PRON_PUNCT, S1B0POSLemma: PRON_,, S1B0Token: se_,, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_podařit, S1S0LemmaPOS: se_VERB, S1S0POS: PRON_VERB, S1S0POSLemma: PRON_podařit, S1S0Token: se_nepodaří, S1Token: se, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, nepodaří]]   B= [,, přijde, o ,.. ]
-
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: přijít, B1POS: VERB, B1Token: přijde, S0B0Distance: 1, S0B0Lemma: se_podařit_,, S0B0LemmaPOS: se_podařit_PUNCT, S0B0POS: PRON_VERB_PUNCT, S0B0POSLemma: PRON_VERB_,, S0B0Token: se_nepodaří_,, S0B1Lemma: se_podařit_přijít, S0B1LemmaPOS: se_podařit_VERB, S0B1POS: PRON_VERB_VERB, S0B1POSLemma: PRON_VERB_přijít, S0B1Token: se_nepodaří_přijde, S0Lemma: se_podařit, S0POS: PRON_VERB, S0Token: se_nepodaří, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, přijde, o ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [osmi, autobusech, pražských ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [přijde, o, 30 ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [osmi]   B= [autobusech, pražských, Dopravních ,.. ]
 
-B0Lemma: přijít, B0POS: VERB, B0Token: přijde, B1Lemma: o, B1POS: ADP, B1Token: o, S0B0Distance: 1, S0B0Lemma: ,_přijít, S0B0LemmaPOS: ,_VERB, S0B0POS: PUNCT_VERB, S0B0POSLemma: PUNCT_přijít, S0B0Token: ,_přijde, S0B1Lemma: ,_o, S0B1LemmaPOS: ,_ADP, S0B1POS: PUNCT_ADP, S0B1POSLemma: PUNCT_o, S0B1Token: ,_o, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: autobus, B0POS: NOUN, B0Token: autobusech, B1Lemma: pražský, B1POS: ADJ, B1Token: pražských, S0B0Distance: 1, S0B0Lemma: osm_autobus, S0B0LemmaPOS: osm_NOUN, S0B0POS: NUM_NOUN, S0B0POSLemma: NUM_autobus, S0B0Token: osmi_autobusech, S0B1Lemma: osm_pražský, S0B1LemmaPOS: osm_ADJ, S0B1POS: NUM_ADJ, S0B1POSLemma: NUM_pražský, S0B1Token: osmi_pražských, S0Lemma: osm, S0POS: NUM, S0Token: osmi, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [přijde, o, 30 ,.. ]
-
-
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [přijde]   B= [o, 30, % ,.. ]
-
-B0Lemma: o, B0POS: ADP, B0Token: o, B1Lemma: 30, B1POS: NUM, B1Token: 30, S0B0Distance: 1, S0B0Lemma: přijít_o, S0B0LemmaPOS: přijít_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_o, S0B0Token: přijde_o, S0B1Lemma: přijít_30, S0B1LemmaPOS: přijít_NUM, S0B1POS: VERB_NUM, S0B1POSLemma: VERB_30, S0B1Token: přijde_30, S0Lemma: přijít, S0POS: VERB, S0Token: přijde, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, 30, % ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [autobusech, pražských, Dopravních ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [30, %, platu ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [autobusech]   B= [pražských, Dopravních, podniků ,.. ]
 
-B0Lemma: 30, B0POS: NUM, B0Token: 30, B1Lemma: %, B1POS: PUNCT, B1Token: %, S0B0Distance: 1, S0B0Lemma: o_30, S0B0LemmaPOS: o_NUM, S0B0POS: ADP_NUM, S0B0POSLemma: ADP_30, S0B0Token: o_30, S0B1Lemma: o_%, S0B1LemmaPOS: o_PUNCT, S0B1POS: ADP_PUNCT, S0B1POSLemma: ADP_%, S0B1Token: o_%, S0Lemma: o, S0POS: ADP, S0Token: o, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: pražský, B0POS: ADJ, B0Token: pražských, B1Lemma: dopravní, B1POS: ADJ, B1Token: Dopravních, S0B0Distance: 1, S0B0Lemma: autobus_pražský, S0B0LemmaPOS: autobus_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_pražský, S0B0Token: autobusech_pražských, S0B1Lemma: autobus_dopravní, S0B1LemmaPOS: autobus_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_dopravní, S0B1Token: autobusech_Dopravních, S0Lemma: autobus, S0POS: NOUN, S0Token: autobusech, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [30, %, platu ,.. ]
-
-
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [30]   B= [%, platu, . ,.. ]
-
-B0Lemma: %, B0POS: PUNCT, B0Token: %, B1Lemma: plat, B1POS: NOUN, B1Token: platu, S0B0Distance: 1, S0B0Lemma: 30_%, S0B0LemmaPOS: 30_PUNCT, S0B0POS: NUM_PUNCT, S0B0POSLemma: NUM_%, S0B0Token: 30_%, S0B1Lemma: 30_plat, S0B1LemmaPOS: 30_NOUN, S0B1POS: NUM_NOUN, S0B1POSLemma: NUM_plat, S0B1Token: 30_platu, S0Lemma: 30, S0POS: NUM, S0Token: 30, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [%, platu, . ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pražských, Dopravních, podniků ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [%]   B= [platu, . ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pražských]   B= [Dopravních, podniků, - ,.. ]
 
-B0Lemma: plat, B0POS: NOUN, B0Token: platu, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: %_plat, S0B0LemmaPOS: %_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_plat, S0B0Token: %_platu, S0B1Lemma: %_., S0B1LemmaPOS: %_PUNCT, S0B1POS: PUNCT_PUNCT, S0B1POSLemma: PUNCT_., S0B1Token: %_., S0Lemma: %, S0POS: PUNCT, S0Token: %, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: dopravní, B0POS: ADJ, B0Token: Dopravních, B1Lemma: podnik, B1POS: NOUN, B1Token: podniků, S0B0Distance: 1, S0B0Lemma: pražský_dopravní, S0B0LemmaPOS: pražský_ADJ, S0B0POS: ADJ_ADJ, S0B0POSLemma: ADJ_dopravní, S0B0Token: pražských_Dopravních, S0B1Lemma: pražský_podnik, S0B1LemmaPOS: pražský_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_podnik, S0B1Token: pražských_podniků, S0Lemma: pražský, S0POS: ADJ, S0Token: pražských, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [platu, . ,.. ]
-
-
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [platu]   B= [.]
-
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: plat_., S0B0LemmaPOS: plat_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: platu_., S0Lemma: plat, S0POS: NOUN, S0Token: platu, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Dopravních, podniků, - ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Dopravních]   B= [podniků, -, garáže ,.. ]
+
+B0Lemma: podnik, B0POS: NOUN, B0Token: podniků, B1Lemma: -, B1POS: PUNCT, B1Token: -, S0B0Distance: 1, S0B0Lemma: dopravní_podnik, S0B0LemmaPOS: dopravní_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_podnik, S0B0Token: Dopravních_podniků, S0B1Lemma: dopravní_-, S0B1LemmaPOS: dopravní_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_-, S0B1Token: Dopravních_-, S0Lemma: dopravní, S0POS: ADJ, S0Token: Dopravních, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [podniků, -, garáže ,.. ]
 
 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [podniků]   B= [-, garáže, Klíčov ,.. ]
 
-## Sentence No. 10540 - 
-Nedávno se dohodl se vzdělávací agenturou Kredo a ta zařadila kurzy na jeho ovládání do svého jarního a letního programu . 
+B0Lemma: -, B0POS: PUNCT, B0Token: -, B1Lemma: garáž, B1POS: NOUN, B1Token: garáže, S0B0Distance: 1, S0B0Lemma: podnik_-, S0B0LemmaPOS: podnik_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_-, S0B0Token: podniků_-, S0B1Lemma: podnik_garáž, S0B1LemmaPOS: podnik_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_garáž, S0B1Token: podniků_garáže, S0Lemma: podnik, S0POS: NOUN, S0Token: podniků, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, garáže, Klíčov ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [garáže, Klíčov, , ,.. ]
+
+B0Lemma: garáž, B0POS: NOUN, B0Token: garáže, B1Lemma: Klíčov, B1POS: NOUN, B1Token: Klíčov, S0B0Distance: 1, S0B0Lemma: -_garáž, S0B0LemmaPOS: -_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_garáž, S0B0Token: -_garáže, S0B1Lemma: -_Klíčov, S0B1LemmaPOS: -_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_Klíčov, S0B1Token: -_Klíčov, S0Lemma: -, S0POS: PUNCT, S0Token: -, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [garáže, Klíčov, , ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [garáže]   B= [Klíčov, ,, jezdících ,.. ]
+
+B0Lemma: Klíčov, B0POS: NOUN, B0Token: Klíčov, B1IsInLexic: true, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: garáž_Klíčov, S0B0LemmaPOS: garáž_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Klíčov, S0B0Token: garáže_Klíčov, S0B1Lemma: garáž_,, S0B1LemmaPOS: garáž_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_,, S0B1Token: garáže_,, S0Lemma: garáž, S0POS: NOUN, S0Token: garáže, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Klíčov, ,, jezdících ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Klíčov]   B= [,, jezdících, na ,.. ]
+
+B0IsInLexic: true, B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: jezdící, B1POS: ADJ, B1Token: jezdících, S0B0Distance: 1, S0B0Lemma: Klíčov_,, S0B0LemmaPOS: Klíčov_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: Klíčov_,, S0B1Lemma: Klíčov_jezdící, S0B1LemmaPOS: Klíčov_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_jezdící, S0B1Token: Klíčov_jezdících, S0Lemma: Klíčov, S0POS: NOUN, S0Token: Klíčov, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, jezdících, na ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [jezdících, na, lince ,.. ]
+
+B0Lemma: jezdící, B0POS: ADJ, B0Token: jezdících, B1IsInLexic: true, B1Lemma: na, B1POS: ADP, B1Token: na, S0B0Distance: 1, S0B0Lemma: ,_jezdící, S0B0LemmaPOS: ,_ADJ, S0B0POS: PUNCT_ADJ, S0B0POSLemma: PUNCT_jezdící, S0B0Token: ,_jezdících, S0B1Lemma: ,_na, S0B1LemmaPOS: ,_ADP, S0B1POS: PUNCT_ADP, S0B1POSLemma: PUNCT_na, S0B1Token: ,_na, S0IsInLexic: true, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jezdících, na, lince ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jezdících]   B= [na, lince, 187 ,.. ]
+
+B0IsInLexic: true, B0Lemma: na, B0POS: ADP, B0Token: na, B1Lemma: linka, B1POS: NOUN, B1Token: lince, S0B0Distance: 1, S0B0Lemma: jezdící_na, S0B0LemmaPOS: jezdící_ADP, S0B0POS: ADJ_ADP, S0B0POSLemma: ADJ_na, S0B0Token: jezdících_na, S0B1Lemma: jezdící_linka, S0B1LemmaPOS: jezdící_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_linka, S0B1Token: jezdících_lince, S0Lemma: jezdící, S0POS: ADJ, S0Token: jezdících, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [na, lince, 187 ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [na]   B= [lince, 187, , ,.. ]
+
+B0Lemma: linka, B0POS: NOUN, B0Token: lince, B1Lemma: 187, B1POS: NUM, B1Token: 187, S0B0Distance: 1, S0B0Lemma: na_linka, S0B0LemmaPOS: na_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_linka, S0B0Token: na_lince, S0B1Lemma: na_187, S0B1LemmaPOS: na_NUM, S0B1POS: ADP_NUM, S0B1POSLemma: ADP_187, S0B1Token: na_187, S0IsInLexic: true, S0Lemma: na, S0POS: ADP, S0Token: na, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lince, 187, , ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lince]   B= [187, ,, která ,.. ]
+
+B0Lemma: 187, B0POS: NUM, B0Token: 187, B1IsInLexic: true, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: linka_187, S0B0LemmaPOS: linka_NUM, S0B0POS: NOUN_NUM, S0B0POSLemma: NOUN_187, S0B0Token: lince_187, S0B1Lemma: linka_,, S0B1LemmaPOS: linka_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_,, S0B1Token: lince_,, S0Lemma: linka, S0POS: NOUN, S0Token: lince, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [187, ,, která ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [187]   B= [,, která, vede ,.. ]
+
+B0IsInLexic: true, B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: který, B1POS: DET, B1Token: která, S0B0Distance: 1, S0B0Lemma: 187_,, S0B0LemmaPOS: 187_PUNCT, S0B0POS: NUM_PUNCT, S0B0POSLemma: NUM_,, S0B0Token: 187_,, S0B1Lemma: 187_který, S0B1LemmaPOS: 187_DET, S0B1POS: NUM_DET, S0B1POSLemma: NUM_který, S0B1Token: 187_která, S0Lemma: 187, S0POS: NUM, S0Token: 187, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, která, vede ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [která, vede, z ,.. ]
+
+B0IsInLexic: true, B0Lemma: který, B0POS: DET, B0Token: která, B1IsInLexic: true, B1Lemma: vést, B1POS: VERB, B1Token: vede, S0B0Distance: 1, S0B0Lemma: ,_který, S0B0LemmaPOS: ,_DET, S0B0POS: PUNCT_DET, S0B0POSLemma: PUNCT_který, S0B0Token: ,_která, S0B1Lemma: ,_vést, S0B1LemmaPOS: ,_VERB, S0B1POS: PUNCT_VERB, S0B1POSLemma: PUNCT_vést, S0B1Token: ,_vede, S0IsInLexic: true, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [která, vede, z ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [která]   B= [vede, z, Palmovky ,.. ]
+
+B0IsInLexic: true, B0Lemma: vést, B0POS: VERB, B0Token: vede, B1IsInLexic: true, B1Lemma: z, B1POS: ADP, B1Token: z, S0B0Distance: 1, S0B0Lemma: který_vést, S0B0LemmaPOS: který_VERB, S0B0POS: DET_VERB, S0B0POSLemma: DET_vést, S0B0Token: která_vede, S0B1Lemma: který_z, S0B1LemmaPOS: který_ADP, S0B1POS: DET_ADP, S0B1POSLemma: DET_z, S0B1Token: která_z, S0IsInLexic: true, S0Lemma: který, S0POS: DET, S0Token: která, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vede, z, Palmovky ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vede]   B= [z, Palmovky, na ,.. ]
+
+B0IsInLexic: true, B0Lemma: z, B0POS: ADP, B0Token: z, B1Lemma: Palmovka, B1POS: NOUN, B1Token: Palmovky, S0B0Distance: 1, S0B0Lemma: vést_z, S0B0LemmaPOS: vést_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_z, S0B0Token: vede_z, S0B1Lemma: vést_Palmovka, S0B1LemmaPOS: vést_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_Palmovka, S0B1Token: vede_Palmovky, S0IsInLexic: true, S0Lemma: vést, S0POS: VERB, S0Token: vede, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [z, Palmovky, na ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [z]   B= [Palmovky, na, holešovické ,.. ]
+
+B0Lemma: Palmovka, B0POS: NOUN, B0Token: Palmovky, B1IsInLexic: true, B1Lemma: na, B1POS: ADP, B1Token: na, S0B0Distance: 1, S0B0Lemma: z_Palmovka, S0B0LemmaPOS: z_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_Palmovka, S0B0Token: z_Palmovky, S0B1Lemma: z_na, S0B1LemmaPOS: z_ADP, S0B1POS: ADP_ADP, S0B1POSLemma: ADP_na, S0B1Token: z_na, S0IsInLexic: true, S0Lemma: z, S0POS: ADP, S0Token: z, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Palmovky, na, holešovické ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Palmovky]   B= [na, holešovické, nádraží ,.. ]
+
+B0IsInLexic: true, B0Lemma: na, B0POS: ADP, B0Token: na, B1Lemma: holešovický, B1POS: ADJ, B1Token: holešovické, S0B0Distance: 1, S0B0Lemma: Palmovka_na, S0B0LemmaPOS: Palmovka_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_na, S0B0Token: Palmovky_na, S0B1Lemma: Palmovka_holešovický, S0B1LemmaPOS: Palmovka_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_holešovický, S0B1Token: Palmovky_holešovické, S0Lemma: Palmovka, S0POS: NOUN, S0Token: Palmovky, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [na, holešovické, nádraží ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [na]   B= [holešovické, nádraží, , ,.. ]
+
+B0Lemma: holešovický, B0POS: ADJ, B0Token: holešovické, B1Lemma: nádraží, B1POS: NOUN, B1Token: nádraží, S0B0Distance: 1, S0B0Lemma: na_holešovický, S0B0LemmaPOS: na_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_holešovický, S0B0Token: na_holešovické, S0B1Lemma: na_nádraží, S0B1LemmaPOS: na_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_nádraží, S0B1Token: na_nádraží, S0IsInLexic: true, S0Lemma: na, S0POS: ADP, S0Token: na, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [holešovické, nádraží, , ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [holešovické]   B= [nádraží, ,, bylo ,.. ]
+
+B0Lemma: nádraží, B0POS: NOUN, B0Token: nádraží, B1IsInLexic: true, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: holešovický_nádraží, S0B0LemmaPOS: holešovický_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_nádraží, S0B0Token: holešovické_nádraží, S0B1Lemma: holešovický_,, S0B1LemmaPOS: holešovický_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_,, S0B1Token: holešovické_,, S0Lemma: holešovický, S0POS: ADJ, S0Token: holešovické, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nádraží, ,, bylo ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nádraží]   B= [,, bylo, namontováno ,.. ]
+
+B0IsInLexic: true, B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: být, B1POS: VERB, B1Token: bylo, S0B0Distance: 1, S0B0Lemma: nádraží_,, S0B0LemmaPOS: nádraží_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: nádraží_,, S0B1Lemma: nádraží_být, S0B1LemmaPOS: nádraží_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_být, S0B1Token: nádraží_bylo, S0Lemma: nádraží, S0POS: NOUN, S0Token: nádraží, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, bylo, namontováno ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [bylo, namontováno, zařízení ,.. ]
+
+B0IsInLexic: true, B0Lemma: být, B0POS: VERB, B0Token: bylo, B1Lemma: namontovat, B1POS: VERB, B1Token: namontováno, S0B0Distance: 1, S0B0Lemma: ,_být, S0B0LemmaPOS: ,_VERB, S0B0POS: PUNCT_VERB, S0B0POSLemma: PUNCT_být, S0B0Token: ,_bylo, S0B1Lemma: ,_namontovat, S0B1LemmaPOS: ,_VERB, S0B1POS: PUNCT_VERB, S0B1POSLemma: PUNCT_namontovat, S0B1Token: ,_namontováno, S0IsInLexic: true, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bylo, namontováno, zařízení ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bylo]   B= [namontováno, zařízení, umožňující ,.. ]
+
+B0Lemma: namontovat, B0POS: VERB, B0Token: namontováno, B1Lemma: zařízení, B1POS: NOUN, B1Token: zařízení, S0B0Distance: 1, S0B0Lemma: být_namontovat, S0B0LemmaPOS: být_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_namontovat, S0B0Token: bylo_namontováno, S0B1Lemma: být_zařízení, S0B1LemmaPOS: být_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_zařízení, S0B1Token: bylo_zařízení, S0IsInLexic: true, S0Lemma: být, S0POS: VERB, S0Token: bylo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [namontováno, zařízení, umožňující ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [namontováno]   B= [zařízení, umožňující, nevidomým ,.. ]
+
+B0Lemma: zařízení, B0POS: NOUN, B0Token: zařízení, B1Lemma: umožňující, B1POS: ADJ, B1Token: umožňující, S0B0Distance: 1, S0B0Lemma: namontovat_zařízení, S0B0LemmaPOS: namontovat_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_zařízení, S0B0Token: namontováno_zařízení, S0B1Lemma: namontovat_umožňující, S0B1LemmaPOS: namontovat_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_umožňující, S0B1Token: namontováno_umožňující, S0Lemma: namontovat, S0POS: VERB, S0Token: namontováno, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zařízení, umožňující, nevidomým ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zařízení]   B= [umožňující, nevidomým, rozeznat ,.. ]
+
+B0Lemma: umožňující, B0POS: ADJ, B0Token: umožňující, B1Lemma: nevidomý, B1POS: NOUN, B1Token: nevidomým, S0B0Distance: 1, S0B0Lemma: zařízení_umožňující, S0B0LemmaPOS: zařízení_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_umožňující, S0B0Token: zařízení_umožňující, S0B1Lemma: zařízení_nevidomý, S0B1LemmaPOS: zařízení_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_nevidomý, S0B1Token: zařízení_nevidomým, S0Lemma: zařízení, S0POS: NOUN, S0Token: zařízení, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [umožňující, nevidomým, rozeznat ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [umožňující]   B= [nevidomým, rozeznat, , ,.. ]
+
+B0Lemma: nevidomý, B0POS: NOUN, B0Token: nevidomým, B1Lemma: rozeznat, B1POS: VERB, B1Token: rozeznat, S0B0Distance: 1, S0B0Lemma: umožňující_nevidomý, S0B0LemmaPOS: umožňující_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_nevidomý, S0B0Token: umožňující_nevidomým, S0B1Lemma: umožňující_rozeznat, S0B1LemmaPOS: umožňující_VERB, S0B1POS: ADJ_VERB, S0B1POSLemma: ADJ_rozeznat, S0B1Token: umožňující_rozeznat, S0Lemma: umožňující, S0POS: ADJ, S0Token: umožňující, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nevidomým, rozeznat, , ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nevidomým]   B= [rozeznat, ,, o ,.. ]
+
+B0Lemma: rozeznat, B0POS: VERB, B0Token: rozeznat, B1IsInLexic: true, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: nevidomý_rozeznat, S0B0LemmaPOS: nevidomý_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_rozeznat, S0B0Token: nevidomým_rozeznat, S0B1Lemma: nevidomý_,, S0B1LemmaPOS: nevidomý_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_,, S0B1Token: nevidomým_,, S0Lemma: nevidomý, S0POS: NOUN, S0Token: nevidomým, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rozeznat, ,, o ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rozeznat]   B= [,, o, jakou ,.. ]
+
+B0IsInLexic: true, B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: o, B1POS: ADP, B1Token: o, S0B0Distance: 1, S0B0Lemma: rozeznat_,, S0B0LemmaPOS: rozeznat_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_,, S0B0Token: rozeznat_,, S0B1Lemma: rozeznat_o, S0B1LemmaPOS: rozeznat_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_o, S0B1Token: rozeznat_o, S0Lemma: rozeznat, S0POS: VERB, S0Token: rozeznat, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, o, jakou ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [o, jakou, linku ,.. ]
+
+B0IsInLexic: true, B0Lemma: o, B0POS: ADP, B0Token: o, B1Lemma: jaký, B1POS: DET, B1Token: jakou, S0B0Distance: 1, S0B0Lemma: ,_o, S0B0LemmaPOS: ,_ADP, S0B0POS: PUNCT_ADP, S0B0POSLemma: PUNCT_o, S0B0Token: ,_o, S0B1Lemma: ,_jaký, S0B1LemmaPOS: ,_DET, S0B1POS: PUNCT_DET, S0B1POSLemma: PUNCT_jaký, S0B1Token: ,_jakou, S0IsInLexic: true, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, jakou, linku ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [jakou, linku, se ,.. ]
+
+B0Lemma: jaký, B0POS: DET, B0Token: jakou, B1Lemma: linka, B1POS: NOUN, B1Token: linku, S0B0Distance: 1, S0B0Lemma: o_jaký, S0B0LemmaPOS: o_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_jaký, S0B0Token: o_jakou, S0B1Lemma: o_linka, S0B1LemmaPOS: o_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_linka, S0B1Token: o_linku, S0IsInLexic: true, S0Lemma: o, S0POS: ADP, S0Token: o, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jakou, linku, se ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jakou]   B= [linku, se, jedná ,.. ]
+
+B0Lemma: linka, B0POS: NOUN, B0Token: linku, B1IsInLexic: true, B1Lemma: se, B1POS: PRON, B1Token: se, S0B0Distance: 1, S0B0Lemma: jaký_linka, S0B0LemmaPOS: jaký_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_linka, S0B0Token: jakou_linku, S0B1Lemma: jaký_se, S0B1LemmaPOS: jaký_PRON, S0B1POS: DET_PRON, S0B1POSLemma: DET_se, S0B1Token: jakou_se, S0Lemma: jaký, S0POS: DET, S0Token: jakou, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [linku, se, jedná ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [linku]   B= [se, jedná, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: se, B0POS: PRON, B0Token: se, B1IsInLexic: true, B1Lemma: jednat, B1POS: VERB, B1Token: jedná, S0B0Distance: 1, S0B0Lemma: linka_se, S0B0LemmaPOS: linka_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_se, S0B0Token: linku_se, S0B1Lemma: linka_jednat, S0B1LemmaPOS: linka_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_jednat, S0B1Token: linku_jedná, S0Lemma: linka, S0POS: NOUN, S0Token: linku, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, jedná, . ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [jedná, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: jednat, B0POS: VERB, B0Token: jedná, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: se_jednat, S0B0LemmaPOS: se_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_jednat, S0B0Token: se_jedná, S0B1Lemma: se_., S0B1LemmaPOS: se_PUNCT, S0B1POS: PRON_PUNCT, S0B1POSLemma: PRON_., S0B1Token: se_., S0IsInLexic: true, S0Lemma: se, S0POS: PRON, S0Token: se, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+68- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, jedná]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: jednat_., S0B0LemmaPOS: jednat_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: jedná_., S0IsInLexic: true, S0Lemma: jednat, S0POS: VERB, S0S1Distance: 1, S0Token: jedná, S1B0Lemma: se_., S1B0LemmaPOS: se_PUNCT, S1B0POS: PRON_PUNCT, S1B0POSLemma: PRON_., S1B0Token: se_., S1IsInLexic: true, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_jednat, S1S0LemmaPOS: se_VERB, S1S0POS: PRON_VERB, S1S0POSLemma: PRON_jednat, S1S0Token: se_jedná, S1Token: se, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+69- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, jedná]]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: se_jednat_., S0B0LemmaPOS: se_jednat_PUNCT, S0B0POS: PRON_VERB_PUNCT, S0B0POSLemma: PRON_VERB_., S0B0Token: se_jedná_., S0Lemma: se_jednat, S0POS: PRON_VERB, S0Token: se_jedná, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 20480 - 
+Nakonec se až v Norsku podařilo sehnat lodní reproduktor , který lze použít i 50 metrů pod vodou . 
 ### Existing MWEs: 
-1- **se dohodl** (IReflV, 42)
+1- **se podařilo** (IReflV, 137)
 ### Identified MWEs: 
-1- **se dohodl** 
+1- **se podařilo** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Nedávno, se, dohodl ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Nakonec, se, až ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Nedávno]   B= [se, dohodl, se ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Nakonec]   B= [se, až, v ,.. ]
 
-B0Lemma: se, B0POS: PRON, B0Token: se, B1Lemma: dohodnout, B1POS: VERB, B1Token: dohodl, S0B0Distance: 1, S0B0Lemma: nedávno_se, S0B0LemmaPOS: nedávno_PRON, S0B0POS: ADV_PRON, S0B0POSLemma: ADV_se, S0B0Token: Nedávno_se, S0B1Lemma: nedávno_dohodnout, S0B1LemmaPOS: nedávno_VERB, S0B1POS: ADV_VERB, S0B1POSLemma: ADV_dohodnout, S0B1Token: Nedávno_dohodl, S0Lemma: nedávno, S0POS: ADV, S0Token: Nedávno, 
+B0IsInLexic: true, B0Lemma: se, B0POS: PRON, B0Token: se, B1Lemma: až, B1POS: PART, B1Token: až, S0B0Distance: 1, S0B0Lemma: nakonec_se, S0B0LemmaPOS: nakonec_PRON, S0B0POS: ADV_PRON, S0B0POSLemma: ADV_se, S0B0Token: Nakonec_se, S0B1Lemma: nakonec_až, S0B1LemmaPOS: nakonec_PART, S0B1POS: ADV_PART, S0B1POSLemma: ADV_až, S0B1Token: Nakonec_až, S0Lemma: nakonec, S0POS: ADV, S0Token: Nakonec, StackLength: 1, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, dohodl, se ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, až, v ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [dohodl, se, vzdělávací ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [až, v, Norsku ,.. ]
 
-B0Lemma: dohodnout, B0POS: VERB, B0Token: dohodl, B1Lemma: s, B1POS: ADP, B1Token: se, S0B0Distance: 1, S0B0Lemma: se_dohodnout, S0B0LemmaPOS: se_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_dohodnout, S0B0Token: se_dohodl, S0B1Lemma: se_s, S0B1LemmaPOS: se_ADP, S0B1POS: PRON_ADP, S0B1POSLemma: PRON_s, S0B1Token: se_se, S0Lemma: se, S0POS: PRON, S0Token: se, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: až, B0POS: PART, B0Token: až, B1IsInLexic: true, B1Lemma: v, B1POS: ADP, B1Token: v, S0B0Distance: 1, S0B0Lemma: se_až, S0B0LemmaPOS: se_PART, S0B0POS: PRON_PART, S0B0POSLemma: PRON_až, S0B0Token: se_až, S0B1Lemma: se_v, S0B1LemmaPOS: se_ADP, S0B1POS: PRON_ADP, S0B1POSLemma: PRON_v, S0B1Token: se_v, S0IsInLexic: true, S0Lemma: se, S0POS: PRON, S0Token: se, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, dohodl]   B= [se, vzdělávací, agenturou ,.. ]
+4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, až]   B= [v, Norsku, podařilo ,.. ]
 
-B0Lemma: s, B0POS: ADP, B0Token: se, B1Lemma: vzdělávací, B1POS: ADJ, B1Token: vzdělávací, S0B0Distance: 1, S0B0Lemma: dohodnout_s, S0B0LemmaPOS: dohodnout_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_s, S0B0Token: dohodl_se, S0B1Lemma: dohodnout_vzdělávací, S0B1LemmaPOS: dohodnout_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_vzdělávací, S0B1Token: dohodl_vzdělávací, S0Lemma: dohodnout, S0POS: VERB, S0Token: dohodl, S1B0Lemma: se_s, S1B0LemmaPOS: se_ADP, S1B0POS: PRON_ADP, S1B0POSLemma: PRON_s, S1B0Token: se_se, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_dohodnout, S1S0LemmaPOS: se_VERB, S1S0POS: PRON_VERB, S1S0POSLemma: PRON_dohodnout, S1S0Token: se_dohodl, S1Token: se, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0IsInLexic: true, B0Lemma: v, B0POS: ADP, B0Token: v, B1Lemma: Norsko, B1POS: NOUN, B1Token: Norsku, S0B0Distance: 1, S0B0Lemma: až_v, S0B0LemmaPOS: až_ADP, S0B0POS: PART_ADP, S0B0POSLemma: PART_v, S0B0Token: až_v, S0B1Lemma: až_Norsko, S0B1LemmaPOS: až_NOUN, S0B1POS: PART_NOUN, S0B1POSLemma: PART_Norsko, S0B1Token: až_Norsku, S0Lemma: až, S0POS: PART, S0S1Distance: 1, S0Token: až, S1B0Lemma: se_v, S1B0LemmaPOS: se_ADP, S1B0POS: PRON_ADP, S1B0POSLemma: PRON_v, S1B0Token: se_v, S1IsInLexic: true, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_až, S1S0LemmaPOS: se_PART, S1S0POS: PRON_PART, S1S0POSLemma: PRON_až, S1S0Token: se_až, S1Token: se, StackLength: 2, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-5- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, dohodl]]   B= [se, vzdělávací, agenturou ,.. ]
+5- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [v, Norsku, podařilo ,.. ]
 
-B0Lemma: s, B0POS: ADP, B0Token: se, B1Lemma: vzdělávací, B1POS: ADJ, B1Token: vzdělávací, S0B0Distance: 1, S0B0Lemma: se_dohodnout_s, S0B0LemmaPOS: se_dohodnout_ADP, S0B0POS: PRON_VERB_ADP, S0B0POSLemma: PRON_VERB_s, S0B0Token: se_dohodl_se, S0B1Lemma: se_dohodnout_vzdělávací, S0B1LemmaPOS: se_dohodnout_ADJ, S0B1POS: PRON_VERB_ADJ, S0B1POSLemma: PRON_VERB_vzdělávací, S0B1Token: se_dohodl_vzdělávací, S0Lemma: se_dohodnout, S0POS: PRON_VERB, S0Token: se_dohodl, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0IsInLexic: true, B0Lemma: v, B0POS: ADP, B0Token: v, B1Lemma: Norsko, B1POS: NOUN, B1Token: Norsku, S0B0Distance: 2, S0B0Lemma: se_v, S0B0LemmaPOS: se_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_v, S0B0Token: se_v, S0B1Lemma: se_Norsko, S0B1LemmaPOS: se_NOUN, S0B1POS: PRON_NOUN, S0B1POSLemma: PRON_Norsko, S0B1Token: se_Norsku, S0IsInLexic: true, S0Lemma: se, S0POS: PRON, S0Token: se, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, vzdělávací, agenturou ,.. ]
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, v]   B= [Norsku, podařilo, sehnat ,.. ]
 
+B0Lemma: Norsko, B0POS: NOUN, B0Token: Norsku, B1IsInLexic: true, B1Lemma: podařit, B1POS: VERB, B1Token: podařilo, S0B0Distance: 1, S0B0Lemma: v_Norsko, S0B0LemmaPOS: v_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_Norsko, S0B0Token: v_Norsku, S0B1Lemma: v_podařit, S0B1LemmaPOS: v_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_podařit, S0B1Token: v_podařilo, S0IsInLexic: true, S0Lemma: v, S0POS: ADP, S0S1Distance: 2, S0Token: v, S1B0Lemma: se_Norsko, S1B0LemmaPOS: se_NOUN, S1B0POS: PRON_NOUN, S1B0POSLemma: PRON_Norsko, S1B0Token: se_Norsku, S1IsInLexic: true, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_v, S1S0LemmaPOS: se_ADP, S1S0POS: PRON_ADP, S1S0POSLemma: PRON_v, S1S0Token: se_v, S1Token: se, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
 
+7- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [Norsku, podařilo, sehnat ,.. ]
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [vzdělávací, agenturou, Kredo ,.. ]
+B0Lemma: Norsko, B0POS: NOUN, B0Token: Norsku, B1IsInLexic: true, B1Lemma: podařit, B1POS: VERB, B1Token: podařilo, S0B0Distance: 3, S0B0Lemma: se_Norsko, S0B0LemmaPOS: se_NOUN, S0B0POS: PRON_NOUN, S0B0POSLemma: PRON_Norsko, S0B0Token: se_Norsku, S0B1Lemma: se_podařit, S0B1LemmaPOS: se_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_podařit, S0B1Token: se_podařilo, S0IsInLexic: true, S0Lemma: se, S0POS: PRON, S0Token: se, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-B0Lemma: vzdělávací, B0POS: ADJ, B0Token: vzdělávací, B1Lemma: agentura, B1POS: NOUN, B1Token: agenturou, S0B0Distance: 1, S0B0Lemma: s_vzdělávací, S0B0LemmaPOS: s_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_vzdělávací, S0B0Token: se_vzdělávací, S0B1Lemma: s_agentura, S0B1LemmaPOS: s_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_agentura, S0B1Token: se_agenturou, S0Lemma: s, S0POS: ADP, S0Token: se, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, Norsku]   B= [podařilo, sehnat, lodní ,.. ]
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vzdělávací, agenturou, Kredo ,.. ]
+B0IsInLexic: true, B0Lemma: podařit, B0POS: VERB, B0Token: podařilo, B1Lemma: sehnat, B1POS: VERB, B1Token: sehnat, S0B0Distance: 1, S0B0Lemma: Norsko_podařit, S0B0LemmaPOS: Norsko_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_podařit, S0B0Token: Norsku_podařilo, S0B1Lemma: Norsko_sehnat, S0B1LemmaPOS: Norsko_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_sehnat, S0B1Token: Norsku_sehnat, S0Lemma: Norsko, S0POS: NOUN, S0S1Distance: 3, S0Token: Norsku, S1B0Lemma: se_podařit, S1B0LemmaPOS: se_VERB, S1B0POS: PRON_VERB, S1B0POSLemma: PRON_podařit, S1B0Token: se_podařilo, S1IsInLexic: true, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_Norsko, S1S0LemmaPOS: se_NOUN, S1S0POS: PRON_NOUN, S1S0POSLemma: PRON_Norsko, S1S0Token: se_Norsku, S1Token: se, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+9- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [podařilo, sehnat, lodní ,.. ]
 
+B0IsInLexic: true, B0Lemma: podařit, B0POS: VERB, B0Token: podařilo, B1Lemma: sehnat, B1POS: VERB, B1Token: sehnat, S0B0Distance: 4, S0B0Lemma: se_podařit, S0B0LemmaPOS: se_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_podařit, S0B0Token: se_podařilo, S0B1Lemma: se_sehnat, S0B1LemmaPOS: se_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_sehnat, S0B1Token: se_sehnat, S0IsInLexic: true, S0Lemma: se, S0POS: PRON, S0Token: se, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vzdělávací]   B= [agenturou, Kredo, a ,.. ]
+10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, podařilo]   B= [sehnat, lodní, reproduktor ,.. ]
 
-B0Lemma: agentura, B0POS: NOUN, B0Token: agenturou, B1Lemma: Kredo, B1POS: NOUN, B1Token: Kredo, S0B0Distance: 1, S0B0Lemma: vzdělávací_agentura, S0B0LemmaPOS: vzdělávací_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_agentura, S0B0Token: vzdělávací_agenturou, S0B1Lemma: vzdělávací_Kredo, S0B1LemmaPOS: vzdělávací_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_Kredo, S0B1Token: vzdělávací_Kredo, S0Lemma: vzdělávací, S0POS: ADJ, S0Token: vzdělávací, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: sehnat, B0POS: VERB, B0Token: sehnat, B1Lemma: lodní, B1POS: ADJ, B1Token: lodní, S0B0Distance: 1, S0B0Lemma: podařit_sehnat, S0B0LemmaPOS: podařit_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_sehnat, S0B0Token: podařilo_sehnat, S0B1Lemma: podařit_lodní, S0B1LemmaPOS: podařit_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_lodní, S0B1Token: podařilo_lodní, S0IsInLexic: true, S0Lemma: podařit, S0POS: VERB, S0S1Distance: 4, S0Token: podařilo, S1B0Lemma: se_sehnat, S1B0LemmaPOS: se_VERB, S1B0POS: PRON_VERB, S1B0POSLemma: PRON_sehnat, S1B0Token: se_sehnat, S1IsInLexic: true, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_podařit, S1S0LemmaPOS: se_VERB, S1S0POS: PRON_VERB, S1S0POSLemma: PRON_podařit, S1S0Token: se_podařilo, S1Token: se, StackLength: 2, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [agenturou, Kredo, a ,.. ]
+11- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, podařilo]]   B= [sehnat, lodní, reproduktor ,.. ]
 
+B0Lemma: sehnat, B0POS: VERB, B0Token: sehnat, B1Lemma: lodní, B1POS: ADJ, B1Token: lodní, S0B0Distance: 1, S0B0Lemma: se_podařit_sehnat, S0B0LemmaPOS: se_podařit_VERB, S0B0POS: PRON_VERB_VERB, S0B0POSLemma: PRON_VERB_sehnat, S0B0Token: se_podařilo_sehnat, S0B1Lemma: se_podařit_lodní, S0B1LemmaPOS: se_podařit_ADJ, S0B1POS: PRON_VERB_ADJ, S0B1POSLemma: PRON_VERB_lodní, S0B1Token: se_podařilo_lodní, S0Lemma: se_podařit, S0POS: PRON_VERB, S0Token: se_podařilo, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sehnat, lodní, reproduktor ,.. ]
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [agenturou]   B= [Kredo, a, ta ,.. ]
 
-B0Lemma: Kredo, B0POS: NOUN, B0Token: Kredo, B1Lemma: a, B1POS: CONJ, B1Token: a, S0B0Distance: 1, S0B0Lemma: agentura_Kredo, S0B0LemmaPOS: agentura_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Kredo, S0B0Token: agenturou_Kredo, S0B1Lemma: agentura_a, S0B1LemmaPOS: agentura_CONJ, S0B1POS: NOUN_CONJ, S0B1POSLemma: NOUN_a, S0B1Token: agenturou_a, S0Lemma: agentura, S0POS: NOUN, S0Token: agenturou, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kredo, a, ta ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sehnat]   B= [lodní, reproduktor, , ,.. ]
 
+B0Lemma: lodní, B0POS: ADJ, B0Token: lodní, B1Lemma: reproduktor, B1POS: NOUN, B1Token: reproduktor, S0B0Distance: 1, S0B0Lemma: sehnat_lodní, S0B0LemmaPOS: sehnat_ADJ, S0B0POS: VERB_ADJ, S0B0POSLemma: VERB_lodní, S0B0Token: sehnat_lodní, S0B1Lemma: sehnat_reproduktor, S0B1LemmaPOS: sehnat_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_reproduktor, S0B1Token: sehnat_reproduktor, S0Lemma: sehnat, S0POS: VERB, S0Token: sehnat, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
 
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lodní, reproduktor, , ,.. ]
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kredo]   B= [a, ta, zařadila ,.. ]
 
-B0Lemma: a, B0POS: CONJ, B0Token: a, B1Lemma: ten, B1POS: DET, B1Token: ta, S0B0Distance: 1, S0B0Lemma: Kredo_a, S0B0LemmaPOS: Kredo_CONJ, S0B0POS: NOUN_CONJ, S0B0POSLemma: NOUN_a, S0B0Token: Kredo_a, S0B1Lemma: Kredo_ten, S0B1LemmaPOS: Kredo_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_ten, S0B1Token: Kredo_ta, S0Lemma: Kredo, S0POS: NOUN, S0Token: Kredo, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, ta, zařadila ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lodní]   B= [reproduktor, ,, který ,.. ]
 
+B0Lemma: reproduktor, B0POS: NOUN, B0Token: reproduktor, B1IsInLexic: true, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: lodní_reproduktor, S0B0LemmaPOS: lodní_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_reproduktor, S0B0Token: lodní_reproduktor, S0B1Lemma: lodní_,, S0B1LemmaPOS: lodní_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_,, S0B1Token: lodní_,, S0Lemma: lodní, S0POS: ADJ, S0Token: lodní, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [reproduktor, ,, který ,.. ]
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [ta, zařadila, kurzy ,.. ]
 
-B0Lemma: ten, B0POS: DET, B0Token: ta, B1Lemma: zařadit, B1POS: VERB, B1Token: zařadila, S0B0Distance: 1, S0B0Lemma: a_ten, S0B0LemmaPOS: a_DET, S0B0POS: CONJ_DET, S0B0POSLemma: CONJ_ten, S0B0Token: a_ta, S0B1Lemma: a_zařadit, S0B1LemmaPOS: a_VERB, S0B1POS: CONJ_VERB, S0B1POSLemma: CONJ_zařadit, S0B1Token: a_zařadila, S0Lemma: a, S0POS: CONJ, S0Token: a, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ta, zařadila, kurzy ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [reproduktor]   B= [,, který, lze ,.. ]
 
+B0IsInLexic: true, B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: který, B1POS: DET, B1Token: který, S0B0Distance: 1, S0B0Lemma: reproduktor_,, S0B0LemmaPOS: reproduktor_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: reproduktor_,, S0B1Lemma: reproduktor_který, S0B1LemmaPOS: reproduktor_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_který, S0B1Token: reproduktor_který, S0Lemma: reproduktor, S0POS: NOUN, S0Token: reproduktor, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, který, lze ,.. ]
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ta]   B= [zařadila, kurzy, na ,.. ]
 
-B0Lemma: zařadit, B0POS: VERB, B0Token: zařadila, B1Lemma: kurs, B1POS: NOUN, B1Token: kurzy, S0B0Distance: 1, S0B0Lemma: ten_zařadit, S0B0LemmaPOS: ten_VERB, S0B0POS: DET_VERB, S0B0POSLemma: DET_zařadit, S0B0Token: ta_zařadila, S0B1Lemma: ten_kurs, S0B1LemmaPOS: ten_NOUN, S0B1POS: DET_NOUN, S0B1POSLemma: DET_kurs, S0B1Token: ta_kurzy, S0Lemma: ten, S0POS: DET, S0Token: ta, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zařadila, kurzy, na ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [který, lze, použít ,.. ]
 
+B0IsInLexic: true, B0Lemma: který, B0POS: DET, B0Token: který, B1Lemma: lze, B1POS: VERB, B1Token: lze, S0B0Distance: 1, S0B0Lemma: ,_který, S0B0LemmaPOS: ,_DET, S0B0POS: PUNCT_DET, S0B0POSLemma: PUNCT_který, S0B0Token: ,_který, S0B1Lemma: ,_lze, S0B1LemmaPOS: ,_VERB, S0B1POS: PUNCT_VERB, S0B1POSLemma: PUNCT_lze, S0B1Token: ,_lze, S0IsInLexic: true, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [který, lze, použít ,.. ]
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zařadila]   B= [kurzy, na, jeho ,.. ]
 
-B0Lemma: kurs, B0POS: NOUN, B0Token: kurzy, B1Lemma: na, B1POS: ADP, B1Token: na, S0B0Distance: 1, S0B0Lemma: zařadit_kurs, S0B0LemmaPOS: zařadit_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_kurs, S0B0Token: zařadila_kurzy, S0B1Lemma: zařadit_na, S0B1LemmaPOS: zařadit_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_na, S0B1Token: zařadila_na, S0Lemma: zařadit, S0POS: VERB, S0Token: zařadila, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kurzy, na, jeho ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [který]   B= [lze, použít, i ,.. ]
 
+B0Lemma: lze, B0POS: VERB, B0Token: lze, B1Lemma: použít, B1POS: VERB, B1Token: použít, S0B0Distance: 1, S0B0Lemma: který_lze, S0B0LemmaPOS: který_VERB, S0B0POS: DET_VERB, S0B0POSLemma: DET_lze, S0B0Token: který_lze, S0B1Lemma: který_použít, S0B1LemmaPOS: který_VERB, S0B1POS: DET_VERB, S0B1POSLemma: DET_použít, S0B1Token: který_použít, S0IsInLexic: true, S0Lemma: který, S0POS: DET, S0Token: který, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lze, použít, i ,.. ]
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kurzy]   B= [na, jeho, ovládání ,.. ]
 
-B0Lemma: na, B0POS: ADP, B0Token: na, B1Lemma: jeho, B1POS: DET, B1Token: jeho, S0B0Distance: 1, S0B0Lemma: kurs_na, S0B0LemmaPOS: kurs_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_na, S0B0Token: kurzy_na, S0B1Lemma: kurs_jeho, S0B1LemmaPOS: kurs_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_jeho, S0B1Token: kurzy_jeho, S0Lemma: kurs, S0POS: NOUN, S0Token: kurzy, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [na, jeho, ovládání ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lze]   B= [použít, i, 50 ,.. ]
 
+B0Lemma: použít, B0POS: VERB, B0Token: použít, B1Lemma: i, B1POS: CONJ, B1Token: i, S0B0Distance: 1, S0B0Lemma: lze_použít, S0B0LemmaPOS: lze_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_použít, S0B0Token: lze_použít, S0B1Lemma: lze_i, S0B1LemmaPOS: lze_CONJ, S0B1POS: VERB_CONJ, S0B1POSLemma: VERB_i, S0B1Token: lze_i, S0Lemma: lze, S0POS: VERB, S0Token: lze, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [použít, i, 50 ,.. ]
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [na]   B= [jeho, ovládání, do ,.. ]
 
-B0Lemma: jeho, B0POS: DET, B0Token: jeho, B1Lemma: ovládání, B1POS: NOUN, B1Token: ovládání, S0B0Distance: 1, S0B0Lemma: na_jeho, S0B0LemmaPOS: na_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_jeho, S0B0Token: na_jeho, S0B1Lemma: na_ovládání, S0B1LemmaPOS: na_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_ovládání, S0B1Token: na_ovládání, S0Lemma: na, S0POS: ADP, S0Token: na, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jeho, ovládání, do ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [použít]   B= [i, 50, metrů ,.. ]
 
+B0Lemma: i, B0POS: CONJ, B0Token: i, B1Lemma: 50, B1POS: NUM, B1Token: 50, S0B0Distance: 1, S0B0Lemma: použít_i, S0B0LemmaPOS: použít_CONJ, S0B0POS: VERB_CONJ, S0B0POSLemma: VERB_i, S0B0Token: použít_i, S0B1Lemma: použít_50, S0B1LemmaPOS: použít_NUM, S0B1POS: VERB_NUM, S0B1POSLemma: VERB_50, S0B1Token: použít_50, S0Lemma: použít, S0POS: VERB, S0Token: použít, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [i, 50, metrů ,.. ]
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jeho]   B= [ovládání, do, svého ,.. ]
 
-B0Lemma: ovládání, B0POS: NOUN, B0Token: ovládání, B1Lemma: do, B1POS: ADP, B1Token: do, S0B0Distance: 1, S0B0Lemma: jeho_ovládání, S0B0LemmaPOS: jeho_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_ovládání, S0B0Token: jeho_ovládání, S0B1Lemma: jeho_do, S0B1LemmaPOS: jeho_ADP, S0B1POS: DET_ADP, S0B1POSLemma: DET_do, S0B1Token: jeho_do, S0Lemma: jeho, S0POS: DET, S0Token: jeho, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ovládání, do, svého ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [i]   B= [50, metrů, pod ,.. ]
 
+B0Lemma: 50, B0POS: NUM, B0Token: 50, B1Lemma: metr, B1POS: NOUN, B1Token: metrů, S0B0Distance: 1, S0B0Lemma: i_50, S0B0LemmaPOS: i_NUM, S0B0POS: CONJ_NUM, S0B0POSLemma: CONJ_50, S0B0Token: i_50, S0B1Lemma: i_metr, S0B1LemmaPOS: i_NOUN, S0B1POS: CONJ_NOUN, S0B1POSLemma: CONJ_metr, S0B1Token: i_metrů, S0Lemma: i, S0POS: CONJ, S0Token: i, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [50, metrů, pod ,.. ]
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ovládání]   B= [do, svého, jarního ,.. ]
 
-B0Lemma: do, B0POS: ADP, B0Token: do, B1Lemma: svůj, B1POS: DET, B1Token: svého, S0B0Distance: 1, S0B0Lemma: ovládání_do, S0B0LemmaPOS: ovládání_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_do, S0B0Token: ovládání_do, S0B1Lemma: ovládání_svůj, S0B1LemmaPOS: ovládání_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_svůj, S0B1Token: ovládání_svého, S0Lemma: ovládání, S0POS: NOUN, S0Token: ovládání, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [do, svého, jarního ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [50]   B= [metrů, pod, vodou ,.. ]
 
+B0Lemma: metr, B0POS: NOUN, B0Token: metrů, B1IsInLexic: true, B1Lemma: pod, B1POS: ADP, B1Token: pod, S0B0Distance: 1, S0B0Lemma: 50_metr, S0B0LemmaPOS: 50_NOUN, S0B0POS: NUM_NOUN, S0B0POSLemma: NUM_metr, S0B0Token: 50_metrů, S0B1Lemma: 50_pod, S0B1LemmaPOS: 50_ADP, S0B1POS: NUM_ADP, S0B1POSLemma: NUM_pod, S0B1Token: 50_pod, S0Lemma: 50, S0POS: NUM, S0Token: 50, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [metrů, pod, vodou ,.. ]
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [do]   B= [svého, jarního, a ,.. ]
 
-B0Lemma: svůj, B0POS: DET, B0Token: svého, B1Lemma: jarní, B1POS: ADJ, B1Token: jarního, S0B0Distance: 1, S0B0Lemma: do_svůj, S0B0LemmaPOS: do_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_svůj, S0B0Token: do_svého, S0B1Lemma: do_jarní, S0B1LemmaPOS: do_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_jarní, S0B1Token: do_jarního, S0Lemma: do, S0POS: ADP, S0Token: do, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [svého, jarního, a ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [metrů]   B= [pod, vodou, . ,.. ]
 
+B0IsInLexic: true, B0Lemma: pod, B0POS: ADP, B0Token: pod, B1IsInLexic: true, B1Lemma: voda, B1POS: NOUN, B1Token: vodou, S0B0Distance: 1, S0B0Lemma: metr_pod, S0B0LemmaPOS: metr_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_pod, S0B0Token: metrů_pod, S0B1Lemma: metr_voda, S0B1LemmaPOS: metr_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_voda, S0B1Token: metrů_vodou, S0Lemma: metr, S0POS: NOUN, S0Token: metrů, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pod, vodou, . ,.. ]
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [svého]   B= [jarního, a, letního ,.. ]
 
-B0Lemma: jarní, B0POS: ADJ, B0Token: jarního, B1Lemma: a, B1POS: CONJ, B1Token: a, S0B0Distance: 1, S0B0Lemma: svůj_jarní, S0B0LemmaPOS: svůj_ADJ, S0B0POS: DET_ADJ, S0B0POSLemma: DET_jarní, S0B0Token: svého_jarního, S0B1Lemma: svůj_a, S0B1LemmaPOS: svůj_CONJ, S0B1POS: DET_CONJ, S0B1POSLemma: DET_a, S0B1Token: svého_a, S0Lemma: svůj, S0POS: DET, S0Token: svého, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jarního, a, letního ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pod]   B= [vodou, . ,.. ]
 
+B0IsInLexic: true, B0Lemma: voda, B0POS: NOUN, B0Token: vodou, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: pod_voda, S0B0LemmaPOS: pod_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_voda, S0B0Token: pod_vodou, S0B1Lemma: pod_., S0B1LemmaPOS: pod_PUNCT, S0B1POS: ADP_PUNCT, S0B1POSLemma: ADP_., S0B1Token: pod_., S0IsInLexic: true, S0Lemma: pod, S0POS: ADP, S0Token: pod, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vodou, . ,.. ]
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jarního]   B= [a, letního, programu ,.. ]
 
-B0Lemma: a, B0POS: CONJ, B0Token: a, B1Lemma: letní, B1POS: ADJ, B1Token: letního, S0B0Distance: 1, S0B0Lemma: jarní_a, S0B0LemmaPOS: jarní_CONJ, S0B0POS: ADJ_CONJ, S0B0POSLemma: ADJ_a, S0B0Token: jarního_a, S0B1Lemma: jarní_letní, S0B1LemmaPOS: jarní_ADJ, S0B1POS: ADJ_ADJ, S0B1POSLemma: ADJ_letní, S0B1Token: jarního_letního, S0Lemma: jarní, S0POS: ADJ, S0Token: jarního, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, letního, programu ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vodou]   B= [.]
 
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: voda_., S0B0LemmaPOS: voda_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: vodou_., S0IsInLexic: true, S0Lemma: voda, S0POS: NOUN, S0Token: vodou, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [letního, programu, . ,.. ]
 
-B0Lemma: letní, B0POS: ADJ, B0Token: letního, B1Lemma: program, B1POS: NOUN, B1Token: programu, S0B0Distance: 1, S0B0Lemma: a_letní, S0B0LemmaPOS: a_ADJ, S0B0POS: CONJ_ADJ, S0B0POSLemma: CONJ_letní, S0B0Token: a_letního, S0B1Lemma: a_program, S0B1LemmaPOS: a_NOUN, S0B1POS: CONJ_NOUN, S0B1POSLemma: CONJ_program, S0B1Token: a_programu, S0Lemma: a, S0POS: CONJ, S0Token: a, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [letního, programu, . ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [letního]   B= [programu, . ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-B0Lemma: program, B0POS: NOUN, B0Token: programu, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: letní_program, S0B0LemmaPOS: letní_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_program, S0B0Token: letního_programu, S0B1Lemma: letní_., S0B1LemmaPOS: letní_PUNCT, S0B1POS: ADJ_PUNCT, S0B1POSLemma: ADJ_., S0B1Token: letního_., S0Lemma: letní, S0POS: ADJ, S0Token: letního, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [programu, . ,.. ]
-
-
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [programu]   B= [.]
-
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: program_., S0B0LemmaPOS: program_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: programu_., S0Lemma: program, S0POS: NOUN, S0Token: programu, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 10550 - 
-Úřad vysokého komisaře OSN pro uprchlíky má obavy , že ani zairská vláda nebude schopna zajistit bezpečnost pracovníků humanitární pomoci ani stovek tisíc uprchlíků . 
+## Sentence No. 20535 - 
+Třicetiletý rodák z Puuppoly měl spolu se svým spolujezdcem Seppo Harjannem v cíli 1558 km dlouhého závodu náskok 22 sekund před Francouzem Didierem Auriolem a 1 : 04 min . před španělskou posádkou Carlos Sainz / Luis Moya . 
 ### Existing MWEs: 
-1- **má obavy** (LVC, 4)
-### Identified MWEs: 
-1- **má obavy** 
+1- **měl náskok** (LVC, 4)
 
 
 
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Třicetiletý, rodák, z ,.. ]
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Úřad, vysokého, komisaře ,.. ]
 
 
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Třicetiletý]   B= [rodák, z, Puuppoly ,.. ]
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Úřad]   B= [vysokého, komisaře, OSN ,.. ]
+B0Lemma: rodák, B0POS: NOUN, B0Token: rodák, B1IsInLexic: true, B1Lemma: z, B1POS: ADP, B1Token: z, S0B0Distance: 1, S0B0Lemma: třicetiletý_rodák, S0B0LemmaPOS: třicetiletý_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_rodák, S0B0Token: Třicetiletý_rodák, S0B1Lemma: třicetiletý_z, S0B1LemmaPOS: třicetiletý_ADP, S0B1POS: ADJ_ADP, S0B1POSLemma: ADJ_z, S0B1Token: Třicetiletý_z, S0Lemma: třicetiletý, S0POS: ADJ, S0Token: Třicetiletý, StackLength: 1, 
 
-B0Lemma: vysoký, B0POS: ADJ, B0Token: vysokého, B1Lemma: komisař, B1POS: NOUN, B1Token: komisaře, S0B0Distance: 1, S0B0Lemma: úřad_vysoký, S0B0LemmaPOS: úřad_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_vysoký, S0B0Token: Úřad_vysokého, S0B1Lemma: úřad_komisař, S0B1LemmaPOS: úřad_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_komisař, S0B1Token: Úřad_komisaře, S0Lemma: úřad, S0POS: NOUN, S0Token: Úřad, 
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rodák, z, Puuppoly ,.. ]
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vysokého, komisaře, OSN ,.. ]
 
 
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rodák]   B= [z, Puuppoly, měl ,.. ]
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vysokého]   B= [komisaře, OSN, pro ,.. ]
+B0IsInLexic: true, B0Lemma: z, B0POS: ADP, B0Token: z, B1Lemma: Puuppola, B1POS: NOUN, B1Token: Puuppoly, S0B0Distance: 1, S0B0Lemma: rodák_z, S0B0LemmaPOS: rodák_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_z, S0B0Token: rodák_z, S0B1Lemma: rodák_Puuppola, S0B1LemmaPOS: rodák_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_Puuppola, S0B1Token: rodák_Puuppoly, S0Lemma: rodák, S0POS: NOUN, S0Token: rodák, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-B0Lemma: komisař, B0POS: NOUN, B0Token: komisaře, B1Lemma: OSN, B1POS: NOUN, B1Token: OSN, S0B0Distance: 1, S0B0Lemma: vysoký_komisař, S0B0LemmaPOS: vysoký_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_komisař, S0B0Token: vysokého_komisaře, S0B1Lemma: vysoký_OSN, S0B1LemmaPOS: vysoký_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_OSN, S0B1Token: vysokého_OSN, S0Lemma: vysoký, S0POS: ADJ, S0Token: vysokého, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [z, Puuppoly, měl ,.. ]
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [komisaře, OSN, pro ,.. ]
 
 
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [z]   B= [Puuppoly, měl, spolu ,.. ]
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [komisaře]   B= [OSN, pro, uprchlíky ,.. ]
+B0Lemma: Puuppola, B0POS: NOUN, B0Token: Puuppoly, B1IsInLexic: true, B1Lemma: mít, B1POS: VERB, B1Token: měl, S0B0Distance: 1, S0B0Lemma: z_Puuppola, S0B0LemmaPOS: z_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_Puuppola, S0B0Token: z_Puuppoly, S0B1Lemma: z_mít, S0B1LemmaPOS: z_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_mít, S0B1Token: z_měl, S0IsInLexic: true, S0Lemma: z, S0POS: ADP, S0Token: z, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: OSN, B0POS: NOUN, B0Token: OSN, B1Lemma: pro, B1POS: ADP, B1Token: pro, S0B0Distance: 1, S0B0Lemma: komisař_OSN, S0B0LemmaPOS: komisař_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_OSN, S0B0Token: komisaře_OSN, S0B1Lemma: komisař_pro, S0B1LemmaPOS: komisař_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_pro, S0B1Token: komisaře_pro, S0Lemma: komisař, S0POS: NOUN, S0Token: komisaře, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Puuppoly, měl, spolu ,.. ]
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [OSN, pro, uprchlíky ,.. ]
 
 
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Puuppoly]   B= [měl, spolu, se ,.. ]
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [OSN]   B= [pro, uprchlíky, má ,.. ]
+B0IsInLexic: true, B0Lemma: mít, B0POS: VERB, B0Token: měl, B1Lemma: spolu, B1POS: ADV, B1Token: spolu, S0B0Distance: 1, S0B0Lemma: Puuppola_mít, S0B0LemmaPOS: Puuppola_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_mít, S0B0Token: Puuppoly_měl, S0B1Lemma: Puuppola_spolu, S0B1LemmaPOS: Puuppola_ADV, S0B1POS: NOUN_ADV, S0B1POSLemma: NOUN_spolu, S0B1Token: Puuppoly_spolu, S0Lemma: Puuppola, S0POS: NOUN, S0Token: Puuppoly, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: pro, B0POS: ADP, B0Token: pro, B1Lemma: uprchlík, B1POS: NOUN, B1Token: uprchlíky, S0B0Distance: 1, S0B0Lemma: OSN_pro, S0B0LemmaPOS: OSN_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_pro, S0B0Token: OSN_pro, S0B1Lemma: OSN_uprchlík, S0B1LemmaPOS: OSN_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_uprchlík, S0B1Token: OSN_uprchlíky, S0Lemma: OSN, S0POS: NOUN, S0Token: OSN, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [měl, spolu, se ,.. ]
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pro, uprchlíky, má ,.. ]
 
 
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [měl]   B= [spolu, se, svým ,.. ]
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pro]   B= [uprchlíky, má, obavy ,.. ]
+B0Lemma: spolu, B0POS: ADV, B0Token: spolu, B1IsInLexic: true, B1Lemma: s, B1POS: ADP, B1Token: se, S0B0Distance: 1, S0B0Lemma: mít_spolu, S0B0LemmaPOS: mít_ADV, S0B0POS: VERB_ADV, S0B0POSLemma: VERB_spolu, S0B0Token: měl_spolu, S0B1Lemma: mít_s, S0B1LemmaPOS: mít_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_s, S0B1Token: měl_se, S0IsInLexic: true, S0Lemma: mít, S0POS: VERB, S0Token: měl, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: uprchlík, B0POS: NOUN, B0Token: uprchlíky, B1Lemma: mít, B1POS: VERB, B1Token: má, S0B0Distance: 1, S0B0Lemma: pro_uprchlík, S0B0LemmaPOS: pro_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_uprchlík, S0B0Token: pro_uprchlíky, S0B1Lemma: pro_mít, S0B1LemmaPOS: pro_VERB, S0B1POS: ADP_VERB, S0B1POSLemma: ADP_mít, S0B1Token: pro_má, S0Lemma: pro, S0POS: ADP, S0Token: pro, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [spolu, se, svým ,.. ]
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [uprchlíky, má, obavy ,.. ]
 
 
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [spolu]   B= [se, svým, spolujezdcem ,.. ]
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uprchlíky]   B= [má, obavy, , ,.. ]
+B0IsInLexic: true, B0Lemma: s, B0POS: ADP, B0Token: se, B1IsInLexic: true, B1Lemma: svůj, B1POS: DET, B1Token: svým, S0B0Distance: 1, S0B0Lemma: spolu_s, S0B0LemmaPOS: spolu_ADP, S0B0POS: ADV_ADP, S0B0POSLemma: ADV_s, S0B0Token: spolu_se, S0B1Lemma: spolu_svůj, S0B1LemmaPOS: spolu_DET, S0B1POS: ADV_DET, S0B1POSLemma: ADV_svůj, S0B1Token: spolu_svým, S0Lemma: spolu, S0POS: ADV, S0Token: spolu, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: mít, B0POS: VERB, B0Token: má, B1Lemma: obava, B1POS: NOUN, B1Token: obavy, S0B0Distance: 1, S0B0Lemma: uprchlík_mít, S0B0LemmaPOS: uprchlík_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_mít, S0B0Token: uprchlíky_má, S0B1Lemma: uprchlík_obava, S0B1LemmaPOS: uprchlík_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_obava, S0B1Token: uprchlíky_obavy, S0Lemma: uprchlík, S0POS: NOUN, S0Token: uprchlíky, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, svým, spolujezdcem ,.. ]
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [má, obavy, , ,.. ]
 
 
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [svým, spolujezdcem, Seppo ,.. ]
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [má]   B= [obavy, ,, že ,.. ]
+B0IsInLexic: true, B0Lemma: svůj, B0POS: DET, B0Token: svým, B1Lemma: spolujezdec, B1POS: NOUN, B1Token: spolujezdcem, S0B0Distance: 1, S0B0Lemma: s_svůj, S0B0LemmaPOS: s_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_svůj, S0B0Token: se_svým, S0B1Lemma: s_spolujezdec, S0B1LemmaPOS: s_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_spolujezdec, S0B1Token: se_spolujezdcem, S0IsInLexic: true, S0Lemma: s, S0POS: ADP, S0Token: se, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-B0Lemma: obava, B0POS: NOUN, B0Token: obavy, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: mít_obava, S0B0LemmaPOS: mít_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_obava, S0B0Token: má_obavy, S0B1Lemma: mít_,, S0B1LemmaPOS: mít_PUNCT, S0B1POS: VERB_PUNCT, S0B1POSLemma: VERB_,, S0B1Token: má_,, S0Lemma: mít, S0POS: VERB, S0Token: má, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [svým, spolujezdcem, Seppo ,.. ]
 
-14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [má, obavy]   B= [,, že, ani ,.. ]
 
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: že, B1POS: SCONJ, B1Token: že, S0B0Distance: 1, S0B0Lemma: obava_,, S0B0LemmaPOS: obava_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: obavy_,, S0B1Lemma: obava_že, S0B1LemmaPOS: obava_SCONJ, S0B1POS: NOUN_SCONJ, S0B1POSLemma: NOUN_že, S0B1Token: obavy_že, S0Lemma: obava, S0POS: NOUN, S0Token: obavy, S1B0Lemma: mít_,, S1B0LemmaPOS: mít_PUNCT, S1B0POS: VERB_PUNCT, S1B0POSLemma: VERB_,, S1B0Token: má_,, S1Lemma: mít, S1POS: VERB, S1S0Lemma: mít_obava, S1S0LemmaPOS: mít_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_obava, S1S0Token: má_obavy, S1Token: má, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-15- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[má, obavy]]   B= [,, že, ani ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [svým]   B= [spolujezdcem, Seppo, Harjannem ,.. ]
 
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: že, B1POS: SCONJ, B1Token: že, S0B0Distance: 1, S0B0Lemma: mít_obava_,, S0B0LemmaPOS: mít_obava_PUNCT, S0B0POS: VERB_NOUN_PUNCT, S0B0POSLemma: VERB_NOUN_,, S0B0Token: má_obavy_,, S0B1Lemma: mít_obava_že, S0B1LemmaPOS: mít_obava_SCONJ, S0B1POS: VERB_NOUN_SCONJ, S0B1POSLemma: VERB_NOUN_že, S0B1Token: má_obavy_že, S0Lemma: mít_obava, S0POS: VERB_NOUN, S0Token: má_obavy, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: spolujezdec, B0POS: NOUN, B0Token: spolujezdcem, B1Lemma: Seppo, B1POS: NOUN, B1Token: Seppo, S0B0Distance: 1, S0B0Lemma: svůj_spolujezdec, S0B0LemmaPOS: svůj_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_spolujezdec, S0B0Token: svým_spolujezdcem, S0B1Lemma: svůj_Seppo, S0B1LemmaPOS: svůj_NOUN, S0B1POS: DET_NOUN, S0B1POSLemma: DET_Seppo, S0B1Token: svým_Seppo, S0IsInLexic: true, S0Lemma: svůj, S0POS: DET, S0Token: svým, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, že, ani ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [spolujezdcem, Seppo, Harjannem ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [že, ani, zairská ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [spolujezdcem]   B= [Seppo, Harjannem, v ,.. ]
 
-B0Lemma: že, B0POS: SCONJ, B0Token: že, B1Lemma: ani, B1POS: CONJ, B1Token: ani, S0B0Distance: 1, S0B0Lemma: ,_že, S0B0LemmaPOS: ,_SCONJ, S0B0POS: PUNCT_SCONJ, S0B0POSLemma: PUNCT_že, S0B0Token: ,_že, S0B1Lemma: ,_ani, S0B1LemmaPOS: ,_CONJ, S0B1POS: PUNCT_CONJ, S0B1POSLemma: PUNCT_ani, S0B1Token: ,_ani, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: Seppo, B0POS: NOUN, B0Token: Seppo, B1Lemma: Harjann, B1POS: NOUN, B1Token: Harjannem, S0B0Distance: 1, S0B0Lemma: spolujezdec_Seppo, S0B0LemmaPOS: spolujezdec_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Seppo, S0B0Token: spolujezdcem_Seppo, S0B1Lemma: spolujezdec_Harjann, S0B1LemmaPOS: spolujezdec_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_Harjann, S0B1Token: spolujezdcem_Harjannem, S0Lemma: spolujezdec, S0POS: NOUN, S0Token: spolujezdcem, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [že, ani, zairská ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Seppo, Harjannem, v ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [že]   B= [ani, zairská, vláda ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Seppo]   B= [Harjannem, v, cíli ,.. ]
 
-B0Lemma: ani, B0POS: CONJ, B0Token: ani, B1Lemma: zairský, B1POS: ADJ, B1Token: zairská, S0B0Distance: 1, S0B0Lemma: že_ani, S0B0LemmaPOS: že_CONJ, S0B0POS: SCONJ_CONJ, S0B0POSLemma: SCONJ_ani, S0B0Token: že_ani, S0B1Lemma: že_zairský, S0B1LemmaPOS: že_ADJ, S0B1POS: SCONJ_ADJ, S0B1POSLemma: SCONJ_zairský, S0B1Token: že_zairská, S0Lemma: že, S0POS: SCONJ, S0Token: že, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Harjann, B0POS: NOUN, B0Token: Harjannem, B1IsInLexic: true, B1Lemma: v, B1POS: ADP, B1Token: v, S0B0Distance: 1, S0B0Lemma: Seppo_Harjann, S0B0LemmaPOS: Seppo_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Harjann, S0B0Token: Seppo_Harjannem, S0B1Lemma: Seppo_v, S0B1LemmaPOS: Seppo_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_v, S0B1Token: Seppo_v, S0Lemma: Seppo, S0POS: NOUN, S0Token: Seppo, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ani, zairská, vláda ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Harjannem, v, cíli ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ani]   B= [zairská, vláda, nebude ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Harjannem]   B= [v, cíli, 1558 ,.. ]
 
-B0Lemma: zairský, B0POS: ADJ, B0Token: zairská, B1Lemma: vláda, B1POS: NOUN, B1Token: vláda, S0B0Distance: 1, S0B0Lemma: ani_zairský, S0B0LemmaPOS: ani_ADJ, S0B0POS: CONJ_ADJ, S0B0POSLemma: CONJ_zairský, S0B0Token: ani_zairská, S0B1Lemma: ani_vláda, S0B1LemmaPOS: ani_NOUN, S0B1POS: CONJ_NOUN, S0B1POSLemma: CONJ_vláda, S0B1Token: ani_vláda, S0Lemma: ani, S0POS: CONJ, S0Token: ani, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: v, B0POS: ADP, B0Token: v, B1IsInLexic: true, B1Lemma: cíl, B1POS: NOUN, B1Token: cíli, S0B0Distance: 1, S0B0Lemma: Harjann_v, S0B0LemmaPOS: Harjann_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_v, S0B0Token: Harjannem_v, S0B1Lemma: Harjann_cíl, S0B1LemmaPOS: Harjann_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_cíl, S0B1Token: Harjannem_cíli, S0Lemma: Harjann, S0POS: NOUN, S0Token: Harjannem, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zairská, vláda, nebude ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [v, cíli, 1558 ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zairská]   B= [vláda, nebude, schopna ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [v]   B= [cíli, 1558, km ,.. ]
 
-B0Lemma: vláda, B0POS: NOUN, B0Token: vláda, B1Lemma: být, B1POS: VERB, B1Token: nebude, S0B0Distance: 1, S0B0Lemma: zairský_vláda, S0B0LemmaPOS: zairský_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_vláda, S0B0Token: zairská_vláda, S0B1Lemma: zairský_být, S0B1LemmaPOS: zairský_VERB, S0B1POS: ADJ_VERB, S0B1POSLemma: ADJ_být, S0B1Token: zairská_nebude, S0Lemma: zairský, S0POS: ADJ, S0Token: zairská, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: cíl, B0POS: NOUN, B0Token: cíli, B1Lemma: 1558, B1POS: NUM, B1Token: 1558, S0B0Distance: 1, S0B0Lemma: v_cíl, S0B0LemmaPOS: v_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_cíl, S0B0Token: v_cíli, S0B1Lemma: v_1558, S0B1LemmaPOS: v_NUM, S0B1POS: ADP_NUM, S0B1POSLemma: ADP_1558, S0B1Token: v_1558, S0IsInLexic: true, S0Lemma: v, S0POS: ADP, S0Token: v, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vláda, nebude, schopna ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cíli, 1558, km ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vláda]   B= [nebude, schopna, zajistit ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cíli]   B= [1558, km, dlouhého ,.. ]
 
-B0Lemma: být, B0POS: VERB, B0Token: nebude, B1Lemma: schopný, B1POS: ADJ, B1Token: schopna, S0B0Distance: 1, S0B0Lemma: vláda_být, S0B0LemmaPOS: vláda_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_být, S0B0Token: vláda_nebude, S0B1Lemma: vláda_schopný, S0B1LemmaPOS: vláda_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_schopný, S0B1Token: vláda_schopna, S0Lemma: vláda, S0POS: NOUN, S0Token: vláda, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: 1558, B0POS: NUM, B0Token: 1558, B1Lemma: km, B1POS: NOUN, B1Token: km, S0B0Distance: 1, S0B0Lemma: cíl_1558, S0B0LemmaPOS: cíl_NUM, S0B0POS: NOUN_NUM, S0B0POSLemma: NOUN_1558, S0B0Token: cíli_1558, S0B1Lemma: cíl_km, S0B1LemmaPOS: cíl_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_km, S0B1Token: cíli_km, S0IsInLexic: true, S0Lemma: cíl, S0POS: NOUN, S0Token: cíli, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nebude, schopna, zajistit ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [1558, km, dlouhého ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nebude]   B= [schopna, zajistit, bezpečnost ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [1558]   B= [km, dlouhého, závodu ,.. ]
 
-B0Lemma: schopný, B0POS: ADJ, B0Token: schopna, B1Lemma: zajistit, B1POS: VERB, B1Token: zajistit, S0B0Distance: 1, S0B0Lemma: být_schopný, S0B0LemmaPOS: být_ADJ, S0B0POS: VERB_ADJ, S0B0POSLemma: VERB_schopný, S0B0Token: nebude_schopna, S0B1Lemma: být_zajistit, S0B1LemmaPOS: být_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_zajistit, S0B1Token: nebude_zajistit, S0Lemma: být, S0POS: VERB, S0Token: nebude, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: km, B0POS: NOUN, B0Token: km, B1Lemma: dlouhý, B1POS: ADJ, B1Token: dlouhého, S0B0Distance: 1, S0B0Lemma: 1558_km, S0B0LemmaPOS: 1558_NOUN, S0B0POS: NUM_NOUN, S0B0POSLemma: NUM_km, S0B0Token: 1558_km, S0B1Lemma: 1558_dlouhý, S0B1LemmaPOS: 1558_ADJ, S0B1POS: NUM_ADJ, S0B1POSLemma: NUM_dlouhý, S0B1Token: 1558_dlouhého, S0Lemma: 1558, S0POS: NUM, S0Token: 1558, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [schopna, zajistit, bezpečnost ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [km, dlouhého, závodu ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [schopna]   B= [zajistit, bezpečnost, pracovníků ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [km]   B= [dlouhého, závodu, náskok ,.. ]
 
-B0Lemma: zajistit, B0POS: VERB, B0Token: zajistit, B1Lemma: bezpečnost, B1POS: NOUN, B1Token: bezpečnost, S0B0Distance: 1, S0B0Lemma: schopný_zajistit, S0B0LemmaPOS: schopný_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_zajistit, S0B0Token: schopna_zajistit, S0B1Lemma: schopný_bezpečnost, S0B1LemmaPOS: schopný_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_bezpečnost, S0B1Token: schopna_bezpečnost, S0Lemma: schopný, S0POS: ADJ, S0Token: schopna, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: dlouhý, B0POS: ADJ, B0Token: dlouhého, B1Lemma: závod, B1POS: NOUN, B1Token: závodu, S0B0Distance: 1, S0B0Lemma: km_dlouhý, S0B0LemmaPOS: km_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_dlouhý, S0B0Token: km_dlouhého, S0B1Lemma: km_závod, S0B1LemmaPOS: km_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_závod, S0B1Token: km_závodu, S0Lemma: km, S0POS: NOUN, S0Token: km, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zajistit, bezpečnost, pracovníků ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dlouhého, závodu, náskok ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zajistit]   B= [bezpečnost, pracovníků, humanitární ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dlouhého]   B= [závodu, náskok, 22 ,.. ]
 
-B0Lemma: bezpečnost, B0POS: NOUN, B0Token: bezpečnost, B1Lemma: pracovník, B1POS: NOUN, B1Token: pracovníků, S0B0Distance: 1, S0B0Lemma: zajistit_bezpečnost, S0B0LemmaPOS: zajistit_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_bezpečnost, S0B0Token: zajistit_bezpečnost, S0B1Lemma: zajistit_pracovník, S0B1LemmaPOS: zajistit_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_pracovník, S0B1Token: zajistit_pracovníků, S0Lemma: zajistit, S0POS: VERB, S0Token: zajistit, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: závod, B0POS: NOUN, B0Token: závodu, B1IsInLexic: true, B1Lemma: náskok, B1POS: NOUN, B1Token: náskok, S0B0Distance: 1, S0B0Lemma: dlouhý_závod, S0B0LemmaPOS: dlouhý_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_závod, S0B0Token: dlouhého_závodu, S0B1Lemma: dlouhý_náskok, S0B1LemmaPOS: dlouhý_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_náskok, S0B1Token: dlouhého_náskok, S0Lemma: dlouhý, S0POS: ADJ, S0Token: dlouhého, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bezpečnost, pracovníků, humanitární ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [závodu, náskok, 22 ,.. ]
 
 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bezpečnost]   B= [pracovníků, humanitární, pomoci ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [závodu]   B= [náskok, 22, sekund ,.. ]
 
-B0Lemma: pracovník, B0POS: NOUN, B0Token: pracovníků, B1Lemma: humanitární, B1POS: ADJ, B1Token: humanitární, S0B0Distance: 1, S0B0Lemma: bezpečnost_pracovník, S0B0LemmaPOS: bezpečnost_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_pracovník, S0B0Token: bezpečnost_pracovníků, S0B1Lemma: bezpečnost_humanitární, S0B1LemmaPOS: bezpečnost_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_humanitární, S0B1Token: bezpečnost_humanitární, S0Lemma: bezpečnost, S0POS: NOUN, S0Token: bezpečnost, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: náskok, B0POS: NOUN, B0Token: náskok, B1Lemma: 22, B1POS: NUM, B1Token: 22, S0B0Distance: 1, S0B0Lemma: závod_náskok, S0B0LemmaPOS: závod_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_náskok, S0B0Token: závodu_náskok, S0B1Lemma: závod_22, S0B1LemmaPOS: závod_NUM, S0B1POS: NOUN_NUM, S0B1POSLemma: NOUN_22, S0B1Token: závodu_22, S0Lemma: závod, S0POS: NOUN, S0Token: závodu, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pracovníků, humanitární, pomoci ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [náskok, 22, sekund ,.. ]
 
 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pracovníků]   B= [humanitární, pomoci, ani ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [náskok]   B= [22, sekund, před ,.. ]
 
-B0Lemma: humanitární, B0POS: ADJ, B0Token: humanitární, B1Lemma: pomoc, B1POS: NOUN, B1Token: pomoci, S0B0Distance: 1, S0B0Lemma: pracovník_humanitární, S0B0LemmaPOS: pracovník_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_humanitární, S0B0Token: pracovníků_humanitární, S0B1Lemma: pracovník_pomoc, S0B1LemmaPOS: pracovník_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_pomoc, S0B1Token: pracovníků_pomoci, S0Lemma: pracovník, S0POS: NOUN, S0Token: pracovníků, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: 22, B0POS: NUM, B0Token: 22, B1Lemma: sekunda, B1POS: NOUN, B1Token: sekund, S0B0Distance: 1, S0B0Lemma: náskok_22, S0B0LemmaPOS: náskok_NUM, S0B0POS: NOUN_NUM, S0B0POSLemma: NOUN_22, S0B0Token: náskok_22, S0B1Lemma: náskok_sekunda, S0B1LemmaPOS: náskok_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_sekunda, S0B1Token: náskok_sekund, S0IsInLexic: true, S0Lemma: náskok, S0POS: NOUN, S0Token: náskok, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [humanitární, pomoci, ani ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [22, sekund, před ,.. ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [humanitární]   B= [pomoci, ani, stovek ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [22]   B= [sekund, před, Francouzem ,.. ]
 
-B0Lemma: pomoc, B0POS: NOUN, B0Token: pomoci, B1Lemma: ani, B1POS: CONJ, B1Token: ani, S0B0Distance: 1, S0B0Lemma: humanitární_pomoc, S0B0LemmaPOS: humanitární_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_pomoc, S0B0Token: humanitární_pomoci, S0B1Lemma: humanitární_ani, S0B1LemmaPOS: humanitární_CONJ, S0B1POS: ADJ_CONJ, S0B1POSLemma: ADJ_ani, S0B1Token: humanitární_ani, S0Lemma: humanitární, S0POS: ADJ, S0Token: humanitární, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: sekunda, B0POS: NOUN, B0Token: sekund, B1Lemma: před, B1POS: ADP, B1Token: před, S0B0Distance: 1, S0B0Lemma: 22_sekunda, S0B0LemmaPOS: 22_NOUN, S0B0POS: NUM_NOUN, S0B0POSLemma: NUM_sekunda, S0B0Token: 22_sekund, S0B1Lemma: 22_před, S0B1LemmaPOS: 22_ADP, S0B1POS: NUM_ADP, S0B1POSLemma: NUM_před, S0B1Token: 22_před, S0Lemma: 22, S0POS: NUM, S0Token: 22, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pomoci, ani, stovek ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sekund, před, Francouzem ,.. ]
 
 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pomoci]   B= [ani, stovek, tisíc ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sekund]   B= [před, Francouzem, Didierem ,.. ]
 
-B0Lemma: ani, B0POS: CONJ, B0Token: ani, B1Lemma: stovka, B1POS: NOUN, B1Token: stovek, S0B0Distance: 1, S0B0Lemma: pomoc_ani, S0B0LemmaPOS: pomoc_CONJ, S0B0POS: NOUN_CONJ, S0B0POSLemma: NOUN_ani, S0B0Token: pomoci_ani, S0B1Lemma: pomoc_stovka, S0B1LemmaPOS: pomoc_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_stovka, S0B1Token: pomoci_stovek, S0Lemma: pomoc, S0POS: NOUN, S0Token: pomoci, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: před, B0POS: ADP, B0Token: před, B1Lemma: Francouz, B1POS: NOUN, B1Token: Francouzem, S0B0Distance: 1, S0B0Lemma: sekunda_před, S0B0LemmaPOS: sekunda_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_před, S0B0Token: sekund_před, S0B1Lemma: sekunda_Francouz, S0B1LemmaPOS: sekunda_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_Francouz, S0B1Token: sekund_Francouzem, S0Lemma: sekunda, S0POS: NOUN, S0Token: sekund, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ani, stovek, tisíc ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [před, Francouzem, Didierem ,.. ]
 
 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ani]   B= [stovek, tisíc, uprchlíků ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [před]   B= [Francouzem, Didierem, Auriolem ,.. ]
 
-B0Lemma: stovka, B0POS: NOUN, B0Token: stovek, B1Lemma: tisíc, B1POS: NUM, B1Token: tisíc, S0B0Distance: 1, S0B0Lemma: ani_stovka, S0B0LemmaPOS: ani_NOUN, S0B0POS: CONJ_NOUN, S0B0POSLemma: CONJ_stovka, S0B0Token: ani_stovek, S0B1Lemma: ani_tisíc, S0B1LemmaPOS: ani_NUM, S0B1POS: CONJ_NUM, S0B1POSLemma: CONJ_tisíc, S0B1Token: ani_tisíc, S0Lemma: ani, S0POS: CONJ, S0Token: ani, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Francouz, B0POS: NOUN, B0Token: Francouzem, B1Lemma: Didier, B1POS: NOUN, B1Token: Didierem, S0B0Distance: 1, S0B0Lemma: před_Francouz, S0B0LemmaPOS: před_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_Francouz, S0B0Token: před_Francouzem, S0B1Lemma: před_Didier, S0B1LemmaPOS: před_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_Didier, S0B1Token: před_Didierem, S0Lemma: před, S0POS: ADP, S0Token: před, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stovek, tisíc, uprchlíků ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Francouzem, Didierem, Auriolem ,.. ]
 
 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stovek]   B= [tisíc, uprchlíků, . ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Francouzem]   B= [Didierem, Auriolem, a ,.. ]
 
-B0Lemma: tisíc, B0POS: NUM, B0Token: tisíc, B1Lemma: uprchlík, B1POS: NOUN, B1Token: uprchlíků, S0B0Distance: 1, S0B0Lemma: stovka_tisíc, S0B0LemmaPOS: stovka_NUM, S0B0POS: NOUN_NUM, S0B0POSLemma: NOUN_tisíc, S0B0Token: stovek_tisíc, S0B1Lemma: stovka_uprchlík, S0B1LemmaPOS: stovka_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_uprchlík, S0B1Token: stovek_uprchlíků, S0Lemma: stovka, S0POS: NOUN, S0Token: stovek, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Didier, B0POS: NOUN, B0Token: Didierem, B1Lemma: Auriol, B1POS: NOUN, B1Token: Auriolem, S0B0Distance: 1, S0B0Lemma: Francouz_Didier, S0B0LemmaPOS: Francouz_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Didier, S0B0Token: Francouzem_Didierem, S0B1Lemma: Francouz_Auriol, S0B1LemmaPOS: Francouz_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_Auriol, S0B1Token: Francouzem_Auriolem, S0Lemma: Francouz, S0POS: NOUN, S0Token: Francouzem, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tisíc, uprchlíků, . ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Didierem, Auriolem, a ,.. ]
 
 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tisíc]   B= [uprchlíků, . ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Didierem]   B= [Auriolem, a, 1 ,.. ]
 
-B0Lemma: uprchlík, B0POS: NOUN, B0Token: uprchlíků, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: tisíc_uprchlík, S0B0LemmaPOS: tisíc_NOUN, S0B0POS: NUM_NOUN, S0B0POSLemma: NUM_uprchlík, S0B0Token: tisíc_uprchlíků, S0B1Lemma: tisíc_., S0B1LemmaPOS: tisíc_PUNCT, S0B1POS: NUM_PUNCT, S0B1POSLemma: NUM_., S0B1Token: tisíc_., S0Lemma: tisíc, S0POS: NUM, S0Token: tisíc, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Auriol, B0POS: NOUN, B0Token: Auriolem, B1IsInLexic: true, B1Lemma: a, B1POS: CONJ, B1Token: a, S0B0Distance: 1, S0B0Lemma: Didier_Auriol, S0B0LemmaPOS: Didier_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Auriol, S0B0Token: Didierem_Auriolem, S0B1Lemma: Didier_a, S0B1LemmaPOS: Didier_CONJ, S0B1POS: NOUN_CONJ, S0B1POSLemma: NOUN_a, S0B1Token: Didierem_a, S0Lemma: Didier, S0POS: NOUN, S0Token: Didierem, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [uprchlíků, . ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Auriolem, a, 1 ,.. ]
 
 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uprchlíků]   B= [.]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Auriolem]   B= [a, 1, : ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: uprchlík_., S0B0LemmaPOS: uprchlík_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: uprchlíků_., S0Lemma: uprchlík, S0POS: NOUN, S0Token: uprchlíků, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: a, B0POS: CONJ, B0Token: a, B1Lemma: 1, B1POS: NUM, B1Token: 1, S0B0Distance: 1, S0B0Lemma: Auriol_a, S0B0LemmaPOS: Auriol_CONJ, S0B0POS: NOUN_CONJ, S0B0POSLemma: NOUN_a, S0B0Token: Auriolem_a, S0B1Lemma: Auriol_1, S0B1LemmaPOS: Auriol_NUM, S0B1POS: NOUN_NUM, S0B1POSLemma: NOUN_1, S0B1Token: Auriolem_1, S0Lemma: Auriol, S0POS: NOUN, S0Token: Auriolem, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, 1, : ,.. ]
 
 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [1, :, 04 ,.. ]
 
+B0Lemma: 1, B0POS: NUM, B0Token: 1, B1IsInLexic: true, B1Lemma: :, B1POS: PUNCT, B1Token: :, S0B0Distance: 1, S0B0Lemma: a_1, S0B0LemmaPOS: a_NUM, S0B0POS: CONJ_NUM, S0B0POSLemma: CONJ_1, S0B0Token: a_1, S0B1Lemma: a_:, S0B1LemmaPOS: a_PUNCT, S0B1POS: CONJ_PUNCT, S0B1POSLemma: CONJ_:, S0B1Token: a_:, S0IsInLexic: true, S0Lemma: a, S0POS: CONJ, S0Token: a, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [1, :, 04 ,.. ]
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 10555 - 
-Když se narodili , byli trochu do modra . 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [1]   B= [:, 04, min ,.. ]
+
+B0IsInLexic: true, B0Lemma: :, B0POS: PUNCT, B0Token: :, B1Lemma: 04, B1POS: NUM, B1Token: 04, S0B0Distance: 1, S0B0Lemma: 1_:, S0B0LemmaPOS: 1_PUNCT, S0B0POS: NUM_PUNCT, S0B0POSLemma: NUM_:, S0B0Token: 1_:, S0B1Lemma: 1_04, S0B1LemmaPOS: 1_NUM, S0B1POS: NUM_NUM, S0B1POSLemma: NUM_04, S0B1Token: 1_04, S0Lemma: 1, S0POS: NUM, S0Token: 1, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:, 04, min ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [04, min, . ,.. ]
+
+B0Lemma: 04, B0POS: NUM, B0Token: 04, B1Lemma: minuta, B1POS: NOUN, B1Token: min, S0B0Distance: 1, S0B0Lemma: :_04, S0B0LemmaPOS: :_NUM, S0B0POS: PUNCT_NUM, S0B0POSLemma: PUNCT_04, S0B0Token: :_04, S0B1Lemma: :_minuta, S0B1LemmaPOS: :_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_minuta, S0B1Token: :_min, S0IsInLexic: true, S0Lemma: :, S0POS: PUNCT, S0Token: :, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [04, min, . ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [04]   B= [min, ., před ,.. ]
+
+B0Lemma: minuta, B0POS: NOUN, B0Token: min, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: 04_minuta, S0B0LemmaPOS: 04_NOUN, S0B0POS: NUM_NOUN, S0B0POSLemma: NUM_minuta, S0B0Token: 04_min, S0B1Lemma: 04_., S0B1LemmaPOS: 04_PUNCT, S0B1POS: NUM_PUNCT, S0B1POSLemma: NUM_., S0B1Token: 04_., S0Lemma: 04, S0POS: NUM, S0Token: 04, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [min, ., před ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [min]   B= [., před, španělskou ,.. ]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., B1Lemma: před, B1POS: ADP, B1Token: před, S0B0Distance: 1, S0B0Lemma: minuta_., S0B0LemmaPOS: minuta_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: min_., S0B1Lemma: minuta_před, S0B1LemmaPOS: minuta_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_před, S0B1Token: min_před, S0Lemma: minuta, S0POS: NOUN, S0Token: min, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., před, španělskou ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [před, španělskou, posádkou ,.. ]
+
+B0Lemma: před, B0POS: ADP, B0Token: před, B1Lemma: španělský, B1POS: ADJ, B1Token: španělskou, S0B0Distance: 1, S0B0Lemma: ._před, S0B0LemmaPOS: ._ADP, S0B0POS: PUNCT_ADP, S0B0POSLemma: PUNCT_před, S0B0Token: ._před, S0B1Lemma: ._španělský, S0B1LemmaPOS: ._ADJ, S0B1POS: PUNCT_ADJ, S0B1POSLemma: PUNCT_španělský, S0B1Token: ._španělskou, S0Lemma: ., S0POS: PUNCT, S0Token: ., StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [před, španělskou, posádkou ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [před]   B= [španělskou, posádkou, Carlos ,.. ]
+
+B0Lemma: španělský, B0POS: ADJ, B0Token: španělskou, B1Lemma: posádka, B1POS: NOUN, B1Token: posádkou, S0B0Distance: 1, S0B0Lemma: před_španělský, S0B0LemmaPOS: před_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_španělský, S0B0Token: před_španělskou, S0B1Lemma: před_posádka, S0B1LemmaPOS: před_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_posádka, S0B1Token: před_posádkou, S0Lemma: před, S0POS: ADP, S0Token: před, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [španělskou, posádkou, Carlos ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [španělskou]   B= [posádkou, Carlos, Sainz ,.. ]
+
+B0Lemma: posádka, B0POS: NOUN, B0Token: posádkou, B1Lemma: Carlos, B1POS: NOUN, B1Token: Carlos, S0B0Distance: 1, S0B0Lemma: španělský_posádka, S0B0LemmaPOS: španělský_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_posádka, S0B0Token: španělskou_posádkou, S0B1Lemma: španělský_Carlos, S0B1LemmaPOS: španělský_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_Carlos, S0B1Token: španělskou_Carlos, S0Lemma: španělský, S0POS: ADJ, S0Token: španělskou, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [posádkou, Carlos, Sainz ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [posádkou]   B= [Carlos, Sainz, / ,.. ]
+
+B0Lemma: Carlos, B0POS: NOUN, B0Token: Carlos, B1Lemma: Sainz, B1POS: NOUN, B1Token: Sainz, S0B0Distance: 1, S0B0Lemma: posádka_Carlos, S0B0LemmaPOS: posádka_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Carlos, S0B0Token: posádkou_Carlos, S0B1Lemma: posádka_Sainz, S0B1LemmaPOS: posádka_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_Sainz, S0B1Token: posádkou_Sainz, S0Lemma: posádka, S0POS: NOUN, S0Token: posádkou, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Carlos, Sainz, / ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Carlos]   B= [Sainz, /, Luis ,.. ]
+
+B0Lemma: Sainz, B0POS: NOUN, B0Token: Sainz, B1Lemma: /, B1POS: PUNCT, B1Token: /, S0B0Distance: 1, S0B0Lemma: Carlos_Sainz, S0B0LemmaPOS: Carlos_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Sainz, S0B0Token: Carlos_Sainz, S0B1Lemma: Carlos_/, S0B1LemmaPOS: Carlos_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_/, S0B1Token: Carlos_/, S0Lemma: Carlos, S0POS: NOUN, S0Token: Carlos, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Sainz, /, Luis ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Sainz]   B= [/, Luis, Moya ,.. ]
+
+B0Lemma: /, B0POS: PUNCT, B0Token: /, B1Lemma: Luis, B1POS: NOUN, B1Token: Luis, S0B0Distance: 1, S0B0Lemma: Sainz_/, S0B0LemmaPOS: Sainz_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_/, S0B0Token: Sainz_/, S0B1Lemma: Sainz_Luis, S0B1LemmaPOS: Sainz_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_Luis, S0B1Token: Sainz_Luis, S0Lemma: Sainz, S0POS: NOUN, S0Token: Sainz, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [/, Luis, Moya ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [/]   B= [Luis, Moya, . ,.. ]
+
+B0Lemma: Luis, B0POS: NOUN, B0Token: Luis, B1Lemma: Moya, B1POS: NOUN, B1Token: Moya, S0B0Distance: 1, S0B0Lemma: /_Luis, S0B0LemmaPOS: /_NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_Luis, S0B0Token: /_Luis, S0B1Lemma: /_Moya, S0B1LemmaPOS: /_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_Moya, S0B1Token: /_Moya, S0Lemma: /, S0POS: PUNCT, S0Token: /, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Luis, Moya, . ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Luis]   B= [Moya, . ,.. ]
+
+B0Lemma: Moya, B0POS: NOUN, B0Token: Moya, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: Luis_Moya, S0B0LemmaPOS: Luis_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Moya, S0B0Token: Luis_Moya, S0B1Lemma: Luis_., S0B1LemmaPOS: Luis_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_., S0B1Token: Luis_., S0Lemma: Luis, S0POS: NOUN, S0Token: Luis, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Moya, . ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Moya]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: Moya_., S0B0LemmaPOS: Moya_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: Moya_., S0Lemma: Moya, S0POS: NOUN, S0Token: Moya, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 20550 - 
+Jedinou branku střetnutí dal v 78 . minutě Bäron , který minutu předtím střídal . 
 ### Existing MWEs: 
-1- **se narodili** (IReflV, 22)
-### Identified MWEs: 
-1- **se narodili** 
+1- **branku dal** (LVC, 1)
 
 
 
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Když, se, narodili ,.. ]
-
-
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Když]   B= [se, narodili, , ,.. ]
-
-B0Lemma: se, B0POS: PRON, B0Token: se, B1Lemma: narodit, B1POS: VERB, B1Token: narodili, S0B0Distance: 1, S0B0Lemma: když_se, S0B0LemmaPOS: když_PRON, S0B0POS: SCONJ_PRON, S0B0POSLemma: SCONJ_se, S0B0Token: Když_se, S0B1Lemma: když_narodit, S0B1LemmaPOS: když_VERB, S0B1POS: SCONJ_VERB, S0B1POSLemma: SCONJ_narodit, S0B1Token: Když_narodili, S0Lemma: když, S0POS: SCONJ, S0Token: Když, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, narodili, , ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Jedinou, branku, střetnutí ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [narodili, ,, byli ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Jedinou]   B= [branku, střetnutí, dal ,.. ]
 
-B0Lemma: narodit, B0POS: VERB, B0Token: narodili, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: se_narodit, S0B0LemmaPOS: se_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_narodit, S0B0Token: se_narodili, S0B1Lemma: se_,, S0B1LemmaPOS: se_PUNCT, S0B1POS: PRON_PUNCT, S0B1POSLemma: PRON_,, S0B1Token: se_,, S0Lemma: se, S0POS: PRON, S0Token: se, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0IsInLexic: true, B0Lemma: branka, B0POS: NOUN, B0Token: branku, B1Lemma: střetnutí, B1POS: NOUN, B1Token: střetnutí, S0B0Distance: 1, S0B0Lemma: jediný_branka, S0B0LemmaPOS: jediný_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_branka, S0B0Token: Jedinou_branku, S0B1Lemma: jediný_střetnutí, S0B1LemmaPOS: jediný_NOUN, S0B1POS: ADJ_NOUN, S0B1POSLemma: ADJ_střetnutí, S0B1Token: Jedinou_střetnutí, S0Lemma: jediný, S0POS: ADJ, S0Token: Jedinou, StackLength: 1, 
 
-4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, narodili]   B= [,, byli, trochu ,.. ]
-
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: být, B1POS: VERB, B1Token: byli, S0B0Distance: 1, S0B0Lemma: narodit_,, S0B0LemmaPOS: narodit_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_,, S0B0Token: narodili_,, S0B1Lemma: narodit_být, S0B1LemmaPOS: narodit_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_být, S0B1Token: narodili_byli, S0Lemma: narodit, S0POS: VERB, S0Token: narodili, S1B0Lemma: se_,, S1B0LemmaPOS: se_PUNCT, S1B0POS: PRON_PUNCT, S1B0POSLemma: PRON_,, S1B0Token: se_,, S1Lemma: se, S1POS: PRON, S1S0Lemma: se_narodit, S1S0LemmaPOS: se_VERB, S1S0POS: PRON_VERB, S1S0POSLemma: PRON_narodit, S1S0Token: se_narodili, S1Token: se, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, narodili]]   B= [,, byli, trochu ,.. ]
-
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: být, B1POS: VERB, B1Token: byli, S0B0Distance: 1, S0B0Lemma: se_narodit_,, S0B0LemmaPOS: se_narodit_PUNCT, S0B0POS: PRON_VERB_PUNCT, S0B0POSLemma: PRON_VERB_,, S0B0Token: se_narodili_,, S0B1Lemma: se_narodit_být, S0B1LemmaPOS: se_narodit_VERB, S0B1POS: PRON_VERB_VERB, S0B1POSLemma: PRON_VERB_být, S0B1Token: se_narodili_byli, S0Lemma: se_narodit, S0POS: PRON_VERB, S0Token: se_narodili, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, byli, trochu ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [branku, střetnutí, dal ,.. ]
 
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [byli, trochu, do ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [branku]   B= [střetnutí, dal, v ,.. ]
 
-B0Lemma: být, B0POS: VERB, B0Token: byli, B1Lemma: trochu, B1POS: ADV, B1Token: trochu, S0B0Distance: 1, S0B0Lemma: ,_být, S0B0LemmaPOS: ,_VERB, S0B0POS: PUNCT_VERB, S0B0POSLemma: PUNCT_být, S0B0Token: ,_byli, S0B1Lemma: ,_trochu, S0B1LemmaPOS: ,_ADV, S0B1POS: PUNCT_ADV, S0B1POSLemma: PUNCT_trochu, S0B1Token: ,_trochu, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: střetnutí, B0POS: NOUN, B0Token: střetnutí, B1IsInLexic: true, B1Lemma: dát, B1POS: VERB, B1Token: dal, S0B0Distance: 1, S0B0Lemma: branka_střetnutí, S0B0LemmaPOS: branka_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_střetnutí, S0B0Token: branku_střetnutí, S0B1Lemma: branka_dát, S0B1LemmaPOS: branka_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_dát, S0B1Token: branku_dal, S0IsInLexic: true, S0Lemma: branka, S0POS: NOUN, S0Token: branku, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [byli, trochu, do ,.. ]
-
-
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [byli]   B= [trochu, do, modra ,.. ]
-
-B0Lemma: trochu, B0POS: ADV, B0Token: trochu, B1Lemma: do, B1POS: ADP, B1Token: do, S0B0Distance: 1, S0B0Lemma: být_trochu, S0B0LemmaPOS: být_ADV, S0B0POS: VERB_ADV, S0B0POSLemma: VERB_trochu, S0B0Token: byli_trochu, S0B1Lemma: být_do, S0B1LemmaPOS: být_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_do, S0B1Token: byli_do, S0Lemma: být, S0POS: VERB, S0Token: byli, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [trochu, do, modra ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [střetnutí, dal, v ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [trochu]   B= [do, modra, . ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [střetnutí]   B= [dal, v, 78 ,.. ]
 
-B0Lemma: do, B0POS: ADP, B0Token: do, B1Lemma: modro, B1POS: NOUN, B1Token: modra, S0B0Distance: 1, S0B0Lemma: trochu_do, S0B0LemmaPOS: trochu_ADP, S0B0POS: ADV_ADP, S0B0POSLemma: ADV_do, S0B0Token: trochu_do, S0B1Lemma: trochu_modro, S0B1LemmaPOS: trochu_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_modro, S0B1Token: trochu_modra, S0Lemma: trochu, S0POS: ADV, S0Token: trochu, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: dát, B0POS: VERB, B0Token: dal, B1IsInLexic: true, B1Lemma: v, B1POS: ADP, B1Token: v, S0B0Distance: 1, S0B0Lemma: střetnutí_dát, S0B0LemmaPOS: střetnutí_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_dát, S0B0Token: střetnutí_dal, S0B1Lemma: střetnutí_v, S0B1LemmaPOS: střetnutí_ADP, S0B1POS: NOUN_ADP, S0B1POSLemma: NOUN_v, S0B1Token: střetnutí_v, S0Lemma: střetnutí, S0POS: NOUN, S0Token: střetnutí, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [do, modra, . ,.. ]
-
-
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [do]   B= [modra, . ,.. ]
-
-B0Lemma: modro, B0POS: NOUN, B0Token: modra, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: do_modro, S0B0LemmaPOS: do_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_modro, S0B0Token: do_modra, S0B1Lemma: do_., S0B1LemmaPOS: do_PUNCT, S0B1POS: ADP_PUNCT, S0B1POSLemma: ADP_., S0B1Token: do_., S0Lemma: do, S0POS: ADP, S0Token: do, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [modra, . ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dal, v, 78 ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [modra]   B= [.]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dal]   B= [v, 78, . ,.. ]
 
-B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: modro_., S0B0LemmaPOS: modro_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_., S0B0Token: modra_., S0Lemma: modro, S0POS: NOUN, S0Token: modra, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: v, B0POS: ADP, B0Token: v, B1Lemma: 78, B1POS: NUM, B1Token: 78, S0B0Distance: 1, S0B0Lemma: dát_v, S0B0LemmaPOS: dát_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_v, S0B0Token: dal_v, S0B1Lemma: dát_78, S0B1LemmaPOS: dát_NUM, S0B1POS: VERB_NUM, S0B1POSLemma: VERB_78, S0B1Token: dal_78, S0IsInLexic: true, S0Lemma: dát, S0POS: VERB, S0Token: dal, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [v, 78, . ,.. ]
 
 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [v]   B= [78, ., minutě ,.. ]
+
+B0Lemma: 78, B0POS: NUM, B0Token: 78, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: v_78, S0B0LemmaPOS: v_NUM, S0B0POS: ADP_NUM, S0B0POSLemma: ADP_78, S0B0Token: v_78, S0B1Lemma: v_., S0B1LemmaPOS: v_PUNCT, S0B1POS: ADP_PUNCT, S0B1POSLemma: ADP_., S0B1Token: v_., S0IsInLexic: true, S0Lemma: v, S0POS: ADP, S0Token: v, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [78, ., minutě ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [78]   B= [., minutě, Bäron ,.. ]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., B1Lemma: minuta, B1POS: NOUN, B1Token: minutě, S0B0Distance: 1, S0B0Lemma: 78_., S0B0LemmaPOS: 78_PUNCT, S0B0POS: NUM_PUNCT, S0B0POSLemma: NUM_., S0B0Token: 78_., S0B1Lemma: 78_minuta, S0B1LemmaPOS: 78_NOUN, S0B1POS: NUM_NOUN, S0B1POSLemma: NUM_minuta, S0B1Token: 78_minutě, S0Lemma: 78, S0POS: NUM, S0Token: 78, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., minutě, Bäron ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [minutě, Bäron, , ,.. ]
+
+B0Lemma: minuta, B0POS: NOUN, B0Token: minutě, B1Lemma: Bäron, B1POS: NOUN, B1Token: Bäron, S0B0Distance: 1, S0B0Lemma: ._minuta, S0B0LemmaPOS: ._NOUN, S0B0POS: PUNCT_NOUN, S0B0POSLemma: PUNCT_minuta, S0B0Token: ._minutě, S0B1Lemma: ._Bäron, S0B1LemmaPOS: ._NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_Bäron, S0B1Token: ._Bäron, S0Lemma: ., S0POS: PUNCT, S0Token: ., StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [minutě, Bäron, , ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [minutě]   B= [Bäron, ,, který ,.. ]
+
+B0Lemma: Bäron, B0POS: NOUN, B0Token: Bäron, B1IsInLexic: true, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: minuta_Bäron, S0B0LemmaPOS: minuta_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_Bäron, S0B0Token: minutě_Bäron, S0B1Lemma: minuta_,, S0B1LemmaPOS: minuta_PUNCT, S0B1POS: NOUN_PUNCT, S0B1POSLemma: NOUN_,, S0B1Token: minutě_,, S0Lemma: minuta, S0POS: NOUN, S0Token: minutě, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Bäron, ,, který ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Bäron]   B= [,, který, minutu ,.. ]
+
+B0IsInLexic: true, B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: který, B1POS: DET, B1Token: který, S0B0Distance: 1, S0B0Lemma: Bäron_,, S0B0LemmaPOS: Bäron_PUNCT, S0B0POS: NOUN_PUNCT, S0B0POSLemma: NOUN_,, S0B0Token: Bäron_,, S0B1Lemma: Bäron_který, S0B1LemmaPOS: Bäron_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_který, S0B1Token: Bäron_který, S0Lemma: Bäron, S0POS: NOUN, S0Token: Bäron, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, který, minutu ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [který, minutu, předtím ,.. ]
+
+B0IsInLexic: true, B0Lemma: který, B0POS: DET, B0Token: který, B1Lemma: minuta, B1POS: NOUN, B1Token: minutu, S0B0Distance: 1, S0B0Lemma: ,_který, S0B0LemmaPOS: ,_DET, S0B0POS: PUNCT_DET, S0B0POSLemma: PUNCT_který, S0B0Token: ,_který, S0B1Lemma: ,_minuta, S0B1LemmaPOS: ,_NOUN, S0B1POS: PUNCT_NOUN, S0B1POSLemma: PUNCT_minuta, S0B1Token: ,_minutu, S0IsInLexic: true, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [který, minutu, předtím ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [který]   B= [minutu, předtím, střídal ,.. ]
+
+B0Lemma: minuta, B0POS: NOUN, B0Token: minutu, B1Lemma: předtím, B1POS: ADV, B1Token: předtím, S0B0Distance: 1, S0B0Lemma: který_minuta, S0B0LemmaPOS: který_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_minuta, S0B0Token: který_minutu, S0B1Lemma: který_předtím, S0B1LemmaPOS: který_ADV, S0B1POS: DET_ADV, S0B1POSLemma: DET_předtím, S0B1Token: který_předtím, S0IsInLexic: true, S0Lemma: který, S0POS: DET, S0Token: který, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [minutu, předtím, střídal ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [minutu]   B= [předtím, střídal, . ,.. ]
+
+B0Lemma: předtím, B0POS: ADV, B0Token: předtím, B1IsInLexic: true, B1Lemma: střídat, B1POS: VERB, B1Token: střídal, S0B0Distance: 1, S0B0Lemma: minuta_předtím, S0B0LemmaPOS: minuta_ADV, S0B0POS: NOUN_ADV, S0B0POSLemma: NOUN_předtím, S0B0Token: minutu_předtím, S0B1Lemma: minuta_střídat, S0B1LemmaPOS: minuta_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_střídat, S0B1Token: minutu_střídal, S0Lemma: minuta, S0POS: NOUN, S0Token: minutu, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [předtím, střídal, . ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [předtím]   B= [střídal, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: střídat, B0POS: VERB, B0Token: střídal, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: předtím_střídat, S0B0LemmaPOS: předtím_VERB, S0B0POS: ADV_VERB, S0B0POSLemma: ADV_střídat, S0B0Token: předtím_střídal, S0B1Lemma: předtím_., S0B1LemmaPOS: předtím_PUNCT, S0B1POS: ADV_PUNCT, S0B1POSLemma: ADV_., S0B1Token: předtím_., S0Lemma: předtím, S0POS: ADV, S0Token: předtím, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [střídal, . ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [střídal]   B= [.]
+
+B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: střídat_., S0B0LemmaPOS: střídat_PUNCT, S0B0POS: VERB_PUNCT, S0B0POSLemma: VERB_., S0B0Token: střídal_., S0IsInLexic: true, S0Lemma: střídat, S0POS: VERB, S0Token: střídal, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

@@ -4,16 +4,18 @@
 ## Number of Embedded MWEs: 21
 
 ## Number of Interleaving MWEs: 2
-## Number of features used: 573031
+
+## Number of Continous MWEs: 506
+## Number of Single Word MWEs: 2205## Number of features used: 298099
 
 ### 1- SVM One Vs Rest: 
-Score: 1.0, Number of merge operation: 84
+Score: 1.0, Number of merge operation: 132
 ### 2- SVM Output Code: 
-Score: 1.0, Number of merge operation: 83
+Score: 1.0, Number of merge operation: 132
 ### 3- SVM One Vs One : 
-Score: 1.0, Number of merge operation: 87
-### The Selected Classifier is: 3
+Score: 1.0, Number of merge operation: 132
+### The Selected Classifier is: 1
 ## Exact Identification Evaluation: 
-#### Recall: 0.101
-#### Precision: 0.833
-#### F-Score: 0.179
+#### Recall: 0.866
+#### Precision: 0.842
+#### F-Score: 0.854

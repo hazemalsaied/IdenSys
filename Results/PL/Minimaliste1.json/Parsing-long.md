@@ -5,8 +5,9 @@ Dziwił em się tak potem jeszcze tydzień , aż okazało się , iż tkwię w ba
 2- **okazało się** (IReflV, 40)
 3- **mieści się** (IReflV, 9)
 ### Identified MWEs: 
-1- **okazało się** 
-2- **mieści się** 
+1- **Dziwił się** 
+2- **okazało się** 
+3- **mieści się** 
 ## Sentence No. 2465 - 
 Biorąc pod uwagę zyski pozostałych giełdowych spółek , które bardzo często okazywały się gorsze w porównaniu z wcześniejszymi kwartałami , nasze świętokrzyskie firmy trzymają się mocno . 
 ### Existing MWEs: 
@@ -32,8 +33,9 @@ Zdaje on sobie sprawę , że bez reprywatyzacji nie da się przeprowadzić skute
 2- **da się** (IReflV, 8)
 3- **przeprowadzić reform** (LVC, 3)
 ### Identified MWEs: 
-1- **da się** 
-2- **przeprowadzić reform** 
+1- **Zdaje sobie sprawę** 
+2- **da się** 
+3- **przeprowadzić reform** 
 ## Sentence No. 4275 - 
 Ludzie uważają , że do kłopotów z uzyskaniem zgody przyczynili się inwestorzy starający się o pozwolenie na budowę małego osiedla na działce sąsiadującej z ogródkami mieszkańców . 
 ### Existing MWEs: 
@@ -61,8 +63,7 @@ Zbigniew Stypa , prezes Ship Service , uważa , że w takiej sytuacji wielu prze
 3- **mieć obawy** (LVC)
 ### Identified MWEs: 
 1- **się obawiać** 
-2- **podejmowania ryzyka** 
-3- **mieć obawy** 
+2- **się obawiać** 
 ## Sentence No. 8235 - 
 Prowadzący śledztwo są zdania , że w Rosji może być wielu studentów i doktorantów , którzy formalnie uczą się języka rosyjskiego i zajmują studiami nad Rosją , a faktycznie przygotowują się na miejscu do przyszłej pracy wywiadowczej . 
 ### Existing MWEs: 
@@ -183,6 +184,7 @@ Cieszę się , że przy tej okazji mogę spotkać się z chorymi oraz z tymi , k
 11- **nie ma co** 
 12- **nie ma co** 
 13- **nie ma co** 
+14- **nie ma co** 
 ## Sentence No. 1510 - 
 Zwraca też uwagę na wartość ludzkiego życia , która istotnie , także dla chrześcijanina , ma wielkie znaczenie , ale - w odróżnieniu od Papieża - absolutyzuje ją . 
 ### Existing MWEs: 
@@ -197,7 +199,8 @@ Elitarna kultura wysoka odgrywała w historii Zachodu kluczową rolę - spogląd
 2- **odgrywała rolę** (LVC, 2)
 1- **sprzeciwiać się** (IReflV, 5)
 ### Identified MWEs: 
-1- **sprzeciwiać się** 
+1- **odgrywała w historii** 
+2- **sprzeciwiać się** 
 ## Sentence No. 1785 - 
 Zdaniem Witolda Króla , byłego szefa regionu " S " , pracownika zakładu , dyr . Szwonder jest człowiekiem rzutkim , energicznym , nie zajmuje się rozgrywkami , tylko robi swoje . 
 ### Existing MWEs: 
@@ -238,8 +241,6 @@ O kielczaninie mówi się , że dzięki niemu na polskiej scenie muzycznej pojaw
 ### Existing MWEs: 
 1- **przeprowadzić remont** (LVC)
 2- **się prosi** (IReflV)
-### Identified MWEs: 
-1- **przeprowadzić remont** 
 ## Sentence No. 3000 - 
 Specjaliści od gejowskiego rynku twierdzą , że jeżeli pojawia się na nim duża firma , to w jej ślady idą konkurenci z tej samej branży . 
 ### Existing MWEs: 
@@ -253,8 +254,14 @@ W Turynie miał wolną rękę i mógł poruszać się po całym boisku .
 1- **miał wolną rękę** (ID)
 2- **poruszać się** (IReflV, 5)
 ### Identified MWEs: 
-1- **miał rękę** 
-2- **poruszać się** 
+1- **miał wolną rękę** 
+2- **miał wolną rękę** 
+3- **miał wolną rękę** 
+4- **miał wolną rękę** 
+5- **miał wolną rękę** 
+6- **miał wolną rękę** 
+7- **miał wolną rękę** 
+8- **miał wolną rękę** 
 ## Sentence No. 3325 - 
 Niestety ( lub na szczęście ) skotofobina , a wraz z nią cała teoria chemicznej natury engramu , okazała się niewypałem , gdyż wyników Ungara nie udało się potwierdzić . 
 ### Existing MWEs: 
@@ -334,6 +341,7 @@ O postawieniu zarzutu poinformowała w czwartek Prokuratura Apelacyjna w Warszaw
 2- **śledztwo prowadzone** (LVC, 2)
 ### Identified MWEs: 
 1- **postawieniu zarzutu** 
+2- **śledztwo prowadzone** 
 ## Sentence No. 6135 - 
 Pomysłodawca sugerujący , by rzuty karne wykonywać przed rozpoczęciem gry wychodzi z założenia , że zwycięzcą rywalizacji w meczu zakończonym remisem będzie zespół , który wygrał konkurs " jedenastek " . 
 ### Existing MWEs: 
@@ -363,11 +371,15 @@ Pomysłodawca sugerujący , by rzuty karne wykonywać przed rozpoczęciem gry wy
 21- **rzuty karne wykonywać** 
 22- **rzuty karne wykonywać** 
 23- **rzuty karne wykonywać** 
+24- **rzuty karne wykonywać** 
+25- **rzuty karne wykonywać** 
 ## Sentence No. 6550 - 
 Potrącona przez auto doznała urazów nogi , głowy i wstrząśnienia mózgu . 
 ### Existing MWEs: 
 1- **doznała urazów** (LVC, 2)
 2- **doznała wstrząśnienia mózgu** (LVC), Interleaving 
+### Identified MWEs: 
+1- **doznała urazów** 
 ## Sentence No. 6645 - 
 Prezydium Sejmu , które ma zdecydować o dalszych losach referendum , zwróciło się wczoraj do Państwowej Komisji Wyborczej o stwierdzenie , czy pod wnioskiem o przeprowadzenie referendum w sprawie podziału i ustroju terytorialnego RP jest złożona wymagana liczba głosów . 
 ### Existing MWEs: 
@@ -385,6 +397,8 @@ Nagrody przyznała specjalna Kapituła , pragnąc uhonorować osoby i instytucje
 ### Existing MWEs: 
 1- **Nagrody przyznała** (LVC, 2)
 2- **wniosła wkład** (LVC)
+### Identified MWEs: 
+1- **Nagrody przyznała** 
 ## Sentence No. 7760 - 
 Tym razem zapowiedziano 150 sympozjów , podczas których będzie mowa m.in . o sposobach leczenia dysleksji , historii formowania się gwiazd , o tym , czy komórki macierzyste przydadzą się w terapii Parkinsona , a także jak za 40 lat wyżywić dziesięć miliardów mieszkańców Ziemi . 
 ### Existing MWEs: 
@@ -404,7 +418,7 @@ Dyrektor firmy Palm przeprowadził pierwszą bezpieczną transakcję płatności
 1- **przeprowadził transakcję** (LVC)
 2- **mieszczącego się** (IReflV, 9)
 ### Identified MWEs: 
-1- **przeprowadził International** 
+1- **przeprowadził transakcję** 
 2- **mieszczącego się** 
 ## Sentence No. 8570 - 
 - Bardzo się cieszę , przyda się w kuchni - przyznała pani Grażyna . 
@@ -433,9 +447,11 @@ Cieszy zwycięstwo , lecz styl w jakim odnieśli go podopieczni Janusza Wójcika
 1- **zwycięstwo odnieśli** (LVC)
 2- **pozostawia wiele do życzenia** (ID, 1)
 ### Identified MWEs: 
-1- **odnieśli Wójcika** 
-2- **pozostawia do życzenia** 
-3- **pozostawia do życzenia** 
+1- **Cieszy zwycięstwo** 
+2- **odnieśli pozostawia** 
+3- **odnieśli pozostawia** 
+4- **odnieśli pozostawia** 
+5- **odnieśli pozostawia** 
 ## Sentence No. 8915 - 
 Ostatnio dostała nagrodę za wzorowe pełnienie służby - zatrzymała i doprowadziła do komisariatu swego 14-letniego syna . 
 ### Existing MWEs: 
@@ -479,6 +495,7 @@ Od 1988 r . , pod wpływem niekorzystnych dla Szwecji orzeczeń Europejskiego Tr
 2- **podjęte decyzje** (LVC, 14)
 ### Identified MWEs: 
 1- **wykonywania władzy** 
+2- **podjęte decyzje** 
 ## Sentence No. 10310 - 
 " Można sobie wyobrazić , co się czuje , kiedy sól wedrze się do krwawiącej rany . 
 ### Existing MWEs: 
@@ -568,6 +585,8 @@ Zjawisko okazuje się mieć takie rozmiary , że zaczynam podejrzewać , że to 
 Podczas oferty złożono jednak tylko 161 zleceń . 
 ### Existing MWEs: 
 1- **oferty złożono** (LVC)
+### Identified MWEs: 
+1- **oferty złożono** 
 ## Sentence No. 410 - 
 Dla ludzi , którzy karierę polityczną będą robić w imię czystych rąk przeciw politykom . 
 ### Existing MWEs: 
@@ -616,6 +635,8 @@ Gdyby 15-letni chłopak na przepustce zabił człowieka , to dostał by ode mnie
 Jej twórca Janusz Onyszkiewicz ( UW ) zwraca uwagę , że formalnie wzmacnia również stanowisko szefa Sztabu Generalnego , który w starych aktach prawnych był tylko szefem komórki planistycznej . 
 ### Existing MWEs: 
 1- **zwraca uwagę** (ID, 4)
+### Identified MWEs: 
+1- **zwraca uwagę** 
 ## Sentence No. 585 - 
 Dziewiczość i unikatowość tamtejszej przyrody uda się pewnie zachować , bo wkrótce będzie to obszar zamknięty i objęty nadzwyczajną ochroną . 
 ### Existing MWEs: 
@@ -734,6 +755,8 @@ Nie uda się to też Ruchowi Odbudowy Polski - mówi szef Zarządu Regionu Mazow
 A może chodzi o to , aby premier konsultował się przede wszystkim z wicepremierem Balcerowiczem , a nie liderem AWS ? 
 ### Existing MWEs: 
 1- **konsultował się** (IReflV)
+### Identified MWEs: 
+1- **konsultował się** 
 ## Sentence No. 1130 - 
 ( P ) Dziś rząd podejmie decyzję o nowym systemie emerytur . 
 ### Existing MWEs: 
@@ -882,6 +905,8 @@ Tym głównie Stronnictwo będzie się różniło od większości europejskich p
 Przyjrzał em się im też bacznie i ponad wszelką już wątpliwość stwierdził em , że szyja sępa nie jest łysa , tylko pokryta miłym puszkiem . 
 ### Existing MWEs: 
 1- **Przyjrzał się** (IReflV, 2)
+### Identified MWEs: 
+1- **Przyjrzał się** 
 ## Sentence No. 1965 - 
 Tym bardziej że potrzeby duchowe , u kogo jak u kogo , ale wśród generałów polskich znalazły chyba pełne zrozumienie . 
 ### Existing MWEs: 
@@ -1032,6 +1057,8 @@ Może uda nam się skierować tam odpowiednie osoby - mówi Regina Karasińska .
 - Przeprowadzono w nich kontrole . 
 ### Existing MWEs: 
 1- **Przeprowadzono kontrole** (LVC, 2)
+### Identified MWEs: 
+1- **Przeprowadzono kontrole** 
 ## Sentence No. 2565 - 
 W zeszłym tygodniu stanął on po stronie zawodników , gdy właściciel klubu Mirosław Stasiak chciał ich ukarać finansowo . 
 ### Existing MWEs: 
@@ -1102,6 +1129,8 @@ Przypomnijmy , że dzięki Stowarzyszeniu " Ziemia Jędrzejowska " , w którym d
 Jak się przed tym ustrzec ? 
 ### Existing MWEs: 
 1- **się ustrzec** (IReflV, 1)
+### Identified MWEs: 
+1- **się ustrzec** 
 ## Sentence No. 2835 - 
 Zeznanie można złożyć wcześniej , natomiast podatek zapłacić do 2 maja bez odsetek - informuje Jolanta Wierzchowska . 
 ### Existing MWEs: 
@@ -1208,6 +1237,8 @@ Teraz albo Stokłosa zapłaci miastu za działkę , albo miasto wypłaci mu odsz
 Śmiał em się oczyma , nie otwierając ust - odpowiedział Niemiec . 
 ### Existing MWEs: 
 1- **Śmiał się** (IReflV, 1)
+### Identified MWEs: 
+1- **Śmiał się** 
 ## Sentence No. 3190 - 
 Etatów nie udało się więc uratować . 
 ### Existing MWEs: 
@@ -1306,6 +1337,8 @@ W sali przyjęć w Pałacu znajdują się interesujące freski pokazujące drama
 Potem z rachunku zorientował em się , że " Rapsodia " kosztuje znacznie więcej niż 22 tysiące . 
 ### Existing MWEs: 
 1- **zorientował się** (IReflV, 4)
+### Identified MWEs: 
+1- **zorientował się** 
 ## Sentence No. 3675 - 
 Ludzie przestali się bać . 
 ### Existing MWEs: 
@@ -1314,6 +1347,8 @@ Ludzie przestali się bać .
 Zarazem jugosłowiańskiej lewicy ani przeraźliwe bezrobocie , ani rosnąca znów inflacja nie przeszkodziły nie tylko w osiągnięciu zwycięstwa , ale wręcz w wydatnej poprawie swego stanu posiadania . 
 ### Existing MWEs: 
 1- **osiągnięciu zwycięstwa** (LVC)
+### Identified MWEs: 
+1- **osiągnięciu zwycięstwa** 
 ## Sentence No. 3755 - 
 Uczniowie mogą nie brać udziału w lekcjach " . 
 ### Existing MWEs: 
@@ -1606,6 +1641,8 @@ Z ostatnich wyliczeń MPEC wynikało , że straty sięgają co najmniej 20 proc 
 Rany odniosła także jeszcze jedna bawiąca wówczas w lokalu ukraińska niewiasta . 
 ### Existing MWEs: 
 1- **Rany odniosła** (LVC, 1)
+### Identified MWEs: 
+1- **Rany odniosła** 
 ## Sentence No. 5125 - 
 Reprezentacja naszych południowych sąsiadów nie zdołała wprawdzie zakwalifikować się do finałów mistrzostw świata , ale to groźny zespół , zapewne lepszy od niejednego z finalistów . 
 ### Existing MWEs: 
@@ -1632,10 +1669,14 @@ Kolejna sygnalizacja pojawi się u zbiegu ulic Okrężnej i Gdyńskiej i ułatwi
 W ciągu ostatnich dziesięciu lat liczba przestępstw dokonywanych w powiecie wzrosła o 22 % . 
 ### Existing MWEs: 
 1- **przestępstw dokonywanych** (LVC)
+### Identified MWEs: 
+1- **dokonywanych w powiecie** 
 ## Sentence No. 5280 - 
 Miało też dojść do zmuszania poszkodowanego do odbycia stosunku oralnego . 
 ### Existing MWEs: 
 1- **odbycia stosunku** (LVC)
+### Identified MWEs: 
+1- **odbycia stosunku** 
 ## Sentence No. 5300 - 
 Biegły rewident ustalił , jakie straty poniosła spółdzielnia oraz ile osób jest zamieszanych w aferę . 
 ### Existing MWEs: 
@@ -1734,6 +1775,8 @@ Sędzia miał wezwać wnioskodawcę do siebie i oświadczyć , że będzie móg�
 Będzie polonez na 82 wodzirejów , podczas mszy świętej dwie pary złożą sobie przyrzeczenie " miłości , wierności i uczciwości małżeńskiej " , a na samym końcu zaplanowano nabożeństwo przemiany wody w wino . 
 ### Existing MWEs: 
 1- **złożą przyrzeczenie** (LVC)
+### Identified MWEs: 
+1- **pary złożą** 
 ## Sentence No. 5740 - 
 Dokonano również zmian w statucie Towarzystwa Muzycznego imienia Henryka Wieniawskiego . 
 ### Existing MWEs: 
@@ -1846,7 +1889,8 @@ Zarząd Powiatu skierował zawiadomienie o popełnieniu przestępstwa w DPS-ie w
 ### Existing MWEs: 
 1- **popełnieniu przestępstwa** (LVC, 1)
 ### Identified MWEs: 
-1- **popełnieniu przestępstwa** 
+1- **skierował zawiadomienie** 
+2- **popełnieniu przestępstwa** 
 ## Sentence No. 6275 - 
 Z dniem 1 sierpnia w Nowym Jorku wchodzi w życie rygorystyczne prawo , pozwalające nawet na . . . konfiskatę auta z tablicami dyplomatycznymi , które jest obciążone mandatami za parkowanie . 
 ### Existing MWEs: 
@@ -1932,8 +1976,6 @@ Po uroczystym pasowaniu na drukarza , młodzi adepci wzięli udział w konkursie
 Konserwator zabytków ustalił szkody , jakie w jednej z komnat Zamku Królewskiego na Wawelu spowodował nietrzeźwy turysta z województwa suwalskiego . 
 ### Existing MWEs: 
 1- **szkody spowodował** (LVC)
-### Identified MWEs: 
-1- **szkody spowodował** 
 ## Sentence No. 6480 - 
 Inżynier Robert Brzeziński , który brał udział w konstruowaniu szybowca , powiedział nam , że to idealna maszyna szkoleniowa . 
 ### Existing MWEs: 
@@ -2031,7 +2073,7 @@ Nie udziela wypowiedzi dziennikarzom .
 ### Existing MWEs: 
 1- **udziela wypowiedzi** (LVC)
 ### Identified MWEs: 
-1- **udziela wypowiedzi** 
+1- **udziela dziennikarzom** 
 ## Sentence No. 7030 - 
 Iwona R . zaczęła znęcać się nad mężem psychicznie i fizycznie już w 3 miesiące po ślubie , a niespełna rok później wyrzuciła go z jego mieszkania , które otrzymał po babci i zamieszkała tam z kochankiem . 
 ### Existing MWEs: 
@@ -2072,6 +2114,8 @@ Ale niekiedy zdarzają się i inne .
 Turecki idol muzyki pop 27-letni piosenkarz Tarkan zostanie pozbawiony obywatelstwa tureckiego , jeśli nie wróci natychmiast do kraju , by odbyć służbę wojskową - doniosły tureckie media . 
 ### Existing MWEs: 
 1- **odbyć służbę** (LVC)
+### Identified MWEs: 
+1- **odbyć służbę** 
 ## Sentence No. 7160 - 
 Regulaminowe decyzje , po wnikliwej analizie protokołu z tego pojedynku , podejmie Wydział Dyscypliny BOZPN . 
 ### Existing MWEs: 
@@ -2200,6 +2244,8 @@ Dowiedzieli śmy się , że Biernacki oglądał już swój przyszły gabinet .
 Bezpłatne szkolenia prowadzone będą w każdą środę od godz . 16 . 00 do godz . 18 . 00 w Opolu przy ul . Katowickiej 53 ( na przeciw kina " Kraków " ) . 
 ### Existing MWEs: 
 1- **szkolenia prowadzone** (LVC)
+### Identified MWEs: 
+1- **szkolenia prowadzone** 
 ## Sentence No. 7660 - 
 Jeśli nie zerwie znajomości ze swoją dziewczyną , spotka go coś gorszego - zagrozili uzbrojeni porywacze , oddając dwukrotnie nad ofiarą strzały z pistoletu w powietrze . 
 ### Existing MWEs: 
@@ -2255,6 +2301,8 @@ Epidemia tuberkulozy ( TB ) ma tendencję rosnącą także w państwach rozwini�
 Czterem oficerom UOP , którzy mają największy wkład w likwidację gangu przemytników kokainy z Ameryki Południowej do Europy , premier Jerzy Buzek wręczył w poniedziałek nagrody po 50 tys . zł . 
 ### Existing MWEs: 
 1- **mają wkład** (LVC)
+### Identified MWEs: 
+1- **mają wkład** 
 ## Sentence No. 7865 - 
 Panowie nie mieli najmniejszych problemów z dziwnie skleconą reprezentacją Reszty Świata , panie też gładko wygrały z osłabioną ekipą USA . 
 ### Existing MWEs: 
@@ -2316,6 +2364,8 @@ Do czasu znalezienia następcy , obowiązki ustępującego dyrektora firmy zamie
 Starostwo wniosło pozew do sądu . 
 ### Existing MWEs: 
 1- **wniosło pozew** (LVC)
+### Identified MWEs: 
+1- **wniosło pozew** 
 ## Sentence No. 8245 - 
 Rzecznik Nafty Polskiej Krzysztof Nering poinformował PG , że zarząd Nafty może podjąć decyzję o podpisaniu umowy z Roth Energy już we wtorek lub środę . 
 ### Existing MWEs: 
@@ -2362,12 +2412,12 @@ Nietrzeźwy poszkodowany miał pecha .
 Stwierdził on , że " WC Kwadrans " nosił cechy ideologii faszystowskiej - jak m.in . apoteoza siły i przemocy oraz agresywność . 
 ### Existing MWEs: 
 1- **nosił cechy** (LVC)
-### Identified MWEs: 
-1- **nosił cechy** 
 ## Sentence No. 8355 - 
 Tu obserwatorzy uroczystej chwili padli ofiarami drobnej mistyfikacji . 
 ### Existing MWEs: 
 1- **padli ofiarami** (ID, 2)
+### Identified MWEs: 
+1- **padli ofiarami** 
 ## Sentence No. 8360 - 
 Osiem osób odniosło lekkie obrażenia w wyniku zderzenia dwóch tramwajów , do którego doszło w czwartek po południu w centrum Warszawy . 
 ### Existing MWEs: 
@@ -2378,8 +2428,6 @@ Osiem osób odniosło lekkie obrażenia w wyniku zderzenia dwóch tramwajów , d
 Ks . Marian Chmielowski podporządkuje się zakazowi kontaktów ze środowiskiem Unii Chrześcijańsko - Społecznej , wydanemu przez metropolitę lubelskiego abp . Józefa Życińskiego , choć zrobi to " z bólem " . 
 ### Existing MWEs: 
 1- **zakazowi wydanemu** (LVC)
-### Identified MWEs: 
-1- **podporządkuje się** 
 ## Sentence No. 8375 - 
 Przy zatrzymaniu nie stawiał oporu . 
 ### Existing MWEs: 
@@ -2410,10 +2458,14 @@ Wraz z istniejącymi już stacjami w Jastrzębiej Górze , Helu i Ustce , zapewn
 Łódź stanęła w płomieniach nagle . 
 ### Existing MWEs: 
 1- **stanęła w płomieniach** (ID)
+### Identified MWEs: 
+1- **stanęła w płomieniach** 
 ## Sentence No. 8470 - 
 Federalny Urząd Śledczy prowadzący dochodzenie otrzymał już ponad tysiąc informacji z całego kraju , które mogą ułatwić śledztwo . 
 ### Existing MWEs: 
 1- **prowadzący dochodzenie** (LVC, 1)
+### Identified MWEs: 
+1- **prowadzący dochodzenie** 
 ## Sentence No. 8495 - 
 Dotychczasowe propozycje utworzenia z " Sierszy " nowego podmiotu okazały się tylko mrzonkami . 
 ### Existing MWEs: 
@@ -2424,6 +2476,8 @@ Dotychczasowe propozycje utworzenia z " Sierszy " nowego podmiotu okazały się 
 Pierwsze z nich wymyślili pracownicy Jedynki , którzy chcieli widzów uczulić na to , że w dobie przemocy ważna jest jak dziecko traktowane jest przez rodziców , że " jeśli dostaje miłość w domu , to oddaje ją innym " . 
 ### Existing MWEs: 
 1- **dostaje miłość** (LVC)
+### Identified MWEs: 
+1- **dostaje miłość** 
 ## Sentence No. 8520 - 
 Zdaniem rzecznika prasowego Górnośląskiego Zakładu Elektroenergetycznego SA Łukasza Zimocha , propozycja resortu jest atrakcyjna , bo w kasie firmy szybko pojawi się gotówka za zużyty prąd . 
 ### Existing MWEs: 
@@ -2548,6 +2602,8 @@ Włamywacze zostali zatrzymani w chwili , gdy po rusztowaniu dostali się do śr
 W zeszłym tygodniu na drogach wydarzyło się 960 wypadków , w których zginęło 95 osób , a 1168 zostało rannych - podała w poniedziałek Komenda Główna Policji . 
 ### Existing MWEs: 
 1- **wydarzyło się** (IReflV, 1)
+### Identified MWEs: 
+1- **wydarzyło się** 
 ## Sentence No. 8835 - 
 Przedstawiciele województwa podlaskiego ( m.in . starosta powiatu białostockiego Wiesław Pusz i senator Lech Feszler ) spotkali się z przewodniczącym komisji europejskiej do spraw polityki regionalnej . 
 ### Existing MWEs: 
@@ -2586,8 +2642,6 @@ Jak się dowiedzieli śmy , w czasie zderzenia na wodach , na których doszło d
 Jak ujawniła wczoraj policja , z zapisków jednego z młodocianych morderców wynika , że po dokonaniu rzezi w kompleksie szkolnym chcieli oni spustoszyć również okoliczne osiedla , a potem uprowadzić samolot , zmusić go do lotu nad Nowy Jork i doprowadzić do spektakularnej katastrofy nad centrum Manhattanu . 
 ### Existing MWEs: 
 1- **dokonaniu rzezi** (LVC)
-### Identified MWEs: 
-1- **dokonaniu rzezi** 
 ## Sentence No. 9020 - 
 W kolejnej rundzie spotkań ligi okręgowej krajeńskie drużyny Krajna Sępólno i Grom Więcbork rozgrywały swe spotkania na wyjeździe , i to z wymagającymi przeciwnikami . 
 ### Existing MWEs: 
@@ -2628,6 +2682,8 @@ Espinoza zdobyła sławę , gdy została zaproszona do popularnego programu tele
 Berger nie chciał powiedzieć , ilu osobom mogą zostać przedstawione zarzuty . 
 ### Existing MWEs: 
 1- **przedstawione zarzuty** (LVC, 2)
+### Identified MWEs: 
+1- **przedstawione zarzuty** 
 ## Sentence No. 9190 - 
 Stwarzają one zagrożenie dla wszystkich uczestników ruchu , więc powinny być jak najszybciej usunięte . 
 ### Existing MWEs: 
@@ -2721,7 +2777,8 @@ Papież ulegając prośbie Wojciecha zgodził się jedynie , aby ewentualnie zam
 ### Existing MWEs: 
 1- **zgodził się** (IReflV, 11)
 ### Identified MWEs: 
-1- **zgodził się** 
+1- **ulegając prośbie** 
+2- **zgodził się** 
 ## Sentence No. 9655 - 
 Wojciech przyjął Komunię św . 
 ### Existing MWEs: 
@@ -2758,8 +2815,6 @@ W niespełna sześćdziesięciotysięcznym mieście nie można dziwić się taki
 Wszyscy młodzi się z was śmieją . 
 ### Existing MWEs: 
 1- **się śmieją** (IReflV)
-### Identified MWEs: 
-1- **młodzi się** 
 ## Sentence No. 9995 - 
 Dzięki karcie dokonywało się kolejnych zakupów z 7-proc . zniżką . 
 ### Existing MWEs: 
@@ -2896,6 +2951,8 @@ W piątym starciu to on był górą .
 Gdyby pokonał Granta , prawdopodobnie w połowie przyszłego roku bił by się z Witalijem Kliczką , mistrzem świata organizacji WBO . 
 ### Existing MWEs: 
 1- **bił się** (IReflV, 1)
+### Identified MWEs: 
+1- **bił się** 
 ## Sentence No. 10830 - 
 Jest znany nie tylko jako wielki mistrz kina , choć jego filmy od połowy lat pięćdziesiątych cieszyły się wielkim uznaniem . 
 ### Existing MWEs: 
@@ -2925,13 +2982,12 @@ Paczka doszła bez przeszkód , a osoba , która ją odebrała ( młodociana có
 ### Existing MWEs: 
 1- **wpadły w ręce** (ID, 1)
 ### Identified MWEs: 
-1- **wpadły w ręce** 
+1- **doszła bez przeszkód** 
+2- **wpadły w ręce** 
 ## Sentence No. 11010 - 
 Patrząc na ten fragment fotografii ( i mając w świeżej pamięci wiersz Wieniawy " Moja para " , o kasztanie i kochance ) myślę o osobliwej geopolitycznej notatce generała z roku 1941 : " Potencje świata , uważające się za naszych protektorów , chciały mieć Polskę małą , mizerną . 
 ### Existing MWEs: 
 1- **mając w pamięci** (LVC)
-### Identified MWEs: 
-1- **mieć Polskę** 
 ## Sentence No. 11025 - 
 Ale oko malarza i zmysł piękna dają o sobie znać w zupełnie innych okolicznościach . 
 ### Existing MWEs: 
@@ -3018,7 +3074,7 @@ Oznacza to , iż w dającej się przewidzieć przyszłości właśnie małe i ś
 1- **dokonywać absorpcji** (LVC)
 ### Identified MWEs: 
 1- **dającej się** 
-2- **dokonywać absorpcji** 
+2- **dokonywać pracy** 
 ## Sentence No. 11495 - 
 - Dane zaczerpnięto z VI raportu przygotowanego przez 19 europejskich instytutów zajmujących się MSP pod nazwą " The European Observatory for SMEs " ( Luksemburg 2000 ) . 
 ### Existing MWEs: 

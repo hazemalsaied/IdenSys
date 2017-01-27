@@ -1,14 +1,30 @@
 useFirstBufferElement = True
+
 transitionHistoryLength1 = False
-transitionHistoryLength3 = True
+
+transitionHistoryLength3 = False
+
 transitionHistoryLength2 = False
-useSecondBufferElement = False
+
+useSecondBufferElement = True
+
 useBiGram = True
+
 useLemma = True
+
 useSytax = True
+
 useTriGram = False
+
 usePOS = True
-S0S1Distance = False
+
+S0S1Distance = True
+
+useDictionary = True
+
 S0B0Distance = False
-generateS0B2Bigram = False
+
+generateS0B2Bigram = True
+
 useStackLength = False
+

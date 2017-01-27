@@ -12,7 +12,7 @@ Jag är en av dem som tyckt att Mathias Ranégie aldrig fick chansen på Kamratg
 
 1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Jag]   B= [är, en, av ,.. ]
 
-B0Lemma: vara, B0POS: AUX, B0Token: är, B1Lemma: man, B1POS: PRON, B1Token: en, S0B0Distance: 1, S0B0Lemma: jag_vara, S0B0LemmaPOS: jag_AUX, S0B0POS: PRON_AUX, S0B0POSLemma: PRON_vara, S0B0Token: Jag_är, S0B1Lemma: jag_man, S0B1LemmaPOS: jag_PRON, S0B1POS: PRON_PRON, S0B1POSLemma: PRON_man, S0B1Token: Jag_en, S0B2Lemma: jag_av, S0B2LemmaPOS: jag_ADP, S0B2POS: PRON_ADP, S0B2POSLemma: PRON_av, S0B2Token: Jag_av, S0Lemma: jag, S0POS: PRON, S0Token: Jag, StackLength: 1, jag_isGouvernedBy_man: true, jag_isGouvernedBy_man_nsubj: true, 
+B0IsInLexic: true, B0Lemma: vara, B0POS: AUX, B0Token: är, B1Lemma: man, B1POS: PRON, B1Token: en, S0B0Distance: 1, S0B0Lemma: jag_vara, S0B0LemmaPOS: jag_AUX, S0B0POS: PRON_AUX, S0B0POSLemma: PRON_vara, S0B0Token: Jag_är, S0B1Lemma: jag_man, S0B1LemmaPOS: jag_PRON, S0B1POS: PRON_PRON, S0B1POSLemma: PRON_man, S0B1Token: Jag_en, S0B2Lemma: jag_av, S0B2LemmaPOS: jag_ADP, S0B2POS: PRON_ADP, S0B2POSLemma: PRON_av, S0B2Token: Jag_av, S0IsInLexic: true, S0Lemma: jag, S0POS: PRON, S0Token: Jag, StackLength: 1, jag_isGouvernedBy_man: true, jag_isGouvernedBy_man_nsubj: true, 
 
 2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [är, en, av ,.. ]
 
@@ -20,7 +20,7 @@ B0Lemma: vara, B0POS: AUX, B0Token: är, B1Lemma: man, B1POS: PRON, B1Token: en,
 
 3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [är]   B= [en, av, dem ,.. ]
 
-B0Lemma: man, B0POS: PRON, B0Token: en, B1Lemma: av, B1POS: ADP, B1Token: av, S0B0Distance: 1, S0B0Lemma: vara_man, S0B0LemmaPOS: vara_PRON, S0B0POS: AUX_PRON, S0B0POSLemma: AUX_man, S0B0Token: är_en, S0B1Lemma: vara_av, S0B1LemmaPOS: vara_ADP, S0B1POS: AUX_ADP, S0B1POSLemma: AUX_av, S0B1Token: är_av, S0B2Lemma: vara_de, S0B2LemmaPOS: vara_PRON, S0B2POS: AUX_PRON, S0B2POSLemma: AUX_de, S0B2Token: är_dem, S0Lemma: vara, S0POS: AUX, S0Token: är, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, vara_isGouvernedBy_man: true, vara_isGouvernedBy_man_cop: true, 
+B0Lemma: man, B0POS: PRON, B0Token: en, B1IsInLexic: true, B1Lemma: av, B1POS: ADP, B1Token: av, S0B0Distance: 1, S0B0Lemma: vara_man, S0B0LemmaPOS: vara_PRON, S0B0POS: AUX_PRON, S0B0POSLemma: AUX_man, S0B0Token: är_en, S0B1Lemma: vara_av, S0B1LemmaPOS: vara_ADP, S0B1POS: AUX_ADP, S0B1POSLemma: AUX_av, S0B1Token: är_av, S0B2Lemma: vara_de, S0B2LemmaPOS: vara_PRON, S0B2POS: AUX_PRON, S0B2POSLemma: AUX_de, S0B2Token: är_dem, S0IsInLexic: true, S0Lemma: vara, S0POS: AUX, S0Token: är, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, vara_isGouvernedBy_man: true, vara_isGouvernedBy_man_cop: true, 
 
 4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [en, av, dem ,.. ]
 
@@ -28,7 +28,7 @@ B0Lemma: man, B0POS: PRON, B0Token: en, B1Lemma: av, B1POS: ADP, B1Token: av, S0
 
 5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [en]   B= [av, dem, som ,.. ]
 
-B0Lemma: av, B0POS: ADP, B0Token: av, B1Lemma: de, B1POS: PRON, B1Token: dem, S0B0Distance: 1, S0B0Lemma: man_av, S0B0LemmaPOS: man_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_av, S0B0Token: en_av, S0B1Lemma: man_de, S0B1LemmaPOS: man_PRON, S0B1POS: PRON_PRON, S0B1POSLemma: PRON_de, S0B1Token: en_dem, S0B2Lemma: man_som, S0B2LemmaPOS: man_PRON, S0B2POS: PRON_PRON, S0B2POSLemma: PRON_som, S0B2Token: en_som, S0Lemma: man, S0POS: PRON, S0Token: en, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: av, B0POS: ADP, B0Token: av, B1Lemma: de, B1POS: PRON, B1Token: dem, S0B0Distance: 1, S0B0Lemma: man_av, S0B0LemmaPOS: man_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_av, S0B0Token: en_av, S0B1Lemma: man_de, S0B1LemmaPOS: man_PRON, S0B1POS: PRON_PRON, S0B1POSLemma: PRON_de, S0B1Token: en_dem, S0B2Lemma: man_som, S0B2LemmaPOS: man_PRON, S0B2POS: PRON_PRON, S0B2POSLemma: PRON_som, S0B2Token: en_som, S0Lemma: man, S0POS: PRON, S0Token: en, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [av, dem, som ,.. ]
 
@@ -36,7 +36,7 @@ B0Lemma: av, B0POS: ADP, B0Token: av, B1Lemma: de, B1POS: PRON, B1Token: dem, S0
 
 7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [av]   B= [dem, som, tyckt ,.. ]
 
-B0Lemma: de, B0POS: PRON, B0Token: dem, B1Lemma: som, B1POS: PRON, B1Token: som, S0B0Distance: 1, S0B0Lemma: av_de, S0B0LemmaPOS: av_PRON, S0B0POS: ADP_PRON, S0B0POSLemma: ADP_de, S0B0Token: av_dem, S0B1Lemma: av_som, S0B1LemmaPOS: av_PRON, S0B1POS: ADP_PRON, S0B1POSLemma: ADP_som, S0B1Token: av_som, S0B2Lemma: av_tycka, S0B2LemmaPOS: av_VERB, S0B2POS: ADP_VERB, S0B2POSLemma: ADP_tycka, S0B2Token: av_tyckt, S0Lemma: av, S0POS: ADP, S0Token: av, StackLength: 1, av_isGouvernedBy_de: true, av_isGouvernedBy_de_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: de, B0POS: PRON, B0Token: dem, B1Lemma: som, B1POS: PRON, B1Token: som, S0B0Distance: 1, S0B0Lemma: av_de, S0B0LemmaPOS: av_PRON, S0B0POS: ADP_PRON, S0B0POSLemma: ADP_de, S0B0Token: av_dem, S0B1Lemma: av_som, S0B1LemmaPOS: av_PRON, S0B1POS: ADP_PRON, S0B1POSLemma: ADP_som, S0B1Token: av_som, S0B2Lemma: av_tycka, S0B2LemmaPOS: av_VERB, S0B2POS: ADP_VERB, S0B2POSLemma: ADP_tycka, S0B2Token: av_tyckt, S0IsInLexic: true, S0Lemma: av, S0POS: ADP, S0Token: av, StackLength: 1, av_isGouvernedBy_de: true, av_isGouvernedBy_de_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dem, som, tyckt ,.. ]
 
@@ -84,7 +84,7 @@ B0Lemma: Ranégie, B0POS: PROPN, B0Token: Ranégie, B1Lemma: aldrig, B1POS: ADV,
 
 19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ranégie]   B= [aldrig, fick, chansen ,.. ]
 
-B0Lemma: aldrig, B0POS: ADV, B0Token: aldrig, B1Lemma: få, B1POS: VERB, B1Token: fick, Ranégie_isGouvernedBy_få: true, Ranégie_isGouvernedBy_få_nsubj: true, S0B0Distance: 1, S0B0Lemma: Ranégie_aldrig, S0B0LemmaPOS: Ranégie_ADV, S0B0POS: PROPN_ADV, S0B0POSLemma: PROPN_aldrig, S0B0Token: Ranégie_aldrig, S0B1Lemma: Ranégie_få, S0B1LemmaPOS: Ranégie_VERB, S0B1POS: PROPN_VERB, S0B1POSLemma: PROPN_få, S0B1Token: Ranégie_fick, S0B2Lemma: Ranégie_chans, S0B2LemmaPOS: Ranégie_NOUN, S0B2POS: PROPN_NOUN, S0B2POSLemma: PROPN_chans, S0B2Token: Ranégie_chansen, S0Lemma: Ranégie, S0POS: PROPN, S0Token: Ranégie, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: aldrig, B0POS: ADV, B0Token: aldrig, B1IsInLexic: true, B1Lemma: få, B1POS: VERB, B1Token: fick, Ranégie_isGouvernedBy_få: true, Ranégie_isGouvernedBy_få_nsubj: true, S0B0Distance: 1, S0B0Lemma: Ranégie_aldrig, S0B0LemmaPOS: Ranégie_ADV, S0B0POS: PROPN_ADV, S0B0POSLemma: PROPN_aldrig, S0B0Token: Ranégie_aldrig, S0B1Lemma: Ranégie_få, S0B1LemmaPOS: Ranégie_VERB, S0B1POS: PROPN_VERB, S0B1POSLemma: PROPN_få, S0B1Token: Ranégie_fick, S0B2Lemma: Ranégie_chans, S0B2LemmaPOS: Ranégie_NOUN, S0B2POS: PROPN_NOUN, S0B2POSLemma: PROPN_chans, S0B2Token: Ranégie_chansen, S0Lemma: Ranégie, S0POS: PROPN, S0Token: Ranégie, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aldrig, fick, chansen ,.. ]
 
@@ -92,7 +92,7 @@ B0Lemma: aldrig, B0POS: ADV, B0Token: aldrig, B1Lemma: få, B1POS: VERB, B1Token
 
 21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aldrig]   B= [fick, chansen, på ,.. ]
 
-B0Lemma: få, B0POS: VERB, B0Token: fick, B1Lemma: chans, B1POS: NOUN, B1Token: chansen, S0B0Distance: 1, S0B0Lemma: aldrig_få, S0B0LemmaPOS: aldrig_VERB, S0B0POS: ADV_VERB, S0B0POSLemma: ADV_få, S0B0Token: aldrig_fick, S0B1Lemma: aldrig_chans, S0B1LemmaPOS: aldrig_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_chans, S0B1Token: aldrig_chansen, S0B2Lemma: aldrig_på, S0B2LemmaPOS: aldrig_ADP, S0B2POS: ADV_ADP, S0B2POSLemma: ADV_på, S0B2Token: aldrig_på, S0Lemma: aldrig, S0POS: ADV, S0Token: aldrig, StackLength: 1, aldrig_isGouvernedBy_få: true, aldrig_isGouvernedBy_få_advmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: få, B0POS: VERB, B0Token: fick, B1Lemma: chans, B1POS: NOUN, B1Token: chansen, S0B0Distance: 1, S0B0Lemma: aldrig_få, S0B0LemmaPOS: aldrig_VERB, S0B0POS: ADV_VERB, S0B0POSLemma: ADV_få, S0B0Token: aldrig_fick, S0B1Lemma: aldrig_chans, S0B1LemmaPOS: aldrig_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_chans, S0B1Token: aldrig_chansen, S0B2Lemma: aldrig_på, S0B2LemmaPOS: aldrig_ADP, S0B2POS: ADV_ADP, S0B2POSLemma: ADV_på, S0B2Token: aldrig_på, S0Lemma: aldrig, S0POS: ADV, S0Token: aldrig, StackLength: 1, aldrig_isGouvernedBy_få: true, aldrig_isGouvernedBy_få_advmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fick, chansen, på ,.. ]
 
@@ -100,7 +100,7 @@ B0Lemma: få, B0POS: VERB, B0Token: fick, B1Lemma: chans, B1POS: NOUN, B1Token: 
 
 23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fick]   B= [chansen, på, Kamratgården ,.. ]
 
-B0Lemma: chans, B0POS: NOUN, B0Token: chansen, B1Lemma: på, B1POS: ADP, B1Token: på, S0B0Distance: 1, S0B0Lemma: få_chans, S0B0LemmaPOS: få_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_chans, S0B0Token: fick_chansen, S0B1Lemma: få_på, S0B1LemmaPOS: få_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_på, S0B1Token: fick_på, S0B2Lemma: få_Kamratgård, S0B2LemmaPOS: få_PROPN, S0B2POS: VERB_PROPN, S0B2POSLemma: VERB_Kamratgård, S0B2Token: fick_Kamratgården, S0Lemma: få, S0POS: VERB, S0Token: fick, StackLength: 1, få_Kamratgård_hasRighDep_nmod: true, få_chans_hasRighDep_dobj: true, få_hasRighDep_dobj: true, få_hasRighDep_nmod: true, hasRighDep_dobj: true, hasRighDep_nmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: chans, B0POS: NOUN, B0Token: chansen, B1IsInLexic: true, B1Lemma: på, B1POS: ADP, B1Token: på, S0B0Distance: 1, S0B0Lemma: få_chans, S0B0LemmaPOS: få_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_chans, S0B0Token: fick_chansen, S0B1Lemma: få_på, S0B1LemmaPOS: få_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_på, S0B1Token: fick_på, S0B2Lemma: få_Kamratgård, S0B2LemmaPOS: få_PROPN, S0B2POS: VERB_PROPN, S0B2POSLemma: VERB_Kamratgård, S0B2Token: fick_Kamratgården, S0IsInLexic: true, S0Lemma: få, S0POS: VERB, S0Token: fick, StackLength: 1, få_Kamratgård_hasRighDep_nmod: true, få_chans_hasRighDep_dobj: true, få_hasRighDep_dobj: true, få_hasRighDep_nmod: true, hasRighDep_dobj: true, hasRighDep_nmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [chansen, på, Kamratgården ,.. ]
 
@@ -108,7 +108,7 @@ B0Lemma: chans, B0POS: NOUN, B0Token: chansen, B1Lemma: på, B1POS: ADP, B1Token
 
 25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [chansen]   B= [på, Kamratgården, , ,.. ]
 
-B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: Kamratgård, B1POS: PROPN, B1Token: Kamratgården, S0B0Distance: 1, S0B0Lemma: chans_på, S0B0LemmaPOS: chans_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_på, S0B0Token: chansen_på, S0B1Lemma: chans_Kamratgård, S0B1LemmaPOS: chans_PROPN, S0B1POS: NOUN_PROPN, S0B1POSLemma: NOUN_Kamratgård, S0B1Token: chansen_Kamratgården, S0B2Lemma: chans_,, S0B2LemmaPOS: chans_PUNCT, S0B2POS: NOUN_PUNCT, S0B2POSLemma: NOUN_,, S0B2Token: chansen_,, S0Lemma: chans, S0POS: NOUN, S0Token: chansen, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: Kamratgård, B1POS: PROPN, B1Token: Kamratgården, S0B0Distance: 1, S0B0Lemma: chans_på, S0B0LemmaPOS: chans_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_på, S0B0Token: chansen_på, S0B1Lemma: chans_Kamratgård, S0B1LemmaPOS: chans_PROPN, S0B1POS: NOUN_PROPN, S0B1POSLemma: NOUN_Kamratgård, S0B1Token: chansen_Kamratgården, S0B2Lemma: chans_,, S0B2LemmaPOS: chans_PUNCT, S0B2POS: NOUN_PUNCT, S0B2POSLemma: NOUN_,, S0B2Token: chansen_,, S0Lemma: chans, S0POS: NOUN, S0Token: chansen, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [på, Kamratgården, , ,.. ]
 
@@ -116,7 +116,7 @@ B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: Kamratgård, B1POS: PROPN, B1To
 
 27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [på]   B= [Kamratgården, ,, samtidigt ,.. ]
 
-B0Lemma: Kamratgård, B0POS: PROPN, B0Token: Kamratgården, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: på_Kamratgård, S0B0LemmaPOS: på_PROPN, S0B0POS: ADP_PROPN, S0B0POSLemma: ADP_Kamratgård, S0B0Token: på_Kamratgården, S0B1Lemma: på_,, S0B1LemmaPOS: på_PUNCT, S0B1POS: ADP_PUNCT, S0B1POSLemma: ADP_,, S0B1Token: på_,, S0B2Lemma: på_samtidig, S0B2LemmaPOS: på_ADV, S0B2POS: ADP_ADV, S0B2POSLemma: ADP_samtidig, S0B2Token: på_samtidigt, S0Lemma: på, S0POS: ADP, S0Token: på, StackLength: 1, på_isGouvernedBy_Kamratgård: true, på_isGouvernedBy_Kamratgård_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Kamratgård, B0POS: PROPN, B0Token: Kamratgården, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Distance: 1, S0B0Lemma: på_Kamratgård, S0B0LemmaPOS: på_PROPN, S0B0POS: ADP_PROPN, S0B0POSLemma: ADP_Kamratgård, S0B0Token: på_Kamratgården, S0B1Lemma: på_,, S0B1LemmaPOS: på_PUNCT, S0B1POS: ADP_PUNCT, S0B1POSLemma: ADP_,, S0B1Token: på_,, S0B2Lemma: på_samtidig, S0B2LemmaPOS: på_ADV, S0B2POS: ADP_ADV, S0B2POSLemma: ADP_samtidig, S0B2Token: på_samtidigt, S0IsInLexic: true, S0Lemma: på, S0POS: ADP, S0Token: på, StackLength: 1, på_isGouvernedBy_Kamratgård: true, på_isGouvernedBy_Kamratgård_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kamratgården, ,, samtidigt ,.. ]
 
@@ -148,7 +148,7 @@ B0Lemma: skola, B0POS: AUX, B0Token: ska, B1Lemma: man, B1POS: PRON, B1Token: ma
 
 35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ska]   B= [man, komma, ihåg ,.. ]
 
-B0Lemma: man, B0POS: PRON, B0Token: man, B1Lemma: komma, B1POS: VERB, B1Token: komma, S0B0Distance: 1, S0B0Lemma: skola_man, S0B0LemmaPOS: skola_PRON, S0B0POS: AUX_PRON, S0B0POSLemma: AUX_man, S0B0Token: ska_man, S0B1Lemma: skola_komma, S0B1LemmaPOS: skola_VERB, S0B1POS: AUX_VERB, S0B1POSLemma: AUX_komma, S0B1Token: ska_komma, S0B2Lemma: skola_ihåg, S0B2LemmaPOS: skola_ADV, S0B2POS: AUX_ADV, S0B2POSLemma: AUX_ihåg, S0B2Token: ska_ihåg, S0Lemma: skola, S0POS: AUX, S0Token: ska, StackLength: 1, skola_isGouvernedBy_komma: true, skola_isGouvernedBy_komma_aux: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: man, B0POS: PRON, B0Token: man, B1IsInLexic: true, B1Lemma: komma, B1POS: VERB, B1Token: komma, S0B0Distance: 1, S0B0Lemma: skola_man, S0B0LemmaPOS: skola_PRON, S0B0POS: AUX_PRON, S0B0POSLemma: AUX_man, S0B0Token: ska_man, S0B1Lemma: skola_komma, S0B1LemmaPOS: skola_VERB, S0B1POS: AUX_VERB, S0B1POSLemma: AUX_komma, S0B1Token: ska_komma, S0B2Lemma: skola_ihåg, S0B2LemmaPOS: skola_ADV, S0B2POS: AUX_ADV, S0B2POSLemma: AUX_ihåg, S0B2Token: ska_ihåg, S0Lemma: skola, S0POS: AUX, S0Token: ska, StackLength: 1, skola_isGouvernedBy_komma: true, skola_isGouvernedBy_komma_aux: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [man, komma, ihåg ,.. ]
 
@@ -156,7 +156,7 @@ B0Lemma: man, B0POS: PRON, B0Token: man, B1Lemma: komma, B1POS: VERB, B1Token: k
 
 37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [man]   B= [komma, ihåg, att ,.. ]
 
-B0Lemma: komma, B0POS: VERB, B0Token: komma, B1Lemma: ihåg, B1POS: ADV, B1Token: ihåg, S0B0Distance: 1, S0B0Lemma: man_komma, S0B0LemmaPOS: man_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_komma, S0B0Token: man_komma, S0B1Lemma: man_ihåg, S0B1LemmaPOS: man_ADV, S0B1POS: PRON_ADV, S0B1POSLemma: PRON_ihåg, S0B1Token: man_ihåg, S0B2Lemma: man_att, S0B2LemmaPOS: man_SCONJ, S0B2POS: PRON_SCONJ, S0B2POSLemma: PRON_att, S0B2Token: man_att, S0Lemma: man, S0POS: PRON, S0Token: man, StackLength: 1, man_isGouvernedBy_komma: true, man_isGouvernedBy_komma_nsubj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: komma, B0POS: VERB, B0Token: komma, B1Lemma: ihåg, B1POS: ADV, B1Token: ihåg, S0B0Distance: 1, S0B0Lemma: man_komma, S0B0LemmaPOS: man_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_komma, S0B0Token: man_komma, S0B1Lemma: man_ihåg, S0B1LemmaPOS: man_ADV, S0B1POS: PRON_ADV, S0B1POSLemma: PRON_ihåg, S0B1Token: man_ihåg, S0B2Lemma: man_att, S0B2LemmaPOS: man_SCONJ, S0B2POS: PRON_SCONJ, S0B2POSLemma: PRON_att, S0B2Token: man_att, S0Lemma: man, S0POS: PRON, S0Token: man, StackLength: 1, man_isGouvernedBy_komma: true, man_isGouvernedBy_komma_nsubj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [komma, ihåg, att ,.. ]
 
@@ -164,7 +164,7 @@ B0Lemma: komma, B0POS: VERB, B0Token: komma, B1Lemma: ihåg, B1POS: ADV, B1Token
 
 39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [komma]   B= [ihåg, att, det ,.. ]
 
-B0Lemma: ihåg, B0POS: ADV, B0Token: ihåg, B1Lemma: att, B1POS: SCONJ, B1Token: att, S0B0Distance: 1, S0B0Lemma: komma_ihåg, S0B0LemmaPOS: komma_ADV, S0B0POS: VERB_ADV, S0B0POSLemma: VERB_ihåg, S0B0Token: komma_ihåg, S0B1Lemma: komma_att, S0B1LemmaPOS: komma_SCONJ, S0B1POS: VERB_SCONJ, S0B1POSLemma: VERB_att, S0B1Token: komma_att, S0B2Lemma: komma_den, S0B2LemmaPOS: komma_PRON, S0B2POS: VERB_PRON, S0B2POSLemma: VERB_den, S0B2Token: komma_det, S0Lemma: komma, S0POS: VERB, S0Token: komma, StackLength: 1, hasRighDep_ccomp: true, hasRighDep_compound:prt: true, komma_bli_hasRighDep_ccomp: true, komma_hasRighDep_ccomp: true, komma_hasRighDep_compound:prt: true, komma_ihåg_hasRighDep_compound:prt: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ihåg, B0POS: ADV, B0Token: ihåg, B1Lemma: att, B1POS: SCONJ, B1Token: att, S0B0Distance: 1, S0B0Lemma: komma_ihåg, S0B0LemmaPOS: komma_ADV, S0B0POS: VERB_ADV, S0B0POSLemma: VERB_ihåg, S0B0Token: komma_ihåg, S0B1Lemma: komma_att, S0B1LemmaPOS: komma_SCONJ, S0B1POS: VERB_SCONJ, S0B1POSLemma: VERB_att, S0B1Token: komma_att, S0B2Lemma: komma_den, S0B2LemmaPOS: komma_PRON, S0B2POS: VERB_PRON, S0B2POSLemma: VERB_den, S0B2Token: komma_det, S0IsInLexic: true, S0Lemma: komma, S0POS: VERB, S0Token: komma, StackLength: 1, hasRighDep_ccomp: true, hasRighDep_compound:prt: true, komma_bli_hasRighDep_ccomp: true, komma_hasRighDep_ccomp: true, komma_hasRighDep_compound:prt: true, komma_ihåg_hasRighDep_compound:prt: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ihåg, att, det ,.. ]
 
@@ -180,7 +180,7 @@ B0Lemma: att, B0POS: SCONJ, B0Token: att, B1Lemma: den, B1POS: PRON, B1Token: de
 
 43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [att]   B= [det, var, när ,.. ]
 
-B0Lemma: den, B0POS: PRON, B0Token: det, B1Lemma: vara, B1POS: AUX, B1Token: var, S0B0Distance: 1, S0B0Lemma: att_den, S0B0LemmaPOS: att_PRON, S0B0POS: SCONJ_PRON, S0B0POSLemma: SCONJ_den, S0B0Token: att_det, S0B1Lemma: att_vara, S0B1LemmaPOS: att_AUX, S0B1POS: SCONJ_AUX, S0B1POSLemma: SCONJ_vara, S0B1Token: att_var, S0B2Lemma: att_när, S0B2LemmaPOS: att_ADV, S0B2POS: SCONJ_ADV, S0B2POSLemma: SCONJ_när, S0B2Token: att_när, S0Lemma: att, S0POS: SCONJ, S0Token: att, StackLength: 1, att_isGouvernedBy_bli: true, att_isGouvernedBy_bli_mark: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: den, B0POS: PRON, B0Token: det, B1IsInLexic: true, B1Lemma: vara, B1POS: AUX, B1Token: var, S0B0Distance: 1, S0B0Lemma: att_den, S0B0LemmaPOS: att_PRON, S0B0POS: SCONJ_PRON, S0B0POSLemma: SCONJ_den, S0B0Token: att_det, S0B1Lemma: att_vara, S0B1LemmaPOS: att_AUX, S0B1POS: SCONJ_AUX, S0B1POSLemma: SCONJ_vara, S0B1Token: att_var, S0B2Lemma: att_när, S0B2LemmaPOS: att_ADV, S0B2POS: SCONJ_ADV, S0B2POSLemma: SCONJ_när, S0B2Token: att_när, S0Lemma: att, S0POS: SCONJ, S0Token: att, StackLength: 1, att_isGouvernedBy_bli: true, att_isGouvernedBy_bli_mark: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [det, var, när ,.. ]
 
@@ -188,7 +188,7 @@ B0Lemma: den, B0POS: PRON, B0Token: det, B1Lemma: vara, B1POS: AUX, B1Token: var
 
 45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [det]   B= [var, när, han ,.. ]
 
-B0Lemma: vara, B0POS: AUX, B0Token: var, B1Lemma: när, B1POS: ADV, B1Token: när, S0B0Distance: 1, S0B0Lemma: den_vara, S0B0LemmaPOS: den_AUX, S0B0POS: PRON_AUX, S0B0POSLemma: PRON_vara, S0B0Token: det_var, S0B1Lemma: den_när, S0B1LemmaPOS: den_ADV, S0B1POS: PRON_ADV, S0B1POSLemma: PRON_när, S0B1Token: det_när, S0B2Lemma: den_han, S0B2LemmaPOS: den_PRON, S0B2POS: PRON_PRON, S0B2POSLemma: PRON_han, S0B2Token: det_han, S0Lemma: den, S0POS: PRON, S0Token: det, StackLength: 1, den_isGouvernedBy_bli: true, den_isGouvernedBy_bli_nsubj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: vara, B0POS: AUX, B0Token: var, B1Lemma: när, B1POS: ADV, B1Token: när, S0B0Distance: 1, S0B0Lemma: den_vara, S0B0LemmaPOS: den_AUX, S0B0POS: PRON_AUX, S0B0POSLemma: PRON_vara, S0B0Token: det_var, S0B1Lemma: den_när, S0B1LemmaPOS: den_ADV, S0B1POS: PRON_ADV, S0B1POSLemma: PRON_när, S0B1Token: det_när, S0B2Lemma: den_han, S0B2LemmaPOS: den_PRON, S0B2POS: PRON_PRON, S0B2POSLemma: PRON_han, S0B2Token: det_han, S0Lemma: den, S0POS: PRON, S0Token: det, StackLength: 1, den_isGouvernedBy_bli: true, den_isGouvernedBy_bli_nsubj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [var, när, han ,.. ]
 
@@ -196,7 +196,7 @@ B0Lemma: vara, B0POS: AUX, B0Token: var, B1Lemma: när, B1POS: ADV, B1Token: nä
 
 47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [var]   B= [när, han, blev ,.. ]
 
-B0Lemma: när, B0POS: ADV, B0Token: när, B1Lemma: han, B1POS: PRON, B1Token: han, S0B0Distance: 1, S0B0Lemma: vara_när, S0B0LemmaPOS: vara_ADV, S0B0POS: AUX_ADV, S0B0POSLemma: AUX_när, S0B0Token: var_när, S0B1Lemma: vara_han, S0B1LemmaPOS: vara_PRON, S0B1POS: AUX_PRON, S0B1POSLemma: AUX_han, S0B1Token: var_han, S0B2Lemma: vara_bli, S0B2LemmaPOS: vara_VERB, S0B2POS: AUX_VERB, S0B2POSLemma: AUX_bli, S0B2Token: var_blev, S0Lemma: vara, S0POS: AUX, S0Token: var, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, vara_isGouvernedBy_bli: true, vara_isGouvernedBy_bli_cop: true, 
+B0Lemma: när, B0POS: ADV, B0Token: när, B1Lemma: han, B1POS: PRON, B1Token: han, S0B0Distance: 1, S0B0Lemma: vara_när, S0B0LemmaPOS: vara_ADV, S0B0POS: AUX_ADV, S0B0POSLemma: AUX_när, S0B0Token: var_när, S0B1Lemma: vara_han, S0B1LemmaPOS: vara_PRON, S0B1POS: AUX_PRON, S0B1POSLemma: AUX_han, S0B1Token: var_han, S0B2Lemma: vara_bli, S0B2LemmaPOS: vara_VERB, S0B2POS: AUX_VERB, S0B2POSLemma: AUX_bli, S0B2Token: var_blev, S0IsInLexic: true, S0Lemma: vara, S0POS: AUX, S0Token: var, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, vara_isGouvernedBy_bli: true, vara_isGouvernedBy_bli_cop: true, 
 
 48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [när, han, blev ,.. ]
 
@@ -260,7 +260,7 @@ B0Lemma: stod, B0POS: VERB, B0Token: stod, B1Lemma: för, B1POS: ADP, B1Token: f
 
 63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stod]   B= [för, det, största ,.. ]
 
-B0Lemma: för, B0POS: ADP, B0Token: för, B1Lemma: en, B1POS: DET, B1Token: det, S0B0Distance: 1, S0B0Lemma: stod_för, S0B0LemmaPOS: stod_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_för, S0B0Token: stod_för, S0B1Lemma: stod_en, S0B1LemmaPOS: stod_DET, S0B1POS: VERB_DET, S0B1POSLemma: VERB_en, S0B1Token: stod_det, S0B2Lemma: stod_stor, S0B2LemmaPOS: stod_ADJ, S0B2POS: VERB_ADJ, S0B2POSLemma: VERB_stor, S0B2Token: stod_största, S0Lemma: stod, S0POS: VERB, S0Token: stod, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: för, B0POS: ADP, B0Token: för, B1IsInLexic: true, B1Lemma: en, B1POS: DET, B1Token: det, S0B0Distance: 1, S0B0Lemma: stod_för, S0B0LemmaPOS: stod_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_för, S0B0Token: stod_för, S0B1Lemma: stod_en, S0B1LemmaPOS: stod_DET, S0B1POS: VERB_DET, S0B1POSLemma: VERB_en, S0B1Token: stod_det, S0B2Lemma: stod_stor, S0B2LemmaPOS: stod_ADJ, S0B2POS: VERB_ADJ, S0B2POSLemma: VERB_stor, S0B2Token: stod_största, S0Lemma: stod, S0POS: VERB, S0Token: stod, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [för, det, största ,.. ]
 
@@ -268,7 +268,7 @@ B0Lemma: för, B0POS: ADP, B0Token: för, B1Lemma: en, B1POS: DET, B1Token: det,
 
 65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [för]   B= [det, största, genombrottet ,.. ]
 
-B0Lemma: en, B0POS: DET, B0Token: det, B1Lemma: stor, B1POS: ADJ, B1Token: största, S0B0Distance: 1, S0B0Lemma: för_en, S0B0LemmaPOS: för_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_en, S0B0Token: för_det, S0B1Lemma: för_stor, S0B1LemmaPOS: för_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_stor, S0B1Token: för_största, S0B2Lemma: för_genombrott, S0B2LemmaPOS: för_NOUN, S0B2POS: ADP_NOUN, S0B2POSLemma: ADP_genombrott, S0B2Token: för_genombrottet, S0Lemma: för, S0POS: ADP, S0Token: för, StackLength: 1, för_isGouvernedBy_genombrott: true, för_isGouvernedBy_genombrott_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: en, B0POS: DET, B0Token: det, B1Lemma: stor, B1POS: ADJ, B1Token: största, S0B0Distance: 1, S0B0Lemma: för_en, S0B0LemmaPOS: för_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_en, S0B0Token: för_det, S0B1Lemma: för_stor, S0B1LemmaPOS: för_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_stor, S0B1Token: för_största, S0B2Lemma: för_genombrott, S0B2LemmaPOS: för_NOUN, S0B2POS: ADP_NOUN, S0B2POSLemma: ADP_genombrott, S0B2Token: för_genombrottet, S0Lemma: för, S0POS: ADP, S0Token: för, StackLength: 1, för_isGouvernedBy_genombrott: true, för_isGouvernedBy_genombrott_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [det, största, genombrottet ,.. ]
 
@@ -276,7 +276,7 @@ B0Lemma: en, B0POS: DET, B0Token: det, B1Lemma: stor, B1POS: ADJ, B1Token: stör
 
 67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [det]   B= [största, genombrottet, i ,.. ]
 
-B0Lemma: stor, B0POS: ADJ, B0Token: största, B1Lemma: genombrott, B1POS: NOUN, B1Token: genombrottet, S0B0Distance: 1, S0B0Lemma: en_stor, S0B0LemmaPOS: en_ADJ, S0B0POS: DET_ADJ, S0B0POSLemma: DET_stor, S0B0Token: det_största, S0B1Lemma: en_genombrott, S0B1LemmaPOS: en_NOUN, S0B1POS: DET_NOUN, S0B1POSLemma: DET_genombrott, S0B1Token: det_genombrottet, S0B2Lemma: en_i, S0B2LemmaPOS: en_ADP, S0B2POS: DET_ADP, S0B2POSLemma: DET_i, S0B2Token: det_i, S0Lemma: en, S0POS: DET, S0Token: det, StackLength: 1, en_isGouvernedBy_genombrott: true, en_isGouvernedBy_genombrott_det: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: stor, B0POS: ADJ, B0Token: största, B1Lemma: genombrott, B1POS: NOUN, B1Token: genombrottet, S0B0Distance: 1, S0B0Lemma: en_stor, S0B0LemmaPOS: en_ADJ, S0B0POS: DET_ADJ, S0B0POSLemma: DET_stor, S0B0Token: det_största, S0B1Lemma: en_genombrott, S0B1LemmaPOS: en_NOUN, S0B1POS: DET_NOUN, S0B1POSLemma: DET_genombrott, S0B1Token: det_genombrottet, S0B2Lemma: en_i, S0B2LemmaPOS: en_ADP, S0B2POS: DET_ADP, S0B2POSLemma: DET_i, S0B2Token: det_i, S0IsInLexic: true, S0Lemma: en, S0POS: DET, S0Token: det, StackLength: 1, en_isGouvernedBy_genombrott: true, en_isGouvernedBy_genombrott_det: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [största, genombrottet, i ,.. ]
 
@@ -284,7 +284,7 @@ B0Lemma: stor, B0POS: ADJ, B0Token: största, B1Lemma: genombrott, B1POS: NOUN, 
 
 69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [största]   B= [genombrottet, i, allsvenskan ,.. ]
 
-B0Lemma: genombrott, B0POS: NOUN, B0Token: genombrottet, B1Lemma: i, B1POS: ADP, B1Token: i, S0B0Distance: 1, S0B0Lemma: stor_genombrott, S0B0LemmaPOS: stor_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_genombrott, S0B0Token: största_genombrottet, S0B1Lemma: stor_i, S0B1LemmaPOS: stor_ADP, S0B1POS: ADJ_ADP, S0B1POSLemma: ADJ_i, S0B1Token: största_i, S0B2Lemma: stor_allsvenska, S0B2LemmaPOS: stor_NOUN, S0B2POS: ADJ_NOUN, S0B2POSLemma: ADJ_allsvenska, S0B2Token: största_allsvenskan, S0Lemma: stor, S0POS: ADJ, S0Token: största, StackLength: 1, stor_isGouvernedBy_genombrott: true, stor_isGouvernedBy_genombrott_amod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: genombrott, B0POS: NOUN, B0Token: genombrottet, B1IsInLexic: true, B1Lemma: i, B1POS: ADP, B1Token: i, S0B0Distance: 1, S0B0Lemma: stor_genombrott, S0B0LemmaPOS: stor_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_genombrott, S0B0Token: största_genombrottet, S0B1Lemma: stor_i, S0B1LemmaPOS: stor_ADP, S0B1POS: ADJ_ADP, S0B1POSLemma: ADJ_i, S0B1Token: största_i, S0B2Lemma: stor_allsvenska, S0B2LemmaPOS: stor_NOUN, S0B2POS: ADJ_NOUN, S0B2POSLemma: ADJ_allsvenska, S0B2Token: största_allsvenskan, S0Lemma: stor, S0POS: ADJ, S0Token: största, StackLength: 1, stor_isGouvernedBy_genombrott: true, stor_isGouvernedBy_genombrott_amod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [genombrottet, i, allsvenskan ,.. ]
 
@@ -292,7 +292,7 @@ B0Lemma: genombrott, B0POS: NOUN, B0Token: genombrottet, B1Lemma: i, B1POS: ADP,
 
 71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [genombrottet]   B= [i, allsvenskan, på ,.. ]
 
-B0Lemma: i, B0POS: ADP, B0Token: i, B1Lemma: allsvenska, B1POS: NOUN, B1Token: allsvenskan, S0B0Distance: 1, S0B0Lemma: genombrott_i, S0B0LemmaPOS: genombrott_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_i, S0B0Token: genombrottet_i, S0B1Lemma: genombrott_allsvenska, S0B1LemmaPOS: genombrott_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_allsvenska, S0B1Token: genombrottet_allsvenskan, S0B2Lemma: genombrott_på, S0B2LemmaPOS: genombrott_ADP, S0B2POS: NOUN_ADP, S0B2POSLemma: NOUN_på, S0B2Token: genombrottet_på, S0Lemma: genombrott, S0POS: NOUN, S0Token: genombrottet, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: i, B0POS: ADP, B0Token: i, B1Lemma: allsvenska, B1POS: NOUN, B1Token: allsvenskan, S0B0Distance: 1, S0B0Lemma: genombrott_i, S0B0LemmaPOS: genombrott_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_i, S0B0Token: genombrottet_i, S0B1Lemma: genombrott_allsvenska, S0B1LemmaPOS: genombrott_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_allsvenska, S0B1Token: genombrottet_allsvenskan, S0B2Lemma: genombrott_på, S0B2LemmaPOS: genombrott_ADP, S0B2POS: NOUN_ADP, S0B2POSLemma: NOUN_på, S0B2Token: genombrottet_på, S0Lemma: genombrott, S0POS: NOUN, S0Token: genombrottet, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [i, allsvenskan, på ,.. ]
 
@@ -300,7 +300,7 @@ B0Lemma: i, B0POS: ADP, B0Token: i, B1Lemma: allsvenska, B1POS: NOUN, B1Token: a
 
 73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [i]   B= [allsvenskan, på, många ,.. ]
 
-B0Lemma: allsvenska, B0POS: NOUN, B0Token: allsvenskan, B1Lemma: på, B1POS: ADP, B1Token: på, S0B0Distance: 1, S0B0Lemma: i_allsvenska, S0B0LemmaPOS: i_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_allsvenska, S0B0Token: i_allsvenskan, S0B1Lemma: i_på, S0B1LemmaPOS: i_ADP, S0B1POS: ADP_ADP, S0B1POSLemma: ADP_på, S0B1Token: i_på, S0B2Lemma: i_många, S0B2LemmaPOS: i_ADJ, S0B2POS: ADP_ADJ, S0B2POSLemma: ADP_många, S0B2Token: i_många, S0Lemma: i, S0POS: ADP, S0Token: i, StackLength: 1, i_isGouvernedBy_allsvenska: true, i_isGouvernedBy_allsvenska_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: allsvenska, B0POS: NOUN, B0Token: allsvenskan, B1IsInLexic: true, B1Lemma: på, B1POS: ADP, B1Token: på, S0B0Distance: 1, S0B0Lemma: i_allsvenska, S0B0LemmaPOS: i_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_allsvenska, S0B0Token: i_allsvenskan, S0B1Lemma: i_på, S0B1LemmaPOS: i_ADP, S0B1POS: ADP_ADP, S0B1POSLemma: ADP_på, S0B1Token: i_på, S0B2Lemma: i_många, S0B2LemmaPOS: i_ADJ, S0B2POS: ADP_ADJ, S0B2POSLemma: ADP_många, S0B2Token: i_många, S0IsInLexic: true, S0Lemma: i, S0POS: ADP, S0Token: i, StackLength: 1, i_isGouvernedBy_allsvenska: true, i_isGouvernedBy_allsvenska_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [allsvenskan, på, många ,.. ]
 
@@ -308,7 +308,7 @@ B0Lemma: allsvenska, B0POS: NOUN, B0Token: allsvenskan, B1Lemma: på, B1POS: ADP
 
 75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [allsvenskan]   B= [på, många, år ,.. ]
 
-B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: många, B1POS: ADJ, B1Token: många, S0B0Distance: 1, S0B0Lemma: allsvenska_på, S0B0LemmaPOS: allsvenska_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_på, S0B0Token: allsvenskan_på, S0B1Lemma: allsvenska_många, S0B1LemmaPOS: allsvenska_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_många, S0B1Token: allsvenskan_många, S0B2Lemma: allsvenska_år, S0B2LemmaPOS: allsvenska_NOUN, S0B2POS: NOUN_NOUN, S0B2POSLemma: NOUN_år, S0B2Token: allsvenskan_år, S0Lemma: allsvenska, S0POS: NOUN, S0Token: allsvenskan, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: många, B1POS: ADJ, B1Token: många, S0B0Distance: 1, S0B0Lemma: allsvenska_på, S0B0LemmaPOS: allsvenska_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_på, S0B0Token: allsvenskan_på, S0B1Lemma: allsvenska_många, S0B1LemmaPOS: allsvenska_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_många, S0B1Token: allsvenskan_många, S0B2Lemma: allsvenska_år, S0B2LemmaPOS: allsvenska_NOUN, S0B2POS: NOUN_NOUN, S0B2POSLemma: NOUN_år, S0B2Token: allsvenskan_år, S0Lemma: allsvenska, S0POS: NOUN, S0Token: allsvenskan, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [på, många, år ,.. ]
 
@@ -316,7 +316,7 @@ B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: många, B1POS: ADJ, B1Token: m�
 
 77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [på]   B= [många, år, . ,.. ]
 
-B0Lemma: många, B0POS: ADJ, B0Token: många, B1Lemma: år, B1POS: NOUN, B1Token: år, S0B0Distance: 1, S0B0Lemma: på_många, S0B0LemmaPOS: på_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_många, S0B0Token: på_många, S0B1Lemma: på_år, S0B1LemmaPOS: på_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_år, S0B1Token: på_år, S0B2Lemma: på_., S0B2LemmaPOS: på_PUNCT, S0B2POS: ADP_PUNCT, S0B2POSLemma: ADP_., S0B2Token: på_., S0Lemma: på, S0POS: ADP, S0Token: på, StackLength: 1, på_isGouvernedBy_år: true, på_isGouvernedBy_år_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: många, B0POS: ADJ, B0Token: många, B1Lemma: år, B1POS: NOUN, B1Token: år, S0B0Distance: 1, S0B0Lemma: på_många, S0B0LemmaPOS: på_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_många, S0B0Token: på_många, S0B1Lemma: på_år, S0B1LemmaPOS: på_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_år, S0B1Token: på_år, S0B2Lemma: på_., S0B2LemmaPOS: på_PUNCT, S0B2POS: ADP_PUNCT, S0B2POSLemma: ADP_., S0B2Token: på_., S0IsInLexic: true, S0Lemma: på, S0POS: ADP, S0Token: på, StackLength: 1, på_isGouvernedBy_år: true, på_isGouvernedBy_år_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [många, år, . ,.. ]
 
@@ -348,9 +348,6 @@ B0Lemma: ., B0POS: PUNCT, B0Token: ., S0B0Distance: 1, S0B0Lemma: år_., S0B0Lem
 Att lära ut miljökunskap och sopsortering med hjälp av en hund har många fördelar enligt Anders Lundberg . 
 ### Existing MWEs: 
 1- **lära ut** (VPC)
-### Identified MWEs: 
-1- **lära ut** 
-
 
 
 
@@ -360,7 +357,7 @@ Att lära ut miljökunskap och sopsortering med hjälp av en hund har många fö
 
 1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Att]   B= [lära, ut, miljökunskap ,.. ]
 
-B0Lemma: lära, B0POS: VERB, B0Token: lära, B1Lemma: ut, B1POS: ADV, B1Token: ut, S0B0Distance: 1, S0B0Lemma: att_lära, S0B0LemmaPOS: att_VERB, S0B0POS: PART_VERB, S0B0POSLemma: PART_lära, S0B0Token: Att_lära, S0B1Lemma: att_ut, S0B1LemmaPOS: att_ADV, S0B1POS: PART_ADV, S0B1POSLemma: PART_ut, S0B1Token: Att_ut, S0B2Lemma: att_miljökunskap, S0B2LemmaPOS: att_NOUN, S0B2POS: PART_NOUN, S0B2POSLemma: PART_miljökunskap, S0B2Token: Att_miljökunskap, S0Lemma: att, S0POS: PART, S0Token: Att, StackLength: 1, att_isGouvernedBy_lära: true, att_isGouvernedBy_lära_mark: true, 
+B0Lemma: lära, B0POS: VERB, B0Token: lära, B1IsInLexic: true, B1Lemma: ut, B1POS: ADV, B1Token: ut, S0B0Distance: 1, S0B0Lemma: att_lära, S0B0LemmaPOS: att_VERB, S0B0POS: PART_VERB, S0B0POSLemma: PART_lära, S0B0Token: Att_lära, S0B1Lemma: att_ut, S0B1LemmaPOS: att_ADV, S0B1POS: PART_ADV, S0B1POSLemma: PART_ut, S0B1Token: Att_ut, S0B2Lemma: att_miljökunskap, S0B2LemmaPOS: att_NOUN, S0B2POS: PART_NOUN, S0B2POSLemma: PART_miljökunskap, S0B2Token: Att_miljökunskap, S0Lemma: att, S0POS: PART, S0Token: Att, StackLength: 1, att_isGouvernedBy_lära: true, att_isGouvernedBy_lära_mark: true, 
 
 2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lära, ut, miljökunskap ,.. ]
 
@@ -368,15 +365,15 @@ B0Lemma: lära, B0POS: VERB, B0Token: lära, B1Lemma: ut, B1POS: ADV, B1Token: u
 
 3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lära]   B= [ut, miljökunskap, och ,.. ]
 
-B0Lemma: ut, B0POS: ADV, B0Token: ut, B1Lemma: miljökunskap, B1POS: NOUN, B1Token: miljökunskap, S0B0Distance: 1, S0B0Lemma: lära_ut, S0B0LemmaPOS: lära_ADV, S0B0POS: VERB_ADV, S0B0POSLemma: VERB_ut, S0B0Token: lära_ut, S0B1Lemma: lära_miljökunskap, S0B1LemmaPOS: lära_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_miljökunskap, S0B1Token: lära_miljökunskap, S0B2Lemma: lära_och, S0B2LemmaPOS: lära_CONJ, S0B2POS: VERB_CONJ, S0B2POSLemma: VERB_och, S0B2Token: lära_och, S0Lemma: lära, S0POS: VERB, S0Token: lära, StackLength: 1, hasRighDep_compound:prt: true, hasRighDep_dobj: true, hasRighDep_nmod: true, lära_hasRighDep_compound:prt: true, lära_hasRighDep_dobj: true, lära_hasRighDep_nmod: true, lära_hjälp_hasRighDep_nmod: true, lära_isGouvernedBy_ha: true, lära_isGouvernedBy_ha_csubj: true, lära_miljökunskap_hasRighDep_dobj: true, lära_ut_hasRighDep_compound:prt: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0IsInLexic: true, B0Lemma: ut, B0POS: ADV, B0Token: ut, B1Lemma: miljökunskap, B1POS: NOUN, B1Token: miljökunskap, S0B0Distance: 1, S0B0Lemma: lära_ut, S0B0LemmaPOS: lära_ADV, S0B0POS: VERB_ADV, S0B0POSLemma: VERB_ut, S0B0Token: lära_ut, S0B1Lemma: lära_miljökunskap, S0B1LemmaPOS: lära_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_miljökunskap, S0B1Token: lära_miljökunskap, S0B2Lemma: lära_och, S0B2LemmaPOS: lära_CONJ, S0B2POS: VERB_CONJ, S0B2POSLemma: VERB_och, S0B2Token: lära_och, S0Lemma: lära, S0POS: VERB, S0Token: lära, StackLength: 1, hasRighDep_compound:prt: true, hasRighDep_dobj: true, hasRighDep_nmod: true, lära_hasRighDep_compound:prt: true, lära_hasRighDep_dobj: true, lära_hasRighDep_nmod: true, lära_hjälp_hasRighDep_nmod: true, lära_isGouvernedBy_ha: true, lära_isGouvernedBy_ha_csubj: true, lära_miljökunskap_hasRighDep_dobj: true, lära_ut_hasRighDep_compound:prt: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lära, ut]   B= [miljökunskap, och, sopsortering ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ut, miljökunskap, och ,.. ]
 
-B0Lemma: miljökunskap, B0POS: NOUN, B0Token: miljökunskap, B1Lemma: och, B1POS: CONJ, B1Token: och, S0B0Distance: 1, S0B0Lemma: ut_miljökunskap, S0B0LemmaPOS: ut_NOUN, S0B0POS: ADV_NOUN, S0B0POSLemma: ADV_miljökunskap, S0B0Token: ut_miljökunskap, S0B1Lemma: ut_och, S0B1LemmaPOS: ut_CONJ, S0B1POS: ADV_CONJ, S0B1POSLemma: ADV_och, S0B1Token: ut_och, S0B2Lemma: ut_sopsortering, S0B2LemmaPOS: ut_NOUN, S0B2POS: ADV_NOUN, S0B2POSLemma: ADV_sopsortering, S0B2Token: ut_sopsortering, S0Lemma: ut, S0POS: ADV, S0S1Distance: 1, S0Token: ut, S1B0Lemma: lära_miljökunskap, S1B0LemmaPOS: lära_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_miljökunskap, S1B0Token: lära_miljökunskap, S1Lemma: lära, S1POS: VERB, S1S0B0Lemma: lära_ut_miljökunskap, S1S0B0LemmaPOS: lära_ADV_NOUN, S1S0B0POS: VERB_ADV_NOUN, S1S0B0POSLemma: VERB_ADV_miljökunskap, S1S0B0Token: lära_ut_miljökunskap, S1S0Lemma: lära_ut, S1S0LemmaPOS: lära_ADV, S1S0POS: VERB_ADV, S1S0POSLemma: VERB_ut, S1S0Token: lära_ut, S1Token: lära, StackLength: 2, SyntaxicRelation: +compound:prt, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-5- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[lära, ut]]   B= [miljökunskap, och, sopsortering ,.. ]
 
-B0Lemma: miljökunskap, B0POS: NOUN, B0Token: miljökunskap, B1Lemma: och, B1POS: CONJ, B1Token: och, S0B0Distance: 1, S0B0Lemma: lära_ut_miljökunskap, S0B0LemmaPOS: lära_ut_NOUN, S0B0POS: VERB_ADV_NOUN, S0B0POSLemma: VERB_ADV_miljökunskap, S0B0Token: lära_ut_miljökunskap, S0B1Lemma: lära_ut_och, S0B1LemmaPOS: lära_ut_CONJ, S0B1POS: VERB_ADV_CONJ, S0B1POSLemma: VERB_ADV_och, S0B1Token: lära_ut_och, S0B2Lemma: lära_ut_sopsortering, S0B2LemmaPOS: lära_ut_NOUN, S0B2POS: VERB_ADV_NOUN, S0B2POSLemma: VERB_ADV_sopsortering, S0B2Token: lära_ut_sopsortering, S0Lemma: lära_ut, S0POS: VERB_ADV, S0Token: lära_ut, StackLength: 1, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ut]   B= [miljökunskap, och, sopsortering ,.. ]
+
+B0Lemma: miljökunskap, B0POS: NOUN, B0Token: miljökunskap, B1Lemma: och, B1POS: CONJ, B1Token: och, S0B0Distance: 1, S0B0Lemma: ut_miljökunskap, S0B0LemmaPOS: ut_NOUN, S0B0POS: ADV_NOUN, S0B0POSLemma: ADV_miljökunskap, S0B0Token: ut_miljökunskap, S0B1Lemma: ut_och, S0B1LemmaPOS: ut_CONJ, S0B1POS: ADV_CONJ, S0B1POSLemma: ADV_och, S0B1Token: ut_och, S0B2Lemma: ut_sopsortering, S0B2LemmaPOS: ut_NOUN, S0B2POS: ADV_NOUN, S0B2POSLemma: ADV_sopsortering, S0B2Token: ut_sopsortering, S0IsInLexic: true, S0Lemma: ut, S0POS: ADV, S0Token: ut, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [miljökunskap, och, sopsortering ,.. ]
 
@@ -384,7 +381,7 @@ B0Lemma: miljökunskap, B0POS: NOUN, B0Token: miljökunskap, B1Lemma: och, B1POS
 
 7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [miljökunskap]   B= [och, sopsortering, med ,.. ]
 
-B0Lemma: och, B0POS: CONJ, B0Token: och, B1Lemma: sopsortering, B1POS: NOUN, B1Token: sopsortering, S0B0Distance: 1, S0B0Lemma: miljökunskap_och, S0B0LemmaPOS: miljökunskap_CONJ, S0B0POS: NOUN_CONJ, S0B0POSLemma: NOUN_och, S0B0Token: miljökunskap_och, S0B1Lemma: miljökunskap_sopsortering, S0B1LemmaPOS: miljökunskap_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_sopsortering, S0B1Token: miljökunskap_sopsortering, S0B2Lemma: miljökunskap_med, S0B2LemmaPOS: miljökunskap_ADP, S0B2POS: NOUN_ADP, S0B2POSLemma: NOUN_med, S0B2Token: miljökunskap_med, S0Lemma: miljökunskap, S0POS: NOUN, S0Token: miljökunskap, StackLength: 1, hasRighDep_cc: true, hasRighDep_conj: true, miljökunskap_hasRighDep_cc: true, miljökunskap_hasRighDep_conj: true, miljökunskap_och_hasRighDep_cc: true, miljökunskap_sopsortering_hasRighDep_conj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: och, B0POS: CONJ, B0Token: och, B1Lemma: sopsortering, B1POS: NOUN, B1Token: sopsortering, S0B0Distance: 1, S0B0Lemma: miljökunskap_och, S0B0LemmaPOS: miljökunskap_CONJ, S0B0POS: NOUN_CONJ, S0B0POSLemma: NOUN_och, S0B0Token: miljökunskap_och, S0B1Lemma: miljökunskap_sopsortering, S0B1LemmaPOS: miljökunskap_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_sopsortering, S0B1Token: miljökunskap_sopsortering, S0B2Lemma: miljökunskap_med, S0B2LemmaPOS: miljökunskap_ADP, S0B2POS: NOUN_ADP, S0B2POSLemma: NOUN_med, S0B2Token: miljökunskap_med, S0Lemma: miljökunskap, S0POS: NOUN, S0Token: miljökunskap, StackLength: 1, hasRighDep_cc: true, hasRighDep_conj: true, miljökunskap_hasRighDep_cc: true, miljökunskap_hasRighDep_conj: true, miljökunskap_och_hasRighDep_cc: true, miljökunskap_sopsortering_hasRighDep_conj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [och, sopsortering, med ,.. ]
 
@@ -392,7 +389,7 @@ B0Lemma: och, B0POS: CONJ, B0Token: och, B1Lemma: sopsortering, B1POS: NOUN, B1T
 
 9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [och]   B= [sopsortering, med, hjälp ,.. ]
 
-B0Lemma: sopsortering, B0POS: NOUN, B0Token: sopsortering, B1Lemma: med, B1POS: ADP, B1Token: med, S0B0Distance: 1, S0B0Lemma: och_sopsortering, S0B0LemmaPOS: och_NOUN, S0B0POS: CONJ_NOUN, S0B0POSLemma: CONJ_sopsortering, S0B0Token: och_sopsortering, S0B1Lemma: och_med, S0B1LemmaPOS: och_ADP, S0B1POS: CONJ_ADP, S0B1POSLemma: CONJ_med, S0B1Token: och_med, S0B2Lemma: och_hjälp, S0B2LemmaPOS: och_NOUN, S0B2POS: CONJ_NOUN, S0B2POSLemma: CONJ_hjälp, S0B2Token: och_hjälp, S0Lemma: och, S0POS: CONJ, S0Token: och, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: sopsortering, B0POS: NOUN, B0Token: sopsortering, B1IsInLexic: true, B1Lemma: med, B1POS: ADP, B1Token: med, S0B0Distance: 1, S0B0Lemma: och_sopsortering, S0B0LemmaPOS: och_NOUN, S0B0POS: CONJ_NOUN, S0B0POSLemma: CONJ_sopsortering, S0B0Token: och_sopsortering, S0B1Lemma: och_med, S0B1LemmaPOS: och_ADP, S0B1POS: CONJ_ADP, S0B1POSLemma: CONJ_med, S0B1Token: och_med, S0B2Lemma: och_hjälp, S0B2LemmaPOS: och_NOUN, S0B2POS: CONJ_NOUN, S0B2POSLemma: CONJ_hjälp, S0B2Token: och_hjälp, S0Lemma: och, S0POS: CONJ, S0Token: och, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sopsortering, med, hjälp ,.. ]
 
@@ -400,7 +397,7 @@ B0Lemma: sopsortering, B0POS: NOUN, B0Token: sopsortering, B1Lemma: med, B1POS: 
 
 11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sopsortering]   B= [med, hjälp, av ,.. ]
 
-B0Lemma: med, B0POS: ADP, B0Token: med, B1Lemma: hjälp, B1POS: NOUN, B1Token: hjälp, S0B0Distance: 1, S0B0Lemma: sopsortering_med, S0B0LemmaPOS: sopsortering_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_med, S0B0Token: sopsortering_med, S0B1Lemma: sopsortering_hjälp, S0B1LemmaPOS: sopsortering_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_hjälp, S0B1Token: sopsortering_hjälp, S0B2Lemma: sopsortering_av, S0B2LemmaPOS: sopsortering_ADP, S0B2POS: NOUN_ADP, S0B2POSLemma: NOUN_av, S0B2Token: sopsortering_av, S0Lemma: sopsortering, S0POS: NOUN, S0Token: sopsortering, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: med, B0POS: ADP, B0Token: med, B1Lemma: hjälp, B1POS: NOUN, B1Token: hjälp, S0B0Distance: 1, S0B0Lemma: sopsortering_med, S0B0LemmaPOS: sopsortering_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_med, S0B0Token: sopsortering_med, S0B1Lemma: sopsortering_hjälp, S0B1LemmaPOS: sopsortering_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_hjälp, S0B1Token: sopsortering_hjälp, S0B2Lemma: sopsortering_av, S0B2LemmaPOS: sopsortering_ADP, S0B2POS: NOUN_ADP, S0B2POSLemma: NOUN_av, S0B2Token: sopsortering_av, S0Lemma: sopsortering, S0POS: NOUN, S0Token: sopsortering, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [med, hjälp, av ,.. ]
 
@@ -408,7 +405,7 @@ B0Lemma: med, B0POS: ADP, B0Token: med, B1Lemma: hjälp, B1POS: NOUN, B1Token: h
 
 13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [med]   B= [hjälp, av, en ,.. ]
 
-B0Lemma: hjälp, B0POS: NOUN, B0Token: hjälp, B1Lemma: av, B1POS: ADP, B1Token: av, S0B0Distance: 1, S0B0Lemma: med_hjälp, S0B0LemmaPOS: med_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_hjälp, S0B0Token: med_hjälp, S0B1Lemma: med_av, S0B1LemmaPOS: med_ADP, S0B1POS: ADP_ADP, S0B1POSLemma: ADP_av, S0B1Token: med_av, S0B2Lemma: med_en, S0B2LemmaPOS: med_DET, S0B2POS: ADP_DET, S0B2POSLemma: ADP_en, S0B2Token: med_en, S0Lemma: med, S0POS: ADP, S0Token: med, StackLength: 1, med_isGouvernedBy_hjälp: true, med_isGouvernedBy_hjälp_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: hjälp, B0POS: NOUN, B0Token: hjälp, B1IsInLexic: true, B1Lemma: av, B1POS: ADP, B1Token: av, S0B0Distance: 1, S0B0Lemma: med_hjälp, S0B0LemmaPOS: med_NOUN, S0B0POS: ADP_NOUN, S0B0POSLemma: ADP_hjälp, S0B0Token: med_hjälp, S0B1Lemma: med_av, S0B1LemmaPOS: med_ADP, S0B1POS: ADP_ADP, S0B1POSLemma: ADP_av, S0B1Token: med_av, S0B2Lemma: med_en, S0B2LemmaPOS: med_DET, S0B2POS: ADP_DET, S0B2POSLemma: ADP_en, S0B2Token: med_en, S0IsInLexic: true, S0Lemma: med, S0POS: ADP, S0Token: med, StackLength: 1, med_isGouvernedBy_hjälp: true, med_isGouvernedBy_hjälp_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hjälp, av, en ,.. ]
 
@@ -416,7 +413,7 @@ B0Lemma: hjälp, B0POS: NOUN, B0Token: hjälp, B1Lemma: av, B1POS: ADP, B1Token:
 
 15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hjälp]   B= [av, en, hund ,.. ]
 
-B0Lemma: av, B0POS: ADP, B0Token: av, B1Lemma: en, B1POS: DET, B1Token: en, S0B0Distance: 1, S0B0Lemma: hjälp_av, S0B0LemmaPOS: hjälp_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_av, S0B0Token: hjälp_av, S0B1Lemma: hjälp_en, S0B1LemmaPOS: hjälp_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_en, S0B1Token: hjälp_en, S0B2Lemma: hjälp_hund, S0B2LemmaPOS: hjälp_NOUN, S0B2POS: NOUN_NOUN, S0B2POSLemma: NOUN_hund, S0B2Token: hjälp_hund, S0Lemma: hjälp, S0POS: NOUN, S0Token: hjälp, StackLength: 1, hasRighDep_nmod: true, hjälp_hasRighDep_nmod: true, hjälp_hund_hasRighDep_nmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: av, B0POS: ADP, B0Token: av, B1IsInLexic: true, B1Lemma: en, B1POS: DET, B1Token: en, S0B0Distance: 1, S0B0Lemma: hjälp_av, S0B0LemmaPOS: hjälp_ADP, S0B0POS: NOUN_ADP, S0B0POSLemma: NOUN_av, S0B0Token: hjälp_av, S0B1Lemma: hjälp_en, S0B1LemmaPOS: hjälp_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_en, S0B1Token: hjälp_en, S0B2Lemma: hjälp_hund, S0B2LemmaPOS: hjälp_NOUN, S0B2POS: NOUN_NOUN, S0B2POSLemma: NOUN_hund, S0B2Token: hjälp_hund, S0Lemma: hjälp, S0POS: NOUN, S0Token: hjälp, StackLength: 1, hasRighDep_nmod: true, hjälp_hasRighDep_nmod: true, hjälp_hund_hasRighDep_nmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [av, en, hund ,.. ]
 
@@ -424,7 +421,7 @@ B0Lemma: av, B0POS: ADP, B0Token: av, B1Lemma: en, B1POS: DET, B1Token: en, S0B0
 
 17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [av]   B= [en, hund, har ,.. ]
 
-B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: hund, B1POS: NOUN, B1Token: hund, S0B0Distance: 1, S0B0Lemma: av_en, S0B0LemmaPOS: av_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_en, S0B0Token: av_en, S0B1Lemma: av_hund, S0B1LemmaPOS: av_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_hund, S0B1Token: av_hund, S0B2Lemma: av_ha, S0B2LemmaPOS: av_VERB, S0B2POS: ADP_VERB, S0B2POSLemma: ADP_ha, S0B2Token: av_har, S0Lemma: av, S0POS: ADP, S0Token: av, StackLength: 1, av_isGouvernedBy_hund: true, av_isGouvernedBy_hund_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: hund, B1POS: NOUN, B1Token: hund, S0B0Distance: 1, S0B0Lemma: av_en, S0B0LemmaPOS: av_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_en, S0B0Token: av_en, S0B1Lemma: av_hund, S0B1LemmaPOS: av_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_hund, S0B1Token: av_hund, S0B2Lemma: av_ha, S0B2LemmaPOS: av_VERB, S0B2POS: ADP_VERB, S0B2POSLemma: ADP_ha, S0B2Token: av_har, S0IsInLexic: true, S0Lemma: av, S0POS: ADP, S0Token: av, StackLength: 1, av_isGouvernedBy_hund: true, av_isGouvernedBy_hund_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [en, hund, har ,.. ]
 
@@ -432,7 +429,7 @@ B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: hund, B1POS: NOUN, B1Token: hund,
 
 19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [en]   B= [hund, har, många ,.. ]
 
-B0Lemma: hund, B0POS: NOUN, B0Token: hund, B1Lemma: ha, B1POS: VERB, B1Token: har, S0B0Distance: 1, S0B0Lemma: en_hund, S0B0LemmaPOS: en_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_hund, S0B0Token: en_hund, S0B1Lemma: en_ha, S0B1LemmaPOS: en_VERB, S0B1POS: DET_VERB, S0B1POSLemma: DET_ha, S0B1Token: en_har, S0B2Lemma: en_många, S0B2LemmaPOS: en_ADJ, S0B2POS: DET_ADJ, S0B2POSLemma: DET_många, S0B2Token: en_många, S0Lemma: en, S0POS: DET, S0Token: en, StackLength: 1, en_isGouvernedBy_hund: true, en_isGouvernedBy_hund_det: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: hund, B0POS: NOUN, B0Token: hund, B1IsInLexic: true, B1Lemma: ha, B1POS: VERB, B1Token: har, S0B0Distance: 1, S0B0Lemma: en_hund, S0B0LemmaPOS: en_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_hund, S0B0Token: en_hund, S0B1Lemma: en_ha, S0B1LemmaPOS: en_VERB, S0B1POS: DET_VERB, S0B1POSLemma: DET_ha, S0B1Token: en_har, S0B2Lemma: en_många, S0B2LemmaPOS: en_ADJ, S0B2POS: DET_ADJ, S0B2POSLemma: DET_många, S0B2Token: en_många, S0IsInLexic: true, S0Lemma: en, S0POS: DET, S0Token: en, StackLength: 1, en_isGouvernedBy_hund: true, en_isGouvernedBy_hund_det: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hund, har, många ,.. ]
 
@@ -440,7 +437,7 @@ B0Lemma: hund, B0POS: NOUN, B0Token: hund, B1Lemma: ha, B1POS: VERB, B1Token: ha
 
 21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hund]   B= [har, många, fördelar ,.. ]
 
-B0Lemma: ha, B0POS: VERB, B0Token: har, B1Lemma: många, B1POS: ADJ, B1Token: många, S0B0Distance: 1, S0B0Lemma: hund_ha, S0B0LemmaPOS: hund_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_ha, S0B0Token: hund_har, S0B1Lemma: hund_många, S0B1LemmaPOS: hund_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_många, S0B1Token: hund_många, S0B2Lemma: hund_fördela, S0B2LemmaPOS: hund_NOUN, S0B2POS: NOUN_NOUN, S0B2POSLemma: NOUN_fördela, S0B2Token: hund_fördelar, S0Lemma: hund, S0POS: NOUN, S0Token: hund, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: ha, B0POS: VERB, B0Token: har, B1Lemma: många, B1POS: ADJ, B1Token: många, S0B0Distance: 1, S0B0Lemma: hund_ha, S0B0LemmaPOS: hund_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_ha, S0B0Token: hund_har, S0B1Lemma: hund_många, S0B1LemmaPOS: hund_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_många, S0B1Token: hund_många, S0B2Lemma: hund_fördela, S0B2LemmaPOS: hund_NOUN, S0B2POS: NOUN_NOUN, S0B2POSLemma: NOUN_fördela, S0B2Token: hund_fördelar, S0Lemma: hund, S0POS: NOUN, S0Token: hund, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [har, många, fördelar ,.. ]
 
@@ -448,7 +445,7 @@ B0Lemma: ha, B0POS: VERB, B0Token: har, B1Lemma: många, B1POS: ADJ, B1Token: m�
 
 23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [har]   B= [många, fördelar, enligt ,.. ]
 
-B0Lemma: många, B0POS: ADJ, B0Token: många, B1Lemma: fördela, B1POS: NOUN, B1Token: fördelar, S0B0Distance: 1, S0B0Lemma: ha_många, S0B0LemmaPOS: ha_ADJ, S0B0POS: VERB_ADJ, S0B0POSLemma: VERB_många, S0B0Token: har_många, S0B1Lemma: ha_fördela, S0B1LemmaPOS: ha_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_fördela, S0B1Token: har_fördelar, S0B2Lemma: ha_enligt, S0B2LemmaPOS: ha_ADP, S0B2POS: VERB_ADP, S0B2POSLemma: VERB_enligt, S0B2Token: har_enligt, S0Lemma: ha, S0POS: VERB, S0Token: har, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: många, B0POS: ADJ, B0Token: många, B1Lemma: fördela, B1POS: NOUN, B1Token: fördelar, S0B0Distance: 1, S0B0Lemma: ha_många, S0B0LemmaPOS: ha_ADJ, S0B0POS: VERB_ADJ, S0B0POSLemma: VERB_många, S0B0Token: har_många, S0B1Lemma: ha_fördela, S0B1LemmaPOS: ha_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_fördela, S0B1Token: har_fördelar, S0B2Lemma: ha_enligt, S0B2LemmaPOS: ha_ADP, S0B2POS: VERB_ADP, S0B2POSLemma: VERB_enligt, S0B2Token: har_enligt, S0IsInLexic: true, S0Lemma: ha, S0POS: VERB, S0Token: har, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [många, fördelar, enligt ,.. ]
 
@@ -513,7 +510,7 @@ Stänga av en endaste minut – varför det ?
 
 1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Stänga]   B= [av, en, endaste ,.. ]
 
-B0Lemma: av, B0POS: ADP, B0Token: av, B1Lemma: en, B1POS: DET, B1Token: en, S0B0Distance: 1, S0B0Lemma: stänga_av, S0B0LemmaPOS: stänga_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_av, S0B0Token: Stänga_av, S0B1Lemma: stänga_en, S0B1LemmaPOS: stänga_DET, S0B1POS: PRON_DET, S0B1POSLemma: PRON_en, S0B1Token: Stänga_en, S0B2Lemma: stänga_end, S0B2LemmaPOS: stänga_ADJ, S0B2POS: PRON_ADJ, S0B2POSLemma: PRON_end, S0B2Token: Stänga_endaste, S0Lemma: stänga, S0POS: PRON, S0Token: Stänga, StackLength: 1, 
+B0IsInLexic: true, B0Lemma: av, B0POS: ADP, B0Token: av, B1IsInLexic: true, B1Lemma: en, B1POS: DET, B1Token: en, S0B0Distance: 1, S0B0Lemma: stänga_av, S0B0LemmaPOS: stänga_ADP, S0B0POS: PRON_ADP, S0B0POSLemma: PRON_av, S0B0Token: Stänga_av, S0B1Lemma: stänga_en, S0B1LemmaPOS: stänga_DET, S0B1POS: PRON_DET, S0B1POSLemma: PRON_en, S0B1Token: Stänga_en, S0B2Lemma: stänga_end, S0B2LemmaPOS: stänga_ADJ, S0B2POS: PRON_ADJ, S0B2POSLemma: PRON_end, S0B2Token: Stänga_endaste, S0Lemma: stänga, S0POS: PRON, S0Token: Stänga, StackLength: 1, 
 
 2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [av, en, endaste ,.. ]
 
@@ -521,7 +518,7 @@ B0Lemma: av, B0POS: ADP, B0Token: av, B1Lemma: en, B1POS: DET, B1Token: en, S0B0
 
 3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [av]   B= [en, endaste, minut ,.. ]
 
-B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: end, B1POS: ADJ, B1Token: endaste, S0B0Distance: 1, S0B0Lemma: av_en, S0B0LemmaPOS: av_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_en, S0B0Token: av_en, S0B1Lemma: av_end, S0B1LemmaPOS: av_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_end, S0B1Token: av_endaste, S0B2Lemma: av_minut, S0B2LemmaPOS: av_NOUN, S0B2POS: ADP_NOUN, S0B2POSLemma: ADP_minut, S0B2Token: av_minut, S0Lemma: av, S0POS: ADP, S0Token: av, StackLength: 1, av_isGouvernedBy_minut: true, av_isGouvernedBy_minut_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0IsInLexic: true, B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: end, B1POS: ADJ, B1Token: endaste, S0B0Distance: 1, S0B0Lemma: av_en, S0B0LemmaPOS: av_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_en, S0B0Token: av_en, S0B1Lemma: av_end, S0B1LemmaPOS: av_ADJ, S0B1POS: ADP_ADJ, S0B1POSLemma: ADP_end, S0B1Token: av_endaste, S0B2Lemma: av_minut, S0B2LemmaPOS: av_NOUN, S0B2POS: ADP_NOUN, S0B2POSLemma: ADP_minut, S0B2Token: av_minut, S0IsInLexic: true, S0Lemma: av, S0POS: ADP, S0Token: av, StackLength: 1, av_isGouvernedBy_minut: true, av_isGouvernedBy_minut_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
 4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [en, endaste, minut ,.. ]
 
@@ -529,7 +526,7 @@ B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: end, B1POS: ADJ, B1Token: endaste
 
 5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [en]   B= [endaste, minut, – ,.. ]
 
-B0Lemma: end, B0POS: ADJ, B0Token: endaste, B1Lemma: minut, B1POS: NOUN, B1Token: minut, S0B0Distance: 1, S0B0Lemma: en_end, S0B0LemmaPOS: en_ADJ, S0B0POS: DET_ADJ, S0B0POSLemma: DET_end, S0B0Token: en_endaste, S0B1Lemma: en_minut, S0B1LemmaPOS: en_NOUN, S0B1POS: DET_NOUN, S0B1POSLemma: DET_minut, S0B1Token: en_minut, S0B2Lemma: en_–, S0B2LemmaPOS: en_PUNCT, S0B2POS: DET_PUNCT, S0B2POSLemma: DET_–, S0B2Token: en_–, S0Lemma: en, S0POS: DET, S0Token: en, StackLength: 1, en_isGouvernedBy_minut: true, en_isGouvernedBy_minut_det: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: end, B0POS: ADJ, B0Token: endaste, B1Lemma: minut, B1POS: NOUN, B1Token: minut, S0B0Distance: 1, S0B0Lemma: en_end, S0B0LemmaPOS: en_ADJ, S0B0POS: DET_ADJ, S0B0POSLemma: DET_end, S0B0Token: en_endaste, S0B1Lemma: en_minut, S0B1LemmaPOS: en_NOUN, S0B1POS: DET_NOUN, S0B1POSLemma: DET_minut, S0B1Token: en_minut, S0B2Lemma: en_–, S0B2LemmaPOS: en_PUNCT, S0B2POS: DET_PUNCT, S0B2POSLemma: DET_–, S0B2Token: en_–, S0IsInLexic: true, S0Lemma: en, S0POS: DET, S0Token: en, StackLength: 1, en_isGouvernedBy_minut: true, en_isGouvernedBy_minut_det: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [endaste, minut, – ,.. ]
 
@@ -594,7 +591,7 @@ När Du kom med på samma bussresa som jag förändrades mitt liv .
 
 1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [När]   B= [Du, kom, med ,.. ]
 
-B0Lemma: du, B0POS: PRON, B0Token: Du, B1Lemma: komma, B1POS: VERB, B1Token: kom, S0B0Distance: 1, S0B0Lemma: när_du, S0B0LemmaPOS: när_PRON, S0B0POS: ADV_PRON, S0B0POSLemma: ADV_du, S0B0Token: När_Du, S0B1Lemma: när_komma, S0B1LemmaPOS: när_VERB, S0B1POS: ADV_VERB, S0B1POSLemma: ADV_komma, S0B1Token: När_kom, S0B2Lemma: när_med, S0B2LemmaPOS: när_ADP, S0B2POS: ADV_ADP, S0B2POSLemma: ADV_med, S0B2Token: När_med, S0Lemma: när, S0POS: ADV, S0Token: När, StackLength: 1, när_isGouvernedBy_komma: true, när_isGouvernedBy_komma_advmod: true, 
+B0Lemma: du, B0POS: PRON, B0Token: Du, B1IsInLexic: true, B1Lemma: komma, B1POS: VERB, B1Token: kom, S0B0Distance: 1, S0B0Lemma: när_du, S0B0LemmaPOS: när_PRON, S0B0POS: ADV_PRON, S0B0POSLemma: ADV_du, S0B0Token: När_Du, S0B1Lemma: när_komma, S0B1LemmaPOS: när_VERB, S0B1POS: ADV_VERB, S0B1POSLemma: ADV_komma, S0B1Token: När_kom, S0B2Lemma: när_med, S0B2LemmaPOS: när_ADP, S0B2POS: ADV_ADP, S0B2POSLemma: ADV_med, S0B2Token: När_med, S0Lemma: när, S0POS: ADV, S0Token: När, StackLength: 1, när_isGouvernedBy_komma: true, när_isGouvernedBy_komma_advmod: true, 
 
 2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Du, kom, med ,.. ]
 
@@ -602,7 +599,7 @@ B0Lemma: du, B0POS: PRON, B0Token: Du, B1Lemma: komma, B1POS: VERB, B1Token: kom
 
 3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Du]   B= [kom, med, på ,.. ]
 
-B0Lemma: komma, B0POS: VERB, B0Token: kom, B1Lemma: med, B1POS: ADP, B1Token: med, S0B0Distance: 1, S0B0Lemma: du_komma, S0B0LemmaPOS: du_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_komma, S0B0Token: Du_kom, S0B1Lemma: du_med, S0B1LemmaPOS: du_ADP, S0B1POS: PRON_ADP, S0B1POSLemma: PRON_med, S0B1Token: Du_med, S0B2Lemma: du_på, S0B2LemmaPOS: du_ADP, S0B2POS: PRON_ADP, S0B2POSLemma: PRON_på, S0B2Token: Du_på, S0Lemma: du, S0POS: PRON, S0Token: Du, StackLength: 1, du_isGouvernedBy_komma: true, du_isGouvernedBy_komma_nsubj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0IsInLexic: true, B0Lemma: komma, B0POS: VERB, B0Token: kom, B1IsInLexic: true, B1Lemma: med, B1POS: ADP, B1Token: med, S0B0Distance: 1, S0B0Lemma: du_komma, S0B0LemmaPOS: du_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_komma, S0B0Token: Du_kom, S0B1Lemma: du_med, S0B1LemmaPOS: du_ADP, S0B1POS: PRON_ADP, S0B1POSLemma: PRON_med, S0B1Token: Du_med, S0B2Lemma: du_på, S0B2LemmaPOS: du_ADP, S0B2POS: PRON_ADP, S0B2POSLemma: PRON_på, S0B2Token: Du_på, S0Lemma: du, S0POS: PRON, S0Token: Du, StackLength: 1, du_isGouvernedBy_komma: true, du_isGouvernedBy_komma_nsubj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
 4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kom, med, på ,.. ]
 
@@ -610,7 +607,7 @@ B0Lemma: komma, B0POS: VERB, B0Token: kom, B1Lemma: med, B1POS: ADP, B1Token: me
 
 5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kom]   B= [med, på, samma ,.. ]
 
-B0Lemma: med, B0POS: ADP, B0Token: med, B1Lemma: på, B1POS: ADP, B1Token: på, S0B0Distance: 1, S0B0Lemma: komma_med, S0B0LemmaPOS: komma_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_med, S0B0Token: kom_med, S0B1Lemma: komma_på, S0B1LemmaPOS: komma_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_på, S0B1Token: kom_på, S0B2Lemma: komma_samma, S0B2LemmaPOS: komma_DET, S0B2POS: VERB_DET, S0B2POSLemma: VERB_samma, S0B2Token: kom_samma, S0Lemma: komma, S0POS: VERB, S0Token: kom, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: med, B0POS: ADP, B0Token: med, B1IsInLexic: true, B1Lemma: på, B1POS: ADP, B1Token: på, S0B0Distance: 1, S0B0Lemma: komma_med, S0B0LemmaPOS: komma_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_med, S0B0Token: kom_med, S0B1Lemma: komma_på, S0B1LemmaPOS: komma_ADP, S0B1POS: VERB_ADP, S0B1POSLemma: VERB_på, S0B1Token: kom_på, S0B2Lemma: komma_samma, S0B2LemmaPOS: komma_DET, S0B2POS: VERB_DET, S0B2POSLemma: VERB_samma, S0B2Token: kom_samma, S0IsInLexic: true, S0Lemma: komma, S0POS: VERB, S0Token: kom, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [med, på, samma ,.. ]
 
@@ -618,7 +615,7 @@ B0Lemma: med, B0POS: ADP, B0Token: med, B1Lemma: på, B1POS: ADP, B1Token: på, 
 
 7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [med]   B= [på, samma, bussresa ,.. ]
 
-B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: samma, B1POS: DET, B1Token: samma, S0B0Distance: 1, S0B0Lemma: med_på, S0B0LemmaPOS: med_ADP, S0B0POS: ADP_ADP, S0B0POSLemma: ADP_på, S0B0Token: med_på, S0B1Lemma: med_samma, S0B1LemmaPOS: med_DET, S0B1POS: ADP_DET, S0B1POSLemma: ADP_samma, S0B1Token: med_samma, S0B2Lemma: med_bussresa, S0B2LemmaPOS: med_NOUN, S0B2POS: ADP_NOUN, S0B2POSLemma: ADP_bussresa, S0B2Token: med_bussresa, S0Lemma: med, S0POS: ADP, S0Token: med, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: samma, B1POS: DET, B1Token: samma, S0B0Distance: 1, S0B0Lemma: med_på, S0B0LemmaPOS: med_ADP, S0B0POS: ADP_ADP, S0B0POSLemma: ADP_på, S0B0Token: med_på, S0B1Lemma: med_samma, S0B1LemmaPOS: med_DET, S0B1POS: ADP_DET, S0B1POSLemma: ADP_samma, S0B1Token: med_samma, S0B2Lemma: med_bussresa, S0B2LemmaPOS: med_NOUN, S0B2POS: ADP_NOUN, S0B2POSLemma: ADP_bussresa, S0B2Token: med_bussresa, S0IsInLexic: true, S0Lemma: med, S0POS: ADP, S0Token: med, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [på, samma, bussresa ,.. ]
 
@@ -626,7 +623,7 @@ B0Lemma: på, B0POS: ADP, B0Token: på, B1Lemma: samma, B1POS: DET, B1Token: sam
 
 9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [på]   B= [samma, bussresa, som ,.. ]
 
-B0Lemma: samma, B0POS: DET, B0Token: samma, B1Lemma: bussresa, B1POS: NOUN, B1Token: bussresa, S0B0Distance: 1, S0B0Lemma: på_samma, S0B0LemmaPOS: på_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_samma, S0B0Token: på_samma, S0B1Lemma: på_bussresa, S0B1LemmaPOS: på_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_bussresa, S0B1Token: på_bussresa, S0B2Lemma: på_som, S0B2LemmaPOS: på_PRON, S0B2POS: ADP_PRON, S0B2POSLemma: ADP_som, S0B2Token: på_som, S0Lemma: på, S0POS: ADP, S0Token: på, StackLength: 1, på_isGouvernedBy_bussresa: true, på_isGouvernedBy_bussresa_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: samma, B0POS: DET, B0Token: samma, B1Lemma: bussresa, B1POS: NOUN, B1Token: bussresa, S0B0Distance: 1, S0B0Lemma: på_samma, S0B0LemmaPOS: på_DET, S0B0POS: ADP_DET, S0B0POSLemma: ADP_samma, S0B0Token: på_samma, S0B1Lemma: på_bussresa, S0B1LemmaPOS: på_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_bussresa, S0B1Token: på_bussresa, S0B2Lemma: på_som, S0B2LemmaPOS: på_PRON, S0B2POS: ADP_PRON, S0B2POSLemma: ADP_som, S0B2Token: på_som, S0IsInLexic: true, S0Lemma: på, S0POS: ADP, S0Token: på, StackLength: 1, på_isGouvernedBy_bussresa: true, på_isGouvernedBy_bussresa_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [samma, bussresa, som ,.. ]
 
@@ -642,7 +639,7 @@ B0Lemma: bussresa, B0POS: NOUN, B0Token: bussresa, B1Lemma: som, B1POS: PRON, B1
 
 13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bussresa]   B= [som, jag, förändrades ,.. ]
 
-B0Lemma: som, B0POS: PRON, B0Token: som, B1Lemma: jag, B1POS: PRON, B1Token: jag, S0B0Distance: 1, S0B0Lemma: bussresa_som, S0B0LemmaPOS: bussresa_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_som, S0B0Token: bussresa_som, S0B1Lemma: bussresa_jag, S0B1LemmaPOS: bussresa_PRON, S0B1POS: NOUN_PRON, S0B1POSLemma: NOUN_jag, S0B1Token: bussresa_jag, S0B2Lemma: bussresa_förändra, S0B2LemmaPOS: bussresa_VERB, S0B2POS: NOUN_VERB, S0B2POSLemma: NOUN_förändra, S0B2Token: bussresa_förändrades, S0Lemma: bussresa, S0POS: NOUN, S0Token: bussresa, StackLength: 1, bussresa_förändra_hasRighDep_acl:relcl: true, bussresa_hasRighDep_acl:relcl: true, hasRighDep_acl:relcl: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: som, B0POS: PRON, B0Token: som, B1IsInLexic: true, B1Lemma: jag, B1POS: PRON, B1Token: jag, S0B0Distance: 1, S0B0Lemma: bussresa_som, S0B0LemmaPOS: bussresa_PRON, S0B0POS: NOUN_PRON, S0B0POSLemma: NOUN_som, S0B0Token: bussresa_som, S0B1Lemma: bussresa_jag, S0B1LemmaPOS: bussresa_PRON, S0B1POS: NOUN_PRON, S0B1POSLemma: NOUN_jag, S0B1Token: bussresa_jag, S0B2Lemma: bussresa_förändra, S0B2LemmaPOS: bussresa_VERB, S0B2POS: NOUN_VERB, S0B2POSLemma: NOUN_förändra, S0B2Token: bussresa_förändrades, S0Lemma: bussresa, S0POS: NOUN, S0Token: bussresa, StackLength: 1, bussresa_förändra_hasRighDep_acl:relcl: true, bussresa_hasRighDep_acl:relcl: true, hasRighDep_acl:relcl: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [som, jag, förändrades ,.. ]
 
@@ -650,7 +647,7 @@ B0Lemma: som, B0POS: PRON, B0Token: som, B1Lemma: jag, B1POS: PRON, B1Token: jag
 
 15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [som]   B= [jag, förändrades, mitt ,.. ]
 
-B0Lemma: jag, B0POS: PRON, B0Token: jag, B1Lemma: förändra, B1POS: VERB, B1Token: förändrades, S0B0Distance: 1, S0B0Lemma: som_jag, S0B0LemmaPOS: som_PRON, S0B0POS: PRON_PRON, S0B0POSLemma: PRON_jag, S0B0Token: som_jag, S0B1Lemma: som_förändra, S0B1LemmaPOS: som_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_förändra, S0B1Token: som_förändrades, S0B2Lemma: som_jag, S0B2LemmaPOS: som_DET, S0B2POS: PRON_DET, S0B2POSLemma: PRON_jag, S0B2Token: som_mitt, S0Lemma: som, S0POS: PRON, S0Token: som, StackLength: 1, som_isGouvernedBy_förändra: true, som_isGouvernedBy_förändra_nmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: jag, B0POS: PRON, B0Token: jag, B1Lemma: förändra, B1POS: VERB, B1Token: förändrades, S0B0Distance: 1, S0B0Lemma: som_jag, S0B0LemmaPOS: som_PRON, S0B0POS: PRON_PRON, S0B0POSLemma: PRON_jag, S0B0Token: som_jag, S0B1Lemma: som_förändra, S0B1LemmaPOS: som_VERB, S0B1POS: PRON_VERB, S0B1POSLemma: PRON_förändra, S0B1Token: som_förändrades, S0B2Lemma: som_jag, S0B2LemmaPOS: som_DET, S0B2POS: PRON_DET, S0B2POSLemma: PRON_jag, S0B2Token: som_mitt, S0Lemma: som, S0POS: PRON, S0Token: som, StackLength: 1, som_isGouvernedBy_förändra: true, som_isGouvernedBy_förändra_nmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jag, förändrades, mitt ,.. ]
 
@@ -658,7 +655,7 @@ B0Lemma: jag, B0POS: PRON, B0Token: jag, B1Lemma: förändra, B1POS: VERB, B1Tok
 
 17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jag]   B= [förändrades, mitt, liv ,.. ]
 
-B0Lemma: förändra, B0POS: VERB, B0Token: förändrades, B1Lemma: jag, B1POS: DET, B1Token: mitt, S0B0Distance: 1, S0B0Lemma: jag_förändra, S0B0LemmaPOS: jag_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_förändra, S0B0Token: jag_förändrades, S0B1Lemma: jag_jag, S0B1LemmaPOS: jag_DET, S0B1POS: PRON_DET, S0B1POSLemma: PRON_jag, S0B1Token: jag_mitt, S0B2Lemma: jag_liv, S0B2LemmaPOS: jag_NOUN, S0B2POS: PRON_NOUN, S0B2POSLemma: PRON_liv, S0B2Token: jag_liv, S0Lemma: jag, S0POS: PRON, S0Token: jag, StackLength: 1, jag_isGouvernedBy_förändra: true, jag_isGouvernedBy_förändra_nsubjpass: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: förändra, B0POS: VERB, B0Token: förändrades, B1IsInLexic: true, B1Lemma: jag, B1POS: DET, B1Token: mitt, S0B0Distance: 1, S0B0Lemma: jag_förändra, S0B0LemmaPOS: jag_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_förändra, S0B0Token: jag_förändrades, S0B1Lemma: jag_jag, S0B1LemmaPOS: jag_DET, S0B1POS: PRON_DET, S0B1POSLemma: PRON_jag, S0B1Token: jag_mitt, S0B2Lemma: jag_liv, S0B2LemmaPOS: jag_NOUN, S0B2POS: PRON_NOUN, S0B2POSLemma: PRON_liv, S0B2Token: jag_liv, S0IsInLexic: true, S0Lemma: jag, S0POS: PRON, S0Token: jag, StackLength: 1, jag_isGouvernedBy_förändra: true, jag_isGouvernedBy_förändra_nsubjpass: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [förändrades, mitt, liv ,.. ]
 
@@ -666,7 +663,7 @@ B0Lemma: förändra, B0POS: VERB, B0Token: förändrades, B1Lemma: jag, B1POS: D
 
 19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [förändrades]   B= [mitt, liv, . ,.. ]
 
-B0Lemma: jag, B0POS: DET, B0Token: mitt, B1Lemma: liv, B1POS: NOUN, B1Token: liv, S0B0Distance: 1, S0B0Lemma: förändra_jag, S0B0LemmaPOS: förändra_DET, S0B0POS: VERB_DET, S0B0POSLemma: VERB_jag, S0B0Token: förändrades_mitt, S0B1Lemma: förändra_liv, S0B1LemmaPOS: förändra_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_liv, S0B1Token: förändrades_liv, S0B2Lemma: förändra_., S0B2LemmaPOS: förändra_PUNCT, S0B2POS: VERB_PUNCT, S0B2POSLemma: VERB_., S0B2Token: förändrades_., S0Lemma: förändra, S0POS: VERB, S0Token: förändrades, StackLength: 1, förändra_hasRighDep_dobj: true, förändra_liv_hasRighDep_dobj: true, hasRighDep_dobj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: jag, B0POS: DET, B0Token: mitt, B1Lemma: liv, B1POS: NOUN, B1Token: liv, S0B0Distance: 1, S0B0Lemma: förändra_jag, S0B0LemmaPOS: förändra_DET, S0B0POS: VERB_DET, S0B0POSLemma: VERB_jag, S0B0Token: förändrades_mitt, S0B1Lemma: förändra_liv, S0B1LemmaPOS: förändra_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_liv, S0B1Token: förändrades_liv, S0B2Lemma: förändra_., S0B2LemmaPOS: förändra_PUNCT, S0B2POS: VERB_PUNCT, S0B2POSLemma: VERB_., S0B2Token: förändrades_., S0Lemma: förändra, S0POS: VERB, S0Token: förändrades, StackLength: 1, förändra_hasRighDep_dobj: true, förändra_liv_hasRighDep_dobj: true, hasRighDep_dobj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mitt, liv, . ,.. ]
 
@@ -674,7 +671,7 @@ B0Lemma: jag, B0POS: DET, B0Token: mitt, B1Lemma: liv, B1POS: NOUN, B1Token: liv
 
 21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mitt]   B= [liv, . ,.. ]
 
-B0Lemma: liv, B0POS: NOUN, B0Token: liv, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: jag_liv, S0B0LemmaPOS: jag_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_liv, S0B0Token: mitt_liv, S0B1Lemma: jag_., S0B1LemmaPOS: jag_PUNCT, S0B1POS: DET_PUNCT, S0B1POSLemma: DET_., S0B1Token: mitt_., S0Lemma: jag, S0POS: DET, S0Token: mitt, StackLength: 1, jag_isGouvernedBy_liv: true, jag_isGouvernedBy_liv_nmod:poss: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: liv, B0POS: NOUN, B0Token: liv, B1Lemma: ., B1POS: PUNCT, B1Token: ., S0B0Distance: 1, S0B0Lemma: jag_liv, S0B0LemmaPOS: jag_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_liv, S0B0Token: mitt_liv, S0B1Lemma: jag_., S0B1LemmaPOS: jag_PUNCT, S0B1POS: DET_PUNCT, S0B1POSLemma: DET_., S0B1Token: mitt_., S0IsInLexic: true, S0Lemma: jag, S0POS: DET, S0Token: mitt, StackLength: 1, jag_isGouvernedBy_liv: true, jag_isGouvernedBy_liv_nmod:poss: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [liv, . ,.. ]
 
@@ -723,7 +720,7 @@ B0Lemma: som, B0POS: PRON, B0Token: som, B1Lemma: kandidera, B1POS: VERB, B1Toke
 
 5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [som]   B= [kandiderar, till, Högsta ,.. ]
 
-B0Lemma: kandidera, B0POS: VERB, B0Token: kandiderar, B1Lemma: till, B1POS: ADP, B1Token: till, S0B0Distance: 1, S0B0Lemma: som_kandidera, S0B0LemmaPOS: som_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_kandidera, S0B0Token: som_kandiderar, S0B1Lemma: som_till, S0B1LemmaPOS: som_ADP, S0B1POS: PRON_ADP, S0B1POSLemma: PRON_till, S0B1Token: som_till, S0B2Lemma: som_hög, S0B2LemmaPOS: som_ADJ, S0B2POS: PRON_ADJ, S0B2POSLemma: PRON_hög, S0B2Token: som_Högsta, S0Lemma: som, S0POS: PRON, S0Token: som, StackLength: 1, som_isGouvernedBy_kandidera: true, som_isGouvernedBy_kandidera_nsubj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: kandidera, B0POS: VERB, B0Token: kandiderar, B1IsInLexic: true, B1Lemma: till, B1POS: ADP, B1Token: till, S0B0Distance: 1, S0B0Lemma: som_kandidera, S0B0LemmaPOS: som_VERB, S0B0POS: PRON_VERB, S0B0POSLemma: PRON_kandidera, S0B0Token: som_kandiderar, S0B1Lemma: som_till, S0B1LemmaPOS: som_ADP, S0B1POS: PRON_ADP, S0B1POSLemma: PRON_till, S0B1Token: som_till, S0B2Lemma: som_hög, S0B2LemmaPOS: som_ADJ, S0B2POS: PRON_ADJ, S0B2POSLemma: PRON_hög, S0B2Token: som_Högsta, S0Lemma: som, S0POS: PRON, S0Token: som, StackLength: 1, som_isGouvernedBy_kandidera: true, som_isGouvernedBy_kandidera_nsubj: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kandiderar, till, Högsta ,.. ]
 
@@ -731,7 +728,7 @@ B0Lemma: kandidera, B0POS: VERB, B0Token: kandiderar, B1Lemma: till, B1POS: ADP,
 
 7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kandiderar]   B= [till, Högsta, domstolen ,.. ]
 
-B0Lemma: till, B0POS: ADP, B0Token: till, B1Lemma: hög, B1POS: ADJ, B1Token: Högsta, S0B0Distance: 1, S0B0Lemma: kandidera_till, S0B0LemmaPOS: kandidera_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_till, S0B0Token: kandiderar_till, S0B1Lemma: kandidera_hög, S0B1LemmaPOS: kandidera_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_hög, S0B1Token: kandiderar_Högsta, S0B2Lemma: kandidera_domstol, S0B2LemmaPOS: kandidera_NOUN, S0B2POS: VERB_NOUN, S0B2POSLemma: VERB_domstol, S0B2Token: kandiderar_domstolen, S0Lemma: kandidera, S0POS: VERB, S0Token: kandiderar, StackLength: 1, hasRighDep_nmod: true, kandidera_domstol_hasRighDep_nmod: true, kandidera_hasRighDep_nmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: till, B0POS: ADP, B0Token: till, B1Lemma: hög, B1POS: ADJ, B1Token: Högsta, S0B0Distance: 1, S0B0Lemma: kandidera_till, S0B0LemmaPOS: kandidera_ADP, S0B0POS: VERB_ADP, S0B0POSLemma: VERB_till, S0B0Token: kandiderar_till, S0B1Lemma: kandidera_hög, S0B1LemmaPOS: kandidera_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_hög, S0B1Token: kandiderar_Högsta, S0B2Lemma: kandidera_domstol, S0B2LemmaPOS: kandidera_NOUN, S0B2POS: VERB_NOUN, S0B2POSLemma: VERB_domstol, S0B2Token: kandiderar_domstolen, S0Lemma: kandidera, S0POS: VERB, S0Token: kandiderar, StackLength: 1, hasRighDep_nmod: true, kandidera_domstol_hasRighDep_nmod: true, kandidera_hasRighDep_nmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [till, Högsta, domstolen ,.. ]
 
@@ -739,7 +736,7 @@ B0Lemma: till, B0POS: ADP, B0Token: till, B1Lemma: hög, B1POS: ADJ, B1Token: H�
 
 9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [till]   B= [Högsta, domstolen, , ,.. ]
 
-B0Lemma: hög, B0POS: ADJ, B0Token: Högsta, B1Lemma: domstol, B1POS: NOUN, B1Token: domstolen, S0B0Distance: 1, S0B0Lemma: till_hög, S0B0LemmaPOS: till_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_hög, S0B0Token: till_Högsta, S0B1Lemma: till_domstol, S0B1LemmaPOS: till_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_domstol, S0B1Token: till_domstolen, S0B2Lemma: till_,, S0B2LemmaPOS: till_PUNCT, S0B2POS: ADP_PUNCT, S0B2POSLemma: ADP_,, S0B2Token: till_,, S0Lemma: till, S0POS: ADP, S0Token: till, StackLength: 1, till_isGouvernedBy_domstol: true, till_isGouvernedBy_domstol_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: hög, B0POS: ADJ, B0Token: Högsta, B1Lemma: domstol, B1POS: NOUN, B1Token: domstolen, S0B0Distance: 1, S0B0Lemma: till_hög, S0B0LemmaPOS: till_ADJ, S0B0POS: ADP_ADJ, S0B0POSLemma: ADP_hög, S0B0Token: till_Högsta, S0B1Lemma: till_domstol, S0B1LemmaPOS: till_NOUN, S0B1POS: ADP_NOUN, S0B1POSLemma: ADP_domstol, S0B1Token: till_domstolen, S0B2Lemma: till_,, S0B2LemmaPOS: till_PUNCT, S0B2POS: ADP_PUNCT, S0B2POSLemma: ADP_,, S0B2Token: till_,, S0IsInLexic: true, S0Lemma: till, S0POS: ADP, S0Token: till, StackLength: 1, till_isGouvernedBy_domstol: true, till_isGouvernedBy_domstol_case: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Högsta, domstolen, , ,.. ]
 
@@ -795,7 +792,7 @@ B0Lemma: parlament, B0POS: NOUN, B0Token: parlamentet, B1Lemma: ställa, B1POS: 
 
 23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [parlamentet]   B= [ställt, en, fråga ,.. ]
 
-B0Lemma: ställa, B0POS: ADV, B0Token: ställt, B1Lemma: en, B1POS: DET, B1Token: en, S0B0Distance: 1, S0B0Lemma: parlament_ställa, S0B0LemmaPOS: parlament_ADV, S0B0POS: NOUN_ADV, S0B0POSLemma: NOUN_ställa, S0B0Token: parlamentet_ställt, S0B1Lemma: parlament_en, S0B1LemmaPOS: parlament_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_en, S0B1Token: parlamentet_en, S0B2Lemma: parlament_fråga, S0B2LemmaPOS: parlament_NOUN, S0B2POS: NOUN_NOUN, S0B2POSLemma: NOUN_fråga, S0B2Token: parlamentet_fråga, S0Lemma: parlament, S0POS: NOUN, S0Token: parlamentet, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ställa, B0POS: ADV, B0Token: ställt, B1IsInLexic: true, B1Lemma: en, B1POS: DET, B1Token: en, S0B0Distance: 1, S0B0Lemma: parlament_ställa, S0B0LemmaPOS: parlament_ADV, S0B0POS: NOUN_ADV, S0B0POSLemma: NOUN_ställa, S0B0Token: parlamentet_ställt, S0B1Lemma: parlament_en, S0B1LemmaPOS: parlament_DET, S0B1POS: NOUN_DET, S0B1POSLemma: NOUN_en, S0B1Token: parlamentet_en, S0B2Lemma: parlament_fråga, S0B2LemmaPOS: parlament_NOUN, S0B2POS: NOUN_NOUN, S0B2POSLemma: NOUN_fråga, S0B2Token: parlamentet_fråga, S0Lemma: parlament, S0POS: NOUN, S0Token: parlamentet, StackLength: 1, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ställt, en, fråga ,.. ]
 
@@ -803,7 +800,7 @@ B0Lemma: ställa, B0POS: ADV, B0Token: ställt, B1Lemma: en, B1POS: DET, B1Token
 
 25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ställt]   B= [en, fråga, om ,.. ]
 
-B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: fråga, B1POS: NOUN, B1Token: fråga, S0B0Distance: 1, S0B0Lemma: ställa_en, S0B0LemmaPOS: ställa_DET, S0B0POS: ADV_DET, S0B0POSLemma: ADV_en, S0B0Token: ställt_en, S0B1Lemma: ställa_fråga, S0B1LemmaPOS: ställa_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_fråga, S0B1Token: ställt_fråga, S0B2Lemma: ställa_om, S0B2LemmaPOS: ställa_ADP, S0B2POS: ADV_ADP, S0B2POSLemma: ADV_om, S0B2Token: ställt_om, S0Lemma: ställa, S0POS: ADV, S0Token: ställt, StackLength: 1, ställa_isGouvernedBy_fråga: true, ställa_isGouvernedBy_fråga_advmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0IsInLexic: true, B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: fråga, B1POS: NOUN, B1Token: fråga, S0B0Distance: 1, S0B0Lemma: ställa_en, S0B0LemmaPOS: ställa_DET, S0B0POS: ADV_DET, S0B0POSLemma: ADV_en, S0B0Token: ställt_en, S0B1Lemma: ställa_fråga, S0B1LemmaPOS: ställa_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_fråga, S0B1Token: ställt_fråga, S0B2Lemma: ställa_om, S0B2LemmaPOS: ställa_ADP, S0B2POS: ADV_ADP, S0B2POSLemma: ADV_om, S0B2Token: ställt_om, S0Lemma: ställa, S0POS: ADV, S0Token: ställt, StackLength: 1, ställa_isGouvernedBy_fråga: true, ställa_isGouvernedBy_fråga_advmod: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [en, fråga, om ,.. ]
 
@@ -811,7 +808,7 @@ B0Lemma: en, B0POS: DET, B0Token: en, B1Lemma: fråga, B1POS: NOUN, B1Token: fr�
 
 27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [en]   B= [fråga, om, lämpligheten ,.. ]
 
-B0Lemma: fråga, B0POS: NOUN, B0Token: fråga, B1Lemma: om, B1POS: ADP, B1Token: om, S0B0Distance: 1, S0B0Lemma: en_fråga, S0B0LemmaPOS: en_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_fråga, S0B0Token: en_fråga, S0B1Lemma: en_om, S0B1LemmaPOS: en_ADP, S0B1POS: DET_ADP, S0B1POSLemma: DET_om, S0B1Token: en_om, S0B2Lemma: en_lämplighet, S0B2LemmaPOS: en_NOUN, S0B2POS: DET_NOUN, S0B2POSLemma: DET_lämplighet, S0B2Token: en_lämpligheten, S0Lemma: en, S0POS: DET, S0Token: en, StackLength: 1, en_isGouvernedBy_fråga: true, en_isGouvernedBy_fråga_det: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: fråga, B0POS: NOUN, B0Token: fråga, B1Lemma: om, B1POS: ADP, B1Token: om, S0B0Distance: 1, S0B0Lemma: en_fråga, S0B0LemmaPOS: en_NOUN, S0B0POS: DET_NOUN, S0B0POSLemma: DET_fråga, S0B0Token: en_fråga, S0B1Lemma: en_om, S0B1LemmaPOS: en_ADP, S0B1POS: DET_ADP, S0B1POSLemma: DET_om, S0B1Token: en_om, S0B2Lemma: en_lämplighet, S0B2LemmaPOS: en_NOUN, S0B2POS: DET_NOUN, S0B2POSLemma: DET_lämplighet, S0B2Token: en_lämpligheten, S0IsInLexic: true, S0Lemma: en, S0POS: DET, S0Token: en, StackLength: 1, en_isGouvernedBy_fråga: true, en_isGouvernedBy_fråga_det: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
 28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fråga, om, lämpligheten ,.. ]
 
