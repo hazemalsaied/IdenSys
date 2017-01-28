@@ -1,32 +1,16 @@
-yer _: 72
-
 orta _: 67
-
-_ _: 66
-
-el _: 66
 
 teslim _: 63
 
 devam et: 62
 
-ifade et: 50
-
-orta çık: 50
-
 kabul _: 50
 
-ifade _: 42
-
 dikkat _: 41
-
-sahip _: 37
 
 devam _: 37
 
 karar _: 34
-
-kabul et: 33
 
 yer al: 33
 
@@ -34,13 +18,7 @@ karar ver: 33
 
 dikkat çek: 31
 
-_ yap: 30
-
-teslim ol: 30
-
 iddia et: 29
-
-ön _: 28
 
 iddia _: 27
 
@@ -48,25 +26,13 @@ destek _: 26
 
 söz _: 24
 
-ileri sür: 24
-
-hal _: 23
-
-ön sür: 23
-
 yol _: 21
-
-dil getir: 21
 
 hal gel: 21
 
 orta koy: 20
 
 meydan _: 19
-
-yol aç: 19
-
-hal getir: 19
 
 söz et: 19
 
@@ -86,17 +52,9 @@ yok _: 14
 
 ısrar _: 14
 
-ne ol: 14
-
-karşı _: 14
-
 el et: 13
 
-göz _: 13
-
 izin _: 13
-
-sat _: 13
 
 yer ver: 13
 
@@ -107,8 +65,6 @@ tepki _: 13
 zor kal: 13
 
 tespit _: 13
-
-el al: 13
 
 hak _: 13
 
@@ -132,8 +88,6 @@ _ getir: 11
 
 adım _: 11
 
-ne _: 11
-
 görev _: 11
 
 dahil _: 11
@@ -152,25 +106,17 @@ davet _: 10
 
 intikal et: 9
 
-ortak _: 9
-
-adım at: 9
-
 talep et: 9
 
 tercih _: 9
 
 alet _: 9
 
-iş _: 9
-
 itiraf et: 9
 
 son _: 9
 
 imza at: 9
-
-iptal _: 8
 
 dava _: 8
 
@@ -179,10 +125,6 @@ tercih et: 8
 memnun _: 8
 
 takip et: 8
-
-baş _: 8
-
-el geçir: 8
 
 _ karar: 8
 
@@ -216,11 +158,7 @@ yer getir: 7
 
 işkence _: 7
 
-_ gel: 7
-
 özür dile: 7
-
-sahip ol: 7
 
 girişim bulun: 7
 
@@ -231,8 +169,6 @@ rahatsız _: 7
 ihtiyaç _: 7
 
 protesto _: 7
-
-son er: 7
 
 sonuç _: 7
 
@@ -245,8 +181,6 @@ ayak _: 6
 bilgi _: 6
 
 orta çıkar: 6
-
-sorun _: 6
 
 göz ön _: 6
 
@@ -272,8 +206,6 @@ rehin _: 6
 
 orta at: 6
 
-üzer _: 6
-
 tanık ol: 6
 
 son ver: 6
@@ -294,11 +226,7 @@ ihraç _: 6
 
 haber ver: 6
 
-rol _: 6
-
 _ adım: 6
-
-oy ver: 6
 
 toplantı yap: 6
 
@@ -340,8 +268,6 @@ işbirliği _: 5
 
 yardımcı _: 5
 
-üzer dur: 5
-
 orta kaldır: 5
 
 ateş et: 5
@@ -378,23 +304,15 @@ fark _: 5
 
 devre _: 5
 
-bir ara gel: 5
-
 yorum yap: 5
 
 örtbas _: 5
 
 bilgi ver: 5
 
-yargı ön çıkar: 5
-
 ateş _: 5
 
-hareket geç: 5
-
 tedbir _: 5
-
-sonuç al: 5
 
 iptal et: 5
 
@@ -402,13 +320,9 @@ işaret et: 4
 
 itiraz et: 4
 
-üst _: 4
-
 tepki göster: 4
 
 temsil _: 4
-
-emin _: 4
 
 hüküm _: 4
 
@@ -423,8 +337,6 @@ hediye et: 4
 işlem _: 4
 
 kavga _: 4
-
-_ ol: 4
 
 vaat _: 4
 
@@ -451,8 +363,6 @@ oy _: 4
 önem taşı: 4
 
 dile getir: 4
-
-askı _: 4
 
 men et: 4
 
@@ -504,8 +414,6 @@ aşık ol: 4
 
 hesap yap: 4
 
-yasa _: 4
-
 mücadele ver: 4
 
 hakim ol: 4
@@ -548,11 +456,7 @@ yatırım _: 3
 
 hata _: 3
 
-ara _: 3
-
 fel uğra: 3
-
-konu _: 3
 
 icat _: 3
 
@@ -569,8 +473,6 @@ protesto et: 3
 işgal _: 3
 
 brifing _: 3
-
-takip al: 3
 
 suç duyuru bulun: 3
 
@@ -595,8 +497,6 @@ tatmin et: 3
 ilgi gör: 3
 
 yatırım yap: 3
-
-sat al: 3
 
 rahat ol: 3
 
@@ -625,8 +525,6 @@ peş _: 3
 yardım et: 3
 
 havale et: 3
-
-bahane _: 3
 
 _ pay: 3
 
@@ -684,11 +582,7 @@ meşhur ol: 3
 
 idare _: 3
 
-maç _: 3
-
 boyun eğ: 3
-
-piyasa sür: 3
 
 engel ol: 3
 
@@ -724,13 +618,7 @@ cesaret _: 3
 
 kurban _: 3
 
-ilgi _: 3
-
 teşvik _: 3
-
-baş gel: 3
-
-_ güven: 3
 
 göç et: 3
 
@@ -759,8 +647,6 @@ belli _: 3
 telefon _: 3
 
 emanet et: 3
-
-alt _: 3
 
 transfer et: 3
 
@@ -870,8 +756,6 @@ dikkat al: 2
 
 sözleşme _: 2
 
-eş _: 2
-
 motive _: 2
 
 kulak _: 2
@@ -936,8 +820,6 @@ sıkıntı çek: 2
 
 nikâh kıy: 2
 
-alt çiz: 2
-
 istifa et: 2
 
 ışık tut: 2
@@ -960,8 +842,6 @@ felç ol: 2
 
 sigara _: 2
 
-ayak kal: 2
-
 görüşme yap: 2
 
 temiz _: 2
@@ -979,8 +859,6 @@ _ toplantı: 2
 akıl geçir: 2
 
 güvence _: 2
-
-müdahale et: 2
 
 süper güç _: 2
 
@@ -1010,13 +888,9 @@ telefon et: 2
 
 baştacı _: 2
 
-mal et: 2
-
 serbest _: 2
 
 zevk ver: 2
-
-üye ol: 2
 
 vaat bulun: 2
 
@@ -1144,8 +1018,6 @@ duyuru _: 2
 
 baskın _: 2
 
-iktidar ol: 2
-
 ekran _: 2
 
 alış veriş _: 2
@@ -1169,8 +1041,6 @@ destek gör: 2
 tatmin _: 2
 
 tahrif _: 2
-
-iz _: 2
 
 sipariş _: 2
 
@@ -1224,8 +1094,6 @@ teslim oluş: 2
 
 tahliye ol: 2
 
-ye _: 2
-
 infaz _: 2
 
 sahip olarak: 2
@@ -1234,15 +1102,11 @@ izah _: 2
 
 zemine _: 2
 
-rol al: 2
-
 sözkonu _: 2
 
 istila _: 2
 
 tayin et: 2
-
-duyuru bulun: 2
 
 ihtiyaç duy: 2
 
@@ -1268,13 +1132,9 @@ gündem gir: 2
 
 sat alım: 2
 
-sorun çık: 2
-
 _ ziyaret: 2
 
 ödün _: 2
-
-imal _: 2
 
 muayene _: 2
 
@@ -1306,11 +1166,7 @@ tesbit et: 2
 
 göz geçir: 2
 
-çık orta: 2
-
 _ kak: 2
-
-_ kal: 2
 
 inşa _: 2
 
@@ -1336,19 +1192,11 @@ rağbet _: 2
 
 açık ver: 2
 
-sahip bul: 2
-
 indirim yap: 2
 
 takviye et: 2
 
 yürürlük _: 2
-
-kendi _: 2
-
-ön plan çık: 2
-
-oyun _: 2
 
 izole _: 2
 
@@ -1364,8 +1212,6 @@ layık _: 2
 
 perişan ol: 2
 
-can ver: 2
-
 tahsis et: 2
 
 tesis et: 1
@@ -1378,11 +1224,7 @@ yer gök sığ: 1
 
 teslim OLMA: 1
 
-_ aç: 1
-
 iç burk: 1
-
-eda _: 1
 
 fikir sahip ol: 1
 
@@ -1423,8 +1265,6 @@ teşhis _: 1
 yönetim gel: 1
 
 sadık _: 1
-
-taraf _: 1
 
 baş kavak yel esen: 1
 
@@ -1560,8 +1400,6 @@ acı çıkar: 1
 
 iktidar olarak: 1
 
-ad _: 1
-
 direktif ver: 1
 
 kabak tat ver: 1
@@ -1596,15 +1434,11 @@ selam _: 1
 
 mahsup _: 1
 
-nokta koy: 1
-
 tatil _: 1
 
 iştah aç: 1
 
 hazır ol: 1
-
-güven ver: 1
 
 gözardı et: 1
 
@@ -1758,8 +1592,6 @@ sahne konulma: 1
 
 motive et: 1
 
-uyum sağla: 1
-
 stres gir: 1
 
 tahlil yap: 1
@@ -1773,8 +1605,6 @@ mesafe al: 1
 ilgi odak ol: 1
 
 şok uğra: 1
-
-gibi _: 1
 
 top at: 1
 
@@ -1828,8 +1658,6 @@ başbaşa _: 1
 
 inceleme _: 1
 
-katkı bul: 1
-
 teslim al: 1
 
 devre dış bırak: 1
@@ -1843,8 +1671,6 @@ sonuç ver: 1
 sakal bırak: 1
 
 delil topla: 1
-
-alay _: 1
 
 taklit et: 1
 
@@ -1867,8 +1693,6 @@ itiraz _: 1
 ders çıkar: 1
 
 sinyal _: 1
-
-yol al: 1
 
 isabet et: 1
 
@@ -1947,8 +1771,6 @@ deto _: 1
 bahane et: 1
 
 veda _: 1
-
-iç _: 1
 
 layık gör: 1
 
@@ -2037,8 +1859,6 @@ mesafe _: 1
 nefret et: 1
 
 başbaşa ver: 1
-
-sahiplik _: 1
 
 yürek hopla: 1
 
@@ -2162,8 +1982,6 @@ fırsat doğur: 1
 
 emek _: 1
 
-hal al: 1
-
 sorun et: 1
 
 çanak tut: 1
@@ -2180,11 +1998,7 @@ risk taşı: 1
 
 çıkmaz _: 1
 
-arz _: 1
-
 güvenlik sağla: 1
-
-etkili ol: 1
 
 kemer _: 1
 
@@ -2207,8 +2021,6 @@ tahrip _: 1
 hal getirirek: 1
 
 dil getireceg: 1
-
-ol _: 1
 
 iftira _: 1
 
@@ -2256,15 +2068,9 @@ har _ harman _: 1
 
 şaplak at: 1
 
-hale _: 1
-
-yargı ön çık: 1
-
 poz _: 1
 
 uygun bul: 1
-
-ol al: 1
 
 ileri sürül: 1
 
@@ -2364,8 +2170,6 @@ sıcak _: 1
 
 _ plan: 1
 
-yasa çık: 1
-
 feragat _: 1
 
 el sık: 1
@@ -2438,12 +2242,6 @@ at adımla: 1
 
 kapı arala: 1
 
-yap: 1
-
-yararlı ol: 1
-
-iç iç geç: 1
-
 yanlış _: 1
 
 ne gün kal: 1
@@ -2484,8 +2282,6 @@ savaş gir: 1
 
 mutat _: 1
 
-geç _: 1
-
 ara dur: 1
 
 soruşturma yap: 1
@@ -2503,8 +2299,6 @@ zor bırak: 1
 tedirginlik duy: 1
 
 hafif al: 1
-
-art _: 1
 
 akın uğra: 1
 
@@ -2578,10 +2372,6 @@ _ işbirliği: 1
 
 İlgi DUYDUM: 1
 
-mat _: 1
-
-nefes _: 1
-
 ateş aç: 1
 
 iç dünya fırtına kopartıyor: 1
@@ -2632,8 +2422,6 @@ taksim et: 1
 
 başsağlığı _: 1
 
-el tut: 1
-
 kanıt olarak: 1
 
 teşrif et: 1
@@ -2655,8 +2443,6 @@ _ vaaz: 1
 sırt _: 1
 
 piç _: 1
-
-tat ver: 1
 
 pot kır: 1
 
@@ -2687,8 +2473,6 @@ sırt dön: 1
 _ _ ara: 1
 
 ad taşı: 1
-
-yara al: 1
 
 hoca _: 1
 
@@ -2860,8 +2644,6 @@ satış _: 1
 
 uygun _: 1
 
-yasa çıkar: 1
-
 ana sat: 1
 
 sonuç alın: 1
@@ -2904,8 +2686,6 @@ ressam _: 1
 
 panik _: 1
 
-açık çık: 1
-
 göz aç: 1
 
 mal ol: 1
@@ -2928,8 +2708,6 @@ gedik _: 1
 
 gerekçe göster: 1
 
-bur _: 1
-
 haklı çık: 1
 
 hız _: 1
@@ -2950,8 +2728,6 @@ zaman öl: 1
 
 ad üfle: 1
 
-konu ol: 1
-
 _ performans: 1
 
 hesap ver: 1
@@ -2965,8 +2741,6 @@ ekmek yağ _: 1
 fren yap: 1
 
 geç kal: 1
-
-keyif kaç: 1
 
 tahsil et: 1
 
@@ -2983,8 +2757,6 @@ hayal kap: 1
 gözlem alt al: 1
 
 intikam _: 1
-
-aşağı _: 1
 
 dizgin el tut: 1
 
@@ -3029,8 +2801,6 @@ bayram yap: 1
 emanet _: 1
 
 müjde _: 1
-
-uzak _: 1
 
 başarı göster: 1
 
@@ -3137,8 +2907,6 @@ peşkeş çek: 1
 iğfal et: 1
 
 son bul: 1
-
-_ ad: 1
 
 endişe duy: 1
 
@@ -3258,13 +3026,9 @@ süs _: 1
 
 aracılık yap: 1
 
-_ çek: 1
-
 peş bırak: 1
 
 tavsiye _: 1
-
-ara aç: 1
 
 hayal _: 1
 
@@ -3301,8 +3065,6 @@ _ hassasiyet: 1
 başarı _: 1
 
 _ ese: 1
-
-plan _: 1
 
 suçlu _: 1
 
@@ -3353,8 +3115,6 @@ mahpus yat: 1
 kendi çuvaldız _: 1
 
 yetki ver: 1
-
-te _: 1
 
 şampiyon yap: 1
 
@@ -3504,19 +3264,13 @@ mühlet ver: 1
 
 ikna ol: 1
 
-yer gel: 1
-
 koz _: 1
 
 haram say: 1
 
 can kıyar: 1
 
-haber ol: 1
-
 töhmet alt _: 1
-
-var _: 1
 
 zulüm et: 1
 
@@ -3628,8 +3382,6 @@ istihdam _: 1
 
 rahat nefes _: 1
 
-acı _: 1
-
 aracılık _: 1
 
 ayak fırla: 1
@@ -3664,8 +3416,6 @@ kabul etmis: 1
 
 ayırım yap: 1
 
-iş ol: 1
-
 kara _: 1
 
 manşet yap: 1
@@ -3695,8 +3445,6 @@ güçlük _: 1
 ihdas _: 1
 
 İçim iç sığ: 1
-
-ön çık: 1
 
 ödül _: 1
 

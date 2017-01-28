@@ -14,17 +14,17 @@ useLemma = True
 
 useSytax = True
 
-useTriGram = False
+useTriGram = True
 
 usePOS = True
 
-S0S1Distance = False
+S0S1Distance = True
 
-useDictionary = False
+useDictionary = True
 
 S0B0Distance = True
 
-generateS0B2Bigram = False
+generateS0B2Bigram = True
 
-useStackLength = False
+useStackLength = True
 
