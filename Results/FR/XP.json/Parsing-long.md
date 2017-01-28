@@ -277,9 +277,8 @@ poursuivant ses études à le lycée Émile-loubet ( futur lycée technique de t
 2- **s' impose** (IReflV, 13)
 1- **attire attention** (ID, 3)
 ### Identified MWEs: 
-1- **études** 
-2- **s' impose** 
-3- **attire attention** 
+1- **s' impose** 
+2- **attire attention** 
 ## Sentence No. 3185 - fr-ud-train_01754
 ils ont le pouvoir et le devoir de voter pour éliminer un de les leurs à chaque expulsion . 
 ### Existing MWEs: 
@@ -1923,8 +1922,7 @@ la conclusion de l' étude montre que la récupération de l' aquifère se fait 
 ### Existing MWEs: 
 1- **récupération fait** (LVC)
 ### Identified MWEs: 
-1- **étude** 
-2- **se fait** 
+1- **se fait** 
 ## Sentence No. 5690 - fr-ud-train_04259
 les assauts furent livrés par les corps d' armée de le maréchal ney et de le général reynier , mais malgré un combat extrêmement violent , les français ne parvinrent pas à déloger les forces alliées et furent repoussés avec des pertes se montant à 4_500 morts ou blessés , contre des pertes anglo-portugaises d' environ 1_250 hommes . 
 ### Existing MWEs: 

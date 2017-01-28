@@ -1,8 +1,7 @@
 {
-  "enableSingleMWE":false,
-  "useStackLength": false,
+  "useStackLength": true,
   "S0B0Distance":false,
-  "S0S1Distance":false,
+  "S0S1Distance":true,
   "useFirstBufferElement": true,
   "useSecondBufferElement": false,
   "generateS0B2Bigram":false,
@@ -15,8 +14,8 @@
     "useTriGram": false
   },
   "useTransitionHistory": {
-    "transitionHistoryLength1": false,
-    "transitionHistoryLength2": false,
+    "transitionHistoryLength1": true,
+    "transitionHistoryLength2": true,
     "transitionHistoryLength3": true
   }
 }

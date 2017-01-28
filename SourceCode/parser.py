@@ -548,15 +548,18 @@ class Parser:
                 vMWE.tokens = vMWETokens
                 newTokens.append(vMWE)
             elif len(vMWETokens) == 1:
-                if vMWETokens[0].lemma in Parser.mweDictionary.keys() or vMWETokens[
-                    0].text in Parser.mweDictionary.keys():
-                    if vMWEId is None:
-                        vMWEId = Parser.getVMWENumber(newTokens) + 1
-                    vMWE = VMWE(vMWEId, vMWETokens[0], vMWEType)
-                    if parse:
-                        sent.identifiedVMWEs.append(vMWE)
-                    vMWE.tokens = vMWETokens
-                    newTokens.append(vMWE)
+                if Parameters.enableSingleMWE:
+                    if vMWETokens[0].lemma in Parser.mweDictionary.keys() or \
+                        vMWETokens[0].text in Parser.mweDictionary.keys():
+                        if vMWEId is None:
+                            vMWEId = Parser.getVMWENumber(newTokens) + 1
+                        vMWE = VMWE(vMWEId, vMWETokens[0], vMWEType)
+                        if parse:
+                            sent.identifiedVMWEs.append(vMWE)
+                        vMWE.tokens = vMWETokens
+                        newTokens.append(vMWE)
+                    else:
+                        newTokens.append(vMWETokens[0])
                 else:
                     newTokens.append(vMWETokens[0])
 

@@ -1,964 +1,1729 @@
-## Sentence No. 3660 - 
-Στο τραπέζι έχουν πέσει προτάσεις για κλιμάκωση του αγώνα με συλλαλητήρια σε μεγάλες πόλεις . 
+## Sentence No. 575 - 
+Αν στην Ουάσινγκτον και τις Βρυξέλλες το όνομα του Σαρλ ντε Γκωλ προκαλούσε γι' αυτό το λόγο αρνητικά συναισθήματα , στη Μόσχα ξεσήκωσε πραγματικό ενθουσιασμό , όπως είχε τη δυνατότητα να διαπιστώσει ιδίοις όμμασι ο Γάλλος πρόεδρος κατά τη διάρκεια επίσημης επίσκεψής του στην ΕΣΣΔ ( 20 Ιουνίου - 1 Ιουλίου 1966 ) . 
 ### Existing MWEs: 
-1- **Στο τραπέζι πέσει** (ID)
+1- **είχε τη δυνατότητα** (ID, 2)
 ### Identified MWEs: 
-1- **πέσει προτάσεις** 
+1- **είχε τη δυνατότητα** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Στο, τραπέζι, έχουν ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Αν, στην, Ουάσινγκτον ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Στο]   B= [τραπέζι, έχουν, πέσει ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Αν]   B= [στην, Ουάσινγκτον, και ,.. ]
 
-B0IsInLexic: true, B0Lemma: τραπέζι, B0POS: NoCm, B0Token: τραπέζι, B1IsInLexic: true, B1Lemma: έχω, B1POS: VbMn, B1Token: έχουν, S0B0Lemma: στου_τραπέζι, S0B0LemmaPOS: στου_NoCm, S0B0POS: AsPpPa_NoCm, S0B0POSLemma: AsPpPa_τραπέζι, S0B0Token: Στο_τραπέζι, S0B1Lemma: στου_έχω, S0B1LemmaPOS: στου_VbMn, S0B1POS: AsPpPa_VbMn, S0B1POSLemma: AsPpPa_έχω, S0B1Token: Στο_έχουν, S0B2Lemma: στου_πέφτω, S0B2LemmaPOS: στου_VbMn, S0B2POS: AsPpPa_VbMn, S0B2POSLemma: AsPpPa_πέφτω, S0B2Token: Στο_πέσει, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: Στο, στου_isGouvernedBy_τραπέζι: true, στου_isGouvernedBy_τραπέζι_case: true, 
+B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στην, B1Lemma: Ουάσινγκτον, B1POS: RgFwTr, B1Token: Ουάσινγκτον, S0B0Lemma: αν_στου, S0B0LemmaPOS: αν_AsPpPa, S0B0POS: CjSb_AsPpPa, S0B0POSLemma: CjSb_στου, S0B0Token: Αν_στην, S0B1Lemma: αν_Ουάσινγκτον, S0B1LemmaPOS: αν_RgFwTr, S0B1POS: CjSb_RgFwTr, S0B1POSLemma: CjSb_Ουάσινγκτον, S0B1Token: Αν_Ουάσινγκτον, S0B2Lemma: αν_και, S0B2LemmaPOS: αν_CjCo, S0B2POS: CjSb_CjCo, S0B2POSLemma: CjSb_και, S0B2Token: Αν_και, S0Lemma: αν, S0POS: CjSb, S0Token: Αν, αν_isGouvernedBy_προκαλώ: true, αν_isGouvernedBy_προκαλώ_mark: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τραπέζι, έχουν, πέσει ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στην, Ουάσινγκτον, και ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τραπέζι]   B= [έχουν, πέσει, προτάσεις ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στην]   B= [Ουάσινγκτον, και, τις ,.. ]
 
-B0IsInLexic: true, B0Lemma: έχω, B0POS: VbMn, B0Token: έχουν, B1IsInLexic: true, B1Lemma: πέφτω, B1POS: VbMn, B1Token: πέσει, S0B0Lemma: τραπέζι_έχω, S0B0LemmaPOS: τραπέζι_VbMn, S0B0POS: NoCm_VbMn, S0B0POSLemma: NoCm_έχω, S0B0Token: τραπέζι_έχουν, S0B1Lemma: τραπέζι_πέφτω, S0B1LemmaPOS: τραπέζι_VbMn, S0B1POS: NoCm_VbMn, S0B1POSLemma: NoCm_πέφτω, S0B1Token: τραπέζι_πέσει, S0B2Lemma: τραπέζι_πρόταση, S0B2LemmaPOS: τραπέζι_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_πρόταση, S0B2Token: τραπέζι_προτάσεις, S0IsInLexic: true, S0Lemma: τραπέζι, S0POS: NoCm, S0Token: τραπέζι, τραπέζι_isGouvernedBy_πέφτω: true, τραπέζι_isGouvernedBy_πέφτω_nmod: true, 
+B0Lemma: Ουάσινγκτον, B0POS: RgFwTr, B0Token: Ουάσινγκτον, B1IsInLexic: true, B1Lemma: και, B1POS: CjCo, B1Token: και, S0B0Lemma: στου_Ουάσινγκτον, S0B0LemmaPOS: στου_RgFwTr, S0B0POS: AsPpPa_RgFwTr, S0B0POSLemma: AsPpPa_Ουάσινγκτον, S0B0Token: στην_Ουάσινγκτον, S0B1Lemma: στου_και, S0B1LemmaPOS: στου_CjCo, S0B1POS: AsPpPa_CjCo, S0B1POSLemma: AsPpPa_και, S0B1Token: στην_και, S0B2Lemma: στου_ο, S0B2LemmaPOS: στου_AtDf, S0B2POS: AsPpPa_AtDf, S0B2POSLemma: AsPpPa_ο, S0B2Token: στην_τις, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στην, στου_isGouvernedBy_Ουάσινγκτον: true, στου_isGouvernedBy_Ουάσινγκτον_case: true, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [έχουν, πέσει, προτάσεις ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ουάσινγκτον, και, τις ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [έχουν]   B= [πέσει, προτάσεις, για ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ουάσινγκτον]   B= [και, τις, Βρυξέλλες ,.. ]
 
-B0IsInLexic: true, B0Lemma: πέφτω, B0POS: VbMn, B0Token: πέσει, B1IsInLexic: true, B1Lemma: πρόταση, B1POS: NoCm, B1Token: προτάσεις, S0B0Lemma: έχω_πέφτω, S0B0LemmaPOS: έχω_VbMn, S0B0POS: VbMn_VbMn, S0B0POSLemma: VbMn_πέφτω, S0B0Token: έχουν_πέσει, S0B1Lemma: έχω_πρόταση, S0B1LemmaPOS: έχω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_πρόταση, S0B1Token: έχουν_προτάσεις, S0B2Lemma: έχω_για, S0B2LemmaPOS: έχω_AsPpSp, S0B2POS: VbMn_AsPpSp, S0B2POSLemma: VbMn_για, S0B2Token: έχουν_για, S0IsInLexic: true, S0Lemma: έχω, S0POS: VbMn, S0Token: έχουν, έχω_isGouvernedBy_πέφτω: true, έχω_isGouvernedBy_πέφτω_aux: true, 
+B0IsInLexic: true, B0Lemma: και, B0POS: CjCo, B0Token: και, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τις, S0B0Lemma: Ουάσινγκτον_και, S0B0LemmaPOS: Ουάσινγκτον_CjCo, S0B0POS: RgFwTr_CjCo, S0B0POSLemma: RgFwTr_και, S0B0Token: Ουάσινγκτον_και, S0B1Lemma: Ουάσινγκτον_ο, S0B1LemmaPOS: Ουάσινγκτον_AtDf, S0B1POS: RgFwTr_AtDf, S0B1POSLemma: RgFwTr_ο, S0B1Token: Ουάσινγκτον_τις, S0B2Lemma: Ουάσινγκτον_Βρυξέλλες, S0B2LemmaPOS: Ουάσινγκτον_NoPr, S0B2POS: RgFwTr_NoPr, S0B2POSLemma: RgFwTr_Βρυξέλλες, S0B2Token: Ουάσινγκτον_Βρυξέλλες, S0Lemma: Ουάσινγκτον, S0POS: RgFwTr, S0Token: Ουάσινγκτον, hasRighDep_cc: true, hasRighDep_conj: true, Ουάσινγκτον_hasRighDep_cc: true, Ουάσινγκτον_hasRighDep_conj: true, Ουάσινγκτον_isGouvernedBy_προκαλώ: true, Ουάσινγκτον_isGouvernedBy_προκαλώ_nmod: true, Ουάσινγκτον_Βρυξέλλες_hasRighDep_conj: true, Ουάσινγκτον_και_hasRighDep_cc: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πέσει, προτάσεις, για ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [και, τις, Βρυξέλλες ,.. ]
 
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πέσει]   B= [προτάσεις, για, κλιμάκωση ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [και]   B= [τις, Βρυξέλλες, το ,.. ]
 
-B0IsInLexic: true, B0Lemma: πρόταση, B0POS: NoCm, B0Token: προτάσεις, B1IsInLexic: true, B1Lemma: για, B1POS: AsPpSp, B1Token: για, S0B0Lemma: πέφτω_πρόταση, S0B0LemmaPOS: πέφτω_NoCm, S0B0POS: VbMn_NoCm, S0B0POSLemma: VbMn_πρόταση, S0B0Token: πέσει_προτάσεις, S0B1Lemma: πέφτω_για, S0B1LemmaPOS: πέφτω_AsPpSp, S0B1POS: VbMn_AsPpSp, S0B1POSLemma: VbMn_για, S0B1Token: πέσει_για, S0B2Lemma: πέφτω_κλιμάκωση, S0B2LemmaPOS: πέφτω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_κλιμάκωση, S0B2Token: πέσει_κλιμάκωση, S0IsInLexic: true, S0Lemma: πέφτω, S0POS: VbMn, S0Token: πέσει, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τις, B1Lemma: Βρυξέλλες, B1POS: NoPr, B1Token: Βρυξέλλες, S0B0Lemma: και_ο, S0B0LemmaPOS: και_AtDf, S0B0POS: CjCo_AtDf, S0B0POSLemma: CjCo_ο, S0B0Token: και_τις, S0B1Lemma: και_Βρυξέλλες, S0B1LemmaPOS: και_NoPr, S0B1POS: CjCo_NoPr, S0B1POSLemma: CjCo_Βρυξέλλες, S0B1Token: και_Βρυξέλλες, S0B2Lemma: και_ο, S0B2LemmaPOS: και_AtDf, S0B2POS: CjCo_AtDf, S0B2POSLemma: CjCo_ο, S0B2Token: και_το, S0IsInLexic: true, S0Lemma: και, S0POS: CjCo, S0Token: και, 
 
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πέσει, προτάσεις]   B= [για, κλιμάκωση, του ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τις, Βρυξέλλες, το ,.. ]
 
-B0IsInLexic: true, B0Lemma: για, B0POS: AsPpSp, B0Token: για, B1Lemma: κλιμάκωση, B1POS: NoCm, B1Token: κλιμάκωση, S0B0Lemma: πρόταση_για, S0B0LemmaPOS: πρόταση_AsPpSp, S0B0POS: NoCm_AsPpSp, S0B0POSLemma: NoCm_για, S0B0Token: προτάσεις_για, S0B1Lemma: πρόταση_κλιμάκωση, S0B1LemmaPOS: πρόταση_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_κλιμάκωση, S0B1Token: προτάσεις_κλιμάκωση, S0B2Lemma: πρόταση_ο, S0B2LemmaPOS: πρόταση_AtDf, S0B2POS: NoCm_AtDf, S0B2POSLemma: NoCm_ο, S0B2Token: προτάσεις_του, S0IsInLexic: true, S0Lemma: πρόταση, S0POS: NoCm, S0S1Distance: 1, S0Token: προτάσεις, S1B0Lemma: πέφτω_για, S1B0LemmaPOS: πέφτω_AsPpSp, S1B0POS: VbMn_AsPpSp, S1B0POSLemma: VbMn_για, S1B0Token: πέσει_για, S1IsInLexic: true, S1Lemma: πέφτω, S1POS: VbMn, S1S0Lemma: πέφτω_πρόταση, S1S0LemmaPOS: πέφτω_NoCm, S1S0POS: VbMn_NoCm, S1S0POSLemma: VbMn_πρόταση, S1S0Token: πέσει_προτάσεις, S1Token: πέσει, SyntaxicRelation: +dobj, hasRighDep_nmod: true, πρόταση_hasRighDep_nmod: true, πρόταση_κλιμάκωση_hasRighDep_nmod: true, 
 
-9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[πέσει, προτάσεις]]   B= [για, κλιμάκωση, του ,.. ]
 
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τις]   B= [Βρυξέλλες, το, όνομα ,.. ]
 
+B0Lemma: Βρυξέλλες, B0POS: NoPr, B0Token: Βρυξέλλες, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: το, S0B0Lemma: ο_Βρυξέλλες, S0B0LemmaPOS: ο_NoPr, S0B0POS: AtDf_NoPr, S0B0POSLemma: AtDf_Βρυξέλλες, S0B0Token: τις_Βρυξέλλες, S0B1Lemma: ο_ο, S0B1LemmaPOS: ο_AtDf, S0B1POS: AtDf_AtDf, S0B1POSLemma: AtDf_ο, S0B1Token: τις_το, S0B2Lemma: ο_όνομα, S0B2LemmaPOS: ο_NoCm, S0B2POS: AtDf_NoCm, S0B2POSLemma: AtDf_όνομα, S0B2Token: τις_όνομα, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: τις, ο_isGouvernedBy_Βρυξέλλες: true, ο_isGouvernedBy_Βρυξέλλες_det: true, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [για, κλιμάκωση, του ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Βρυξέλλες, το, όνομα ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [για]   B= [κλιμάκωση, του, αγώνα ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Βρυξέλλες]   B= [το, όνομα, του ,.. ]
 
-B0Lemma: κλιμάκωση, B0POS: NoCm, B0Token: κλιμάκωση, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: του, S0B0Lemma: για_κλιμάκωση, S0B0LemmaPOS: για_NoCm, S0B0POS: AsPpSp_NoCm, S0B0POSLemma: AsPpSp_κλιμάκωση, S0B0Token: για_κλιμάκωση, S0B1Lemma: για_ο, S0B1LemmaPOS: για_AtDf, S0B1POS: AsPpSp_AtDf, S0B1POSLemma: AsPpSp_ο, S0B1Token: για_του, S0B2Lemma: για_αγώνας, S0B2LemmaPOS: για_NoCm, S0B2POS: AsPpSp_NoCm, S0B2POSLemma: AsPpSp_αγώνας, S0B2Token: για_αγώνα, S0IsInLexic: true, S0Lemma: για, S0POS: AsPpSp, S0Token: για, για_isGouvernedBy_κλιμάκωση: true, για_isGouvernedBy_κλιμάκωση_case: true, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: το, B1IsInLexic: true, B1Lemma: όνομα, B1POS: NoCm, B1Token: όνομα, S0B0Lemma: Βρυξέλλες_ο, S0B0LemmaPOS: Βρυξέλλες_AtDf, S0B0POS: NoPr_AtDf, S0B0POSLemma: NoPr_ο, S0B0Token: Βρυξέλλες_το, S0B1Lemma: Βρυξέλλες_όνομα, S0B1LemmaPOS: Βρυξέλλες_NoCm, S0B1POS: NoPr_NoCm, S0B1POSLemma: NoPr_όνομα, S0B1Token: Βρυξέλλες_όνομα, S0B2Lemma: Βρυξέλλες_ο, S0B2LemmaPOS: Βρυξέλλες_AtDf, S0B2POS: NoPr_AtDf, S0B2POSLemma: NoPr_ο, S0B2Token: Βρυξέλλες_του, S0Lemma: Βρυξέλλες, S0POS: NoPr, S0Token: Βρυξέλλες, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κλιμάκωση, του, αγώνα ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [το, όνομα, του ,.. ]
 
 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κλιμάκωση]   B= [του, αγώνα, με ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [το]   B= [όνομα, του, Σαρλ ,.. ]
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: του, B1IsInLexic: true, B1Lemma: αγώνας, B1POS: NoCm, B1Token: αγώνα, S0B0Lemma: κλιμάκωση_ο, S0B0LemmaPOS: κλιμάκωση_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: κλιμάκωση_του, S0B1Lemma: κλιμάκωση_αγώνας, S0B1LemmaPOS: κλιμάκωση_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_αγώνας, S0B1Token: κλιμάκωση_αγώνα, S0B2Lemma: κλιμάκωση_με, S0B2LemmaPOS: κλιμάκωση_AsPpSp, S0B2POS: NoCm_AsPpSp, S0B2POSLemma: NoCm_με, S0B2Token: κλιμάκωση_με, S0Lemma: κλιμάκωση, S0POS: NoCm, S0Token: κλιμάκωση, hasRighDep_nmod: true, κλιμάκωση_hasRighDep_nmod: true, κλιμάκωση_αγώνας_hasRighDep_nmod: true, κλιμάκωση_συλλαλητήριο_hasRighDep_nmod: true, 
+B0IsInLexic: true, B0Lemma: όνομα, B0POS: NoCm, B0Token: όνομα, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: του, S0B0Lemma: ο_όνομα, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_όνομα, S0B0Token: το_όνομα, S0B1Lemma: ο_ο, S0B1LemmaPOS: ο_AtDf, S0B1POS: AtDf_AtDf, S0B1POSLemma: AtDf_ο, S0B1Token: το_του, S0B2Lemma: ο_Σαρλ, S0B2LemmaPOS: ο_NoPr, S0B2POS: AtDf_NoPr, S0B2POSLemma: AtDf_Σαρλ, S0B2Token: το_Σαρλ, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: το, ο_isGouvernedBy_όνομα: true, ο_isGouvernedBy_όνομα_det: true, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, αγώνα, με ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [όνομα, του, Σαρλ ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [αγώνα, με, συλλαλητήρια ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [όνομα]   B= [του, Σαρλ, ντε ,.. ]
 
-B0IsInLexic: true, B0Lemma: αγώνας, B0POS: NoCm, B0Token: αγώνα, B1IsInLexic: true, B1Lemma: με, B1POS: AsPpSp, B1Token: με, S0B0Lemma: ο_αγώνας, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_αγώνας, S0B0Token: του_αγώνα, S0B1Lemma: ο_με, S0B1LemmaPOS: ο_AsPpSp, S0B1POS: AtDf_AsPpSp, S0B1POSLemma: AtDf_με, S0B1Token: του_με, S0B2Lemma: ο_συλλαλητήριο, S0B2LemmaPOS: ο_NoCm, S0B2POS: AtDf_NoCm, S0B2POSLemma: AtDf_συλλαλητήριο, S0B2Token: του_συλλαλητήρια, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: του, ο_isGouvernedBy_αγώνας: true, ο_isGouvernedBy_αγώνας_det: true, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: του, B1Lemma: Σαρλ, B1POS: NoPr, B1Token: Σαρλ, S0B0Lemma: όνομα_ο, S0B0LemmaPOS: όνομα_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: όνομα_του, S0B1Lemma: όνομα_Σαρλ, S0B1LemmaPOS: όνομα_NoPr, S0B1POS: NoCm_NoPr, S0B1POSLemma: NoCm_Σαρλ, S0B1Token: όνομα_Σαρλ, S0B2Lemma: όνομα_ντε, S0B2LemmaPOS: όνομα_Ij, S0B2POS: NoCm_Ij, S0B2POSLemma: NoCm_ντε, S0B2Token: όνομα_ντε, S0IsInLexic: true, S0Lemma: όνομα, S0POS: NoCm, S0Token: όνομα, hasRighDep_nmod: true, όνομα_hasRighDep_nmod: true, όνομα_isGouvernedBy_προκαλώ: true, όνομα_isGouvernedBy_προκαλώ_nmod: true, όνομα_Σαρλ_hasRighDep_nmod: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αγώνα, με, συλλαλητήρια ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, Σαρλ, ντε ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αγώνα]   B= [με, συλλαλητήρια, σε ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [Σαρλ, ντε, Γκωλ ,.. ]
 
-B0IsInLexic: true, B0Lemma: με, B0POS: AsPpSp, B0Token: με, B1Lemma: συλλαλητήριο, B1POS: NoCm, B1Token: συλλαλητήρια, S0B0Lemma: αγώνας_με, S0B0LemmaPOS: αγώνας_AsPpSp, S0B0POS: NoCm_AsPpSp, S0B0POSLemma: NoCm_με, S0B0Token: αγώνα_με, S0B1Lemma: αγώνας_συλλαλητήριο, S0B1LemmaPOS: αγώνας_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_συλλαλητήριο, S0B1Token: αγώνα_συλλαλητήρια, S0B2Lemma: αγώνας_σε, S0B2LemmaPOS: αγώνας_AsPpSp, S0B2POS: NoCm_AsPpSp, S0B2POSLemma: NoCm_σε, S0B2Token: αγώνα_σε, S0IsInLexic: true, S0Lemma: αγώνας, S0POS: NoCm, S0Token: αγώνα, 
+B0Lemma: Σαρλ, B0POS: NoPr, B0Token: Σαρλ, B1Lemma: ντε, B1POS: Ij, B1Token: ντε, S0B0Lemma: ο_Σαρλ, S0B0LemmaPOS: ο_NoPr, S0B0POS: AtDf_NoPr, S0B0POSLemma: AtDf_Σαρλ, S0B0Token: του_Σαρλ, S0B1Lemma: ο_ντε, S0B1LemmaPOS: ο_Ij, S0B1POS: AtDf_Ij, S0B1POSLemma: AtDf_ντε, S0B1Token: του_ντε, S0B2Lemma: ο_Γκωλ, S0B2LemmaPOS: ο_RgFwTr, S0B2POS: AtDf_RgFwTr, S0B2POSLemma: AtDf_Γκωλ, S0B2Token: του_Γκωλ, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: του, ο_isGouvernedBy_Σαρλ: true, ο_isGouvernedBy_Σαρλ_det: true, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [με, συλλαλητήρια, σε ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Σαρλ, ντε, Γκωλ ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [με]   B= [συλλαλητήρια, σε, μεγάλες ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Σαρλ]   B= [ντε, Γκωλ, προκαλούσε ,.. ]
 
-B0Lemma: συλλαλητήριο, B0POS: NoCm, B0Token: συλλαλητήρια, B1IsInLexic: true, B1Lemma: σε, B1POS: AsPpSp, B1Token: σε, S0B0Lemma: με_συλλαλητήριο, S0B0LemmaPOS: με_NoCm, S0B0POS: AsPpSp_NoCm, S0B0POSLemma: AsPpSp_συλλαλητήριο, S0B0Token: με_συλλαλητήρια, S0B1Lemma: με_σε, S0B1LemmaPOS: με_AsPpSp, S0B1POS: AsPpSp_AsPpSp, S0B1POSLemma: AsPpSp_σε, S0B1Token: με_σε, S0B2Lemma: με_μεγάλος, S0B2LemmaPOS: με_Aj, S0B2POS: AsPpSp_Aj, S0B2POSLemma: AsPpSp_μεγάλος, S0B2Token: με_μεγάλες, S0IsInLexic: true, S0Lemma: με, S0POS: AsPpSp, S0Token: με, με_isGouvernedBy_συλλαλητήριο: true, με_isGouvernedBy_συλλαλητήριο_case: true, 
+B0Lemma: ντε, B0POS: Ij, B0Token: ντε, B1Lemma: Γκωλ, B1POS: RgFwTr, B1Token: Γκωλ, S0B0Lemma: Σαρλ_ντε, S0B0LemmaPOS: Σαρλ_Ij, S0B0POS: NoPr_Ij, S0B0POSLemma: NoPr_ντε, S0B0Token: Σαρλ_ντε, S0B1Lemma: Σαρλ_Γκωλ, S0B1LemmaPOS: Σαρλ_RgFwTr, S0B1POS: NoPr_RgFwTr, S0B1POSLemma: NoPr_Γκωλ, S0B1Token: Σαρλ_Γκωλ, S0B2Lemma: Σαρλ_προκαλώ, S0B2LemmaPOS: Σαρλ_VbMn, S0B2POS: NoPr_VbMn, S0B2POSLemma: NoPr_προκαλώ, S0B2Token: Σαρλ_προκαλούσε, S0Lemma: Σαρλ, S0POS: NoPr, S0Token: Σαρλ, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [συλλαλητήρια, σε, μεγάλες ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ντε, Γκωλ, προκαλούσε ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [συλλαλητήρια]   B= [σε, μεγάλες, πόλεις ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ντε]   B= [Γκωλ, προκαλούσε, γι' ,.. ]
 
-B0IsInLexic: true, B0Lemma: σε, B0POS: AsPpSp, B0Token: σε, B1Lemma: μεγάλος, B1POS: Aj, B1Token: μεγάλες, S0B0Lemma: συλλαλητήριο_σε, S0B0LemmaPOS: συλλαλητήριο_AsPpSp, S0B0POS: NoCm_AsPpSp, S0B0POSLemma: NoCm_σε, S0B0Token: συλλαλητήρια_σε, S0B1Lemma: συλλαλητήριο_μεγάλος, S0B1LemmaPOS: συλλαλητήριο_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_μεγάλος, S0B1Token: συλλαλητήρια_μεγάλες, S0B2Lemma: συλλαλητήριο_πόλη, S0B2LemmaPOS: συλλαλητήριο_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_πόλη, S0B2Token: συλλαλητήρια_πόλεις, S0Lemma: συλλαλητήριο, S0POS: NoCm, S0Token: συλλαλητήρια, hasRighDep_nmod: true, συλλαλητήριο_hasRighDep_nmod: true, συλλαλητήριο_πόλη_hasRighDep_nmod: true, 
+B0Lemma: Γκωλ, B0POS: RgFwTr, B0Token: Γκωλ, B1IsInLexic: true, B1Lemma: προκαλώ, B1POS: VbMn, B1Token: προκαλούσε, S0B0Lemma: ντε_Γκωλ, S0B0LemmaPOS: ντε_RgFwTr, S0B0POS: Ij_RgFwTr, S0B0POSLemma: Ij_Γκωλ, S0B0Token: ντε_Γκωλ, S0B1Lemma: ντε_προκαλώ, S0B1LemmaPOS: ντε_VbMn, S0B1POS: Ij_VbMn, S0B1POSLemma: Ij_προκαλώ, S0B1Token: ντε_προκαλούσε, S0B2Lemma: ντε_για, S0B2LemmaPOS: ντε_AsPpSp, S0B2POS: Ij_AsPpSp, S0B2POSLemma: Ij_για, S0B2Token: ντε_γι', S0Lemma: ντε, S0POS: Ij, S0Token: ντε, ντε_isGouvernedBy_Γκωλ: true, ντε_isGouvernedBy_Γκωλ_amod: true, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [σε, μεγάλες, πόλεις ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Γκωλ, προκαλούσε, γι' ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [σε]   B= [μεγάλες, πόλεις, . ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Γκωλ]   B= [προκαλούσε, γι', αυτό ,.. ]
 
-B0Lemma: μεγάλος, B0POS: Aj, B0Token: μεγάλες, B1Lemma: πόλη, B1POS: NoCm, B1Token: πόλεις, S0B0Lemma: σε_μεγάλος, S0B0LemmaPOS: σε_Aj, S0B0POS: AsPpSp_Aj, S0B0POSLemma: AsPpSp_μεγάλος, S0B0Token: σε_μεγάλες, S0B1Lemma: σε_πόλη, S0B1LemmaPOS: σε_NoCm, S0B1POS: AsPpSp_NoCm, S0B1POSLemma: AsPpSp_πόλη, S0B1Token: σε_πόλεις, S0B2Lemma: σε_., S0B2LemmaPOS: σε_PTERMP, S0B2POS: AsPpSp_PTERMP, S0B2POSLemma: AsPpSp_., S0B2Token: σε_., S0IsInLexic: true, S0Lemma: σε, S0POS: AsPpSp, S0Token: σε, σε_isGouvernedBy_πόλη: true, σε_isGouvernedBy_πόλη_case: true, 
+B0IsInLexic: true, B0Lemma: προκαλώ, B0POS: VbMn, B0Token: προκαλούσε, B1IsInLexic: true, B1Lemma: για, B1POS: AsPpSp, B1Token: γι', S0B0Lemma: Γκωλ_προκαλώ, S0B0LemmaPOS: Γκωλ_VbMn, S0B0POS: RgFwTr_VbMn, S0B0POSLemma: RgFwTr_προκαλώ, S0B0Token: Γκωλ_προκαλούσε, S0B1Lemma: Γκωλ_για, S0B1LemmaPOS: Γκωλ_AsPpSp, S0B1POS: RgFwTr_AsPpSp, S0B1POSLemma: RgFwTr_για, S0B1Token: Γκωλ_γι', S0B2Lemma: Γκωλ_αυτός, S0B2LemmaPOS: Γκωλ_PnDm, S0B2POS: RgFwTr_PnDm, S0B2POSLemma: RgFwTr_αυτός, S0B2Token: Γκωλ_αυτό, S0Lemma: Γκωλ, S0POS: RgFwTr, S0Token: Γκωλ, Γκωλ_isGouvernedBy_προκαλώ: true, Γκωλ_isGouvernedBy_προκαλώ_nsubj: true, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μεγάλες, πόλεις, . ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [προκαλούσε, γι', αυτό ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μεγάλες]   B= [πόλεις, . ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [προκαλούσε]   B= [γι', αυτό, το ,.. ]
 
-B0Lemma: πόλη, B0POS: NoCm, B0Token: πόλεις, B1Lemma: ., B1POS: PTERMP, B1Token: ., S0B0Lemma: μεγάλος_πόλη, S0B0LemmaPOS: μεγάλος_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_πόλη, S0B0Token: μεγάλες_πόλεις, S0B1Lemma: μεγάλος_., S0B1LemmaPOS: μεγάλος_PTERMP, S0B1POS: Aj_PTERMP, S0B1POSLemma: Aj_., S0B1Token: μεγάλες_., S0Lemma: μεγάλος, S0POS: Aj, S0Token: μεγάλες, μεγάλος_isGouvernedBy_πόλη: true, μεγάλος_isGouvernedBy_πόλη_amod: true, 
+B0IsInLexic: true, B0Lemma: για, B0POS: AsPpSp, B0Token: γι', B1Lemma: αυτός, B1POS: PnDm, B1Token: αυτό, S0B0Lemma: προκαλώ_για, S0B0LemmaPOS: προκαλώ_AsPpSp, S0B0POS: VbMn_AsPpSp, S0B0POSLemma: VbMn_για, S0B0Token: προκαλούσε_γι', S0B1Lemma: προκαλώ_αυτός, S0B1LemmaPOS: προκαλώ_PnDm, S0B1POS: VbMn_PnDm, S0B1POSLemma: VbMn_αυτός, S0B1Token: προκαλούσε_αυτό, S0B2Lemma: προκαλώ_ο, S0B2LemmaPOS: προκαλώ_AtDf, S0B2POS: VbMn_AtDf, S0B2POSLemma: VbMn_ο, S0B2Token: προκαλούσε_το, S0IsInLexic: true, S0Lemma: προκαλώ, S0POS: VbMn, S0Token: προκαλούσε, hasRighDep_dobj: true, προκαλώ_hasRighDep_dobj: true, προκαλώ_isGouvernedBy_ξεσηκώνω: true, προκαλώ_isGouvernedBy_ξεσηκώνω_advcl: true, προκαλώ_συναίσθημα_hasRighDep_dobj: true, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πόλεις, . ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [γι', αυτό, το ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πόλεις]   B= [.]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [γι']   B= [αυτό, το, λόγο ,.. ]
 
-B0Lemma: ., B0POS: PTERMP, B0Token: ., S0B0Lemma: πόλη_., S0B0LemmaPOS: πόλη_PTERMP, S0B0POS: NoCm_PTERMP, S0B0POSLemma: NoCm_., S0B0Token: πόλεις_., S0Lemma: πόλη, S0POS: NoCm, S0Token: πόλεις, 
+B0Lemma: αυτός, B0POS: PnDm, B0Token: αυτό, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: το, S0B0Lemma: για_αυτός, S0B0LemmaPOS: για_PnDm, S0B0POS: AsPpSp_PnDm, S0B0POSLemma: AsPpSp_αυτός, S0B0Token: γι'_αυτό, S0B1Lemma: για_ο, S0B1LemmaPOS: για_AtDf, S0B1POS: AsPpSp_AtDf, S0B1POSLemma: AsPpSp_ο, S0B1Token: γι'_το, S0B2Lemma: για_λόγος, S0B2LemmaPOS: για_NoCm, S0B2POS: AsPpSp_NoCm, S0B2POSLemma: AsPpSp_λόγος, S0B2Token: γι'_λόγο, S0IsInLexic: true, S0Lemma: για, S0POS: AsPpSp, S0Token: γι', για_isGouvernedBy_λόγος: true, για_isGouvernedBy_λόγος_case: true, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αυτό, το, λόγο ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αυτό]   B= [το, λόγο, αρνητικά ,.. ]
 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: το, B1IsInLexic: true, B1Lemma: λόγος, B1POS: NoCm, B1Token: λόγο, S0B0Lemma: αυτός_ο, S0B0LemmaPOS: αυτός_AtDf, S0B0POS: PnDm_AtDf, S0B0POSLemma: PnDm_ο, S0B0Token: αυτό_το, S0B1Lemma: αυτός_λόγος, S0B1LemmaPOS: αυτός_NoCm, S0B1POS: PnDm_NoCm, S0B1POSLemma: PnDm_λόγος, S0B1Token: αυτό_λόγο, S0B2Lemma: αυτός_αρνητικά, S0B2LemmaPOS: αυτός_Ad, S0B2POS: PnDm_Ad, S0B2POSLemma: PnDm_αρνητικά, S0B2Token: αυτό_αρνητικά, S0Lemma: αυτός, S0POS: PnDm, S0Token: αυτό, αυτός_isGouvernedBy_λόγος: true, αυτός_isGouvernedBy_λόγος_det: true, 
 
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [το, λόγο, αρνητικά ,.. ]
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 3665 - 
-Νόμιζε ότι του κάνουν πλάκα . 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [το]   B= [λόγο, αρνητικά, συναισθήματα ,.. ]
+
+B0IsInLexic: true, B0Lemma: λόγος, B0POS: NoCm, B0Token: λόγο, B1Lemma: αρνητικά, B1POS: Ad, B1Token: αρνητικά, S0B0Lemma: ο_λόγος, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_λόγος, S0B0Token: το_λόγο, S0B1Lemma: ο_αρνητικά, S0B1LemmaPOS: ο_Ad, S0B1POS: AtDf_Ad, S0B1POSLemma: AtDf_αρνητικά, S0B1Token: το_αρνητικά, S0B2Lemma: ο_συναίσθημα, S0B2LemmaPOS: ο_NoCm, S0B2POS: AtDf_NoCm, S0B2POSLemma: AtDf_συναίσθημα, S0B2Token: το_συναισθήματα, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: το, ο_isGouvernedBy_λόγος: true, ο_isGouvernedBy_λόγος_det: true, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [λόγο, αρνητικά, συναισθήματα ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [λόγο]   B= [αρνητικά, συναισθήματα, , ,.. ]
+
+B0Lemma: αρνητικά, B0POS: Ad, B0Token: αρνητικά, B1Lemma: συναίσθημα, B1POS: NoCm, B1Token: συναισθήματα, S0B0Lemma: λόγος_αρνητικά, S0B0LemmaPOS: λόγος_Ad, S0B0POS: NoCm_Ad, S0B0POSLemma: NoCm_αρνητικά, S0B0Token: λόγο_αρνητικά, S0B1Lemma: λόγος_συναίσθημα, S0B1LemmaPOS: λόγος_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_συναίσθημα, S0B1Token: λόγο_συναισθήματα, S0B2Lemma: λόγος_,, S0B2LemmaPOS: λόγος_PUNCT, S0B2POS: NoCm_PUNCT, S0B2POSLemma: NoCm_,, S0B2Token: λόγο_,, S0IsInLexic: true, S0Lemma: λόγος, S0POS: NoCm, S0Token: λόγο, λόγος_isGouvernedBy_αρνητικά: true, λόγος_isGouvernedBy_αρνητικά_nmod: true, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αρνητικά, συναισθήματα, , ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αρνητικά]   B= [συναισθήματα, ,, στη ,.. ]
+
+B0Lemma: συναίσθημα, B0POS: NoCm, B0Token: συναισθήματα, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: αρνητικά_συναίσθημα, S0B0LemmaPOS: αρνητικά_NoCm, S0B0POS: Ad_NoCm, S0B0POSLemma: Ad_συναίσθημα, S0B0Token: αρνητικά_συναισθήματα, S0B1Lemma: αρνητικά_,, S0B1LemmaPOS: αρνητικά_PUNCT, S0B1POS: Ad_PUNCT, S0B1POSLemma: Ad_,, S0B1Token: αρνητικά_,, S0B2Lemma: αρνητικά_στου, S0B2LemmaPOS: αρνητικά_AsPpPa, S0B2POS: Ad_AsPpPa, S0B2POSLemma: Ad_στου, S0B2Token: αρνητικά_στη, S0Lemma: αρνητικά, S0POS: Ad, S0Token: αρνητικά, αρνητικά_isGouvernedBy_συναίσθημα: true, αρνητικά_isGouvernedBy_συναίσθημα_amod: true, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [συναισθήματα, ,, στη ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [συναισθήματα]   B= [,, στη, Μόσχα ,.. ]
+
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: στου, B1POS: AsPpPa, B1Token: στη, S0B0Lemma: συναίσθημα_,, S0B0LemmaPOS: συναίσθημα_PUNCT, S0B0POS: NoCm_PUNCT, S0B0POSLemma: NoCm_,, S0B0Token: συναισθήματα_,, S0B1Lemma: συναίσθημα_στου, S0B1LemmaPOS: συναίσθημα_AsPpPa, S0B1POS: NoCm_AsPpPa, S0B1POSLemma: NoCm_στου, S0B1Token: συναισθήματα_στη, S0B2Lemma: συναίσθημα_Μόσχα, S0B2LemmaPOS: συναίσθημα_NoPr, S0B2POS: NoCm_NoPr, S0B2POSLemma: NoCm_Μόσχα, S0B2Token: συναισθήματα_Μόσχα, S0Lemma: συναίσθημα, S0POS: NoCm, S0Token: συναισθήματα, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, στη, Μόσχα ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [στη, Μόσχα, ξεσήκωσε ,.. ]
+
+,_isGouvernedBy_ξεσηκώνω: true, ,_isGouvernedBy_ξεσηκώνω_punct: true, B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στη, B1Lemma: Μόσχα, B1POS: NoPr, B1Token: Μόσχα, S0B0Lemma: ,_στου, S0B0LemmaPOS: ,_AsPpPa, S0B0POS: PUNCT_AsPpPa, S0B0POSLemma: PUNCT_στου, S0B0Token: ,_στη, S0B1Lemma: ,_Μόσχα, S0B1LemmaPOS: ,_NoPr, S0B1POS: PUNCT_NoPr, S0B1POSLemma: PUNCT_Μόσχα, S0B1Token: ,_Μόσχα, S0B2Lemma: ,_ξεσηκώνω, S0B2LemmaPOS: ,_VbMn, S0B2POS: PUNCT_VbMn, S0B2POSLemma: PUNCT_ξεσηκώνω, S0B2Token: ,_ξεσήκωσε, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στη, Μόσχα, ξεσήκωσε ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στη]   B= [Μόσχα, ξεσήκωσε, πραγματικό ,.. ]
+
+B0Lemma: Μόσχα, B0POS: NoPr, B0Token: Μόσχα, B1Lemma: ξεσηκώνω, B1POS: VbMn, B1Token: ξεσήκωσε, S0B0Lemma: στου_Μόσχα, S0B0LemmaPOS: στου_NoPr, S0B0POS: AsPpPa_NoPr, S0B0POSLemma: AsPpPa_Μόσχα, S0B0Token: στη_Μόσχα, S0B1Lemma: στου_ξεσηκώνω, S0B1LemmaPOS: στου_VbMn, S0B1POS: AsPpPa_VbMn, S0B1POSLemma: AsPpPa_ξεσηκώνω, S0B1Token: στη_ξεσήκωσε, S0B2Lemma: στου_πραγματικός, S0B2LemmaPOS: στου_Aj, S0B2POS: AsPpPa_Aj, S0B2POSLemma: AsPpPa_πραγματικός, S0B2Token: στη_πραγματικό, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στη, στου_isGouvernedBy_Μόσχα: true, στου_isGouvernedBy_Μόσχα_case: true, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Μόσχα, ξεσήκωσε, πραγματικό ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Μόσχα]   B= [ξεσήκωσε, πραγματικό, ενθουσιασμό ,.. ]
+
+B0Lemma: ξεσηκώνω, B0POS: VbMn, B0Token: ξεσήκωσε, B1Lemma: πραγματικός, B1POS: Aj, B1Token: πραγματικό, S0B0Lemma: Μόσχα_ξεσηκώνω, S0B0LemmaPOS: Μόσχα_VbMn, S0B0POS: NoPr_VbMn, S0B0POSLemma: NoPr_ξεσηκώνω, S0B0Token: Μόσχα_ξεσήκωσε, S0B1Lemma: Μόσχα_πραγματικός, S0B1LemmaPOS: Μόσχα_Aj, S0B1POS: NoPr_Aj, S0B1POSLemma: NoPr_πραγματικός, S0B1Token: Μόσχα_πραγματικό, S0B2Lemma: Μόσχα_ενθουσιασμός, S0B2LemmaPOS: Μόσχα_NoCm, S0B2POS: NoPr_NoCm, S0B2POSLemma: NoPr_ενθουσιασμός, S0B2Token: Μόσχα_ενθουσιασμό, S0Lemma: Μόσχα, S0POS: NoPr, S0Token: Μόσχα, Μόσχα_isGouvernedBy_ξεσηκώνω: true, Μόσχα_isGouvernedBy_ξεσηκώνω_nmod: true, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ξεσήκωσε, πραγματικό, ενθουσιασμό ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ξεσήκωσε]   B= [πραγματικό, ενθουσιασμό, , ,.. ]
+
+B0Lemma: πραγματικός, B0POS: Aj, B0Token: πραγματικό, B1Lemma: ενθουσιασμός, B1POS: NoCm, B1Token: ενθουσιασμό, S0B0Lemma: ξεσηκώνω_πραγματικός, S0B0LemmaPOS: ξεσηκώνω_Aj, S0B0POS: VbMn_Aj, S0B0POSLemma: VbMn_πραγματικός, S0B0Token: ξεσήκωσε_πραγματικό, S0B1Lemma: ξεσηκώνω_ενθουσιασμός, S0B1LemmaPOS: ξεσηκώνω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_ενθουσιασμός, S0B1Token: ξεσήκωσε_ενθουσιασμό, S0B2Lemma: ξεσηκώνω_,, S0B2LemmaPOS: ξεσηκώνω_PUNCT, S0B2POS: VbMn_PUNCT, S0B2POSLemma: VbMn_,, S0B2Token: ξεσήκωσε_,, S0Lemma: ξεσηκώνω, S0POS: VbMn, S0Token: ξεσήκωσε, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πραγματικό, ενθουσιασμό, , ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πραγματικό]   B= [ενθουσιασμό, ,, όπως ,.. ]
+
+B0Lemma: ενθουσιασμός, B0POS: NoCm, B0Token: ενθουσιασμό, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: πραγματικός_ενθουσιασμός, S0B0LemmaPOS: πραγματικός_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_ενθουσιασμός, S0B0Token: πραγματικό_ενθουσιασμό, S0B1Lemma: πραγματικός_,, S0B1LemmaPOS: πραγματικός_PUNCT, S0B1POS: Aj_PUNCT, S0B1POSLemma: Aj_,, S0B1Token: πραγματικό_,, S0B2Lemma: πραγματικός_όπως, S0B2LemmaPOS: πραγματικός_Ad, S0B2POS: Aj_Ad, S0B2POSLemma: Aj_όπως, S0B2Token: πραγματικό_όπως, S0Lemma: πραγματικός, S0POS: Aj, S0Token: πραγματικό, πραγματικός_isGouvernedBy_ενθουσιασμός: true, πραγματικός_isGouvernedBy_ενθουσιασμός_amod: true, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ενθουσιασμό, ,, όπως ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ενθουσιασμό]   B= [,, όπως, είχε ,.. ]
+
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: όπως, B1POS: Ad, B1Token: όπως, S0B0Lemma: ενθουσιασμός_,, S0B0LemmaPOS: ενθουσιασμός_PUNCT, S0B0POS: NoCm_PUNCT, S0B0POSLemma: NoCm_,, S0B0Token: ενθουσιασμό_,, S0B1Lemma: ενθουσιασμός_όπως, S0B1LemmaPOS: ενθουσιασμός_Ad, S0B1POS: NoCm_Ad, S0B1POSLemma: NoCm_όπως, S0B1Token: ενθουσιασμό_όπως, S0B2Lemma: ενθουσιασμός_έχω, S0B2LemmaPOS: ενθουσιασμός_VbMn, S0B2POS: NoCm_VbMn, S0B2POSLemma: NoCm_έχω, S0B2Token: ενθουσιασμό_είχε, S0Lemma: ενθουσιασμός, S0POS: NoCm, S0Token: ενθουσιασμό, hasRighDep_acl: true, ενθουσιασμός_hasRighDep_acl: true, ενθουσιασμός_έχω_hasRighDep_acl: true, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, όπως, είχε ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [όπως, είχε, τη ,.. ]
+
+,_isGouvernedBy_έχω: true, ,_isGouvernedBy_έχω_punct: true, B0Lemma: όπως, B0POS: Ad, B0Token: όπως, B1IsInLexic: true, B1Lemma: έχω, B1POS: VbMn, B1Token: είχε, S0B0Lemma: ,_όπως, S0B0LemmaPOS: ,_Ad, S0B0POS: PUNCT_Ad, S0B0POSLemma: PUNCT_όπως, S0B0Token: ,_όπως, S0B1Lemma: ,_έχω, S0B1LemmaPOS: ,_VbMn, S0B1POS: PUNCT_VbMn, S0B1POSLemma: PUNCT_έχω, S0B1Token: ,_είχε, S0B2Lemma: ,_ο, S0B2LemmaPOS: ,_AtDf, S0B2POS: PUNCT_AtDf, S0B2POSLemma: PUNCT_ο, S0B2Token: ,_τη, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [όπως, είχε, τη ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [όπως]   B= [είχε, τη, δυνατότητα ,.. ]
+
+B0IsInLexic: true, B0Lemma: έχω, B0POS: VbMn, B0Token: είχε, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τη, S0B0Lemma: όπως_έχω, S0B0LemmaPOS: όπως_VbMn, S0B0POS: Ad_VbMn, S0B0POSLemma: Ad_έχω, S0B0Token: όπως_είχε, S0B1Lemma: όπως_ο, S0B1LemmaPOS: όπως_AtDf, S0B1POS: Ad_AtDf, S0B1POSLemma: Ad_ο, S0B1Token: όπως_τη, S0B2Lemma: όπως_δυνατότητα, S0B2LemmaPOS: όπως_NoCm, S0B2POS: Ad_NoCm, S0B2POSLemma: Ad_δυνατότητα, S0B2Token: όπως_δυνατότητα, S0Lemma: όπως, S0POS: Ad, S0Token: όπως, όπως_isGouvernedBy_έχω: true, όπως_isGouvernedBy_έχω_advmod: true, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [είχε, τη, δυνατότητα ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [είχε]   B= [τη, δυνατότητα, να ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τη, B1IsInLexic: true, B1Lemma: δυνατότητα, B1POS: NoCm, B1Token: δυνατότητα, S0B0Lemma: έχω_ο, S0B0LemmaPOS: έχω_AtDf, S0B0POS: VbMn_AtDf, S0B0POSLemma: VbMn_ο, S0B0Token: είχε_τη, S0B1Lemma: έχω_δυνατότητα, S0B1LemmaPOS: έχω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_δυνατότητα, S0B1Token: είχε_δυνατότητα, S0B2Lemma: έχω_να, S0B2LemmaPOS: έχω_PtSj, S0B2POS: VbMn_PtSj, S0B2POSLemma: VbMn_να, S0B2Token: είχε_να, S0IsInLexic: true, S0Lemma: έχω, S0POS: VbMn, S0Token: είχε, hasRighDep_dobj: true, έχω_hasRighDep_dobj: true, έχω_δυνατότητα_hasRighDep_dobj: true, 
+
+56- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [είχε, τη]   B= [δυνατότητα, να, διαπιστώσει ,.. ]
+
+B0IsInLexic: true, B0Lemma: δυνατότητα, B0POS: NoCm, B0Token: δυνατότητα, B1IsInLexic: true, B1Lemma: να, B1POS: PtSj, B1Token: να, S0B0Lemma: ο_δυνατότητα, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_δυνατότητα, S0B0Token: τη_δυνατότητα, S0B1Lemma: ο_να, S0B1LemmaPOS: ο_PtSj, S0B1POS: AtDf_PtSj, S0B1POSLemma: AtDf_να, S0B1Token: τη_να, S0B2Lemma: ο_διαπιστώνω, S0B2LemmaPOS: ο_VbMn, S0B2POS: AtDf_VbMn, S0B2POSLemma: AtDf_διαπιστώνω, S0B2Token: τη_διαπιστώσει, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0S1Distance: 1, S0Token: τη, S1B0Lemma: έχω_δυνατότητα, S1B0LemmaPOS: έχω_NoCm, S1B0POS: VbMn_NoCm, S1B0POSLemma: VbMn_δυνατότητα, S1B0Token: είχε_δυνατότητα, S1IsInLexic: true, S1Lemma: έχω, S1POS: VbMn, S1S0Lemma: έχω_ο, S1S0LemmaPOS: έχω_AtDf, S1S0POS: VbMn_AtDf, S1S0POSLemma: VbMn_ο, S1S0Token: είχε_τη, S1Token: είχε, ο_isGouvernedBy_δυνατότητα: true, ο_isGouvernedBy_δυνατότητα_det: true, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [είχε, τη, δυνατότητα]   B= [να, διαπιστώσει, ιδίοις ,.. ]
+
+B0IsInLexic: true, B0Lemma: να, B0POS: PtSj, B0Token: να, B1Lemma: διαπιστώνω, B1POS: VbMn, B1Token: διαπιστώσει, S0B0Lemma: δυνατότητα_να, S0B0LemmaPOS: δυνατότητα_PtSj, S0B0POS: NoCm_PtSj, S0B0POSLemma: NoCm_να, S0B0Token: δυνατότητα_να, S0B1Lemma: δυνατότητα_διαπιστώνω, S0B1LemmaPOS: δυνατότητα_VbMn, S0B1POS: NoCm_VbMn, S0B1POSLemma: NoCm_διαπιστώνω, S0B1Token: δυνατότητα_διαπιστώσει, S0B2Lemma: δυνατότητα_ιδίοις, S0B2LemmaPOS: δυνατότητα_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_ιδίοις, S0B2Token: δυνατότητα_ιδίοις, S0IsInLexic: true, S0Lemma: δυνατότητα, S0POS: NoCm, S0S1Distance: 1, S0Token: δυνατότητα, S1B0Lemma: ο_να, S1B0LemmaPOS: ο_PtSj, S1B0POS: AtDf_PtSj, S1B0POSLemma: AtDf_να, S1B0Token: τη_να, S1IsInLexic: true, S1Lemma: ο, S1POS: AtDf, S1S0Lemma: ο_δυνατότητα, S1S0LemmaPOS: ο_NoCm, S1S0POS: AtDf_NoCm, S1S0POSLemma: AtDf_δυνατότητα, S1S0Token: τη_δυνατότητα, S1Token: τη, SyntaxicRelation: -det, hasRighDep_acl: true, δυνατότητα_hasRighDep_acl: true, δυνατότητα_διαπιστώνω_hasRighDep_acl: true, 
+
+58- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [είχε, [τη, δυνατότητα]]   B= [να, διαπιστώσει, ιδίοις ,.. ]
+
+B0IsInLexic: true, B0Lemma: να, B0POS: PtSj, B0Token: να, B1Lemma: διαπιστώνω, B1POS: VbMn, B1Token: διαπιστώσει, S0B0Lemma: ο_δυνατότητα_να, S0B0LemmaPOS: ο_δυνατότητα_PtSj, S0B0POS: AtDf_NoCm_PtSj, S0B0POSLemma: AtDf_NoCm_να, S0B0Token: τη_δυνατότητα_να, S0B1Lemma: ο_δυνατότητα_διαπιστώνω, S0B1LemmaPOS: ο_δυνατότητα_VbMn, S0B1POS: AtDf_NoCm_VbMn, S0B1POSLemma: AtDf_NoCm_διαπιστώνω, S0B1Token: τη_δυνατότητα_διαπιστώσει, S0B2Lemma: ο_δυνατότητα_ιδίοις, S0B2LemmaPOS: ο_δυνατότητα_NoCm, S0B2POS: AtDf_NoCm_NoCm, S0B2POSLemma: AtDf_NoCm_ιδίοις, S0B2Token: τη_δυνατότητα_ιδίοις, S0Lemma: ο_δυνατότητα, S0POS: AtDf_NoCm, S0Token: τη_δυνατότητα, S1B0Lemma: έχω_να, S1B0LemmaPOS: έχω_PtSj, S1B0POS: VbMn_PtSj, S1B0POSLemma: VbMn_να, S1B0Token: είχε_να, S1IsInLexic: true, S1Lemma: έχω, S1POS: VbMn, S1S0Lemma: έχω_ο_δυνατότητα, S1S0LemmaPOS: έχω_AtDf_NoCm, S1S0POS: VbMn_AtDf_NoCm, S1S0POSLemma: VbMn_ο_δυνατότητα, S1S0Token: είχε_τη_δυνατότητα, S1Token: είχε, 
+
+59- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[είχε, [τη, δυνατότητα]]]   B= [να, διαπιστώσει, ιδίοις ,.. ]
+
+
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [να, διαπιστώσει, ιδίοις ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [να]   B= [διαπιστώσει, ιδίοις, όμμασι ,.. ]
+
+B0Lemma: διαπιστώνω, B0POS: VbMn, B0Token: διαπιστώσει, B1Lemma: ιδίοις, B1POS: NoCm, B1Token: ιδίοις, S0B0Lemma: να_διαπιστώνω, S0B0LemmaPOS: να_VbMn, S0B0POS: PtSj_VbMn, S0B0POSLemma: PtSj_διαπιστώνω, S0B0Token: να_διαπιστώσει, S0B1Lemma: να_ιδίοις, S0B1LemmaPOS: να_NoCm, S0B1POS: PtSj_NoCm, S0B1POSLemma: PtSj_ιδίοις, S0B1Token: να_ιδίοις, S0B2Lemma: να_όμμασι, S0B2LemmaPOS: να_Ad, S0B2POS: PtSj_Ad, S0B2POSLemma: PtSj_όμμασι, S0B2Token: να_όμμασι, S0IsInLexic: true, S0Lemma: να, S0POS: PtSj, S0Token: να, να_isGouvernedBy_διαπιστώνω: true, να_isGouvernedBy_διαπιστώνω_aux: true, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [διαπιστώσει, ιδίοις, όμμασι ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [διαπιστώσει]   B= [ιδίοις, όμμασι, ο ,.. ]
+
+B0Lemma: ιδίοις, B0POS: NoCm, B0Token: ιδίοις, B1Lemma: όμμασι, B1POS: Ad, B1Token: όμμασι, S0B0Lemma: διαπιστώνω_ιδίοις, S0B0LemmaPOS: διαπιστώνω_NoCm, S0B0POS: VbMn_NoCm, S0B0POSLemma: VbMn_ιδίοις, S0B0Token: διαπιστώσει_ιδίοις, S0B1Lemma: διαπιστώνω_όμμασι, S0B1LemmaPOS: διαπιστώνω_Ad, S0B1POS: VbMn_Ad, S0B1POSLemma: VbMn_όμμασι, S0B1Token: διαπιστώσει_όμμασι, S0B2Lemma: διαπιστώνω_ο, S0B2LemmaPOS: διαπιστώνω_AtDf, S0B2POS: VbMn_AtDf, S0B2POSLemma: VbMn_ο, S0B2Token: διαπιστώσει_ο, S0Lemma: διαπιστώνω, S0POS: VbMn, S0Token: διαπιστώσει, hasRighDep_advmod: true, hasRighDep_dobj: true, hasRighDep_nmod: true, hasRighDep_nsubj: true, διαπιστώνω_hasRighDep_advmod: true, διαπιστώνω_hasRighDep_dobj: true, διαπιστώνω_hasRighDep_nmod: true, διαπιστώνω_hasRighDep_nsubj: true, διαπιστώνω_διάρκεια_hasRighDep_nmod: true, διαπιστώνω_ιδίοις_hasRighDep_dobj: true, διαπιστώνω_πρόεδρος_hasRighDep_nsubj: true, διαπιστώνω_όμμασι_hasRighDep_advmod: true, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ιδίοις, όμμασι, ο ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ιδίοις]   B= [όμμασι, ο, Γάλλος ,.. ]
+
+B0Lemma: όμμασι, B0POS: Ad, B0Token: όμμασι, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: ο, S0B0Lemma: ιδίοις_όμμασι, S0B0LemmaPOS: ιδίοις_Ad, S0B0POS: NoCm_Ad, S0B0POSLemma: NoCm_όμμασι, S0B0Token: ιδίοις_όμμασι, S0B1Lemma: ιδίοις_ο, S0B1LemmaPOS: ιδίοις_AtDf, S0B1POS: NoCm_AtDf, S0B1POSLemma: NoCm_ο, S0B1Token: ιδίοις_ο, S0B2Lemma: ιδίοις_Γάλλος, S0B2LemmaPOS: ιδίοις_NoPr, S0B2POS: NoCm_NoPr, S0B2POSLemma: NoCm_Γάλλος, S0B2Token: ιδίοις_Γάλλος, S0Lemma: ιδίοις, S0POS: NoCm, S0Token: ιδίοις, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [όμμασι, ο, Γάλλος ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [όμμασι]   B= [ο, Γάλλος, πρόεδρος ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: ο, B1Lemma: Γάλλος, B1POS: NoPr, B1Token: Γάλλος, S0B0Lemma: όμμασι_ο, S0B0LemmaPOS: όμμασι_AtDf, S0B0POS: Ad_AtDf, S0B0POSLemma: Ad_ο, S0B0Token: όμμασι_ο, S0B1Lemma: όμμασι_Γάλλος, S0B1LemmaPOS: όμμασι_NoPr, S0B1POS: Ad_NoPr, S0B1POSLemma: Ad_Γάλλος, S0B1Token: όμμασι_Γάλλος, S0B2Lemma: όμμασι_πρόεδρος, S0B2LemmaPOS: όμμασι_NoCm, S0B2POS: Ad_NoCm, S0B2POSLemma: Ad_πρόεδρος, S0B2Token: όμμασι_πρόεδρος, S0Lemma: όμμασι, S0POS: Ad, S0Token: όμμασι, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ο, Γάλλος, πρόεδρος ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ο]   B= [Γάλλος, πρόεδρος, κατά ,.. ]
+
+B0Lemma: Γάλλος, B0POS: NoPr, B0Token: Γάλλος, B1Lemma: πρόεδρος, B1POS: NoCm, B1Token: πρόεδρος, S0B0Lemma: ο_Γάλλος, S0B0LemmaPOS: ο_NoPr, S0B0POS: AtDf_NoPr, S0B0POSLemma: AtDf_Γάλλος, S0B0Token: ο_Γάλλος, S0B1Lemma: ο_πρόεδρος, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_πρόεδρος, S0B1Token: ο_πρόεδρος, S0B2Lemma: ο_κατά, S0B2LemmaPOS: ο_AsPpSp, S0B2POS: AtDf_AsPpSp, S0B2POSLemma: AtDf_κατά, S0B2Token: ο_κατά, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: ο, ο_isGouvernedBy_πρόεδρος: true, ο_isGouvernedBy_πρόεδρος_det: true, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Γάλλος, πρόεδρος, κατά ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Γάλλος]   B= [πρόεδρος, κατά, τη ,.. ]
+
+B0Lemma: πρόεδρος, B0POS: NoCm, B0Token: πρόεδρος, B1IsInLexic: true, B1Lemma: κατά, B1POS: AsPpSp, B1Token: κατά, S0B0Lemma: Γάλλος_πρόεδρος, S0B0LemmaPOS: Γάλλος_NoCm, S0B0POS: NoPr_NoCm, S0B0POSLemma: NoPr_πρόεδρος, S0B0Token: Γάλλος_πρόεδρος, S0B1Lemma: Γάλλος_κατά, S0B1LemmaPOS: Γάλλος_AsPpSp, S0B1POS: NoPr_AsPpSp, S0B1POSLemma: NoPr_κατά, S0B1Token: Γάλλος_κατά, S0B2Lemma: Γάλλος_ο, S0B2LemmaPOS: Γάλλος_AtDf, S0B2POS: NoPr_AtDf, S0B2POSLemma: NoPr_ο, S0B2Token: Γάλλος_τη, S0Lemma: Γάλλος, S0POS: NoPr, S0Token: Γάλλος, Γάλλος_isGouvernedBy_πρόεδρος: true, Γάλλος_isGouvernedBy_πρόεδρος_nmod: true, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πρόεδρος, κατά, τη ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πρόεδρος]   B= [κατά, τη, διάρκεια ,.. ]
+
+B0IsInLexic: true, B0Lemma: κατά, B0POS: AsPpSp, B0Token: κατά, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τη, S0B0Lemma: πρόεδρος_κατά, S0B0LemmaPOS: πρόεδρος_AsPpSp, S0B0POS: NoCm_AsPpSp, S0B0POSLemma: NoCm_κατά, S0B0Token: πρόεδρος_κατά, S0B1Lemma: πρόεδρος_ο, S0B1LemmaPOS: πρόεδρος_AtDf, S0B1POS: NoCm_AtDf, S0B1POSLemma: NoCm_ο, S0B1Token: πρόεδρος_τη, S0B2Lemma: πρόεδρος_διάρκεια, S0B2LemmaPOS: πρόεδρος_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_διάρκεια, S0B2Token: πρόεδρος_διάρκεια, S0Lemma: πρόεδρος, S0POS: NoCm, S0Token: πρόεδρος, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κατά, τη, διάρκεια ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κατά]   B= [τη, διάρκεια, επίσημης ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τη, B1Lemma: διάρκεια, B1POS: NoCm, B1Token: διάρκεια, S0B0Lemma: κατά_ο, S0B0LemmaPOS: κατά_AtDf, S0B0POS: AsPpSp_AtDf, S0B0POSLemma: AsPpSp_ο, S0B0Token: κατά_τη, S0B1Lemma: κατά_διάρκεια, S0B1LemmaPOS: κατά_NoCm, S0B1POS: AsPpSp_NoCm, S0B1POSLemma: AsPpSp_διάρκεια, S0B1Token: κατά_διάρκεια, S0B2Lemma: κατά_επίσημος, S0B2LemmaPOS: κατά_Aj, S0B2POS: AsPpSp_Aj, S0B2POSLemma: AsPpSp_επίσημος, S0B2Token: κατά_επίσημης, S0IsInLexic: true, S0Lemma: κατά, S0POS: AsPpSp, S0Token: κατά, κατά_isGouvernedBy_διάρκεια: true, κατά_isGouvernedBy_διάρκεια_case: true, 
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τη, διάρκεια, επίσημης ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τη]   B= [διάρκεια, επίσημης, επίσκεψής ,.. ]
+
+B0Lemma: διάρκεια, B0POS: NoCm, B0Token: διάρκεια, B1Lemma: επίσημος, B1POS: Aj, B1Token: επίσημης, S0B0Lemma: ο_διάρκεια, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_διάρκεια, S0B0Token: τη_διάρκεια, S0B1Lemma: ο_επίσημος, S0B1LemmaPOS: ο_Aj, S0B1POS: AtDf_Aj, S0B1POSLemma: AtDf_επίσημος, S0B1Token: τη_επίσημης, S0B2Lemma: ο_επίσκεψη, S0B2LemmaPOS: ο_NoCm, S0B2POS: AtDf_NoCm, S0B2POSLemma: AtDf_επίσκεψη, S0B2Token: τη_επίσκεψής, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: τη, ο_isGouvernedBy_διάρκεια: true, ο_isGouvernedBy_διάρκεια_det: true, 
+
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [διάρκεια, επίσημης, επίσκεψής ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [διάρκεια]   B= [επίσημης, επίσκεψής, του ,.. ]
+
+B0Lemma: επίσημος, B0POS: Aj, B0Token: επίσημης, B1IsInLexic: true, B1Lemma: επίσκεψη, B1POS: NoCm, B1Token: επίσκεψής, S0B0Lemma: διάρκεια_επίσημος, S0B0LemmaPOS: διάρκεια_Aj, S0B0POS: NoCm_Aj, S0B0POSLemma: NoCm_επίσημος, S0B0Token: διάρκεια_επίσημης, S0B1Lemma: διάρκεια_επίσκεψη, S0B1LemmaPOS: διάρκεια_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_επίσκεψη, S0B1Token: διάρκεια_επίσκεψής, S0B2Lemma: διάρκεια_μου, S0B2LemmaPOS: διάρκεια_PnPo, S0B2POS: NoCm_PnPo, S0B2POSLemma: NoCm_μου, S0B2Token: διάρκεια_του, S0Lemma: διάρκεια, S0POS: NoCm, S0Token: διάρκεια, hasRighDep_amod: true, hasRighDep_appos: true, hasRighDep_nmod: true, διάρκεια_20_hasRighDep_appos: true, διάρκεια_hasRighDep_amod: true, διάρκεια_hasRighDep_appos: true, διάρκεια_hasRighDep_nmod: true, διάρκεια_ΕΣΣΔ_hasRighDep_amod: true, διάρκεια_επίσκεψη_hasRighDep_nmod: true, 
+
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [επίσημης, επίσκεψής, του ,.. ]
+
+
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [επίσημης]   B= [επίσκεψής, του, στην ,.. ]
+
+B0IsInLexic: true, B0Lemma: επίσκεψη, B0POS: NoCm, B0Token: επίσκεψής, B1IsInLexic: true, B1Lemma: μου, B1POS: PnPo, B1Token: του, S0B0Lemma: επίσημος_επίσκεψη, S0B0LemmaPOS: επίσημος_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_επίσκεψη, S0B0Token: επίσημης_επίσκεψής, S0B1Lemma: επίσημος_μου, S0B1LemmaPOS: επίσημος_PnPo, S0B1POS: Aj_PnPo, S0B1POSLemma: Aj_μου, S0B1Token: επίσημης_του, S0B2Lemma: επίσημος_στου, S0B2LemmaPOS: επίσημος_AsPpPa, S0B2POS: Aj_AsPpPa, S0B2POSLemma: Aj_στου, S0B2Token: επίσημης_στην, S0Lemma: επίσημος, S0POS: Aj, S0Token: επίσημης, επίσημος_isGouvernedBy_επίσκεψη: true, επίσημος_isGouvernedBy_επίσκεψη_amod: true, 
+
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [επίσκεψής, του, στην ,.. ]
+
+
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [επίσκεψής]   B= [του, στην, ΕΣΣΔ ,.. ]
+
+B0IsInLexic: true, B0Lemma: μου, B0POS: PnPo, B0Token: του, B1IsInLexic: true, B1Lemma: στου, B1POS: AsPpPa, B1Token: στην, S0B0Lemma: επίσκεψη_μου, S0B0LemmaPOS: επίσκεψη_PnPo, S0B0POS: NoCm_PnPo, S0B0POSLemma: NoCm_μου, S0B0Token: επίσκεψής_του, S0B1Lemma: επίσκεψη_στου, S0B1LemmaPOS: επίσκεψη_AsPpPa, S0B1POS: NoCm_AsPpPa, S0B1POSLemma: NoCm_στου, S0B1Token: επίσκεψής_στην, S0B2Lemma: επίσκεψη_ΕΣΣΔ, S0B2LemmaPOS: επίσκεψη_ABBR, S0B2POS: NoCm_ABBR, S0B2POSLemma: NoCm_ΕΣΣΔ, S0B2Token: επίσκεψής_ΕΣΣΔ, S0IsInLexic: true, S0Lemma: επίσκεψη, S0POS: NoCm, S0Token: επίσκεψής, hasRighDep_nmod: true, επίσκεψη_hasRighDep_nmod: true, επίσκεψη_μου_hasRighDep_nmod: true, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, στην, ΕΣΣΔ ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [στην, ΕΣΣΔ, ( ,.. ]
+
+B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στην, B1Lemma: ΕΣΣΔ, B1POS: ABBR, B1Token: ΕΣΣΔ, S0B0Lemma: μου_στου, S0B0LemmaPOS: μου_AsPpPa, S0B0POS: PnPo_AsPpPa, S0B0POSLemma: PnPo_στου, S0B0Token: του_στην, S0B1Lemma: μου_ΕΣΣΔ, S0B1LemmaPOS: μου_ABBR, S0B1POS: PnPo_ABBR, S0B1POSLemma: PnPo_ΕΣΣΔ, S0B1Token: του_ΕΣΣΔ, S0B2Lemma: μου_(, S0B2LemmaPOS: μου_OPUNCT, S0B2POS: PnPo_OPUNCT, S0B2POSLemma: PnPo_(, S0B2Token: του_(, S0IsInLexic: true, S0Lemma: μου, S0POS: PnPo, S0Token: του, 
+
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στην, ΕΣΣΔ, ( ,.. ]
+
+
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στην]   B= [ΕΣΣΔ, (, 20 ,.. ]
+
+B0Lemma: ΕΣΣΔ, B0POS: ABBR, B0Token: ΕΣΣΔ, B1Lemma: (, B1POS: OPUNCT, B1Token: (, S0B0Lemma: στου_ΕΣΣΔ, S0B0LemmaPOS: στου_ABBR, S0B0POS: AsPpPa_ABBR, S0B0POSLemma: AsPpPa_ΕΣΣΔ, S0B0Token: στην_ΕΣΣΔ, S0B1Lemma: στου_(, S0B1LemmaPOS: στου_OPUNCT, S0B1POS: AsPpPa_OPUNCT, S0B1POSLemma: AsPpPa_(, S0B1Token: στην_(, S0B2Lemma: στου_20, S0B2LemmaPOS: στου_DIG, S0B2POS: AsPpPa_DIG, S0B2POSLemma: AsPpPa_20, S0B2Token: στην_20, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στην, στου_isGouvernedBy_ΕΣΣΔ: true, στου_isGouvernedBy_ΕΣΣΔ_case: true, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ΕΣΣΔ, (, 20 ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ΕΣΣΔ]   B= [(, 20, Ιουνίου ,.. ]
+
+B0Lemma: (, B0POS: OPUNCT, B0Token: (, B1Lemma: 20, B1POS: DIG, B1Token: 20, S0B0Lemma: ΕΣΣΔ_(, S0B0LemmaPOS: ΕΣΣΔ_OPUNCT, S0B0POS: ABBR_OPUNCT, S0B0POSLemma: ABBR_(, S0B0Token: ΕΣΣΔ_(, S0B1Lemma: ΕΣΣΔ_20, S0B1LemmaPOS: ΕΣΣΔ_DIG, S0B1POS: ABBR_DIG, S0B1POSLemma: ABBR_20, S0B1Token: ΕΣΣΔ_20, S0B2Lemma: ΕΣΣΔ_Ιούνιος, S0B2LemmaPOS: ΕΣΣΔ_NoPr, S0B2POS: ABBR_NoPr, S0B2POSLemma: ABBR_Ιούνιος, S0B2Token: ΕΣΣΔ_Ιουνίου, S0Lemma: ΕΣΣΔ, S0POS: ABBR, S0Token: ΕΣΣΔ, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, 20, Ιουνίου ,.. ]
+
+
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [20, Ιουνίου, - ,.. ]
+
+(_isGouvernedBy_20: true, (_isGouvernedBy_20_punct: true, B0Lemma: 20, B0POS: DIG, B0Token: 20, B1Lemma: Ιούνιος, B1POS: NoPr, B1Token: Ιουνίου, S0B0Lemma: (_20, S0B0LemmaPOS: (_DIG, S0B0POS: OPUNCT_DIG, S0B0POSLemma: OPUNCT_20, S0B0Token: (_20, S0B1Lemma: (_Ιούνιος, S0B1LemmaPOS: (_NoPr, S0B1POS: OPUNCT_NoPr, S0B1POSLemma: OPUNCT_Ιούνιος, S0B1Token: (_Ιουνίου, S0B2Lemma: (_-, S0B2LemmaPOS: (_PUNCT, S0B2POS: OPUNCT_PUNCT, S0B2POSLemma: OPUNCT_-, S0B2Token: (_-, S0Lemma: (, S0POS: OPUNCT, S0Token: (, 
+
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [20, Ιουνίου, - ,.. ]
+
+
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [20]   B= [Ιουνίου, -, 1 ,.. ]
+
+20_)_hasRighDep_punct: true, 20_-_hasRighDep_punct: true, 20_1966_hasRighDep_conj: true, 20_1_hasRighDep_conj: true, 20_hasRighDep_conj: true, 20_hasRighDep_nmod: true, 20_hasRighDep_punct: true, 20_Ιούλιος_hasRighDep_nmod: true, 20_Ιούνιος_hasRighDep_nmod: true, B0Lemma: Ιούνιος, B0POS: NoPr, B0Token: Ιουνίου, B1Lemma: -, B1POS: PUNCT, B1Token: -, S0B0Lemma: 20_Ιούνιος, S0B0LemmaPOS: 20_NoPr, S0B0POS: DIG_NoPr, S0B0POSLemma: DIG_Ιούνιος, S0B0Token: 20_Ιουνίου, S0B1Lemma: 20_-, S0B1LemmaPOS: 20_PUNCT, S0B1POS: DIG_PUNCT, S0B1POSLemma: DIG_-, S0B1Token: 20_-, S0B2Lemma: 20_1, S0B2LemmaPOS: 20_DIG, S0B2POS: DIG_DIG, S0B2POSLemma: DIG_1, S0B2Token: 20_1, S0Lemma: 20, S0POS: DIG, S0Token: 20, hasRighDep_conj: true, hasRighDep_nmod: true, hasRighDep_punct: true, 
+
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ιουνίου, -, 1 ,.. ]
+
+
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ιουνίου]   B= [-, 1, Ιουλίου ,.. ]
+
+B0Lemma: -, B0POS: PUNCT, B0Token: -, B1Lemma: 1, B1POS: DIG, B1Token: 1, S0B0Lemma: Ιούνιος_-, S0B0LemmaPOS: Ιούνιος_PUNCT, S0B0POS: NoPr_PUNCT, S0B0POSLemma: NoPr_-, S0B0Token: Ιουνίου_-, S0B1Lemma: Ιούνιος_1, S0B1LemmaPOS: Ιούνιος_DIG, S0B1POS: NoPr_DIG, S0B1POSLemma: NoPr_1, S0B1Token: Ιουνίου_1, S0B2Lemma: Ιούνιος_Ιούλιος, S0B2LemmaPOS: Ιούνιος_NoPr, S0B2POS: NoPr_NoPr, S0B2POSLemma: NoPr_Ιούλιος, S0B2Token: Ιουνίου_Ιουλίου, S0Lemma: Ιούνιος, S0POS: NoPr, S0Token: Ιουνίου, 
+
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, 1, Ιουλίου ,.. ]
+
+
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [1, Ιουλίου, 1966 ,.. ]
+
+B0Lemma: 1, B0POS: DIG, B0Token: 1, B1Lemma: Ιούλιος, B1POS: NoPr, B1Token: Ιουλίου, S0B0Lemma: -_1, S0B0LemmaPOS: -_DIG, S0B0POS: PUNCT_DIG, S0B0POSLemma: PUNCT_1, S0B0Token: -_1, S0B1Lemma: -_Ιούλιος, S0B1LemmaPOS: -_NoPr, S0B1POS: PUNCT_NoPr, S0B1POSLemma: PUNCT_Ιούλιος, S0B1Token: -_Ιουλίου, S0B2Lemma: -_1966, S0B2LemmaPOS: -_DIG, S0B2POS: PUNCT_DIG, S0B2POSLemma: PUNCT_1966, S0B2Token: -_1966, S0Lemma: -, S0POS: PUNCT, S0Token: -, 
+
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [1, Ιουλίου, 1966 ,.. ]
+
+
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [1]   B= [Ιουλίου, 1966, ) ,.. ]
+
+B0Lemma: Ιούλιος, B0POS: NoPr, B0Token: Ιουλίου, B1Lemma: 1966, B1POS: DIG, B1Token: 1966, S0B0Lemma: 1_Ιούλιος, S0B0LemmaPOS: 1_NoPr, S0B0POS: DIG_NoPr, S0B0POSLemma: DIG_Ιούλιος, S0B0Token: 1_Ιουλίου, S0B1Lemma: 1_1966, S0B1LemmaPOS: 1_DIG, S0B1POS: DIG_DIG, S0B1POSLemma: DIG_1966, S0B1Token: 1_1966, S0B2Lemma: 1_), S0B2LemmaPOS: 1_CPUNCT, S0B2POS: DIG_CPUNCT, S0B2POSLemma: DIG_), S0B2Token: 1_), S0Lemma: 1, S0POS: DIG, S0Token: 1, 
+
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ιουλίου, 1966, ) ,.. ]
+
+
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ιουλίου]   B= [1966, ), . ,.. ]
+
+B0Lemma: 1966, B0POS: DIG, B0Token: 1966, B1Lemma: ), B1POS: CPUNCT, B1Token: ), S0B0Lemma: Ιούλιος_1966, S0B0LemmaPOS: Ιούλιος_DIG, S0B0POS: NoPr_DIG, S0B0POSLemma: NoPr_1966, S0B0Token: Ιουλίου_1966, S0B1Lemma: Ιούλιος_), S0B1LemmaPOS: Ιούλιος_CPUNCT, S0B1POS: NoPr_CPUNCT, S0B1POSLemma: NoPr_), S0B1Token: Ιουλίου_), S0B2Lemma: Ιούλιος_., S0B2LemmaPOS: Ιούλιος_PTERMP, S0B2POS: NoPr_PTERMP, S0B2POSLemma: NoPr_., S0B2Token: Ιουλίου_., S0Lemma: Ιούλιος, S0POS: NoPr, S0Token: Ιουλίου, 
+
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [1966, ), . ,.. ]
+
+
+
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [1966]   B= [), . ,.. ]
+
+B0Lemma: ), B0POS: CPUNCT, B0Token: ), B1Lemma: ., B1POS: PTERMP, B1Token: ., S0B0Lemma: 1966_), S0B0LemmaPOS: 1966_CPUNCT, S0B0POS: DIG_CPUNCT, S0B0POSLemma: DIG_), S0B0Token: 1966_), S0B1Lemma: 1966_., S0B1LemmaPOS: 1966_PTERMP, S0B1POS: DIG_PTERMP, S0B1POSLemma: DIG_., S0B1Token: 1966_., S0Lemma: 1966, S0POS: DIG, S0Token: 1966, 
+
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), . ,.. ]
+
+
+
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [.]
+
+B0Lemma: ., B0POS: PTERMP, B0Token: ., S0B0Lemma: )_., S0B0LemmaPOS: )_PTERMP, S0B0POS: CPUNCT_PTERMP, S0B0POSLemma: CPUNCT_., S0B0Token: )_., S0Lemma: ), S0POS: CPUNCT, S0Token: ), 
+
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 600 - 
+Οι Αμερικανοί σημείωναν με ικανοποίηση τη σχετική θέση του Καραμανλή τον Σεπτέμβριο του 1955 και λάμβαναν υπόψη την πιθανότητα ανόδου του στην πρωθυπουργία . 
 ### Existing MWEs: 
-1- **κάνουν πλάκα** (LVC, 1)
+1- **λάμβαναν υπόψη** (ID, 9)
 ### Identified MWEs: 
-1- **κάνουν πλάκα** 
+1- **λάμβαναν υπόψη** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Νόμιζε, ότι, του ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Οι, Αμερικανοί, σημείωναν ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Νόμιζε]   B= [ότι, του, κάνουν ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Οι]   B= [Αμερικανοί, σημείωναν, με ,.. ]
 
-B0Lemma: ότι, B0POS: CjSb, B0Token: ότι, B1IsInLexic: true, B1Lemma: εγώ, B1POS: PnPe, B1Token: του, S0B0Lemma: νομίζω_ότι, S0B0LemmaPOS: νομίζω_CjSb, S0B0POS: VbMn_CjSb, S0B0POSLemma: VbMn_ότι, S0B0Token: Νόμιζε_ότι, S0B1Lemma: νομίζω_εγώ, S0B1LemmaPOS: νομίζω_PnPe, S0B1POS: VbMn_PnPe, S0B1POSLemma: VbMn_εγώ, S0B1Token: Νόμιζε_του, S0B2Lemma: νομίζω_κάνω, S0B2LemmaPOS: νομίζω_VbMn, S0B2POS: VbMn_VbMn, S0B2POSLemma: VbMn_κάνω, S0B2Token: Νόμιζε_κάνουν, S0Lemma: νομίζω, S0POS: VbMn, S0Token: Νόμιζε, 
+B0Lemma: Αμερικανός, B0POS: NoPr, B0Token: Αμερικανοί, B1IsInLexic: true, B1Lemma: σημειώνω, B1POS: VbMn, B1Token: σημείωναν, S0B0Lemma: ο_Αμερικανός, S0B0LemmaPOS: ο_NoPr, S0B0POS: AtDf_NoPr, S0B0POSLemma: AtDf_Αμερικανός, S0B0Token: Οι_Αμερικανοί, S0B1Lemma: ο_σημειώνω, S0B1LemmaPOS: ο_VbMn, S0B1POS: AtDf_VbMn, S0B1POSLemma: AtDf_σημειώνω, S0B1Token: Οι_σημείωναν, S0B2Lemma: ο_με, S0B2LemmaPOS: ο_AsPpSp, S0B2POS: AtDf_AsPpSp, S0B2POSLemma: AtDf_με, S0B2Token: Οι_με, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: Οι, ο_isGouvernedBy_Αμερικανός: true, ο_isGouvernedBy_Αμερικανός_det: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ότι, του, κάνουν ,.. ]
-
-
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ότι]   B= [του, κάνουν, πλάκα ,.. ]
-
-B0IsInLexic: true, B0Lemma: εγώ, B0POS: PnPe, B0Token: του, B1IsInLexic: true, B1Lemma: κάνω, B1POS: VbMn, B1Token: κάνουν, S0B0Lemma: ότι_εγώ, S0B0LemmaPOS: ότι_PnPe, S0B0POS: CjSb_PnPe, S0B0POSLemma: CjSb_εγώ, S0B0Token: ότι_του, S0B1Lemma: ότι_κάνω, S0B1LemmaPOS: ότι_VbMn, S0B1POS: CjSb_VbMn, S0B1POSLemma: CjSb_κάνω, S0B1Token: ότι_κάνουν, S0B2Lemma: ότι_πλάκα, S0B2LemmaPOS: ότι_NoCm, S0B2POS: CjSb_NoCm, S0B2POSLemma: CjSb_πλάκα, S0B2Token: ότι_πλάκα, S0Lemma: ότι, S0POS: CjSb, S0Token: ότι, ότι_isGouvernedBy_κάνω: true, ότι_isGouvernedBy_κάνω_mark: true, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, κάνουν, πλάκα ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Αμερικανοί, σημείωναν, με ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [κάνουν, πλάκα, . ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Αμερικανοί]   B= [σημείωναν, με, ικανοποίηση ,.. ]
 
-B0IsInLexic: true, B0Lemma: κάνω, B0POS: VbMn, B0Token: κάνουν, B1IsInLexic: true, B1Lemma: πλάκα, B1POS: NoCm, B1Token: πλάκα, S0B0Lemma: εγώ_κάνω, S0B0LemmaPOS: εγώ_VbMn, S0B0POS: PnPe_VbMn, S0B0POSLemma: PnPe_κάνω, S0B0Token: του_κάνουν, S0B1Lemma: εγώ_πλάκα, S0B1LemmaPOS: εγώ_NoCm, S0B1POS: PnPe_NoCm, S0B1POSLemma: PnPe_πλάκα, S0B1Token: του_πλάκα, S0B2Lemma: εγώ_., S0B2LemmaPOS: εγώ_PTERMP, S0B2POS: PnPe_PTERMP, S0B2POSLemma: PnPe_., S0B2Token: του_., S0IsInLexic: true, S0Lemma: εγώ, S0POS: PnPe, S0Token: του, εγώ_isGouvernedBy_κάνω: true, εγώ_isGouvernedBy_κάνω_iobj: true, 
+B0IsInLexic: true, B0Lemma: σημειώνω, B0POS: VbMn, B0Token: σημείωναν, B1IsInLexic: true, B1Lemma: με, B1POS: AsPpSp, B1Token: με, S0B0Lemma: Αμερικανός_σημειώνω, S0B0LemmaPOS: Αμερικανός_VbMn, S0B0POS: NoPr_VbMn, S0B0POSLemma: NoPr_σημειώνω, S0B0Token: Αμερικανοί_σημείωναν, S0B1Lemma: Αμερικανός_με, S0B1LemmaPOS: Αμερικανός_AsPpSp, S0B1POS: NoPr_AsPpSp, S0B1POSLemma: NoPr_με, S0B1Token: Αμερικανοί_με, S0B2Lemma: Αμερικανός_ικανοποίηση, S0B2LemmaPOS: Αμερικανός_NoCm, S0B2POS: NoPr_NoCm, S0B2POSLemma: NoPr_ικανοποίηση, S0B2Token: Αμερικανοί_ικανοποίηση, S0Lemma: Αμερικανός, S0POS: NoPr, S0Token: Αμερικανοί, Αμερικανός_isGouvernedBy_σημειώνω: true, Αμερικανός_isGouvernedBy_σημειώνω_nsubj: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κάνουν, πλάκα, . ,.. ]
-
-
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κάνουν]   B= [πλάκα, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: πλάκα, B0POS: NoCm, B0Token: πλάκα, B1Lemma: ., B1POS: PTERMP, B1Token: ., S0B0Lemma: κάνω_πλάκα, S0B0LemmaPOS: κάνω_NoCm, S0B0POS: VbMn_NoCm, S0B0POSLemma: VbMn_πλάκα, S0B0Token: κάνουν_πλάκα, S0B1Lemma: κάνω_., S0B1LemmaPOS: κάνω_PTERMP, S0B1POS: VbMn_PTERMP, S0B1POSLemma: VbMn_., S0B1Token: κάνουν_., S0IsInLexic: true, S0Lemma: κάνω, S0POS: VbMn, S0Token: κάνουν, hasRighDep_dobj: true, κάνω_hasRighDep_dobj: true, κάνω_πλάκα_hasRighDep_dobj: true, 
-
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κάνουν, πλάκα]   B= [.]
-
-B0Lemma: ., B0POS: PTERMP, B0Token: ., S0B0Lemma: πλάκα_., S0B0LemmaPOS: πλάκα_PTERMP, S0B0POS: NoCm_PTERMP, S0B0POSLemma: NoCm_., S0B0Token: πλάκα_., S0IsInLexic: true, S0Lemma: πλάκα, S0POS: NoCm, S0S1Distance: 1, S0Token: πλάκα, S1B0Lemma: κάνω_., S1B0LemmaPOS: κάνω_PTERMP, S1B0POS: VbMn_PTERMP, S1B0POSLemma: VbMn_., S1B0Token: κάνουν_., S1IsInLexic: true, S1Lemma: κάνω, S1POS: VbMn, S1S0Lemma: κάνω_πλάκα, S1S0LemmaPOS: κάνω_NoCm, S1S0POS: VbMn_NoCm, S1S0POSLemma: VbMn_πλάκα, S1S0Token: κάνουν_πλάκα, S1Token: κάνουν, SyntaxicRelation: +dobj, 
-
-9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[κάνουν, πλάκα]]   B= [.]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [σημείωναν, με, ικανοποίηση ,.. ]
 
 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [σημείωναν]   B= [με, ικανοποίηση, τη ,.. ]
+
+B0IsInLexic: true, B0Lemma: με, B0POS: AsPpSp, B0Token: με, B1IsInLexic: true, B1Lemma: ικανοποίηση, B1POS: NoCm, B1Token: ικανοποίηση, S0B0Lemma: σημειώνω_με, S0B0LemmaPOS: σημειώνω_AsPpSp, S0B0POS: VbMn_AsPpSp, S0B0POSLemma: VbMn_με, S0B0Token: σημείωναν_με, S0B1Lemma: σημειώνω_ικανοποίηση, S0B1LemmaPOS: σημειώνω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_ικανοποίηση, S0B1Token: σημείωναν_ικανοποίηση, S0B2Lemma: σημειώνω_ο, S0B2LemmaPOS: σημειώνω_AtDf, S0B2POS: VbMn_AtDf, S0B2POSLemma: VbMn_ο, S0B2Token: σημείωναν_τη, S0IsInLexic: true, S0Lemma: σημειώνω, S0POS: VbMn, S0Token: σημείωναν, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [με, ικανοποίηση, τη ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [με]   B= [ικανοποίηση, τη, σχετική ,.. ]
+
+B0IsInLexic: true, B0Lemma: ικανοποίηση, B0POS: NoCm, B0Token: ικανοποίηση, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τη, S0B0Lemma: με_ικανοποίηση, S0B0LemmaPOS: με_NoCm, S0B0POS: AsPpSp_NoCm, S0B0POSLemma: AsPpSp_ικανοποίηση, S0B0Token: με_ικανοποίηση, S0B1Lemma: με_ο, S0B1LemmaPOS: με_AtDf, S0B1POS: AsPpSp_AtDf, S0B1POSLemma: AsPpSp_ο, S0B1Token: με_τη, S0B2Lemma: με_σχετικός, S0B2LemmaPOS: με_Aj, S0B2POS: AsPpSp_Aj, S0B2POSLemma: AsPpSp_σχετικός, S0B2Token: με_σχετική, S0IsInLexic: true, S0Lemma: με, S0POS: AsPpSp, S0Token: με, με_isGouvernedBy_ικανοποίηση: true, με_isGouvernedBy_ικανοποίηση_case: true, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ικανοποίηση, τη, σχετική ,.. ]
 
 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ικανοποίηση]   B= [τη, σχετική, θέση ,.. ]
 
-## Sentence No. 3670 - 
-Ο Ευρωβουλευτής ρίχνει αιχμές κατά όσων μιλάνε για νέο εκλογικό αιφνιδιασμό καλώντας – επιτέλους – τον ΣΥΡΙΖΑ να κυβερνήσει 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τη, B1Lemma: σχετικός, B1POS: Aj, B1Token: σχετική, S0B0Lemma: ικανοποίηση_ο, S0B0LemmaPOS: ικανοποίηση_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: ικανοποίηση_τη, S0B1Lemma: ικανοποίηση_σχετικός, S0B1LemmaPOS: ικανοποίηση_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_σχετικός, S0B1Token: ικανοποίηση_σχετική, S0B2Lemma: ικανοποίηση_θέση, S0B2LemmaPOS: ικανοποίηση_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_θέση, S0B2Token: ικανοποίηση_θέση, S0IsInLexic: true, S0Lemma: ικανοποίηση, S0POS: NoCm, S0Token: ικανοποίηση, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τη, σχετική, θέση ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τη]   B= [σχετική, θέση, του ,.. ]
+
+B0Lemma: σχετικός, B0POS: Aj, B0Token: σχετική, B1IsInLexic: true, B1Lemma: θέση, B1POS: NoCm, B1Token: θέση, S0B0Lemma: ο_σχετικός, S0B0LemmaPOS: ο_Aj, S0B0POS: AtDf_Aj, S0B0POSLemma: AtDf_σχετικός, S0B0Token: τη_σχετική, S0B1Lemma: ο_θέση, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_θέση, S0B1Token: τη_θέση, S0B2Lemma: ο_ο, S0B2LemmaPOS: ο_AtDf, S0B2POS: AtDf_AtDf, S0B2POSLemma: AtDf_ο, S0B2Token: τη_του, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: τη, ο_isGouvernedBy_θέση: true, ο_isGouvernedBy_θέση_det: true, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [σχετική, θέση, του ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [σχετική]   B= [θέση, του, Καραμανλή ,.. ]
+
+B0IsInLexic: true, B0Lemma: θέση, B0POS: NoCm, B0Token: θέση, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: του, S0B0Lemma: σχετικός_θέση, S0B0LemmaPOS: σχετικός_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_θέση, S0B0Token: σχετική_θέση, S0B1Lemma: σχετικός_ο, S0B1LemmaPOS: σχετικός_AtDf, S0B1POS: Aj_AtDf, S0B1POSLemma: Aj_ο, S0B1Token: σχετική_του, S0B2Lemma: σχετικός_Καραμανλής, S0B2LemmaPOS: σχετικός_NoPr, S0B2POS: Aj_NoPr, S0B2POSLemma: Aj_Καραμανλής, S0B2Token: σχετική_Καραμανλή, S0Lemma: σχετικός, S0POS: Aj, S0Token: σχετική, σχετικός_isGouvernedBy_θέση: true, σχετικός_isGouvernedBy_θέση_amod: true, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [θέση, του, Καραμανλή ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [θέση]   B= [του, Καραμανλή, τον ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: του, B1Lemma: Καραμανλής, B1POS: NoPr, B1Token: Καραμανλή, S0B0Lemma: θέση_ο, S0B0LemmaPOS: θέση_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: θέση_του, S0B1Lemma: θέση_Καραμανλής, S0B1LemmaPOS: θέση_NoPr, S0B1POS: NoCm_NoPr, S0B1POSLemma: NoCm_Καραμανλής, S0B1Token: θέση_Καραμανλή, S0B2Lemma: θέση_ο, S0B2LemmaPOS: θέση_AtDf, S0B2POS: NoCm_AtDf, S0B2POSLemma: NoCm_ο, S0B2Token: θέση_τον, S0IsInLexic: true, S0Lemma: θέση, S0POS: NoCm, S0Token: θέση, hasRighDep_nmod: true, θέση_hasRighDep_nmod: true, θέση_Καραμανλής_hasRighDep_nmod: true, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, Καραμανλή, τον ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [Καραμανλή, τον, Σεπτέμβριο ,.. ]
+
+B0Lemma: Καραμανλής, B0POS: NoPr, B0Token: Καραμανλή, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τον, S0B0Lemma: ο_Καραμανλής, S0B0LemmaPOS: ο_NoPr, S0B0POS: AtDf_NoPr, S0B0POSLemma: AtDf_Καραμανλής, S0B0Token: του_Καραμανλή, S0B1Lemma: ο_ο, S0B1LemmaPOS: ο_AtDf, S0B1POS: AtDf_AtDf, S0B1POSLemma: AtDf_ο, S0B1Token: του_τον, S0B2Lemma: ο_Σεπτέμβριος, S0B2LemmaPOS: ο_NoPr, S0B2POS: AtDf_NoPr, S0B2POSLemma: AtDf_Σεπτέμβριος, S0B2Token: του_Σεπτέμβριο, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: του, ο_isGouvernedBy_Καραμανλής: true, ο_isGouvernedBy_Καραμανλής_det: true, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Καραμανλή, τον, Σεπτέμβριο ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Καραμανλή]   B= [τον, Σεπτέμβριο, του ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τον, B1Lemma: Σεπτέμβριος, B1POS: NoPr, B1Token: Σεπτέμβριο, S0B0Lemma: Καραμανλής_ο, S0B0LemmaPOS: Καραμανλής_AtDf, S0B0POS: NoPr_AtDf, S0B0POSLemma: NoPr_ο, S0B0Token: Καραμανλή_τον, S0B1Lemma: Καραμανλής_Σεπτέμβριος, S0B1LemmaPOS: Καραμανλής_NoPr, S0B1POS: NoPr_NoPr, S0B1POSLemma: NoPr_Σεπτέμβριος, S0B1Token: Καραμανλή_Σεπτέμβριο, S0B2Lemma: Καραμανλής_ο, S0B2LemmaPOS: Καραμανλής_AtDf, S0B2POS: NoPr_AtDf, S0B2POSLemma: NoPr_ο, S0B2Token: Καραμανλή_του, S0Lemma: Καραμανλής, S0POS: NoPr, S0Token: Καραμανλή, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τον, Σεπτέμβριο, του ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τον]   B= [Σεπτέμβριο, του, 1955 ,.. ]
+
+B0Lemma: Σεπτέμβριος, B0POS: NoPr, B0Token: Σεπτέμβριο, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: του, S0B0Lemma: ο_Σεπτέμβριος, S0B0LemmaPOS: ο_NoPr, S0B0POS: AtDf_NoPr, S0B0POSLemma: AtDf_Σεπτέμβριος, S0B0Token: τον_Σεπτέμβριο, S0B1Lemma: ο_ο, S0B1LemmaPOS: ο_AtDf, S0B1POS: AtDf_AtDf, S0B1POSLemma: AtDf_ο, S0B1Token: τον_του, S0B2Lemma: ο_1955, S0B2LemmaPOS: ο_DIG, S0B2POS: AtDf_DIG, S0B2POSLemma: AtDf_1955, S0B2Token: τον_1955, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: τον, ο_isGouvernedBy_Σεπτέμβριος: true, ο_isGouvernedBy_Σεπτέμβριος_det: true, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Σεπτέμβριο, του, 1955 ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Σεπτέμβριο]   B= [του, 1955, και ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: του, B1Lemma: 1955, B1POS: DIG, B1Token: 1955, S0B0Lemma: Σεπτέμβριος_ο, S0B0LemmaPOS: Σεπτέμβριος_AtDf, S0B0POS: NoPr_AtDf, S0B0POSLemma: NoPr_ο, S0B0Token: Σεπτέμβριο_του, S0B1Lemma: Σεπτέμβριος_1955, S0B1LemmaPOS: Σεπτέμβριος_DIG, S0B1POS: NoPr_DIG, S0B1POSLemma: NoPr_1955, S0B1Token: Σεπτέμβριο_1955, S0B2Lemma: Σεπτέμβριος_και, S0B2LemmaPOS: Σεπτέμβριος_CjCo, S0B2POS: NoPr_CjCo, S0B2POSLemma: NoPr_και, S0B2Token: Σεπτέμβριο_και, S0Lemma: Σεπτέμβριος, S0POS: NoPr, S0Token: Σεπτέμβριο, hasRighDep_nmod: true, Σεπτέμβριος_1955_hasRighDep_nmod: true, Σεπτέμβριος_hasRighDep_nmod: true, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, 1955, και ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [1955, και, λάμβαναν ,.. ]
+
+B0Lemma: 1955, B0POS: DIG, B0Token: 1955, B1IsInLexic: true, B1Lemma: και, B1POS: CjCo, B1Token: και, S0B0Lemma: ο_1955, S0B0LemmaPOS: ο_DIG, S0B0POS: AtDf_DIG, S0B0POSLemma: AtDf_1955, S0B0Token: του_1955, S0B1Lemma: ο_και, S0B1LemmaPOS: ο_CjCo, S0B1POS: AtDf_CjCo, S0B1POSLemma: AtDf_και, S0B1Token: του_και, S0B2Lemma: ο_λαμβάνω, S0B2LemmaPOS: ο_VbMn, S0B2POS: AtDf_VbMn, S0B2POSLemma: AtDf_λαμβάνω, S0B2Token: του_λάμβαναν, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: του, ο_isGouvernedBy_1955: true, ο_isGouvernedBy_1955_det: true, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [1955, και, λάμβαναν ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [1955]   B= [και, λάμβαναν, υπόψη ,.. ]
+
+B0IsInLexic: true, B0Lemma: και, B0POS: CjCo, B0Token: και, B1IsInLexic: true, B1Lemma: λαμβάνω, B1POS: VbMn, B1Token: λάμβαναν, S0B0Lemma: 1955_και, S0B0LemmaPOS: 1955_CjCo, S0B0POS: DIG_CjCo, S0B0POSLemma: DIG_και, S0B0Token: 1955_και, S0B1Lemma: 1955_λαμβάνω, S0B1LemmaPOS: 1955_VbMn, S0B1POS: DIG_VbMn, S0B1POSLemma: DIG_λαμβάνω, S0B1Token: 1955_λάμβαναν, S0B2Lemma: 1955_υπόψη, S0B2LemmaPOS: 1955_Ad, S0B2POS: DIG_Ad, S0B2POSLemma: DIG_υπόψη, S0B2Token: 1955_υπόψη, S0Lemma: 1955, S0POS: DIG, S0Token: 1955, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [και, λάμβαναν, υπόψη ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [και]   B= [λάμβαναν, υπόψη, την ,.. ]
+
+B0IsInLexic: true, B0Lemma: λαμβάνω, B0POS: VbMn, B0Token: λάμβαναν, B1IsInLexic: true, B1Lemma: υπόψη, B1POS: Ad, B1Token: υπόψη, S0B0Lemma: και_λαμβάνω, S0B0LemmaPOS: και_VbMn, S0B0POS: CjCo_VbMn, S0B0POSLemma: CjCo_λαμβάνω, S0B0Token: και_λάμβαναν, S0B1Lemma: και_υπόψη, S0B1LemmaPOS: και_Ad, S0B1POS: CjCo_Ad, S0B1POSLemma: CjCo_υπόψη, S0B1Token: και_υπόψη, S0B2Lemma: και_ο, S0B2LemmaPOS: και_AtDf, S0B2POS: CjCo_AtDf, S0B2POSLemma: CjCo_ο, S0B2Token: και_την, S0IsInLexic: true, S0Lemma: και, S0POS: CjCo, S0Token: και, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [λάμβαναν, υπόψη, την ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [λάμβαναν]   B= [υπόψη, την, πιθανότητα ,.. ]
+
+B0IsInLexic: true, B0Lemma: υπόψη, B0POS: Ad, B0Token: υπόψη, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: την, S0B0Lemma: λαμβάνω_υπόψη, S0B0LemmaPOS: λαμβάνω_Ad, S0B0POS: VbMn_Ad, S0B0POSLemma: VbMn_υπόψη, S0B0Token: λάμβαναν_υπόψη, S0B1Lemma: λαμβάνω_ο, S0B1LemmaPOS: λαμβάνω_AtDf, S0B1POS: VbMn_AtDf, S0B1POSLemma: VbMn_ο, S0B1Token: λάμβαναν_την, S0B2Lemma: λαμβάνω_πιθανότητα, S0B2LemmaPOS: λαμβάνω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_πιθανότητα, S0B2Token: λάμβαναν_πιθανότητα, S0IsInLexic: true, S0Lemma: λαμβάνω, S0POS: VbMn, S0Token: λάμβαναν, hasRighDep_advmod: true, hasRighDep_dobj: true, λαμβάνω_hasRighDep_advmod: true, λαμβάνω_hasRighDep_dobj: true, λαμβάνω_πιθανότητα_hasRighDep_dobj: true, λαμβάνω_υπόψη_hasRighDep_advmod: true, 
+
+32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [λάμβαναν, υπόψη]   B= [την, πιθανότητα, ανόδου ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: την, B1IsInLexic: true, B1Lemma: πιθανότητα, B1POS: NoCm, B1Token: πιθανότητα, S0B0Lemma: υπόψη_ο, S0B0LemmaPOS: υπόψη_AtDf, S0B0POS: Ad_AtDf, S0B0POSLemma: Ad_ο, S0B0Token: υπόψη_την, S0B1Lemma: υπόψη_πιθανότητα, S0B1LemmaPOS: υπόψη_NoCm, S0B1POS: Ad_NoCm, S0B1POSLemma: Ad_πιθανότητα, S0B1Token: υπόψη_πιθανότητα, S0B2Lemma: υπόψη_άνοδος, S0B2LemmaPOS: υπόψη_NoCm, S0B2POS: Ad_NoCm, S0B2POSLemma: Ad_άνοδος, S0B2Token: υπόψη_ανόδου, S0IsInLexic: true, S0Lemma: υπόψη, S0POS: Ad, S0S1Distance: 1, S0Token: υπόψη, S1B0Lemma: λαμβάνω_ο, S1B0LemmaPOS: λαμβάνω_AtDf, S1B0POS: VbMn_AtDf, S1B0POSLemma: VbMn_ο, S1B0Token: λάμβαναν_την, S1IsInLexic: true, S1Lemma: λαμβάνω, S1POS: VbMn, S1S0Lemma: λαμβάνω_υπόψη, S1S0LemmaPOS: λαμβάνω_Ad, S1S0POS: VbMn_Ad, S1S0POSLemma: VbMn_υπόψη, S1S0Token: λάμβαναν_υπόψη, S1Token: λάμβαναν, SyntaxicRelation: +advmod, 
+
+33- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[λάμβαναν, υπόψη]]   B= [την, πιθανότητα, ανόδου ,.. ]
+
+
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [την, πιθανότητα, ανόδου ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [την]   B= [πιθανότητα, ανόδου, του ,.. ]
+
+B0IsInLexic: true, B0Lemma: πιθανότητα, B0POS: NoCm, B0Token: πιθανότητα, B1Lemma: άνοδος, B1POS: NoCm, B1Token: ανόδου, S0B0Lemma: ο_πιθανότητα, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_πιθανότητα, S0B0Token: την_πιθανότητα, S0B1Lemma: ο_άνοδος, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_άνοδος, S0B1Token: την_ανόδου, S0B2Lemma: ο_μου, S0B2LemmaPOS: ο_PnPo, S0B2POS: AtDf_PnPo, S0B2POSLemma: AtDf_μου, S0B2Token: την_του, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: την, ο_isGouvernedBy_πιθανότητα: true, ο_isGouvernedBy_πιθανότητα_det: true, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πιθανότητα, ανόδου, του ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πιθανότητα]   B= [ανόδου, του, στην ,.. ]
+
+B0Lemma: άνοδος, B0POS: NoCm, B0Token: ανόδου, B1IsInLexic: true, B1Lemma: μου, B1POS: PnPo, B1Token: του, S0B0Lemma: πιθανότητα_άνοδος, S0B0LemmaPOS: πιθανότητα_NoCm, S0B0POS: NoCm_NoCm, S0B0POSLemma: NoCm_άνοδος, S0B0Token: πιθανότητα_ανόδου, S0B1Lemma: πιθανότητα_μου, S0B1LemmaPOS: πιθανότητα_PnPo, S0B1POS: NoCm_PnPo, S0B1POSLemma: NoCm_μου, S0B1Token: πιθανότητα_του, S0B2Lemma: πιθανότητα_στου, S0B2LemmaPOS: πιθανότητα_AsPpPa, S0B2POS: NoCm_AsPpPa, S0B2POSLemma: NoCm_στου, S0B2Token: πιθανότητα_στην, S0IsInLexic: true, S0Lemma: πιθανότητα, S0POS: NoCm, S0Token: πιθανότητα, hasRighDep_nmod: true, πιθανότητα_hasRighDep_nmod: true, πιθανότητα_άνοδος_hasRighDep_nmod: true, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ανόδου, του, στην ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ανόδου]   B= [του, στην, πρωθυπουργία ,.. ]
+
+B0IsInLexic: true, B0Lemma: μου, B0POS: PnPo, B0Token: του, B1IsInLexic: true, B1Lemma: στου, B1POS: AsPpPa, B1Token: στην, S0B0Lemma: άνοδος_μου, S0B0LemmaPOS: άνοδος_PnPo, S0B0POS: NoCm_PnPo, S0B0POSLemma: NoCm_μου, S0B0Token: ανόδου_του, S0B1Lemma: άνοδος_στου, S0B1LemmaPOS: άνοδος_AsPpPa, S0B1POS: NoCm_AsPpPa, S0B1POSLemma: NoCm_στου, S0B1Token: ανόδου_στην, S0B2Lemma: άνοδος_πρωθυπουργία, S0B2LemmaPOS: άνοδος_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_πρωθυπουργία, S0B2Token: ανόδου_πρωθυπουργία, S0Lemma: άνοδος, S0POS: NoCm, S0Token: ανόδου, hasRighDep_nmod: true, άνοδος_hasRighDep_nmod: true, άνοδος_μου_hasRighDep_nmod: true, άνοδος_πρωθυπουργία_hasRighDep_nmod: true, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, στην, πρωθυπουργία ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [στην, πρωθυπουργία, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στην, B1Lemma: πρωθυπουργία, B1POS: NoCm, B1Token: πρωθυπουργία, S0B0Lemma: μου_στου, S0B0LemmaPOS: μου_AsPpPa, S0B0POS: PnPo_AsPpPa, S0B0POSLemma: PnPo_στου, S0B0Token: του_στην, S0B1Lemma: μου_πρωθυπουργία, S0B1LemmaPOS: μου_NoCm, S0B1POS: PnPo_NoCm, S0B1POSLemma: PnPo_πρωθυπουργία, S0B1Token: του_πρωθυπουργία, S0B2Lemma: μου_., S0B2LemmaPOS: μου_PTERMP, S0B2POS: PnPo_PTERMP, S0B2POSLemma: PnPo_., S0B2Token: του_., S0IsInLexic: true, S0Lemma: μου, S0POS: PnPo, S0Token: του, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στην, πρωθυπουργία, . ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στην]   B= [πρωθυπουργία, . ,.. ]
+
+B0Lemma: πρωθυπουργία, B0POS: NoCm, B0Token: πρωθυπουργία, B1Lemma: ., B1POS: PTERMP, B1Token: ., S0B0Lemma: στου_πρωθυπουργία, S0B0LemmaPOS: στου_NoCm, S0B0POS: AsPpPa_NoCm, S0B0POSLemma: AsPpPa_πρωθυπουργία, S0B0Token: στην_πρωθυπουργία, S0B1Lemma: στου_., S0B1LemmaPOS: στου_PTERMP, S0B1POS: AsPpPa_PTERMP, S0B1POSLemma: AsPpPa_., S0B1Token: στην_., S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στην, στου_isGouvernedBy_πρωθυπουργία: true, στου_isGouvernedBy_πρωθυπουργία_case: true, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πρωθυπουργία, . ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πρωθυπουργία]   B= [.]
+
+B0Lemma: ., B0POS: PTERMP, B0Token: ., S0B0Lemma: πρωθυπουργία_., S0B0LemmaPOS: πρωθυπουργία_PTERMP, S0B0POS: NoCm_PTERMP, S0B0POSLemma: NoCm_., S0B0Token: πρωθυπουργία_., S0Lemma: πρωθυπουργία, S0POS: NoCm, S0Token: πρωθυπουργία, hasRighDep_nmod: true, πρωθυπουργία_._hasRighDep_nmod: true, πρωθυπουργία_hasRighDep_nmod: true, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 605 - 
+Ο Καραμανλής υποστήριξε ότι ούτε ο ίδιος είχε σχεδιάσει και επιχειρήσει παρέμβαση του κρατικού μηχανισμού στις εκλογές ούτε , εν πάση περιπτώσει , η αλλοίωση του αποτελέσματος ήταν τέτοια ώστε να θέτει υπό αμφισβήτηση την επικράτησή του . 
 ### Existing MWEs: 
-1- **ρίχνει αιχμές** (ID)
+1- **θέτει υπό αμφισβήτηση** (LVC, 1)
 ### Identified MWEs: 
-1- **ρίχνει αιχμές** 
+1- **θέτει υπό αμφισβήτηση** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ο, Ευρωβουλευτής, ρίχνει ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ο, Καραμανλής, υποστήριξε ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ο]   B= [Ευρωβουλευτής, ρίχνει, αιχμές ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ο]   B= [Καραμανλής, υποστήριξε, ότι ,.. ]
 
-B0Lemma: ευρωβουλευτής, B0POS: NoCm, B0Token: Ευρωβουλευτής, B1IsInLexic: true, B1Lemma: ρίχνω, B1POS: VbMn, B1Token: ρίχνει, S0B0Lemma: ο_ευρωβουλευτής, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_ευρωβουλευτής, S0B0Token: Ο_Ευρωβουλευτής, S0B1Lemma: ο_ρίχνω, S0B1LemmaPOS: ο_VbMn, S0B1POS: AtDf_VbMn, S0B1POSLemma: AtDf_ρίχνω, S0B1Token: Ο_ρίχνει, S0B2Lemma: ο_αιχμή, S0B2LemmaPOS: ο_NoCm, S0B2POS: AtDf_NoCm, S0B2POSLemma: AtDf_αιχμή, S0B2Token: Ο_αιχμές, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: Ο, ο_isGouvernedBy_ευρωβουλευτής: true, ο_isGouvernedBy_ευρωβουλευτής_det: true, 
+B0Lemma: Καραμανλής, B0POS: NoPr, B0Token: Καραμανλής, B1Lemma: υποστηρίζω, B1POS: VbMn, B1Token: υποστήριξε, S0B0Lemma: ο_Καραμανλής, S0B0LemmaPOS: ο_NoPr, S0B0POS: AtDf_NoPr, S0B0POSLemma: AtDf_Καραμανλής, S0B0Token: Ο_Καραμανλής, S0B1Lemma: ο_υποστηρίζω, S0B1LemmaPOS: ο_VbMn, S0B1POS: AtDf_VbMn, S0B1POSLemma: AtDf_υποστηρίζω, S0B1Token: Ο_υποστήριξε, S0B2Lemma: ο_ότι, S0B2LemmaPOS: ο_CjSb, S0B2POS: AtDf_CjSb, S0B2POSLemma: AtDf_ότι, S0B2Token: Ο_ότι, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: Ο, ο_isGouvernedBy_Καραμανλής: true, ο_isGouvernedBy_Καραμανλής_det: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ευρωβουλευτής, ρίχνει, αιχμές ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Καραμανλής, υποστήριξε, ότι ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ευρωβουλευτής]   B= [ρίχνει, αιχμές, κατά ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Καραμανλής]   B= [υποστήριξε, ότι, ούτε ,.. ]
 
-B0IsInLexic: true, B0Lemma: ρίχνω, B0POS: VbMn, B0Token: ρίχνει, B1IsInLexic: true, B1Lemma: αιχμή, B1POS: NoCm, B1Token: αιχμές, S0B0Lemma: ευρωβουλευτής_ρίχνω, S0B0LemmaPOS: ευρωβουλευτής_VbMn, S0B0POS: NoCm_VbMn, S0B0POSLemma: NoCm_ρίχνω, S0B0Token: Ευρωβουλευτής_ρίχνει, S0B1Lemma: ευρωβουλευτής_αιχμή, S0B1LemmaPOS: ευρωβουλευτής_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_αιχμή, S0B1Token: Ευρωβουλευτής_αιχμές, S0B2Lemma: ευρωβουλευτής_κατά, S0B2LemmaPOS: ευρωβουλευτής_AsPpSp, S0B2POS: NoCm_AsPpSp, S0B2POSLemma: NoCm_κατά, S0B2Token: Ευρωβουλευτής_κατά, S0Lemma: ευρωβουλευτής, S0POS: NoCm, S0Token: Ευρωβουλευτής, ευρωβουλευτής_isGouvernedBy_ρίχνω: true, ευρωβουλευτής_isGouvernedBy_ρίχνω_nsubj: true, 
+B0Lemma: υποστηρίζω, B0POS: VbMn, B0Token: υποστήριξε, B1Lemma: ότι, B1POS: CjSb, B1Token: ότι, S0B0Lemma: Καραμανλής_υποστηρίζω, S0B0LemmaPOS: Καραμανλής_VbMn, S0B0POS: NoPr_VbMn, S0B0POSLemma: NoPr_υποστηρίζω, S0B0Token: Καραμανλής_υποστήριξε, S0B1Lemma: Καραμανλής_ότι, S0B1LemmaPOS: Καραμανλής_CjSb, S0B1POS: NoPr_CjSb, S0B1POSLemma: NoPr_ότι, S0B1Token: Καραμανλής_ότι, S0B2Lemma: Καραμανλής_ούτε, S0B2LemmaPOS: Καραμανλής_CjCo, S0B2POS: NoPr_CjCo, S0B2POSLemma: NoPr_ούτε, S0B2Token: Καραμανλής_ούτε, S0Lemma: Καραμανλής, S0POS: NoPr, S0Token: Καραμανλής, Καραμανλής_isGouvernedBy_υποστηρίζω: true, Καραμανλής_isGouvernedBy_υποστηρίζω_nsubj: true, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ρίχνει, αιχμές, κατά ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [υποστήριξε, ότι, ούτε ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ρίχνει]   B= [αιχμές, κατά, όσων ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [υποστήριξε]   B= [ότι, ούτε, ο ,.. ]
 
-B0IsInLexic: true, B0Lemma: αιχμή, B0POS: NoCm, B0Token: αιχμές, B1IsInLexic: true, B1Lemma: κατά, B1POS: AsPpSp, B1Token: κατά, S0B0Lemma: ρίχνω_αιχμή, S0B0LemmaPOS: ρίχνω_NoCm, S0B0POS: VbMn_NoCm, S0B0POSLemma: VbMn_αιχμή, S0B0Token: ρίχνει_αιχμές, S0B1Lemma: ρίχνω_κατά, S0B1LemmaPOS: ρίχνω_AsPpSp, S0B1POS: VbMn_AsPpSp, S0B1POSLemma: VbMn_κατά, S0B1Token: ρίχνει_κατά, S0B2Lemma: ρίχνω_όσος, S0B2LemmaPOS: ρίχνω_PnRi, S0B2POS: VbMn_PnRi, S0B2POSLemma: VbMn_όσος, S0B2Token: ρίχνει_όσων, S0IsInLexic: true, S0Lemma: ρίχνω, S0POS: VbMn, S0Token: ρίχνει, 
+B0Lemma: ότι, B0POS: CjSb, B0Token: ότι, B1Lemma: ούτε, B1POS: CjCo, B1Token: ούτε, S0B0Lemma: υποστηρίζω_ότι, S0B0LemmaPOS: υποστηρίζω_CjSb, S0B0POS: VbMn_CjSb, S0B0POSLemma: VbMn_ότι, S0B0Token: υποστήριξε_ότι, S0B1Lemma: υποστηρίζω_ούτε, S0B1LemmaPOS: υποστηρίζω_CjCo, S0B1POS: VbMn_CjCo, S0B1POSLemma: VbMn_ούτε, S0B1Token: υποστήριξε_ούτε, S0B2Lemma: υποστηρίζω_ο, S0B2LemmaPOS: υποστηρίζω_AtDf, S0B2POS: VbMn_AtDf, S0B2POSLemma: VbMn_ο, S0B2Token: υποστήριξε_ο, S0Lemma: υποστηρίζω, S0POS: VbMn, S0Token: υποστήριξε, 
 
-6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ρίχνει, αιχμές]   B= [κατά, όσων, μιλάνε ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ότι, ούτε, ο ,.. ]
 
-B0IsInLexic: true, B0Lemma: κατά, B0POS: AsPpSp, B0Token: κατά, B1Lemma: όσος, B1POS: PnRi, B1Token: όσων, S0B0Lemma: αιχμή_κατά, S0B0LemmaPOS: αιχμή_AsPpSp, S0B0POS: NoCm_AsPpSp, S0B0POSLemma: NoCm_κατά, S0B0Token: αιχμές_κατά, S0B1Lemma: αιχμή_όσος, S0B1LemmaPOS: αιχμή_PnRi, S0B1POS: NoCm_PnRi, S0B1POSLemma: NoCm_όσος, S0B1Token: αιχμές_όσων, S0B2Lemma: αιχμή_μιλώ, S0B2LemmaPOS: αιχμή_VbMn, S0B2POS: NoCm_VbMn, S0B2POSLemma: NoCm_μιλώ, S0B2Token: αιχμές_μιλάνε, S0IsInLexic: true, S0Lemma: αιχμή, S0POS: NoCm, S0S1Distance: 1, S0Token: αιχμές, S1B0Lemma: ρίχνω_κατά, S1B0LemmaPOS: ρίχνω_AsPpSp, S1B0POS: VbMn_AsPpSp, S1B0POSLemma: VbMn_κατά, S1B0Token: ρίχνει_κατά, S1IsInLexic: true, S1Lemma: ρίχνω, S1POS: VbMn, S1S0Lemma: ρίχνω_αιχμή, S1S0LemmaPOS: ρίχνω_NoCm, S1S0POS: VbMn_NoCm, S1S0POSLemma: VbMn_αιχμή, S1S0Token: ρίχνει_αιχμές, S1Token: ρίχνει, SyntaxicRelation: +dobj, hasRighDep_acl: true, αιχμή_hasRighDep_acl: true, αιχμή_μιλώ_hasRighDep_acl: true, 
 
-7- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ρίχνει, αιχμές]]   B= [κατά, όσων, μιλάνε ,.. ]
 
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ότι]   B= [ούτε, ο, ίδιος ,.. ]
 
+B0Lemma: ούτε, B0POS: CjCo, B0Token: ούτε, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: ο, S0B0Lemma: ότι_ούτε, S0B0LemmaPOS: ότι_CjCo, S0B0POS: CjSb_CjCo, S0B0POSLemma: CjSb_ούτε, S0B0Token: ότι_ούτε, S0B1Lemma: ότι_ο, S0B1LemmaPOS: ότι_AtDf, S0B1POS: CjSb_AtDf, S0B1POSLemma: CjSb_ο, S0B1Token: ότι_ο, S0B2Lemma: ότι_ίδιος, S0B2LemmaPOS: ότι_Aj, S0B2POS: CjSb_Aj, S0B2POSLemma: CjSb_ίδιος, S0B2Token: ότι_ίδιος, S0Lemma: ότι, S0POS: CjSb, S0Token: ότι, ότι_isGouvernedBy_σχεδιάζω: true, ότι_isGouvernedBy_σχεδιάζω_mark: true, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κατά, όσων, μιλάνε ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ούτε, ο, ίδιος ,.. ]
 
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κατά]   B= [όσων, μιλάνε, για ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ούτε]   B= [ο, ίδιος, είχε ,.. ]
 
-B0Lemma: όσος, B0POS: PnRi, B0Token: όσων, B1IsInLexic: true, B1Lemma: μιλώ, B1POS: VbMn, B1Token: μιλάνε, S0B0Lemma: κατά_όσος, S0B0LemmaPOS: κατά_PnRi, S0B0POS: AsPpSp_PnRi, S0B0POSLemma: AsPpSp_όσος, S0B0Token: κατά_όσων, S0B1Lemma: κατά_μιλώ, S0B1LemmaPOS: κατά_VbMn, S0B1POS: AsPpSp_VbMn, S0B1POSLemma: AsPpSp_μιλώ, S0B1Token: κατά_μιλάνε, S0B2Lemma: κατά_για, S0B2LemmaPOS: κατά_AsPpSp, S0B2POS: AsPpSp_AsPpSp, S0B2POSLemma: AsPpSp_για, S0B2Token: κατά_για, S0IsInLexic: true, S0Lemma: κατά, S0POS: AsPpSp, S0Token: κατά, κατά_isGouvernedBy_μιλώ: true, κατά_isGouvernedBy_μιλώ_case: true, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: ο, B1IsInLexic: true, B1Lemma: ίδιος, B1POS: Aj, B1Token: ίδιος, S0B0Lemma: ούτε_ο, S0B0LemmaPOS: ούτε_AtDf, S0B0POS: CjCo_AtDf, S0B0POSLemma: CjCo_ο, S0B0Token: ούτε_ο, S0B1Lemma: ούτε_ίδιος, S0B1LemmaPOS: ούτε_Aj, S0B1POS: CjCo_Aj, S0B1POSLemma: CjCo_ίδιος, S0B1Token: ούτε_ίδιος, S0B2Lemma: ούτε_έχω, S0B2LemmaPOS: ούτε_VbMn, S0B2POS: CjCo_VbMn, S0B2POSLemma: CjCo_έχω, S0B2Token: ούτε_είχε, S0Lemma: ούτε, S0POS: CjCo, S0Token: ούτε, ούτε_isGouvernedBy_σχεδιάζω: true, ούτε_isGouvernedBy_σχεδιάζω_cc: true, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [όσων, μιλάνε, για ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ο, ίδιος, είχε ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [όσων]   B= [μιλάνε, για, νέο ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ο]   B= [ίδιος, είχε, σχεδιάσει ,.. ]
 
-B0IsInLexic: true, B0Lemma: μιλώ, B0POS: VbMn, B0Token: μιλάνε, B1IsInLexic: true, B1Lemma: για, B1POS: AsPpSp, B1Token: για, S0B0Lemma: όσος_μιλώ, S0B0LemmaPOS: όσος_VbMn, S0B0POS: PnRi_VbMn, S0B0POSLemma: PnRi_μιλώ, S0B0Token: όσων_μιλάνε, S0B1Lemma: όσος_για, S0B1LemmaPOS: όσος_AsPpSp, S0B1POS: PnRi_AsPpSp, S0B1POSLemma: PnRi_για, S0B1Token: όσων_για, S0B2Lemma: όσος_νέος, S0B2LemmaPOS: όσος_Aj, S0B2POS: PnRi_Aj, S0B2POSLemma: PnRi_νέος, S0B2Token: όσων_νέο, S0Lemma: όσος, S0POS: PnRi, S0Token: όσων, όσος_isGouvernedBy_μιλώ: true, όσος_isGouvernedBy_μιλώ_nsubj: true, 
+B0IsInLexic: true, B0Lemma: ίδιος, B0POS: Aj, B0Token: ίδιος, B1IsInLexic: true, B1Lemma: έχω, B1POS: VbMn, B1Token: είχε, S0B0Lemma: ο_ίδιος, S0B0LemmaPOS: ο_Aj, S0B0POS: AtDf_Aj, S0B0POSLemma: AtDf_ίδιος, S0B0Token: ο_ίδιος, S0B1Lemma: ο_έχω, S0B1LemmaPOS: ο_VbMn, S0B1POS: AtDf_VbMn, S0B1POSLemma: AtDf_έχω, S0B1Token: ο_είχε, S0B2Lemma: ο_σχεδιάζω, S0B2LemmaPOS: ο_VbMn, S0B2POS: AtDf_VbMn, S0B2POSLemma: AtDf_σχεδιάζω, S0B2Token: ο_σχεδιάσει, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: ο, ο_isGouvernedBy_ίδιος: true, ο_isGouvernedBy_ίδιος_det: true, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μιλάνε, για, νέο ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ίδιος, είχε, σχεδιάσει ,.. ]
 
 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μιλάνε]   B= [για, νέο, εκλογικό ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ίδιος]   B= [είχε, σχεδιάσει, και ,.. ]
 
-B0IsInLexic: true, B0Lemma: για, B0POS: AsPpSp, B0Token: για, B1IsInLexic: true, B1Lemma: νέος, B1POS: Aj, B1Token: νέο, S0B0Lemma: μιλώ_για, S0B0LemmaPOS: μιλώ_AsPpSp, S0B0POS: VbMn_AsPpSp, S0B0POSLemma: VbMn_για, S0B0Token: μιλάνε_για, S0B1Lemma: μιλώ_νέος, S0B1LemmaPOS: μιλώ_Aj, S0B1POS: VbMn_Aj, S0B1POSLemma: VbMn_νέος, S0B1Token: μιλάνε_νέο, S0B2Lemma: μιλώ_εκλογικός, S0B2LemmaPOS: μιλώ_Aj, S0B2POS: VbMn_Aj, S0B2POSLemma: VbMn_εκλογικός, S0B2Token: μιλάνε_εκλογικό, S0IsInLexic: true, S0Lemma: μιλώ, S0POS: VbMn, S0Token: μιλάνε, hasRighDep_nmod: true, μιλώ_hasRighDep_nmod: true, μιλώ_αιφνιδιασμός_hasRighDep_nmod: true, 
+B0IsInLexic: true, B0Lemma: έχω, B0POS: VbMn, B0Token: είχε, B1Lemma: σχεδιάζω, B1POS: VbMn, B1Token: σχεδιάσει, S0B0Lemma: ίδιος_έχω, S0B0LemmaPOS: ίδιος_VbMn, S0B0POS: Aj_VbMn, S0B0POSLemma: Aj_έχω, S0B0Token: ίδιος_είχε, S0B1Lemma: ίδιος_σχεδιάζω, S0B1LemmaPOS: ίδιος_VbMn, S0B1POS: Aj_VbMn, S0B1POSLemma: Aj_σχεδιάζω, S0B1Token: ίδιος_σχεδιάσει, S0B2Lemma: ίδιος_και, S0B2LemmaPOS: ίδιος_CjCo, S0B2POS: Aj_CjCo, S0B2POSLemma: Aj_και, S0B2Token: ίδιος_και, S0IsInLexic: true, S0Lemma: ίδιος, S0POS: Aj, S0Token: ίδιος, ίδιος_isGouvernedBy_σχεδιάζω: true, ίδιος_isGouvernedBy_σχεδιάζω_nsubj: true, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [για, νέο, εκλογικό ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [είχε, σχεδιάσει, και ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [για]   B= [νέο, εκλογικό, αιφνιδιασμό ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [είχε]   B= [σχεδιάσει, και, επιχειρήσει ,.. ]
 
-B0IsInLexic: true, B0Lemma: νέος, B0POS: Aj, B0Token: νέο, B1Lemma: εκλογικός, B1POS: Aj, B1Token: εκλογικό, S0B0Lemma: για_νέος, S0B0LemmaPOS: για_Aj, S0B0POS: AsPpSp_Aj, S0B0POSLemma: AsPpSp_νέος, S0B0Token: για_νέο, S0B1Lemma: για_εκλογικός, S0B1LemmaPOS: για_Aj, S0B1POS: AsPpSp_Aj, S0B1POSLemma: AsPpSp_εκλογικός, S0B1Token: για_εκλογικό, S0B2Lemma: για_αιφνιδιασμός, S0B2LemmaPOS: για_NoCm, S0B2POS: AsPpSp_NoCm, S0B2POSLemma: AsPpSp_αιφνιδιασμός, S0B2Token: για_αιφνιδιασμό, S0IsInLexic: true, S0Lemma: για, S0POS: AsPpSp, S0Token: για, για_isGouvernedBy_αιφνιδιασμός: true, για_isGouvernedBy_αιφνιδιασμός_case: true, 
+B0Lemma: σχεδιάζω, B0POS: VbMn, B0Token: σχεδιάσει, B1IsInLexic: true, B1Lemma: και, B1POS: CjCo, B1Token: και, S0B0Lemma: έχω_σχεδιάζω, S0B0LemmaPOS: έχω_VbMn, S0B0POS: VbMn_VbMn, S0B0POSLemma: VbMn_σχεδιάζω, S0B0Token: είχε_σχεδιάσει, S0B1Lemma: έχω_και, S0B1LemmaPOS: έχω_CjCo, S0B1POS: VbMn_CjCo, S0B1POSLemma: VbMn_και, S0B1Token: είχε_και, S0B2Lemma: έχω_επιχειρώ, S0B2LemmaPOS: έχω_VbMn, S0B2POS: VbMn_VbMn, S0B2POSLemma: VbMn_επιχειρώ, S0B2Token: είχε_επιχειρήσει, S0IsInLexic: true, S0Lemma: έχω, S0POS: VbMn, S0Token: είχε, έχω_isGouvernedBy_σχεδιάζω: true, έχω_isGouvernedBy_σχεδιάζω_aux: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [νέο, εκλογικό, αιφνιδιασμό ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [σχεδιάσει, και, επιχειρήσει ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [νέο]   B= [εκλογικό, αιφνιδιασμό, καλώντας ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [σχεδιάσει]   B= [και, επιχειρήσει, παρέμβαση ,.. ]
 
-B0Lemma: εκλογικός, B0POS: Aj, B0Token: εκλογικό, B1Lemma: αιφνιδιασμός, B1POS: NoCm, B1Token: αιφνιδιασμό, S0B0Lemma: νέος_εκλογικός, S0B0LemmaPOS: νέος_Aj, S0B0POS: Aj_Aj, S0B0POSLemma: Aj_εκλογικός, S0B0Token: νέο_εκλογικό, S0B1Lemma: νέος_αιφνιδιασμός, S0B1LemmaPOS: νέος_NoCm, S0B1POS: Aj_NoCm, S0B1POSLemma: Aj_αιφνιδιασμός, S0B1Token: νέο_αιφνιδιασμό, S0B2Lemma: νέος_καλώ, S0B2LemmaPOS: νέος_VbMn, S0B2POS: Aj_VbMn, S0B2POSLemma: Aj_καλώ, S0B2Token: νέο_καλώντας, S0IsInLexic: true, S0Lemma: νέος, S0POS: Aj, S0Token: νέο, νέος_isGouvernedBy_αιφνιδιασμός: true, νέος_isGouvernedBy_αιφνιδιασμός_amod: true, 
+B0IsInLexic: true, B0Lemma: και, B0POS: CjCo, B0Token: και, B1Lemma: επιχειρώ, B1POS: VbMn, B1Token: επιχειρήσει, S0B0Lemma: σχεδιάζω_και, S0B0LemmaPOS: σχεδιάζω_CjCo, S0B0POS: VbMn_CjCo, S0B0POSLemma: VbMn_και, S0B0Token: σχεδιάσει_και, S0B1Lemma: σχεδιάζω_επιχειρώ, S0B1LemmaPOS: σχεδιάζω_VbMn, S0B1POS: VbMn_VbMn, S0B1POSLemma: VbMn_επιχειρώ, S0B1Token: σχεδιάσει_επιχειρήσει, S0B2Lemma: σχεδιάζω_παρέμβαση, S0B2LemmaPOS: σχεδιάζω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_παρέμβαση, S0B2Token: σχεδιάσει_παρέμβαση, S0Lemma: σχεδιάζω, S0POS: VbMn, S0Token: σχεδιάσει, hasRighDep_cc: true, hasRighDep_conj: true, σχεδιάζω_hasRighDep_cc: true, σχεδιάζω_hasRighDep_conj: true, σχεδιάζω_επιχειρώ_hasRighDep_conj: true, σχεδιάζω_και_hasRighDep_cc: true, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [εκλογικό, αιφνιδιασμό, καλώντας ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [και, επιχειρήσει, παρέμβαση ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [εκλογικό]   B= [αιφνιδιασμό, καλώντας, – ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [και]   B= [επιχειρήσει, παρέμβαση, του ,.. ]
 
-B0Lemma: αιφνιδιασμός, B0POS: NoCm, B0Token: αιφνιδιασμό, B1Lemma: καλώ, B1POS: VbMn, B1Token: καλώντας, S0B0Lemma: εκλογικός_αιφνιδιασμός, S0B0LemmaPOS: εκλογικός_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_αιφνιδιασμός, S0B0Token: εκλογικό_αιφνιδιασμό, S0B1Lemma: εκλογικός_καλώ, S0B1LemmaPOS: εκλογικός_VbMn, S0B1POS: Aj_VbMn, S0B1POSLemma: Aj_καλώ, S0B1Token: εκλογικό_καλώντας, S0B2Lemma: εκλογικός_–, S0B2LemmaPOS: εκλογικός_PUNCT, S0B2POS: Aj_PUNCT, S0B2POSLemma: Aj_–, S0B2Token: εκλογικό_–, S0Lemma: εκλογικός, S0POS: Aj, S0Token: εκλογικό, εκλογικός_isGouvernedBy_αιφνιδιασμός: true, εκλογικός_isGouvernedBy_αιφνιδιασμός_amod: true, 
+B0Lemma: επιχειρώ, B0POS: VbMn, B0Token: επιχειρήσει, B1Lemma: παρέμβαση, B1POS: NoCm, B1Token: παρέμβαση, S0B0Lemma: και_επιχειρώ, S0B0LemmaPOS: και_VbMn, S0B0POS: CjCo_VbMn, S0B0POSLemma: CjCo_επιχειρώ, S0B0Token: και_επιχειρήσει, S0B1Lemma: και_παρέμβαση, S0B1LemmaPOS: και_NoCm, S0B1POS: CjCo_NoCm, S0B1POSLemma: CjCo_παρέμβαση, S0B1Token: και_παρέμβαση, S0B2Lemma: και_ο, S0B2LemmaPOS: και_AtDf, S0B2POS: CjCo_AtDf, S0B2POSLemma: CjCo_ο, S0B2Token: και_του, S0IsInLexic: true, S0Lemma: και, S0POS: CjCo, S0Token: και, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αιφνιδιασμό, καλώντας, – ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [επιχειρήσει, παρέμβαση, του ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αιφνιδιασμό]   B= [καλώντας, –, επιτέλους ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [επιχειρήσει]   B= [παρέμβαση, του, κρατικού ,.. ]
 
-B0Lemma: καλώ, B0POS: VbMn, B0Token: καλώντας, B1Lemma: –, B1POS: PUNCT, B1Token: –, S0B0Lemma: αιφνιδιασμός_καλώ, S0B0LemmaPOS: αιφνιδιασμός_VbMn, S0B0POS: NoCm_VbMn, S0B0POSLemma: NoCm_καλώ, S0B0Token: αιφνιδιασμό_καλώντας, S0B1Lemma: αιφνιδιασμός_–, S0B1LemmaPOS: αιφνιδιασμός_PUNCT, S0B1POS: NoCm_PUNCT, S0B1POSLemma: NoCm_–, S0B1Token: αιφνιδιασμό_–, S0B2Lemma: αιφνιδιασμός_επιτέλους, S0B2LemmaPOS: αιφνιδιασμός_Ad, S0B2POS: NoCm_Ad, S0B2POSLemma: NoCm_επιτέλους, S0B2Token: αιφνιδιασμό_επιτέλους, S0Lemma: αιφνιδιασμός, S0POS: NoCm, S0Token: αιφνιδιασμό, 
+B0Lemma: παρέμβαση, B0POS: NoCm, B0Token: παρέμβαση, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: του, S0B0Lemma: επιχειρώ_παρέμβαση, S0B0LemmaPOS: επιχειρώ_NoCm, S0B0POS: VbMn_NoCm, S0B0POSLemma: VbMn_παρέμβαση, S0B0Token: επιχειρήσει_παρέμβαση, S0B1Lemma: επιχειρώ_ο, S0B1LemmaPOS: επιχειρώ_AtDf, S0B1POS: VbMn_AtDf, S0B1POSLemma: VbMn_ο, S0B1Token: επιχειρήσει_του, S0B2Lemma: επιχειρώ_κρατικός, S0B2LemmaPOS: επιχειρώ_Aj, S0B2POS: VbMn_Aj, S0B2POSLemma: VbMn_κρατικός, S0B2Token: επιχειρήσει_κρατικού, S0Lemma: επιχειρώ, S0POS: VbMn, S0Token: επιχειρήσει, hasRighDep_advcl: true, hasRighDep_dobj: true, επιχειρώ_hasRighDep_advcl: true, επιχειρώ_hasRighDep_dobj: true, επιχειρώ_θέτω_hasRighDep_advcl: true, επιχειρώ_παρέμβαση_hasRighDep_dobj: true, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [καλώντας, –, επιτέλους ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [παρέμβαση, του, κρατικού ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [καλώντας]   B= [–, επιτέλους, – ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [παρέμβαση]   B= [του, κρατικού, μηχανισμού ,.. ]
 
-B0Lemma: –, B0POS: PUNCT, B0Token: –, B1Lemma: επιτέλους, B1POS: Ad, B1Token: επιτέλους, S0B0Lemma: καλώ_–, S0B0LemmaPOS: καλώ_PUNCT, S0B0POS: VbMn_PUNCT, S0B0POSLemma: VbMn_–, S0B0Token: καλώντας_–, S0B1Lemma: καλώ_επιτέλους, S0B1LemmaPOS: καλώ_Ad, S0B1POS: VbMn_Ad, S0B1POSLemma: VbMn_επιτέλους, S0B1Token: καλώντας_επιτέλους, S0B2Lemma: καλώ_–, S0B2LemmaPOS: καλώ_PUNCT, S0B2POS: VbMn_PUNCT, S0B2POSLemma: VbMn_–, S0B2Token: καλώντας_–, S0Lemma: καλώ, S0POS: VbMn, S0Token: καλώντας, hasRighDep_advmod: true, hasRighDep_ccomp: true, hasRighDep_dobj: true, καλώ_hasRighDep_advmod: true, καλώ_hasRighDep_ccomp: true, καλώ_hasRighDep_dobj: true, καλώ_ΣΥΡΙΖΑ_hasRighDep_dobj: true, καλώ_επιτέλους_hasRighDep_advmod: true, καλώ_κυβερνώ_hasRighDep_ccomp: true, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: του, B1Lemma: κρατικός, B1POS: Aj, B1Token: κρατικού, S0B0Lemma: παρέμβαση_ο, S0B0LemmaPOS: παρέμβαση_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: παρέμβαση_του, S0B1Lemma: παρέμβαση_κρατικός, S0B1LemmaPOS: παρέμβαση_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_κρατικός, S0B1Token: παρέμβαση_κρατικού, S0B2Lemma: παρέμβαση_μηχανισμός, S0B2LemmaPOS: παρέμβαση_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_μηχανισμός, S0B2Token: παρέμβαση_μηχανισμού, S0Lemma: παρέμβαση, S0POS: NoCm, S0Token: παρέμβαση, hasRighDep_nmod: true, παρέμβαση_hasRighDep_nmod: true, παρέμβαση_μηχανισμός_hasRighDep_nmod: true, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [–, επιτέλους, – ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, κρατικού, μηχανισμού ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [–]   B= [επιτέλους, –, τον ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [κρατικού, μηχανισμού, στις ,.. ]
 
-B0Lemma: επιτέλους, B0POS: Ad, B0Token: επιτέλους, B1Lemma: –, B1POS: PUNCT, B1Token: –, S0B0Lemma: –_επιτέλους, S0B0LemmaPOS: –_Ad, S0B0POS: PUNCT_Ad, S0B0POSLemma: PUNCT_επιτέλους, S0B0Token: –_επιτέλους, S0B1Lemma: –_–, S0B1LemmaPOS: –_PUNCT, S0B1POS: PUNCT_PUNCT, S0B1POSLemma: PUNCT_–, S0B1Token: –_–, S0B2Lemma: –_ο, S0B2LemmaPOS: –_AtDf, S0B2POS: PUNCT_AtDf, S0B2POSLemma: PUNCT_ο, S0B2Token: –_τον, S0Lemma: –, S0POS: PUNCT, S0Token: –, –_isGouvernedBy_επιτέλους: true, –_isGouvernedBy_επιτέλους_punct: true, 
+B0Lemma: κρατικός, B0POS: Aj, B0Token: κρατικού, B1Lemma: μηχανισμός, B1POS: NoCm, B1Token: μηχανισμού, S0B0Lemma: ο_κρατικός, S0B0LemmaPOS: ο_Aj, S0B0POS: AtDf_Aj, S0B0POSLemma: AtDf_κρατικός, S0B0Token: του_κρατικού, S0B1Lemma: ο_μηχανισμός, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_μηχανισμός, S0B1Token: του_μηχανισμού, S0B2Lemma: ο_στου, S0B2LemmaPOS: ο_AsPpPa, S0B2POS: AtDf_AsPpPa, S0B2POSLemma: AtDf_στου, S0B2Token: του_στις, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: του, ο_isGouvernedBy_μηχανισμός: true, ο_isGouvernedBy_μηχανισμός_det: true, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [επιτέλους, –, τον ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κρατικού, μηχανισμού, στις ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [επιτέλους]   B= [–, τον, ΣΥΡΙΖΑ ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κρατικού]   B= [μηχανισμού, στις, εκλογές ,.. ]
 
-B0Lemma: –, B0POS: PUNCT, B0Token: –, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τον, S0B0Lemma: επιτέλους_–, S0B0LemmaPOS: επιτέλους_PUNCT, S0B0POS: Ad_PUNCT, S0B0POSLemma: Ad_–, S0B0Token: επιτέλους_–, S0B1Lemma: επιτέλους_ο, S0B1LemmaPOS: επιτέλους_AtDf, S0B1POS: Ad_AtDf, S0B1POSLemma: Ad_ο, S0B1Token: επιτέλους_τον, S0B2Lemma: επιτέλους_ΣΥΡΙΖΑ, S0B2LemmaPOS: επιτέλους_ABBR, S0B2POS: Ad_ABBR, S0B2POSLemma: Ad_ΣΥΡΙΖΑ, S0B2Token: επιτέλους_ΣΥΡΙΖΑ, S0Lemma: επιτέλους, S0POS: Ad, S0Token: επιτέλους, hasRighDep_punct: true, επιτέλους_hasRighDep_punct: true, επιτέλους_–_hasRighDep_punct: true, 
+B0Lemma: μηχανισμός, B0POS: NoCm, B0Token: μηχανισμού, B1IsInLexic: true, B1Lemma: στου, B1POS: AsPpPa, B1Token: στις, S0B0Lemma: κρατικός_μηχανισμός, S0B0LemmaPOS: κρατικός_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_μηχανισμός, S0B0Token: κρατικού_μηχανισμού, S0B1Lemma: κρατικός_στου, S0B1LemmaPOS: κρατικός_AsPpPa, S0B1POS: Aj_AsPpPa, S0B1POSLemma: Aj_στου, S0B1Token: κρατικού_στις, S0B2Lemma: κρατικός_εκλογή, S0B2LemmaPOS: κρατικός_NoCm, S0B2POS: Aj_NoCm, S0B2POSLemma: Aj_εκλογή, S0B2Token: κρατικού_εκλογές, S0Lemma: κρατικός, S0POS: Aj, S0Token: κρατικού, κρατικός_isGouvernedBy_μηχανισμός: true, κρατικός_isGouvernedBy_μηχανισμός_amod: true, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [–, τον, ΣΥΡΙΖΑ ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μηχανισμού, στις, εκλογές ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [–]   B= [τον, ΣΥΡΙΖΑ, να ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μηχανισμού]   B= [στις, εκλογές, ούτε ,.. ]
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τον, B1Lemma: ΣΥΡΙΖΑ, B1POS: ABBR, B1Token: ΣΥΡΙΖΑ, S0B0Lemma: –_ο, S0B0LemmaPOS: –_AtDf, S0B0POS: PUNCT_AtDf, S0B0POSLemma: PUNCT_ο, S0B0Token: –_τον, S0B1Lemma: –_ΣΥΡΙΖΑ, S0B1LemmaPOS: –_ABBR, S0B1POS: PUNCT_ABBR, S0B1POSLemma: PUNCT_ΣΥΡΙΖΑ, S0B1Token: –_ΣΥΡΙΖΑ, S0B2Lemma: –_να, S0B2LemmaPOS: –_PtSj, S0B2POS: PUNCT_PtSj, S0B2POSLemma: PUNCT_να, S0B2Token: –_να, S0Lemma: –, S0POS: PUNCT, S0Token: –, 
+B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στις, B1IsInLexic: true, B1Lemma: εκλογή, B1POS: NoCm, B1Token: εκλογές, S0B0Lemma: μηχανισμός_στου, S0B0LemmaPOS: μηχανισμός_AsPpPa, S0B0POS: NoCm_AsPpPa, S0B0POSLemma: NoCm_στου, S0B0Token: μηχανισμού_στις, S0B1Lemma: μηχανισμός_εκλογή, S0B1LemmaPOS: μηχανισμός_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_εκλογή, S0B1Token: μηχανισμού_εκλογές, S0B2Lemma: μηχανισμός_ούτε, S0B2LemmaPOS: μηχανισμός_CjCo, S0B2POS: NoCm_CjCo, S0B2POSLemma: NoCm_ούτε, S0B2Token: μηχανισμού_ούτε, S0Lemma: μηχανισμός, S0POS: NoCm, S0Token: μηχανισμού, hasRighDep_appos: true, hasRighDep_cc: true, hasRighDep_nmod: true, μηχανισμός_hasRighDep_appos: true, μηχανισμός_hasRighDep_cc: true, μηχανισμός_hasRighDep_nmod: true, μηχανισμός_εκλογή_hasRighDep_nmod: true, μηχανισμός_ούτε_hasRighDep_cc: true, μηχανισμός_τέτοιος_hasRighDep_appos: true, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τον, ΣΥΡΙΖΑ, να ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στις, εκλογές, ούτε ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τον]   B= [ΣΥΡΙΖΑ, να, κυβερνήσει ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στις]   B= [εκλογές, ούτε, , ,.. ]
 
-B0Lemma: ΣΥΡΙΖΑ, B0POS: ABBR, B0Token: ΣΥΡΙΖΑ, B1IsInLexic: true, B1Lemma: να, B1POS: PtSj, B1Token: να, S0B0Lemma: ο_ΣΥΡΙΖΑ, S0B0LemmaPOS: ο_ABBR, S0B0POS: AtDf_ABBR, S0B0POSLemma: AtDf_ΣΥΡΙΖΑ, S0B0Token: τον_ΣΥΡΙΖΑ, S0B1Lemma: ο_να, S0B1LemmaPOS: ο_PtSj, S0B1POS: AtDf_PtSj, S0B1POSLemma: AtDf_να, S0B1Token: τον_να, S0B2Lemma: ο_κυβερνώ, S0B2LemmaPOS: ο_VbMn, S0B2POS: AtDf_VbMn, S0B2POSLemma: AtDf_κυβερνώ, S0B2Token: τον_κυβερνήσει, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: τον, ο_isGouvernedBy_ΣΥΡΙΖΑ: true, ο_isGouvernedBy_ΣΥΡΙΖΑ_det: true, 
+B0IsInLexic: true, B0Lemma: εκλογή, B0POS: NoCm, B0Token: εκλογές, B1Lemma: ούτε, B1POS: CjCo, B1Token: ούτε, S0B0Lemma: στου_εκλογή, S0B0LemmaPOS: στου_NoCm, S0B0POS: AsPpPa_NoCm, S0B0POSLemma: AsPpPa_εκλογή, S0B0Token: στις_εκλογές, S0B1Lemma: στου_ούτε, S0B1LemmaPOS: στου_CjCo, S0B1POS: AsPpPa_CjCo, S0B1POSLemma: AsPpPa_ούτε, S0B1Token: στις_ούτε, S0B2Lemma: στου_,, S0B2LemmaPOS: στου_PUNCT, S0B2POS: AsPpPa_PUNCT, S0B2POSLemma: AsPpPa_,, S0B2Token: στις_,, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στις, στου_isGouvernedBy_εκλογή: true, στου_isGouvernedBy_εκλογή_case: true, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ΣΥΡΙΖΑ, να, κυβερνήσει ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [εκλογές, ούτε, , ,.. ]
 
 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ΣΥΡΙΖΑ]   B= [να, κυβερνήσει ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [εκλογές]   B= [ούτε, ,, εν ,.. ]
 
-B0IsInLexic: true, B0Lemma: να, B0POS: PtSj, B0Token: να, B1Lemma: κυβερνώ, B1POS: VbMn, B1Token: κυβερνήσει, S0B0Lemma: ΣΥΡΙΖΑ_να, S0B0LemmaPOS: ΣΥΡΙΖΑ_PtSj, S0B0POS: ABBR_PtSj, S0B0POSLemma: ABBR_να, S0B0Token: ΣΥΡΙΖΑ_να, S0B1Lemma: ΣΥΡΙΖΑ_κυβερνώ, S0B1LemmaPOS: ΣΥΡΙΖΑ_VbMn, S0B1POS: ABBR_VbMn, S0B1POSLemma: ABBR_κυβερνώ, S0B1Token: ΣΥΡΙΖΑ_κυβερνήσει, S0Lemma: ΣΥΡΙΖΑ, S0POS: ABBR, S0Token: ΣΥΡΙΖΑ, 
+B0Lemma: ούτε, B0POS: CjCo, B0Token: ούτε, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: εκλογή_ούτε, S0B0LemmaPOS: εκλογή_CjCo, S0B0POS: NoCm_CjCo, S0B0POSLemma: NoCm_ούτε, S0B0Token: εκλογές_ούτε, S0B1Lemma: εκλογή_,, S0B1LemmaPOS: εκλογή_PUNCT, S0B1POS: NoCm_PUNCT, S0B1POSLemma: NoCm_,, S0B1Token: εκλογές_,, S0B2Lemma: εκλογή_εν, S0B2LemmaPOS: εκλογή_AsPpSp, S0B2POS: NoCm_AsPpSp, S0B2POSLemma: NoCm_εν, S0B2Token: εκλογές_εν, S0IsInLexic: true, S0Lemma: εκλογή, S0POS: NoCm, S0Token: εκλογές, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [να, κυβερνήσει ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ούτε, ,, εν ,.. ]
 
 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [να]   B= [κυβερνήσει]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ούτε]   B= [,, εν, πάση ,.. ]
 
-B0Lemma: κυβερνώ, B0POS: VbMn, B0Token: κυβερνήσει, S0B0Lemma: να_κυβερνώ, S0B0LemmaPOS: να_VbMn, S0B0POS: PtSj_VbMn, S0B0POSLemma: PtSj_κυβερνώ, S0B0Token: να_κυβερνήσει, S0IsInLexic: true, S0Lemma: να, S0POS: PtSj, S0Token: να, να_isGouvernedBy_κυβερνώ: true, να_isGouvernedBy_κυβερνώ_aux: true, 
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: εν, B1POS: AsPpSp, B1Token: εν, S0B0Lemma: ούτε_,, S0B0LemmaPOS: ούτε_PUNCT, S0B0POS: CjCo_PUNCT, S0B0POSLemma: CjCo_,, S0B0Token: ούτε_,, S0B1Lemma: ούτε_εν, S0B1LemmaPOS: ούτε_AsPpSp, S0B1POS: CjCo_AsPpSp, S0B1POSLemma: CjCo_εν, S0B1Token: ούτε_εν, S0B2Lemma: ούτε_πας, S0B2LemmaPOS: ούτε_Aj, S0B2POS: CjCo_Aj, S0B2POSLemma: CjCo_πας, S0B2Token: ούτε_πάση, S0Lemma: ούτε, S0POS: CjCo, S0Token: ούτε, hasRighDep_nmod: true, ούτε_hasRighDep_nmod: true, ούτε_περιπτώσει_hasRighDep_nmod: true, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κυβερνήσει]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, εν, πάση ,.. ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κυβερνήσει]   B= [ ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [εν, πάση, περιπτώσει ,.. ]
 
+,_isGouvernedBy_περιπτώσει: true, ,_isGouvernedBy_περιπτώσει_punct: true, B0IsInLexic: true, B0Lemma: εν, B0POS: AsPpSp, B0Token: εν, B1Lemma: πας, B1POS: Aj, B1Token: πάση, S0B0Lemma: ,_εν, S0B0LemmaPOS: ,_AsPpSp, S0B0POS: PUNCT_AsPpSp, S0B0POSLemma: PUNCT_εν, S0B0Token: ,_εν, S0B1Lemma: ,_πας, S0B1LemmaPOS: ,_Aj, S0B1POS: PUNCT_Aj, S0B1POSLemma: PUNCT_πας, S0B1Token: ,_πάση, S0B2Lemma: ,_περιπτώσει, S0B2LemmaPOS: ,_NoCm, S0B2POS: PUNCT_NoCm, S0B2POSLemma: PUNCT_περιπτώσει, S0B2Token: ,_περιπτώσει, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
 
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [εν, πάση, περιπτώσει ,.. ]
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 3675 - 
-Σε έναν κόσμο όπου ο ένας στους 9 ανθρώπους πέφτει για ύπνο κάθε βράδυ νηστικός δεν μπορούμε να δεχτούμε οι πιο πλούσιοι να παίρνουν ακόμη μεγαλύτερο κομμάτι από την πίτα » , τονίζει ο διευθύνων σύμβουλος της βρετανικής oxfam Μαρκ Γκόλντρινγκ 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [εν]   B= [πάση, περιπτώσει, , ,.. ]
+
+B0Lemma: πας, B0POS: Aj, B0Token: πάση, B1Lemma: περιπτώσει, B1POS: NoCm, B1Token: περιπτώσει, S0B0Lemma: εν_πας, S0B0LemmaPOS: εν_Aj, S0B0POS: AsPpSp_Aj, S0B0POSLemma: AsPpSp_πας, S0B0Token: εν_πάση, S0B1Lemma: εν_περιπτώσει, S0B1LemmaPOS: εν_NoCm, S0B1POS: AsPpSp_NoCm, S0B1POSLemma: AsPpSp_περιπτώσει, S0B1Token: εν_περιπτώσει, S0B2Lemma: εν_,, S0B2LemmaPOS: εν_PUNCT, S0B2POS: AsPpSp_PUNCT, S0B2POSLemma: AsPpSp_,, S0B2Token: εν_,, S0IsInLexic: true, S0Lemma: εν, S0POS: AsPpSp, S0Token: εν, εν_isGouvernedBy_περιπτώσει: true, εν_isGouvernedBy_περιπτώσει_case: true, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πάση, περιπτώσει, , ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πάση]   B= [περιπτώσει, ,, η ,.. ]
+
+B0Lemma: περιπτώσει, B0POS: NoCm, B0Token: περιπτώσει, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: πας_περιπτώσει, S0B0LemmaPOS: πας_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_περιπτώσει, S0B0Token: πάση_περιπτώσει, S0B1Lemma: πας_,, S0B1LemmaPOS: πας_PUNCT, S0B1POS: Aj_PUNCT, S0B1POSLemma: Aj_,, S0B1Token: πάση_,, S0B2Lemma: πας_ο, S0B2LemmaPOS: πας_AtDf, S0B2POS: Aj_AtDf, S0B2POSLemma: Aj_ο, S0B2Token: πάση_η, S0Lemma: πας, S0POS: Aj, S0Token: πάση, πας_isGouvernedBy_περιπτώσει: true, πας_isGouvernedBy_περιπτώσει_amod: true, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [περιπτώσει, ,, η ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [περιπτώσει]   B= [,, η, αλλοίωση ,.. ]
+
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: η, S0B0Lemma: περιπτώσει_,, S0B0LemmaPOS: περιπτώσει_PUNCT, S0B0POS: NoCm_PUNCT, S0B0POSLemma: NoCm_,, S0B0Token: περιπτώσει_,, S0B1Lemma: περιπτώσει_ο, S0B1LemmaPOS: περιπτώσει_AtDf, S0B1POS: NoCm_AtDf, S0B1POSLemma: NoCm_ο, S0B1Token: περιπτώσει_η, S0B2Lemma: περιπτώσει_αλλοίωση, S0B2LemmaPOS: περιπτώσει_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_αλλοίωση, S0B2Token: περιπτώσει_αλλοίωση, S0Lemma: περιπτώσει, S0POS: NoCm, S0Token: περιπτώσει, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, η, αλλοίωση ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [η, αλλοίωση, του ,.. ]
+
+,_isGouvernedBy_τέτοιος: true, ,_isGouvernedBy_τέτοιος_punct: true, B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: η, B1Lemma: αλλοίωση, B1POS: NoCm, B1Token: αλλοίωση, S0B0Lemma: ,_ο, S0B0LemmaPOS: ,_AtDf, S0B0POS: PUNCT_AtDf, S0B0POSLemma: PUNCT_ο, S0B0Token: ,_η, S0B1Lemma: ,_αλλοίωση, S0B1LemmaPOS: ,_NoCm, S0B1POS: PUNCT_NoCm, S0B1POSLemma: PUNCT_αλλοίωση, S0B1Token: ,_αλλοίωση, S0B2Lemma: ,_ο, S0B2LemmaPOS: ,_AtDf, S0B2POS: PUNCT_AtDf, S0B2POSLemma: PUNCT_ο, S0B2Token: ,_του, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [η, αλλοίωση, του ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [η]   B= [αλλοίωση, του, αποτελέσματος ,.. ]
+
+B0Lemma: αλλοίωση, B0POS: NoCm, B0Token: αλλοίωση, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: του, S0B0Lemma: ο_αλλοίωση, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_αλλοίωση, S0B0Token: η_αλλοίωση, S0B1Lemma: ο_ο, S0B1LemmaPOS: ο_AtDf, S0B1POS: AtDf_AtDf, S0B1POSLemma: AtDf_ο, S0B1Token: η_του, S0B2Lemma: ο_αποτέλεσμα, S0B2LemmaPOS: ο_NoCm, S0B2POS: AtDf_NoCm, S0B2POSLemma: AtDf_αποτέλεσμα, S0B2Token: η_αποτελέσματος, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: η, ο_isGouvernedBy_αλλοίωση: true, ο_isGouvernedBy_αλλοίωση_det: true, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αλλοίωση, του, αποτελέσματος ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αλλοίωση]   B= [του, αποτελέσματος, ήταν ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: του, B1IsInLexic: true, B1Lemma: αποτέλεσμα, B1POS: NoCm, B1Token: αποτελέσματος, S0B0Lemma: αλλοίωση_ο, S0B0LemmaPOS: αλλοίωση_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: αλλοίωση_του, S0B1Lemma: αλλοίωση_αποτέλεσμα, S0B1LemmaPOS: αλλοίωση_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_αποτέλεσμα, S0B1Token: αλλοίωση_αποτελέσματος, S0B2Lemma: αλλοίωση_είμαι, S0B2LemmaPOS: αλλοίωση_VbMn, S0B2POS: NoCm_VbMn, S0B2POSLemma: NoCm_είμαι, S0B2Token: αλλοίωση_ήταν, S0Lemma: αλλοίωση, S0POS: NoCm, S0Token: αλλοίωση, hasRighDep_nmod: true, αλλοίωση_hasRighDep_nmod: true, αλλοίωση_isGouvernedBy_τέτοιος: true, αλλοίωση_isGouvernedBy_τέτοιος_nsubj: true, αλλοίωση_αποτέλεσμα_hasRighDep_nmod: true, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, αποτελέσματος, ήταν ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [αποτελέσματος, ήταν, τέτοια ,.. ]
+
+B0IsInLexic: true, B0Lemma: αποτέλεσμα, B0POS: NoCm, B0Token: αποτελέσματος, B1IsInLexic: true, B1Lemma: είμαι, B1POS: VbMn, B1Token: ήταν, S0B0Lemma: ο_αποτέλεσμα, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_αποτέλεσμα, S0B0Token: του_αποτελέσματος, S0B1Lemma: ο_είμαι, S0B1LemmaPOS: ο_VbMn, S0B1POS: AtDf_VbMn, S0B1POSLemma: AtDf_είμαι, S0B1Token: του_ήταν, S0B2Lemma: ο_τέτοιος, S0B2LemmaPOS: ο_PnDm, S0B2POS: AtDf_PnDm, S0B2POSLemma: AtDf_τέτοιος, S0B2Token: του_τέτοια, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: του, ο_isGouvernedBy_αποτέλεσμα: true, ο_isGouvernedBy_αποτέλεσμα_det: true, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αποτελέσματος, ήταν, τέτοια ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αποτελέσματος]   B= [ήταν, τέτοια, ώστε ,.. ]
+
+B0IsInLexic: true, B0Lemma: είμαι, B0POS: VbMn, B0Token: ήταν, B1Lemma: τέτοιος, B1POS: PnDm, B1Token: τέτοια, S0B0Lemma: αποτέλεσμα_είμαι, S0B0LemmaPOS: αποτέλεσμα_VbMn, S0B0POS: NoCm_VbMn, S0B0POSLemma: NoCm_είμαι, S0B0Token: αποτελέσματος_ήταν, S0B1Lemma: αποτέλεσμα_τέτοιος, S0B1LemmaPOS: αποτέλεσμα_PnDm, S0B1POS: NoCm_PnDm, S0B1POSLemma: NoCm_τέτοιος, S0B1Token: αποτελέσματος_τέτοια, S0B2Lemma: αποτέλεσμα_ώστε, S0B2LemmaPOS: αποτέλεσμα_CjSb, S0B2POS: NoCm_CjSb, S0B2POSLemma: NoCm_ώστε, S0B2Token: αποτελέσματος_ώστε, S0IsInLexic: true, S0Lemma: αποτέλεσμα, S0POS: NoCm, S0Token: αποτελέσματος, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ήταν, τέτοια, ώστε ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ήταν]   B= [τέτοια, ώστε, να ,.. ]
+
+B0Lemma: τέτοιος, B0POS: PnDm, B0Token: τέτοια, B1Lemma: ώστε, B1POS: CjSb, B1Token: ώστε, S0B0Lemma: είμαι_τέτοιος, S0B0LemmaPOS: είμαι_PnDm, S0B0POS: VbMn_PnDm, S0B0POSLemma: VbMn_τέτοιος, S0B0Token: ήταν_τέτοια, S0B1Lemma: είμαι_ώστε, S0B1LemmaPOS: είμαι_CjSb, S0B1POS: VbMn_CjSb, S0B1POSLemma: VbMn_ώστε, S0B1Token: ήταν_ώστε, S0B2Lemma: είμαι_να, S0B2LemmaPOS: είμαι_PtSj, S0B2POS: VbMn_PtSj, S0B2POSLemma: VbMn_να, S0B2Token: ήταν_να, S0IsInLexic: true, S0Lemma: είμαι, S0POS: VbMn, S0Token: ήταν, είμαι_isGouvernedBy_τέτοιος: true, είμαι_isGouvernedBy_τέτοιος_cop: true, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τέτοια, ώστε, να ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τέτοια]   B= [ώστε, να, θέτει ,.. ]
+
+B0Lemma: ώστε, B0POS: CjSb, B0Token: ώστε, B1IsInLexic: true, B1Lemma: να, B1POS: PtSj, B1Token: να, S0B0Lemma: τέτοιος_ώστε, S0B0LemmaPOS: τέτοιος_CjSb, S0B0POS: PnDm_CjSb, S0B0POSLemma: PnDm_ώστε, S0B0Token: τέτοια_ώστε, S0B1Lemma: τέτοιος_να, S0B1LemmaPOS: τέτοιος_PtSj, S0B1POS: PnDm_PtSj, S0B1POSLemma: PnDm_να, S0B1Token: τέτοια_να, S0B2Lemma: τέτοιος_θέτω, S0B2LemmaPOS: τέτοιος_VbMn, S0B2POS: PnDm_VbMn, S0B2POSLemma: PnDm_θέτω, S0B2Token: τέτοια_θέτει, S0Lemma: τέτοιος, S0POS: PnDm, S0Token: τέτοια, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ώστε, να, θέτει ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ώστε]   B= [να, θέτει, υπό ,.. ]
+
+B0IsInLexic: true, B0Lemma: να, B0POS: PtSj, B0Token: να, B1IsInLexic: true, B1Lemma: θέτω, B1POS: VbMn, B1Token: θέτει, S0B0Lemma: ώστε_να, S0B0LemmaPOS: ώστε_PtSj, S0B0POS: CjSb_PtSj, S0B0POSLemma: CjSb_να, S0B0Token: ώστε_να, S0B1Lemma: ώστε_θέτω, S0B1LemmaPOS: ώστε_VbMn, S0B1POS: CjSb_VbMn, S0B1POSLemma: CjSb_θέτω, S0B1Token: ώστε_θέτει, S0B2Lemma: ώστε_υπό, S0B2LemmaPOS: ώστε_AsPpSp, S0B2POS: CjSb_AsPpSp, S0B2POSLemma: CjSb_υπό, S0B2Token: ώστε_υπό, S0Lemma: ώστε, S0POS: CjSb, S0Token: ώστε, ώστε_isGouvernedBy_θέτω: true, ώστε_isGouvernedBy_θέτω_mark: true, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [να, θέτει, υπό ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [να]   B= [θέτει, υπό, αμφισβήτηση ,.. ]
+
+B0IsInLexic: true, B0Lemma: θέτω, B0POS: VbMn, B0Token: θέτει, B1IsInLexic: true, B1Lemma: υπό, B1POS: AsPpSp, B1Token: υπό, S0B0Lemma: να_θέτω, S0B0LemmaPOS: να_VbMn, S0B0POS: PtSj_VbMn, S0B0POSLemma: PtSj_θέτω, S0B0Token: να_θέτει, S0B1Lemma: να_υπό, S0B1LemmaPOS: να_AsPpSp, S0B1POS: PtSj_AsPpSp, S0B1POSLemma: PtSj_υπό, S0B1Token: να_υπό, S0B2Lemma: να_αμφισβήτηση, S0B2LemmaPOS: να_NoCm, S0B2POS: PtSj_NoCm, S0B2POSLemma: PtSj_αμφισβήτηση, S0B2Token: να_αμφισβήτηση, S0IsInLexic: true, S0Lemma: να, S0POS: PtSj, S0Token: να, να_isGouvernedBy_θέτω: true, να_isGouvernedBy_θέτω_aux: true, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [θέτει, υπό, αμφισβήτηση ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [θέτει]   B= [υπό, αμφισβήτηση, την ,.. ]
+
+B0IsInLexic: true, B0Lemma: υπό, B0POS: AsPpSp, B0Token: υπό, B1IsInLexic: true, B1Lemma: αμφισβήτηση, B1POS: NoCm, B1Token: αμφισβήτηση, S0B0Lemma: θέτω_υπό, S0B0LemmaPOS: θέτω_AsPpSp, S0B0POS: VbMn_AsPpSp, S0B0POSLemma: VbMn_υπό, S0B0Token: θέτει_υπό, S0B1Lemma: θέτω_αμφισβήτηση, S0B1LemmaPOS: θέτω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_αμφισβήτηση, S0B1Token: θέτει_αμφισβήτηση, S0B2Lemma: θέτω_ο, S0B2LemmaPOS: θέτω_AtDf, S0B2POS: VbMn_AtDf, S0B2POSLemma: VbMn_ο, S0B2Token: θέτει_την, S0IsInLexic: true, S0Lemma: θέτω, S0POS: VbMn, S0Token: θέτει, hasRighDep_dobj: true, hasRighDep_nmod: true, θέτω_hasRighDep_dobj: true, θέτω_hasRighDep_nmod: true, θέτω_αμφισβήτηση_hasRighDep_nmod: true, θέτω_επικράτηση_hasRighDep_dobj: true, 
+
+64- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [θέτει, υπό]   B= [αμφισβήτηση, την, επικράτησή ,.. ]
+
+B0IsInLexic: true, B0Lemma: αμφισβήτηση, B0POS: NoCm, B0Token: αμφισβήτηση, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: την, S0B0Lemma: υπό_αμφισβήτηση, S0B0LemmaPOS: υπό_NoCm, S0B0POS: AsPpSp_NoCm, S0B0POSLemma: AsPpSp_αμφισβήτηση, S0B0Token: υπό_αμφισβήτηση, S0B1Lemma: υπό_ο, S0B1LemmaPOS: υπό_AtDf, S0B1POS: AsPpSp_AtDf, S0B1POSLemma: AsPpSp_ο, S0B1Token: υπό_την, S0B2Lemma: υπό_επικράτηση, S0B2LemmaPOS: υπό_NoCm, S0B2POS: AsPpSp_NoCm, S0B2POSLemma: AsPpSp_επικράτηση, S0B2Token: υπό_επικράτησή, S0IsInLexic: true, S0Lemma: υπό, S0POS: AsPpSp, S0S1Distance: 1, S0Token: υπό, S1B0Lemma: θέτω_αμφισβήτηση, S1B0LemmaPOS: θέτω_NoCm, S1B0POS: VbMn_NoCm, S1B0POSLemma: VbMn_αμφισβήτηση, S1B0Token: θέτει_αμφισβήτηση, S1IsInLexic: true, S1Lemma: θέτω, S1POS: VbMn, S1S0Lemma: θέτω_υπό, S1S0LemmaPOS: θέτω_AsPpSp, S1S0POS: VbMn_AsPpSp, S1S0POSLemma: VbMn_υπό, S1S0Token: θέτει_υπό, S1Token: θέτει, υπό_isGouvernedBy_αμφισβήτηση: true, υπό_isGouvernedBy_αμφισβήτηση_case: true, 
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [θέτει, υπό, αμφισβήτηση]   B= [την, επικράτησή, του ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: την, B1Lemma: επικράτηση, B1POS: NoCm, B1Token: επικράτησή, S0B0Lemma: αμφισβήτηση_ο, S0B0LemmaPOS: αμφισβήτηση_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: αμφισβήτηση_την, S0B1Lemma: αμφισβήτηση_επικράτηση, S0B1LemmaPOS: αμφισβήτηση_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_επικράτηση, S0B1Token: αμφισβήτηση_επικράτησή, S0B2Lemma: αμφισβήτηση_μου, S0B2LemmaPOS: αμφισβήτηση_PnPo, S0B2POS: NoCm_PnPo, S0B2POSLemma: NoCm_μου, S0B2Token: αμφισβήτηση_του, S0IsInLexic: true, S0Lemma: αμφισβήτηση, S0POS: NoCm, S0S1Distance: 1, S0Token: αμφισβήτηση, S1B0Lemma: υπό_ο, S1B0LemmaPOS: υπό_AtDf, S1B0POS: AsPpSp_AtDf, S1B0POSLemma: AsPpSp_ο, S1B0Token: υπό_την, S1IsInLexic: true, S1Lemma: υπό, S1POS: AsPpSp, S1S0Lemma: υπό_αμφισβήτηση, S1S0LemmaPOS: υπό_NoCm, S1S0POS: AsPpSp_NoCm, S1S0POSLemma: AsPpSp_αμφισβήτηση, S1S0Token: υπό_αμφισβήτηση, S1Token: υπό, SyntaxicRelation: -case, 
+
+66- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [θέτει, [υπό, αμφισβήτηση]]   B= [την, επικράτησή, του ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: την, B1Lemma: επικράτηση, B1POS: NoCm, B1Token: επικράτησή, S0B0Lemma: υπό_αμφισβήτηση_ο, S0B0LemmaPOS: υπό_αμφισβήτηση_AtDf, S0B0POS: AsPpSp_NoCm_AtDf, S0B0POSLemma: AsPpSp_NoCm_ο, S0B0Token: υπό_αμφισβήτηση_την, S0B1Lemma: υπό_αμφισβήτηση_επικράτηση, S0B1LemmaPOS: υπό_αμφισβήτηση_NoCm, S0B1POS: AsPpSp_NoCm_NoCm, S0B1POSLemma: AsPpSp_NoCm_επικράτηση, S0B1Token: υπό_αμφισβήτηση_επικράτησή, S0B2Lemma: υπό_αμφισβήτηση_μου, S0B2LemmaPOS: υπό_αμφισβήτηση_PnPo, S0B2POS: AsPpSp_NoCm_PnPo, S0B2POSLemma: AsPpSp_NoCm_μου, S0B2Token: υπό_αμφισβήτηση_του, S0Lemma: υπό_αμφισβήτηση, S0POS: AsPpSp_NoCm, S0Token: υπό_αμφισβήτηση, S1B0Lemma: θέτω_ο, S1B0LemmaPOS: θέτω_AtDf, S1B0POS: VbMn_AtDf, S1B0POSLemma: VbMn_ο, S1B0Token: θέτει_την, S1IsInLexic: true, S1Lemma: θέτω, S1POS: VbMn, S1S0Lemma: θέτω_υπό_αμφισβήτηση, S1S0LemmaPOS: θέτω_AsPpSp_NoCm, S1S0POS: VbMn_AsPpSp_NoCm, S1S0POSLemma: VbMn_υπό_αμφισβήτηση, S1S0Token: θέτει_υπό_αμφισβήτηση, S1Token: θέτει, 
+
+67- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[θέτει, [υπό, αμφισβήτηση]]]   B= [την, επικράτησή, του ,.. ]
+
+
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [την, επικράτησή, του ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [την]   B= [επικράτησή, του, . ,.. ]
+
+B0Lemma: επικράτηση, B0POS: NoCm, B0Token: επικράτησή, B1IsInLexic: true, B1Lemma: μου, B1POS: PnPo, B1Token: του, S0B0Lemma: ο_επικράτηση, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_επικράτηση, S0B0Token: την_επικράτησή, S0B1Lemma: ο_μου, S0B1LemmaPOS: ο_PnPo, S0B1POS: AtDf_PnPo, S0B1POSLemma: AtDf_μου, S0B1Token: την_του, S0B2Lemma: ο_., S0B2LemmaPOS: ο_PTERMP, S0B2POS: AtDf_PTERMP, S0B2POSLemma: AtDf_., S0B2Token: την_., S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: την, ο_isGouvernedBy_επικράτηση: true, ο_isGouvernedBy_επικράτηση_det: true, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [επικράτησή, του, . ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [επικράτησή]   B= [του, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: μου, B0POS: PnPo, B0Token: του, B1Lemma: ., B1POS: PTERMP, B1Token: ., S0B0Lemma: επικράτηση_μου, S0B0LemmaPOS: επικράτηση_PnPo, S0B0POS: NoCm_PnPo, S0B0POSLemma: NoCm_μου, S0B0Token: επικράτησή_του, S0B1Lemma: επικράτηση_., S0B1LemmaPOS: επικράτηση_PTERMP, S0B1POS: NoCm_PTERMP, S0B1POSLemma: NoCm_., S0B1Token: επικράτησή_., S0Lemma: επικράτηση, S0POS: NoCm, S0Token: επικράτησή, hasRighDep_nmod: true, επικράτηση_._hasRighDep_nmod: true, επικράτηση_hasRighDep_nmod: true, επικράτηση_μου_hasRighDep_nmod: true, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, . ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [.]
+
+B0Lemma: ., B0POS: PTERMP, B0Token: ., S0B0Lemma: μου_., S0B0LemmaPOS: μου_PTERMP, S0B0POS: PnPo_PTERMP, S0B0POSLemma: PnPo_., S0B0Token: του_., S0IsInLexic: true, S0Lemma: μου, S0POS: PnPo, S0Token: του, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 615 - 
+Ενδεικτικώς και πολύ περιληπτικώς αναφέρονται μερικά μόνον από τα μέτρα που έλαβε το τουρκικό κράτος κατά των Ελλήνων μειονοτικών : κατά καιρούς αυθαίρετες απελάσεις ομογενών και δη σημαινόντων προσώπων , απαγόρευση εξασκήσεως πολλών επαγγελμάτων σε Έλληνες , κατασχέσεις περιουσιών , επεμβάσεις στις εκλογές των ομογενειακών ιδρυμάτων , παρεμβολή διαφόρων προσκομμάτων στην ομαλή οργάνωση και λειτουργία των εκπαιδευτηρίων και ένα σωρό άλλα . 
 ### Existing MWEs: 
-1- **πέφτει για ύπνο** (ID, 1)
-### Identified MWEs: 
-1- **πέφτει για ύπνο** 
+1- **μέτρα έλαβε** (ID, 4)
 
 
 
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ενδεικτικώς, και, πολύ ,.. ]
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Σε, έναν, κόσμο ,.. ]
 
 
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ενδεικτικώς]   B= [και, πολύ, περιληπτικώς ,.. ]
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Σε]   B= [έναν, κόσμο, όπου ,.. ]
+B0IsInLexic: true, B0Lemma: και, B0POS: CjCo, B0Token: και, B1Lemma: πολύ, B1POS: Ad, B1Token: πολύ, S0B0Lemma: ενδεικτικά_και, S0B0LemmaPOS: ενδεικτικά_CjCo, S0B0POS: Ad_CjCo, S0B0POSLemma: Ad_και, S0B0Token: Ενδεικτικώς_και, S0B1Lemma: ενδεικτικά_πολύ, S0B1LemmaPOS: ενδεικτικά_Ad, S0B1POS: Ad_Ad, S0B1POSLemma: Ad_πολύ, S0B1Token: Ενδεικτικώς_πολύ, S0B2Lemma: ενδεικτικά_περιληπτικά, S0B2LemmaPOS: ενδεικτικά_Ad, S0B2POS: Ad_Ad, S0B2POSLemma: Ad_περιληπτικά, S0B2Token: Ενδεικτικώς_περιληπτικώς, S0Lemma: ενδεικτικά, S0POS: Ad, S0Token: Ενδεικτικώς, ενδεικτικά_isGouvernedBy_αναφέρω: true, ενδεικτικά_isGouvernedBy_αναφέρω_advmod: true, 
 
-B0IsInLexic: true, B0Lemma: ένας, B0POS: AtId, B0Token: έναν, B1IsInLexic: true, B1Lemma: κόσμος, B1POS: NoCm, B1Token: κόσμο, S0B0Lemma: σε_ένας, S0B0LemmaPOS: σε_AtId, S0B0POS: AsPpSp_AtId, S0B0POSLemma: AsPpSp_ένας, S0B0Token: Σε_έναν, S0B1Lemma: σε_κόσμος, S0B1LemmaPOS: σε_NoCm, S0B1POS: AsPpSp_NoCm, S0B1POSLemma: AsPpSp_κόσμος, S0B1Token: Σε_κόσμο, S0B2Lemma: σε_όπου, S0B2LemmaPOS: σε_Ad, S0B2POS: AsPpSp_Ad, S0B2POSLemma: AsPpSp_όπου, S0B2Token: Σε_όπου, S0IsInLexic: true, S0Lemma: σε, S0POS: AsPpSp, S0Token: Σε, σε_isGouvernedBy_κόσμος: true, σε_isGouvernedBy_κόσμος_case: true, 
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [και, πολύ, περιληπτικώς ,.. ]
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [έναν, κόσμο, όπου ,.. ]
 
 
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [και]   B= [πολύ, περιληπτικώς, αναφέρονται ,.. ]
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [έναν]   B= [κόσμο, όπου, ο ,.. ]
+B0Lemma: πολύ, B0POS: Ad, B0Token: πολύ, B1Lemma: περιληπτικά, B1POS: Ad, B1Token: περιληπτικώς, S0B0Lemma: και_πολύ, S0B0LemmaPOS: και_Ad, S0B0POS: CjCo_Ad, S0B0POSLemma: CjCo_πολύ, S0B0Token: και_πολύ, S0B1Lemma: και_περιληπτικά, S0B1LemmaPOS: και_Ad, S0B1POS: CjCo_Ad, S0B1POSLemma: CjCo_περιληπτικά, S0B1Token: και_περιληπτικώς, S0B2Lemma: και_αναφέρω, S0B2LemmaPOS: και_VbMn, S0B2POS: CjCo_VbMn, S0B2POSLemma: CjCo_αναφέρω, S0B2Token: και_αναφέρονται, S0IsInLexic: true, S0Lemma: και, S0POS: CjCo, S0Token: και, και_isGouvernedBy_πολύ: true, και_isGouvernedBy_πολύ_cc: true, 
 
-B0IsInLexic: true, B0Lemma: κόσμος, B0POS: NoCm, B0Token: κόσμο, B1Lemma: όπου, B1POS: Ad, B1Token: όπου, S0B0Lemma: ένας_κόσμος, S0B0LemmaPOS: ένας_NoCm, S0B0POS: AtId_NoCm, S0B0POSLemma: AtId_κόσμος, S0B0Token: έναν_κόσμο, S0B1Lemma: ένας_όπου, S0B1LemmaPOS: ένας_Ad, S0B1POS: AtId_Ad, S0B1POSLemma: AtId_όπου, S0B1Token: έναν_όπου, S0B2Lemma: ένας_ο, S0B2LemmaPOS: ένας_AtDf, S0B2POS: AtId_AtDf, S0B2POSLemma: AtId_ο, S0B2Token: έναν_ο, S0IsInLexic: true, S0Lemma: ένας, S0POS: AtId, S0Token: έναν, ένας_isGouvernedBy_κόσμος: true, ένας_isGouvernedBy_κόσμος_det: true, 
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πολύ, περιληπτικώς, αναφέρονται ,.. ]
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κόσμο, όπου, ο ,.. ]
 
 
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πολύ]   B= [περιληπτικώς, αναφέρονται, μερικά ,.. ]
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κόσμο]   B= [όπου, ο, ένας ,.. ]
+B0Lemma: περιληπτικά, B0POS: Ad, B0Token: περιληπτικώς, B1Lemma: αναφέρω, B1POS: VbMn, B1Token: αναφέρονται, S0B0Lemma: πολύ_περιληπτικά, S0B0LemmaPOS: πολύ_Ad, S0B0POS: Ad_Ad, S0B0POSLemma: Ad_περιληπτικά, S0B0Token: πολύ_περιληπτικώς, S0B1Lemma: πολύ_αναφέρω, S0B1LemmaPOS: πολύ_VbMn, S0B1POS: Ad_VbMn, S0B1POSLemma: Ad_αναφέρω, S0B1Token: πολύ_αναφέρονται, S0B2Lemma: πολύ_μερικοί, S0B2LemmaPOS: πολύ_PnId, S0B2POS: Ad_PnId, S0B2POSLemma: Ad_μερικοί, S0B2Token: πολύ_μερικά, S0Lemma: πολύ, S0POS: Ad, S0Token: πολύ, πολύ_isGouvernedBy_περιληπτικά: true, πολύ_isGouvernedBy_περιληπτικά_advmod: true, 
 
-B0Lemma: όπου, B0POS: Ad, B0Token: όπου, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: ο, S0B0Lemma: κόσμος_όπου, S0B0LemmaPOS: κόσμος_Ad, S0B0POS: NoCm_Ad, S0B0POSLemma: NoCm_όπου, S0B0Token: κόσμο_όπου, S0B1Lemma: κόσμος_ο, S0B1LemmaPOS: κόσμος_AtDf, S0B1POS: NoCm_AtDf, S0B1POSLemma: NoCm_ο, S0B1Token: κόσμο_ο, S0B2Lemma: κόσμος_ένας, S0B2LemmaPOS: κόσμος_PnId, S0B2POS: NoCm_PnId, S0B2POSLemma: NoCm_ένας, S0B2Token: κόσμο_ένας, S0IsInLexic: true, S0Lemma: κόσμος, S0POS: NoCm, S0Token: κόσμο, κόσμος_isGouvernedBy_μπορώ: true, κόσμος_isGouvernedBy_μπορώ_nmod: true, 
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [περιληπτικώς, αναφέρονται, μερικά ,.. ]
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [όπου, ο, ένας ,.. ]
 
 
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [περιληπτικώς]   B= [αναφέρονται, μερικά, μόνον ,.. ]
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [όπου]   B= [ο, ένας, στους ,.. ]
+B0Lemma: αναφέρω, B0POS: VbMn, B0Token: αναφέρονται, B1Lemma: μερικοί, B1POS: PnId, B1Token: μερικά, S0B0Lemma: περιληπτικά_αναφέρω, S0B0LemmaPOS: περιληπτικά_VbMn, S0B0POS: Ad_VbMn, S0B0POSLemma: Ad_αναφέρω, S0B0Token: περιληπτικώς_αναφέρονται, S0B1Lemma: περιληπτικά_μερικοί, S0B1LemmaPOS: περιληπτικά_PnId, S0B1POS: Ad_PnId, S0B1POSLemma: Ad_μερικοί, S0B1Token: περιληπτικώς_μερικά, S0B2Lemma: περιληπτικά_μόνο, S0B2LemmaPOS: περιληπτικά_Ad, S0B2POS: Ad_Ad, S0B2POSLemma: Ad_μόνο, S0B2Token: περιληπτικώς_μόνον, S0Lemma: περιληπτικά, S0POS: Ad, S0Token: περιληπτικώς, περιληπτικά_isGouvernedBy_αναφέρω: true, περιληπτικά_isGouvernedBy_αναφέρω_advmod: true, 
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: ο, B1IsInLexic: true, B1Lemma: ένας, B1POS: PnId, B1Token: ένας, S0B0Lemma: όπου_ο, S0B0LemmaPOS: όπου_AtDf, S0B0POS: Ad_AtDf, S0B0POSLemma: Ad_ο, S0B0Token: όπου_ο, S0B1Lemma: όπου_ένας, S0B1LemmaPOS: όπου_PnId, S0B1POS: Ad_PnId, S0B1POSLemma: Ad_ένας, S0B1Token: όπου_ένας, S0B2Lemma: όπου_στου, S0B2LemmaPOS: όπου_AsPpPa, S0B2POS: Ad_AsPpPa, S0B2POSLemma: Ad_στου, S0B2Token: όπου_στους, S0Lemma: όπου, S0POS: Ad, S0Token: όπου, όπου_isGouvernedBy_πέφτω: true, όπου_isGouvernedBy_πέφτω_advmod: true, 
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αναφέρονται, μερικά, μόνον ,.. ]
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ο, ένας, στους ,.. ]
 
 
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αναφέρονται]   B= [μερικά, μόνον, από ,.. ]
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ο]   B= [ένας, στους, 9 ,.. ]
+B0Lemma: μερικοί, B0POS: PnId, B0Token: μερικά, B1Lemma: μόνο, B1POS: Ad, B1Token: μόνον, S0B0Lemma: αναφέρω_μερικοί, S0B0LemmaPOS: αναφέρω_PnId, S0B0POS: VbMn_PnId, S0B0POSLemma: VbMn_μερικοί, S0B0Token: αναφέρονται_μερικά, S0B1Lemma: αναφέρω_μόνο, S0B1LemmaPOS: αναφέρω_Ad, S0B1POS: VbMn_Ad, S0B1POSLemma: VbMn_μόνο, S0B1Token: αναφέρονται_μόνον, S0B2Lemma: αναφέρω_από, S0B2LemmaPOS: αναφέρω_AsPpSp, S0B2POS: VbMn_AsPpSp, S0B2POSLemma: VbMn_από, S0B2Token: αναφέρονται_από, S0Lemma: αναφέρω, S0POS: VbMn, S0Token: αναφέρονται, 
 
-B0IsInLexic: true, B0Lemma: ένας, B0POS: PnId, B0Token: ένας, B1IsInLexic: true, B1Lemma: στου, B1POS: AsPpPa, B1Token: στους, S0B0Lemma: ο_ένας, S0B0LemmaPOS: ο_PnId, S0B0POS: AtDf_PnId, S0B0POSLemma: AtDf_ένας, S0B0Token: ο_ένας, S0B1Lemma: ο_στου, S0B1LemmaPOS: ο_AsPpPa, S0B1POS: AtDf_AsPpPa, S0B1POSLemma: AtDf_στου, S0B1Token: ο_στους, S0B2Lemma: ο_9, S0B2LemmaPOS: ο_DIG, S0B2POS: AtDf_DIG, S0B2POSLemma: AtDf_9, S0B2Token: ο_9, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: ο, ο_isGouvernedBy_ένας: true, ο_isGouvernedBy_ένας_det: true, 
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μερικά, μόνον, από ,.. ]
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ένας, στους, 9 ,.. ]
 
 
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μερικά]   B= [μόνον, από, τα ,.. ]
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ένας]   B= [στους, 9, ανθρώπους ,.. ]
+B0Lemma: μόνο, B0POS: Ad, B0Token: μόνον, B1IsInLexic: true, B1Lemma: από, B1POS: AsPpSp, B1Token: από, S0B0Lemma: μερικοί_μόνο, S0B0LemmaPOS: μερικοί_Ad, S0B0POS: PnId_Ad, S0B0POSLemma: PnId_μόνο, S0B0Token: μερικά_μόνον, S0B1Lemma: μερικοί_από, S0B1LemmaPOS: μερικοί_AsPpSp, S0B1POS: PnId_AsPpSp, S0B1POSLemma: PnId_από, S0B1Token: μερικά_από, S0B2Lemma: μερικοί_ο, S0B2LemmaPOS: μερικοί_AtDf, S0B2POS: PnId_AtDf, S0B2POSLemma: PnId_ο, S0B2Token: μερικά_τα, S0Lemma: μερικοί, S0POS: PnId, S0Token: μερικά, μερικοί_isGouvernedBy_Έλληνας: true, μερικοί_isGouvernedBy_Έλληνας_nmod: true, 
 
-B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στους, B1Lemma: 9, B1POS: DIG, B1Token: 9, S0B0Lemma: ένας_στου, S0B0LemmaPOS: ένας_AsPpPa, S0B0POS: PnId_AsPpPa, S0B0POSLemma: PnId_στου, S0B0Token: ένας_στους, S0B1Lemma: ένας_9, S0B1LemmaPOS: ένας_DIG, S0B1POS: PnId_DIG, S0B1POSLemma: PnId_9, S0B1Token: ένας_9, S0B2Lemma: ένας_άνθρωπος, S0B2LemmaPOS: ένας_NoCm, S0B2POS: PnId_NoCm, S0B2POSLemma: PnId_άνθρωπος, S0B2Token: ένας_ανθρώπους, S0IsInLexic: true, S0Lemma: ένας, S0POS: PnId, S0Token: ένας, hasRighDep_nmod: true, ένας_hasRighDep_nmod: true, ένας_isGouvernedBy_πέφτω: true, ένας_isGouvernedBy_πέφτω_nsubj: true, ένας_άνθρωπος_hasRighDep_nmod: true, 
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μόνον, από, τα ,.. ]
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στους, 9, ανθρώπους ,.. ]
 
 
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μόνον]   B= [από, τα, μέτρα ,.. ]
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στους]   B= [9, ανθρώπους, πέφτει ,.. ]
+B0IsInLexic: true, B0Lemma: από, B0POS: AsPpSp, B0Token: από, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τα, S0B0Lemma: μόνο_από, S0B0LemmaPOS: μόνο_AsPpSp, S0B0POS: Ad_AsPpSp, S0B0POSLemma: Ad_από, S0B0Token: μόνον_από, S0B1Lemma: μόνο_ο, S0B1LemmaPOS: μόνο_AtDf, S0B1POS: Ad_AtDf, S0B1POSLemma: Ad_ο, S0B1Token: μόνον_τα, S0B2Lemma: μόνο_μέτρο, S0B2LemmaPOS: μόνο_NoCm, S0B2POS: Ad_NoCm, S0B2POSLemma: Ad_μέτρο, S0B2Token: μόνον_μέτρα, S0Lemma: μόνο, S0POS: Ad, S0Token: μόνον, hasRighDep_nmod: true, μόνο_hasRighDep_nmod: true, μόνο_μέτρο_hasRighDep_nmod: true, 
 
-B0Lemma: 9, B0POS: DIG, B0Token: 9, B1Lemma: άνθρωπος, B1POS: NoCm, B1Token: ανθρώπους, S0B0Lemma: στου_9, S0B0LemmaPOS: στου_DIG, S0B0POS: AsPpPa_DIG, S0B0POSLemma: AsPpPa_9, S0B0Token: στους_9, S0B1Lemma: στου_άνθρωπος, S0B1LemmaPOS: στου_NoCm, S0B1POS: AsPpPa_NoCm, S0B1POSLemma: AsPpPa_άνθρωπος, S0B1Token: στους_ανθρώπους, S0B2Lemma: στου_πέφτω, S0B2LemmaPOS: στου_VbMn, S0B2POS: AsPpPa_VbMn, S0B2POSLemma: AsPpPa_πέφτω, S0B2Token: στους_πέφτει, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στους, στου_isGouvernedBy_άνθρωπος: true, στου_isGouvernedBy_άνθρωπος_case: true, 
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [από, τα, μέτρα ,.. ]
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [9, ανθρώπους, πέφτει ,.. ]
 
 
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [από]   B= [τα, μέτρα, που ,.. ]
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [9]   B= [ανθρώπους, πέφτει, για ,.. ]
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τα, B1IsInLexic: true, B1Lemma: μέτρο, B1POS: NoCm, B1Token: μέτρα, S0B0Lemma: από_ο, S0B0LemmaPOS: από_AtDf, S0B0POS: AsPpSp_AtDf, S0B0POSLemma: AsPpSp_ο, S0B0Token: από_τα, S0B1Lemma: από_μέτρο, S0B1LemmaPOS: από_NoCm, S0B1POS: AsPpSp_NoCm, S0B1POSLemma: AsPpSp_μέτρο, S0B1Token: από_μέτρα, S0B2Lemma: από_που, S0B2LemmaPOS: από_PnRe, S0B2POS: AsPpSp_PnRe, S0B2POSLemma: AsPpSp_που, S0B2Token: από_που, S0IsInLexic: true, S0Lemma: από, S0POS: AsPpSp, S0Token: από, από_isGouvernedBy_μέτρο: true, από_isGouvernedBy_μέτρο_case: true, 
 
-9_isGouvernedBy_άνθρωπος: true, 9_isGouvernedBy_άνθρωπος_nmod: true, B0Lemma: άνθρωπος, B0POS: NoCm, B0Token: ανθρώπους, B1IsInLexic: true, B1Lemma: πέφτω, B1POS: VbMn, B1Token: πέφτει, S0B0Lemma: 9_άνθρωπος, S0B0LemmaPOS: 9_NoCm, S0B0POS: DIG_NoCm, S0B0POSLemma: DIG_άνθρωπος, S0B0Token: 9_ανθρώπους, S0B1Lemma: 9_πέφτω, S0B1LemmaPOS: 9_VbMn, S0B1POS: DIG_VbMn, S0B1POSLemma: DIG_πέφτω, S0B1Token: 9_πέφτει, S0B2Lemma: 9_για, S0B2LemmaPOS: 9_AsPpSp, S0B2POS: DIG_AsPpSp, S0B2POSLemma: DIG_για, S0B2Token: 9_για, S0Lemma: 9, S0POS: DIG, S0Token: 9, 
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τα, μέτρα, που ,.. ]
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ανθρώπους, πέφτει, για ,.. ]
 
 
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τα]   B= [μέτρα, που, έλαβε ,.. ]
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ανθρώπους]   B= [πέφτει, για, ύπνο ,.. ]
+B0IsInLexic: true, B0Lemma: μέτρο, B0POS: NoCm, B0Token: μέτρα, B1Lemma: που, B1POS: PnRe, B1Token: που, S0B0Lemma: ο_μέτρο, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_μέτρο, S0B0Token: τα_μέτρα, S0B1Lemma: ο_που, S0B1LemmaPOS: ο_PnRe, S0B1POS: AtDf_PnRe, S0B1POSLemma: AtDf_που, S0B1Token: τα_που, S0B2Lemma: ο_λαμβάνω, S0B2LemmaPOS: ο_VbMn, S0B2POS: AtDf_VbMn, S0B2POSLemma: AtDf_λαμβάνω, S0B2Token: τα_έλαβε, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: τα, ο_isGouvernedBy_μέτρο: true, ο_isGouvernedBy_μέτρο_det: true, 
 
-B0IsInLexic: true, B0Lemma: πέφτω, B0POS: VbMn, B0Token: πέφτει, B1IsInLexic: true, B1Lemma: για, B1POS: AsPpSp, B1Token: για, S0B0Lemma: άνθρωπος_πέφτω, S0B0LemmaPOS: άνθρωπος_VbMn, S0B0POS: NoCm_VbMn, S0B0POSLemma: NoCm_πέφτω, S0B0Token: ανθρώπους_πέφτει, S0B1Lemma: άνθρωπος_για, S0B1LemmaPOS: άνθρωπος_AsPpSp, S0B1POS: NoCm_AsPpSp, S0B1POSLemma: NoCm_για, S0B1Token: ανθρώπους_για, S0B2Lemma: άνθρωπος_ύπνος, S0B2LemmaPOS: άνθρωπος_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_ύπνος, S0B2Token: ανθρώπους_ύπνο, S0Lemma: άνθρωπος, S0POS: NoCm, S0Token: ανθρώπους, 
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μέτρα, που, έλαβε ,.. ]
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πέφτει, για, ύπνο ,.. ]
 
 
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μέτρα]   B= [που, έλαβε, το ,.. ]
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πέφτει]   B= [για, ύπνο, κάθε ,.. ]
+B0Lemma: που, B0POS: PnRe, B0Token: που, B1IsInLexic: true, B1Lemma: λαμβάνω, B1POS: VbMn, B1Token: έλαβε, S0B0Lemma: μέτρο_που, S0B0LemmaPOS: μέτρο_PnRe, S0B0POS: NoCm_PnRe, S0B0POSLemma: NoCm_που, S0B0Token: μέτρα_που, S0B1Lemma: μέτρο_λαμβάνω, S0B1LemmaPOS: μέτρο_VbMn, S0B1POS: NoCm_VbMn, S0B1POSLemma: NoCm_λαμβάνω, S0B1Token: μέτρα_έλαβε, S0B2Lemma: μέτρο_ο, S0B2LemmaPOS: μέτρο_AtDf, S0B2POS: NoCm_AtDf, S0B2POSLemma: NoCm_ο, S0B2Token: μέτρα_το, S0IsInLexic: true, S0Lemma: μέτρο, S0POS: NoCm, S0Token: μέτρα, hasRighDep_relcl: true, μέτρο_hasRighDep_relcl: true, μέτρο_λαμβάνω_hasRighDep_relcl: true, 
 
-B0IsInLexic: true, B0Lemma: για, B0POS: AsPpSp, B0Token: για, B1IsInLexic: true, B1Lemma: ύπνος, B1POS: NoCm, B1Token: ύπνο, S0B0Lemma: πέφτω_για, S0B0LemmaPOS: πέφτω_AsPpSp, S0B0POS: VbMn_AsPpSp, S0B0POSLemma: VbMn_για, S0B0Token: πέφτει_για, S0B1Lemma: πέφτω_ύπνος, S0B1LemmaPOS: πέφτω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_ύπνος, S0B1Token: πέφτει_ύπνο, S0B2Lemma: πέφτω_κάθε, S0B2LemmaPOS: πέφτω_PnId, S0B2POS: VbMn_PnId, S0B2POSLemma: VbMn_κάθε, S0B2Token: πέφτει_κάθε, S0IsInLexic: true, S0Lemma: πέφτω, S0POS: VbMn, S0Token: πέφτει, hasRighDep_nmod: true, hasRighDep_pnom: true, πέφτω_hasRighDep_nmod: true, πέφτω_hasRighDep_pnom: true, πέφτω_isGouvernedBy_μπορώ: true, πέφτω_isGouvernedBy_μπορώ_advcl: true, πέφτω_βράδυ_hasRighDep_nmod: true, πέφτω_νηστικός_hasRighDep_pnom: true, πέφτω_ύπνος_hasRighDep_nmod: true, 
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [που, έλαβε, το ,.. ]
 
-20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πέφτει, για]   B= [ύπνο, κάθε, βράδυ ,.. ]
 
-B0IsInLexic: true, B0Lemma: ύπνος, B0POS: NoCm, B0Token: ύπνο, B1Lemma: κάθε, B1POS: PnId, B1Token: κάθε, S0B0Lemma: για_ύπνος, S0B0LemmaPOS: για_NoCm, S0B0POS: AsPpSp_NoCm, S0B0POSLemma: AsPpSp_ύπνος, S0B0Token: για_ύπνο, S0B1Lemma: για_κάθε, S0B1LemmaPOS: για_PnId, S0B1POS: AsPpSp_PnId, S0B1POSLemma: AsPpSp_κάθε, S0B1Token: για_κάθε, S0B2Lemma: για_βράδυ, S0B2LemmaPOS: για_NoCm, S0B2POS: AsPpSp_NoCm, S0B2POSLemma: AsPpSp_βράδυ, S0B2Token: για_βράδυ, S0IsInLexic: true, S0Lemma: για, S0POS: AsPpSp, S0S1Distance: 1, S0Token: για, S1B0Lemma: πέφτω_ύπνος, S1B0LemmaPOS: πέφτω_NoCm, S1B0POS: VbMn_NoCm, S1B0POSLemma: VbMn_ύπνος, S1B0Token: πέφτει_ύπνο, S1IsInLexic: true, S1Lemma: πέφτω, S1POS: VbMn, S1S0Lemma: πέφτω_για, S1S0LemmaPOS: πέφτω_AsPpSp, S1S0POS: VbMn_AsPpSp, S1S0POSLemma: VbMn_για, S1S0Token: πέφτει_για, S1Token: πέφτει, για_isGouvernedBy_ύπνος: true, για_isGouvernedBy_ύπνος_case: true, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πέφτει, για, ύπνο]   B= [κάθε, βράδυ, νηστικός ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [που]   B= [έλαβε, το, τουρκικό ,.. ]
 
-B0Lemma: κάθε, B0POS: PnId, B0Token: κάθε, B1Lemma: βράδυ, B1POS: NoCm, B1Token: βράδυ, S0B0Lemma: ύπνος_κάθε, S0B0LemmaPOS: ύπνος_PnId, S0B0POS: NoCm_PnId, S0B0POSLemma: NoCm_κάθε, S0B0Token: ύπνο_κάθε, S0B1Lemma: ύπνος_βράδυ, S0B1LemmaPOS: ύπνος_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_βράδυ, S0B1Token: ύπνο_βράδυ, S0B2Lemma: ύπνος_νηστικός, S0B2LemmaPOS: ύπνος_Aj, S0B2POS: NoCm_Aj, S0B2POSLemma: NoCm_νηστικός, S0B2Token: ύπνο_νηστικός, S0IsInLexic: true, S0Lemma: ύπνος, S0POS: NoCm, S0S1Distance: 1, S0Token: ύπνο, S1B0Lemma: για_κάθε, S1B0LemmaPOS: για_PnId, S1B0POS: AsPpSp_PnId, S1B0POSLemma: AsPpSp_κάθε, S1B0Token: για_κάθε, S1IsInLexic: true, S1Lemma: για, S1POS: AsPpSp, S1S0Lemma: για_ύπνος, S1S0LemmaPOS: για_NoCm, S1S0POS: AsPpSp_NoCm, S1S0POSLemma: AsPpSp_ύπνος, S1S0Token: για_ύπνο, S1Token: για, SyntaxicRelation: -case, 
+B0IsInLexic: true, B0Lemma: λαμβάνω, B0POS: VbMn, B0Token: έλαβε, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: το, S0B0Lemma: που_λαμβάνω, S0B0LemmaPOS: που_VbMn, S0B0POS: PnRe_VbMn, S0B0POSLemma: PnRe_λαμβάνω, S0B0Token: που_έλαβε, S0B1Lemma: που_ο, S0B1LemmaPOS: που_AtDf, S0B1POS: PnRe_AtDf, S0B1POSLemma: PnRe_ο, S0B1Token: που_το, S0B2Lemma: που_τουρκικός, S0B2LemmaPOS: που_Aj, S0B2POS: PnRe_Aj, S0B2POSLemma: PnRe_τουρκικός, S0B2Token: που_τουρκικό, S0Lemma: που, S0POS: PnRe, S0Token: που, που_isGouvernedBy_λαμβάνω: true, που_isGouvernedBy_λαμβάνω_dobj: true, 
 
-22- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πέφτει, [για, ύπνο]]   B= [κάθε, βράδυ, νηστικός ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [έλαβε, το, τουρκικό ,.. ]
 
-B0Lemma: κάθε, B0POS: PnId, B0Token: κάθε, B1Lemma: βράδυ, B1POS: NoCm, B1Token: βράδυ, S0B0Lemma: για_ύπνος_κάθε, S0B0LemmaPOS: για_ύπνος_PnId, S0B0POS: AsPpSp_NoCm_PnId, S0B0POSLemma: AsPpSp_NoCm_κάθε, S0B0Token: για_ύπνο_κάθε, S0B1Lemma: για_ύπνος_βράδυ, S0B1LemmaPOS: για_ύπνος_NoCm, S0B1POS: AsPpSp_NoCm_NoCm, S0B1POSLemma: AsPpSp_NoCm_βράδυ, S0B1Token: για_ύπνο_βράδυ, S0B2Lemma: για_ύπνος_νηστικός, S0B2LemmaPOS: για_ύπνος_Aj, S0B2POS: AsPpSp_NoCm_Aj, S0B2POSLemma: AsPpSp_NoCm_νηστικός, S0B2Token: για_ύπνο_νηστικός, S0Lemma: για_ύπνος, S0POS: AsPpSp_NoCm, S0Token: για_ύπνο, S1B0Lemma: πέφτω_κάθε, S1B0LemmaPOS: πέφτω_PnId, S1B0POS: VbMn_PnId, S1B0POSLemma: VbMn_κάθε, S1B0Token: πέφτει_κάθε, S1IsInLexic: true, S1Lemma: πέφτω, S1POS: VbMn, S1S0Lemma: πέφτω_για_ύπνος, S1S0LemmaPOS: πέφτω_AsPpSp_NoCm, S1S0POS: VbMn_AsPpSp_NoCm, S1S0POSLemma: VbMn_για_ύπνος, S1S0Token: πέφτει_για_ύπνο, S1Token: πέφτει, 
 
-23- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[πέφτει, [για, ύπνο]]]   B= [κάθε, βράδυ, νηστικός ,.. ]
 
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [έλαβε]   B= [το, τουρκικό, κράτος ,.. ]
 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: το, B1Lemma: τουρκικός, B1POS: Aj, B1Token: τουρκικό, S0B0Lemma: λαμβάνω_ο, S0B0LemmaPOS: λαμβάνω_AtDf, S0B0POS: VbMn_AtDf, S0B0POSLemma: VbMn_ο, S0B0Token: έλαβε_το, S0B1Lemma: λαμβάνω_τουρκικός, S0B1LemmaPOS: λαμβάνω_Aj, S0B1POS: VbMn_Aj, S0B1POSLemma: VbMn_τουρκικός, S0B1Token: έλαβε_τουρκικό, S0B2Lemma: λαμβάνω_κράτος, S0B2LemmaPOS: λαμβάνω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_κράτος, S0B2Token: έλαβε_κράτος, S0IsInLexic: true, S0Lemma: λαμβάνω, S0POS: VbMn, S0Token: έλαβε, hasRighDep_dobj: true, hasRighDep_nmod: true, λαμβάνω_hasRighDep_dobj: true, λαμβάνω_hasRighDep_nmod: true, λαμβάνω_καιρός_hasRighDep_nmod: true, λαμβάνω_κράτος_hasRighDep_dobj: true, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κάθε, βράδυ, νηστικός ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [το, τουρκικό, κράτος ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κάθε]   B= [βράδυ, νηστικός, δεν ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [το]   B= [τουρκικό, κράτος, κατά ,.. ]
 
-B0Lemma: βράδυ, B0POS: NoCm, B0Token: βράδυ, B1Lemma: νηστικός, B1POS: Aj, B1Token: νηστικός, S0B0Lemma: κάθε_βράδυ, S0B0LemmaPOS: κάθε_NoCm, S0B0POS: PnId_NoCm, S0B0POSLemma: PnId_βράδυ, S0B0Token: κάθε_βράδυ, S0B1Lemma: κάθε_νηστικός, S0B1LemmaPOS: κάθε_Aj, S0B1POS: PnId_Aj, S0B1POSLemma: PnId_νηστικός, S0B1Token: κάθε_νηστικός, S0B2Lemma: κάθε_δεν, S0B2LemmaPOS: κάθε_PtNg, S0B2POS: PnId_PtNg, S0B2POSLemma: PnId_δεν, S0B2Token: κάθε_δεν, S0Lemma: κάθε, S0POS: PnId, S0Token: κάθε, κάθε_isGouvernedBy_βράδυ: true, κάθε_isGouvernedBy_βράδυ_nmod: true, 
+B0Lemma: τουρκικός, B0POS: Aj, B0Token: τουρκικό, B1Lemma: κράτος, B1POS: NoCm, B1Token: κράτος, S0B0Lemma: ο_τουρκικός, S0B0LemmaPOS: ο_Aj, S0B0POS: AtDf_Aj, S0B0POSLemma: AtDf_τουρκικός, S0B0Token: το_τουρκικό, S0B1Lemma: ο_κράτος, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_κράτος, S0B1Token: το_κράτος, S0B2Lemma: ο_κατά, S0B2LemmaPOS: ο_AsPpSp, S0B2POS: AtDf_AsPpSp, S0B2POSLemma: AtDf_κατά, S0B2Token: το_κατά, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: το, ο_isGouvernedBy_κράτος: true, ο_isGouvernedBy_κράτος_det: true, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [βράδυ, νηστικός, δεν ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τουρκικό, κράτος, κατά ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [βράδυ]   B= [νηστικός, δεν, μπορούμε ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τουρκικό]   B= [κράτος, κατά, των ,.. ]
 
-B0Lemma: νηστικός, B0POS: Aj, B0Token: νηστικός, B1IsInLexic: true, B1Lemma: δεν, B1POS: PtNg, B1Token: δεν, S0B0Lemma: βράδυ_νηστικός, S0B0LemmaPOS: βράδυ_Aj, S0B0POS: NoCm_Aj, S0B0POSLemma: NoCm_νηστικός, S0B0Token: βράδυ_νηστικός, S0B1Lemma: βράδυ_δεν, S0B1LemmaPOS: βράδυ_PtNg, S0B1POS: NoCm_PtNg, S0B1POSLemma: NoCm_δεν, S0B1Token: βράδυ_δεν, S0B2Lemma: βράδυ_μπορώ, S0B2LemmaPOS: βράδυ_VbMn, S0B2POS: NoCm_VbMn, S0B2POSLemma: NoCm_μπορώ, S0B2Token: βράδυ_μπορούμε, S0Lemma: βράδυ, S0POS: NoCm, S0Token: βράδυ, 
+B0Lemma: κράτος, B0POS: NoCm, B0Token: κράτος, B1IsInLexic: true, B1Lemma: κατά, B1POS: AsPpSp, B1Token: κατά, S0B0Lemma: τουρκικός_κράτος, S0B0LemmaPOS: τουρκικός_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_κράτος, S0B0Token: τουρκικό_κράτος, S0B1Lemma: τουρκικός_κατά, S0B1LemmaPOS: τουρκικός_AsPpSp, S0B1POS: Aj_AsPpSp, S0B1POSLemma: Aj_κατά, S0B1Token: τουρκικό_κατά, S0B2Lemma: τουρκικός_ο, S0B2LemmaPOS: τουρκικός_AtDf, S0B2POS: Aj_AtDf, S0B2POSLemma: Aj_ο, S0B2Token: τουρκικό_των, S0Lemma: τουρκικός, S0POS: Aj, S0Token: τουρκικό, τουρκικός_isGouvernedBy_κράτος: true, τουρκικός_isGouvernedBy_κράτος_amod: true, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [νηστικός, δεν, μπορούμε ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κράτος, κατά, των ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [νηστικός]   B= [δεν, μπορούμε, να ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κράτος]   B= [κατά, των, Ελλήνων ,.. ]
 
-B0IsInLexic: true, B0Lemma: δεν, B0POS: PtNg, B0Token: δεν, B1Lemma: μπορώ, B1POS: VbMn, B1Token: μπορούμε, S0B0Lemma: νηστικός_δεν, S0B0LemmaPOS: νηστικός_PtNg, S0B0POS: Aj_PtNg, S0B0POSLemma: Aj_δεν, S0B0Token: νηστικός_δεν, S0B1Lemma: νηστικός_μπορώ, S0B1LemmaPOS: νηστικός_VbMn, S0B1POS: Aj_VbMn, S0B1POSLemma: Aj_μπορώ, S0B1Token: νηστικός_μπορούμε, S0B2Lemma: νηστικός_να, S0B2LemmaPOS: νηστικός_PtSj, S0B2POS: Aj_PtSj, S0B2POSLemma: Aj_να, S0B2Token: νηστικός_να, S0Lemma: νηστικός, S0POS: Aj, S0Token: νηστικός, 
+B0IsInLexic: true, B0Lemma: κατά, B0POS: AsPpSp, B0Token: κατά, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: των, S0B0Lemma: κράτος_κατά, S0B0LemmaPOS: κράτος_AsPpSp, S0B0POS: NoCm_AsPpSp, S0B0POSLemma: NoCm_κατά, S0B0Token: κράτος_κατά, S0B1Lemma: κράτος_ο, S0B1LemmaPOS: κράτος_AtDf, S0B1POS: NoCm_AtDf, S0B1POSLemma: NoCm_ο, S0B1Token: κράτος_των, S0B2Lemma: κράτος_Έλληνας, S0B2LemmaPOS: κράτος_NoPr, S0B2POS: NoCm_NoPr, S0B2POSLemma: NoCm_Έλληνας, S0B2Token: κράτος_Ελλήνων, S0Lemma: κράτος, S0POS: NoCm, S0Token: κράτος, hasRighDep_nmod: true, κράτος_:_hasRighDep_nmod: true, κράτος_hasRighDep_nmod: true, κράτος_Έλληνας_hasRighDep_nmod: true, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [δεν, μπορούμε, να ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κατά, των, Ελλήνων ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [δεν]   B= [μπορούμε, να, δεχτούμε ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κατά]   B= [των, Ελλήνων, μειονοτικών ,.. ]
 
-B0Lemma: μπορώ, B0POS: VbMn, B0Token: μπορούμε, B1IsInLexic: true, B1Lemma: να, B1POS: PtSj, B1Token: να, S0B0Lemma: δεν_μπορώ, S0B0LemmaPOS: δεν_VbMn, S0B0POS: PtNg_VbMn, S0B0POSLemma: PtNg_μπορώ, S0B0Token: δεν_μπορούμε, S0B1Lemma: δεν_να, S0B1LemmaPOS: δεν_PtSj, S0B1POS: PtNg_PtSj, S0B1POSLemma: PtNg_να, S0B1Token: δεν_να, S0B2Lemma: δεν_δέχομαι, S0B2LemmaPOS: δεν_VbMn, S0B2POS: PtNg_VbMn, S0B2POSLemma: PtNg_δέχομαι, S0B2Token: δεν_δεχτούμε, S0IsInLexic: true, S0Lemma: δεν, S0POS: PtNg, S0Token: δεν, δεν_isGouvernedBy_μπορώ: true, δεν_isGouvernedBy_μπορώ_neg: true, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: των, B1Lemma: Έλληνας, B1POS: NoPr, B1Token: Ελλήνων, S0B0Lemma: κατά_ο, S0B0LemmaPOS: κατά_AtDf, S0B0POS: AsPpSp_AtDf, S0B0POSLemma: AsPpSp_ο, S0B0Token: κατά_των, S0B1Lemma: κατά_Έλληνας, S0B1LemmaPOS: κατά_NoPr, S0B1POS: AsPpSp_NoPr, S0B1POSLemma: AsPpSp_Έλληνας, S0B1Token: κατά_Ελλήνων, S0B2Lemma: κατά_μειονοτικός, S0B2LemmaPOS: κατά_Aj, S0B2POS: AsPpSp_Aj, S0B2POSLemma: AsPpSp_μειονοτικός, S0B2Token: κατά_μειονοτικών, S0IsInLexic: true, S0Lemma: κατά, S0POS: AsPpSp, S0Token: κατά, κατά_isGouvernedBy_Έλληνας: true, κατά_isGouvernedBy_Έλληνας_case: true, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μπορούμε, να, δεχτούμε ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [των, Ελλήνων, μειονοτικών ,.. ]
 
 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μπορούμε]   B= [να, δεχτούμε, οι ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [των]   B= [Ελλήνων, μειονοτικών, : ,.. ]
 
-B0IsInLexic: true, B0Lemma: να, B0POS: PtSj, B0Token: να, B1Lemma: δέχομαι, B1POS: VbMn, B1Token: δεχτούμε, S0B0Lemma: μπορώ_να, S0B0LemmaPOS: μπορώ_PtSj, S0B0POS: VbMn_PtSj, S0B0POSLemma: VbMn_να, S0B0Token: μπορούμε_να, S0B1Lemma: μπορώ_δέχομαι, S0B1LemmaPOS: μπορώ_VbMn, S0B1POS: VbMn_VbMn, S0B1POSLemma: VbMn_δέχομαι, S0B1Token: μπορούμε_δεχτούμε, S0B2Lemma: μπορώ_ο, S0B2LemmaPOS: μπορώ_AtDf, S0B2POS: VbMn_AtDf, S0B2POSLemma: VbMn_ο, S0B2Token: μπορούμε_οι, S0Lemma: μπορώ, S0POS: VbMn, S0Token: μπορούμε, hasRighDep_ccomp: true, hasRighDep_punct: true, μπορώ_,_hasRighDep_punct: true, μπορώ_hasRighDep_ccomp: true, μπορώ_hasRighDep_punct: true, μπορώ_isGouvernedBy_τονίζω: true, μπορώ_isGouvernedBy_τονίζω_ccomp: true, μπορώ_»_hasRighDep_punct: true, μπορώ_δέχομαι_hasRighDep_ccomp: true, 
+B0Lemma: Έλληνας, B0POS: NoPr, B0Token: Ελλήνων, B1Lemma: μειονοτικός, B1POS: Aj, B1Token: μειονοτικών, S0B0Lemma: ο_Έλληνας, S0B0LemmaPOS: ο_NoPr, S0B0POS: AtDf_NoPr, S0B0POSLemma: AtDf_Έλληνας, S0B0Token: των_Ελλήνων, S0B1Lemma: ο_μειονοτικός, S0B1LemmaPOS: ο_Aj, S0B1POS: AtDf_Aj, S0B1POSLemma: AtDf_μειονοτικός, S0B1Token: των_μειονοτικών, S0B2Lemma: ο_:, S0B2LemmaPOS: ο_PTERMP, S0B2POS: AtDf_PTERMP, S0B2POSLemma: AtDf_:, S0B2Token: των_:, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: των, ο_isGouvernedBy_Έλληνας: true, ο_isGouvernedBy_Έλληνας_det: true, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [να, δεχτούμε, οι ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ελλήνων, μειονοτικών, : ,.. ]
 
 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [να]   B= [δεχτούμε, οι, πιο ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ελλήνων]   B= [μειονοτικών, :, κατά ,.. ]
 
-B0Lemma: δέχομαι, B0POS: VbMn, B0Token: δεχτούμε, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: οι, S0B0Lemma: να_δέχομαι, S0B0LemmaPOS: να_VbMn, S0B0POS: PtSj_VbMn, S0B0POSLemma: PtSj_δέχομαι, S0B0Token: να_δεχτούμε, S0B1Lemma: να_ο, S0B1LemmaPOS: να_AtDf, S0B1POS: PtSj_AtDf, S0B1POSLemma: PtSj_ο, S0B1Token: να_οι, S0B2Lemma: να_πιο, S0B2LemmaPOS: να_Ad, S0B2POS: PtSj_Ad, S0B2POSLemma: PtSj_πιο, S0B2Token: να_πιο, S0IsInLexic: true, S0Lemma: να, S0POS: PtSj, S0Token: να, να_isGouvernedBy_δέχομαι: true, να_isGouvernedBy_δέχομαι_aux: true, 
+B0Lemma: μειονοτικός, B0POS: Aj, B0Token: μειονοτικών, B1Lemma: :, B1POS: PTERMP, B1Token: :, S0B0Lemma: Έλληνας_μειονοτικός, S0B0LemmaPOS: Έλληνας_Aj, S0B0POS: NoPr_Aj, S0B0POSLemma: NoPr_μειονοτικός, S0B0Token: Ελλήνων_μειονοτικών, S0B1Lemma: Έλληνας_:, S0B1LemmaPOS: Έλληνας_PTERMP, S0B1POS: NoPr_PTERMP, S0B1POSLemma: NoPr_:, S0B1Token: Ελλήνων_:, S0B2Lemma: Έλληνας_κατά, S0B2LemmaPOS: Έλληνας_AsPpSp, S0B2POS: NoPr_AsPpSp, S0B2POSLemma: NoPr_κατά, S0B2Token: Ελλήνων_κατά, S0Lemma: Έλληνας, S0POS: NoPr, S0Token: Ελλήνων, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [δεχτούμε, οι, πιο ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μειονοτικών, :, κατά ,.. ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [δεχτούμε]   B= [οι, πιο, πλούσιοι ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μειονοτικών]   B= [:, κατά, καιρούς ,.. ]
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: οι, B1IsInLexic: true, B1Lemma: πιο, B1POS: Ad, B1Token: πιο, S0B0Lemma: δέχομαι_ο, S0B0LemmaPOS: δέχομαι_AtDf, S0B0POS: VbMn_AtDf, S0B0POSLemma: VbMn_ο, S0B0Token: δεχτούμε_οι, S0B1Lemma: δέχομαι_πιο, S0B1LemmaPOS: δέχομαι_Ad, S0B1POS: VbMn_Ad, S0B1POSLemma: VbMn_πιο, S0B1Token: δεχτούμε_πιο, S0B2Lemma: δέχομαι_πλούσιος, S0B2LemmaPOS: δέχομαι_Aj, S0B2POS: VbMn_Aj, S0B2POSLemma: VbMn_πλούσιος, S0B2Token: δεχτούμε_πλούσιοι, S0Lemma: δέχομαι, S0POS: VbMn, S0Token: δεχτούμε, hasRighDep_ccomp: true, δέχομαι_hasRighDep_ccomp: true, δέχομαι_παίρνω_hasRighDep_ccomp: true, 
+B0Lemma: :, B0POS: PTERMP, B0Token: :, B1IsInLexic: true, B1Lemma: κατά, B1POS: AsPpSp, B1Token: κατά, S0B0Lemma: μειονοτικός_:, S0B0LemmaPOS: μειονοτικός_PTERMP, S0B0POS: Aj_PTERMP, S0B0POSLemma: Aj_:, S0B0Token: μειονοτικών_:, S0B1Lemma: μειονοτικός_κατά, S0B1LemmaPOS: μειονοτικός_AsPpSp, S0B1POS: Aj_AsPpSp, S0B1POSLemma: Aj_κατά, S0B1Token: μειονοτικών_κατά, S0B2Lemma: μειονοτικός_καιρός, S0B2LemmaPOS: μειονοτικός_NoCm, S0B2POS: Aj_NoCm, S0B2POSLemma: Aj_καιρός, S0B2Token: μειονοτικών_καιρούς, S0Lemma: μειονοτικός, S0POS: Aj, S0Token: μειονοτικών, μειονοτικός_isGouvernedBy_απέλαση: true, μειονοτικός_isGouvernedBy_απέλαση_amod: true, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [οι, πιο, πλούσιοι ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:, κατά, καιρούς ,.. ]
 
 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [οι]   B= [πιο, πλούσιοι, να ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [κατά, καιρούς, αυθαίρετες ,.. ]
 
-B0IsInLexic: true, B0Lemma: πιο, B0POS: Ad, B0Token: πιο, B1Lemma: πλούσιος, B1POS: Aj, B1Token: πλούσιοι, S0B0Lemma: ο_πιο, S0B0LemmaPOS: ο_Ad, S0B0POS: AtDf_Ad, S0B0POSLemma: AtDf_πιο, S0B0Token: οι_πιο, S0B1Lemma: ο_πλούσιος, S0B1LemmaPOS: ο_Aj, S0B1POS: AtDf_Aj, S0B1POSLemma: AtDf_πλούσιος, S0B1Token: οι_πλούσιοι, S0B2Lemma: ο_να, S0B2LemmaPOS: ο_PtSj, S0B2POS: AtDf_PtSj, S0B2POSLemma: AtDf_να, S0B2Token: οι_να, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: οι, ο_isGouvernedBy_πλούσιος: true, ο_isGouvernedBy_πλούσιος_det: true, 
+B0IsInLexic: true, B0Lemma: κατά, B0POS: AsPpSp, B0Token: κατά, B1Lemma: καιρός, B1POS: NoCm, B1Token: καιρούς, S0B0Lemma: :_κατά, S0B0LemmaPOS: :_AsPpSp, S0B0POS: PTERMP_AsPpSp, S0B0POSLemma: PTERMP_κατά, S0B0Token: :_κατά, S0B1Lemma: :_καιρός, S0B1LemmaPOS: :_NoCm, S0B1POS: PTERMP_NoCm, S0B1POSLemma: PTERMP_καιρός, S0B1Token: :_καιρούς, S0B2Lemma: :_αυθαίρετος, S0B2LemmaPOS: :_Aj, S0B2POS: PTERMP_Aj, S0B2POSLemma: PTERMP_αυθαίρετος, S0B2Token: :_αυθαίρετες, S0Lemma: :, S0POS: PTERMP, S0Token: :, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πιο, πλούσιοι, να ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κατά, καιρούς, αυθαίρετες ,.. ]
 
 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πιο]   B= [πλούσιοι, να, παίρνουν ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κατά]   B= [καιρούς, αυθαίρετες, απελάσεις ,.. ]
 
-B0Lemma: πλούσιος, B0POS: Aj, B0Token: πλούσιοι, B1IsInLexic: true, B1Lemma: να, B1POS: PtSj, B1Token: να, S0B0Lemma: πιο_πλούσιος, S0B0LemmaPOS: πιο_Aj, S0B0POS: Ad_Aj, S0B0POSLemma: Ad_πλούσιος, S0B0Token: πιο_πλούσιοι, S0B1Lemma: πιο_να, S0B1LemmaPOS: πιο_PtSj, S0B1POS: Ad_PtSj, S0B1POSLemma: Ad_να, S0B1Token: πιο_να, S0B2Lemma: πιο_παίρνω, S0B2LemmaPOS: πιο_VbMn, S0B2POS: Ad_VbMn, S0B2POSLemma: Ad_παίρνω, S0B2Token: πιο_παίρνουν, S0IsInLexic: true, S0Lemma: πιο, S0POS: Ad, S0Token: πιο, πιο_isGouvernedBy_πλούσιος: true, πιο_isGouvernedBy_πλούσιος_advmod: true, 
+B0Lemma: καιρός, B0POS: NoCm, B0Token: καιρούς, B1Lemma: αυθαίρετος, B1POS: Aj, B1Token: αυθαίρετες, S0B0Lemma: κατά_καιρός, S0B0LemmaPOS: κατά_NoCm, S0B0POS: AsPpSp_NoCm, S0B0POSLemma: AsPpSp_καιρός, S0B0Token: κατά_καιρούς, S0B1Lemma: κατά_αυθαίρετος, S0B1LemmaPOS: κατά_Aj, S0B1POS: AsPpSp_Aj, S0B1POSLemma: AsPpSp_αυθαίρετος, S0B1Token: κατά_αυθαίρετες, S0B2Lemma: κατά_απέλαση, S0B2LemmaPOS: κατά_NoCm, S0B2POS: AsPpSp_NoCm, S0B2POSLemma: AsPpSp_απέλαση, S0B2Token: κατά_απελάσεις, S0IsInLexic: true, S0Lemma: κατά, S0POS: AsPpSp, S0Token: κατά, κατά_isGouvernedBy_καιρός: true, κατά_isGouvernedBy_καιρός_case: true, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πλούσιοι, να, παίρνουν ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [καιρούς, αυθαίρετες, απελάσεις ,.. ]
 
 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πλούσιοι]   B= [να, παίρνουν, ακόμη ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [καιρούς]   B= [αυθαίρετες, απελάσεις, ομογενών ,.. ]
 
-B0IsInLexic: true, B0Lemma: να, B0POS: PtSj, B0Token: να, B1IsInLexic: true, B1Lemma: παίρνω, B1POS: VbMn, B1Token: παίρνουν, S0B0Lemma: πλούσιος_να, S0B0LemmaPOS: πλούσιος_PtSj, S0B0POS: Aj_PtSj, S0B0POSLemma: Aj_να, S0B0Token: πλούσιοι_να, S0B1Lemma: πλούσιος_παίρνω, S0B1LemmaPOS: πλούσιος_VbMn, S0B1POS: Aj_VbMn, S0B1POSLemma: Aj_παίρνω, S0B1Token: πλούσιοι_παίρνουν, S0B2Lemma: πλούσιος_ακόμα, S0B2LemmaPOS: πλούσιος_Ad, S0B2POS: Aj_Ad, S0B2POSLemma: Aj_ακόμα, S0B2Token: πλούσιοι_ακόμη, S0Lemma: πλούσιος, S0POS: Aj, S0Token: πλούσιοι, πλούσιος_isGouvernedBy_παίρνω: true, πλούσιος_isGouvernedBy_παίρνω_nsubj: true, 
+B0Lemma: αυθαίρετος, B0POS: Aj, B0Token: αυθαίρετες, B1Lemma: απέλαση, B1POS: NoCm, B1Token: απελάσεις, S0B0Lemma: καιρός_αυθαίρετος, S0B0LemmaPOS: καιρός_Aj, S0B0POS: NoCm_Aj, S0B0POSLemma: NoCm_αυθαίρετος, S0B0Token: καιρούς_αυθαίρετες, S0B1Lemma: καιρός_απέλαση, S0B1LemmaPOS: καιρός_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_απέλαση, S0B1Token: καιρούς_απελάσεις, S0B2Lemma: καιρός_ομογενής, S0B2LemmaPOS: καιρός_Aj, S0B2POS: NoCm_Aj, S0B2POSLemma: NoCm_ομογενής, S0B2Token: καιρούς_ομογενών, S0Lemma: καιρός, S0POS: NoCm, S0Token: καιρούς, hasRighDep_nmod: true, καιρός_hasRighDep_nmod: true, καιρός_απέλαση_hasRighDep_nmod: true, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [να, παίρνουν, ακόμη ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αυθαίρετες, απελάσεις, ομογενών ,.. ]
 
 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [να]   B= [παίρνουν, ακόμη, μεγαλύτερο ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αυθαίρετες]   B= [απελάσεις, ομογενών, και ,.. ]
 
-B0IsInLexic: true, B0Lemma: παίρνω, B0POS: VbMn, B0Token: παίρνουν, B1Lemma: ακόμα, B1POS: Ad, B1Token: ακόμη, S0B0Lemma: να_παίρνω, S0B0LemmaPOS: να_VbMn, S0B0POS: PtSj_VbMn, S0B0POSLemma: PtSj_παίρνω, S0B0Token: να_παίρνουν, S0B1Lemma: να_ακόμα, S0B1LemmaPOS: να_Ad, S0B1POS: PtSj_Ad, S0B1POSLemma: PtSj_ακόμα, S0B1Token: να_ακόμη, S0B2Lemma: να_μεγάλος, S0B2LemmaPOS: να_Aj, S0B2POS: PtSj_Aj, S0B2POSLemma: PtSj_μεγάλος, S0B2Token: να_μεγαλύτερο, S0IsInLexic: true, S0Lemma: να, S0POS: PtSj, S0Token: να, να_isGouvernedBy_παίρνω: true, να_isGouvernedBy_παίρνω_aux: true, 
+B0Lemma: απέλαση, B0POS: NoCm, B0Token: απελάσεις, B1Lemma: ομογενής, B1POS: Aj, B1Token: ομογενών, S0B0Lemma: αυθαίρετος_απέλαση, S0B0LemmaPOS: αυθαίρετος_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_απέλαση, S0B0Token: αυθαίρετες_απελάσεις, S0B1Lemma: αυθαίρετος_ομογενής, S0B1LemmaPOS: αυθαίρετος_Aj, S0B1POS: Aj_Aj, S0B1POSLemma: Aj_ομογενής, S0B1Token: αυθαίρετες_ομογενών, S0B2Lemma: αυθαίρετος_και, S0B2LemmaPOS: αυθαίρετος_CjCo, S0B2POS: Aj_CjCo, S0B2POSLemma: Aj_και, S0B2Token: αυθαίρετες_και, S0Lemma: αυθαίρετος, S0POS: Aj, S0Token: αυθαίρετες, αυθαίρετος_isGouvernedBy_απέλαση: true, αυθαίρετος_isGouvernedBy_απέλαση_amod: true, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [παίρνουν, ακόμη, μεγαλύτερο ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [απελάσεις, ομογενών, και ,.. ]
 
 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [παίρνουν]   B= [ακόμη, μεγαλύτερο, κομμάτι ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [απελάσεις]   B= [ομογενών, και, δη ,.. ]
 
-B0Lemma: ακόμα, B0POS: Ad, B0Token: ακόμη, B1Lemma: μεγάλος, B1POS: Aj, B1Token: μεγαλύτερο, S0B0Lemma: παίρνω_ακόμα, S0B0LemmaPOS: παίρνω_Ad, S0B0POS: VbMn_Ad, S0B0POSLemma: VbMn_ακόμα, S0B0Token: παίρνουν_ακόμη, S0B1Lemma: παίρνω_μεγάλος, S0B1LemmaPOS: παίρνω_Aj, S0B1POS: VbMn_Aj, S0B1POSLemma: VbMn_μεγάλος, S0B1Token: παίρνουν_μεγαλύτερο, S0B2Lemma: παίρνω_κομμάτι, S0B2LemmaPOS: παίρνω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_κομμάτι, S0B2Token: παίρνουν_κομμάτι, S0IsInLexic: true, S0Lemma: παίρνω, S0POS: VbMn, S0Token: παίρνουν, hasRighDep_dobj: true, hasRighDep_nmod: true, παίρνω_hasRighDep_dobj: true, παίρνω_hasRighDep_nmod: true, παίρνω_κομμάτι_hasRighDep_dobj: true, παίρνω_πίτα_hasRighDep_nmod: true, 
+B0Lemma: ομογενής, B0POS: Aj, B0Token: ομογενών, B1IsInLexic: true, B1Lemma: και, B1POS: CjCo, B1Token: και, S0B0Lemma: απέλαση_ομογενής, S0B0LemmaPOS: απέλαση_Aj, S0B0POS: NoCm_Aj, S0B0POSLemma: NoCm_ομογενής, S0B0Token: απελάσεις_ομογενών, S0B1Lemma: απέλαση_και, S0B1LemmaPOS: απέλαση_CjCo, S0B1POS: NoCm_CjCo, S0B1POSLemma: NoCm_και, S0B1Token: απελάσεις_και, S0B2Lemma: απέλαση_δη, S0B2LemmaPOS: απέλαση_Ad, S0B2POS: NoCm_Ad, S0B2POSLemma: NoCm_δη, S0B2Token: απελάσεις_δη, S0Lemma: απέλαση, S0POS: NoCm, S0Token: απελάσεις, hasRighDep_nmod: true, απέλαση_hasRighDep_nmod: true, απέλαση_πρόσωπο_hasRighDep_nmod: true, 
 
-48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [παίρνουν, ακόμη]   B= [μεγαλύτερο, κομμάτι, από ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ομογενών, και, δη ,.. ]
 
-B0Lemma: μεγάλος, B0POS: Aj, B0Token: μεγαλύτερο, B1Lemma: κομμάτι, B1POS: NoCm, B1Token: κομμάτι, S0B0Lemma: ακόμα_μεγάλος, S0B0LemmaPOS: ακόμα_Aj, S0B0POS: Ad_Aj, S0B0POSLemma: Ad_μεγάλος, S0B0Token: ακόμη_μεγαλύτερο, S0B1Lemma: ακόμα_κομμάτι, S0B1LemmaPOS: ακόμα_NoCm, S0B1POS: Ad_NoCm, S0B1POSLemma: Ad_κομμάτι, S0B1Token: ακόμη_κομμάτι, S0B2Lemma: ακόμα_από, S0B2LemmaPOS: ακόμα_AsPpSp, S0B2POS: Ad_AsPpSp, S0B2POSLemma: Ad_από, S0B2Token: ακόμη_από, S0Lemma: ακόμα, S0POS: Ad, S0S1Distance: 1, S0Token: ακόμη, S1B0Lemma: παίρνω_μεγάλος, S1B0LemmaPOS: παίρνω_Aj, S1B0POS: VbMn_Aj, S1B0POSLemma: VbMn_μεγάλος, S1B0Token: παίρνουν_μεγαλύτερο, S1IsInLexic: true, S1Lemma: παίρνω, S1POS: VbMn, S1S0Lemma: παίρνω_ακόμα, S1S0LemmaPOS: παίρνω_Ad, S1S0POS: VbMn_Ad, S1S0POSLemma: VbMn_ακόμα, S1S0Token: παίρνουν_ακόμη, S1Token: παίρνουν, ακόμα_isGouvernedBy_μεγάλος: true, ακόμα_isGouvernedBy_μεγάλος_advmod: true, 
 
-49- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [παίρνουν]   B= [μεγαλύτερο, κομμάτι, από ,.. ]
 
-B0Lemma: μεγάλος, B0POS: Aj, B0Token: μεγαλύτερο, B1Lemma: κομμάτι, B1POS: NoCm, B1Token: κομμάτι, S0B0Lemma: παίρνω_μεγάλος, S0B0LemmaPOS: παίρνω_Aj, S0B0POS: VbMn_Aj, S0B0POSLemma: VbMn_μεγάλος, S0B0Token: παίρνουν_μεγαλύτερο, S0B1Lemma: παίρνω_κομμάτι, S0B1LemmaPOS: παίρνω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_κομμάτι, S0B1Token: παίρνουν_κομμάτι, S0B2Lemma: παίρνω_από, S0B2LemmaPOS: παίρνω_AsPpSp, S0B2POS: VbMn_AsPpSp, S0B2POSLemma: VbMn_από, S0B2Token: παίρνουν_από, S0IsInLexic: true, S0Lemma: παίρνω, S0POS: VbMn, S0Token: παίρνουν, hasRighDep_dobj: true, hasRighDep_nmod: true, παίρνω_hasRighDep_dobj: true, παίρνω_hasRighDep_nmod: true, παίρνω_κομμάτι_hasRighDep_dobj: true, παίρνω_πίτα_hasRighDep_nmod: true, 
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ομογενών]   B= [και, δη, σημαινόντων ,.. ]
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μεγαλύτερο, κομμάτι, από ,.. ]
+B0IsInLexic: true, B0Lemma: και, B0POS: CjCo, B0Token: και, B1Lemma: δη, B1POS: Ad, B1Token: δη, S0B0Lemma: ομογενής_και, S0B0LemmaPOS: ομογενής_CjCo, S0B0POS: Aj_CjCo, S0B0POSLemma: Aj_και, S0B0Token: ομογενών_και, S0B1Lemma: ομογενής_δη, S0B1LemmaPOS: ομογενής_Ad, S0B1POS: Aj_Ad, S0B1POSLemma: Aj_δη, S0B1Token: ομογενών_δη, S0B2Lemma: ομογενής_σημαίνων, S0B2LemmaPOS: ομογενής_Aj, S0B2POS: Aj_Aj, S0B2POSLemma: Aj_σημαίνων, S0B2Token: ομογενών_σημαινόντων, S0Lemma: ομογενής, S0POS: Aj, S0Token: ομογενών, hasRighDep_cc: true, hasRighDep_conj: true, ομογενής_hasRighDep_cc: true, ομογενής_hasRighDep_conj: true, ομογενής_isGouvernedBy_πρόσωπο: true, ομογενής_isGouvernedBy_πρόσωπο_amod: true, ομογενής_και_hasRighDep_cc: true, ομογενής_σημαίνων_hasRighDep_conj: true, 
 
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [και, δη, σημαινόντων ,.. ]
 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μεγαλύτερο]   B= [κομμάτι, από, την ,.. ]
 
-B0Lemma: κομμάτι, B0POS: NoCm, B0Token: κομμάτι, B1IsInLexic: true, B1Lemma: από, B1POS: AsPpSp, B1Token: από, S0B0Lemma: μεγάλος_κομμάτι, S0B0LemmaPOS: μεγάλος_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_κομμάτι, S0B0Token: μεγαλύτερο_κομμάτι, S0B1Lemma: μεγάλος_από, S0B1LemmaPOS: μεγάλος_AsPpSp, S0B1POS: Aj_AsPpSp, S0B1POSLemma: Aj_από, S0B1Token: μεγαλύτερο_από, S0B2Lemma: μεγάλος_ο, S0B2LemmaPOS: μεγάλος_AtDf, S0B2POS: Aj_AtDf, S0B2POSLemma: Aj_ο, S0B2Token: μεγαλύτερο_την, S0Lemma: μεγάλος, S0POS: Aj, S0Token: μεγαλύτερο, μεγάλος_isGouvernedBy_κομμάτι: true, μεγάλος_isGouvernedBy_κομμάτι_amod: true, 
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [και]   B= [δη, σημαινόντων, προσώπων ,.. ]
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κομμάτι, από, την ,.. ]
+B0Lemma: δη, B0POS: Ad, B0Token: δη, B1Lemma: σημαίνων, B1POS: Aj, B1Token: σημαινόντων, S0B0Lemma: και_δη, S0B0LemmaPOS: και_Ad, S0B0POS: CjCo_Ad, S0B0POSLemma: CjCo_δη, S0B0Token: και_δη, S0B1Lemma: και_σημαίνων, S0B1LemmaPOS: και_Aj, S0B1POS: CjCo_Aj, S0B1POSLemma: CjCo_σημαίνων, S0B1Token: και_σημαινόντων, S0B2Lemma: και_πρόσωπο, S0B2LemmaPOS: και_NoCm, S0B2POS: CjCo_NoCm, S0B2POSLemma: CjCo_πρόσωπο, S0B2Token: και_προσώπων, S0IsInLexic: true, S0Lemma: και, S0POS: CjCo, S0Token: και, 
 
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [δη, σημαινόντων, προσώπων ,.. ]
 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κομμάτι]   B= [από, την, πίτα ,.. ]
 
-B0IsInLexic: true, B0Lemma: από, B0POS: AsPpSp, B0Token: από, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: την, S0B0Lemma: κομμάτι_από, S0B0LemmaPOS: κομμάτι_AsPpSp, S0B0POS: NoCm_AsPpSp, S0B0POSLemma: NoCm_από, S0B0Token: κομμάτι_από, S0B1Lemma: κομμάτι_ο, S0B1LemmaPOS: κομμάτι_AtDf, S0B1POS: NoCm_AtDf, S0B1POSLemma: NoCm_ο, S0B1Token: κομμάτι_την, S0B2Lemma: κομμάτι_πίτα, S0B2LemmaPOS: κομμάτι_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_πίτα, S0B2Token: κομμάτι_πίτα, S0Lemma: κομμάτι, S0POS: NoCm, S0Token: κομμάτι, 
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [δη]   B= [σημαινόντων, προσώπων, , ,.. ]
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [από, την, πίτα ,.. ]
+B0Lemma: σημαίνων, B0POS: Aj, B0Token: σημαινόντων, B1Lemma: πρόσωπο, B1POS: NoCm, B1Token: προσώπων, S0B0Lemma: δη_σημαίνων, S0B0LemmaPOS: δη_Aj, S0B0POS: Ad_Aj, S0B0POSLemma: Ad_σημαίνων, S0B0Token: δη_σημαινόντων, S0B1Lemma: δη_πρόσωπο, S0B1LemmaPOS: δη_NoCm, S0B1POS: Ad_NoCm, S0B1POSLemma: Ad_πρόσωπο, S0B1Token: δη_προσώπων, S0B2Lemma: δη_,, S0B2LemmaPOS: δη_PUNCT, S0B2POS: Ad_PUNCT, S0B2POSLemma: Ad_,, S0B2Token: δη_,, S0Lemma: δη, S0POS: Ad, S0Token: δη, δη_isGouvernedBy_σημαίνων: true, δη_isGouvernedBy_σημαίνων_advmod: true, 
 
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [σημαινόντων, προσώπων, , ,.. ]
 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [από]   B= [την, πίτα, » ,.. ]
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: την, B1Lemma: πίτα, B1POS: NoCm, B1Token: πίτα, S0B0Lemma: από_ο, S0B0LemmaPOS: από_AtDf, S0B0POS: AsPpSp_AtDf, S0B0POSLemma: AsPpSp_ο, S0B0Token: από_την, S0B1Lemma: από_πίτα, S0B1LemmaPOS: από_NoCm, S0B1POS: AsPpSp_NoCm, S0B1POSLemma: AsPpSp_πίτα, S0B1Token: από_πίτα, S0B2Lemma: από_», S0B2LemmaPOS: από_CPUNCT, S0B2POS: AsPpSp_CPUNCT, S0B2POSLemma: AsPpSp_», S0B2Token: από_», S0IsInLexic: true, S0Lemma: από, S0POS: AsPpSp, S0Token: από, από_isGouvernedBy_πίτα: true, από_isGouvernedBy_πίτα_case: true, 
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [σημαινόντων]   B= [προσώπων, ,, απαγόρευση ,.. ]
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [την, πίτα, » ,.. ]
+B0Lemma: πρόσωπο, B0POS: NoCm, B0Token: προσώπων, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: σημαίνων_πρόσωπο, S0B0LemmaPOS: σημαίνων_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_πρόσωπο, S0B0Token: σημαινόντων_προσώπων, S0B1Lemma: σημαίνων_,, S0B1LemmaPOS: σημαίνων_PUNCT, S0B1POS: Aj_PUNCT, S0B1POSLemma: Aj_,, S0B1Token: σημαινόντων_,, S0B2Lemma: σημαίνων_απαγόρευση, S0B2LemmaPOS: σημαίνων_NoCm, S0B2POS: Aj_NoCm, S0B2POSLemma: Aj_απαγόρευση, S0B2Token: σημαινόντων_απαγόρευση, S0Lemma: σημαίνων, S0POS: Aj, S0Token: σημαινόντων, 
 
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [προσώπων, ,, απαγόρευση ,.. ]
 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [την]   B= [πίτα, », , ,.. ]
 
-B0Lemma: πίτα, B0POS: NoCm, B0Token: πίτα, B1Lemma: », B1POS: CPUNCT, B1Token: », S0B0Lemma: ο_πίτα, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_πίτα, S0B0Token: την_πίτα, S0B1Lemma: ο_», S0B1LemmaPOS: ο_CPUNCT, S0B1POS: AtDf_CPUNCT, S0B1POSLemma: AtDf_», S0B1Token: την_», S0B2Lemma: ο_,, S0B2LemmaPOS: ο_PUNCT, S0B2POS: AtDf_PUNCT, S0B2POSLemma: AtDf_,, S0B2Token: την_,, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: την, ο_isGouvernedBy_πίτα: true, ο_isGouvernedBy_πίτα_det: true, 
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [προσώπων]   B= [,, απαγόρευση, εξασκήσεως ,.. ]
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πίτα, », , ,.. ]
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: απαγόρευση, B1POS: NoCm, B1Token: απαγόρευση, S0B0Lemma: πρόσωπο_,, S0B0LemmaPOS: πρόσωπο_PUNCT, S0B0POS: NoCm_PUNCT, S0B0POSLemma: NoCm_,, S0B0Token: προσώπων_,, S0B1Lemma: πρόσωπο_απαγόρευση, S0B1LemmaPOS: πρόσωπο_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_απαγόρευση, S0B1Token: προσώπων_απαγόρευση, S0B2Lemma: πρόσωπο_εξάσκηση, S0B2LemmaPOS: πρόσωπο_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_εξάσκηση, S0B2Token: προσώπων_εξασκήσεως, S0Lemma: πρόσωπο, S0POS: NoCm, S0Token: προσώπων, hasRighDep_appos: true, hasRighDep_cc: true, hasRighDep_conj: true, hasRighDep_punct: true, πρόσωπο_,_hasRighDep_punct: true, πρόσωπο_hasRighDep_appos: true, πρόσωπο_hasRighDep_cc: true, πρόσωπο_hasRighDep_conj: true, πρόσωπο_hasRighDep_punct: true, πρόσωπο_απαγόρευση_hasRighDep_conj: true, πρόσωπο_επέμβαση_hasRighDep_appos: true, πρόσωπο_και_hasRighDep_cc: true, πρόσωπο_παρεμβολή_hasRighDep_conj: true, πρόσωπο_σωρός_hasRighDep_conj: true, 
 
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, απαγόρευση, εξασκήσεως ,.. ]
 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πίτα]   B= [», ,, τονίζει ,.. ]
 
-B0Lemma: », B0POS: CPUNCT, B0Token: », B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: πίτα_», S0B0LemmaPOS: πίτα_CPUNCT, S0B0POS: NoCm_CPUNCT, S0B0POSLemma: NoCm_», S0B0Token: πίτα_», S0B1Lemma: πίτα_,, S0B1LemmaPOS: πίτα_PUNCT, S0B1POS: NoCm_PUNCT, S0B1POSLemma: NoCm_,, S0B1Token: πίτα_,, S0B2Lemma: πίτα_τονίζω, S0B2LemmaPOS: πίτα_VbMn, S0B2POS: NoCm_VbMn, S0B2POSLemma: NoCm_τονίζω, S0B2Token: πίτα_τονίζει, S0Lemma: πίτα, S0POS: NoCm, S0Token: πίτα, 
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [απαγόρευση, εξασκήσεως, πολλών ,.. ]
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [», ,, τονίζει ,.. ]
+B0Lemma: απαγόρευση, B0POS: NoCm, B0Token: απαγόρευση, B1Lemma: εξάσκηση, B1POS: NoCm, B1Token: εξασκήσεως, S0B0Lemma: ,_απαγόρευση, S0B0LemmaPOS: ,_NoCm, S0B0POS: PUNCT_NoCm, S0B0POSLemma: PUNCT_απαγόρευση, S0B0Token: ,_απαγόρευση, S0B1Lemma: ,_εξάσκηση, S0B1LemmaPOS: ,_NoCm, S0B1POS: PUNCT_NoCm, S0B1POSLemma: PUNCT_εξάσκηση, S0B1Token: ,_εξασκήσεως, S0B2Lemma: ,_πολύς, S0B2LemmaPOS: ,_Aj, S0B2POS: PUNCT_Aj, S0B2POSLemma: PUNCT_πολύς, S0B2Token: ,_πολλών, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
 
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [απαγόρευση, εξασκήσεως, πολλών ,.. ]
 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [»]   B= [,, τονίζει, ο ,.. ]
 
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: τονίζω, B1POS: VbMn, B1Token: τονίζει, S0B0Lemma: »_,, S0B0LemmaPOS: »_PUNCT, S0B0POS: CPUNCT_PUNCT, S0B0POSLemma: CPUNCT_,, S0B0Token: »_,, S0B1Lemma: »_τονίζω, S0B1LemmaPOS: »_VbMn, S0B1POS: CPUNCT_VbMn, S0B1POSLemma: CPUNCT_τονίζω, S0B1Token: »_τονίζει, S0B2Lemma: »_ο, S0B2LemmaPOS: »_AtDf, S0B2POS: CPUNCT_AtDf, S0B2POSLemma: CPUNCT_ο, S0B2Token: »_ο, S0Lemma: », S0POS: CPUNCT, S0Token: », 
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [απαγόρευση]   B= [εξασκήσεως, πολλών, επαγγελμάτων ,.. ]
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, τονίζει, ο ,.. ]
+B0Lemma: εξάσκηση, B0POS: NoCm, B0Token: εξασκήσεως, B1Lemma: πολύς, B1POS: Aj, B1Token: πολλών, S0B0Lemma: απαγόρευση_εξάσκηση, S0B0LemmaPOS: απαγόρευση_NoCm, S0B0POS: NoCm_NoCm, S0B0POSLemma: NoCm_εξάσκηση, S0B0Token: απαγόρευση_εξασκήσεως, S0B1Lemma: απαγόρευση_πολύς, S0B1LemmaPOS: απαγόρευση_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_πολύς, S0B1Token: απαγόρευση_πολλών, S0B2Lemma: απαγόρευση_επάγγελμα, S0B2LemmaPOS: απαγόρευση_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_επάγγελμα, S0B2Token: απαγόρευση_επαγγελμάτων, S0Lemma: απαγόρευση, S0POS: NoCm, S0Token: απαγόρευση, hasRighDep_nmod: true, απαγόρευση_hasRighDep_nmod: true, απαγόρευση_εξάσκηση_hasRighDep_nmod: true, 
 
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [εξασκήσεως, πολλών, επαγγελμάτων ,.. ]
 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [τονίζει, ο, διευθύνων ,.. ]
 
-B0Lemma: τονίζω, B0POS: VbMn, B0Token: τονίζει, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: ο, S0B0Lemma: ,_τονίζω, S0B0LemmaPOS: ,_VbMn, S0B0POS: PUNCT_VbMn, S0B0POSLemma: PUNCT_τονίζω, S0B0Token: ,_τονίζει, S0B1Lemma: ,_ο, S0B1LemmaPOS: ,_AtDf, S0B1POS: PUNCT_AtDf, S0B1POSLemma: PUNCT_ο, S0B1Token: ,_ο, S0B2Lemma: ,_διευθύνων, S0B2LemmaPOS: ,_Aj, S0B2POS: PUNCT_Aj, S0B2POSLemma: PUNCT_διευθύνων, S0B2Token: ,_διευθύνων, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [εξασκήσεως]   B= [πολλών, επαγγελμάτων, σε ,.. ]
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τονίζει, ο, διευθύνων ,.. ]
+B0Lemma: πολύς, B0POS: Aj, B0Token: πολλών, B1Lemma: επάγγελμα, B1POS: NoCm, B1Token: επαγγελμάτων, S0B0Lemma: εξάσκηση_πολύς, S0B0LemmaPOS: εξάσκηση_Aj, S0B0POS: NoCm_Aj, S0B0POSLemma: NoCm_πολύς, S0B0Token: εξασκήσεως_πολλών, S0B1Lemma: εξάσκηση_επάγγελμα, S0B1LemmaPOS: εξάσκηση_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_επάγγελμα, S0B1Token: εξασκήσεως_επαγγελμάτων, S0B2Lemma: εξάσκηση_σε, S0B2LemmaPOS: εξάσκηση_AsPpSp, S0B2POS: NoCm_AsPpSp, S0B2POSLemma: NoCm_σε, S0B2Token: εξασκήσεως_σε, S0Lemma: εξάσκηση, S0POS: NoCm, S0Token: εξασκήσεως, hasRighDep_nmod: true, εξάσκηση_hasRighDep_nmod: true, εξάσκηση_Έλληνας_hasRighDep_nmod: true, εξάσκηση_επάγγελμα_hasRighDep_nmod: true, 
 
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πολλών, επαγγελμάτων, σε ,.. ]
 
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τονίζει]   B= [ο, διευθύνων, σύμβουλος ,.. ]
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: ο, B1Lemma: διευθύνων, B1POS: Aj, B1Token: διευθύνων, S0B0Lemma: τονίζω_ο, S0B0LemmaPOS: τονίζω_AtDf, S0B0POS: VbMn_AtDf, S0B0POSLemma: VbMn_ο, S0B0Token: τονίζει_ο, S0B1Lemma: τονίζω_διευθύνων, S0B1LemmaPOS: τονίζω_Aj, S0B1POS: VbMn_Aj, S0B1POSLemma: VbMn_διευθύνων, S0B1Token: τονίζει_διευθύνων, S0B2Lemma: τονίζω_σύμβουλος, S0B2LemmaPOS: τονίζω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_σύμβουλος, S0B2Token: τονίζει_σύμβουλος, S0Lemma: τονίζω, S0POS: VbMn, S0Token: τονίζει, 
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πολλών]   B= [επαγγελμάτων, σε, Έλληνες ,.. ]
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ο, διευθύνων, σύμβουλος ,.. ]
+B0Lemma: επάγγελμα, B0POS: NoCm, B0Token: επαγγελμάτων, B1IsInLexic: true, B1Lemma: σε, B1POS: AsPpSp, B1Token: σε, S0B0Lemma: πολύς_επάγγελμα, S0B0LemmaPOS: πολύς_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_επάγγελμα, S0B0Token: πολλών_επαγγελμάτων, S0B1Lemma: πολύς_σε, S0B1LemmaPOS: πολύς_AsPpSp, S0B1POS: Aj_AsPpSp, S0B1POSLemma: Aj_σε, S0B1Token: πολλών_σε, S0B2Lemma: πολύς_Έλληνας, S0B2LemmaPOS: πολύς_NoPr, S0B2POS: Aj_NoPr, S0B2POSLemma: Aj_Έλληνας, S0B2Token: πολλών_Έλληνες, S0Lemma: πολύς, S0POS: Aj, S0Token: πολλών, πολύς_isGouvernedBy_επάγγελμα: true, πολύς_isGouvernedBy_επάγγελμα_amod: true, 
 
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [επαγγελμάτων, σε, Έλληνες ,.. ]
 
 
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ο]   B= [διευθύνων, σύμβουλος, της ,.. ]
 
-B0Lemma: διευθύνων, B0POS: Aj, B0Token: διευθύνων, B1Lemma: σύμβουλος, B1POS: NoCm, B1Token: σύμβουλος, S0B0Lemma: ο_διευθύνων, S0B0LemmaPOS: ο_Aj, S0B0POS: AtDf_Aj, S0B0POSLemma: AtDf_διευθύνων, S0B0Token: ο_διευθύνων, S0B1Lemma: ο_σύμβουλος, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_σύμβουλος, S0B1Token: ο_σύμβουλος, S0B2Lemma: ο_ο, S0B2LemmaPOS: ο_AtDf, S0B2POS: AtDf_AtDf, S0B2POSLemma: AtDf_ο, S0B2Token: ο_της, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: ο, ο_isGouvernedBy_σύμβουλος: true, ο_isGouvernedBy_σύμβουλος_det: true, 
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [επαγγελμάτων]   B= [σε, Έλληνες, , ,.. ]
 
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [διευθύνων, σύμβουλος, της ,.. ]
+B0IsInLexic: true, B0Lemma: σε, B0POS: AsPpSp, B0Token: σε, B1Lemma: Έλληνας, B1POS: NoPr, B1Token: Έλληνες, S0B0Lemma: επάγγελμα_σε, S0B0LemmaPOS: επάγγελμα_AsPpSp, S0B0POS: NoCm_AsPpSp, S0B0POSLemma: NoCm_σε, S0B0Token: επαγγελμάτων_σε, S0B1Lemma: επάγγελμα_Έλληνας, S0B1LemmaPOS: επάγγελμα_NoPr, S0B1POS: NoCm_NoPr, S0B1POSLemma: NoCm_Έλληνας, S0B1Token: επαγγελμάτων_Έλληνες, S0B2Lemma: επάγγελμα_,, S0B2LemmaPOS: επάγγελμα_PUNCT, S0B2POS: NoCm_PUNCT, S0B2POSLemma: NoCm_,, S0B2Token: επαγγελμάτων_,, S0Lemma: επάγγελμα, S0POS: NoCm, S0Token: επαγγελμάτων, 
 
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [σε, Έλληνες, , ,.. ]
 
 
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [διευθύνων]   B= [σύμβουλος, της, βρετανικής ,.. ]
 
-B0Lemma: σύμβουλος, B0POS: NoCm, B0Token: σύμβουλος, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: της, S0B0Lemma: διευθύνων_σύμβουλος, S0B0LemmaPOS: διευθύνων_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_σύμβουλος, S0B0Token: διευθύνων_σύμβουλος, S0B1Lemma: διευθύνων_ο, S0B1LemmaPOS: διευθύνων_AtDf, S0B1POS: Aj_AtDf, S0B1POSLemma: Aj_ο, S0B1Token: διευθύνων_της, S0B2Lemma: διευθύνων_βρετανικός, S0B2LemmaPOS: διευθύνων_Aj, S0B2POS: Aj_Aj, S0B2POSLemma: Aj_βρετανικός, S0B2Token: διευθύνων_βρετανικής, S0Lemma: διευθύνων, S0POS: Aj, S0Token: διευθύνων, διευθύνων_isGouvernedBy_σύμβουλος: true, διευθύνων_isGouvernedBy_σύμβουλος_amod: true, 
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [σε]   B= [Έλληνες, ,, κατασχέσεις ,.. ]
 
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [σύμβουλος, της, βρετανικής ,.. ]
+B0Lemma: Έλληνας, B0POS: NoPr, B0Token: Έλληνες, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: σε_Έλληνας, S0B0LemmaPOS: σε_NoPr, S0B0POS: AsPpSp_NoPr, S0B0POSLemma: AsPpSp_Έλληνας, S0B0Token: σε_Έλληνες, S0B1Lemma: σε_,, S0B1LemmaPOS: σε_PUNCT, S0B1POS: AsPpSp_PUNCT, S0B1POSLemma: AsPpSp_,, S0B1Token: σε_,, S0B2Lemma: σε_κατάσχω, S0B2LemmaPOS: σε_VbMn, S0B2POS: AsPpSp_VbMn, S0B2POSLemma: AsPpSp_κατάσχω, S0B2Token: σε_κατασχέσεις, S0IsInLexic: true, S0Lemma: σε, S0POS: AsPpSp, S0Token: σε, σε_isGouvernedBy_Έλληνας: true, σε_isGouvernedBy_Έλληνας_case: true, 
 
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Έλληνες, ,, κατασχέσεις ,.. ]
 
 
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [σύμβουλος]   B= [της, βρετανικής, oxfam ,.. ]
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: της, B1Lemma: βρετανικός, B1POS: Aj, B1Token: βρετανικής, S0B0Lemma: σύμβουλος_ο, S0B0LemmaPOS: σύμβουλος_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: σύμβουλος_της, S0B1Lemma: σύμβουλος_βρετανικός, S0B1LemmaPOS: σύμβουλος_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_βρετανικός, S0B1Token: σύμβουλος_βρετανικής, S0B2Lemma: σύμβουλος_Oxfam, S0B2LemmaPOS: σύμβουλος_RgFwOr, S0B2POS: NoCm_RgFwOr, S0B2POSLemma: NoCm_Oxfam, S0B2Token: σύμβουλος_oxfam, S0Lemma: σύμβουλος, S0POS: NoCm, S0Token: σύμβουλος, hasRighDep_nmod: true, σύμβουλος_Oxfam_hasRighDep_nmod: true, σύμβουλος_hasRighDep_nmod: true, 
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Έλληνες]   B= [,, κατασχέσεις, περιουσιών ,.. ]
 
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [της, βρετανικής, oxfam ,.. ]
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: κατάσχω, B1POS: VbMn, B1Token: κατασχέσεις, S0B0Lemma: Έλληνας_,, S0B0LemmaPOS: Έλληνας_PUNCT, S0B0POS: NoPr_PUNCT, S0B0POSLemma: NoPr_,, S0B0Token: Έλληνες_,, S0B1Lemma: Έλληνας_κατάσχω, S0B1LemmaPOS: Έλληνας_VbMn, S0B1POS: NoPr_VbMn, S0B1POSLemma: NoPr_κατάσχω, S0B1Token: Έλληνες_κατασχέσεις, S0B2Lemma: Έλληνας_περιουσία, S0B2LemmaPOS: Έλληνας_NoCm, S0B2POS: NoPr_NoCm, S0B2POSLemma: NoPr_περιουσία, S0B2Token: Έλληνες_περιουσιών, S0Lemma: Έλληνας, S0POS: NoPr, S0Token: Έλληνες, 
 
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, κατασχέσεις, περιουσιών ,.. ]
 
 
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [της]   B= [βρετανικής, oxfam, Μαρκ ,.. ]
 
-B0Lemma: βρετανικός, B0POS: Aj, B0Token: βρετανικής, B1Lemma: Oxfam, B1POS: RgFwOr, B1Token: oxfam, S0B0Lemma: ο_βρετανικός, S0B0LemmaPOS: ο_Aj, S0B0POS: AtDf_Aj, S0B0POSLemma: AtDf_βρετανικός, S0B0Token: της_βρετανικής, S0B1Lemma: ο_Oxfam, S0B1LemmaPOS: ο_RgFwOr, S0B1POS: AtDf_RgFwOr, S0B1POSLemma: AtDf_Oxfam, S0B1Token: της_oxfam, S0B2Lemma: ο_Μαρκ, S0B2LemmaPOS: ο_RgFwTr, S0B2POS: AtDf_RgFwTr, S0B2POSLemma: AtDf_Μαρκ, S0B2Token: της_Μαρκ, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: της, ο_isGouvernedBy_Oxfam: true, ο_isGouvernedBy_Oxfam_det: true, 
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [κατασχέσεις, περιουσιών, , ,.. ]
 
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [βρετανικής, oxfam, Μαρκ ,.. ]
+,_isGouvernedBy_κατάσχω: true, ,_isGouvernedBy_κατάσχω_punct: true, B0Lemma: κατάσχω, B0POS: VbMn, B0Token: κατασχέσεις, B1IsInLexic: true, B1Lemma: περιουσία, B1POS: NoCm, B1Token: περιουσιών, S0B0Lemma: ,_κατάσχω, S0B0LemmaPOS: ,_VbMn, S0B0POS: PUNCT_VbMn, S0B0POSLemma: PUNCT_κατάσχω, S0B0Token: ,_κατασχέσεις, S0B1Lemma: ,_περιουσία, S0B1LemmaPOS: ,_NoCm, S0B1POS: PUNCT_NoCm, S0B1POSLemma: PUNCT_περιουσία, S0B1Token: ,_περιουσιών, S0B2Lemma: ,_,, S0B2LemmaPOS: ,_PUNCT, S0B2POS: PUNCT_PUNCT, S0B2POSLemma: PUNCT_,, S0B2Token: ,_,, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
 
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [κατασχέσεις, περιουσιών, , ,.. ]
 
 
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [βρετανικής]   B= [oxfam, Μαρκ, Γκόλντρινγκ ,.. ]
 
-B0Lemma: Oxfam, B0POS: RgFwOr, B0Token: oxfam, B1Lemma: Μαρκ, B1POS: RgFwTr, B1Token: Μαρκ, S0B0Lemma: βρετανικός_Oxfam, S0B0LemmaPOS: βρετανικός_RgFwOr, S0B0POS: Aj_RgFwOr, S0B0POSLemma: Aj_Oxfam, S0B0Token: βρετανικής_oxfam, S0B1Lemma: βρετανικός_Μαρκ, S0B1LemmaPOS: βρετανικός_RgFwTr, S0B1POS: Aj_RgFwTr, S0B1POSLemma: Aj_Μαρκ, S0B1Token: βρετανικής_Μαρκ, S0B2Lemma: βρετανικός_Γκόλντρινγκ, S0B2LemmaPOS: βρετανικός_NoPr, S0B2POS: Aj_NoPr, S0B2POSLemma: Aj_Γκόλντρινγκ, S0B2Token: βρετανικής_Γκόλντρινγκ, S0Lemma: βρετανικός, S0POS: Aj, S0Token: βρετανικής, βρετανικός_isGouvernedBy_Oxfam: true, βρετανικός_isGouvernedBy_Oxfam_amod: true, 
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [κατασχέσεις]   B= [περιουσιών, ,, επεμβάσεις ,.. ]
 
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [oxfam, Μαρκ, Γκόλντρινγκ ,.. ]
+B0IsInLexic: true, B0Lemma: περιουσία, B0POS: NoCm, B0Token: περιουσιών, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: κατάσχω_περιουσία, S0B0LemmaPOS: κατάσχω_NoCm, S0B0POS: VbMn_NoCm, S0B0POSLemma: VbMn_περιουσία, S0B0Token: κατασχέσεις_περιουσιών, S0B1Lemma: κατάσχω_,, S0B1LemmaPOS: κατάσχω_PUNCT, S0B1POS: VbMn_PUNCT, S0B1POSLemma: VbMn_,, S0B1Token: κατασχέσεις_,, S0B2Lemma: κατάσχω_επέμβαση, S0B2LemmaPOS: κατάσχω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_επέμβαση, S0B2Token: κατασχέσεις_επεμβάσεις, S0Lemma: κατάσχω, S0POS: VbMn, S0Token: κατασχέσεις, hasRighDep_dobj: true, hasRighDep_punct: true, κατάσχω_,_hasRighDep_punct: true, κατάσχω_hasRighDep_dobj: true, κατάσχω_hasRighDep_punct: true, κατάσχω_isGouvernedBy_επέμβαση: true, κατάσχω_isGouvernedBy_επέμβαση_advcl: true, κατάσχω_περιουσία_hasRighDep_dobj: true, 
 
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [περιουσιών, ,, επεμβάσεις ,.. ]
 
 
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [oxfam]   B= [Μαρκ, Γκόλντρινγκ ,.. ]
 
-B0Lemma: Μαρκ, B0POS: RgFwTr, B0Token: Μαρκ, B1Lemma: Γκόλντρινγκ, B1POS: NoPr, B1Token: Γκόλντρινγκ, Oxfam_hasRighDep_nmod: true, Oxfam_Γκόλντρινγκ_hasRighDep_nmod: true, S0B0Lemma: Oxfam_Μαρκ, S0B0LemmaPOS: Oxfam_RgFwTr, S0B0POS: RgFwOr_RgFwTr, S0B0POSLemma: RgFwOr_Μαρκ, S0B0Token: oxfam_Μαρκ, S0B1Lemma: Oxfam_Γκόλντρινγκ, S0B1LemmaPOS: Oxfam_NoPr, S0B1POS: RgFwOr_NoPr, S0B1POSLemma: RgFwOr_Γκόλντρινγκ, S0B1Token: oxfam_Γκόλντρινγκ, S0Lemma: Oxfam, S0POS: RgFwOr, S0Token: oxfam, hasRighDep_nmod: true, 
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [περιουσιών]   B= [,, επεμβάσεις, στις ,.. ]
 
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Μαρκ, Γκόλντρινγκ ,.. ]
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: επέμβαση, B1POS: NoCm, B1Token: επεμβάσεις, S0B0Lemma: περιουσία_,, S0B0LemmaPOS: περιουσία_PUNCT, S0B0POS: NoCm_PUNCT, S0B0POSLemma: NoCm_,, S0B0Token: περιουσιών_,, S0B1Lemma: περιουσία_επέμβαση, S0B1LemmaPOS: περιουσία_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_επέμβαση, S0B1Token: περιουσιών_επεμβάσεις, S0B2Lemma: περιουσία_στου, S0B2LemmaPOS: περιουσία_AsPpPa, S0B2POS: NoCm_AsPpPa, S0B2POSLemma: NoCm_στου, S0B2Token: περιουσιών_στις, S0IsInLexic: true, S0Lemma: περιουσία, S0POS: NoCm, S0Token: περιουσιών, 
 
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, επεμβάσεις, στις ,.. ]
 
 
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Μαρκ]   B= [Γκόλντρινγκ]
 
-B0Lemma: Γκόλντρινγκ, B0POS: NoPr, B0Token: Γκόλντρινγκ, S0B0Lemma: Μαρκ_Γκόλντρινγκ, S0B0LemmaPOS: Μαρκ_NoPr, S0B0POS: RgFwTr_NoPr, S0B0POSLemma: RgFwTr_Γκόλντρινγκ, S0B0Token: Μαρκ_Γκόλντρινγκ, S0Lemma: Μαρκ, S0POS: RgFwTr, S0Token: Μαρκ, Μαρκ_isGouvernedBy_Γκόλντρινγκ: true, Μαρκ_isGouvernedBy_Γκόλντρινγκ_nmod: true, 
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [επεμβάσεις, στις, εκλογές ,.. ]
 
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Γκόλντρινγκ]
+B0Lemma: επέμβαση, B0POS: NoCm, B0Token: επεμβάσεις, B1IsInLexic: true, B1Lemma: στου, B1POS: AsPpPa, B1Token: στις, S0B0Lemma: ,_επέμβαση, S0B0LemmaPOS: ,_NoCm, S0B0POS: PUNCT_NoCm, S0B0POSLemma: PUNCT_επέμβαση, S0B0Token: ,_επεμβάσεις, S0B1Lemma: ,_στου, S0B1LemmaPOS: ,_AsPpPa, S0B1POS: PUNCT_AsPpPa, S0B1POSLemma: PUNCT_στου, S0B1Token: ,_στις, S0B2Lemma: ,_εκλογή, S0B2LemmaPOS: ,_NoCm, S0B2POS: PUNCT_NoCm, S0B2POSLemma: PUNCT_εκλογή, S0B2Token: ,_εκλογές, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
 
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [επεμβάσεις, στις, εκλογές ,.. ]
 
 
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Γκόλντρινγκ]   B= [ ]
 
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [επεμβάσεις]   B= [στις, εκλογές, των ,.. ]
 
+B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στις, B1IsInLexic: true, B1Lemma: εκλογή, B1POS: NoCm, B1Token: εκλογές, S0B0Lemma: επέμβαση_στου, S0B0LemmaPOS: επέμβαση_AsPpPa, S0B0POS: NoCm_AsPpPa, S0B0POSLemma: NoCm_στου, S0B0Token: επεμβάσεις_στις, S0B1Lemma: επέμβαση_εκλογή, S0B1LemmaPOS: επέμβαση_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_εκλογή, S0B1Token: επεμβάσεις_εκλογές, S0B2Lemma: επέμβαση_ο, S0B2LemmaPOS: επέμβαση_AtDf, S0B2POS: NoCm_AtDf, S0B2POSLemma: NoCm_ο, S0B2Token: επεμβάσεις_των, S0Lemma: επέμβαση, S0POS: NoCm, S0Token: επεμβάσεις, hasRighDep_nmod: true, επέμβαση_hasRighDep_nmod: true, επέμβαση_εκλογή_hasRighDep_nmod: true, 
 
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στις, εκλογές, των ,.. ]
 
-## Sentence No. 3680 - 
-Στην προσωπική της ζωή είναι παντρεμένη , ωστόσο υποδύεται με μαεστρία την ανύπαντρη Μπέλα της οικογένειας Χαμπεά , η οποία αν και 39 ετών , δεν λέει να το βάλει κάτω . 
+
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στις]   B= [εκλογές, των, ομογενειακών ,.. ]
+
+B0IsInLexic: true, B0Lemma: εκλογή, B0POS: NoCm, B0Token: εκλογές, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: των, S0B0Lemma: στου_εκλογή, S0B0LemmaPOS: στου_NoCm, S0B0POS: AsPpPa_NoCm, S0B0POSLemma: AsPpPa_εκλογή, S0B0Token: στις_εκλογές, S0B1Lemma: στου_ο, S0B1LemmaPOS: στου_AtDf, S0B1POS: AsPpPa_AtDf, S0B1POSLemma: AsPpPa_ο, S0B1Token: στις_των, S0B2Lemma: στου_ομογενειακός, S0B2LemmaPOS: στου_Aj, S0B2POS: AsPpPa_Aj, S0B2POSLemma: AsPpPa_ομογενειακός, S0B2Token: στις_ομογενειακών, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στις, στου_isGouvernedBy_εκλογή: true, στου_isGouvernedBy_εκλογή_case: true, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [εκλογές, των, ομογενειακών ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [εκλογές]   B= [των, ομογενειακών, ιδρυμάτων ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: των, B1Lemma: ομογενειακός, B1POS: Aj, B1Token: ομογενειακών, S0B0Lemma: εκλογή_ο, S0B0LemmaPOS: εκλογή_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: εκλογές_των, S0B1Lemma: εκλογή_ομογενειακός, S0B1LemmaPOS: εκλογή_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_ομογενειακός, S0B1Token: εκλογές_ομογενειακών, S0B2Lemma: εκλογή_ίδρυμα, S0B2LemmaPOS: εκλογή_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_ίδρυμα, S0B2Token: εκλογές_ιδρυμάτων, S0IsInLexic: true, S0Lemma: εκλογή, S0POS: NoCm, S0Token: εκλογές, hasRighDep_nmod: true, εκλογή_hasRighDep_nmod: true, εκλογή_ίδρυμα_hasRighDep_nmod: true, 
+
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [των, ομογενειακών, ιδρυμάτων ,.. ]
+
+
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [των]   B= [ομογενειακών, ιδρυμάτων, , ,.. ]
+
+B0Lemma: ομογενειακός, B0POS: Aj, B0Token: ομογενειακών, B1Lemma: ίδρυμα, B1POS: NoCm, B1Token: ιδρυμάτων, S0B0Lemma: ο_ομογενειακός, S0B0LemmaPOS: ο_Aj, S0B0POS: AtDf_Aj, S0B0POSLemma: AtDf_ομογενειακός, S0B0Token: των_ομογενειακών, S0B1Lemma: ο_ίδρυμα, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_ίδρυμα, S0B1Token: των_ιδρυμάτων, S0B2Lemma: ο_,, S0B2LemmaPOS: ο_PUNCT, S0B2POS: AtDf_PUNCT, S0B2POSLemma: AtDf_,, S0B2Token: των_,, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: των, ο_isGouvernedBy_ίδρυμα: true, ο_isGouvernedBy_ίδρυμα_det: true, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ομογενειακών, ιδρυμάτων, , ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ομογενειακών]   B= [ιδρυμάτων, ,, παρεμβολή ,.. ]
+
+B0Lemma: ίδρυμα, B0POS: NoCm, B0Token: ιδρυμάτων, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: ομογενειακός_ίδρυμα, S0B0LemmaPOS: ομογενειακός_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_ίδρυμα, S0B0Token: ομογενειακών_ιδρυμάτων, S0B1Lemma: ομογενειακός_,, S0B1LemmaPOS: ομογενειακός_PUNCT, S0B1POS: Aj_PUNCT, S0B1POSLemma: Aj_,, S0B1Token: ομογενειακών_,, S0B2Lemma: ομογενειακός_παρεμβολή, S0B2LemmaPOS: ομογενειακός_NoCm, S0B2POS: Aj_NoCm, S0B2POSLemma: Aj_παρεμβολή, S0B2Token: ομογενειακών_παρεμβολή, S0Lemma: ομογενειακός, S0POS: Aj, S0Token: ομογενειακών, ομογενειακός_isGouvernedBy_ίδρυμα: true, ομογενειακός_isGouvernedBy_ίδρυμα_amod: true, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ιδρυμάτων, ,, παρεμβολή ,.. ]
+
+
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ιδρυμάτων]   B= [,, παρεμβολή, διαφόρων ,.. ]
+
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: παρεμβολή, B1POS: NoCm, B1Token: παρεμβολή, S0B0Lemma: ίδρυμα_,, S0B0LemmaPOS: ίδρυμα_PUNCT, S0B0POS: NoCm_PUNCT, S0B0POSLemma: NoCm_,, S0B0Token: ιδρυμάτων_,, S0B1Lemma: ίδρυμα_παρεμβολή, S0B1LemmaPOS: ίδρυμα_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_παρεμβολή, S0B1Token: ιδρυμάτων_παρεμβολή, S0B2Lemma: ίδρυμα_διάφορος, S0B2LemmaPOS: ίδρυμα_Aj, S0B2POS: NoCm_Aj, S0B2POSLemma: NoCm_διάφορος, S0B2Token: ιδρυμάτων_διαφόρων, S0Lemma: ίδρυμα, S0POS: NoCm, S0Token: ιδρυμάτων, 
+
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, παρεμβολή, διαφόρων ,.. ]
+
+
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [παρεμβολή, διαφόρων, προσκομμάτων ,.. ]
+
+B0Lemma: παρεμβολή, B0POS: NoCm, B0Token: παρεμβολή, B1Lemma: διάφορος, B1POS: Aj, B1Token: διαφόρων, S0B0Lemma: ,_παρεμβολή, S0B0LemmaPOS: ,_NoCm, S0B0POS: PUNCT_NoCm, S0B0POSLemma: PUNCT_παρεμβολή, S0B0Token: ,_παρεμβολή, S0B1Lemma: ,_διάφορος, S0B1LemmaPOS: ,_Aj, S0B1POS: PUNCT_Aj, S0B1POSLemma: PUNCT_διάφορος, S0B1Token: ,_διαφόρων, S0B2Lemma: ,_πρόσκομμα, S0B2LemmaPOS: ,_NoCm, S0B2POS: PUNCT_NoCm, S0B2POSLemma: PUNCT_πρόσκομμα, S0B2Token: ,_προσκομμάτων, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
+
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [παρεμβολή, διαφόρων, προσκομμάτων ,.. ]
+
+
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [παρεμβολή]   B= [διαφόρων, προσκομμάτων, στην ,.. ]
+
+B0Lemma: διάφορος, B0POS: Aj, B0Token: διαφόρων, B1Lemma: πρόσκομμα, B1POS: NoCm, B1Token: προσκομμάτων, S0B0Lemma: παρεμβολή_διάφορος, S0B0LemmaPOS: παρεμβολή_Aj, S0B0POS: NoCm_Aj, S0B0POSLemma: NoCm_διάφορος, S0B0Token: παρεμβολή_διαφόρων, S0B1Lemma: παρεμβολή_πρόσκομμα, S0B1LemmaPOS: παρεμβολή_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_πρόσκομμα, S0B1Token: παρεμβολή_προσκομμάτων, S0B2Lemma: παρεμβολή_στου, S0B2LemmaPOS: παρεμβολή_AsPpPa, S0B2POS: NoCm_AsPpPa, S0B2POSLemma: NoCm_στου, S0B2Token: παρεμβολή_στην, S0Lemma: παρεμβολή, S0POS: NoCm, S0Token: παρεμβολή, hasRighDep_nmod: true, παρεμβολή_hasRighDep_nmod: true, παρεμβολή_οργάνωση_hasRighDep_nmod: true, παρεμβολή_πρόσκομμα_hasRighDep_nmod: true, 
+
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [διαφόρων, προσκομμάτων, στην ,.. ]
+
+
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [διαφόρων]   B= [προσκομμάτων, στην, ομαλή ,.. ]
+
+B0Lemma: πρόσκομμα, B0POS: NoCm, B0Token: προσκομμάτων, B1IsInLexic: true, B1Lemma: στου, B1POS: AsPpPa, B1Token: στην, S0B0Lemma: διάφορος_πρόσκομμα, S0B0LemmaPOS: διάφορος_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_πρόσκομμα, S0B0Token: διαφόρων_προσκομμάτων, S0B1Lemma: διάφορος_στου, S0B1LemmaPOS: διάφορος_AsPpPa, S0B1POS: Aj_AsPpPa, S0B1POSLemma: Aj_στου, S0B1Token: διαφόρων_στην, S0B2Lemma: διάφορος_ομαλός, S0B2LemmaPOS: διάφορος_Aj, S0B2POS: Aj_Aj, S0B2POSLemma: Aj_ομαλός, S0B2Token: διαφόρων_ομαλή, S0Lemma: διάφορος, S0POS: Aj, S0Token: διαφόρων, διάφορος_isGouvernedBy_πρόσκομμα: true, διάφορος_isGouvernedBy_πρόσκομμα_amod: true, 
+
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [προσκομμάτων, στην, ομαλή ,.. ]
+
+
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [προσκομμάτων]   B= [στην, ομαλή, οργάνωση ,.. ]
+
+B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στην, B1Lemma: ομαλός, B1POS: Aj, B1Token: ομαλή, S0B0Lemma: πρόσκομμα_στου, S0B0LemmaPOS: πρόσκομμα_AsPpPa, S0B0POS: NoCm_AsPpPa, S0B0POSLemma: NoCm_στου, S0B0Token: προσκομμάτων_στην, S0B1Lemma: πρόσκομμα_ομαλός, S0B1LemmaPOS: πρόσκομμα_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_ομαλός, S0B1Token: προσκομμάτων_ομαλή, S0B2Lemma: πρόσκομμα_οργάνωση, S0B2LemmaPOS: πρόσκομμα_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_οργάνωση, S0B2Token: προσκομμάτων_οργάνωση, S0Lemma: πρόσκομμα, S0POS: NoCm, S0Token: προσκομμάτων, 
+
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στην, ομαλή, οργάνωση ,.. ]
+
+
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στην]   B= [ομαλή, οργάνωση, και ,.. ]
+
+B0Lemma: ομαλός, B0POS: Aj, B0Token: ομαλή, B1Lemma: οργάνωση, B1POS: NoCm, B1Token: οργάνωση, S0B0Lemma: στου_ομαλός, S0B0LemmaPOS: στου_Aj, S0B0POS: AsPpPa_Aj, S0B0POSLemma: AsPpPa_ομαλός, S0B0Token: στην_ομαλή, S0B1Lemma: στου_οργάνωση, S0B1LemmaPOS: στου_NoCm, S0B1POS: AsPpPa_NoCm, S0B1POSLemma: AsPpPa_οργάνωση, S0B1Token: στην_οργάνωση, S0B2Lemma: στου_και, S0B2LemmaPOS: στου_CjCo, S0B2POS: AsPpPa_CjCo, S0B2POSLemma: AsPpPa_και, S0B2Token: στην_και, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στην, στου_isGouvernedBy_οργάνωση: true, στου_isGouvernedBy_οργάνωση_case: true, 
+
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ομαλή, οργάνωση, και ,.. ]
+
+
+
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ομαλή]   B= [οργάνωση, και, λειτουργία ,.. ]
+
+B0Lemma: οργάνωση, B0POS: NoCm, B0Token: οργάνωση, B1IsInLexic: true, B1Lemma: και, B1POS: CjCo, B1Token: και, S0B0Lemma: ομαλός_οργάνωση, S0B0LemmaPOS: ομαλός_NoCm, S0B0POS: Aj_NoCm, S0B0POSLemma: Aj_οργάνωση, S0B0Token: ομαλή_οργάνωση, S0B1Lemma: ομαλός_και, S0B1LemmaPOS: ομαλός_CjCo, S0B1POS: Aj_CjCo, S0B1POSLemma: Aj_και, S0B1Token: ομαλή_και, S0B2Lemma: ομαλός_λειτουργία, S0B2LemmaPOS: ομαλός_NoCm, S0B2POS: Aj_NoCm, S0B2POSLemma: Aj_λειτουργία, S0B2Token: ομαλή_λειτουργία, S0Lemma: ομαλός, S0POS: Aj, S0Token: ομαλή, ομαλός_isGouvernedBy_οργάνωση: true, ομαλός_isGouvernedBy_οργάνωση_amod: true, 
+
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [οργάνωση, και, λειτουργία ,.. ]
+
+
+
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [οργάνωση]   B= [και, λειτουργία, των ,.. ]
+
+B0IsInLexic: true, B0Lemma: και, B0POS: CjCo, B0Token: και, B1IsInLexic: true, B1Lemma: λειτουργία, B1POS: NoCm, B1Token: λειτουργία, S0B0Lemma: οργάνωση_και, S0B0LemmaPOS: οργάνωση_CjCo, S0B0POS: NoCm_CjCo, S0B0POSLemma: NoCm_και, S0B0Token: οργάνωση_και, S0B1Lemma: οργάνωση_λειτουργία, S0B1LemmaPOS: οργάνωση_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_λειτουργία, S0B1Token: οργάνωση_λειτουργία, S0B2Lemma: οργάνωση_ο, S0B2LemmaPOS: οργάνωση_AtDf, S0B2POS: NoCm_AtDf, S0B2POSLemma: NoCm_ο, S0B2Token: οργάνωση_των, S0Lemma: οργάνωση, S0POS: NoCm, S0Token: οργάνωση, hasRighDep_cc: true, hasRighDep_conj: true, οργάνωση_hasRighDep_cc: true, οργάνωση_hasRighDep_conj: true, οργάνωση_και_hasRighDep_cc: true, οργάνωση_λειτουργία_hasRighDep_conj: true, 
+
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [και, λειτουργία, των ,.. ]
+
+
+
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [και]   B= [λειτουργία, των, εκπαιδευτηρίων ,.. ]
+
+B0IsInLexic: true, B0Lemma: λειτουργία, B0POS: NoCm, B0Token: λειτουργία, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: των, S0B0Lemma: και_λειτουργία, S0B0LemmaPOS: και_NoCm, S0B0POS: CjCo_NoCm, S0B0POSLemma: CjCo_λειτουργία, S0B0Token: και_λειτουργία, S0B1Lemma: και_ο, S0B1LemmaPOS: και_AtDf, S0B1POS: CjCo_AtDf, S0B1POSLemma: CjCo_ο, S0B1Token: και_των, S0B2Lemma: και_εκπαιδευτήριο, S0B2LemmaPOS: και_NoCm, S0B2POS: CjCo_NoCm, S0B2POSLemma: CjCo_εκπαιδευτήριο, S0B2Token: και_εκπαιδευτηρίων, S0IsInLexic: true, S0Lemma: και, S0POS: CjCo, S0Token: και, 
+
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [λειτουργία, των, εκπαιδευτηρίων ,.. ]
+
+
+
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [λειτουργία]   B= [των, εκπαιδευτηρίων, και ,.. ]
+
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: των, B1Lemma: εκπαιδευτήριο, B1POS: NoCm, B1Token: εκπαιδευτηρίων, S0B0Lemma: λειτουργία_ο, S0B0LemmaPOS: λειτουργία_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: λειτουργία_των, S0B1Lemma: λειτουργία_εκπαιδευτήριο, S0B1LemmaPOS: λειτουργία_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_εκπαιδευτήριο, S0B1Token: λειτουργία_εκπαιδευτηρίων, S0B2Lemma: λειτουργία_και, S0B2LemmaPOS: λειτουργία_CjCo, S0B2POS: NoCm_CjCo, S0B2POSLemma: NoCm_και, S0B2Token: λειτουργία_και, S0IsInLexic: true, S0Lemma: λειτουργία, S0POS: NoCm, S0Token: λειτουργία, hasRighDep_nmod: true, λειτουργία_hasRighDep_nmod: true, λειτουργία_εκπαιδευτήριο_hasRighDep_nmod: true, 
+
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [των, εκπαιδευτηρίων, και ,.. ]
+
+
+
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [των]   B= [εκπαιδευτηρίων, και, ένα ,.. ]
+
+B0Lemma: εκπαιδευτήριο, B0POS: NoCm, B0Token: εκπαιδευτηρίων, B1IsInLexic: true, B1Lemma: και, B1POS: CjCo, B1Token: και, S0B0Lemma: ο_εκπαιδευτήριο, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_εκπαιδευτήριο, S0B0Token: των_εκπαιδευτηρίων, S0B1Lemma: ο_και, S0B1LemmaPOS: ο_CjCo, S0B1POS: AtDf_CjCo, S0B1POSLemma: AtDf_και, S0B1Token: των_και, S0B2Lemma: ο_ένας, S0B2LemmaPOS: ο_AtId, S0B2POS: AtDf_AtId, S0B2POSLemma: AtDf_ένας, S0B2Token: των_ένα, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: των, ο_isGouvernedBy_εκπαιδευτήριο: true, ο_isGouvernedBy_εκπαιδευτήριο_det: true, 
+
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [εκπαιδευτηρίων, και, ένα ,.. ]
+
+
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [εκπαιδευτηρίων]   B= [και, ένα, σωρό ,.. ]
+
+B0IsInLexic: true, B0Lemma: και, B0POS: CjCo, B0Token: και, B1IsInLexic: true, B1Lemma: ένας, B1POS: AtId, B1Token: ένα, S0B0Lemma: εκπαιδευτήριο_και, S0B0LemmaPOS: εκπαιδευτήριο_CjCo, S0B0POS: NoCm_CjCo, S0B0POSLemma: NoCm_και, S0B0Token: εκπαιδευτηρίων_και, S0B1Lemma: εκπαιδευτήριο_ένας, S0B1LemmaPOS: εκπαιδευτήριο_AtId, S0B1POS: NoCm_AtId, S0B1POSLemma: NoCm_ένας, S0B1Token: εκπαιδευτηρίων_ένα, S0B2Lemma: εκπαιδευτήριο_σωρός, S0B2LemmaPOS: εκπαιδευτήριο_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_σωρός, S0B2Token: εκπαιδευτηρίων_σωρό, S0Lemma: εκπαιδευτήριο, S0POS: NoCm, S0Token: εκπαιδευτηρίων, 
+
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [και, ένα, σωρό ,.. ]
+
+
+
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [και]   B= [ένα, σωρό, άλλα ,.. ]
+
+B0IsInLexic: true, B0Lemma: ένας, B0POS: AtId, B0Token: ένα, B1Lemma: σωρός, B1POS: NoCm, B1Token: σωρό, S0B0Lemma: και_ένας, S0B0LemmaPOS: και_AtId, S0B0POS: CjCo_AtId, S0B0POSLemma: CjCo_ένας, S0B0Token: και_ένα, S0B1Lemma: και_σωρός, S0B1LemmaPOS: και_NoCm, S0B1POS: CjCo_NoCm, S0B1POSLemma: CjCo_σωρός, S0B1Token: και_σωρό, S0B2Lemma: και_άλλος, S0B2LemmaPOS: και_PnId, S0B2POS: CjCo_PnId, S0B2POSLemma: CjCo_άλλος, S0B2Token: και_άλλα, S0IsInLexic: true, S0Lemma: και, S0POS: CjCo, S0Token: και, 
+
+116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ένα, σωρό, άλλα ,.. ]
+
+
+
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ένα]   B= [σωρό, άλλα, . ,.. ]
+
+B0Lemma: σωρός, B0POS: NoCm, B0Token: σωρό, B1IsInLexic: true, B1Lemma: άλλος, B1POS: PnId, B1Token: άλλα, S0B0Lemma: ένας_σωρός, S0B0LemmaPOS: ένας_NoCm, S0B0POS: AtId_NoCm, S0B0POSLemma: AtId_σωρός, S0B0Token: ένα_σωρό, S0B1Lemma: ένας_άλλος, S0B1LemmaPOS: ένας_PnId, S0B1POS: AtId_PnId, S0B1POSLemma: AtId_άλλος, S0B1Token: ένα_άλλα, S0B2Lemma: ένας_., S0B2LemmaPOS: ένας_PTERMP, S0B2POS: AtId_PTERMP, S0B2POSLemma: AtId_., S0B2Token: ένα_., S0IsInLexic: true, S0Lemma: ένας, S0POS: AtId, S0Token: ένα, ένας_isGouvernedBy_σωρός: true, ένας_isGouvernedBy_σωρός_det: true, 
+
+118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [σωρό, άλλα, . ,.. ]
+
+
+
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [σωρό]   B= [άλλα, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: άλλος, B0POS: PnId, B0Token: άλλα, B1Lemma: ., B1POS: PTERMP, B1Token: ., S0B0Lemma: σωρός_άλλος, S0B0LemmaPOS: σωρός_PnId, S0B0POS: NoCm_PnId, S0B0POSLemma: NoCm_άλλος, S0B0Token: σωρό_άλλα, S0B1Lemma: σωρός_., S0B1LemmaPOS: σωρός_PTERMP, S0B1POS: NoCm_PTERMP, S0B1POSLemma: NoCm_., S0B1Token: σωρό_., S0Lemma: σωρός, S0POS: NoCm, S0Token: σωρό, 
+
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [άλλα, . ,.. ]
+
+
+
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [άλλα]   B= [.]
+
+B0Lemma: ., B0POS: PTERMP, B0Token: ., S0B0Lemma: άλλος_., S0B0LemmaPOS: άλλος_PTERMP, S0B0POS: PnId_PTERMP, S0B0POSLemma: PnId_., S0B0Token: άλλα_., S0IsInLexic: true, S0Lemma: άλλος, S0POS: PnId, S0Token: άλλα, άλλος_isGouvernedBy_.: true, άλλος_isGouvernedBy_._nmod: true, 
+
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 650 - 
+Όταν ο Τζον Κένεντι ανέλαβε τα ηνία του Λευκού Οίκου , ήταν πια αργά για να ανακόψει τις διαδικασίες εισβολής στην Κούβα που είχε δρομολογήσει ο προκάτοχός του Ντουάιτ Αϊζενχάουερ . 
 ### Existing MWEs: 
-1- **το βάλει κάτω** (ID)
+1- **ανέλαβε τα ηνία** (ID)
 ### Identified MWEs: 
-1- **βάλει κάτω** 
+1- **τα ηνία** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Στην, προσωπική, της ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Όταν, ο, Τζον ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Στην]   B= [προσωπική, της, ζωή ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Όταν]   B= [ο, Τζον, Κένεντι ,.. ]
 
-B0Lemma: προσωπικός, B0POS: Aj, B0Token: προσωπική, B1IsInLexic: true, B1Lemma: μου, B1POS: PnPo, B1Token: της, S0B0Lemma: στου_προσωπικός, S0B0LemmaPOS: στου_Aj, S0B0POS: AsPpPa_Aj, S0B0POSLemma: AsPpPa_προσωπικός, S0B0Token: Στην_προσωπική, S0B1Lemma: στου_μου, S0B1LemmaPOS: στου_PnPo, S0B1POS: AsPpPa_PnPo, S0B1POSLemma: AsPpPa_μου, S0B1Token: Στην_της, S0B2Lemma: στου_ζωή, S0B2LemmaPOS: στου_NoCm, S0B2POS: AsPpPa_NoCm, S0B2POSLemma: AsPpPa_ζωή, S0B2Token: Στην_ζωή, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: Στην, στου_isGouvernedBy_ζωή: true, στου_isGouvernedBy_ζωή_case: true, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: ο, B1Lemma: Τζον, B1POS: RgFwTr, B1Token: Τζον, S0B0Lemma: όταν_ο, S0B0LemmaPOS: όταν_AtDf, S0B0POS: CjSb_AtDf, S0B0POSLemma: CjSb_ο, S0B0Token: Όταν_ο, S0B1Lemma: όταν_Τζον, S0B1LemmaPOS: όταν_RgFwTr, S0B1POS: CjSb_RgFwTr, S0B1POSLemma: CjSb_Τζον, S0B1Token: Όταν_Τζον, S0B2Lemma: όταν_Κένεντι, S0B2LemmaPOS: όταν_NoPr, S0B2POS: CjSb_NoPr, S0B2POSLemma: CjSb_Κένεντι, S0B2Token: Όταν_Κένεντι, S0Lemma: όταν, S0POS: CjSb, S0Token: Όταν, όταν_isGouvernedBy_αναλαμβάνω: true, όταν_isGouvernedBy_αναλαμβάνω_mark: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [προσωπική, της, ζωή ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ο, Τζον, Κένεντι ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [προσωπική]   B= [της, ζωή, είναι ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ο]   B= [Τζον, Κένεντι, ανέλαβε ,.. ]
 
-B0IsInLexic: true, B0Lemma: μου, B0POS: PnPo, B0Token: της, B1IsInLexic: true, B1Lemma: ζωή, B1POS: NoCm, B1Token: ζωή, S0B0Lemma: προσωπικός_μου, S0B0LemmaPOS: προσωπικός_PnPo, S0B0POS: Aj_PnPo, S0B0POSLemma: Aj_μου, S0B0Token: προσωπική_της, S0B1Lemma: προσωπικός_ζωή, S0B1LemmaPOS: προσωπικός_NoCm, S0B1POS: Aj_NoCm, S0B1POSLemma: Aj_ζωή, S0B1Token: προσωπική_ζωή, S0B2Lemma: προσωπικός_είμαι, S0B2LemmaPOS: προσωπικός_VbMn, S0B2POS: Aj_VbMn, S0B2POSLemma: Aj_είμαι, S0B2Token: προσωπική_είναι, S0Lemma: προσωπικός, S0POS: Aj, S0Token: προσωπική, προσωπικός_isGouvernedBy_ζωή: true, προσωπικός_isGouvernedBy_ζωή_amod: true, 
+B0Lemma: Τζον, B0POS: RgFwTr, B0Token: Τζον, B1Lemma: Κένεντι, B1POS: NoPr, B1Token: Κένεντι, S0B0Lemma: ο_Τζον, S0B0LemmaPOS: ο_RgFwTr, S0B0POS: AtDf_RgFwTr, S0B0POSLemma: AtDf_Τζον, S0B0Token: ο_Τζον, S0B1Lemma: ο_Κένεντι, S0B1LemmaPOS: ο_NoPr, S0B1POS: AtDf_NoPr, S0B1POSLemma: AtDf_Κένεντι, S0B1Token: ο_Κένεντι, S0B2Lemma: ο_αναλαμβάνω, S0B2LemmaPOS: ο_VbMn, S0B2POS: AtDf_VbMn, S0B2POSLemma: AtDf_αναλαμβάνω, S0B2Token: ο_ανέλαβε, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: ο, ο_isGouvernedBy_Κένεντι: true, ο_isGouvernedBy_Κένεντι_det: true, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [της, ζωή, είναι ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Τζον, Κένεντι, ανέλαβε ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [της]   B= [ζωή, είναι, παντρεμένη ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Τζον]   B= [Κένεντι, ανέλαβε, τα ,.. ]
 
-B0IsInLexic: true, B0Lemma: ζωή, B0POS: NoCm, B0Token: ζωή, B1IsInLexic: true, B1Lemma: είμαι, B1POS: VbMn, B1Token: είναι, S0B0Lemma: μου_ζωή, S0B0LemmaPOS: μου_NoCm, S0B0POS: PnPo_NoCm, S0B0POSLemma: PnPo_ζωή, S0B0Token: της_ζωή, S0B1Lemma: μου_είμαι, S0B1LemmaPOS: μου_VbMn, S0B1POS: PnPo_VbMn, S0B1POSLemma: PnPo_είμαι, S0B1Token: της_είναι, S0B2Lemma: μου_παντρεμένος, S0B2LemmaPOS: μου_Aj, S0B2POS: PnPo_Aj, S0B2POSLemma: PnPo_παντρεμένος, S0B2Token: της_παντρεμένη, S0IsInLexic: true, S0Lemma: μου, S0POS: PnPo, S0Token: της, μου_isGouvernedBy_ζωή: true, μου_isGouvernedBy_ζωή_nmod: true, 
+B0Lemma: Κένεντι, B0POS: NoPr, B0Token: Κένεντι, B1IsInLexic: true, B1Lemma: αναλαμβάνω, B1POS: VbMn, B1Token: ανέλαβε, S0B0Lemma: Τζον_Κένεντι, S0B0LemmaPOS: Τζον_NoPr, S0B0POS: RgFwTr_NoPr, S0B0POSLemma: RgFwTr_Κένεντι, S0B0Token: Τζον_Κένεντι, S0B1Lemma: Τζον_αναλαμβάνω, S0B1LemmaPOS: Τζον_VbMn, S0B1POS: RgFwTr_VbMn, S0B1POSLemma: RgFwTr_αναλαμβάνω, S0B1Token: Τζον_ανέλαβε, S0B2Lemma: Τζον_ο, S0B2LemmaPOS: Τζον_AtDf, S0B2POS: RgFwTr_AtDf, S0B2POSLemma: RgFwTr_ο, S0B2Token: Τζον_τα, S0Lemma: Τζον, S0POS: RgFwTr, S0Token: Τζον, Τζον_isGouvernedBy_Κένεντι: true, Τζον_isGouvernedBy_Κένεντι_nmod: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ζωή, είναι, παντρεμένη ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Κένεντι, ανέλαβε, τα ,.. ]
 
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ζωή]   B= [είναι, παντρεμένη, , ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Κένεντι]   B= [ανέλαβε, τα, ηνία ,.. ]
 
-B0IsInLexic: true, B0Lemma: είμαι, B0POS: VbMn, B0Token: είναι, B1Lemma: παντρεμένος, B1POS: Aj, B1Token: παντρεμένη, S0B0Lemma: ζωή_είμαι, S0B0LemmaPOS: ζωή_VbMn, S0B0POS: NoCm_VbMn, S0B0POSLemma: NoCm_είμαι, S0B0Token: ζωή_είναι, S0B1Lemma: ζωή_παντρεμένος, S0B1LemmaPOS: ζωή_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_παντρεμένος, S0B1Token: ζωή_παντρεμένη, S0B2Lemma: ζωή_,, S0B2LemmaPOS: ζωή_PUNCT, S0B2POS: NoCm_PUNCT, S0B2POSLemma: NoCm_,, S0B2Token: ζωή_,, S0IsInLexic: true, S0Lemma: ζωή, S0POS: NoCm, S0Token: ζωή, ζωή_isGouvernedBy_παντρεμένος: true, ζωή_isGouvernedBy_παντρεμένος_nmod: true, 
+B0IsInLexic: true, B0Lemma: αναλαμβάνω, B0POS: VbMn, B0Token: ανέλαβε, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τα, S0B0Lemma: Κένεντι_αναλαμβάνω, S0B0LemmaPOS: Κένεντι_VbMn, S0B0POS: NoPr_VbMn, S0B0POSLemma: NoPr_αναλαμβάνω, S0B0Token: Κένεντι_ανέλαβε, S0B1Lemma: Κένεντι_ο, S0B1LemmaPOS: Κένεντι_AtDf, S0B1POS: NoPr_AtDf, S0B1POSLemma: NoPr_ο, S0B1Token: Κένεντι_τα, S0B2Lemma: Κένεντι_ηνίο, S0B2LemmaPOS: Κένεντι_NoCm, S0B2POS: NoPr_NoCm, S0B2POSLemma: NoPr_ηνίο, S0B2Token: Κένεντι_ηνία, S0Lemma: Κένεντι, S0POS: NoPr, S0Token: Κένεντι, Κένεντι_isGouvernedBy_αναλαμβάνω: true, Κένεντι_isGouvernedBy_αναλαμβάνω_nsubj: true, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [είναι, παντρεμένη, , ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ανέλαβε, τα, ηνία ,.. ]
 
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [είναι]   B= [παντρεμένη, ,, ωστόσο ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ανέλαβε]   B= [τα, ηνία, του ,.. ]
 
-B0Lemma: παντρεμένος, B0POS: Aj, B0Token: παντρεμένη, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: είμαι_παντρεμένος, S0B0LemmaPOS: είμαι_Aj, S0B0POS: VbMn_Aj, S0B0POSLemma: VbMn_παντρεμένος, S0B0Token: είναι_παντρεμένη, S0B1Lemma: είμαι_,, S0B1LemmaPOS: είμαι_PUNCT, S0B1POS: VbMn_PUNCT, S0B1POSLemma: VbMn_,, S0B1Token: είναι_,, S0B2Lemma: είμαι_ωστόσο, S0B2LemmaPOS: είμαι_CjCo, S0B2POS: VbMn_CjCo, S0B2POSLemma: VbMn_ωστόσο, S0B2Token: είναι_ωστόσο, S0IsInLexic: true, S0Lemma: είμαι, S0POS: VbMn, S0Token: είναι, είμαι_isGouvernedBy_παντρεμένος: true, είμαι_isGouvernedBy_παντρεμένος_cop: true, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τα, B1IsInLexic: true, B1Lemma: ηνίο, B1POS: NoCm, B1Token: ηνία, S0B0Lemma: αναλαμβάνω_ο, S0B0LemmaPOS: αναλαμβάνω_AtDf, S0B0POS: VbMn_AtDf, S0B0POSLemma: VbMn_ο, S0B0Token: ανέλαβε_τα, S0B1Lemma: αναλαμβάνω_ηνίο, S0B1LemmaPOS: αναλαμβάνω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_ηνίο, S0B1Token: ανέλαβε_ηνία, S0B2Lemma: αναλαμβάνω_ο, S0B2LemmaPOS: αναλαμβάνω_AtDf, S0B2POS: VbMn_AtDf, S0B2POSLemma: VbMn_ο, S0B2Token: ανέλαβε_του, S0IsInLexic: true, S0Lemma: αναλαμβάνω, S0POS: VbMn, S0Token: ανέλαβε, hasRighDep_dobj: true, αναλαμβάνω_hasRighDep_dobj: true, αναλαμβάνω_isGouvernedBy_είμαι: true, αναλαμβάνω_isGouvernedBy_είμαι_advcl: true, αναλαμβάνω_ηνίο_hasRighDep_dobj: true, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [παντρεμένη, ,, ωστόσο ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τα, ηνία, του ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [παντρεμένη]   B= [,, ωστόσο, υποδύεται ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τα]   B= [ηνία, του, Λευκού ,.. ]
 
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1Lemma: ωστόσο, B1POS: CjCo, B1Token: ωστόσο, S0B0Lemma: παντρεμένος_,, S0B0LemmaPOS: παντρεμένος_PUNCT, S0B0POS: Aj_PUNCT, S0B0POSLemma: Aj_,, S0B0Token: παντρεμένη_,, S0B1Lemma: παντρεμένος_ωστόσο, S0B1LemmaPOS: παντρεμένος_CjCo, S0B1POS: Aj_CjCo, S0B1POSLemma: Aj_ωστόσο, S0B1Token: παντρεμένη_ωστόσο, S0B2Lemma: παντρεμένος_υποδύομαι, S0B2LemmaPOS: παντρεμένος_VbMn, S0B2POS: Aj_VbMn, S0B2POSLemma: Aj_υποδύομαι, S0B2Token: παντρεμένη_υποδύεται, S0Lemma: παντρεμένος, S0POS: Aj, S0Token: παντρεμένη, 
+B0IsInLexic: true, B0Lemma: ηνίο, B0POS: NoCm, B0Token: ηνία, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: του, S0B0Lemma: ο_ηνίο, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_ηνίο, S0B0Token: τα_ηνία, S0B1Lemma: ο_ο, S0B1LemmaPOS: ο_AtDf, S0B1POS: AtDf_AtDf, S0B1POSLemma: AtDf_ο, S0B1Token: τα_του, S0B2Lemma: ο_λευκός, S0B2LemmaPOS: ο_NoCm, S0B2POS: AtDf_NoCm, S0B2POSLemma: AtDf_λευκός, S0B2Token: τα_Λευκού, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: τα, ο_isGouvernedBy_ηνίο: true, ο_isGouvernedBy_ηνίο_det: true, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ωστόσο, υποδύεται ,.. ]
+12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τα, ηνία]   B= [του, Λευκού, Οίκου ,.. ]
 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: του, B1Lemma: λευκός, B1POS: NoCm, B1Token: Λευκού, S0B0Lemma: ηνίο_ο, S0B0LemmaPOS: ηνίο_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: ηνία_του, S0B1Lemma: ηνίο_λευκός, S0B1LemmaPOS: ηνίο_NoCm, S0B1POS: NoCm_NoCm, S0B1POSLemma: NoCm_λευκός, S0B1Token: ηνία_Λευκού, S0B2Lemma: ηνίο_οίκος, S0B2LemmaPOS: ηνίο_NoCm, S0B2POS: NoCm_NoCm, S0B2POSLemma: NoCm_οίκος, S0B2Token: ηνία_Οίκου, S0IsInLexic: true, S0Lemma: ηνίο, S0POS: NoCm, S0S1Distance: 1, S0Token: ηνία, S1B0Lemma: ο_ο, S1B0LemmaPOS: ο_AtDf, S1B0POS: AtDf_AtDf, S1B0POSLemma: AtDf_ο, S1B0Token: τα_του, S1IsInLexic: true, S1Lemma: ο, S1POS: AtDf, S1S0Lemma: ο_ηνίο, S1S0LemmaPOS: ο_NoCm, S1S0POS: AtDf_NoCm, S1S0POSLemma: AtDf_ηνίο, S1S0Token: τα_ηνία, S1Token: τα, SyntaxicRelation: -det, hasRighDep_nmod: true, ηνίο_hasRighDep_nmod: true, ηνίο_λευκός_hasRighDep_nmod: true, 
 
+13- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[τα, ηνία]]   B= [του, Λευκού, Οίκου ,.. ]
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ωστόσο, υποδύεται, με ,.. ]
 
-B0Lemma: ωστόσο, B0POS: CjCo, B0Token: ωστόσο, B1Lemma: υποδύομαι, B1POS: VbMn, B1Token: υποδύεται, S0B0Lemma: ,_ωστόσο, S0B0LemmaPOS: ,_CjCo, S0B0POS: PUNCT_CjCo, S0B0POSLemma: PUNCT_ωστόσο, S0B0Token: ,_ωστόσο, S0B1Lemma: ,_υποδύομαι, S0B1LemmaPOS: ,_VbMn, S0B1POS: PUNCT_VbMn, S0B1POSLemma: PUNCT_υποδύομαι, S0B1Token: ,_υποδύεται, S0B2Lemma: ,_με, S0B2LemmaPOS: ,_AsPpSp, S0B2POS: PUNCT_AsPpSp, S0B2POSLemma: PUNCT_με, S0B2Token: ,_με, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ωστόσο, υποδύεται, με ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, Λευκού, Οίκου ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ωστόσο]   B= [υποδύεται, με, μαεστρία ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [Λευκού, Οίκου, , ,.. ]
 
-B0Lemma: υποδύομαι, B0POS: VbMn, B0Token: υποδύεται, B1IsInLexic: true, B1Lemma: με, B1POS: AsPpSp, B1Token: με, S0B0Lemma: ωστόσο_υποδύομαι, S0B0LemmaPOS: ωστόσο_VbMn, S0B0POS: CjCo_VbMn, S0B0POSLemma: CjCo_υποδύομαι, S0B0Token: ωστόσο_υποδύεται, S0B1Lemma: ωστόσο_με, S0B1LemmaPOS: ωστόσο_AsPpSp, S0B1POS: CjCo_AsPpSp, S0B1POSLemma: CjCo_με, S0B1Token: ωστόσο_με, S0B2Lemma: ωστόσο_μαεστρία, S0B2LemmaPOS: ωστόσο_NoCm, S0B2POS: CjCo_NoCm, S0B2POSLemma: CjCo_μαεστρία, S0B2Token: ωστόσο_μαεστρία, S0Lemma: ωστόσο, S0POS: CjCo, S0Token: ωστόσο, 
+B0Lemma: λευκός, B0POS: NoCm, B0Token: Λευκού, B1Lemma: οίκος, B1POS: NoCm, B1Token: Οίκου, S0B0Lemma: ο_λευκός, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_λευκός, S0B0Token: του_Λευκού, S0B1Lemma: ο_οίκος, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_οίκος, S0B1Token: του_Οίκου, S0B2Lemma: ο_,, S0B2LemmaPOS: ο_PUNCT, S0B2POS: AtDf_PUNCT, S0B2POSLemma: AtDf_,, S0B2Token: του_,, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: του, ο_isGouvernedBy_λευκός: true, ο_isGouvernedBy_λευκός_det: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [υποδύεται, με, μαεστρία ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Λευκού, Οίκου, , ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [υποδύεται]   B= [με, μαεστρία, την ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Λευκού]   B= [Οίκου, ,, ήταν ,.. ]
 
-B0IsInLexic: true, B0Lemma: με, B0POS: AsPpSp, B0Token: με, B1Lemma: μαεστρία, B1POS: NoCm, B1Token: μαεστρία, S0B0Lemma: υποδύομαι_με, S0B0LemmaPOS: υποδύομαι_AsPpSp, S0B0POS: VbMn_AsPpSp, S0B0POSLemma: VbMn_με, S0B0Token: υποδύεται_με, S0B1Lemma: υποδύομαι_μαεστρία, S0B1LemmaPOS: υποδύομαι_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_μαεστρία, S0B1Token: υποδύεται_μαεστρία, S0B2Lemma: υποδύομαι_ο, S0B2LemmaPOS: υποδύομαι_AtDf, S0B2POS: VbMn_AtDf, S0B2POSLemma: VbMn_ο, S0B2Token: υποδύεται_την, S0Lemma: υποδύομαι, S0POS: VbMn, S0Token: υποδύεται, hasRighDep_conj: true, hasRighDep_nmod: true, hasRighDep_punct: true, υποδύομαι_,_hasRighDep_punct: true, υποδύομαι_hasRighDep_conj: true, υποδύομαι_hasRighDep_nmod: true, υποδύομαι_hasRighDep_punct: true, υποδύομαι_λέγω_hasRighDep_conj: true, υποδύομαι_μαεστρία_hasRighDep_nmod: true, 
+B0Lemma: οίκος, B0POS: NoCm, B0Token: Οίκου, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: λευκός_οίκος, S0B0LemmaPOS: λευκός_NoCm, S0B0POS: NoCm_NoCm, S0B0POSLemma: NoCm_οίκος, S0B0Token: Λευκού_Οίκου, S0B1Lemma: λευκός_,, S0B1LemmaPOS: λευκός_PUNCT, S0B1POS: NoCm_PUNCT, S0B1POSLemma: NoCm_,, S0B1Token: Λευκού_,, S0B2Lemma: λευκός_είμαι, S0B2LemmaPOS: λευκός_VbMn, S0B2POS: NoCm_VbMn, S0B2POSLemma: NoCm_είμαι, S0B2Token: Λευκού_ήταν, S0Lemma: λευκός, S0POS: NoCm, S0Token: Λευκού, hasRighDep_nmod: true, λευκός_hasRighDep_nmod: true, λευκός_οίκος_hasRighDep_nmod: true, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [με, μαεστρία, την ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Οίκου, ,, ήταν ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [με]   B= [μαεστρία, την, ανύπαντρη ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Οίκου]   B= [,, ήταν, πια ,.. ]
 
-B0Lemma: μαεστρία, B0POS: NoCm, B0Token: μαεστρία, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: την, S0B0Lemma: με_μαεστρία, S0B0LemmaPOS: με_NoCm, S0B0POS: AsPpSp_NoCm, S0B0POSLemma: AsPpSp_μαεστρία, S0B0Token: με_μαεστρία, S0B1Lemma: με_ο, S0B1LemmaPOS: με_AtDf, S0B1POS: AsPpSp_AtDf, S0B1POSLemma: AsPpSp_ο, S0B1Token: με_την, S0B2Lemma: με_ανύπαντρος, S0B2LemmaPOS: με_Aj, S0B2POS: AsPpSp_Aj, S0B2POSLemma: AsPpSp_ανύπαντρος, S0B2Token: με_ανύπαντρη, S0IsInLexic: true, S0Lemma: με, S0POS: AsPpSp, S0Token: με, με_isGouvernedBy_μαεστρία: true, με_isGouvernedBy_μαεστρία_case: true, 
+B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: είμαι, B1POS: VbMn, B1Token: ήταν, S0B0Lemma: οίκος_,, S0B0LemmaPOS: οίκος_PUNCT, S0B0POS: NoCm_PUNCT, S0B0POSLemma: NoCm_,, S0B0Token: Οίκου_,, S0B1Lemma: οίκος_είμαι, S0B1LemmaPOS: οίκος_VbMn, S0B1POS: NoCm_VbMn, S0B1POSLemma: NoCm_είμαι, S0B1Token: Οίκου_ήταν, S0B2Lemma: οίκος_πια, S0B2LemmaPOS: οίκος_Ad, S0B2POS: NoCm_Ad, S0B2POSLemma: NoCm_πια, S0B2Token: Οίκου_πια, S0Lemma: οίκος, S0POS: NoCm, S0Token: Οίκου, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [μαεστρία, την, ανύπαντρη ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ήταν, πια ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [μαεστρία]   B= [την, ανύπαντρη, Μπέλα ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ήταν, πια, αργά ,.. ]
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: την, B1Lemma: ανύπαντρος, B1POS: Aj, B1Token: ανύπαντρη, S0B0Lemma: μαεστρία_ο, S0B0LemmaPOS: μαεστρία_AtDf, S0B0POS: NoCm_AtDf, S0B0POSLemma: NoCm_ο, S0B0Token: μαεστρία_την, S0B1Lemma: μαεστρία_ανύπαντρος, S0B1LemmaPOS: μαεστρία_Aj, S0B1POS: NoCm_Aj, S0B1POSLemma: NoCm_ανύπαντρος, S0B1Token: μαεστρία_ανύπαντρη, S0B2Lemma: μαεστρία_Μπέλα, S0B2LemmaPOS: μαεστρία_NoPr, S0B2POS: NoCm_NoPr, S0B2POSLemma: NoCm_Μπέλα, S0B2Token: μαεστρία_Μπέλα, S0Lemma: μαεστρία, S0POS: NoCm, S0Token: μαεστρία, hasRighDep_nmod: true, μαεστρία_hasRighDep_nmod: true, μαεστρία_Μπέλα_hasRighDep_nmod: true, 
+,_isGouvernedBy_είμαι: true, ,_isGouvernedBy_είμαι_punct: true, B0IsInLexic: true, B0Lemma: είμαι, B0POS: VbMn, B0Token: ήταν, B1Lemma: πια, B1POS: Ad, B1Token: πια, S0B0Lemma: ,_είμαι, S0B0LemmaPOS: ,_VbMn, S0B0POS: PUNCT_VbMn, S0B0POSLemma: PUNCT_είμαι, S0B0Token: ,_ήταν, S0B1Lemma: ,_πια, S0B1LemmaPOS: ,_Ad, S0B1POS: PUNCT_Ad, S0B1POSLemma: PUNCT_πια, S0B1Token: ,_πια, S0B2Lemma: ,_αργά, S0B2LemmaPOS: ,_Ad, S0B2POS: PUNCT_Ad, S0B2POSLemma: PUNCT_αργά, S0B2Token: ,_αργά, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [την, ανύπαντρη, Μπέλα ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ήταν, πια, αργά ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [την]   B= [ανύπαντρη, Μπέλα, της ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ήταν]   B= [πια, αργά, για ,.. ]
 
-B0Lemma: ανύπαντρος, B0POS: Aj, B0Token: ανύπαντρη, B1Lemma: Μπέλα, B1POS: NoPr, B1Token: Μπέλα, S0B0Lemma: ο_ανύπαντρος, S0B0LemmaPOS: ο_Aj, S0B0POS: AtDf_Aj, S0B0POSLemma: AtDf_ανύπαντρος, S0B0Token: την_ανύπαντρη, S0B1Lemma: ο_Μπέλα, S0B1LemmaPOS: ο_NoPr, S0B1POS: AtDf_NoPr, S0B1POSLemma: AtDf_Μπέλα, S0B1Token: την_Μπέλα, S0B2Lemma: ο_ο, S0B2LemmaPOS: ο_AtDf, S0B2POS: AtDf_AtDf, S0B2POSLemma: AtDf_ο, S0B2Token: την_της, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: την, ο_isGouvernedBy_Μπέλα: true, ο_isGouvernedBy_Μπέλα_det: true, 
+B0Lemma: πια, B0POS: Ad, B0Token: πια, B1Lemma: αργά, B1POS: Ad, B1Token: αργά, S0B0Lemma: είμαι_πια, S0B0LemmaPOS: είμαι_Ad, S0B0POS: VbMn_Ad, S0B0POSLemma: VbMn_πια, S0B0Token: ήταν_πια, S0B1Lemma: είμαι_αργά, S0B1LemmaPOS: είμαι_Ad, S0B1POS: VbMn_Ad, S0B1POSLemma: VbMn_αργά, S0B1Token: ήταν_αργά, S0B2Lemma: είμαι_για, S0B2LemmaPOS: είμαι_AsPpSp, S0B2POS: VbMn_AsPpSp, S0B2POSLemma: VbMn_για, S0B2Token: ήταν_για, S0IsInLexic: true, S0Lemma: είμαι, S0POS: VbMn, S0Token: ήταν, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ανύπαντρη, Μπέλα, της ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [πια, αργά, για ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ανύπαντρη]   B= [Μπέλα, της, οικογένειας ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [πια]   B= [αργά, για, να ,.. ]
 
-B0Lemma: Μπέλα, B0POS: NoPr, B0Token: Μπέλα, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: της, S0B0Lemma: ανύπαντρος_Μπέλα, S0B0LemmaPOS: ανύπαντρος_NoPr, S0B0POS: Aj_NoPr, S0B0POSLemma: Aj_Μπέλα, S0B0Token: ανύπαντρη_Μπέλα, S0B1Lemma: ανύπαντρος_ο, S0B1LemmaPOS: ανύπαντρος_AtDf, S0B1POS: Aj_AtDf, S0B1POSLemma: Aj_ο, S0B1Token: ανύπαντρη_της, S0B2Lemma: ανύπαντρος_οικογένεια, S0B2LemmaPOS: ανύπαντρος_NoCm, S0B2POS: Aj_NoCm, S0B2POSLemma: Aj_οικογένεια, S0B2Token: ανύπαντρη_οικογένειας, S0Lemma: ανύπαντρος, S0POS: Aj, S0Token: ανύπαντρη, ανύπαντρος_isGouvernedBy_Μπέλα: true, ανύπαντρος_isGouvernedBy_Μπέλα_amod: true, 
+B0Lemma: αργά, B0POS: Ad, B0Token: αργά, B1IsInLexic: true, B1Lemma: για, B1POS: AsPpSp, B1Token: για, S0B0Lemma: πια_αργά, S0B0LemmaPOS: πια_Ad, S0B0POS: Ad_Ad, S0B0POSLemma: Ad_αργά, S0B0Token: πια_αργά, S0B1Lemma: πια_για, S0B1LemmaPOS: πια_AsPpSp, S0B1POS: Ad_AsPpSp, S0B1POSLemma: Ad_για, S0B1Token: πια_για, S0B2Lemma: πια_να, S0B2LemmaPOS: πια_PtSj, S0B2POS: Ad_PtSj, S0B2POSLemma: Ad_να, S0B2Token: πια_να, S0Lemma: πια, S0POS: Ad, S0Token: πια, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Μπέλα, της, οικογένειας ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αργά, για, να ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Μπέλα]   B= [της, οικογένειας, Χαμπεά ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αργά]   B= [για, να, ανακόψει ,.. ]
 
-B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: της, B1Lemma: οικογένεια, B1POS: NoCm, B1Token: οικογένειας, S0B0Lemma: Μπέλα_ο, S0B0LemmaPOS: Μπέλα_AtDf, S0B0POS: NoPr_AtDf, S0B0POSLemma: NoPr_ο, S0B0Token: Μπέλα_της, S0B1Lemma: Μπέλα_οικογένεια, S0B1LemmaPOS: Μπέλα_NoCm, S0B1POS: NoPr_NoCm, S0B1POSLemma: NoPr_οικογένεια, S0B1Token: Μπέλα_οικογένειας, S0B2Lemma: Μπέλα_Χαμπεά, S0B2LemmaPOS: Μπέλα_NoPr, S0B2POS: NoPr_NoPr, S0B2POSLemma: NoPr_Χαμπεά, S0B2Token: Μπέλα_Χαμπεά, S0Lemma: Μπέλα, S0POS: NoPr, S0Token: Μπέλα, hasRighDep_nmod: true, Μπέλα_hasRighDep_nmod: true, Μπέλα_οικογένεια_hasRighDep_nmod: true, 
+B0IsInLexic: true, B0Lemma: για, B0POS: AsPpSp, B0Token: για, B1IsInLexic: true, B1Lemma: να, B1POS: PtSj, B1Token: να, S0B0Lemma: αργά_για, S0B0LemmaPOS: αργά_AsPpSp, S0B0POS: Ad_AsPpSp, S0B0POSLemma: Ad_για, S0B0Token: αργά_για, S0B1Lemma: αργά_να, S0B1LemmaPOS: αργά_PtSj, S0B1POS: Ad_PtSj, S0B1POSLemma: Ad_να, S0B1Token: αργά_να, S0B2Lemma: αργά_ανακόπτω, S0B2LemmaPOS: αργά_VbMn, S0B2POS: Ad_VbMn, S0B2POSLemma: Ad_ανακόπτω, S0B2Token: αργά_ανακόψει, S0Lemma: αργά, S0POS: Ad, S0Token: αργά, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [της, οικογένειας, Χαμπεά ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [για, να, ανακόψει ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [της]   B= [οικογένειας, Χαμπεά, , ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [για]   B= [να, ανακόψει, τις ,.. ]
 
-B0Lemma: οικογένεια, B0POS: NoCm, B0Token: οικογένειας, B1Lemma: Χαμπεά, B1POS: NoPr, B1Token: Χαμπεά, S0B0Lemma: ο_οικογένεια, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_οικογένεια, S0B0Token: της_οικογένειας, S0B1Lemma: ο_Χαμπεά, S0B1LemmaPOS: ο_NoPr, S0B1POS: AtDf_NoPr, S0B1POSLemma: AtDf_Χαμπεά, S0B1Token: της_Χαμπεά, S0B2Lemma: ο_,, S0B2LemmaPOS: ο_PUNCT, S0B2POS: AtDf_PUNCT, S0B2POSLemma: AtDf_,, S0B2Token: της_,, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: της, ο_isGouvernedBy_οικογένεια: true, ο_isGouvernedBy_οικογένεια_det: true, 
+B0IsInLexic: true, B0Lemma: να, B0POS: PtSj, B0Token: να, B1Lemma: ανακόπτω, B1POS: VbMn, B1Token: ανακόψει, S0B0Lemma: για_να, S0B0LemmaPOS: για_PtSj, S0B0POS: AsPpSp_PtSj, S0B0POSLemma: AsPpSp_να, S0B0Token: για_να, S0B1Lemma: για_ανακόπτω, S0B1LemmaPOS: για_VbMn, S0B1POS: AsPpSp_VbMn, S0B1POSLemma: AsPpSp_ανακόπτω, S0B1Token: για_ανακόψει, S0B2Lemma: για_ο, S0B2LemmaPOS: για_AtDf, S0B2POS: AsPpSp_AtDf, S0B2POSLemma: AsPpSp_ο, S0B2Token: για_τις, S0IsInLexic: true, S0Lemma: για, S0POS: AsPpSp, S0Token: για, για_isGouvernedBy_ανακόπτω: true, για_isGouvernedBy_ανακόπτω_mark: true, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [οικογένειας, Χαμπεά, , ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [να, ανακόψει, τις ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [οικογένειας]   B= [Χαμπεά, ,, η ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [να]   B= [ανακόψει, τις, διαδικασίες ,.. ]
 
-B0Lemma: Χαμπεά, B0POS: NoPr, B0Token: Χαμπεά, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: οικογένεια_Χαμπεά, S0B0LemmaPOS: οικογένεια_NoPr, S0B0POS: NoCm_NoPr, S0B0POSLemma: NoCm_Χαμπεά, S0B0Token: οικογένειας_Χαμπεά, S0B1Lemma: οικογένεια_,, S0B1LemmaPOS: οικογένεια_PUNCT, S0B1POS: NoCm_PUNCT, S0B1POSLemma: NoCm_,, S0B1Token: οικογένειας_,, S0B2Lemma: οικογένεια_ο, S0B2LemmaPOS: οικογένεια_AtDf, S0B2POS: NoCm_AtDf, S0B2POSLemma: NoCm_ο, S0B2Token: οικογένειας_η, S0Lemma: οικογένεια, S0POS: NoCm, S0Token: οικογένειας, hasRighDep_nmod: true, οικογένεια_hasRighDep_nmod: true, οικογένεια_Χαμπεά_hasRighDep_nmod: true, οικογένεια_έτος_hasRighDep_nmod: true, 
+B0Lemma: ανακόπτω, B0POS: VbMn, B0Token: ανακόψει, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: τις, S0B0Lemma: να_ανακόπτω, S0B0LemmaPOS: να_VbMn, S0B0POS: PtSj_VbMn, S0B0POSLemma: PtSj_ανακόπτω, S0B0Token: να_ανακόψει, S0B1Lemma: να_ο, S0B1LemmaPOS: να_AtDf, S0B1POS: PtSj_AtDf, S0B1POSLemma: PtSj_ο, S0B1Token: να_τις, S0B2Lemma: να_διαδικασία, S0B2LemmaPOS: να_NoCm, S0B2POS: PtSj_NoCm, S0B2POSLemma: PtSj_διαδικασία, S0B2Token: να_διαδικασίες, S0IsInLexic: true, S0Lemma: να, S0POS: PtSj, S0Token: να, να_isGouvernedBy_ανακόπτω: true, να_isGouvernedBy_ανακόπτω_aux: true, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Χαμπεά, ,, η ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ανακόψει, τις, διαδικασίες ,.. ]
 
 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Χαμπεά]   B= [,, η, οποία ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ανακόψει]   B= [τις, διαδικασίες, εισβολής ,.. ]
 
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: η, S0B0Lemma: Χαμπεά_,, S0B0LemmaPOS: Χαμπεά_PUNCT, S0B0POS: NoPr_PUNCT, S0B0POSLemma: NoPr_,, S0B0Token: Χαμπεά_,, S0B1Lemma: Χαμπεά_ο, S0B1LemmaPOS: Χαμπεά_AtDf, S0B1POS: NoPr_AtDf, S0B1POSLemma: NoPr_ο, S0B1Token: Χαμπεά_η, S0B2Lemma: Χαμπεά_οποίος, S0B2LemmaPOS: Χαμπεά_PnRe, S0B2POS: NoPr_PnRe, S0B2POSLemma: NoPr_οποίος, S0B2Token: Χαμπεά_οποία, S0Lemma: Χαμπεά, S0POS: NoPr, S0Token: Χαμπεά, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: τις, B1Lemma: διαδικασία, B1POS: NoCm, B1Token: διαδικασίες, S0B0Lemma: ανακόπτω_ο, S0B0LemmaPOS: ανακόπτω_AtDf, S0B0POS: VbMn_AtDf, S0B0POSLemma: VbMn_ο, S0B0Token: ανακόψει_τις, S0B1Lemma: ανακόπτω_διαδικασία, S0B1LemmaPOS: ανακόπτω_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_διαδικασία, S0B1Token: ανακόψει_διαδικασίες, S0B2Lemma: ανακόπτω_εισβολή, S0B2LemmaPOS: ανακόπτω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_εισβολή, S0B2Token: ανακόψει_εισβολής, S0Lemma: ανακόπτω, S0POS: VbMn, S0Token: ανακόψει, hasRighDep_dobj: true, ανακόπτω_hasRighDep_dobj: true, ανακόπτω_διαδικασία_hasRighDep_dobj: true, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, η, οποία ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [τις, διαδικασίες, εισβολής ,.. ]
 
 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [η, οποία, αν ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [τις]   B= [διαδικασίες, εισβολής, στην ,.. ]
 
-,_isGouvernedBy_έτος: true, ,_isGouvernedBy_έτος_punct: true, B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: η, B1Lemma: οποίος, B1POS: PnRe, B1Token: οποία, S0B0Lemma: ,_ο, S0B0LemmaPOS: ,_AtDf, S0B0POS: PUNCT_AtDf, S0B0POSLemma: PUNCT_ο, S0B0Token: ,_η, S0B1Lemma: ,_οποίος, S0B1LemmaPOS: ,_PnRe, S0B1POS: PUNCT_PnRe, S0B1POSLemma: PUNCT_οποίος, S0B1Token: ,_οποία, S0B2Lemma: ,_αν, S0B2LemmaPOS: ,_CjSb, S0B2POS: PUNCT_CjSb, S0B2POSLemma: PUNCT_αν, S0B2Token: ,_αν, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
+B0Lemma: διαδικασία, B0POS: NoCm, B0Token: διαδικασίες, B1Lemma: εισβολή, B1POS: NoCm, B1Token: εισβολής, S0B0Lemma: ο_διαδικασία, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_διαδικασία, S0B0Token: τις_διαδικασίες, S0B1Lemma: ο_εισβολή, S0B1LemmaPOS: ο_NoCm, S0B1POS: AtDf_NoCm, S0B1POSLemma: AtDf_εισβολή, S0B1Token: τις_εισβολής, S0B2Lemma: ο_στου, S0B2LemmaPOS: ο_AsPpPa, S0B2POS: AtDf_AsPpPa, S0B2POSLemma: AtDf_στου, S0B2Token: τις_στην, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: τις, ο_isGouvernedBy_διαδικασία: true, ο_isGouvernedBy_διαδικασία_det: true, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [η, οποία, αν ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [διαδικασίες, εισβολής, στην ,.. ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [η]   B= [οποία, αν, και ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [διαδικασίες]   B= [εισβολής, στην, Κούβα ,.. ]
 
-B0Lemma: οποίος, B0POS: PnRe, B0Token: οποία, B1Lemma: αν, B1POS: CjSb, B1Token: αν, S0B0Lemma: ο_οποίος, S0B0LemmaPOS: ο_PnRe, S0B0POS: AtDf_PnRe, S0B0POSLemma: AtDf_οποίος, S0B0Token: η_οποία, S0B1Lemma: ο_αν, S0B1LemmaPOS: ο_CjSb, S0B1POS: AtDf_CjSb, S0B1POSLemma: AtDf_αν, S0B1Token: η_αν, S0B2Lemma: ο_και, S0B2LemmaPOS: ο_CjCo, S0B2POS: AtDf_CjCo, S0B2POSLemma: AtDf_και, S0B2Token: η_και, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: η, ο_isGouvernedBy_οποίος: true, ο_isGouvernedBy_οποίος_det: true, 
+B0Lemma: εισβολή, B0POS: NoCm, B0Token: εισβολής, B1IsInLexic: true, B1Lemma: στου, B1POS: AsPpPa, B1Token: στην, S0B0Lemma: διαδικασία_εισβολή, S0B0LemmaPOS: διαδικασία_NoCm, S0B0POS: NoCm_NoCm, S0B0POSLemma: NoCm_εισβολή, S0B0Token: διαδικασίες_εισβολής, S0B1Lemma: διαδικασία_στου, S0B1LemmaPOS: διαδικασία_AsPpPa, S0B1POS: NoCm_AsPpPa, S0B1POSLemma: NoCm_στου, S0B1Token: διαδικασίες_στην, S0B2Lemma: διαδικασία_Κούβα, S0B2LemmaPOS: διαδικασία_NoPr, S0B2POS: NoCm_NoPr, S0B2POSLemma: NoCm_Κούβα, S0B2Token: διαδικασίες_Κούβα, S0Lemma: διαδικασία, S0POS: NoCm, S0Token: διαδικασίες, hasRighDep_nmod: true, διαδικασία_hasRighDep_nmod: true, διαδικασία_εισβολή_hasRighDep_nmod: true, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [οποία, αν, και ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [εισβολής, στην, Κούβα ,.. ]
 
 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [οποία]   B= [αν, και, 39 ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [εισβολής]   B= [στην, Κούβα, που ,.. ]
 
-B0Lemma: αν, B0POS: CjSb, B0Token: αν, B1IsInLexic: true, B1Lemma: και, B1POS: CjCo, B1Token: και, S0B0Lemma: οποίος_αν, S0B0LemmaPOS: οποίος_CjSb, S0B0POS: PnRe_CjSb, S0B0POSLemma: PnRe_αν, S0B0Token: οποία_αν, S0B1Lemma: οποίος_και, S0B1LemmaPOS: οποίος_CjCo, S0B1POS: PnRe_CjCo, S0B1POSLemma: PnRe_και, S0B1Token: οποία_και, S0B2Lemma: οποίος_39, S0B2LemmaPOS: οποίος_DIG, S0B2POS: PnRe_DIG, S0B2POSLemma: PnRe_39, S0B2Token: οποία_39, S0Lemma: οποίος, S0POS: PnRe, S0Token: οποία, οποίος_isGouvernedBy_έτος: true, οποίος_isGouvernedBy_έτος_nsubj: true, 
+B0IsInLexic: true, B0Lemma: στου, B0POS: AsPpPa, B0Token: στην, B1Lemma: Κούβα, B1POS: NoPr, B1Token: Κούβα, S0B0Lemma: εισβολή_στου, S0B0LemmaPOS: εισβολή_AsPpPa, S0B0POS: NoCm_AsPpPa, S0B0POSLemma: NoCm_στου, S0B0Token: εισβολής_στην, S0B1Lemma: εισβολή_Κούβα, S0B1LemmaPOS: εισβολή_NoPr, S0B1POS: NoCm_NoPr, S0B1POSLemma: NoCm_Κούβα, S0B1Token: εισβολής_Κούβα, S0B2Lemma: εισβολή_που, S0B2LemmaPOS: εισβολή_PnRe, S0B2POS: NoCm_PnRe, S0B2POSLemma: NoCm_που, S0B2Token: εισβολής_που, S0Lemma: εισβολή, S0POS: NoCm, S0Token: εισβολής, hasRighDep_nmod: true, hasRighDep_relcl: true, εισβολή_hasRighDep_nmod: true, εισβολή_hasRighDep_relcl: true, εισβολή_Κούβα_hasRighDep_nmod: true, εισβολή_δρομολογώ_hasRighDep_relcl: true, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [αν, και, 39 ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [στην, Κούβα, που ,.. ]
 
 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [αν]   B= [και, 39, ετών ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [στην]   B= [Κούβα, που, είχε ,.. ]
 
-B0IsInLexic: true, B0Lemma: και, B0POS: CjCo, B0Token: και, B1Lemma: 39, B1POS: DIG, B1Token: 39, S0B0Lemma: αν_και, S0B0LemmaPOS: αν_CjCo, S0B0POS: CjSb_CjCo, S0B0POSLemma: CjSb_και, S0B0Token: αν_και, S0B1Lemma: αν_39, S0B1LemmaPOS: αν_DIG, S0B1POS: CjSb_DIG, S0B1POSLemma: CjSb_39, S0B1Token: αν_39, S0B2Lemma: αν_έτος, S0B2LemmaPOS: αν_NoCm, S0B2POS: CjSb_NoCm, S0B2POSLemma: CjSb_έτος, S0B2Token: αν_ετών, S0Lemma: αν, S0POS: CjSb, S0Token: αν, hasRighDep_cc: true, αν_hasRighDep_cc: true, αν_isGouvernedBy_έτος: true, αν_isGouvernedBy_έτος_mark: true, αν_και_hasRighDep_cc: true, 
+B0Lemma: Κούβα, B0POS: NoPr, B0Token: Κούβα, B1Lemma: που, B1POS: PnRe, B1Token: που, S0B0Lemma: στου_Κούβα, S0B0LemmaPOS: στου_NoPr, S0B0POS: AsPpPa_NoPr, S0B0POSLemma: AsPpPa_Κούβα, S0B0Token: στην_Κούβα, S0B1Lemma: στου_που, S0B1LemmaPOS: στου_PnRe, S0B1POS: AsPpPa_PnRe, S0B1POSLemma: AsPpPa_που, S0B1Token: στην_που, S0B2Lemma: στου_έχω, S0B2LemmaPOS: στου_VbMn, S0B2POS: AsPpPa_VbMn, S0B2POSLemma: AsPpPa_έχω, S0B2Token: στην_είχε, S0IsInLexic: true, S0Lemma: στου, S0POS: AsPpPa, S0Token: στην, στου_isGouvernedBy_Κούβα: true, στου_isGouvernedBy_Κούβα_case: true, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [και, 39, ετών ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Κούβα, που, είχε ,.. ]
 
 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [και]   B= [39, ετών, , ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Κούβα]   B= [που, είχε, δρομολογήσει ,.. ]
 
-B0Lemma: 39, B0POS: DIG, B0Token: 39, B1Lemma: έτος, B1POS: NoCm, B1Token: ετών, S0B0Lemma: και_39, S0B0LemmaPOS: και_DIG, S0B0POS: CjCo_DIG, S0B0POSLemma: CjCo_39, S0B0Token: και_39, S0B1Lemma: και_έτος, S0B1LemmaPOS: και_NoCm, S0B1POS: CjCo_NoCm, S0B1POSLemma: CjCo_έτος, S0B1Token: και_ετών, S0B2Lemma: και_,, S0B2LemmaPOS: και_PUNCT, S0B2POS: CjCo_PUNCT, S0B2POSLemma: CjCo_,, S0B2Token: και_,, S0IsInLexic: true, S0Lemma: και, S0POS: CjCo, S0Token: και, 
+B0Lemma: που, B0POS: PnRe, B0Token: που, B1IsInLexic: true, B1Lemma: έχω, B1POS: VbMn, B1Token: είχε, S0B0Lemma: Κούβα_που, S0B0LemmaPOS: Κούβα_PnRe, S0B0POS: NoPr_PnRe, S0B0POSLemma: NoPr_που, S0B0Token: Κούβα_που, S0B1Lemma: Κούβα_έχω, S0B1LemmaPOS: Κούβα_VbMn, S0B1POS: NoPr_VbMn, S0B1POSLemma: NoPr_έχω, S0B1Token: Κούβα_είχε, S0B2Lemma: Κούβα_δρομολογώ, S0B2LemmaPOS: Κούβα_VbMn, S0B2POS: NoPr_VbMn, S0B2POSLemma: NoPr_δρομολογώ, S0B2Token: Κούβα_δρομολογήσει, S0Lemma: Κούβα, S0POS: NoPr, S0Token: Κούβα, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [39, ετών, , ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [που, είχε, δρομολογήσει ,.. ]
 
 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [39]   B= [ετών, ,, δεν ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [που]   B= [είχε, δρομολογήσει, ο ,.. ]
 
-39_isGouvernedBy_έτος: true, 39_isGouvernedBy_έτος_nmod: true, B0Lemma: έτος, B0POS: NoCm, B0Token: ετών, B1Lemma: ,, B1POS: PUNCT, B1Token: ,, S0B0Lemma: 39_έτος, S0B0LemmaPOS: 39_NoCm, S0B0POS: DIG_NoCm, S0B0POSLemma: DIG_έτος, S0B0Token: 39_ετών, S0B1Lemma: 39_,, S0B1LemmaPOS: 39_PUNCT, S0B1POS: DIG_PUNCT, S0B1POSLemma: DIG_,, S0B1Token: 39_,, S0B2Lemma: 39_δεν, S0B2LemmaPOS: 39_PtNg, S0B2POS: DIG_PtNg, S0B2POSLemma: DIG_δεν, S0B2Token: 39_δεν, S0Lemma: 39, S0POS: DIG, S0Token: 39, 
+B0IsInLexic: true, B0Lemma: έχω, B0POS: VbMn, B0Token: είχε, B1Lemma: δρομολογώ, B1POS: VbMn, B1Token: δρομολογήσει, S0B0Lemma: που_έχω, S0B0LemmaPOS: που_VbMn, S0B0POS: PnRe_VbMn, S0B0POSLemma: PnRe_έχω, S0B0Token: που_είχε, S0B1Lemma: που_δρομολογώ, S0B1LemmaPOS: που_VbMn, S0B1POS: PnRe_VbMn, S0B1POSLemma: PnRe_δρομολογώ, S0B1Token: που_δρομολογήσει, S0B2Lemma: που_ο, S0B2LemmaPOS: που_AtDf, S0B2POS: PnRe_AtDf, S0B2POSLemma: PnRe_ο, S0B2Token: που_ο, S0Lemma: που, S0POS: PnRe, S0Token: που, που_isGouvernedBy_δρομολογώ: true, που_isGouvernedBy_δρομολογώ_dobj: true, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ετών, ,, δεν ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [είχε, δρομολογήσει, ο ,.. ]
 
 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ετών]   B= [,, δεν, λέει ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [είχε]   B= [δρομολογήσει, ο, προκάτοχός ,.. ]
 
-B0Lemma: ,, B0POS: PUNCT, B0Token: ,, B1IsInLexic: true, B1Lemma: δεν, B1POS: PtNg, B1Token: δεν, S0B0Lemma: έτος_,, S0B0LemmaPOS: έτος_PUNCT, S0B0POS: NoCm_PUNCT, S0B0POSLemma: NoCm_,, S0B0Token: ετών_,, S0B1Lemma: έτος_δεν, S0B1LemmaPOS: έτος_PtNg, S0B1POS: NoCm_PtNg, S0B1POSLemma: NoCm_δεν, S0B1Token: ετών_δεν, S0B2Lemma: έτος_λέγω, S0B2LemmaPOS: έτος_VbMn, S0B2POS: NoCm_VbMn, S0B2POSLemma: NoCm_λέγω, S0B2Token: ετών_λέει, S0Lemma: έτος, S0POS: NoCm, S0Token: ετών, 
+B0Lemma: δρομολογώ, B0POS: VbMn, B0Token: δρομολογήσει, B1IsInLexic: true, B1Lemma: ο, B1POS: AtDf, B1Token: ο, S0B0Lemma: έχω_δρομολογώ, S0B0LemmaPOS: έχω_VbMn, S0B0POS: VbMn_VbMn, S0B0POSLemma: VbMn_δρομολογώ, S0B0Token: είχε_δρομολογήσει, S0B1Lemma: έχω_ο, S0B1LemmaPOS: έχω_AtDf, S0B1POS: VbMn_AtDf, S0B1POSLemma: VbMn_ο, S0B1Token: είχε_ο, S0B2Lemma: έχω_προκάτοχος, S0B2LemmaPOS: έχω_NoCm, S0B2POS: VbMn_NoCm, S0B2POSLemma: VbMn_προκάτοχος, S0B2Token: είχε_προκάτοχός, S0IsInLexic: true, S0Lemma: έχω, S0POS: VbMn, S0Token: είχε, έχω_isGouvernedBy_δρομολογώ: true, έχω_isGouvernedBy_δρομολογώ_aux: true, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, δεν, λέει ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [δρομολογήσει, ο, προκάτοχός ,.. ]
 
 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [δεν, λέει, να ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [δρομολογήσει]   B= [ο, προκάτοχός, του ,.. ]
 
-B0IsInLexic: true, B0Lemma: δεν, B0POS: PtNg, B0Token: δεν, B1Lemma: λέγω, B1POS: VbMn, B1Token: λέει, S0B0Lemma: ,_δεν, S0B0LemmaPOS: ,_PtNg, S0B0POS: PUNCT_PtNg, S0B0POSLemma: PUNCT_δεν, S0B0Token: ,_δεν, S0B1Lemma: ,_λέγω, S0B1LemmaPOS: ,_VbMn, S0B1POS: PUNCT_VbMn, S0B1POSLemma: PUNCT_λέγω, S0B1Token: ,_λέει, S0B2Lemma: ,_να, S0B2LemmaPOS: ,_PtSj, S0B2POS: PUNCT_PtSj, S0B2POSLemma: PUNCT_να, S0B2Token: ,_να, S0Lemma: ,, S0POS: PUNCT, S0Token: ,, 
+B0IsInLexic: true, B0Lemma: ο, B0POS: AtDf, B0Token: ο, B1Lemma: προκάτοχος, B1POS: NoCm, B1Token: προκάτοχός, S0B0Lemma: δρομολογώ_ο, S0B0LemmaPOS: δρομολογώ_AtDf, S0B0POS: VbMn_AtDf, S0B0POSLemma: VbMn_ο, S0B0Token: δρομολογήσει_ο, S0B1Lemma: δρομολογώ_προκάτοχος, S0B1LemmaPOS: δρομολογώ_NoCm, S0B1POS: VbMn_NoCm, S0B1POSLemma: VbMn_προκάτοχος, S0B1Token: δρομολογήσει_προκάτοχός, S0B2Lemma: δρομολογώ_μου, S0B2LemmaPOS: δρομολογώ_PnPo, S0B2POS: VbMn_PnPo, S0B2POSLemma: VbMn_μου, S0B2Token: δρομολογήσει_του, S0Lemma: δρομολογώ, S0POS: VbMn, S0Token: δρομολογήσει, hasRighDep_nsubj: true, δρομολογώ_hasRighDep_nsubj: true, δρομολογώ_προκάτοχος_hasRighDep_nsubj: true, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [δεν, λέει, να ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ο, προκάτοχός, του ,.. ]
 
 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [δεν]   B= [λέει, να, το ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ο]   B= [προκάτοχός, του, Ντουάιτ ,.. ]
 
-B0Lemma: λέγω, B0POS: VbMn, B0Token: λέει, B1IsInLexic: true, B1Lemma: να, B1POS: PtSj, B1Token: να, S0B0Lemma: δεν_λέγω, S0B0LemmaPOS: δεν_VbMn, S0B0POS: PtNg_VbMn, S0B0POSLemma: PtNg_λέγω, S0B0Token: δεν_λέει, S0B1Lemma: δεν_να, S0B1LemmaPOS: δεν_PtSj, S0B1POS: PtNg_PtSj, S0B1POSLemma: PtNg_να, S0B1Token: δεν_να, S0B2Lemma: δεν_εγώ, S0B2LemmaPOS: δεν_PnPe, S0B2POS: PtNg_PnPe, S0B2POSLemma: PtNg_εγώ, S0B2Token: δεν_το, S0IsInLexic: true, S0Lemma: δεν, S0POS: PtNg, S0Token: δεν, δεν_isGouvernedBy_λέγω: true, δεν_isGouvernedBy_λέγω_neg: true, 
+B0Lemma: προκάτοχος, B0POS: NoCm, B0Token: προκάτοχός, B1IsInLexic: true, B1Lemma: μου, B1POS: PnPo, B1Token: του, S0B0Lemma: ο_προκάτοχος, S0B0LemmaPOS: ο_NoCm, S0B0POS: AtDf_NoCm, S0B0POSLemma: AtDf_προκάτοχος, S0B0Token: ο_προκάτοχός, S0B1Lemma: ο_μου, S0B1LemmaPOS: ο_PnPo, S0B1POS: AtDf_PnPo, S0B1POSLemma: AtDf_μου, S0B1Token: ο_του, S0B2Lemma: ο_Ντουάιτ, S0B2LemmaPOS: ο_NoPr, S0B2POS: AtDf_NoPr, S0B2POSLemma: AtDf_Ντουάιτ, S0B2Token: ο_Ντουάιτ, S0IsInLexic: true, S0Lemma: ο, S0POS: AtDf, S0Token: ο, ο_isGouvernedBy_προκάτοχος: true, ο_isGouvernedBy_προκάτοχος_det: true, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [λέει, να, το ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [προκάτοχός, του, Ντουάιτ ,.. ]
 
 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [λέει]   B= [να, το, βάλει ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [προκάτοχός]   B= [του, Ντουάιτ, Αϊζενχάουερ ,.. ]
 
-B0IsInLexic: true, B0Lemma: να, B0POS: PtSj, B0Token: να, B1IsInLexic: true, B1Lemma: εγώ, B1POS: PnPe, B1Token: το, S0B0Lemma: λέγω_να, S0B0LemmaPOS: λέγω_PtSj, S0B0POS: VbMn_PtSj, S0B0POSLemma: VbMn_να, S0B0Token: λέει_να, S0B1Lemma: λέγω_εγώ, S0B1LemmaPOS: λέγω_PnPe, S0B1POS: VbMn_PnPe, S0B1POSLemma: VbMn_εγώ, S0B1Token: λέει_το, S0B2Lemma: λέγω_βάζω, S0B2LemmaPOS: λέγω_VbMn, S0B2POS: VbMn_VbMn, S0B2POSLemma: VbMn_βάζω, S0B2Token: λέει_βάλει, S0Lemma: λέγω, S0POS: VbMn, S0Token: λέει, hasRighDep_ccomp: true, λέγω_hasRighDep_ccomp: true, λέγω_βάζω_hasRighDep_ccomp: true, 
+B0IsInLexic: true, B0Lemma: μου, B0POS: PnPo, B0Token: του, B1Lemma: Ντουάιτ, B1POS: NoPr, B1Token: Ντουάιτ, S0B0Lemma: προκάτοχος_μου, S0B0LemmaPOS: προκάτοχος_PnPo, S0B0POS: NoCm_PnPo, S0B0POSLemma: NoCm_μου, S0B0Token: προκάτοχός_του, S0B1Lemma: προκάτοχος_Ντουάιτ, S0B1LemmaPOS: προκάτοχος_NoPr, S0B1POS: NoCm_NoPr, S0B1POSLemma: NoCm_Ντουάιτ, S0B1Token: προκάτοχός_Ντουάιτ, S0B2Lemma: προκάτοχος_Αϊζενχάουερ, S0B2LemmaPOS: προκάτοχος_NoPr, S0B2POS: NoCm_NoPr, S0B2POSLemma: NoCm_Αϊζενχάουερ, S0B2Token: προκάτοχός_Αϊζενχάουερ, S0Lemma: προκάτοχος, S0POS: NoCm, S0Token: προκάτοχός, hasRighDep_nmod: true, προκάτοχος_hasRighDep_nmod: true, προκάτοχος_Αϊζενχάουερ_hasRighDep_nmod: true, προκάτοχος_μου_hasRighDep_nmod: true, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [να, το, βάλει ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [του, Ντουάιτ, Αϊζενχάουερ ,.. ]
 
 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [να]   B= [το, βάλει, κάτω ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [του]   B= [Ντουάιτ, Αϊζενχάουερ, . ,.. ]
 
-B0IsInLexic: true, B0Lemma: εγώ, B0POS: PnPe, B0Token: το, B1IsInLexic: true, B1Lemma: βάζω, B1POS: VbMn, B1Token: βάλει, S0B0Lemma: να_εγώ, S0B0LemmaPOS: να_PnPe, S0B0POS: PtSj_PnPe, S0B0POSLemma: PtSj_εγώ, S0B0Token: να_το, S0B1Lemma: να_βάζω, S0B1LemmaPOS: να_VbMn, S0B1POS: PtSj_VbMn, S0B1POSLemma: PtSj_βάζω, S0B1Token: να_βάλει, S0B2Lemma: να_κάτω, S0B2LemmaPOS: να_Ad, S0B2POS: PtSj_Ad, S0B2POSLemma: PtSj_κάτω, S0B2Token: να_κάτω, S0IsInLexic: true, S0Lemma: να, S0POS: PtSj, S0Token: να, να_isGouvernedBy_βάζω: true, να_isGouvernedBy_βάζω_aux: true, 
+B0Lemma: Ντουάιτ, B0POS: NoPr, B0Token: Ντουάιτ, B1Lemma: Αϊζενχάουερ, B1POS: NoPr, B1Token: Αϊζενχάουερ, S0B0Lemma: μου_Ντουάιτ, S0B0LemmaPOS: μου_NoPr, S0B0POS: PnPo_NoPr, S0B0POSLemma: PnPo_Ντουάιτ, S0B0Token: του_Ντουάιτ, S0B1Lemma: μου_Αϊζενχάουερ, S0B1LemmaPOS: μου_NoPr, S0B1POS: PnPo_NoPr, S0B1POSLemma: PnPo_Αϊζενχάουερ, S0B1Token: του_Αϊζενχάουερ, S0B2Lemma: μου_., S0B2LemmaPOS: μου_PTERMP, S0B2POS: PnPo_PTERMP, S0B2POSLemma: PnPo_., S0B2Token: του_., S0IsInLexic: true, S0Lemma: μου, S0POS: PnPo, S0Token: του, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [το, βάλει, κάτω ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ντουάιτ, Αϊζενχάουερ, . ,.. ]
 
 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [το]   B= [βάλει, κάτω, . ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ντουάιτ]   B= [Αϊζενχάουερ, . ,.. ]
 
-B0IsInLexic: true, B0Lemma: βάζω, B0POS: VbMn, B0Token: βάλει, B1IsInLexic: true, B1Lemma: κάτω, B1POS: Ad, B1Token: κάτω, S0B0Lemma: εγώ_βάζω, S0B0LemmaPOS: εγώ_VbMn, S0B0POS: PnPe_VbMn, S0B0POSLemma: PnPe_βάζω, S0B0Token: το_βάλει, S0B1Lemma: εγώ_κάτω, S0B1LemmaPOS: εγώ_Ad, S0B1POS: PnPe_Ad, S0B1POSLemma: PnPe_κάτω, S0B1Token: το_κάτω, S0B2Lemma: εγώ_., S0B2LemmaPOS: εγώ_PTERMP, S0B2POS: PnPe_PTERMP, S0B2POSLemma: PnPe_., S0B2Token: το_., S0IsInLexic: true, S0Lemma: εγώ, S0POS: PnPe, S0Token: το, εγώ_isGouvernedBy_βάζω: true, εγώ_isGouvernedBy_βάζω_dobj: true, 
+B0Lemma: Αϊζενχάουερ, B0POS: NoPr, B0Token: Αϊζενχάουερ, B1Lemma: ., B1POS: PTERMP, B1Token: ., S0B0Lemma: Ντουάιτ_Αϊζενχάουερ, S0B0LemmaPOS: Ντουάιτ_NoPr, S0B0POS: NoPr_NoPr, S0B0POSLemma: NoPr_Αϊζενχάουερ, S0B0Token: Ντουάιτ_Αϊζενχάουερ, S0B1Lemma: Ντουάιτ_., S0B1LemmaPOS: Ντουάιτ_PTERMP, S0B1POS: NoPr_PTERMP, S0B1POSLemma: NoPr_., S0B1Token: Ντουάιτ_., S0Lemma: Ντουάιτ, S0POS: NoPr, S0Token: Ντουάιτ, Ντουάιτ_isGouvernedBy_Αϊζενχάουερ: true, Ντουάιτ_isGouvernedBy_Αϊζενχάουερ_nmod: true, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [βάλει, κάτω, . ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Αϊζενχάουερ, . ,.. ]
 
 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [βάλει]   B= [κάτω, . ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Αϊζενχάουερ]   B= [.]
 
-B0IsInLexic: true, B0Lemma: κάτω, B0POS: Ad, B0Token: κάτω, B1Lemma: ., B1POS: PTERMP, B1Token: ., S0B0Lemma: βάζω_κάτω, S0B0LemmaPOS: βάζω_Ad, S0B0POS: VbMn_Ad, S0B0POSLemma: VbMn_κάτω, S0B0Token: βάλει_κάτω, S0B1Lemma: βάζω_., S0B1LemmaPOS: βάζω_PTERMP, S0B1POS: VbMn_PTERMP, S0B1POSLemma: VbMn_., S0B1Token: βάλει_., S0IsInLexic: true, S0Lemma: βάζω, S0POS: VbMn, S0Token: βάλει, hasRighDep_advmod: true, βάζω_hasRighDep_advmod: true, βάζω_κάτω_hasRighDep_advmod: true, 
+B0Lemma: ., B0POS: PTERMP, B0Token: ., S0B0Lemma: Αϊζενχάουερ_., S0B0LemmaPOS: Αϊζενχάουερ_PTERMP, S0B0POS: NoPr_PTERMP, S0B0POSLemma: NoPr_., S0B0Token: Αϊζενχάουερ_., S0Lemma: Αϊζενχάουερ, S0POS: NoPr, S0Token: Αϊζενχάουερ, hasRighDep_nmod: true, Αϊζενχάουερ_._hasRighDep_nmod: true, Αϊζενχάουερ_hasRighDep_nmod: true, 
 
-60- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [βάλει, κάτω]   B= [.]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-B0Lemma: ., B0POS: PTERMP, B0Token: ., S0B0Lemma: κάτω_., S0B0LemmaPOS: κάτω_PTERMP, S0B0POS: Ad_PTERMP, S0B0POSLemma: Ad_., S0B0Token: κάτω_., S0IsInLexic: true, S0Lemma: κάτω, S0POS: Ad, S0S1Distance: 1, S0Token: κάτω, S1B0Lemma: βάζω_., S1B0LemmaPOS: βάζω_PTERMP, S1B0POS: VbMn_PTERMP, S1B0POSLemma: VbMn_., S1B0Token: βάλει_., S1IsInLexic: true, S1Lemma: βάζω, S1POS: VbMn, S1S0Lemma: βάζω_κάτω, S1S0LemmaPOS: βάζω_Ad, S1S0POS: VbMn_Ad, S1S0POSLemma: VbMn_κάτω, S1S0Token: βάλει_κάτω, S1Token: βάλει, SyntaxicRelation: +advmod, 
 
-61- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[βάλει, κάτω]]   B= [.]
 
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

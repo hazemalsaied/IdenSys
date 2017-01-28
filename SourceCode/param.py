@@ -39,6 +39,8 @@ class Parameters:
     useS0S1Distance = True
     useStackLength = True
 
+    enableSingleMWE = True
+
     useLexic = False
 
     def __init__(self, filePath):
@@ -55,6 +57,9 @@ class Parameters:
 
             if "useLexic" in config.keys():
                 Parameters.useLexic = config["useLexic"]
+
+            if "enableSingleMWE" in config.keys():
+                Parameters.enableSingleMWE = config["enableSingleMWE"]
 
             Parameters.useFirstBufferElement = config["useFirstBufferElement"]
             Parameters.useSecondBufferElement = config["useSecondBufferElement"]

@@ -1,4 +1,5 @@
 {
+  "enableSingleMWE":false,
   "useStackLength": false,
   "S0B0Distance":false,
   "S0S1Distance":true,

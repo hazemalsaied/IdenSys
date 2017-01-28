@@ -1,316 +1,1204 @@
-## Sentence No. 4400 - 
-la dezbaterea ce va avea loc la timișoara ( hotel „ perla iv “ , str . turgheniev nr . 9 ) în data de 31 martie sunt invitați angajați ai unităților de cercetare , universităților , i . 
+## Sentence No. 23145 - 
+etapa a treia , de colectare , transport și depozitare a obiectelor de uz casnic și gospodăresc de la populație , a deșeurilor rezultate în urma efectuării de către cetățeni a lucrărilor de salubrizare , se va desfășura în zilele de 12 și 13 aprilie în cartierele situate la nord de canalul bega , iar în 19 și 20 aprilie , în zonele aflate la sud de canalul bega . 
 ### Existing MWEs: 
-1- **avea loc** (LVC, 368)
+1- **se desfășura** (IReflV, 224)
 ### Identified MWEs: 
-1- **avea loc** 
+1- **se desfășura** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, dezbaterea, ce ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [etapa, a, treia ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [dezbaterea, ce, va ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [etapa]   B= [a, treia, , ,.. ]
 
-B0Lemma: dezbatere, B0POS: Ncfsry, B0Token: dezbaterea, B1IsInLexic: true, B1Lemma: ce, B1POS: Pw3--r, B1Token: ce, S0B0Distance: 1, S0B0Lemma: la_dezbatere, S0B0LemmaPOS: la_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_dezbatere, S0B0Token: la_dezbaterea, S0B1Lemma: la_ce, S0B1LemmaPOS: la_Pw3--r, S0B1POS: Sp_Pw3--r, S0B1POSLemma: Sp_ce, S0B1Token: la_ce, S0B2Lemma: la_vrea, S0B2LemmaPOS: la_Vaip3s, S0B2POS: Sp_Vaip3s, S0B2POSLemma: Sp_vrea, S0B2Token: la_va, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, 
+B0Lemma: al, B0POS: Tsfsr, B0Token: a, B1Lemma: trei, B1POS: Mofs-ly, B1Token: treia, S0B0Distance: 1, S0B0Lemma: etapă_al, S0B0LemmaPOS: etapă_Tsfsr, S0B0POS: Ncfsry_Tsfsr, S0B0POSLemma: Ncfsry_al, S0B0Token: etapa_a, S0B1Lemma: etapă_trei, S0B1LemmaPOS: etapă_Mofs-ly, S0B1POS: Ncfsry_Mofs-ly, S0B1POSLemma: Ncfsry_trei, S0B1Token: etapa_treia, S0B2Lemma: etapă_,, S0B2LemmaPOS: etapă_COMMA, S0B2POS: Ncfsry_COMMA, S0B2POSLemma: Ncfsry_,, S0B2Token: etapa_,, S0Lemma: etapă, S0POS: Ncfsry, S0Token: etapa, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dezbaterea, ce, va ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, treia, , ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dezbaterea]   B= [ce, va, avea ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [treia, ,, de ,.. ]
 
-B0IsInLexic: true, B0Lemma: ce, B0POS: Pw3--r, B0Token: ce, B1IsInLexic: true, B1Lemma: vrea, B1POS: Vaip3s, B1Token: va, S0B0Distance: 1, S0B0Lemma: dezbatere_ce, S0B0LemmaPOS: dezbatere_Pw3--r, S0B0POS: Ncfsry_Pw3--r, S0B0POSLemma: Ncfsry_ce, S0B0Token: dezbaterea_ce, S0B1Lemma: dezbatere_vrea, S0B1LemmaPOS: dezbatere_Vaip3s, S0B1POS: Ncfsry_Vaip3s, S0B1POSLemma: Ncfsry_vrea, S0B1Token: dezbaterea_va, S0B2Lemma: dezbatere_avea, S0B2LemmaPOS: dezbatere_Vmii3s, S0B2POS: Ncfsry_Vmii3s, S0B2POSLemma: Ncfsry_avea, S0B2Token: dezbaterea_avea, S0Lemma: dezbatere, S0POS: Ncfsry, S0Token: dezbaterea, TransHistory1: 2, TransHistory2: 20, 
+B0Lemma: trei, B0POS: Mofs-ly, B0Token: treia, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: al_trei, S0B0LemmaPOS: al_Mofs-ly, S0B0POS: Tsfsr_Mofs-ly, S0B0POSLemma: Tsfsr_trei, S0B0Token: a_treia, S0B1Lemma: al_,, S0B1LemmaPOS: al_COMMA, S0B1POS: Tsfsr_COMMA, S0B1POSLemma: Tsfsr_,, S0B1Token: a_,, S0B2Lemma: al_de, S0B2LemmaPOS: al_Sp, S0B2POS: Tsfsr_Sp, S0B2POSLemma: Tsfsr_de, S0B2Token: a_de, S0Lemma: al, S0POS: Tsfsr, S0Token: a, TransHistory1: 2, TransHistory2: 20, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ce, va, avea ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [treia, ,, de ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ce]   B= [va, avea, loc ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [treia]   B= [,, de, colectare ,.. ]
 
-B0IsInLexic: true, B0Lemma: vrea, B0POS: Vaip3s, B0Token: va, B1IsInLexic: true, B1Lemma: avea, B1POS: Vmii3s, B1Token: avea, S0B0Distance: 1, S0B0Lemma: ce_vrea, S0B0LemmaPOS: ce_Vaip3s, S0B0POS: Pw3--r_Vaip3s, S0B0POSLemma: Pw3--r_vrea, S0B0Token: ce_va, S0B1Lemma: ce_avea, S0B1LemmaPOS: ce_Vmii3s, S0B1POS: Pw3--r_Vmii3s, S0B1POSLemma: Pw3--r_avea, S0B1Token: ce_avea, S0B2Lemma: ce_loc, S0B2LemmaPOS: ce_Ncmsrn, S0B2POS: Pw3--r_Ncmsrn, S0B2POSLemma: Pw3--r_loc, S0B2Token: ce_loc, S0IsInLexic: true, S0Lemma: ce, S0POS: Pw3--r, S0Token: ce, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: trei_,, S0B0LemmaPOS: trei_COMMA, S0B0POS: Mofs-ly_COMMA, S0B0POSLemma: Mofs-ly_,, S0B0Token: treia_,, S0B1Lemma: trei_de, S0B1LemmaPOS: trei_Sp, S0B1POS: Mofs-ly_Sp, S0B1POSLemma: Mofs-ly_de, S0B1Token: treia_de, S0B2Lemma: trei_colectare, S0B2LemmaPOS: trei_Ncfsrn, S0B2POS: Mofs-ly_Ncfsrn, S0B2POSLemma: Mofs-ly_colectare, S0B2Token: treia_colectare, S0Lemma: trei, S0POS: Mofs-ly, S0Token: treia, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [va, avea, loc ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, de, colectare ,.. ]
 
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va]   B= [avea, loc, la ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [de, colectare, , ,.. ]
 
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vmii3s, B0Token: avea, B1IsInLexic: true, B1Lemma: loc, B1POS: Ncmsrn, B1Token: loc, S0B0Distance: 1, S0B0Lemma: vrea_avea, S0B0LemmaPOS: vrea_Vmii3s, S0B0POS: Vaip3s_Vmii3s, S0B0POSLemma: Vaip3s_avea, S0B0Token: va_avea, S0B1Lemma: vrea_loc, S0B1LemmaPOS: vrea_Ncmsrn, S0B1POS: Vaip3s_Ncmsrn, S0B1POSLemma: Vaip3s_loc, S0B1Token: va_loc, S0B2Lemma: vrea_la, S0B2LemmaPOS: vrea_Sp, S0B2POS: Vaip3s_Sp, S0B2POSLemma: Vaip3s_la, S0B2Token: va_la, S0IsInLexic: true, S0Lemma: vrea, S0POS: Vaip3s, S0Token: va, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: colectare, B1POS: Ncfsrn, B1Token: colectare, S0B0Distance: 1, S0B0Lemma: ,_de, S0B0LemmaPOS: ,_Sp, S0B0POS: COMMA_Sp, S0B0POSLemma: COMMA_de, S0B0Token: ,_de, S0B1Lemma: ,_colectare, S0B1LemmaPOS: ,_Ncfsrn, S0B1POS: COMMA_Ncfsrn, S0B1POSLemma: COMMA_colectare, S0B1Token: ,_colectare, S0B2Lemma: ,_,, S0B2LemmaPOS: ,_COMMA, S0B2POS: COMMA_COMMA, S0B2POSLemma: COMMA_,, S0B2Token: ,_,, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [avea, loc, la ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, colectare, , ,.. ]
 
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [avea]   B= [loc, la, timișoara ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [colectare, ,, transport ,.. ]
 
-B0IsInLexic: true, B0Lemma: loc, B0POS: Ncmsrn, B0Token: loc, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: avea_loc, S0B0LemmaPOS: avea_Ncmsrn, S0B0POS: Vmii3s_Ncmsrn, S0B0POSLemma: Vmii3s_loc, S0B0Token: avea_loc, S0B1Lemma: avea_la, S0B1LemmaPOS: avea_Sp, S0B1POS: Vmii3s_Sp, S0B1POSLemma: Vmii3s_la, S0B1Token: avea_la, S0B2Lemma: avea_Timișoara, S0B2LemmaPOS: avea_Np, S0B2POS: Vmii3s_Np, S0B2POSLemma: Vmii3s_Timișoara, S0B2Token: avea_timișoara, S0IsInLexic: true, S0Lemma: avea, S0POS: Vmii3s, S0Token: avea, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: colectare, B0POS: Ncfsrn, B0Token: colectare, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: de_colectare, S0B0LemmaPOS: de_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_colectare, S0B0Token: de_colectare, S0B1Lemma: de_,, S0B1LemmaPOS: de_COMMA, S0B1POS: Sp_COMMA, S0B1POSLemma: Sp_,, S0B1Token: de_,, S0B2Lemma: de_transport, S0B2LemmaPOS: de_Ncmsrn, S0B2POS: Sp_Ncmsrn, S0B2POSLemma: Sp_transport, S0B2Token: de_transport, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [avea, loc]   B= [la, timișoara, ( ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [colectare, ,, transport ,.. ]
 
-B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: Timișoara, B1POS: Np, B1Token: timișoara, S0B0Distance: 1, S0B0Lemma: loc_la, S0B0LemmaPOS: loc_Sp, S0B0POS: Ncmsrn_Sp, S0B0POSLemma: Ncmsrn_la, S0B0Token: loc_la, S0B1Lemma: loc_Timișoara, S0B1LemmaPOS: loc_Np, S0B1POS: Ncmsrn_Np, S0B1POSLemma: Ncmsrn_Timișoara, S0B1Token: loc_timișoara, S0B2Lemma: loc_(, S0B2LemmaPOS: loc_LPAR, S0B2POS: Ncmsrn_LPAR, S0B2POSLemma: Ncmsrn_(, S0B2Token: loc_(, S0IsInLexic: true, S0Lemma: loc, S0POS: Ncmsrn, S0S1Distance: 1, S0Token: loc, S1B0Lemma: avea_la, S1B0LemmaPOS: avea_Sp, S1B0POS: Vmii3s_Sp, S1B0POSLemma: Vmii3s_la, S1B0Token: avea_la, S1IsInLexic: true, S1Lemma: avea, S1POS: Vmii3s, S1S0B0Lemma: avea_loc_la, S1S0B0LemmaPOS: avea_Ncmsrn_Sp, S1S0B0POS: Vmii3s_Ncmsrn_Sp, S1S0B0POSLemma: Vmii3s_Ncmsrn_la, S1S0B0Token: avea_loc_la, S1S0Lemma: avea_loc, S1S0LemmaPOS: avea_Ncmsrn, S1S0POS: Vmii3s_Ncmsrn, S1S0POSLemma: Vmii3s_loc, S1S0Token: avea_loc, S1Token: avea, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
 
-11- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[avea, loc]]   B= [la, timișoara, ( ,.. ]
 
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [colectare]   B= [,, transport, și ,.. ]
 
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: transport, B1POS: Ncmsrn, B1Token: transport, S0B0Distance: 1, S0B0Lemma: colectare_,, S0B0LemmaPOS: colectare_COMMA, S0B0POS: Ncfsrn_COMMA, S0B0POSLemma: Ncfsrn_,, S0B0Token: colectare_,, S0B1Lemma: colectare_transport, S0B1LemmaPOS: colectare_Ncmsrn, S0B1POS: Ncfsrn_Ncmsrn, S0B1POSLemma: Ncfsrn_transport, S0B1Token: colectare_transport, S0B2Lemma: colectare_și, S0B2LemmaPOS: colectare_Cc, S0B2POS: Ncfsrn_Cc, S0B2POSLemma: Ncfsrn_și, S0B2Token: colectare_și, S0Lemma: colectare, S0POS: Ncfsrn, S0Token: colectare, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, timișoara, ( ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, transport, și ,.. ]
 
 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [timișoara, (, hotel ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [transport, și, depozitare ,.. ]
 
-B0Lemma: Timișoara, B0POS: Np, B0Token: timișoara, B1Lemma: (, B1POS: LPAR, B1Token: (, S0B0Distance: 1, S0B0Lemma: la_Timișoara, S0B0LemmaPOS: la_Np, S0B0POS: Sp_Np, S0B0POSLemma: Sp_Timișoara, S0B0Token: la_timișoara, S0B1Lemma: la_(, S0B1LemmaPOS: la_LPAR, S0B1POS: Sp_LPAR, S0B1POSLemma: Sp_(, S0B1Token: la_(, S0B2Lemma: la_hotel, S0B2LemmaPOS: la_Ncmsrn, S0B2POS: Sp_Ncmsrn, S0B2POSLemma: Sp_hotel, S0B2Token: la_hotel, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+B0Lemma: transport, B0POS: Ncmsrn, B0Token: transport, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: ,_transport, S0B0LemmaPOS: ,_Ncmsrn, S0B0POS: COMMA_Ncmsrn, S0B0POSLemma: COMMA_transport, S0B0Token: ,_transport, S0B1Lemma: ,_și, S0B1LemmaPOS: ,_Cc, S0B1POS: COMMA_Cc, S0B1POSLemma: COMMA_și, S0B1Token: ,_și, S0B2Lemma: ,_depozitare, S0B2LemmaPOS: ,_Ncfsrn, S0B2POS: COMMA_Ncfsrn, S0B2POSLemma: COMMA_depozitare, S0B2Token: ,_depozitare, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [timișoara, (, hotel ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [transport, și, depozitare ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [timișoara]   B= [(, hotel, „ ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [transport]   B= [și, depozitare, a ,.. ]
 
-B0Lemma: (, B0POS: LPAR, B0Token: (, B1Lemma: hotel, B1POS: Ncmsrn, B1Token: hotel, S0B0Distance: 1, S0B0Lemma: Timișoara_(, S0B0LemmaPOS: Timișoara_LPAR, S0B0POS: Np_LPAR, S0B0POSLemma: Np_(, S0B0Token: timișoara_(, S0B1Lemma: Timișoara_hotel, S0B1LemmaPOS: Timișoara_Ncmsrn, S0B1POS: Np_Ncmsrn, S0B1POSLemma: Np_hotel, S0B1Token: timișoara_hotel, S0B2Lemma: Timișoara_”, S0B2LemmaPOS: Timișoara_DBLQ, S0B2POS: Np_DBLQ, S0B2POSLemma: Np_”, S0B2Token: timișoara_„, S0Lemma: Timișoara, S0POS: Np, S0Token: timișoara, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: depozitare, B1POS: Ncfsrn, B1Token: depozitare, S0B0Distance: 1, S0B0Lemma: transport_și, S0B0LemmaPOS: transport_Cc, S0B0POS: Ncmsrn_Cc, S0B0POSLemma: Ncmsrn_și, S0B0Token: transport_și, S0B1Lemma: transport_depozitare, S0B1LemmaPOS: transport_Ncfsrn, S0B1POS: Ncmsrn_Ncfsrn, S0B1POSLemma: Ncmsrn_depozitare, S0B1Token: transport_depozitare, S0B2Lemma: transport_al, S0B2LemmaPOS: transport_Tsfsr, S0B2POS: Ncmsrn_Tsfsr, S0B2POSLemma: Ncmsrn_al, S0B2Token: transport_a, S0Lemma: transport, S0POS: Ncmsrn, S0Token: transport, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, hotel, „ ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, depozitare, a ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [hotel, „, perla ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [depozitare, a, obiectelor ,.. ]
 
-B0Lemma: hotel, B0POS: Ncmsrn, B0Token: hotel, B1Lemma: ”, B1POS: DBLQ, B1Token: „, S0B0Distance: 1, S0B0Lemma: (_hotel, S0B0LemmaPOS: (_Ncmsrn, S0B0POS: LPAR_Ncmsrn, S0B0POSLemma: LPAR_hotel, S0B0Token: (_hotel, S0B1Lemma: (_”, S0B1LemmaPOS: (_DBLQ, S0B1POS: LPAR_DBLQ, S0B1POSLemma: LPAR_”, S0B1Token: (_„, S0B2Lemma: (_perla, S0B2LemmaPOS: (_Vmii3s, S0B2POS: LPAR_Vmii3s, S0B2POSLemma: LPAR_perla, S0B2Token: (_perla, S0Lemma: (, S0POS: LPAR, S0Token: (, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: depozitare, B0POS: Ncfsrn, B0Token: depozitare, B1Lemma: al, B1POS: Tsfsr, B1Token: a, S0B0Distance: 1, S0B0Lemma: și_depozitare, S0B0LemmaPOS: și_Ncfsrn, S0B0POS: Cc_Ncfsrn, S0B0POSLemma: Cc_depozitare, S0B0Token: și_depozitare, S0B1Lemma: și_al, S0B1LemmaPOS: și_Tsfsr, S0B1POS: Cc_Tsfsr, S0B1POSLemma: Cc_al, S0B1Token: și_a, S0B2Lemma: și_obiect, S0B2LemmaPOS: și_Ncfpoy, S0B2POS: Cc_Ncfpoy, S0B2POSLemma: Cc_obiect, S0B2Token: și_obiectelor, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hotel, „, perla ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [depozitare, a, obiectelor ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hotel]   B= [„, perla, iv ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [depozitare]   B= [a, obiectelor, de ,.. ]
 
-B0Lemma: ”, B0POS: DBLQ, B0Token: „, B1Lemma: perla, B1POS: Vmii3s, B1Token: perla, S0B0Distance: 1, S0B0Lemma: hotel_”, S0B0LemmaPOS: hotel_DBLQ, S0B0POS: Ncmsrn_DBLQ, S0B0POSLemma: Ncmsrn_”, S0B0Token: hotel_„, S0B1Lemma: hotel_perla, S0B1LemmaPOS: hotel_Vmii3s, S0B1POS: Ncmsrn_Vmii3s, S0B1POSLemma: Ncmsrn_perla, S0B1Token: hotel_perla, S0B2Lemma: hotel_patru, S0B2LemmaPOS: hotel_Mo-s-r, S0B2POS: Ncmsrn_Mo-s-r, S0B2POSLemma: Ncmsrn_patru, S0B2Token: hotel_iv, S0Lemma: hotel, S0POS: Ncmsrn, S0Token: hotel, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: al, B0POS: Tsfsr, B0Token: a, B1Lemma: obiect, B1POS: Ncfpoy, B1Token: obiectelor, S0B0Distance: 1, S0B0Lemma: depozitare_al, S0B0LemmaPOS: depozitare_Tsfsr, S0B0POS: Ncfsrn_Tsfsr, S0B0POSLemma: Ncfsrn_al, S0B0Token: depozitare_a, S0B1Lemma: depozitare_obiect, S0B1LemmaPOS: depozitare_Ncfpoy, S0B1POS: Ncfsrn_Ncfpoy, S0B1POSLemma: Ncfsrn_obiect, S0B1Token: depozitare_obiectelor, S0B2Lemma: depozitare_de, S0B2LemmaPOS: depozitare_Sp, S0B2POS: Ncfsrn_Sp, S0B2POSLemma: Ncfsrn_de, S0B2Token: depozitare_de, S0Lemma: depozitare, S0POS: Ncfsrn, S0Token: depozitare, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [„, perla, iv ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, obiectelor, de ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [„]   B= [perla, iv, “ ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [obiectelor, de, uz ,.. ]
 
-B0Lemma: perla, B0POS: Vmii3s, B0Token: perla, B1Lemma: patru, B1POS: Mo-s-r, B1Token: iv, S0B0Distance: 1, S0B0Lemma: ”_perla, S0B0LemmaPOS: ”_Vmii3s, S0B0POS: DBLQ_Vmii3s, S0B0POSLemma: DBLQ_perla, S0B0Token: „_perla, S0B1Lemma: ”_patru, S0B1LemmaPOS: ”_Mo-s-r, S0B1POS: DBLQ_Mo-s-r, S0B1POSLemma: DBLQ_patru, S0B1Token: „_iv, S0B2Lemma: ”_“, S0B2LemmaPOS: ”_M, S0B2POS: DBLQ_M, S0B2POSLemma: DBLQ_“, S0B2Token: „_“, S0Lemma: ”, S0POS: DBLQ, S0Token: „, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: obiect, B0POS: Ncfpoy, B0Token: obiectelor, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: al_obiect, S0B0LemmaPOS: al_Ncfpoy, S0B0POS: Tsfsr_Ncfpoy, S0B0POSLemma: Tsfsr_obiect, S0B0Token: a_obiectelor, S0B1Lemma: al_de, S0B1LemmaPOS: al_Sp, S0B1POS: Tsfsr_Sp, S0B1POSLemma: Tsfsr_de, S0B1Token: a_de, S0B2Lemma: al_uz, S0B2LemmaPOS: al_Ncmsrn, S0B2POS: Tsfsr_Ncmsrn, S0B2POSLemma: Tsfsr_uz, S0B2Token: a_uz, S0Lemma: al, S0POS: Tsfsr, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [perla, iv, “ ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [obiectelor, de, uz ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [perla]   B= [iv, “, , ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [obiectelor]   B= [de, uz, casnic ,.. ]
 
-B0Lemma: patru, B0POS: Mo-s-r, B0Token: iv, B1Lemma: “, B1POS: M, B1Token: “, S0B0Distance: 1, S0B0Lemma: perla_patru, S0B0LemmaPOS: perla_Mo-s-r, S0B0POS: Vmii3s_Mo-s-r, S0B0POSLemma: Vmii3s_patru, S0B0Token: perla_iv, S0B1Lemma: perla_“, S0B1LemmaPOS: perla_M, S0B1POS: Vmii3s_M, S0B1POSLemma: Vmii3s_“, S0B1Token: perla_“, S0B2Lemma: perla_,, S0B2LemmaPOS: perla_COMMA, S0B2POS: Vmii3s_COMMA, S0B2POSLemma: Vmii3s_,, S0B2Token: perla_,, S0Lemma: perla, S0POS: Vmii3s, S0Token: perla, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1IsInLexic: true, B1Lemma: uz, B1POS: Ncmsrn, B1Token: uz, S0B0Distance: 1, S0B0Lemma: obiect_de, S0B0LemmaPOS: obiect_Sp, S0B0POS: Ncfpoy_Sp, S0B0POSLemma: Ncfpoy_de, S0B0Token: obiectelor_de, S0B1Lemma: obiect_uz, S0B1LemmaPOS: obiect_Ncmsrn, S0B1POS: Ncfpoy_Ncmsrn, S0B1POSLemma: Ncfpoy_uz, S0B1Token: obiectelor_uz, S0B2Lemma: obiect_casnic, S0B2LemmaPOS: obiect_Afpmsrn, S0B2POS: Ncfpoy_Afpmsrn, S0B2POSLemma: Ncfpoy_casnic, S0B2Token: obiectelor_casnic, S0Lemma: obiect, S0POS: Ncfpoy, S0Token: obiectelor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iv, “, , ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, uz, casnic ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iv]   B= [“, ,, str ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [uz, casnic, și ,.. ]
 
-B0Lemma: “, B0POS: M, B0Token: “, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: patru_“, S0B0LemmaPOS: patru_M, S0B0POS: Mo-s-r_M, S0B0POSLemma: Mo-s-r_“, S0B0Token: iv_“, S0B1Lemma: patru_,, S0B1LemmaPOS: patru_COMMA, S0B1POS: Mo-s-r_COMMA, S0B1POSLemma: Mo-s-r_,, S0B1Token: iv_,, S0B2Lemma: patru_str, S0B2LemmaPOS: patru_Rg, S0B2POS: Mo-s-r_Rg, S0B2POSLemma: Mo-s-r_str, S0B2Token: iv_str, S0Lemma: patru, S0POS: Mo-s-r, S0Token: iv, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: uz, B0POS: Ncmsrn, B0Token: uz, B1Lemma: casnic, B1POS: Afpmsrn, B1Token: casnic, S0B0Distance: 1, S0B0Lemma: de_uz, S0B0LemmaPOS: de_Ncmsrn, S0B0POS: Sp_Ncmsrn, S0B0POSLemma: Sp_uz, S0B0Token: de_uz, S0B1Lemma: de_casnic, S0B1LemmaPOS: de_Afpmsrn, S0B1POS: Sp_Afpmsrn, S0B1POSLemma: Sp_casnic, S0B1Token: de_casnic, S0B2Lemma: de_și, S0B2LemmaPOS: de_Cc, S0B2POS: Sp_Cc, S0B2POSLemma: Sp_și, S0B2Token: de_și, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, ,, str ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [uz, casnic, și ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [,, str, . ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uz]   B= [casnic, și, gospodăresc ,.. ]
 
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: str, B1POS: Rg, B1Token: str, S0B0Distance: 1, S0B0Lemma: “_,, S0B0LemmaPOS: “_COMMA, S0B0POS: M_COMMA, S0B0POSLemma: M_,, S0B0Token: “_,, S0B1Lemma: “_str, S0B1LemmaPOS: “_Rg, S0B1POS: M_Rg, S0B1POSLemma: M_str, S0B1Token: “_str, S0B2Lemma: “_., S0B2LemmaPOS: “_PERIOD, S0B2POS: M_PERIOD, S0B2POSLemma: M_., S0B2Token: “_., S0Lemma: “, S0POS: M, S0Token: “, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: casnic, B0POS: Afpmsrn, B0Token: casnic, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: uz_casnic, S0B0LemmaPOS: uz_Afpmsrn, S0B0POS: Ncmsrn_Afpmsrn, S0B0POSLemma: Ncmsrn_casnic, S0B0Token: uz_casnic, S0B1Lemma: uz_și, S0B1LemmaPOS: uz_Cc, S0B1POS: Ncmsrn_Cc, S0B1POSLemma: Ncmsrn_și, S0B1Token: uz_și, S0B2Lemma: uz_gospodăresc, S0B2LemmaPOS: uz_Afpmsrn, S0B2POS: Ncmsrn_Afpmsrn, S0B2POSLemma: Ncmsrn_gospodăresc, S0B2Token: uz_gospodăresc, S0IsInLexic: true, S0Lemma: uz, S0POS: Ncmsrn, S0Token: uz, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, str, . ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [casnic, și, gospodăresc ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [str, ., turgheniev ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [casnic]   B= [și, gospodăresc, de ,.. ]
 
-B0Lemma: str, B0POS: Rg, B0Token: str, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: ,_str, S0B0LemmaPOS: ,_Rg, S0B0POS: COMMA_Rg, S0B0POSLemma: COMMA_str, S0B0Token: ,_str, S0B1Lemma: ,_., S0B1LemmaPOS: ,_PERIOD, S0B1POS: COMMA_PERIOD, S0B1POSLemma: COMMA_., S0B1Token: ,_., S0B2Lemma: ,_Turgheniev, S0B2LemmaPOS: ,_Npmsrn, S0B2POS: COMMA_Npmsrn, S0B2POSLemma: COMMA_Turgheniev, S0B2Token: ,_turgheniev, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: gospodăresc, B1POS: Afpmsrn, B1Token: gospodăresc, S0B0Distance: 1, S0B0Lemma: casnic_și, S0B0LemmaPOS: casnic_Cc, S0B0POS: Afpmsrn_Cc, S0B0POSLemma: Afpmsrn_și, S0B0Token: casnic_și, S0B1Lemma: casnic_gospodăresc, S0B1LemmaPOS: casnic_Afpmsrn, S0B1POS: Afpmsrn_Afpmsrn, S0B1POSLemma: Afpmsrn_gospodăresc, S0B1Token: casnic_gospodăresc, S0B2Lemma: casnic_de, S0B2LemmaPOS: casnic_Sp, S0B2POS: Afpmsrn_Sp, S0B2POSLemma: Afpmsrn_de, S0B2Token: casnic_de, S0Lemma: casnic, S0POS: Afpmsrn, S0Token: casnic, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [str, ., turgheniev ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, gospodăresc, de ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [str]   B= [., turgheniev, nr ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [gospodăresc, de, la ,.. ]
 
-B0Lemma: ., B0POS: PERIOD, B0Token: ., B1Lemma: Turgheniev, B1POS: Npmsrn, B1Token: turgheniev, S0B0Distance: 1, S0B0Lemma: str_., S0B0LemmaPOS: str_PERIOD, S0B0POS: Rg_PERIOD, S0B0POSLemma: Rg_., S0B0Token: str_., S0B1Lemma: str_Turgheniev, S0B1LemmaPOS: str_Npmsrn, S0B1POS: Rg_Npmsrn, S0B1POSLemma: Rg_Turgheniev, S0B1Token: str_turgheniev, S0B2Lemma: str_număr, S0B2LemmaPOS: str_Ncmprn, S0B2POS: Rg_Ncmprn, S0B2POSLemma: Rg_număr, S0B2Token: str_nr, S0Lemma: str, S0POS: Rg, S0Token: str, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: gospodăresc, B0POS: Afpmsrn, B0Token: gospodăresc, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: și_gospodăresc, S0B0LemmaPOS: și_Afpmsrn, S0B0POS: Cc_Afpmsrn, S0B0POSLemma: Cc_gospodăresc, S0B0Token: și_gospodăresc, S0B1Lemma: și_de, S0B1LemmaPOS: și_Sp, S0B1POS: Cc_Sp, S0B1POSLemma: Cc_de, S0B1Token: și_de, S0B2Lemma: și_la, S0B2LemmaPOS: și_Sp, S0B2POS: Cc_Sp, S0B2POSLemma: Cc_la, S0B2Token: și_la, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., turgheniev, nr ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gospodăresc, de, la ,.. ]
 
 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [turgheniev, nr, . ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gospodăresc]   B= [de, la, populație ,.. ]
 
-B0Lemma: Turgheniev, B0POS: Npmsrn, B0Token: turgheniev, B1Lemma: număr, B1POS: Ncmprn, B1Token: nr, S0B0Distance: 1, S0B0Lemma: ._Turgheniev, S0B0LemmaPOS: ._Npmsrn, S0B0POS: PERIOD_Npmsrn, S0B0POSLemma: PERIOD_Turgheniev, S0B0Token: ._turgheniev, S0B1Lemma: ._număr, S0B1LemmaPOS: ._Ncmprn, S0B1POS: PERIOD_Ncmprn, S0B1POSLemma: PERIOD_număr, S0B1Token: ._nr, S0B2Lemma: ._., S0B2LemmaPOS: ._PERIOD, S0B2POS: PERIOD_PERIOD, S0B2POSLemma: PERIOD_., S0B2Token: ._., S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: gospodăresc_de, S0B0LemmaPOS: gospodăresc_Sp, S0B0POS: Afpmsrn_Sp, S0B0POSLemma: Afpmsrn_de, S0B0Token: gospodăresc_de, S0B1Lemma: gospodăresc_la, S0B1LemmaPOS: gospodăresc_Sp, S0B1POS: Afpmsrn_Sp, S0B1POSLemma: Afpmsrn_la, S0B1Token: gospodăresc_la, S0B2Lemma: gospodăresc_populație, S0B2LemmaPOS: gospodăresc_Ncfsrn, S0B2POS: Afpmsrn_Ncfsrn, S0B2POSLemma: Afpmsrn_populație, S0B2Token: gospodăresc_populație, S0Lemma: gospodăresc, S0POS: Afpmsrn, S0Token: gospodăresc, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [turgheniev, nr, . ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, la, populație ,.. ]
 
 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [turgheniev]   B= [nr, ., 9 ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [la, populație, , ,.. ]
 
-B0Lemma: număr, B0POS: Ncmprn, B0Token: nr, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: Turgheniev_număr, S0B0LemmaPOS: Turgheniev_Ncmprn, S0B0POS: Npmsrn_Ncmprn, S0B0POSLemma: Npmsrn_număr, S0B0Token: turgheniev_nr, S0B1Lemma: Turgheniev_., S0B1LemmaPOS: Turgheniev_PERIOD, S0B1POS: Npmsrn_PERIOD, S0B1POSLemma: Npmsrn_., S0B1Token: turgheniev_., S0B2Lemma: Turgheniev_9, S0B2LemmaPOS: Turgheniev_Mc-p-l, S0B2POS: Npmsrn_Mc-p-l, S0B2POSLemma: Npmsrn_9, S0B2Token: turgheniev_9, S0Lemma: Turgheniev, S0POS: Npmsrn, S0Token: turgheniev, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: populație, B1POS: Ncfsrn, B1Token: populație, S0B0Distance: 1, S0B0Lemma: de_la, S0B0LemmaPOS: de_Sp, S0B0POS: Sp_Sp, S0B0POSLemma: Sp_la, S0B0Token: de_la, S0B1Lemma: de_populație, S0B1LemmaPOS: de_Ncfsrn, S0B1POS: Sp_Ncfsrn, S0B1POSLemma: Sp_populație, S0B1Token: de_populație, S0B2Lemma: de_,, S0B2LemmaPOS: de_COMMA, S0B2POS: Sp_COMMA, S0B2POSLemma: Sp_,, S0B2Token: de_,, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nr, ., 9 ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, populație, , ,.. ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nr]   B= [., 9, ) ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [populație, ,, a ,.. ]
 
-B0Lemma: ., B0POS: PERIOD, B0Token: ., B1Lemma: 9, B1POS: Mc-p-l, B1Token: 9, S0B0Distance: 1, S0B0Lemma: număr_., S0B0LemmaPOS: număr_PERIOD, S0B0POS: Ncmprn_PERIOD, S0B0POSLemma: Ncmprn_., S0B0Token: nr_., S0B1Lemma: număr_9, S0B1LemmaPOS: număr_Mc-p-l, S0B1POS: Ncmprn_Mc-p-l, S0B1POSLemma: Ncmprn_9, S0B1Token: nr_9, S0B2Lemma: număr_), S0B2LemmaPOS: număr_RPAR, S0B2POS: Ncmprn_RPAR, S0B2POSLemma: Ncmprn_), S0B2Token: nr_), S0Lemma: număr, S0POS: Ncmprn, S0Token: nr, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: populație, B0POS: Ncfsrn, B0Token: populație, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: la_populație, S0B0LemmaPOS: la_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_populație, S0B0Token: la_populație, S0B1Lemma: la_,, S0B1LemmaPOS: la_COMMA, S0B1POS: Sp_COMMA, S0B1POSLemma: Sp_,, S0B1Token: la_,, S0B2Lemma: la_al, S0B2LemmaPOS: la_Tsfsr, S0B2POS: Sp_Tsfsr, S0B2POSLemma: Sp_al, S0B2Token: la_a, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., 9, ) ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [populație, ,, a ,.. ]
 
 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [9, ), în ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [populație]   B= [,, a, deșeurilor ,.. ]
 
-B0Lemma: 9, B0POS: Mc-p-l, B0Token: 9, B1Lemma: ), B1POS: RPAR, B1Token: ), S0B0Distance: 1, S0B0Lemma: ._9, S0B0LemmaPOS: ._Mc-p-l, S0B0POS: PERIOD_Mc-p-l, S0B0POSLemma: PERIOD_9, S0B0Token: ._9, S0B1Lemma: ._), S0B1LemmaPOS: ._RPAR, S0B1POS: PERIOD_RPAR, S0B1POSLemma: PERIOD_), S0B1Token: ._), S0B2Lemma: ._în, S0B2LemmaPOS: ._Sp, S0B2POS: PERIOD_Sp, S0B2POSLemma: PERIOD_în, S0B2Token: ._în, S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: al, B1POS: Tsfsr, B1Token: a, S0B0Distance: 1, S0B0Lemma: populație_,, S0B0LemmaPOS: populație_COMMA, S0B0POS: Ncfsrn_COMMA, S0B0POSLemma: Ncfsrn_,, S0B0Token: populație_,, S0B1Lemma: populație_al, S0B1LemmaPOS: populație_Tsfsr, S0B1POS: Ncfsrn_Tsfsr, S0B1POSLemma: Ncfsrn_al, S0B1Token: populație_a, S0B2Lemma: populație_deșeu, S0B2LemmaPOS: populație_Ncfpoy, S0B2POS: Ncfsrn_Ncfpoy, S0B2POSLemma: Ncfsrn_deșeu, S0B2Token: populație_deșeurilor, S0Lemma: populație, S0POS: Ncfsrn, S0Token: populație, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [9, ), în ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, a, deșeurilor ,.. ]
 
 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [9]   B= [), în, data ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [a, deșeurilor, rezultate ,.. ]
 
-B0Lemma: ), B0POS: RPAR, B0Token: ), B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: 9_), S0B0LemmaPOS: 9_RPAR, S0B0POS: Mc-p-l_RPAR, S0B0POSLemma: Mc-p-l_), S0B0Token: 9_), S0B1Lemma: 9_în, S0B1LemmaPOS: 9_Sp, S0B1POS: Mc-p-l_Sp, S0B1POSLemma: Mc-p-l_în, S0B1Token: 9_în, S0B2Lemma: 9_dată, S0B2LemmaPOS: 9_Ncfsry, S0B2POS: Mc-p-l_Ncfsry, S0B2POSLemma: Mc-p-l_dată, S0B2Token: 9_data, S0Lemma: 9, S0POS: Mc-p-l, S0Token: 9, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: al, B0POS: Tsfsr, B0Token: a, B1Lemma: deșeu, B1POS: Ncfpoy, B1Token: deșeurilor, S0B0Distance: 1, S0B0Lemma: ,_al, S0B0LemmaPOS: ,_Tsfsr, S0B0POS: COMMA_Tsfsr, S0B0POSLemma: COMMA_al, S0B0Token: ,_a, S0B1Lemma: ,_deșeu, S0B1LemmaPOS: ,_Ncfpoy, S0B1POS: COMMA_Ncfpoy, S0B1POSLemma: COMMA_deșeu, S0B1Token: ,_deșeurilor, S0B2Lemma: ,_rezultat, S0B2LemmaPOS: ,_Afpfprn, S0B2POS: COMMA_Afpfprn, S0B2POSLemma: COMMA_rezultat, S0B2Token: ,_rezultate, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), în, data ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, deșeurilor, rezultate ,.. ]
 
 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [în, data, de ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [deșeurilor, rezultate, în ,.. ]
 
-B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: dată, B1POS: Ncfsry, B1Token: data, S0B0Distance: 1, S0B0Lemma: )_în, S0B0LemmaPOS: )_Sp, S0B0POS: RPAR_Sp, S0B0POSLemma: RPAR_în, S0B0Token: )_în, S0B1Lemma: )_dată, S0B1LemmaPOS: )_Ncfsry, S0B1POS: RPAR_Ncfsry, S0B1POSLemma: RPAR_dată, S0B1Token: )_data, S0B2Lemma: )_de, S0B2LemmaPOS: )_Sp, S0B2POS: RPAR_Sp, S0B2POSLemma: RPAR_de, S0B2Token: )_de, S0Lemma: ), S0POS: RPAR, S0Token: ), TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: deșeu, B0POS: Ncfpoy, B0Token: deșeurilor, B1Lemma: rezultat, B1POS: Afpfprn, B1Token: rezultate, S0B0Distance: 1, S0B0Lemma: al_deșeu, S0B0LemmaPOS: al_Ncfpoy, S0B0POS: Tsfsr_Ncfpoy, S0B0POSLemma: Tsfsr_deșeu, S0B0Token: a_deșeurilor, S0B1Lemma: al_rezultat, S0B1LemmaPOS: al_Afpfprn, S0B1POS: Tsfsr_Afpfprn, S0B1POSLemma: Tsfsr_rezultat, S0B1Token: a_rezultate, S0B2Lemma: al_în, S0B2LemmaPOS: al_Sp, S0B2POS: Tsfsr_Sp, S0B2POSLemma: Tsfsr_în, S0B2Token: a_în, S0Lemma: al, S0POS: Tsfsr, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, data, de ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [deșeurilor, rezultate, în ,.. ]
 
 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [data, de, 31 ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [deșeurilor]   B= [rezultate, în, urma ,.. ]
 
-B0Lemma: dată, B0POS: Ncfsry, B0Token: data, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: în_dată, S0B0LemmaPOS: în_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_dată, S0B0Token: în_data, S0B1Lemma: în_de, S0B1LemmaPOS: în_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_de, S0B1Token: în_de, S0B2Lemma: în_31, S0B2LemmaPOS: în_M, S0B2POS: Sp_M, S0B2POSLemma: Sp_31, S0B2Token: în_31, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: rezultat, B0POS: Afpfprn, B0Token: rezultate, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: deșeu_rezultat, S0B0LemmaPOS: deșeu_Afpfprn, S0B0POS: Ncfpoy_Afpfprn, S0B0POSLemma: Ncfpoy_rezultat, S0B0Token: deșeurilor_rezultate, S0B1Lemma: deșeu_în, S0B1LemmaPOS: deșeu_Sp, S0B1POS: Ncfpoy_Sp, S0B1POSLemma: Ncfpoy_în, S0B1Token: deșeurilor_în, S0B2Lemma: deșeu_urmă, S0B2LemmaPOS: deșeu_Ncfsry, S0B2POS: Ncfpoy_Ncfsry, S0B2POSLemma: Ncfpoy_urmă, S0B2Token: deșeurilor_urma, S0Lemma: deșeu, S0POS: Ncfpoy, S0Token: deșeurilor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [data, de, 31 ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rezultate, în, urma ,.. ]
 
 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [data]   B= [de, 31, martie ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rezultate]   B= [în, urma, efectuării ,.. ]
 
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: 31, B1POS: M, B1Token: 31, S0B0Distance: 1, S0B0Lemma: dată_de, S0B0LemmaPOS: dată_Sp, S0B0POS: Ncfsry_Sp, S0B0POSLemma: Ncfsry_de, S0B0Token: data_de, S0B1Lemma: dată_31, S0B1LemmaPOS: dată_M, S0B1POS: Ncfsry_M, S0B1POSLemma: Ncfsry_31, S0B1Token: data_31, S0B2Lemma: dată_martie, S0B2LemmaPOS: dată_Ncmsry, S0B2POS: Ncfsry_Ncmsry, S0B2POSLemma: Ncfsry_martie, S0B2Token: data_martie, S0Lemma: dată, S0POS: Ncfsry, S0Token: data, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1IsInLexic: true, B1Lemma: urmă, B1POS: Ncfsry, B1Token: urma, S0B0Distance: 1, S0B0Lemma: rezultat_în, S0B0LemmaPOS: rezultat_Sp, S0B0POS: Afpfprn_Sp, S0B0POSLemma: Afpfprn_în, S0B0Token: rezultate_în, S0B1Lemma: rezultat_urmă, S0B1LemmaPOS: rezultat_Ncfsry, S0B1POS: Afpfprn_Ncfsry, S0B1POSLemma: Afpfprn_urmă, S0B1Token: rezultate_urma, S0B2Lemma: rezultat_efectuare, S0B2LemmaPOS: rezultat_Ncfsoy, S0B2POS: Afpfprn_Ncfsoy, S0B2POSLemma: Afpfprn_efectuare, S0B2Token: rezultate_efectuării, S0Lemma: rezultat, S0POS: Afpfprn, S0Token: rezultate, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, 31, martie ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, urma, efectuării ,.. ]
 
 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [31, martie, sunt ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [urma, efectuării, de ,.. ]
 
-B0Lemma: 31, B0POS: M, B0Token: 31, B1Lemma: martie, B1POS: Ncmsry, B1Token: martie, S0B0Distance: 1, S0B0Lemma: de_31, S0B0LemmaPOS: de_M, S0B0POS: Sp_M, S0B0POSLemma: Sp_31, S0B0Token: de_31, S0B1Lemma: de_martie, S0B1LemmaPOS: de_Ncmsry, S0B1POS: Sp_Ncmsry, S0B1POSLemma: Sp_martie, S0B1Token: de_martie, S0B2Lemma: de_fi, S0B2LemmaPOS: de_Vmip3p, S0B2POS: Sp_Vmip3p, S0B2POSLemma: Sp_fi, S0B2Token: de_sunt, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: urmă, B0POS: Ncfsry, B0Token: urma, B1Lemma: efectuare, B1POS: Ncfsoy, B1Token: efectuării, S0B0Distance: 1, S0B0Lemma: în_urmă, S0B0LemmaPOS: în_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_urmă, S0B0Token: în_urma, S0B1Lemma: în_efectuare, S0B1LemmaPOS: în_Ncfsoy, S0B1POS: Sp_Ncfsoy, S0B1POSLemma: Sp_efectuare, S0B1Token: în_efectuării, S0B2Lemma: în_de, S0B2LemmaPOS: în_Sp, S0B2POS: Sp_Sp, S0B2POSLemma: Sp_de, S0B2Token: în_de, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [31, martie, sunt ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [urma, efectuării, de ,.. ]
 
 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [31]   B= [martie, sunt, invitați ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [urma]   B= [efectuării, de, către ,.. ]
 
-B0Lemma: martie, B0POS: Ncmsry, B0Token: martie, B1IsInLexic: true, B1Lemma: fi, B1POS: Vmip3p, B1Token: sunt, S0B0Distance: 1, S0B0Lemma: 31_martie, S0B0LemmaPOS: 31_Ncmsry, S0B0POS: M_Ncmsry, S0B0POSLemma: M_martie, S0B0Token: 31_martie, S0B1Lemma: 31_fi, S0B1LemmaPOS: 31_Vmip3p, S0B1POS: M_Vmip3p, S0B1POSLemma: M_fi, S0B1Token: 31_sunt, S0B2Lemma: 31_invitat, S0B2LemmaPOS: 31_Afpmprn, S0B2POS: M_Afpmprn, S0B2POSLemma: M_invitat, S0B2Token: 31_invitați, S0Lemma: 31, S0POS: M, S0Token: 31, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: efectuare, B0POS: Ncfsoy, B0Token: efectuării, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: urmă_efectuare, S0B0LemmaPOS: urmă_Ncfsoy, S0B0POS: Ncfsry_Ncfsoy, S0B0POSLemma: Ncfsry_efectuare, S0B0Token: urma_efectuării, S0B1Lemma: urmă_de, S0B1LemmaPOS: urmă_Sp, S0B1POS: Ncfsry_Sp, S0B1POSLemma: Ncfsry_de, S0B1Token: urma_de, S0B2Lemma: urmă_către, S0B2LemmaPOS: urmă_Sp, S0B2POS: Ncfsry_Sp, S0B2POSLemma: Ncfsry_către, S0B2Token: urma_către, S0IsInLexic: true, S0Lemma: urmă, S0POS: Ncfsry, S0Token: urma, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [martie, sunt, invitați ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [efectuării, de, către ,.. ]
 
 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [martie]   B= [sunt, invitați, angajați ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [efectuării]   B= [de, către, cetățeni ,.. ]
 
-B0IsInLexic: true, B0Lemma: fi, B0POS: Vmip3p, B0Token: sunt, B1Lemma: invitat, B1POS: Afpmprn, B1Token: invitați, S0B0Distance: 1, S0B0Lemma: martie_fi, S0B0LemmaPOS: martie_Vmip3p, S0B0POS: Ncmsry_Vmip3p, S0B0POSLemma: Ncmsry_fi, S0B0Token: martie_sunt, S0B1Lemma: martie_invitat, S0B1LemmaPOS: martie_Afpmprn, S0B1POS: Ncmsry_Afpmprn, S0B1POSLemma: Ncmsry_invitat, S0B1Token: martie_invitați, S0B2Lemma: martie_angajat, S0B2LemmaPOS: martie_Ncmprn, S0B2POS: Ncmsry_Ncmprn, S0B2POSLemma: Ncmsry_angajat, S0B2Token: martie_angajați, S0Lemma: martie, S0POS: Ncmsry, S0Token: martie, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: către, B1POS: Sp, B1Token: către, S0B0Distance: 1, S0B0Lemma: efectuare_de, S0B0LemmaPOS: efectuare_Sp, S0B0POS: Ncfsoy_Sp, S0B0POSLemma: Ncfsoy_de, S0B0Token: efectuării_de, S0B1Lemma: efectuare_către, S0B1LemmaPOS: efectuare_Sp, S0B1POS: Ncfsoy_Sp, S0B1POSLemma: Ncfsoy_către, S0B1Token: efectuării_către, S0B2Lemma: efectuare_cetățean, S0B2LemmaPOS: efectuare_Ncmprn, S0B2POS: Ncfsoy_Ncmprn, S0B2POSLemma: Ncfsoy_cetățean, S0B2Token: efectuării_cetățeni, S0Lemma: efectuare, S0POS: Ncfsoy, S0Token: efectuării, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sunt, invitați, angajați ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, către, cetățeni ,.. ]
 
 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sunt]   B= [invitați, angajați, ai ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [către, cetățeni, a ,.. ]
 
-B0Lemma: invitat, B0POS: Afpmprn, B0Token: invitați, B1Lemma: angajat, B1POS: Ncmprn, B1Token: angajați, S0B0Distance: 1, S0B0Lemma: fi_invitat, S0B0LemmaPOS: fi_Afpmprn, S0B0POS: Vmip3p_Afpmprn, S0B0POSLemma: Vmip3p_invitat, S0B0Token: sunt_invitați, S0B1Lemma: fi_angajat, S0B1LemmaPOS: fi_Ncmprn, S0B1POS: Vmip3p_Ncmprn, S0B1POSLemma: Vmip3p_angajat, S0B1Token: sunt_angajați, S0B2Lemma: fi_al, S0B2LemmaPOS: fi_Tsmpr, S0B2POS: Vmip3p_Tsmpr, S0B2POSLemma: Vmip3p_al, S0B2Token: sunt_ai, S0IsInLexic: true, S0Lemma: fi, S0POS: Vmip3p, S0Token: sunt, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: către, B0POS: Sp, B0Token: către, B1Lemma: cetățean, B1POS: Ncmprn, B1Token: cetățeni, S0B0Distance: 1, S0B0Lemma: de_către, S0B0LemmaPOS: de_Sp, S0B0POS: Sp_Sp, S0B0POSLemma: Sp_către, S0B0Token: de_către, S0B1Lemma: de_cetățean, S0B1LemmaPOS: de_Ncmprn, S0B1POS: Sp_Ncmprn, S0B1POSLemma: Sp_cetățean, S0B1Token: de_cetățeni, S0B2Lemma: de_al, S0B2LemmaPOS: de_Tsfsr, S0B2POS: Sp_Tsfsr, S0B2POSLemma: Sp_al, S0B2Token: de_a, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [invitați, angajați, ai ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [către, cetățeni, a ,.. ]
 
 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [invitați]   B= [angajați, ai, unităților ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [către]   B= [cetățeni, a, lucrărilor ,.. ]
 
-B0Lemma: angajat, B0POS: Ncmprn, B0Token: angajați, B1Lemma: al, B1POS: Tsmpr, B1Token: ai, S0B0Distance: 1, S0B0Lemma: invitat_angajat, S0B0LemmaPOS: invitat_Ncmprn, S0B0POS: Afpmprn_Ncmprn, S0B0POSLemma: Afpmprn_angajat, S0B0Token: invitați_angajați, S0B1Lemma: invitat_al, S0B1LemmaPOS: invitat_Tsmpr, S0B1POS: Afpmprn_Tsmpr, S0B1POSLemma: Afpmprn_al, S0B1Token: invitați_ai, S0B2Lemma: invitat_unitate, S0B2LemmaPOS: invitat_Ncfpoy, S0B2POS: Afpmprn_Ncfpoy, S0B2POSLemma: Afpmprn_unitate, S0B2Token: invitați_unităților, S0Lemma: invitat, S0POS: Afpmprn, S0Token: invitați, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: cetățean, B0POS: Ncmprn, B0Token: cetățeni, B1Lemma: al, B1POS: Tsfsr, B1Token: a, S0B0Distance: 1, S0B0Lemma: către_cetățean, S0B0LemmaPOS: către_Ncmprn, S0B0POS: Sp_Ncmprn, S0B0POSLemma: Sp_cetățean, S0B0Token: către_cetățeni, S0B1Lemma: către_al, S0B1LemmaPOS: către_Tsfsr, S0B1POS: Sp_Tsfsr, S0B1POSLemma: Sp_al, S0B1Token: către_a, S0B2Lemma: către_lucrare, S0B2LemmaPOS: către_Ncfpoy, S0B2POS: Sp_Ncfpoy, S0B2POSLemma: Sp_lucrare, S0B2Token: către_lucrărilor, S0Lemma: către, S0POS: Sp, S0Token: către, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [angajați, ai, unităților ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cetățeni, a, lucrărilor ,.. ]
 
 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [angajați]   B= [ai, unităților, de ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cetățeni]   B= [a, lucrărilor, de ,.. ]
 
-B0Lemma: al, B0POS: Tsmpr, B0Token: ai, B1Lemma: unitate, B1POS: Ncfpoy, B1Token: unităților, S0B0Distance: 1, S0B0Lemma: angajat_al, S0B0LemmaPOS: angajat_Tsmpr, S0B0POS: Ncmprn_Tsmpr, S0B0POSLemma: Ncmprn_al, S0B0Token: angajați_ai, S0B1Lemma: angajat_unitate, S0B1LemmaPOS: angajat_Ncfpoy, S0B1POS: Ncmprn_Ncfpoy, S0B1POSLemma: Ncmprn_unitate, S0B1Token: angajați_unităților, S0B2Lemma: angajat_de, S0B2LemmaPOS: angajat_Sp, S0B2POS: Ncmprn_Sp, S0B2POSLemma: Ncmprn_de, S0B2Token: angajați_de, S0Lemma: angajat, S0POS: Ncmprn, S0Token: angajați, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: al, B0POS: Tsfsr, B0Token: a, B1Lemma: lucrare, B1POS: Ncfpoy, B1Token: lucrărilor, S0B0Distance: 1, S0B0Lemma: cetățean_al, S0B0LemmaPOS: cetățean_Tsfsr, S0B0POS: Ncmprn_Tsfsr, S0B0POSLemma: Ncmprn_al, S0B0Token: cetățeni_a, S0B1Lemma: cetățean_lucrare, S0B1LemmaPOS: cetățean_Ncfpoy, S0B1POS: Ncmprn_Ncfpoy, S0B1POSLemma: Ncmprn_lucrare, S0B1Token: cetățeni_lucrărilor, S0B2Lemma: cetățean_de, S0B2LemmaPOS: cetățean_Sp, S0B2POS: Ncmprn_Sp, S0B2POSLemma: Ncmprn_de, S0B2Token: cetățeni_de, S0Lemma: cetățean, S0POS: Ncmprn, S0Token: cetățeni, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ai, unităților, de ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, lucrărilor, de ,.. ]
 
 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ai]   B= [unităților, de, cercetare ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [lucrărilor, de, salubrizare ,.. ]
 
-B0Lemma: unitate, B0POS: Ncfpoy, B0Token: unităților, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: al_unitate, S0B0LemmaPOS: al_Ncfpoy, S0B0POS: Tsmpr_Ncfpoy, S0B0POSLemma: Tsmpr_unitate, S0B0Token: ai_unităților, S0B1Lemma: al_de, S0B1LemmaPOS: al_Sp, S0B1POS: Tsmpr_Sp, S0B1POSLemma: Tsmpr_de, S0B1Token: ai_de, S0B2Lemma: al_cercetare, S0B2LemmaPOS: al_Ncfsrn, S0B2POS: Tsmpr_Ncfsrn, S0B2POSLemma: Tsmpr_cercetare, S0B2Token: ai_cercetare, S0Lemma: al, S0POS: Tsmpr, S0Token: ai, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: lucrare, B0POS: Ncfpoy, B0Token: lucrărilor, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: al_lucrare, S0B0LemmaPOS: al_Ncfpoy, S0B0POS: Tsfsr_Ncfpoy, S0B0POSLemma: Tsfsr_lucrare, S0B0Token: a_lucrărilor, S0B1Lemma: al_de, S0B1LemmaPOS: al_Sp, S0B1POS: Tsfsr_Sp, S0B1POSLemma: Tsfsr_de, S0B1Token: a_de, S0B2Lemma: al_salubrizare, S0B2LemmaPOS: al_Ncfsrn, S0B2POS: Tsfsr_Ncfsrn, S0B2POSLemma: Tsfsr_salubrizare, S0B2Token: a_salubrizare, S0Lemma: al, S0POS: Tsfsr, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [unităților, de, cercetare ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lucrărilor, de, salubrizare ,.. ]
 
 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [unităților]   B= [de, cercetare, , ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lucrărilor]   B= [de, salubrizare, , ,.. ]
 
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: cercetare, B1POS: Ncfsrn, B1Token: cercetare, S0B0Distance: 1, S0B0Lemma: unitate_de, S0B0LemmaPOS: unitate_Sp, S0B0POS: Ncfpoy_Sp, S0B0POSLemma: Ncfpoy_de, S0B0Token: unităților_de, S0B1Lemma: unitate_cercetare, S0B1LemmaPOS: unitate_Ncfsrn, S0B1POS: Ncfpoy_Ncfsrn, S0B1POSLemma: Ncfpoy_cercetare, S0B1Token: unităților_cercetare, S0B2Lemma: unitate_,, S0B2LemmaPOS: unitate_COMMA, S0B2POS: Ncfpoy_COMMA, S0B2POSLemma: Ncfpoy_,, S0B2Token: unităților_,, S0Lemma: unitate, S0POS: Ncfpoy, S0Token: unităților, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: salubrizare, B1POS: Ncfsrn, B1Token: salubrizare, S0B0Distance: 1, S0B0Lemma: lucrare_de, S0B0LemmaPOS: lucrare_Sp, S0B0POS: Ncfpoy_Sp, S0B0POSLemma: Ncfpoy_de, S0B0Token: lucrărilor_de, S0B1Lemma: lucrare_salubrizare, S0B1LemmaPOS: lucrare_Ncfsrn, S0B1POS: Ncfpoy_Ncfsrn, S0B1POSLemma: Ncfpoy_salubrizare, S0B1Token: lucrărilor_salubrizare, S0B2Lemma: lucrare_,, S0B2LemmaPOS: lucrare_COMMA, S0B2POS: Ncfpoy_COMMA, S0B2POSLemma: Ncfpoy_,, S0B2Token: lucrărilor_,, S0Lemma: lucrare, S0POS: Ncfpoy, S0Token: lucrărilor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, cercetare, , ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, salubrizare, , ,.. ]
 
 
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [cercetare, ,, universităților ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [salubrizare, ,, se ,.. ]
 
-B0Lemma: cercetare, B0POS: Ncfsrn, B0Token: cercetare, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: de_cercetare, S0B0LemmaPOS: de_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_cercetare, S0B0Token: de_cercetare, S0B1Lemma: de_,, S0B1LemmaPOS: de_COMMA, S0B1POS: Sp_COMMA, S0B1POSLemma: Sp_,, S0B1Token: de_,, S0B2Lemma: de_universitate, S0B2LemmaPOS: de_Ncfpoy, S0B2POS: Sp_Ncfpoy, S0B2POSLemma: Sp_universitate, S0B2Token: de_universităților, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: salubrizare, B0POS: Ncfsrn, B0Token: salubrizare, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: de_salubrizare, S0B0LemmaPOS: de_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_salubrizare, S0B0Token: de_salubrizare, S0B1Lemma: de_,, S0B1LemmaPOS: de_COMMA, S0B1POS: Sp_COMMA, S0B1POSLemma: Sp_,, S0B1Token: de_,, S0B2Lemma: de_sine, S0B2LemmaPOS: de_Px3--r, S0B2POS: Sp_Px3--r, S0B2POSLemma: Sp_sine, S0B2Token: de_se, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cercetare, ,, universităților ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [salubrizare, ,, se ,.. ]
 
 
 
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cercetare]   B= [,, universităților, , ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [salubrizare]   B= [,, se, va ,.. ]
 
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: universitate, B1POS: Ncfpoy, B1Token: universităților, S0B0Distance: 1, S0B0Lemma: cercetare_,, S0B0LemmaPOS: cercetare_COMMA, S0B0POS: Ncfsrn_COMMA, S0B0POSLemma: Ncfsrn_,, S0B0Token: cercetare_,, S0B1Lemma: cercetare_universitate, S0B1LemmaPOS: cercetare_Ncfpoy, S0B1POS: Ncfsrn_Ncfpoy, S0B1POSLemma: Ncfsrn_universitate, S0B1Token: cercetare_universităților, S0B2Lemma: cercetare_,, S0B2LemmaPOS: cercetare_COMMA, S0B2POS: Ncfsrn_COMMA, S0B2POSLemma: Ncfsrn_,, S0B2Token: cercetare_,, S0Lemma: cercetare, S0POS: Ncfsrn, S0Token: cercetare, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: sine, B1POS: Px3--r, B1Token: se, S0B0Distance: 1, S0B0Lemma: salubrizare_,, S0B0LemmaPOS: salubrizare_COMMA, S0B0POS: Ncfsrn_COMMA, S0B0POSLemma: Ncfsrn_,, S0B0Token: salubrizare_,, S0B1Lemma: salubrizare_sine, S0B1LemmaPOS: salubrizare_Px3--r, S0B1POS: Ncfsrn_Px3--r, S0B1POSLemma: Ncfsrn_sine, S0B1Token: salubrizare_se, S0B2Lemma: salubrizare_vrea, S0B2LemmaPOS: salubrizare_Vaip3s, S0B2POS: Ncfsrn_Vaip3s, S0B2POSLemma: Ncfsrn_vrea, S0B2Token: salubrizare_va, S0Lemma: salubrizare, S0POS: Ncfsrn, S0Token: salubrizare, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, universităților, , ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, se, va ,.. ]
 
 
 
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [universităților, ,, i ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [se, va, desfășura ,.. ]
 
-B0Lemma: universitate, B0POS: Ncfpoy, B0Token: universităților, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: ,_universitate, S0B0LemmaPOS: ,_Ncfpoy, S0B0POS: COMMA_Ncfpoy, S0B0POSLemma: COMMA_universitate, S0B0Token: ,_universităților, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_COMMA, S0B1POS: COMMA_COMMA, S0B1POSLemma: COMMA_,, S0B1Token: ,_,, S0B2Lemma: ,_el, S0B2LemmaPOS: ,_Pp3-so, S0B2POS: COMMA_Pp3-so, S0B2POSLemma: COMMA_el, S0B2Token: ,_i, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: sine, B0POS: Px3--r, B0Token: se, B1IsInLexic: true, B1Lemma: vrea, B1POS: Vaip3s, B1Token: va, S0B0Distance: 1, S0B0Lemma: ,_sine, S0B0LemmaPOS: ,_Px3--r, S0B0POS: COMMA_Px3--r, S0B0POSLemma: COMMA_sine, S0B0Token: ,_se, S0B1Lemma: ,_vrea, S0B1LemmaPOS: ,_Vaip3s, S0B1POS: COMMA_Vaip3s, S0B1POSLemma: COMMA_vrea, S0B1Token: ,_va, S0B2Lemma: ,_desfășura, S0B2LemmaPOS: ,_Vmii3s, S0B2POS: COMMA_Vmii3s, S0B2POSLemma: COMMA_desfășura, S0B2Token: ,_desfășura, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [universităților, ,, i ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, va, desfășura ,.. ]
 
 
 
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [universităților]   B= [,, i, . ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [va, desfășura, în ,.. ]
 
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: el, B1POS: Pp3-so, B1Token: i, S0B0Distance: 1, S0B0Lemma: universitate_,, S0B0LemmaPOS: universitate_COMMA, S0B0POS: Ncfpoy_COMMA, S0B0POSLemma: Ncfpoy_,, S0B0Token: universităților_,, S0B1Lemma: universitate_el, S0B1LemmaPOS: universitate_Pp3-so, S0B1POS: Ncfpoy_Pp3-so, S0B1POSLemma: Ncfpoy_el, S0B1Token: universităților_i, S0B2Lemma: universitate_., S0B2LemmaPOS: universitate_PERIOD, S0B2POS: Ncfpoy_PERIOD, S0B2POSLemma: Ncfpoy_., S0B2Token: universităților_., S0Lemma: universitate, S0POS: Ncfpoy, S0Token: universităților, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: vrea, B0POS: Vaip3s, B0Token: va, B1IsInLexic: true, B1Lemma: desfășura, B1POS: Vmii3s, B1Token: desfășura, S0B0Distance: 1, S0B0Lemma: sine_vrea, S0B0LemmaPOS: sine_Vaip3s, S0B0POS: Px3--r_Vaip3s, S0B0POSLemma: Px3--r_vrea, S0B0Token: se_va, S0B1Lemma: sine_desfășura, S0B1LemmaPOS: sine_Vmii3s, S0B1POS: Px3--r_Vmii3s, S0B1POSLemma: Px3--r_desfășura, S0B1Token: se_desfășura, S0B2Lemma: sine_în, S0B2LemmaPOS: sine_Sp, S0B2POS: Px3--r_Sp, S0B2POSLemma: Px3--r_în, S0B2Token: se_în, S0IsInLexic: true, S0Lemma: sine, S0POS: Px3--r, S0Token: se, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, i, . ,.. ]
+72- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, va]   B= [desfășura, în, zilele ,.. ]
 
+B0IsInLexic: true, B0Lemma: desfășura, B0POS: Vmii3s, B0Token: desfășura, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: vrea_desfășura, S0B0LemmaPOS: vrea_Vmii3s, S0B0POS: Vaip3s_Vmii3s, S0B0POSLemma: Vaip3s_desfășura, S0B0Token: va_desfășura, S0B1Lemma: vrea_în, S0B1LemmaPOS: vrea_Sp, S0B1POS: Vaip3s_Sp, S0B1POSLemma: Vaip3s_în, S0B1Token: va_în, S0B2Lemma: vrea_zi, S0B2LemmaPOS: vrea_Ncfpry, S0B2POS: Vaip3s_Ncfpry, S0B2POSLemma: Vaip3s_zi, S0B2Token: va_zilele, S0IsInLexic: true, S0Lemma: vrea, S0POS: Vaip3s, S0S1Distance: 1, S0Token: va, S1B0Lemma: sine_desfășura, S1B0LemmaPOS: sine_Vmii3s, S1B0POS: Px3--r_Vmii3s, S1B0POSLemma: Px3--r_desfășura, S1B0Token: se_desfășura, S1IsInLexic: true, S1Lemma: sine, S1POS: Px3--r, S1S0B0Lemma: sine_vrea_desfășura, S1S0B0LemmaPOS: sine_Vaip3s_Vmii3s, S1S0B0POS: Px3--r_Vaip3s_Vmii3s, S1S0B0POSLemma: Px3--r_Vaip3s_desfășura, S1S0B0Token: se_va_desfășura, S1S0Lemma: sine_vrea, S1S0LemmaPOS: sine_Vaip3s, S1S0POS: Px3--r_Vaip3s, S1S0POSLemma: Px3--r_vrea, S1S0Token: se_va, S1Token: se, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
 
+73- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [desfășura, în, zilele ,.. ]
 
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [i, . ,.. ]
+B0IsInLexic: true, B0Lemma: desfășura, B0POS: Vmii3s, B0Token: desfășura, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 2, S0B0Lemma: sine_desfășura, S0B0LemmaPOS: sine_Vmii3s, S0B0POS: Px3--r_Vmii3s, S0B0POSLemma: Px3--r_desfășura, S0B0Token: se_desfășura, S0B1Lemma: sine_în, S0B1LemmaPOS: sine_Sp, S0B1POS: Px3--r_Sp, S0B1POSLemma: Px3--r_în, S0B1Token: se_în, S0B2Lemma: sine_zi, S0B2LemmaPOS: sine_Ncfpry, S0B2POS: Px3--r_Ncfpry, S0B2POSLemma: Px3--r_zi, S0B2Token: se_zilele, S0IsInLexic: true, S0Lemma: sine, S0POS: Px3--r, S0Token: se, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
 
-B0Lemma: el, B0POS: Pp3-so, B0Token: i, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: ,_el, S0B0LemmaPOS: ,_Pp3-so, S0B0POS: COMMA_Pp3-so, S0B0POSLemma: COMMA_el, S0B0Token: ,_i, S0B1Lemma: ,_., S0B1LemmaPOS: ,_PERIOD, S0B1POS: COMMA_PERIOD, S0B1POSLemma: COMMA_., S0B1Token: ,_., S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+74- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, desfășura]   B= [în, zilele, de ,.. ]
 
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [i, . ,.. ]
+B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: zi, B1POS: Ncfpry, B1Token: zilele, S0B0Distance: 1, S0B0Lemma: desfășura_în, S0B0LemmaPOS: desfășura_Sp, S0B0POS: Vmii3s_Sp, S0B0POSLemma: Vmii3s_în, S0B0Token: desfășura_în, S0B1Lemma: desfășura_zi, S0B1LemmaPOS: desfășura_Ncfpry, S0B1POS: Vmii3s_Ncfpry, S0B1POSLemma: Vmii3s_zi, S0B1Token: desfășura_zilele, S0B2Lemma: desfășura_de, S0B2LemmaPOS: desfășura_Sp, S0B2POS: Vmii3s_Sp, S0B2POSLemma: Vmii3s_de, S0B2Token: desfășura_de, S0IsInLexic: true, S0Lemma: desfășura, S0POS: Vmii3s, S0S1Distance: 2, S0Token: desfășura, S1B0Lemma: sine_în, S1B0LemmaPOS: sine_Sp, S1B0POS: Px3--r_Sp, S1B0POSLemma: Px3--r_în, S1B0Token: se_în, S1IsInLexic: true, S1Lemma: sine, S1POS: Px3--r, S1S0B0Lemma: sine_desfășura_în, S1S0B0LemmaPOS: sine_Vmii3s_Sp, S1S0B0POS: Px3--r_Vmii3s_Sp, S1S0B0POSLemma: Px3--r_Vmii3s_în, S1S0B0Token: se_desfășura_în, S1S0Lemma: sine_desfășura, S1S0LemmaPOS: sine_Vmii3s, S1S0POS: Px3--r_Vmii3s, S1S0POSLemma: Px3--r_desfășura, S1S0Token: se_desfășura, S1Token: se, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
 
+75- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, desfășura]]   B= [în, zilele, de ,.. ]
 
 
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [i]   B= [.]
 
-B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: el_., S0B0LemmaPOS: el_PERIOD, S0B0POS: Pp3-so_PERIOD, S0B0POSLemma: Pp3-so_., S0B0Token: i_., S0Lemma: el, S0POS: Pp3-so, S0Token: i, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, zilele, de ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [zilele, de, 12 ,.. ]
+
+B0Lemma: zi, B0POS: Ncfpry, B0Token: zilele, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: în_zi, S0B0LemmaPOS: în_Ncfpry, S0B0POS: Sp_Ncfpry, S0B0POSLemma: Sp_zi, S0B0Token: în_zilele, S0B1Lemma: în_de, S0B1LemmaPOS: în_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_de, S0B1Token: în_de, S0B2Lemma: în_12, S0B2LemmaPOS: în_M, S0B2POS: Sp_M, S0B2POSLemma: Sp_12, S0B2Token: în_12, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zilele, de, 12 ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zilele]   B= [de, 12, și ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: 12, B1POS: M, B1Token: 12, S0B0Distance: 1, S0B0Lemma: zi_de, S0B0LemmaPOS: zi_Sp, S0B0POS: Ncfpry_Sp, S0B0POSLemma: Ncfpry_de, S0B0Token: zilele_de, S0B1Lemma: zi_12, S0B1LemmaPOS: zi_M, S0B1POS: Ncfpry_M, S0B1POSLemma: Ncfpry_12, S0B1Token: zilele_12, S0B2Lemma: zi_și, S0B2LemmaPOS: zi_Cc, S0B2POS: Ncfpry_Cc, S0B2POSLemma: Ncfpry_și, S0B2Token: zilele_și, S0Lemma: zi, S0POS: Ncfpry, S0Token: zilele, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, 12, și ,.. ]
+
+
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [12, și, 13 ,.. ]
+
+B0Lemma: 12, B0POS: M, B0Token: 12, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: de_12, S0B0LemmaPOS: de_M, S0B0POS: Sp_M, S0B0POSLemma: Sp_12, S0B0Token: de_12, S0B1Lemma: de_și, S0B1LemmaPOS: de_Cc, S0B1POS: Sp_Cc, S0B1POSLemma: Sp_și, S0B1Token: de_și, S0B2Lemma: de_13, S0B2LemmaPOS: de_M, S0B2POS: Sp_M, S0B2POSLemma: Sp_13, S0B2Token: de_13, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [12, și, 13 ,.. ]
+
+
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [12]   B= [și, 13, aprilie ,.. ]
+
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: 13, B1POS: M, B1Token: 13, S0B0Distance: 1, S0B0Lemma: 12_și, S0B0LemmaPOS: 12_Cc, S0B0POS: M_Cc, S0B0POSLemma: M_și, S0B0Token: 12_și, S0B1Lemma: 12_13, S0B1LemmaPOS: 12_M, S0B1POS: M_M, S0B1POSLemma: M_13, S0B1Token: 12_13, S0B2Lemma: 12_aprilie, S0B2LemmaPOS: 12_Ncmsry, S0B2POS: M_Ncmsry, S0B2POSLemma: M_aprilie, S0B2Token: 12_aprilie, S0Lemma: 12, S0POS: M, S0Token: 12, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, 13, aprilie ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [13, aprilie, în ,.. ]
+
+B0Lemma: 13, B0POS: M, B0Token: 13, B1Lemma: aprilie, B1POS: Ncmsry, B1Token: aprilie, S0B0Distance: 1, S0B0Lemma: și_13, S0B0LemmaPOS: și_M, S0B0POS: Cc_M, S0B0POSLemma: Cc_13, S0B0Token: și_13, S0B1Lemma: și_aprilie, S0B1LemmaPOS: și_Ncmsry, S0B1POS: Cc_Ncmsry, S0B1POSLemma: Cc_aprilie, S0B1Token: și_aprilie, S0B2Lemma: și_în, S0B2LemmaPOS: și_Sp, S0B2POS: Cc_Sp, S0B2POSLemma: Cc_în, S0B2Token: și_în, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [13, aprilie, în ,.. ]
+
+
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [13]   B= [aprilie, în, cartierele ,.. ]
+
+B0Lemma: aprilie, B0POS: Ncmsry, B0Token: aprilie, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: 13_aprilie, S0B0LemmaPOS: 13_Ncmsry, S0B0POS: M_Ncmsry, S0B0POSLemma: M_aprilie, S0B0Token: 13_aprilie, S0B1Lemma: 13_în, S0B1LemmaPOS: 13_Sp, S0B1POS: M_Sp, S0B1POSLemma: M_în, S0B1Token: 13_în, S0B2Lemma: 13_cartier, S0B2LemmaPOS: 13_Ncfpry, S0B2POS: M_Ncfpry, S0B2POSLemma: M_cartier, S0B2Token: 13_cartierele, S0Lemma: 13, S0POS: M, S0Token: 13, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aprilie, în, cartierele ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aprilie]   B= [în, cartierele, situate ,.. ]
+
+B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: cartier, B1POS: Ncfpry, B1Token: cartierele, S0B0Distance: 1, S0B0Lemma: aprilie_în, S0B0LemmaPOS: aprilie_Sp, S0B0POS: Ncmsry_Sp, S0B0POSLemma: Ncmsry_în, S0B0Token: aprilie_în, S0B1Lemma: aprilie_cartier, S0B1LemmaPOS: aprilie_Ncfpry, S0B1POS: Ncmsry_Ncfpry, S0B1POSLemma: Ncmsry_cartier, S0B1Token: aprilie_cartierele, S0B2Lemma: aprilie_situat, S0B2LemmaPOS: aprilie_Afpfprn, S0B2POS: Ncmsry_Afpfprn, S0B2POSLemma: Ncmsry_situat, S0B2Token: aprilie_situate, S0Lemma: aprilie, S0POS: Ncmsry, S0Token: aprilie, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, cartierele, situate ,.. ]
+
+
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [cartierele, situate, la ,.. ]
+
+B0Lemma: cartier, B0POS: Ncfpry, B0Token: cartierele, B1Lemma: situat, B1POS: Afpfprn, B1Token: situate, S0B0Distance: 1, S0B0Lemma: în_cartier, S0B0LemmaPOS: în_Ncfpry, S0B0POS: Sp_Ncfpry, S0B0POSLemma: Sp_cartier, S0B0Token: în_cartierele, S0B1Lemma: în_situat, S0B1LemmaPOS: în_Afpfprn, S0B1POS: Sp_Afpfprn, S0B1POSLemma: Sp_situat, S0B1Token: în_situate, S0B2Lemma: în_la, S0B2LemmaPOS: în_Sp, S0B2POS: Sp_Sp, S0B2POSLemma: Sp_la, S0B2Token: în_la, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cartierele, situate, la ,.. ]
+
+
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cartierele]   B= [situate, la, nord ,.. ]
+
+B0Lemma: situat, B0POS: Afpfprn, B0Token: situate, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: cartier_situat, S0B0LemmaPOS: cartier_Afpfprn, S0B0POS: Ncfpry_Afpfprn, S0B0POSLemma: Ncfpry_situat, S0B0Token: cartierele_situate, S0B1Lemma: cartier_la, S0B1LemmaPOS: cartier_Sp, S0B1POS: Ncfpry_Sp, S0B1POSLemma: Ncfpry_la, S0B1Token: cartierele_la, S0B2Lemma: cartier_nord, S0B2LemmaPOS: cartier_Ncmsrn, S0B2POS: Ncfpry_Ncmsrn, S0B2POSLemma: Ncfpry_nord, S0B2Token: cartierele_nord, S0Lemma: cartier, S0POS: Ncfpry, S0Token: cartierele, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [situate, la, nord ,.. ]
+
+
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [situate]   B= [la, nord, de ,.. ]
+
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: nord, B1POS: Ncmsrn, B1Token: nord, S0B0Distance: 1, S0B0Lemma: situat_la, S0B0LemmaPOS: situat_Sp, S0B0POS: Afpfprn_Sp, S0B0POSLemma: Afpfprn_la, S0B0Token: situate_la, S0B1Lemma: situat_nord, S0B1LemmaPOS: situat_Ncmsrn, S0B1POS: Afpfprn_Ncmsrn, S0B1POSLemma: Afpfprn_nord, S0B1Token: situate_nord, S0B2Lemma: situat_de, S0B2LemmaPOS: situat_Sp, S0B2POS: Afpfprn_Sp, S0B2POSLemma: Afpfprn_de, S0B2Token: situate_de, S0Lemma: situat, S0POS: Afpfprn, S0Token: situate, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, nord, de ,.. ]
+
+
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [nord, de, canalul ,.. ]
+
+B0Lemma: nord, B0POS: Ncmsrn, B0Token: nord, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: la_nord, S0B0LemmaPOS: la_Ncmsrn, S0B0POS: Sp_Ncmsrn, S0B0POSLemma: Sp_nord, S0B0Token: la_nord, S0B1Lemma: la_de, S0B1LemmaPOS: la_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_de, S0B1Token: la_de, S0B2Lemma: la_canal, S0B2LemmaPOS: la_Ncmsry, S0B2POS: Sp_Ncmsry, S0B2POSLemma: Sp_canal, S0B2Token: la_canalul, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nord, de, canalul ,.. ]
+
+
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nord]   B= [de, canalul, bega ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: canal, B1POS: Ncmsry, B1Token: canalul, S0B0Distance: 1, S0B0Lemma: nord_de, S0B0LemmaPOS: nord_Sp, S0B0POS: Ncmsrn_Sp, S0B0POSLemma: Ncmsrn_de, S0B0Token: nord_de, S0B1Lemma: nord_canal, S0B1LemmaPOS: nord_Ncmsry, S0B1POS: Ncmsrn_Ncmsry, S0B1POSLemma: Ncmsrn_canal, S0B1Token: nord_canalul, S0B2Lemma: nord_bega, S0B2LemmaPOS: nord_Np, S0B2POS: Ncmsrn_Np, S0B2POSLemma: Ncmsrn_bega, S0B2Token: nord_bega, S0Lemma: nord, S0POS: Ncmsrn, S0Token: nord, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, canalul, bega ,.. ]
+
+
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [canalul, bega, , ,.. ]
+
+B0Lemma: canal, B0POS: Ncmsry, B0Token: canalul, B1Lemma: bega, B1POS: Np, B1Token: bega, S0B0Distance: 1, S0B0Lemma: de_canal, S0B0LemmaPOS: de_Ncmsry, S0B0POS: Sp_Ncmsry, S0B0POSLemma: Sp_canal, S0B0Token: de_canalul, S0B1Lemma: de_bega, S0B1LemmaPOS: de_Np, S0B1POS: Sp_Np, S0B1POSLemma: Sp_bega, S0B1Token: de_bega, S0B2Lemma: de_,, S0B2LemmaPOS: de_COMMA, S0B2POS: Sp_COMMA, S0B2POSLemma: Sp_,, S0B2Token: de_,, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [canalul, bega, , ,.. ]
+
+
+
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [canalul]   B= [bega, ,, iar ,.. ]
+
+B0Lemma: bega, B0POS: Np, B0Token: bega, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: canal_bega, S0B0LemmaPOS: canal_Np, S0B0POS: Ncmsry_Np, S0B0POSLemma: Ncmsry_bega, S0B0Token: canalul_bega, S0B1Lemma: canal_,, S0B1LemmaPOS: canal_COMMA, S0B1POS: Ncmsry_COMMA, S0B1POSLemma: Ncmsry_,, S0B1Token: canalul_,, S0B2Lemma: canal_iar, S0B2LemmaPOS: canal_Rg, S0B2POS: Ncmsry_Rg, S0B2POSLemma: Ncmsry_iar, S0B2Token: canalul_iar, S0Lemma: canal, S0POS: Ncmsry, S0Token: canalul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bega, ,, iar ,.. ]
+
+
+
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bega]   B= [,, iar, în ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: iar, B1POS: Rg, B1Token: iar, S0B0Distance: 1, S0B0Lemma: bega_,, S0B0LemmaPOS: bega_COMMA, S0B0POS: Np_COMMA, S0B0POSLemma: Np_,, S0B0Token: bega_,, S0B1Lemma: bega_iar, S0B1LemmaPOS: bega_Rg, S0B1POS: Np_Rg, S0B1POSLemma: Np_iar, S0B1Token: bega_iar, S0B2Lemma: bega_în, S0B2LemmaPOS: bega_Sp, S0B2POS: Np_Sp, S0B2POSLemma: Np_în, S0B2Token: bega_în, S0Lemma: bega, S0POS: Np, S0Token: bega, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, iar, în ,.. ]
+
+
+
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [iar, în, 19 ,.. ]
+
+B0Lemma: iar, B0POS: Rg, B0Token: iar, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: ,_iar, S0B0LemmaPOS: ,_Rg, S0B0POS: COMMA_Rg, S0B0POSLemma: COMMA_iar, S0B0Token: ,_iar, S0B1Lemma: ,_în, S0B1LemmaPOS: ,_Sp, S0B1POS: COMMA_Sp, S0B1POSLemma: COMMA_în, S0B1Token: ,_în, S0B2Lemma: ,_19, S0B2LemmaPOS: ,_Mc-p-l, S0B2POS: COMMA_Mc-p-l, S0B2POSLemma: COMMA_19, S0B2Token: ,_19, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iar, în, 19 ,.. ]
+
+
+
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iar]   B= [în, 19, și ,.. ]
+
+B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: 19, B1POS: Mc-p-l, B1Token: 19, S0B0Distance: 1, S0B0Lemma: iar_în, S0B0LemmaPOS: iar_Sp, S0B0POS: Rg_Sp, S0B0POSLemma: Rg_în, S0B0Token: iar_în, S0B1Lemma: iar_19, S0B1LemmaPOS: iar_Mc-p-l, S0B1POS: Rg_Mc-p-l, S0B1POSLemma: Rg_19, S0B1Token: iar_19, S0B2Lemma: iar_și, S0B2LemmaPOS: iar_Cc, S0B2POS: Rg_Cc, S0B2POSLemma: Rg_și, S0B2Token: iar_și, S0Lemma: iar, S0POS: Rg, S0Token: iar, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, 19, și ,.. ]
+
+
+
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [19, și, 20 ,.. ]
+
+B0Lemma: 19, B0POS: Mc-p-l, B0Token: 19, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: în_19, S0B0LemmaPOS: în_Mc-p-l, S0B0POS: Sp_Mc-p-l, S0B0POSLemma: Sp_19, S0B0Token: în_19, S0B1Lemma: în_și, S0B1LemmaPOS: în_Cc, S0B1POS: Sp_Cc, S0B1POSLemma: Sp_și, S0B1Token: în_și, S0B2Lemma: în_20, S0B2LemmaPOS: în_Mc-p-l, S0B2POS: Sp_Mc-p-l, S0B2POSLemma: Sp_20, S0B2Token: în_20, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [19, și, 20 ,.. ]
+
+
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [19]   B= [și, 20, aprilie ,.. ]
+
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: 20, B1POS: Mc-p-l, B1Token: 20, S0B0Distance: 1, S0B0Lemma: 19_și, S0B0LemmaPOS: 19_Cc, S0B0POS: Mc-p-l_Cc, S0B0POSLemma: Mc-p-l_și, S0B0Token: 19_și, S0B1Lemma: 19_20, S0B1LemmaPOS: 19_Mc-p-l, S0B1POS: Mc-p-l_Mc-p-l, S0B1POSLemma: Mc-p-l_20, S0B1Token: 19_20, S0B2Lemma: 19_aprilie, S0B2LemmaPOS: 19_Ncmsry, S0B2POS: Mc-p-l_Ncmsry, S0B2POSLemma: Mc-p-l_aprilie, S0B2Token: 19_aprilie, S0Lemma: 19, S0POS: Mc-p-l, S0Token: 19, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, 20, aprilie ,.. ]
+
+
+
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [20, aprilie, , ,.. ]
+
+B0Lemma: 20, B0POS: Mc-p-l, B0Token: 20, B1Lemma: aprilie, B1POS: Ncmsry, B1Token: aprilie, S0B0Distance: 1, S0B0Lemma: și_20, S0B0LemmaPOS: și_Mc-p-l, S0B0POS: Cc_Mc-p-l, S0B0POSLemma: Cc_20, S0B0Token: și_20, S0B1Lemma: și_aprilie, S0B1LemmaPOS: și_Ncmsry, S0B1POS: Cc_Ncmsry, S0B1POSLemma: Cc_aprilie, S0B1Token: și_aprilie, S0B2Lemma: și_,, S0B2LemmaPOS: și_COMMA, S0B2POS: Cc_COMMA, S0B2POSLemma: Cc_,, S0B2Token: și_,, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [20, aprilie, , ,.. ]
+
+
+
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [20]   B= [aprilie, ,, în ,.. ]
+
+B0Lemma: aprilie, B0POS: Ncmsry, B0Token: aprilie, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: 20_aprilie, S0B0LemmaPOS: 20_Ncmsry, S0B0POS: Mc-p-l_Ncmsry, S0B0POSLemma: Mc-p-l_aprilie, S0B0Token: 20_aprilie, S0B1Lemma: 20_,, S0B1LemmaPOS: 20_COMMA, S0B1POS: Mc-p-l_COMMA, S0B1POSLemma: Mc-p-l_,, S0B1Token: 20_,, S0B2Lemma: 20_în, S0B2LemmaPOS: 20_Sp, S0B2POS: Mc-p-l_Sp, S0B2POSLemma: Mc-p-l_în, S0B2Token: 20_în, S0Lemma: 20, S0POS: Mc-p-l, S0Token: 20, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aprilie, ,, în ,.. ]
+
+
+
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aprilie]   B= [,, în, zonele ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: aprilie_,, S0B0LemmaPOS: aprilie_COMMA, S0B0POS: Ncmsry_COMMA, S0B0POSLemma: Ncmsry_,, S0B0Token: aprilie_,, S0B1Lemma: aprilie_în, S0B1LemmaPOS: aprilie_Sp, S0B1POS: Ncmsry_Sp, S0B1POSLemma: Ncmsry_în, S0B1Token: aprilie_în, S0B2Lemma: aprilie_zonă, S0B2LemmaPOS: aprilie_Ncfpry, S0B2POS: Ncmsry_Ncfpry, S0B2POSLemma: Ncmsry_zonă, S0B2Token: aprilie_zonele, S0Lemma: aprilie, S0POS: Ncmsry, S0Token: aprilie, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, în, zonele ,.. ]
+
+
+
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [în, zonele, aflate ,.. ]
+
+B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: zonă, B1POS: Ncfpry, B1Token: zonele, S0B0Distance: 1, S0B0Lemma: ,_în, S0B0LemmaPOS: ,_Sp, S0B0POS: COMMA_Sp, S0B0POSLemma: COMMA_în, S0B0Token: ,_în, S0B1Lemma: ,_zonă, S0B1LemmaPOS: ,_Ncfpry, S0B1POS: COMMA_Ncfpry, S0B1POSLemma: COMMA_zonă, S0B1Token: ,_zonele, S0B2Lemma: ,_aflat, S0B2LemmaPOS: ,_Afpfprn, S0B2POS: COMMA_Afpfprn, S0B2POSLemma: COMMA_aflat, S0B2Token: ,_aflate, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, zonele, aflate ,.. ]
+
+
+
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [zonele, aflate, la ,.. ]
+
+B0Lemma: zonă, B0POS: Ncfpry, B0Token: zonele, B1Lemma: aflat, B1POS: Afpfprn, B1Token: aflate, S0B0Distance: 1, S0B0Lemma: în_zonă, S0B0LemmaPOS: în_Ncfpry, S0B0POS: Sp_Ncfpry, S0B0POSLemma: Sp_zonă, S0B0Token: în_zonele, S0B1Lemma: în_aflat, S0B1LemmaPOS: în_Afpfprn, S0B1POS: Sp_Afpfprn, S0B1POSLemma: Sp_aflat, S0B1Token: în_aflate, S0B2Lemma: în_la, S0B2LemmaPOS: în_Sp, S0B2POS: Sp_Sp, S0B2POSLemma: Sp_la, S0B2Token: în_la, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zonele, aflate, la ,.. ]
+
+
+
+125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zonele]   B= [aflate, la, sud ,.. ]
+
+B0Lemma: aflat, B0POS: Afpfprn, B0Token: aflate, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: zonă_aflat, S0B0LemmaPOS: zonă_Afpfprn, S0B0POS: Ncfpry_Afpfprn, S0B0POSLemma: Ncfpry_aflat, S0B0Token: zonele_aflate, S0B1Lemma: zonă_la, S0B1LemmaPOS: zonă_Sp, S0B1POS: Ncfpry_Sp, S0B1POSLemma: Ncfpry_la, S0B1Token: zonele_la, S0B2Lemma: zonă_sud, S0B2LemmaPOS: zonă_Ncmsrn, S0B2POS: Ncfpry_Ncmsrn, S0B2POSLemma: Ncfpry_sud, S0B2Token: zonele_sud, S0Lemma: zonă, S0POS: Ncfpry, S0Token: zonele, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aflate, la, sud ,.. ]
+
+
+
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aflate]   B= [la, sud, de ,.. ]
+
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1IsInLexic: true, B1Lemma: sud, B1POS: Ncmsrn, B1Token: sud, S0B0Distance: 1, S0B0Lemma: aflat_la, S0B0LemmaPOS: aflat_Sp, S0B0POS: Afpfprn_Sp, S0B0POSLemma: Afpfprn_la, S0B0Token: aflate_la, S0B1Lemma: aflat_sud, S0B1LemmaPOS: aflat_Ncmsrn, S0B1POS: Afpfprn_Ncmsrn, S0B1POSLemma: Afpfprn_sud, S0B1Token: aflate_sud, S0B2Lemma: aflat_de, S0B2LemmaPOS: aflat_Sp, S0B2POS: Afpfprn_Sp, S0B2POSLemma: Afpfprn_de, S0B2Token: aflate_de, S0Lemma: aflat, S0POS: Afpfprn, S0Token: aflate, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, sud, de ,.. ]
+
+
+
+129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [sud, de, canalul ,.. ]
+
+B0IsInLexic: true, B0Lemma: sud, B0POS: Ncmsrn, B0Token: sud, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: la_sud, S0B0LemmaPOS: la_Ncmsrn, S0B0POS: Sp_Ncmsrn, S0B0POSLemma: Sp_sud, S0B0Token: la_sud, S0B1Lemma: la_de, S0B1LemmaPOS: la_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_de, S0B1Token: la_de, S0B2Lemma: la_canal, S0B2LemmaPOS: la_Ncmsry, S0B2POS: Sp_Ncmsry, S0B2POSLemma: Sp_canal, S0B2Token: la_canalul, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sud, de, canalul ,.. ]
+
+
+
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sud]   B= [de, canalul, bega ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: canal, B1POS: Ncmsry, B1Token: canalul, S0B0Distance: 1, S0B0Lemma: sud_de, S0B0LemmaPOS: sud_Sp, S0B0POS: Ncmsrn_Sp, S0B0POSLemma: Ncmsrn_de, S0B0Token: sud_de, S0B1Lemma: sud_canal, S0B1LemmaPOS: sud_Ncmsry, S0B1POS: Ncmsrn_Ncmsry, S0B1POSLemma: Ncmsrn_canal, S0B1Token: sud_canalul, S0B2Lemma: sud_bega, S0B2LemmaPOS: sud_Np, S0B2POS: Ncmsrn_Np, S0B2POSLemma: Ncmsrn_bega, S0B2Token: sud_bega, S0IsInLexic: true, S0Lemma: sud, S0POS: Ncmsrn, S0Token: sud, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, canalul, bega ,.. ]
+
+
+
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [canalul, bega, . ,.. ]
+
+B0Lemma: canal, B0POS: Ncmsry, B0Token: canalul, B1Lemma: bega, B1POS: Np, B1Token: bega, S0B0Distance: 1, S0B0Lemma: de_canal, S0B0LemmaPOS: de_Ncmsry, S0B0POS: Sp_Ncmsry, S0B0POSLemma: Sp_canal, S0B0Token: de_canalul, S0B1Lemma: de_bega, S0B1LemmaPOS: de_Np, S0B1POS: Sp_Np, S0B1POSLemma: Sp_bega, S0B1Token: de_bega, S0B2Lemma: de_., S0B2LemmaPOS: de_PERIOD, S0B2POS: Sp_PERIOD, S0B2POSLemma: Sp_., S0B2Token: de_., S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [canalul, bega, . ,.. ]
+
+
+
+135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [canalul]   B= [bega, . ,.. ]
+
+B0Lemma: bega, B0POS: Np, B0Token: bega, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: canal_bega, S0B0LemmaPOS: canal_Np, S0B0POS: Ncmsry_Np, S0B0POSLemma: Ncmsry_bega, S0B0Token: canalul_bega, S0B1Lemma: canal_., S0B1LemmaPOS: canal_PERIOD, S0B1POS: Ncmsry_PERIOD, S0B1POSLemma: Ncmsry_., S0B1Token: canalul_., S0Lemma: canal, S0POS: Ncmsry, S0Token: canalul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bega, . ,.. ]
+
+
+
+137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bega]   B= [.]
+
+B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: bega_., S0B0LemmaPOS: bega_PERIOD, S0B0POS: Np_PERIOD, S0B0POSLemma: Np_., S0B0Token: bega_., S0Lemma: bega, S0POS: Np, S0Token: bega, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 23280 - 
+inspectoratul de protecția mediului este , de asemenea , parte la programul „ românia curată “ inițiat de m . a . p . m . alt proiect se referă la colectarea și reciclarea deșeurilor de hârtie . 
+### Existing MWEs: 
+1- **se referă** (IReflV, 16)
+### Identified MWEs: 
+1- **se referă** 
+
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [inspectoratul, de, protecția ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [inspectoratul]   B= [de, protecția, mediului ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: protecție, B1POS: Ncfsry, B1Token: protecția, S0B0Distance: 1, S0B0Lemma: inspectorat_de, S0B0LemmaPOS: inspectorat_Sp, S0B0POS: Ncmsry_Sp, S0B0POSLemma: Ncmsry_de, S0B0Token: inspectoratul_de, S0B1Lemma: inspectorat_protecție, S0B1LemmaPOS: inspectorat_Ncfsry, S0B1POS: Ncmsry_Ncfsry, S0B1POSLemma: Ncmsry_protecție, S0B1Token: inspectoratul_protecția, S0B2Lemma: inspectorat_mediu, S0B2LemmaPOS: inspectorat_Ncmsoy, S0B2POS: Ncmsry_Ncmsoy, S0B2POSLemma: Ncmsry_mediu, S0B2Token: inspectoratul_mediului, S0Lemma: inspectorat, S0POS: Ncmsry, S0Token: inspectoratul, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, protecția, mediului ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [protecția, mediului, este ,.. ]
+
+B0Lemma: protecție, B0POS: Ncfsry, B0Token: protecția, B1Lemma: mediu, B1POS: Ncmsoy, B1Token: mediului, S0B0Distance: 1, S0B0Lemma: de_protecție, S0B0LemmaPOS: de_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_protecție, S0B0Token: de_protecția, S0B1Lemma: de_mediu, S0B1LemmaPOS: de_Ncmsoy, S0B1POS: Sp_Ncmsoy, S0B1POSLemma: Sp_mediu, S0B1Token: de_mediului, S0B2Lemma: de_fi, S0B2LemmaPOS: de_Vmip3s, S0B2POS: Sp_Vmip3s, S0B2POSLemma: Sp_fi, S0B2Token: de_este, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [protecția, mediului, este ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [protecția]   B= [mediului, este, , ,.. ]
+
+B0Lemma: mediu, B0POS: Ncmsoy, B0Token: mediului, B1IsInLexic: true, B1Lemma: fi, B1POS: Vmip3s, B1Token: este, S0B0Distance: 1, S0B0Lemma: protecție_mediu, S0B0LemmaPOS: protecție_Ncmsoy, S0B0POS: Ncfsry_Ncmsoy, S0B0POSLemma: Ncfsry_mediu, S0B0Token: protecția_mediului, S0B1Lemma: protecție_fi, S0B1LemmaPOS: protecție_Vmip3s, S0B1POS: Ncfsry_Vmip3s, S0B1POSLemma: Ncfsry_fi, S0B1Token: protecția_este, S0B2Lemma: protecție_,, S0B2LemmaPOS: protecție_COMMA, S0B2POS: Ncfsry_COMMA, S0B2POSLemma: Ncfsry_,, S0B2Token: protecția_,, S0Lemma: protecție, S0POS: Ncfsry, S0Token: protecția, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mediului, este, , ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mediului]   B= [este, ,, de ,.. ]
+
+B0IsInLexic: true, B0Lemma: fi, B0POS: Vmip3s, B0Token: este, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: mediu_fi, S0B0LemmaPOS: mediu_Vmip3s, S0B0POS: Ncmsoy_Vmip3s, S0B0POSLemma: Ncmsoy_fi, S0B0Token: mediului_este, S0B1Lemma: mediu_,, S0B1LemmaPOS: mediu_COMMA, S0B1POS: Ncmsoy_COMMA, S0B1POSLemma: Ncmsoy_,, S0B1Token: mediului_,, S0B2Lemma: mediu_de, S0B2LemmaPOS: mediu_Sp, S0B2POS: Ncmsoy_Sp, S0B2POSLemma: Ncmsoy_de, S0B2Token: mediului_de, S0Lemma: mediu, S0POS: Ncmsoy, S0Token: mediului, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [este, ,, de ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [este]   B= [,, de, asemenea ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: fi_,, S0B0LemmaPOS: fi_COMMA, S0B0POS: Vmip3s_COMMA, S0B0POSLemma: Vmip3s_,, S0B0Token: este_,, S0B1Lemma: fi_de, S0B1LemmaPOS: fi_Sp, S0B1POS: Vmip3s_Sp, S0B1POSLemma: Vmip3s_de, S0B1Token: este_de, S0B2Lemma: fi_asemenea, S0B2LemmaPOS: fi_Afp, S0B2POS: Vmip3s_Afp, S0B2POSLemma: Vmip3s_asemenea, S0B2Token: este_asemenea, S0IsInLexic: true, S0Lemma: fi, S0POS: Vmip3s, S0Token: este, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, de, asemenea ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [de, asemenea, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: asemenea, B1POS: Afp, B1Token: asemenea, S0B0Distance: 1, S0B0Lemma: ,_de, S0B0LemmaPOS: ,_Sp, S0B0POS: COMMA_Sp, S0B0POSLemma: COMMA_de, S0B0Token: ,_de, S0B1Lemma: ,_asemenea, S0B1LemmaPOS: ,_Afp, S0B1POS: COMMA_Afp, S0B1POSLemma: COMMA_asemenea, S0B1Token: ,_asemenea, S0B2Lemma: ,_,, S0B2LemmaPOS: ,_COMMA, S0B2POS: COMMA_COMMA, S0B2POSLemma: COMMA_,, S0B2Token: ,_,, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, asemenea, , ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [asemenea, ,, parte ,.. ]
+
+B0Lemma: asemenea, B0POS: Afp, B0Token: asemenea, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: de_asemenea, S0B0LemmaPOS: de_Afp, S0B0POS: Sp_Afp, S0B0POSLemma: Sp_asemenea, S0B0Token: de_asemenea, S0B1Lemma: de_,, S0B1LemmaPOS: de_COMMA, S0B1POS: Sp_COMMA, S0B1POSLemma: Sp_,, S0B1Token: de_,, S0B2Lemma: de_parte, S0B2LemmaPOS: de_Ncfsrn, S0B2POS: Sp_Ncfsrn, S0B2POSLemma: Sp_parte, S0B2Token: de_parte, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [asemenea, ,, parte ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [asemenea]   B= [,, parte, la ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: parte, B1POS: Ncfsrn, B1Token: parte, S0B0Distance: 1, S0B0Lemma: asemenea_,, S0B0LemmaPOS: asemenea_COMMA, S0B0POS: Afp_COMMA, S0B0POSLemma: Afp_,, S0B0Token: asemenea_,, S0B1Lemma: asemenea_parte, S0B1LemmaPOS: asemenea_Ncfsrn, S0B1POS: Afp_Ncfsrn, S0B1POSLemma: Afp_parte, S0B1Token: asemenea_parte, S0B2Lemma: asemenea_la, S0B2LemmaPOS: asemenea_Sp, S0B2POS: Afp_Sp, S0B2POSLemma: Afp_la, S0B2Token: asemenea_la, S0Lemma: asemenea, S0POS: Afp, S0Token: asemenea, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, parte, la ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [parte, la, programul ,.. ]
+
+B0IsInLexic: true, B0Lemma: parte, B0POS: Ncfsrn, B0Token: parte, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: ,_parte, S0B0LemmaPOS: ,_Ncfsrn, S0B0POS: COMMA_Ncfsrn, S0B0POSLemma: COMMA_parte, S0B0Token: ,_parte, S0B1Lemma: ,_la, S0B1LemmaPOS: ,_Sp, S0B1POS: COMMA_Sp, S0B1POSLemma: COMMA_la, S0B1Token: ,_la, S0B2Lemma: ,_program, S0B2LemmaPOS: ,_Ncmsry, S0B2POS: COMMA_Ncmsry, S0B2POSLemma: COMMA_program, S0B2Token: ,_programul, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [parte, la, programul ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [parte]   B= [la, programul, „ ,.. ]
+
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: program, B1POS: Ncmsry, B1Token: programul, S0B0Distance: 1, S0B0Lemma: parte_la, S0B0LemmaPOS: parte_Sp, S0B0POS: Ncfsrn_Sp, S0B0POSLemma: Ncfsrn_la, S0B0Token: parte_la, S0B1Lemma: parte_program, S0B1LemmaPOS: parte_Ncmsry, S0B1POS: Ncfsrn_Ncmsry, S0B1POSLemma: Ncfsrn_program, S0B1Token: parte_programul, S0B2Lemma: parte_”, S0B2LemmaPOS: parte_DBLQ, S0B2POS: Ncfsrn_DBLQ, S0B2POSLemma: Ncfsrn_”, S0B2Token: parte_„, S0IsInLexic: true, S0Lemma: parte, S0POS: Ncfsrn, S0Token: parte, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, programul, „ ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [programul, „, românia ,.. ]
+
+B0Lemma: program, B0POS: Ncmsry, B0Token: programul, B1Lemma: ”, B1POS: DBLQ, B1Token: „, S0B0Distance: 1, S0B0Lemma: la_program, S0B0LemmaPOS: la_Ncmsry, S0B0POS: Sp_Ncmsry, S0B0POSLemma: Sp_program, S0B0Token: la_programul, S0B1Lemma: la_”, S0B1LemmaPOS: la_DBLQ, S0B1POS: Sp_DBLQ, S0B1POSLemma: Sp_”, S0B1Token: la_„, S0B2Lemma: la_românie, S0B2LemmaPOS: la_Ncfsry, S0B2POS: Sp_Ncfsry, S0B2POSLemma: Sp_românie, S0B2Token: la_românia, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [programul, „, românia ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [programul]   B= [„, românia, curată ,.. ]
+
+B0Lemma: ”, B0POS: DBLQ, B0Token: „, B1Lemma: românie, B1POS: Ncfsry, B1Token: românia, S0B0Distance: 1, S0B0Lemma: program_”, S0B0LemmaPOS: program_DBLQ, S0B0POS: Ncmsry_DBLQ, S0B0POSLemma: Ncmsry_”, S0B0Token: programul_„, S0B1Lemma: program_românie, S0B1LemmaPOS: program_Ncfsry, S0B1POS: Ncmsry_Ncfsry, S0B1POSLemma: Ncmsry_românie, S0B1Token: programul_românia, S0B2Lemma: program_curat, S0B2LemmaPOS: program_Afpfsrn, S0B2POS: Ncmsry_Afpfsrn, S0B2POSLemma: Ncmsry_curat, S0B2Token: programul_curată, S0Lemma: program, S0POS: Ncmsry, S0Token: programul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [„, românia, curată ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [„]   B= [românia, curată, “ ,.. ]
+
+B0Lemma: românie, B0POS: Ncfsry, B0Token: românia, B1IsInLexic: true, B1Lemma: curat, B1POS: Afpfsrn, B1Token: curată, S0B0Distance: 1, S0B0Lemma: ”_românie, S0B0LemmaPOS: ”_Ncfsry, S0B0POS: DBLQ_Ncfsry, S0B0POSLemma: DBLQ_românie, S0B0Token: „_românia, S0B1Lemma: ”_curat, S0B1LemmaPOS: ”_Afpfsrn, S0B1POS: DBLQ_Afpfsrn, S0B1POSLemma: DBLQ_curat, S0B1Token: „_curată, S0B2Lemma: ”_“, S0B2LemmaPOS: ”_Vmip3s, S0B2POS: DBLQ_Vmip3s, S0B2POSLemma: DBLQ_“, S0B2Token: „_“, S0Lemma: ”, S0POS: DBLQ, S0Token: „, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [românia, curată, “ ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [românia]   B= [curată, “, inițiat ,.. ]
+
+B0IsInLexic: true, B0Lemma: curat, B0POS: Afpfsrn, B0Token: curată, B1Lemma: “, B1POS: Vmip3s, B1Token: “, S0B0Distance: 1, S0B0Lemma: românie_curat, S0B0LemmaPOS: românie_Afpfsrn, S0B0POS: Ncfsry_Afpfsrn, S0B0POSLemma: Ncfsry_curat, S0B0Token: românia_curată, S0B1Lemma: românie_“, S0B1LemmaPOS: românie_Vmip3s, S0B1POS: Ncfsry_Vmip3s, S0B1POSLemma: Ncfsry_“, S0B1Token: românia_“, S0B2Lemma: românie_inițiat, S0B2LemmaPOS: românie_Ncmsrn, S0B2POS: Ncfsry_Ncmsrn, S0B2POSLemma: Ncfsry_inițiat, S0B2Token: românia_inițiat, S0Lemma: românie, S0POS: Ncfsry, S0Token: românia, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [curată, “, inițiat ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [curată]   B= [“, inițiat, de ,.. ]
+
+B0Lemma: “, B0POS: Vmip3s, B0Token: “, B1Lemma: inițiat, B1POS: Ncmsrn, B1Token: inițiat, S0B0Distance: 1, S0B0Lemma: curat_“, S0B0LemmaPOS: curat_Vmip3s, S0B0POS: Afpfsrn_Vmip3s, S0B0POSLemma: Afpfsrn_“, S0B0Token: curată_“, S0B1Lemma: curat_inițiat, S0B1LemmaPOS: curat_Ncmsrn, S0B1POS: Afpfsrn_Ncmsrn, S0B1POSLemma: Afpfsrn_inițiat, S0B1Token: curată_inițiat, S0B2Lemma: curat_de, S0B2LemmaPOS: curat_Sp, S0B2POS: Afpfsrn_Sp, S0B2POSLemma: Afpfsrn_de, S0B2Token: curată_de, S0IsInLexic: true, S0Lemma: curat, S0POS: Afpfsrn, S0Token: curată, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, inițiat, de ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [inițiat, de, m ,.. ]
+
+B0Lemma: inițiat, B0POS: Ncmsrn, B0Token: inițiat, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: “_inițiat, S0B0LemmaPOS: “_Ncmsrn, S0B0POS: Vmip3s_Ncmsrn, S0B0POSLemma: Vmip3s_inițiat, S0B0Token: “_inițiat, S0B1Lemma: “_de, S0B1LemmaPOS: “_Sp, S0B1POS: Vmip3s_Sp, S0B1POSLemma: Vmip3s_de, S0B1Token: “_de, S0B2Lemma: “_metru, S0B2LemmaPOS: “_Y, S0B2POS: Vmip3s_Y, S0B2POSLemma: Vmip3s_metru, S0B2Token: “_m, S0Lemma: “, S0POS: Vmip3s, S0Token: “, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [inițiat, de, m ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [inițiat]   B= [de, m, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1IsInLexic: true, B1Lemma: metru, B1POS: Y, B1Token: m, S0B0Distance: 1, S0B0Lemma: inițiat_de, S0B0LemmaPOS: inițiat_Sp, S0B0POS: Ncmsrn_Sp, S0B0POSLemma: Ncmsrn_de, S0B0Token: inițiat_de, S0B1Lemma: inițiat_metru, S0B1LemmaPOS: inițiat_Y, S0B1POS: Ncmsrn_Y, S0B1POSLemma: Ncmsrn_metru, S0B1Token: inițiat_m, S0B2Lemma: inițiat_., S0B2LemmaPOS: inițiat_PERIOD, S0B2POS: Ncmsrn_PERIOD, S0B2POSLemma: Ncmsrn_., S0B2Token: inițiat_., S0Lemma: inițiat, S0POS: Ncmsrn, S0Token: inițiat, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, m, . ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [m, ., a ,.. ]
+
+B0IsInLexic: true, B0Lemma: metru, B0POS: Y, B0Token: m, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: de_metru, S0B0LemmaPOS: de_Y, S0B0POS: Sp_Y, S0B0POSLemma: Sp_metru, S0B0Token: de_m, S0B1Lemma: de_., S0B1LemmaPOS: de_PERIOD, S0B1POS: Sp_PERIOD, S0B1POSLemma: Sp_., S0B1Token: de_., S0B2Lemma: de_avea, S0B2LemmaPOS: de_Vaip3s, S0B2POS: Sp_Vaip3s, S0B2POSLemma: Sp_avea, S0B2Token: de_a, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [m, ., a ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [m]   B= [., a, . ,.. ]
+
+B0Lemma: ., B0POS: PERIOD, B0Token: ., B1IsInLexic: true, B1Lemma: avea, B1POS: Vaip3s, B1Token: a, S0B0Distance: 1, S0B0Lemma: metru_., S0B0LemmaPOS: metru_PERIOD, S0B0POS: Y_PERIOD, S0B0POSLemma: Y_., S0B0Token: m_., S0B1Lemma: metru_avea, S0B1LemmaPOS: metru_Vaip3s, S0B1POS: Y_Vaip3s, S0B1POSLemma: Y_avea, S0B1Token: m_a, S0B2Lemma: metru_., S0B2LemmaPOS: metru_PERIOD, S0B2POS: Y_PERIOD, S0B2POSLemma: Y_., S0B2Token: m_., S0IsInLexic: true, S0Lemma: metru, S0POS: Y, S0Token: m, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., a, . ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [a, ., p ,.. ]
+
+B0IsInLexic: true, B0Lemma: avea, B0POS: Vaip3s, B0Token: a, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: ._avea, S0B0LemmaPOS: ._Vaip3s, S0B0POS: PERIOD_Vaip3s, S0B0POSLemma: PERIOD_avea, S0B0Token: ._a, S0B1Lemma: ._., S0B1LemmaPOS: ._PERIOD, S0B1POS: PERIOD_PERIOD, S0B1POSLemma: PERIOD_., S0B1Token: ._., S0B2Lemma: ._puncte, S0B2LemmaPOS: ._Y, S0B2POS: PERIOD_Y, S0B2POSLemma: PERIOD_puncte, S0B2Token: ._p, S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, ., p ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [., p, . ,.. ]
+
+B0Lemma: ., B0POS: PERIOD, B0Token: ., B1Lemma: puncte, B1POS: Y, B1Token: p, S0B0Distance: 1, S0B0Lemma: avea_., S0B0LemmaPOS: avea_PERIOD, S0B0POS: Vaip3s_PERIOD, S0B0POSLemma: Vaip3s_., S0B0Token: a_., S0B1Lemma: avea_puncte, S0B1LemmaPOS: avea_Y, S0B1POS: Vaip3s_Y, S0B1POSLemma: Vaip3s_puncte, S0B1Token: a_p, S0B2Lemma: avea_., S0B2LemmaPOS: avea_PERIOD, S0B2POS: Vaip3s_PERIOD, S0B2POSLemma: Vaip3s_., S0B2Token: a_., S0IsInLexic: true, S0Lemma: avea, S0POS: Vaip3s, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., p, . ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [p, ., m ,.. ]
+
+B0Lemma: puncte, B0POS: Y, B0Token: p, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: ._puncte, S0B0LemmaPOS: ._Y, S0B0POS: PERIOD_Y, S0B0POSLemma: PERIOD_puncte, S0B0Token: ._p, S0B1Lemma: ._., S0B1LemmaPOS: ._PERIOD, S0B1POS: PERIOD_PERIOD, S0B1POSLemma: PERIOD_., S0B1Token: ._., S0B2Lemma: ._M, S0B2LemmaPOS: ._Mo-s-r, S0B2POS: PERIOD_Mo-s-r, S0B2POSLemma: PERIOD_M, S0B2Token: ._m, S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [p, ., m ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [p]   B= [., m, . ,.. ]
+
+B0Lemma: ., B0POS: PERIOD, B0Token: ., B1IsInLexic: true, B1Lemma: M, B1POS: Mo-s-r, B1Token: m, S0B0Distance: 1, S0B0Lemma: puncte_., S0B0LemmaPOS: puncte_PERIOD, S0B0POS: Y_PERIOD, S0B0POSLemma: Y_., S0B0Token: p_., S0B1Lemma: puncte_M, S0B1LemmaPOS: puncte_Mo-s-r, S0B1POS: Y_Mo-s-r, S0B1POSLemma: Y_M, S0B1Token: p_m, S0B2Lemma: puncte_., S0B2LemmaPOS: puncte_PERIOD, S0B2POS: Y_PERIOD, S0B2POSLemma: Y_., S0B2Token: p_., S0Lemma: puncte, S0POS: Y, S0Token: p, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., m, . ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [m, ., alt ,.. ]
+
+B0IsInLexic: true, B0Lemma: M, B0POS: Mo-s-r, B0Token: m, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: ._M, S0B0LemmaPOS: ._Mo-s-r, S0B0POS: PERIOD_Mo-s-r, S0B0POSLemma: PERIOD_M, S0B0Token: ._m, S0B1Lemma: ._., S0B1LemmaPOS: ._PERIOD, S0B1POS: PERIOD_PERIOD, S0B1POSLemma: PERIOD_., S0B1Token: ._., S0B2Lemma: ._alt, S0B2LemmaPOS: ._Di3msr, S0B2POS: PERIOD_Di3msr, S0B2POSLemma: PERIOD_alt, S0B2Token: ._alt, S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [m, ., alt ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [m]   B= [., alt, proiect ,.. ]
+
+B0Lemma: ., B0POS: PERIOD, B0Token: ., B1Lemma: alt, B1POS: Di3msr, B1Token: alt, S0B0Distance: 1, S0B0Lemma: M_., S0B0LemmaPOS: M_PERIOD, S0B0POS: Mo-s-r_PERIOD, S0B0POSLemma: Mo-s-r_., S0B0Token: m_., S0B1Lemma: M_alt, S0B1LemmaPOS: M_Di3msr, S0B1POS: Mo-s-r_Di3msr, S0B1POSLemma: Mo-s-r_alt, S0B1Token: m_alt, S0B2Lemma: M_proiect, S0B2LemmaPOS: M_Ncmsrn, S0B2POS: Mo-s-r_Ncmsrn, S0B2POSLemma: Mo-s-r_proiect, S0B2Token: m_proiect, S0IsInLexic: true, S0Lemma: M, S0POS: Mo-s-r, S0Token: m, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., alt, proiect ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [alt, proiect, se ,.. ]
+
+B0Lemma: alt, B0POS: Di3msr, B0Token: alt, B1Lemma: proiect, B1POS: Ncmsrn, B1Token: proiect, S0B0Distance: 1, S0B0Lemma: ._alt, S0B0LemmaPOS: ._Di3msr, S0B0POS: PERIOD_Di3msr, S0B0POSLemma: PERIOD_alt, S0B0Token: ._alt, S0B1Lemma: ._proiect, S0B1LemmaPOS: ._Ncmsrn, S0B1POS: PERIOD_Ncmsrn, S0B1POSLemma: PERIOD_proiect, S0B1Token: ._proiect, S0B2Lemma: ._sine, S0B2LemmaPOS: ._Px3--r, S0B2POS: PERIOD_Px3--r, S0B2POSLemma: PERIOD_sine, S0B2Token: ._se, S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alt, proiect, se ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alt]   B= [proiect, se, referă ,.. ]
+
+B0Lemma: proiect, B0POS: Ncmsrn, B0Token: proiect, B1IsInLexic: true, B1Lemma: sine, B1POS: Px3--r, B1Token: se, S0B0Distance: 1, S0B0Lemma: alt_proiect, S0B0LemmaPOS: alt_Ncmsrn, S0B0POS: Di3msr_Ncmsrn, S0B0POSLemma: Di3msr_proiect, S0B0Token: alt_proiect, S0B1Lemma: alt_sine, S0B1LemmaPOS: alt_Px3--r, S0B1POS: Di3msr_Px3--r, S0B1POSLemma: Di3msr_sine, S0B1Token: alt_se, S0B2Lemma: alt_referi, S0B2LemmaPOS: alt_Vmip3p, S0B2POS: Di3msr_Vmip3p, S0B2POSLemma: Di3msr_referi, S0B2Token: alt_referă, S0Lemma: alt, S0POS: Di3msr, S0Token: alt, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [proiect, se, referă ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [proiect]   B= [se, referă, la ,.. ]
+
+B0IsInLexic: true, B0Lemma: sine, B0POS: Px3--r, B0Token: se, B1IsInLexic: true, B1Lemma: referi, B1POS: Vmip3p, B1Token: referă, S0B0Distance: 1, S0B0Lemma: proiect_sine, S0B0LemmaPOS: proiect_Px3--r, S0B0POS: Ncmsrn_Px3--r, S0B0POSLemma: Ncmsrn_sine, S0B0Token: proiect_se, S0B1Lemma: proiect_referi, S0B1LemmaPOS: proiect_Vmip3p, S0B1POS: Ncmsrn_Vmip3p, S0B1POSLemma: Ncmsrn_referi, S0B1Token: proiect_referă, S0B2Lemma: proiect_la, S0B2LemmaPOS: proiect_Sp, S0B2POS: Ncmsrn_Sp, S0B2POSLemma: Ncmsrn_la, S0B2Token: proiect_la, S0Lemma: proiect, S0POS: Ncmsrn, S0Token: proiect, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, referă, la ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [referă, la, colectarea ,.. ]
+
+B0IsInLexic: true, B0Lemma: referi, B0POS: Vmip3p, B0Token: referă, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: sine_referi, S0B0LemmaPOS: sine_Vmip3p, S0B0POS: Px3--r_Vmip3p, S0B0POSLemma: Px3--r_referi, S0B0Token: se_referă, S0B1Lemma: sine_la, S0B1LemmaPOS: sine_Sp, S0B1POS: Px3--r_Sp, S0B1POSLemma: Px3--r_la, S0B1Token: se_la, S0B2Lemma: sine_colectare, S0B2LemmaPOS: sine_Ncfsry, S0B2POS: Px3--r_Ncfsry, S0B2POSLemma: Px3--r_colectare, S0B2Token: se_colectarea, S0IsInLexic: true, S0Lemma: sine, S0POS: Px3--r, S0Token: se, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+58- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, referă]   B= [la, colectarea, și ,.. ]
+
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: colectare, B1POS: Ncfsry, B1Token: colectarea, S0B0Distance: 1, S0B0Lemma: referi_la, S0B0LemmaPOS: referi_Sp, S0B0POS: Vmip3p_Sp, S0B0POSLemma: Vmip3p_la, S0B0Token: referă_la, S0B1Lemma: referi_colectare, S0B1LemmaPOS: referi_Ncfsry, S0B1POS: Vmip3p_Ncfsry, S0B1POSLemma: Vmip3p_colectare, S0B1Token: referă_colectarea, S0B2Lemma: referi_și, S0B2LemmaPOS: referi_Cc, S0B2POS: Vmip3p_Cc, S0B2POSLemma: Vmip3p_și, S0B2Token: referă_și, S0IsInLexic: true, S0Lemma: referi, S0POS: Vmip3p, S0S1Distance: 1, S0Token: referă, S1B0Lemma: sine_la, S1B0LemmaPOS: sine_Sp, S1B0POS: Px3--r_Sp, S1B0POSLemma: Px3--r_la, S1B0Token: se_la, S1IsInLexic: true, S1Lemma: sine, S1POS: Px3--r, S1S0B0Lemma: sine_referi_la, S1S0B0LemmaPOS: sine_Vmip3p_Sp, S1S0B0POS: Px3--r_Vmip3p_Sp, S1S0B0POSLemma: Px3--r_Vmip3p_la, S1S0B0Token: se_referă_la, S1S0Lemma: sine_referi, S1S0LemmaPOS: sine_Vmip3p, S1S0POS: Px3--r_Vmip3p, S1S0POSLemma: Px3--r_referi, S1S0Token: se_referă, S1Token: se, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+59- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, referă]]   B= [la, colectarea, și ,.. ]
+
+
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, colectarea, și ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [colectarea, și, reciclarea ,.. ]
+
+B0Lemma: colectare, B0POS: Ncfsry, B0Token: colectarea, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: la_colectare, S0B0LemmaPOS: la_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_colectare, S0B0Token: la_colectarea, S0B1Lemma: la_și, S0B1LemmaPOS: la_Cc, S0B1POS: Sp_Cc, S0B1POSLemma: Sp_și, S0B1Token: la_și, S0B2Lemma: la_reciclare, S0B2LemmaPOS: la_Ncfsry, S0B2POS: Sp_Ncfsry, S0B2POSLemma: Sp_reciclare, S0B2Token: la_reciclarea, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [colectarea, și, reciclarea ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [colectarea]   B= [și, reciclarea, deșeurilor ,.. ]
+
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: reciclare, B1POS: Ncfsry, B1Token: reciclarea, S0B0Distance: 1, S0B0Lemma: colectare_și, S0B0LemmaPOS: colectare_Cc, S0B0POS: Ncfsry_Cc, S0B0POSLemma: Ncfsry_și, S0B0Token: colectarea_și, S0B1Lemma: colectare_reciclare, S0B1LemmaPOS: colectare_Ncfsry, S0B1POS: Ncfsry_Ncfsry, S0B1POSLemma: Ncfsry_reciclare, S0B1Token: colectarea_reciclarea, S0B2Lemma: colectare_deșeu, S0B2LemmaPOS: colectare_Ncfpoy, S0B2POS: Ncfsry_Ncfpoy, S0B2POSLemma: Ncfsry_deșeu, S0B2Token: colectarea_deșeurilor, S0Lemma: colectare, S0POS: Ncfsry, S0Token: colectarea, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, reciclarea, deșeurilor ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [reciclarea, deșeurilor, de ,.. ]
+
+B0Lemma: reciclare, B0POS: Ncfsry, B0Token: reciclarea, B1Lemma: deșeu, B1POS: Ncfpoy, B1Token: deșeurilor, S0B0Distance: 1, S0B0Lemma: și_reciclare, S0B0LemmaPOS: și_Ncfsry, S0B0POS: Cc_Ncfsry, S0B0POSLemma: Cc_reciclare, S0B0Token: și_reciclarea, S0B1Lemma: și_deșeu, S0B1LemmaPOS: și_Ncfpoy, S0B1POS: Cc_Ncfpoy, S0B1POSLemma: Cc_deșeu, S0B1Token: și_deșeurilor, S0B2Lemma: și_de, S0B2LemmaPOS: și_Sp, S0B2POS: Cc_Sp, S0B2POSLemma: Cc_de, S0B2Token: și_de, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [reciclarea, deșeurilor, de ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [reciclarea]   B= [deșeurilor, de, hârtie ,.. ]
+
+B0Lemma: deșeu, B0POS: Ncfpoy, B0Token: deșeurilor, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: reciclare_deșeu, S0B0LemmaPOS: reciclare_Ncfpoy, S0B0POS: Ncfsry_Ncfpoy, S0B0POSLemma: Ncfsry_deșeu, S0B0Token: reciclarea_deșeurilor, S0B1Lemma: reciclare_de, S0B1LemmaPOS: reciclare_Sp, S0B1POS: Ncfsry_Sp, S0B1POSLemma: Ncfsry_de, S0B1Token: reciclarea_de, S0B2Lemma: reciclare_hârtie, S0B2LemmaPOS: reciclare_Ncfsrn, S0B2POS: Ncfsry_Ncfsrn, S0B2POSLemma: Ncfsry_hârtie, S0B2Token: reciclarea_hârtie, S0Lemma: reciclare, S0POS: Ncfsry, S0Token: reciclarea, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [deșeurilor, de, hârtie ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [deșeurilor]   B= [de, hârtie, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: hârtie, B1POS: Ncfsrn, B1Token: hârtie, S0B0Distance: 1, S0B0Lemma: deșeu_de, S0B0LemmaPOS: deșeu_Sp, S0B0POS: Ncfpoy_Sp, S0B0POSLemma: Ncfpoy_de, S0B0Token: deșeurilor_de, S0B1Lemma: deșeu_hârtie, S0B1LemmaPOS: deșeu_Ncfsrn, S0B1POS: Ncfpoy_Ncfsrn, S0B1POSLemma: Ncfpoy_hârtie, S0B1Token: deșeurilor_hârtie, S0B2Lemma: deșeu_., S0B2LemmaPOS: deșeu_PERIOD, S0B2POS: Ncfpoy_PERIOD, S0B2POSLemma: Ncfpoy_., S0B2Token: deșeurilor_., S0Lemma: deșeu, S0POS: Ncfpoy, S0Token: deșeurilor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, hârtie, . ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [hârtie, . ,.. ]
+
+B0Lemma: hârtie, B0POS: Ncfsrn, B0Token: hârtie, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: de_hârtie, S0B0LemmaPOS: de_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_hârtie, S0B0Token: de_hârtie, S0B1Lemma: de_., S0B1LemmaPOS: de_PERIOD, S0B1POS: Sp_PERIOD, S0B1POSLemma: Sp_., S0B1Token: de_., S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hârtie, . ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hârtie]   B= [.]
+
+B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: hârtie_., S0B0LemmaPOS: hârtie_PERIOD, S0B0POS: Ncfsrn_PERIOD, S0B0POSLemma: Ncfsrn_., S0B0Token: hârtie_., S0Lemma: hârtie, S0POS: Ncfsrn, S0Token: hârtie, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 23540 - 
+l miercuri , 7 mai , la casa oamenilor de Știință din timișoara s - a desfășurat o masă rotundă organizată de către clubul de inventică , tema fiind „ necesitatea protecției prin desene și modele industriale “ . 
+### Existing MWEs: 
+1- **s desfășurat** (IReflV, 17)
+### Identified MWEs: 
+1- **s desfășurat** 
+
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, miercuri, , ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [miercuri, ,, 7 ,.. ]
+
+B0Lemma: miercuri, B0POS: Ncfsrn, B0Token: miercuri, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: L_miercuri, S0B0LemmaPOS: L_Ncfsrn, S0B0POS: Mo-s-r_Ncfsrn, S0B0POSLemma: Mo-s-r_miercuri, S0B0Token: l_miercuri, S0B1Lemma: L_,, S0B1LemmaPOS: L_COMMA, S0B1POS: Mo-s-r_COMMA, S0B1POSLemma: Mo-s-r_,, S0B1Token: l_,, S0B2Lemma: L_7, S0B2LemmaPOS: L_M, S0B2POS: Mo-s-r_M, S0B2POSLemma: Mo-s-r_7, S0B2Token: l_7, S0Lemma: L, S0POS: Mo-s-r, S0Token: l, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [miercuri, ,, 7 ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [miercuri]   B= [,, 7, mai ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: 7, B1POS: M, B1Token: 7, S0B0Distance: 1, S0B0Lemma: miercuri_,, S0B0LemmaPOS: miercuri_COMMA, S0B0POS: Ncfsrn_COMMA, S0B0POSLemma: Ncfsrn_,, S0B0Token: miercuri_,, S0B1Lemma: miercuri_7, S0B1LemmaPOS: miercuri_M, S0B1POS: Ncfsrn_M, S0B1POSLemma: Ncfsrn_7, S0B1Token: miercuri_7, S0B2Lemma: miercuri_mai, S0B2LemmaPOS: miercuri_Rg, S0B2POS: Ncfsrn_Rg, S0B2POSLemma: Ncfsrn_mai, S0B2Token: miercuri_mai, S0Lemma: miercuri, S0POS: Ncfsrn, S0Token: miercuri, TransHistory1: 2, TransHistory2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, 7, mai ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [7, mai, , ,.. ]
+
+B0Lemma: 7, B0POS: M, B0Token: 7, B1Lemma: mai, B1POS: Rg, B1Token: mai, S0B0Distance: 1, S0B0Lemma: ,_7, S0B0LemmaPOS: ,_M, S0B0POS: COMMA_M, S0B0POSLemma: COMMA_7, S0B0Token: ,_7, S0B1Lemma: ,_mai, S0B1LemmaPOS: ,_Rg, S0B1POS: COMMA_Rg, S0B1POSLemma: COMMA_mai, S0B1Token: ,_mai, S0B2Lemma: ,_,, S0B2LemmaPOS: ,_COMMA, S0B2POS: COMMA_COMMA, S0B2POSLemma: COMMA_,, S0B2Token: ,_,, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [7, mai, , ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [7]   B= [mai, ,, la ,.. ]
+
+B0Lemma: mai, B0POS: Rg, B0Token: mai, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: 7_mai, S0B0LemmaPOS: 7_Rg, S0B0POS: M_Rg, S0B0POSLemma: M_mai, S0B0Token: 7_mai, S0B1Lemma: 7_,, S0B1LemmaPOS: 7_COMMA, S0B1POS: M_COMMA, S0B1POSLemma: M_,, S0B1Token: 7_,, S0B2Lemma: 7_la, S0B2LemmaPOS: 7_Sp, S0B2POS: M_Sp, S0B2POSLemma: M_la, S0B2Token: 7_la, S0Lemma: 7, S0POS: M, S0Token: 7, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, ,, la ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [,, la, casa ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: mai_,, S0B0LemmaPOS: mai_COMMA, S0B0POS: Rg_COMMA, S0B0POSLemma: Rg_,, S0B0Token: mai_,, S0B1Lemma: mai_la, S0B1LemmaPOS: mai_Sp, S0B1POS: Rg_Sp, S0B1POSLemma: Rg_la, S0B1Token: mai_la, S0B2Lemma: mai_casă, S0B2LemmaPOS: mai_Ncfsry, S0B2POS: Rg_Ncfsry, S0B2POSLemma: Rg_casă, S0B2Token: mai_casa, S0Lemma: mai, S0POS: Rg, S0Token: mai, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, la, casa ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [la, casa, oamenilor ,.. ]
+
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: casă, B1POS: Ncfsry, B1Token: casa, S0B0Distance: 1, S0B0Lemma: ,_la, S0B0LemmaPOS: ,_Sp, S0B0POS: COMMA_Sp, S0B0POSLemma: COMMA_la, S0B0Token: ,_la, S0B1Lemma: ,_casă, S0B1LemmaPOS: ,_Ncfsry, S0B1POS: COMMA_Ncfsry, S0B1POSLemma: COMMA_casă, S0B1Token: ,_casa, S0B2Lemma: ,_om, S0B2LemmaPOS: ,_Ncmpoy, S0B2POS: COMMA_Ncmpoy, S0B2POSLemma: COMMA_om, S0B2Token: ,_oamenilor, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, casa, oamenilor ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [casa, oamenilor, de ,.. ]
+
+B0Lemma: casă, B0POS: Ncfsry, B0Token: casa, B1Lemma: om, B1POS: Ncmpoy, B1Token: oamenilor, S0B0Distance: 1, S0B0Lemma: la_casă, S0B0LemmaPOS: la_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_casă, S0B0Token: la_casa, S0B1Lemma: la_om, S0B1LemmaPOS: la_Ncmpoy, S0B1POS: Sp_Ncmpoy, S0B1POSLemma: Sp_om, S0B1Token: la_oamenilor, S0B2Lemma: la_de, S0B2LemmaPOS: la_Sp, S0B2POS: Sp_Sp, S0B2POSLemma: Sp_de, S0B2Token: la_de, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [casa, oamenilor, de ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [casa]   B= [oamenilor, de, Știință ,.. ]
+
+B0Lemma: om, B0POS: Ncmpoy, B0Token: oamenilor, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: casă_om, S0B0LemmaPOS: casă_Ncmpoy, S0B0POS: Ncfsry_Ncmpoy, S0B0POSLemma: Ncfsry_om, S0B0Token: casa_oamenilor, S0B1Lemma: casă_de, S0B1LemmaPOS: casă_Sp, S0B1POS: Ncfsry_Sp, S0B1POSLemma: Ncfsry_de, S0B1Token: casa_de, S0B2Lemma: casă_știință, S0B2LemmaPOS: casă_Ncfsrn, S0B2POS: Ncfsry_Ncfsrn, S0B2POSLemma: Ncfsry_știință, S0B2Token: casa_Știință, S0Lemma: casă, S0POS: Ncfsry, S0Token: casa, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [oamenilor, de, Știință ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [oamenilor]   B= [de, Știință, din ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: știință, B1POS: Ncfsrn, B1Token: Știință, S0B0Distance: 1, S0B0Lemma: om_de, S0B0LemmaPOS: om_Sp, S0B0POS: Ncmpoy_Sp, S0B0POSLemma: Ncmpoy_de, S0B0Token: oamenilor_de, S0B1Lemma: om_știință, S0B1LemmaPOS: om_Ncfsrn, S0B1POS: Ncmpoy_Ncfsrn, S0B1POSLemma: Ncmpoy_știință, S0B1Token: oamenilor_Știință, S0B2Lemma: om_din, S0B2LemmaPOS: om_Sp, S0B2POS: Ncmpoy_Sp, S0B2POSLemma: Ncmpoy_din, S0B2Token: oamenilor_din, S0Lemma: om, S0POS: Ncmpoy, S0Token: oamenilor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, Știință, din ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [Știință, din, timișoara ,.. ]
+
+B0Lemma: știință, B0POS: Ncfsrn, B0Token: Știință, B1IsInLexic: true, B1Lemma: din, B1POS: Sp, B1Token: din, S0B0Distance: 1, S0B0Lemma: de_știință, S0B0LemmaPOS: de_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_știință, S0B0Token: de_Știință, S0B1Lemma: de_din, S0B1LemmaPOS: de_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_din, S0B1Token: de_din, S0B2Lemma: de_Timișoara, S0B2LemmaPOS: de_Np, S0B2POS: Sp_Np, S0B2POSLemma: Sp_Timișoara, S0B2Token: de_timișoara, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Știință, din, timișoara ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Știință]   B= [din, timișoara, s ,.. ]
+
+B0IsInLexic: true, B0Lemma: din, B0POS: Sp, B0Token: din, B1Lemma: Timișoara, B1POS: Np, B1Token: timișoara, S0B0Distance: 1, S0B0Lemma: știință_din, S0B0LemmaPOS: știință_Sp, S0B0POS: Ncfsrn_Sp, S0B0POSLemma: Ncfsrn_din, S0B0Token: Știință_din, S0B1Lemma: știință_Timișoara, S0B1LemmaPOS: știință_Np, S0B1POS: Ncfsrn_Np, S0B1POSLemma: Ncfsrn_Timișoara, S0B1Token: Știință_timișoara, S0B2Lemma: știință_s, S0B2LemmaPOS: știință_Ncmprn, S0B2POS: Ncfsrn_Ncmprn, S0B2POSLemma: Ncfsrn_s, S0B2Token: Știință_s, S0Lemma: știință, S0POS: Ncfsrn, S0Token: Știință, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, timișoara, s ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [timișoara, s, - ,.. ]
+
+B0Lemma: Timișoara, B0POS: Np, B0Token: timișoara, B1IsInLexic: true, B1Lemma: s, B1POS: Ncmprn, B1Token: s, S0B0Distance: 1, S0B0Lemma: din_Timișoara, S0B0LemmaPOS: din_Np, S0B0POS: Sp_Np, S0B0POSLemma: Sp_Timișoara, S0B0Token: din_timișoara, S0B1Lemma: din_s, S0B1LemmaPOS: din_Ncmprn, S0B1POS: Sp_Ncmprn, S0B1POSLemma: Sp_s, S0B1Token: din_s, S0B2Lemma: din_-, S0B2LemmaPOS: din_DASH, S0B2POS: Sp_DASH, S0B2POSLemma: Sp_-, S0B2Token: din_-, S0IsInLexic: true, S0Lemma: din, S0POS: Sp, S0Token: din, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [timișoara, s, - ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [timișoara]   B= [s, -, a ,.. ]
+
+B0IsInLexic: true, B0Lemma: s, B0POS: Ncmprn, B0Token: s, B1IsInLexic: true, B1Lemma: -, B1POS: DASH, B1Token: -, S0B0Distance: 1, S0B0Lemma: Timișoara_s, S0B0LemmaPOS: Timișoara_Ncmprn, S0B0POS: Np_Ncmprn, S0B0POSLemma: Np_s, S0B0Token: timișoara_s, S0B1Lemma: Timișoara_-, S0B1LemmaPOS: Timișoara_DASH, S0B1POS: Np_DASH, S0B1POSLemma: Np_-, S0B1Token: timișoara_-, S0B2Lemma: Timișoara_al, S0B2LemmaPOS: Timișoara_Tsfsr, S0B2POS: Np_Tsfsr, S0B2POSLemma: Np_al, S0B2Token: timișoara_a, S0Lemma: Timișoara, S0POS: Np, S0Token: timișoara, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, a ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, a, desfășurat ,.. ]
+
+B0IsInLexic: true, B0Lemma: -, B0POS: DASH, B0Token: -, B1Lemma: al, B1POS: Tsfsr, B1Token: a, S0B0Distance: 1, S0B0Lemma: s_-, S0B0LemmaPOS: s_DASH, S0B0POS: Ncmprn_DASH, S0B0POSLemma: Ncmprn_-, S0B0Token: s_-, S0B1Lemma: s_al, S0B1LemmaPOS: s_Tsfsr, S0B1POS: Ncmprn_Tsfsr, S0B1POSLemma: Ncmprn_al, S0B1Token: s_a, S0B2Lemma: s_desfășurat, S0B2LemmaPOS: s_Afpmsrn, S0B2POS: Ncmprn_Afpmsrn, S0B2POSLemma: Ncmprn_desfășurat, S0B2Token: s_desfășurat, S0IsInLexic: true, S0Lemma: s, S0POS: Ncmprn, S0Token: s, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [a, desfășurat, o ,.. ]
+
+B0Lemma: al, B0POS: Tsfsr, B0Token: a, B1IsInLexic: true, B1Lemma: desfășurat, B1POS: Afpmsrn, B1Token: desfășurat, S0B0Distance: 1, S0B0Lemma: -_al, S0B0LemmaPOS: -_Tsfsr, S0B0POS: DASH_Tsfsr, S0B0POSLemma: DASH_al, S0B0Token: -_a, S0B1Lemma: -_desfășurat, S0B1LemmaPOS: -_Afpmsrn, S0B1POS: DASH_Afpmsrn, S0B1POSLemma: DASH_desfășurat, S0B1Token: -_desfășurat, S0B2Lemma: -_ea, S0B2LemmaPOS: -_Pp3fsr, S0B2POS: DASH_Pp3fsr, S0B2POSLemma: DASH_ea, S0B2Token: -_o, S0IsInLexic: true, S0Lemma: -, S0POS: DASH, S0S1Distance: 1, S0Token: -, S1B0Lemma: s_al, S1B0LemmaPOS: s_Tsfsr, S1B0POS: Ncmprn_Tsfsr, S1B0POSLemma: Ncmprn_al, S1B0Token: s_a, S1IsInLexic: true, S1Lemma: s, S1POS: Ncmprn, S1S0B0Lemma: s_-_al, S1S0B0LemmaPOS: s_DASH_Tsfsr, S1S0B0POS: Ncmprn_DASH_Tsfsr, S1S0B0POSLemma: Ncmprn_DASH_al, S1S0B0Token: s_-_a, S1S0Lemma: s_-, S1S0LemmaPOS: s_DASH, S1S0POS: Ncmprn_DASH, S1S0POSLemma: Ncmprn_-, S1S0Token: s_-, S1Token: s, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [a, desfășurat, o ,.. ]
+
+B0Lemma: al, B0POS: Tsfsr, B0Token: a, B1IsInLexic: true, B1Lemma: desfășurat, B1POS: Afpmsrn, B1Token: desfășurat, S0B0Distance: 2, S0B0Lemma: s_al, S0B0LemmaPOS: s_Tsfsr, S0B0POS: Ncmprn_Tsfsr, S0B0POSLemma: Ncmprn_al, S0B0Token: s_a, S0B1Lemma: s_desfășurat, S0B1LemmaPOS: s_Afpmsrn, S0B1POS: Ncmprn_Afpmsrn, S0B1POSLemma: Ncmprn_desfășurat, S0B1Token: s_desfășurat, S0B2Lemma: s_ea, S0B2LemmaPOS: s_Pp3fsr, S0B2POS: Ncmprn_Pp3fsr, S0B2POSLemma: Ncmprn_ea, S0B2Token: s_o, S0IsInLexic: true, S0Lemma: s, S0POS: Ncmprn, S0Token: s, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, a]   B= [desfășurat, o, masă ,.. ]
+
+B0IsInLexic: true, B0Lemma: desfășurat, B0POS: Afpmsrn, B0Token: desfășurat, B1Lemma: ea, B1POS: Pp3fsr, B1Token: o, S0B0Distance: 1, S0B0Lemma: al_desfășurat, S0B0LemmaPOS: al_Afpmsrn, S0B0POS: Tsfsr_Afpmsrn, S0B0POSLemma: Tsfsr_desfășurat, S0B0Token: a_desfășurat, S0B1Lemma: al_ea, S0B1LemmaPOS: al_Pp3fsr, S0B1POS: Tsfsr_Pp3fsr, S0B1POSLemma: Tsfsr_ea, S0B1Token: a_o, S0B2Lemma: al_masă, S0B2LemmaPOS: al_Ncfsrn, S0B2POS: Tsfsr_Ncfsrn, S0B2POSLemma: Tsfsr_masă, S0B2Token: a_masă, S0Lemma: al, S0POS: Tsfsr, S0S1Distance: 2, S0Token: a, S1B0Lemma: s_desfășurat, S1B0LemmaPOS: s_Afpmsrn, S1B0POS: Ncmprn_Afpmsrn, S1B0POSLemma: Ncmprn_desfășurat, S1B0Token: s_desfășurat, S1IsInLexic: true, S1Lemma: s, S1POS: Ncmprn, S1S0B0Lemma: s_al_desfășurat, S1S0B0LemmaPOS: s_Tsfsr_Afpmsrn, S1S0B0POS: Ncmprn_Tsfsr_Afpmsrn, S1S0B0POSLemma: Ncmprn_Tsfsr_desfășurat, S1S0B0Token: s_a_desfășurat, S1S0Lemma: s_al, S1S0LemmaPOS: s_Tsfsr, S1S0POS: Ncmprn_Tsfsr, S1S0POSLemma: Ncmprn_al, S1S0Token: s_a, S1Token: s, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
+
+31- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [desfășurat, o, masă ,.. ]
+
+B0IsInLexic: true, B0Lemma: desfășurat, B0POS: Afpmsrn, B0Token: desfășurat, B1Lemma: ea, B1POS: Pp3fsr, B1Token: o, S0B0Distance: 3, S0B0Lemma: s_desfășurat, S0B0LemmaPOS: s_Afpmsrn, S0B0POS: Ncmprn_Afpmsrn, S0B0POSLemma: Ncmprn_desfășurat, S0B0Token: s_desfășurat, S0B1Lemma: s_ea, S0B1LemmaPOS: s_Pp3fsr, S0B1POS: Ncmprn_Pp3fsr, S0B1POSLemma: Ncmprn_ea, S0B1Token: s_o, S0B2Lemma: s_masă, S0B2LemmaPOS: s_Ncfsrn, S0B2POS: Ncmprn_Ncfsrn, S0B2POSLemma: Ncmprn_masă, S0B2Token: s_masă, S0IsInLexic: true, S0Lemma: s, S0POS: Ncmprn, S0Token: s, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, desfășurat]   B= [o, masă, rotundă ,.. ]
+
+B0Lemma: ea, B0POS: Pp3fsr, B0Token: o, B1Lemma: masă, B1POS: Ncfsrn, B1Token: masă, S0B0Distance: 1, S0B0Lemma: desfășurat_ea, S0B0LemmaPOS: desfășurat_Pp3fsr, S0B0POS: Afpmsrn_Pp3fsr, S0B0POSLemma: Afpmsrn_ea, S0B0Token: desfășurat_o, S0B1Lemma: desfășurat_masă, S0B1LemmaPOS: desfășurat_Ncfsrn, S0B1POS: Afpmsrn_Ncfsrn, S0B1POSLemma: Afpmsrn_masă, S0B1Token: desfășurat_masă, S0B2Lemma: desfășurat_rotund, S0B2LemmaPOS: desfășurat_Afpfsrn, S0B2POS: Afpmsrn_Afpfsrn, S0B2POSLemma: Afpmsrn_rotund, S0B2Token: desfășurat_rotundă, S0IsInLexic: true, S0Lemma: desfășurat, S0POS: Afpmsrn, S0S1Distance: 3, S0Token: desfășurat, S1B0Lemma: s_ea, S1B0LemmaPOS: s_Pp3fsr, S1B0POS: Ncmprn_Pp3fsr, S1B0POSLemma: Ncmprn_ea, S1B0Token: s_o, S1IsInLexic: true, S1Lemma: s, S1POS: Ncmprn, S1S0B0Lemma: s_desfășurat_ea, S1S0B0LemmaPOS: s_Afpmsrn_Pp3fsr, S1S0B0POS: Ncmprn_Afpmsrn_Pp3fsr, S1S0B0POSLemma: Ncmprn_Afpmsrn_ea, S1S0B0Token: s_desfășurat_o, S1S0Lemma: s_desfășurat, S1S0LemmaPOS: s_Afpmsrn, S1S0POS: Ncmprn_Afpmsrn, S1S0POSLemma: Ncmprn_desfășurat, S1S0Token: s_desfășurat, S1Token: s, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+33- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, desfășurat]]   B= [o, masă, rotundă ,.. ]
+
+
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, masă, rotundă ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [masă, rotundă, organizată ,.. ]
+
+B0Lemma: masă, B0POS: Ncfsrn, B0Token: masă, B1Lemma: rotund, B1POS: Afpfsrn, B1Token: rotundă, S0B0Distance: 1, S0B0Lemma: ea_masă, S0B0LemmaPOS: ea_Ncfsrn, S0B0POS: Pp3fsr_Ncfsrn, S0B0POSLemma: Pp3fsr_masă, S0B0Token: o_masă, S0B1Lemma: ea_rotund, S0B1LemmaPOS: ea_Afpfsrn, S0B1POS: Pp3fsr_Afpfsrn, S0B1POSLemma: Pp3fsr_rotund, S0B1Token: o_rotundă, S0B2Lemma: ea_organizat, S0B2LemmaPOS: ea_Afpfsrn, S0B2POS: Pp3fsr_Afpfsrn, S0B2POSLemma: Pp3fsr_organizat, S0B2Token: o_organizată, S0Lemma: ea, S0POS: Pp3fsr, S0Token: o, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [masă, rotundă, organizată ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [masă]   B= [rotundă, organizată, de ,.. ]
+
+B0Lemma: rotund, B0POS: Afpfsrn, B0Token: rotundă, B1Lemma: organizat, B1POS: Afpfsrn, B1Token: organizată, S0B0Distance: 1, S0B0Lemma: masă_rotund, S0B0LemmaPOS: masă_Afpfsrn, S0B0POS: Ncfsrn_Afpfsrn, S0B0POSLemma: Ncfsrn_rotund, S0B0Token: masă_rotundă, S0B1Lemma: masă_organizat, S0B1LemmaPOS: masă_Afpfsrn, S0B1POS: Ncfsrn_Afpfsrn, S0B1POSLemma: Ncfsrn_organizat, S0B1Token: masă_organizată, S0B2Lemma: masă_de, S0B2LemmaPOS: masă_Sp, S0B2POS: Ncfsrn_Sp, S0B2POSLemma: Ncfsrn_de, S0B2Token: masă_de, S0Lemma: masă, S0POS: Ncfsrn, S0Token: masă, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rotundă, organizată, de ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rotundă]   B= [organizată, de, către ,.. ]
+
+B0Lemma: organizat, B0POS: Afpfsrn, B0Token: organizată, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: rotund_organizat, S0B0LemmaPOS: rotund_Afpfsrn, S0B0POS: Afpfsrn_Afpfsrn, S0B0POSLemma: Afpfsrn_organizat, S0B0Token: rotundă_organizată, S0B1Lemma: rotund_de, S0B1LemmaPOS: rotund_Sp, S0B1POS: Afpfsrn_Sp, S0B1POSLemma: Afpfsrn_de, S0B1Token: rotundă_de, S0B2Lemma: rotund_către, S0B2LemmaPOS: rotund_Sp, S0B2POS: Afpfsrn_Sp, S0B2POSLemma: Afpfsrn_către, S0B2Token: rotundă_către, S0Lemma: rotund, S0POS: Afpfsrn, S0Token: rotundă, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [organizată, de, către ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [organizată]   B= [de, către, clubul ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: către, B1POS: Sp, B1Token: către, S0B0Distance: 1, S0B0Lemma: organizat_de, S0B0LemmaPOS: organizat_Sp, S0B0POS: Afpfsrn_Sp, S0B0POSLemma: Afpfsrn_de, S0B0Token: organizată_de, S0B1Lemma: organizat_către, S0B1LemmaPOS: organizat_Sp, S0B1POS: Afpfsrn_Sp, S0B1POSLemma: Afpfsrn_către, S0B1Token: organizată_către, S0B2Lemma: organizat_club, S0B2LemmaPOS: organizat_Ncmsry, S0B2POS: Afpfsrn_Ncmsry, S0B2POSLemma: Afpfsrn_club, S0B2Token: organizată_clubul, S0Lemma: organizat, S0POS: Afpfsrn, S0Token: organizată, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, către, clubul ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [către, clubul, de ,.. ]
+
+B0Lemma: către, B0POS: Sp, B0Token: către, B1Lemma: club, B1POS: Ncmsry, B1Token: clubul, S0B0Distance: 1, S0B0Lemma: de_către, S0B0LemmaPOS: de_Sp, S0B0POS: Sp_Sp, S0B0POSLemma: Sp_către, S0B0Token: de_către, S0B1Lemma: de_club, S0B1LemmaPOS: de_Ncmsry, S0B1POS: Sp_Ncmsry, S0B1POSLemma: Sp_club, S0B1Token: de_clubul, S0B2Lemma: de_de, S0B2LemmaPOS: de_Sp, S0B2POS: Sp_Sp, S0B2POSLemma: Sp_de, S0B2Token: de_de, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [către, clubul, de ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [către]   B= [clubul, de, inventică ,.. ]
+
+B0Lemma: club, B0POS: Ncmsry, B0Token: clubul, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: către_club, S0B0LemmaPOS: către_Ncmsry, S0B0POS: Sp_Ncmsry, S0B0POSLemma: Sp_club, S0B0Token: către_clubul, S0B1Lemma: către_de, S0B1LemmaPOS: către_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_de, S0B1Token: către_de, S0B2Lemma: către_inventică, S0B2LemmaPOS: către_Ncfsrn, S0B2POS: Sp_Ncfsrn, S0B2POSLemma: Sp_inventică, S0B2Token: către_inventică, S0Lemma: către, S0POS: Sp, S0Token: către, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [clubul, de, inventică ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [clubul]   B= [de, inventică, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: inventică, B1POS: Ncfsrn, B1Token: inventică, S0B0Distance: 1, S0B0Lemma: club_de, S0B0LemmaPOS: club_Sp, S0B0POS: Ncmsry_Sp, S0B0POSLemma: Ncmsry_de, S0B0Token: clubul_de, S0B1Lemma: club_inventică, S0B1LemmaPOS: club_Ncfsrn, S0B1POS: Ncmsry_Ncfsrn, S0B1POSLemma: Ncmsry_inventică, S0B1Token: clubul_inventică, S0B2Lemma: club_,, S0B2LemmaPOS: club_COMMA, S0B2POS: Ncmsry_COMMA, S0B2POSLemma: Ncmsry_,, S0B2Token: clubul_,, S0Lemma: club, S0POS: Ncmsry, S0Token: clubul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, inventică, , ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [inventică, ,, tema ,.. ]
+
+B0Lemma: inventică, B0POS: Ncfsrn, B0Token: inventică, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: de_inventică, S0B0LemmaPOS: de_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_inventică, S0B0Token: de_inventică, S0B1Lemma: de_,, S0B1LemmaPOS: de_COMMA, S0B1POS: Sp_COMMA, S0B1POSLemma: Sp_,, S0B1Token: de_,, S0B2Lemma: de_temă, S0B2LemmaPOS: de_Ncfsry, S0B2POS: Sp_Ncfsry, S0B2POSLemma: Sp_temă, S0B2Token: de_tema, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [inventică, ,, tema ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [inventică]   B= [,, tema, fiind ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: temă, B1POS: Ncfsry, B1Token: tema, S0B0Distance: 1, S0B0Lemma: inventică_,, S0B0LemmaPOS: inventică_COMMA, S0B0POS: Ncfsrn_COMMA, S0B0POSLemma: Ncfsrn_,, S0B0Token: inventică_,, S0B1Lemma: inventică_temă, S0B1LemmaPOS: inventică_Ncfsry, S0B1POS: Ncfsrn_Ncfsry, S0B1POSLemma: Ncfsrn_temă, S0B1Token: inventică_tema, S0B2Lemma: inventică_fi, S0B2LemmaPOS: inventică_Vmg, S0B2POS: Ncfsrn_Vmg, S0B2POSLemma: Ncfsrn_fi, S0B2Token: inventică_fiind, S0Lemma: inventică, S0POS: Ncfsrn, S0Token: inventică, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, tema, fiind ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [tema, fiind, „ ,.. ]
+
+B0Lemma: temă, B0POS: Ncfsry, B0Token: tema, B1IsInLexic: true, B1Lemma: fi, B1POS: Vmg, B1Token: fiind, S0B0Distance: 1, S0B0Lemma: ,_temă, S0B0LemmaPOS: ,_Ncfsry, S0B0POS: COMMA_Ncfsry, S0B0POSLemma: COMMA_temă, S0B0Token: ,_tema, S0B1Lemma: ,_fi, S0B1LemmaPOS: ,_Vmg, S0B1POS: COMMA_Vmg, S0B1POSLemma: COMMA_fi, S0B1Token: ,_fiind, S0B2Lemma: ,_”, S0B2LemmaPOS: ,_DBLQ, S0B2POS: COMMA_DBLQ, S0B2POSLemma: COMMA_”, S0B2Token: ,_„, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tema, fiind, „ ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tema]   B= [fiind, „, necesitatea ,.. ]
+
+B0IsInLexic: true, B0Lemma: fi, B0POS: Vmg, B0Token: fiind, B1Lemma: ”, B1POS: DBLQ, B1Token: „, S0B0Distance: 1, S0B0Lemma: temă_fi, S0B0LemmaPOS: temă_Vmg, S0B0POS: Ncfsry_Vmg, S0B0POSLemma: Ncfsry_fi, S0B0Token: tema_fiind, S0B1Lemma: temă_”, S0B1LemmaPOS: temă_DBLQ, S0B1POS: Ncfsry_DBLQ, S0B1POSLemma: Ncfsry_”, S0B1Token: tema_„, S0B2Lemma: temă_necesitate, S0B2LemmaPOS: temă_Ncfsry, S0B2POS: Ncfsry_Ncfsry, S0B2POSLemma: Ncfsry_necesitate, S0B2Token: tema_necesitatea, S0Lemma: temă, S0POS: Ncfsry, S0Token: tema, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fiind, „, necesitatea ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fiind]   B= [„, necesitatea, protecției ,.. ]
+
+B0Lemma: ”, B0POS: DBLQ, B0Token: „, B1Lemma: necesitate, B1POS: Ncfsry, B1Token: necesitatea, S0B0Distance: 1, S0B0Lemma: fi_”, S0B0LemmaPOS: fi_DBLQ, S0B0POS: Vmg_DBLQ, S0B0POSLemma: Vmg_”, S0B0Token: fiind_„, S0B1Lemma: fi_necesitate, S0B1LemmaPOS: fi_Ncfsry, S0B1POS: Vmg_Ncfsry, S0B1POSLemma: Vmg_necesitate, S0B1Token: fiind_necesitatea, S0B2Lemma: fi_protecție, S0B2LemmaPOS: fi_Ncfsoy, S0B2POS: Vmg_Ncfsoy, S0B2POSLemma: Vmg_protecție, S0B2Token: fiind_protecției, S0IsInLexic: true, S0Lemma: fi, S0POS: Vmg, S0Token: fiind, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [„, necesitatea, protecției ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [„]   B= [necesitatea, protecției, prin ,.. ]
+
+B0Lemma: necesitate, B0POS: Ncfsry, B0Token: necesitatea, B1Lemma: protecție, B1POS: Ncfsoy, B1Token: protecției, S0B0Distance: 1, S0B0Lemma: ”_necesitate, S0B0LemmaPOS: ”_Ncfsry, S0B0POS: DBLQ_Ncfsry, S0B0POSLemma: DBLQ_necesitate, S0B0Token: „_necesitatea, S0B1Lemma: ”_protecție, S0B1LemmaPOS: ”_Ncfsoy, S0B1POS: DBLQ_Ncfsoy, S0B1POSLemma: DBLQ_protecție, S0B1Token: „_protecției, S0B2Lemma: ”_prin, S0B2LemmaPOS: ”_Sp, S0B2POS: DBLQ_Sp, S0B2POSLemma: DBLQ_prin, S0B2Token: „_prin, S0Lemma: ”, S0POS: DBLQ, S0Token: „, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [necesitatea, protecției, prin ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [necesitatea]   B= [protecției, prin, desene ,.. ]
+
+B0Lemma: protecție, B0POS: Ncfsoy, B0Token: protecției, B1IsInLexic: true, B1Lemma: prin, B1POS: Sp, B1Token: prin, S0B0Distance: 1, S0B0Lemma: necesitate_protecție, S0B0LemmaPOS: necesitate_Ncfsoy, S0B0POS: Ncfsry_Ncfsoy, S0B0POSLemma: Ncfsry_protecție, S0B0Token: necesitatea_protecției, S0B1Lemma: necesitate_prin, S0B1LemmaPOS: necesitate_Sp, S0B1POS: Ncfsry_Sp, S0B1POSLemma: Ncfsry_prin, S0B1Token: necesitatea_prin, S0B2Lemma: necesitate_desen, S0B2LemmaPOS: necesitate_Ncfprn, S0B2POS: Ncfsry_Ncfprn, S0B2POSLemma: Ncfsry_desen, S0B2Token: necesitatea_desene, S0Lemma: necesitate, S0POS: Ncfsry, S0Token: necesitatea, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [protecției, prin, desene ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [protecției]   B= [prin, desene, și ,.. ]
+
+B0IsInLexic: true, B0Lemma: prin, B0POS: Sp, B0Token: prin, B1Lemma: desen, B1POS: Ncfprn, B1Token: desene, S0B0Distance: 1, S0B0Lemma: protecție_prin, S0B0LemmaPOS: protecție_Sp, S0B0POS: Ncfsoy_Sp, S0B0POSLemma: Ncfsoy_prin, S0B0Token: protecției_prin, S0B1Lemma: protecție_desen, S0B1LemmaPOS: protecție_Ncfprn, S0B1POS: Ncfsoy_Ncfprn, S0B1POSLemma: Ncfsoy_desen, S0B1Token: protecției_desene, S0B2Lemma: protecție_și, S0B2LemmaPOS: protecție_Cc, S0B2POS: Ncfsoy_Cc, S0B2POSLemma: Ncfsoy_și, S0B2Token: protecției_și, S0Lemma: protecție, S0POS: Ncfsoy, S0Token: protecției, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prin, desene, și ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prin]   B= [desene, și, modele ,.. ]
+
+B0Lemma: desen, B0POS: Ncfprn, B0Token: desene, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: prin_desen, S0B0LemmaPOS: prin_Ncfprn, S0B0POS: Sp_Ncfprn, S0B0POSLemma: Sp_desen, S0B0Token: prin_desene, S0B1Lemma: prin_și, S0B1LemmaPOS: prin_Cc, S0B1POS: Sp_Cc, S0B1POSLemma: Sp_și, S0B1Token: prin_și, S0B2Lemma: prin_model, S0B2LemmaPOS: prin_Ncfprn, S0B2POS: Sp_Ncfprn, S0B2POSLemma: Sp_model, S0B2Token: prin_modele, S0IsInLexic: true, S0Lemma: prin, S0POS: Sp, S0Token: prin, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [desene, și, modele ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [desene]   B= [și, modele, industriale ,.. ]
+
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: model, B1POS: Ncfprn, B1Token: modele, S0B0Distance: 1, S0B0Lemma: desen_și, S0B0LemmaPOS: desen_Cc, S0B0POS: Ncfprn_Cc, S0B0POSLemma: Ncfprn_și, S0B0Token: desene_și, S0B1Lemma: desen_model, S0B1LemmaPOS: desen_Ncfprn, S0B1POS: Ncfprn_Ncfprn, S0B1POSLemma: Ncfprn_model, S0B1Token: desene_modele, S0B2Lemma: desen_industrial, S0B2LemmaPOS: desen_Afpfprn, S0B2POS: Ncfprn_Afpfprn, S0B2POSLemma: Ncfprn_industrial, S0B2Token: desene_industriale, S0Lemma: desen, S0POS: Ncfprn, S0Token: desene, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, modele, industriale ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [modele, industriale, “ ,.. ]
+
+B0Lemma: model, B0POS: Ncfprn, B0Token: modele, B1Lemma: industrial, B1POS: Afpfprn, B1Token: industriale, S0B0Distance: 1, S0B0Lemma: și_model, S0B0LemmaPOS: și_Ncfprn, S0B0POS: Cc_Ncfprn, S0B0POSLemma: Cc_model, S0B0Token: și_modele, S0B1Lemma: și_industrial, S0B1LemmaPOS: și_Afpfprn, S0B1POS: Cc_Afpfprn, S0B1POSLemma: Cc_industrial, S0B1Token: și_industriale, S0B2Lemma: și_“, S0B2LemmaPOS: și_Afpfprn, S0B2POS: Cc_Afpfprn, S0B2POSLemma: Cc_“, S0B2Token: și_“, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [modele, industriale, “ ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [modele]   B= [industriale, “, . ,.. ]
+
+B0Lemma: industrial, B0POS: Afpfprn, B0Token: industriale, B1Lemma: “, B1POS: Afpfprn, B1Token: “, S0B0Distance: 1, S0B0Lemma: model_industrial, S0B0LemmaPOS: model_Afpfprn, S0B0POS: Ncfprn_Afpfprn, S0B0POSLemma: Ncfprn_industrial, S0B0Token: modele_industriale, S0B1Lemma: model_“, S0B1LemmaPOS: model_Afpfprn, S0B1POS: Ncfprn_Afpfprn, S0B1POSLemma: Ncfprn_“, S0B1Token: modele_“, S0B2Lemma: model_., S0B2LemmaPOS: model_PERIOD, S0B2POS: Ncfprn_PERIOD, S0B2POSLemma: Ncfprn_., S0B2Token: modele_., S0Lemma: model, S0POS: Ncfprn, S0Token: modele, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [industriale, “, . ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [industriale]   B= [“, . ,.. ]
+
+B0Lemma: “, B0POS: Afpfprn, B0Token: “, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: industrial_“, S0B0LemmaPOS: industrial_Afpfprn, S0B0POS: Afpfprn_Afpfprn, S0B0POSLemma: Afpfprn_“, S0B0Token: industriale_“, S0B1Lemma: industrial_., S0B1LemmaPOS: industrial_PERIOD, S0B1POS: Afpfprn_PERIOD, S0B1POSLemma: Afpfprn_., S0B1Token: industriale_., S0Lemma: industrial, S0POS: Afpfprn, S0Token: industriale, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, . ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [.]
+
+B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: “_., S0B0LemmaPOS: “_PERIOD, S0B0POS: Afpfprn_PERIOD, S0B0POSLemma: Afpfprn_., S0B0Token: “_., S0Lemma: “, S0POS: Afpfprn, S0Token: “, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
 76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
@@ -322,1256 +1210,560 @@ B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: el_., S0B0Lem
 
 78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-## Sentence No. 4410 - 
-acestea sunt pentru persoane cu orice nivel de pregătire ( și anume , începători , mediu , avansați ) , asigurând inclusiv pregătire pentru examenele la institutul goethe inter nationes din bucurești , și se desfășoară în regim normal sau intensiv . 
+## Sentence No. 23550 - 
+l febra de sâmbătă noaptea se va instala la discoland sâmbătă , 10 mai , la ora 22 , iar până la ora 23 intrarea este gratuită pentru studenți și domnișoare . 
 ### Existing MWEs: 
-1- **se desfășoară** (IReflV, 224)
+1- **se instala** (IReflV, 1)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, febra, de ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [febra, de, sâmbătă ,.. ]
+
+B0Lemma: febră, B0POS: Ncfsry, B0Token: febra, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: L_febră, S0B0LemmaPOS: L_Ncfsry, S0B0POS: Mo-s-r_Ncfsry, S0B0POSLemma: Mo-s-r_febră, S0B0Token: l_febra, S0B1Lemma: L_de, S0B1LemmaPOS: L_Sp, S0B1POS: Mo-s-r_Sp, S0B1POSLemma: Mo-s-r_de, S0B1Token: l_de, S0B2Lemma: L_sâmbătă, S0B2LemmaPOS: L_Ncfsrn, S0B2POS: Mo-s-r_Ncfsrn, S0B2POSLemma: Mo-s-r_sâmbătă, S0B2Token: l_sâmbătă, S0Lemma: L, S0POS: Mo-s-r, S0Token: l, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [febra, de, sâmbătă ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [febra]   B= [de, sâmbătă, noaptea ,.. ]
+
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: sâmbătă, B1POS: Ncfsrn, B1Token: sâmbătă, S0B0Distance: 1, S0B0Lemma: febră_de, S0B0LemmaPOS: febră_Sp, S0B0POS: Ncfsry_Sp, S0B0POSLemma: Ncfsry_de, S0B0Token: febra_de, S0B1Lemma: febră_sâmbătă, S0B1LemmaPOS: febră_Ncfsrn, S0B1POS: Ncfsry_Ncfsrn, S0B1POSLemma: Ncfsry_sâmbătă, S0B1Token: febra_sâmbătă, S0B2Lemma: febră_noaptea, S0B2LemmaPOS: febră_Rg, S0B2POS: Ncfsry_Rg, S0B2POSLemma: Ncfsry_noaptea, S0B2Token: febra_noaptea, S0Lemma: febră, S0POS: Ncfsry, S0Token: febra, TransHistory1: 2, TransHistory2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, sâmbătă, noaptea ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [sâmbătă, noaptea, se ,.. ]
+
+B0Lemma: sâmbătă, B0POS: Ncfsrn, B0Token: sâmbătă, B1Lemma: noaptea, B1POS: Rg, B1Token: noaptea, S0B0Distance: 1, S0B0Lemma: de_sâmbătă, S0B0LemmaPOS: de_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_sâmbătă, S0B0Token: de_sâmbătă, S0B1Lemma: de_noaptea, S0B1LemmaPOS: de_Rg, S0B1POS: Sp_Rg, S0B1POSLemma: Sp_noaptea, S0B1Token: de_noaptea, S0B2Lemma: de_sine, S0B2LemmaPOS: de_Px3--r, S0B2POS: Sp_Px3--r, S0B2POSLemma: Sp_sine, S0B2Token: de_se, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sâmbătă, noaptea, se ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sâmbătă]   B= [noaptea, se, va ,.. ]
+
+B0Lemma: noaptea, B0POS: Rg, B0Token: noaptea, B1IsInLexic: true, B1Lemma: sine, B1POS: Px3--r, B1Token: se, S0B0Distance: 1, S0B0Lemma: sâmbătă_noaptea, S0B0LemmaPOS: sâmbătă_Rg, S0B0POS: Ncfsrn_Rg, S0B0POSLemma: Ncfsrn_noaptea, S0B0Token: sâmbătă_noaptea, S0B1Lemma: sâmbătă_sine, S0B1LemmaPOS: sâmbătă_Px3--r, S0B1POS: Ncfsrn_Px3--r, S0B1POSLemma: Ncfsrn_sine, S0B1Token: sâmbătă_se, S0B2Lemma: sâmbătă_vrea, S0B2LemmaPOS: sâmbătă_Vaip3s, S0B2POS: Ncfsrn_Vaip3s, S0B2POSLemma: Ncfsrn_vrea, S0B2Token: sâmbătă_va, S0Lemma: sâmbătă, S0POS: Ncfsrn, S0Token: sâmbătă, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [noaptea, se, va ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [noaptea]   B= [se, va, instala ,.. ]
+
+B0IsInLexic: true, B0Lemma: sine, B0POS: Px3--r, B0Token: se, B1IsInLexic: true, B1Lemma: vrea, B1POS: Vaip3s, B1Token: va, S0B0Distance: 1, S0B0Lemma: noaptea_sine, S0B0LemmaPOS: noaptea_Px3--r, S0B0POS: Rg_Px3--r, S0B0POSLemma: Rg_sine, S0B0Token: noaptea_se, S0B1Lemma: noaptea_vrea, S0B1LemmaPOS: noaptea_Vaip3s, S0B1POS: Rg_Vaip3s, S0B1POSLemma: Rg_vrea, S0B1Token: noaptea_va, S0B2Lemma: noaptea_instala, S0B2LemmaPOS: noaptea_Vmii3s, S0B2POS: Rg_Vmii3s, S0B2POSLemma: Rg_instala, S0B2Token: noaptea_instala, S0Lemma: noaptea, S0POS: Rg, S0Token: noaptea, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, va, instala ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [va, instala, la ,.. ]
+
+B0IsInLexic: true, B0Lemma: vrea, B0POS: Vaip3s, B0Token: va, B1IsInLexic: true, B1Lemma: instala, B1POS: Vmii3s, B1Token: instala, S0B0Distance: 1, S0B0Lemma: sine_vrea, S0B0LemmaPOS: sine_Vaip3s, S0B0POS: Px3--r_Vaip3s, S0B0POSLemma: Px3--r_vrea, S0B0Token: se_va, S0B1Lemma: sine_instala, S0B1LemmaPOS: sine_Vmii3s, S0B1POS: Px3--r_Vmii3s, S0B1POSLemma: Px3--r_instala, S0B1Token: se_instala, S0B2Lemma: sine_la, S0B2LemmaPOS: sine_Sp, S0B2POS: Px3--r_Sp, S0B2POSLemma: Px3--r_la, S0B2Token: se_la, S0IsInLexic: true, S0Lemma: sine, S0POS: Px3--r, S0Token: se, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [va, instala, la ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va]   B= [instala, la, discoland ,.. ]
+
+B0IsInLexic: true, B0Lemma: instala, B0POS: Vmii3s, B0Token: instala, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: vrea_instala, S0B0LemmaPOS: vrea_Vmii3s, S0B0POS: Vaip3s_Vmii3s, S0B0POSLemma: Vaip3s_instala, S0B0Token: va_instala, S0B1Lemma: vrea_la, S0B1LemmaPOS: vrea_Sp, S0B1POS: Vaip3s_Sp, S0B1POSLemma: Vaip3s_la, S0B1Token: va_la, S0B2Lemma: vrea_Discoland, S0B2LemmaPOS: vrea_Npmsrn, S0B2POS: Vaip3s_Npmsrn, S0B2POSLemma: Vaip3s_Discoland, S0B2Token: va_discoland, S0IsInLexic: true, S0Lemma: vrea, S0POS: Vaip3s, S0Token: va, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [instala, la, discoland ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [instala]   B= [la, discoland, sâmbătă ,.. ]
+
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: Discoland, B1POS: Npmsrn, B1Token: discoland, S0B0Distance: 1, S0B0Lemma: instala_la, S0B0LemmaPOS: instala_Sp, S0B0POS: Vmii3s_Sp, S0B0POSLemma: Vmii3s_la, S0B0Token: instala_la, S0B1Lemma: instala_Discoland, S0B1LemmaPOS: instala_Npmsrn, S0B1POS: Vmii3s_Npmsrn, S0B1POSLemma: Vmii3s_Discoland, S0B1Token: instala_discoland, S0B2Lemma: instala_sâmbătă, S0B2LemmaPOS: instala_Ncfsrn, S0B2POS: Vmii3s_Ncfsrn, S0B2POSLemma: Vmii3s_sâmbătă, S0B2Token: instala_sâmbătă, S0IsInLexic: true, S0Lemma: instala, S0POS: Vmii3s, S0Token: instala, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, discoland, sâmbătă ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [discoland, sâmbătă, , ,.. ]
+
+B0Lemma: Discoland, B0POS: Npmsrn, B0Token: discoland, B1Lemma: sâmbătă, B1POS: Ncfsrn, B1Token: sâmbătă, S0B0Distance: 1, S0B0Lemma: la_Discoland, S0B0LemmaPOS: la_Npmsrn, S0B0POS: Sp_Npmsrn, S0B0POSLemma: Sp_Discoland, S0B0Token: la_discoland, S0B1Lemma: la_sâmbătă, S0B1LemmaPOS: la_Ncfsrn, S0B1POS: Sp_Ncfsrn, S0B1POSLemma: Sp_sâmbătă, S0B1Token: la_sâmbătă, S0B2Lemma: la_,, S0B2LemmaPOS: la_COMMA, S0B2POS: Sp_COMMA, S0B2POSLemma: Sp_,, S0B2Token: la_,, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [discoland, sâmbătă, , ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [discoland]   B= [sâmbătă, ,, 10 ,.. ]
+
+B0Lemma: sâmbătă, B0POS: Ncfsrn, B0Token: sâmbătă, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: Discoland_sâmbătă, S0B0LemmaPOS: Discoland_Ncfsrn, S0B0POS: Npmsrn_Ncfsrn, S0B0POSLemma: Npmsrn_sâmbătă, S0B0Token: discoland_sâmbătă, S0B1Lemma: Discoland_,, S0B1LemmaPOS: Discoland_COMMA, S0B1POS: Npmsrn_COMMA, S0B1POSLemma: Npmsrn_,, S0B1Token: discoland_,, S0B2Lemma: Discoland_10, S0B2LemmaPOS: Discoland_M, S0B2POS: Npmsrn_M, S0B2POSLemma: Npmsrn_10, S0B2Token: discoland_10, S0Lemma: Discoland, S0POS: Npmsrn, S0Token: discoland, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sâmbătă, ,, 10 ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sâmbătă]   B= [,, 10, mai ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: 10, B1POS: M, B1Token: 10, S0B0Distance: 1, S0B0Lemma: sâmbătă_,, S0B0LemmaPOS: sâmbătă_COMMA, S0B0POS: Ncfsrn_COMMA, S0B0POSLemma: Ncfsrn_,, S0B0Token: sâmbătă_,, S0B1Lemma: sâmbătă_10, S0B1LemmaPOS: sâmbătă_M, S0B1POS: Ncfsrn_M, S0B1POSLemma: Ncfsrn_10, S0B1Token: sâmbătă_10, S0B2Lemma: sâmbătă_mai, S0B2LemmaPOS: sâmbătă_Rg, S0B2POS: Ncfsrn_Rg, S0B2POSLemma: Ncfsrn_mai, S0B2Token: sâmbătă_mai, S0Lemma: sâmbătă, S0POS: Ncfsrn, S0Token: sâmbătă, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, 10, mai ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [10, mai, , ,.. ]
+
+B0Lemma: 10, B0POS: M, B0Token: 10, B1Lemma: mai, B1POS: Rg, B1Token: mai, S0B0Distance: 1, S0B0Lemma: ,_10, S0B0LemmaPOS: ,_M, S0B0POS: COMMA_M, S0B0POSLemma: COMMA_10, S0B0Token: ,_10, S0B1Lemma: ,_mai, S0B1LemmaPOS: ,_Rg, S0B1POS: COMMA_Rg, S0B1POSLemma: COMMA_mai, S0B1Token: ,_mai, S0B2Lemma: ,_,, S0B2LemmaPOS: ,_COMMA, S0B2POS: COMMA_COMMA, S0B2POSLemma: COMMA_,, S0B2Token: ,_,, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [10, mai, , ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [10]   B= [mai, ,, la ,.. ]
+
+B0Lemma: mai, B0POS: Rg, B0Token: mai, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: 10_mai, S0B0LemmaPOS: 10_Rg, S0B0POS: M_Rg, S0B0POSLemma: M_mai, S0B0Token: 10_mai, S0B1Lemma: 10_,, S0B1LemmaPOS: 10_COMMA, S0B1POS: M_COMMA, S0B1POSLemma: M_,, S0B1Token: 10_,, S0B2Lemma: 10_la, S0B2LemmaPOS: 10_Sp, S0B2POS: M_Sp, S0B2POSLemma: M_la, S0B2Token: 10_la, S0Lemma: 10, S0POS: M, S0Token: 10, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, ,, la ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [,, la, ora ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: mai_,, S0B0LemmaPOS: mai_COMMA, S0B0POS: Rg_COMMA, S0B0POSLemma: Rg_,, S0B0Token: mai_,, S0B1Lemma: mai_la, S0B1LemmaPOS: mai_Sp, S0B1POS: Rg_Sp, S0B1POSLemma: Rg_la, S0B1Token: mai_la, S0B2Lemma: mai_oră, S0B2LemmaPOS: mai_Ncfsry, S0B2POS: Rg_Ncfsry, S0B2POSLemma: Rg_oră, S0B2Token: mai_ora, S0Lemma: mai, S0POS: Rg, S0Token: mai, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, la, ora ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [la, ora, 22 ,.. ]
+
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: oră, B1POS: Ncfsry, B1Token: ora, S0B0Distance: 1, S0B0Lemma: ,_la, S0B0LemmaPOS: ,_Sp, S0B0POS: COMMA_Sp, S0B0POSLemma: COMMA_la, S0B0Token: ,_la, S0B1Lemma: ,_oră, S0B1LemmaPOS: ,_Ncfsry, S0B1POS: COMMA_Ncfsry, S0B1POSLemma: COMMA_oră, S0B1Token: ,_ora, S0B2Lemma: ,_22, S0B2LemmaPOS: ,_M, S0B2POS: COMMA_M, S0B2POSLemma: COMMA_22, S0B2Token: ,_22, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, ora, 22 ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [ora, 22, , ,.. ]
+
+B0Lemma: oră, B0POS: Ncfsry, B0Token: ora, B1Lemma: 22, B1POS: M, B1Token: 22, S0B0Distance: 1, S0B0Lemma: la_oră, S0B0LemmaPOS: la_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_oră, S0B0Token: la_ora, S0B1Lemma: la_22, S0B1LemmaPOS: la_M, S0B1POS: Sp_M, S0B1POSLemma: Sp_22, S0B1Token: la_22, S0B2Lemma: la_,, S0B2LemmaPOS: la_COMMA, S0B2POS: Sp_COMMA, S0B2POSLemma: Sp_,, S0B2Token: la_,, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ora, 22, , ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ora]   B= [22, ,, iar ,.. ]
+
+B0Lemma: 22, B0POS: M, B0Token: 22, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: oră_22, S0B0LemmaPOS: oră_M, S0B0POS: Ncfsry_M, S0B0POSLemma: Ncfsry_22, S0B0Token: ora_22, S0B1Lemma: oră_,, S0B1LemmaPOS: oră_COMMA, S0B1POS: Ncfsry_COMMA, S0B1POSLemma: Ncfsry_,, S0B1Token: ora_,, S0B2Lemma: oră_iar, S0B2LemmaPOS: oră_Rg, S0B2POS: Ncfsry_Rg, S0B2POSLemma: Ncfsry_iar, S0B2Token: ora_iar, S0Lemma: oră, S0POS: Ncfsry, S0Token: ora, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [22, ,, iar ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [22]   B= [,, iar, până ,.. ]
+
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: iar, B1POS: Rg, B1Token: iar, S0B0Distance: 1, S0B0Lemma: 22_,, S0B0LemmaPOS: 22_COMMA, S0B0POS: M_COMMA, S0B0POSLemma: M_,, S0B0Token: 22_,, S0B1Lemma: 22_iar, S0B1LemmaPOS: 22_Rg, S0B1POS: M_Rg, S0B1POSLemma: M_iar, S0B1Token: 22_iar, S0B2Lemma: 22_până, S0B2LemmaPOS: 22_Cs, S0B2POS: M_Cs, S0B2POSLemma: M_până, S0B2Token: 22_până, S0Lemma: 22, S0POS: M, S0Token: 22, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, iar, până ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [iar, până, la ,.. ]
+
+B0Lemma: iar, B0POS: Rg, B0Token: iar, B1Lemma: până, B1POS: Cs, B1Token: până, S0B0Distance: 1, S0B0Lemma: ,_iar, S0B0LemmaPOS: ,_Rg, S0B0POS: COMMA_Rg, S0B0POSLemma: COMMA_iar, S0B0Token: ,_iar, S0B1Lemma: ,_până, S0B1LemmaPOS: ,_Cs, S0B1POS: COMMA_Cs, S0B1POSLemma: COMMA_până, S0B1Token: ,_până, S0B2Lemma: ,_la, S0B2LemmaPOS: ,_Sp, S0B2POS: COMMA_Sp, S0B2POSLemma: COMMA_la, S0B2Token: ,_la, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iar, până, la ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iar]   B= [până, la, ora ,.. ]
+
+B0Lemma: până, B0POS: Cs, B0Token: până, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: iar_până, S0B0LemmaPOS: iar_Cs, S0B0POS: Rg_Cs, S0B0POSLemma: Rg_până, S0B0Token: iar_până, S0B1Lemma: iar_la, S0B1LemmaPOS: iar_Sp, S0B1POS: Rg_Sp, S0B1POSLemma: Rg_la, S0B1Token: iar_la, S0B2Lemma: iar_oră, S0B2LemmaPOS: iar_Ncfsry, S0B2POS: Rg_Ncfsry, S0B2POSLemma: Rg_oră, S0B2Token: iar_ora, S0Lemma: iar, S0POS: Rg, S0Token: iar, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [până, la, ora ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [până]   B= [la, ora, 23 ,.. ]
+
+B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: oră, B1POS: Ncfsry, B1Token: ora, S0B0Distance: 1, S0B0Lemma: până_la, S0B0LemmaPOS: până_Sp, S0B0POS: Cs_Sp, S0B0POSLemma: Cs_la, S0B0Token: până_la, S0B1Lemma: până_oră, S0B1LemmaPOS: până_Ncfsry, S0B1POS: Cs_Ncfsry, S0B1POSLemma: Cs_oră, S0B1Token: până_ora, S0B2Lemma: până_23, S0B2LemmaPOS: până_M, S0B2POS: Cs_M, S0B2POSLemma: Cs_23, S0B2Token: până_23, S0Lemma: până, S0POS: Cs, S0Token: până, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, ora, 23 ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [ora, 23, intrarea ,.. ]
+
+B0Lemma: oră, B0POS: Ncfsry, B0Token: ora, B1Lemma: 23, B1POS: M, B1Token: 23, S0B0Distance: 1, S0B0Lemma: la_oră, S0B0LemmaPOS: la_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_oră, S0B0Token: la_ora, S0B1Lemma: la_23, S0B1LemmaPOS: la_M, S0B1POS: Sp_M, S0B1POSLemma: Sp_23, S0B1Token: la_23, S0B2Lemma: la_intrare, S0B2LemmaPOS: la_Ncfsry, S0B2POS: Sp_Ncfsry, S0B2POSLemma: Sp_intrare, S0B2Token: la_intrarea, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ora, 23, intrarea ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ora]   B= [23, intrarea, este ,.. ]
+
+B0Lemma: 23, B0POS: M, B0Token: 23, B1Lemma: intrare, B1POS: Ncfsry, B1Token: intrarea, S0B0Distance: 1, S0B0Lemma: oră_23, S0B0LemmaPOS: oră_M, S0B0POS: Ncfsry_M, S0B0POSLemma: Ncfsry_23, S0B0Token: ora_23, S0B1Lemma: oră_intrare, S0B1LemmaPOS: oră_Ncfsry, S0B1POS: Ncfsry_Ncfsry, S0B1POSLemma: Ncfsry_intrare, S0B1Token: ora_intrarea, S0B2Lemma: oră_fi, S0B2LemmaPOS: oră_Vmip3s, S0B2POS: Ncfsry_Vmip3s, S0B2POSLemma: Ncfsry_fi, S0B2Token: ora_este, S0Lemma: oră, S0POS: Ncfsry, S0Token: ora, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [23, intrarea, este ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [23]   B= [intrarea, este, gratuită ,.. ]
+
+B0Lemma: intrare, B0POS: Ncfsry, B0Token: intrarea, B1IsInLexic: true, B1Lemma: fi, B1POS: Vmip3s, B1Token: este, S0B0Distance: 1, S0B0Lemma: 23_intrare, S0B0LemmaPOS: 23_Ncfsry, S0B0POS: M_Ncfsry, S0B0POSLemma: M_intrare, S0B0Token: 23_intrarea, S0B1Lemma: 23_fi, S0B1LemmaPOS: 23_Vmip3s, S0B1POS: M_Vmip3s, S0B1POSLemma: M_fi, S0B1Token: 23_este, S0B2Lemma: 23_gratuit, S0B2LemmaPOS: 23_Afpfsrn, S0B2POS: M_Afpfsrn, S0B2POSLemma: M_gratuit, S0B2Token: 23_gratuită, S0Lemma: 23, S0POS: M, S0Token: 23, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [intrarea, este, gratuită ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [intrarea]   B= [este, gratuită, pentru ,.. ]
+
+B0IsInLexic: true, B0Lemma: fi, B0POS: Vmip3s, B0Token: este, B1Lemma: gratuit, B1POS: Afpfsrn, B1Token: gratuită, S0B0Distance: 1, S0B0Lemma: intrare_fi, S0B0LemmaPOS: intrare_Vmip3s, S0B0POS: Ncfsry_Vmip3s, S0B0POSLemma: Ncfsry_fi, S0B0Token: intrarea_este, S0B1Lemma: intrare_gratuit, S0B1LemmaPOS: intrare_Afpfsrn, S0B1POS: Ncfsry_Afpfsrn, S0B1POSLemma: Ncfsry_gratuit, S0B1Token: intrarea_gratuită, S0B2Lemma: intrare_pentru, S0B2LemmaPOS: intrare_Sp, S0B2POS: Ncfsry_Sp, S0B2POSLemma: Ncfsry_pentru, S0B2Token: intrarea_pentru, S0Lemma: intrare, S0POS: Ncfsry, S0Token: intrarea, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [este, gratuită, pentru ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [este]   B= [gratuită, pentru, studenți ,.. ]
+
+B0Lemma: gratuit, B0POS: Afpfsrn, B0Token: gratuită, B1Lemma: pentru, B1POS: Sp, B1Token: pentru, S0B0Distance: 1, S0B0Lemma: fi_gratuit, S0B0LemmaPOS: fi_Afpfsrn, S0B0POS: Vmip3s_Afpfsrn, S0B0POSLemma: Vmip3s_gratuit, S0B0Token: este_gratuită, S0B1Lemma: fi_pentru, S0B1LemmaPOS: fi_Sp, S0B1POS: Vmip3s_Sp, S0B1POSLemma: Vmip3s_pentru, S0B1Token: este_pentru, S0B2Lemma: fi_student, S0B2LemmaPOS: fi_Ncmprn, S0B2POS: Vmip3s_Ncmprn, S0B2POSLemma: Vmip3s_student, S0B2Token: este_studenți, S0IsInLexic: true, S0Lemma: fi, S0POS: Vmip3s, S0Token: este, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gratuită, pentru, studenți ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gratuită]   B= [pentru, studenți, și ,.. ]
+
+B0Lemma: pentru, B0POS: Sp, B0Token: pentru, B1Lemma: student, B1POS: Ncmprn, B1Token: studenți, S0B0Distance: 1, S0B0Lemma: gratuit_pentru, S0B0LemmaPOS: gratuit_Sp, S0B0POS: Afpfsrn_Sp, S0B0POSLemma: Afpfsrn_pentru, S0B0Token: gratuită_pentru, S0B1Lemma: gratuit_student, S0B1LemmaPOS: gratuit_Ncmprn, S0B1POS: Afpfsrn_Ncmprn, S0B1POSLemma: Afpfsrn_student, S0B1Token: gratuită_studenți, S0B2Lemma: gratuit_și, S0B2LemmaPOS: gratuit_Cc, S0B2POS: Afpfsrn_Cc, S0B2POSLemma: Afpfsrn_și, S0B2Token: gratuită_și, S0Lemma: gratuit, S0POS: Afpfsrn, S0Token: gratuită, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, studenți, și ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [studenți, și, domnișoare ,.. ]
+
+B0Lemma: student, B0POS: Ncmprn, B0Token: studenți, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: pentru_student, S0B0LemmaPOS: pentru_Ncmprn, S0B0POS: Sp_Ncmprn, S0B0POSLemma: Sp_student, S0B0Token: pentru_studenți, S0B1Lemma: pentru_și, S0B1LemmaPOS: pentru_Cc, S0B1POS: Sp_Cc, S0B1POSLemma: Sp_și, S0B1Token: pentru_și, S0B2Lemma: pentru_domnișoară, S0B2LemmaPOS: pentru_Ncfprn, S0B2POS: Sp_Ncfprn, S0B2POSLemma: Sp_domnișoară, S0B2Token: pentru_domnișoare, S0Lemma: pentru, S0POS: Sp, S0Token: pentru, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [studenți, și, domnișoare ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [studenți]   B= [și, domnișoare, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: domnișoară, B1POS: Ncfprn, B1Token: domnișoare, S0B0Distance: 1, S0B0Lemma: student_și, S0B0LemmaPOS: student_Cc, S0B0POS: Ncmprn_Cc, S0B0POSLemma: Ncmprn_și, S0B0Token: studenți_și, S0B1Lemma: student_domnișoară, S0B1LemmaPOS: student_Ncfprn, S0B1POS: Ncmprn_Ncfprn, S0B1POSLemma: Ncmprn_domnișoară, S0B1Token: studenți_domnișoare, S0B2Lemma: student_., S0B2LemmaPOS: student_PERIOD, S0B2POS: Ncmprn_PERIOD, S0B2POSLemma: Ncmprn_., S0B2Token: studenți_., S0Lemma: student, S0POS: Ncmprn, S0Token: studenți, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, domnișoare, . ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [domnișoare, . ,.. ]
+
+B0Lemma: domnișoară, B0POS: Ncfprn, B0Token: domnișoare, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: și_domnișoară, S0B0LemmaPOS: și_Ncfprn, S0B0POS: Cc_Ncfprn, S0B0POSLemma: Cc_domnișoară, S0B0Token: și_domnișoare, S0B1Lemma: și_., S0B1LemmaPOS: și_PERIOD, S0B1POS: Cc_PERIOD, S0B1POSLemma: Cc_., S0B1Token: și_., S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [domnișoare, . ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [domnișoare]   B= [.]
+
+B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: domnișoară_., S0B0LemmaPOS: domnișoară_PERIOD, S0B0POS: Ncfprn_PERIOD, S0B0POSLemma: Ncfprn_., S0B0Token: domnișoare_., S0Lemma: domnișoară, S0POS: Ncfprn, S0Token: domnișoare, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 23580 - 
+bancomatele și p . o . s . vor fi reactivate treptat până în 10 mai ( chiar și mai devreme ) , după programul de lucru din incinta în care se află postate . 
+### Existing MWEs: 
+1- **se află** (IReflV, 145)
 ### Identified MWEs: 
-1- **se desfășoară** 
+1- **se află** 
 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [acestea, sunt, pentru ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bancomatele, și, p ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [acestea]   B= [sunt, pentru, persoane ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bancomatele]   B= [și, p, . ,.. ]
 
-B0IsInLexic: true, B0Lemma: fi, B0POS: Vmip3p, B0Token: sunt, B1Lemma: pentru, B1POS: Sp, B1Token: pentru, S0B0Distance: 1, S0B0Lemma: acesta_fi, S0B0LemmaPOS: acesta_Vmip3p, S0B0POS: Pd3fpr_Vmip3p, S0B0POSLemma: Pd3fpr_fi, S0B0Token: acestea_sunt, S0B1Lemma: acesta_pentru, S0B1LemmaPOS: acesta_Sp, S0B1POS: Pd3fpr_Sp, S0B1POSLemma: Pd3fpr_pentru, S0B1Token: acestea_pentru, S0B2Lemma: acesta_persoană, S0B2LemmaPOS: acesta_Ncfprn, S0B2POS: Pd3fpr_Ncfprn, S0B2POSLemma: Pd3fpr_persoană, S0B2Token: acestea_persoane, S0Lemma: acesta, S0POS: Pd3fpr, S0Token: acestea, 
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: puncte, B1POS: Y, B1Token: p, S0B0Distance: 1, S0B0Lemma: bancomat_și, S0B0LemmaPOS: bancomat_Cc, S0B0POS: Ncfpry_Cc, S0B0POSLemma: Ncfpry_și, S0B0Token: bancomatele_și, S0B1Lemma: bancomat_puncte, S0B1LemmaPOS: bancomat_Y, S0B1POS: Ncfpry_Y, S0B1POSLemma: Ncfpry_puncte, S0B1Token: bancomatele_p, S0B2Lemma: bancomat_., S0B2LemmaPOS: bancomat_PERIOD, S0B2POS: Ncfpry_PERIOD, S0B2POSLemma: Ncfpry_., S0B2Token: bancomatele_., S0Lemma: bancomat, S0POS: Ncfpry, S0Token: bancomatele, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sunt, pentru, persoane ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, p, . ,.. ]
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sunt]   B= [pentru, persoane, cu ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [p, ., o ,.. ]
 
-B0Lemma: pentru, B0POS: Sp, B0Token: pentru, B1Lemma: persoană, B1POS: Ncfprn, B1Token: persoane, S0B0Distance: 1, S0B0Lemma: fi_pentru, S0B0LemmaPOS: fi_Sp, S0B0POS: Vmip3p_Sp, S0B0POSLemma: Vmip3p_pentru, S0B0Token: sunt_pentru, S0B1Lemma: fi_persoană, S0B1LemmaPOS: fi_Ncfprn, S0B1POS: Vmip3p_Ncfprn, S0B1POSLemma: Vmip3p_persoană, S0B1Token: sunt_persoane, S0B2Lemma: fi_cu, S0B2LemmaPOS: fi_Sp, S0B2POS: Vmip3p_Sp, S0B2POSLemma: Vmip3p_cu, S0B2Token: sunt_cu, S0IsInLexic: true, S0Lemma: fi, S0POS: Vmip3p, S0Token: sunt, TransHistory1: 2, TransHistory2: 20, 
+B0Lemma: puncte, B0POS: Y, B0Token: p, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: și_puncte, S0B0LemmaPOS: și_Y, S0B0POS: Cc_Y, S0B0POSLemma: Cc_puncte, S0B0Token: și_p, S0B1Lemma: și_., S0B1LemmaPOS: și_PERIOD, S0B1POS: Cc_PERIOD, S0B1POSLemma: Cc_., S0B1Token: și_., S0B2Lemma: și_ea, S0B2LemmaPOS: și_Pp3fsr, S0B2POS: Cc_Pp3fsr, S0B2POSLemma: Cc_ea, S0B2Token: și_o, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, persoane, cu ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [p, ., o ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [persoane, cu, orice ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [p]   B= [., o, . ,.. ]
 
-B0Lemma: persoană, B0POS: Ncfprn, B0Token: persoane, B1IsInLexic: true, B1Lemma: cu, B1POS: Sp, B1Token: cu, S0B0Distance: 1, S0B0Lemma: pentru_persoană, S0B0LemmaPOS: pentru_Ncfprn, S0B0POS: Sp_Ncfprn, S0B0POSLemma: Sp_persoană, S0B0Token: pentru_persoane, S0B1Lemma: pentru_cu, S0B1LemmaPOS: pentru_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_cu, S0B1Token: pentru_cu, S0B2Lemma: pentru_orice, S0B2LemmaPOS: pentru_Di3--r, S0B2POS: Sp_Di3--r, S0B2POSLemma: Sp_orice, S0B2Token: pentru_orice, S0Lemma: pentru, S0POS: Sp, S0Token: pentru, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ., B0POS: PERIOD, B0Token: ., B1Lemma: ea, B1POS: Pp3fsr, B1Token: o, S0B0Distance: 1, S0B0Lemma: puncte_., S0B0LemmaPOS: puncte_PERIOD, S0B0POS: Y_PERIOD, S0B0POSLemma: Y_., S0B0Token: p_., S0B1Lemma: puncte_ea, S0B1LemmaPOS: puncte_Pp3fsr, S0B1POS: Y_Pp3fsr, S0B1POSLemma: Y_ea, S0B1Token: p_o, S0B2Lemma: puncte_., S0B2LemmaPOS: puncte_PERIOD, S0B2POS: Y_PERIOD, S0B2POSLemma: Y_., S0B2Token: p_., S0Lemma: puncte, S0POS: Y, S0Token: p, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [persoane, cu, orice ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., o, . ,.. ]
 
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [persoane]   B= [cu, orice, nivel ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [o, ., s ,.. ]
 
-B0IsInLexic: true, B0Lemma: cu, B0POS: Sp, B0Token: cu, B1Lemma: orice, B1POS: Di3--r, B1Token: orice, S0B0Distance: 1, S0B0Lemma: persoană_cu, S0B0LemmaPOS: persoană_Sp, S0B0POS: Ncfprn_Sp, S0B0POSLemma: Ncfprn_cu, S0B0Token: persoane_cu, S0B1Lemma: persoană_orice, S0B1LemmaPOS: persoană_Di3--r, S0B1POS: Ncfprn_Di3--r, S0B1POSLemma: Ncfprn_orice, S0B1Token: persoane_orice, S0B2Lemma: persoană_nivel, S0B2LemmaPOS: persoană_Ncmsrn, S0B2POS: Ncfprn_Ncmsrn, S0B2POSLemma: Ncfprn_nivel, S0B2Token: persoane_nivel, S0Lemma: persoană, S0POS: Ncfprn, S0Token: persoane, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ea, B0POS: Pp3fsr, B0Token: o, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: ._ea, S0B0LemmaPOS: ._Pp3fsr, S0B0POS: PERIOD_Pp3fsr, S0B0POSLemma: PERIOD_ea, S0B0Token: ._o, S0B1Lemma: ._., S0B1LemmaPOS: ._PERIOD, S0B1POS: PERIOD_PERIOD, S0B1POSLemma: PERIOD_., S0B1Token: ._., S0B2Lemma: ._s, S0B2LemmaPOS: ._Ncmprn, S0B2POS: PERIOD_Ncmprn, S0B2POSLemma: PERIOD_s, S0B2Token: ._s, S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cu, orice, nivel ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, ., s ,.. ]
 
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cu]   B= [orice, nivel, de ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [., s, . ,.. ]
 
-B0Lemma: orice, B0POS: Di3--r, B0Token: orice, B1Lemma: nivel, B1POS: Ncmsrn, B1Token: nivel, S0B0Distance: 1, S0B0Lemma: cu_orice, S0B0LemmaPOS: cu_Di3--r, S0B0POS: Sp_Di3--r, S0B0POSLemma: Sp_orice, S0B0Token: cu_orice, S0B1Lemma: cu_nivel, S0B1LemmaPOS: cu_Ncmsrn, S0B1POS: Sp_Ncmsrn, S0B1POSLemma: Sp_nivel, S0B1Token: cu_nivel, S0B2Lemma: cu_de, S0B2LemmaPOS: cu_Sp, S0B2POS: Sp_Sp, S0B2POSLemma: Sp_de, S0B2Token: cu_de, S0IsInLexic: true, S0Lemma: cu, S0POS: Sp, S0Token: cu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ., B0POS: PERIOD, B0Token: ., B1IsInLexic: true, B1Lemma: s, B1POS: Ncmprn, B1Token: s, S0B0Distance: 1, S0B0Lemma: ea_., S0B0LemmaPOS: ea_PERIOD, S0B0POS: Pp3fsr_PERIOD, S0B0POSLemma: Pp3fsr_., S0B0Token: o_., S0B1Lemma: ea_s, S0B1LemmaPOS: ea_Ncmprn, S0B1POS: Pp3fsr_Ncmprn, S0B1POSLemma: Pp3fsr_s, S0B1Token: o_s, S0B2Lemma: ea_., S0B2LemmaPOS: ea_PERIOD, S0B2POS: Pp3fsr_PERIOD, S0B2POSLemma: Pp3fsr_., S0B2Token: o_., S0Lemma: ea, S0POS: Pp3fsr, S0Token: o, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [orice, nivel, de ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., s, . ,.. ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [orice]   B= [nivel, de, pregătire ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [s, ., vor ,.. ]
 
-B0Lemma: nivel, B0POS: Ncmsrn, B0Token: nivel, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: orice_nivel, S0B0LemmaPOS: orice_Ncmsrn, S0B0POS: Di3--r_Ncmsrn, S0B0POSLemma: Di3--r_nivel, S0B0Token: orice_nivel, S0B1Lemma: orice_de, S0B1LemmaPOS: orice_Sp, S0B1POS: Di3--r_Sp, S0B1POSLemma: Di3--r_de, S0B1Token: orice_de, S0B2Lemma: orice_pregătire, S0B2LemmaPOS: orice_Ncfsrn, S0B2POS: Di3--r_Ncfsrn, S0B2POSLemma: Di3--r_pregătire, S0B2Token: orice_pregătire, S0Lemma: orice, S0POS: Di3--r, S0Token: orice, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: s, B0POS: Ncmprn, B0Token: s, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: ._s, S0B0LemmaPOS: ._Ncmprn, S0B0POS: PERIOD_Ncmprn, S0B0POSLemma: PERIOD_s, S0B0Token: ._s, S0B1Lemma: ._., S0B1LemmaPOS: ._PERIOD, S0B1POS: PERIOD_PERIOD, S0B1POSLemma: PERIOD_., S0B1Token: ._., S0B2Lemma: ._vrea, S0B2LemmaPOS: ._Vmip3p, S0B2POS: PERIOD_Vmip3p, S0B2POSLemma: PERIOD_vrea, S0B2Token: ._vor, S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nivel, de, pregătire ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, ., vor ,.. ]
 
 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nivel]   B= [de, pregătire, ( ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [., vor, fi ,.. ]
 
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: pregătire, B1POS: Ncfsrn, B1Token: pregătire, S0B0Distance: 1, S0B0Lemma: nivel_de, S0B0LemmaPOS: nivel_Sp, S0B0POS: Ncmsrn_Sp, S0B0POSLemma: Ncmsrn_de, S0B0Token: nivel_de, S0B1Lemma: nivel_pregătire, S0B1LemmaPOS: nivel_Ncfsrn, S0B1POS: Ncmsrn_Ncfsrn, S0B1POSLemma: Ncmsrn_pregătire, S0B1Token: nivel_pregătire, S0B2Lemma: nivel_(, S0B2LemmaPOS: nivel_LPAR, S0B2POS: Ncmsrn_LPAR, S0B2POSLemma: Ncmsrn_(, S0B2Token: nivel_(, S0Lemma: nivel, S0POS: Ncmsrn, S0Token: nivel, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ., B0POS: PERIOD, B0Token: ., B1IsInLexic: true, B1Lemma: vrea, B1POS: Vmip3p, B1Token: vor, S0B0Distance: 1, S0B0Lemma: s_., S0B0LemmaPOS: s_PERIOD, S0B0POS: Ncmprn_PERIOD, S0B0POSLemma: Ncmprn_., S0B0Token: s_., S0B1Lemma: s_vrea, S0B1LemmaPOS: s_Vmip3p, S0B1POS: Ncmprn_Vmip3p, S0B1POSLemma: Ncmprn_vrea, S0B1Token: s_vor, S0B2Lemma: s_fi, S0B2LemmaPOS: s_Van, S0B2POS: Ncmprn_Van, S0B2POSLemma: Ncmprn_fi, S0B2Token: s_fi, S0IsInLexic: true, S0Lemma: s, S0POS: Ncmprn, S0Token: s, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, pregătire, ( ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., vor, fi ,.. ]
 
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [pregătire, (, și ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [vor, fi, reactivate ,.. ]
 
-B0Lemma: pregătire, B0POS: Ncfsrn, B0Token: pregătire, B1Lemma: (, B1POS: LPAR, B1Token: (, S0B0Distance: 1, S0B0Lemma: de_pregătire, S0B0LemmaPOS: de_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_pregătire, S0B0Token: de_pregătire, S0B1Lemma: de_(, S0B1LemmaPOS: de_LPAR, S0B1POS: Sp_LPAR, S0B1POSLemma: Sp_(, S0B1Token: de_(, S0B2Lemma: de_și, S0B2LemmaPOS: de_Cc, S0B2POS: Sp_Cc, S0B2POSLemma: Sp_și, S0B2Token: de_și, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: vrea, B0POS: Vmip3p, B0Token: vor, B1IsInLexic: true, B1Lemma: fi, B1POS: Van, B1Token: fi, S0B0Distance: 1, S0B0Lemma: ._vrea, S0B0LemmaPOS: ._Vmip3p, S0B0POS: PERIOD_Vmip3p, S0B0POSLemma: PERIOD_vrea, S0B0Token: ._vor, S0B1Lemma: ._fi, S0B1LemmaPOS: ._Van, S0B1POS: PERIOD_Van, S0B1POSLemma: PERIOD_fi, S0B1Token: ._fi, S0B2Lemma: ._reactivat, S0B2LemmaPOS: ._Afpfprn, S0B2POS: PERIOD_Afpfprn, S0B2POSLemma: PERIOD_reactivat, S0B2Token: ._reactivate, S0Lemma: ., S0POS: PERIOD, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pregătire, (, și ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vor, fi, reactivate ,.. ]
 
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pregătire]   B= [(, și, anume ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vor]   B= [fi, reactivate, treptat ,.. ]
 
-B0Lemma: (, B0POS: LPAR, B0Token: (, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: pregătire_(, S0B0LemmaPOS: pregătire_LPAR, S0B0POS: Ncfsrn_LPAR, S0B0POSLemma: Ncfsrn_(, S0B0Token: pregătire_(, S0B1Lemma: pregătire_și, S0B1LemmaPOS: pregătire_Cc, S0B1POS: Ncfsrn_Cc, S0B1POSLemma: Ncfsrn_și, S0B1Token: pregătire_și, S0B2Lemma: pregătire_anume, S0B2LemmaPOS: pregătire_Rg, S0B2POS: Ncfsrn_Rg, S0B2POSLemma: Ncfsrn_anume, S0B2Token: pregătire_anume, S0Lemma: pregătire, S0POS: Ncfsrn, S0Token: pregătire, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: fi, B0POS: Van, B0Token: fi, B1Lemma: reactivat, B1POS: Afpfprn, B1Token: reactivate, S0B0Distance: 1, S0B0Lemma: vrea_fi, S0B0LemmaPOS: vrea_Van, S0B0POS: Vmip3p_Van, S0B0POSLemma: Vmip3p_fi, S0B0Token: vor_fi, S0B1Lemma: vrea_reactivat, S0B1LemmaPOS: vrea_Afpfprn, S0B1POS: Vmip3p_Afpfprn, S0B1POSLemma: Vmip3p_reactivat, S0B1Token: vor_reactivate, S0B2Lemma: vrea_treptat, S0B2LemmaPOS: vrea_Afpmsrn, S0B2POS: Vmip3p_Afpmsrn, S0B2POSLemma: Vmip3p_treptat, S0B2Token: vor_treptat, S0IsInLexic: true, S0Lemma: vrea, S0POS: Vmip3p, S0Token: vor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, și, anume ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fi, reactivate, treptat ,.. ]
 
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [și, anume, , ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fi]   B= [reactivate, treptat, până ,.. ]
 
-B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: anume, B1POS: Rg, B1Token: anume, S0B0Distance: 1, S0B0Lemma: (_și, S0B0LemmaPOS: (_Cc, S0B0POS: LPAR_Cc, S0B0POSLemma: LPAR_și, S0B0Token: (_și, S0B1Lemma: (_anume, S0B1LemmaPOS: (_Rg, S0B1POS: LPAR_Rg, S0B1POSLemma: LPAR_anume, S0B1Token: (_anume, S0B2Lemma: (_,, S0B2LemmaPOS: (_COMMA, S0B2POS: LPAR_COMMA, S0B2POSLemma: LPAR_,, S0B2Token: (_,, S0Lemma: (, S0POS: LPAR, S0Token: (, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: reactivat, B0POS: Afpfprn, B0Token: reactivate, B1Lemma: treptat, B1POS: Afpmsrn, B1Token: treptat, S0B0Distance: 1, S0B0Lemma: fi_reactivat, S0B0LemmaPOS: fi_Afpfprn, S0B0POS: Van_Afpfprn, S0B0POSLemma: Van_reactivat, S0B0Token: fi_reactivate, S0B1Lemma: fi_treptat, S0B1LemmaPOS: fi_Afpmsrn, S0B1POS: Van_Afpmsrn, S0B1POSLemma: Van_treptat, S0B1Token: fi_treptat, S0B2Lemma: fi_până, S0B2LemmaPOS: fi_Rg, S0B2POS: Van_Rg, S0B2POSLemma: Van_până, S0B2Token: fi_până, S0IsInLexic: true, S0Lemma: fi, S0POS: Van, S0Token: fi, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, anume, , ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [reactivate, treptat, până ,.. ]
 
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [anume, ,, începători ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [reactivate]   B= [treptat, până, în ,.. ]
 
-B0Lemma: anume, B0POS: Rg, B0Token: anume, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: și_anume, S0B0LemmaPOS: și_Rg, S0B0POS: Cc_Rg, S0B0POSLemma: Cc_anume, S0B0Token: și_anume, S0B1Lemma: și_,, S0B1LemmaPOS: și_COMMA, S0B1POS: Cc_COMMA, S0B1POSLemma: Cc_,, S0B1Token: și_,, S0B2Lemma: și_începător, S0B2LemmaPOS: și_Ncmprn, S0B2POS: Cc_Ncmprn, S0B2POSLemma: Cc_începător, S0B2Token: și_începători, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: treptat, B0POS: Afpmsrn, B0Token: treptat, B1Lemma: până, B1POS: Rg, B1Token: până, S0B0Distance: 1, S0B0Lemma: reactivat_treptat, S0B0LemmaPOS: reactivat_Afpmsrn, S0B0POS: Afpfprn_Afpmsrn, S0B0POSLemma: Afpfprn_treptat, S0B0Token: reactivate_treptat, S0B1Lemma: reactivat_până, S0B1LemmaPOS: reactivat_Rg, S0B1POS: Afpfprn_Rg, S0B1POSLemma: Afpfprn_până, S0B1Token: reactivate_până, S0B2Lemma: reactivat_în, S0B2LemmaPOS: reactivat_Sp, S0B2POS: Afpfprn_Sp, S0B2POSLemma: Afpfprn_în, S0B2Token: reactivate_în, S0Lemma: reactivat, S0POS: Afpfprn, S0Token: reactivate, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [anume, ,, începători ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [treptat, până, în ,.. ]
 
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [anume]   B= [,, începători, , ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [treptat]   B= [până, în, 10 ,.. ]
 
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: începător, B1POS: Ncmprn, B1Token: începători, S0B0Distance: 1, S0B0Lemma: anume_,, S0B0LemmaPOS: anume_COMMA, S0B0POS: Rg_COMMA, S0B0POSLemma: Rg_,, S0B0Token: anume_,, S0B1Lemma: anume_începător, S0B1LemmaPOS: anume_Ncmprn, S0B1POS: Rg_Ncmprn, S0B1POSLemma: Rg_începător, S0B1Token: anume_începători, S0B2Lemma: anume_,, S0B2LemmaPOS: anume_COMMA, S0B2POS: Rg_COMMA, S0B2POSLemma: Rg_,, S0B2Token: anume_,, S0Lemma: anume, S0POS: Rg, S0Token: anume, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: până, B0POS: Rg, B0Token: până, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: treptat_până, S0B0LemmaPOS: treptat_Rg, S0B0POS: Afpmsrn_Rg, S0B0POSLemma: Afpmsrn_până, S0B0Token: treptat_până, S0B1Lemma: treptat_în, S0B1LemmaPOS: treptat_Sp, S0B1POS: Afpmsrn_Sp, S0B1POSLemma: Afpmsrn_în, S0B1Token: treptat_în, S0B2Lemma: treptat_10, S0B2LemmaPOS: treptat_M, S0B2POS: Afpmsrn_M, S0B2POSLemma: Afpmsrn_10, S0B2Token: treptat_10, S0Lemma: treptat, S0POS: Afpmsrn, S0Token: treptat, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, începători, , ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [până, în, 10 ,.. ]
 
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [începători, ,, mediu ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [până]   B= [în, 10, mai ,.. ]
 
-B0Lemma: începător, B0POS: Ncmprn, B0Token: începători, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: ,_începător, S0B0LemmaPOS: ,_Ncmprn, S0B0POS: COMMA_Ncmprn, S0B0POSLemma: COMMA_începător, S0B0Token: ,_începători, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_COMMA, S0B1POS: COMMA_COMMA, S0B1POSLemma: COMMA_,, S0B1Token: ,_,, S0B2Lemma: ,_mediu, S0B2LemmaPOS: ,_Afpmsrn, S0B2POS: COMMA_Afpmsrn, S0B2POSLemma: COMMA_mediu, S0B2Token: ,_mediu, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: 10, B1POS: M, B1Token: 10, S0B0Distance: 1, S0B0Lemma: până_în, S0B0LemmaPOS: până_Sp, S0B0POS: Rg_Sp, S0B0POSLemma: Rg_în, S0B0Token: până_în, S0B1Lemma: până_10, S0B1LemmaPOS: până_M, S0B1POS: Rg_M, S0B1POSLemma: Rg_10, S0B1Token: până_10, S0B2Lemma: până_mai, S0B2LemmaPOS: până_Rg, S0B2POS: Rg_Rg, S0B2POSLemma: Rg_mai, S0B2Token: până_mai, S0Lemma: până, S0POS: Rg, S0Token: până, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [începători, ,, mediu ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, 10, mai ,.. ]
 
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [începători]   B= [,, mediu, , ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [10, mai, ( ,.. ]
 
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: mediu, B1POS: Afpmsrn, B1Token: mediu, S0B0Distance: 1, S0B0Lemma: începător_,, S0B0LemmaPOS: începător_COMMA, S0B0POS: Ncmprn_COMMA, S0B0POSLemma: Ncmprn_,, S0B0Token: începători_,, S0B1Lemma: începător_mediu, S0B1LemmaPOS: începător_Afpmsrn, S0B1POS: Ncmprn_Afpmsrn, S0B1POSLemma: Ncmprn_mediu, S0B1Token: începători_mediu, S0B2Lemma: începător_,, S0B2LemmaPOS: începător_COMMA, S0B2POS: Ncmprn_COMMA, S0B2POSLemma: Ncmprn_,, S0B2Token: începători_,, S0Lemma: începător, S0POS: Ncmprn, S0Token: începători, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: 10, B0POS: M, B0Token: 10, B1Lemma: mai, B1POS: Rg, B1Token: mai, S0B0Distance: 1, S0B0Lemma: în_10, S0B0LemmaPOS: în_M, S0B0POS: Sp_M, S0B0POSLemma: Sp_10, S0B0Token: în_10, S0B1Lemma: în_mai, S0B1LemmaPOS: în_Rg, S0B1POS: Sp_Rg, S0B1POSLemma: Sp_mai, S0B1Token: în_mai, S0B2Lemma: în_(, S0B2LemmaPOS: în_LPAR, S0B2POS: Sp_LPAR, S0B2POSLemma: Sp_(, S0B2Token: în_(, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, mediu, , ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [10, mai, ( ,.. ]
 
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [mediu, ,, avansați ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [10]   B= [mai, (, chiar ,.. ]
 
-B0Lemma: mediu, B0POS: Afpmsrn, B0Token: mediu, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: ,_mediu, S0B0LemmaPOS: ,_Afpmsrn, S0B0POS: COMMA_Afpmsrn, S0B0POSLemma: COMMA_mediu, S0B0Token: ,_mediu, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_COMMA, S0B1POS: COMMA_COMMA, S0B1POSLemma: COMMA_,, S0B1Token: ,_,, S0B2Lemma: ,_avansat, S0B2LemmaPOS: ,_Afpmprn, S0B2POS: COMMA_Afpmprn, S0B2POSLemma: COMMA_avansat, S0B2Token: ,_avansați, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: mai, B0POS: Rg, B0Token: mai, B1Lemma: (, B1POS: LPAR, B1Token: (, S0B0Distance: 1, S0B0Lemma: 10_mai, S0B0LemmaPOS: 10_Rg, S0B0POS: M_Rg, S0B0POSLemma: M_mai, S0B0Token: 10_mai, S0B1Lemma: 10_(, S0B1LemmaPOS: 10_LPAR, S0B1POS: M_LPAR, S0B1POSLemma: M_(, S0B1Token: 10_(, S0B2Lemma: 10_chiar, S0B2LemmaPOS: 10_Rg, S0B2POS: M_Rg, S0B2POSLemma: M_chiar, S0B2Token: 10_chiar, S0Lemma: 10, S0POS: M, S0Token: 10, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mediu, ,, avansați ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, (, chiar ,.. ]
 
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mediu]   B= [,, avansați, ) ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [(, chiar, și ,.. ]
 
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: avansat, B1POS: Afpmprn, B1Token: avansați, S0B0Distance: 1, S0B0Lemma: mediu_,, S0B0LemmaPOS: mediu_COMMA, S0B0POS: Afpmsrn_COMMA, S0B0POSLemma: Afpmsrn_,, S0B0Token: mediu_,, S0B1Lemma: mediu_avansat, S0B1LemmaPOS: mediu_Afpmprn, S0B1POS: Afpmsrn_Afpmprn, S0B1POSLemma: Afpmsrn_avansat, S0B1Token: mediu_avansați, S0B2Lemma: mediu_), S0B2LemmaPOS: mediu_RPAR, S0B2POS: Afpmsrn_RPAR, S0B2POSLemma: Afpmsrn_), S0B2Token: mediu_), S0Lemma: mediu, S0POS: Afpmsrn, S0Token: mediu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: (, B0POS: LPAR, B0Token: (, B1Lemma: chiar, B1POS: Rg, B1Token: chiar, S0B0Distance: 1, S0B0Lemma: mai_(, S0B0LemmaPOS: mai_LPAR, S0B0POS: Rg_LPAR, S0B0POSLemma: Rg_(, S0B0Token: mai_(, S0B1Lemma: mai_chiar, S0B1LemmaPOS: mai_Rg, S0B1POS: Rg_Rg, S0B1POSLemma: Rg_chiar, S0B1Token: mai_chiar, S0B2Lemma: mai_și, S0B2LemmaPOS: mai_Cc, S0B2POS: Rg_Cc, S0B2POSLemma: Rg_și, S0B2Token: mai_și, S0Lemma: mai, S0POS: Rg, S0Token: mai, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, avansați, ) ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, chiar, și ,.. ]
 
 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [avansați, ), , ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [chiar, și, mai ,.. ]
 
-B0Lemma: avansat, B0POS: Afpmprn, B0Token: avansați, B1Lemma: ), B1POS: RPAR, B1Token: ), S0B0Distance: 1, S0B0Lemma: ,_avansat, S0B0LemmaPOS: ,_Afpmprn, S0B0POS: COMMA_Afpmprn, S0B0POSLemma: COMMA_avansat, S0B0Token: ,_avansați, S0B1Lemma: ,_), S0B1LemmaPOS: ,_RPAR, S0B1POS: COMMA_RPAR, S0B1POSLemma: COMMA_), S0B1Token: ,_), S0B2Lemma: ,_,, S0B2LemmaPOS: ,_COMMA, S0B2POS: COMMA_COMMA, S0B2POSLemma: COMMA_,, S0B2Token: ,_,, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: chiar, B0POS: Rg, B0Token: chiar, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: (_chiar, S0B0LemmaPOS: (_Rg, S0B0POS: LPAR_Rg, S0B0POSLemma: LPAR_chiar, S0B0Token: (_chiar, S0B1Lemma: (_și, S0B1LemmaPOS: (_Cc, S0B1POS: LPAR_Cc, S0B1POSLemma: LPAR_și, S0B1Token: (_și, S0B2Lemma: (_mai, S0B2LemmaPOS: (_Rg, S0B2POS: LPAR_Rg, S0B2POSLemma: LPAR_mai, S0B2Token: (_mai, S0Lemma: (, S0POS: LPAR, S0Token: (, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [avansați, ), , ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [chiar, și, mai ,.. ]
 
 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [avansați]   B= [), ,, asigurând ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [chiar]   B= [și, mai, devreme ,.. ]
 
-B0Lemma: ), B0POS: RPAR, B0Token: ), B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: avansat_), S0B0LemmaPOS: avansat_RPAR, S0B0POS: Afpmprn_RPAR, S0B0POSLemma: Afpmprn_), S0B0Token: avansați_), S0B1Lemma: avansat_,, S0B1LemmaPOS: avansat_COMMA, S0B1POS: Afpmprn_COMMA, S0B1POSLemma: Afpmprn_,, S0B1Token: avansați_,, S0B2Lemma: avansat_asigura, S0B2LemmaPOS: avansat_Vmg, S0B2POS: Afpmprn_Vmg, S0B2POSLemma: Afpmprn_asigura, S0B2Token: avansați_asigurând, S0Lemma: avansat, S0POS: Afpmprn, S0Token: avansați, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: mai, B1POS: Rg, B1Token: mai, S0B0Distance: 1, S0B0Lemma: chiar_și, S0B0LemmaPOS: chiar_Cc, S0B0POS: Rg_Cc, S0B0POSLemma: Rg_și, S0B0Token: chiar_și, S0B1Lemma: chiar_mai, S0B1LemmaPOS: chiar_Rg, S0B1POS: Rg_Rg, S0B1POSLemma: Rg_mai, S0B1Token: chiar_mai, S0B2Lemma: chiar_devreme, S0B2LemmaPOS: chiar_Rg, S0B2POS: Rg_Rg, S0B2POSLemma: Rg_devreme, S0B2Token: chiar_devreme, S0Lemma: chiar, S0POS: Rg, S0Token: chiar, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), ,, asigurând ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, mai, devreme ,.. ]
 
 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [,, asigurând, inclusiv ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [mai, devreme, ) ,.. ]
 
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: asigura, B1POS: Vmg, B1Token: asigurând, S0B0Distance: 1, S0B0Lemma: )_,, S0B0LemmaPOS: )_COMMA, S0B0POS: RPAR_COMMA, S0B0POSLemma: RPAR_,, S0B0Token: )_,, S0B1Lemma: )_asigura, S0B1LemmaPOS: )_Vmg, S0B1POS: RPAR_Vmg, S0B1POSLemma: RPAR_asigura, S0B1Token: )_asigurând, S0B2Lemma: )_inclusiv, S0B2LemmaPOS: )_Rg, S0B2POS: RPAR_Rg, S0B2POSLemma: RPAR_inclusiv, S0B2Token: )_inclusiv, S0Lemma: ), S0POS: RPAR, S0Token: ), TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: mai, B0POS: Rg, B0Token: mai, B1Lemma: devreme, B1POS: Rg, B1Token: devreme, S0B0Distance: 1, S0B0Lemma: și_mai, S0B0LemmaPOS: și_Rg, S0B0POS: Cc_Rg, S0B0POSLemma: Cc_mai, S0B0Token: și_mai, S0B1Lemma: și_devreme, S0B1LemmaPOS: și_Rg, S0B1POS: Cc_Rg, S0B1POSLemma: Cc_devreme, S0B1Token: și_devreme, S0B2Lemma: și_), S0B2LemmaPOS: și_RPAR, S0B2POS: Cc_RPAR, S0B2POSLemma: Cc_), S0B2Token: și_), S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, asigurând, inclusiv ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, devreme, ) ,.. ]
 
 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [asigurând, inclusiv, pregătire ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [devreme, ), , ,.. ]
 
-B0IsInLexic: true, B0Lemma: asigura, B0POS: Vmg, B0Token: asigurând, B1Lemma: inclusiv, B1POS: Rg, B1Token: inclusiv, S0B0Distance: 1, S0B0Lemma: ,_asigura, S0B0LemmaPOS: ,_Vmg, S0B0POS: COMMA_Vmg, S0B0POSLemma: COMMA_asigura, S0B0Token: ,_asigurând, S0B1Lemma: ,_inclusiv, S0B1LemmaPOS: ,_Rg, S0B1POS: COMMA_Rg, S0B1POSLemma: COMMA_inclusiv, S0B1Token: ,_inclusiv, S0B2Lemma: ,_pregătire, S0B2LemmaPOS: ,_Ncfsrn, S0B2POS: COMMA_Ncfsrn, S0B2POSLemma: COMMA_pregătire, S0B2Token: ,_pregătire, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: devreme, B0POS: Rg, B0Token: devreme, B1Lemma: ), B1POS: RPAR, B1Token: ), S0B0Distance: 1, S0B0Lemma: mai_devreme, S0B0LemmaPOS: mai_Rg, S0B0POS: Rg_Rg, S0B0POSLemma: Rg_devreme, S0B0Token: mai_devreme, S0B1Lemma: mai_), S0B1LemmaPOS: mai_RPAR, S0B1POS: Rg_RPAR, S0B1POSLemma: Rg_), S0B1Token: mai_), S0B2Lemma: mai_,, S0B2LemmaPOS: mai_COMMA, S0B2POS: Rg_COMMA, S0B2POSLemma: Rg_,, S0B2Token: mai_,, S0Lemma: mai, S0POS: Rg, S0Token: mai, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [asigurând, inclusiv, pregătire ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [devreme, ), , ,.. ]
 
 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [asigurând]   B= [inclusiv, pregătire, pentru ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [devreme]   B= [), ,, după ,.. ]
 
-B0Lemma: inclusiv, B0POS: Rg, B0Token: inclusiv, B1Lemma: pregătire, B1POS: Ncfsrn, B1Token: pregătire, S0B0Distance: 1, S0B0Lemma: asigura_inclusiv, S0B0LemmaPOS: asigura_Rg, S0B0POS: Vmg_Rg, S0B0POSLemma: Vmg_inclusiv, S0B0Token: asigurând_inclusiv, S0B1Lemma: asigura_pregătire, S0B1LemmaPOS: asigura_Ncfsrn, S0B1POS: Vmg_Ncfsrn, S0B1POSLemma: Vmg_pregătire, S0B1Token: asigurând_pregătire, S0B2Lemma: asigura_pentru, S0B2LemmaPOS: asigura_Sp, S0B2POS: Vmg_Sp, S0B2POSLemma: Vmg_pentru, S0B2Token: asigurând_pentru, S0IsInLexic: true, S0Lemma: asigura, S0POS: Vmg, S0Token: asigurând, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ), B0POS: RPAR, B0Token: ), B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: devreme_), S0B0LemmaPOS: devreme_RPAR, S0B0POS: Rg_RPAR, S0B0POSLemma: Rg_), S0B0Token: devreme_), S0B1Lemma: devreme_,, S0B1LemmaPOS: devreme_COMMA, S0B1POS: Rg_COMMA, S0B1POSLemma: Rg_,, S0B1Token: devreme_,, S0B2Lemma: devreme_după, S0B2LemmaPOS: devreme_Sp, S0B2POS: Rg_Sp, S0B2POSLemma: Rg_după, S0B2Token: devreme_după, S0Lemma: devreme, S0POS: Rg, S0Token: devreme, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [inclusiv, pregătire, pentru ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), ,, după ,.. ]
 
 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [inclusiv]   B= [pregătire, pentru, examenele ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [,, după, programul ,.. ]
 
-B0Lemma: pregătire, B0POS: Ncfsrn, B0Token: pregătire, B1Lemma: pentru, B1POS: Sp, B1Token: pentru, S0B0Distance: 1, S0B0Lemma: inclusiv_pregătire, S0B0LemmaPOS: inclusiv_Ncfsrn, S0B0POS: Rg_Ncfsrn, S0B0POSLemma: Rg_pregătire, S0B0Token: inclusiv_pregătire, S0B1Lemma: inclusiv_pentru, S0B1LemmaPOS: inclusiv_Sp, S0B1POS: Rg_Sp, S0B1POSLemma: Rg_pentru, S0B1Token: inclusiv_pentru, S0B2Lemma: inclusiv_examen, S0B2LemmaPOS: inclusiv_Ncfpry, S0B2POS: Rg_Ncfpry, S0B2POSLemma: Rg_examen, S0B2Token: inclusiv_examenele, S0Lemma: inclusiv, S0POS: Rg, S0Token: inclusiv, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: după, B1POS: Sp, B1Token: după, S0B0Distance: 1, S0B0Lemma: )_,, S0B0LemmaPOS: )_COMMA, S0B0POS: RPAR_COMMA, S0B0POSLemma: RPAR_,, S0B0Token: )_,, S0B1Lemma: )_după, S0B1LemmaPOS: )_Sp, S0B1POS: RPAR_Sp, S0B1POSLemma: RPAR_după, S0B1Token: )_după, S0B2Lemma: )_program, S0B2LemmaPOS: )_Ncmsry, S0B2POS: RPAR_Ncmsry, S0B2POSLemma: RPAR_program, S0B2Token: )_programul, S0Lemma: ), S0POS: RPAR, S0Token: ), TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pregătire, pentru, examenele ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, după, programul ,.. ]
 
 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pregătire]   B= [pentru, examenele, la ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [după, programul, de ,.. ]
 
-B0Lemma: pentru, B0POS: Sp, B0Token: pentru, B1Lemma: examen, B1POS: Ncfpry, B1Token: examenele, S0B0Distance: 1, S0B0Lemma: pregătire_pentru, S0B0LemmaPOS: pregătire_Sp, S0B0POS: Ncfsrn_Sp, S0B0POSLemma: Ncfsrn_pentru, S0B0Token: pregătire_pentru, S0B1Lemma: pregătire_examen, S0B1LemmaPOS: pregătire_Ncfpry, S0B1POS: Ncfsrn_Ncfpry, S0B1POSLemma: Ncfsrn_examen, S0B1Token: pregătire_examenele, S0B2Lemma: pregătire_la, S0B2LemmaPOS: pregătire_Sp, S0B2POS: Ncfsrn_Sp, S0B2POSLemma: Ncfsrn_la, S0B2Token: pregătire_la, S0Lemma: pregătire, S0POS: Ncfsrn, S0Token: pregătire, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: după, B0POS: Sp, B0Token: după, B1Lemma: program, B1POS: Ncmsry, B1Token: programul, S0B0Distance: 1, S0B0Lemma: ,_după, S0B0LemmaPOS: ,_Sp, S0B0POS: COMMA_Sp, S0B0POSLemma: COMMA_după, S0B0Token: ,_după, S0B1Lemma: ,_program, S0B1LemmaPOS: ,_Ncmsry, S0B1POS: COMMA_Ncmsry, S0B1POSLemma: COMMA_program, S0B1Token: ,_programul, S0B2Lemma: ,_de, S0B2LemmaPOS: ,_Sp, S0B2POS: COMMA_Sp, S0B2POSLemma: COMMA_de, S0B2Token: ,_de, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, examenele, la ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [după, programul, de ,.. ]
 
 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [examenele, la, institutul ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [după]   B= [programul, de, lucru ,.. ]
 
-B0Lemma: examen, B0POS: Ncfpry, B0Token: examenele, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: pentru_examen, S0B0LemmaPOS: pentru_Ncfpry, S0B0POS: Sp_Ncfpry, S0B0POSLemma: Sp_examen, S0B0Token: pentru_examenele, S0B1Lemma: pentru_la, S0B1LemmaPOS: pentru_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_la, S0B1Token: pentru_la, S0B2Lemma: pentru_institut, S0B2LemmaPOS: pentru_Ncmsry, S0B2POS: Sp_Ncmsry, S0B2POSLemma: Sp_institut, S0B2Token: pentru_institutul, S0Lemma: pentru, S0POS: Sp, S0Token: pentru, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: program, B0POS: Ncmsry, B0Token: programul, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: după_program, S0B0LemmaPOS: după_Ncmsry, S0B0POS: Sp_Ncmsry, S0B0POSLemma: Sp_program, S0B0Token: după_programul, S0B1Lemma: după_de, S0B1LemmaPOS: după_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_de, S0B1Token: după_de, S0B2Lemma: după_lucru, S0B2LemmaPOS: după_Ncmsrn, S0B2POS: Sp_Ncmsrn, S0B2POSLemma: Sp_lucru, S0B2Token: după_lucru, S0Lemma: după, S0POS: Sp, S0Token: după, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [examenele, la, institutul ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [programul, de, lucru ,.. ]
 
 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [examenele]   B= [la, institutul, goethe ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [programul]   B= [de, lucru, din ,.. ]
 
-B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: institut, B1POS: Ncmsry, B1Token: institutul, S0B0Distance: 1, S0B0Lemma: examen_la, S0B0LemmaPOS: examen_Sp, S0B0POS: Ncfpry_Sp, S0B0POSLemma: Ncfpry_la, S0B0Token: examenele_la, S0B1Lemma: examen_institut, S0B1LemmaPOS: examen_Ncmsry, S0B1POS: Ncfpry_Ncmsry, S0B1POSLemma: Ncfpry_institut, S0B1Token: examenele_institutul, S0B2Lemma: examen_Goethe, S0B2LemmaPOS: examen_Npmsrn, S0B2POS: Ncfpry_Npmsrn, S0B2POSLemma: Ncfpry_Goethe, S0B2Token: examenele_goethe, S0Lemma: examen, S0POS: Ncfpry, S0Token: examenele, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: lucru, B1POS: Ncmsrn, B1Token: lucru, S0B0Distance: 1, S0B0Lemma: program_de, S0B0LemmaPOS: program_Sp, S0B0POS: Ncmsry_Sp, S0B0POSLemma: Ncmsry_de, S0B0Token: programul_de, S0B1Lemma: program_lucru, S0B1LemmaPOS: program_Ncmsrn, S0B1POS: Ncmsry_Ncmsrn, S0B1POSLemma: Ncmsry_lucru, S0B1Token: programul_lucru, S0B2Lemma: program_din, S0B2LemmaPOS: program_Sp, S0B2POS: Ncmsry_Sp, S0B2POSLemma: Ncmsry_din, S0B2Token: programul_din, S0Lemma: program, S0POS: Ncmsry, S0Token: programul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, institutul, goethe ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, lucru, din ,.. ]
 
 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [institutul, goethe, inter ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [lucru, din, incinta ,.. ]
 
-B0Lemma: institut, B0POS: Ncmsry, B0Token: institutul, B1Lemma: Goethe, B1POS: Npmsrn, B1Token: goethe, S0B0Distance: 1, S0B0Lemma: la_institut, S0B0LemmaPOS: la_Ncmsry, S0B0POS: Sp_Ncmsry, S0B0POSLemma: Sp_institut, S0B0Token: la_institutul, S0B1Lemma: la_Goethe, S0B1LemmaPOS: la_Npmsrn, S0B1POS: Sp_Npmsrn, S0B1POSLemma: Sp_Goethe, S0B1Token: la_goethe, S0B2Lemma: la_inter, S0B2LemmaPOS: la_Ncmsrn, S0B2POS: Sp_Ncmsrn, S0B2POSLemma: Sp_inter, S0B2Token: la_inter, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: lucru, B0POS: Ncmsrn, B0Token: lucru, B1IsInLexic: true, B1Lemma: din, B1POS: Sp, B1Token: din, S0B0Distance: 1, S0B0Lemma: de_lucru, S0B0LemmaPOS: de_Ncmsrn, S0B0POS: Sp_Ncmsrn, S0B0POSLemma: Sp_lucru, S0B0Token: de_lucru, S0B1Lemma: de_din, S0B1LemmaPOS: de_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_din, S0B1Token: de_din, S0B2Lemma: de_incintă, S0B2LemmaPOS: de_Ncfsry, S0B2POS: Sp_Ncfsry, S0B2POSLemma: Sp_incintă, S0B2Token: de_incinta, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [institutul, goethe, inter ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lucru, din, incinta ,.. ]
 
 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [institutul]   B= [goethe, inter, nationes ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lucru]   B= [din, incinta, în ,.. ]
 
-B0Lemma: Goethe, B0POS: Npmsrn, B0Token: goethe, B1Lemma: inter, B1POS: Ncmsrn, B1Token: inter, S0B0Distance: 1, S0B0Lemma: institut_Goethe, S0B0LemmaPOS: institut_Npmsrn, S0B0POS: Ncmsry_Npmsrn, S0B0POSLemma: Ncmsry_Goethe, S0B0Token: institutul_goethe, S0B1Lemma: institut_inter, S0B1LemmaPOS: institut_Ncmsrn, S0B1POS: Ncmsry_Ncmsrn, S0B1POSLemma: Ncmsry_inter, S0B1Token: institutul_inter, S0B2Lemma: institut_Nationes, S0B2LemmaPOS: institut_Npmsrn, S0B2POS: Ncmsry_Npmsrn, S0B2POSLemma: Ncmsry_Nationes, S0B2Token: institutul_nationes, S0Lemma: institut, S0POS: Ncmsry, S0Token: institutul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: din, B0POS: Sp, B0Token: din, B1Lemma: incintă, B1POS: Ncfsry, B1Token: incinta, S0B0Distance: 1, S0B0Lemma: lucru_din, S0B0LemmaPOS: lucru_Sp, S0B0POS: Ncmsrn_Sp, S0B0POSLemma: Ncmsrn_din, S0B0Token: lucru_din, S0B1Lemma: lucru_incintă, S0B1LemmaPOS: lucru_Ncfsry, S0B1POS: Ncmsrn_Ncfsry, S0B1POSLemma: Ncmsrn_incintă, S0B1Token: lucru_incinta, S0B2Lemma: lucru_în, S0B2LemmaPOS: lucru_Sp, S0B2POS: Ncmsrn_Sp, S0B2POSLemma: Ncmsrn_în, S0B2Token: lucru_în, S0Lemma: lucru, S0POS: Ncmsrn, S0Token: lucru, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [goethe, inter, nationes ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, incinta, în ,.. ]
 
 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [goethe]   B= [inter, nationes, din ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [incinta, în, care ,.. ]
 
-B0Lemma: inter, B0POS: Ncmsrn, B0Token: inter, B1Lemma: Nationes, B1POS: Npmsrn, B1Token: nationes, S0B0Distance: 1, S0B0Lemma: Goethe_inter, S0B0LemmaPOS: Goethe_Ncmsrn, S0B0POS: Npmsrn_Ncmsrn, S0B0POSLemma: Npmsrn_inter, S0B0Token: goethe_inter, S0B1Lemma: Goethe_Nationes, S0B1LemmaPOS: Goethe_Npmsrn, S0B1POS: Npmsrn_Npmsrn, S0B1POSLemma: Npmsrn_Nationes, S0B1Token: goethe_nationes, S0B2Lemma: Goethe_din, S0B2LemmaPOS: Goethe_Sp, S0B2POS: Npmsrn_Sp, S0B2POSLemma: Npmsrn_din, S0B2Token: goethe_din, S0Lemma: Goethe, S0POS: Npmsrn, S0Token: goethe, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: incintă, B0POS: Ncfsry, B0Token: incinta, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: din_incintă, S0B0LemmaPOS: din_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_incintă, S0B0Token: din_incinta, S0B1Lemma: din_în, S0B1LemmaPOS: din_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_în, S0B1Token: din_în, S0B2Lemma: din_care, S0B2LemmaPOS: din_Pw3--r, S0B2POS: Sp_Pw3--r, S0B2POSLemma: Sp_care, S0B2Token: din_care, S0IsInLexic: true, S0Lemma: din, S0POS: Sp, S0Token: din, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [inter, nationes, din ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [incinta, în, care ,.. ]
 
 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [inter]   B= [nationes, din, bucurești ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [incinta]   B= [în, care, se ,.. ]
 
-B0Lemma: Nationes, B0POS: Npmsrn, B0Token: nationes, B1IsInLexic: true, B1Lemma: din, B1POS: Sp, B1Token: din, S0B0Distance: 1, S0B0Lemma: inter_Nationes, S0B0LemmaPOS: inter_Npmsrn, S0B0POS: Ncmsrn_Npmsrn, S0B0POSLemma: Ncmsrn_Nationes, S0B0Token: inter_nationes, S0B1Lemma: inter_din, S0B1LemmaPOS: inter_Sp, S0B1POS: Ncmsrn_Sp, S0B1POSLemma: Ncmsrn_din, S0B1Token: inter_din, S0B2Lemma: inter_bucurești, S0B2LemmaPOS: inter_Np, S0B2POS: Ncmsrn_Np, S0B2POSLemma: Ncmsrn_bucurești, S0B2Token: inter_bucurești, S0Lemma: inter, S0POS: Ncmsrn, S0Token: inter, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: care, B1POS: Pw3--r, B1Token: care, S0B0Distance: 1, S0B0Lemma: incintă_în, S0B0LemmaPOS: incintă_Sp, S0B0POS: Ncfsry_Sp, S0B0POSLemma: Ncfsry_în, S0B0Token: incinta_în, S0B1Lemma: incintă_care, S0B1LemmaPOS: incintă_Pw3--r, S0B1POS: Ncfsry_Pw3--r, S0B1POSLemma: Ncfsry_care, S0B1Token: incinta_care, S0B2Lemma: incintă_sine, S0B2LemmaPOS: incintă_Px3--r, S0B2POS: Ncfsry_Px3--r, S0B2POSLemma: Ncfsry_sine, S0B2Token: incinta_se, S0Lemma: incintă, S0POS: Ncfsry, S0Token: incinta, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nationes, din, bucurești ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, care, se ,.. ]
 
 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nationes]   B= [din, bucurești, , ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [care, se, află ,.. ]
 
-B0IsInLexic: true, B0Lemma: din, B0POS: Sp, B0Token: din, B1Lemma: bucurești, B1POS: Np, B1Token: bucurești, S0B0Distance: 1, S0B0Lemma: Nationes_din, S0B0LemmaPOS: Nationes_Sp, S0B0POS: Npmsrn_Sp, S0B0POSLemma: Npmsrn_din, S0B0Token: nationes_din, S0B1Lemma: Nationes_bucurești, S0B1LemmaPOS: Nationes_Np, S0B1POS: Npmsrn_Np, S0B1POSLemma: Npmsrn_bucurești, S0B1Token: nationes_bucurești, S0B2Lemma: Nationes_,, S0B2LemmaPOS: Nationes_COMMA, S0B2POS: Npmsrn_COMMA, S0B2POSLemma: Npmsrn_,, S0B2Token: nationes_,, S0Lemma: Nationes, S0POS: Npmsrn, S0Token: nationes, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: care, B0POS: Pw3--r, B0Token: care, B1IsInLexic: true, B1Lemma: sine, B1POS: Px3--r, B1Token: se, S0B0Distance: 1, S0B0Lemma: în_care, S0B0LemmaPOS: în_Pw3--r, S0B0POS: Sp_Pw3--r, S0B0POSLemma: Sp_care, S0B0Token: în_care, S0B1Lemma: în_sine, S0B1LemmaPOS: în_Px3--r, S0B1POS: Sp_Px3--r, S0B1POSLemma: Sp_sine, S0B1Token: în_se, S0B2Lemma: în_afla, S0B2LemmaPOS: în_Vmis3s, S0B2POS: Sp_Vmis3s, S0B2POSLemma: Sp_afla, S0B2Token: în_află, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, bucurești, , ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [care, se, află ,.. ]
 
 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [bucurești, ,, și ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [care]   B= [se, află, postate ,.. ]
 
-B0Lemma: bucurești, B0POS: Np, B0Token: bucurești, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: din_bucurești, S0B0LemmaPOS: din_Np, S0B0POS: Sp_Np, S0B0POSLemma: Sp_bucurești, S0B0Token: din_bucurești, S0B1Lemma: din_,, S0B1LemmaPOS: din_COMMA, S0B1POS: Sp_COMMA, S0B1POSLemma: Sp_,, S0B1Token: din_,, S0B2Lemma: din_și, S0B2LemmaPOS: din_Cc, S0B2POS: Sp_Cc, S0B2POSLemma: Sp_și, S0B2Token: din_și, S0IsInLexic: true, S0Lemma: din, S0POS: Sp, S0Token: din, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: sine, B0POS: Px3--r, B0Token: se, B1IsInLexic: true, B1Lemma: afla, B1POS: Vmis3s, B1Token: află, S0B0Distance: 1, S0B0Lemma: care_sine, S0B0LemmaPOS: care_Px3--r, S0B0POS: Pw3--r_Px3--r, S0B0POSLemma: Pw3--r_sine, S0B0Token: care_se, S0B1Lemma: care_afla, S0B1LemmaPOS: care_Vmis3s, S0B1POS: Pw3--r_Vmis3s, S0B1POSLemma: Pw3--r_afla, S0B1Token: care_află, S0B2Lemma: care_postat, S0B2LemmaPOS: care_Afpfprn, S0B2POS: Pw3--r_Afpfprn, S0B2POSLemma: Pw3--r_postat, S0B2Token: care_postate, S0Lemma: care, S0POS: Pw3--r, S0Token: care, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bucurești, ,, și ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, află, postate ,.. ]
 
 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bucurești]   B= [,, și, se ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [află, postate, . ,.. ]
 
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: bucurești_,, S0B0LemmaPOS: bucurești_COMMA, S0B0POS: Np_COMMA, S0B0POSLemma: Np_,, S0B0Token: bucurești_,, S0B1Lemma: bucurești_și, S0B1LemmaPOS: bucurești_Cc, S0B1POS: Np_Cc, S0B1POSLemma: Np_și, S0B1Token: bucurești_și, S0B2Lemma: bucurești_sine, S0B2LemmaPOS: bucurești_Px3--r, S0B2POS: Np_Px3--r, S0B2POSLemma: Np_sine, S0B2Token: bucurești_se, S0Lemma: bucurești, S0POS: Np, S0Token: bucurești, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0IsInLexic: true, B0Lemma: afla, B0POS: Vmis3s, B0Token: află, B1Lemma: postat, B1POS: Afpfprn, B1Token: postate, S0B0Distance: 1, S0B0Lemma: sine_afla, S0B0LemmaPOS: sine_Vmis3s, S0B0POS: Px3--r_Vmis3s, S0B0POSLemma: Px3--r_afla, S0B0Token: se_află, S0B1Lemma: sine_postat, S0B1LemmaPOS: sine_Afpfprn, S0B1POS: Px3--r_Afpfprn, S0B1POSLemma: Px3--r_postat, S0B1Token: se_postate, S0B2Lemma: sine_., S0B2LemmaPOS: sine_PERIOD, S0B2POS: Px3--r_PERIOD, S0B2POSLemma: Px3--r_., S0B2Token: se_., S0IsInLexic: true, S0Lemma: sine, S0POS: Px3--r, S0Token: se, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, și, se ,.. ]
+64- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, află]   B= [postate, . ,.. ]
 
+B0Lemma: postat, B0POS: Afpfprn, B0Token: postate, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: afla_postat, S0B0LemmaPOS: afla_Afpfprn, S0B0POS: Vmis3s_Afpfprn, S0B0POSLemma: Vmis3s_postat, S0B0Token: află_postate, S0B1Lemma: afla_., S0B1LemmaPOS: afla_PERIOD, S0B1POS: Vmis3s_PERIOD, S0B1POSLemma: Vmis3s_., S0B1Token: află_., S0IsInLexic: true, S0Lemma: afla, S0POS: Vmis3s, S0S1Distance: 1, S0Token: află, S1B0Lemma: sine_postat, S1B0LemmaPOS: sine_Afpfprn, S1B0POS: Px3--r_Afpfprn, S1B0POSLemma: Px3--r_postat, S1B0Token: se_postate, S1IsInLexic: true, S1Lemma: sine, S1POS: Px3--r, S1S0B0Lemma: sine_afla_postat, S1S0B0LemmaPOS: sine_Vmis3s_Afpfprn, S1S0B0POS: Px3--r_Vmis3s_Afpfprn, S1S0B0POSLemma: Px3--r_Vmis3s_postat, S1S0B0Token: se_află_postate, S1S0Lemma: sine_afla, S1S0LemmaPOS: sine_Vmis3s, S1S0POS: Px3--r_Vmis3s, S1S0POSLemma: Px3--r_afla, S1S0Token: se_află, S1Token: se, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
 
+65- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, află]]   B= [postate, . ,.. ]
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [și, se, desfășoară ,.. ]
 
-B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1IsInLexic: true, B1Lemma: sine, B1POS: Px3--r, B1Token: se, S0B0Distance: 1, S0B0Lemma: ,_și, S0B0LemmaPOS: ,_Cc, S0B0POS: COMMA_Cc, S0B0POSLemma: COMMA_și, S0B0Token: ,_și, S0B1Lemma: ,_sine, S0B1LemmaPOS: ,_Px3--r, S0B1POS: COMMA_Px3--r, S0B1POSLemma: COMMA_sine, S0B1Token: ,_se, S0B2Lemma: ,_desfășura, S0B2LemmaPOS: ,_Vmip3p, S0B2POS: COMMA_Vmip3p, S0B2POSLemma: COMMA_desfășura, S0B2Token: ,_desfășoară, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, se, desfășoară ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [postate, . ,.. ]
 
 
 
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [se, desfășoară, în ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [postate]   B= [.]
 
-B0IsInLexic: true, B0Lemma: sine, B0POS: Px3--r, B0Token: se, B1IsInLexic: true, B1Lemma: desfășura, B1POS: Vmip3p, B1Token: desfășoară, S0B0Distance: 1, S0B0Lemma: și_sine, S0B0LemmaPOS: și_Px3--r, S0B0POS: Cc_Px3--r, S0B0POSLemma: Cc_sine, S0B0Token: și_se, S0B1Lemma: și_desfășura, S0B1LemmaPOS: și_Vmip3p, S0B1POS: Cc_Vmip3p, S0B1POSLemma: Cc_desfășura, S0B1Token: și_desfășoară, S0B2Lemma: și_în, S0B2LemmaPOS: și_Sp, S0B2POS: Cc_Sp, S0B2POSLemma: Cc_în, S0B2Token: și_în, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: postat_., S0B0LemmaPOS: postat_PERIOD, S0B0POS: Afpfprn_PERIOD, S0B0POSLemma: Afpfprn_., S0B0Token: postate_., S0Lemma: postat, S0POS: Afpfprn, S0Token: postate, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
 
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, desfășoară, în ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
 
 
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [desfășoară, în, regim ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-B0IsInLexic: true, B0Lemma: desfășura, B0POS: Vmip3p, B0Token: desfășoară, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: sine_desfășura, S0B0LemmaPOS: sine_Vmip3p, S0B0POS: Px3--r_Vmip3p, S0B0POSLemma: Px3--r_desfășura, S0B0Token: se_desfășoară, S0B1Lemma: sine_în, S0B1LemmaPOS: sine_Sp, S0B1POS: Px3--r_Sp, S0B1POSLemma: Px3--r_în, S0B1Token: se_în, S0B2Lemma: sine_regim, S0B2LemmaPOS: sine_Ncmsrn, S0B2POS: Px3--r_Ncmsrn, S0B2POSLemma: Px3--r_regim, S0B2Token: se_regim, S0IsInLexic: true, S0Lemma: sine, S0POS: Px3--r, S0Token: se, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
 
-70- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, desfășoară]   B= [în, regim, normal ,.. ]
 
-B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: regim, B1POS: Ncmsrn, B1Token: regim, S0B0Distance: 1, S0B0Lemma: desfășura_în, S0B0LemmaPOS: desfășura_Sp, S0B0POS: Vmip3p_Sp, S0B0POSLemma: Vmip3p_în, S0B0Token: desfășoară_în, S0B1Lemma: desfășura_regim, S0B1LemmaPOS: desfășura_Ncmsrn, S0B1POS: Vmip3p_Ncmsrn, S0B1POSLemma: Vmip3p_regim, S0B1Token: desfășoară_regim, S0B2Lemma: desfășura_normal, S0B2LemmaPOS: desfășura_Afpmsrn, S0B2POS: Vmip3p_Afpmsrn, S0B2POSLemma: Vmip3p_normal, S0B2Token: desfășoară_normal, S0IsInLexic: true, S0Lemma: desfășura, S0POS: Vmip3p, S0S1Distance: 1, S0Token: desfășoară, S1B0Lemma: sine_în, S1B0LemmaPOS: sine_Sp, S1B0POS: Px3--r_Sp, S1B0POSLemma: Px3--r_în, S1B0Token: se_în, S1IsInLexic: true, S1Lemma: sine, S1POS: Px3--r, S1S0B0Lemma: sine_desfășura_în, S1S0B0LemmaPOS: sine_Vmip3p_Sp, S1S0B0POS: Px3--r_Vmip3p_Sp, S1S0B0POSLemma: Px3--r_Vmip3p_în, S1S0B0Token: se_desfășoară_în, S1S0Lemma: sine_desfășura, S1S0LemmaPOS: sine_Vmip3p, S1S0POS: Px3--r_Vmip3p, S1S0POSLemma: Px3--r_desfășura, S1S0Token: se_desfășoară, S1Token: se, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-71- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, desfășoară]]   B= [în, regim, normal ,.. ]
-
-
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, regim, normal ,.. ]
-
-
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [regim, normal, sau ,.. ]
-
-B0Lemma: regim, B0POS: Ncmsrn, B0Token: regim, B1Lemma: normal, B1POS: Afpmsrn, B1Token: normal, S0B0Distance: 1, S0B0Lemma: în_regim, S0B0LemmaPOS: în_Ncmsrn, S0B0POS: Sp_Ncmsrn, S0B0POSLemma: Sp_regim, S0B0Token: în_regim, S0B1Lemma: în_normal, S0B1LemmaPOS: în_Afpmsrn, S0B1POS: Sp_Afpmsrn, S0B1POSLemma: Sp_normal, S0B1Token: în_normal, S0B2Lemma: în_sau, S0B2LemmaPOS: în_Cs, S0B2POS: Sp_Cs, S0B2POSLemma: Sp_sau, S0B2Token: în_sau, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [regim, normal, sau ,.. ]
-
-
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [regim]   B= [normal, sau, intensiv ,.. ]
-
-B0Lemma: normal, B0POS: Afpmsrn, B0Token: normal, B1Lemma: sau, B1POS: Cs, B1Token: sau, S0B0Distance: 1, S0B0Lemma: regim_normal, S0B0LemmaPOS: regim_Afpmsrn, S0B0POS: Ncmsrn_Afpmsrn, S0B0POSLemma: Ncmsrn_normal, S0B0Token: regim_normal, S0B1Lemma: regim_sau, S0B1LemmaPOS: regim_Cs, S0B1POS: Ncmsrn_Cs, S0B1POSLemma: Ncmsrn_sau, S0B1Token: regim_sau, S0B2Lemma: regim_intensiv, S0B2LemmaPOS: regim_Afpmsrn, S0B2POS: Ncmsrn_Afpmsrn, S0B2POSLemma: Ncmsrn_intensiv, S0B2Token: regim_intensiv, S0Lemma: regim, S0POS: Ncmsrn, S0Token: regim, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [normal, sau, intensiv ,.. ]
-
-
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [normal]   B= [sau, intensiv, . ,.. ]
-
-B0Lemma: sau, B0POS: Cs, B0Token: sau, B1Lemma: intensiv, B1POS: Afpmsrn, B1Token: intensiv, S0B0Distance: 1, S0B0Lemma: normal_sau, S0B0LemmaPOS: normal_Cs, S0B0POS: Afpmsrn_Cs, S0B0POSLemma: Afpmsrn_sau, S0B0Token: normal_sau, S0B1Lemma: normal_intensiv, S0B1LemmaPOS: normal_Afpmsrn, S0B1POS: Afpmsrn_Afpmsrn, S0B1POSLemma: Afpmsrn_intensiv, S0B1Token: normal_intensiv, S0B2Lemma: normal_., S0B2LemmaPOS: normal_PERIOD, S0B2POS: Afpmsrn_PERIOD, S0B2POSLemma: Afpmsrn_., S0B2Token: normal_., S0Lemma: normal, S0POS: Afpmsrn, S0Token: normal, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sau, intensiv, . ,.. ]
-
-
-
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sau]   B= [intensiv, . ,.. ]
-
-B0Lemma: intensiv, B0POS: Afpmsrn, B0Token: intensiv, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: sau_intensiv, S0B0LemmaPOS: sau_Afpmsrn, S0B0POS: Cs_Afpmsrn, S0B0POSLemma: Cs_intensiv, S0B0Token: sau_intensiv, S0B1Lemma: sau_., S0B1LemmaPOS: sau_PERIOD, S0B1POS: Cs_PERIOD, S0B1POSLemma: Cs_., S0B1Token: sau_., S0Lemma: sau, S0POS: Cs, S0Token: sau, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [intensiv, . ,.. ]
-
-
-
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [intensiv]   B= [.]
-
-B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: intensiv_., S0B0LemmaPOS: intensiv_PERIOD, S0B0POS: Afpmsrn_PERIOD, S0B0POSLemma: Afpmsrn_., S0B0Token: intensiv_., S0Lemma: intensiv, S0POS: Afpmsrn, S0Token: intensiv, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 5130 - 
-„ amfitrioana de suflet “ a evenimentului , după cum s - a autodefinit , a fost actrița adriana trandafir , care i - a introdus pe invitații la show : 
-### Existing MWEs: 
-1- **s autodefinit** (IReflV)
-### Identified MWEs: 
-1- **s** 
-
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [„, amfitrioana, de ,.. ]
-
-
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [„]   B= [amfitrioana, de, suflet ,.. ]
-
-B0Lemma: amfitrioană, B0POS: Ncfsry, B0Token: amfitrioana, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: ”_amfitrioană, S0B0LemmaPOS: ”_Ncfsry, S0B0POS: DBLQ_Ncfsry, S0B0POSLemma: DBLQ_amfitrioană, S0B0Token: „_amfitrioana, S0B1Lemma: ”_de, S0B1LemmaPOS: ”_Sp, S0B1POS: DBLQ_Sp, S0B1POSLemma: DBLQ_de, S0B1Token: „_de, S0B2Lemma: ”_suflet, S0B2LemmaPOS: ”_Ncmsrn, S0B2POS: DBLQ_Ncmsrn, S0B2POSLemma: DBLQ_suflet, S0B2Token: „_suflet, S0Lemma: ”, S0POS: DBLQ, S0Token: „, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [amfitrioana, de, suflet ,.. ]
-
-
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [amfitrioana]   B= [de, suflet, “ ,.. ]
-
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: suflet, B1POS: Ncmsrn, B1Token: suflet, S0B0Distance: 1, S0B0Lemma: amfitrioană_de, S0B0LemmaPOS: amfitrioană_Sp, S0B0POS: Ncfsry_Sp, S0B0POSLemma: Ncfsry_de, S0B0Token: amfitrioana_de, S0B1Lemma: amfitrioană_suflet, S0B1LemmaPOS: amfitrioană_Ncmsrn, S0B1POS: Ncfsry_Ncmsrn, S0B1POSLemma: Ncfsry_suflet, S0B1Token: amfitrioana_suflet, S0B2Lemma: amfitrioană_“, S0B2LemmaPOS: amfitrioană_Afpfprn, S0B2POS: Ncfsry_Afpfprn, S0B2POSLemma: Ncfsry_“, S0B2Token: amfitrioana_“, S0Lemma: amfitrioană, S0POS: Ncfsry, S0Token: amfitrioana, TransHistory1: 2, TransHistory2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, suflet, “ ,.. ]
-
-
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [suflet, “, a ,.. ]
-
-B0Lemma: suflet, B0POS: Ncmsrn, B0Token: suflet, B1Lemma: “, B1POS: Afpfprn, B1Token: “, S0B0Distance: 1, S0B0Lemma: de_suflet, S0B0LemmaPOS: de_Ncmsrn, S0B0POS: Sp_Ncmsrn, S0B0POSLemma: Sp_suflet, S0B0Token: de_suflet, S0B1Lemma: de_“, S0B1LemmaPOS: de_Afpfprn, S0B1POS: Sp_Afpfprn, S0B1POSLemma: Sp_“, S0B1Token: de_“, S0B2Lemma: de_al, S0B2LemmaPOS: de_Tsfsr, S0B2POS: Sp_Tsfsr, S0B2POSLemma: Sp_al, S0B2Token: de_a, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [suflet, “, a ,.. ]
-
-
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [suflet]   B= [“, a, evenimentului ,.. ]
-
-B0Lemma: “, B0POS: Afpfprn, B0Token: “, B1Lemma: al, B1POS: Tsfsr, B1Token: a, S0B0Distance: 1, S0B0Lemma: suflet_“, S0B0LemmaPOS: suflet_Afpfprn, S0B0POS: Ncmsrn_Afpfprn, S0B0POSLemma: Ncmsrn_“, S0B0Token: suflet_“, S0B1Lemma: suflet_al, S0B1LemmaPOS: suflet_Tsfsr, S0B1POS: Ncmsrn_Tsfsr, S0B1POSLemma: Ncmsrn_al, S0B1Token: suflet_a, S0B2Lemma: suflet_eveniment, S0B2LemmaPOS: suflet_Ncmsoy, S0B2POS: Ncmsrn_Ncmsoy, S0B2POSLemma: Ncmsrn_eveniment, S0B2Token: suflet_evenimentului, S0Lemma: suflet, S0POS: Ncmsrn, S0Token: suflet, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, a, evenimentului ,.. ]
-
-
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [a, evenimentului, , ,.. ]
-
-B0Lemma: al, B0POS: Tsfsr, B0Token: a, B1Lemma: eveniment, B1POS: Ncmsoy, B1Token: evenimentului, S0B0Distance: 1, S0B0Lemma: “_al, S0B0LemmaPOS: “_Tsfsr, S0B0POS: Afpfprn_Tsfsr, S0B0POSLemma: Afpfprn_al, S0B0Token: “_a, S0B1Lemma: “_eveniment, S0B1LemmaPOS: “_Ncmsoy, S0B1POS: Afpfprn_Ncmsoy, S0B1POSLemma: Afpfprn_eveniment, S0B1Token: “_evenimentului, S0B2Lemma: “_,, S0B2LemmaPOS: “_COMMA, S0B2POS: Afpfprn_COMMA, S0B2POSLemma: Afpfprn_,, S0B2Token: “_,, S0Lemma: “, S0POS: Afpfprn, S0Token: “, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, evenimentului, , ,.. ]
-
-
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [evenimentului, ,, după ,.. ]
-
-B0Lemma: eveniment, B0POS: Ncmsoy, B0Token: evenimentului, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: al_eveniment, S0B0LemmaPOS: al_Ncmsoy, S0B0POS: Tsfsr_Ncmsoy, S0B0POSLemma: Tsfsr_eveniment, S0B0Token: a_evenimentului, S0B1Lemma: al_,, S0B1LemmaPOS: al_COMMA, S0B1POS: Tsfsr_COMMA, S0B1POSLemma: Tsfsr_,, S0B1Token: a_,, S0B2Lemma: al_după, S0B2LemmaPOS: al_Sp, S0B2POS: Tsfsr_Sp, S0B2POSLemma: Tsfsr_după, S0B2Token: a_după, S0Lemma: al, S0POS: Tsfsr, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [evenimentului, ,, după ,.. ]
-
-
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [evenimentului]   B= [,, după, cum ,.. ]
-
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: după, B1POS: Sp, B1Token: după, S0B0Distance: 1, S0B0Lemma: eveniment_,, S0B0LemmaPOS: eveniment_COMMA, S0B0POS: Ncmsoy_COMMA, S0B0POSLemma: Ncmsoy_,, S0B0Token: evenimentului_,, S0B1Lemma: eveniment_după, S0B1LemmaPOS: eveniment_Sp, S0B1POS: Ncmsoy_Sp, S0B1POSLemma: Ncmsoy_după, S0B1Token: evenimentului_după, S0B2Lemma: eveniment_cum, S0B2LemmaPOS: eveniment_Rg, S0B2POS: Ncmsoy_Rg, S0B2POSLemma: Ncmsoy_cum, S0B2Token: evenimentului_cum, S0Lemma: eveniment, S0POS: Ncmsoy, S0Token: evenimentului, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, după, cum ,.. ]
-
-
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [după, cum, s ,.. ]
-
-B0Lemma: după, B0POS: Sp, B0Token: după, B1Lemma: cum, B1POS: Rg, B1Token: cum, S0B0Distance: 1, S0B0Lemma: ,_după, S0B0LemmaPOS: ,_Sp, S0B0POS: COMMA_Sp, S0B0POSLemma: COMMA_după, S0B0Token: ,_după, S0B1Lemma: ,_cum, S0B1LemmaPOS: ,_Rg, S0B1POS: COMMA_Rg, S0B1POSLemma: COMMA_cum, S0B1Token: ,_cum, S0B2Lemma: ,_s, S0B2LemmaPOS: ,_Ncmprn, S0B2POS: COMMA_Ncmprn, S0B2POSLemma: COMMA_s, S0B2Token: ,_s, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [după, cum, s ,.. ]
-
-
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [după]   B= [cum, s, - ,.. ]
-
-B0Lemma: cum, B0POS: Rg, B0Token: cum, B1IsInLexic: true, B1Lemma: s, B1POS: Ncmprn, B1Token: s, S0B0Distance: 1, S0B0Lemma: după_cum, S0B0LemmaPOS: după_Rg, S0B0POS: Sp_Rg, S0B0POSLemma: Sp_cum, S0B0Token: după_cum, S0B1Lemma: după_s, S0B1LemmaPOS: după_Ncmprn, S0B1POS: Sp_Ncmprn, S0B1POSLemma: Sp_s, S0B1Token: după_s, S0B2Lemma: după_-, S0B2LemmaPOS: după_DASH, S0B2POS: Sp_DASH, S0B2POSLemma: Sp_-, S0B2Token: după_-, S0Lemma: după, S0POS: Sp, S0Token: după, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cum, s, - ,.. ]
-
-
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cum]   B= [s, -, a ,.. ]
-
-B0IsInLexic: true, B0Lemma: s, B0POS: Ncmprn, B0Token: s, B1IsInLexic: true, B1Lemma: -, B1POS: DASH, B1Token: -, S0B0Distance: 1, S0B0Lemma: cum_s, S0B0LemmaPOS: cum_Ncmprn, S0B0POS: Rg_Ncmprn, S0B0POSLemma: Rg_s, S0B0Token: cum_s, S0B1Lemma: cum_-, S0B1LemmaPOS: cum_DASH, S0B1POS: Rg_DASH, S0B1POSLemma: Rg_-, S0B1Token: cum_-, S0B2Lemma: cum_avea, S0B2LemmaPOS: cum_Vaip3s, S0B2POS: Rg_Vaip3s, S0B2POSLemma: Rg_avea, S0B2Token: cum_a, S0Lemma: cum, S0POS: Rg, S0Token: cum, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, a ,.. ]
-
-
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, a, autodefinit ,.. ]
-
-B0IsInLexic: true, B0Lemma: -, B0POS: DASH, B0Token: -, B1IsInLexic: true, B1Lemma: avea, B1POS: Vaip3s, B1Token: a, S0B0Distance: 1, S0B0Lemma: s_-, S0B0LemmaPOS: s_DASH, S0B0POS: Ncmprn_DASH, S0B0POSLemma: Ncmprn_-, S0B0Token: s_-, S0B1Lemma: s_avea, S0B1LemmaPOS: s_Vaip3s, S0B1POS: Ncmprn_Vaip3s, S0B1POSLemma: Ncmprn_avea, S0B1Token: s_a, S0B2Lemma: s_autodefini, S0B2LemmaPOS: s_Vmp, S0B2POS: Ncmprn_Vmp, S0B2POSLemma: Ncmprn_autodefini, S0B2Token: s_autodefinit, S0IsInLexic: true, S0Lemma: s, S0POS: Ncmprn, S0Token: s, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, a, autodefinit ,.. ]
-
-
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [a, autodefinit, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vaip3s, B0Token: a, B1Lemma: autodefini, B1POS: Vmp, B1Token: autodefinit, S0B0Distance: 1, S0B0Lemma: -_avea, S0B0LemmaPOS: -_Vaip3s, S0B0POS: DASH_Vaip3s, S0B0POSLemma: DASH_avea, S0B0Token: -_a, S0B1Lemma: -_autodefini, S0B1LemmaPOS: -_Vmp, S0B1POS: DASH_Vmp, S0B1POSLemma: DASH_autodefini, S0B1Token: -_autodefinit, S0B2Lemma: -_,, S0B2LemmaPOS: -_COMMA, S0B2POS: DASH_COMMA, S0B2POSLemma: DASH_,, S0B2Token: -_,, S0IsInLexic: true, S0Lemma: -, S0POS: DASH, S0Token: -, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, autodefinit, , ,.. ]
-
-
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [autodefinit, ,, a ,.. ]
-
-B0Lemma: autodefini, B0POS: Vmp, B0Token: autodefinit, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: avea_autodefini, S0B0LemmaPOS: avea_Vmp, S0B0POS: Vaip3s_Vmp, S0B0POSLemma: Vaip3s_autodefini, S0B0Token: a_autodefinit, S0B1Lemma: avea_,, S0B1LemmaPOS: avea_COMMA, S0B1POS: Vaip3s_COMMA, S0B1POSLemma: Vaip3s_,, S0B1Token: a_,, S0B2Lemma: avea_avea, S0B2LemmaPOS: avea_Vaip3s, S0B2POS: Vaip3s_Vaip3s, S0B2POSLemma: Vaip3s_avea, S0B2Token: a_a, S0IsInLexic: true, S0Lemma: avea, S0POS: Vaip3s, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [autodefinit, ,, a ,.. ]
-
-
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [autodefinit]   B= [,, a, fost ,.. ]
-
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1IsInLexic: true, B1Lemma: avea, B1POS: Vaip3s, B1Token: a, S0B0Distance: 1, S0B0Lemma: autodefini_,, S0B0LemmaPOS: autodefini_COMMA, S0B0POS: Vmp_COMMA, S0B0POSLemma: Vmp_,, S0B0Token: autodefinit_,, S0B1Lemma: autodefini_avea, S0B1LemmaPOS: autodefini_Vaip3s, S0B1POS: Vmp_Vaip3s, S0B1POSLemma: Vmp_avea, S0B1Token: autodefinit_a, S0B2Lemma: autodefini_fi, S0B2LemmaPOS: autodefini_Vmp, S0B2POS: Vmp_Vmp, S0B2POSLemma: Vmp_fi, S0B2Token: autodefinit_fost, S0Lemma: autodefini, S0POS: Vmp, S0Token: autodefinit, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, a, fost ,.. ]
-
-
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [a, fost, actrița ,.. ]
-
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vaip3s, B0Token: a, B1IsInLexic: true, B1Lemma: fi, B1POS: Vmp, B1Token: fost, S0B0Distance: 1, S0B0Lemma: ,_avea, S0B0LemmaPOS: ,_Vaip3s, S0B0POS: COMMA_Vaip3s, S0B0POSLemma: COMMA_avea, S0B0Token: ,_a, S0B1Lemma: ,_fi, S0B1LemmaPOS: ,_Vmp, S0B1POS: COMMA_Vmp, S0B1POSLemma: COMMA_fi, S0B1Token: ,_fost, S0B2Lemma: ,_actriță, S0B2LemmaPOS: ,_Ncfsry, S0B2POS: COMMA_Ncfsry, S0B2POSLemma: COMMA_actriță, S0B2Token: ,_actrița, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, fost, actrița ,.. ]
-
-
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [fost, actrița, adriana ,.. ]
-
-B0IsInLexic: true, B0Lemma: fi, B0POS: Vmp, B0Token: fost, B1Lemma: actriță, B1POS: Ncfsry, B1Token: actrița, S0B0Distance: 1, S0B0Lemma: avea_fi, S0B0LemmaPOS: avea_Vmp, S0B0POS: Vaip3s_Vmp, S0B0POSLemma: Vaip3s_fi, S0B0Token: a_fost, S0B1Lemma: avea_actriță, S0B1LemmaPOS: avea_Ncfsry, S0B1POS: Vaip3s_Ncfsry, S0B1POSLemma: Vaip3s_actriță, S0B1Token: a_actrița, S0B2Lemma: avea_Adriana, S0B2LemmaPOS: avea_Npfsry, S0B2POS: Vaip3s_Npfsry, S0B2POSLemma: Vaip3s_Adriana, S0B2Token: a_adriana, S0IsInLexic: true, S0Lemma: avea, S0POS: Vaip3s, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fost, actrița, adriana ,.. ]
-
-
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fost]   B= [actrița, adriana, trandafir ,.. ]
-
-B0Lemma: actriță, B0POS: Ncfsry, B0Token: actrița, B1Lemma: Adriana, B1POS: Npfsry, B1Token: adriana, S0B0Distance: 1, S0B0Lemma: fi_actriță, S0B0LemmaPOS: fi_Ncfsry, S0B0POS: Vmp_Ncfsry, S0B0POSLemma: Vmp_actriță, S0B0Token: fost_actrița, S0B1Lemma: fi_Adriana, S0B1LemmaPOS: fi_Npfsry, S0B1POS: Vmp_Npfsry, S0B1POSLemma: Vmp_Adriana, S0B1Token: fost_adriana, S0B2Lemma: fi_trandafir, S0B2LemmaPOS: fi_Ncmsrn, S0B2POS: Vmp_Ncmsrn, S0B2POSLemma: Vmp_trandafir, S0B2Token: fost_trandafir, S0IsInLexic: true, S0Lemma: fi, S0POS: Vmp, S0Token: fost, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [actrița, adriana, trandafir ,.. ]
-
-
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [actrița]   B= [adriana, trandafir, , ,.. ]
-
-B0Lemma: Adriana, B0POS: Npfsry, B0Token: adriana, B1Lemma: trandafir, B1POS: Ncmsrn, B1Token: trandafir, S0B0Distance: 1, S0B0Lemma: actriță_Adriana, S0B0LemmaPOS: actriță_Npfsry, S0B0POS: Ncfsry_Npfsry, S0B0POSLemma: Ncfsry_Adriana, S0B0Token: actrița_adriana, S0B1Lemma: actriță_trandafir, S0B1LemmaPOS: actriță_Ncmsrn, S0B1POS: Ncfsry_Ncmsrn, S0B1POSLemma: Ncfsry_trandafir, S0B1Token: actrița_trandafir, S0B2Lemma: actriță_,, S0B2LemmaPOS: actriță_COMMA, S0B2POS: Ncfsry_COMMA, S0B2POSLemma: Ncfsry_,, S0B2Token: actrița_,, S0Lemma: actriță, S0POS: Ncfsry, S0Token: actrița, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [adriana, trandafir, , ,.. ]
-
-
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [adriana]   B= [trandafir, ,, care ,.. ]
-
-B0Lemma: trandafir, B0POS: Ncmsrn, B0Token: trandafir, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: Adriana_trandafir, S0B0LemmaPOS: Adriana_Ncmsrn, S0B0POS: Npfsry_Ncmsrn, S0B0POSLemma: Npfsry_trandafir, S0B0Token: adriana_trandafir, S0B1Lemma: Adriana_,, S0B1LemmaPOS: Adriana_COMMA, S0B1POS: Npfsry_COMMA, S0B1POSLemma: Npfsry_,, S0B1Token: adriana_,, S0B2Lemma: Adriana_care, S0B2LemmaPOS: Adriana_Dw3--r, S0B2POS: Npfsry_Dw3--r, S0B2POSLemma: Npfsry_care, S0B2Token: adriana_care, S0Lemma: Adriana, S0POS: Npfsry, S0Token: adriana, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [trandafir, ,, care ,.. ]
-
-
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [trandafir]   B= [,, care, i ,.. ]
-
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: care, B1POS: Dw3--r, B1Token: care, S0B0Distance: 1, S0B0Lemma: trandafir_,, S0B0LemmaPOS: trandafir_COMMA, S0B0POS: Ncmsrn_COMMA, S0B0POSLemma: Ncmsrn_,, S0B0Token: trandafir_,, S0B1Lemma: trandafir_care, S0B1LemmaPOS: trandafir_Dw3--r, S0B1POS: Ncmsrn_Dw3--r, S0B1POSLemma: Ncmsrn_care, S0B1Token: trandafir_care, S0B2Lemma: trandafir_el, S0B2LemmaPOS: trandafir_Pp3-so, S0B2POS: Ncmsrn_Pp3-so, S0B2POSLemma: Ncmsrn_el, S0B2Token: trandafir_i, S0Lemma: trandafir, S0POS: Ncmsrn, S0Token: trandafir, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, care, i ,.. ]
-
-
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [care, i, - ,.. ]
-
-B0Lemma: care, B0POS: Dw3--r, B0Token: care, B1Lemma: el, B1POS: Pp3-so, B1Token: i, S0B0Distance: 1, S0B0Lemma: ,_care, S0B0LemmaPOS: ,_Dw3--r, S0B0POS: COMMA_Dw3--r, S0B0POSLemma: COMMA_care, S0B0Token: ,_care, S0B1Lemma: ,_el, S0B1LemmaPOS: ,_Pp3-so, S0B1POS: COMMA_Pp3-so, S0B1POSLemma: COMMA_el, S0B1Token: ,_i, S0B2Lemma: ,_-, S0B2LemmaPOS: ,_DASH, S0B2POS: COMMA_DASH, S0B2POSLemma: COMMA_-, S0B2Token: ,_-, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [care, i, - ,.. ]
-
-
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [care]   B= [i, -, a ,.. ]
-
-B0Lemma: el, B0POS: Pp3-so, B0Token: i, B1IsInLexic: true, B1Lemma: -, B1POS: DASH, B1Token: -, S0B0Distance: 1, S0B0Lemma: care_el, S0B0LemmaPOS: care_Pp3-so, S0B0POS: Dw3--r_Pp3-so, S0B0POSLemma: Dw3--r_el, S0B0Token: care_i, S0B1Lemma: care_-, S0B1LemmaPOS: care_DASH, S0B1POS: Dw3--r_DASH, S0B1POSLemma: Dw3--r_-, S0B1Token: care_-, S0B2Lemma: care_avea, S0B2LemmaPOS: care_Vaip3s, S0B2POS: Dw3--r_Vaip3s, S0B2POSLemma: Dw3--r_avea, S0B2Token: care_a, S0Lemma: care, S0POS: Dw3--r, S0Token: care, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [i, -, a ,.. ]
-
-
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [i]   B= [-, a, introdus ,.. ]
-
-B0IsInLexic: true, B0Lemma: -, B0POS: DASH, B0Token: -, B1IsInLexic: true, B1Lemma: avea, B1POS: Vaip3s, B1Token: a, S0B0Distance: 1, S0B0Lemma: el_-, S0B0LemmaPOS: el_DASH, S0B0POS: Pp3-so_DASH, S0B0POSLemma: Pp3-so_-, S0B0Token: i_-, S0B1Lemma: el_avea, S0B1LemmaPOS: el_Vaip3s, S0B1POS: Pp3-so_Vaip3s, S0B1POSLemma: Pp3-so_avea, S0B1Token: i_a, S0B2Lemma: el_introduce, S0B2LemmaPOS: el_Vmp, S0B2POS: Pp3-so_Vmp, S0B2POSLemma: Pp3-so_introduce, S0B2Token: i_introdus, S0Lemma: el, S0POS: Pp3-so, S0Token: i, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, a, introdus ,.. ]
-
-
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [a, introdus, pe ,.. ]
-
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vaip3s, B0Token: a, B1Lemma: introduce, B1POS: Vmp, B1Token: introdus, S0B0Distance: 1, S0B0Lemma: -_avea, S0B0LemmaPOS: -_Vaip3s, S0B0POS: DASH_Vaip3s, S0B0POSLemma: DASH_avea, S0B0Token: -_a, S0B1Lemma: -_introduce, S0B1LemmaPOS: -_Vmp, S0B1POS: DASH_Vmp, S0B1POSLemma: DASH_introduce, S0B1Token: -_introdus, S0B2Lemma: -_pe, S0B2LemmaPOS: -_Sp, S0B2POS: DASH_Sp, S0B2POSLemma: DASH_pe, S0B2Token: -_pe, S0IsInLexic: true, S0Lemma: -, S0POS: DASH, S0Token: -, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, introdus, pe ,.. ]
-
-
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [introdus, pe, invitații ,.. ]
-
-B0Lemma: introduce, B0POS: Vmp, B0Token: introdus, B1IsInLexic: true, B1Lemma: pe, B1POS: Sp, B1Token: pe, S0B0Distance: 1, S0B0Lemma: avea_introduce, S0B0LemmaPOS: avea_Vmp, S0B0POS: Vaip3s_Vmp, S0B0POSLemma: Vaip3s_introduce, S0B0Token: a_introdus, S0B1Lemma: avea_pe, S0B1LemmaPOS: avea_Sp, S0B1POS: Vaip3s_Sp, S0B1POSLemma: Vaip3s_pe, S0B1Token: a_pe, S0B2Lemma: avea_invitație, S0B2LemmaPOS: avea_Ncfprn, S0B2POS: Vaip3s_Ncfprn, S0B2POSLemma: Vaip3s_invitație, S0B2Token: a_invitații, S0IsInLexic: true, S0Lemma: avea, S0POS: Vaip3s, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [introdus, pe, invitații ,.. ]
-
-
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [introdus]   B= [pe, invitații, la ,.. ]
-
-B0IsInLexic: true, B0Lemma: pe, B0POS: Sp, B0Token: pe, B1IsInLexic: true, B1Lemma: invitație, B1POS: Ncfprn, B1Token: invitații, S0B0Distance: 1, S0B0Lemma: introduce_pe, S0B0LemmaPOS: introduce_Sp, S0B0POS: Vmp_Sp, S0B0POSLemma: Vmp_pe, S0B0Token: introdus_pe, S0B1Lemma: introduce_invitație, S0B1LemmaPOS: introduce_Ncfprn, S0B1POS: Vmp_Ncfprn, S0B1POSLemma: Vmp_invitație, S0B1Token: introdus_invitații, S0B2Lemma: introduce_la, S0B2LemmaPOS: introduce_Sp, S0B2POS: Vmp_Sp, S0B2POSLemma: Vmp_la, S0B2Token: introdus_la, S0Lemma: introduce, S0POS: Vmp, S0Token: introdus, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pe, invitații, la ,.. ]
-
-
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pe]   B= [invitații, la, show ,.. ]
-
-B0IsInLexic: true, B0Lemma: invitație, B0POS: Ncfprn, B0Token: invitații, B1IsInLexic: true, B1Lemma: la, B1POS: Sp, B1Token: la, S0B0Distance: 1, S0B0Lemma: pe_invitație, S0B0LemmaPOS: pe_Ncfprn, S0B0POS: Sp_Ncfprn, S0B0POSLemma: Sp_invitație, S0B0Token: pe_invitații, S0B1Lemma: pe_la, S0B1LemmaPOS: pe_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_la, S0B1Token: pe_la, S0B2Lemma: pe_show, S0B2LemmaPOS: pe_Ncmsrn, S0B2POS: Sp_Ncmsrn, S0B2POSLemma: Sp_show, S0B2Token: pe_show, S0IsInLexic: true, S0Lemma: pe, S0POS: Sp, S0Token: pe, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [invitații, la, show ,.. ]
-
-
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [invitații]   B= [la, show, : ,.. ]
-
-B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: show, B1POS: Ncmsrn, B1Token: show, S0B0Distance: 1, S0B0Lemma: invitație_la, S0B0LemmaPOS: invitație_Sp, S0B0POS: Ncfprn_Sp, S0B0POSLemma: Ncfprn_la, S0B0Token: invitații_la, S0B1Lemma: invitație_show, S0B1LemmaPOS: invitație_Ncmsrn, S0B1POS: Ncfprn_Ncmsrn, S0B1POSLemma: Ncfprn_show, S0B1Token: invitații_show, S0B2Lemma: invitație_:, S0B2LemmaPOS: invitație_COLON, S0B2POS: Ncfprn_COLON, S0B2POSLemma: Ncfprn_:, S0B2Token: invitații_:, S0IsInLexic: true, S0Lemma: invitație, S0POS: Ncfprn, S0Token: invitații, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, show, : ,.. ]
-
-
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [show, : ,.. ]
-
-B0Lemma: show, B0POS: Ncmsrn, B0Token: show, B1Lemma: :, B1POS: COLON, B1Token: :, S0B0Distance: 1, S0B0Lemma: la_show, S0B0LemmaPOS: la_Ncmsrn, S0B0POS: Sp_Ncmsrn, S0B0POSLemma: Sp_show, S0B0Token: la_show, S0B1Lemma: la_:, S0B1LemmaPOS: la_COLON, S0B1POS: Sp_COLON, S0B1POSLemma: Sp_:, S0B1Token: la_:, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [show, : ,.. ]
-
-
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [show]   B= [:]
-
-B0Lemma: :, B0POS: COLON, B0Token: :, S0B0Distance: 1, S0B0Lemma: show_:, S0B0LemmaPOS: show_COLON, S0B0POS: Ncmsrn_COLON, S0B0POSLemma: Ncmsrn_:, S0B0Token: show_:, S0Lemma: show, S0POS: Ncmsrn, S0Token: show, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:]
-
-
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [ ]
-
-
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 5155 - 
-direct la sufletul gazdelor a mers și afirmația artistului că se simte extraordinar în orașul de pe bega și că are un respect aparte pentru bănățeni . 
-### Existing MWEs: 
-1- **se simte** (IReflV, 2)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [direct, la, sufletul ,.. ]
-
-
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [direct]   B= [la, sufletul, gazdelor ,.. ]
-
-B0IsInLexic: true, B0Lemma: la, B0POS: Sp, B0Token: la, B1Lemma: suflet, B1POS: Ncmsry, B1Token: sufletul, S0B0Distance: 1, S0B0Lemma: direct_la, S0B0LemmaPOS: direct_Sp, S0B0POS: Rg_Sp, S0B0POSLemma: Rg_la, S0B0Token: direct_la, S0B1Lemma: direct_suflet, S0B1LemmaPOS: direct_Ncmsry, S0B1POS: Rg_Ncmsry, S0B1POSLemma: Rg_suflet, S0B1Token: direct_sufletul, S0B2Lemma: direct_gazdă, S0B2LemmaPOS: direct_Ncfpoy, S0B2POS: Rg_Ncfpoy, S0B2POSLemma: Rg_gazdă, S0B2Token: direct_gazdelor, S0Lemma: direct, S0POS: Rg, S0Token: direct, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, sufletul, gazdelor ,.. ]
-
-
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [sufletul, gazdelor, a ,.. ]
-
-B0Lemma: suflet, B0POS: Ncmsry, B0Token: sufletul, B1Lemma: gazdă, B1POS: Ncfpoy, B1Token: gazdelor, S0B0Distance: 1, S0B0Lemma: la_suflet, S0B0LemmaPOS: la_Ncmsry, S0B0POS: Sp_Ncmsry, S0B0POSLemma: Sp_suflet, S0B0Token: la_sufletul, S0B1Lemma: la_gazdă, S0B1LemmaPOS: la_Ncfpoy, S0B1POS: Sp_Ncfpoy, S0B1POSLemma: Sp_gazdă, S0B1Token: la_gazdelor, S0B2Lemma: la_avea, S0B2LemmaPOS: la_Vaip3s, S0B2POS: Sp_Vaip3s, S0B2POSLemma: Sp_avea, S0B2Token: la_a, S0IsInLexic: true, S0Lemma: la, S0POS: Sp, S0Token: la, TransHistory1: 2, TransHistory2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sufletul, gazdelor, a ,.. ]
-
-
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sufletul]   B= [gazdelor, a, mers ,.. ]
-
-B0Lemma: gazdă, B0POS: Ncfpoy, B0Token: gazdelor, B1IsInLexic: true, B1Lemma: avea, B1POS: Vaip3s, B1Token: a, S0B0Distance: 1, S0B0Lemma: suflet_gazdă, S0B0LemmaPOS: suflet_Ncfpoy, S0B0POS: Ncmsry_Ncfpoy, S0B0POSLemma: Ncmsry_gazdă, S0B0Token: sufletul_gazdelor, S0B1Lemma: suflet_avea, S0B1LemmaPOS: suflet_Vaip3s, S0B1POS: Ncmsry_Vaip3s, S0B1POSLemma: Ncmsry_avea, S0B1Token: sufletul_a, S0B2Lemma: suflet_merge, S0B2LemmaPOS: suflet_Vmp, S0B2POS: Ncmsry_Vmp, S0B2POSLemma: Ncmsry_merge, S0B2Token: sufletul_mers, S0Lemma: suflet, S0POS: Ncmsry, S0Token: sufletul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gazdelor, a, mers ,.. ]
-
-
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gazdelor]   B= [a, mers, și ,.. ]
-
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vaip3s, B0Token: a, B1Lemma: merge, B1POS: Vmp, B1Token: mers, S0B0Distance: 1, S0B0Lemma: gazdă_avea, S0B0LemmaPOS: gazdă_Vaip3s, S0B0POS: Ncfpoy_Vaip3s, S0B0POSLemma: Ncfpoy_avea, S0B0Token: gazdelor_a, S0B1Lemma: gazdă_merge, S0B1LemmaPOS: gazdă_Vmp, S0B1POS: Ncfpoy_Vmp, S0B1POSLemma: Ncfpoy_merge, S0B1Token: gazdelor_mers, S0B2Lemma: gazdă_și, S0B2LemmaPOS: gazdă_Cc, S0B2POS: Ncfpoy_Cc, S0B2POSLemma: Ncfpoy_și, S0B2Token: gazdelor_și, S0Lemma: gazdă, S0POS: Ncfpoy, S0Token: gazdelor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, mers, și ,.. ]
-
-
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [mers, și, afirmația ,.. ]
-
-B0Lemma: merge, B0POS: Vmp, B0Token: mers, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: avea_merge, S0B0LemmaPOS: avea_Vmp, S0B0POS: Vaip3s_Vmp, S0B0POSLemma: Vaip3s_merge, S0B0Token: a_mers, S0B1Lemma: avea_și, S0B1LemmaPOS: avea_Cc, S0B1POS: Vaip3s_Cc, S0B1POSLemma: Vaip3s_și, S0B1Token: a_și, S0B2Lemma: avea_afirmație, S0B2LemmaPOS: avea_Ncfsry, S0B2POS: Vaip3s_Ncfsry, S0B2POSLemma: Vaip3s_afirmație, S0B2Token: a_afirmația, S0IsInLexic: true, S0Lemma: avea, S0POS: Vaip3s, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mers, și, afirmația ,.. ]
-
-
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mers]   B= [și, afirmația, artistului ,.. ]
-
-B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: afirmație, B1POS: Ncfsry, B1Token: afirmația, S0B0Distance: 1, S0B0Lemma: merge_și, S0B0LemmaPOS: merge_Cc, S0B0POS: Vmp_Cc, S0B0POSLemma: Vmp_și, S0B0Token: mers_și, S0B1Lemma: merge_afirmație, S0B1LemmaPOS: merge_Ncfsry, S0B1POS: Vmp_Ncfsry, S0B1POSLemma: Vmp_afirmație, S0B1Token: mers_afirmația, S0B2Lemma: merge_artist, S0B2LemmaPOS: merge_Ncmsoy, S0B2POS: Vmp_Ncmsoy, S0B2POSLemma: Vmp_artist, S0B2Token: mers_artistului, S0Lemma: merge, S0POS: Vmp, S0Token: mers, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, afirmația, artistului ,.. ]
-
-
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [afirmația, artistului, că ,.. ]
-
-B0Lemma: afirmație, B0POS: Ncfsry, B0Token: afirmația, B1Lemma: artist, B1POS: Ncmsoy, B1Token: artistului, S0B0Distance: 1, S0B0Lemma: și_afirmație, S0B0LemmaPOS: și_Ncfsry, S0B0POS: Cc_Ncfsry, S0B0POSLemma: Cc_afirmație, S0B0Token: și_afirmația, S0B1Lemma: și_artist, S0B1LemmaPOS: și_Ncmsoy, S0B1POS: Cc_Ncmsoy, S0B1POSLemma: Cc_artist, S0B1Token: și_artistului, S0B2Lemma: și_că, S0B2LemmaPOS: și_Cs, S0B2POS: Cc_Cs, S0B2POSLemma: Cc_că, S0B2Token: și_că, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [afirmația, artistului, că ,.. ]
-
-
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [afirmația]   B= [artistului, că, se ,.. ]
-
-B0Lemma: artist, B0POS: Ncmsoy, B0Token: artistului, B1Lemma: că, B1POS: Cs, B1Token: că, S0B0Distance: 1, S0B0Lemma: afirmație_artist, S0B0LemmaPOS: afirmație_Ncmsoy, S0B0POS: Ncfsry_Ncmsoy, S0B0POSLemma: Ncfsry_artist, S0B0Token: afirmația_artistului, S0B1Lemma: afirmație_că, S0B1LemmaPOS: afirmație_Cs, S0B1POS: Ncfsry_Cs, S0B1POSLemma: Ncfsry_că, S0B1Token: afirmația_că, S0B2Lemma: afirmație_sine, S0B2LemmaPOS: afirmație_Px3--r, S0B2POS: Ncfsry_Px3--r, S0B2POSLemma: Ncfsry_sine, S0B2Token: afirmația_se, S0Lemma: afirmație, S0POS: Ncfsry, S0Token: afirmația, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [artistului, că, se ,.. ]
-
-
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [artistului]   B= [că, se, simte ,.. ]
-
-B0Lemma: că, B0POS: Cs, B0Token: că, B1IsInLexic: true, B1Lemma: sine, B1POS: Px3--r, B1Token: se, S0B0Distance: 1, S0B0Lemma: artist_că, S0B0LemmaPOS: artist_Cs, S0B0POS: Ncmsoy_Cs, S0B0POSLemma: Ncmsoy_că, S0B0Token: artistului_că, S0B1Lemma: artist_sine, S0B1LemmaPOS: artist_Px3--r, S0B1POS: Ncmsoy_Px3--r, S0B1POSLemma: Ncmsoy_sine, S0B1Token: artistului_se, S0B2Lemma: artist_simți, S0B2LemmaPOS: artist_Vmip3s, S0B2POS: Ncmsoy_Vmip3s, S0B2POSLemma: Ncmsoy_simți, S0B2Token: artistului_simte, S0Lemma: artist, S0POS: Ncmsoy, S0Token: artistului, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [că, se, simte ,.. ]
-
-
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [că]   B= [se, simte, extraordinar ,.. ]
-
-B0IsInLexic: true, B0Lemma: sine, B0POS: Px3--r, B0Token: se, B1IsInLexic: true, B1Lemma: simți, B1POS: Vmip3s, B1Token: simte, S0B0Distance: 1, S0B0Lemma: că_sine, S0B0LemmaPOS: că_Px3--r, S0B0POS: Cs_Px3--r, S0B0POSLemma: Cs_sine, S0B0Token: că_se, S0B1Lemma: că_simți, S0B1LemmaPOS: că_Vmip3s, S0B1POS: Cs_Vmip3s, S0B1POSLemma: Cs_simți, S0B1Token: că_simte, S0B2Lemma: că_extraordinar, S0B2LemmaPOS: că_Rg, S0B2POS: Cs_Rg, S0B2POSLemma: Cs_extraordinar, S0B2Token: că_extraordinar, S0Lemma: că, S0POS: Cs, S0Token: că, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, simte, extraordinar ,.. ]
-
-
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [simte, extraordinar, în ,.. ]
-
-B0IsInLexic: true, B0Lemma: simți, B0POS: Vmip3s, B0Token: simte, B1Lemma: extraordinar, B1POS: Rg, B1Token: extraordinar, S0B0Distance: 1, S0B0Lemma: sine_simți, S0B0LemmaPOS: sine_Vmip3s, S0B0POS: Px3--r_Vmip3s, S0B0POSLemma: Px3--r_simți, S0B0Token: se_simte, S0B1Lemma: sine_extraordinar, S0B1LemmaPOS: sine_Rg, S0B1POS: Px3--r_Rg, S0B1POSLemma: Px3--r_extraordinar, S0B1Token: se_extraordinar, S0B2Lemma: sine_în, S0B2LemmaPOS: sine_Sp, S0B2POS: Px3--r_Sp, S0B2POSLemma: Px3--r_în, S0B2Token: se_în, S0IsInLexic: true, S0Lemma: sine, S0POS: Px3--r, S0Token: se, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [simte, extraordinar, în ,.. ]
-
-
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [simte]   B= [extraordinar, în, orașul ,.. ]
-
-B0Lemma: extraordinar, B0POS: Rg, B0Token: extraordinar, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: simți_extraordinar, S0B0LemmaPOS: simți_Rg, S0B0POS: Vmip3s_Rg, S0B0POSLemma: Vmip3s_extraordinar, S0B0Token: simte_extraordinar, S0B1Lemma: simți_în, S0B1LemmaPOS: simți_Sp, S0B1POS: Vmip3s_Sp, S0B1POSLemma: Vmip3s_în, S0B1Token: simte_în, S0B2Lemma: simți_oraș, S0B2LemmaPOS: simți_Ncmsry, S0B2POS: Vmip3s_Ncmsry, S0B2POSLemma: Vmip3s_oraș, S0B2Token: simte_orașul, S0IsInLexic: true, S0Lemma: simți, S0POS: Vmip3s, S0Token: simte, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [extraordinar, în, orașul ,.. ]
-
-
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [extraordinar]   B= [în, orașul, de ,.. ]
-
-B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: oraș, B1POS: Ncmsry, B1Token: orașul, S0B0Distance: 1, S0B0Lemma: extraordinar_în, S0B0LemmaPOS: extraordinar_Sp, S0B0POS: Rg_Sp, S0B0POSLemma: Rg_în, S0B0Token: extraordinar_în, S0B1Lemma: extraordinar_oraș, S0B1LemmaPOS: extraordinar_Ncmsry, S0B1POS: Rg_Ncmsry, S0B1POSLemma: Rg_oraș, S0B1Token: extraordinar_orașul, S0B2Lemma: extraordinar_de, S0B2LemmaPOS: extraordinar_Sp, S0B2POS: Rg_Sp, S0B2POSLemma: Rg_de, S0B2Token: extraordinar_de, S0Lemma: extraordinar, S0POS: Rg, S0Token: extraordinar, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, orașul, de ,.. ]
-
-
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [orașul, de, pe ,.. ]
-
-B0Lemma: oraș, B0POS: Ncmsry, B0Token: orașul, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: în_oraș, S0B0LemmaPOS: în_Ncmsry, S0B0POS: Sp_Ncmsry, S0B0POSLemma: Sp_oraș, S0B0Token: în_orașul, S0B1Lemma: în_de, S0B1LemmaPOS: în_Sp, S0B1POS: Sp_Sp, S0B1POSLemma: Sp_de, S0B1Token: în_de, S0B2Lemma: în_pe, S0B2LemmaPOS: în_Sp, S0B2POS: Sp_Sp, S0B2POSLemma: Sp_pe, S0B2Token: în_pe, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [orașul, de, pe ,.. ]
-
-
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [orașul]   B= [de, pe, bega ,.. ]
-
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1IsInLexic: true, B1Lemma: pe, B1POS: Sp, B1Token: pe, S0B0Distance: 1, S0B0Lemma: oraș_de, S0B0LemmaPOS: oraș_Sp, S0B0POS: Ncmsry_Sp, S0B0POSLemma: Ncmsry_de, S0B0Token: orașul_de, S0B1Lemma: oraș_pe, S0B1LemmaPOS: oraș_Sp, S0B1POS: Ncmsry_Sp, S0B1POSLemma: Ncmsry_pe, S0B1Token: orașul_pe, S0B2Lemma: oraș_bega, S0B2LemmaPOS: oraș_Np, S0B2POS: Ncmsry_Np, S0B2POSLemma: Ncmsry_bega, S0B2Token: orașul_bega, S0Lemma: oraș, S0POS: Ncmsry, S0Token: orașul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, pe, bega ,.. ]
-
-
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [pe, bega, și ,.. ]
-
-B0IsInLexic: true, B0Lemma: pe, B0POS: Sp, B0Token: pe, B1Lemma: bega, B1POS: Np, B1Token: bega, S0B0Distance: 1, S0B0Lemma: de_pe, S0B0LemmaPOS: de_Sp, S0B0POS: Sp_Sp, S0B0POSLemma: Sp_pe, S0B0Token: de_pe, S0B1Lemma: de_bega, S0B1LemmaPOS: de_Np, S0B1POS: Sp_Np, S0B1POSLemma: Sp_bega, S0B1Token: de_bega, S0B2Lemma: de_și, S0B2LemmaPOS: de_Cc, S0B2POS: Sp_Cc, S0B2POSLemma: Sp_și, S0B2Token: de_și, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pe, bega, și ,.. ]
-
-
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pe]   B= [bega, și, că ,.. ]
-
-B0Lemma: bega, B0POS: Np, B0Token: bega, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: pe_bega, S0B0LemmaPOS: pe_Np, S0B0POS: Sp_Np, S0B0POSLemma: Sp_bega, S0B0Token: pe_bega, S0B1Lemma: pe_și, S0B1LemmaPOS: pe_Cc, S0B1POS: Sp_Cc, S0B1POSLemma: Sp_și, S0B1Token: pe_și, S0B2Lemma: pe_că, S0B2LemmaPOS: pe_Cs, S0B2POS: Sp_Cs, S0B2POSLemma: Sp_că, S0B2Token: pe_că, S0IsInLexic: true, S0Lemma: pe, S0POS: Sp, S0Token: pe, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bega, și, că ,.. ]
-
-
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bega]   B= [și, că, are ,.. ]
-
-B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1Lemma: că, B1POS: Cs, B1Token: că, S0B0Distance: 1, S0B0Lemma: bega_și, S0B0LemmaPOS: bega_Cc, S0B0POS: Np_Cc, S0B0POSLemma: Np_și, S0B0Token: bega_și, S0B1Lemma: bega_că, S0B1LemmaPOS: bega_Cs, S0B1POS: Np_Cs, S0B1POSLemma: Np_că, S0B1Token: bega_că, S0B2Lemma: bega_avea, S0B2LemmaPOS: bega_Vmip3s, S0B2POS: Np_Vmip3s, S0B2POSLemma: Np_avea, S0B2Token: bega_are, S0Lemma: bega, S0POS: Np, S0Token: bega, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, că, are ,.. ]
-
-
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [că, are, un ,.. ]
-
-B0Lemma: că, B0POS: Cs, B0Token: că, B1IsInLexic: true, B1Lemma: avea, B1POS: Vmip3s, B1Token: are, S0B0Distance: 1, S0B0Lemma: și_că, S0B0LemmaPOS: și_Cs, S0B0POS: Cc_Cs, S0B0POSLemma: Cc_că, S0B0Token: și_că, S0B1Lemma: și_avea, S0B1LemmaPOS: și_Vmip3s, S0B1POS: Cc_Vmip3s, S0B1POSLemma: Cc_avea, S0B1Token: și_are, S0B2Lemma: și_un, S0B2LemmaPOS: și_Timsr, S0B2POS: Cc_Timsr, S0B2POSLemma: Cc_un, S0B2Token: și_un, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [că, are, un ,.. ]
-
-
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [că]   B= [are, un, respect ,.. ]
-
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vmip3s, B0Token: are, B1IsInLexic: true, B1Lemma: un, B1POS: Timsr, B1Token: un, S0B0Distance: 1, S0B0Lemma: că_avea, S0B0LemmaPOS: că_Vmip3s, S0B0POS: Cs_Vmip3s, S0B0POSLemma: Cs_avea, S0B0Token: că_are, S0B1Lemma: că_un, S0B1LemmaPOS: că_Timsr, S0B1POS: Cs_Timsr, S0B1POSLemma: Cs_un, S0B1Token: că_un, S0B2Lemma: că_respect, S0B2LemmaPOS: că_Ncmsrn, S0B2POS: Cs_Ncmsrn, S0B2POSLemma: Cs_respect, S0B2Token: că_respect, S0Lemma: că, S0POS: Cs, S0Token: că, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [are, un, respect ,.. ]
-
-
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [are]   B= [un, respect, aparte ,.. ]
-
-B0IsInLexic: true, B0Lemma: un, B0POS: Timsr, B0Token: un, B1Lemma: respect, B1POS: Ncmsrn, B1Token: respect, S0B0Distance: 1, S0B0Lemma: avea_un, S0B0LemmaPOS: avea_Timsr, S0B0POS: Vmip3s_Timsr, S0B0POSLemma: Vmip3s_un, S0B0Token: are_un, S0B1Lemma: avea_respect, S0B1LemmaPOS: avea_Ncmsrn, S0B1POS: Vmip3s_Ncmsrn, S0B1POSLemma: Vmip3s_respect, S0B1Token: are_respect, S0B2Lemma: avea_aparte, S0B2LemmaPOS: avea_Rg, S0B2POS: Vmip3s_Rg, S0B2POSLemma: Vmip3s_aparte, S0B2Token: are_aparte, S0IsInLexic: true, S0Lemma: avea, S0POS: Vmip3s, S0Token: are, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, respect, aparte ,.. ]
-
-
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [respect, aparte, pentru ,.. ]
-
-B0Lemma: respect, B0POS: Ncmsrn, B0Token: respect, B1Lemma: aparte, B1POS: Rg, B1Token: aparte, S0B0Distance: 1, S0B0Lemma: un_respect, S0B0LemmaPOS: un_Ncmsrn, S0B0POS: Timsr_Ncmsrn, S0B0POSLemma: Timsr_respect, S0B0Token: un_respect, S0B1Lemma: un_aparte, S0B1LemmaPOS: un_Rg, S0B1POS: Timsr_Rg, S0B1POSLemma: Timsr_aparte, S0B1Token: un_aparte, S0B2Lemma: un_pentru, S0B2LemmaPOS: un_Sp, S0B2POS: Timsr_Sp, S0B2POSLemma: Timsr_pentru, S0B2Token: un_pentru, S0IsInLexic: true, S0Lemma: un, S0POS: Timsr, S0Token: un, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [respect, aparte, pentru ,.. ]
-
-
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [respect]   B= [aparte, pentru, bănățeni ,.. ]
-
-B0Lemma: aparte, B0POS: Rg, B0Token: aparte, B1Lemma: pentru, B1POS: Sp, B1Token: pentru, S0B0Distance: 1, S0B0Lemma: respect_aparte, S0B0LemmaPOS: respect_Rg, S0B0POS: Ncmsrn_Rg, S0B0POSLemma: Ncmsrn_aparte, S0B0Token: respect_aparte, S0B1Lemma: respect_pentru, S0B1LemmaPOS: respect_Sp, S0B1POS: Ncmsrn_Sp, S0B1POSLemma: Ncmsrn_pentru, S0B1Token: respect_pentru, S0B2Lemma: respect_bănățean, S0B2LemmaPOS: respect_Ncmprn, S0B2POS: Ncmsrn_Ncmprn, S0B2POSLemma: Ncmsrn_bănățean, S0B2Token: respect_bănățeni, S0Lemma: respect, S0POS: Ncmsrn, S0Token: respect, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aparte, pentru, bănățeni ,.. ]
-
-
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aparte]   B= [pentru, bănățeni, . ,.. ]
-
-B0Lemma: pentru, B0POS: Sp, B0Token: pentru, B1Lemma: bănățean, B1POS: Ncmprn, B1Token: bănățeni, S0B0Distance: 1, S0B0Lemma: aparte_pentru, S0B0LemmaPOS: aparte_Sp, S0B0POS: Rg_Sp, S0B0POSLemma: Rg_pentru, S0B0Token: aparte_pentru, S0B1Lemma: aparte_bănățean, S0B1LemmaPOS: aparte_Ncmprn, S0B1POS: Rg_Ncmprn, S0B1POSLemma: Rg_bănățean, S0B1Token: aparte_bănățeni, S0B2Lemma: aparte_., S0B2LemmaPOS: aparte_PERIOD, S0B2POS: Rg_PERIOD, S0B2POSLemma: Rg_., S0B2Token: aparte_., S0Lemma: aparte, S0POS: Rg, S0Token: aparte, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, bănățeni, . ,.. ]
-
-
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [bănățeni, . ,.. ]
-
-B0Lemma: bănățean, B0POS: Ncmprn, B0Token: bănățeni, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: pentru_bănățean, S0B0LemmaPOS: pentru_Ncmprn, S0B0POS: Sp_Ncmprn, S0B0POSLemma: Sp_bănățean, S0B0Token: pentru_bănățeni, S0B1Lemma: pentru_., S0B1LemmaPOS: pentru_PERIOD, S0B1POS: Sp_PERIOD, S0B1POSLemma: Sp_., S0B1Token: pentru_., S0Lemma: pentru, S0POS: Sp, S0Token: pentru, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bănățeni, . ,.. ]
-
-
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bănățeni]   B= [.]
-
-B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: bănățean_., S0B0LemmaPOS: bănățean_PERIOD, S0B0POS: Ncmprn_PERIOD, S0B0POSLemma: Ncmprn_., S0B0Token: bănățeni_., S0Lemma: bănățean, S0POS: Ncmprn, S0Token: bănățeni, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 5205 - 
-chiar dacă de data aceasta nu s - au numărat printre cei 10 câștigători ai premiilor oferite de „ agenda “ , cititorii prezenți în sală au mai avut o șansă - aceea de a - și găsi propriul plic în imensa grămadă formată din aproape 20 000 de plicuri . 
-### Existing MWEs: 
-1- **s numărat** (IReflV, 1)
-### Identified MWEs: 
-1- **s** 
-
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [chiar, dacă, de ,.. ]
-
-
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [chiar]   B= [dacă, de, data ,.. ]
-
-B0Lemma: dacă, B0POS: Cs, B0Token: dacă, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: chiar_dacă, S0B0LemmaPOS: chiar_Cs, S0B0POS: Rg_Cs, S0B0POSLemma: Rg_dacă, S0B0Token: chiar_dacă, S0B1Lemma: chiar_de, S0B1LemmaPOS: chiar_Sp, S0B1POS: Rg_Sp, S0B1POSLemma: Rg_de, S0B1Token: chiar_de, S0B2Lemma: chiar_dată, S0B2LemmaPOS: chiar_Ncfsry, S0B2POS: Rg_Ncfsry, S0B2POSLemma: Rg_dată, S0B2Token: chiar_data, S0Lemma: chiar, S0POS: Rg, S0Token: chiar, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dacă, de, data ,.. ]
-
-
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dacă]   B= [de, data, aceasta ,.. ]
-
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: dată, B1POS: Ncfsry, B1Token: data, S0B0Distance: 1, S0B0Lemma: dacă_de, S0B0LemmaPOS: dacă_Sp, S0B0POS: Cs_Sp, S0B0POSLemma: Cs_de, S0B0Token: dacă_de, S0B1Lemma: dacă_dată, S0B1LemmaPOS: dacă_Ncfsry, S0B1POS: Cs_Ncfsry, S0B1POSLemma: Cs_dată, S0B1Token: dacă_data, S0B2Lemma: dacă_acesta, S0B2LemmaPOS: dacă_Dd3fsr---o, S0B2POS: Cs_Dd3fsr---o, S0B2POSLemma: Cs_acesta, S0B2Token: dacă_aceasta, S0Lemma: dacă, S0POS: Cs, S0Token: dacă, TransHistory1: 2, TransHistory2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, data, aceasta ,.. ]
-
-
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [data, aceasta, nu ,.. ]
-
-B0Lemma: dată, B0POS: Ncfsry, B0Token: data, B1Lemma: acesta, B1POS: Dd3fsr---o, B1Token: aceasta, S0B0Distance: 1, S0B0Lemma: de_dată, S0B0LemmaPOS: de_Ncfsry, S0B0POS: Sp_Ncfsry, S0B0POSLemma: Sp_dată, S0B0Token: de_data, S0B1Lemma: de_acesta, S0B1LemmaPOS: de_Dd3fsr---o, S0B1POS: Sp_Dd3fsr---o, S0B1POSLemma: Sp_acesta, S0B1Token: de_aceasta, S0B2Lemma: de_nu, S0B2LemmaPOS: de_Qz, S0B2POS: Sp_Qz, S0B2POSLemma: Sp_nu, S0B2Token: de_nu, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [data, aceasta, nu ,.. ]
-
-
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [data]   B= [aceasta, nu, s ,.. ]
-
-B0Lemma: acesta, B0POS: Dd3fsr---o, B0Token: aceasta, B1IsInLexic: true, B1Lemma: nu, B1POS: Qz, B1Token: nu, S0B0Distance: 1, S0B0Lemma: dată_acesta, S0B0LemmaPOS: dată_Dd3fsr---o, S0B0POS: Ncfsry_Dd3fsr---o, S0B0POSLemma: Ncfsry_acesta, S0B0Token: data_aceasta, S0B1Lemma: dată_nu, S0B1LemmaPOS: dată_Qz, S0B1POS: Ncfsry_Qz, S0B1POSLemma: Ncfsry_nu, S0B1Token: data_nu, S0B2Lemma: dată_s, S0B2LemmaPOS: dată_Ncmprn, S0B2POS: Ncfsry_Ncmprn, S0B2POSLemma: Ncfsry_s, S0B2Token: data_s, S0Lemma: dată, S0POS: Ncfsry, S0Token: data, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aceasta, nu, s ,.. ]
-
-
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aceasta]   B= [nu, s, - ,.. ]
-
-B0IsInLexic: true, B0Lemma: nu, B0POS: Qz, B0Token: nu, B1IsInLexic: true, B1Lemma: s, B1POS: Ncmprn, B1Token: s, S0B0Distance: 1, S0B0Lemma: acesta_nu, S0B0LemmaPOS: acesta_Qz, S0B0POS: Dd3fsr---o_Qz, S0B0POSLemma: Dd3fsr---o_nu, S0B0Token: aceasta_nu, S0B1Lemma: acesta_s, S0B1LemmaPOS: acesta_Ncmprn, S0B1POS: Dd3fsr---o_Ncmprn, S0B1POSLemma: Dd3fsr---o_s, S0B1Token: aceasta_s, S0B2Lemma: acesta_-, S0B2LemmaPOS: acesta_DASH, S0B2POS: Dd3fsr---o_DASH, S0B2POSLemma: Dd3fsr---o_-, S0B2Token: aceasta_-, S0Lemma: acesta, S0POS: Dd3fsr---o, S0Token: aceasta, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nu, s, - ,.. ]
-
-
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nu]   B= [s, -, au ,.. ]
-
-B0IsInLexic: true, B0Lemma: s, B0POS: Ncmprn, B0Token: s, B1IsInLexic: true, B1Lemma: -, B1POS: DASH, B1Token: -, S0B0Distance: 1, S0B0Lemma: nu_s, S0B0LemmaPOS: nu_Ncmprn, S0B0POS: Qz_Ncmprn, S0B0POSLemma: Qz_s, S0B0Token: nu_s, S0B1Lemma: nu_-, S0B1LemmaPOS: nu_DASH, S0B1POS: Qz_DASH, S0B1POSLemma: Qz_-, S0B1Token: nu_-, S0B2Lemma: nu_avea, S0B2LemmaPOS: nu_Vaip3p, S0B2POS: Qz_Vaip3p, S0B2POSLemma: Qz_avea, S0B2Token: nu_au, S0IsInLexic: true, S0Lemma: nu, S0POS: Qz, S0Token: nu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, au ,.. ]
-
-
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, au, numărat ,.. ]
-
-B0IsInLexic: true, B0Lemma: -, B0POS: DASH, B0Token: -, B1IsInLexic: true, B1Lemma: avea, B1POS: Vaip3p, B1Token: au, S0B0Distance: 1, S0B0Lemma: s_-, S0B0LemmaPOS: s_DASH, S0B0POS: Ncmprn_DASH, S0B0POSLemma: Ncmprn_-, S0B0Token: s_-, S0B1Lemma: s_avea, S0B1LemmaPOS: s_Vaip3p, S0B1POS: Ncmprn_Vaip3p, S0B1POSLemma: Ncmprn_avea, S0B1Token: s_au, S0B2Lemma: s_număra, S0B2LemmaPOS: s_Vmp, S0B2POS: Ncmprn_Vmp, S0B2POSLemma: Ncmprn_număra, S0B2Token: s_numărat, S0IsInLexic: true, S0Lemma: s, S0POS: Ncmprn, S0Token: s, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, au, numărat ,.. ]
-
-
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [au, numărat, printre ,.. ]
-
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vaip3p, B0Token: au, B1IsInLexic: true, B1Lemma: număra, B1POS: Vmp, B1Token: numărat, S0B0Distance: 1, S0B0Lemma: -_avea, S0B0LemmaPOS: -_Vaip3p, S0B0POS: DASH_Vaip3p, S0B0POSLemma: DASH_avea, S0B0Token: -_au, S0B1Lemma: -_număra, S0B1LemmaPOS: -_Vmp, S0B1POS: DASH_Vmp, S0B1POSLemma: DASH_număra, S0B1Token: -_numărat, S0B2Lemma: -_printre, S0B2LemmaPOS: -_Sp, S0B2POS: DASH_Sp, S0B2POSLemma: DASH_printre, S0B2Token: -_printre, S0IsInLexic: true, S0Lemma: -, S0POS: DASH, S0Token: -, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, numărat, printre ,.. ]
-
-
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [numărat, printre, cei ,.. ]
-
-B0IsInLexic: true, B0Lemma: număra, B0POS: Vmp, B0Token: numărat, B1Lemma: printre, B1POS: Sp, B1Token: printre, S0B0Distance: 1, S0B0Lemma: avea_număra, S0B0LemmaPOS: avea_Vmp, S0B0POS: Vaip3p_Vmp, S0B0POSLemma: Vaip3p_număra, S0B0Token: au_numărat, S0B1Lemma: avea_printre, S0B1LemmaPOS: avea_Sp, S0B1POS: Vaip3p_Sp, S0B1POSLemma: Vaip3p_printre, S0B1Token: au_printre, S0B2Lemma: avea_cel, S0B2LemmaPOS: avea_Tdmpr, S0B2POS: Vaip3p_Tdmpr, S0B2POSLemma: Vaip3p_cel, S0B2Token: au_cei, S0IsInLexic: true, S0Lemma: avea, S0POS: Vaip3p, S0Token: au, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [numărat, printre, cei ,.. ]
-
-
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [numărat]   B= [printre, cei, 10 ,.. ]
-
-B0Lemma: printre, B0POS: Sp, B0Token: printre, B1Lemma: cel, B1POS: Tdmpr, B1Token: cei, S0B0Distance: 1, S0B0Lemma: număra_printre, S0B0LemmaPOS: număra_Sp, S0B0POS: Vmp_Sp, S0B0POSLemma: Vmp_printre, S0B0Token: numărat_printre, S0B1Lemma: număra_cel, S0B1LemmaPOS: număra_Tdmpr, S0B1POS: Vmp_Tdmpr, S0B1POSLemma: Vmp_cel, S0B1Token: numărat_cei, S0B2Lemma: număra_10, S0B2LemmaPOS: număra_Mc-p-l, S0B2POS: Vmp_Mc-p-l, S0B2POSLemma: Vmp_10, S0B2Token: numărat_10, S0IsInLexic: true, S0Lemma: număra, S0POS: Vmp, S0Token: numărat, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [printre, cei, 10 ,.. ]
-
-
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [printre]   B= [cei, 10, câștigători ,.. ]
-
-B0Lemma: cel, B0POS: Tdmpr, B0Token: cei, B1Lemma: 10, B1POS: Mc-p-l, B1Token: 10, S0B0Distance: 1, S0B0Lemma: printre_cel, S0B0LemmaPOS: printre_Tdmpr, S0B0POS: Sp_Tdmpr, S0B0POSLemma: Sp_cel, S0B0Token: printre_cei, S0B1Lemma: printre_10, S0B1LemmaPOS: printre_Mc-p-l, S0B1POS: Sp_Mc-p-l, S0B1POSLemma: Sp_10, S0B1Token: printre_10, S0B2Lemma: printre_câștigător, S0B2LemmaPOS: printre_Ncmprn, S0B2POS: Sp_Ncmprn, S0B2POSLemma: Sp_câștigător, S0B2Token: printre_câștigători, S0Lemma: printre, S0POS: Sp, S0Token: printre, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cei, 10, câștigători ,.. ]
-
-
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cei]   B= [10, câștigători, ai ,.. ]
-
-B0Lemma: 10, B0POS: Mc-p-l, B0Token: 10, B1Lemma: câștigător, B1POS: Ncmprn, B1Token: câștigători, S0B0Distance: 1, S0B0Lemma: cel_10, S0B0LemmaPOS: cel_Mc-p-l, S0B0POS: Tdmpr_Mc-p-l, S0B0POSLemma: Tdmpr_10, S0B0Token: cei_10, S0B1Lemma: cel_câștigător, S0B1LemmaPOS: cel_Ncmprn, S0B1POS: Tdmpr_Ncmprn, S0B1POSLemma: Tdmpr_câștigător, S0B1Token: cei_câștigători, S0B2Lemma: cel_al, S0B2LemmaPOS: cel_Tsmpr, S0B2POS: Tdmpr_Tsmpr, S0B2POSLemma: Tdmpr_al, S0B2Token: cei_ai, S0Lemma: cel, S0POS: Tdmpr, S0Token: cei, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [10, câștigători, ai ,.. ]
-
-
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [10]   B= [câștigători, ai, premiilor ,.. ]
-
-B0Lemma: câștigător, B0POS: Ncmprn, B0Token: câștigători, B1Lemma: al, B1POS: Tsmpr, B1Token: ai, S0B0Distance: 1, S0B0Lemma: 10_câștigător, S0B0LemmaPOS: 10_Ncmprn, S0B0POS: Mc-p-l_Ncmprn, S0B0POSLemma: Mc-p-l_câștigător, S0B0Token: 10_câștigători, S0B1Lemma: 10_al, S0B1LemmaPOS: 10_Tsmpr, S0B1POS: Mc-p-l_Tsmpr, S0B1POSLemma: Mc-p-l_al, S0B1Token: 10_ai, S0B2Lemma: 10_premiu, S0B2LemmaPOS: 10_Ncfpoy, S0B2POS: Mc-p-l_Ncfpoy, S0B2POSLemma: Mc-p-l_premiu, S0B2Token: 10_premiilor, S0Lemma: 10, S0POS: Mc-p-l, S0Token: 10, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [câștigători, ai, premiilor ,.. ]
-
-
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [câștigători]   B= [ai, premiilor, oferite ,.. ]
-
-B0Lemma: al, B0POS: Tsmpr, B0Token: ai, B1Lemma: premiu, B1POS: Ncfpoy, B1Token: premiilor, S0B0Distance: 1, S0B0Lemma: câștigător_al, S0B0LemmaPOS: câștigător_Tsmpr, S0B0POS: Ncmprn_Tsmpr, S0B0POSLemma: Ncmprn_al, S0B0Token: câștigători_ai, S0B1Lemma: câștigător_premiu, S0B1LemmaPOS: câștigător_Ncfpoy, S0B1POS: Ncmprn_Ncfpoy, S0B1POSLemma: Ncmprn_premiu, S0B1Token: câștigători_premiilor, S0B2Lemma: câștigător_oferit, S0B2LemmaPOS: câștigător_Afpfprn, S0B2POS: Ncmprn_Afpfprn, S0B2POSLemma: Ncmprn_oferit, S0B2Token: câștigători_oferite, S0Lemma: câștigător, S0POS: Ncmprn, S0Token: câștigători, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ai, premiilor, oferite ,.. ]
-
-
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ai]   B= [premiilor, oferite, de ,.. ]
-
-B0Lemma: premiu, B0POS: Ncfpoy, B0Token: premiilor, B1Lemma: oferit, B1POS: Afpfprn, B1Token: oferite, S0B0Distance: 1, S0B0Lemma: al_premiu, S0B0LemmaPOS: al_Ncfpoy, S0B0POS: Tsmpr_Ncfpoy, S0B0POSLemma: Tsmpr_premiu, S0B0Token: ai_premiilor, S0B1Lemma: al_oferit, S0B1LemmaPOS: al_Afpfprn, S0B1POS: Tsmpr_Afpfprn, S0B1POSLemma: Tsmpr_oferit, S0B1Token: ai_oferite, S0B2Lemma: al_de, S0B2LemmaPOS: al_Sp, S0B2POS: Tsmpr_Sp, S0B2POSLemma: Tsmpr_de, S0B2Token: ai_de, S0Lemma: al, S0POS: Tsmpr, S0Token: ai, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [premiilor, oferite, de ,.. ]
-
-
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [premiilor]   B= [oferite, de, „ ,.. ]
-
-B0Lemma: oferit, B0POS: Afpfprn, B0Token: oferite, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: premiu_oferit, S0B0LemmaPOS: premiu_Afpfprn, S0B0POS: Ncfpoy_Afpfprn, S0B0POSLemma: Ncfpoy_oferit, S0B0Token: premiilor_oferite, S0B1Lemma: premiu_de, S0B1LemmaPOS: premiu_Sp, S0B1POS: Ncfpoy_Sp, S0B1POSLemma: Ncfpoy_de, S0B1Token: premiilor_de, S0B2Lemma: premiu_”, S0B2LemmaPOS: premiu_DBLQ, S0B2POS: Ncfpoy_DBLQ, S0B2POSLemma: Ncfpoy_”, S0B2Token: premiilor_„, S0Lemma: premiu, S0POS: Ncfpoy, S0Token: premiilor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [oferite, de, „ ,.. ]
-
-
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [oferite]   B= [de, „, agenda ,.. ]
-
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: ”, B1POS: DBLQ, B1Token: „, S0B0Distance: 1, S0B0Lemma: oferit_de, S0B0LemmaPOS: oferit_Sp, S0B0POS: Afpfprn_Sp, S0B0POSLemma: Afpfprn_de, S0B0Token: oferite_de, S0B1Lemma: oferit_”, S0B1LemmaPOS: oferit_DBLQ, S0B1POS: Afpfprn_DBLQ, S0B1POSLemma: Afpfprn_”, S0B1Token: oferite_„, S0B2Lemma: oferit_agendă, S0B2LemmaPOS: oferit_Ncfsry, S0B2POS: Afpfprn_Ncfsry, S0B2POSLemma: Afpfprn_agendă, S0B2Token: oferite_agenda, S0Lemma: oferit, S0POS: Afpfprn, S0Token: oferite, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, „, agenda ,.. ]
-
-
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [„, agenda, “ ,.. ]
-
-B0Lemma: ”, B0POS: DBLQ, B0Token: „, B1Lemma: agendă, B1POS: Ncfsry, B1Token: agenda, S0B0Distance: 1, S0B0Lemma: de_”, S0B0LemmaPOS: de_DBLQ, S0B0POS: Sp_DBLQ, S0B0POSLemma: Sp_”, S0B0Token: de_„, S0B1Lemma: de_agendă, S0B1LemmaPOS: de_Ncfsry, S0B1POS: Sp_Ncfsry, S0B1POSLemma: Sp_agendă, S0B1Token: de_agenda, S0B2Lemma: de_“, S0B2LemmaPOS: de_Ncmsoy, S0B2POS: Sp_Ncmsoy, S0B2POSLemma: Sp_“, S0B2Token: de_“, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [„, agenda, “ ,.. ]
-
-
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [„]   B= [agenda, “, , ,.. ]
-
-B0Lemma: agendă, B0POS: Ncfsry, B0Token: agenda, B1Lemma: “, B1POS: Ncmsoy, B1Token: “, S0B0Distance: 1, S0B0Lemma: ”_agendă, S0B0LemmaPOS: ”_Ncfsry, S0B0POS: DBLQ_Ncfsry, S0B0POSLemma: DBLQ_agendă, S0B0Token: „_agenda, S0B1Lemma: ”_“, S0B1LemmaPOS: ”_Ncmsoy, S0B1POS: DBLQ_Ncmsoy, S0B1POSLemma: DBLQ_“, S0B1Token: „_“, S0B2Lemma: ”_,, S0B2LemmaPOS: ”_COMMA, S0B2POS: DBLQ_COMMA, S0B2POSLemma: DBLQ_,, S0B2Token: „_,, S0Lemma: ”, S0POS: DBLQ, S0Token: „, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [agenda, “, , ,.. ]
-
-
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [agenda]   B= [“, ,, cititorii ,.. ]
-
-B0Lemma: “, B0POS: Ncmsoy, B0Token: “, B1Lemma: ,, B1POS: COMMA, B1Token: ,, S0B0Distance: 1, S0B0Lemma: agendă_“, S0B0LemmaPOS: agendă_Ncmsoy, S0B0POS: Ncfsry_Ncmsoy, S0B0POSLemma: Ncfsry_“, S0B0Token: agenda_“, S0B1Lemma: agendă_,, S0B1LemmaPOS: agendă_COMMA, S0B1POS: Ncfsry_COMMA, S0B1POSLemma: Ncfsry_,, S0B1Token: agenda_,, S0B2Lemma: agendă_cititor, S0B2LemmaPOS: agendă_Ncmpry, S0B2POS: Ncfsry_Ncmpry, S0B2POSLemma: Ncfsry_cititor, S0B2Token: agenda_cititorii, S0Lemma: agendă, S0POS: Ncfsry, S0Token: agenda, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, ,, cititorii ,.. ]
-
-
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [,, cititorii, prezenți ,.. ]
-
-B0Lemma: ,, B0POS: COMMA, B0Token: ,, B1Lemma: cititor, B1POS: Ncmpry, B1Token: cititorii, S0B0Distance: 1, S0B0Lemma: “_,, S0B0LemmaPOS: “_COMMA, S0B0POS: Ncmsoy_COMMA, S0B0POSLemma: Ncmsoy_,, S0B0Token: “_,, S0B1Lemma: “_cititor, S0B1LemmaPOS: “_Ncmpry, S0B1POS: Ncmsoy_Ncmpry, S0B1POSLemma: Ncmsoy_cititor, S0B1Token: “_cititorii, S0B2Lemma: “_prezent, S0B2LemmaPOS: “_Afpmprn, S0B2POS: Ncmsoy_Afpmprn, S0B2POSLemma: Ncmsoy_prezent, S0B2Token: “_prezenți, S0Lemma: “, S0POS: Ncmsoy, S0Token: “, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, cititorii, prezenți ,.. ]
-
-
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [cititorii, prezenți, în ,.. ]
-
-B0Lemma: cititor, B0POS: Ncmpry, B0Token: cititorii, B1IsInLexic: true, B1Lemma: prezent, B1POS: Afpmprn, B1Token: prezenți, S0B0Distance: 1, S0B0Lemma: ,_cititor, S0B0LemmaPOS: ,_Ncmpry, S0B0POS: COMMA_Ncmpry, S0B0POSLemma: COMMA_cititor, S0B0Token: ,_cititorii, S0B1Lemma: ,_prezent, S0B1LemmaPOS: ,_Afpmprn, S0B1POS: COMMA_Afpmprn, S0B1POSLemma: COMMA_prezent, S0B1Token: ,_prezenți, S0B2Lemma: ,_în, S0B2LemmaPOS: ,_Sp, S0B2POS: COMMA_Sp, S0B2POSLemma: COMMA_în, S0B2Token: ,_în, S0Lemma: ,, S0POS: COMMA, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cititorii, prezenți, în ,.. ]
-
-
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cititorii]   B= [prezenți, în, sală ,.. ]
-
-B0IsInLexic: true, B0Lemma: prezent, B0POS: Afpmprn, B0Token: prezenți, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: cititor_prezent, S0B0LemmaPOS: cititor_Afpmprn, S0B0POS: Ncmpry_Afpmprn, S0B0POSLemma: Ncmpry_prezent, S0B0Token: cititorii_prezenți, S0B1Lemma: cititor_în, S0B1LemmaPOS: cititor_Sp, S0B1POS: Ncmpry_Sp, S0B1POSLemma: Ncmpry_în, S0B1Token: cititorii_în, S0B2Lemma: cititor_sală, S0B2LemmaPOS: cititor_Ncfsrn, S0B2POS: Ncmpry_Ncfsrn, S0B2POSLemma: Ncmpry_sală, S0B2Token: cititorii_sală, S0Lemma: cititor, S0POS: Ncmpry, S0Token: cititorii, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prezenți, în, sală ,.. ]
-
-
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prezenți]   B= [în, sală, au ,.. ]
-
-B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: sală, B1POS: Ncfsrn, B1Token: sală, S0B0Distance: 1, S0B0Lemma: prezent_în, S0B0LemmaPOS: prezent_Sp, S0B0POS: Afpmprn_Sp, S0B0POSLemma: Afpmprn_în, S0B0Token: prezenți_în, S0B1Lemma: prezent_sală, S0B1LemmaPOS: prezent_Ncfsrn, S0B1POS: Afpmprn_Ncfsrn, S0B1POSLemma: Afpmprn_sală, S0B1Token: prezenți_sală, S0B2Lemma: prezent_avea, S0B2LemmaPOS: prezent_Vaip3p, S0B2POS: Afpmprn_Vaip3p, S0B2POSLemma: Afpmprn_avea, S0B2Token: prezenți_au, S0IsInLexic: true, S0Lemma: prezent, S0POS: Afpmprn, S0Token: prezenți, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, sală, au ,.. ]
-
-
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [sală, au, mai ,.. ]
-
-B0Lemma: sală, B0POS: Ncfsrn, B0Token: sală, B1IsInLexic: true, B1Lemma: avea, B1POS: Vaip3p, B1Token: au, S0B0Distance: 1, S0B0Lemma: în_sală, S0B0LemmaPOS: în_Ncfsrn, S0B0POS: Sp_Ncfsrn, S0B0POSLemma: Sp_sală, S0B0Token: în_sală, S0B1Lemma: în_avea, S0B1LemmaPOS: în_Vaip3p, S0B1POS: Sp_Vaip3p, S0B1POSLemma: Sp_avea, S0B1Token: în_au, S0B2Lemma: în_mai, S0B2LemmaPOS: în_Rg, S0B2POS: Sp_Rg, S0B2POSLemma: Sp_mai, S0B2Token: în_mai, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sală, au, mai ,.. ]
-
-
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sală]   B= [au, mai, avut ,.. ]
-
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vaip3p, B0Token: au, B1Lemma: mai, B1POS: Rg, B1Token: mai, S0B0Distance: 1, S0B0Lemma: sală_avea, S0B0LemmaPOS: sală_Vaip3p, S0B0POS: Ncfsrn_Vaip3p, S0B0POSLemma: Ncfsrn_avea, S0B0Token: sală_au, S0B1Lemma: sală_mai, S0B1LemmaPOS: sală_Rg, S0B1POS: Ncfsrn_Rg, S0B1POSLemma: Ncfsrn_mai, S0B1Token: sală_mai, S0B2Lemma: sală_avea, S0B2LemmaPOS: sală_Vmp, S0B2POS: Ncfsrn_Vmp, S0B2POSLemma: Ncfsrn_avea, S0B2Token: sală_avut, S0Lemma: sală, S0POS: Ncfsrn, S0Token: sală, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, mai, avut ,.. ]
-
-
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [mai, avut, o ,.. ]
-
-B0Lemma: mai, B0POS: Rg, B0Token: mai, B1IsInLexic: true, B1Lemma: avea, B1POS: Vmp, B1Token: avut, S0B0Distance: 1, S0B0Lemma: avea_mai, S0B0LemmaPOS: avea_Rg, S0B0POS: Vaip3p_Rg, S0B0POSLemma: Vaip3p_mai, S0B0Token: au_mai, S0B1Lemma: avea_avea, S0B1LemmaPOS: avea_Vmp, S0B1POS: Vaip3p_Vmp, S0B1POSLemma: Vaip3p_avea, S0B1Token: au_avut, S0B2Lemma: avea_un, S0B2LemmaPOS: avea_Tifsr, S0B2POS: Vaip3p_Tifsr, S0B2POSLemma: Vaip3p_un, S0B2Token: au_o, S0IsInLexic: true, S0Lemma: avea, S0POS: Vaip3p, S0Token: au, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, avut, o ,.. ]
-
-
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [avut, o, șansă ,.. ]
-
-B0IsInLexic: true, B0Lemma: avea, B0POS: Vmp, B0Token: avut, B1IsInLexic: true, B1Lemma: un, B1POS: Tifsr, B1Token: o, S0B0Distance: 1, S0B0Lemma: mai_avea, S0B0LemmaPOS: mai_Vmp, S0B0POS: Rg_Vmp, S0B0POSLemma: Rg_avea, S0B0Token: mai_avut, S0B1Lemma: mai_un, S0B1LemmaPOS: mai_Tifsr, S0B1POS: Rg_Tifsr, S0B1POSLemma: Rg_un, S0B1Token: mai_o, S0B2Lemma: mai_șansă, S0B2LemmaPOS: mai_Ncfsrn, S0B2POS: Rg_Ncfsrn, S0B2POSLemma: Rg_șansă, S0B2Token: mai_șansă, S0Lemma: mai, S0POS: Rg, S0Token: mai, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [avut, o, șansă ,.. ]
-
-
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [avut]   B= [o, șansă, - ,.. ]
-
-B0IsInLexic: true, B0Lemma: un, B0POS: Tifsr, B0Token: o, B1IsInLexic: true, B1Lemma: șansă, B1POS: Ncfsrn, B1Token: șansă, S0B0Distance: 1, S0B0Lemma: avea_un, S0B0LemmaPOS: avea_Tifsr, S0B0POS: Vmp_Tifsr, S0B0POSLemma: Vmp_un, S0B0Token: avut_o, S0B1Lemma: avea_șansă, S0B1LemmaPOS: avea_Ncfsrn, S0B1POS: Vmp_Ncfsrn, S0B1POSLemma: Vmp_șansă, S0B1Token: avut_șansă, S0B2Lemma: avea_-, S0B2LemmaPOS: avea_DASH, S0B2POS: Vmp_DASH, S0B2POSLemma: Vmp_-, S0B2Token: avut_-, S0IsInLexic: true, S0Lemma: avea, S0POS: Vmp, S0Token: avut, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, șansă, - ,.. ]
-
-
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [șansă, -, aceea ,.. ]
-
-B0IsInLexic: true, B0Lemma: șansă, B0POS: Ncfsrn, B0Token: șansă, B1IsInLexic: true, B1Lemma: -, B1POS: DASH, B1Token: -, S0B0Distance: 1, S0B0Lemma: un_șansă, S0B0LemmaPOS: un_Ncfsrn, S0B0POS: Tifsr_Ncfsrn, S0B0POSLemma: Tifsr_șansă, S0B0Token: o_șansă, S0B1Lemma: un_-, S0B1LemmaPOS: un_DASH, S0B1POS: Tifsr_DASH, S0B1POSLemma: Tifsr_-, S0B1Token: o_-, S0B2Lemma: un_acela, S0B2LemmaPOS: un_Pd3fsr, S0B2POS: Tifsr_Pd3fsr, S0B2POSLemma: Tifsr_acela, S0B2Token: o_aceea, S0IsInLexic: true, S0Lemma: un, S0POS: Tifsr, S0Token: o, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [șansă, -, aceea ,.. ]
-
-
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [șansă]   B= [-, aceea, de ,.. ]
-
-B0IsInLexic: true, B0Lemma: -, B0POS: DASH, B0Token: -, B1Lemma: acela, B1POS: Pd3fsr, B1Token: aceea, S0B0Distance: 1, S0B0Lemma: șansă_-, S0B0LemmaPOS: șansă_DASH, S0B0POS: Ncfsrn_DASH, S0B0POSLemma: Ncfsrn_-, S0B0Token: șansă_-, S0B1Lemma: șansă_acela, S0B1LemmaPOS: șansă_Pd3fsr, S0B1POS: Ncfsrn_Pd3fsr, S0B1POSLemma: Ncfsrn_acela, S0B1Token: șansă_aceea, S0B2Lemma: șansă_de, S0B2LemmaPOS: șansă_Sp, S0B2POS: Ncfsrn_Sp, S0B2POSLemma: Ncfsrn_de, S0B2Token: șansă_de, S0IsInLexic: true, S0Lemma: șansă, S0POS: Ncfsrn, S0Token: șansă, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, aceea, de ,.. ]
-
-
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [aceea, de, a ,.. ]
-
-B0Lemma: acela, B0POS: Pd3fsr, B0Token: aceea, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: -_acela, S0B0LemmaPOS: -_Pd3fsr, S0B0POS: DASH_Pd3fsr, S0B0POSLemma: DASH_acela, S0B0Token: -_aceea, S0B1Lemma: -_de, S0B1LemmaPOS: -_Sp, S0B1POS: DASH_Sp, S0B1POSLemma: DASH_de, S0B1Token: -_de, S0B2Lemma: -_a, S0B2LemmaPOS: -_Qn, S0B2POS: DASH_Qn, S0B2POSLemma: DASH_a, S0B2Token: -_a, S0IsInLexic: true, S0Lemma: -, S0POS: DASH, S0Token: -, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aceea, de, a ,.. ]
-
-
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aceea]   B= [de, a, - ,.. ]
-
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: a, B1POS: Qn, B1Token: a, S0B0Distance: 1, S0B0Lemma: acela_de, S0B0LemmaPOS: acela_Sp, S0B0POS: Pd3fsr_Sp, S0B0POSLemma: Pd3fsr_de, S0B0Token: aceea_de, S0B1Lemma: acela_a, S0B1LemmaPOS: acela_Qn, S0B1POS: Pd3fsr_Qn, S0B1POSLemma: Pd3fsr_a, S0B1Token: aceea_a, S0B2Lemma: acela_-, S0B2LemmaPOS: acela_DASH, S0B2POS: Pd3fsr_DASH, S0B2POSLemma: Pd3fsr_-, S0B2Token: aceea_-, S0Lemma: acela, S0POS: Pd3fsr, S0Token: aceea, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, a, - ,.. ]
-
-
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [a, -, și ,.. ]
-
-B0Lemma: a, B0POS: Qn, B0Token: a, B1IsInLexic: true, B1Lemma: -, B1POS: DASH, B1Token: -, S0B0Distance: 1, S0B0Lemma: de_a, S0B0LemmaPOS: de_Qn, S0B0POS: Sp_Qn, S0B0POSLemma: Sp_a, S0B0Token: de_a, S0B1Lemma: de_-, S0B1LemmaPOS: de_DASH, S0B1POS: Sp_DASH, S0B1POSLemma: Sp_-, S0B1Token: de_-, S0B2Lemma: de_și, S0B2LemmaPOS: de_Cc, S0B2POS: Sp_Cc, S0B2POSLemma: Sp_și, S0B2Token: de_și, S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, -, și ,.. ]
-
-
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [-, și, găsi ,.. ]
-
-B0IsInLexic: true, B0Lemma: -, B0POS: DASH, B0Token: -, B1IsInLexic: true, B1Lemma: și, B1POS: Cc, B1Token: și, S0B0Distance: 1, S0B0Lemma: a_-, S0B0LemmaPOS: a_DASH, S0B0POS: Qn_DASH, S0B0POSLemma: Qn_-, S0B0Token: a_-, S0B1Lemma: a_și, S0B1LemmaPOS: a_Cc, S0B1POS: Qn_Cc, S0B1POSLemma: Qn_și, S0B1Token: a_și, S0B2Lemma: a_găsi, S0B2LemmaPOS: a_Vmis3s, S0B2POS: Qn_Vmis3s, S0B2POSLemma: Qn_găsi, S0B2Token: a_găsi, S0Lemma: a, S0POS: Qn, S0Token: a, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, și, găsi ,.. ]
-
-
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [și, găsi, propriul ,.. ]
-
-B0IsInLexic: true, B0Lemma: și, B0POS: Cc, B0Token: și, B1IsInLexic: true, B1Lemma: găsi, B1POS: Vmis3s, B1Token: găsi, S0B0Distance: 1, S0B0Lemma: -_și, S0B0LemmaPOS: -_Cc, S0B0POS: DASH_Cc, S0B0POSLemma: DASH_și, S0B0Token: -_și, S0B1Lemma: -_găsi, S0B1LemmaPOS: -_Vmis3s, S0B1POS: DASH_Vmis3s, S0B1POSLemma: DASH_găsi, S0B1Token: -_găsi, S0B2Lemma: -_propriu, S0B2LemmaPOS: -_Ncmsry, S0B2POS: DASH_Ncmsry, S0B2POSLemma: DASH_propriu, S0B2Token: -_propriul, S0IsInLexic: true, S0Lemma: -, S0POS: DASH, S0Token: -, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, găsi, propriul ,.. ]
-
-
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [găsi, propriul, plic ,.. ]
-
-B0IsInLexic: true, B0Lemma: găsi, B0POS: Vmis3s, B0Token: găsi, B1IsInLexic: true, B1Lemma: propriu, B1POS: Ncmsry, B1Token: propriul, S0B0Distance: 1, S0B0Lemma: și_găsi, S0B0LemmaPOS: și_Vmis3s, S0B0POS: Cc_Vmis3s, S0B0POSLemma: Cc_găsi, S0B0Token: și_găsi, S0B1Lemma: și_propriu, S0B1LemmaPOS: și_Ncmsry, S0B1POS: Cc_Ncmsry, S0B1POSLemma: Cc_propriu, S0B1Token: și_propriul, S0B2Lemma: și_plic, S0B2LemmaPOS: și_Ncmsrn, S0B2POS: Cc_Ncmsrn, S0B2POSLemma: Cc_plic, S0B2Token: și_plic, S0IsInLexic: true, S0Lemma: și, S0POS: Cc, S0Token: și, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [găsi, propriul, plic ,.. ]
-
-
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [găsi]   B= [propriul, plic, în ,.. ]
-
-B0IsInLexic: true, B0Lemma: propriu, B0POS: Ncmsry, B0Token: propriul, B1Lemma: plic, B1POS: Ncmsrn, B1Token: plic, S0B0Distance: 1, S0B0Lemma: găsi_propriu, S0B0LemmaPOS: găsi_Ncmsry, S0B0POS: Vmis3s_Ncmsry, S0B0POSLemma: Vmis3s_propriu, S0B0Token: găsi_propriul, S0B1Lemma: găsi_plic, S0B1LemmaPOS: găsi_Ncmsrn, S0B1POS: Vmis3s_Ncmsrn, S0B1POSLemma: Vmis3s_plic, S0B1Token: găsi_plic, S0B2Lemma: găsi_în, S0B2LemmaPOS: găsi_Sp, S0B2POS: Vmis3s_Sp, S0B2POSLemma: Vmis3s_în, S0B2Token: găsi_în, S0IsInLexic: true, S0Lemma: găsi, S0POS: Vmis3s, S0Token: găsi, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [propriul, plic, în ,.. ]
-
-
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [propriul]   B= [plic, în, imensa ,.. ]
-
-B0Lemma: plic, B0POS: Ncmsrn, B0Token: plic, B1IsInLexic: true, B1Lemma: în, B1POS: Sp, B1Token: în, S0B0Distance: 1, S0B0Lemma: propriu_plic, S0B0LemmaPOS: propriu_Ncmsrn, S0B0POS: Ncmsry_Ncmsrn, S0B0POSLemma: Ncmsry_plic, S0B0Token: propriul_plic, S0B1Lemma: propriu_în, S0B1LemmaPOS: propriu_Sp, S0B1POS: Ncmsry_Sp, S0B1POSLemma: Ncmsry_în, S0B1Token: propriul_în, S0B2Lemma: propriu_imens, S0B2LemmaPOS: propriu_Afpfsry, S0B2POS: Ncmsry_Afpfsry, S0B2POSLemma: Ncmsry_imens, S0B2Token: propriul_imensa, S0IsInLexic: true, S0Lemma: propriu, S0POS: Ncmsry, S0Token: propriul, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [plic, în, imensa ,.. ]
-
-
-
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [plic]   B= [în, imensa, grămadă ,.. ]
-
-B0IsInLexic: true, B0Lemma: în, B0POS: Sp, B0Token: în, B1Lemma: imens, B1POS: Afpfsry, B1Token: imensa, S0B0Distance: 1, S0B0Lemma: plic_în, S0B0LemmaPOS: plic_Sp, S0B0POS: Ncmsrn_Sp, S0B0POSLemma: Ncmsrn_în, S0B0Token: plic_în, S0B1Lemma: plic_imens, S0B1LemmaPOS: plic_Afpfsry, S0B1POS: Ncmsrn_Afpfsry, S0B1POSLemma: Ncmsrn_imens, S0B1Token: plic_imensa, S0B2Lemma: plic_grămadă, S0B2LemmaPOS: plic_Ncfsrn, S0B2POS: Ncmsrn_Ncfsrn, S0B2POSLemma: Ncmsrn_grămadă, S0B2Token: plic_grămadă, S0Lemma: plic, S0POS: Ncmsrn, S0Token: plic, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, imensa, grămadă ,.. ]
-
-
-
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [imensa, grămadă, formată ,.. ]
-
-B0Lemma: imens, B0POS: Afpfsry, B0Token: imensa, B1Lemma: grămadă, B1POS: Ncfsrn, B1Token: grămadă, S0B0Distance: 1, S0B0Lemma: în_imens, S0B0LemmaPOS: în_Afpfsry, S0B0POS: Sp_Afpfsry, S0B0POSLemma: Sp_imens, S0B0Token: în_imensa, S0B1Lemma: în_grămadă, S0B1LemmaPOS: în_Ncfsrn, S0B1POS: Sp_Ncfsrn, S0B1POSLemma: Sp_grămadă, S0B1Token: în_grămadă, S0B2Lemma: în_format, S0B2LemmaPOS: în_Afpfsrn, S0B2POS: Sp_Afpfsrn, S0B2POSLemma: Sp_format, S0B2Token: în_formată, S0IsInLexic: true, S0Lemma: în, S0POS: Sp, S0Token: în, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [imensa, grămadă, formată ,.. ]
-
-
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [imensa]   B= [grămadă, formată, din ,.. ]
-
-B0Lemma: grămadă, B0POS: Ncfsrn, B0Token: grămadă, B1Lemma: format, B1POS: Afpfsrn, B1Token: formată, S0B0Distance: 1, S0B0Lemma: imens_grămadă, S0B0LemmaPOS: imens_Ncfsrn, S0B0POS: Afpfsry_Ncfsrn, S0B0POSLemma: Afpfsry_grămadă, S0B0Token: imensa_grămadă, S0B1Lemma: imens_format, S0B1LemmaPOS: imens_Afpfsrn, S0B1POS: Afpfsry_Afpfsrn, S0B1POSLemma: Afpfsry_format, S0B1Token: imensa_formată, S0B2Lemma: imens_din, S0B2LemmaPOS: imens_Sp, S0B2POS: Afpfsry_Sp, S0B2POSLemma: Afpfsry_din, S0B2Token: imensa_din, S0Lemma: imens, S0POS: Afpfsry, S0Token: imensa, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [grămadă, formată, din ,.. ]
-
-
-
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [grămadă]   B= [formată, din, aproape ,.. ]
-
-B0Lemma: format, B0POS: Afpfsrn, B0Token: formată, B1IsInLexic: true, B1Lemma: din, B1POS: Sp, B1Token: din, S0B0Distance: 1, S0B0Lemma: grămadă_format, S0B0LemmaPOS: grămadă_Afpfsrn, S0B0POS: Ncfsrn_Afpfsrn, S0B0POSLemma: Ncfsrn_format, S0B0Token: grămadă_formată, S0B1Lemma: grămadă_din, S0B1LemmaPOS: grămadă_Sp, S0B1POS: Ncfsrn_Sp, S0B1POSLemma: Ncfsrn_din, S0B1Token: grămadă_din, S0B2Lemma: grămadă_aproape, S0B2LemmaPOS: grămadă_Rg, S0B2POS: Ncfsrn_Rg, S0B2POSLemma: Ncfsrn_aproape, S0B2Token: grămadă_aproape, S0Lemma: grămadă, S0POS: Ncfsrn, S0Token: grămadă, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [formată, din, aproape ,.. ]
-
-
-
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [formată]   B= [din, aproape, 20 ,.. ]
-
-B0IsInLexic: true, B0Lemma: din, B0POS: Sp, B0Token: din, B1Lemma: aproape, B1POS: Rg, B1Token: aproape, S0B0Distance: 1, S0B0Lemma: format_din, S0B0LemmaPOS: format_Sp, S0B0POS: Afpfsrn_Sp, S0B0POSLemma: Afpfsrn_din, S0B0Token: formată_din, S0B1Lemma: format_aproape, S0B1LemmaPOS: format_Rg, S0B1POS: Afpfsrn_Rg, S0B1POSLemma: Afpfsrn_aproape, S0B1Token: formată_aproape, S0B2Lemma: format_20, S0B2LemmaPOS: format_Mc-p-l, S0B2POS: Afpfsrn_Mc-p-l, S0B2POSLemma: Afpfsrn_20, S0B2Token: formată_20, S0Lemma: format, S0POS: Afpfsrn, S0Token: formată, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, aproape, 20 ,.. ]
-
-
-
-89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [aproape, 20, 000 ,.. ]
-
-B0Lemma: aproape, B0POS: Rg, B0Token: aproape, B1Lemma: 20, B1POS: Mc-p-l, B1Token: 20, S0B0Distance: 1, S0B0Lemma: din_aproape, S0B0LemmaPOS: din_Rg, S0B0POS: Sp_Rg, S0B0POSLemma: Sp_aproape, S0B0Token: din_aproape, S0B1Lemma: din_20, S0B1LemmaPOS: din_Mc-p-l, S0B1POS: Sp_Mc-p-l, S0B1POSLemma: Sp_20, S0B1Token: din_20, S0B2Lemma: din_000, S0B2LemmaPOS: din_M, S0B2POS: Sp_M, S0B2POSLemma: Sp_000, S0B2Token: din_000, S0IsInLexic: true, S0Lemma: din, S0POS: Sp, S0Token: din, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aproape, 20, 000 ,.. ]
-
-
-
-91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aproape]   B= [20, 000, de ,.. ]
-
-B0Lemma: 20, B0POS: Mc-p-l, B0Token: 20, B1Lemma: 000, B1POS: M, B1Token: 000, S0B0Distance: 1, S0B0Lemma: aproape_20, S0B0LemmaPOS: aproape_Mc-p-l, S0B0POS: Rg_Mc-p-l, S0B0POSLemma: Rg_20, S0B0Token: aproape_20, S0B1Lemma: aproape_000, S0B1LemmaPOS: aproape_M, S0B1POS: Rg_M, S0B1POSLemma: Rg_000, S0B1Token: aproape_000, S0B2Lemma: aproape_de, S0B2LemmaPOS: aproape_Sp, S0B2POS: Rg_Sp, S0B2POSLemma: Rg_de, S0B2Token: aproape_de, S0Lemma: aproape, S0POS: Rg, S0Token: aproape, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [20, 000, de ,.. ]
-
-
-
-93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [20]   B= [000, de, plicuri ,.. ]
-
-B0Lemma: 000, B0POS: M, B0Token: 000, B1IsInLexic: true, B1Lemma: de, B1POS: Sp, B1Token: de, S0B0Distance: 1, S0B0Lemma: 20_000, S0B0LemmaPOS: 20_M, S0B0POS: Mc-p-l_M, S0B0POSLemma: Mc-p-l_000, S0B0Token: 20_000, S0B1Lemma: 20_de, S0B1LemmaPOS: 20_Sp, S0B1POS: Mc-p-l_Sp, S0B1POSLemma: Mc-p-l_de, S0B1Token: 20_de, S0B2Lemma: 20_plic, S0B2LemmaPOS: 20_Ncfprn, S0B2POS: Mc-p-l_Ncfprn, S0B2POSLemma: Mc-p-l_plic, S0B2Token: 20_plicuri, S0Lemma: 20, S0POS: Mc-p-l, S0Token: 20, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [000, de, plicuri ,.. ]
-
-
-
-95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [000]   B= [de, plicuri, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: de, B0POS: Sp, B0Token: de, B1Lemma: plic, B1POS: Ncfprn, B1Token: plicuri, S0B0Distance: 1, S0B0Lemma: 000_de, S0B0LemmaPOS: 000_Sp, S0B0POS: M_Sp, S0B0POSLemma: M_de, S0B0Token: 000_de, S0B1Lemma: 000_plic, S0B1LemmaPOS: 000_Ncfprn, S0B1POS: M_Ncfprn, S0B1POSLemma: M_plic, S0B1Token: 000_plicuri, S0B2Lemma: 000_., S0B2LemmaPOS: 000_PERIOD, S0B2POS: M_PERIOD, S0B2POSLemma: M_., S0B2Token: 000_., S0Lemma: 000, S0POS: M, S0Token: 000, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, plicuri, . ,.. ]
-
-
-
-97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [plicuri, . ,.. ]
-
-B0Lemma: plic, B0POS: Ncfprn, B0Token: plicuri, B1Lemma: ., B1POS: PERIOD, B1Token: ., S0B0Distance: 1, S0B0Lemma: de_plic, S0B0LemmaPOS: de_Ncfprn, S0B0POS: Sp_Ncfprn, S0B0POSLemma: Sp_plic, S0B0Token: de_plicuri, S0B1Lemma: de_., S0B1LemmaPOS: de_PERIOD, S0B1POS: Sp_PERIOD, S0B1POSLemma: Sp_., S0B1Token: de_., S0IsInLexic: true, S0Lemma: de, S0POS: Sp, S0Token: de, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [plicuri, . ,.. ]
-
-
-
-99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [plicuri]   B= [.]
-
-B0Lemma: ., B0POS: PERIOD, B0Token: ., S0B0Distance: 1, S0B0Lemma: plic_., S0B0LemmaPOS: plic_PERIOD, S0B0POS: Ncfprn_PERIOD, S0B0POSLemma: Ncfprn_., S0B0Token: plicuri_., S0Lemma: plic, S0POS: Ncfprn, S0Token: plicuri, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
