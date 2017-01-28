@@ -38,7 +38,7 @@ class Report:
                 corpus.mweNum) + '\n' + Report.NumOFEmbedded + str(
                 corpus.emeddedNum) + '\n' + Report.NumOFInterleaving + str(
                 corpus.intereavingNum) + '\n' + Report.NumContinousMWEs + str(
-                corpus.continousExp) + '\n'+ Report.NumSingleWordMWEs + str(corpus.singleWordExp)
+                corpus.continousExp) + '\n' + Report.NumSingleWordMWEs + str(corpus.singleWordExp)
             Report.editReadme('w', result)
 
     @staticmethod
@@ -125,10 +125,58 @@ class Report:
         staticParsingFile.write(result)
 
     @staticmethod
-    def editTotalReadMe(fScore, recall, precision, corpus):
-        report = Parameters.languageName  + ',' + str("%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + \
-                 str("%.3f" % precision) + ',' + str(corpus.sentNum) + ',' + str(corpus.mweNum) + ',' + str(
-            corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + str(corpus.singleWordExp) +\
-                 ',' + str(corpus.emeddedNum) + ',' + Parameters.toBinary() + '\n'
+    def editTotalReadMe(fScore, recall, precision, corpus, testSents):
+
+        mwes, singleMWE, continousMWEs, interleavingMwes, embeddedMwes = Report.getTestStatistics(testSents)
+
+        identifiedMwes, identifiedSingleMWE, identifiedContinousMWEs = Report.getIdentifiedTestStatistics(testSents)
+
+        report = Parameters.languageName + ',' + str("%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str(
+            "%.3f" % precision) + ','
+
+        report += str(corpus.sentNum) + ',' + str(corpus.mweNum) + ',' + str(
+            corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + str(
+            corpus.singleWordExp) + ',' + str(corpus.emeddedNum) + ','
+
+        report += str(mwes) + ',' + str(identifiedMwes) + ',' + str(singleMWE) + ',' + str(identifiedSingleMWE) + ','
+        report += str(mwes - continousMWEs) + ',' + str(identifiedMwes - identifiedContinousMWEs) + ',' +  Parameters.toBinary() + '\n'
+
         with open(Parameters.results, "a") as staticParsingFile:
             staticParsingFile.write(report)
+
+    @staticmethod
+    def getTestStatistics(sents):
+        singleMWE = 0
+        continousMWEs = 0
+        interleavingMwes = 0
+        embeddedMwes = 0
+        mwes = 0
+        for sent in sents:
+            mwes += len(sent.vMWEs)
+            for mwe in sent.vMWEs:
+                if mwe.isInterleaving:
+                    interleavingMwes += 1
+                if mwe.isSingleWordExp:
+                    singleMWE += 1
+                if mwe.isContinousExp:
+                    continousMWEs += 1
+                if mwe.isEmbeded:
+                    embeddedMwes += 1
+                if mwe.isInterleaving:
+                    embeddedMwes += 1
+        return mwes, singleMWE, continousMWEs, interleavingMwes, embeddedMwes
+
+    @staticmethod
+    def getIdentifiedTestStatistics(sents):
+        singleMWE = 0
+        continousMWEs = 0
+        mwes = 0
+        for sent in sents:
+            mwes += len(sent.identifiedVMWEs)
+            for mwe in sent.identifiedVMWEs:
+                if len(mwe.tokens) == 1:
+                    singleMWE += 1
+                if sent.isContinousMwe(mwe):
+                    continousMWEs += 1
+
+        return mwes, singleMWE, continousMWEs

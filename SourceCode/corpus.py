@@ -305,18 +305,23 @@ class Sentence:
                 mwe.isSingleWordExp = True
                 mwe.isContinousExp = True
                 singleWordExp +=1
+                continousExp +=1
             else:
-                idxs = []
-                for token in mwe.tokens:
-                    idxs.append(self.tokens.index(token))
-                range = xrange(min(idxs), max(idxs))
-                mwe.isContinousExp = True
-                for i in range:
-                    if i not in idxs:
-                        mwe.isContinousExp = False
-                if mwe.isContinousExp:
+                if self.isContinousMwe(mwe):
                     continousExp +=1
         return singleWordExp, continousExp
+
+    def isContinousMwe(self, mwe):
+        idxs = []
+        for token in mwe.tokens:
+            idxs.append(self.tokens.index(token))
+        range = xrange(min(idxs), max(idxs))
+        mwe.isContinousExp = True
+        for i in range:
+            if i not in idxs:
+                mwe.isContinousExp = False
+        return mwe.isContinousExp
+
 
     def recognizeInterleavingVMWEs(self):
         if len(self.vMWEs) <= 1:

@@ -12,6 +12,8 @@ class Parameters:
     langFolder = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     resultPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
 
+    usePreciseDictionary = False
+
     printReport = True
     serialize = True
 
@@ -37,6 +39,8 @@ class Parameters:
     useS0S1Distance = True
     useStackLength = True
 
+    useLexic = False
+
     def __init__(self, filePath):
 
         with open(filePath, 'r') as configFile:
@@ -45,6 +49,12 @@ class Parameters:
             if len(filePath.split('/')) > 0:
                 Parameters.xpName = filePath.split('/')[-1].split('.')[0]
             Parameters.configPath = filePath
+
+            if "usePreciseDictionary" in  config.keys():
+                Parameters.usePreciseDictionary = config["usePreciseDictionary"]
+
+            if "useLexic" in config.keys():
+                Parameters.useLexic = config["useLexic"]
 
             Parameters.useFirstBufferElement = config["useFirstBufferElement"]
             Parameters.useSecondBufferElement = config["useSecondBufferElement"]

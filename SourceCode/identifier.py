@@ -11,8 +11,6 @@ from reports import Report
 
 
 class Identifier:
-
-
     @staticmethod
     def identify(configPath, realExper=False):
         for subdir, dirs, files in os.walk(configPath):
@@ -37,8 +35,7 @@ class Identifier:
                         clf = Identifier.train('', corpus, trainingSents)
                         fScore, recall, precision = Identifier.parse(testingSents, clf, Parser.mweDictionary,
                                                                      Parameters.languageName)
-                        Report.editTotalReadMe(fScore, recall, precision , corpus)
-
+                        Report.editTotalReadMe(fScore, recall, precision, corpus , testingSents)
 
     @staticmethod
     def getTrainAndTestSents(realExper, corpus):
@@ -77,16 +74,14 @@ class Identifier:
                             mweTokenDictionary[token.lemma] = 1
                         else:
                             mweTokenDictionary[token.text] = 1
-
-        for key1 in mweDictionary.keys():
-            for key2 in mweDictionary.keys():
-                if key1 != key2:
-                    if key1 in key2:
-                        #if ('\'' in  key1 and '\\' not in  key1) or ('\'' in  key2 and '\\' not in  key2) :
-                        #    continue
-                        mweDictionary.pop(key1, None)
-                    elif key2 in key1:
-                        mweDictionary.pop(key2, None)
+        if Parameters.usePreciseDictionary:
+            for key1 in mweDictionary.keys():
+                for key2 in mweDictionary.keys():
+                    if key1 != key2:
+                        if key1 in key2:
+                            mweDictionary.pop(key1, None)
+                        elif key2 in key1:
+                            mweDictionary.pop(key2, None)
         return mweDictionary, mweTokenDictionary
 
     @staticmethod

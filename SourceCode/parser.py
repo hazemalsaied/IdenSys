@@ -29,7 +29,8 @@ class Parser:
                 transition = Parser.applyShift(transition)
                 transDicList.append({})
                 transLebelsList.append(0)
-            elif len(config.buffer) == 0 and len(config.stack) == 1:
+            elif (len(config.buffer) == 0 and len(config.stack) == 1) or (
+                    len(config.stack) == 1 and isinstance(config.stack[0], list)):
                 transition = Parser.applyComplete(transition, sent, parse=True)
                 transDicList.append({})
                 transLebelsList.append(2)
@@ -89,6 +90,31 @@ class Parser:
         transDic = {}
         elemIdx = 0
         configuration = transition.configuration
+
+        if Parameters.useLexic and len(configuration.buffer) > 0 and len(configuration.stack) >= 1:
+            for elem in configuration.stack:
+                tokens = Parser.getToken(elem)
+                tokenTxt = ''
+                for token in tokens:
+                    if token.lemma != '':
+                        tokenTxt += token.lemma
+                    else:
+                        tokenTxt += token.text + ' '
+                tokenTxt = tokenTxt.strip()
+                for key in Parser.mweDictionary.keys():
+                    if tokenTxt in key and tokenTxt != key:
+                        bufidx = 0
+                        for bufElem in configuration.buffer[:5]:
+
+                            if bufElem.lemma != '' and bufElem.lemma in key:
+                                transDic['S0B' + str(bufidx) + 'ArePartsOfMWE'] = True
+                            if isinstance(elem, Token):
+                                transDic['S0B' + str(bufidx) + 'ArePartsOfMWEDistance'] = sent.tokens.index(bufElem) - sent.tokens.index(elem)
+                            else:
+                                transDic['S0B' + str(bufidx) + 'ArePartsOfMWEDistance'] = sent.tokens.index(
+                                    bufElem) - sent.tokens.index(tokens[-1])
+                            bufidx += 1
+
         if Parameters.useStackLength and len(configuration.stack) > 1:
             transDic['StackLengthIs'] = len(configuration.stack)
         if len(configuration.stack) >= 2:
@@ -178,6 +204,7 @@ class Parser:
                 transDic[label + '_LastTwoLetters'] = token.text[-2:]
             if Parameters.useDictionary and token.lemma in Parser.mweTokenDic.keys():
                 transDic[label + 'IsInLexic'] = 'true'
+
         elif isinstance(token, list):
             tokens = Parser.getToken(token)
             transDic[label + 'Token'] = ''
@@ -530,9 +557,11 @@ class Parser:
                         sent.identifiedVMWEs.append(vMWE)
                     vMWE.tokens = vMWETokens
                     newTokens.append(vMWE)
+                else:
+                    newTokens.append(vMWETokens[0])
 
-            else:
-                newTokens.append(vMWETokens[0])
+            # else:
+            #     newTokens.append(vMWETokens[0])
             newConfig = Configuration(stack=newStack, buffer=newBuffer, tokens=newTokens)
 
             newTransition = Transition(TransitionType.COMPLETE, newConfig, previous=transition)

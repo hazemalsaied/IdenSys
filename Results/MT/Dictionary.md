@@ -1,4 +1,6 @@
-ħa sehem: 3
+ħa sehem: 6
+
+għamel ħsara: 3
 
 ta il- impressjoni: 3
 
@@ -6,13 +8,23 @@ ta il- impressjoni: 3
 
 ħa pjaċir: 2
 
+għamel użu: 2
+
 mar fi vantaġġ: 2
+
+ta tislim: 2
 
 ta għajnuna: 2
 
 refa' responsabbiltà: 2
 
-għamel ħsara: 2
+ħa f’ id: 2
+
+qasam il- raq: 2
+
+ta spjegazzjoni: 2
+
+ħa fi id: 2
 
 okkupa kariga: 2
 
@@ -26,13 +38,37 @@ hemm bżonn: 2
 
 għamel xogħol: 2
 
+għand għal qaleb: 2
+
+ħareġ stqarrija: 2
+
+għamel ċar: 2
+
+laħaq mira: 2
+
 ta kontribut: 2
+
+wettaq reat: 2
+
+ta appoġġ: 2
+
+tilef ħajjet: 2
+
+ntlaħaq qbil: 2
+
+ħa ħsieb: 2
 
 ħa deċiżjoni: 2
 
 għex il- ħolma ta': 1
 
+qatt ma ħares lura: 1
+
 Ħa għamel ċar: 1
+
+kien taħt għajn: 1
+
+nsab fuq għatba: 1
 
 twessa’ il- għarfien: 1
 
@@ -46,17 +82,37 @@ wasal kondoljanza: 1
 
 premju li ngħata: 1
 
+fetaħ għajn: 1
+
+temm il- diskors: 1
+
+waqa' għal tentazzjoni: 1
+
 ħaba għawwar: 1
 
 tejjeb ħin: 1
 
 għadd sena: 1
 
+ħass kburi: 1
+
 sparat għal saqajn: 1
+
+jerfgħu il- reponsabbiltajiet: 1
+
+lejn min se dar: 1
 
 nqata' minn realtà: 1
 
 inkontri li kelel: 1
+
+ilaħħqu ma' problema: 1
+
+jissottomettu applikazzjoni: 1
+
+poġġa fi prattika: 1
+
+żamm il- wegħda: 1
 
 ta preżentazzjoni: 1
 
@@ -70,21 +126,39 @@ tressaq qorti: 1
 
 għamel tajjeb: 1
 
+tant hu hekk: 1
+
+għen il- żvilupp: 1
+
+waqgħa ta' Imperu: 1
+
 spiċċa bla saqaf fuq ras: 1
 
 ma seta' naqas li: 1
+
+ħareġ tkellem: 1
 
 għa mel skeċċ: 1
 
 nkixef xibka mħabbla: 1
 
+ttieħed pass: 1
+
 żamm il- paċi: 1
 
-għamel użu: 1
+intilef minn sens: 1
+
+għamel twissija: 1
 
 Ħlief ma kien għamel: 1
 
 Malta topera saq: 1
+
+qanqal reazzjoni: 1
+
+min daħak bi: 1
+
+se waqaf: 1
 
 tressaq il- qorti: 1
 
@@ -98,6 +172,10 @@ għex ġo bozza: 1
 
 wasla ta' mewt: 1
 
+tħares bi sħiħ: 1
+
+indiċi prezz għola: 1
+
 sar appuntament: 1
 
 il- żwieġ baqa' sod: 1
@@ -105,6 +183,8 @@ il- żwieġ baqa' sod: 1
 kiseb rebħa: 1
 
 messaġġ wassal: 1
+
+nqala' problema: 1
 
 bniedem ta' qattagħni: 1
 
@@ -122,6 +202,8 @@ qalbek maqtugħa: 1
 
 ta donazzjoni: 1
 
+ttieħed azzjoni: 1
+
 ikkoreġa il- ħsieb: 1
 
 jadattaw rużhom: 1
@@ -134,21 +216,49 @@ ma jintroddx lura: 1
 
 ta aħħar tislim: 1
 
+ġera ħaġa: 1
+
+hemm riħa: 1
+
+gawda frott: 1
+
 il- ġenesi qiegħda: 1
 
 jimmonta sitwazzjoni: 1
 
+daħal żwieġ: 1
+
 x' għamel: 1
+
+poġġa ras taħt mannara: 1
+
+ma seta' naqas: 1
 
 wera nnifsu: 1
 
+ġie fi sens: 1
+
+refa' id fuq: 1
+
+inżamm arrestat: 1
+
 nżamm il- ħabs: 1
 
+ma' obbligu: 1
+
+inżamm taħt arrest: 1
+
+mar ħażin: 1
+
 tagħrif li kiseb: 1
+
+ħa spinta ’l quddiem: 1
 
 minn fejn irriżultaw: 1
 
 qasam il- fliegu: 1
+
+ta daqqa ta' id: 1
 
 waqa' fi nassa ta' ħaj: 1
 
@@ -162,15 +272,23 @@ seta' ħaseb: 1
 
 qam fuq saqajn: 1
 
+kollox kien warda u żahar: 1
+
 ma rċivewx għajnuna: 1
 
 akkwista il- fiduċja: 1
+
+ħares lejn wiċċ: 1
+
+għand x' qasam: 1
+
+ġie u ġie: 1
 
 okkupa il- kariga: 1
 
 bi riforma li għamel: 1
 
-ta tislim: 1
+qagħad għaqal: 1
 
 sies tema kunsidrata: 1
 
@@ -178,21 +296,39 @@ kiser il- silġ: 1
 
 inniedu iskema: 1
 
+bieb miftuħ: 1
+
 ħabbat wiċċ ma': 1
+
+baqa' ħalq magħluq: 1
+
+waqa' u qam: 1
+
+iżomm ma' wegħda: 1
 
 kellu ħa il- pass: 1
 
 nsab urtati: 1
 
+kunċert jittella’: 1
+
 laħħaq ma' ħaj: 1
 
+laqa' talba: 1
+
 ta il- ħin: 1
+
+kiseb riżultat: 1
+
+sab il- raq: 1
 
 ħasses ħtieġa: 1
 
 involut ġlied: 1
 
 il- ħsieb hemm qiegħed: 1
+
+iġibilhom rispett: 1
 
 telagħlu fuq rasu: 1
 
@@ -204,7 +340,11 @@ twaqqaf kummissjoni: 1
 
 ma toffrix il- garanzija: 1
 
+jmissu b’ id: 1
+
 il- ideal li iħaddnu: 1
+
+laħaq ftehim: 1
 
 ġab quddiem għajnejja: 1
 
@@ -214,7 +354,11 @@ inawgurat playground: 1
 
 ħabat il- Sibt: 1
 
+nimla il- dinja ta': 1
+
 inlaħħaq ma' kollox: 1
+
+għam ċar: 1
 
 appell imressaq: 1
 
@@ -226,11 +370,15 @@ isalvaw żwieġ: 1
 
 sistema inkoraġġixxa: 1
 
+qabad ritmu: 1
+
 ngħata ħila: 1
 
 iddur il- dinja: 1
 
 ta il- opportunità: 1
+
+baqa' qadef għal ras: 1
 
 nqal kurunella ngħata Barka: 1
 
@@ -250,6 +398,8 @@ għadd għal tielet round: 1
 
 min huwa mejjet fi sakra u min huwa mejjet għal qatra: 1
 
+Niskuża nnifsu: 1
+
 sab diffikultà: 1
 
 tpoġġa fi prattika: 1
@@ -260,7 +410,11 @@ għamel referenza: 1
 
 fehem ħażin: 1
 
+refa' id: 1
+
 fetaħ kawża: 1
+
+laqa' miżura: 1
 
 għamel apoloġija: 1
 
@@ -270,9 +424,17 @@ qaleb il- folja: 1
 
 qatta' lejl: 1
 
+qaleb paġna ġdid: 1
+
+nbena: 1
+
 għalaq ħalq: 1
 
 spirtu pront: 1
+
+nqata' il- kawża: 1
+
+għadda fi id: 1
 
 iddaħħlet applikazzjoni: 1
 
@@ -288,11 +450,17 @@ persuna imtajjra: 1
 
 għamel almu: 1
 
+nstab ħati: 1
+
 nsab fiduċjuża: 1
 
 il- rwol li għand: 1
 
+żjara għamel: 1
+
 felaħ pajjiż: 1
+
+kien u għadu: 1
 
 qtugħ nfiq: 1
 
@@ -300,13 +468,29 @@ poġġa dahru ma' ħajt: 1
 
 siequ mtarrxa: 1
 
+fittex isib: 1
+
+jerfgħu qalb: 1
+
+ħasses ħażin: 1
+
+warrab il- wegħda: 1
+
 isemma leħen: 1
 
-ħa f’ id: 1
+jippuntaw saba': 1
+
+ħadem id fi id: 1
 
 infasslu raq: 1
 
+żamm ma' pożizzjoni: 1
+
+ħarab minn kontroll: 1
+
 sejjer lura: 1
+
+għażel għażel: 1
 
 sar riferenza: 1
 
@@ -316,9 +500,9 @@ baqa' il- art: 1
 
 spiża mġarrbin: 1
 
-rreġistra żieda: 1
+tilef il- opportunità: 1
 
-qasam il- raq: 1
+rreġistra żieda: 1
 
 ħa żvolta: 1
 
@@ -332,11 +516,15 @@ kif ġieb u laħaq: 1
 
 ġarrab ħsara: 1
 
+xemx tela': 1
+
 kemm seta' kien: 1
+
+hadet sehem: 1
 
 hu diffiċli: 1
 
-ta spjegazzjoni: 1
+il- xorta daħkitlu: 1
 
 kellel bżonn: 1
 
@@ -346,7 +534,11 @@ jittebba’ manuvri: 1
 
 mexxa quddiesa: 1
 
+għand iħalli impatt: 1
+
 kien fi pożizzjoni: 1
+
+bala' il- sunnara: 1
 
 ngħata il- aħħar tislim: 1
 
@@ -354,11 +546,19 @@ frott: 1
 
 offra donazzjoni: 1
 
+wasal il- żmien: 1
+
 laħaq il- marka: 1
 
 għamel il- għażla: 1
 
 ħa kumment: 1
+
+mar lura: 1
+
+tilef il- battalja: 1
+
+iħalli f’ id: 1
 
 qam rebus: 1
 
@@ -374,6 +574,10 @@ proposta li jippreżenta: 1
 
 tħalla impatt: 1
 
+twaqqa’ il- vultaġġ: 1
+
+laqat il- għajn: 1
+
 ipprovda appoġġ: 1
 
 jisplodi u warrab ras: 1
@@ -384,13 +588,21 @@ bena attakk: 1
 
 ntlaqa' tajjeb: 1
 
+ta il- aħħar tislim: 1
+
 ħabbat wiċċeċ ma': 1
 
 nisma’ ħoss: 1
 
+ġie bi ħġaru: 1
+
 għamel dijanjosi: 1
 
+ntlaħaq ftehim: 1
+
 nbena profil: 1
+
+seta' ammira ġmiel: 1
 
 daħal f’ raqda liema bħal: 1
 
@@ -412,11 +624,17 @@ nżamm rekord: 1
 
 fetaħ investigazzjoni: 1
 
+għadda żmien nies: 1
+
 għamel żjara: 1
 
 qatta' ħin: 1
 
+ġab argument: 1
+
 għamel qligħ: 1
+
+baqa’ ma tfaċċa: 1
 
 il- attakk sar: 1
 
@@ -428,7 +646,11 @@ tilef il- dawl: 1
 
 talab skuża: 1
 
+tistona kbir: 1
+
 għamel appell: 1
+
+u x’ af jien: 1
 
 kellu vantaġġ: 1
 
@@ -436,23 +658,47 @@ sab diffiċli: 1
 
 sewa miljun: 1
 
+isemmgħu leħen: 1
+
+taħt ebda ċirkostanza: 1
+
+mhu se jerfa’ xejn minn: 1
+
+nbiegħ nnifsu: 1
+
 sab nnifsu salib triq: 1
 
 ma' ħażin weħel il- tajjeb: 1
+
+parla fi vojt: 1
+
+Alla bierek: 1
+
+ngħata opportunità: 1
+
+għand raġun: 1
 
 kiesaħ u biered: 1
 
 żona ntlaqat minn maltemp: 1
 
+għadu ma ġie rasu: 1
+
 iqassam stħarriġ: 1
 
 ntalab tnaqqis: 1
+
+ħa drawwa: 1
 
 għatta xturha: 1
 
 pass li ħa: 1
 
+niżel tajjeb: 1
+
 ma nstabitx ħati: 1
+
+għamel differenza: 1
 
 regola ta' deheb: 1
 
@@ -468,9 +714,21 @@ ma tax widen: 1
 
 jagħtik il- qawwa: 1
 
+qata' xewqtu: 1
+
 ħa il- aħħar nifs: 1
 
 mar għal aħjar: 1
+
+għand rispett: 1
+
+ħa aktar milli ta: 1
+
+m’ għand ħajt f’ ilsienu: 1
+
+għad bla tlaqliq: 1
+
+qadef għal rasu: 1
 
 għamel stqarrija: 1
 
@@ -480,15 +738,27 @@ ta li hu ta' lil ħaddieħor: 1
 
 nsab mdawwar b’: 1
 
+involvejt nnifsu: 1
+
 żera' dlonk: 1
+
+mar għal agħar: 1
 
 rebaħ il- inizjattiva: 1
 
+ntalab il- servizz: 1
+
 ġie iffirmati: 1
+
+għamel li trid: 1
 
 fi daqqa wieħed: 1
 
 40 miljun maqtugħa minn settur: 1
+
+qalb hija mimli b’ ferħ u paċi: 1
+
+ġie u mar: 1
 
 lagħab il- parti: 1
 
@@ -498,7 +768,13 @@ kiseb appoġġ: 1
 
 effett ħall fuq: 1
 
+għand qaleb ta' deheb: 1
+
 jitfgħu dell: 1
+
+ħelisha ħafif: 1
+
+gidem ilsieni: 1
 
 daħal fond: 1
 
@@ -510,7 +786,13 @@ daħal għal: 1
 
 raq għal paċi: 1
 
+ħalla impatt: 1
+
 x’ differenza: 1
+
+telaq mixi: 1
+
+iġorru piż: 1
 
 hi eżempju ħaj: 1
 
@@ -524,11 +806,23 @@ qajjem mistoqsija: 1
 
 baqa' gallarija: 1
 
+Meta se tgħallem ?: 1
+
+għaraq ħariġlu: 1
+
+ħa kenn: 1
+
 żamm taħt arrest: 1
 
 se titnieda: 1
 
 għadda minn taħt: 1
+
+ta parir: 1
+
+ddawwar lura arloġġ: 1
+
+ta nifs: 1
 
 ħa medikazzjoni: 1
 
@@ -536,19 +830,31 @@ se ta ras: 1
 
 nħatar gvern: 1
 
+ngħataw wiċċ ġdid: 1
+
+ċaqlaq arloġġ: 1
+
 servizz ipprovda: 1
 
 deher sbieħ: 1
+
+inser raħ moħħ: 1
 
 ttieħed vot: 1
 
 paroli fi vojt ma għad: 1
 
-għand għal qaleb: 1
+mexa ma': 1
+
+ngħata attenzjoni: 1
 
 neħħa piż kbir: 1
 
+il- dettall għawed dieħlin: 1
+
 spiċċa bla xogħol: 1
+
+agħa kbir tinqala’: 1
 
 beża' għal flus: 1
 
@@ -558,13 +864,27 @@ wasal għal ftehim: 1
 
 kiser il- rekord: 1
 
+ambjent kien mgħarraq: 1
+
+sab mezzi: 1
+
+daħal fi żwieġ: 1
+
+wasal għal konklużjoni: 1
+
 ħa gost: 1
+
+wera il- solidarjetà: 1
 
 il- kbir għadu ġie .: 1
 
 miexi fuq il- pass: 1
 
+fallew ċans ta' deheb: 1
+
 tara bi għajn: 1
+
+sab lil xulxin: 1
 
 għamel ċuċata: 1
 
@@ -572,9 +892,15 @@ mtella’ grupp teatrali: 1
 
 af bi ċert: 1
 
+ta attenzjoni: 1
+
 ta di rettiva: 1
 
 jiġġustifika il- fatt: 1
+
+tela' u niżel: 1
+
+tax informazzjoni: 1
 
 ħa opportunità: 1
 
@@ -598,6 +924,8 @@ jekk tfittex issibuha: 1
 
 wirja sar: 1
 
+bħal nifs li ħa: 1
+
 wrew interess: 1
 
 Ċemplu 99809594: 1
@@ -606,9 +934,17 @@ għamel profitt: 1
 
 beda raq lejn: 1
 
+għad fuq: 1
+
 sfida tikolha: 1
 
-ħareġ stqarrija: 1
+ta ras: 1
+
+safa vittma: 1
+
+ta widen: 1
+
+moħħu mistrieħ: 1
 
 tewba sar: 1
 
@@ -616,15 +952,23 @@ tewba sar: 1
 
 daħal fi polemika: 1
 
+għand rabta: 1
+
 ra u mess bi id: 1
 
 beża' għal ħaj: 1
 
 inċident seħħ: 1
 
+se ttieħed vot: 1
+
 ħa il- martirju: 1
 
+laħaq kompromess: 1
+
 kelma tajjeb: 1
+
+miżmum taħt arrest: 1
 
 ġibed il- attenzjoni: 1
 
@@ -636,11 +980,19 @@ il- paga tela': 1
 
 ħalla f’ id ħaddieħor: 1
 
+mhux ta’ min qagħad fuq: 1
+
+bi: 1
+
+kelma dejjem waqa': 1
+
 Ġejna fi kliem: 1
 
 għand sinfikat: 1
 
 għamel il- ħsara: 1
+
+ilaħħqu għoli ħaj: 1
 
 għamel sens: 1
 
@@ -648,15 +1000,27 @@ bala' kollox: 1
 
 ttieħed pass kontra: 1
 
+ħall il- morsa: 1
+
+għand quddiem għajn: 1
+
 Tinqatagħlhom bolla: 1
 
 deċiżjoni ħa: 1
 
 qam il- kwistjoni: 1
 
+mexa lejn il- dlam: 1
+
+għamel vjaġġ: 1
+
 qeda dmir: 1
 
 kien taħt: 1
+
+Ċedejna il- arma: 1
+
+sab nnifsu: 1
 
 nkarigati minn tmexxija: 1
 
@@ -684,7 +1048,7 @@ il- dnub ma raqad: 1
 
 skrutinju li sar: 1
 
-wettaq reat: 1
+ħa il- opportunità: 1
 
 iwasslu messaġġ: 1
 
@@ -696,25 +1060,25 @@ qala' il- inkwiet: 1
 
 ħareġ argument: 1
 
-ta appoġġ: 1
-
 b’ idu f’ idu: 1
 
-ħa prijorità: 1
+ġie f’ ta': 1
 
-tilef ħajjet: 1
+ħa prijorità: 1
 
 niffol law il- difiża: 1
 
 ngħata il- barka: 1
 
+spikkat differenza: 1
+
 ġab fi xejn: 1
+
+nżamm arrestat: 1
 
 ħalaq mezzi: 1
 
 ġie msallab: 1
-
-ntlaħaq qbil: 1
 
 maħkum minn trawma: 1
 
@@ -722,13 +1086,17 @@ kien iżżommilhom: 1
 
 għamel ġieħ: 1
 
+tħabbat il- bieb: 1
+
 laqa' fi ħdan: 1
 
 ħalaq atmosfera: 1
 
-ħa ħsieb: 1
+bena karattru: 1
 
 sab tweġib: 1
+
+ħareġ sejħa: 1
 
 ma tant kien ġab lil: 1
 
@@ -740,6 +1108,8 @@ daħħal fi basal: 1
 
 dar lejn Kristu: 1
 
+sejjaħ laqgħa: 1
+
 jittantaw xorti: 1
 
 ta fastidju: 1
@@ -750,9 +1120,17 @@ ngħata ċans: 1
 
 tinstab taħt shock: 1
 
+nżamm taħt arrest: 1
+
 sparixxiet: 1
 
 ma ried kien xi professur: 1
+
+offra appoġġ: 1
+
+inrodd il- salib: 1
+
+tara x' se għamel: 1
 
 il- investiment li qed għamel: 1
 
