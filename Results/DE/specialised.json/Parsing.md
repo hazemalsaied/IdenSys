@@ -1,904 +1,892 @@
-## Sentence No. 4725 - 
-Dann kam der Punkt , wo es alleine nicht mehr ging . 
+## Sentence No. 3035 - 
+nach dem unfall machte sich der einheimische aus dem staub . 
 ### Existing MWEs: 
-1- **es ging** (ID, 2)
+1- **machte aus dem staub** (ID)
 ### Identified MWEs: 
-1- **kam Punkt** 
+1- **machte aus staub** 
 
-2- **kam Punkt** 
+2- **machte aus staub** 
 
-3- **kam Punkt** 
 
-4- **kam Punkt** 
 
-5- **kam Punkt** 
 
-6- **kam Punkt** 
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nach, dem, unfall ,.. ]
 
-7- **kam Punkt** 
 
-8- **kam Punkt** 
 
-9- **kam Punkt** 
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nach]   B= [dem, unfall, machte ,.. ]
 
+B0IsInLexic: true, B0Token: dem, B0_LastThreeLetters: dem, B0_LastTwoLetters: em, S0B0Token: nach_dem, S0B1Token: nach_unfall, S0B2Token: nach_machte, S0IsInLexic: true, S0Token: nach, S0_LastThreeLetters: ach, S0_LastTwoLetters: ch, nach_isGouvernedBy_Unfall: true, nach_isGouvernedBy_Unfall_case: true, 
 
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dem, unfall, machte ,.. ]
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Dann, kam, der ,.. ]
 
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dem]   B= [unfall, machte, sich ,.. ]
 
+B0Token: unfall, B0_LastThreeLetters: all, B0_LastTwoLetters: ll, S0B0Token: dem_unfall, S0B1Token: dem_machte, S0B2Token: dem_sich, S0IsInLexic: true, S0Token: dem, S0_LastThreeLetters: dem, S0_LastTwoLetters: em, der_isGouvernedBy_Unfall: true, der_isGouvernedBy_Unfall_det: true, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Dann]   B= [kam, der, Punkt ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [unfall, machte, sich ,.. ]
 
-B0IsInLexic: true, B0Token: kam, B0_LastThreeLetters: kam, B0_LastTwoLetters: am, S0B0Token: Dann_kam, S0B1Token: Dann_der, S0B2Token: Dann_Punkt, S0Token: Dann, S0_LastThreeLetters: ann, S0_LastTwoLetters: nn, dann_isGouvernedBy_kommen: true, dann_isGouvernedBy_kommen_advmod: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kam, der, Punkt ,.. ]
 
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [unfall]   B= [machte, sich, der ,.. ]
 
+B0IsInLexic: true, B0Token: machte, B0_LastThreeLetters: hte, B0_LastTwoLetters: te, S0B0Token: unfall_machte, S0B1Token: unfall_sich, S0B2Token: unfall_der, S0Token: unfall, S0_LastThreeLetters: all, S0_LastTwoLetters: ll, Unfall_isGouvernedBy_machen: true, Unfall_isGouvernedBy_machen_nmod: true, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam]   B= [der, Punkt, , ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [machte, sich, der ,.. ]
 
-B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: kam_der, S0B1Token: kam_Punkt, S0B2Token: kam_,, S0IsInLexic: true, S0Token: kam, S0_LastThreeLetters: kam, S0_LastTwoLetters: am, 
 
-4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam, der]   B= [Punkt, ,, wo ,.. ]
 
-B0IsInLexic: true, B0Token: Punkt, B0_LastThreeLetters: nkt, B0_LastTwoLetters: kt, S0B0Token: der_Punkt, S0B1Token: der_,, S0B2Token: der_wo, S0IsInLexic: true, S0S1Distance: 1, S0Token: der, S0_LastThreeLetters: der, S0_LastTwoLetters: er, S1B0Token: kam_Punkt, S1IsInLexic: true, S1S0B0Token: kam_der_Punkt, S1S0Token: kam_der, S1Token: kam, S1_LastThreeLetters: kam, S1_LastTwoLetters: am, der_isGouvernedBy_Punkt: true, der_isGouvernedBy_Punkt_det: true, 
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte]   B= [sich, der, einheimische ,.. ]
 
-5- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam]   B= [Punkt, ,, wo ,.. ]
+B0IsInLexic: true, B0Token: sich, B0_LastThreeLetters: ich, B0_LastTwoLetters: ch, S0B0Token: machte_sich, S0B1Token: machte_der, S0B2Token: machte_einheimische, S0IsInLexic: true, S0Token: machte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, 
 
-B0IsInLexic: true, B0Token: Punkt, B0_LastThreeLetters: nkt, B0_LastTwoLetters: kt, S0B0Token: kam_Punkt, S0B1Token: kam_,, S0B2Token: kam_wo, S0IsInLexic: true, S0Token: kam, S0_LastThreeLetters: kam, S0_LastTwoLetters: am, 
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte, sich]   B= [der, einheimische, aus ,.. ]
 
-6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam, Punkt]   B= [,, wo, es ,.. ]
+B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: sich_der, S0B1Token: sich_einheimische, S0B2Token: sich_aus, S0IsInLexic: true, S0S1Distance: 1, S0Token: sich, S0_LastThreeLetters: ich, S0_LastTwoLetters: ch, S1B0Token: machte_der, S1IsInLexic: true, S1S0B0Token: machte_sich_der, S1S0Token: machte_sich, S1Token: machte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, SyntaxicRelation: +nsubj, 
 
-B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, Punkt_,_hasRighDep_punct: true, Punkt_gehen_hasRighDep_acl: true, Punkt_hasRighDep_acl: true, Punkt_hasRighDep_punct: true, S0B0Token: Punkt_,, S0B1Token: Punkt_wo, S0B2Token: Punkt_es, S0IsInLexic: true, S0S1Distance: 2, S0Token: Punkt, S0_LastThreeLetters: nkt, S0_LastTwoLetters: kt, S1B0Token: kam_,, S1IsInLexic: true, S1S0B0Token: kam_Punkt_,, S1S0Token: kam_Punkt, S1Token: kam, S1_LastThreeLetters: kam, S1_LastTwoLetters: am, SyntaxicRelation: +nsubj, hasRighDep_acl: true, hasRighDep_punct: true, 
+9- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte]   B= [der, einheimische, aus ,.. ]
 
-7- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]]   B= [,, wo, es ,.. ]
+B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: machte_der, S0B1Token: machte_einheimische, S0B2Token: machte_aus, S0IsInLexic: true, S0Token: machte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, 
 
-B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: kam_Punkt_,, S0B1Token: kam_Punkt_wo, S0B2Token: kam_Punkt_es, S0Token: kam_Punkt, 
+10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte, der]   B= [einheimische, aus, dem ,.. ]
 
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  ,]   B= [wo, es, alleine ,.. ]
+B0Token: einheimische, B0_LastThreeLetters: che, B0_LastTwoLetters: he, S0B0Token: der_einheimische, S0B1Token: der_aus, S0B2Token: der_dem, S0IsInLexic: true, S0S1Distance: 2, S0Token: der, S0_LastThreeLetters: der, S0_LastTwoLetters: er, S1B0Token: machte_einheimische, S1IsInLexic: true, S1S0B0Token: machte_der_einheimische, S1S0Token: machte_der, S1Token: machte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, der_isGouvernedBy_einheimisch: true, der_isGouvernedBy_einheimisch_det: true, 
 
-B0Token: wo, B0_LastThreeLetters: wo, B0_LastTwoLetters: wo, S0B0Token: ,_wo, S0B1Token: ,_es, S0B2Token: ,_alleine, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, S1B0Token: kam_Punkt_wo, S1S0B0Token: kam_Punkt_,_wo, S1S0Token: kam_Punkt_,, S1Token: kam_Punkt, 
+11- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte]   B= [einheimische, aus, dem ,.. ]
 
-9- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]]   B= [wo, es, alleine ,.. ]
+B0Token: einheimische, B0_LastThreeLetters: che, B0_LastTwoLetters: he, S0B0Token: machte_einheimische, S0B1Token: machte_aus, S0B2Token: machte_dem, S0IsInLexic: true, S0Token: machte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, 
 
-B0Token: wo, B0_LastThreeLetters: wo, B0_LastTwoLetters: wo, S0B0Token: kam_Punkt_wo, S0B1Token: kam_Punkt_es, S0B2Token: kam_Punkt_alleine, S0Token: kam_Punkt, 
+12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte, einheimische]   B= [aus, dem, staub ,.. ]
 
-10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  wo]   B= [es, alleine, nicht ,.. ]
+B0IsInLexic: true, B0Token: aus, B0_LastThreeLetters: aus, B0_LastTwoLetters: us, S0B0Token: einheimische_aus, S0B1Token: einheimische_dem, S0B2Token: einheimische_staub, S0S1Distance: 3, S0Token: einheimische, S0_LastThreeLetters: che, S0_LastTwoLetters: he, S1B0Token: machte_aus, S1IsInLexic: true, S1S0B0Token: machte_einheimische_aus, S1S0Token: machte_einheimische, S1Token: machte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, SyntaxicRelation: +nmod, 
 
-B0IsInLexic: true, B0Token: es, B0_LastThreeLetters: es, B0_LastTwoLetters: es, S0B0Token: wo_es, S0B1Token: wo_alleine, S0B2Token: wo_nicht, S0Token: wo, S0_LastThreeLetters: wo, S0_LastTwoLetters: wo, S1B0Token: kam_Punkt_es, S1S0B0Token: kam_Punkt_wo_es, S1S0Token: kam_Punkt_wo, S1Token: kam_Punkt, wo_isGouvernedBy_gehen: true, wo_isGouvernedBy_gehen_advmod: true, 
+13- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte]   B= [aus, dem, staub ,.. ]
 
-11- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]]   B= [es, alleine, nicht ,.. ]
+B0IsInLexic: true, B0Token: aus, B0_LastThreeLetters: aus, B0_LastTwoLetters: us, S0B0Token: machte_aus, S0B1Token: machte_dem, S0B2Token: machte_staub, S0IsInLexic: true, S0Token: machte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, 
 
-B0IsInLexic: true, B0Token: es, B0_LastThreeLetters: es, B0_LastTwoLetters: es, S0B0Token: kam_Punkt_es, S0B1Token: kam_Punkt_alleine, S0B2Token: kam_Punkt_nicht, S0Token: kam_Punkt, 
+14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte, aus]   B= [dem, staub, . ,.. ]
 
-12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  es]   B= [alleine, nicht, mehr ,.. ]
+B0IsInLexic: true, B0Token: dem, B0_LastThreeLetters: dem, B0_LastTwoLetters: em, S0B0Token: aus_dem, S0B1Token: aus_staub, S0B2Token: aus_., S0IsInLexic: true, S0S1Distance: 4, S0Token: aus, S0_LastThreeLetters: aus, S0_LastTwoLetters: us, S1B0Token: machte_dem, S1IsInLexic: true, S1S0B0Token: machte_aus_dem, S1S0Token: machte_aus, S1Token: machte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, aus_isGouvernedBy_Staub: true, aus_isGouvernedBy_Staub_case: true, 
 
-B0Token: alleine, B0_LastThreeLetters: ine, B0_LastTwoLetters: ne, S0B0Token: es_alleine, S0B1Token: es_nicht, S0B2Token: es_mehr, S0IsInLexic: true, S0Token: es, S0_LastThreeLetters: es, S0_LastTwoLetters: es, S1B0Token: kam_Punkt_alleine, S1S0B0Token: kam_Punkt_es_alleine, S1S0Token: kam_Punkt_es, S1Token: kam_Punkt, es_isGouvernedBy_gehen: true, es_isGouvernedBy_gehen_nsubj: true, 
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte, aus, dem]   B= [staub, . ,.. ]
 
-13- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]]   B= [alleine, nicht, mehr ,.. ]
+B0IsInLexic: true, B0Token: staub, B0_LastThreeLetters: aub, B0_LastTwoLetters: ub, S0B0Token: dem_staub, S0B1Token: dem_., S0IsInLexic: true, S0S1Distance: 1, S0Token: dem, S0_LastThreeLetters: dem, S0_LastTwoLetters: em, S1B0Token: aus_staub, S1IsInLexic: true, S1S0B0Token: aus_dem_staub, S1S0Token: aus_dem, S1Token: aus, S1_LastThreeLetters: aus, S1_LastTwoLetters: us, der_isGouvernedBy_Staub: true, der_isGouvernedBy_Staub_det: true, 
 
-B0Token: alleine, B0_LastThreeLetters: ine, B0_LastTwoLetters: ne, S0B0Token: kam_Punkt_alleine, S0B1Token: kam_Punkt_nicht, S0B2Token: kam_Punkt_mehr, S0Token: kam_Punkt, 
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte, aus]   B= [staub, . ,.. ]
 
-14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  alleine]   B= [nicht, mehr, ging ,.. ]
+B0IsInLexic: true, B0Token: staub, B0_LastThreeLetters: aub, B0_LastTwoLetters: ub, S0B0Token: aus_staub, S0B1Token: aus_., S0IsInLexic: true, S0S1Distance: 4, S0Token: aus, S0_LastThreeLetters: aus, S0_LastTwoLetters: us, S1B0Token: machte_staub, S1IsInLexic: true, S1S0B0Token: machte_aus_staub, S1S0Token: machte_aus, S1Token: machte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, aus_isGouvernedBy_Staub: true, aus_isGouvernedBy_Staub_case: true, 
 
-B0IsInLexic: true, B0Token: nicht, B0_LastThreeLetters: cht, B0_LastTwoLetters: ht, S0B0Token: alleine_nicht, S0B1Token: alleine_mehr, S0B2Token: alleine_ging, S0Token: alleine, S0_LastThreeLetters: ine, S0_LastTwoLetters: ne, S1B0Token: kam_Punkt_nicht, S1S0B0Token: kam_Punkt_alleine_nicht, S1S0Token: kam_Punkt_alleine, S1Token: kam_Punkt, alleine_isGouvernedBy_gehen: true, alleine_isGouvernedBy_gehen_advmod: true, 
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte, aus, staub]   B= [.]
 
-15- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]]   B= [nicht, mehr, ging ,.. ]
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: staub_., S0IsInLexic: true, S0S1Distance: 2, S0Token: staub, S0_LastThreeLetters: aub, S0_LastTwoLetters: ub, S1B0Token: aus_., S1IsInLexic: true, S1S0B0Token: aus_staub_., S1S0Token: aus_staub, S1Token: aus, S1_LastThreeLetters: aus, S1_LastTwoLetters: us, SyntaxicRelation: -case, 
 
-B0IsInLexic: true, B0Token: nicht, B0_LastThreeLetters: cht, B0_LastTwoLetters: ht, S0B0Token: kam_Punkt_nicht, S0B1Token: kam_Punkt_mehr, S0B2Token: kam_Punkt_ging, S0Token: kam_Punkt, 
+18- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [machte, [aus, staub]]   B= [.]
 
-16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  nicht]   B= [mehr, ging, . ,.. ]
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: aus_staub_., S0Token: aus_staub, S1B0Token: machte_., S1IsInLexic: true, S1S0B0Token: machte_aus_staub_., S1S0Token: machte_aus_staub, S1Token: machte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, 
 
-B0IsInLexic: true, B0Token: mehr, B0_LastThreeLetters: ehr, B0_LastTwoLetters: hr, S0B0Token: nicht_mehr, S0B1Token: nicht_ging, S0B2Token: nicht_., S0IsInLexic: true, S0Token: nicht, S0_LastThreeLetters: cht, S0_LastTwoLetters: ht, S1B0Token: kam_Punkt_mehr, S1S0B0Token: kam_Punkt_nicht_mehr, S1S0Token: kam_Punkt_nicht, S1Token: kam_Punkt, hasRighDep_advmod: true, nicht_hasRighDep_advmod: true, nicht_isGouvernedBy_gehen: true, nicht_isGouvernedBy_gehen_neg: true, nicht_mehr_hasRighDep_advmod: true, 
+19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[machte, [aus, staub]]]   B= [.]
 
-17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]]   B= [mehr, ging, . ,.. ]
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: machte_aus_staub_., S0Token: machte_aus_staub, 
 
-B0IsInLexic: true, B0Token: mehr, B0_LastThreeLetters: ehr, B0_LastTwoLetters: hr, S0B0Token: kam_Punkt_mehr, S0B1Token: kam_Punkt_ging, S0B2Token: kam_Punkt_., S0Token: kam_Punkt, 
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[machte, [aus, staub]]  .]   B= [ ]
 
-18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  mehr]   B= [ging, . ,.. ]
+S0Token: ., S0_LastThreeLetters: ., S0_LastTwoLetters: ., S1S0Token: machte_aus_staub_., S1Token: machte_aus_staub, 
 
-B0IsInLexic: true, B0Token: ging, B0_LastThreeLetters: ing, B0_LastTwoLetters: ng, S0B0Token: mehr_ging, S0B1Token: mehr_., S0IsInLexic: true, S0Token: mehr, S0_LastThreeLetters: ehr, S0_LastTwoLetters: hr, S1B0Token: kam_Punkt_ging, S1S0B0Token: kam_Punkt_mehr_ging, S1S0Token: kam_Punkt_mehr, S1Token: kam_Punkt, 
+21- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[machte, [aus, staub]]]   B= [ ]
 
-19- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]]   B= [ging, . ,.. ]
 
-B0IsInLexic: true, B0Token: ging, B0_LastThreeLetters: ing, B0_LastTwoLetters: ng, S0B0Token: kam_Punkt_ging, S0B1Token: kam_Punkt_., S0Token: kam_Punkt, 
 
-20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  ging]   B= [.]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: ging_., S0IsInLexic: true, S0Token: ging, S0_LastThreeLetters: ing, S0_LastTwoLetters: ng, S1B0Token: kam_Punkt_., S1S0B0Token: kam_Punkt_ging_., S1S0Token: kam_Punkt_ging, S1Token: kam_Punkt, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  ging, .]   B= [ ]
-
-S0S1Distance: 1, S0Token: ., S0_LastThreeLetters: ., S0_LastTwoLetters: ., S1IsInLexic: true, S1S0Token: ging_., S1Token: ging, S1_LastThreeLetters: ing, S1_LastTwoLetters: ng, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]  ging]   B= [ ]
-
-S0IsInLexic: true, S0Token: ging, S0_LastThreeLetters: ing, S0_LastTwoLetters: ng, S1S0Token: kam_Punkt_ging, S1Token: kam_Punkt, 
-
-23- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, Punkt]]   B= [ ]
-
-
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 4730 - 
-Die Ergebnisse sollen beim Neujahrsempfang 2014 vorgestellt werden . 
+## Sentence No. 3040 - 
+so viel hat schmadtke nach urlaub zu tun aktuell hannover 96 / np " ja , ich bin froh und dankbar , und fühle mich nicht wie 90 " , sagt sie mit fester stimme am telefon . 
 ### Existing MWEs: 
-1- **vorgestellt** (VPC)
+1- **hat zu tun** (ID, 4)
+### Identified MWEs: 
+1- **hat zu tun** 
+
+2- **hat zu tun** 
+
+3- **hat zu tun** 
+
+4- **hat zu tun** 
+
+5- **hat zu tun** 
+
+6- **hat zu tun** 
+
+7- **hat zu tun** 
+
+8- **hat zu tun** 
+
+9- **hat zu tun** 
+
+10- **hat zu tun** 
+
+11- **hat zu tun** 
+
+12- **hat zu tun** 
+
+13- **hat zu tun** 
+
+14- **hat zu tun** 
+
+15- **hat zu tun** 
+
+16- **hat zu tun** 
+
+17- **hat zu tun** 
+
+18- **hat zu tun** 
+
+19- **hat zu tun** 
+
+20- **hat zu tun** 
+
+21- **hat zu tun** 
+
+22- **hat zu tun** 
+
+23- **hat zu tun** 
+
+24- **hat zu tun** 
+
+25- **hat zu tun** 
+
+26- **hat zu tun** 
+
+27- **hat zu tun** 
+
+28- **hat zu tun** 
+
+29- **hat zu tun** 
+
+30- **hat zu tun** 
+
+31- **hat zu tun** 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Die, Ergebnisse, sollen ,.. ]
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [so, viel, hat ,.. ]
 
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Die]   B= [Ergebnisse, sollen, beim ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [so]   B= [viel, hat, schmadtke ,.. ]
 
-B0IsInLexic: true, B0Token: Ergebnisse, B0_LastThreeLetters: sse, B0_LastTwoLetters: se, S0B0Token: Die_Ergebnisse, S0B1Token: Die_sollen, S0B2Token: Die_beim, S0IsInLexic: true, S0Token: Die, S0_LastThreeLetters: Die, S0_LastTwoLetters: ie, der_isGouvernedBy_Ergebnis: true, der_isGouvernedBy_Ergebnis_det: true, 
+B0IsInLexic: true, B0Token: viel, B0_LastThreeLetters: iel, B0_LastTwoLetters: el, S0B0Token: so_viel, S0B1Token: so_hat, S0B2Token: so_schmadtke, S0Token: so, S0_LastThreeLetters: so, S0_LastTwoLetters: so, so_isGouvernedBy_viel: true, so_isGouvernedBy_viel_advmod: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ergebnisse, sollen, beim ,.. ]
-
-
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ergebnisse]   B= [sollen, beim, Neujahrsempfang ,.. ]
-
-B0Token: sollen, B0_LastThreeLetters: len, B0_LastTwoLetters: en, Ergebnis_isGouvernedBy_vorgestellen: true, Ergebnis_isGouvernedBy_vorgestellen_nsubjpass: true, S0B0Token: Ergebnisse_sollen, S0B1Token: Ergebnisse_beim, S0B2Token: Ergebnisse_Neujahrsempfang, S0IsInLexic: true, S0Token: Ergebnisse, S0_LastThreeLetters: sse, S0_LastTwoLetters: se, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sollen, beim, Neujahrsempfang ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [viel, hat, schmadtke ,.. ]
 
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sollen]   B= [beim, Neujahrsempfang, 2014 ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [viel]   B= [hat, schmadtke, nach ,.. ]
 
-B0Token: beim, B0_LastThreeLetters: eim, B0_LastTwoLetters: im, S0B0Token: sollen_beim, S0B1Token: sollen_Neujahrsempfang, S0B2Token: sollen_2014, S0Token: sollen, S0_LastThreeLetters: len, S0_LastTwoLetters: en, sollen_isGouvernedBy_vorgestellen: true, sollen_isGouvernedBy_vorgestellen_aux: true, 
+B0IsInLexic: true, B0Token: hat, B0_LastThreeLetters: hat, B0_LastTwoLetters: at, S0B0Token: viel_hat, S0B1Token: viel_schmadtke, S0B2Token: viel_nach, S0IsInLexic: true, S0Token: viel, S0_LastThreeLetters: iel, S0_LastTwoLetters: el, viel_isGouvernedBy_tun: true, viel_isGouvernedBy_tun_advmod: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [beim, Neujahrsempfang, 2014 ,.. ]
-
-
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [beim]   B= [Neujahrsempfang, 2014, vorgestellt ,.. ]
-
-B0Token: Neujahrsempfang, B0_LastThreeLetters: ang, B0_LastTwoLetters: ng, S0B0Token: beim_Neujahrsempfang, S0B1Token: beim_2014, S0B2Token: beim_vorgestellt, S0Token: beim, S0_LastThreeLetters: eim, S0_LastTwoLetters: im, bei+der_isGouvernedBy_Neujahrsempfang: true, bei+der_isGouvernedBy_Neujahrsempfang_case: true, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Neujahrsempfang, 2014, vorgestellt ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hat, schmadtke, nach ,.. ]
 
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Neujahrsempfang]   B= [2014, vorgestellt, werden ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat]   B= [schmadtke, nach, urlaub ,.. ]
 
-B0Token: 2014, B0_LastThreeLetters: 014, B0_LastTwoLetters: 14, Neujahrsempfang_2014_hasRighDep_nmod: true, Neujahrsempfang_hasRighDep_nmod: true, Neujahrsempfang_isGouvernedBy_vorgestellen: true, Neujahrsempfang_isGouvernedBy_vorgestellen_nmod: true, S0B0Token: Neujahrsempfang_2014, S0B1Token: Neujahrsempfang_vorgestellt, S0B2Token: Neujahrsempfang_werden, S0Token: Neujahrsempfang, S0_LastThreeLetters: ang, S0_LastTwoLetters: ng, hasRighDep_nmod: true, 
+B0Token: schmadtke, B0_LastThreeLetters: tke, B0_LastTwoLetters: ke, S0B0Token: hat_schmadtke, S0B1Token: hat_nach, S0B2Token: hat_urlaub, S0IsInLexic: true, S0Token: hat, S0_LastThreeLetters: hat, S0_LastTwoLetters: at, haben_isGouvernedBy_tun: true, haben_isGouvernedBy_tun_aux: true, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [2014, vorgestellt, werden ,.. ]
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat, schmadtke]   B= [nach, urlaub, zu ,.. ]
+
+B0IsInLexic: true, B0Token: nach, B0_LastThreeLetters: ach, B0_LastTwoLetters: ch, S0B0Token: schmadtke_nach, S0B1Token: schmadtke_urlaub, S0B2Token: schmadtke_zu, S0S1Distance: 1, S0Token: schmadtke, S0_LastThreeLetters: tke, S0_LastTwoLetters: ke, S1B0Token: hat_nach, S1IsInLexic: true, S1S0B0Token: hat_schmadtke_nach, S1S0Token: hat_schmadtke, S1Token: hat, S1_LastThreeLetters: hat, S1_LastTwoLetters: at, Schmadtke_isGouvernedBy_tun: true, Schmadtke_isGouvernedBy_tun_nsubj: true, 
+
+7- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat]   B= [nach, urlaub, zu ,.. ]
+
+B0IsInLexic: true, B0Token: nach, B0_LastThreeLetters: ach, B0_LastTwoLetters: ch, S0B0Token: hat_nach, S0B1Token: hat_urlaub, S0B2Token: hat_zu, S0IsInLexic: true, S0Token: hat, S0_LastThreeLetters: hat, S0_LastTwoLetters: at, haben_isGouvernedBy_tun: true, haben_isGouvernedBy_tun_aux: true, 
+
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat, nach]   B= [urlaub, zu, tun ,.. ]
+
+B0Token: urlaub, B0_LastThreeLetters: aub, B0_LastTwoLetters: ub, S0B0Token: nach_urlaub, S0B1Token: nach_zu, S0B2Token: nach_tun, S0IsInLexic: true, S0S1Distance: 2, S0Token: nach, S0_LastThreeLetters: ach, S0_LastTwoLetters: ch, S1B0Token: hat_urlaub, S1IsInLexic: true, S1S0B0Token: hat_nach_urlaub, S1S0Token: hat_nach, S1Token: hat, S1_LastThreeLetters: hat, S1_LastTwoLetters: at, nach_isGouvernedBy_Urlaub: true, nach_isGouvernedBy_Urlaub_case: true, 
+
+9- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat]   B= [urlaub, zu, tun ,.. ]
+
+B0Token: urlaub, B0_LastThreeLetters: aub, B0_LastTwoLetters: ub, S0B0Token: hat_urlaub, S0B1Token: hat_zu, S0B2Token: hat_tun, S0IsInLexic: true, S0Token: hat, S0_LastThreeLetters: hat, S0_LastTwoLetters: at, haben_isGouvernedBy_tun: true, haben_isGouvernedBy_tun_aux: true, 
+
+10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat, urlaub]   B= [zu, tun, aktuell ,.. ]
+
+B0IsInLexic: true, B0Token: zu, B0_LastThreeLetters: zu, B0_LastTwoLetters: zu, S0B0Token: urlaub_zu, S0B1Token: urlaub_tun, S0B2Token: urlaub_aktuell, S0S1Distance: 3, S0Token: urlaub, S0_LastThreeLetters: aub, S0_LastTwoLetters: ub, S1B0Token: hat_zu, S1IsInLexic: true, S1S0B0Token: hat_urlaub_zu, S1S0Token: hat_urlaub, S1Token: hat, S1_LastThreeLetters: hat, S1_LastTwoLetters: at, Urlaub_isGouvernedBy_tun: true, Urlaub_isGouvernedBy_tun_dobj: true, 
+
+11- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat]   B= [zu, tun, aktuell ,.. ]
+
+B0IsInLexic: true, B0Token: zu, B0_LastThreeLetters: zu, B0_LastTwoLetters: zu, S0B0Token: hat_zu, S0B1Token: hat_tun, S0B2Token: hat_aktuell, S0IsInLexic: true, S0Token: hat, S0_LastThreeLetters: hat, S0_LastTwoLetters: at, haben_isGouvernedBy_tun: true, haben_isGouvernedBy_tun_aux: true, 
+
+12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat, zu]   B= [tun, aktuell, hannover ,.. ]
+
+B0IsInLexic: true, B0Token: tun, B0_LastThreeLetters: tun, B0_LastTwoLetters: un, S0B0Token: zu_tun, S0B1Token: zu_aktuell, S0B2Token: zu_hannover, S0IsInLexic: true, S0S1Distance: 4, S0Token: zu, S0_LastThreeLetters: zu, S0_LastTwoLetters: zu, S1B0Token: hat_tun, S1IsInLexic: true, S1S0B0Token: hat_zu_tun, S1S0Token: hat_zu, S1Token: hat, S1_LastThreeLetters: hat, S1_LastTwoLetters: at, zu_isGouvernedBy_tun: true, zu_isGouvernedBy_tun_mark: true, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat, zu, tun]   B= [aktuell, hannover, 96 ,.. ]
+
+B0Token: aktuell, B0_LastThreeLetters: ell, B0_LastTwoLetters: ll, S0B0Token: tun_aktuell, S0B1Token: tun_hannover, S0B2Token: tun_96, S0IsInLexic: true, S0S1Distance: 1, S0Token: tun, S0_LastThreeLetters: tun, S0_LastTwoLetters: un, S1B0Token: zu_aktuell, S1IsInLexic: true, S1S0B0Token: zu_tun_aktuell, S1S0Token: zu_tun, S1Token: zu, S1_LastThreeLetters: zu, S1_LastTwoLetters: zu, 
+
+14- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hat, [zu, tun]]   B= [aktuell, hannover, 96 ,.. ]
+
+B0Token: aktuell, B0_LastThreeLetters: ell, B0_LastTwoLetters: ll, S0B0Token: zu_tun_aktuell, S0B1Token: zu_tun_hannover, S0B2Token: zu_tun_96, S0Token: zu_tun, S1B0Token: hat_aktuell, S1IsInLexic: true, S1S0B0Token: hat_zu_tun_aktuell, S1S0Token: hat_zu_tun, S1Token: hat, S1_LastThreeLetters: hat, S1_LastTwoLetters: at, 
+
+15- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]]   B= [aktuell, hannover, 96 ,.. ]
+
+B0Token: aktuell, B0_LastThreeLetters: ell, B0_LastTwoLetters: ll, S0B0Token: hat_zu_tun_aktuell, S0B1Token: hat_zu_tun_hannover, S0B2Token: hat_zu_tun_96, S0Token: hat_zu_tun, 
+
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  aktuell]   B= [hannover, 96, / ,.. ]
+
+B0Token: hannover, B0_LastThreeLetters: ver, B0_LastTwoLetters: er, S0B0Token: aktuell_hannover, S0B1Token: aktuell_96, S0B2Token: aktuell_/, S0Token: aktuell, S0_LastThreeLetters: ell, S0_LastTwoLetters: ll, S1B0Token: hat_zu_tun_hannover, S1S0B0Token: hat_zu_tun_aktuell_hannover, S1S0Token: hat_zu_tun_aktuell, S1Token: hat_zu_tun, aktuell_isGouvernedBy_Hannover: true, aktuell_isGouvernedBy_Hannover_nsubj: true, 
+
+17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]]   B= [hannover, 96, / ,.. ]
+
+B0Token: hannover, B0_LastThreeLetters: ver, B0_LastTwoLetters: er, S0B0Token: hat_zu_tun_hannover, S0B1Token: hat_zu_tun_96, S0B2Token: hat_zu_tun_/, S0Token: hat_zu_tun, 
+
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  hannover]   B= [96, /, np ,.. ]
+
+B0Token: 96, B0_LastThreeLetters: 96, B0_LastTwoLetters: 96, Hannover_Ja_hasRighDep_dobj: true, Hannover_hasRighDep_dobj: true, Hannover_isGouvernedBy_,: true, Hannover_isGouvernedBy_,_dobj: true, S0B0Token: hannover_96, S0B1Token: hannover_/, S0B2Token: hannover_np, S0Token: hannover, S0_LastThreeLetters: ver, S0_LastTwoLetters: er, S1B0Token: hat_zu_tun_96, S1S0B0Token: hat_zu_tun_hannover_96, S1S0Token: hat_zu_tun_hannover, S1Token: hat_zu_tun, hasRighDep_dobj: true, 
+
+19- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]]   B= [96, /, np ,.. ]
+
+B0Token: 96, B0_LastThreeLetters: 96, B0_LastTwoLetters: 96, S0B0Token: hat_zu_tun_96, S0B1Token: hat_zu_tun_/, S0B2Token: hat_zu_tun_np, S0Token: hat_zu_tun, 
+
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  96]   B= [/, np, " ,.. ]
+
+96_/_hasRighDep_punct: true, 96_NP_hasRighDep_conj: true, 96_hasRighDep_conj: true, 96_hasRighDep_punct: true, 96_isGouvernedBy_Ja: true, 96_isGouvernedBy_Ja_name: true, B0Token: /, B0_LastThreeLetters: /, B0_LastTwoLetters: /, S0B0Token: 96_/, S0B1Token: 96_np, S0B2Token: 96_", S0Token: 96, S0_LastThreeLetters: 96, S0_LastTwoLetters: 96, S1B0Token: hat_zu_tun_/, S1S0B0Token: hat_zu_tun_96_/, S1S0Token: hat_zu_tun_96, S1Token: hat_zu_tun, hasRighDep_conj: true, hasRighDep_punct: true, 
+
+21- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]]   B= [/, np, " ,.. ]
+
+B0Token: /, B0_LastThreeLetters: /, B0_LastTwoLetters: /, S0B0Token: hat_zu_tun_/, S0B1Token: hat_zu_tun_np, S0B2Token: hat_zu_tun_", S0Token: hat_zu_tun, 
+
+22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  /]   B= [np, ", ja ,.. ]
+
+B0Token: np, B0_LastThreeLetters: np, B0_LastTwoLetters: np, S0B0Token: /_np, S0B1Token: /_", S0B2Token: /_ja, S0Token: /, S0_LastThreeLetters: /, S0_LastTwoLetters: /, S1B0Token: hat_zu_tun_np, S1S0B0Token: hat_zu_tun_/_np, S1S0Token: hat_zu_tun_/, S1Token: hat_zu_tun, 
+
+23- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]]   B= [np, ", ja ,.. ]
+
+B0Token: np, B0_LastThreeLetters: np, B0_LastTwoLetters: np, S0B0Token: hat_zu_tun_np, S0B1Token: hat_zu_tun_", S0B2Token: hat_zu_tun_ja, S0Token: hat_zu_tun, 
+
+24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [", ja, , ,.. ]
+
+B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", S0B0Token: np_", S0B1Token: np_ja, S0B2Token: np_,, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_", S1S0B0Token: hat_zu_tun_np_", S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, "]   B= [ja, ,, ich ,.. ]
+
+"_isGouvernedBy_Ja: true, "_isGouvernedBy_Ja_punct: true, B0Token: ja, B0_LastThreeLetters: ja, B0_LastTwoLetters: ja, S0B0Token: "_ja, S0B1Token: "_,, S0B2Token: "_ich, S0S1Distance: 1, S0Token: ", S0_LastThreeLetters: ", S0_LastTwoLetters: ", S1B0Token: np_ja, S1S0B0Token: np_"_ja, S1S0Token: np_", S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [ja, ,, ich ,.. ]
+
+B0Token: ja, B0_LastThreeLetters: ja, B0_LastTwoLetters: ja, S0B0Token: np_ja, S0B1Token: np_,, S0B2Token: np_ich, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_ja, S1S0B0Token: hat_zu_tun_np_ja, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, ja]   B= [,, ich, bin ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: ja_,, S0B1Token: ja_ich, S0B2Token: ja_bin, S0S1Distance: 2, S0Token: ja, S0_LastThreeLetters: ja, S0_LastTwoLetters: ja, S1B0Token: np_,, S1S0B0Token: np_ja_,, S1S0Token: np_ja, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [,, ich, bin ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: np_,, S0B1Token: np_ich, S0B2Token: np_bin, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_,, S1S0B0Token: hat_zu_tun_np_,, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, ,]   B= [ich, bin, froh ,.. ]
+
+B0IsInLexic: true, B0Token: ich, B0_LastThreeLetters: ich, B0_LastTwoLetters: ch, S0B0Token: ,_ich, S0B1Token: ,_bin, S0B2Token: ,_froh, S0S1Distance: 3, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, S1B0Token: np_ich, S1S0B0Token: np_,_ich, S1S0Token: np_,, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [ich, bin, froh ,.. ]
+
+B0IsInLexic: true, B0Token: ich, B0_LastThreeLetters: ich, B0_LastTwoLetters: ch, S0B0Token: np_ich, S0B1Token: np_bin, S0B2Token: np_froh, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_ich, S1S0B0Token: hat_zu_tun_np_ich, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, ich]   B= [bin, froh, und ,.. ]
+
+B0IsInLexic: true, B0Token: bin, B0_LastThreeLetters: bin, B0_LastTwoLetters: in, S0B0Token: ich_bin, S0B1Token: ich_froh, S0B2Token: ich_und, S0IsInLexic: true, S0S1Distance: 4, S0Token: ich, S0_LastThreeLetters: ich, S0_LastTwoLetters: ch, S1B0Token: np_bin, S1S0B0Token: np_ich_bin, S1S0Token: np_ich, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, ich_isGouvernedBy_froh: true, ich_isGouvernedBy_froh_nsubj: true, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [bin, froh, und ,.. ]
+
+B0IsInLexic: true, B0Token: bin, B0_LastThreeLetters: bin, B0_LastTwoLetters: in, S0B0Token: np_bin, S0B1Token: np_froh, S0B2Token: np_und, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_bin, S1S0B0Token: hat_zu_tun_np_bin, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, bin]   B= [froh, und, dankbar ,.. ]
+
+B0Token: froh, B0_LastThreeLetters: roh, B0_LastTwoLetters: oh, S0B0Token: bin_froh, S0B1Token: bin_und, S0B2Token: bin_dankbar, S0IsInLexic: true, S0S1Distance: 5, S0Token: bin, S0_LastThreeLetters: bin, S0_LastTwoLetters: in, S1B0Token: np_froh, S1S0B0Token: np_bin_froh, S1S0Token: np_bin, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, sein_isGouvernedBy_froh: true, sein_isGouvernedBy_froh_cop: true, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [froh, und, dankbar ,.. ]
+
+B0Token: froh, B0_LastThreeLetters: roh, B0_LastTwoLetters: oh, S0B0Token: np_froh, S0B1Token: np_und, S0B2Token: np_dankbar, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_froh, S1S0B0Token: hat_zu_tun_np_froh, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, froh]   B= [und, dankbar, , ,.. ]
+
+B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: froh_und, S0B1Token: froh_dankbar, S0B2Token: froh_,, S0S1Distance: 6, S0Token: froh, S0_LastThreeLetters: roh, S0_LastTwoLetters: oh, S1B0Token: np_und, S1S0B0Token: np_froh_und, S1S0Token: np_froh, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, froh_dankbar_hasRighDep_conj: true, froh_hasRighDep_cc: true, froh_hasRighDep_conj: true, froh_und_hasRighDep_cc: true, hasRighDep_cc: true, hasRighDep_conj: true, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [und, dankbar, , ,.. ]
+
+B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: np_und, S0B1Token: np_dankbar, S0B2Token: np_,, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_und, S1S0B0Token: hat_zu_tun_np_und, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, und]   B= [dankbar, ,, und ,.. ]
+
+B0Token: dankbar, B0_LastThreeLetters: bar, B0_LastTwoLetters: ar, S0B0Token: und_dankbar, S0B1Token: und_,, S0B2Token: und_und, S0IsInLexic: true, S0S1Distance: 7, S0Token: und, S0_LastThreeLetters: und, S0_LastTwoLetters: nd, S1B0Token: np_dankbar, S1S0B0Token: np_und_dankbar, S1S0Token: np_und, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [dankbar, ,, und ,.. ]
+
+B0Token: dankbar, B0_LastThreeLetters: bar, B0_LastTwoLetters: ar, S0B0Token: np_dankbar, S0B1Token: np_,, S0B2Token: np_und, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_dankbar, S1S0B0Token: hat_zu_tun_np_dankbar, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, dankbar]   B= [,, und, fühle ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: dankbar_,, S0B1Token: dankbar_und, S0B2Token: dankbar_fühle, S0S1Distance: 8, S0Token: dankbar, S0_LastThreeLetters: bar, S0_LastTwoLetters: ar, S1B0Token: np_,, S1S0B0Token: np_dankbar_,, S1S0Token: np_dankbar, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [,, und, fühle ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: np_,, S0B1Token: np_und, S0B2Token: np_fühle, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_,, S1S0B0Token: hat_zu_tun_np_,, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, ,]   B= [und, fühle, mich ,.. ]
+
+B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: ,_und, S0B1Token: ,_fühle, S0B2Token: ,_mich, S0S1Distance: 9, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, S1B0Token: np_und, S1S0B0Token: np_,_und, S1S0Token: np_,, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [und, fühle, mich ,.. ]
+
+B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: np_und, S0B1Token: np_fühle, S0B2Token: np_mich, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_und, S1S0B0Token: hat_zu_tun_np_und, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, und]   B= [fühle, mich, nicht ,.. ]
+
+B0Token: fühle, B0_LastThreeLetters: hle, B0_LastTwoLetters: le, S0B0Token: und_fühle, S0B1Token: und_mich, S0B2Token: und_nicht, S0IsInLexic: true, S0S1Distance: 10, S0Token: und, S0_LastThreeLetters: und, S0_LastTwoLetters: nd, S1B0Token: np_fühle, S1S0B0Token: np_und_fühle, S1S0Token: np_und, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [fühle, mich, nicht ,.. ]
+
+B0Token: fühle, B0_LastThreeLetters: hle, B0_LastTwoLetters: le, S0B0Token: np_fühle, S0B1Token: np_mich, S0B2Token: np_nicht, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_fühle, S1S0B0Token: hat_zu_tun_np_fühle, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, fühle]   B= [mich, nicht, wie ,.. ]
+
+B0IsInLexic: true, B0Token: mich, B0_LastThreeLetters: ich, B0_LastTwoLetters: ch, S0B0Token: fühle_mich, S0B1Token: fühle_nicht, S0B2Token: fühle_wie, S0S1Distance: 11, S0Token: fühle, S0_LastThreeLetters: hle, S0_LastTwoLetters: le, S1B0Token: np_mich, S1S0B0Token: np_fühle_mich, S1S0Token: np_fühle, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, fühlen_"_hasRighDep_punct: true, fühlen_90_hasRighDep_nmod: true, fühlen_hasRighDep_dobj: true, fühlen_hasRighDep_neg: true, fühlen_hasRighDep_nmod: true, fühlen_hasRighDep_punct: true, fühlen_ich_hasRighDep_dobj: true, fühlen_nicht_hasRighDep_neg: true, hasRighDep_dobj: true, hasRighDep_neg: true, hasRighDep_nmod: true, hasRighDep_punct: true, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [mich, nicht, wie ,.. ]
+
+B0IsInLexic: true, B0Token: mich, B0_LastThreeLetters: ich, B0_LastTwoLetters: ch, S0B0Token: np_mich, S0B1Token: np_nicht, S0B2Token: np_wie, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_mich, S1S0B0Token: hat_zu_tun_np_mich, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, mich]   B= [nicht, wie, 90 ,.. ]
+
+B0IsInLexic: true, B0Token: nicht, B0_LastThreeLetters: cht, B0_LastTwoLetters: ht, S0B0Token: mich_nicht, S0B1Token: mich_wie, S0B2Token: mich_90, S0IsInLexic: true, S0S1Distance: 12, S0Token: mich, S0_LastThreeLetters: ich, S0_LastTwoLetters: ch, S1B0Token: np_nicht, S1S0B0Token: np_mich_nicht, S1S0Token: np_mich, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [nicht, wie, 90 ,.. ]
+
+B0IsInLexic: true, B0Token: nicht, B0_LastThreeLetters: cht, B0_LastTwoLetters: ht, S0B0Token: np_nicht, S0B1Token: np_wie, S0B2Token: np_90, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_nicht, S1S0B0Token: hat_zu_tun_np_nicht, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, nicht]   B= [wie, 90, " ,.. ]
+
+B0IsInLexic: true, B0Token: wie, B0_LastThreeLetters: wie, B0_LastTwoLetters: ie, S0B0Token: nicht_wie, S0B1Token: nicht_90, S0B2Token: nicht_", S0IsInLexic: true, S0S1Distance: 13, S0Token: nicht, S0_LastThreeLetters: cht, S0_LastTwoLetters: ht, S1B0Token: np_wie, S1S0B0Token: np_nicht_wie, S1S0Token: np_nicht, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [wie, 90, " ,.. ]
+
+B0IsInLexic: true, B0Token: wie, B0_LastThreeLetters: wie, B0_LastTwoLetters: ie, S0B0Token: np_wie, S0B1Token: np_90, S0B2Token: np_", S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_wie, S1S0B0Token: hat_zu_tun_np_wie, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, wie]   B= [90, ", , ,.. ]
+
+B0Token: 90, B0_LastThreeLetters: 90, B0_LastTwoLetters: 90, S0B0Token: wie_90, S0B1Token: wie_", S0B2Token: wie_,, S0IsInLexic: true, S0S1Distance: 14, S0Token: wie, S0_LastThreeLetters: wie, S0_LastTwoLetters: ie, S1B0Token: np_90, S1S0B0Token: np_wie_90, S1S0Token: np_wie, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, wie_isGouvernedBy_90: true, wie_isGouvernedBy_90_case: true, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [90, ", , ,.. ]
+
+B0Token: 90, B0_LastThreeLetters: 90, B0_LastTwoLetters: 90, S0B0Token: np_90, S0B1Token: np_", S0B2Token: np_,, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_90, S1S0B0Token: hat_zu_tun_np_90, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, 90]   B= [", ,, sagt ,.. ]
+
+B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", S0B0Token: 90_", S0B1Token: 90_,, S0B2Token: 90_sagt, S0S1Distance: 15, S0Token: 90, S0_LastThreeLetters: 90, S0_LastTwoLetters: 90, S1B0Token: np_", S1S0B0Token: np_90_", S1S0Token: np_90, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [", ,, sagt ,.. ]
+
+B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", S0B0Token: np_", S0B1Token: np_,, S0B2Token: np_sagt, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_", S1S0B0Token: hat_zu_tun_np_", S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, "]   B= [,, sagt, sie ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: "_,, S0B1Token: "_sagt, S0B2Token: "_sie, S0S1Distance: 16, S0Token: ", S0_LastThreeLetters: ", S0_LastTwoLetters: ", S1B0Token: np_,, S1S0B0Token: np_"_,, S1S0Token: np_", S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [,, sagt, sie ,.. ]
+
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: np_,, S0B1Token: np_sagt, S0B2Token: np_sie, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_,, S1S0B0Token: hat_zu_tun_np_,, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, ,]   B= [sagt, sie, mit ,.. ]
+
+B0IsInLexic: true, B0Token: sagt, B0_LastThreeLetters: agt, B0_LastTwoLetters: gt, S0B0Token: ,_sagt, S0B1Token: ,_sie, S0B2Token: ,_mit, S0S1Distance: 17, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, S1B0Token: np_sagt, S1S0B0Token: np_,_sagt, S1S0Token: np_,, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [sagt, sie, mit ,.. ]
+
+B0IsInLexic: true, B0Token: sagt, B0_LastThreeLetters: agt, B0_LastTwoLetters: gt, S0B0Token: np_sagt, S0B1Token: np_sie, S0B2Token: np_mit, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_sagt, S1S0B0Token: hat_zu_tun_np_sagt, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, sagt]   B= [sie, mit, fester ,.. ]
+
+B0IsInLexic: true, B0Token: sie, B0_LastThreeLetters: sie, B0_LastTwoLetters: ie, S0B0Token: sagt_sie, S0B1Token: sagt_mit, S0B2Token: sagt_fester, S0IsInLexic: true, S0S1Distance: 18, S0Token: sagt, S0_LastThreeLetters: agt, S0_LastTwoLetters: gt, S1B0Token: np_sie, S1S0B0Token: np_sagt_sie, S1S0Token: np_sagt, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, hasRighDep_nmod: true, hasRighDep_nsubj: true, sagen_Stimme_hasRighDep_nmod: true, sagen_Telefon_hasRighDep_nmod: true, sagen_hasRighDep_nmod: true, sagen_hasRighDep_nsubj: true, sagen_sie_hasRighDep_nsubj: true, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [sie, mit, fester ,.. ]
+
+B0IsInLexic: true, B0Token: sie, B0_LastThreeLetters: sie, B0_LastTwoLetters: ie, S0B0Token: np_sie, S0B1Token: np_mit, S0B2Token: np_fester, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_sie, S1S0B0Token: hat_zu_tun_np_sie, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, sie]   B= [mit, fester, stimme ,.. ]
+
+B0IsInLexic: true, B0Token: mit, B0_LastThreeLetters: mit, B0_LastTwoLetters: it, S0B0Token: sie_mit, S0B1Token: sie_fester, S0B2Token: sie_stimme, S0IsInLexic: true, S0S1Distance: 19, S0Token: sie, S0_LastThreeLetters: sie, S0_LastTwoLetters: ie, S1B0Token: np_mit, S1S0B0Token: np_sie_mit, S1S0Token: np_sie, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [mit, fester, stimme ,.. ]
+
+B0IsInLexic: true, B0Token: mit, B0_LastThreeLetters: mit, B0_LastTwoLetters: it, S0B0Token: np_mit, S0B1Token: np_fester, S0B2Token: np_stimme, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_mit, S1S0B0Token: hat_zu_tun_np_mit, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, mit]   B= [fester, stimme, am ,.. ]
+
+B0IsInLexic: true, B0Token: fester, B0_LastThreeLetters: ter, B0_LastTwoLetters: er, S0B0Token: mit_fester, S0B1Token: mit_stimme, S0B2Token: mit_am, S0IsInLexic: true, S0S1Distance: 20, S0Token: mit, S0_LastThreeLetters: mit, S0_LastTwoLetters: it, S1B0Token: np_fester, S1S0B0Token: np_mit_fester, S1S0Token: np_mit, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, mit_isGouvernedBy_Stimme: true, mit_isGouvernedBy_Stimme_case: true, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [fester, stimme, am ,.. ]
+
+B0IsInLexic: true, B0Token: fester, B0_LastThreeLetters: ter, B0_LastTwoLetters: er, S0B0Token: np_fester, S0B1Token: np_stimme, S0B2Token: np_am, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_fester, S1S0B0Token: hat_zu_tun_np_fester, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, fester]   B= [stimme, am, telefon ,.. ]
+
+B0Token: stimme, B0_LastThreeLetters: mme, B0_LastTwoLetters: me, S0B0Token: fester_stimme, S0B1Token: fester_am, S0B2Token: fester_telefon, S0IsInLexic: true, S0S1Distance: 21, S0Token: fester, S0_LastThreeLetters: ter, S0_LastTwoLetters: er, S1B0Token: np_stimme, S1S0B0Token: np_fester_stimme, S1S0Token: np_fester, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, fest_isGouvernedBy_Stimme: true, fest_isGouvernedBy_Stimme_amod: true, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [stimme, am, telefon ,.. ]
+
+B0Token: stimme, B0_LastThreeLetters: mme, B0_LastTwoLetters: me, S0B0Token: np_stimme, S0B1Token: np_am, S0B2Token: np_telefon, S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_stimme, S1S0B0Token: hat_zu_tun_np_stimme, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, stimme]   B= [am, telefon, . ,.. ]
+
+B0IsInLexic: true, B0Token: am, B0_LastThreeLetters: am, B0_LastTwoLetters: am, S0B0Token: stimme_am, S0B1Token: stimme_telefon, S0B2Token: stimme_., S0S1Distance: 22, S0Token: stimme, S0_LastThreeLetters: mme, S0_LastTwoLetters: me, S1B0Token: np_am, S1S0B0Token: np_stimme_am, S1S0Token: np_stimme, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [am, telefon, . ,.. ]
+
+B0IsInLexic: true, B0Token: am, B0_LastThreeLetters: am, B0_LastTwoLetters: am, S0B0Token: np_am, S0B1Token: np_telefon, S0B2Token: np_., S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_am, S1S0B0Token: hat_zu_tun_np_am, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, am]   B= [telefon, . ,.. ]
+
+B0IsInLexic: true, B0Token: telefon, B0_LastThreeLetters: fon, B0_LastTwoLetters: on, S0B0Token: am_telefon, S0B1Token: am_., S0IsInLexic: true, S0S1Distance: 23, S0Token: am, S0_LastThreeLetters: am, S0_LastTwoLetters: am, S1B0Token: np_telefon, S1S0B0Token: np_am_telefon, S1S0Token: np_am, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, an+der_isGouvernedBy_Telefon: true, an+der_isGouvernedBy_Telefon_case: true, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [telefon, . ,.. ]
+
+B0IsInLexic: true, B0Token: telefon, B0_LastThreeLetters: fon, B0_LastTwoLetters: on, S0B0Token: np_telefon, S0B1Token: np_., S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_telefon, S1S0B0Token: hat_zu_tun_np_telefon, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, telefon]   B= [.]
+
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: telefon_., S0IsInLexic: true, S0S1Distance: 24, S0Token: telefon, S0_LastThreeLetters: fon, S0_LastTwoLetters: on, S1B0Token: np_., S1S0B0Token: np_telefon_., S1S0Token: np_telefon, S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [.]
+
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: np_., S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1B0Token: hat_zu_tun_., S1S0B0Token: hat_zu_tun_np_., S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np, .]   B= [ ]
+
+S0S1Distance: 25, S0Token: ., S0_LastThreeLetters: ., S0_LastTwoLetters: ., S1S0Token: np_., S1Token: np, S1_LastThreeLetters: np, S1_LastTwoLetters: np, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]  np]   B= [ ]
+
+S0Token: np, S0_LastThreeLetters: np, S0_LastTwoLetters: np, S1S0Token: hat_zu_tun_np, S1Token: hat_zu_tun, 
+
+75- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hat, [zu, tun]]]   B= [ ]
 
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [2014]   B= [vorgestellt, werden, . ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-B0Token: vorgestellt, B0_LastThreeLetters: llt, B0_LastTwoLetters: lt, S0B0Token: 2014_vorgestellt, S0B1Token: 2014_werden, S0B2Token: 2014_., S0Token: 2014, S0_LastThreeLetters: 014, S0_LastTwoLetters: 14, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vorgestellt, werden, . ,.. ]
-
-
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vorgestellt]   B= [werden, . ,.. ]
-
-B0IsInLexic: true, B0Token: werden, B0_LastThreeLetters: den, B0_LastTwoLetters: en, S0B0Token: vorgestellt_werden, S0B1Token: vorgestellt_., S0Token: vorgestellt, S0_LastThreeLetters: llt, S0_LastTwoLetters: lt, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [werden, . ,.. ]
-
-
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [werden]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: werden_., S0IsInLexic: true, S0Token: werden, S0_LastThreeLetters: den, S0_LastTwoLetters: en, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 4740 - 
-Mateo findet , dass Lisa aussieht wie eine " Großmutter in der Disko " . 
+## Sentence No. 3060 - 
+die aktie gab nachbörslich um rund zwei prozent nach . 
 ### Existing MWEs: 
-1- **aussieht** (VPC, 1)
+1- **gab nach** (VPC, 1)
+### Identified MWEs: 
+1- **gab um** 
 
+2- **gab um** 
 
+3- **gab um** 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Mateo, findet, , ,.. ]
+4- **gab um** 
 
+5- **gab um** 
 
+6- **gab um** 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo]   B= [findet, ,, dass ,.. ]
 
-B0IsInLexic: true, B0Token: findet, B0_LastThreeLetters: det, B0_LastTwoLetters: et, Mateo_isGouvernedBy_finden: true, Mateo_isGouvernedBy_finden_nsubj: true, S0B0Token: Mateo_findet, S0B1Token: Mateo_,, S0B2Token: Mateo_dass, S0Token: Mateo, S0_LastThreeLetters: teo, S0_LastTwoLetters: eo, 
 
-2- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [,, dass, Lisa ,.. ]
 
-B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: findet_,, S0B1Token: findet_dass, S0B2Token: findet_Lisa, S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_,, S1S0B0Token: Mateo_findet_,, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [die, aktie, gab ,.. ]
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, ,]   B= [dass, Lisa, aussieht ,.. ]
 
-B0Token: dass, B0_LastThreeLetters: ass, B0_LastTwoLetters: ss, S0B0Token: ,_dass, S0B1Token: ,_Lisa, S0B2Token: ,_aussieht, S0S1Distance: 1, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, S1B0Token: findet_dass, S1IsInLexic: true, S1S0B0Token: findet_,_dass, S1S0Token: findet_,, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, SyntaxicRelation: +punct, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [dass, Lisa, aussieht ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [die]   B= [aktie, gab, nachbörslich ,.. ]
 
-B0Token: dass, B0_LastThreeLetters: ass, B0_LastTwoLetters: ss, S0B0Token: findet_dass, S0B1Token: findet_Lisa, S0B2Token: findet_aussieht, S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_dass, S1S0B0Token: Mateo_findet_dass, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+B0Token: aktie, B0_LastThreeLetters: tie, B0_LastTwoLetters: ie, S0B0Token: die_aktie, S0B1Token: die_gab, S0B2Token: die_nachbörslich, S0IsInLexic: true, S0Token: die, S0_LastThreeLetters: die, S0_LastTwoLetters: ie, der_isGouvernedBy_Aktie: true, der_isGouvernedBy_Aktie_det: true, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, dass]   B= [Lisa, aussieht, wie ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aktie, gab, nachbörslich ,.. ]
 
-B0Token: Lisa, B0_LastThreeLetters: isa, B0_LastTwoLetters: sa, S0B0Token: dass_Lisa, S0B1Token: dass_aussieht, S0B2Token: dass_wie, S0S1Distance: 2, S0Token: dass, S0_LastThreeLetters: ass, S0_LastTwoLetters: ss, S1B0Token: findet_Lisa, S1IsInLexic: true, S1S0B0Token: findet_dass_Lisa, S1S0Token: findet_dass, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, dass_isGouvernedBy_aussiehen: true, dass_isGouvernedBy_aussiehen_mark: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [Lisa, aussieht, wie ,.. ]
 
-B0Token: Lisa, B0_LastThreeLetters: isa, B0_LastTwoLetters: sa, S0B0Token: findet_Lisa, S0B1Token: findet_aussieht, S0B2Token: findet_wie, S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_Lisa, S1S0B0Token: Mateo_findet_Lisa, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aktie]   B= [gab, nachbörslich, um ,.. ]
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, Lisa]   B= [aussieht, wie, eine ,.. ]
+Aktie_isGouvernedBy_geben: true, Aktie_isGouvernedBy_geben_nsubj: true, B0IsInLexic: true, B0Token: gab, B0_LastThreeLetters: gab, B0_LastTwoLetters: ab, S0B0Token: aktie_gab, S0B1Token: aktie_nachbörslich, S0B2Token: aktie_um, S0Token: aktie, S0_LastThreeLetters: tie, S0_LastTwoLetters: ie, 
 
-B0IsInLexic: true, B0Token: aussieht, B0_LastThreeLetters: eht, B0_LastTwoLetters: ht, Lisa_isGouvernedBy_aussiehen: true, Lisa_isGouvernedBy_aussiehen_nsubj: true, S0B0Token: Lisa_aussieht, S0B1Token: Lisa_wie, S0B2Token: Lisa_eine, S0S1Distance: 3, S0Token: Lisa, S0_LastThreeLetters: isa, S0_LastTwoLetters: sa, S1B0Token: findet_aussieht, S1IsInLexic: true, S1S0B0Token: findet_Lisa_aussieht, S1S0Token: findet_Lisa, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, 
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gab, nachbörslich, um ,.. ]
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [aussieht, wie, eine ,.. ]
 
-B0IsInLexic: true, B0Token: aussieht, B0_LastThreeLetters: eht, B0_LastTwoLetters: ht, S0B0Token: findet_aussieht, S0B1Token: findet_wie, S0B2Token: findet_eine, S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_aussieht, S1S0B0Token: Mateo_findet_aussieht, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, aussieht]   B= [wie, eine, " ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gab]   B= [nachbörslich, um, rund ,.. ]
 
-B0IsInLexic: true, B0Token: wie, B0_LastThreeLetters: wie, B0_LastTwoLetters: ie, S0B0Token: aussieht_wie, S0B1Token: aussieht_eine, S0B2Token: aussieht_", S0IsInLexic: true, S0S1Distance: 4, S0Token: aussieht, S0_LastThreeLetters: eht, S0_LastTwoLetters: ht, S1B0Token: findet_wie, S1IsInLexic: true, S1S0B0Token: findet_aussieht_wie, S1S0Token: findet_aussieht, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, SyntaxicRelation: +ccomp, aussiehen_Großmutter_hasRighDep_nmod: true, aussiehen_hasRighDep_nmod: true, hasRighDep_nmod: true, 
+B0Token: nachbörslich, B0_LastThreeLetters: ich, B0_LastTwoLetters: ch, S0B0Token: gab_nachbörslich, S0B1Token: gab_um, S0B2Token: gab_rund, S0IsInLexic: true, S0Token: gab, S0_LastThreeLetters: gab, S0_LastTwoLetters: ab, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [wie, eine, " ,.. ]
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gab, nachbörslich]   B= [um, rund, zwei ,.. ]
 
-B0IsInLexic: true, B0Token: wie, B0_LastThreeLetters: wie, B0_LastTwoLetters: ie, S0B0Token: findet_wie, S0B1Token: findet_eine, S0B2Token: findet_", S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_wie, S1S0B0Token: Mateo_findet_wie, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+B0IsInLexic: true, B0Token: um, B0_LastThreeLetters: um, B0_LastTwoLetters: um, S0B0Token: nachbörslich_um, S0B1Token: nachbörslich_rund, S0B2Token: nachbörslich_zwei, S0S1Distance: 1, S0Token: nachbörslich, S0_LastThreeLetters: ich, S0_LastTwoLetters: ch, S1B0Token: gab_um, S1IsInLexic: true, S1S0B0Token: gab_nachbörslich_um, S1S0Token: gab_nachbörslich, S1Token: gab, S1_LastThreeLetters: gab, S1_LastTwoLetters: ab, SyntaxicRelation: +advmod, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, wie]   B= [eine, ", Großmutter ,.. ]
+7- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gab]   B= [um, rund, zwei ,.. ]
 
-B0IsInLexic: true, B0Token: eine, B0_LastThreeLetters: ine, B0_LastTwoLetters: ne, S0B0Token: wie_eine, S0B1Token: wie_", S0B2Token: wie_Großmutter, S0IsInLexic: true, S0S1Distance: 5, S0Token: wie, S0_LastThreeLetters: wie, S0_LastTwoLetters: ie, S1B0Token: findet_eine, S1IsInLexic: true, S1S0B0Token: findet_wie_eine, S1S0Token: findet_wie, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, wie_isGouvernedBy_Großmutter: true, wie_isGouvernedBy_Großmutter_case: true, 
+B0IsInLexic: true, B0Token: um, B0_LastThreeLetters: um, B0_LastTwoLetters: um, S0B0Token: gab_um, S0B1Token: gab_rund, S0B2Token: gab_zwei, S0IsInLexic: true, S0Token: gab, S0_LastThreeLetters: gab, S0_LastTwoLetters: ab, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [eine, ", Großmutter ,.. ]
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gab, um]   B= [rund, zwei, prozent ,.. ]
 
-B0IsInLexic: true, B0Token: eine, B0_LastThreeLetters: ine, B0_LastTwoLetters: ne, S0B0Token: findet_eine, S0B1Token: findet_", S0B2Token: findet_Großmutter, S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_eine, S1S0B0Token: Mateo_findet_eine, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+B0Token: rund, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: um_rund, S0B1Token: um_zwei, S0B2Token: um_prozent, S0IsInLexic: true, S0S1Distance: 2, S0Token: um, S0_LastThreeLetters: um, S0_LastTwoLetters: um, S1B0Token: gab_rund, S1IsInLexic: true, S1S0B0Token: gab_um_rund, S1S0Token: gab_um, S1Token: gab, S1_LastThreeLetters: gab, S1_LastTwoLetters: ab, um_isGouvernedBy_Prozent: true, um_isGouvernedBy_Prozent_case: true, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, eine]   B= [", Großmutter, in ,.. ]
+9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]]   B= [rund, zwei, prozent ,.. ]
 
-B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", S0B0Token: eine_", S0B1Token: eine_Großmutter, S0B2Token: eine_in, S0IsInLexic: true, S0S1Distance: 6, S0Token: eine, S0_LastThreeLetters: ine, S0_LastTwoLetters: ne, S1B0Token: findet_", S1IsInLexic: true, S1S0B0Token: findet_eine_", S1S0Token: findet_eine, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, ein_isGouvernedBy_Großmutter: true, ein_isGouvernedBy_Großmutter_det: true, 
+B0Token: rund, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: gab_um_rund, S0B1Token: gab_um_zwei, S0B2Token: gab_um_prozent, S0Token: gab_um, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [", Großmutter, in ,.. ]
+10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]  rund]   B= [zwei, prozent, nach ,.. ]
 
-B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", S0B0Token: findet_", S0B1Token: findet_Großmutter, S0B2Token: findet_in, S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_", S1S0B0Token: Mateo_findet_", S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+B0IsInLexic: true, B0Token: zwei, B0_LastThreeLetters: wei, B0_LastTwoLetters: ei, S0B0Token: rund_zwei, S0B1Token: rund_prozent, S0B2Token: rund_nach, S0Token: rund, S0_LastThreeLetters: und, S0_LastTwoLetters: nd, S1B0Token: gab_um_zwei, S1S0B0Token: gab_um_rund_zwei, S1S0Token: gab_um_rund, S1Token: gab_um, rund_isGouvernedBy_zwei: true, rund_isGouvernedBy_zwei_advmod: true, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, "]   B= [Großmutter, in, der ,.. ]
+11- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]]   B= [zwei, prozent, nach ,.. ]
 
-"_isGouvernedBy_Großmutter: true, "_isGouvernedBy_Großmutter_punct: true, B0Token: Großmutter, B0_LastThreeLetters: ter, B0_LastTwoLetters: er, S0B0Token: "_Großmutter, S0B1Token: "_in, S0B2Token: "_der, S0S1Distance: 7, S0Token: ", S0_LastThreeLetters: ", S0_LastTwoLetters: ", S1B0Token: findet_Großmutter, S1IsInLexic: true, S1S0B0Token: findet_"_Großmutter, S1S0Token: findet_", S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, 
+B0IsInLexic: true, B0Token: zwei, B0_LastThreeLetters: wei, B0_LastTwoLetters: ei, S0B0Token: gab_um_zwei, S0B1Token: gab_um_prozent, S0B2Token: gab_um_nach, S0Token: gab_um, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [Großmutter, in, der ,.. ]
+12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]  zwei]   B= [prozent, nach, . ,.. ]
 
-B0Token: Großmutter, B0_LastThreeLetters: ter, B0_LastTwoLetters: er, S0B0Token: findet_Großmutter, S0B1Token: findet_in, S0B2Token: findet_der, S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_Großmutter, S1S0B0Token: Mateo_findet_Großmutter, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+B0Token: prozent, B0_LastThreeLetters: ent, B0_LastTwoLetters: nt, S0B0Token: zwei_prozent, S0B1Token: zwei_nach, S0B2Token: zwei_., S0IsInLexic: true, S0Token: zwei, S0_LastThreeLetters: wei, S0_LastTwoLetters: ei, S1B0Token: gab_um_prozent, S1S0B0Token: gab_um_zwei_prozent, S1S0Token: gab_um_zwei, S1Token: gab_um, zwei_isGouvernedBy_Prozent: true, zwei_isGouvernedBy_Prozent_nummod: true, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, Großmutter]   B= [in, der, Disko ,.. ]
+13- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]]   B= [prozent, nach, . ,.. ]
 
-B0IsInLexic: true, B0Token: in, B0_LastThreeLetters: in, B0_LastTwoLetters: in, Großmutter_Disko_hasRighDep_nmod: true, Großmutter_hasRighDep_nmod: true, S0B0Token: Großmutter_in, S0B1Token: Großmutter_der, S0B2Token: Großmutter_Disko, S0S1Distance: 8, S0Token: Großmutter, S0_LastThreeLetters: ter, S0_LastTwoLetters: er, S1B0Token: findet_in, S1IsInLexic: true, S1S0B0Token: findet_Großmutter_in, S1S0Token: findet_Großmutter, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, hasRighDep_nmod: true, 
+B0Token: prozent, B0_LastThreeLetters: ent, B0_LastTwoLetters: nt, S0B0Token: gab_um_prozent, S0B1Token: gab_um_nach, S0B2Token: gab_um_., S0Token: gab_um, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [in, der, Disko ,.. ]
+14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]  prozent]   B= [nach, . ,.. ]
 
-B0IsInLexic: true, B0Token: in, B0_LastThreeLetters: in, B0_LastTwoLetters: in, S0B0Token: findet_in, S0B1Token: findet_der, S0B2Token: findet_Disko, S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_in, S1S0B0Token: Mateo_findet_in, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+B0IsInLexic: true, B0Token: nach, B0_LastThreeLetters: ach, B0_LastTwoLetters: ch, S0B0Token: prozent_nach, S0B1Token: prozent_., S0Token: prozent, S0_LastThreeLetters: ent, S0_LastTwoLetters: nt, S1B0Token: gab_um_nach, S1S0B0Token: gab_um_prozent_nach, S1S0Token: gab_um_prozent, S1Token: gab_um, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, in]   B= [der, Disko, " ,.. ]
+15- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]]   B= [nach, . ,.. ]
 
-B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: in_der, S0B1Token: in_Disko, S0B2Token: in_", S0IsInLexic: true, S0S1Distance: 9, S0Token: in, S0_LastThreeLetters: in, S0_LastTwoLetters: in, S1B0Token: findet_der, S1IsInLexic: true, S1S0B0Token: findet_in_der, S1S0Token: findet_in, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, in_isGouvernedBy_Disko: true, in_isGouvernedBy_Disko_case: true, 
+B0IsInLexic: true, B0Token: nach, B0_LastThreeLetters: ach, B0_LastTwoLetters: ch, S0B0Token: gab_um_nach, S0B1Token: gab_um_., S0Token: gab_um, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [der, Disko, " ,.. ]
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]  nach]   B= [.]
 
-B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: findet_der, S0B1Token: findet_Disko, S0B2Token: findet_", S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_der, S1S0B0Token: Mateo_findet_der, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: nach_., S0IsInLexic: true, S0Token: nach, S0_LastThreeLetters: ach, S0_LastTwoLetters: ch, S1B0Token: gab_um_., S1S0B0Token: gab_um_nach_., S1S0Token: gab_um_nach, S1Token: gab_um, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, der]   B= [Disko, ", . ,.. ]
+17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]]   B= [.]
 
-B0Token: Disko, B0_LastThreeLetters: sko, B0_LastTwoLetters: ko, S0B0Token: der_Disko, S0B1Token: der_", S0B2Token: der_., S0IsInLexic: true, S0S1Distance: 10, S0Token: der, S0_LastThreeLetters: der, S0_LastTwoLetters: er, S1B0Token: findet_Disko, S1IsInLexic: true, S1S0B0Token: findet_der_Disko, S1S0Token: findet_der, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, der_isGouvernedBy_Disko: true, der_isGouvernedBy_Disko_det: true, 
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: gab_um_., S0Token: gab_um, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [Disko, ", . ,.. ]
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]  .]   B= [ ]
 
-B0Token: Disko, B0_LastThreeLetters: sko, B0_LastTwoLetters: ko, S0B0Token: findet_Disko, S0B1Token: findet_", S0B2Token: findet_., S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_Disko, S1S0B0Token: Mateo_findet_Disko, S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+S0Token: ., S0_LastThreeLetters: ., S0_LastTwoLetters: ., S1S0Token: gab_um_., S1Token: gab_um, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, Disko]   B= [", . ,.. ]
+19- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gab, um]]   B= [ ]
 
-B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", Disko_"_hasRighDep_punct: true, Disko_hasRighDep_punct: true, S0B0Token: Disko_", S0B1Token: Disko_., S0S1Distance: 11, S0Token: Disko, S0_LastThreeLetters: sko, S0_LastTwoLetters: ko, S1B0Token: findet_", S1IsInLexic: true, S1S0B0Token: findet_Disko_", S1S0Token: findet_Disko, S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, hasRighDep_punct: true, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [", . ,.. ]
 
-B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", S0B0Token: findet_", S0B1Token: findet_., S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_", S1S0B0Token: Mateo_findet_", S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet, "]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: "_., S0S1Distance: 12, S0Token: ", S0_LastThreeLetters: ", S0_LastTwoLetters: ", S1B0Token: findet_., S1IsInLexic: true, S1S0B0Token: findet_"_., S1S0Token: findet_", S1Token: findet, S1_LastThreeLetters: det, S1_LastTwoLetters: et, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, findet]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: findet_., S0IsInLexic: true, S0S1Distance: 1, S0Token: findet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, S1B0Token: Mateo_., S1S0B0Token: Mateo_findet_., S1S0Token: Mateo_findet, S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
-
-27- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: Mateo_., S0Token: Mateo, S0_LastThreeLetters: teo, S0_LastTwoLetters: eo, 
-
-28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo, .]   B= [ ]
-
-S0S1Distance: 14, S0Token: ., S0_LastThreeLetters: ., S0_LastTwoLetters: ., S1S0Token: Mateo_., S1Token: Mateo, S1_LastThreeLetters: teo, S1_LastTwoLetters: eo, 
-
-29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mateo]   B= [ ]
-
-
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 4775 - 
-Dem Kroaten gelang nach seiner Einwechselung , was weder Kaká noch Özil vergönnt war : Er übernahm die Regie im Mittelfeld , brachte das bis dahin unterlegene Real ins Spiel und schoss in der 66. Minute das Ausgleichstor für die Madrilenen . 
+## Sentence No. 3065 - 
+bei den kleinen bühnen kam der bilanzprüfer zu dem schluss , dass diese ihre sache prima machen . 
 ### Existing MWEs: 
-1- **brachte ins Spiel** (ID)
+1- **kam zu schluss** (ID)
+### Identified MWEs: 
+1- **kam schluss** 
 
+2- **kam schluss** 
 
+3- **kam schluss** 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Dem, Kroaten, gelang ,.. ]
+4- **kam schluss** 
 
+5- **kam schluss** 
 
+6- **kam schluss** 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Dem]   B= [Kroaten, gelang, nach ,.. ]
+7- **kam schluss** 
 
-B0Token: Kroaten, B0_LastThreeLetters: ten, B0_LastTwoLetters: en, S0B0Token: Dem_Kroaten, S0B1Token: Dem_gelang, S0B2Token: Dem_nach, S0IsInLexic: true, S0Token: Dem, S0_LastThreeLetters: Dem, S0_LastTwoLetters: em, der_isGouvernedBy_Kroat: true, der_isGouvernedBy_Kroat_det: true, 
+8- **kam schluss** 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kroaten, gelang, nach ,.. ]
+9- **kam schluss** 
 
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kroaten]   B= [gelang, nach, seiner ,.. ]
 
-B0Token: gelang, B0_LastThreeLetters: ang, B0_LastTwoLetters: ng, Kroat_isGouvernedBy_gelingen: true, Kroat_isGouvernedBy_gelingen_iobj: true, S0B0Token: Kroaten_gelang, S0B1Token: Kroaten_nach, S0B2Token: Kroaten_seiner, S0Token: Kroaten, S0_LastThreeLetters: ten, S0_LastTwoLetters: en, 
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bei, den, kleinen ,.. ]
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gelang, nach, seiner ,.. ]
 
 
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bei]   B= [den, kleinen, bühnen ,.. ]
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gelang]   B= [nach, seiner, Einwechselung ,.. ]
+B0IsInLexic: true, B0Token: den, B0_LastThreeLetters: den, B0_LastTwoLetters: en, S0B0Token: bei_den, S0B1Token: bei_kleinen, S0B2Token: bei_bühnen, S0IsInLexic: true, S0Token: bei, S0_LastThreeLetters: bei, S0_LastTwoLetters: ei, bei_isGouvernedBy_Bühn: true, bei_isGouvernedBy_Bühn_case: true, 
 
-B0IsInLexic: true, B0Token: nach, B0_LastThreeLetters: ach, B0_LastTwoLetters: ch, S0B0Token: gelang_nach, S0B1Token: gelang_seiner, S0B2Token: gelang_Einwechselung, S0Token: gelang, S0_LastThreeLetters: ang, S0_LastTwoLetters: ng, 
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [den, kleinen, bühnen ,.. ]
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nach, seiner, Einwechselung ,.. ]
 
 
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [den]   B= [kleinen, bühnen, kam ,.. ]
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nach]   B= [seiner, Einwechselung, , ,.. ]
+B0Token: kleinen, B0_LastThreeLetters: nen, B0_LastTwoLetters: en, S0B0Token: den_kleinen, S0B1Token: den_bühnen, S0B2Token: den_kam, S0IsInLexic: true, S0Token: den, S0_LastThreeLetters: den, S0_LastTwoLetters: en, der_isGouvernedBy_Bühn: true, der_isGouvernedBy_Bühn_det: true, 
 
-B0IsInLexic: true, B0Token: seiner, B0_LastThreeLetters: ner, B0_LastTwoLetters: er, S0B0Token: nach_seiner, S0B1Token: nach_Einwechselung, S0B2Token: nach_,, S0IsInLexic: true, S0Token: nach, S0_LastThreeLetters: ach, S0_LastTwoLetters: ch, nach_isGouvernedBy_Einwechselung: true, nach_isGouvernedBy_Einwechselung_case: true, 
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kleinen, bühnen, kam ,.. ]
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [seiner, Einwechselung, , ,.. ]
 
 
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kleinen]   B= [bühnen, kam, der ,.. ]
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [seiner]   B= [Einwechselung, ,, was ,.. ]
+B0Token: bühnen, B0_LastThreeLetters: nen, B0_LastTwoLetters: en, S0B0Token: kleinen_bühnen, S0B1Token: kleinen_kam, S0B2Token: kleinen_der, S0Token: kleinen, S0_LastThreeLetters: nen, S0_LastTwoLetters: en, klein_isGouvernedBy_Bühn: true, klein_isGouvernedBy_Bühn_amod: true, 
 
-B0Token: Einwechselung, B0_LastThreeLetters: ung, B0_LastTwoLetters: ng, S0B0Token: seiner_Einwechselung, S0B1Token: seiner_,, S0B2Token: seiner_was, S0IsInLexic: true, S0Token: seiner, S0_LastThreeLetters: ner, S0_LastTwoLetters: er, sein_isGouvernedBy_Einwechselung: true, sein_isGouvernedBy_Einwechselung_det:poss: true, 
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bühnen, kam, der ,.. ]
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Einwechselung, ,, was ,.. ]
 
 
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bühnen]   B= [kam, der, bilanzprüfer ,.. ]
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Einwechselung]   B= [,, was, weder ,.. ]
+B0IsInLexic: true, B0Token: kam, B0_LastThreeLetters: kam, B0_LastTwoLetters: am, Bühn_isGouvernedBy_kommen: true, Bühn_isGouvernedBy_kommen_nmod: true, S0B0Token: bühnen_kam, S0B1Token: bühnen_der, S0B2Token: bühnen_bilanzprüfer, S0Token: bühnen, S0_LastThreeLetters: nen, S0_LastTwoLetters: en, 
 
-B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: Einwechselung_,, S0B1Token: Einwechselung_was, S0B2Token: Einwechselung_weder, S0Token: Einwechselung, S0_LastThreeLetters: ung, S0_LastTwoLetters: ng, 
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kam, der, bilanzprüfer ,.. ]
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, was, weder ,.. ]
 
 
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam]   B= [der, bilanzprüfer, zu ,.. ]
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [was, weder, Kaká ,.. ]
+B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: kam_der, S0B1Token: kam_bilanzprüfer, S0B2Token: kam_zu, S0IsInLexic: true, S0Token: kam, S0_LastThreeLetters: kam, S0_LastTwoLetters: am, 
 
-B0IsInLexic: true, B0Token: was, B0_LastThreeLetters: was, B0_LastTwoLetters: as, S0B0Token: ,_was, S0B1Token: ,_weder, S0B2Token: ,_Kaká, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, 
+10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam, der]   B= [bilanzprüfer, zu, dem ,.. ]
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [was, weder, Kaká ,.. ]
+B0Token: bilanzprüfer, B0_LastThreeLetters: fer, B0_LastTwoLetters: er, S0B0Token: der_bilanzprüfer, S0B1Token: der_zu, S0B2Token: der_dem, S0IsInLexic: true, S0S1Distance: 1, S0Token: der, S0_LastThreeLetters: der, S0_LastTwoLetters: er, S1B0Token: kam_bilanzprüfer, S1IsInLexic: true, S1S0B0Token: kam_der_bilanzprüfer, S1S0Token: kam_der, S1Token: kam, S1_LastThreeLetters: kam, S1_LastTwoLetters: am, der_isGouvernedBy_Bilanzprüfer: true, der_isGouvernedBy_Bilanzprüfer_det: true, 
 
+11- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam]   B= [bilanzprüfer, zu, dem ,.. ]
 
+B0Token: bilanzprüfer, B0_LastThreeLetters: fer, B0_LastTwoLetters: er, S0B0Token: kam_bilanzprüfer, S0B1Token: kam_zu, S0B2Token: kam_dem, S0IsInLexic: true, S0Token: kam, S0_LastThreeLetters: kam, S0_LastTwoLetters: am, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [was]   B= [weder, Kaká, noch ,.. ]
+12- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam, bilanzprüfer]   B= [zu, dem, schluss ,.. ]
 
-B0Token: weder, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: was_weder, S0B1Token: was_Kaká, S0B2Token: was_noch, S0IsInLexic: true, S0Token: was, S0_LastThreeLetters: was, S0_LastTwoLetters: as, was_isGouvernedBy_vergönnen: true, was_isGouvernedBy_vergönnen_nsubj: true, 
+B0IsInLexic: true, B0Token: zu, B0_LastThreeLetters: zu, B0_LastTwoLetters: zu, S0B0Token: bilanzprüfer_zu, S0B1Token: bilanzprüfer_dem, S0B2Token: bilanzprüfer_schluss, S0S1Distance: 2, S0Token: bilanzprüfer, S0_LastThreeLetters: fer, S0_LastTwoLetters: er, S1B0Token: kam_zu, S1IsInLexic: true, S1S0B0Token: kam_bilanzprüfer_zu, S1S0Token: kam_bilanzprüfer, S1Token: kam, S1_LastThreeLetters: kam, S1_LastTwoLetters: am, SyntaxicRelation: +nsubj, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [weder, Kaká, noch ,.. ]
+13- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam]   B= [zu, dem, schluss ,.. ]
 
+B0IsInLexic: true, B0Token: zu, B0_LastThreeLetters: zu, B0_LastTwoLetters: zu, S0B0Token: kam_zu, S0B1Token: kam_dem, S0B2Token: kam_schluss, S0IsInLexic: true, S0Token: kam, S0_LastThreeLetters: kam, S0_LastTwoLetters: am, 
 
+14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam, zu]   B= [dem, schluss, , ,.. ]
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [weder]   B= [Kaká, noch, Özil ,.. ]
+B0IsInLexic: true, B0Token: dem, B0_LastThreeLetters: dem, B0_LastTwoLetters: em, S0B0Token: zu_dem, S0B1Token: zu_schluss, S0B2Token: zu_,, S0IsInLexic: true, S0S1Distance: 3, S0Token: zu, S0_LastThreeLetters: zu, S0_LastTwoLetters: zu, S1B0Token: kam_dem, S1IsInLexic: true, S1S0B0Token: kam_zu_dem, S1S0Token: kam_zu, S1Token: kam, S1_LastThreeLetters: kam, S1_LastTwoLetters: am, zu_isGouvernedBy_Schluß: true, zu_isGouvernedBy_Schluß_case: true, 
 
-B0Token: Kaká, B0_LastThreeLetters: ká, B0_LastTwoLetters: á, S0B0Token: weder_Kaká, S0B1Token: weder_noch, S0B2Token: weder_Özil, S0Token: weder, S0_LastThreeLetters: der, S0_LastTwoLetters: er, weder_isGouvernedBy_Kaká: true, weder_isGouvernedBy_Kaká_cc: true, 
+15- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam]   B= [dem, schluss, , ,.. ]
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kaká, noch, Özil ,.. ]
+B0IsInLexic: true, B0Token: dem, B0_LastThreeLetters: dem, B0_LastTwoLetters: em, S0B0Token: kam_dem, S0B1Token: kam_schluss, S0B2Token: kam_,, S0IsInLexic: true, S0Token: kam, S0_LastThreeLetters: kam, S0_LastTwoLetters: am, 
 
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam, dem]   B= [schluss, ,, dass ,.. ]
 
+B0IsInLexic: true, B0Token: schluss, B0_LastThreeLetters: uss, B0_LastTwoLetters: ss, S0B0Token: dem_schluss, S0B1Token: dem_,, S0B2Token: dem_dass, S0IsInLexic: true, S0S1Distance: 4, S0Token: dem, S0_LastThreeLetters: dem, S0_LastTwoLetters: em, S1B0Token: kam_schluss, S1IsInLexic: true, S1S0B0Token: kam_dem_schluss, S1S0Token: kam_dem, S1Token: kam, S1_LastThreeLetters: kam, S1_LastTwoLetters: am, der_isGouvernedBy_Schluß: true, der_isGouvernedBy_Schluß_det: true, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [noch, Özil, vergönnt ,.. ]
+17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam]   B= [schluss, ,, dass ,.. ]
 
-B0IsInLexic: true, B0Token: noch, B0_LastThreeLetters: och, B0_LastTwoLetters: ch, Kaká_isGouvernedBy_vergönnen: true, Kaká_isGouvernedBy_vergönnen_nmod: true, S0B0Token: Kaká_noch, S0B1Token: Kaká_Özil, S0B2Token: Kaká_vergönnt, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0IsInLexic: true, B0Token: schluss, B0_LastThreeLetters: uss, B0_LastTwoLetters: ss, S0B0Token: kam_schluss, S0B1Token: kam_,, S0B2Token: kam_dass, S0IsInLexic: true, S0Token: kam, S0_LastThreeLetters: kam, S0_LastTwoLetters: am, 
 
-20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, noch]   B= [Özil, vergönnt, war ,.. ]
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kam, schluss]   B= [,, dass, diese ,.. ]
 
-B0Token: Özil, B0_LastThreeLetters: zil, B0_LastTwoLetters: il, S0B0Token: noch_Özil, S0B1Token: noch_vergönnt, S0B2Token: noch_war, S0IsInLexic: true, S0S1Distance: 1, S0Token: noch, S0_LastThreeLetters: och, S0_LastTwoLetters: ch, S1B0Token: Kaká_Özil, S1S0B0Token: Kaká_noch_Özil, S1S0Token: Kaká_noch, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, noch_isGouvernedBy_vergönnen: true, noch_isGouvernedBy_vergönnen_advmod: true, 
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: schluss_,, S0B1Token: schluss_dass, S0B2Token: schluss_diese, S0IsInLexic: true, S0S1Distance: 5, S0Token: schluss, S0_LastThreeLetters: uss, S0_LastTwoLetters: ss, S1B0Token: kam_,, S1IsInLexic: true, S1S0B0Token: kam_schluss_,, S1S0Token: kam_schluss, S1Token: kam, S1_LastThreeLetters: kam, S1_LastTwoLetters: am, SyntaxicRelation: +nmod, 
 
-21- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [Özil, vergönnt, war ,.. ]
+19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [,, dass, diese ,.. ]
 
-B0Token: Özil, B0_LastThreeLetters: zil, B0_LastTwoLetters: il, Kaká_isGouvernedBy_vergönnen: true, Kaká_isGouvernedBy_vergönnen_nmod: true, S0B0Token: Kaká_Özil, S0B1Token: Kaká_vergönnt, S0B2Token: Kaká_war, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: kam_schluss_,, S0B1Token: kam_schluss_dass, S0B2Token: kam_schluss_diese, S0Token: kam_schluss, 
 
-22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, Özil]   B= [vergönnt, war, : ,.. ]
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]  ,]   B= [dass, diese, ihre ,.. ]
 
-B0Token: vergönnt, B0_LastThreeLetters: nnt, B0_LastTwoLetters: nt, S0B0Token: Özil_vergönnt, S0B1Token: Özil_war, S0B2Token: Özil_:, S0S1Distance: 2, S0Token: Özil, S0_LastThreeLetters: zil, S0_LastTwoLetters: il, S1B0Token: Kaká_vergönnt, S1S0B0Token: Kaká_Özil_vergönnt, S1S0Token: Kaká_Özil, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, Özil_isGouvernedBy_vergönnen: true, Özil_isGouvernedBy_vergönnen_dobj: true, 
+B0Token: dass, B0_LastThreeLetters: ass, B0_LastTwoLetters: ss, S0B0Token: ,_dass, S0B1Token: ,_diese, S0B2Token: ,_ihre, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, S1B0Token: kam_schluss_dass, S1S0B0Token: kam_schluss_,_dass, S1S0Token: kam_schluss_,, S1Token: kam_schluss, 
 
-23- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [vergönnt, war, : ,.. ]
+21- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [dass, diese, ihre ,.. ]
 
-B0Token: vergönnt, B0_LastThreeLetters: nnt, B0_LastTwoLetters: nt, Kaká_isGouvernedBy_vergönnen: true, Kaká_isGouvernedBy_vergönnen_nmod: true, S0B0Token: Kaká_vergönnt, S0B1Token: Kaká_war, S0B2Token: Kaká_:, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0Token: dass, B0_LastThreeLetters: ass, B0_LastTwoLetters: ss, S0B0Token: kam_schluss_dass, S0B1Token: kam_schluss_diese, S0B2Token: kam_schluss_ihre, S0Token: kam_schluss, 
 
-24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, vergönnt]   B= [war, :, Er ,.. ]
+22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]  dass]   B= [diese, ihre, sache ,.. ]
 
-B0IsInLexic: true, B0Token: war, B0_LastThreeLetters: war, B0_LastTwoLetters: ar, S0B0Token: vergönnt_war, S0B1Token: vergönnt_:, S0B2Token: vergönnt_Er, S0S1Distance: 3, S0Token: vergönnt, S0_LastThreeLetters: nnt, S0_LastTwoLetters: nt, S1B0Token: Kaká_war, S1S0B0Token: Kaká_vergönnt_war, S1S0Token: Kaká_vergönnt, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, SyntaxicRelation: -nmod, hasRighDep_aux: true, vergönnen_hasRighDep_aux: true, vergönnen_sein_hasRighDep_aux: true, 
+B0Token: diese, B0_LastThreeLetters: ese, B0_LastTwoLetters: se, S0B0Token: dass_diese, S0B1Token: dass_ihre, S0B2Token: dass_sache, S0Token: dass, S0_LastThreeLetters: ass, S0_LastTwoLetters: ss, S1B0Token: kam_schluss_diese, S1S0B0Token: kam_schluss_dass_diese, S1S0Token: kam_schluss_dass, S1Token: kam_schluss, dass_isGouvernedBy_machen: true, dass_isGouvernedBy_machen_mark: true, 
 
-25- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [war, :, Er ,.. ]
+23- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [diese, ihre, sache ,.. ]
 
-B0IsInLexic: true, B0Token: war, B0_LastThreeLetters: war, B0_LastTwoLetters: ar, S0B0Token: Kaká_war, S0B1Token: Kaká_:, S0B2Token: Kaká_Er, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0Token: diese, B0_LastThreeLetters: ese, B0_LastTwoLetters: se, S0B0Token: kam_schluss_diese, S0B1Token: kam_schluss_ihre, S0B2Token: kam_schluss_sache, S0Token: kam_schluss, 
 
-26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, war]   B= [:, Er, übernahm ,.. ]
+24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]  diese]   B= [ihre, sache, prima ,.. ]
 
-B0Token: :, B0_LastThreeLetters: :, B0_LastTwoLetters: :, S0B0Token: war_:, S0B1Token: war_Er, S0B2Token: war_übernahm, S0IsInLexic: true, S0S1Distance: 4, S0Token: war, S0_LastThreeLetters: war, S0_LastTwoLetters: ar, S1B0Token: Kaká_:, S1S0B0Token: Kaká_war_:, S1S0Token: Kaká_war, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
+B0IsInLexic: true, B0Token: ihre, B0_LastThreeLetters: hre, B0_LastTwoLetters: re, S0B0Token: diese_ihre, S0B1Token: diese_sache, S0B2Token: diese_prima, S0Token: diese, S0_LastThreeLetters: ese, S0_LastTwoLetters: se, S1B0Token: kam_schluss_ihre, S1S0B0Token: kam_schluss_diese_ihre, S1S0Token: kam_schluss_diese, S1Token: kam_schluss, dies_isGouvernedBy_machen: true, dies_isGouvernedBy_machen_nsubj: true, 
 
-27- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [:, Er, übernahm ,.. ]
+25- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [ihre, sache, prima ,.. ]
 
-B0Token: :, B0_LastThreeLetters: :, B0_LastTwoLetters: :, S0B0Token: Kaká_:, S0B1Token: Kaká_Er, S0B2Token: Kaká_übernahm, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0IsInLexic: true, B0Token: ihre, B0_LastThreeLetters: hre, B0_LastTwoLetters: re, S0B0Token: kam_schluss_ihre, S0B1Token: kam_schluss_sache, S0B2Token: kam_schluss_prima, S0Token: kam_schluss, 
 
-28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, :]   B= [Er, übernahm, die ,.. ]
+26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]  ihre]   B= [sache, prima, machen ,.. ]
 
-B0Token: Er, B0_LastThreeLetters: Er, B0_LastTwoLetters: Er, S0B0Token: :_Er, S0B1Token: :_übernahm, S0B2Token: :_die, S0S1Distance: 5, S0Token: :, S0_LastThreeLetters: :, S0_LastTwoLetters: :, S1B0Token: Kaká_Er, S1S0B0Token: Kaká_:_Er, S1S0Token: Kaká_:, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
+B0Token: sache, B0_LastThreeLetters: che, B0_LastTwoLetters: he, S0B0Token: ihre_sache, S0B1Token: ihre_prima, S0B2Token: ihre_machen, S0IsInLexic: true, S0Token: ihre, S0_LastThreeLetters: hre, S0_LastTwoLetters: re, S1B0Token: kam_schluss_sache, S1S0B0Token: kam_schluss_ihre_sache, S1S0Token: kam_schluss_ihre, S1Token: kam_schluss, ihr_isGouvernedBy_Sache: true, ihr_isGouvernedBy_Sache_det:poss: true, 
 
-29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [Er, übernahm, die ,.. ]
+27- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [sache, prima, machen ,.. ]
 
-B0Token: Er, B0_LastThreeLetters: Er, B0_LastTwoLetters: Er, S0B0Token: Kaká_Er, S0B1Token: Kaká_übernahm, S0B2Token: Kaká_die, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0Token: sache, B0_LastThreeLetters: che, B0_LastTwoLetters: he, S0B0Token: kam_schluss_sache, S0B1Token: kam_schluss_prima, S0B2Token: kam_schluss_machen, S0Token: kam_schluss, 
 
-30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, Er]   B= [übernahm, die, Regie ,.. ]
+28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]  sache]   B= [prima, machen, . ,.. ]
 
-B0IsInLexic: true, B0Token: übernahm, B0_LastThreeLetters: ahm, B0_LastTwoLetters: hm, S0B0Token: Er_übernahm, S0B1Token: Er_die, S0B2Token: Er_Regie, S0S1Distance: 6, S0Token: Er, S0_LastThreeLetters: Er, S0_LastTwoLetters: Er, S1B0Token: Kaká_übernahm, S1S0B0Token: Kaká_Er_übernahm, S1S0Token: Kaká_Er, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, er_isGouvernedBy_übernehmen: true, er_isGouvernedBy_übernehmen_nsubj: true, 
+B0Token: prima, B0_LastThreeLetters: ima, B0_LastTwoLetters: ma, S0B0Token: sache_prima, S0B1Token: sache_machen, S0B2Token: sache_., S0Token: sache, S0_LastThreeLetters: che, S0_LastTwoLetters: he, S1B0Token: kam_schluss_prima, S1S0B0Token: kam_schluss_sache_prima, S1S0Token: kam_schluss_sache, S1Token: kam_schluss, Sache_isGouvernedBy_machen: true, Sache_isGouvernedBy_machen_dobj: true, 
 
-31- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [übernahm, die, Regie ,.. ]
+29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [prima, machen, . ,.. ]
 
-B0IsInLexic: true, B0Token: übernahm, B0_LastThreeLetters: ahm, B0_LastTwoLetters: hm, S0B0Token: Kaká_übernahm, S0B1Token: Kaká_die, S0B2Token: Kaká_Regie, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0Token: prima, B0_LastThreeLetters: ima, B0_LastTwoLetters: ma, S0B0Token: kam_schluss_prima, S0B1Token: kam_schluss_machen, S0B2Token: kam_schluss_., S0Token: kam_schluss, 
 
-32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, übernahm]   B= [die, Regie, im ,.. ]
+30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]  prima]   B= [machen, . ,.. ]
 
-B0IsInLexic: true, B0Token: die, B0_LastThreeLetters: die, B0_LastTwoLetters: ie, S0B0Token: übernahm_die, S0B1Token: übernahm_Regie, S0B2Token: übernahm_im, S0IsInLexic: true, S0S1Distance: 7, S0Token: übernahm, S0_LastThreeLetters: ahm, S0_LastTwoLetters: hm, S1B0Token: Kaká_die, S1S0B0Token: Kaká_übernahm_die, S1S0Token: Kaká_übernahm, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, hasRighDep_dobj: true, hasRighDep_nmod: true, hasRighDep_punct: true, übernehmen_,_hasRighDep_punct: true, übernehmen_Mittelfeld_hasRighDep_nmod: true, übernehmen_Regie_hasRighDep_dobj: true, übernehmen_hasRighDep_dobj: true, übernehmen_hasRighDep_nmod: true, übernehmen_hasRighDep_punct: true, 
+B0IsInLexic: true, B0Token: machen, B0_LastThreeLetters: hen, B0_LastTwoLetters: en, S0B0Token: prima_machen, S0B1Token: prima_., S0Token: prima, S0_LastThreeLetters: ima, S0_LastTwoLetters: ma, S1B0Token: kam_schluss_machen, S1S0B0Token: kam_schluss_prima_machen, S1S0Token: kam_schluss_prima, S1Token: kam_schluss, prima_isGouvernedBy_machen: true, prima_isGouvernedBy_machen_advmod: true, 
 
-33- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [die, Regie, im ,.. ]
+31- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [machen, . ,.. ]
 
-B0IsInLexic: true, B0Token: die, B0_LastThreeLetters: die, B0_LastTwoLetters: ie, S0B0Token: Kaká_die, S0B1Token: Kaká_Regie, S0B2Token: Kaká_im, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0IsInLexic: true, B0Token: machen, B0_LastThreeLetters: hen, B0_LastTwoLetters: en, S0B0Token: kam_schluss_machen, S0B1Token: kam_schluss_., S0Token: kam_schluss, 
 
-34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, die]   B= [Regie, im, Mittelfeld ,.. ]
+32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]  machen]   B= [.]
 
-B0Token: Regie, B0_LastThreeLetters: gie, B0_LastTwoLetters: ie, S0B0Token: die_Regie, S0B1Token: die_im, S0B2Token: die_Mittelfeld, S0IsInLexic: true, S0S1Distance: 8, S0Token: die, S0_LastThreeLetters: die, S0_LastTwoLetters: ie, S1B0Token: Kaká_Regie, S1S0B0Token: Kaká_die_Regie, S1S0Token: Kaká_die, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, der_isGouvernedBy_Regie: true, der_isGouvernedBy_Regie_det: true, 
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: machen_., S0IsInLexic: true, S0Token: machen, S0_LastThreeLetters: hen, S0_LastTwoLetters: en, S1B0Token: kam_schluss_., S1S0B0Token: kam_schluss_machen_., S1S0Token: kam_schluss_machen, S1Token: kam_schluss, 
 
-35- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [Regie, im, Mittelfeld ,.. ]
+33- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [.]
 
-B0Token: Regie, B0_LastThreeLetters: gie, B0_LastTwoLetters: ie, S0B0Token: Kaká_Regie, S0B1Token: Kaká_im, S0B2Token: Kaká_Mittelfeld, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: kam_schluss_., S0Token: kam_schluss, 
 
-36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, Regie]   B= [im, Mittelfeld, , ,.. ]
+34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]  .]   B= [ ]
 
-B0IsInLexic: true, B0Token: im, B0_LastThreeLetters: im, B0_LastTwoLetters: im, S0B0Token: Regie_im, S0B1Token: Regie_Mittelfeld, S0B2Token: Regie_,, S0S1Distance: 9, S0Token: Regie, S0_LastThreeLetters: gie, S0_LastTwoLetters: ie, S1B0Token: Kaká_im, S1S0B0Token: Kaká_Regie_im, S1S0Token: Kaká_Regie, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
+S0Token: ., S0_LastThreeLetters: ., S0_LastTwoLetters: ., S1S0Token: kam_schluss_., S1Token: kam_schluss, 
 
-37- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [im, Mittelfeld, , ,.. ]
+35- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kam, schluss]]   B= [ ]
 
-B0IsInLexic: true, B0Token: im, B0_LastThreeLetters: im, B0_LastTwoLetters: im, S0B0Token: Kaká_im, S0B1Token: Kaká_Mittelfeld, S0B2Token: Kaká_,, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
 
-38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, im]   B= [Mittelfeld, ,, brachte ,.. ]
 
-B0Token: Mittelfeld, B0_LastThreeLetters: eld, B0_LastTwoLetters: ld, S0B0Token: im_Mittelfeld, S0B1Token: im_,, S0B2Token: im_brachte, S0IsInLexic: true, S0S1Distance: 10, S0Token: im, S0_LastThreeLetters: im, S0_LastTwoLetters: im, S1B0Token: Kaká_Mittelfeld, S1S0B0Token: Kaká_im_Mittelfeld, S1S0Token: Kaká_im, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, in+der_isGouvernedBy_Mittelfeld: true, in+der_isGouvernedBy_Mittelfeld_case: true, 
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-39- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [Mittelfeld, ,, brachte ,.. ]
-
-B0Token: Mittelfeld, B0_LastThreeLetters: eld, B0_LastTwoLetters: ld, S0B0Token: Kaká_Mittelfeld, S0B1Token: Kaká_,, S0B2Token: Kaká_brachte, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
-
-40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, Mittelfeld]   B= [,, brachte, das ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: Mittelfeld_,, S0B1Token: Mittelfeld_brachte, S0B2Token: Mittelfeld_das, S0S1Distance: 11, S0Token: Mittelfeld, S0_LastThreeLetters: eld, S0_LastTwoLetters: ld, S1B0Token: Kaká_,, S1S0B0Token: Kaká_Mittelfeld_,, S1S0Token: Kaká_Mittelfeld, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
-
-41- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [,, brachte, das ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: Kaká_,, S0B1Token: Kaká_brachte, S0B2Token: Kaká_das, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
-
-42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, ,]   B= [brachte, das, bis ,.. ]
-
-B0IsInLexic: true, B0Token: brachte, B0_LastThreeLetters: hte, B0_LastTwoLetters: te, S0B0Token: ,_brachte, S0B1Token: ,_das, S0B2Token: ,_bis, S0S1Distance: 12, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, S1B0Token: Kaká_brachte, S1S0B0Token: Kaká_,_brachte, S1S0Token: Kaká_,, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
-
-43- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [brachte, das, bis ,.. ]
-
-B0IsInLexic: true, B0Token: brachte, B0_LastThreeLetters: hte, B0_LastTwoLetters: te, S0B0Token: Kaká_brachte, S0B1Token: Kaká_das, S0B2Token: Kaká_bis, S0Token: Kaká, S0_LastThreeLetters: ká, S0_LastTwoLetters: á, 
-
-44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte]   B= [das, bis, dahin ,.. ]
-
-B0IsInLexic: true, B0Token: das, B0_LastThreeLetters: das, B0_LastTwoLetters: as, S0B0Token: brachte_das, S0B1Token: brachte_bis, S0B2Token: brachte_dahin, S0IsInLexic: true, S0S1Distance: 13, S0Token: brachte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, S1B0Token: Kaká_das, S1S0B0Token: Kaká_brachte_das, S1S0Token: Kaká_brachte, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, bringen_Real_hasRighDep_nmod: true, bringen_Spiel_hasRighDep_nmod: true, bringen_der_hasRighDep_dobj: true, bringen_hasRighDep_dobj: true, bringen_hasRighDep_nmod: true, hasRighDep_dobj: true, hasRighDep_nmod: true, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte, das]   B= [bis, dahin, unterlegene ,.. ]
-
-B0IsInLexic: true, B0Token: bis, B0_LastThreeLetters: bis, B0_LastTwoLetters: is, S0B0Token: das_bis, S0B1Token: das_dahin, S0B2Token: das_unterlegene, S0IsInLexic: true, S0S1Distance: 1, S0Token: das, S0_LastThreeLetters: das, S0_LastTwoLetters: as, S1B0Token: brachte_bis, S1IsInLexic: true, S1S0B0Token: brachte_das_bis, S1S0Token: brachte_das, S1Token: brachte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, SyntaxicRelation: +dobj, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte]   B= [bis, dahin, unterlegene ,.. ]
-
-B0IsInLexic: true, B0Token: bis, B0_LastThreeLetters: bis, B0_LastTwoLetters: is, S0B0Token: brachte_bis, S0B1Token: brachte_dahin, S0B2Token: brachte_unterlegene, S0IsInLexic: true, S0S1Distance: 13, S0Token: brachte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, S1B0Token: Kaká_bis, S1S0B0Token: Kaká_brachte_bis, S1S0Token: Kaká_brachte, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, bringen_Real_hasRighDep_nmod: true, bringen_Spiel_hasRighDep_nmod: true, bringen_hasRighDep_nmod: true, hasRighDep_nmod: true, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte, bis]   B= [dahin, unterlegene, Real ,.. ]
-
-B0Token: dahin, B0_LastThreeLetters: hin, B0_LastTwoLetters: in, S0B0Token: bis_dahin, S0B1Token: bis_unterlegene, S0B2Token: bis_Real, S0IsInLexic: true, S0S1Distance: 2, S0Token: bis, S0_LastThreeLetters: bis, S0_LastTwoLetters: is, S1B0Token: brachte_dahin, S1IsInLexic: true, S1S0B0Token: brachte_bis_dahin, S1S0Token: brachte_bis, S1Token: brachte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, bis_isGouvernedBy_dahin: true, bis_isGouvernedBy_dahin_case: true, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte]   B= [dahin, unterlegene, Real ,.. ]
-
-B0Token: dahin, B0_LastThreeLetters: hin, B0_LastTwoLetters: in, S0B0Token: brachte_dahin, S0B1Token: brachte_unterlegene, S0B2Token: brachte_Real, S0IsInLexic: true, S0S1Distance: 13, S0Token: brachte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, S1B0Token: Kaká_dahin, S1S0B0Token: Kaká_brachte_dahin, S1S0Token: Kaká_brachte, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, bringen_Real_hasRighDep_nmod: true, bringen_Spiel_hasRighDep_nmod: true, bringen_hasRighDep_nmod: true, hasRighDep_nmod: true, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte, dahin]   B= [unterlegene, Real, ins ,.. ]
-
-B0Token: unterlegene, B0_LastThreeLetters: ene, B0_LastTwoLetters: ne, S0B0Token: dahin_unterlegene, S0B1Token: dahin_Real, S0B2Token: dahin_ins, S0S1Distance: 3, S0Token: dahin, S0_LastThreeLetters: hin, S0_LastTwoLetters: in, S1B0Token: brachte_unterlegene, S1IsInLexic: true, S1S0B0Token: brachte_dahin_unterlegene, S1S0Token: brachte_dahin, S1Token: brachte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, dahin_isGouvernedBy_unterlegen: true, dahin_isGouvernedBy_unterlegen_advmod: true, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte]   B= [unterlegene, Real, ins ,.. ]
-
-B0Token: unterlegene, B0_LastThreeLetters: ene, B0_LastTwoLetters: ne, S0B0Token: brachte_unterlegene, S0B1Token: brachte_Real, S0B2Token: brachte_ins, S0IsInLexic: true, S0S1Distance: 13, S0Token: brachte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, S1B0Token: Kaká_unterlegene, S1S0B0Token: Kaká_brachte_unterlegene, S1S0Token: Kaká_brachte, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, bringen_Real_hasRighDep_nmod: true, bringen_Spiel_hasRighDep_nmod: true, bringen_hasRighDep_nmod: true, hasRighDep_nmod: true, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte, unterlegene]   B= [Real, ins, Spiel ,.. ]
-
-B0Token: Real, B0_LastThreeLetters: eal, B0_LastTwoLetters: al, S0B0Token: unterlegene_Real, S0B1Token: unterlegene_ins, S0B2Token: unterlegene_Spiel, S0S1Distance: 4, S0Token: unterlegene, S0_LastThreeLetters: ene, S0_LastTwoLetters: ne, S1B0Token: brachte_Real, S1IsInLexic: true, S1S0B0Token: brachte_unterlegene_Real, S1S0Token: brachte_unterlegene, S1Token: brachte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, unterlegen_isGouvernedBy_Real: true, unterlegen_isGouvernedBy_Real_amod: true, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte]   B= [Real, ins, Spiel ,.. ]
-
-B0Token: Real, B0_LastThreeLetters: eal, B0_LastTwoLetters: al, S0B0Token: brachte_Real, S0B1Token: brachte_ins, S0B2Token: brachte_Spiel, S0IsInLexic: true, S0S1Distance: 13, S0Token: brachte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, S1B0Token: Kaká_Real, S1S0B0Token: Kaká_brachte_Real, S1S0Token: Kaká_brachte, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, bringen_Real_hasRighDep_nmod: true, bringen_Spiel_hasRighDep_nmod: true, bringen_hasRighDep_nmod: true, hasRighDep_nmod: true, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte, Real]   B= [ins, Spiel, und ,.. ]
-
-B0IsInLexic: true, B0Token: ins, B0_LastThreeLetters: ins, B0_LastTwoLetters: ns, S0B0Token: Real_ins, S0B1Token: Real_Spiel, S0B2Token: Real_und, S0S1Distance: 5, S0Token: Real, S0_LastThreeLetters: eal, S0_LastTwoLetters: al, S1B0Token: brachte_ins, S1IsInLexic: true, S1S0B0Token: brachte_Real_ins, S1S0Token: brachte_Real, S1Token: brachte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, SyntaxicRelation: +nmod, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte]   B= [ins, Spiel, und ,.. ]
-
-B0IsInLexic: true, B0Token: ins, B0_LastThreeLetters: ins, B0_LastTwoLetters: ns, S0B0Token: brachte_ins, S0B1Token: brachte_Spiel, S0B2Token: brachte_und, S0IsInLexic: true, S0S1Distance: 13, S0Token: brachte, S0_LastThreeLetters: hte, S0_LastTwoLetters: te, S1B0Token: Kaká_ins, S1S0B0Token: Kaká_brachte_ins, S1S0Token: Kaká_brachte, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, bringen_Spiel_hasRighDep_nmod: true, bringen_hasRighDep_nmod: true, hasRighDep_nmod: true, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte, ins]   B= [Spiel, und, schoss ,.. ]
-
-B0IsInLexic: true, B0Token: Spiel, B0_LastThreeLetters: iel, B0_LastTwoLetters: el, S0B0Token: ins_Spiel, S0B1Token: ins_und, S0B2Token: ins_schoss, S0IsInLexic: true, S0S1Distance: 6, S0Token: ins, S0_LastThreeLetters: ins, S0_LastTwoLetters: ns, S1B0Token: brachte_Spiel, S1IsInLexic: true, S1S0B0Token: brachte_ins_Spiel, S1S0Token: brachte_ins, S1Token: brachte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, in+der_isGouvernedBy_Spiel: true, in+der_isGouvernedBy_Spiel_case: true, 
-
-56- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte, ins, Spiel]   B= [und, schoss, in ,.. ]
-
-B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: Spiel_und, S0B1Token: Spiel_schoss, S0B2Token: Spiel_in, S0IsInLexic: true, S0S1Distance: 1, S0Token: Spiel, S0_LastThreeLetters: iel, S0_LastTwoLetters: el, S1B0Token: ins_und, S1IsInLexic: true, S1S0B0Token: ins_Spiel_und, S1S0Token: ins_Spiel, S1Token: ins, S1_LastThreeLetters: ins, S1_LastTwoLetters: ns, SyntaxicRelation: -case, 
-
-57- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, brachte, [ins, Spiel]]   B= [und, schoss, in ,.. ]
-
-B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: ins_Spiel_und, S0B1Token: ins_Spiel_schoss, S0B2Token: ins_Spiel_in, S0Token: ins_Spiel, S1B0Token: brachte_und, S1IsInLexic: true, S1S0B0Token: brachte_ins_Spiel_und, S1S0Token: brachte_ins_Spiel, S1Token: brachte, S1_LastThreeLetters: hte, S1_LastTwoLetters: te, 
-
-58- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]]   B= [und, schoss, in ,.. ]
-
-B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: brachte_ins_Spiel_und, S0B1Token: brachte_ins_Spiel_schoss, S0B2Token: brachte_ins_Spiel_in, S0Token: brachte_ins_Spiel, S1B0Token: Kaká_und, S1S0B0Token: Kaká_brachte_ins_Spiel_und, S1S0Token: Kaká_brachte_ins_Spiel, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  und]   B= [schoss, in, der ,.. ]
-
-B0IsInLexic: true, B0Token: schoss, B0_LastThreeLetters: oss, B0_LastTwoLetters: ss, S0B0Token: und_schoss, S0B1Token: und_in, S0B2Token: und_der, S0IsInLexic: true, S0Token: und, S0_LastThreeLetters: und, S0_LastTwoLetters: nd, S1B0Token: brachte_ins_Spiel_schoss, S1S0B0Token: brachte_ins_Spiel_und_schoss, S1S0Token: brachte_ins_Spiel_und, S1Token: brachte_ins_Spiel, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]]   B= [schoss, in, der ,.. ]
-
-B0IsInLexic: true, B0Token: schoss, B0_LastThreeLetters: oss, B0_LastTwoLetters: ss, S0B0Token: brachte_ins_Spiel_schoss, S0B1Token: brachte_ins_Spiel_in, S0B2Token: brachte_ins_Spiel_der, S0Token: brachte_ins_Spiel, S1B0Token: Kaká_schoss, S1S0B0Token: Kaká_brachte_ins_Spiel_schoss, S1S0Token: Kaká_brachte_ins_Spiel, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  schoss]   B= [in, der, 66. ,.. ]
-
-B0IsInLexic: true, B0Token: in, B0_LastThreeLetters: in, B0_LastTwoLetters: in, S0B0Token: schoss_in, S0B1Token: schoss_der, S0B2Token: schoss_66., S0IsInLexic: true, S0Token: schoss, S0_LastThreeLetters: oss, S0_LastTwoLetters: ss, S1B0Token: brachte_ins_Spiel_in, S1S0B0Token: brachte_ins_Spiel_schoss_in, S1S0Token: brachte_ins_Spiel_schoss, S1Token: brachte_ins_Spiel, hasRighDep_nmod: true, hasRighDep_nsubj: true, schießen_Ausgleichstor_hasRighDep_nsubj: true, schießen_Madrilene_hasRighDep_nmod: true, schießen_Minute_hasRighDep_nmod: true, schießen_hasRighDep_nmod: true, schießen_hasRighDep_nsubj: true, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]]   B= [in, der, 66. ,.. ]
-
-B0IsInLexic: true, B0Token: in, B0_LastThreeLetters: in, B0_LastTwoLetters: in, S0B0Token: brachte_ins_Spiel_in, S0B1Token: brachte_ins_Spiel_der, S0B2Token: brachte_ins_Spiel_66., S0Token: brachte_ins_Spiel, S1B0Token: Kaká_in, S1S0B0Token: Kaká_brachte_ins_Spiel_in, S1S0Token: Kaká_brachte_ins_Spiel, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  in]   B= [der, 66., Minute ,.. ]
-
-B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: in_der, S0B1Token: in_66., S0B2Token: in_Minute, S0IsInLexic: true, S0Token: in, S0_LastThreeLetters: in, S0_LastTwoLetters: in, S1B0Token: brachte_ins_Spiel_der, S1S0B0Token: brachte_ins_Spiel_in_der, S1S0Token: brachte_ins_Spiel_in, S1Token: brachte_ins_Spiel, in_isGouvernedBy_Minute: true, in_isGouvernedBy_Minute_case: true, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]]   B= [der, 66., Minute ,.. ]
-
-B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: brachte_ins_Spiel_der, S0B1Token: brachte_ins_Spiel_66., S0B2Token: brachte_ins_Spiel_Minute, S0Token: brachte_ins_Spiel, S1B0Token: Kaká_der, S1S0B0Token: Kaká_brachte_ins_Spiel_der, S1S0Token: Kaká_brachte_ins_Spiel, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  der]   B= [66., Minute, das ,.. ]
-
-B0Token: 66., B0_LastThreeLetters: 66., B0_LastTwoLetters: 6., S0B0Token: der_66., S0B1Token: der_Minute, S0B2Token: der_das, S0IsInLexic: true, S0Token: der, S0_LastThreeLetters: der, S0_LastTwoLetters: er, S1B0Token: brachte_ins_Spiel_66., S1S0B0Token: brachte_ins_Spiel_der_66., S1S0Token: brachte_ins_Spiel_der, S1Token: brachte_ins_Spiel, der_isGouvernedBy_Minute: true, der_isGouvernedBy_Minute_det: true, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]]   B= [66., Minute, das ,.. ]
-
-B0Token: 66., B0_LastThreeLetters: 66., B0_LastTwoLetters: 6., S0B0Token: brachte_ins_Spiel_66., S0B1Token: brachte_ins_Spiel_Minute, S0B2Token: brachte_ins_Spiel_das, S0Token: brachte_ins_Spiel, S1B0Token: Kaká_66., S1S0B0Token: Kaká_brachte_ins_Spiel_66., S1S0Token: Kaká_brachte_ins_Spiel, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66.]   B= [Minute, das, Ausgleichstor ,.. ]
-
-66_isGouvernedBy_Minute: true, 66_isGouvernedBy_Minute_nummod: true, B0Token: Minute, B0_LastThreeLetters: ute, B0_LastTwoLetters: te, S0B0Token: 66._Minute, S0B1Token: 66._das, S0B2Token: 66._Ausgleichstor, S0Token: 66., S0_LastThreeLetters: 66., S0_LastTwoLetters: 6., S1B0Token: brachte_ins_Spiel_Minute, S1S0B0Token: brachte_ins_Spiel_66._Minute, S1S0Token: brachte_ins_Spiel_66., S1Token: brachte_ins_Spiel, 
-
-68- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66., Minute]   B= [das, Ausgleichstor, für ,.. ]
-
-B0IsInLexic: true, B0Token: das, B0_LastThreeLetters: das, B0_LastTwoLetters: as, S0B0Token: Minute_das, S0B1Token: Minute_Ausgleichstor, S0B2Token: Minute_für, S0S1Distance: 1, S0Token: Minute, S0_LastThreeLetters: ute, S0_LastTwoLetters: te, S1B0Token: 66._das, S1S0B0Token: 66._Minute_das, S1S0Token: 66._Minute, S1Token: 66., S1_LastThreeLetters: 66., S1_LastTwoLetters: 6., SyntaxicRelation: -nummod, 
-
-69- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66.]   B= [das, Ausgleichstor, für ,.. ]
-
-B0IsInLexic: true, B0Token: das, B0_LastThreeLetters: das, B0_LastTwoLetters: as, S0B0Token: 66._das, S0B1Token: 66._Ausgleichstor, S0B2Token: 66._für, S0Token: 66., S0_LastThreeLetters: 66., S0_LastTwoLetters: 6., S1B0Token: brachte_ins_Spiel_das, S1S0B0Token: brachte_ins_Spiel_66._das, S1S0Token: brachte_ins_Spiel_66., S1Token: brachte_ins_Spiel, 
-
-70- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66., das]   B= [Ausgleichstor, für, die ,.. ]
-
-B0Token: Ausgleichstor, B0_LastThreeLetters: tor, B0_LastTwoLetters: or, S0B0Token: das_Ausgleichstor, S0B1Token: das_für, S0B2Token: das_die, S0IsInLexic: true, S0S1Distance: 2, S0Token: das, S0_LastThreeLetters: das, S0_LastTwoLetters: as, S1B0Token: 66._Ausgleichstor, S1S0B0Token: 66._das_Ausgleichstor, S1S0Token: 66._das, S1Token: 66., S1_LastThreeLetters: 66., S1_LastTwoLetters: 6., der_isGouvernedBy_Ausgleichstor: true, der_isGouvernedBy_Ausgleichstor_det: true, 
-
-71- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66.]   B= [Ausgleichstor, für, die ,.. ]
-
-B0Token: Ausgleichstor, B0_LastThreeLetters: tor, B0_LastTwoLetters: or, S0B0Token: 66._Ausgleichstor, S0B1Token: 66._für, S0B2Token: 66._die, S0Token: 66., S0_LastThreeLetters: 66., S0_LastTwoLetters: 6., S1B0Token: brachte_ins_Spiel_Ausgleichstor, S1S0B0Token: brachte_ins_Spiel_66._Ausgleichstor, S1S0Token: brachte_ins_Spiel_66., S1Token: brachte_ins_Spiel, 
-
-72- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66., Ausgleichstor]   B= [für, die, Madrilenen ,.. ]
-
-B0IsInLexic: true, B0Token: für, B0_LastThreeLetters: ür, B0_LastTwoLetters: �r, S0B0Token: Ausgleichstor_für, S0B1Token: Ausgleichstor_die, S0B2Token: Ausgleichstor_Madrilenen, S0S1Distance: 3, S0Token: Ausgleichstor, S0_LastThreeLetters: tor, S0_LastTwoLetters: or, S1B0Token: 66._für, S1S0B0Token: 66._Ausgleichstor_für, S1S0Token: 66._Ausgleichstor, S1Token: 66., S1_LastThreeLetters: 66., S1_LastTwoLetters: 6., 
-
-73- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66.]   B= [für, die, Madrilenen ,.. ]
-
-B0IsInLexic: true, B0Token: für, B0_LastThreeLetters: ür, B0_LastTwoLetters: �r, S0B0Token: 66._für, S0B1Token: 66._die, S0B2Token: 66._Madrilenen, S0Token: 66., S0_LastThreeLetters: 66., S0_LastTwoLetters: 6., S1B0Token: brachte_ins_Spiel_für, S1S0B0Token: brachte_ins_Spiel_66._für, S1S0Token: brachte_ins_Spiel_66., S1Token: brachte_ins_Spiel, 
-
-74- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66., für]   B= [die, Madrilenen, . ,.. ]
-
-B0IsInLexic: true, B0Token: die, B0_LastThreeLetters: die, B0_LastTwoLetters: ie, S0B0Token: für_die, S0B1Token: für_Madrilenen, S0B2Token: für_., S0IsInLexic: true, S0S1Distance: 4, S0Token: für, S0_LastThreeLetters: ür, S0_LastTwoLetters: �r, S1B0Token: 66._die, S1S0B0Token: 66._für_die, S1S0Token: 66._für, S1Token: 66., S1_LastThreeLetters: 66., S1_LastTwoLetters: 6., für_isGouvernedBy_Madrilene: true, für_isGouvernedBy_Madrilene_case: true, 
-
-75- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66.]   B= [die, Madrilenen, . ,.. ]
-
-B0IsInLexic: true, B0Token: die, B0_LastThreeLetters: die, B0_LastTwoLetters: ie, S0B0Token: 66._die, S0B1Token: 66._Madrilenen, S0B2Token: 66._., S0Token: 66., S0_LastThreeLetters: 66., S0_LastTwoLetters: 6., S1B0Token: brachte_ins_Spiel_die, S1S0B0Token: brachte_ins_Spiel_66._die, S1S0Token: brachte_ins_Spiel_66., S1Token: brachte_ins_Spiel, 
-
-76- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66., die]   B= [Madrilenen, . ,.. ]
-
-B0Token: Madrilenen, B0_LastThreeLetters: nen, B0_LastTwoLetters: en, S0B0Token: die_Madrilenen, S0B1Token: die_., S0IsInLexic: true, S0S1Distance: 5, S0Token: die, S0_LastThreeLetters: die, S0_LastTwoLetters: ie, S1B0Token: 66._Madrilenen, S1S0B0Token: 66._die_Madrilenen, S1S0Token: 66._die, S1Token: 66., S1_LastThreeLetters: 66., S1_LastTwoLetters: 6., der_isGouvernedBy_Madrilene: true, der_isGouvernedBy_Madrilene_det: true, 
-
-77- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66.]   B= [Madrilenen, . ,.. ]
-
-B0Token: Madrilenen, B0_LastThreeLetters: nen, B0_LastTwoLetters: en, S0B0Token: 66._Madrilenen, S0B1Token: 66._., S0Token: 66., S0_LastThreeLetters: 66., S0_LastTwoLetters: 6., S1B0Token: brachte_ins_Spiel_Madrilenen, S1S0B0Token: brachte_ins_Spiel_66._Madrilenen, S1S0Token: brachte_ins_Spiel_66., S1Token: brachte_ins_Spiel, 
-
-78- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66., Madrilenen]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: Madrilenen_., S0S1Distance: 6, S0Token: Madrilenen, S0_LastThreeLetters: nen, S0_LastTwoLetters: en, S1B0Token: 66._., S1S0B0Token: 66._Madrilenen_., S1S0Token: 66._Madrilenen, S1Token: 66., S1_LastThreeLetters: 66., S1_LastTwoLetters: 6., 
-
-79- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66.]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: 66._., S0Token: 66., S0_LastThreeLetters: 66., S0_LastTwoLetters: 6., S1B0Token: brachte_ins_Spiel_., S1S0B0Token: brachte_ins_Spiel_66._., S1S0Token: brachte_ins_Spiel_66., S1Token: brachte_ins_Spiel, 
-
-80- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66., .]   B= [ ]
-
-S0S1Distance: 7, S0Token: ., S0_LastThreeLetters: ., S0_LastTwoLetters: ., S1S0Token: 66._., S1Token: 66., S1_LastThreeLetters: 66., S1_LastTwoLetters: 6., 
-
-81- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]  66.]   B= [ ]
-
-S0Token: 66., S0_LastThreeLetters: 66., S0_LastTwoLetters: 6., S1S0Token: brachte_ins_Spiel_66., S1Token: brachte_ins_Spiel, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká, [brachte, [ins, Spiel]]]   B= [ ]
-
-S0Token: brachte_ins_Spiel, S1S0Token: Kaká_brachte_ins_Spiel, S1Token: Kaká, S1_LastThreeLetters: ká, S1_LastTwoLetters: á, 
-
-83- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kaká]   B= [ ]
-
-
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 4780 - 
-" Das Gebet bewahrt zwar nicht vor Schmerzen oder Operationen , aber es bewahrt vor Verzweiflung und Resignation und spendet Kraft " , konstatierte der Geistliche . 
+## Sentence No. 3090 - 
+er habe celeste für einige gefälligkeiten einen senatorenposten in rom angeboten , behaupten die ermittler . 
 ### Existing MWEs: 
-1- **spendet Kraft** (LVC)
+1- **angeboten** (VPC, 11)
+### Identified MWEs: 
+1- **angeboten** 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", Das, Gebet ,.. ]
 
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [er, habe, celeste ,.. ]
 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [Das, Gebet, bewahrt ,.. ]
 
-"_isGouvernedBy_Gebet: true, "_isGouvernedBy_Gebet_punct: true, B0Token: Das, B0_LastThreeLetters: Das, B0_LastTwoLetters: as, S0B0Token: "_Das, S0B1Token: "_Gebet, S0B2Token: "_bewahrt, S0Token: ", S0_LastThreeLetters: ", S0_LastTwoLetters: ", 
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [er]   B= [habe, celeste, für ,.. ]
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Das, Gebet, bewahrt ,.. ]
+B0IsInLexic: true, B0Token: habe, B0_LastThreeLetters: abe, B0_LastTwoLetters: be, S0B0Token: er_habe, S0B1Token: er_celeste, S0B2Token: er_für, S0Token: er, S0_LastThreeLetters: er, S0_LastTwoLetters: er, er_isGouvernedBy_anbieten: true, er_isGouvernedBy_anbieten_nsubj: true, 
 
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [habe, celeste, für ,.. ]
 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Das]   B= [Gebet, bewahrt, zwar ,.. ]
 
-B0Token: Gebet, B0_LastThreeLetters: bet, B0_LastTwoLetters: et, S0B0Token: Das_Gebet, S0B1Token: Das_bewahrt, S0B2Token: Das_zwar, S0Token: Das, S0_LastThreeLetters: Das, S0_LastTwoLetters: as, d_isGouvernedBy_Gebet: true, d_isGouvernedBy_Gebet_name: true, 
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [habe]   B= [celeste, für, einige ,.. ]
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gebet, bewahrt, zwar ,.. ]
+B0Token: celeste, B0_LastThreeLetters: ste, B0_LastTwoLetters: te, S0B0Token: habe_celeste, S0B1Token: habe_für, S0B2Token: habe_einige, S0IsInLexic: true, S0Token: habe, S0_LastThreeLetters: abe, S0_LastTwoLetters: be, haben_isGouvernedBy_anbieten: true, haben_isGouvernedBy_anbieten_aux: true, 
 
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [celeste, für, einige ,.. ]
 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gebet]   B= [bewahrt, zwar, nicht ,.. ]
 
-B0Token: bewahrt, B0_LastThreeLetters: hrt, B0_LastTwoLetters: rt, Gebet_isGouvernedBy_bewahren: true, Gebet_isGouvernedBy_bewahren_iobj: true, S0B0Token: Gebet_bewahrt, S0B1Token: Gebet_zwar, S0B2Token: Gebet_nicht, S0Token: Gebet, S0_LastThreeLetters: bet, S0_LastTwoLetters: et, 
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [celeste]   B= [für, einige, gefälligkeiten ,.. ]
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bewahrt, zwar, nicht ,.. ]
+B0IsInLexic: true, B0Token: für, B0_LastThreeLetters: ür, B0_LastTwoLetters: �r, Celest_Senatorenpost_hasRighDep_conj: true, Celest_hasRighDep_conj: true, Celest_isGouvernedBy_anbieten: true, Celest_isGouvernedBy_anbieten_dobj: true, S0B0Token: celeste_für, S0B1Token: celeste_einige, S0B2Token: celeste_gefälligkeiten, S0Token: celeste, S0_LastThreeLetters: ste, S0_LastTwoLetters: te, hasRighDep_conj: true, 
 
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [für, einige, gefälligkeiten ,.. ]
 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bewahrt]   B= [zwar, nicht, vor ,.. ]
 
-B0Token: zwar, B0_LastThreeLetters: war, B0_LastTwoLetters: ar, S0B0Token: bewahrt_zwar, S0B1Token: bewahrt_nicht, S0B2Token: bewahrt_vor, S0Token: bewahrt, S0_LastThreeLetters: hrt, S0_LastTwoLetters: rt, 
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [für]   B= [einige, gefälligkeiten, einen ,.. ]
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zwar, nicht, vor ,.. ]
+B0Token: einige, B0_LastThreeLetters: ige, B0_LastTwoLetters: ge, S0B0Token: für_einige, S0B1Token: für_gefälligkeiten, S0B2Token: für_einen, S0IsInLexic: true, S0Token: für, S0_LastThreeLetters: ür, S0_LastTwoLetters: �r, für_isGouvernedBy_Gefälligkeit: true, für_isGouvernedBy_Gefälligkeit_case: true, 
 
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [einige, gefälligkeiten, einen ,.. ]
 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zwar]   B= [nicht, vor, Schmerzen ,.. ]
 
-B0IsInLexic: true, B0Token: nicht, B0_LastThreeLetters: cht, B0_LastTwoLetters: ht, S0B0Token: zwar_nicht, S0B1Token: zwar_vor, S0B2Token: zwar_Schmerzen, S0Token: zwar, S0_LastThreeLetters: war, S0_LastTwoLetters: ar, 
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [einige]   B= [gefälligkeiten, einen, senatorenposten ,.. ]
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nicht, vor, Schmerzen ,.. ]
+B0Token: gefälligkeiten, B0_LastThreeLetters: ten, B0_LastTwoLetters: en, S0B0Token: einige_gefälligkeiten, S0B1Token: einige_einen, S0B2Token: einige_senatorenposten, S0Token: einige, S0_LastThreeLetters: ige, S0_LastTwoLetters: ge, einige_isGouvernedBy_Gefälligkeit: true, einige_isGouvernedBy_Gefälligkeit_det: true, 
 
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gefälligkeiten, einen, senatorenposten ,.. ]
 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nicht]   B= [vor, Schmerzen, oder ,.. ]
 
-B0IsInLexic: true, B0Token: vor, B0_LastThreeLetters: vor, B0_LastTwoLetters: or, S0B0Token: nicht_vor, S0B1Token: nicht_Schmerzen, S0B2Token: nicht_oder, S0IsInLexic: true, S0Token: nicht, S0_LastThreeLetters: cht, S0_LastTwoLetters: ht, 
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gefälligkeiten]   B= [einen, senatorenposten, in ,.. ]
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vor, Schmerzen, oder ,.. ]
+B0IsInLexic: true, B0Token: einen, B0_LastThreeLetters: nen, B0_LastTwoLetters: en, Gefälligkeit_isGouvernedBy_Senatorenpost: true, Gefälligkeit_isGouvernedBy_Senatorenpost_nmod: true, S0B0Token: gefälligkeiten_einen, S0B1Token: gefälligkeiten_senatorenposten, S0B2Token: gefälligkeiten_in, S0Token: gefälligkeiten, S0_LastThreeLetters: ten, S0_LastTwoLetters: en, 
 
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [einen, senatorenposten, in ,.. ]
 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vor]   B= [Schmerzen, oder, Operationen ,.. ]
 
-B0IsInLexic: true, B0Token: Schmerzen, B0_LastThreeLetters: zen, B0_LastTwoLetters: en, S0B0Token: vor_Schmerzen, S0B1Token: vor_oder, S0B2Token: vor_Operationen, S0IsInLexic: true, S0Token: vor, S0_LastThreeLetters: vor, S0_LastTwoLetters: or, vor_isGouvernedBy_Schmerz: true, vor_isGouvernedBy_Schmerz_case: true, 
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [einen]   B= [senatorenposten, in, rom ,.. ]
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Schmerzen, oder, Operationen ,.. ]
+B0Token: senatorenposten, B0_LastThreeLetters: ten, B0_LastTwoLetters: en, S0B0Token: einen_senatorenposten, S0B1Token: einen_in, S0B2Token: einen_rom, S0IsInLexic: true, S0Token: einen, S0_LastThreeLetters: nen, S0_LastTwoLetters: en, ein_isGouvernedBy_Senatorenpost: true, ein_isGouvernedBy_Senatorenpost_det: true, 
 
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [senatorenposten, in, rom ,.. ]
 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Schmerzen]   B= [oder, Operationen, , ,.. ]
 
-B0Token: oder, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: Schmerzen_oder, S0B1Token: Schmerzen_Operationen, S0B2Token: Schmerzen_,, S0IsInLexic: true, S0Token: Schmerzen, S0_LastThreeLetters: zen, S0_LastTwoLetters: en, Schmerz_Operation_hasRighDep_conj: true, Schmerz_hasRighDep_cc: true, Schmerz_hasRighDep_conj: true, Schmerz_oder_hasRighDep_cc: true, hasRighDep_cc: true, hasRighDep_conj: true, 
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [senatorenposten]   B= [in, rom, angeboten ,.. ]
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [oder, Operationen, , ,.. ]
+B0IsInLexic: true, B0Token: in, B0_LastThreeLetters: in, B0_LastTwoLetters: in, S0B0Token: senatorenposten_in, S0B1Token: senatorenposten_rom, S0B2Token: senatorenposten_angeboten, S0Token: senatorenposten, S0_LastThreeLetters: ten, S0_LastTwoLetters: en, Senatorenpost_Rom_hasRighDep_nmod: true, Senatorenpost_hasRighDep_nmod: true, hasRighDep_nmod: true, 
 
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, rom, angeboten ,.. ]
 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [oder]   B= [Operationen, ,, aber ,.. ]
 
-B0Token: Operationen, B0_LastThreeLetters: nen, B0_LastTwoLetters: en, S0B0Token: oder_Operationen, S0B1Token: oder_,, S0B2Token: oder_aber, S0Token: oder, S0_LastThreeLetters: der, S0_LastTwoLetters: er, 
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [rom, angeboten, , ,.. ]
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Operationen, ,, aber ,.. ]
+B0Token: rom, B0_LastThreeLetters: rom, B0_LastTwoLetters: om, S0B0Token: in_rom, S0B1Token: in_angeboten, S0B2Token: in_,, S0IsInLexic: true, S0Token: in, S0_LastThreeLetters: in, S0_LastTwoLetters: in, in_isGouvernedBy_Rom: true, in_isGouvernedBy_Rom_case: true, 
 
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rom, angeboten, , ,.. ]
 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Operationen]   B= [,, aber, es ,.. ]
 
-B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: Operationen_,, S0B1Token: Operationen_aber, S0B2Token: Operationen_es, S0Token: Operationen, S0_LastThreeLetters: nen, S0_LastTwoLetters: en, 
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rom]   B= [angeboten, ,, behaupten ,.. ]
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, aber, es ,.. ]
+B0IsInLexic: true, B0Token: angeboten, B0_LastThreeLetters: ten, B0_LastTwoLetters: en, S0B0Token: rom_angeboten, S0B1Token: rom_,, S0B2Token: rom_behaupten, S0Token: rom, S0_LastThreeLetters: rom, S0_LastTwoLetters: om, 
 
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [angeboten, ,, behaupten ,.. ]
 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [aber, es, bewahrt ,.. ]
 
-B0Token: aber, B0_LastThreeLetters: ber, B0_LastTwoLetters: er, S0B0Token: ,_aber, S0B1Token: ,_es, S0B2Token: ,_bewahrt, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, 
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [angeboten]   B= [,, behaupten, die ,.. ]
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aber, es, bewahrt ,.. ]
+B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: angeboten_,, S0B1Token: angeboten_behaupten, S0B2Token: angeboten_die, S0IsInLexic: true, S0Token: angeboten, S0_LastThreeLetters: ten, S0_LastTwoLetters: en, 
 
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, behaupten, die ,.. ]
 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aber]   B= [es, bewahrt, vor ,.. ]
 
-B0IsInLexic: true, B0Token: es, B0_LastThreeLetters: es, B0_LastTwoLetters: es, S0B0Token: aber_es, S0B1Token: aber_bewahrt, S0B2Token: aber_vor, S0Token: aber, S0_LastThreeLetters: ber, S0_LastTwoLetters: er, 
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [behaupten, die, ermittler ,.. ]
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [es, bewahrt, vor ,.. ]
+B0Token: behaupten, B0_LastThreeLetters: ten, B0_LastTwoLetters: en, S0B0Token: ,_behaupten, S0B1Token: ,_die, S0B2Token: ,_ermittler, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, 
 
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [behaupten, die, ermittler ,.. ]
 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [es]   B= [bewahrt, vor, Verzweiflung ,.. ]
 
-B0Token: bewahrt, B0_LastThreeLetters: hrt, B0_LastTwoLetters: rt, S0B0Token: es_bewahrt, S0B1Token: es_vor, S0B2Token: es_Verzweiflung, S0IsInLexic: true, S0Token: es, S0_LastThreeLetters: es, S0_LastTwoLetters: es, es_isGouvernedBy_bewahren: true, es_isGouvernedBy_bewahren_nsubj: true, 
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [behaupten]   B= [die, ermittler, . ,.. ]
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bewahrt, vor, Verzweiflung ,.. ]
+B0IsInLexic: true, B0Token: die, B0_LastThreeLetters: die, B0_LastTwoLetters: ie, S0B0Token: behaupten_die, S0B1Token: behaupten_ermittler, S0B2Token: behaupten_., S0Token: behaupten, S0_LastThreeLetters: ten, S0_LastTwoLetters: en, behaupen_Ermittler_hasRighDep_nmod: true, behaupen_hasRighDep_nmod: true, hasRighDep_nmod: true, 
 
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [die, ermittler, . ,.. ]
 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bewahrt]   B= [vor, Verzweiflung, und ,.. ]
 
-B0IsInLexic: true, B0Token: vor, B0_LastThreeLetters: vor, B0_LastTwoLetters: or, S0B0Token: bewahrt_vor, S0B1Token: bewahrt_Verzweiflung, S0B2Token: bewahrt_und, S0Token: bewahrt, S0_LastThreeLetters: hrt, S0_LastTwoLetters: rt, bewahren_Verzweiflung_hasRighDep_nmod: true, bewahren_hasRighDep_nmod: true, hasRighDep_nmod: true, 
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [die]   B= [ermittler, . ,.. ]
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vor, Verzweiflung, und ,.. ]
+B0Token: ermittler, B0_LastThreeLetters: ler, B0_LastTwoLetters: er, S0B0Token: die_ermittler, S0B1Token: die_., S0IsInLexic: true, S0Token: die, S0_LastThreeLetters: die, S0_LastTwoLetters: ie, der_isGouvernedBy_Ermittler: true, der_isGouvernedBy_Ermittler_det: true, 
 
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ermittler, . ,.. ]
 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vor]   B= [Verzweiflung, und, Resignation ,.. ]
 
-B0IsInLexic: true, B0Token: Verzweiflung, B0_LastThreeLetters: ung, B0_LastTwoLetters: ng, S0B0Token: vor_Verzweiflung, S0B1Token: vor_und, S0B2Token: vor_Resignation, S0IsInLexic: true, S0Token: vor, S0_LastThreeLetters: vor, S0_LastTwoLetters: or, vor_isGouvernedBy_Verzweiflung: true, vor_isGouvernedBy_Verzweiflung_case: true, 
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ermittler]   B= [.]
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Verzweiflung, und, Resignation ,.. ]
+B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: ermittler_., S0Token: ermittler, S0_LastThreeLetters: ler, S0_LastTwoLetters: er, 
 
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Verzweiflung]   B= [und, Resignation, und ,.. ]
 
-B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: Verzweiflung_und, S0B1Token: Verzweiflung_Resignation, S0B2Token: Verzweiflung_und, S0IsInLexic: true, S0Token: Verzweiflung, S0_LastThreeLetters: ung, S0_LastTwoLetters: ng, Verzweiflung_Resignation_hasRighDep_conj: true, Verzweiflung_hasRighDep_cc: true, Verzweiflung_hasRighDep_conj: true, Verzweiflung_und_hasRighDep_cc: true, hasRighDep_cc: true, hasRighDep_conj: true, 
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [und, Resignation, und ,.. ]
 
 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [und]   B= [Resignation, und, spendet ,.. ]
-
-B0Token: Resignation, B0_LastThreeLetters: ion, B0_LastTwoLetters: on, S0B0Token: und_Resignation, S0B1Token: und_und, S0B2Token: und_spendet, S0IsInLexic: true, S0Token: und, S0_LastThreeLetters: und, S0_LastTwoLetters: nd, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Resignation, und, spendet ,.. ]
-
-
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Resignation]   B= [und, spendet, Kraft ,.. ]
-
-B0IsInLexic: true, B0Token: und, B0_LastThreeLetters: und, B0_LastTwoLetters: nd, S0B0Token: Resignation_und, S0B1Token: Resignation_spendet, S0B2Token: Resignation_Kraft, S0Token: Resignation, S0_LastThreeLetters: ion, S0_LastTwoLetters: on, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [und, spendet, Kraft ,.. ]
-
-
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [und]   B= [spendet, Kraft, " ,.. ]
-
-B0IsInLexic: true, B0Token: spendet, B0_LastThreeLetters: det, B0_LastTwoLetters: et, S0B0Token: und_spendet, S0B1Token: und_Kraft, S0B2Token: und_", S0IsInLexic: true, S0Token: und, S0_LastThreeLetters: und, S0_LastTwoLetters: nd, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [spendet, Kraft, " ,.. ]
-
-
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [spendet]   B= [Kraft, ", , ,.. ]
-
-B0IsInLexic: true, B0Token: Kraft, B0_LastThreeLetters: aft, B0_LastTwoLetters: ft, S0B0Token: spendet_Kraft, S0B1Token: spendet_", S0B2Token: spendet_,, S0IsInLexic: true, S0Token: spendet, S0_LastThreeLetters: det, S0_LastTwoLetters: et, hasRighDep_acl: true, hasRighDep_appos: true, spenden_Kraft_hasRighDep_appos: true, spenden_hasRighDep_acl: true, spenden_hasRighDep_appos: true, spenden_konstatieren_hasRighDep_acl: true, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kraft, ", , ,.. ]
-
-
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kraft]   B= [", ,, konstatierte ,.. ]
-
-B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", Kraft_"_hasRighDep_punct: true, Kraft_,_hasRighDep_punct: true, Kraft_hasRighDep_punct: true, S0B0Token: Kraft_", S0B1Token: Kraft_,, S0B2Token: Kraft_konstatierte, S0IsInLexic: true, S0Token: Kraft, S0_LastThreeLetters: aft, S0_LastTwoLetters: ft, hasRighDep_punct: true, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", ,, konstatierte ,.. ]
-
-
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [,, konstatierte, der ,.. ]
-
-B0Token: ,, B0_LastThreeLetters: ,, B0_LastTwoLetters: ,, S0B0Token: "_,, S0B1Token: "_konstatierte, S0B2Token: "_der, S0Token: ", S0_LastThreeLetters: ", S0_LastTwoLetters: ", 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, konstatierte, der ,.. ]
-
-
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [konstatierte, der, Geistliche ,.. ]
-
-B0Token: konstatierte, B0_LastThreeLetters: rte, B0_LastTwoLetters: te, S0B0Token: ,_konstatierte, S0B1Token: ,_der, S0B2Token: ,_Geistliche, S0Token: ,, S0_LastThreeLetters: ,, S0_LastTwoLetters: ,, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [konstatierte, der, Geistliche ,.. ]
-
-
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [konstatierte]   B= [der, Geistliche, . ,.. ]
-
-B0IsInLexic: true, B0Token: der, B0_LastThreeLetters: der, B0_LastTwoLetters: er, S0B0Token: konstatierte_der, S0B1Token: konstatierte_Geistliche, S0B2Token: konstatierte_., S0Token: konstatierte, S0_LastThreeLetters: rte, S0_LastTwoLetters: te, hasRighDep_dobj: true, konstatieren_Geistliche_hasRighDep_dobj: true, konstatieren_hasRighDep_dobj: true, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [der, Geistliche, . ,.. ]
-
-
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [der]   B= [Geistliche, . ,.. ]
-
-B0Token: Geistliche, B0_LastThreeLetters: che, B0_LastTwoLetters: he, S0B0Token: der_Geistliche, S0B1Token: der_., S0IsInLexic: true, S0Token: der, S0_LastThreeLetters: der, S0_LastTwoLetters: er, der_isGouvernedBy_Geistliche: true, der_isGouvernedBy_Geistliche_det: true, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Geistliche, . ,.. ]
-
-
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Geistliche]   B= [.]
-
-B0Token: ., B0_LastThreeLetters: ., B0_LastTwoLetters: ., S0B0Token: Geistliche_., S0Token: Geistliche, S0_LastThreeLetters: che, S0_LastTwoLetters: he, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

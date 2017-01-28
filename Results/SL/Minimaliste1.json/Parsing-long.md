@@ -58,15 +58,7 @@ In ti , dekle , si se morala roditi na drugem koncu sveta , samo zato , da si pr
 31- **se roditi** 
 32- **se roditi** 
 33- **se roditi** 
-34- **se roditi** 
-35- **se roditi** 
-36- **se roditi** 
-37- **se roditi** 
-38- **se roditi** 
-39- **se roditi** 
-40- **se roditi** 
-41- **se roditi** 
-42- **se roditi** 
+34- **se da** 
 ## Sentence No. 3855 - 
 Proletarci so bili polni tudi zgodb iz svoje " bogate " seksualne zgodovine , v katerih so se gnetle pohotne rasne lepotice , na kolenih moledujoče za spolno potešitev , katerih so se modroovratniški mojstri na koncu le usmilili in pokazali , kako se stvari streže . 
 ### Existing MWEs: 
@@ -77,7 +69,35 @@ Proletarci so bili polni tudi zgodb iz svoje " bogate " seksualne zgodovine , v 
 1- **so** 
 2- **bili** 
 3- **so** 
-4- **se usmilili** 
+4- **se gnetle** 
+5- **se gnetle** 
+6- **se gnetle** 
+7- **se gnetle** 
+8- **se gnetle** 
+9- **se gnetle** 
+10- **se gnetle** 
+11- **se gnetle** 
+12- **se gnetle** 
+13- **se gnetle** 
+14- **se gnetle** 
+15- **se gnetle** 
+16- **se gnetle** 
+17- **se gnetle** 
+18- **se gnetle** 
+19- **se gnetle** 
+20- **se gnetle** 
+21- **se gnetle** 
+22- **se gnetle** 
+23- **se gnetle** 
+24- **se gnetle** 
+25- **se gnetle** 
+26- **se gnetle** 
+27- **se gnetle** 
+28- **se gnetle** 
+29- **se gnetle** 
+30- **se gnetle** 
+31- **se gnetle** 
+32- **se gnetle** 
 ## Sentence No. 4695 - 
 Tu in tam pa so se v vnemi spustili na tanek led , saj je tožilka Jožica Boljte Brus njihove pripombe o slabem in nekorektnem delu tožilstva označila za žalitve , zagovornik Miha Kozinc pa je poudaril , da gre le za mnenje o tožilskem delu v tem postopku . 
 ### Existing MWEs: 
@@ -118,11 +138,11 @@ Končina je vzel pod drobnogled še trditve strokovnega direktorja KC Zorana Arn
 1- **je** 
 2- **je** 
 3- **bil** 
-4- **se spuščal v** 
-5- **se spuščal v** 
-6- **se spuščal v** 
-7- **se spuščal v** 
-8- **se spuščal v** 
+4- **se ni spuščal v** 
+5- **se ni spuščal v** 
+6- **se ni spuščal v** 
+7- **se ni spuščal v** 
+8- **se ni spuščal v** 
 ## Sentence No. 310 - 
 Zdi se , da so se prireditelji biatlonskega kriterija prvega snega letos še posebej potrudili . 
 ### Existing MWEs: 
@@ -190,9 +210,8 @@ DOMOVANJE SI JE IZBRALA NA SAMEM IN SE DRUŽILA LE Z ROBATIMI RUDARJI V BLIŽNJE
 ### Identified MWEs: 
 1- **JE** 
 2- **SE DRUŽILA** 
-3- **SE DRUŽILA** 
-4- **SO** 
-5- **ZA** 
+3- **SO** 
+4- **ZA** 
 ## Sentence No. 1250 - 
 Poleti se sprostim , spočijem in uživam na morju . 
 ### Existing MWEs: 
@@ -234,24 +253,7 @@ A zdi se , da naraščajočemu nasilju mladostnikov niso kos starši , še manj 
 2- **niso kos** (ID, 2)
 ### Identified MWEs: 
 1- **zdi se** 
-2- **niso kos** 
-3- **niso kos** 
-4- **niso kos** 
-5- **niso kos** 
-6- **niso kos** 
-7- **niso kos** 
-8- **niso kos** 
-9- **niso kos** 
-10- **niso kos** 
-11- **niso kos** 
-12- **niso kos** 
-13- **niso kos** 
-14- **niso kos** 
-15- **niso kos** 
-16- **niso kos** 
-17- **niso kos** 
-18- **niso kos** 
-19- **niso kos** 
+2- **niso** 
 ## Sentence No. 5185 - 
 NOVA GORICA Morda si je tat neizmerno zaželel dobitka na igri na srečo ali pa je imel le » srečo « . 
 ### Existing MWEs: 
@@ -488,8 +490,6 @@ Glede vključitve Slovenije v EU je sogovornik dejal , da si to želijo , saj si
 1- **je** 
 2- **bi** 
 3- **so** 
-4- **se komunizma** 
-5- **se komunizma** 
 ## Sentence No. 110 - 
 Kam bi se lahko zatekla ? 
 ### Existing MWEs: 
@@ -511,11 +511,9 @@ Nikamor nimam namena odpotovat . . .
 ### Existing MWEs: 
 1- **nimam namena** (LVC, 1)
 ### Identified MWEs: 
-1- **nimam namena** 
-2- **nimam namena** 
-3- **nimam namena** 
-4- **nimam namena** 
-5- **nimam namena** 
+1- **nimam namena odpotovat** 
+2- **nimam namena odpotovat** 
+3- **nimam namena odpotovat** 
 ## Sentence No. 235 - 
 Njegovi strokovnjaki so svetovali , naj oba fanta nekaj časa ne prideta v šolo , medtem pa se bodo pogovorili z razredom in razredničarko . 
 ### Existing MWEs: 
@@ -575,8 +573,6 @@ Počasi se je spuščala noč in prižgale so se zvezde na jasnem nebu .
 1- **se spuščala** 
 2- **se spuščala** 
 3- **so** 
-4- **se nebu** 
-5- **se nebu** 
 ## Sentence No. 440 - 
 To se je dogajalo , veste . « 
 ### Existing MWEs: 
@@ -612,6 +608,29 @@ Veliko pozornosti namenjajo uvajanju novih in manj znanih zavarovalnih produktov
 " Domišljam si , da me bodo pogrešali , nekateri pa bodo kar veseli mojega odhoda , " komentira svoj odhod iz filharmonije . 
 ### Existing MWEs: 
 1- **Domišljam si** (IReflV)
+### Identified MWEs: 
+1- **Domišljam si** 
+2- **Domišljam si** 
+3- **Domišljam si** 
+4- **Domišljam si** 
+5- **Domišljam si** 
+6- **Domišljam si** 
+7- **Domišljam si** 
+8- **Domišljam si** 
+9- **Domišljam si** 
+10- **Domišljam si** 
+11- **Domišljam si** 
+12- **Domišljam si** 
+13- **Domišljam si** 
+14- **Domišljam si** 
+15- **Domišljam si** 
+16- **Domišljam si** 
+17- **Domišljam si** 
+18- **Domišljam si** 
+19- **Domišljam si** 
+20- **Domišljam si** 
+21- **Domišljam si** 
+22- **Domišljam si** 
 ## Sentence No. 790 - 
 Metodologija sestave gesel se zdi premišljena , natančna ter večfunkcijsko uporabna . 
 ### Existing MWEs: 
@@ -732,15 +751,16 @@ Napačno je mišljenje , da so mu bila vrata na vrh hrvaške glasbene scene zara
 1- **je** 
 2- **so** 
 3- **bila** 
-4- **je proti svojim** 
-5- **je proti svojim** 
-6- **je proti svojim** 
-7- **je proti svojim** 
-8- **je proti svojim** 
-9- **je proti svojim** 
-10- **je proti svojim** 
-11- **je proti svojim** 
-12- **je proti svojim** 
+4- **je** 
+5- **je proti** 
+6- **je proti** 
+7- **je proti** 
+8- **je proti** 
+9- **je proti** 
+10- **je proti** 
+11- **je proti** 
+12- **je proti** 
+13- **je proti** 
 ## Sentence No. 1270 - 
 Mladina se zdaj trumoma pojavlja na vratih mladega duhovnika , še posebno odkar ve , da poleg težkih motorjev strastno obožuje tudi Metallico . 
 ### Existing MWEs: 
@@ -876,22 +896,6 @@ Hester ( Demi Moore ) se je zapletla v afero z pastorjem ( Gary Oldman ) .
 Sem pride malo turistov , pa še to so po večini bogati Francozi , ki se umaknejo iz mrzle domovine v rajske kraje in od tod vodijo posle doma . 
 ### Existing MWEs: 
 1- **vodijo posle** (LVC)
-### Identified MWEs: 
-1- **pride se** 
-2- **pride se** 
-3- **pride se** 
-4- **pride se** 
-5- **pride se** 
-6- **pride se** 
-7- **pride se** 
-8- **pride se** 
-9- **pride se** 
-10- **pride se** 
-11- **pride se** 
-12- **pride se** 
-13- **pride se** 
-14- **pride se** 
-15- **pride se** 
 ## Sentence No. 1895 - 
 Glede na tradicijo se je na tem dvorišču treba poviteziti . 
 ### Existing MWEs: 
@@ -1027,6 +1031,28 @@ Zmrazilo vas bo pri srcu , ko boste uvideli realno sliko svoje zveze .
 Glavo tiščijo v pesek in mislijo , da bodo begunci kar odšli , « kritizira državin odnos do beguncev in uradovih predlogov Šuštar . 
 ### Existing MWEs: 
 1- **Glavo tiščijo v pesek** (ID)
+### Identified MWEs: 
+1- **tiščijo v pesek** 
+2- **tiščijo v pesek** 
+3- **tiščijo v pesek** 
+4- **tiščijo v pesek** 
+5- **tiščijo v pesek** 
+6- **tiščijo v pesek** 
+7- **tiščijo v pesek** 
+8- **tiščijo v pesek** 
+9- **tiščijo v pesek** 
+10- **tiščijo v pesek** 
+11- **tiščijo v pesek** 
+12- **tiščijo v pesek** 
+13- **tiščijo v pesek** 
+14- **tiščijo v pesek** 
+15- **tiščijo v pesek** 
+16- **tiščijo v pesek** 
+17- **tiščijo v pesek** 
+18- **tiščijo v pesek** 
+19- **tiščijo v pesek** 
+20- **tiščijo v pesek** 
+21- **tiščijo v pesek** 
 ## Sentence No. 2280 - 
 Kaliban je bil sam svoj in sam sebi kralj , zdaj pa je suženj , ki mora opravljati najtežja dela . 
 ### Existing MWEs: 
@@ -1087,40 +1113,6 @@ Zakaj bi , če že strežemo nebrzdanim apetitom po dobičku , ki tako ali tako 
 1- **gre v žepe** (ID)
 ### Identified MWEs: 
 1- **bi** 
-2- **gre v** 
-3- **gre v** 
-4- **gre v** 
-5- **gre v** 
-6- **gre v** 
-7- **gre v** 
-8- **gre v** 
-9- **gre v** 
-10- **gre v** 
-11- **gre v** 
-12- **gre v** 
-13- **gre v** 
-14- **gre v** 
-15- **gre v** 
-16- **gre v** 
-17- **gre v** 
-18- **gre v** 
-19- **gre v** 
-20- **gre v** 
-21- **gre v** 
-22- **gre v** 
-23- **gre v** 
-24- **gre v** 
-25- **gre v** 
-26- **gre v** 
-27- **gre v** 
-28- **gre v** 
-29- **gre v** 
-30- **gre v** 
-31- **gre v** 
-32- **gre v** 
-33- **gre v** 
-34- **gre v** 
-35- **gre v** 
 ## Sentence No. 2510 - 
 Prav nobeden od štirih poslancev LDS , ki so se prijavili za evropsko prvenstvo , se izbirnega tekmovanja ni udeležil . 
 ### Existing MWEs: 
@@ -1194,7 +1186,39 @@ Lahko se pozanimate pri proizvajalcu Bonino , Via Torino 173 , 12048 Sommariva B
 ### Existing MWEs: 
 1- **se pozanimate** (IReflV)
 ### Identified MWEs: 
-1- **se sodelujejo** 
+1- **se pozanimate** 
+2- **se pozanimate** 
+3- **se pozanimate** 
+4- **se pozanimate** 
+5- **se pozanimate** 
+6- **se pozanimate** 
+7- **se pozanimate** 
+8- **se pozanimate** 
+9- **se pozanimate** 
+10- **se pozanimate** 
+11- **se pozanimate** 
+12- **se pozanimate** 
+13- **se pozanimate** 
+14- **se pozanimate** 
+15- **se pozanimate** 
+16- **se pozanimate** 
+17- **se pozanimate** 
+18- **se pozanimate** 
+19- **se pozanimate** 
+20- **se pozanimate** 
+21- **se pozanimate** 
+22- **se pozanimate** 
+23- **se pozanimate** 
+24- **se pozanimate** 
+25- **se pozanimate** 
+26- **se pozanimate** 
+27- **se pozanimate** 
+28- **se pozanimate** 
+29- **se pozanimate** 
+30- **se pozanimate** 
+31- **se pozanimate** 
+32- **se pozanimate** 
+33- **se pozanimate** 
 ## Sentence No. 2940 - 
 - Preprečite zadrževanje vode - omejite porabo soli , uživajte hrano , ki vsebuje dovolj beljakovin , pijte čim več vode , ne jemljite diuretikov , ne zatekajte se k laksativom , nehajte kaditi in spite v privzdignjeni postelji - glava naj bo niže kot noge . 
 ### Existing MWEs: 
@@ -1264,13 +1288,6 @@ Se vam zdi , da se Jennifer Garner v lepoti lahko primerja z Jennifer Lopez ?
 Večjega občutka sreče si ni mogoče predstavljati . 
 ### Existing MWEs: 
 1- **si predstavljati** (IReflV, 2)
-### Identified MWEs: 
-1- **Večjega občutka sreče** 
-2- **Večjega občutka sreče** 
-3- **Večjega občutka sreče** 
-4- **Večjega občutka sreče** 
-5- **Večjega občutka sreče** 
-6- **Večjega občutka sreče** 
 ## Sentence No. 3280 - 
 Ameriški CNN , brez katerega si vojne ni mogoče predstavljati , se je na še en veliki TV show , poročanje v živo in predvajanje ekskluzivnih posnetkov rušilnih ameriških bomb in raket , pripravljal skoraj tri tedne pred konkurenco . 
 ### Existing MWEs: 
@@ -1361,10 +1378,7 @@ Ko sem začela pisati , sem mislila , da bo lažje , a ni , ker ne morem napisat
 5- **bi** 
 6- **sva** 
 7- **ni** 
-8- **postavil na** 
-9- **postavil na** 
-10- **postavil na** 
-11- **postavil na** 
+8- **postavil na stran** 
 ## Sentence No. 3630 - 
 Tako se je zdelo smiselno tudi eni sestri . 
 ### Existing MWEs: 
@@ -1455,14 +1469,6 @@ S političnim in administrativnim diskurzom deli pravni diskurz skupno značilno
 Odzvale so se tudi nekatere območne obrtne zbornice . 
 ### Existing MWEs: 
 1- **Odzvale se** (IReflV)
-### Identified MWEs: 
-1- **Odzvale se** 
-2- **Odzvale se** 
-3- **Odzvale se** 
-4- **Odzvale se** 
-5- **Odzvale se** 
-6- **Odzvale se** 
-7- **Odzvale se** 
 ## Sentence No. 3925 - 
 To pa pomeni , da podjetnik , ko obračunava kilometrino , ne sme obračunati nobenega drugega stroška , ki se nanaša na uporabo osebnega avta v službene namene . 
 ### Existing MWEs: 
@@ -1476,22 +1482,6 @@ Srečanja so iz leta v leto dobivala nove vsebine in oblike , vseskozi pa so se 
 ### Identified MWEs: 
 1- **so** 
 2- **so** 
-3- **se navezovala** 
-4- **se navezovala** 
-5- **se navezovala** 
-6- **se navezovala** 
-7- **se navezovala** 
-8- **se navezovala** 
-9- **se navezovala** 
-10- **se navezovala** 
-11- **se navezovala** 
-12- **se navezovala** 
-13- **se navezovala** 
-14- **se navezovala** 
-15- **se navezovala** 
-16- **se navezovala** 
-17- **se navezovala** 
-18- **se navezovala** 
 ## Sentence No. 3940 - 
 Če se v veleblagovnici ustavimo na oddelku žitnih kosmičev za zajtrk , bomo naleteli na navadne kosmiče , kosmiče s sladkorjem ali brez , pražene , s čokolado , z otrobi , z vlakninami , z lešniki , v manjši embalaži , družinsko pakirane in še mnoge druge vrste . 
 ### Existing MWEs: 
@@ -1512,23 +1502,6 @@ PISTXT Verjetno se boste strinjali z menoj , da je za narod pomembno , da živi 
 Ne silite v družbo , ki vam ni po godu , čeprav bi morda imeli od tega koristi . 
 ### Existing MWEs: 
 1- **ni po godu** (ID)
-### Identified MWEs: 
-1- **silite v družbo** 
-2- **silite v družbo** 
-3- **silite v družbo** 
-4- **silite v družbo** 
-5- **silite v družbo** 
-6- **silite v družbo** 
-7- **silite v družbo** 
-8- **silite v družbo** 
-9- **silite v družbo** 
-10- **silite v družbo** 
-11- **silite v družbo** 
-12- **silite v družbo** 
-13- **silite v družbo** 
-14- **silite v družbo** 
-15- **silite v družbo** 
-16- **silite v družbo** 
 ## Sentence No. 4040 - 
 Med uro in pol treninga so udeleženci izvedli vaje za ogrevanje , se pomerili z igro na dva koša , sledile pa so zabavne vaje motoričnih spretnosti . 
 ### Existing MWEs: 
@@ -1575,10 +1548,6 @@ Enemu od policistov se je vendarle uspelo prebiti do marice in Mateja je skušal
 Tudi zanj pa velja , da za enak denar dobimo zelo dober klasičen fotoaparat , zato se bo najbrž le redko kdo odločil za nakup elektronske inačice . 
 ### Existing MWEs: 
 1- **se odločil** (IReflV, 24)
-### Identified MWEs: 
-1- **za** 
-2- **bo** 
-3- **za** 
 ## Sentence No. 4195 - 
 Med tujimi izdelovalci AST ponuja Bravo MS - T 6150 , ki temelji na 150 - megaherčni različici procesorja Pentium Pro . 
 ### Existing MWEs: 
@@ -1603,7 +1572,7 @@ Peter Pengal pravi , da zaposleni na ministrstvu preprosto nimajo časa za te na
 1- **se ukvarjati s** (VPC, 14)
 ### Identified MWEs: 
 1- **za** 
-2- **se ukvarjati** 
+2- **se ukvarjati s** 
 ## Sentence No. 4260 - 
 Skupno delovanje onkološke in internistične nuklearne medicine ( po lokaciji ) je trajalo do leta 1968 , ko sta iz Bazičnega laboratorija za delo z izotopi izšli dve enoti : Izotopna enota Onkološkega inštituta in Klinika za nuklearno medicino Kliničnega centra . 
 ### Existing MWEs: 
@@ -1658,6 +1627,31 @@ Na voljo je tudi v obliki čaja in pastil .
 Tekmovanje sodi v okvir akcij Turistične zveze Slovenije " Moja dežela , lepa in gostoljubna " ter domačega TŠD " Kostelci , pometimo pred svojim pragom ! 
 ### Existing MWEs: 
 1- **pometimo pred svojim pragom** (ID)
+### Identified MWEs: 
+1- **sodi v okvir** 
+2- **sodi v okvir** 
+3- **sodi v okvir** 
+4- **sodi v okvir** 
+5- **sodi v okvir** 
+6- **sodi v okvir** 
+7- **sodi v okvir** 
+8- **sodi v okvir** 
+9- **sodi v okvir** 
+10- **sodi v okvir** 
+11- **sodi v okvir** 
+12- **sodi v okvir** 
+13- **sodi v okvir** 
+14- **sodi v okvir** 
+15- **sodi v okvir** 
+16- **sodi v okvir** 
+17- **sodi v okvir** 
+18- **sodi v okvir** 
+19- **sodi v okvir** 
+20- **sodi v okvir** 
+21- **sodi v okvir** 
+22- **sodi v okvir** 
+23- **sodi v okvir** 
+24- **sodi v okvir** 
 ## Sentence No. 4400 - 
 Najprej se morajo izkazati , da sploh dobijo sebi primerno mesto v moštvu . 
 ### Existing MWEs: 
@@ -1816,25 +1810,15 @@ Tlelevš ostal , kjer te mam pred očmi .
 Dere se . 
 ### Existing MWEs: 
 1- **Dere se** (IReflV)
+### Identified MWEs: 
+1- **Dere se** 
+2- **Dere se** 
 ## Sentence No. 5005 - 
 Sedim pa me tolk scat tišči , da meu raznesl , sem se preveč bojim , dab šu gor na skret , če slučajno neki ne preži name gor na štengah . 
 ### Existing MWEs: 
 1- **se bojim** (IReflV, 13)
 ### Identified MWEs: 
 1- **se bojim** 
-2- **šu na** 
-3- **šu na** 
-4- **šu na** 
-5- **šu na** 
-6- **šu na** 
-7- **šu na** 
-8- **šu na** 
-9- **šu na** 
-10- **šu na** 
-11- **šu na** 
-12- **šu na** 
-13- **šu na** 
-14- **šu na** 
 ## Sentence No. 5040 - 
 V taksiju sta se pogovarjala . 
 ### Existing MWEs: 
@@ -2153,8 +2137,7 @@ Amerika se je , spričo svojega velikega ozemlja in dejstva , da se je že pred 
 1- **se odtrgala od** (VPC)
 ### Identified MWEs: 
 1- **je** 
-2- **se svoje** 
-3- **se svoje** 
+2- **se odtrgala** 
 ## Sentence No. 6315 - 
 Bil je veliko bolj divji , bolj nezmeren , iz njegovega notranjega vrenja in razkrajanja pa so rasle kalne sile , nasproti katerim se je zdelo nemško ustavno življenje pravcato zdravje . 
 ### Existing MWEs: 
@@ -2248,11 +2231,8 @@ Ob pregledu kakšnih šest tisoč listov , na katerih so ostali zapisani njegove
 1- **se predaja** (IReflV)
 ### Identified MWEs: 
 1- **so** 
-2- **se imenovali** 
-3- **se imenovali** 
-4- **se imenovali** 
-5- **se imenovali** 
-6- **se imenovali** 
+2- **se tehnološke** 
+3- **se tehnološke** 
 ## Sentence No. 6705 - 
 Na koncu ure vam bo verjetno ostalo še nekaj vprašanj , na katera naletite vsak dan , pa ne najdete odgovorov . 
 ### Existing MWEs: 
@@ -2457,8 +2437,6 @@ Te lahko pripeljejo do drugih mutacij in motenj v celičnem ustroju .
 4- **se s strinjal** 
 5- **se s strinjal** 
 6- **se s strinjal** 
-7- **se s strinjal** 
-8- **se s strinjal** 
 ## Sentence No. 8035 - 
 Zaposleni so na zboru delavcev čez dva dni sklenili , da ne pristajajo na nikakršne spremembe , saj gre za obveznosti istih lastnikov v istem podjetju in do istih delavcev . 
 ### Existing MWEs: 
@@ -2518,14 +2496,6 @@ Bil je srečen , da je na počitnicah v mestu , ki je za arheologa tako zelo zan
 Gledala sta drug drugega , ne da bi trenila z očesom . 
 ### Existing MWEs: 
 1- **trenila z očesom** (ID, 1)
-### Identified MWEs: 
-1- **Gledala drugega** 
-2- **Gledala drugega** 
-3- **Gledala drugega** 
-4- **Gledala drugega** 
-5- **Gledala drugega** 
-6- **Gledala drugega** 
-7- **Gledala drugega** 
 ## Sentence No. 8155 - 
 No , sedaj se lahko poigravamo s čemerkoli hočemo , in čeprav nadrealizem v vsebinskem in formalnem pomenu že dobrega pol stoletja nosi patino akademizma , so nekateri njegovi principi še vedno uporabni . 
 ### Existing MWEs: 
@@ -2717,9 +2687,6 @@ Izteklo se je leto 2003 , ki je bilo zaznamovano tudi z velikimi rokometnimi dog
 Zakaj tako društvo in s čim se ukvarjate ? 
 ### Existing MWEs: 
 1- **s se ukvarjate** (VPC, 1)
-### Identified MWEs: 
-1- **se ukvarjate** 
-2- **se ukvarjate** 
 ## Sentence No. 8825 - 
 Strinjam pa se , da jo na neki način verjetno res pogojuje naša majhnost oziroma tak naš trenutek v času , ko smo obsedeni s primerjanjem in posnemanjem vsega , kar smo doslej lahko le od daleč gledali . 
 ### Existing MWEs: 

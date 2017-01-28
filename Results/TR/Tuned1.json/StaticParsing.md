@@ -1,1202 +1,1999 @@
-## Sentence No. 5472 - 
-Onlar da seslerini hem Belediye Meclislerinde , hem gazetelerde duyururlardı , halkın dertlerine , şikayetlerine , isteklerine sahip çıkar , _ yaptıkları , söyledileri gazetelerde yer alırdı . 
+## Sentence No. 8006 - 
+Bir gün önce gösteri yürüyüşü yasağını _ motorlu araçlarıyla gösteri _ yaparak _ delen on binlerce kişi , _ önceki akşam da , Noel'i bahane _ ederek çok sayıda papazla birlikte , yasakları hiçe _ sayarak Belgrad caddelerinde yürüdü . 
 ### Existing MWEs: 
-1- **sahip çıkar** (ID)
-2- **yer alırdı** (ID)
+1- **gösteri yaparak** (LVC)
+2- **bahane ederek** (LVC)
+3- **hiçe sayarak** (ID)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Onlar, da, seslerini ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Bir, gün, önce ,.. ]
 
-B0Lemma: o, B0POS: Pron, B0Token: Onlar, B1Lemma: da, B1POS: Conj, B1Token: da, 
+B0Lemma: bir, B0POS: Adj, B0Token: Bir, B1Lemma: gün, B1POS: Noun, B1Token: gün, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Onlar]   B= [da, seslerini, hem ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Bir]   B= [gün, önce, gösteri ,.. ]
 
-B0Lemma: da, B0POS: Conj, B0Token: da, B1IsInLexic: true, B1Lemma: ses, B1POS: Noun, B1Token: seslerini, S0B0Distance: 1, S0B0Lemma: o_da, S0B0LemmaPOS: o_Conj, S0B0POS: Pron_Conj, S0B0POSLemma: Pron_da, S0B0Token: Onlar_da, S0B1Lemma: o_ses, S0B1LemmaPOS: o_Noun, S0B1POS: Pron_Noun, S0B1POSLemma: Pron_ses, S0B1Token: Onlar_seslerini, S0Lemma: o, S0POS: Pron, S0Token: Onlar, hasRighDep_INTENSIFIER: true, o_da_hasRighDep_INTENSIFIER: true, o_hasRighDep_INTENSIFIER: true, o_isGouvernedBy_duyur: true, o_isGouvernedBy_duyur_SUBJECT: true, 
+B0Lemma: gün, B0POS: Noun, B0Token: gün, B1Lemma: önce, B1POS: Adverb, B1Token: önce, S0B0Distance: 1, S0B0Lemma: bir_gün, S0B0LemmaPOS: bir_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_gün, S0B0Token: Bir_gün, S0B1Lemma: bir_önce, S0B1LemmaPOS: bir_Adverb, S0B1POS: Adj_Adverb, S0B1POSLemma: Adj_önce, S0B1Token: Bir_önce, S0Lemma: bir, S0POS: Adj, S0Token: Bir, bir_isGouvernedBy_gün: true, bir_isGouvernedBy_gün_DETERMINER: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, seslerini, hem ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gün, önce, gösteri ,.. ]
 
-B0Lemma: da, B0POS: Conj, B0Token: da, B1IsInLexic: true, B1Lemma: ses, B1POS: Noun, B1Token: seslerini, transitionHistoryLength1: 0, 
+B0Lemma: gün, B0POS: Noun, B0Token: gün, B1Lemma: önce, B1POS: Adverb, B1Token: önce, transitionHistoryLength1: 0, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [seslerini, hem, Belediye ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gün]   B= [önce, gösteri, yürüyüşü ,.. ]
 
-B0IsInLexic: true, B0Lemma: ses, B0POS: Noun, B0Token: seslerini, B1Lemma: hem, B1POS: Conj, B1Token: hem, S0B0Distance: 1, S0B0Lemma: da_ses, S0B0LemmaPOS: da_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_ses, S0B0Token: da_seslerini, S0B1Lemma: da_hem, S0B1LemmaPOS: da_Conj, S0B1POS: Conj_Conj, S0B1POSLemma: Conj_hem, S0B1Token: da_hem, S0Lemma: da, S0POS: Conj, S0Token: da, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: önce, B0POS: Adverb, B0Token: önce, B1Lemma: gösteri, B1POS: Noun, B1Token: gösteri, S0B0Distance: 1, S0B0Lemma: gün_önce, S0B0LemmaPOS: gün_Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun_önce, S0B0Token: gün_önce, S0B1Lemma: gün_gösteri, S0B1LemmaPOS: gün_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_gösteri, S0B1Token: gün_gösteri, S0Lemma: gün, S0POS: Noun, S0Token: gün, gün_isGouvernedBy_yürü: true, gün_isGouvernedBy_yürü_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [seslerini, hem, Belediye ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [önce, gösteri, yürüyüşü ,.. ]
 
-B0IsInLexic: true, B0Lemma: ses, B0POS: Noun, B0Token: seslerini, B1Lemma: hem, B1POS: Conj, B1Token: hem, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: önce, B0POS: Adverb, B0Token: önce, B1Lemma: gösteri, B1POS: Noun, B1Token: gösteri, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [seslerini]   B= [hem, Belediye, Meclislerinde ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [önce]   B= [gösteri, yürüyüşü, yasağını ,.. ]
 
-B0Lemma: hem, B0POS: Conj, B0Token: hem, B1Lemma: belediye, B1POS: Noun, B1Token: Belediye, S0B0Distance: 1, S0B0Lemma: ses_hem, S0B0LemmaPOS: ses_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_hem, S0B0Token: seslerini_hem, S0B1Lemma: ses_belediye, S0B1LemmaPOS: ses_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_belediye, S0B1Token: seslerini_Belediye, S0IsInLexic: true, S0Lemma: ses, S0POS: Noun, S0Token: seslerini, hasRighDep_CONJUNCTION: true, ses_hasRighDep_CONJUNCTION: true, ses_hem_hasRighDep_CONJUNCTION: true, ses_isGouvernedBy_meclis: true, ses_isGouvernedBy_meclis_COORDINATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: gösteri, B0POS: Noun, B0Token: gösteri, B1Lemma: yürüyüş, B1POS: Noun, B1Token: yürüyüşü, S0B0Distance: 1, S0B0Lemma: önce_gösteri, S0B0LemmaPOS: önce_Noun, S0B0POS: Adverb_Noun, S0B0POSLemma: Adverb_gösteri, S0B0Token: önce_gösteri, S0B1Lemma: önce_yürüyüş, S0B1LemmaPOS: önce_Noun, S0B1POS: Adverb_Noun, S0B1POSLemma: Adverb_yürüyüş, S0B1Token: önce_yürüyüşü, S0Lemma: önce, S0POS: Adverb, S0Token: önce, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, önce_isGouvernedBy_yürü: true, önce_isGouvernedBy_yürü_MODIFIER: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hem, Belediye, Meclislerinde ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gösteri, yürüyüşü, yasağını ,.. ]
 
-B0Lemma: hem, B0POS: Conj, B0Token: hem, B1Lemma: belediye, B1POS: Noun, B1Token: Belediye, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: gösteri, B0POS: Noun, B0Token: gösteri, B1Lemma: yürüyüş, B1POS: Noun, B1Token: yürüyüşü, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hem]   B= [Belediye, Meclislerinde, , ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gösteri]   B= [yürüyüşü, yasağını, _ ,.. ]
 
-B0Lemma: belediye, B0POS: Noun, B0Token: Belediye, B1Lemma: meclis, B1POS: Noun, B1Token: Meclislerinde, S0B0Distance: 1, S0B0Lemma: hem_belediye, S0B0LemmaPOS: hem_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_belediye, S0B0Token: hem_Belediye, S0B1Lemma: hem_meclis, S0B1LemmaPOS: hem_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_meclis, S0B1Token: hem_Meclislerinde, S0Lemma: hem, S0POS: Conj, S0Token: hem, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: yürüyüş, B0POS: Noun, B0Token: yürüyüşü, B1Lemma: yasak, B1POS: Noun, B1Token: yasağını, S0B0Distance: 1, S0B0Lemma: gösteri_yürüyüş, S0B0LemmaPOS: gösteri_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_yürüyüş, S0B0Token: gösteri_yürüyüşü, S0B1Lemma: gösteri_yasak, S0B1LemmaPOS: gösteri_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_yasak, S0B1Token: gösteri_yasağını, S0Lemma: gösteri, S0POS: Noun, S0Token: gösteri, gösteri_isGouvernedBy_yürüyüş: true, gösteri_isGouvernedBy_yürüyüş_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Belediye, Meclislerinde, , ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yürüyüşü, yasağını, _ ,.. ]
 
-B0Lemma: belediye, B0POS: Noun, B0Token: Belediye, B1Lemma: meclis, B1POS: Noun, B1Token: Meclislerinde, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: yürüyüş, B0POS: Noun, B0Token: yürüyüşü, B1Lemma: yasak, B1POS: Noun, B1Token: yasağını, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Belediye]   B= [Meclislerinde, ,, hem ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yürüyüşü]   B= [yasağını, _, motorlu ,.. ]
 
-B0Lemma: meclis, B0POS: Noun, B0Token: Meclislerinde, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: belediye_meclis, S0B0LemmaPOS: belediye_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_meclis, S0B0Token: Belediye_Meclislerinde, S0B1Lemma: belediye_,, S0B1LemmaPOS: belediye_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: Belediye_,, S0Lemma: belediye, S0POS: Noun, S0Token: Belediye, belediye_isGouvernedBy_meclis: true, belediye_isGouvernedBy_meclis_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: yasak, B0POS: Noun, B0Token: yasağını, B1Lemma: motor, B1POS: Noun, B1Token: _, S0B0Distance: 1, S0B0Lemma: yürüyüş_yasak, S0B0LemmaPOS: yürüyüş_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_yasak, S0B0Token: yürüyüşü_yasağını, S0B1Lemma: yürüyüş_motor, S0B1LemmaPOS: yürüyüş_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_motor, S0B1Token: yürüyüşü__, S0Lemma: yürüyüş, S0POS: Noun, S0Token: yürüyüşü, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yürüyüş_isGouvernedBy_yasak: true, yürüyüş_isGouvernedBy_yasak_POSSESSOR: true, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Meclislerinde, ,, hem ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yasağını, _, motorlu ,.. ]
 
-B0Lemma: meclis, B0POS: Noun, B0Token: Meclislerinde, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: yasak, B0POS: Noun, B0Token: yasağını, B1Lemma: motor, B1POS: Noun, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Meclislerinde]   B= [,, hem, gazetelerde ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yasağını]   B= [_, motorlu, araçlarıyla ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: hem, B1POS: Conj, B1Token: hem, S0B0Distance: 1, S0B0Lemma: meclis_,, S0B0LemmaPOS: meclis_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: Meclislerinde_,, S0B1Lemma: meclis_hem, S0B1LemmaPOS: meclis_Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_hem, S0B1Token: Meclislerinde_hem, S0Lemma: meclis, S0POS: Noun, S0Token: Meclislerinde, hasRighDep_PUNCTUATION: true, meclis_,_hasRighDep_PUNCTUATION: true, meclis_hasRighDep_PUNCTUATION: true, meclis_isGouvernedBy_duyur: true, meclis_isGouvernedBy_duyur_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: motor, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: motorlu, S0B0Distance: 1, S0B0Lemma: yasak_motor, S0B0LemmaPOS: yasak_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_motor, S0B0Token: yasağını__, S0B1Lemma: yasak__, S0B1LemmaPOS: yasak_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: yasağını_motorlu, S0Lemma: yasak, S0POS: Noun, S0Token: yasağını, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yasak_isGouvernedBy_yap: true, yasak_isGouvernedBy_yap_OBJECT: true, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, hem, gazetelerde ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, motorlu, araçlarıyla ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: hem, B1POS: Conj, B1Token: hem, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: motor, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: motorlu, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [hem, gazetelerde, duyururlardı ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [motorlu, araçlarıyla, gösteri ,.. ]
 
-B0Lemma: hem, B0POS: Conj, B0Token: hem, B1Lemma: gazete, B1POS: Noun, B1Token: gazetelerde, S0B0Distance: 1, S0B0Lemma: ,_hem, S0B0LemmaPOS: ,_Conj, S0B0POS: Punc_Conj, S0B0POSLemma: Punc_hem, S0B0Token: ,_hem, S0B1Lemma: ,_gazete, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_gazete, S0B1Token: ,_gazetelerde, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: _, B0POS: Adj, B0Token: motorlu, B1Lemma: araç, B1POS: Noun, B1Token: araçlarıyla, S0B0Distance: 1, S0B0Lemma: motor__, S0B0LemmaPOS: motor_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: __motorlu, S0B1Lemma: motor_araç, S0B1LemmaPOS: motor_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_araç, S0B1Token: __araçlarıyla, S0Lemma: motor, S0POS: Noun, S0Token: _, motor_isGouvernedBy__: true, motor_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hem, gazetelerde, duyururlardı ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [motorlu, araçlarıyla, gösteri ,.. ]
 
-B0Lemma: hem, B0POS: Conj, B0Token: hem, B1Lemma: gazete, B1POS: Noun, B1Token: gazetelerde, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: _, B0POS: Adj, B0Token: motorlu, B1Lemma: araç, B1POS: Noun, B1Token: araçlarıyla, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hem]   B= [gazetelerde, duyururlardı, , ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [motorlu]   B= [araçlarıyla, gösteri, _ ,.. ]
 
-B0Lemma: gazete, B0POS: Noun, B0Token: gazetelerde, B1IsInLexic: true, B1Lemma: duyur, B1POS: Verb, B1Token: duyururlardı, S0B0Distance: 1, S0B0Lemma: hem_gazete, S0B0LemmaPOS: hem_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_gazete, S0B0Token: hem_gazetelerde, S0B1Lemma: hem_duyur, S0B1LemmaPOS: hem_Verb, S0B1POS: Conj_Verb, S0B1POSLemma: Conj_duyur, S0B1Token: hem_duyururlardı, S0Lemma: hem, S0POS: Conj, S0Token: hem, hem_isGouvernedBy_duyur: true, hem_isGouvernedBy_duyur_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: araç, B0POS: Noun, B0Token: araçlarıyla, B1Lemma: gösteri, B1POS: Noun, B1Token: gösteri, S0B0Distance: 1, S0B0Lemma: __araç, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_araç, S0B0Token: motorlu_araçlarıyla, S0B1Lemma: __gösteri, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_gösteri, S0B1Token: motorlu_gösteri, S0Lemma: _, S0POS: Adj, S0Token: motorlu, __isGouvernedBy_araç: true, __isGouvernedBy_araç_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gazetelerde, duyururlardı, , ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [araçlarıyla, gösteri, _ ,.. ]
 
-B0Lemma: gazete, B0POS: Noun, B0Token: gazetelerde, B1IsInLexic: true, B1Lemma: duyur, B1POS: Verb, B1Token: duyururlardı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: araç, B0POS: Noun, B0Token: araçlarıyla, B1Lemma: gösteri, B1POS: Noun, B1Token: gösteri, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gazetelerde]   B= [duyururlardı, ,, halkın ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [araçlarıyla]   B= [gösteri, _, yaparak ,.. ]
 
-B0IsInLexic: true, B0Lemma: duyur, B0POS: Verb, B0Token: duyururlardı, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: gazete_duyur, S0B0LemmaPOS: gazete_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_duyur, S0B0Token: gazetelerde_duyururlardı, S0B1Lemma: gazete_,, S0B1LemmaPOS: gazete_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: gazetelerde_,, S0Lemma: gazete, S0POS: Noun, S0Token: gazetelerde, gazete_isGouvernedBy_duyur: true, gazete_isGouvernedBy_duyur_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: gösteri, B0POS: Noun, B0Token: gösteri, B1Lemma: yap, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: araç_gösteri, S0B0LemmaPOS: araç_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_gösteri, S0B0Token: araçlarıyla_gösteri, S0B1Lemma: araç_yap, S0B1LemmaPOS: araç_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_yap, S0B1Token: araçlarıyla__, S0Lemma: araç, S0POS: Noun, S0Token: araçlarıyla, araç_isGouvernedBy_yap: true, araç_isGouvernedBy_yap_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [duyururlardı, ,, halkın ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gösteri, _, yaparak ,.. ]
 
-B0IsInLexic: true, B0Lemma: duyur, B0POS: Verb, B0Token: duyururlardı, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: gösteri, B0POS: Noun, B0Token: gösteri, B1Lemma: yap, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [duyururlardı]   B= [,, halkın, dertlerine ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gösteri]   B= [_, yaparak, _ ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: halk, B1POS: Noun, B1Token: halkın, S0B0Distance: 1, S0B0Lemma: duyur_,, S0B0LemmaPOS: duyur_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_,, S0B0Token: duyururlardı_,, S0B1Lemma: duyur_halk, S0B1LemmaPOS: duyur_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_halk, S0B1Token: duyururlardı_halkın, S0IsInLexic: true, S0Lemma: duyur, S0POS: Verb, S0Token: duyururlardı, duyur_,_hasRighDep_PUNCTUATION: true, duyur_hasRighDep_PUNCTUATION: true, duyur_isGouvernedBy_çık: true, duyur_isGouvernedBy_çık_COORDINATION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: yap, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adverb, B1Token: yaparak, S0B0Distance: 1, S0B0Lemma: gösteri_yap, S0B0LemmaPOS: gösteri_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_yap, S0B0Token: gösteri__, S0B1Lemma: gösteri__, S0B1LemmaPOS: gösteri_Adverb, S0B1POS: Noun_Adverb, S0B1POSLemma: Noun__, S0B1Token: gösteri_yaparak, S0Lemma: gösteri, S0POS: Noun, S0Token: gösteri, gösteri_isGouvernedBy_yap: true, gösteri_isGouvernedBy_yap_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, halkın, dertlerine ,.. ]
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gösteri, _]   B= [yaparak, _, delen ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: halk, B1POS: Noun, B1Token: halkın, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: _, B0POS: Adverb, B0Token: yaparak, B1Lemma: del, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: yap__, S0B0LemmaPOS: yap_Adverb, S0B0POS: Verb_Adverb, S0B0POSLemma: Verb__, S0B0Token: __yaparak, S0B1Lemma: yap_del, S0B1LemmaPOS: yap_Verb, S0B1POS: Verb_Verb, S0B1POSLemma: Verb_del, S0B1Token: ___, S0Lemma: yap, S0POS: Verb, S0Token: _, S1B0Lemma: gösteri__, S1B0LemmaPOS: gösteri_Adverb, S1B0POS: Noun_Adverb, S1B0POSLemma: Noun__, S1B0Token: gösteri_yaparak, S1Lemma: gösteri, S1POS: Noun, S1S0Lemma: gösteri_yap, S1S0LemmaPOS: gösteri_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_yap, S1S0Token: gösteri__, S1Token: gösteri, SyntaxicRelation: -OBJECT, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, yap_isGouvernedBy__: true, yap_isGouvernedBy___DERIV: true, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [halkın, dertlerine, , ,.. ]
+21- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gösteri]   B= [yaparak, _, delen ,.. ]
 
-B0Lemma: halk, B0POS: Noun, B0Token: halkın, B1IsInLexic: true, B1Lemma: dert, B1POS: Noun, B1Token: dertlerine, S0B0Distance: 1, S0B0Lemma: ,_halk, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_halk, S0B0Token: ,_halkın, S0B1Lemma: ,_dert, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_dert, S0B1Token: ,_dertlerine, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: _, B0POS: Adverb, B0Token: yaparak, B1Lemma: del, B1POS: Verb, B1Token: _, S0B0Distance: 2, S0B0Lemma: gösteri__, S0B0LemmaPOS: gösteri_Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun__, S0B0Token: gösteri_yaparak, S0B1Lemma: gösteri_del, S0B1LemmaPOS: gösteri_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_del, S0B1Token: gösteri__, S0Lemma: gösteri, S0POS: Noun, S0Token: gösteri, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [halkın, dertlerine, , ,.. ]
+22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gösteri, yaparak]   B= [_, delen, on ,.. ]
 
-B0Lemma: halk, B0POS: Noun, B0Token: halkın, B1IsInLexic: true, B1Lemma: dert, B1POS: Noun, B1Token: dertlerine, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: del, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: delen, S0B0Distance: 1, S0B0Lemma: __del, S0B0LemmaPOS: __Verb, S0B0POS: Adverb_Verb, S0B0POSLemma: Adverb_del, S0B0Token: yaparak__, S0B1Lemma: ___, S0B1LemmaPOS: __Adj, S0B1POS: Adverb_Adj, S0B1POSLemma: Adverb__, S0B1Token: yaparak_delen, S0Lemma: _, S0POS: Adverb, S0Token: yaparak, S1B0Lemma: gösteri_del, S1B0LemmaPOS: gösteri_Verb, S1B0POS: Noun_Verb, S1B0POSLemma: Noun_del, S1B0Token: gösteri__, S1Lemma: gösteri, S1POS: Noun, S1S0Lemma: gösteri__, S1S0LemmaPOS: gösteri_Adverb, S1S0POS: Noun_Adverb, S1S0POSLemma: Noun__, S1S0Token: gösteri_yaparak, S1Token: gösteri, __isGouvernedBy_del: true, __isGouvernedBy_del_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [halkın]   B= [dertlerine, ,, şikayetlerine ,.. ]
+23- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[gösteri, yaparak]]   B= [_, delen, on ,.. ]
 
-B0IsInLexic: true, B0Lemma: dert, B0POS: Noun, B0Token: dertlerine, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: halk_dert, S0B0LemmaPOS: halk_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_dert, S0B0Token: halkın_dertlerine, S0B1Lemma: halk_,, S0B1LemmaPOS: halk_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: halkın_,, S0Lemma: halk, S0POS: Noun, S0Token: halkın, halk_isGouvernedBy_dert: true, halk_isGouvernedBy_dert_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: del, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: delen, S0B0Distance: 1, S0B0Lemma: gösteri___del, S0B0LemmaPOS: gösteri___Verb, S0B0POS: Noun_Adverb_Verb, S0B0POSLemma: Noun_Adverb_del, S0B0Token: gösteri_yaparak__, S0B1Lemma: gösteri____, S0B1LemmaPOS: gösteri___Adj, S0B1POS: Noun_Adverb_Adj, S0B1POSLemma: Noun_Adverb__, S0B1Token: gösteri_yaparak_delen, S0Lemma: gösteri__, S0POS: Noun_Adverb, S0Token: gösteri_yaparak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dertlerine, ,, şikayetlerine ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, delen, on ,.. ]
 
-B0IsInLexic: true, B0Lemma: dert, B0POS: Noun, B0Token: dertlerine, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: del, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: delen, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dertlerine]   B= [,, şikayetlerine, , ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [delen, on, binlerce ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: şikayet, B1POS: Noun, B1Token: şikayetlerine, S0B0Distance: 1, S0B0Lemma: dert_,, S0B0LemmaPOS: dert_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: dertlerine_,, S0B1Lemma: dert_şikayet, S0B1LemmaPOS: dert_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_şikayet, S0B1Token: dertlerine_şikayetlerine, S0IsInLexic: true, S0Lemma: dert, S0POS: Noun, S0Token: dertlerine, dert_,_hasRighDep_PUNCTUATION: true, dert_hasRighDep_PUNCTUATION: true, dert_isGouvernedBy_şikayet: true, dert_isGouvernedBy_şikayet_COORDINATION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: _, B0POS: Adj, B0Token: delen, B1Lemma: on, B1POS: Adj, B1Token: on, S0B0Distance: 1, S0B0Lemma: del__, S0B0LemmaPOS: del_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __delen, S0B1Lemma: del_on, S0B1LemmaPOS: del_Adj, S0B1POS: Verb_Adj, S0B1POSLemma: Verb_on, S0B1Token: __on, S0Lemma: del, S0POS: Verb, S0Token: _, del_isGouvernedBy__: true, del_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, şikayetlerine, , ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [delen, on, binlerce ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: şikayet, B1POS: Noun, B1Token: şikayetlerine, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: _, B0POS: Adj, B0Token: delen, B1Lemma: on, B1POS: Adj, B1Token: on, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [şikayetlerine, ,, isteklerine ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [delen]   B= [on, binlerce, kişi ,.. ]
 
-B0IsInLexic: true, B0Lemma: şikayet, B0POS: Noun, B0Token: şikayetlerine, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: ,_şikayet, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_şikayet, S0B0Token: ,_şikayetlerine, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_Punc, S0B1POS: Punc_Punc, S0B1POSLemma: Punc_,, S0B1Token: ,_,, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: on, B0POS: Adj, B0Token: on, B1Lemma: binlerce, B1POS: Adj, B1Token: binlerce, S0B0Distance: 1, S0B0Lemma: __on, S0B0LemmaPOS: __Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_on, S0B0Token: delen_on, S0B1Lemma: __binlerce, S0B1LemmaPOS: __Adj, S0B1POS: Adj_Adj, S0B1POSLemma: Adj_binlerce, S0B1Token: delen_binlerce, S0Lemma: _, S0POS: Adj, S0Token: delen, __isGouvernedBy_kişi: true, __isGouvernedBy_kişi_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [şikayetlerine, ,, isteklerine ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [on, binlerce, kişi ,.. ]
 
-B0IsInLexic: true, B0Lemma: şikayet, B0POS: Noun, B0Token: şikayetlerine, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: on, B0POS: Adj, B0Token: on, B1Lemma: binlerce, B1POS: Adj, B1Token: binlerce, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [şikayetlerine]   B= [,, isteklerine, sahip ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [on]   B= [binlerce, kişi, , ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: istek, B1POS: Noun, B1Token: isteklerine, S0B0Distance: 1, S0B0Lemma: şikayet_,, S0B0LemmaPOS: şikayet_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: şikayetlerine_,, S0B1Lemma: şikayet_istek, S0B1LemmaPOS: şikayet_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_istek, S0B1Token: şikayetlerine_isteklerine, S0IsInLexic: true, S0Lemma: şikayet, S0POS: Noun, S0Token: şikayetlerine, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, şikayet_,_hasRighDep_PUNCTUATION: true, şikayet_hasRighDep_PUNCTUATION: true, şikayet_isGouvernedBy_istek: true, şikayet_isGouvernedBy_istek_COORDINATION: true, 
+B0Lemma: binlerce, B0POS: Adj, B0Token: binlerce, B1Lemma: kişi, B1POS: Noun, B1Token: kişi, S0B0Distance: 1, S0B0Lemma: on_binlerce, S0B0LemmaPOS: on_Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_binlerce, S0B0Token: on_binlerce, S0B1Lemma: on_kişi, S0B1LemmaPOS: on_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_kişi, S0B1Token: on_kişi, S0Lemma: on, S0POS: Adj, S0Token: on, on_isGouvernedBy_binlerce: true, on_isGouvernedBy_binlerce_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, isteklerine, sahip ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [binlerce, kişi, , ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: istek, B1POS: Noun, B1Token: isteklerine, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: binlerce, B0POS: Adj, B0Token: binlerce, B1Lemma: kişi, B1POS: Noun, B1Token: kişi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [isteklerine, sahip, çıkar ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [binlerce]   B= [kişi, ,, _ ,.. ]
 
-B0Lemma: istek, B0POS: Noun, B0Token: isteklerine, B1IsInLexic: true, B1Lemma: sahip, B1POS: Noun, B1Token: sahip, S0B0Distance: 1, S0B0Lemma: ,_istek, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_istek, S0B0Token: ,_isteklerine, S0B1Lemma: ,_sahip, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_sahip, S0B1Token: ,_sahip, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: kişi, B0POS: Noun, B0Token: kişi, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: binlerce_kişi, S0B0LemmaPOS: binlerce_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_kişi, S0B0Token: binlerce_kişi, S0B1Lemma: binlerce_,, S0B1LemmaPOS: binlerce_Punc, S0B1POS: Adj_Punc, S0B1POSLemma: Adj_,, S0B1Token: binlerce_,, S0Lemma: binlerce, S0POS: Adj, S0Token: binlerce, binlerce_isGouvernedBy_kişi: true, binlerce_isGouvernedBy_kişi_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [isteklerine, sahip, çıkar ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kişi, ,, _ ,.. ]
 
-B0Lemma: istek, B0POS: Noun, B0Token: isteklerine, B1IsInLexic: true, B1Lemma: sahip, B1POS: Noun, B1Token: sahip, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: kişi, B0POS: Noun, B0Token: kişi, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [isteklerine]   B= [sahip, çıkar, , ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kişi]   B= [,, _, önceki ,.. ]
 
-B0IsInLexic: true, B0Lemma: sahip, B0POS: Noun, B0Token: sahip, B1IsInLexic: true, B1Lemma: çık, B1POS: Verb, B1Token: çıkar, S0B0Distance: 1, S0B0Lemma: istek_sahip, S0B0LemmaPOS: istek_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_sahip, S0B0Token: isteklerine_sahip, S0B1Lemma: istek_çık, S0B1LemmaPOS: istek_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_çık, S0B1Token: isteklerine_çıkar, S0Lemma: istek, S0POS: Noun, S0Token: isteklerine, istek_isGouvernedBy_çık: true, istek_isGouvernedBy_çık_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: önce, B1POS: Noun, B1Token: _, S0B0Distance: 1, S0B0Lemma: kişi_,, S0B0LemmaPOS: kişi_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: kişi_,, S0B1Lemma: kişi_önce, S0B1LemmaPOS: kişi_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_önce, S0B1Token: kişi__, S0Lemma: kişi, S0POS: Noun, S0Token: kişi, hasRighDep_PUNCTUATION: true, kişi_,_hasRighDep_PUNCTUATION: true, kişi_hasRighDep_PUNCTUATION: true, kişi_isGouvernedBy_yürü: true, kişi_isGouvernedBy_yürü_SUBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sahip, çıkar, , ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, _, önceki ,.. ]
 
-B0IsInLexic: true, B0Lemma: sahip, B0POS: Noun, B0Token: sahip, B1IsInLexic: true, B1Lemma: çık, B1POS: Verb, B1Token: çıkar, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: önce, B1POS: Noun, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sahip]   B= [çıkar, ,, _ ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [_, önceki, akşam ,.. ]
 
-B0IsInLexic: true, B0Lemma: çık, B0POS: Verb, B0Token: çıkar, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: sahip_çık, S0B0LemmaPOS: sahip_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_çık, S0B0Token: sahip_çıkar, S0B1Lemma: sahip_,, S0B1LemmaPOS: sahip_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: sahip_,, S0IsInLexic: true, S0Lemma: sahip, S0POS: Noun, S0Token: sahip, sahip_isGouvernedBy_çık: true, sahip_isGouvernedBy_çık_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: önce, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: önceki, S0B0Distance: 1, S0B0Lemma: ,_önce, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_önce, S0B0Token: ,__, S0B1Lemma: ,__, S0B1LemmaPOS: ,_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc__, S0B1Token: ,_önceki, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sahip, çıkar]   B= [,, _, yaptıkları ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, önceki, akşam ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: yap, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: çık_,, S0B0LemmaPOS: çık_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_,, S0B0Token: çıkar_,, S0B1Lemma: çık_yap, S0B1LemmaPOS: çık_Verb, S0B1POS: Verb_Verb, S0B1POSLemma: Verb_yap, S0B1Token: çıkar__, S0IsInLexic: true, S0Lemma: çık, S0POS: Verb, S0Token: çıkar, S1B0Lemma: sahip_,, S1B0LemmaPOS: sahip_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_,, S1B0Token: sahip_,, S1IsInLexic: true, S1Lemma: sahip, S1POS: Noun, S1S0Lemma: sahip_çık, S1S0LemmaPOS: sahip_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_çık, S1S0Token: sahip_çıkar, S1Token: sahip, SyntaxicRelation: -MWE, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, çık_,_hasRighDep_PUNCTUATION: true, çık_hasRighDep_PUNCTUATION: true, çık_isGouvernedBy_al: true, çık_isGouvernedBy_al_COORDINATION: true, 
+B0Lemma: önce, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: önceki, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-37- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[sahip, çıkar]]   B= [,, _, yaptıkları ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [önceki, akşam, da ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: yap, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: sahip_çık_,, S0B0LemmaPOS: sahip_çık_Punc, S0B0POS: Noun_Verb_Punc, S0B0POSLemma: Noun_Verb_,, S0B0Token: sahip_çıkar_,, S0B1Lemma: sahip_çık_yap, S0B1LemmaPOS: sahip_çık_Verb, S0B1POS: Noun_Verb_Verb, S0B1POSLemma: Noun_Verb_yap, S0B1Token: sahip_çıkar__, S0Lemma: sahip_çık, S0POS: Noun_Verb, S0Token: sahip_çıkar, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: _, B0POS: Adj, B0Token: önceki, B1Lemma: akşam, B1POS: Noun, B1Token: akşam, S0B0Distance: 1, S0B0Lemma: önce__, S0B0LemmaPOS: önce_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: __önceki, S0B1Lemma: önce_akşam, S0B1LemmaPOS: önce_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_akşam, S0B1Token: __akşam, S0Lemma: önce, S0POS: Noun, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, önce_isGouvernedBy__: true, önce_isGouvernedBy___DERIV: true, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, _, yaptıkları ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [önceki, akşam, da ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: yap, B1POS: Verb, B1Token: _, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: _, B0POS: Adj, B0Token: önceki, B1Lemma: akşam, B1POS: Noun, B1Token: akşam, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [_, yaptıkları, , ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [önceki]   B= [akşam, da, , ,.. ]
 
-B0IsInLexic: true, B0Lemma: yap, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: yaptıkları, S0B0Distance: 1, S0B0Lemma: ,_yap, S0B0LemmaPOS: ,_Verb, S0B0POS: Punc_Verb, S0B0POSLemma: Punc_yap, S0B0Token: ,__, S0B1Lemma: ,__, S0B1LemmaPOS: ,_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc__, S0B1Token: ,_yaptıkları, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: akşam, B0POS: Noun, B0Token: akşam, B1Lemma: da, B1POS: Conj, B1Token: da, S0B0Distance: 1, S0B0Lemma: __akşam, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_akşam, S0B0Token: önceki_akşam, S0B1Lemma: __da, S0B1LemmaPOS: __Conj, S0B1POS: Adj_Conj, S0B1POSLemma: Adj_da, S0B1Token: önceki_da, S0Lemma: _, S0POS: Adj, S0Token: önceki, __isGouvernedBy_akşam: true, __isGouvernedBy_akşam_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, yaptıkları, , ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [akşam, da, , ,.. ]
 
-B0IsInLexic: true, B0Lemma: yap, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: yaptıkları, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+B0Lemma: akşam, B0POS: Noun, B0Token: akşam, B1Lemma: da, B1POS: Conj, B1Token: da, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [yaptıkları, ,, söyledileri ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [akşam]   B= [da, ,, Noel'i ,.. ]
 
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: yaptıkları, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: yap__, S0B0LemmaPOS: yap_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __yaptıkları, S0B1Lemma: yap_,, S0B1LemmaPOS: yap_Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_,, S0B1Token: __,, S0IsInLexic: true, S0Lemma: yap, S0POS: Verb, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yap_isGouvernedBy__: true, yap_isGouvernedBy___DERIV: true, 
+B0Lemma: da, B0POS: Conj, B0Token: da, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: akşam_da, S0B0LemmaPOS: akşam_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_da, S0B0Token: akşam_da, S0B1Lemma: akşam_,, S0B1LemmaPOS: akşam_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: akşam_,, S0Lemma: akşam, S0POS: Noun, S0Token: akşam, akşam_da_hasRighDep_INTENSIFIER: true, akşam_hasRighDep_INTENSIFIER: true, akşam_isGouvernedBy_yürü: true, akşam_isGouvernedBy_yürü_MODIFIER: true, hasRighDep_INTENSIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yaptıkları, ,, söyledileri ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, ,, Noel'i ,.. ]
 
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: yaptıkları, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: da, B0POS: Conj, B0Token: da, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yaptıkları]   B= [,, söyledileri, gazetelerde ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [,, Noel'i, bahane ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: söyledi, B1POS: Noun, B1Token: söyledileri, S0B0Distance: 1, S0B0Lemma: __,, S0B0LemmaPOS: __Punc, S0B0POS: Adj_Punc, S0B0POSLemma: Adj_,, S0B0Token: yaptıkları_,, S0B1Lemma: __söyledi, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_söyledi, S0B1Token: yaptıkları_söyledileri, S0IsInLexic: true, S0Lemma: _, S0POS: Adj, S0Token: yaptıkları, __,_hasRighDep_PUNCTUATION: true, __hasRighDep_PUNCTUATION: true, __isGouvernedBy_al: true, __isGouvernedBy_al_MODIFIER: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: Noel, B1POS: Noun, B1Token: Noel'i, S0B0Distance: 1, S0B0Lemma: da_,, S0B0LemmaPOS: da_Punc, S0B0POS: Conj_Punc, S0B0POSLemma: Conj_,, S0B0Token: da_,, S0B1Lemma: da_Noel, S0B1LemmaPOS: da_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_Noel, S0B1Token: da_Noel'i, S0Lemma: da, S0POS: Conj, S0Token: da, da_,_hasRighDep_PUNCTUATION: true, da_hasRighDep_PUNCTUATION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, söyledileri, gazetelerde ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, Noel'i, bahane ,.. ]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: söyledi, B1POS: Noun, B1Token: söyledileri, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: Noel, B1POS: Noun, B1Token: Noel'i, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [söyledileri, gazetelerde, yer ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [Noel'i, bahane, _ ,.. ]
 
-B0Lemma: söyledi, B0POS: Noun, B0Token: söyledileri, B1Lemma: gazete, B1POS: Noun, B1Token: gazetelerde, S0B0Distance: 1, S0B0Lemma: ,_söyledi, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_söyledi, S0B0Token: ,_söyledileri, S0B1Lemma: ,_gazete, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_gazete, S0B1Token: ,_gazetelerde, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Noel, B0POS: Noun, B0Token: Noel'i, B1Lemma: bahane, B1POS: Noun, B1Token: bahane, S0B0Distance: 1, S0B0Lemma: ,_Noel, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_Noel, S0B0Token: ,_Noel'i, S0B1Lemma: ,_bahane, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_bahane, S0B1Token: ,_bahane, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [söyledileri, gazetelerde, yer ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Noel'i, bahane, _ ,.. ]
 
-B0Lemma: söyledi, B0POS: Noun, B0Token: söyledileri, B1Lemma: gazete, B1POS: Noun, B1Token: gazetelerde, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: Noel, B0POS: Noun, B0Token: Noel'i, B1Lemma: bahane, B1POS: Noun, B1Token: bahane, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [söyledileri]   B= [gazetelerde, yer, alırdı ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Noel'i]   B= [bahane, _, ederek ,.. ]
 
-B0Lemma: gazete, B0POS: Noun, B0Token: gazetelerde, B1IsInLexic: true, B1Lemma: yer, B1POS: Noun, B1Token: yer, S0B0Distance: 1, S0B0Lemma: söyledi_gazete, S0B0LemmaPOS: söyledi_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_gazete, S0B0Token: söyledileri_gazetelerde, S0B1Lemma: söyledi_yer, S0B1LemmaPOS: söyledi_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_yer, S0B1Token: söyledileri_yer, S0Lemma: söyledi, S0POS: Noun, S0Token: söyledileri, söyledi_isGouvernedBy_al: true, söyledi_isGouvernedBy_al_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: bahane, B0POS: Noun, B0Token: bahane, B1Lemma: et, B1POS: Verb, B1Token: _, Noel_isGouvernedBy_et: true, Noel_isGouvernedBy_et_OBJECT: true, S0B0Distance: 1, S0B0Lemma: Noel_bahane, S0B0LemmaPOS: Noel_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_bahane, S0B0Token: Noel'i_bahane, S0B1Lemma: Noel_et, S0B1LemmaPOS: Noel_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_et, S0B1Token: Noel'i__, S0Lemma: Noel, S0POS: Noun, S0Token: Noel'i, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gazetelerde, yer, alırdı ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bahane, _, ederek ,.. ]
 
-B0Lemma: gazete, B0POS: Noun, B0Token: gazetelerde, B1IsInLexic: true, B1Lemma: yer, B1POS: Noun, B1Token: yer, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: bahane, B0POS: Noun, B0Token: bahane, B1Lemma: et, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gazetelerde]   B= [yer, alırdı, . ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bahane]   B= [_, ederek, çok ,.. ]
 
-B0IsInLexic: true, B0Lemma: yer, B0POS: Noun, B0Token: yer, B1IsInLexic: true, B1Lemma: al, B1POS: Verb, B1Token: alırdı, S0B0Distance: 1, S0B0Lemma: gazete_yer, S0B0LemmaPOS: gazete_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_yer, S0B0Token: gazetelerde_yer, S0B1Lemma: gazete_al, S0B1LemmaPOS: gazete_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_al, S0B1Token: gazetelerde_alırdı, S0Lemma: gazete, S0POS: Noun, S0Token: gazetelerde, gazete_isGouvernedBy_al: true, gazete_isGouvernedBy_al_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: et, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adverb, B1Token: ederek, S0B0Distance: 1, S0B0Lemma: bahane_et, S0B0LemmaPOS: bahane_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_et, S0B0Token: bahane__, S0B1Lemma: bahane__, S0B1LemmaPOS: bahane_Adverb, S0B1POS: Noun_Adverb, S0B1POSLemma: Noun__, S0B1Token: bahane_ederek, S0Lemma: bahane, S0POS: Noun, S0Token: bahane, bahane_isGouvernedBy_et: true, bahane_isGouvernedBy_et_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yer, alırdı, . ,.. ]
+50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bahane, _]   B= [ederek, çok, sayıda ,.. ]
 
-B0IsInLexic: true, B0Lemma: yer, B0POS: Noun, B0Token: yer, B1IsInLexic: true, B1Lemma: al, B1POS: Verb, B1Token: alırdı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: _, B0POS: Adverb, B0Token: ederek, B1Lemma: çok, B1POS: Adverb, B1Token: çok, S0B0Distance: 1, S0B0Lemma: et__, S0B0LemmaPOS: et_Adverb, S0B0POS: Verb_Adverb, S0B0POSLemma: Verb__, S0B0Token: __ederek, S0B1Lemma: et_çok, S0B1LemmaPOS: et_Adverb, S0B1POS: Verb_Adverb, S0B1POSLemma: Verb_çok, S0B1Token: __çok, S0Lemma: et, S0POS: Verb, S0Token: _, S1B0Lemma: bahane__, S1B0LemmaPOS: bahane_Adverb, S1B0POS: Noun_Adverb, S1B0POSLemma: Noun__, S1B0Token: bahane_ederek, S1Lemma: bahane, S1POS: Noun, S1S0Lemma: bahane_et, S1S0LemmaPOS: bahane_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_et, S1S0Token: bahane__, S1Token: bahane, SyntaxicRelation: -MWE, et_isGouvernedBy__: true, et_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer]   B= [alırdı, . ,.. ]
+51- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bahane]   B= [ederek, çok, sayıda ,.. ]
 
-B0IsInLexic: true, B0Lemma: al, B0POS: Verb, B0Token: alırdı, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: yer_al, S0B0LemmaPOS: yer_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_al, S0B0Token: yer_alırdı, S0B1Lemma: yer_., S0B1LemmaPOS: yer_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: yer_., S0IsInLexic: true, S0Lemma: yer, S0POS: Noun, S0Token: yer, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yer_isGouvernedBy_al: true, yer_isGouvernedBy_al_MWE: true, 
+B0Lemma: _, B0POS: Adverb, B0Token: ederek, B1Lemma: çok, B1POS: Adverb, B1Token: çok, S0B0Distance: 2, S0B0Lemma: bahane__, S0B0LemmaPOS: bahane_Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun__, S0B0Token: bahane_ederek, S0B1Lemma: bahane_çok, S0B1LemmaPOS: bahane_Adverb, S0B1POS: Noun_Adverb, S0B1POSLemma: Noun_çok, S0B1Token: bahane_çok, S0Lemma: bahane, S0POS: Noun, S0Token: bahane, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
 
-52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer, alırdı]   B= [.]
+52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bahane, ederek]   B= [çok, sayıda, papazla ,.. ]
 
-B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: al_., S0B0LemmaPOS: al_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: alırdı_., S0IsInLexic: true, S0Lemma: al, S0POS: Verb, S0Token: alırdı, S1B0Lemma: yer_., S1B0LemmaPOS: yer_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_., S1B0Token: yer_., S1IsInLexic: true, S1Lemma: yer, S1POS: Noun, S1S0Lemma: yer_al, S1S0LemmaPOS: yer_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_al, S1S0Token: yer_alırdı, S1Token: yer, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: çok, B0POS: Adverb, B0Token: çok, B1Lemma: sayı, B1POS: Noun, B1Token: sayıda, S0B0Distance: 1, S0B0Lemma: __çok, S0B0LemmaPOS: __Adverb, S0B0POS: Adverb_Adverb, S0B0POSLemma: Adverb_çok, S0B0Token: ederek_çok, S0B1Lemma: __sayı, S0B1LemmaPOS: __Noun, S0B1POS: Adverb_Noun, S0B1POSLemma: Adverb_sayı, S0B1Token: ederek_sayıda, S0Lemma: _, S0POS: Adverb, S0Token: ederek, S1B0Lemma: bahane_çok, S1B0LemmaPOS: bahane_Adverb, S1B0POS: Noun_Adverb, S1B0POSLemma: Noun_çok, S1B0Token: bahane_çok, S1Lemma: bahane, S1POS: Noun, S1S0Lemma: bahane__, S1S0LemmaPOS: bahane_Adverb, S1S0POS: Noun_Adverb, S1S0POSLemma: Noun__, S1S0Token: bahane_ederek, S1Token: bahane, __isGouvernedBy_yürü: true, __isGouvernedBy_yürü_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
 
-53- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[yer, alırdı]]   B= [.]
+53- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[bahane, ederek]]   B= [çok, sayıda, papazla ,.. ]
 
-B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: yer_al_., S0B0LemmaPOS: yer_al_Punc, S0B0POS: Noun_Verb_Punc, S0B0POSLemma: Noun_Verb_., S0B0Token: yer_alırdı_., S0Lemma: yer_al, S0POS: Noun_Verb, S0Token: yer_alırdı, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+B0Lemma: çok, B0POS: Adverb, B0Token: çok, B1Lemma: sayı, B1POS: Noun, B1Token: sayıda, S0B0Distance: 1, S0B0Lemma: bahane___çok, S0B0LemmaPOS: bahane___Adverb, S0B0POS: Noun_Adverb_Adverb, S0B0POSLemma: Noun_Adverb_çok, S0B0Token: bahane_ederek_çok, S0B1Lemma: bahane___sayı, S0B1LemmaPOS: bahane___Noun, S0B1POS: Noun_Adverb_Noun, S0B1POSLemma: Noun_Adverb_sayı, S0B1Token: bahane_ederek_sayıda, S0Lemma: bahane__, S0POS: Noun_Adverb, S0Token: bahane_ederek, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [çok, sayıda, papazla ,.. ]
 
-B0Lemma: ., B0POS: Punc, B0Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+B0Lemma: çok, B0POS: Adverb, B0Token: çok, B1Lemma: sayı, B1POS: Noun, B1Token: sayıda, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [çok]   B= [sayıda, papazla, birlikte ,.. ]
 
-S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+B0Lemma: sayı, B0POS: Noun, B0Token: sayıda, B1Lemma: papaz, B1POS: Noun, B1Token: papazla, S0B0Distance: 1, S0B0Lemma: çok_sayı, S0B0LemmaPOS: çok_Noun, S0B0POS: Adverb_Noun, S0B0POSLemma: Adverb_sayı, S0B0Token: çok_sayıda, S0B1Lemma: çok_papaz, S0B1LemmaPOS: çok_Noun, S0B1POS: Adverb_Noun, S0B1POSLemma: Adverb_papaz, S0B1Token: çok_papazla, S0Lemma: çok, S0POS: Adverb, S0Token: çok, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, çok_isGouvernedBy_sayı: true, çok_isGouvernedBy_sayı_DETERMINER: true, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sayıda, papazla, birlikte ,.. ]
 
-## Sentence No. 5489 - 
-ACABA bu şehrin parti il başkanları ve Belediye Meclisi üyeleri , memleketin yüksek politikasını , arada sırada bir kenara _ koyup , halkın günlük sorunlarıyla ilgilenseler , daha _ faydalı olmazlar mı . 
-### Existing MWEs: 
-1- **bir kenara koyup** (ID)
-2- **faydalı olmazlar** (LVC)
+B0Lemma: sayı, B0POS: Noun, B0Token: sayıda, B1Lemma: papaz, B1POS: Noun, B1Token: papazla, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
 
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sayıda]   B= [papazla, birlikte, , ,.. ]
 
+B0Lemma: papaz, B0POS: Noun, B0Token: papazla, B1Lemma: birlikte, B1POS: Postp, B1Token: birlikte, S0B0Distance: 1, S0B0Lemma: sayı_papaz, S0B0LemmaPOS: sayı_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_papaz, S0B0Token: sayıda_papazla, S0B1Lemma: sayı_birlikte, S0B1LemmaPOS: sayı_Postp, S0B1POS: Noun_Postp, S0B1POSLemma: Noun_birlikte, S0B1Token: sayıda_birlikte, S0Lemma: sayı, S0POS: Noun, S0Token: sayıda, sayı_isGouvernedBy_yürü: true, sayı_isGouvernedBy_yürü_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ACABA, bu, şehrin ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [papazla, birlikte, , ,.. ]
 
-B0Lemma: acaba, B0POS: Adverb, B0Token: ACABA, B1Lemma: bu, B1POS: Det, B1Token: bu, 
+B0Lemma: papaz, B0POS: Noun, B0Token: papazla, B1Lemma: birlikte, B1POS: Postp, B1Token: birlikte, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ACABA]   B= [bu, şehrin, parti ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [papazla]   B= [birlikte, ,, yasakları ,.. ]
 
-B0Lemma: bu, B0POS: Det, B0Token: bu, B1Lemma: şehir, B1POS: Noun, B1Token: şehrin, S0B0Distance: 1, S0B0Lemma: acaba_bu, S0B0LemmaPOS: acaba_Det, S0B0POS: Adverb_Det, S0B0POSLemma: Adverb_bu, S0B0Token: ACABA_bu, S0B1Lemma: acaba_şehir, S0B1LemmaPOS: acaba_Noun, S0B1POS: Adverb_Noun, S0B1POSLemma: Adverb_şehir, S0B1Token: ACABA_şehrin, S0Lemma: acaba, S0POS: Adverb, S0Token: ACABA, acaba_isGouvernedBy_mı: true, acaba_isGouvernedBy_mı_MODIFIER: true, 
+B0Lemma: birlikte, B0POS: Postp, B0Token: birlikte, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: papaz_birlikte, S0B0LemmaPOS: papaz_Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_birlikte, S0B0Token: papazla_birlikte, S0B1Lemma: papaz_,, S0B1LemmaPOS: papaz_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: papazla_,, S0Lemma: papaz, S0POS: Noun, S0Token: papazla, papaz_isGouvernedBy_birlikte: true, papaz_isGouvernedBy_birlikte_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bu, şehrin, parti ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [birlikte, ,, yasakları ,.. ]
 
-B0Lemma: bu, B0POS: Det, B0Token: bu, B1Lemma: şehir, B1POS: Noun, B1Token: şehrin, transitionHistoryLength1: 0, 
+B0Lemma: birlikte, B0POS: Postp, B0Token: birlikte, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bu]   B= [şehrin, parti, il ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [birlikte]   B= [,, yasakları, hiçe ,.. ]
 
-B0Lemma: şehir, B0POS: Noun, B0Token: şehrin, B1Lemma: parti, B1POS: Noun, B1Token: parti, S0B0Distance: 1, S0B0Lemma: bu_şehir, S0B0LemmaPOS: bu_Noun, S0B0POS: Det_Noun, S0B0POSLemma: Det_şehir, S0B0Token: bu_şehrin, S0B1Lemma: bu_parti, S0B1LemmaPOS: bu_Noun, S0B1POS: Det_Noun, S0B1POSLemma: Det_parti, S0B1Token: bu_parti, S0Lemma: bu, S0POS: Det, S0Token: bu, bu_isGouvernedBy_şehir: true, bu_isGouvernedBy_şehir_DETERMINER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: yasak, B1POS: Noun, B1Token: yasakları, S0B0Distance: 1, S0B0Lemma: birlikte_,, S0B0LemmaPOS: birlikte_Punc, S0B0POS: Postp_Punc, S0B0POSLemma: Postp_,, S0B0Token: birlikte_,, S0B1Lemma: birlikte_yasak, S0B1LemmaPOS: birlikte_Noun, S0B1POS: Postp_Noun, S0B1POSLemma: Postp_yasak, S0B1Token: birlikte_yasakları, S0Lemma: birlikte, S0POS: Postp, S0Token: birlikte, birlikte_,_hasRighDep_PUNCTUATION: true, birlikte_hasRighDep_PUNCTUATION: true, birlikte_isGouvernedBy_yürü: true, birlikte_isGouvernedBy_yürü_MODIFIER: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [şehrin, parti, il ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, yasakları, hiçe ,.. ]
 
-B0Lemma: şehir, B0POS: Noun, B0Token: şehrin, B1Lemma: parti, B1POS: Noun, B1Token: parti, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: yasak, B1POS: Noun, B1Token: yasakları, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [şehrin]   B= [parti, il, başkanları ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [yasakları, hiçe, _ ,.. ]
 
-B0Lemma: parti, B0POS: Noun, B0Token: parti, B1Lemma: il, B1POS: Noun, B1Token: il, S0B0Distance: 1, S0B0Lemma: şehir_parti, S0B0LemmaPOS: şehir_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_parti, S0B0Token: şehrin_parti, S0B1Lemma: şehir_il, S0B1LemmaPOS: şehir_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_il, S0B1Token: şehrin_il, S0Lemma: şehir, S0POS: Noun, S0Token: şehrin, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, şehir_isGouvernedBy_üye: true, şehir_isGouvernedBy_üye_POSSESSOR: true, 
+B0Lemma: yasak, B0POS: Noun, B0Token: yasakları, B1Lemma: hiç, B1POS: Noun, B1Token: hiçe, S0B0Distance: 1, S0B0Lemma: ,_yasak, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_yasak, S0B0Token: ,_yasakları, S0B1Lemma: ,_hiç, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_hiç, S0B1Token: ,_hiçe, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [parti, il, başkanları ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yasakları, hiçe, _ ,.. ]
 
-B0Lemma: parti, B0POS: Noun, B0Token: parti, B1Lemma: il, B1POS: Noun, B1Token: il, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: yasak, B0POS: Noun, B0Token: yasakları, B1Lemma: hiç, B1POS: Noun, B1Token: hiçe, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [parti]   B= [il, başkanları, ve ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yasakları]   B= [hiçe, _, sayarak ,.. ]
 
-B0Lemma: il, B0POS: Noun, B0Token: il, B1Lemma: başkan, B1POS: Noun, B1Token: başkanları, S0B0Distance: 1, S0B0Lemma: parti_il, S0B0LemmaPOS: parti_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_il, S0B0Token: parti_il, S0B1Lemma: parti_başkan, S0B1LemmaPOS: parti_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_başkan, S0B1Token: parti_başkanları, S0Lemma: parti, S0POS: Noun, S0Token: parti, parti_isGouvernedBy_il: true, parti_isGouvernedBy_il_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: hiç, B0POS: Noun, B0Token: hiçe, B1Lemma: say, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: yasak_hiç, S0B0LemmaPOS: yasak_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_hiç, S0B0Token: yasakları_hiçe, S0B1Lemma: yasak_say, S0B1LemmaPOS: yasak_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_say, S0B1Token: yasakları__, S0Lemma: yasak, S0POS: Noun, S0Token: yasakları, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yasak_isGouvernedBy_say: true, yasak_isGouvernedBy_say_OBJECT: true, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, başkanları, ve ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hiçe, _, sayarak ,.. ]
 
-B0Lemma: il, B0POS: Noun, B0Token: il, B1Lemma: başkan, B1POS: Noun, B1Token: başkanları, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: hiç, B0POS: Noun, B0Token: hiçe, B1Lemma: say, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [başkanları, ve, Belediye ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hiçe]   B= [_, sayarak, Belgrad ,.. ]
 
-B0Lemma: başkan, B0POS: Noun, B0Token: başkanları, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: il_başkan, S0B0LemmaPOS: il_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_başkan, S0B0Token: il_başkanları, S0B1Lemma: il_ve, S0B1LemmaPOS: il_Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_ve, S0B1Token: il_ve, S0Lemma: il, S0POS: Noun, S0Token: il, il_isGouvernedBy_başkan: true, il_isGouvernedBy_başkan_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: say, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adverb, B1Token: sayarak, S0B0Distance: 1, S0B0Lemma: hiç_say, S0B0LemmaPOS: hiç_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_say, S0B0Token: hiçe__, S0B1Lemma: hiç__, S0B1LemmaPOS: hiç_Adverb, S0B1POS: Noun_Adverb, S0B1POSLemma: Noun__, S0B1Token: hiçe_sayarak, S0Lemma: hiç, S0POS: Noun, S0Token: hiçe, hiç_isGouvernedBy_say: true, hiç_isGouvernedBy_say_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [başkanları, ve, Belediye ,.. ]
+68- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hiçe, _]   B= [sayarak, Belgrad, caddelerinde ,.. ]
 
-B0Lemma: başkan, B0POS: Noun, B0Token: başkanları, B1Lemma: ve, B1POS: Conj, B1Token: ve, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: _, B0POS: Adverb, B0Token: sayarak, B1Lemma: Belgrad, B1POS: Noun, B1Token: Belgrad, S0B0Distance: 1, S0B0Lemma: say__, S0B0LemmaPOS: say_Adverb, S0B0POS: Verb_Adverb, S0B0POSLemma: Verb__, S0B0Token: __sayarak, S0B1Lemma: say_Belgrad, S0B1LemmaPOS: say_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_Belgrad, S0B1Token: __Belgrad, S0Lemma: say, S0POS: Verb, S0Token: _, S1B0Lemma: hiç__, S1B0LemmaPOS: hiç_Adverb, S1B0POS: Noun_Adverb, S1B0POSLemma: Noun__, S1B0Token: hiçe_sayarak, S1Lemma: hiç, S1POS: Noun, S1S0Lemma: hiç_say, S1S0LemmaPOS: hiç_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_say, S1S0Token: hiçe__, S1Token: hiçe, SyntaxicRelation: -MODIFIER, say_isGouvernedBy__: true, say_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [başkanları]   B= [ve, Belediye, Meclisi ,.. ]
+69- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hiçe]   B= [sayarak, Belgrad, caddelerinde ,.. ]
 
-B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: belediye, B1POS: Noun, B1Token: Belediye, S0B0Distance: 1, S0B0Lemma: başkan_ve, S0B0LemmaPOS: başkan_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: başkanları_ve, S0B1Lemma: başkan_belediye, S0B1LemmaPOS: başkan_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_belediye, S0B1Token: başkanları_Belediye, S0Lemma: başkan, S0POS: Noun, S0Token: başkanları, başkan_hasRighDep_CONJUNCTION: true, başkan_isGouvernedBy_üye: true, başkan_isGouvernedBy_üye_COORDINATION: true, başkan_ve_hasRighDep_CONJUNCTION: true, hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: _, B0POS: Adverb, B0Token: sayarak, B1Lemma: Belgrad, B1POS: Noun, B1Token: Belgrad, S0B0Distance: 2, S0B0Lemma: hiç__, S0B0LemmaPOS: hiç_Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun__, S0B0Token: hiçe_sayarak, S0B1Lemma: hiç_Belgrad, S0B1LemmaPOS: hiç_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Belgrad, S0B1Token: hiçe_Belgrad, S0Lemma: hiç, S0POS: Noun, S0Token: hiçe, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, Belediye, Meclisi ,.. ]
+70- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hiçe, sayarak]   B= [Belgrad, caddelerinde, yürüdü ,.. ]
 
-B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: belediye, B1POS: Noun, B1Token: Belediye, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: Belgrad, B0POS: Noun, B0Token: Belgrad, B1Lemma: cadde, B1POS: Noun, B1Token: caddelerinde, S0B0Distance: 1, S0B0Lemma: __Belgrad, S0B0LemmaPOS: __Noun, S0B0POS: Adverb_Noun, S0B0POSLemma: Adverb_Belgrad, S0B0Token: sayarak_Belgrad, S0B1Lemma: __cadde, S0B1LemmaPOS: __Noun, S0B1POS: Adverb_Noun, S0B1POSLemma: Adverb_cadde, S0B1Token: sayarak_caddelerinde, S0Lemma: _, S0POS: Adverb, S0Token: sayarak, S1B0Lemma: hiç_Belgrad, S1B0LemmaPOS: hiç_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_Belgrad, S1B0Token: hiçe_Belgrad, S1Lemma: hiç, S1POS: Noun, S1S0Lemma: hiç__, S1S0LemmaPOS: hiç_Adverb, S1S0POS: Noun_Adverb, S1S0POSLemma: Noun__, S1S0Token: hiçe_sayarak, S1Token: hiçe, __isGouvernedBy_yürü: true, __isGouvernedBy_yürü_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [Belediye, Meclisi, üyeleri ,.. ]
+71- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[hiçe, sayarak]]   B= [Belgrad, caddelerinde, yürüdü ,.. ]
 
-B0Lemma: belediye, B0POS: Noun, B0Token: Belediye, B1Lemma: meclis, B1POS: Noun, B1Token: Meclisi, S0B0Distance: 1, S0B0Lemma: ve_belediye, S0B0LemmaPOS: ve_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_belediye, S0B0Token: ve_Belediye, S0B1Lemma: ve_meclis, S0B1LemmaPOS: ve_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_meclis, S0B1Token: ve_Meclisi, S0Lemma: ve, S0POS: Conj, S0Token: ve, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: Belgrad, B0POS: Noun, B0Token: Belgrad, B1Lemma: cadde, B1POS: Noun, B1Token: caddelerinde, S0B0Distance: 1, S0B0Lemma: hiç___Belgrad, S0B0LemmaPOS: hiç___Noun, S0B0POS: Noun_Adverb_Noun, S0B0POSLemma: Noun_Adverb_Belgrad, S0B0Token: hiçe_sayarak_Belgrad, S0B1Lemma: hiç___cadde, S0B1LemmaPOS: hiç___Noun, S0B1POS: Noun_Adverb_Noun, S0B1POSLemma: Noun_Adverb_cadde, S0B1Token: hiçe_sayarak_caddelerinde, S0Lemma: hiç__, S0POS: Noun_Adverb, S0Token: hiçe_sayarak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Belediye, Meclisi, üyeleri ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Belgrad, caddelerinde, yürüdü ,.. ]
 
-B0Lemma: belediye, B0POS: Noun, B0Token: Belediye, B1Lemma: meclis, B1POS: Noun, B1Token: Meclisi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: Belgrad, B0POS: Noun, B0Token: Belgrad, B1Lemma: cadde, B1POS: Noun, B1Token: caddelerinde, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Belediye]   B= [Meclisi, üyeleri, , ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Belgrad]   B= [caddelerinde, yürüdü, . ,.. ]
 
-B0Lemma: meclis, B0POS: Noun, B0Token: Meclisi, B1IsInLexic: true, B1Lemma: üye, B1POS: Noun, B1Token: üyeleri, S0B0Distance: 1, S0B0Lemma: belediye_meclis, S0B0LemmaPOS: belediye_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_meclis, S0B0Token: Belediye_Meclisi, S0B1Lemma: belediye_üye, S0B1LemmaPOS: belediye_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_üye, S0B1Token: Belediye_üyeleri, S0Lemma: belediye, S0POS: Noun, S0Token: Belediye, belediye_isGouvernedBy_meclis: true, belediye_isGouvernedBy_meclis_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: cadde, B0POS: Noun, B0Token: caddelerinde, B1Lemma: yürü, B1POS: Verb, B1Token: yürüdü, Belgrad_isGouvernedBy_cadde: true, Belgrad_isGouvernedBy_cadde_POSSESSOR: true, S0B0Distance: 1, S0B0Lemma: Belgrad_cadde, S0B0LemmaPOS: Belgrad_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_cadde, S0B0Token: Belgrad_caddelerinde, S0B1Lemma: Belgrad_yürü, S0B1LemmaPOS: Belgrad_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_yürü, S0B1Token: Belgrad_yürüdü, S0Lemma: Belgrad, S0POS: Noun, S0Token: Belgrad, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Meclisi, üyeleri, , ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [caddelerinde, yürüdü, . ,.. ]
 
-B0Lemma: meclis, B0POS: Noun, B0Token: Meclisi, B1IsInLexic: true, B1Lemma: üye, B1POS: Noun, B1Token: üyeleri, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: cadde, B0POS: Noun, B0Token: caddelerinde, B1Lemma: yürü, B1POS: Verb, B1Token: yürüdü, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Meclisi]   B= [üyeleri, ,, memleketin ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [caddelerinde]   B= [yürüdü, . ,.. ]
 
-B0IsInLexic: true, B0Lemma: üye, B0POS: Noun, B0Token: üyeleri, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: meclis_üye, S0B0LemmaPOS: meclis_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_üye, S0B0Token: Meclisi_üyeleri, S0B1Lemma: meclis_,, S0B1LemmaPOS: meclis_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: Meclisi_,, S0Lemma: meclis, S0POS: Noun, S0Token: Meclisi, meclis_isGouvernedBy_üye: true, meclis_isGouvernedBy_üye_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+B0Lemma: yürü, B0POS: Verb, B0Token: yürüdü, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: cadde_yürü, S0B0LemmaPOS: cadde_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_yürü, S0B0Token: caddelerinde_yürüdü, S0B1Lemma: cadde_., S0B1LemmaPOS: cadde_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: caddelerinde_., S0Lemma: cadde, S0POS: Noun, S0Token: caddelerinde, cadde_isGouvernedBy_yürü: true, cadde_isGouvernedBy_yürü_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [üyeleri, ,, memleketin ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yürüdü, . ,.. ]
 
-B0IsInLexic: true, B0Lemma: üye, B0POS: Noun, B0Token: üyeleri, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+B0Lemma: yürü, B0POS: Verb, B0Token: yürüdü, B1Lemma: ., B1POS: Punc, B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [üyeleri]   B= [,, memleketin, yüksek ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yürüdü]   B= [.]
 
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: memleket, B1POS: Noun, B1Token: memleketin, S0B0Distance: 1, S0B0Lemma: üye_,, S0B0LemmaPOS: üye_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: üyeleri_,, S0B1Lemma: üye_memleket, S0B1LemmaPOS: üye_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_memleket, S0B1Token: üyeleri_memleketin, S0IsInLexic: true, S0Lemma: üye, S0POS: Noun, S0Token: üyeleri, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, üye_,_hasRighDep_PUNCTUATION: true, üye_hasRighDep_PUNCTUATION: true, üye_isGouvernedBy_mı: true, üye_isGouvernedBy_mı_SUBJECT: true, 
+B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: yürü_., S0B0LemmaPOS: yürü_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: yürüdü_., S0Lemma: yürü, S0POS: Verb, S0Token: yürüdü, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, memleketin, yüksek ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: memleket, B1POS: Noun, B1Token: memleketin, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [memleketin, yüksek, politikasını ,.. ]
-
-B0Lemma: memleket, B0POS: Noun, B0Token: memleketin, B1Lemma: yüksek, B1POS: Adj, B1Token: yüksek, S0B0Distance: 1, S0B0Lemma: ,_memleket, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_memleket, S0B0Token: ,_memleketin, S0B1Lemma: ,_yüksek, S0B1LemmaPOS: ,_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc_yüksek, S0B1Token: ,_yüksek, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [memleketin, yüksek, politikasını ,.. ]
-
-B0Lemma: memleket, B0POS: Noun, B0Token: memleketin, B1Lemma: yüksek, B1POS: Adj, B1Token: yüksek, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [memleketin]   B= [yüksek, politikasını, , ,.. ]
-
-B0Lemma: yüksek, B0POS: Adj, B0Token: yüksek, B1IsInLexic: true, B1Lemma: politika, B1POS: Noun, B1Token: politikasını, S0B0Distance: 1, S0B0Lemma: memleket_yüksek, S0B0LemmaPOS: memleket_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_yüksek, S0B0Token: memleketin_yüksek, S0B1Lemma: memleket_politika, S0B1LemmaPOS: memleket_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_politika, S0B1Token: memleketin_politikasını, S0Lemma: memleket, S0POS: Noun, S0Token: memleketin, memleket_isGouvernedBy_politika: true, memleket_isGouvernedBy_politika_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yüksek, politikasını, , ,.. ]
-
-B0Lemma: yüksek, B0POS: Adj, B0Token: yüksek, B1IsInLexic: true, B1Lemma: politika, B1POS: Noun, B1Token: politikasını, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yüksek]   B= [politikasını, ,, arada ,.. ]
-
-B0IsInLexic: true, B0Lemma: politika, B0POS: Noun, B0Token: politikasını, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: yüksek_politika, S0B0LemmaPOS: yüksek_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_politika, S0B0Token: yüksek_politikasını, S0B1Lemma: yüksek_,, S0B1LemmaPOS: yüksek_Punc, S0B1POS: Adj_Punc, S0B1POSLemma: Adj_,, S0B1Token: yüksek_,, S0Lemma: yüksek, S0POS: Adj, S0Token: yüksek, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yüksek_isGouvernedBy_politika: true, yüksek_isGouvernedBy_politika_MODIFIER: true, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [politikasını, ,, arada ,.. ]
-
-B0IsInLexic: true, B0Lemma: politika, B0POS: Noun, B0Token: politikasını, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [politikasını]   B= [,, arada, sırada ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: ara, B1POS: Noun, B1Token: arada, S0B0Distance: 1, S0B0Lemma: politika_,, S0B0LemmaPOS: politika_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: politikasını_,, S0B1Lemma: politika_ara, S0B1LemmaPOS: politika_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_ara, S0B1Token: politikasını_arada, S0IsInLexic: true, S0Lemma: politika, S0POS: Noun, S0Token: politikasını, hasRighDep_PUNCTUATION: true, politika_,_hasRighDep_PUNCTUATION: true, politika_hasRighDep_PUNCTUATION: true, politika_isGouvernedBy_mı: true, politika_isGouvernedBy_mı_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, arada, sırada ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: ara, B1POS: Noun, B1Token: arada, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [arada, sırada, bir ,.. ]
-
-B0IsInLexic: true, B0Lemma: ara, B0POS: Noun, B0Token: arada, B1IsInLexic: true, B1Lemma: sıra, B1POS: Noun, B1Token: sırada, S0B0Distance: 1, S0B0Lemma: ,_ara, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_ara, S0B0Token: ,_arada, S0B1Lemma: ,_sıra, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_sıra, S0B1Token: ,_sırada, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [arada, sırada, bir ,.. ]
-
-B0IsInLexic: true, B0Lemma: ara, B0POS: Noun, B0Token: arada, B1IsInLexic: true, B1Lemma: sıra, B1POS: Noun, B1Token: sırada, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [arada]   B= [sırada, bir, kenara ,.. ]
-
-B0IsInLexic: true, B0Lemma: sıra, B0POS: Noun, B0Token: sırada, B1IsInLexic: true, B1Lemma: bir, B1POS: Adj, B1Token: bir, S0B0Distance: 1, S0B0Lemma: ara_sıra, S0B0LemmaPOS: ara_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_sıra, S0B0Token: arada_sırada, S0B1Lemma: ara_bir, S0B1LemmaPOS: ara_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_bir, S0B1Token: arada_bir, S0IsInLexic: true, S0Lemma: ara, S0POS: Noun, S0Token: arada, ara_isGouvernedBy_mı: true, ara_isGouvernedBy_mı_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sırada, bir, kenara ,.. ]
-
-B0IsInLexic: true, B0Lemma: sıra, B0POS: Noun, B0Token: sırada, B1IsInLexic: true, B1Lemma: bir, B1POS: Adj, B1Token: bir, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sırada]   B= [bir, kenara, _ ,.. ]
-
-B0IsInLexic: true, B0Lemma: bir, B0POS: Adj, B0Token: bir, B1IsInLexic: true, B1Lemma: kenar, B1POS: Noun, B1Token: kenara, S0B0Distance: 1, S0B0Lemma: sıra_bir, S0B0LemmaPOS: sıra_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_bir, S0B0Token: sırada_bir, S0B1Lemma: sıra_kenar, S0B1LemmaPOS: sıra_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_kenar, S0B1Token: sırada_kenara, S0IsInLexic: true, S0Lemma: sıra, S0POS: Noun, S0Token: sırada, sıra_isGouvernedBy_mı: true, sıra_isGouvernedBy_mı_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bir, kenara, _ ,.. ]
-
-B0IsInLexic: true, B0Lemma: bir, B0POS: Adj, B0Token: bir, B1IsInLexic: true, B1Lemma: kenar, B1POS: Noun, B1Token: kenara, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir]   B= [kenara, _, koyup ,.. ]
-
-B0IsInLexic: true, B0Lemma: kenar, B0POS: Noun, B0Token: kenara, B1IsInLexic: true, B1Lemma: koy, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: bir_kenar, S0B0LemmaPOS: bir_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_kenar, S0B0Token: bir_kenara, S0B1Lemma: bir_koy, S0B1LemmaPOS: bir_Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_koy, S0B1Token: bir__, S0IsInLexic: true, S0Lemma: bir, S0POS: Adj, S0Token: bir, bir_isGouvernedBy_kenar: true, bir_isGouvernedBy_kenar_DETERMINER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir, kenara]   B= [_, koyup, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: koy, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adverb, B1Token: koyup, S0B0Distance: 1, S0B0Lemma: kenar_koy, S0B0LemmaPOS: kenar_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_koy, S0B0Token: kenara__, S0B1Lemma: kenar__, S0B1LemmaPOS: kenar_Adverb, S0B1POS: Noun_Adverb, S0B1POSLemma: Noun__, S0B1Token: kenara_koyup, S0IsInLexic: true, S0Lemma: kenar, S0POS: Noun, S0Token: kenara, S1B0Lemma: bir_koy, S1B0LemmaPOS: bir_Verb, S1B0POS: Adj_Verb, S1B0POSLemma: Adj_koy, S1B0Token: bir__, S1IsInLexic: true, S1Lemma: bir, S1POS: Adj, S1S0Lemma: bir_kenar, S1S0LemmaPOS: bir_Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_kenar, S1S0Token: bir_kenara, S1Token: bir, SyntaxicRelation: -DETERMINER, kenar_isGouvernedBy_koy: true, kenar_isGouvernedBy_koy_MODIFIER: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir, kenara, _]   B= [koyup, ,, halkın ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adverb, B0Token: koyup, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: koy__, S0B0LemmaPOS: koy_Adverb, S0B0POS: Verb_Adverb, S0B0POSLemma: Verb__, S0B0Token: __koyup, S0B1Lemma: koy_,, S0B1LemmaPOS: koy_Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_,, S0B1Token: __,, S0IsInLexic: true, S0Lemma: koy, S0POS: Verb, S0Token: _, S1B0Lemma: kenar__, S1B0LemmaPOS: kenar_Adverb, S1B0POS: Noun_Adverb, S1B0POSLemma: Noun__, S1B0Token: kenara_koyup, S1IsInLexic: true, S1Lemma: kenar, S1POS: Noun, S1S0Lemma: kenar_koy, S1S0LemmaPOS: kenar_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_koy, S1S0Token: kenara__, S1Token: kenara, SyntaxicRelation: -MODIFIER, koy_isGouvernedBy__: true, koy_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir, kenara]   B= [koyup, ,, halkın ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adverb, B0Token: koyup, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 2, S0B0Lemma: kenar__, S0B0LemmaPOS: kenar_Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun__, S0B0Token: kenara_koyup, S0B1Lemma: kenar_,, S0B1LemmaPOS: kenar_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: kenara_,, S0IsInLexic: true, S0Lemma: kenar, S0POS: Noun, S0Token: kenara, S1B0Lemma: bir__, S1B0LemmaPOS: bir_Adverb, S1B0POS: Adj_Adverb, S1B0POSLemma: Adj__, S1B0Token: bir_koyup, S1IsInLexic: true, S1Lemma: bir, S1POS: Adj, S1S0Lemma: bir_kenar, S1S0LemmaPOS: bir_Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_kenar, S1S0Token: bir_kenara, S1Token: bir, SyntaxicRelation: -DETERMINER, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 000, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir, kenara, koyup]   B= [,, halkın, günlük ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: halk, B1POS: Noun, B1Token: halkın, S0B0Distance: 1, S0B0Lemma: __,, S0B0LemmaPOS: __Punc, S0B0POS: Adverb_Punc, S0B0POSLemma: Adverb_,, S0B0Token: koyup_,, S0B1Lemma: __halk, S0B1LemmaPOS: __Noun, S0B1POS: Adverb_Noun, S0B1POSLemma: Adverb_halk, S0B1Token: koyup_halkın, S0IsInLexic: true, S0Lemma: _, S0POS: Adverb, S0Token: koyup, S1B0Lemma: kenar_,, S1B0LemmaPOS: kenar_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_,, S1B0Token: kenara_,, S1IsInLexic: true, S1Lemma: kenar, S1POS: Noun, S1S0Lemma: kenar__, S1S0LemmaPOS: kenar_Adverb, S1S0POS: Noun_Adverb, S1S0POSLemma: Noun__, S1S0Token: kenara_koyup, S1Token: kenara, __,_hasRighDep_PUNCTUATION: true, __hasRighDep_PUNCTUATION: true, __isGouvernedBy_mı: true, __isGouvernedBy_mı_MODIFIER: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-40- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir, [kenara, koyup]]   B= [,, halkın, günlük ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: halk, B1POS: Noun, B1Token: halkın, S0B0Distance: 1, S0B0Lemma: kenar___,, S0B0LemmaPOS: kenar___Punc, S0B0POS: Noun_Adverb_Punc, S0B0POSLemma: Noun_Adverb_,, S0B0Token: kenara_koyup_,, S0B1Lemma: kenar___halk, S0B1LemmaPOS: kenar___Noun, S0B1POS: Noun_Adverb_Noun, S0B1POSLemma: Noun_Adverb_halk, S0B1Token: kenara_koyup_halkın, S0Lemma: kenar__, S0POS: Noun_Adverb, S0Token: kenara_koyup, S1B0Lemma: bir_,, S1B0LemmaPOS: bir_Punc, S1B0POS: Adj_Punc, S1B0POSLemma: Adj_,, S1B0Token: bir_,, S1IsInLexic: true, S1Lemma: bir, S1POS: Adj, S1S0Lemma: bir_kenar__, S1S0LemmaPOS: bir_Noun_Adverb, S1S0POS: Adj_Noun_Adverb, S1S0POSLemma: Adj_kenar__, S1S0Token: bir_kenara_koyup, S1Token: bir, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-41- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[bir, [kenara, koyup]]]   B= [,, halkın, günlük ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: halk, B1POS: Noun, B1Token: halkın, S0B0Distance: 1, S0B0Lemma: bir_kenar___,, S0B0LemmaPOS: bir_kenar___Punc, S0B0POS: Adj_Noun_Adverb_Punc, S0B0POSLemma: Adj_Noun_Adverb_,, S0B0Token: bir_kenara_koyup_,, S0B1Lemma: bir_kenar___halk, S0B1LemmaPOS: bir_kenar___Noun, S0B1POS: Adj_Noun_Adverb_Noun, S0B1POSLemma: Adj_Noun_Adverb_halk, S0B1Token: bir_kenara_koyup_halkın, S0Lemma: bir_kenar__, S0POS: Adj_Noun_Adverb, S0Token: bir_kenara_koyup, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, halkın, günlük ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: halk, B1POS: Noun, B1Token: halkın, transitionHistoryLength1: 1, transitionHistoryLength2: 11, transitionHistoryLength3: 110, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [halkın, günlük, sorunlarıyla ,.. ]
-
-B0Lemma: halk, B0POS: Noun, B0Token: halkın, B1Lemma: günlük, B1POS: Adj, B1Token: günlük, S0B0Distance: 1, S0B0Lemma: ,_halk, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_halk, S0B0Token: ,_halkın, S0B1Lemma: ,_günlük, S0B1LemmaPOS: ,_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc_günlük, S0B1Token: ,_günlük, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 211, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [halkın, günlük, sorunlarıyla ,.. ]
-
-B0Lemma: halk, B0POS: Noun, B0Token: halkın, B1Lemma: günlük, B1POS: Adj, B1Token: günlük, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [halkın]   B= [günlük, sorunlarıyla, ilgilenseler ,.. ]
-
-B0Lemma: günlük, B0POS: Adj, B0Token: günlük, B1IsInLexic: true, B1Lemma: sorun, B1POS: Noun, B1Token: sorunlarıyla, S0B0Distance: 1, S0B0Lemma: halk_günlük, S0B0LemmaPOS: halk_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_günlük, S0B0Token: halkın_günlük, S0B1Lemma: halk_sorun, S0B1LemmaPOS: halk_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_sorun, S0B1Token: halkın_sorunlarıyla, S0Lemma: halk, S0POS: Noun, S0Token: halkın, halk_isGouvernedBy_sorun: true, halk_isGouvernedBy_sorun_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [günlük, sorunlarıyla, ilgilenseler ,.. ]
-
-B0Lemma: günlük, B0POS: Adj, B0Token: günlük, B1IsInLexic: true, B1Lemma: sorun, B1POS: Noun, B1Token: sorunlarıyla, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [günlük]   B= [sorunlarıyla, ilgilenseler, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: sorun, B0POS: Noun, B0Token: sorunlarıyla, B1Lemma: ilgilen, B1POS: Verb, B1Token: ilgilenseler, S0B0Distance: 1, S0B0Lemma: günlük_sorun, S0B0LemmaPOS: günlük_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_sorun, S0B0Token: günlük_sorunlarıyla, S0B1Lemma: günlük_ilgilen, S0B1LemmaPOS: günlük_Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_ilgilen, S0B1Token: günlük_ilgilenseler, S0Lemma: günlük, S0POS: Adj, S0Token: günlük, günlük_isGouvernedBy_sorun: true, günlük_isGouvernedBy_sorun_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sorunlarıyla, ilgilenseler, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: sorun, B0POS: Noun, B0Token: sorunlarıyla, B1Lemma: ilgilen, B1POS: Verb, B1Token: ilgilenseler, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sorunlarıyla]   B= [ilgilenseler, ,, daha ,.. ]
-
-B0Lemma: ilgilen, B0POS: Verb, B0Token: ilgilenseler, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: sorun_ilgilen, S0B0LemmaPOS: sorun_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ilgilen, S0B0Token: sorunlarıyla_ilgilenseler, S0B1Lemma: sorun_,, S0B1LemmaPOS: sorun_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: sorunlarıyla_,, S0IsInLexic: true, S0Lemma: sorun, S0POS: Noun, S0Token: sorunlarıyla, sorun_isGouvernedBy_ilgilen: true, sorun_isGouvernedBy_ilgilen_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ilgilenseler, ,, daha ,.. ]
-
-B0Lemma: ilgilen, B0POS: Verb, B0Token: ilgilenseler, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ilgilenseler]   B= [,, daha, _ ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: daha, B1POS: Adverb, B1Token: daha, S0B0Distance: 1, S0B0Lemma: ilgilen_,, S0B0LemmaPOS: ilgilen_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_,, S0B0Token: ilgilenseler_,, S0B1Lemma: ilgilen_daha, S0B1LemmaPOS: ilgilen_Adverb, S0B1POS: Verb_Adverb, S0B1POSLemma: Verb_daha, S0B1Token: ilgilenseler_daha, S0Lemma: ilgilen, S0POS: Verb, S0Token: ilgilenseler, hasRighDep_PUNCTUATION: true, ilgilen_,_hasRighDep_PUNCTUATION: true, ilgilen_hasRighDep_PUNCTUATION: true, ilgilen_isGouvernedBy_mı: true, ilgilen_isGouvernedBy_mı_COORDINATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, daha, _ ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: daha, B1POS: Adverb, B1Token: daha, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [daha, _, faydalı ,.. ]
-
-B0Lemma: daha, B0POS: Adverb, B0Token: daha, B1IsInLexic: true, B1Lemma: fayda, B1POS: Noun, B1Token: _, S0B0Distance: 1, S0B0Lemma: ,_daha, S0B0LemmaPOS: ,_Adverb, S0B0POS: Punc_Adverb, S0B0POSLemma: Punc_daha, S0B0Token: ,_daha, S0B1Lemma: ,_fayda, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_fayda, S0B1Token: ,__, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [daha, _, faydalı ,.. ]
-
-B0Lemma: daha, B0POS: Adverb, B0Token: daha, B1IsInLexic: true, B1Lemma: fayda, B1POS: Noun, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daha]   B= [_, faydalı, olmazlar ,.. ]
-
-B0IsInLexic: true, B0Lemma: fayda, B0POS: Noun, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: faydalı, S0B0Distance: 1, S0B0Lemma: daha_fayda, S0B0LemmaPOS: daha_Noun, S0B0POS: Adverb_Noun, S0B0POSLemma: Adverb_fayda, S0B0Token: daha__, S0B1Lemma: daha__, S0B1LemmaPOS: daha_Adj, S0B1POS: Adverb_Adj, S0B1POSLemma: Adverb__, S0B1Token: daha_faydalı, S0Lemma: daha, S0POS: Adverb, S0Token: daha, daha_isGouvernedBy__: true, daha_isGouvernedBy___MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, faydalı, olmazlar ,.. ]
-
-B0IsInLexic: true, B0Lemma: fayda, B0POS: Noun, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: faydalı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [faydalı, olmazlar, mı ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: faydalı, B1IsInLexic: true, B1Lemma: ol, B1POS: Verb, B1Token: olmazlar, S0B0Distance: 1, S0B0Lemma: fayda__, S0B0LemmaPOS: fayda_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: __faydalı, S0B1Lemma: fayda_ol, S0B1LemmaPOS: fayda_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_ol, S0B1Token: __olmazlar, S0IsInLexic: true, S0Lemma: fayda, S0POS: Noun, S0Token: _, fayda_isGouvernedBy__: true, fayda_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [faydalı, olmazlar, mı ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: faydalı, B1IsInLexic: true, B1Lemma: ol, B1POS: Verb, B1Token: olmazlar, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [faydalı]   B= [olmazlar, mı, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: ol, B0POS: Verb, B0Token: olmazlar, B1Lemma: mı, B1POS: Postp, B1Token: mı, S0B0Distance: 1, S0B0Lemma: __ol, S0B0LemmaPOS: __Verb, S0B0POS: Adj_Verb, S0B0POSLemma: Adj_ol, S0B0Token: faydalı_olmazlar, S0B1Lemma: __mı, S0B1LemmaPOS: __Postp, S0B1POS: Adj_Postp, S0B1POSLemma: Adj_mı, S0B1Token: faydalı_mı, S0IsInLexic: true, S0Lemma: _, S0POS: Adj, S0Token: faydalı, __isGouvernedBy_ol: true, __isGouvernedBy_ol_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-60- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [faydalı, olmazlar]   B= [mı, . ,.. ]
-
-B0Lemma: mı, B0POS: Postp, B0Token: mı, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: ol_mı, S0B0LemmaPOS: ol_Postp, S0B0POS: Verb_Postp, S0B0POSLemma: Verb_mı, S0B0Token: olmazlar_mı, S0B1Lemma: ol_., S0B1LemmaPOS: ol_Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_., S0B1Token: olmazlar_., S0IsInLexic: true, S0Lemma: ol, S0POS: Verb, S0Token: olmazlar, S1B0Lemma: __mı, S1B0LemmaPOS: __Postp, S1B0POS: Adj_Postp, S1B0POSLemma: Adj_mı, S1B0Token: faydalı_mı, S1IsInLexic: true, S1Lemma: _, S1POS: Adj, S1S0Lemma: __ol, S1S0LemmaPOS: __Verb, S1S0POS: Adj_Verb, S1S0POSLemma: Adj_ol, S1S0Token: faydalı_olmazlar, S1Token: faydalı, SyntaxicRelation: -MODIFIER, ol_isGouvernedBy_mı: true, ol_isGouvernedBy_mı_ARGUMENT: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-61- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[faydalı, olmazlar]]   B= [mı, . ,.. ]
-
-B0Lemma: mı, B0POS: Postp, B0Token: mı, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: __ol_mı, S0B0LemmaPOS: __ol_Postp, S0B0POS: Adj_Verb_Postp, S0B0POSLemma: Adj_Verb_mı, S0B0Token: faydalı_olmazlar_mı, S0B1Lemma: __ol_., S0B1LemmaPOS: __ol_Punc, S0B1POS: Adj_Verb_Punc, S0B1POSLemma: Adj_Verb_., S0B1Token: faydalı_olmazlar_., S0Lemma: __ol, S0POS: Adj_Verb, S0Token: faydalı_olmazlar, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mı, . ,.. ]
-
-B0Lemma: mı, B0POS: Postp, B0Token: mı, B1Lemma: ., B1POS: Punc, B1Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mı]   B= [.]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: mı_., S0B0LemmaPOS: mı_Punc, S0B0POS: Postp_Punc, S0B0POSLemma: Postp_., S0B0Token: mı_., S0Lemma: mı, S0POS: Postp, S0Token: mı, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 5509 - 
-Kitaba katkı _ yapan dokuz yazardan özellikle , Türkiye'nin Batı'yla ilişkileri konusunda _ yoğunlaşan Henri Barkey ve Philip Robins'in makaleleri , _ bilinen ama her zaman telaffuz _ edilmeyen gerçekleri ortaya döküyor . 
-### Existing MWEs: 
-1- **telaffuz edilmeyen** (LVC)
-2- **ortaya döküyor** (ID)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kitaba, katkı, _ ,.. ]
-
-B0Lemma: kitap, B0POS: Noun, B0Token: Kitaba, B1IsInLexic: true, B1Lemma: katkı, B1POS: Noun, B1Token: katkı, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kitaba]   B= [katkı, _, yapan ,.. ]
-
-B0IsInLexic: true, B0Lemma: katkı, B0POS: Noun, B0Token: katkı, B1IsInLexic: true, B1Lemma: yap, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: kitap_katkı, S0B0LemmaPOS: kitap_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_katkı, S0B0Token: Kitaba_katkı, S0B1Lemma: kitap_yap, S0B1LemmaPOS: kitap_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_yap, S0B1Token: Kitaba__, S0Lemma: kitap, S0POS: Noun, S0Token: Kitaba, kitap_isGouvernedBy_yap: true, kitap_isGouvernedBy_yap_MODIFIER: true, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [katkı, _, yapan ,.. ]
-
-B0IsInLexic: true, B0Lemma: katkı, B0POS: Noun, B0Token: katkı, B1IsInLexic: true, B1Lemma: yap, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [katkı]   B= [_, yapan, dokuz ,.. ]
-
-B0IsInLexic: true, B0Lemma: yap, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: yapan, S0B0Distance: 1, S0B0Lemma: katkı_yap, S0B0LemmaPOS: katkı_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_yap, S0B0Token: katkı__, S0B1Lemma: katkı__, S0B1LemmaPOS: katkı_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: katkı_yapan, S0IsInLexic: true, S0Lemma: katkı, S0POS: Noun, S0Token: katkı, katkı_isGouvernedBy_yap: true, katkı_isGouvernedBy_yap_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, yapan, dokuz ,.. ]
-
-B0IsInLexic: true, B0Lemma: yap, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: yapan, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [yapan, dokuz, yazardan ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: yapan, B1Lemma: dokuz, B1POS: Adj, B1Token: dokuz, S0B0Distance: 1, S0B0Lemma: yap__, S0B0LemmaPOS: yap_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __yapan, S0B1Lemma: yap_dokuz, S0B1LemmaPOS: yap_Adj, S0B1POS: Verb_Adj, S0B1POSLemma: Verb_dokuz, S0B1Token: __dokuz, S0IsInLexic: true, S0Lemma: yap, S0POS: Verb, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yap_isGouvernedBy__: true, yap_isGouvernedBy___DERIV: true, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yapan, dokuz, yazardan ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: yapan, B1Lemma: dokuz, B1POS: Adj, B1Token: dokuz, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yapan]   B= [dokuz, yazardan, özellikle ,.. ]
-
-B0Lemma: dokuz, B0POS: Adj, B0Token: dokuz, B1Lemma: yazar, B1POS: Noun, B1Token: yazardan, S0B0Distance: 1, S0B0Lemma: __dokuz, S0B0LemmaPOS: __Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_dokuz, S0B0Token: yapan_dokuz, S0B1Lemma: __yazar, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_yazar, S0B1Token: yapan_yazardan, S0IsInLexic: true, S0Lemma: _, S0POS: Adj, S0Token: yapan, __isGouvernedBy_yazar: true, __isGouvernedBy_yazar_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dokuz, yazardan, özellikle ,.. ]
-
-B0Lemma: dokuz, B0POS: Adj, B0Token: dokuz, B1Lemma: yazar, B1POS: Noun, B1Token: yazardan, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dokuz]   B= [yazardan, özellikle, , ,.. ]
-
-B0Lemma: yazar, B0POS: Noun, B0Token: yazardan, B1Lemma: özellik, B1POS: Noun, B1Token: özellikle, S0B0Distance: 1, S0B0Lemma: dokuz_yazar, S0B0LemmaPOS: dokuz_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_yazar, S0B0Token: dokuz_yazardan, S0B1Lemma: dokuz_özellik, S0B1LemmaPOS: dokuz_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_özellik, S0B1Token: dokuz_özellikle, S0Lemma: dokuz, S0POS: Adj, S0Token: dokuz, dokuz_isGouvernedBy_yazar: true, dokuz_isGouvernedBy_yazar_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yazardan, özellikle, , ,.. ]
-
-B0Lemma: yazar, B0POS: Noun, B0Token: yazardan, B1Lemma: özellik, B1POS: Noun, B1Token: özellikle, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yazardan]   B= [özellikle, ,, Türkiye'nin ,.. ]
-
-B0Lemma: özellik, B0POS: Noun, B0Token: özellikle, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: yazar_özellik, S0B0LemmaPOS: yazar_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_özellik, S0B0Token: yazardan_özellikle, S0B1Lemma: yazar_,, S0B1LemmaPOS: yazar_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: yazardan_,, S0Lemma: yazar, S0POS: Noun, S0Token: yazardan, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yazar_isGouvernedBy_özellik: true, yazar_isGouvernedBy_özellik_MODIFIER: true, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [özellikle, ,, Türkiye'nin ,.. ]
-
-B0Lemma: özellik, B0POS: Noun, B0Token: özellikle, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [özellikle]   B= [,, Türkiye'nin, Batı'yla ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: Türkiye, B1POS: Noun, B1Token: Türkiye'nin, S0B0Distance: 1, S0B0Lemma: özellik_,, S0B0LemmaPOS: özellik_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: özellikle_,, S0B1Lemma: özellik_Türkiye, S0B1LemmaPOS: özellik_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Türkiye, S0B1Token: özellikle_Türkiye'nin, S0Lemma: özellik, S0POS: Noun, S0Token: özellikle, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, özellik_,_hasRighDep_PUNCTUATION: true, özellik_hasRighDep_PUNCTUATION: true, özellik_isGouvernedBy_dök: true, özellik_isGouvernedBy_dök_MODIFIER: true, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, Türkiye'nin, Batı'yla ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: Türkiye, B1POS: Noun, B1Token: Türkiye'nin, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [Türkiye'nin, Batı'yla, ilişkileri ,.. ]
-
-B0Lemma: Türkiye, B0POS: Noun, B0Token: Türkiye'nin, B1Lemma: Batı, B1POS: Noun, B1Token: Batı'yla, S0B0Distance: 1, S0B0Lemma: ,_Türkiye, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_Türkiye, S0B0Token: ,_Türkiye'nin, S0B1Lemma: ,_Batı, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_Batı, S0B1Token: ,_Batı'yla, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Türkiye'nin, Batı'yla, ilişkileri ,.. ]
-
-B0Lemma: Türkiye, B0POS: Noun, B0Token: Türkiye'nin, B1Lemma: Batı, B1POS: Noun, B1Token: Batı'yla, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Türkiye'nin]   B= [Batı'yla, ilişkileri, konusunda ,.. ]
-
-B0Lemma: Batı, B0POS: Noun, B0Token: Batı'yla, B1IsInLexic: true, B1Lemma: ilişki, B1POS: Noun, B1Token: ilişkileri, S0B0Distance: 1, S0B0Lemma: Türkiye_Batı, S0B0LemmaPOS: Türkiye_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Batı, S0B0Token: Türkiye'nin_Batı'yla, S0B1Lemma: Türkiye_ilişki, S0B1LemmaPOS: Türkiye_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_ilişki, S0B1Token: Türkiye'nin_ilişkileri, S0Lemma: Türkiye, S0POS: Noun, S0Token: Türkiye'nin, Türkiye_isGouvernedBy_dök: true, Türkiye_isGouvernedBy_dök_SUBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Batı'yla, ilişkileri, konusunda ,.. ]
-
-B0Lemma: Batı, B0POS: Noun, B0Token: Batı'yla, B1IsInLexic: true, B1Lemma: ilişki, B1POS: Noun, B1Token: ilişkileri, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Batı'yla]   B= [ilişkileri, konusunda, _ ,.. ]
-
-B0IsInLexic: true, B0Lemma: ilişki, B0POS: Noun, B0Token: ilişkileri, B1IsInLexic: true, B1Lemma: konu, B1POS: Noun, B1Token: konusunda, Batı_isGouvernedBy_yoğunlaş: true, Batı_isGouvernedBy_yoğunlaş_MODIFIER: true, S0B0Distance: 1, S0B0Lemma: Batı_ilişki, S0B0LemmaPOS: Batı_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_ilişki, S0B0Token: Batı'yla_ilişkileri, S0B1Lemma: Batı_konu, S0B1LemmaPOS: Batı_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_konu, S0B1Token: Batı'yla_konusunda, S0Lemma: Batı, S0POS: Noun, S0Token: Batı'yla, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ilişkileri, konusunda, _ ,.. ]
-
-B0IsInLexic: true, B0Lemma: ilişki, B0POS: Noun, B0Token: ilişkileri, B1IsInLexic: true, B1Lemma: konu, B1POS: Noun, B1Token: konusunda, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ilişkileri]   B= [konusunda, _, yoğunlaşan ,.. ]
-
-B0IsInLexic: true, B0Lemma: konu, B0POS: Noun, B0Token: konusunda, B1Lemma: yoğunlaş, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: ilişki_konu, S0B0LemmaPOS: ilişki_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_konu, S0B0Token: ilişkileri_konusunda, S0B1Lemma: ilişki_yoğunlaş, S0B1LemmaPOS: ilişki_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_yoğunlaş, S0B1Token: ilişkileri__, S0IsInLexic: true, S0Lemma: ilişki, S0POS: Noun, S0Token: ilişkileri, ilişki_isGouvernedBy_konu: true, ilişki_isGouvernedBy_konu_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [konusunda, _, yoğunlaşan ,.. ]
-
-B0IsInLexic: true, B0Lemma: konu, B0POS: Noun, B0Token: konusunda, B1Lemma: yoğunlaş, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [konusunda]   B= [_, yoğunlaşan, Henri ,.. ]
-
-B0Lemma: yoğunlaş, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: yoğunlaşan, S0B0Distance: 1, S0B0Lemma: konu_yoğunlaş, S0B0LemmaPOS: konu_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_yoğunlaş, S0B0Token: konusunda__, S0B1Lemma: konu__, S0B1LemmaPOS: konu_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: konusunda_yoğunlaşan, S0IsInLexic: true, S0Lemma: konu, S0POS: Noun, S0Token: konusunda, konu_isGouvernedBy_yoğunlaş: true, konu_isGouvernedBy_yoğunlaş_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, yoğunlaşan, Henri ,.. ]
-
-B0Lemma: yoğunlaş, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: yoğunlaşan, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [yoğunlaşan, Henri, Barkey ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: yoğunlaşan, B1Lemma: Henri, B1POS: Noun, B1Token: Henri, S0B0Distance: 1, S0B0Lemma: yoğunlaş__, S0B0LemmaPOS: yoğunlaş_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __yoğunlaşan, S0B1Lemma: yoğunlaş_Henri, S0B1LemmaPOS: yoğunlaş_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_Henri, S0B1Token: __Henri, S0Lemma: yoğunlaş, S0POS: Verb, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yoğunlaş_isGouvernedBy__: true, yoğunlaş_isGouvernedBy___DERIV: true, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yoğunlaşan, Henri, Barkey ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: yoğunlaşan, B1Lemma: Henri, B1POS: Noun, B1Token: Henri, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yoğunlaşan]   B= [Henri, Barkey, ve ,.. ]
-
-B0Lemma: Henri, B0POS: Noun, B0Token: Henri, B1Lemma: Barkey, B1POS: Noun, B1Token: Barkey, S0B0Distance: 1, S0B0Lemma: __Henri, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_Henri, S0B0Token: yoğunlaşan_Henri, S0B1Lemma: __Barkey, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_Barkey, S0B1Token: yoğunlaşan_Barkey, S0IsInLexic: true, S0Lemma: _, S0POS: Adj, S0Token: yoğunlaşan, __isGouvernedBy_dök: true, __isGouvernedBy_dök_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Henri, Barkey, ve ,.. ]
-
-B0Lemma: Henri, B0POS: Noun, B0Token: Henri, B1Lemma: Barkey, B1POS: Noun, B1Token: Barkey, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Henri]   B= [Barkey, ve, Philip ,.. ]
-
-B0Lemma: Barkey, B0POS: Noun, B0Token: Barkey, B1Lemma: ve, B1POS: Conj, B1Token: ve, Henri_isGouvernedBy_Barkey: true, Henri_isGouvernedBy_Barkey_MWE: true, S0B0Distance: 1, S0B0Lemma: Henri_Barkey, S0B0LemmaPOS: Henri_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Barkey, S0B0Token: Henri_Barkey, S0B1Lemma: Henri_ve, S0B1LemmaPOS: Henri_Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_ve, S0B1Token: Henri_ve, S0Lemma: Henri, S0POS: Noun, S0Token: Henri, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Barkey, ve, Philip ,.. ]
-
-B0Lemma: Barkey, B0POS: Noun, B0Token: Barkey, B1Lemma: ve, B1POS: Conj, B1Token: ve, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Barkey]   B= [ve, Philip, Robins'in ,.. ]
-
-B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: Philip, B1POS: Noun, B1Token: Philip, Barkey_hasRighDep_CONJUNCTION: true, Barkey_isGouvernedBy_Philip: true, Barkey_isGouvernedBy_Philip_COORDINATION: true, Barkey_ve_hasRighDep_CONJUNCTION: true, S0B0Distance: 1, S0B0Lemma: Barkey_ve, S0B0LemmaPOS: Barkey_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: Barkey_ve, S0B1Lemma: Barkey_Philip, S0B1LemmaPOS: Barkey_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Philip, S0B1Token: Barkey_Philip, S0Lemma: Barkey, S0POS: Noun, S0Token: Barkey, hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, Philip, Robins'in ,.. ]
-
-B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: Philip, B1POS: Noun, B1Token: Philip, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [Philip, Robins'in, makaleleri ,.. ]
-
-B0Lemma: Philip, B0POS: Noun, B0Token: Philip, B1Lemma: Robins'in, B1POS: ?, B1Token: Robins'in, S0B0Distance: 1, S0B0Lemma: ve_Philip, S0B0LemmaPOS: ve_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_Philip, S0B0Token: ve_Philip, S0B1Lemma: ve_Robins'in, S0B1LemmaPOS: ve_?, S0B1POS: Conj_?, S0B1POSLemma: Conj_Robins'in, S0B1Token: ve_Robins'in, S0Lemma: ve, S0POS: Conj, S0Token: ve, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Philip, Robins'in, makaleleri ,.. ]
-
-B0Lemma: Philip, B0POS: Noun, B0Token: Philip, B1Lemma: Robins'in, B1POS: ?, B1Token: Robins'in, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Philip]   B= [Robins'in, makaleleri, , ,.. ]
-
-B0Lemma: Robins'in, B0POS: ?, B0Token: Robins'in, B1Lemma: makale, B1POS: Noun, B1Token: makaleleri, Philip_isGouvernedBy_dök: true, Philip_isGouvernedBy_dök_SUBJECT: true, S0B0Distance: 1, S0B0Lemma: Philip_Robins'in, S0B0LemmaPOS: Philip_?, S0B0POS: Noun_?, S0B0POSLemma: Noun_Robins'in, S0B0Token: Philip_Robins'in, S0B1Lemma: Philip_makale, S0B1LemmaPOS: Philip_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_makale, S0B1Token: Philip_makaleleri, S0Lemma: Philip, S0POS: Noun, S0Token: Philip, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Robins'in, makaleleri, , ,.. ]
-
-B0Lemma: Robins'in, B0POS: ?, B0Token: Robins'in, B1Lemma: makale, B1POS: Noun, B1Token: makaleleri, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Robins'in]   B= [makaleleri, ,, _ ,.. ]
-
-B0Lemma: makale, B0POS: Noun, B0Token: makaleleri, B1Lemma: ,, B1POS: Punc, B1Token: ,, Robins'in_isGouvernedBy_makale: true, Robins'in_isGouvernedBy_makale_MODIFIER: true, S0B0Distance: 1, S0B0Lemma: Robins'in_makale, S0B0LemmaPOS: Robins'in_Noun, S0B0POS: ?_Noun, S0B0POSLemma: ?_makale, S0B0Token: Robins'in_makaleleri, S0B1Lemma: Robins'in_,, S0B1LemmaPOS: Robins'in_Punc, S0B1POS: ?_Punc, S0B1POSLemma: ?_,, S0B1Token: Robins'in_,, S0Lemma: Robins'in, S0POS: ?, S0Token: Robins'in, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [makaleleri, ,, _ ,.. ]
-
-B0Lemma: makale, B0POS: Noun, B0Token: makaleleri, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [makaleleri]   B= [,, _, bilinen ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: bil, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: makale_,, S0B0LemmaPOS: makale_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: makaleleri_,, S0B1Lemma: makale_bil, S0B1LemmaPOS: makale_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_bil, S0B1Token: makaleleri__, S0Lemma: makale, S0POS: Noun, S0Token: makaleleri, hasRighDep_PUNCTUATION: true, makale_,_hasRighDep_PUNCTUATION: true, makale_hasRighDep_PUNCTUATION: true, makale_isGouvernedBy_dök: true, makale_isGouvernedBy_dök_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, _, bilinen ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: bil, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [_, bilinen, ama ,.. ]
-
-B0Lemma: bil, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: bilinen, S0B0Distance: 1, S0B0Lemma: ,_bil, S0B0LemmaPOS: ,_Verb, S0B0POS: Punc_Verb, S0B0POSLemma: Punc_bil, S0B0Token: ,__, S0B1Lemma: ,__, S0B1LemmaPOS: ,_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc__, S0B1Token: ,_bilinen, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, bilinen, ama ,.. ]
-
-B0Lemma: bil, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: bilinen, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [bilinen, ama, her ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: bilinen, B1Lemma: ama, B1POS: Conj, B1Token: ama, S0B0Distance: 1, S0B0Lemma: bil__, S0B0LemmaPOS: bil_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __bilinen, S0B1Lemma: bil_ama, S0B1LemmaPOS: bil_Conj, S0B1POS: Verb_Conj, S0B1POSLemma: Verb_ama, S0B1Token: __ama, S0Lemma: bil, S0POS: Verb, S0Token: _, bil_isGouvernedBy__: true, bil_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bilinen, ama, her ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: bilinen, B1Lemma: ama, B1POS: Conj, B1Token: ama, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bilinen]   B= [ama, her, zaman ,.. ]
-
-B0Lemma: ama, B0POS: Conj, B0Token: ama, B1IsInLexic: true, B1Lemma: her, B1POS: Det, B1Token: her, S0B0Distance: 1, S0B0Lemma: __ama, S0B0LemmaPOS: __Conj, S0B0POS: Adj_Conj, S0B0POSLemma: Adj_ama, S0B0Token: bilinen_ama, S0B1Lemma: __her, S0B1LemmaPOS: __Det, S0B1POS: Adj_Det, S0B1POSLemma: Adj_her, S0B1Token: bilinen_her, S0IsInLexic: true, S0Lemma: _, S0POS: Adj, S0Token: bilinen, __ama_hasRighDep_CONJUNCTION: true, __hasRighDep_CONJUNCTION: true, __isGouvernedBy__: true, __isGouvernedBy___COORDINATION: true, hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ama, her, zaman ,.. ]
-
-B0Lemma: ama, B0POS: Conj, B0Token: ama, B1IsInLexic: true, B1Lemma: her, B1POS: Det, B1Token: her, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ama]   B= [her, zaman, telaffuz ,.. ]
-
-B0IsInLexic: true, B0Lemma: her, B0POS: Det, B0Token: her, B1IsInLexic: true, B1Lemma: zaman, B1POS: Noun, B1Token: zaman, S0B0Distance: 1, S0B0Lemma: ama_her, S0B0LemmaPOS: ama_Det, S0B0POS: Conj_Det, S0B0POSLemma: Conj_her, S0B0Token: ama_her, S0B1Lemma: ama_zaman, S0B1LemmaPOS: ama_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_zaman, S0B1Token: ama_zaman, S0Lemma: ama, S0POS: Conj, S0Token: ama, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [her, zaman, telaffuz ,.. ]
-
-B0IsInLexic: true, B0Lemma: her, B0POS: Det, B0Token: her, B1IsInLexic: true, B1Lemma: zaman, B1POS: Noun, B1Token: zaman, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [her]   B= [zaman, telaffuz, _ ,.. ]
-
-B0IsInLexic: true, B0Lemma: zaman, B0POS: Noun, B0Token: zaman, B1IsInLexic: true, B1Lemma: telaffuz, B1POS: Noun, B1Token: telaffuz, S0B0Distance: 1, S0B0Lemma: her_zaman, S0B0LemmaPOS: her_Noun, S0B0POS: Det_Noun, S0B0POSLemma: Det_zaman, S0B0Token: her_zaman, S0B1Lemma: her_telaffuz, S0B1LemmaPOS: her_Noun, S0B1POS: Det_Noun, S0B1POSLemma: Det_telaffuz, S0B1Token: her_telaffuz, S0IsInLexic: true, S0Lemma: her, S0POS: Det, S0Token: her, her_isGouvernedBy_zaman: true, her_isGouvernedBy_zaman_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zaman, telaffuz, _ ,.. ]
-
-B0IsInLexic: true, B0Lemma: zaman, B0POS: Noun, B0Token: zaman, B1IsInLexic: true, B1Lemma: telaffuz, B1POS: Noun, B1Token: telaffuz, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zaman]   B= [telaffuz, _, edilmeyen ,.. ]
-
-B0IsInLexic: true, B0Lemma: telaffuz, B0POS: Noun, B0Token: telaffuz, B1IsInLexic: true, B1Lemma: et, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: zaman_telaffuz, S0B0LemmaPOS: zaman_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_telaffuz, S0B0Token: zaman_telaffuz, S0B1Lemma: zaman_et, S0B1LemmaPOS: zaman_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_et, S0B1Token: zaman__, S0IsInLexic: true, S0Lemma: zaman, S0POS: Noun, S0Token: zaman, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, zaman_isGouvernedBy_et: true, zaman_isGouvernedBy_et_MODIFIER: true, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [telaffuz, _, edilmeyen ,.. ]
-
-B0IsInLexic: true, B0Lemma: telaffuz, B0POS: Noun, B0Token: telaffuz, B1IsInLexic: true, B1Lemma: et, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [telaffuz]   B= [_, edilmeyen, gerçekleri ,.. ]
-
-B0IsInLexic: true, B0Lemma: et, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Adj, B1Token: edilmeyen, S0B0Distance: 1, S0B0Lemma: telaffuz_et, S0B0LemmaPOS: telaffuz_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_et, S0B0Token: telaffuz__, S0B1Lemma: telaffuz__, S0B1LemmaPOS: telaffuz_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: telaffuz_edilmeyen, S0IsInLexic: true, S0Lemma: telaffuz, S0POS: Noun, S0Token: telaffuz, telaffuz_isGouvernedBy_et: true, telaffuz_isGouvernedBy_et_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [telaffuz, _]   B= [edilmeyen, gerçekleri, ortaya ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: edilmeyen, B1Lemma: gerçek, B1POS: Noun, B1Token: gerçekleri, S0B0Distance: 1, S0B0Lemma: et__, S0B0LemmaPOS: et_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __edilmeyen, S0B1Lemma: et_gerçek, S0B1LemmaPOS: et_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_gerçek, S0B1Token: __gerçekleri, S0IsInLexic: true, S0Lemma: et, S0POS: Verb, S0Token: _, S1B0Lemma: telaffuz__, S1B0LemmaPOS: telaffuz_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: telaffuz_edilmeyen, S1IsInLexic: true, S1Lemma: telaffuz, S1POS: Noun, S1S0Lemma: telaffuz_et, S1S0LemmaPOS: telaffuz_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_et, S1S0Token: telaffuz__, S1Token: telaffuz, SyntaxicRelation: -MWE, et_isGouvernedBy__: true, et_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-55- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [telaffuz]   B= [edilmeyen, gerçekleri, ortaya ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Adj, B0Token: edilmeyen, B1Lemma: gerçek, B1POS: Noun, B1Token: gerçekleri, S0B0Distance: 2, S0B0Lemma: telaffuz__, S0B0LemmaPOS: telaffuz_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: telaffuz_edilmeyen, S0B1Lemma: telaffuz_gerçek, S0B1LemmaPOS: telaffuz_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_gerçek, S0B1Token: telaffuz_gerçekleri, S0IsInLexic: true, S0Lemma: telaffuz, S0POS: Noun, S0Token: telaffuz, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-56- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [telaffuz, edilmeyen]   B= [gerçekleri, ortaya, döküyor ,.. ]
-
-B0Lemma: gerçek, B0POS: Noun, B0Token: gerçekleri, B1IsInLexic: true, B1Lemma: orta, B1POS: Noun, B1Token: ortaya, S0B0Distance: 1, S0B0Lemma: __gerçek, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_gerçek, S0B0Token: edilmeyen_gerçekleri, S0B1Lemma: __orta, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_orta, S0B1Token: edilmeyen_ortaya, S0IsInLexic: true, S0Lemma: _, S0POS: Adj, S0Token: edilmeyen, S1B0Lemma: telaffuz_gerçek, S1B0LemmaPOS: telaffuz_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_gerçek, S1B0Token: telaffuz_gerçekleri, S1IsInLexic: true, S1Lemma: telaffuz, S1POS: Noun, S1S0Lemma: telaffuz__, S1S0LemmaPOS: telaffuz_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: telaffuz_edilmeyen, S1Token: telaffuz, __isGouvernedBy_gerçek: true, __isGouvernedBy_gerçek_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-57- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[telaffuz, edilmeyen]]   B= [gerçekleri, ortaya, döküyor ,.. ]
-
-B0Lemma: gerçek, B0POS: Noun, B0Token: gerçekleri, B1IsInLexic: true, B1Lemma: orta, B1POS: Noun, B1Token: ortaya, S0B0Distance: 1, S0B0Lemma: telaffuz___gerçek, S0B0LemmaPOS: telaffuz___Noun, S0B0POS: Noun_Adj_Noun, S0B0POSLemma: Noun_Adj_gerçek, S0B0Token: telaffuz_edilmeyen_gerçekleri, S0B1Lemma: telaffuz___orta, S0B1LemmaPOS: telaffuz___Noun, S0B1POS: Noun_Adj_Noun, S0B1POSLemma: Noun_Adj_orta, S0B1Token: telaffuz_edilmeyen_ortaya, S0Lemma: telaffuz__, S0POS: Noun_Adj, S0Token: telaffuz_edilmeyen, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gerçekleri, ortaya, döküyor ,.. ]
-
-B0Lemma: gerçek, B0POS: Noun, B0Token: gerçekleri, B1IsInLexic: true, B1Lemma: orta, B1POS: Noun, B1Token: ortaya, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gerçekleri]   B= [ortaya, döküyor, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: orta, B0POS: Noun, B0Token: ortaya, B1IsInLexic: true, B1Lemma: dök, B1POS: Verb, B1Token: döküyor, S0B0Distance: 1, S0B0Lemma: gerçek_orta, S0B0LemmaPOS: gerçek_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_orta, S0B0Token: gerçekleri_ortaya, S0B1Lemma: gerçek_dök, S0B1LemmaPOS: gerçek_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_dök, S0B1Token: gerçekleri_döküyor, S0Lemma: gerçek, S0POS: Noun, S0Token: gerçekleri, gerçek_isGouvernedBy_dök: true, gerçek_isGouvernedBy_dök_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ortaya, döküyor, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: orta, B0POS: Noun, B0Token: ortaya, B1IsInLexic: true, B1Lemma: dök, B1POS: Verb, B1Token: döküyor, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ortaya]   B= [döküyor, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: dök, B0POS: Verb, B0Token: döküyor, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: orta_dök, S0B0LemmaPOS: orta_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_dök, S0B0Token: ortaya_döküyor, S0B1Lemma: orta_., S0B1LemmaPOS: orta_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: ortaya_., S0IsInLexic: true, S0Lemma: orta, S0POS: Noun, S0Token: ortaya, orta_isGouvernedBy_dök: true, orta_isGouvernedBy_dök_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-62- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ortaya, döküyor]   B= [.]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: dök_., S0B0LemmaPOS: dök_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: döküyor_., S0IsInLexic: true, S0Lemma: dök, S0POS: Verb, S0Token: döküyor, S1B0Lemma: orta_., S1B0LemmaPOS: orta_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_., S1B0Token: ortaya_., S1IsInLexic: true, S1Lemma: orta, S1POS: Noun, S1S0Lemma: orta_dök, S1S0LemmaPOS: orta_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_dök, S1S0Token: ortaya_döküyor, S1Token: ortaya, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-63- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ortaya, döküyor]]   B= [.]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: orta_dök_., S0B0LemmaPOS: orta_dök_Punc, S0B0POS: Noun_Verb_Punc, S0B0POSLemma: Noun_Verb_., S0B0Token: ortaya_döküyor_., S0Lemma: orta_dök, S0POS: Noun_Verb, S0Token: ortaya_döküyor, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 5512 - 
-Barkey'e göre , tüm Kürt taleplerini PKK ile _ özdeşleştirme politikası , içte ve dışta bir dönem etkin sonuç _ vermesine rağmen , geri _ tepmeye aday . 
-### Existing MWEs: 
-1- **sonuç vermesine** (OTH)
-2- **geri tepmeye** (ID)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Barkey'e, göre, , ,.. ]
-
-B0Lemma: Barkey, B0POS: Noun, B0Token: Barkey'e, B1IsInLexic: true, B1Lemma: göre, B1POS: Postp, B1Token: göre, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Barkey'e]   B= [göre, ,, tüm ,.. ]
-
-B0IsInLexic: true, B0Lemma: göre, B0POS: Postp, B0Token: göre, B1Lemma: ,, B1POS: Punc, B1Token: ,, Barkey_isGouvernedBy_göre: true, Barkey_isGouvernedBy_göre_ARGUMENT: true, S0B0Distance: 1, S0B0Lemma: Barkey_göre, S0B0LemmaPOS: Barkey_Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_göre, S0B0Token: Barkey'e_göre, S0B1Lemma: Barkey_,, S0B1LemmaPOS: Barkey_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: Barkey'e_,, S0Lemma: Barkey, S0POS: Noun, S0Token: Barkey'e, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [göre, ,, tüm ,.. ]
-
-B0IsInLexic: true, B0Lemma: göre, B0POS: Postp, B0Token: göre, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [göre]   B= [,, tüm, Kürt ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: tüm, B1POS: Det, B1Token: tüm, S0B0Distance: 1, S0B0Lemma: göre_,, S0B0LemmaPOS: göre_Punc, S0B0POS: Postp_Punc, S0B0POSLemma: Postp_,, S0B0Token: göre_,, S0B1Lemma: göre_tüm, S0B1LemmaPOS: göre_Det, S0B1POS: Postp_Det, S0B1POSLemma: Postp_tüm, S0B1Token: göre_tüm, S0IsInLexic: true, S0Lemma: göre, S0POS: Postp, S0Token: göre, göre_,_hasRighDep_PUNCTUATION: true, göre_hasRighDep_PUNCTUATION: true, göre_isGouvernedBy_aday: true, göre_isGouvernedBy_aday_MODIFIER: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, tüm, Kürt ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: tüm, B1POS: Det, B1Token: tüm, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [tüm, Kürt, taleplerini ,.. ]
-
-B0Lemma: tüm, B0POS: Det, B0Token: tüm, B1Lemma: kürt, B1POS: Adj, B1Token: Kürt, S0B0Distance: 1, S0B0Lemma: ,_tüm, S0B0LemmaPOS: ,_Det, S0B0POS: Punc_Det, S0B0POSLemma: Punc_tüm, S0B0Token: ,_tüm, S0B1Lemma: ,_kürt, S0B1LemmaPOS: ,_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc_kürt, S0B1Token: ,_Kürt, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tüm, Kürt, taleplerini ,.. ]
-
-B0Lemma: tüm, B0POS: Det, B0Token: tüm, B1Lemma: kürt, B1POS: Adj, B1Token: Kürt, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tüm]   B= [Kürt, taleplerini, PKK ,.. ]
-
-B0Lemma: kürt, B0POS: Adj, B0Token: Kürt, B1IsInLexic: true, B1Lemma: talep, B1POS: Noun, B1Token: taleplerini, S0B0Distance: 1, S0B0Lemma: tüm_kürt, S0B0LemmaPOS: tüm_Adj, S0B0POS: Det_Adj, S0B0POSLemma: Det_kürt, S0B0Token: tüm_Kürt, S0B1Lemma: tüm_talep, S0B1LemmaPOS: tüm_Noun, S0B1POS: Det_Noun, S0B1POSLemma: Det_talep, S0B1Token: tüm_taleplerini, S0Lemma: tüm, S0POS: Det, S0Token: tüm, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, tüm_isGouvernedBy_talep: true, tüm_isGouvernedBy_talep_DETERMINER: true, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kürt, taleplerini, PKK ,.. ]
-
-B0Lemma: kürt, B0POS: Adj, B0Token: Kürt, B1IsInLexic: true, B1Lemma: talep, B1POS: Noun, B1Token: taleplerini, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kürt]   B= [taleplerini, PKK, ile ,.. ]
-
-B0IsInLexic: true, B0Lemma: talep, B0POS: Noun, B0Token: taleplerini, B1Lemma: Pkk, B1POS: Noun, B1Token: PKK, S0B0Distance: 1, S0B0Lemma: kürt_talep, S0B0LemmaPOS: kürt_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_talep, S0B0Token: Kürt_taleplerini, S0B1Lemma: kürt_Pkk, S0B1LemmaPOS: kürt_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_Pkk, S0B1Token: Kürt_PKK, S0Lemma: kürt, S0POS: Adj, S0Token: Kürt, kürt_isGouvernedBy_talep: true, kürt_isGouvernedBy_talep_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [taleplerini, PKK, ile ,.. ]
-
-B0IsInLexic: true, B0Lemma: talep, B0POS: Noun, B0Token: taleplerini, B1Lemma: Pkk, B1POS: Noun, B1Token: PKK, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [taleplerini]   B= [PKK, ile, _ ,.. ]
-
-B0Lemma: Pkk, B0POS: Noun, B0Token: PKK, B1Lemma: ile, B1POS: Conj, B1Token: ile, S0B0Distance: 1, S0B0Lemma: talep_Pkk, S0B0LemmaPOS: talep_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Pkk, S0B0Token: taleplerini_PKK, S0B1Lemma: talep_ile, S0B1LemmaPOS: talep_Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_ile, S0B1Token: taleplerini_ile, S0IsInLexic: true, S0Lemma: talep, S0POS: Noun, S0Token: taleplerini, talep_isGouvernedBy_özdeşleş: true, talep_isGouvernedBy_özdeşleş_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [PKK, ile, _ ,.. ]
-
-B0Lemma: Pkk, B0POS: Noun, B0Token: PKK, B1Lemma: ile, B1POS: Conj, B1Token: ile, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [PKK]   B= [ile, _, özdeşleştirme ,.. ]
-
-B0Lemma: ile, B0POS: Conj, B0Token: ile, B1Lemma: özdeşleş, B1POS: Verb, B1Token: _, Pkk_isGouvernedBy_ile: true, Pkk_isGouvernedBy_ile_ARGUMENT: true, S0B0Distance: 1, S0B0Lemma: Pkk_ile, S0B0LemmaPOS: Pkk_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ile, S0B0Token: PKK_ile, S0B1Lemma: Pkk_özdeşleş, S0B1LemmaPOS: Pkk_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_özdeşleş, S0B1Token: PKK__, S0Lemma: Pkk, S0POS: Noun, S0Token: PKK, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ile, _, özdeşleştirme ,.. ]
-
-B0Lemma: ile, B0POS: Conj, B0Token: ile, B1Lemma: özdeşleş, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ile]   B= [_, özdeşleştirme, politikası ,.. ]
-
-B0Lemma: özdeşleş, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Noun, B1Token: özdeşleştirme, S0B0Distance: 1, S0B0Lemma: ile_özdeşleş, S0B0LemmaPOS: ile_Verb, S0B0POS: Conj_Verb, S0B0POSLemma: Conj_özdeşleş, S0B0Token: ile__, S0B1Lemma: ile__, S0B1LemmaPOS: ile_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj__, S0B1Token: ile_özdeşleştirme, S0Lemma: ile, S0POS: Conj, S0Token: ile, ile_isGouvernedBy_özdeşleş: true, ile_isGouvernedBy_özdeşleş_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, özdeşleştirme, politikası ,.. ]
-
-B0Lemma: özdeşleş, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Noun, B1Token: özdeşleştirme, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [özdeşleştirme, politikası, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: özdeşleştirme, B1IsInLexic: true, B1Lemma: politika, B1POS: Noun, B1Token: politikası, S0B0Distance: 1, S0B0Lemma: özdeşleş__, S0B0LemmaPOS: özdeşleş_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __özdeşleştirme, S0B1Lemma: özdeşleş_politika, S0B1LemmaPOS: özdeşleş_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_politika, S0B1Token: __politikası, S0Lemma: özdeşleş, S0POS: Verb, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, özdeşleş_isGouvernedBy__: true, özdeşleş_isGouvernedBy___DERIV: true, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [özdeşleştirme, politikası, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: özdeşleştirme, B1IsInLexic: true, B1Lemma: politika, B1POS: Noun, B1Token: politikası, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [özdeşleştirme]   B= [politikası, ,, içte ,.. ]
-
-B0IsInLexic: true, B0Lemma: politika, B0POS: Noun, B0Token: politikası, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: __politika, S0B0LemmaPOS: __Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_politika, S0B0Token: özdeşleştirme_politikası, S0B1Lemma: __,, S0B1LemmaPOS: __Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: özdeşleştirme_,, S0IsInLexic: true, S0Lemma: _, S0POS: Noun, S0Token: özdeşleştirme, __isGouvernedBy_politika: true, __isGouvernedBy_politika_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [politikası, ,, içte ,.. ]
-
-B0IsInLexic: true, B0Lemma: politika, B0POS: Noun, B0Token: politikası, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [politikası]   B= [,, içte, ve ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: iç, B1POS: Noun, B1Token: içte, S0B0Distance: 1, S0B0Lemma: politika_,, S0B0LemmaPOS: politika_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: politikası_,, S0B1Lemma: politika_iç, S0B1LemmaPOS: politika_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_iç, S0B1Token: politikası_içte, S0IsInLexic: true, S0Lemma: politika, S0POS: Noun, S0Token: politikası, hasRighDep_PUNCTUATION: true, politika_,_hasRighDep_PUNCTUATION: true, politika_hasRighDep_PUNCTUATION: true, politika_isGouvernedBy_aday: true, politika_isGouvernedBy_aday_SUBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, içte, ve ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: iç, B1POS: Noun, B1Token: içte, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [içte, ve, dışta ,.. ]
-
-B0IsInLexic: true, B0Lemma: iç, B0POS: Noun, B0Token: içte, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: ,_iç, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_iç, S0B0Token: ,_içte, S0B1Lemma: ,_ve, S0B1LemmaPOS: ,_Conj, S0B1POS: Punc_Conj, S0B1POSLemma: Punc_ve, S0B1Token: ,_ve, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [içte, ve, dışta ,.. ]
-
-B0IsInLexic: true, B0Lemma: iç, B0POS: Noun, B0Token: içte, B1Lemma: ve, B1POS: Conj, B1Token: ve, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [içte]   B= [ve, dışta, bir ,.. ]
-
-B0Lemma: ve, B0POS: Conj, B0Token: ve, B1IsInLexic: true, B1Lemma: dış, B1POS: Noun, B1Token: dışta, S0B0Distance: 1, S0B0Lemma: iç_ve, S0B0LemmaPOS: iç_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: içte_ve, S0B1Lemma: iç_dış, S0B1LemmaPOS: iç_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_dış, S0B1Token: içte_dışta, S0IsInLexic: true, S0Lemma: iç, S0POS: Noun, S0Token: içte, hasRighDep_CONJUNCTION: true, iç_hasRighDep_CONJUNCTION: true, iç_isGouvernedBy_dış: true, iç_isGouvernedBy_dış_COORDINATION: true, iç_ve_hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, dışta, bir ,.. ]
-
-B0Lemma: ve, B0POS: Conj, B0Token: ve, B1IsInLexic: true, B1Lemma: dış, B1POS: Noun, B1Token: dışta, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [dışta, bir, dönem ,.. ]
-
-B0IsInLexic: true, B0Lemma: dış, B0POS: Noun, B0Token: dışta, B1IsInLexic: true, B1Lemma: bir, B1POS: Adj, B1Token: bir, S0B0Distance: 1, S0B0Lemma: ve_dış, S0B0LemmaPOS: ve_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_dış, S0B0Token: ve_dışta, S0B1Lemma: ve_bir, S0B1LemmaPOS: ve_Adj, S0B1POS: Conj_Adj, S0B1POSLemma: Conj_bir, S0B1Token: ve_bir, S0Lemma: ve, S0POS: Conj, S0Token: ve, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dışta, bir, dönem ,.. ]
-
-B0IsInLexic: true, B0Lemma: dış, B0POS: Noun, B0Token: dışta, B1IsInLexic: true, B1Lemma: bir, B1POS: Adj, B1Token: bir, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dışta]   B= [bir, dönem, etkin ,.. ]
-
-B0IsInLexic: true, B0Lemma: bir, B0POS: Adj, B0Token: bir, B1Lemma: dönem, B1POS: Noun, B1Token: dönem, S0B0Distance: 1, S0B0Lemma: dış_bir, S0B0LemmaPOS: dış_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_bir, S0B0Token: dışta_bir, S0B1Lemma: dış_dönem, S0B1LemmaPOS: dış_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_dönem, S0B1Token: dışta_dönem, S0IsInLexic: true, S0Lemma: dış, S0POS: Noun, S0Token: dışta, dış_isGouvernedBy_aday: true, dış_isGouvernedBy_aday_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bir, dönem, etkin ,.. ]
-
-B0IsInLexic: true, B0Lemma: bir, B0POS: Adj, B0Token: bir, B1Lemma: dönem, B1POS: Noun, B1Token: dönem, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir]   B= [dönem, etkin, sonuç ,.. ]
-
-B0Lemma: dönem, B0POS: Noun, B0Token: dönem, B1Lemma: etkin, B1POS: Adj, B1Token: etkin, S0B0Distance: 1, S0B0Lemma: bir_dönem, S0B0LemmaPOS: bir_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_dönem, S0B0Token: bir_dönem, S0B1Lemma: bir_etkin, S0B1LemmaPOS: bir_Adj, S0B1POS: Adj_Adj, S0B1POSLemma: Adj_etkin, S0B1Token: bir_etkin, S0IsInLexic: true, S0Lemma: bir, S0POS: Adj, S0Token: bir, bir_isGouvernedBy_dönem: true, bir_isGouvernedBy_dönem_DETERMINER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dönem, etkin, sonuç ,.. ]
-
-B0Lemma: dönem, B0POS: Noun, B0Token: dönem, B1Lemma: etkin, B1POS: Adj, B1Token: etkin, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dönem]   B= [etkin, sonuç, _ ,.. ]
-
-B0Lemma: etkin, B0POS: Adj, B0Token: etkin, B1IsInLexic: true, B1Lemma: sonuç, B1POS: Noun, B1Token: sonuç, S0B0Distance: 1, S0B0Lemma: dönem_etkin, S0B0LemmaPOS: dönem_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_etkin, S0B0Token: dönem_etkin, S0B1Lemma: dönem_sonuç, S0B1LemmaPOS: dönem_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_sonuç, S0B1Token: dönem_sonuç, S0Lemma: dönem, S0POS: Noun, S0Token: dönem, dönem_isGouvernedBy__: true, dönem_isGouvernedBy___POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [etkin, sonuç, _ ,.. ]
-
-B0Lemma: etkin, B0POS: Adj, B0Token: etkin, B1IsInLexic: true, B1Lemma: sonuç, B1POS: Noun, B1Token: sonuç, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [etkin]   B= [sonuç, _, vermesine ,.. ]
-
-B0IsInLexic: true, B0Lemma: sonuç, B0POS: Noun, B0Token: sonuç, B1IsInLexic: true, B1Lemma: ver, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: etkin_sonuç, S0B0LemmaPOS: etkin_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_sonuç, S0B0Token: etkin_sonuç, S0B1Lemma: etkin_ver, S0B1LemmaPOS: etkin_Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_ver, S0B1Token: etkin__, S0Lemma: etkin, S0POS: Adj, S0Token: etkin, etkin_isGouvernedBy_sonuç: true, etkin_isGouvernedBy_sonuç_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sonuç, _, vermesine ,.. ]
-
-B0IsInLexic: true, B0Lemma: sonuç, B0POS: Noun, B0Token: sonuç, B1IsInLexic: true, B1Lemma: ver, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sonuç]   B= [_, vermesine, rağmen ,.. ]
-
-B0IsInLexic: true, B0Lemma: ver, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Noun, B1Token: vermesine, S0B0Distance: 1, S0B0Lemma: sonuç_ver, S0B0LemmaPOS: sonuç_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ver, S0B0Token: sonuç__, S0B1Lemma: sonuç__, S0B1LemmaPOS: sonuç_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: sonuç_vermesine, S0IsInLexic: true, S0Lemma: sonuç, S0POS: Noun, S0Token: sonuç, sonuç_isGouvernedBy_ver: true, sonuç_isGouvernedBy_ver_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sonuç, _]   B= [vermesine, rağmen, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: vermesine, B1Lemma: rağmen, B1POS: Postp, B1Token: rağmen, S0B0Distance: 1, S0B0Lemma: ver__, S0B0LemmaPOS: ver_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __vermesine, S0B1Lemma: ver_rağmen, S0B1LemmaPOS: ver_Postp, S0B1POS: Verb_Postp, S0B1POSLemma: Verb_rağmen, S0B1Token: __rağmen, S0IsInLexic: true, S0Lemma: ver, S0POS: Verb, S0Token: _, S1B0Lemma: sonuç__, S1B0LemmaPOS: sonuç_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun__, S1B0Token: sonuç_vermesine, S1IsInLexic: true, S1Lemma: sonuç, S1POS: Noun, S1S0Lemma: sonuç_ver, S1S0LemmaPOS: sonuç_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_ver, S1S0Token: sonuç__, S1Token: sonuç, SyntaxicRelation: -OBJECT, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, ver_isGouvernedBy__: true, ver_isGouvernedBy___DERIV: true, 
-
-39- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sonuç]   B= [vermesine, rağmen, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: vermesine, B1Lemma: rağmen, B1POS: Postp, B1Token: rağmen, S0B0Distance: 2, S0B0Lemma: sonuç__, S0B0LemmaPOS: sonuç_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun__, S0B0Token: sonuç_vermesine, S0B1Lemma: sonuç_rağmen, S0B1LemmaPOS: sonuç_Postp, S0B1POS: Noun_Postp, S0B1POSLemma: Noun_rağmen, S0B1Token: sonuç_rağmen, S0IsInLexic: true, S0Lemma: sonuç, S0POS: Noun, S0Token: sonuç, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sonuç, vermesine]   B= [rağmen, ,, geri ,.. ]
-
-B0Lemma: rağmen, B0POS: Postp, B0Token: rağmen, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: __rağmen, S0B0LemmaPOS: __Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_rağmen, S0B0Token: vermesine_rağmen, S0B1Lemma: __,, S0B1LemmaPOS: __Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: vermesine_,, S0IsInLexic: true, S0Lemma: _, S0POS: Noun, S0Token: vermesine, S1B0Lemma: sonuç_rağmen, S1B0LemmaPOS: sonuç_Postp, S1B0POS: Noun_Postp, S1B0POSLemma: Noun_rağmen, S1B0Token: sonuç_rağmen, S1IsInLexic: true, S1Lemma: sonuç, S1POS: Noun, S1S0Lemma: sonuç__, S1S0LemmaPOS: sonuç_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun__, S1S0Token: sonuç_vermesine, S1Token: sonuç, __isGouvernedBy_rağmen: true, __isGouvernedBy_rağmen_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-41- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[sonuç, vermesine]]   B= [rağmen, ,, geri ,.. ]
-
-B0Lemma: rağmen, B0POS: Postp, B0Token: rağmen, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: sonuç___rağmen, S0B0LemmaPOS: sonuç___Postp, S0B0POS: Noun_Noun_Postp, S0B0POSLemma: Noun_Noun_rağmen, S0B0Token: sonuç_vermesine_rağmen, S0B1Lemma: sonuç___,, S0B1LemmaPOS: sonuç___Punc, S0B1POS: Noun_Noun_Punc, S0B1POSLemma: Noun_Noun_,, S0B1Token: sonuç_vermesine_,, S0Lemma: sonuç__, S0POS: Noun_Noun, S0Token: sonuç_vermesine, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rağmen, ,, geri ,.. ]
-
-B0Lemma: rağmen, B0POS: Postp, B0Token: rağmen, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rağmen]   B= [,, geri, _ ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: geri, B1POS: Noun, B1Token: geri, S0B0Distance: 1, S0B0Lemma: rağmen_,, S0B0LemmaPOS: rağmen_Punc, S0B0POS: Postp_Punc, S0B0POSLemma: Postp_,, S0B0Token: rağmen_,, S0B1Lemma: rağmen_geri, S0B1LemmaPOS: rağmen_Noun, S0B1POS: Postp_Noun, S0B1POSLemma: Postp_geri, S0B1Token: rağmen_geri, S0Lemma: rağmen, S0POS: Postp, S0Token: rağmen, hasRighDep_PUNCTUATION: true, rağmen_,_hasRighDep_PUNCTUATION: true, rağmen_hasRighDep_PUNCTUATION: true, rağmen_isGouvernedBy_aday: true, rağmen_isGouvernedBy_aday_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, geri, _ ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: geri, B1POS: Noun, B1Token: geri, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [geri, _, tepmeye ,.. ]
-
-B0IsInLexic: true, B0Lemma: geri, B0POS: Noun, B0Token: geri, B1Lemma: tep, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: ,_geri, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_geri, S0B0Token: ,_geri, S0B1Lemma: ,_tep, S0B1LemmaPOS: ,_Verb, S0B1POS: Punc_Verb, S0B1POSLemma: Punc_tep, S0B1Token: ,__, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [geri, _, tepmeye ,.. ]
-
-B0IsInLexic: true, B0Lemma: geri, B0POS: Noun, B0Token: geri, B1Lemma: tep, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [geri]   B= [_, tepmeye, aday ,.. ]
-
-B0Lemma: tep, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Noun, B1Token: tepmeye, S0B0Distance: 1, S0B0Lemma: geri_tep, S0B0LemmaPOS: geri_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_tep, S0B0Token: geri__, S0B1Lemma: geri__, S0B1LemmaPOS: geri_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: geri_tepmeye, S0IsInLexic: true, S0Lemma: geri, S0POS: Noun, S0Token: geri, geri_isGouvernedBy__: true, geri_isGouvernedBy___MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [geri, _]   B= [tepmeye, aday, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: tepmeye, B1Lemma: aday, B1POS: Noun, B1Token: aday, S0B0Distance: 1, S0B0Lemma: tep__, S0B0LemmaPOS: tep_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __tepmeye, S0B1Lemma: tep_aday, S0B1LemmaPOS: tep_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_aday, S0B1Token: __aday, S0Lemma: tep, S0POS: Verb, S0Token: _, S1B0Lemma: geri__, S1B0LemmaPOS: geri_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun__, S1B0Token: geri_tepmeye, S1IsInLexic: true, S1Lemma: geri, S1POS: Noun, S1S0Lemma: geri_tep, S1S0LemmaPOS: geri_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_tep, S1S0Token: geri__, S1Token: geri, tep_isGouvernedBy__: true, tep_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-49- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [geri]   B= [tepmeye, aday, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: tepmeye, B1Lemma: aday, B1POS: Noun, B1Token: aday, S0B0Distance: 2, S0B0Lemma: geri__, S0B0LemmaPOS: geri_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun__, S0B0Token: geri_tepmeye, S0B1Lemma: geri_aday, S0B1LemmaPOS: geri_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_aday, S0B1Token: geri_aday, S0IsInLexic: true, S0Lemma: geri, S0POS: Noun, S0Token: geri, geri_isGouvernedBy__: true, geri_isGouvernedBy___MWE: true, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [geri, tepmeye]   B= [aday, . ,.. ]
-
-B0Lemma: aday, B0POS: Noun, B0Token: aday, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: __aday, S0B0LemmaPOS: __Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_aday, S0B0Token: tepmeye_aday, S0B1Lemma: __., S0B1LemmaPOS: __Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: tepmeye_., S0IsInLexic: true, S0Lemma: _, S0POS: Noun, S0Token: tepmeye, S1B0Lemma: geri_aday, S1B0LemmaPOS: geri_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_aday, S1B0Token: geri_aday, S1IsInLexic: true, S1Lemma: geri, S1POS: Noun, S1S0Lemma: geri__, S1S0LemmaPOS: geri_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun__, S1S0Token: geri_tepmeye, S1Token: geri, SyntaxicRelation: -MWE, __isGouvernedBy_aday: true, __isGouvernedBy_aday_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-51- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[geri, tepmeye]]   B= [aday, . ,.. ]
-
-B0Lemma: aday, B0POS: Noun, B0Token: aday, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: geri___aday, S0B0LemmaPOS: geri___Noun, S0B0POS: Noun_Noun_Noun, S0B0POSLemma: Noun_Noun_aday, S0B0Token: geri_tepmeye_aday, S0B1Lemma: geri___., S0B1LemmaPOS: geri___Punc, S0B1POS: Noun_Noun_Punc, S0B1POSLemma: Noun_Noun_., S0B1Token: geri_tepmeye_., S0Lemma: geri__, S0POS: Noun_Noun, S0Token: geri_tepmeye, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aday, . ,.. ]
-
-B0Lemma: aday, B0POS: Noun, B0Token: aday, B1Lemma: ., B1POS: Punc, B1Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aday]   B= [.]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: aday_., S0B0LemmaPOS: aday_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_., S0B0Token: aday_., S0Lemma: aday, S0POS: Noun, S0Token: aday, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 5522 - 
-SABANCI suikastı sanıklarından Mustafa Duyar'ın Şam'da ele _ geçirilmesi " Yakalandı mı , teslim mi oldu . " _ tartışmasını doğurdu . 
-### Existing MWEs: 
-1- **ele geçirilmesi** (ID)
-2- **teslim oldu** (LVC)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [SABANCI, suikastı, sanıklarından ,.. ]
-
-B0Lemma: sabancı, B0POS: Noun, B0Token: SABANCI, B1Lemma: suikast, B1POS: Noun, B1Token: suikastı, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [SABANCI]   B= [suikastı, sanıklarından, Mustafa ,.. ]
-
-B0Lemma: suikast, B0POS: Noun, B0Token: suikastı, B1Lemma: sanık, B1POS: Noun, B1Token: sanıklarından, S0B0Distance: 1, S0B0Lemma: sabancı_suikast, S0B0LemmaPOS: sabancı_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_suikast, S0B0Token: SABANCI_suikastı, S0B1Lemma: sabancı_sanık, S0B1LemmaPOS: sabancı_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_sanık, S0B1Token: SABANCI_sanıklarından, S0Lemma: sabancı, S0POS: Noun, S0Token: SABANCI, sabancı_isGouvernedBy_suikast: true, sabancı_isGouvernedBy_suikast_POSSESSOR: true, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [suikastı, sanıklarından, Mustafa ,.. ]
-
-B0Lemma: suikast, B0POS: Noun, B0Token: suikastı, B1Lemma: sanık, B1POS: Noun, B1Token: sanıklarından, transitionHistoryLength1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [suikastı]   B= [sanıklarından, Mustafa, Duyar'ın ,.. ]
-
-B0Lemma: sanık, B0POS: Noun, B0Token: sanıklarından, B1Lemma: Mustafa, B1POS: Noun, B1Token: Mustafa, S0B0Distance: 1, S0B0Lemma: suikast_sanık, S0B0LemmaPOS: suikast_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_sanık, S0B0Token: suikastı_sanıklarından, S0B1Lemma: suikast_Mustafa, S0B1LemmaPOS: suikast_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Mustafa, S0B1Token: suikastı_Mustafa, S0Lemma: suikast, S0POS: Noun, S0Token: suikastı, suikast_isGouvernedBy_sanık: true, suikast_isGouvernedBy_sanık_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sanıklarından, Mustafa, Duyar'ın ,.. ]
-
-B0Lemma: sanık, B0POS: Noun, B0Token: sanıklarından, B1Lemma: Mustafa, B1POS: Noun, B1Token: Mustafa, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sanıklarından]   B= [Mustafa, Duyar'ın, Şam'da ,.. ]
-
-B0Lemma: Mustafa, B0POS: Noun, B0Token: Mustafa, B1Lemma: Duyar, B1POS: Noun, B1Token: Duyar'ın, S0B0Distance: 1, S0B0Lemma: sanık_Mustafa, S0B0LemmaPOS: sanık_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Mustafa, S0B0Token: sanıklarından_Mustafa, S0B1Lemma: sanık_Duyar, S0B1LemmaPOS: sanık_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Duyar, S0B1Token: sanıklarından_Duyar'ın, S0Lemma: sanık, S0POS: Noun, S0Token: sanıklarından, sanık_isGouvernedBy__: true, sanık_isGouvernedBy___MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Mustafa, Duyar'ın, Şam'da ,.. ]
-
-B0Lemma: Mustafa, B0POS: Noun, B0Token: Mustafa, B1Lemma: Duyar, B1POS: Noun, B1Token: Duyar'ın, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Mustafa]   B= [Duyar'ın, Şam'da, ele ,.. ]
-
-B0Lemma: Duyar, B0POS: Noun, B0Token: Duyar'ın, B1Lemma: Şam, B1POS: Noun, B1Token: Şam'da, Mustafa_isGouvernedBy_Duyar: true, Mustafa_isGouvernedBy_Duyar_MWE: true, S0B0Distance: 1, S0B0Lemma: Mustafa_Duyar, S0B0LemmaPOS: Mustafa_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Duyar, S0B0Token: Mustafa_Duyar'ın, S0B1Lemma: Mustafa_Şam, S0B1LemmaPOS: Mustafa_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Şam, S0B1Token: Mustafa_Şam'da, S0Lemma: Mustafa, S0POS: Noun, S0Token: Mustafa, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Duyar'ın, Şam'da, ele ,.. ]
-
-B0Lemma: Duyar, B0POS: Noun, B0Token: Duyar'ın, B1Lemma: Şam, B1POS: Noun, B1Token: Şam'da, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Duyar'ın]   B= [Şam'da, ele, _ ,.. ]
-
-B0Lemma: Şam, B0POS: Noun, B0Token: Şam'da, B1IsInLexic: true, B1Lemma: el, B1POS: Noun, B1Token: ele, Duyar_isGouvernedBy__: true, Duyar_isGouvernedBy___POSSESSOR: true, S0B0Distance: 1, S0B0Lemma: Duyar_Şam, S0B0LemmaPOS: Duyar_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Şam, S0B0Token: Duyar'ın_Şam'da, S0B1Lemma: Duyar_el, S0B1LemmaPOS: Duyar_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_el, S0B1Token: Duyar'ın_ele, S0Lemma: Duyar, S0POS: Noun, S0Token: Duyar'ın, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Şam'da, ele, _ ,.. ]
-
-B0Lemma: Şam, B0POS: Noun, B0Token: Şam'da, B1IsInLexic: true, B1Lemma: el, B1POS: Noun, B1Token: ele, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Şam'da]   B= [ele, _, geçirilmesi ,.. ]
-
-B0IsInLexic: true, B0Lemma: el, B0POS: Noun, B0Token: ele, B1IsInLexic: true, B1Lemma: geçir, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: Şam_el, S0B0LemmaPOS: Şam_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_el, S0B0Token: Şam'da_ele, S0B1Lemma: Şam_geçir, S0B1LemmaPOS: Şam_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_geçir, S0B1Token: Şam'da__, S0Lemma: Şam, S0POS: Noun, S0Token: Şam'da, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, Şam_isGouvernedBy_geçir: true, Şam_isGouvernedBy_geçir_MODIFIER: true, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ele, _, geçirilmesi ,.. ]
-
-B0IsInLexic: true, B0Lemma: el, B0POS: Noun, B0Token: ele, B1IsInLexic: true, B1Lemma: geçir, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ele]   B= [_, geçirilmesi, " ,.. ]
-
-B0IsInLexic: true, B0Lemma: geçir, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Noun, B1Token: geçirilmesi, S0B0Distance: 1, S0B0Lemma: el_geçir, S0B0LemmaPOS: el_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_geçir, S0B0Token: ele__, S0B1Lemma: el__, S0B1LemmaPOS: el_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: ele_geçirilmesi, S0IsInLexic: true, S0Lemma: el, S0POS: Noun, S0Token: ele, el_isGouvernedBy_geçir: true, el_isGouvernedBy_geçir_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ele, _]   B= [geçirilmesi, ", Yakalandı ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: geçirilmesi, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: geçir__, S0B0LemmaPOS: geçir_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __geçirilmesi, S0B1Lemma: geçir_", S0B1LemmaPOS: geçir_Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_", S0B1Token: __", S0IsInLexic: true, S0Lemma: geçir, S0POS: Verb, S0Token: _, S1B0Lemma: el__, S1B0LemmaPOS: el_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun__, S1B0Token: ele_geçirilmesi, S1IsInLexic: true, S1Lemma: el, S1POS: Noun, S1S0Lemma: el_geçir, S1S0LemmaPOS: el_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_geçir, S1S0Token: ele__, S1Token: ele, SyntaxicRelation: -MWE, geçir_isGouvernedBy__: true, geçir_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-15- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ele]   B= [geçirilmesi, ", Yakalandı ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: geçirilmesi, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 2, S0B0Lemma: el__, S0B0LemmaPOS: el_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun__, S0B0Token: ele_geçirilmesi, S0B1Lemma: el_", S0B1LemmaPOS: el_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: ele_", S0IsInLexic: true, S0Lemma: el, S0POS: Noun, S0Token: ele, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ele, geçirilmesi]   B= [", Yakalandı, mı ,.. ]
-
-B0Lemma: ", B0POS: Punc, B0Token: ", B1IsInLexic: true, B1Lemma: yakala, B1POS: Verb, B1Token: Yakalandı, S0B0Distance: 1, S0B0Lemma: __", S0B0LemmaPOS: __Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_", S0B0Token: geçirilmesi_", S0B1Lemma: __yakala, S0B1LemmaPOS: __Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_yakala, S0B1Token: geçirilmesi_Yakalandı, S0IsInLexic: true, S0Lemma: _, S0POS: Noun, S0Token: geçirilmesi, S1B0Lemma: el_", S1B0LemmaPOS: el_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_", S1B0Token: ele_", S1IsInLexic: true, S1Lemma: el, S1POS: Noun, S1S0Lemma: el__, S1S0LemmaPOS: el_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun__, S1S0Token: ele_geçirilmesi, S1Token: ele, __"_hasRighDep_PUNCTUATION: true, __hasRighDep_PUNCTUATION: true, __isGouvernedBy_yakala: true, __isGouvernedBy_yakala_SUBJECT: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-17- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ele, geçirilmesi]]   B= [", Yakalandı, mı ,.. ]
-
-B0Lemma: ", B0POS: Punc, B0Token: ", B1IsInLexic: true, B1Lemma: yakala, B1POS: Verb, B1Token: Yakalandı, S0B0Distance: 1, S0B0Lemma: el___", S0B0LemmaPOS: el___Punc, S0B0POS: Noun_Noun_Punc, S0B0POSLemma: Noun_Noun_", S0B0Token: ele_geçirilmesi_", S0B1Lemma: el___yakala, S0B1LemmaPOS: el___Verb, S0B1POS: Noun_Noun_Verb, S0B1POSLemma: Noun_Noun_yakala, S0B1Token: ele_geçirilmesi_Yakalandı, S0Lemma: el__, S0POS: Noun_Noun, S0Token: ele_geçirilmesi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", Yakalandı, mı ,.. ]
-
-B0Lemma: ", B0POS: Punc, B0Token: ", B1IsInLexic: true, B1Lemma: yakala, B1POS: Verb, B1Token: Yakalandı, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [Yakalandı, mı, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: yakala, B0POS: Verb, B0Token: Yakalandı, B1Lemma: mı, B1POS: Postp, B1Token: mı, S0B0Distance: 1, S0B0Lemma: "_yakala, S0B0LemmaPOS: "_Verb, S0B0POS: Punc_Verb, S0B0POSLemma: Punc_yakala, S0B0Token: "_Yakalandı, S0B1Lemma: "_mı, S0B1LemmaPOS: "_Postp, S0B1POS: Punc_Postp, S0B1POSLemma: Punc_mı, S0B1Token: "_mı, S0Lemma: ", S0POS: Punc, S0Token: ", transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Yakalandı, mı, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: yakala, B0POS: Verb, B0Token: Yakalandı, B1Lemma: mı, B1POS: Postp, B1Token: mı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Yakalandı]   B= [mı, ,, teslim ,.. ]
-
-B0Lemma: mı, B0POS: Postp, B0Token: mı, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: yakala_mı, S0B0LemmaPOS: yakala_Postp, S0B0POS: Verb_Postp, S0B0POSLemma: Verb_mı, S0B0Token: Yakalandı_mı, S0B1Lemma: yakala_,, S0B1LemmaPOS: yakala_Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_,, S0B1Token: Yakalandı_,, S0IsInLexic: true, S0Lemma: yakala, S0POS: Verb, S0Token: Yakalandı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yakala_isGouvernedBy_mı: true, yakala_isGouvernedBy_mı_ARGUMENT: true, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mı, ,, teslim ,.. ]
-
-B0Lemma: mı, B0POS: Postp, B0Token: mı, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mı]   B= [,, teslim, mi ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: teslim, B1POS: Noun, B1Token: teslim, S0B0Distance: 1, S0B0Lemma: mı_,, S0B0LemmaPOS: mı_Punc, S0B0POS: Postp_Punc, S0B0POSLemma: Postp_,, S0B0Token: mı_,, S0B1Lemma: mı_teslim, S0B1LemmaPOS: mı_Noun, S0B1POS: Postp_Noun, S0B1POSLemma: Postp_teslim, S0B1Token: mı_teslim, S0Lemma: mı, S0POS: Postp, S0Token: mı, hasRighDep_PUNCTUATION: true, mı_,_hasRighDep_PUNCTUATION: true, mı_hasRighDep_PUNCTUATION: true, mı_isGouvernedBy_mi: true, mı_isGouvernedBy_mi_COORDINATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, teslim, mi ,.. ]
-
-B0Lemma: ,, B0POS: Punc, B0Token: ,, B1IsInLexic: true, B1Lemma: teslim, B1POS: Noun, B1Token: teslim, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [teslim, mi, oldu ,.. ]
-
-B0IsInLexic: true, B0Lemma: teslim, B0POS: Noun, B0Token: teslim, B1Lemma: mi, B1POS: Postp, B1Token: mi, S0B0Distance: 1, S0B0Lemma: ,_teslim, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_teslim, S0B0Token: ,_teslim, S0B1Lemma: ,_mi, S0B1LemmaPOS: ,_Postp, S0B1POS: Punc_Postp, S0B1POSLemma: Punc_mi, S0B1Token: ,_mi, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [teslim, mi, oldu ,.. ]
-
-B0IsInLexic: true, B0Lemma: teslim, B0POS: Noun, B0Token: teslim, B1Lemma: mi, B1POS: Postp, B1Token: mi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teslim]   B= [mi, oldu, . ,.. ]
-
-B0Lemma: mi, B0POS: Postp, B0Token: mi, B1IsInLexic: true, B1Lemma: ol, B1POS: Verb, B1Token: oldu, S0B0Distance: 1, S0B0Lemma: teslim_mi, S0B0LemmaPOS: teslim_Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_mi, S0B0Token: teslim_mi, S0B1Lemma: teslim_ol, S0B1LemmaPOS: teslim_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_ol, S0B1Token: teslim_oldu, S0IsInLexic: true, S0Lemma: teslim, S0POS: Noun, S0Token: teslim, teslim_isGouvernedBy_mi: true, teslim_isGouvernedBy_mi_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teslim, mi]   B= [oldu, ., " ,.. ]
-
-B0IsInLexic: true, B0Lemma: ol, B0POS: Verb, B0Token: oldu, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: mi_ol, S0B0LemmaPOS: mi_Verb, S0B0POS: Postp_Verb, S0B0POSLemma: Postp_ol, S0B0Token: mi_oldu, S0B1Lemma: mi_., S0B1LemmaPOS: mi_Punc, S0B1POS: Postp_Punc, S0B1POSLemma: Postp_., S0B1Token: mi_., S0Lemma: mi, S0POS: Postp, S0Token: mi, S1B0Lemma: teslim_ol, S1B0LemmaPOS: teslim_Verb, S1B0POS: Noun_Verb, S1B0POSLemma: Noun_ol, S1B0Token: teslim_oldu, S1IsInLexic: true, S1Lemma: teslim, S1POS: Noun, S1S0Lemma: teslim_mi, S1S0LemmaPOS: teslim_Postp, S1S0POS: Noun_Postp, S1S0POSLemma: Noun_mi, S1S0Token: teslim_mi, S1Token: teslim, SyntaxicRelation: -ARGUMENT, mi_isGouvernedBy_ol: true, mi_isGouvernedBy_ol_OBJECT: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teslim]   B= [oldu, ., " ,.. ]
-
-B0IsInLexic: true, B0Lemma: ol, B0POS: Verb, B0Token: oldu, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 2, S0B0Lemma: teslim_ol, S0B0LemmaPOS: teslim_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ol, S0B0Token: teslim_oldu, S0B1Lemma: teslim_., S0B1LemmaPOS: teslim_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: teslim_., S0IsInLexic: true, S0Lemma: teslim, S0POS: Noun, S0Token: teslim, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
-
-30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teslim, oldu]   B= [., ", _ ,.. ]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: ol_., S0B0LemmaPOS: ol_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: oldu_., S0B1Lemma: ol_", S0B1LemmaPOS: ol_Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_", S0B1Token: oldu_", S0IsInLexic: true, S0Lemma: ol, S0POS: Verb, S0Token: oldu, S1B0Lemma: teslim_., S1B0LemmaPOS: teslim_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_., S1B0Token: teslim_., S1IsInLexic: true, S1Lemma: teslim, S1POS: Noun, S1S0Lemma: teslim_ol, S1S0LemmaPOS: teslim_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_ol, S1S0Token: teslim_oldu, S1Token: teslim, hasRighDep_PUNCTUATION: true, ol_"_hasRighDep_PUNCTUATION: true, ol_._hasRighDep_PUNCTUATION: true, ol_hasRighDep_PUNCTUATION: true, ol_isGouvernedBy_doğur: true, ol_isGouvernedBy_doğur_COORDINATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
-
-31- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[teslim, oldu]]   B= [., ", _ ,.. ]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: teslim_ol_., S0B0LemmaPOS: teslim_ol_Punc, S0B0POS: Noun_Verb_Punc, S0B0POSLemma: Noun_Verb_., S0B0Token: teslim_oldu_., S0B1Lemma: teslim_ol_", S0B1LemmaPOS: teslim_ol_Punc, S0B1POS: Noun_Verb_Punc, S0B1POSLemma: Noun_Verb_", S0B1Token: teslim_oldu_", S0Lemma: teslim_ol, S0POS: Noun_Verb, S0Token: teslim_oldu, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., ", _ ,.. ]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., B1Lemma: ", B1POS: Punc, B1Token: ", transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [", _, tartışmasını ,.. ]
-
-B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: tartış, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: ._", S0B0LemmaPOS: ._Punc, S0B0POS: Punc_Punc, S0B0POSLemma: Punc_", S0B0Token: ._", S0B1Lemma: ._tartış, S0B1LemmaPOS: ._Verb, S0B1POS: Punc_Verb, S0B1POSLemma: Punc_tartış, S0B1Token: .__, S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", _, tartışmasını ,.. ]
-
-B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: tartış, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [_, tartışmasını, doğurdu ,.. ]
-
-B0Lemma: tartış, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Noun, B1Token: tartışmasını, S0B0Distance: 1, S0B0Lemma: "_tartış, S0B0LemmaPOS: "_Verb, S0B0POS: Punc_Verb, S0B0POSLemma: Punc_tartış, S0B0Token: "__, S0B1Lemma: "__, S0B1LemmaPOS: "_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc__, S0B1Token: "_tartışmasını, S0Lemma: ", S0POS: Punc, S0Token: ", transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, tartışmasını, doğurdu ,.. ]
-
-B0Lemma: tartış, B0POS: Verb, B0Token: _, B1IsInLexic: true, B1Lemma: _, B1POS: Noun, B1Token: tartışmasını, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [tartışmasını, doğurdu, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: tartışmasını, B1IsInLexic: true, B1Lemma: doğur, B1POS: Verb, B1Token: doğurdu, S0B0Distance: 1, S0B0Lemma: tartış__, S0B0LemmaPOS: tartış_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __tartışmasını, S0B1Lemma: tartış_doğur, S0B1LemmaPOS: tartış_Verb, S0B1POS: Verb_Verb, S0B1POSLemma: Verb_doğur, S0B1Token: __doğurdu, S0Lemma: tartış, S0POS: Verb, S0Token: _, tartış_isGouvernedBy__: true, tartış_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tartışmasını, doğurdu, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: _, B0POS: Noun, B0Token: tartışmasını, B1IsInLexic: true, B1Lemma: doğur, B1POS: Verb, B1Token: doğurdu, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tartışmasını]   B= [doğurdu, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: doğur, B0POS: Verb, B0Token: doğurdu, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: __doğur, S0B0LemmaPOS: __Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_doğur, S0B0Token: tartışmasını_doğurdu, S0B1Lemma: __., S0B1LemmaPOS: __Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: tartışmasını_., S0IsInLexic: true, S0Lemma: _, S0POS: Noun, S0Token: tartışmasını, __isGouvernedBy_doğur: true, __isGouvernedBy_doğur_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [doğurdu, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: doğur, B0POS: Verb, B0Token: doğurdu, B1Lemma: ., B1POS: Punc, B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [doğurdu]   B= [.]
-
-B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: doğur_., S0B0LemmaPOS: doğur_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: doğurdu_., S0IsInLexic: true, S0Lemma: doğur, S0POS: Verb, S0Token: doğurdu, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
 B0Lemma: ., B0POS: Punc, B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
 S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 8007 - 
+Kısa bir süre önce Ortodoks kilisesinin desteğini arkasına _ alan muhalefet Noel _ kutlamaları neneniyle , yasak _ olmasına rağmen polisin gösteriye müdahele _ etmeyeceğini önceden kestirmişti . 
+### Existing MWEs: 
+2- **desteğini arkasına alan** (ID)
+1- **yasak olmasına** (LVC)
+3- **müdahele etmeyeceğini** (LVC)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kısa, bir, süre ,.. ]
+
+B0Lemma: kısa, B0POS: Adj, B0Token: Kısa, B1Lemma: bir, B1POS: Adj, B1Token: bir, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kısa]   B= [bir, süre, önce ,.. ]
+
+B0Lemma: bir, B0POS: Adj, B0Token: bir, B1Lemma: süre, B1POS: Noun, B1Token: süre, S0B0Distance: 1, S0B0Lemma: kısa_bir, S0B0LemmaPOS: kısa_Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_bir, S0B0Token: Kısa_bir, S0B1Lemma: kısa_süre, S0B1LemmaPOS: kısa_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_süre, S0B1Token: Kısa_süre, S0Lemma: kısa, S0POS: Adj, S0Token: Kısa, kısa_isGouvernedBy_süre: true, kısa_isGouvernedBy_süre_MODIFIER: true, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bir, süre, önce ,.. ]
+
+B0Lemma: bir, B0POS: Adj, B0Token: bir, B1Lemma: süre, B1POS: Noun, B1Token: süre, transitionHistoryLength1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir]   B= [süre, önce, Ortodoks ,.. ]
+
+B0Lemma: süre, B0POS: Noun, B0Token: süre, B1Lemma: önce, B1POS: Adverb, B1Token: önce, S0B0Distance: 1, S0B0Lemma: bir_süre, S0B0LemmaPOS: bir_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_süre, S0B0Token: bir_süre, S0B1Lemma: bir_önce, S0B1LemmaPOS: bir_Adverb, S0B1POS: Adj_Adverb, S0B1POSLemma: Adj_önce, S0B1Token: bir_önce, S0Lemma: bir, S0POS: Adj, S0Token: bir, bir_isGouvernedBy_süre: true, bir_isGouvernedBy_süre_DETERMINER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [süre, önce, Ortodoks ,.. ]
+
+B0Lemma: süre, B0POS: Noun, B0Token: süre, B1Lemma: önce, B1POS: Adverb, B1Token: önce, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [süre]   B= [önce, Ortodoks, kilisesinin ,.. ]
+
+B0Lemma: önce, B0POS: Adverb, B0Token: önce, B1Lemma: ortodoks, B1POS: Adj, B1Token: Ortodoks, S0B0Distance: 1, S0B0Lemma: süre_önce, S0B0LemmaPOS: süre_Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun_önce, S0B0Token: süre_önce, S0B1Lemma: süre_ortodoks, S0B1LemmaPOS: süre_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_ortodoks, S0B1Token: süre_Ortodoks, S0Lemma: süre, S0POS: Noun, S0Token: süre, süre_isGouvernedBy_önce: true, süre_isGouvernedBy_önce_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [önce, Ortodoks, kilisesinin ,.. ]
+
+B0Lemma: önce, B0POS: Adverb, B0Token: önce, B1Lemma: ortodoks, B1POS: Adj, B1Token: Ortodoks, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [önce]   B= [Ortodoks, kilisesinin, desteğini ,.. ]
+
+B0Lemma: ortodoks, B0POS: Adj, B0Token: Ortodoks, B1Lemma: kilise, B1POS: Noun, B1Token: kilisesinin, S0B0Distance: 1, S0B0Lemma: önce_ortodoks, S0B0LemmaPOS: önce_Adj, S0B0POS: Adverb_Adj, S0B0POSLemma: Adverb_ortodoks, S0B0Token: önce_Ortodoks, S0B1Lemma: önce_kilise, S0B1LemmaPOS: önce_Noun, S0B1POS: Adverb_Noun, S0B1POSLemma: Adverb_kilise, S0B1Token: önce_kilisesinin, S0Lemma: önce, S0POS: Adverb, S0Token: önce, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, önce_isGouvernedBy_al: true, önce_isGouvernedBy_al_MODIFIER: true, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Ortodoks, kilisesinin, desteğini ,.. ]
+
+B0Lemma: ortodoks, B0POS: Adj, B0Token: Ortodoks, B1Lemma: kilise, B1POS: Noun, B1Token: kilisesinin, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Ortodoks]   B= [kilisesinin, desteğini, arkasına ,.. ]
+
+B0Lemma: kilise, B0POS: Noun, B0Token: kilisesinin, B1Lemma: destek, B1POS: Noun, B1Token: desteğini, S0B0Distance: 1, S0B0Lemma: ortodoks_kilise, S0B0LemmaPOS: ortodoks_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_kilise, S0B0Token: Ortodoks_kilisesinin, S0B1Lemma: ortodoks_destek, S0B1LemmaPOS: ortodoks_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_destek, S0B1Token: Ortodoks_desteğini, S0Lemma: ortodoks, S0POS: Adj, S0Token: Ortodoks, ortodoks_isGouvernedBy_kilise: true, ortodoks_isGouvernedBy_kilise_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kilisesinin, desteğini, arkasına ,.. ]
+
+B0Lemma: kilise, B0POS: Noun, B0Token: kilisesinin, B1Lemma: destek, B1POS: Noun, B1Token: desteğini, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kilisesinin]   B= [desteğini, arkasına, _ ,.. ]
+
+B0Lemma: destek, B0POS: Noun, B0Token: desteğini, B1Lemma: arka, B1POS: Noun, B1Token: arkasına, S0B0Distance: 1, S0B0Lemma: kilise_destek, S0B0LemmaPOS: kilise_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_destek, S0B0Token: kilisesinin_desteğini, S0B1Lemma: kilise_arka, S0B1LemmaPOS: kilise_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_arka, S0B1Token: kilisesinin_arkasına, S0Lemma: kilise, S0POS: Noun, S0Token: kilisesinin, kilise_isGouvernedBy_destek: true, kilise_isGouvernedBy_destek_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [desteğini, arkasına, _ ,.. ]
+
+B0Lemma: destek, B0POS: Noun, B0Token: desteğini, B1Lemma: arka, B1POS: Noun, B1Token: arkasına, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [desteğini]   B= [arkasına, _, alan ,.. ]
+
+B0Lemma: arka, B0POS: Noun, B0Token: arkasına, B1Lemma: al, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: destek_arka, S0B0LemmaPOS: destek_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_arka, S0B0Token: desteğini_arkasına, S0B1Lemma: destek_al, S0B1LemmaPOS: destek_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_al, S0B1Token: desteğini__, S0Lemma: destek, S0POS: Noun, S0Token: desteğini, destek_isGouvernedBy_al: true, destek_isGouvernedBy_al_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [desteğini, arkasına]   B= [_, alan, muhalefet ,.. ]
+
+B0Lemma: al, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: alan, S0B0Distance: 1, S0B0Lemma: arka_al, S0B0LemmaPOS: arka_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_al, S0B0Token: arkasına__, S0B1Lemma: arka__, S0B1LemmaPOS: arka_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: arkasına_alan, S0Lemma: arka, S0POS: Noun, S0Token: arkasına, S1B0Lemma: destek_al, S1B0LemmaPOS: destek_Verb, S1B0POS: Noun_Verb, S1B0POSLemma: Noun_al, S1B0Token: desteğini__, S1Lemma: destek, S1POS: Noun, S1S0Lemma: destek_arka, S1S0LemmaPOS: destek_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun_arka, S1S0Token: desteğini_arkasına, S1Token: desteğini, arka_isGouvernedBy_al: true, arka_isGouvernedBy_al_MODIFIER: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [desteğini, arkasına, _]   B= [alan, muhalefet, Noel ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: alan, B1Lemma: muhalefet, B1POS: Noun, B1Token: muhalefet, S0B0Distance: 1, S0B0Lemma: al__, S0B0LemmaPOS: al_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __alan, S0B1Lemma: al_muhalefet, S0B1LemmaPOS: al_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_muhalefet, S0B1Token: __muhalefet, S0Lemma: al, S0POS: Verb, S0Token: _, S1B0Lemma: arka__, S1B0LemmaPOS: arka_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: arkasına_alan, S1Lemma: arka, S1POS: Noun, S1S0Lemma: arka_al, S1S0LemmaPOS: arka_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_al, S1S0Token: arkasına__, S1Token: arkasına, SyntaxicRelation: -MODIFIER, al_isGouvernedBy__: true, al_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [desteğini, arkasına]   B= [alan, muhalefet, Noel ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: alan, B1Lemma: muhalefet, B1POS: Noun, B1Token: muhalefet, S0B0Distance: 2, S0B0Lemma: arka__, S0B0LemmaPOS: arka_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: arkasına_alan, S0B1Lemma: arka_muhalefet, S0B1LemmaPOS: arka_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_muhalefet, S0B1Token: arkasına_muhalefet, S0Lemma: arka, S0POS: Noun, S0Token: arkasına, S1B0Lemma: destek__, S1B0LemmaPOS: destek_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: desteğini_alan, S1Lemma: destek, S1POS: Noun, S1S0Lemma: destek_arka, S1S0LemmaPOS: destek_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun_arka, S1S0Token: desteğini_arkasına, S1Token: desteğini, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 000, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [desteğini, arkasına, alan]   B= [muhalefet, Noel, _ ,.. ]
+
+B0Lemma: muhalefet, B0POS: Noun, B0Token: muhalefet, B1Lemma: Noel, B1POS: Noun, B1Token: Noel, S0B0Distance: 1, S0B0Lemma: __muhalefet, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_muhalefet, S0B0Token: alan_muhalefet, S0B1Lemma: __Noel, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_Noel, S0B1Token: alan_Noel, S0Lemma: _, S0POS: Adj, S0Token: alan, S1B0Lemma: arka_muhalefet, S1B0LemmaPOS: arka_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_muhalefet, S1B0Token: arkasına_muhalefet, S1Lemma: arka, S1POS: Noun, S1S0Lemma: arka__, S1S0LemmaPOS: arka_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: arkasına_alan, S1Token: arkasına, __isGouvernedBy_muhalefet: true, __isGouvernedBy_muhalefet_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+18- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [desteğini, [arkasına, alan]]   B= [muhalefet, Noel, _ ,.. ]
+
+B0Lemma: muhalefet, B0POS: Noun, B0Token: muhalefet, B1Lemma: Noel, B1POS: Noun, B1Token: Noel, S0B0Distance: 1, S0B0Lemma: arka___muhalefet, S0B0LemmaPOS: arka___Noun, S0B0POS: Noun_Adj_Noun, S0B0POSLemma: Noun_Adj_muhalefet, S0B0Token: arkasına_alan_muhalefet, S0B1Lemma: arka___Noel, S0B1LemmaPOS: arka___Noun, S0B1POS: Noun_Adj_Noun, S0B1POSLemma: Noun_Adj_Noel, S0B1Token: arkasına_alan_Noel, S0Lemma: arka__, S0POS: Noun_Adj, S0Token: arkasına_alan, S1B0Lemma: destek_muhalefet, S1B0LemmaPOS: destek_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_muhalefet, S1B0Token: desteğini_muhalefet, S1Lemma: destek, S1POS: Noun, S1S0Lemma: destek_arka__, S1S0LemmaPOS: destek_Noun_Adj, S1S0POS: Noun_Noun_Adj, S1S0POSLemma: Noun_arka__, S1S0Token: desteğini_arkasına_alan, S1Token: desteğini, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[desteğini, [arkasına, alan]]]   B= [muhalefet, Noel, _ ,.. ]
+
+B0Lemma: muhalefet, B0POS: Noun, B0Token: muhalefet, B1Lemma: Noel, B1POS: Noun, B1Token: Noel, S0B0Distance: 1, S0B0Lemma: destek_arka___muhalefet, S0B0LemmaPOS: destek_arka___Noun, S0B0POS: Noun_Noun_Adj_Noun, S0B0POSLemma: Noun_Noun_Adj_muhalefet, S0B0Token: desteğini_arkasına_alan_muhalefet, S0B1Lemma: destek_arka___Noel, S0B1LemmaPOS: destek_arka___Noun, S0B1POS: Noun_Noun_Adj_Noun, S0B1POSLemma: Noun_Noun_Adj_Noel, S0B1Token: desteğini_arkasına_alan_Noel, S0Lemma: destek_arka__, S0POS: Noun_Noun_Adj, S0Token: desteğini_arkasına_alan, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [muhalefet, Noel, _ ,.. ]
+
+B0Lemma: muhalefet, B0POS: Noun, B0Token: muhalefet, B1Lemma: Noel, B1POS: Noun, B1Token: Noel, transitionHistoryLength1: 1, transitionHistoryLength2: 11, transitionHistoryLength3: 110, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [muhalefet]   B= [Noel, _, kutlamaları ,.. ]
+
+B0Lemma: Noel, B0POS: Noun, B0Token: Noel, B1Lemma: kutla, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: muhalefet_Noel, S0B0LemmaPOS: muhalefet_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Noel, S0B0Token: muhalefet_Noel, S0B1Lemma: muhalefet_kutla, S0B1LemmaPOS: muhalefet_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_kutla, S0B1Token: muhalefet__, S0Lemma: muhalefet, S0POS: Noun, S0Token: muhalefet, muhalefet_isGouvernedBy_kes: true, muhalefet_isGouvernedBy_kes_SUBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 211, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Noel, _, kutlamaları ,.. ]
+
+B0Lemma: Noel, B0POS: Noun, B0Token: Noel, B1Lemma: kutla, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Noel]   B= [_, kutlamaları, neneniyle ,.. ]
+
+B0Lemma: kutla, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: kutlamaları, Noel_isGouvernedBy__: true, Noel_isGouvernedBy___MWE: true, S0B0Distance: 1, S0B0Lemma: Noel_kutla, S0B0LemmaPOS: Noel_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_kutla, S0B0Token: Noel__, S0B1Lemma: Noel__, S0B1LemmaPOS: Noel_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: Noel_kutlamaları, S0Lemma: Noel, S0POS: Noun, S0Token: Noel, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, kutlamaları, neneniyle ,.. ]
+
+B0Lemma: kutla, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: kutlamaları, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [kutlamaları, neneniyle, , ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: kutlamaları, B1Lemma: neneni, B1POS: Noun, B1Token: neneniyle, S0B0Distance: 1, S0B0Lemma: kutla__, S0B0LemmaPOS: kutla_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __kutlamaları, S0B1Lemma: kutla_neneni, S0B1LemmaPOS: kutla_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_neneni, S0B1Token: __neneniyle, S0Lemma: kutla, S0POS: Verb, S0Token: _, kutla_isGouvernedBy__: true, kutla_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kutlamaları, neneniyle, , ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: kutlamaları, B1Lemma: neneni, B1POS: Noun, B1Token: neneniyle, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kutlamaları]   B= [neneniyle, ,, yasak ,.. ]
+
+B0Lemma: neneni, B0POS: Noun, B0Token: neneniyle, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: __neneni, S0B0LemmaPOS: __Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_neneni, S0B0Token: kutlamaları_neneniyle, S0B1Lemma: __,, S0B1LemmaPOS: __Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: kutlamaları_,, S0Lemma: _, S0POS: Noun, S0Token: kutlamaları, __isGouvernedBy_kes: true, __isGouvernedBy_kes_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [neneniyle, ,, yasak ,.. ]
+
+B0Lemma: neneni, B0POS: Noun, B0Token: neneniyle, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [neneniyle]   B= [,, yasak, _ ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: yasak, B1POS: Adj, B1Token: yasak, S0B0Distance: 1, S0B0Lemma: neneni_,, S0B0LemmaPOS: neneni_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: neneniyle_,, S0B1Lemma: neneni_yasak, S0B1LemmaPOS: neneni_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_yasak, S0B1Token: neneniyle_yasak, S0Lemma: neneni, S0POS: Noun, S0Token: neneniyle, hasRighDep_PUNCTUATION: true, neneni_,_hasRighDep_PUNCTUATION: true, neneni_hasRighDep_PUNCTUATION: true, neneni_isGouvernedBy_kes: true, neneni_isGouvernedBy_kes_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, yasak, _ ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: yasak, B1POS: Adj, B1Token: yasak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [yasak, _, olmasına ,.. ]
+
+B0Lemma: yasak, B0POS: Adj, B0Token: yasak, B1Lemma: ol, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: ,_yasak, S0B0LemmaPOS: ,_Adj, S0B0POS: Punc_Adj, S0B0POSLemma: Punc_yasak, S0B0Token: ,_yasak, S0B1Lemma: ,_ol, S0B1LemmaPOS: ,_Verb, S0B1POS: Punc_Verb, S0B1POSLemma: Punc_ol, S0B1Token: ,__, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yasak, _, olmasına ,.. ]
+
+B0Lemma: yasak, B0POS: Adj, B0Token: yasak, B1Lemma: ol, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yasak]   B= [_, olmasına, rağmen ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: olmasına, S0B0Distance: 1, S0B0Lemma: yasak_ol, S0B0LemmaPOS: yasak_Verb, S0B0POS: Adj_Verb, S0B0POSLemma: Adj_ol, S0B0Token: yasak__, S0B1Lemma: yasak__, S0B1LemmaPOS: yasak_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj__, S0B1Token: yasak_olmasına, S0Lemma: yasak, S0POS: Adj, S0Token: yasak, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yasak_isGouvernedBy_ol: true, yasak_isGouvernedBy_ol_MODIFIER: true, 
+
+34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yasak, _]   B= [olmasına, rağmen, polisin ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: olmasına, B1Lemma: rağmen, B1POS: Postp, B1Token: rağmen, S0B0Distance: 1, S0B0Lemma: ol__, S0B0LemmaPOS: ol_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __olmasına, S0B1Lemma: ol_rağmen, S0B1LemmaPOS: ol_Postp, S0B1POS: Verb_Postp, S0B1POSLemma: Verb_rağmen, S0B1Token: __rağmen, S0Lemma: ol, S0POS: Verb, S0Token: _, S1B0Lemma: yasak__, S1B0LemmaPOS: yasak_Noun, S1B0POS: Adj_Noun, S1B0POSLemma: Adj__, S1B0Token: yasak_olmasına, S1Lemma: yasak, S1POS: Adj, S1S0Lemma: yasak_ol, S1S0LemmaPOS: yasak_Verb, S1S0POS: Adj_Verb, S1S0POSLemma: Adj_ol, S1S0Token: yasak__, S1Token: yasak, SyntaxicRelation: -MODIFIER, ol_isGouvernedBy__: true, ol_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+35- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yasak]   B= [olmasına, rağmen, polisin ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: olmasına, B1Lemma: rağmen, B1POS: Postp, B1Token: rağmen, S0B0Distance: 2, S0B0Lemma: yasak__, S0B0LemmaPOS: yasak_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj__, S0B0Token: yasak_olmasına, S0B1Lemma: yasak_rağmen, S0B1LemmaPOS: yasak_Postp, S0B1POS: Adj_Postp, S0B1POSLemma: Adj_rağmen, S0B1Token: yasak_rağmen, S0Lemma: yasak, S0POS: Adj, S0Token: yasak, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yasak, olmasına]   B= [rağmen, polisin, gösteriye ,.. ]
+
+B0Lemma: rağmen, B0POS: Postp, B0Token: rağmen, B1Lemma: polis, B1POS: Noun, B1Token: polisin, S0B0Distance: 1, S0B0Lemma: __rağmen, S0B0LemmaPOS: __Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_rağmen, S0B0Token: olmasına_rağmen, S0B1Lemma: __polis, S0B1LemmaPOS: __Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_polis, S0B1Token: olmasına_polisin, S0Lemma: _, S0POS: Noun, S0Token: olmasına, S1B0Lemma: yasak_rağmen, S1B0LemmaPOS: yasak_Postp, S1B0POS: Adj_Postp, S1B0POSLemma: Adj_rağmen, S1B0Token: yasak_rağmen, S1Lemma: yasak, S1POS: Adj, S1S0Lemma: yasak__, S1S0LemmaPOS: yasak_Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj__, S1S0Token: yasak_olmasına, S1Token: yasak, __isGouvernedBy_rağmen: true, __isGouvernedBy_rağmen_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+37- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[yasak, olmasına]]   B= [rağmen, polisin, gösteriye ,.. ]
+
+B0Lemma: rağmen, B0POS: Postp, B0Token: rağmen, B1Lemma: polis, B1POS: Noun, B1Token: polisin, S0B0Distance: 1, S0B0Lemma: yasak___rağmen, S0B0LemmaPOS: yasak___Postp, S0B0POS: Adj_Noun_Postp, S0B0POSLemma: Adj_Noun_rağmen, S0B0Token: yasak_olmasına_rağmen, S0B1Lemma: yasak___polis, S0B1LemmaPOS: yasak___Noun, S0B1POS: Adj_Noun_Noun, S0B1POSLemma: Adj_Noun_polis, S0B1Token: yasak_olmasına_polisin, S0Lemma: yasak__, S0POS: Adj_Noun, S0Token: yasak_olmasına, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rağmen, polisin, gösteriye ,.. ]
+
+B0Lemma: rağmen, B0POS: Postp, B0Token: rağmen, B1Lemma: polis, B1POS: Noun, B1Token: polisin, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rağmen]   B= [polisin, gösteriye, müdahele ,.. ]
+
+B0Lemma: polis, B0POS: Noun, B0Token: polisin, B1Lemma: gösteri, B1POS: Noun, B1Token: gösteriye, S0B0Distance: 1, S0B0Lemma: rağmen_polis, S0B0LemmaPOS: rağmen_Noun, S0B0POS: Postp_Noun, S0B0POSLemma: Postp_polis, S0B0Token: rağmen_polisin, S0B1Lemma: rağmen_gösteri, S0B1LemmaPOS: rağmen_Noun, S0B1POS: Postp_Noun, S0B1POSLemma: Postp_gösteri, S0B1Token: rağmen_gösteriye, S0Lemma: rağmen, S0POS: Postp, S0Token: rağmen, rağmen_isGouvernedBy_kes: true, rağmen_isGouvernedBy_kes_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [polisin, gösteriye, müdahele ,.. ]
+
+B0Lemma: polis, B0POS: Noun, B0Token: polisin, B1Lemma: gösteri, B1POS: Noun, B1Token: gösteriye, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [polisin]   B= [gösteriye, müdahele, _ ,.. ]
+
+B0Lemma: gösteri, B0POS: Noun, B0Token: gösteriye, B1Lemma: müdahele, B1POS: Noun, B1Token: müdahele, S0B0Distance: 1, S0B0Lemma: polis_gösteri, S0B0LemmaPOS: polis_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_gösteri, S0B0Token: polisin_gösteriye, S0B1Lemma: polis_müdahele, S0B1LemmaPOS: polis_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_müdahele, S0B1Token: polisin_müdahele, S0Lemma: polis, S0POS: Noun, S0Token: polisin, polis_isGouvernedBy__: true, polis_isGouvernedBy___POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gösteriye, müdahele, _ ,.. ]
+
+B0Lemma: gösteri, B0POS: Noun, B0Token: gösteriye, B1Lemma: müdahele, B1POS: Noun, B1Token: müdahele, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gösteriye]   B= [müdahele, _, etmeyeceğini ,.. ]
+
+B0Lemma: müdahele, B0POS: Noun, B0Token: müdahele, B1Lemma: et, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: gösteri_müdahele, S0B0LemmaPOS: gösteri_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_müdahele, S0B0Token: gösteriye_müdahele, S0B1Lemma: gösteri_et, S0B1LemmaPOS: gösteri_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_et, S0B1Token: gösteriye__, S0Lemma: gösteri, S0POS: Noun, S0Token: gösteriye, gösteri_isGouvernedBy_et: true, gösteri_isGouvernedBy_et_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [müdahele, _, etmeyeceğini ,.. ]
+
+B0Lemma: müdahele, B0POS: Noun, B0Token: müdahele, B1Lemma: et, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [müdahele]   B= [_, etmeyeceğini, önceden ,.. ]
+
+B0Lemma: et, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: etmeyeceğini, S0B0Distance: 1, S0B0Lemma: müdahele_et, S0B0LemmaPOS: müdahele_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_et, S0B0Token: müdahele__, S0B1Lemma: müdahele__, S0B1LemmaPOS: müdahele_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: müdahele_etmeyeceğini, S0Lemma: müdahele, S0POS: Noun, S0Token: müdahele, müdahele_isGouvernedBy_et: true, müdahele_isGouvernedBy_et_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [müdahele, _]   B= [etmeyeceğini, önceden, kestirmişti ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: etmeyeceğini, B1Lemma: önceden, B1POS: Adverb, B1Token: önceden, S0B0Distance: 1, S0B0Lemma: et__, S0B0LemmaPOS: et_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __etmeyeceğini, S0B1Lemma: et_önceden, S0B1LemmaPOS: et_Adverb, S0B1POS: Verb_Adverb, S0B1POSLemma: Verb_önceden, S0B1Token: __önceden, S0Lemma: et, S0POS: Verb, S0Token: _, S1B0Lemma: müdahele__, S1B0LemmaPOS: müdahele_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun__, S1B0Token: müdahele_etmeyeceğini, S1Lemma: müdahele, S1POS: Noun, S1S0Lemma: müdahele_et, S1S0LemmaPOS: müdahele_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_et, S1S0Token: müdahele__, S1Token: müdahele, SyntaxicRelation: -MWE, et_isGouvernedBy__: true, et_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+47- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [müdahele]   B= [etmeyeceğini, önceden, kestirmişti ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: etmeyeceğini, B1Lemma: önceden, B1POS: Adverb, B1Token: önceden, S0B0Distance: 2, S0B0Lemma: müdahele__, S0B0LemmaPOS: müdahele_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun__, S0B0Token: müdahele_etmeyeceğini, S0B1Lemma: müdahele_önceden, S0B1LemmaPOS: müdahele_Adverb, S0B1POS: Noun_Adverb, S0B1POSLemma: Noun_önceden, S0B1Token: müdahele_önceden, S0Lemma: müdahele, S0POS: Noun, S0Token: müdahele, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [müdahele, etmeyeceğini]   B= [önceden, kestirmişti, . ,.. ]
+
+B0Lemma: önceden, B0POS: Adverb, B0Token: önceden, B1Lemma: kes, B1POS: Verb, B1Token: kestirmişti, S0B0Distance: 1, S0B0Lemma: __önceden, S0B0LemmaPOS: __Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun_önceden, S0B0Token: etmeyeceğini_önceden, S0B1Lemma: __kes, S0B1LemmaPOS: __Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_kes, S0B1Token: etmeyeceğini_kestirmişti, S0Lemma: _, S0POS: Noun, S0Token: etmeyeceğini, S1B0Lemma: müdahele_önceden, S1B0LemmaPOS: müdahele_Adverb, S1B0POS: Noun_Adverb, S1B0POSLemma: Noun_önceden, S1B0Token: müdahele_önceden, S1Lemma: müdahele, S1POS: Noun, S1S0Lemma: müdahele__, S1S0LemmaPOS: müdahele_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun__, S1S0Token: müdahele_etmeyeceğini, S1Token: müdahele, __isGouvernedBy_kes: true, __isGouvernedBy_kes_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+49- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[müdahele, etmeyeceğini]]   B= [önceden, kestirmişti, . ,.. ]
+
+B0Lemma: önceden, B0POS: Adverb, B0Token: önceden, B1Lemma: kes, B1POS: Verb, B1Token: kestirmişti, S0B0Distance: 1, S0B0Lemma: müdahele___önceden, S0B0LemmaPOS: müdahele___Adverb, S0B0POS: Noun_Noun_Adverb, S0B0POSLemma: Noun_Noun_önceden, S0B0Token: müdahele_etmeyeceğini_önceden, S0B1Lemma: müdahele___kes, S0B1LemmaPOS: müdahele___Verb, S0B1POS: Noun_Noun_Verb, S0B1POSLemma: Noun_Noun_kes, S0B1Token: müdahele_etmeyeceğini_kestirmişti, S0Lemma: müdahele__, S0POS: Noun_Noun, S0Token: müdahele_etmeyeceğini, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [önceden, kestirmişti, . ,.. ]
+
+B0Lemma: önceden, B0POS: Adverb, B0Token: önceden, B1Lemma: kes, B1POS: Verb, B1Token: kestirmişti, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [önceden]   B= [kestirmişti, . ,.. ]
+
+B0Lemma: kes, B0POS: Verb, B0Token: kestirmişti, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: önceden_kes, S0B0LemmaPOS: önceden_Verb, S0B0POS: Adverb_Verb, S0B0POSLemma: Adverb_kes, S0B0Token: önceden_kestirmişti, S0B1Lemma: önceden_., S0B1LemmaPOS: önceden_Punc, S0B1POS: Adverb_Punc, S0B1POSLemma: Adverb_., S0B1Token: önceden_., S0Lemma: önceden, S0POS: Adverb, S0Token: önceden, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, önceden_isGouvernedBy_kes: true, önceden_isGouvernedBy_kes_MODIFIER: true, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kestirmişti, . ,.. ]
+
+B0Lemma: kes, B0POS: Verb, B0Token: kestirmişti, B1Lemma: ., B1POS: Punc, B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kestirmişti]   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: kes_., S0B0LemmaPOS: kes_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: kestirmişti_., S0Lemma: kes, S0POS: Verb, S0Token: kestirmişti, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 8012 - 
+Belgrad'da _ yaşayan Boşnak , Arnavut , Türk ve Çingene _ kökenli müslümanların merkezi olarak _ bilinen ve Türk Osmanlı mimarisinin ayakta _ kalan tek örneği _ olan Bayraklı camiinde _ verdiği vaazda , müslümanlara olaylara _ karışmamaları ve kendilerini korumaları uyarısında _ bulunan Müftü Sipahiç , " Bizi _ ilgilendiren iktidar _ olmak ya da _ olmamak sorunu değil , dinimizi _ _ korumaktır . " dedi . 
+### Existing MWEs: 
+1- **ayakta kalan** (ID)
+2- **verdiği vaazda** (OTH)
+3- **uyarısında bulunan** (LVC)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Belgrad'da, _, yaşayan ,.. ]
+
+B0Lemma: Belgrad, B0POS: Noun, B0Token: Belgrad'da, B1Lemma: yaşa, B1POS: Verb, B1Token: _, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Belgrad'da]   B= [_, yaşayan, Boşnak ,.. ]
+
+B0Lemma: yaşa, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: yaşayan, Belgrad_isGouvernedBy_yaşa: true, Belgrad_isGouvernedBy_yaşa_MODIFIER: true, S0B0Distance: 1, S0B0Lemma: Belgrad_yaşa, S0B0LemmaPOS: Belgrad_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_yaşa, S0B0Token: Belgrad'da__, S0B1Lemma: Belgrad__, S0B1LemmaPOS: Belgrad_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: Belgrad'da_yaşayan, S0Lemma: Belgrad, S0POS: Noun, S0Token: Belgrad'da, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, yaşayan, Boşnak ,.. ]
+
+B0Lemma: yaşa, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: yaşayan, transitionHistoryLength1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [yaşayan, Boşnak, , ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: yaşayan, B1Lemma: boşnak, B1POS: Noun, B1Token: Boşnak, S0B0Distance: 1, S0B0Lemma: yaşa__, S0B0LemmaPOS: yaşa_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __yaşayan, S0B1Lemma: yaşa_boşnak, S0B1LemmaPOS: yaşa_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_boşnak, S0B1Token: __Boşnak, S0Lemma: yaşa, S0POS: Verb, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, yaşa_isGouvernedBy__: true, yaşa_isGouvernedBy___DERIV: true, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yaşayan, Boşnak, , ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: yaşayan, B1Lemma: boşnak, B1POS: Noun, B1Token: Boşnak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yaşayan]   B= [Boşnak, ,, Arnavut ,.. ]
+
+B0Lemma: boşnak, B0POS: Noun, B0Token: Boşnak, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: __boşnak, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_boşnak, S0B0Token: yaşayan_Boşnak, S0B1Lemma: __,, S0B1LemmaPOS: __Punc, S0B1POS: Adj_Punc, S0B1POSLemma: Adj_,, S0B1Token: yaşayan_,, S0Lemma: _, S0POS: Adj, S0Token: yaşayan, __isGouvernedBy_boşnak: true, __isGouvernedBy_boşnak_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Boşnak, ,, Arnavut ,.. ]
+
+B0Lemma: boşnak, B0POS: Noun, B0Token: Boşnak, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Boşnak]   B= [,, Arnavut, , ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: Arnavut, B1POS: Adj, B1Token: Arnavut, S0B0Distance: 1, S0B0Lemma: boşnak_,, S0B0LemmaPOS: boşnak_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: Boşnak_,, S0B1Lemma: boşnak_Arnavut, S0B1LemmaPOS: boşnak_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_Arnavut, S0B1Token: Boşnak_Arnavut, S0Lemma: boşnak, S0POS: Noun, S0Token: Boşnak, boşnak_,_hasRighDep_PUNCTUATION: true, boşnak_hasRighDep_PUNCTUATION: true, boşnak_isGouvernedBy__: true, boşnak_isGouvernedBy___SUBJECT: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, Arnavut, , ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: Arnavut, B1POS: Adj, B1Token: Arnavut, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [Arnavut, ,, Türk ,.. ]
+
+B0Lemma: Arnavut, B0POS: Adj, B0Token: Arnavut, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: ,_Arnavut, S0B0LemmaPOS: ,_Adj, S0B0POS: Punc_Adj, S0B0POSLemma: Punc_Arnavut, S0B0Token: ,_Arnavut, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_Punc, S0B1POS: Punc_Punc, S0B1POSLemma: Punc_,, S0B1Token: ,_,, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Arnavut, ,, Türk ,.. ]
+
+B0Lemma: Arnavut, B0POS: Adj, B0Token: Arnavut, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Arnavut]   B= [,, Türk, ve ,.. ]
+
+Arnavut_,_hasRighDep_PUNCTUATION: true, Arnavut_hasRighDep_PUNCTUATION: true, Arnavut_isGouvernedBy_Türk: true, Arnavut_isGouvernedBy_Türk_COORDINATION: true, B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: Türk, B1POS: Noun, B1Token: Türk, S0B0Distance: 1, S0B0Lemma: Arnavut_,, S0B0LemmaPOS: Arnavut_Punc, S0B0POS: Adj_Punc, S0B0POSLemma: Adj_,, S0B0Token: Arnavut_,, S0B1Lemma: Arnavut_Türk, S0B1LemmaPOS: Arnavut_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_Türk, S0B1Token: Arnavut_Türk, S0Lemma: Arnavut, S0POS: Adj, S0Token: Arnavut, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, Türk, ve ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: Türk, B1POS: Noun, B1Token: Türk, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [Türk, ve, Çingene ,.. ]
+
+B0Lemma: Türk, B0POS: Noun, B0Token: Türk, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: ,_Türk, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_Türk, S0B0Token: ,_Türk, S0B1Lemma: ,_ve, S0B1LemmaPOS: ,_Conj, S0B1POS: Punc_Conj, S0B1POSLemma: Punc_ve, S0B1Token: ,_ve, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Türk, ve, Çingene ,.. ]
+
+B0Lemma: Türk, B0POS: Noun, B0Token: Türk, B1Lemma: ve, B1POS: Conj, B1Token: ve, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Türk]   B= [ve, Çingene, _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: çingene, B1POS: Noun, B1Token: Çingene, S0B0Distance: 1, S0B0Lemma: Türk_ve, S0B0LemmaPOS: Türk_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: Türk_ve, S0B1Lemma: Türk_çingene, S0B1LemmaPOS: Türk_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_çingene, S0B1Token: Türk_Çingene, S0Lemma: Türk, S0POS: Noun, S0Token: Türk, Türk_hasRighDep_CONJUNCTION: true, Türk_isGouvernedBy_çingene: true, Türk_isGouvernedBy_çingene_COORDINATION: true, Türk_ve_hasRighDep_CONJUNCTION: true, hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, Çingene, _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: çingene, B1POS: Noun, B1Token: Çingene, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [Çingene, _, kökenli ,.. ]
+
+B0Lemma: çingene, B0POS: Noun, B0Token: Çingene, B1Lemma: köken, B1POS: Noun, B1Token: _, S0B0Distance: 1, S0B0Lemma: ve_çingene, S0B0LemmaPOS: ve_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_çingene, S0B0Token: ve_Çingene, S0B1Lemma: ve_köken, S0B1LemmaPOS: ve_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_köken, S0B1Token: ve__, S0Lemma: ve, S0POS: Conj, S0Token: ve, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Çingene, _, kökenli ,.. ]
+
+B0Lemma: çingene, B0POS: Noun, B0Token: Çingene, B1Lemma: köken, B1POS: Noun, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Çingene]   B= [_, kökenli, müslümanların ,.. ]
+
+B0Lemma: köken, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: kökenli, S0B0Distance: 1, S0B0Lemma: çingene_köken, S0B0LemmaPOS: çingene_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_köken, S0B0Token: Çingene__, S0B1Lemma: çingene__, S0B1LemmaPOS: çingene_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: Çingene_kökenli, S0Lemma: çingene, S0POS: Noun, S0Token: Çingene, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, çingene_isGouvernedBy_merkez: true, çingene_isGouvernedBy_merkez_POSSESSOR: true, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, kökenli, müslümanların ,.. ]
+
+B0Lemma: köken, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: kökenli, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [kökenli, müslümanların, merkezi ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: kökenli, B1Lemma: müslüman, B1POS: Noun, B1Token: müslümanların, S0B0Distance: 1, S0B0Lemma: köken__, S0B0LemmaPOS: köken_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: __kökenli, S0B1Lemma: köken_müslüman, S0B1LemmaPOS: köken_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_müslüman, S0B1Token: __müslümanların, S0Lemma: köken, S0POS: Noun, S0Token: _, köken_isGouvernedBy__: true, köken_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kökenli, müslümanların, merkezi ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: kökenli, B1Lemma: müslüman, B1POS: Noun, B1Token: müslümanların, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kökenli]   B= [müslümanların, merkezi, olarak ,.. ]
+
+B0Lemma: müslüman, B0POS: Noun, B0Token: müslümanların, B1Lemma: merkez, B1POS: Noun, B1Token: merkezi, S0B0Distance: 1, S0B0Lemma: __müslüman, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_müslüman, S0B0Token: kökenli_müslümanların, S0B1Lemma: __merkez, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_merkez, S0B1Token: kökenli_merkezi, S0Lemma: _, S0POS: Adj, S0Token: kökenli, __isGouvernedBy_müslüman: true, __isGouvernedBy_müslüman_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [müslümanların, merkezi, olarak ,.. ]
+
+B0Lemma: müslüman, B0POS: Noun, B0Token: müslümanların, B1Lemma: merkez, B1POS: Noun, B1Token: merkezi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [müslümanların]   B= [merkezi, olarak, _ ,.. ]
+
+B0Lemma: merkez, B0POS: Noun, B0Token: merkezi, B1Lemma: olarak, B1POS: Postp, B1Token: olarak, S0B0Distance: 1, S0B0Lemma: müslüman_merkez, S0B0LemmaPOS: müslüman_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_merkez, S0B0Token: müslümanların_merkezi, S0B1Lemma: müslüman_olarak, S0B1LemmaPOS: müslüman_Postp, S0B1POS: Noun_Postp, S0B1POSLemma: Noun_olarak, S0B1Token: müslümanların_olarak, S0Lemma: müslüman, S0POS: Noun, S0Token: müslümanların, müslüman_isGouvernedBy_merkez: true, müslüman_isGouvernedBy_merkez_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [merkezi, olarak, _ ,.. ]
+
+B0Lemma: merkez, B0POS: Noun, B0Token: merkezi, B1Lemma: olarak, B1POS: Postp, B1Token: olarak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [merkezi]   B= [olarak, _, bilinen ,.. ]
+
+B0Lemma: olarak, B0POS: Postp, B0Token: olarak, B1Lemma: bil, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: merkez_olarak, S0B0LemmaPOS: merkez_Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_olarak, S0B0Token: merkezi_olarak, S0B1Lemma: merkez_bil, S0B1LemmaPOS: merkez_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_bil, S0B1Token: merkezi__, S0Lemma: merkez, S0POS: Noun, S0Token: merkezi, merkez_isGouvernedBy_olarak: true, merkez_isGouvernedBy_olarak_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [olarak, _, bilinen ,.. ]
+
+B0Lemma: olarak, B0POS: Postp, B0Token: olarak, B1Lemma: bil, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [olarak]   B= [_, bilinen, ve ,.. ]
+
+B0Lemma: bil, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: bilinen, S0B0Distance: 1, S0B0Lemma: olarak_bil, S0B0LemmaPOS: olarak_Verb, S0B0POS: Postp_Verb, S0B0POSLemma: Postp_bil, S0B0Token: olarak__, S0B1Lemma: olarak__, S0B1LemmaPOS: olarak_Adj, S0B1POS: Postp_Adj, S0B1POSLemma: Postp__, S0B1Token: olarak_bilinen, S0Lemma: olarak, S0POS: Postp, S0Token: olarak, olarak_isGouvernedBy_bil: true, olarak_isGouvernedBy_bil_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, bilinen, ve ,.. ]
+
+B0Lemma: bil, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: bilinen, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [bilinen, ve, Türk ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: bilinen, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: bil__, S0B0LemmaPOS: bil_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __bilinen, S0B1Lemma: bil_ve, S0B1LemmaPOS: bil_Conj, S0B1POS: Verb_Conj, S0B1POSLemma: Verb_ve, S0B1Token: __ve, S0Lemma: bil, S0POS: Verb, S0Token: _, bil_isGouvernedBy__: true, bil_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bilinen, ve, Türk ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: bilinen, B1Lemma: ve, B1POS: Conj, B1Token: ve, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bilinen]   B= [ve, Türk, Osmanlı ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: Türk, B1POS: Noun, B1Token: Türk, S0B0Distance: 1, S0B0Lemma: __ve, S0B0LemmaPOS: __Conj, S0B0POS: Adj_Conj, S0B0POSLemma: Adj_ve, S0B0Token: bilinen_ve, S0B1Lemma: __Türk, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_Türk, S0B1Token: bilinen_Türk, S0Lemma: _, S0POS: Adj, S0Token: bilinen, __hasRighDep_CONJUNCTION: true, __isGouvernedBy__: true, __isGouvernedBy___COORDINATION: true, __ve_hasRighDep_CONJUNCTION: true, hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, Türk, Osmanlı ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: Türk, B1POS: Noun, B1Token: Türk, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [Türk, Osmanlı, mimarisinin ,.. ]
+
+B0Lemma: Türk, B0POS: Noun, B0Token: Türk, B1Lemma: Osmanlı, B1POS: Noun, B1Token: Osmanlı, S0B0Distance: 1, S0B0Lemma: ve_Türk, S0B0LemmaPOS: ve_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_Türk, S0B0Token: ve_Türk, S0B1Lemma: ve_Osmanlı, S0B1LemmaPOS: ve_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_Osmanlı, S0B1Token: ve_Osmanlı, S0Lemma: ve, S0POS: Conj, S0Token: ve, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Türk, Osmanlı, mimarisinin ,.. ]
+
+B0Lemma: Türk, B0POS: Noun, B0Token: Türk, B1Lemma: Osmanlı, B1POS: Noun, B1Token: Osmanlı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Türk]   B= [Osmanlı, mimarisinin, ayakta ,.. ]
+
+B0Lemma: Osmanlı, B0POS: Noun, B0Token: Osmanlı, B1Lemma: mimari, B1POS: Noun, B1Token: mimarisinin, S0B0Distance: 1, S0B0Lemma: Türk_Osmanlı, S0B0LemmaPOS: Türk_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Osmanlı, S0B0Token: Türk_Osmanlı, S0B1Lemma: Türk_mimari, S0B1LemmaPOS: Türk_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_mimari, S0B1Token: Türk_mimarisinin, S0Lemma: Türk, S0POS: Noun, S0Token: Türk, Türk_isGouvernedBy_Osmanlı: true, Türk_isGouvernedBy_Osmanlı_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Osmanlı, mimarisinin, ayakta ,.. ]
+
+B0Lemma: Osmanlı, B0POS: Noun, B0Token: Osmanlı, B1Lemma: mimari, B1POS: Noun, B1Token: mimarisinin, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Osmanlı]   B= [mimarisinin, ayakta, _ ,.. ]
+
+B0Lemma: mimari, B0POS: Noun, B0Token: mimarisinin, B1Lemma: ayak, B1POS: Noun, B1Token: ayakta, Osmanlı_isGouvernedBy_mimari: true, Osmanlı_isGouvernedBy_mimari_MWE: true, S0B0Distance: 1, S0B0Lemma: Osmanlı_mimari, S0B0LemmaPOS: Osmanlı_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_mimari, S0B0Token: Osmanlı_mimarisinin, S0B1Lemma: Osmanlı_ayak, S0B1LemmaPOS: Osmanlı_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_ayak, S0B1Token: Osmanlı_ayakta, S0Lemma: Osmanlı, S0POS: Noun, S0Token: Osmanlı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mimarisinin, ayakta, _ ,.. ]
+
+B0Lemma: mimari, B0POS: Noun, B0Token: mimarisinin, B1Lemma: ayak, B1POS: Noun, B1Token: ayakta, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mimarisinin]   B= [ayakta, _, kalan ,.. ]
+
+B0Lemma: ayak, B0POS: Noun, B0Token: ayakta, B1Lemma: kal, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: mimari_ayak, S0B0LemmaPOS: mimari_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_ayak, S0B0Token: mimarisinin_ayakta, S0B1Lemma: mimari_kal, S0B1LemmaPOS: mimari_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_kal, S0B1Token: mimarisinin__, S0Lemma: mimari, S0POS: Noun, S0Token: mimarisinin, mimari_isGouvernedBy_örnek: true, mimari_isGouvernedBy_örnek_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ayakta, _, kalan ,.. ]
+
+B0Lemma: ayak, B0POS: Noun, B0Token: ayakta, B1Lemma: kal, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ayakta]   B= [_, kalan, tek ,.. ]
+
+B0Lemma: kal, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: kalan, S0B0Distance: 1, S0B0Lemma: ayak_kal, S0B0LemmaPOS: ayak_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_kal, S0B0Token: ayakta__, S0B1Lemma: ayak__, S0B1LemmaPOS: ayak_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: ayakta_kalan, S0Lemma: ayak, S0POS: Noun, S0Token: ayakta, ayak_isGouvernedBy_kal: true, ayak_isGouvernedBy_kal_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ayakta, _]   B= [kalan, tek, örneği ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: kalan, B1Lemma: tek, B1POS: Adj, B1Token: tek, S0B0Distance: 1, S0B0Lemma: kal__, S0B0LemmaPOS: kal_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __kalan, S0B1Lemma: kal_tek, S0B1LemmaPOS: kal_Adj, S0B1POS: Verb_Adj, S0B1POSLemma: Verb_tek, S0B1Token: __tek, S0Lemma: kal, S0POS: Verb, S0Token: _, S1B0Lemma: ayak__, S1B0LemmaPOS: ayak_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: ayakta_kalan, S1Lemma: ayak, S1POS: Noun, S1S0Lemma: ayak_kal, S1S0LemmaPOS: ayak_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_kal, S1S0Token: ayakta__, S1Token: ayakta, SyntaxicRelation: -MWE, kal_isGouvernedBy__: true, kal_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+45- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ayakta]   B= [kalan, tek, örneği ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: kalan, B1Lemma: tek, B1POS: Adj, B1Token: tek, S0B0Distance: 2, S0B0Lemma: ayak__, S0B0LemmaPOS: ayak_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: ayakta_kalan, S0B1Lemma: ayak_tek, S0B1LemmaPOS: ayak_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_tek, S0B1Token: ayakta_tek, S0Lemma: ayak, S0POS: Noun, S0Token: ayakta, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ayakta, kalan]   B= [tek, örneği, _ ,.. ]
+
+B0Lemma: tek, B0POS: Adj, B0Token: tek, B1Lemma: örnek, B1POS: Noun, B1Token: örneği, S0B0Distance: 1, S0B0Lemma: __tek, S0B0LemmaPOS: __Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_tek, S0B0Token: kalan_tek, S0B1Lemma: __örnek, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_örnek, S0B1Token: kalan_örneği, S0Lemma: _, S0POS: Adj, S0Token: kalan, S1B0Lemma: ayak_tek, S1B0LemmaPOS: ayak_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun_tek, S1B0Token: ayakta_tek, S1Lemma: ayak, S1POS: Noun, S1S0Lemma: ayak__, S1S0LemmaPOS: ayak_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: ayakta_kalan, S1Token: ayakta, __isGouvernedBy_örnek: true, __isGouvernedBy_örnek_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+47- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ayakta, kalan]]   B= [tek, örneği, _ ,.. ]
+
+B0Lemma: tek, B0POS: Adj, B0Token: tek, B1Lemma: örnek, B1POS: Noun, B1Token: örneği, S0B0Distance: 1, S0B0Lemma: ayak___tek, S0B0LemmaPOS: ayak___Adj, S0B0POS: Noun_Adj_Adj, S0B0POSLemma: Noun_Adj_tek, S0B0Token: ayakta_kalan_tek, S0B1Lemma: ayak___örnek, S0B1LemmaPOS: ayak___Noun, S0B1POS: Noun_Adj_Noun, S0B1POSLemma: Noun_Adj_örnek, S0B1Token: ayakta_kalan_örneği, S0Lemma: ayak__, S0POS: Noun_Adj, S0Token: ayakta_kalan, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tek, örneği, _ ,.. ]
+
+B0Lemma: tek, B0POS: Adj, B0Token: tek, B1Lemma: örnek, B1POS: Noun, B1Token: örneği, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tek]   B= [örneği, _, olan ,.. ]
+
+B0Lemma: örnek, B0POS: Noun, B0Token: örneği, B1Lemma: ol, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: tek_örnek, S0B0LemmaPOS: tek_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_örnek, S0B0Token: tek_örneği, S0B1Lemma: tek_ol, S0B1LemmaPOS: tek_Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_ol, S0B1Token: tek__, S0Lemma: tek, S0POS: Adj, S0Token: tek, tek_isGouvernedBy_örnek: true, tek_isGouvernedBy_örnek_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [örneği, _, olan ,.. ]
+
+B0Lemma: örnek, B0POS: Noun, B0Token: örneği, B1Lemma: ol, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [örneği]   B= [_, olan, Bayraklı ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: olan, S0B0Distance: 1, S0B0Lemma: örnek_ol, S0B0LemmaPOS: örnek_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ol, S0B0Token: örneği__, S0B1Lemma: örnek__, S0B1LemmaPOS: örnek_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: örneği_olan, S0Lemma: örnek, S0POS: Noun, S0Token: örneği, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, örnek_isGouvernedBy_ol: true, örnek_isGouvernedBy_ol_OBJECT: true, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, olan, Bayraklı ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: olan, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [olan, Bayraklı, camiinde ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: olan, B1Lemma: bayraklı, B1POS: Adj, B1Token: Bayraklı, S0B0Distance: 1, S0B0Lemma: ol__, S0B0LemmaPOS: ol_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __olan, S0B1Lemma: ol_bayraklı, S0B1LemmaPOS: ol_Adj, S0B1POS: Verb_Adj, S0B1POSLemma: Verb_bayraklı, S0B1Token: __Bayraklı, S0Lemma: ol, S0POS: Verb, S0Token: _, ol_isGouvernedBy__: true, ol_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [olan, Bayraklı, camiinde ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: olan, B1Lemma: bayraklı, B1POS: Adj, B1Token: Bayraklı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [olan]   B= [Bayraklı, camiinde, _ ,.. ]
+
+B0Lemma: bayraklı, B0POS: Adj, B0Token: Bayraklı, B1Lemma: cami, B1POS: Noun, B1Token: camiinde, S0B0Distance: 1, S0B0Lemma: __bayraklı, S0B0LemmaPOS: __Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_bayraklı, S0B0Token: olan_Bayraklı, S0B1Lemma: __cami, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_cami, S0B1Token: olan_camiinde, S0Lemma: _, S0POS: Adj, S0Token: olan, __isGouvernedBy_cami: true, __isGouvernedBy_cami_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Bayraklı, camiinde, _ ,.. ]
+
+B0Lemma: bayraklı, B0POS: Adj, B0Token: Bayraklı, B1Lemma: cami, B1POS: Noun, B1Token: camiinde, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Bayraklı]   B= [camiinde, _, verdiği ,.. ]
+
+B0Lemma: cami, B0POS: Noun, B0Token: camiinde, B1Lemma: ver, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: bayraklı_cami, S0B0LemmaPOS: bayraklı_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_cami, S0B0Token: Bayraklı_camiinde, S0B1Lemma: bayraklı_ver, S0B1LemmaPOS: bayraklı_Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_ver, S0B1Token: Bayraklı__, S0Lemma: bayraklı, S0POS: Adj, S0Token: Bayraklı, bayraklı_isGouvernedBy_cami: true, bayraklı_isGouvernedBy_cami_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [camiinde, _, verdiği ,.. ]
+
+B0Lemma: cami, B0POS: Noun, B0Token: camiinde, B1Lemma: ver, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [camiinde]   B= [_, verdiği, vaazda ,.. ]
+
+B0Lemma: ver, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: verdiği, S0B0Distance: 1, S0B0Lemma: cami_ver, S0B0LemmaPOS: cami_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ver, S0B0Token: camiinde__, S0B1Lemma: cami__, S0B1LemmaPOS: cami_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: camiinde_verdiği, S0Lemma: cami, S0POS: Noun, S0Token: camiinde, cami_isGouvernedBy_ver: true, cami_isGouvernedBy_ver_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, verdiği, vaazda ,.. ]
+
+B0Lemma: ver, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: verdiği, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [verdiği, vaazda, , ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: verdiği, B1Lemma: vaaz, B1POS: Noun, B1Token: vaazda, S0B0Distance: 1, S0B0Lemma: ver__, S0B0LemmaPOS: ver_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __verdiği, S0B1Lemma: ver_vaaz, S0B1LemmaPOS: ver_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_vaaz, S0B1Token: __vaazda, S0Lemma: ver, S0POS: Verb, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, ver_isGouvernedBy__: true, ver_isGouvernedBy___DERIV: true, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [verdiği, vaazda, , ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: verdiği, B1Lemma: vaaz, B1POS: Noun, B1Token: vaazda, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği]   B= [vaazda, ,, müslümanlara ,.. ]
+
+B0Lemma: vaaz, B0POS: Noun, B0Token: vaazda, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: __vaaz, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_vaaz, S0B0Token: verdiği_vaazda, S0B1Lemma: __,, S0B1LemmaPOS: __Punc, S0B1POS: Adj_Punc, S0B1POSLemma: Adj_,, S0B1Token: verdiği_,, S0Lemma: _, S0POS: Adj, S0Token: verdiği, __isGouvernedBy_vaaz: true, __isGouvernedBy_vaaz_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+64- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, vaazda]   B= [,, müslümanlara, olaylara ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: müslüman, B1POS: Noun, B1Token: müslümanlara, S0B0Distance: 1, S0B0Lemma: vaaz_,, S0B0LemmaPOS: vaaz_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: vaazda_,, S0B1Lemma: vaaz_müslüman, S0B1LemmaPOS: vaaz_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_müslüman, S0B1Token: vaazda_müslümanlara, S0Lemma: vaaz, S0POS: Noun, S0Token: vaazda, S1B0Lemma: __,, S1B0LemmaPOS: __Punc, S1B0POS: Adj_Punc, S1B0POSLemma: Adj_,, S1B0Token: verdiği_,, S1Lemma: _, S1POS: Adj, S1S0Lemma: __vaaz, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_vaaz, S1S0Token: verdiği_vaazda, S1Token: verdiği, SyntaxicRelation: -MODIFIER, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, vaaz_,_hasRighDep_PUNCTUATION: true, vaaz_hasRighDep_PUNCTUATION: true, vaaz_isGouvernedBy__: true, vaaz_isGouvernedBy___MODIFIER: true, 
+
+65- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[verdiği, vaazda]]   B= [,, müslümanlara, olaylara ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: müslüman, B1POS: Noun, B1Token: müslümanlara, S0B0Distance: 1, S0B0Lemma: __vaaz_,, S0B0LemmaPOS: __vaaz_Punc, S0B0POS: Adj_Noun_Punc, S0B0POSLemma: Adj_Noun_,, S0B0Token: verdiği_vaazda_,, S0B1Lemma: __vaaz_müslüman, S0B1LemmaPOS: __vaaz_Noun, S0B1POS: Adj_Noun_Noun, S0B1POSLemma: Adj_Noun_müslüman, S0B1Token: verdiği_vaazda_müslümanlara, S0Lemma: __vaaz, S0POS: Adj_Noun, S0Token: verdiği_vaazda, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, müslümanlara, olaylara ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: müslüman, B1POS: Noun, B1Token: müslümanlara, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [müslümanlara, olaylara, _ ,.. ]
+
+B0Lemma: müslüman, B0POS: Noun, B0Token: müslümanlara, B1Lemma: olay, B1POS: Noun, B1Token: olaylara, S0B0Distance: 1, S0B0Lemma: ,_müslüman, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_müslüman, S0B0Token: ,_müslümanlara, S0B1Lemma: ,_olay, S0B1LemmaPOS: ,_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_olay, S0B1Token: ,_olaylara, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [müslümanlara, olaylara, _ ,.. ]
+
+B0Lemma: müslüman, B0POS: Noun, B0Token: müslümanlara, B1Lemma: olay, B1POS: Noun, B1Token: olaylara, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [müslümanlara]   B= [olaylara, _, karışmamaları ,.. ]
+
+B0Lemma: olay, B0POS: Noun, B0Token: olaylara, B1Lemma: karış, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: müslüman_olay, S0B0LemmaPOS: müslüman_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_olay, S0B0Token: müslümanlara_olaylara, S0B1Lemma: müslüman_karış, S0B1LemmaPOS: müslüman_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_karış, S0B1Token: müslümanlara__, S0Lemma: müslüman, S0POS: Noun, S0Token: müslümanlara, müslüman_isGouvernedBy_karış: true, müslüman_isGouvernedBy_karış_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [olaylara, _, karışmamaları ,.. ]
+
+B0Lemma: olay, B0POS: Noun, B0Token: olaylara, B1Lemma: karış, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [olaylara]   B= [_, karışmamaları, ve ,.. ]
+
+B0Lemma: karış, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: karışmamaları, S0B0Distance: 1, S0B0Lemma: olay_karış, S0B0LemmaPOS: olay_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_karış, S0B0Token: olaylara__, S0B1Lemma: olay__, S0B1LemmaPOS: olay_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: olaylara_karışmamaları, S0Lemma: olay, S0POS: Noun, S0Token: olaylara, olay_isGouvernedBy_karış: true, olay_isGouvernedBy_karış_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, karışmamaları, ve ,.. ]
+
+B0Lemma: karış, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: karışmamaları, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [karışmamaları, ve, kendilerini ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: karışmamaları, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: karış__, S0B0LemmaPOS: karış_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __karışmamaları, S0B1Lemma: karış_ve, S0B1LemmaPOS: karış_Conj, S0B1POS: Verb_Conj, S0B1POSLemma: Verb_ve, S0B1Token: __ve, S0Lemma: karış, S0POS: Verb, S0Token: _, karış_isGouvernedBy__: true, karış_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [karışmamaları, ve, kendilerini ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: karışmamaları, B1Lemma: ve, B1POS: Conj, B1Token: ve, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [karışmamaları]   B= [ve, kendilerini, korumaları ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: kendi, B1POS: Pron, B1Token: kendilerini, S0B0Distance: 1, S0B0Lemma: __ve, S0B0LemmaPOS: __Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: karışmamaları_ve, S0B1Lemma: __kendi, S0B1LemmaPOS: __Pron, S0B1POS: Noun_Pron, S0B1POSLemma: Noun_kendi, S0B1Token: karışmamaları_kendilerini, S0Lemma: _, S0POS: Noun, S0Token: karışmamaları, __hasRighDep_CONJUNCTION: true, __isGouvernedBy_kendi: true, __isGouvernedBy_kendi_COORDINATION: true, __ve_hasRighDep_CONJUNCTION: true, hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, kendilerini, korumaları ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: kendi, B1POS: Pron, B1Token: kendilerini, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [kendilerini, korumaları, uyarısında ,.. ]
+
+B0Lemma: kendi, B0POS: Pron, B0Token: kendilerini, B1Lemma: koruma, B1POS: Noun, B1Token: korumaları, S0B0Distance: 1, S0B0Lemma: ve_kendi, S0B0LemmaPOS: ve_Pron, S0B0POS: Conj_Pron, S0B0POSLemma: Conj_kendi, S0B0Token: ve_kendilerini, S0B1Lemma: ve_koruma, S0B1LemmaPOS: ve_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_koruma, S0B1Token: ve_korumaları, S0Lemma: ve, S0POS: Conj, S0Token: ve, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kendilerini, korumaları, uyarısında ,.. ]
+
+B0Lemma: kendi, B0POS: Pron, B0Token: kendilerini, B1Lemma: koruma, B1POS: Noun, B1Token: korumaları, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kendilerini]   B= [korumaları, uyarısında, _ ,.. ]
+
+B0Lemma: koruma, B0POS: Noun, B0Token: korumaları, B1Lemma: uyarı, B1POS: Noun, B1Token: uyarısında, S0B0Distance: 1, S0B0Lemma: kendi_koruma, S0B0LemmaPOS: kendi_Noun, S0B0POS: Pron_Noun, S0B0POSLemma: Pron_koruma, S0B0Token: kendilerini_korumaları, S0B1Lemma: kendi_uyarı, S0B1LemmaPOS: kendi_Noun, S0B1POS: Pron_Noun, S0B1POSLemma: Pron_uyarı, S0B1Token: kendilerini_uyarısında, S0Lemma: kendi, S0POS: Pron, S0Token: kendilerini, kendi_isGouvernedBy_Sipahiç: true, kendi_isGouvernedBy_Sipahiç_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [korumaları, uyarısında, _ ,.. ]
+
+B0Lemma: koruma, B0POS: Noun, B0Token: korumaları, B1Lemma: uyarı, B1POS: Noun, B1Token: uyarısında, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [korumaları]   B= [uyarısında, _, bulunan ,.. ]
+
+B0Lemma: uyarı, B0POS: Noun, B0Token: uyarısında, B1Lemma: bulun, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: koruma_uyarı, S0B0LemmaPOS: koruma_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_uyarı, S0B0Token: korumaları_uyarısında, S0B1Lemma: koruma_bulun, S0B1LemmaPOS: koruma_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_bulun, S0B1Token: korumaları__, S0Lemma: koruma, S0POS: Noun, S0Token: korumaları, koruma_isGouvernedBy__: true, koruma_isGouvernedBy___OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [uyarısında, _, bulunan ,.. ]
+
+B0Lemma: uyarı, B0POS: Noun, B0Token: uyarısında, B1Lemma: bulun, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uyarısında]   B= [_, bulunan, Müftü ,.. ]
+
+B0Lemma: bulun, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: bulunan, S0B0Distance: 1, S0B0Lemma: uyarı_bulun, S0B0LemmaPOS: uyarı_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_bulun, S0B0Token: uyarısında__, S0B1Lemma: uyarı__, S0B1LemmaPOS: uyarı_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: uyarısında_bulunan, S0Lemma: uyarı, S0POS: Noun, S0Token: uyarısında, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, uyarı_isGouvernedBy__: true, uyarı_isGouvernedBy___MODIFIER: true, 
+
+84- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uyarısında, _]   B= [bulunan, Müftü, Sipahiç ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: bulunan, B1Lemma: müftü, B1POS: Noun, B1Token: Müftü, S0B0Distance: 1, S0B0Lemma: bulun__, S0B0LemmaPOS: bulun_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __bulunan, S0B1Lemma: bulun_müftü, S0B1LemmaPOS: bulun_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_müftü, S0B1Token: __Müftü, S0Lemma: bulun, S0POS: Verb, S0Token: _, S1B0Lemma: uyarı__, S1B0LemmaPOS: uyarı_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: uyarısında_bulunan, S1Lemma: uyarı, S1POS: Noun, S1S0Lemma: uyarı_bulun, S1S0LemmaPOS: uyarı_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_bulun, S1S0Token: uyarısında__, S1Token: uyarısında, bulun_isGouvernedBy__: true, bulun_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+85- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uyarısında]   B= [bulunan, Müftü, Sipahiç ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: bulunan, B1Lemma: müftü, B1POS: Noun, B1Token: Müftü, S0B0Distance: 2, S0B0Lemma: uyarı__, S0B0LemmaPOS: uyarı_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: uyarısında_bulunan, S0B1Lemma: uyarı_müftü, S0B1LemmaPOS: uyarı_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_müftü, S0B1Token: uyarısında_Müftü, S0Lemma: uyarı, S0POS: Noun, S0Token: uyarısında, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, uyarı_isGouvernedBy__: true, uyarı_isGouvernedBy___MODIFIER: true, 
+
+86- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uyarısında, bulunan]   B= [Müftü, Sipahiç, , ,.. ]
+
+B0Lemma: müftü, B0POS: Noun, B0Token: Müftü, B1Lemma: Sipahiç, B1POS: Noun, B1Token: Sipahiç, S0B0Distance: 1, S0B0Lemma: __müftü, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_müftü, S0B0Token: bulunan_Müftü, S0B1Lemma: __Sipahiç, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_Sipahiç, S0B1Token: bulunan_Sipahiç, S0Lemma: _, S0POS: Adj, S0Token: bulunan, S1B0Lemma: uyarı_müftü, S1B0LemmaPOS: uyarı_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_müftü, S1B0Token: uyarısında_Müftü, S1Lemma: uyarı, S1POS: Noun, S1S0Lemma: uyarı__, S1S0LemmaPOS: uyarı_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: uyarısında_bulunan, S1Token: uyarısında, SyntaxicRelation: -MODIFIER, __isGouvernedBy_müftü: true, __isGouvernedBy_müftü_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+87- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[uyarısında, bulunan]]   B= [Müftü, Sipahiç, , ,.. ]
+
+B0Lemma: müftü, B0POS: Noun, B0Token: Müftü, B1Lemma: Sipahiç, B1POS: Noun, B1Token: Sipahiç, S0B0Distance: 1, S0B0Lemma: uyarı___müftü, S0B0LemmaPOS: uyarı___Noun, S0B0POS: Noun_Adj_Noun, S0B0POSLemma: Noun_Adj_müftü, S0B0Token: uyarısında_bulunan_Müftü, S0B1Lemma: uyarı___Sipahiç, S0B1LemmaPOS: uyarı___Noun, S0B1POS: Noun_Adj_Noun, S0B1POSLemma: Noun_Adj_Sipahiç, S0B1Token: uyarısında_bulunan_Sipahiç, S0Lemma: uyarı__, S0POS: Noun_Adj, S0Token: uyarısında_bulunan, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Müftü, Sipahiç, , ,.. ]
+
+B0Lemma: müftü, B0POS: Noun, B0Token: Müftü, B1Lemma: Sipahiç, B1POS: Noun, B1Token: Sipahiç, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Müftü]   B= [Sipahiç, ,, " ,.. ]
+
+B0Lemma: Sipahiç, B0POS: Noun, B0Token: Sipahiç, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: müftü_Sipahiç, S0B0LemmaPOS: müftü_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Sipahiç, S0B0Token: Müftü_Sipahiç, S0B1Lemma: müftü_,, S0B1LemmaPOS: müftü_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: Müftü_,, S0Lemma: müftü, S0POS: Noun, S0Token: Müftü, müftü_isGouvernedBy_Sipahiç: true, müftü_isGouvernedBy_Sipahiç_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Sipahiç, ,, " ,.. ]
+
+B0Lemma: Sipahiç, B0POS: Noun, B0Token: Sipahiç, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Sipahiç]   B= [,, ", Bizi ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: Sipahiç_,, S0B0LemmaPOS: Sipahiç_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: Sipahiç_,, S0B1Lemma: Sipahiç_", S0B1LemmaPOS: Sipahiç_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: Sipahiç_", S0Lemma: Sipahiç, S0POS: Noun, S0Token: Sipahiç, Sipahiç_"_hasRighDep_PUNCTUATION: true, Sipahiç_,_hasRighDep_PUNCTUATION: true, Sipahiç_hasRighDep_PUNCTUATION: true, Sipahiç_isGouvernedBy__: true, Sipahiç_isGouvernedBy___COORDINATION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ", Bizi ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: ", B1POS: Punc, B1Token: ", transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [", Bizi, _ ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: biz, B1POS: Pron, B1Token: Bizi, S0B0Distance: 1, S0B0Lemma: ,_", S0B0LemmaPOS: ,_Punc, S0B0POS: Punc_Punc, S0B0POSLemma: Punc_", S0B0Token: ,_", S0B1Lemma: ,_biz, S0B1LemmaPOS: ,_Pron, S0B1POS: Punc_Pron, S0B1POSLemma: Punc_biz, S0B1Token: ,_Bizi, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", Bizi, _ ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: biz, B1POS: Pron, B1Token: Bizi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [Bizi, _, ilgilendiren ,.. ]
+
+B0Lemma: biz, B0POS: Pron, B0Token: Bizi, B1Lemma: ilgilen, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: "_biz, S0B0LemmaPOS: "_Pron, S0B0POS: Punc_Pron, S0B0POSLemma: Punc_biz, S0B0Token: "_Bizi, S0B1Lemma: "_ilgilen, S0B1LemmaPOS: "_Verb, S0B1POS: Punc_Verb, S0B1POSLemma: Punc_ilgilen, S0B1Token: "__, S0Lemma: ", S0POS: Punc, S0Token: ", transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Bizi, _, ilgilendiren ,.. ]
+
+B0Lemma: biz, B0POS: Pron, B0Token: Bizi, B1Lemma: ilgilen, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Bizi]   B= [_, ilgilendiren, iktidar ,.. ]
+
+B0Lemma: ilgilen, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: ilgilendiren, S0B0Distance: 1, S0B0Lemma: biz_ilgilen, S0B0LemmaPOS: biz_Verb, S0B0POS: Pron_Verb, S0B0POSLemma: Pron_ilgilen, S0B0Token: Bizi__, S0B1Lemma: biz__, S0B1LemmaPOS: biz_Adj, S0B1POS: Pron_Adj, S0B1POSLemma: Pron__, S0B1Token: Bizi_ilgilendiren, S0Lemma: biz, S0POS: Pron, S0Token: Bizi, biz_isGouvernedBy_ilgilen: true, biz_isGouvernedBy_ilgilen_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, ilgilendiren, iktidar ,.. ]
+
+B0Lemma: ilgilen, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: ilgilendiren, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [ilgilendiren, iktidar, _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: ilgilendiren, B1Lemma: iktidar, B1POS: Noun, B1Token: iktidar, S0B0Distance: 1, S0B0Lemma: ilgilen__, S0B0LemmaPOS: ilgilen_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __ilgilendiren, S0B1Lemma: ilgilen_iktidar, S0B1LemmaPOS: ilgilen_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_iktidar, S0B1Token: __iktidar, S0Lemma: ilgilen, S0POS: Verb, S0Token: _, ilgilen_isGouvernedBy__: true, ilgilen_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ilgilendiren, iktidar, _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: ilgilendiren, B1Lemma: iktidar, B1POS: Noun, B1Token: iktidar, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ilgilendiren]   B= [iktidar, _, olmak ,.. ]
+
+B0Lemma: iktidar, B0POS: Noun, B0Token: iktidar, B1Lemma: ol, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: __iktidar, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_iktidar, S0B0Token: ilgilendiren_iktidar, S0B1Lemma: __ol, S0B1LemmaPOS: __Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_ol, S0B1Token: ilgilendiren__, S0Lemma: _, S0POS: Adj, S0Token: ilgilendiren, __isGouvernedBy_iktidar: true, __isGouvernedBy_iktidar_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iktidar, _, olmak ,.. ]
+
+B0Lemma: iktidar, B0POS: Noun, B0Token: iktidar, B1Lemma: ol, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iktidar]   B= [_, olmak, ya ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: olmak, S0B0Distance: 1, S0B0Lemma: iktidar_ol, S0B0LemmaPOS: iktidar_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ol, S0B0Token: iktidar__, S0B1Lemma: iktidar__, S0B1LemmaPOS: iktidar_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: iktidar_olmak, S0Lemma: iktidar, S0POS: Noun, S0Token: iktidar, iktidar_isGouvernedBy_ol: true, iktidar_isGouvernedBy_ol_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, olmak, ya ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: olmak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [olmak, ya, da ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: olmak, B1Lemma: ya, B1POS: Interj, B1Token: ya, S0B0Distance: 1, S0B0Lemma: ol__, S0B0LemmaPOS: ol_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __olmak, S0B1Lemma: ol_ya, S0B1LemmaPOS: ol_Interj, S0B1POS: Verb_Interj, S0B1POSLemma: Verb_ya, S0B1Token: __ya, S0Lemma: ol, S0POS: Verb, S0Token: _, ol_isGouvernedBy__: true, ol_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [olmak, ya, da ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: olmak, B1Lemma: ya, B1POS: Interj, B1Token: ya, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [olmak]   B= [ya, da, _ ,.. ]
+
+B0Lemma: ya, B0POS: Interj, B0Token: ya, B1Lemma: da, B1POS: Conj, B1Token: da, S0B0Distance: 1, S0B0Lemma: __ya, S0B0LemmaPOS: __Interj, S0B0POS: Noun_Interj, S0B0POSLemma: Noun_ya, S0B0Token: olmak_ya, S0B1Lemma: __da, S0B1LemmaPOS: __Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_da, S0B1Token: olmak_da, S0Lemma: _, S0POS: Noun, S0Token: olmak, __isGouvernedBy__: true, __isGouvernedBy___SUBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ya, da, _ ,.. ]
+
+B0Lemma: ya, B0POS: Interj, B0Token: ya, B1Lemma: da, B1POS: Conj, B1Token: da, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ya]   B= [da, _, olmamak ,.. ]
+
+B0Lemma: da, B0POS: Conj, B0Token: da, B1Lemma: ol, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: ya_da, S0B0LemmaPOS: ya_Conj, S0B0POS: Interj_Conj, S0B0POSLemma: Interj_da, S0B0Token: ya_da, S0B1Lemma: ya_ol, S0B1LemmaPOS: ya_Verb, S0B1POS: Interj_Verb, S0B1POSLemma: Interj_ol, S0B1Token: ya__, S0Lemma: ya, S0POS: Interj, S0Token: ya, hasRighDep_INTENSIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, ya_da_hasRighDep_INTENSIFIER: true, ya_hasRighDep_INTENSIFIER: true, ya_isGouvernedBy__: true, ya_isGouvernedBy___MODIFIER: true, 
+
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, _, olmamak ,.. ]
+
+B0Lemma: da, B0POS: Conj, B0Token: da, B1Lemma: ol, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [_, olmamak, sorunu ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: olmamak, S0B0Distance: 1, S0B0Lemma: da_ol, S0B0LemmaPOS: da_Verb, S0B0POS: Conj_Verb, S0B0POSLemma: Conj_ol, S0B0Token: da__, S0B1Lemma: da__, S0B1LemmaPOS: da_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj__, S0B1Token: da_olmamak, S0Lemma: da, S0POS: Conj, S0Token: da, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, olmamak, sorunu ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: olmamak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [olmamak, sorunu, değil ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: olmamak, B1Lemma: sorun, B1POS: Noun, B1Token: sorunu, S0B0Distance: 1, S0B0Lemma: ol__, S0B0LemmaPOS: ol_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __olmamak, S0B1Lemma: ol_sorun, S0B1LemmaPOS: ol_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_sorun, S0B1Token: __sorunu, S0Lemma: ol, S0POS: Verb, S0Token: _, ol_isGouvernedBy__: true, ol_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [olmamak, sorunu, değil ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: olmamak, B1Lemma: sorun, B1POS: Noun, B1Token: sorunu, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [olmamak]   B= [sorunu, değil, , ,.. ]
+
+B0Lemma: sorun, B0POS: Noun, B0Token: sorunu, B1Lemma: değil, B1POS: Conj, B1Token: değil, S0B0Distance: 1, S0B0Lemma: __sorun, S0B0LemmaPOS: __Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_sorun, S0B0Token: olmamak_sorunu, S0B1Lemma: __değil, S0B1LemmaPOS: __Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_değil, S0B1Token: olmamak_değil, S0Lemma: _, S0POS: Noun, S0Token: olmamak, __isGouvernedBy_sorun: true, __isGouvernedBy_sorun_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sorunu, değil, , ,.. ]
+
+B0Lemma: sorun, B0POS: Noun, B0Token: sorunu, B1Lemma: değil, B1POS: Conj, B1Token: değil, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sorunu]   B= [değil, ,, dinimizi ,.. ]
+
+B0Lemma: değil, B0POS: Conj, B0Token: değil, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: sorun_değil, S0B0LemmaPOS: sorun_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_değil, S0B0Token: sorunu_değil, S0B1Lemma: sorun_,, S0B1LemmaPOS: sorun_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: sorunu_,, S0Lemma: sorun, S0POS: Noun, S0Token: sorunu, sorun_isGouvernedBy_değil: true, sorun_isGouvernedBy_değil_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [değil, ,, dinimizi ,.. ]
+
+B0Lemma: değil, B0POS: Conj, B0Token: değil, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [değil]   B= [,, dinimizi, _ ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: dini, B1POS: Noun, B1Token: dinimizi, S0B0Distance: 1, S0B0Lemma: değil_,, S0B0LemmaPOS: değil_Punc, S0B0POS: Conj_Punc, S0B0POSLemma: Conj_,, S0B0Token: değil_,, S0B1Lemma: değil_dini, S0B1LemmaPOS: değil_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_dini, S0B1Token: değil_dinimizi, S0Lemma: değil, S0POS: Conj, S0Token: değil, değil_,_hasRighDep_PUNCTUATION: true, değil_hasRighDep_PUNCTUATION: true, değil_isGouvernedBy__: true, değil_isGouvernedBy___COORDINATION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, dinimizi, _ ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: dini, B1POS: Noun, B1Token: dinimizi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [dinimizi, _, _ ,.. ]
+
+B0Lemma: dini, B0POS: Noun, B0Token: dinimizi, B1Lemma: koru, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: ,_dini, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_dini, S0B0Token: ,_dinimizi, S0B1Lemma: ,_koru, S0B1LemmaPOS: ,_Verb, S0B1POS: Punc_Verb, S0B1POSLemma: Punc_koru, S0B1Token: ,__, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dinimizi, _, _ ,.. ]
+
+B0Lemma: dini, B0POS: Noun, B0Token: dinimizi, B1Lemma: koru, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dinimizi]   B= [_, _, korumaktır ,.. ]
+
+B0Lemma: koru, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: _, S0B0Distance: 1, S0B0Lemma: dini_koru, S0B0LemmaPOS: dini_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_koru, S0B0Token: dinimizi__, S0B1Lemma: dini__, S0B1LemmaPOS: dini_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: dinimizi__, S0Lemma: dini, S0POS: Noun, S0Token: dinimizi, dini_isGouvernedBy_koru: true, dini_isGouvernedBy_koru_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, _, korumaktır ,.. ]
+
+B0Lemma: koru, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [_, korumaktır, . ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Verb, B1Token: korumaktır, S0B0Distance: 1, S0B0Lemma: koru__, S0B0LemmaPOS: koru_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: ___, S0B1Lemma: koru__, S0B1LemmaPOS: koru_Verb, S0B1POS: Verb_Verb, S0B1POSLemma: Verb__, S0B1Token: __korumaktır, S0Lemma: koru, S0POS: Verb, S0Token: _, koru_isGouvernedBy__: true, koru_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, korumaktır, . ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Verb, B1Token: korumaktır, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [korumaktır, ., " ,.. ]
+
+B0Lemma: _, B0POS: Verb, B0Token: korumaktır, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: ___, S0B0LemmaPOS: __Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun__, S0B0Token: __korumaktır, S0B1Lemma: __., S0B1LemmaPOS: __Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: __., S0Lemma: _, S0POS: Noun, S0Token: _, __isGouvernedBy__: true, __isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [korumaktır, ., " ,.. ]
+
+B0Lemma: _, B0POS: Verb, B0Token: korumaktır, B1Lemma: ., B1POS: Punc, B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [korumaktır]   B= [., ", dedi ,.. ]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: __., S0B0LemmaPOS: __Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: korumaktır_., S0B1Lemma: __", S0B1LemmaPOS: __Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_", S0B1Token: korumaktır_", S0Lemma: _, S0POS: Verb, S0Token: korumaktır, __"_hasRighDep_PUNCTUATION: true, __._hasRighDep_PUNCTUATION: true, __hasRighDep_PUNCTUATION: true, __isGouvernedBy_de: true, __isGouvernedBy_de_OBJECT: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., ", dedi ,.. ]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., B1Lemma: ", B1POS: Punc, B1Token: ", transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [", dedi, . ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: de, B1POS: Verb, B1Token: dedi, S0B0Distance: 1, S0B0Lemma: ._", S0B0LemmaPOS: ._Punc, S0B0POS: Punc_Punc, S0B0POSLemma: Punc_", S0B0Token: ._", S0B1Lemma: ._de, S0B1LemmaPOS: ._Verb, S0B1POS: Punc_Verb, S0B1POSLemma: Punc_de, S0B1Token: ._dedi, S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", dedi, . ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: de, B1POS: Verb, B1Token: dedi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [dedi, . ,.. ]
+
+B0Lemma: de, B0POS: Verb, B0Token: dedi, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: "_de, S0B0LemmaPOS: "_Verb, S0B0POS: Punc_Verb, S0B0POSLemma: Punc_de, S0B0Token: "_dedi, S0B1Lemma: "_., S0B1LemmaPOS: "_Punc, S0B1POS: Punc_Punc, S0B1POSLemma: Punc_., S0B1Token: "_., S0Lemma: ", S0POS: Punc, S0Token: ", transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dedi, . ,.. ]
+
+B0Lemma: de, B0POS: Verb, B0Token: dedi, B1Lemma: ., B1POS: Punc, B1Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dedi]   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: de_., S0B0LemmaPOS: de_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: dedi_., S0Lemma: de, S0POS: Verb, S0Token: dedi, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 8051 - 
+Başta Türkiye ve ABD _ olmak üzere Kıbrıs sorunun çözüm sürecinde aktif rol sahibi ülkelerin _ şiddetli tepkilerine karşılık olarak , kısa bir süre önce Moskova'yı ziyaret _ eden Dışişleri Bakanı Tansu Çiller'e _ verdiği yanıtı _ tekrarlayan yetkililer ve onu _ destekleyen Rus basını , satışın " sadece ticari amaçlı " ve " _ zararsız " _ olduğu görüşünde . 
+### Existing MWEs: 
+1- **ziyaret eden** (LVC)
+2- **verdiği yanıtı** (LVC)
+3- **verdiği yanıtı** (OTH), Embedded
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Başta, Türkiye, ve ,.. ]
+
+B0Lemma: başta, B0POS: Adverb, B0Token: Başta, B1Lemma: Türkiye, B1POS: Noun, B1Token: Türkiye, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Başta]   B= [Türkiye, ve, ABD ,.. ]
+
+B0Lemma: Türkiye, B0POS: Noun, B0Token: Türkiye, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: başta_Türkiye, S0B0LemmaPOS: başta_Noun, S0B0POS: Adverb_Noun, S0B0POSLemma: Adverb_Türkiye, S0B0Token: Başta_Türkiye, S0B1Lemma: başta_ve, S0B1LemmaPOS: başta_Conj, S0B1POS: Adverb_Conj, S0B1POSLemma: Adverb_ve, S0B1Token: Başta_ve, S0Lemma: başta, S0POS: Adverb, S0Token: Başta, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Türkiye, ve, ABD ,.. ]
+
+B0Lemma: Türkiye, B0POS: Noun, B0Token: Türkiye, B1Lemma: ve, B1POS: Conj, B1Token: ve, transitionHistoryLength1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Türkiye]   B= [ve, ABD, _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: Abd, B1POS: Noun, B1Token: ABD, S0B0Distance: 1, S0B0Lemma: Türkiye_ve, S0B0LemmaPOS: Türkiye_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: Türkiye_ve, S0B1Lemma: Türkiye_Abd, S0B1LemmaPOS: Türkiye_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Abd, S0B1Token: Türkiye_ABD, S0Lemma: Türkiye, S0POS: Noun, S0Token: Türkiye, Türkiye_hasRighDep_CONJUNCTION: true, Türkiye_isGouvernedBy_Abd: true, Türkiye_isGouvernedBy_Abd_COORDINATION: true, Türkiye_ve_hasRighDep_CONJUNCTION: true, hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, ABD, _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: Abd, B1POS: Noun, B1Token: ABD, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [ABD, _, olmak ,.. ]
+
+B0Lemma: Abd, B0POS: Noun, B0Token: ABD, B1Lemma: ol, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: ve_Abd, S0B0LemmaPOS: ve_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_Abd, S0B0Token: ve_ABD, S0B1Lemma: ve_ol, S0B1LemmaPOS: ve_Verb, S0B1POS: Conj_Verb, S0B1POSLemma: Conj_ol, S0B1Token: ve__, S0Lemma: ve, S0POS: Conj, S0Token: ve, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ABD, _, olmak ,.. ]
+
+B0Lemma: Abd, B0POS: Noun, B0Token: ABD, B1Lemma: ol, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ABD]   B= [_, olmak, üzere ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: olmak, S0B0Distance: 1, S0B0Lemma: Abd_ol, S0B0LemmaPOS: Abd_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ol, S0B0Token: ABD__, S0B1Lemma: Abd__, S0B1LemmaPOS: Abd_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun__, S0B1Token: ABD_olmak, S0Lemma: Abd, S0POS: Noun, S0Token: ABD, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, olmak, üzere ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: olmak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [olmak, üzere, Kıbrıs ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: olmak, B1Lemma: üzere, B1POS: Postp, B1Token: üzere, S0B0Distance: 1, S0B0Lemma: ol__, S0B0LemmaPOS: ol_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __olmak, S0B1Lemma: ol_üzere, S0B1LemmaPOS: ol_Postp, S0B1POS: Verb_Postp, S0B1POSLemma: Verb_üzere, S0B1Token: __üzere, S0Lemma: ol, S0POS: Verb, S0Token: _, ol_isGouvernedBy__: true, ol_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [olmak, üzere, Kıbrıs ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: olmak, B1Lemma: üzere, B1POS: Postp, B1Token: üzere, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [olmak]   B= [üzere, Kıbrıs, sorunun ,.. ]
+
+B0Lemma: üzere, B0POS: Postp, B0Token: üzere, B1Lemma: Kıbrıs, B1POS: Noun, B1Token: Kıbrıs, S0B0Distance: 1, S0B0Lemma: __üzere, S0B0LemmaPOS: __Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_üzere, S0B0Token: olmak_üzere, S0B1Lemma: __Kıbrıs, S0B1LemmaPOS: __Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Kıbrıs, S0B1Token: olmak_Kıbrıs, S0Lemma: _, S0POS: Noun, S0Token: olmak, __isGouvernedBy_üzere: true, __isGouvernedBy_üzere_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [üzere, Kıbrıs, sorunun ,.. ]
+
+B0Lemma: üzere, B0POS: Postp, B0Token: üzere, B1Lemma: Kıbrıs, B1POS: Noun, B1Token: Kıbrıs, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [üzere]   B= [Kıbrıs, sorunun, çözüm ,.. ]
+
+B0Lemma: Kıbrıs, B0POS: Noun, B0Token: Kıbrıs, B1Lemma: sorun, B1POS: Noun, B1Token: sorunun, S0B0Distance: 1, S0B0Lemma: üzere_Kıbrıs, S0B0LemmaPOS: üzere_Noun, S0B0POS: Postp_Noun, S0B0POSLemma: Postp_Kıbrıs, S0B0Token: üzere_Kıbrıs, S0B1Lemma: üzere_sorun, S0B1LemmaPOS: üzere_Noun, S0B1POS: Postp_Noun, S0B1POSLemma: Postp_sorun, S0B1Token: üzere_sorunun, S0Lemma: üzere, S0POS: Postp, S0Token: üzere, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kıbrıs, sorunun, çözüm ,.. ]
+
+B0Lemma: Kıbrıs, B0POS: Noun, B0Token: Kıbrıs, B1Lemma: sorun, B1POS: Noun, B1Token: sorunun, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kıbrıs]   B= [sorunun, çözüm, sürecinde ,.. ]
+
+B0Lemma: sorun, B0POS: Noun, B0Token: sorunun, B1Lemma: çözüm, B1POS: Noun, B1Token: çözüm, Kıbrıs_isGouvernedBy_sorun: true, Kıbrıs_isGouvernedBy_sorun_MWE: true, S0B0Distance: 1, S0B0Lemma: Kıbrıs_sorun, S0B0LemmaPOS: Kıbrıs_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_sorun, S0B0Token: Kıbrıs_sorunun, S0B1Lemma: Kıbrıs_çözüm, S0B1LemmaPOS: Kıbrıs_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_çözüm, S0B1Token: Kıbrıs_çözüm, S0Lemma: Kıbrıs, S0POS: Noun, S0Token: Kıbrıs, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sorunun, çözüm, sürecinde ,.. ]
+
+B0Lemma: sorun, B0POS: Noun, B0Token: sorunun, B1Lemma: çözüm, B1POS: Noun, B1Token: çözüm, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sorunun]   B= [çözüm, sürecinde, aktif ,.. ]
+
+B0Lemma: çözüm, B0POS: Noun, B0Token: çözüm, B1Lemma: süreç, B1POS: Noun, B1Token: sürecinde, S0B0Distance: 1, S0B0Lemma: sorun_çözüm, S0B0LemmaPOS: sorun_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_çözüm, S0B0Token: sorunun_çözüm, S0B1Lemma: sorun_süreç, S0B1LemmaPOS: sorun_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_süreç, S0B1Token: sorunun_sürecinde, S0Lemma: sorun, S0POS: Noun, S0Token: sorunun, sorun_isGouvernedBy_süreç: true, sorun_isGouvernedBy_süreç_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [çözüm, sürecinde, aktif ,.. ]
+
+B0Lemma: çözüm, B0POS: Noun, B0Token: çözüm, B1Lemma: süreç, B1POS: Noun, B1Token: sürecinde, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [çözüm]   B= [sürecinde, aktif, rol ,.. ]
+
+B0Lemma: süreç, B0POS: Noun, B0Token: sürecinde, B1Lemma: aktif, B1POS: Adj, B1Token: aktif, S0B0Distance: 1, S0B0Lemma: çözüm_süreç, S0B0LemmaPOS: çözüm_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_süreç, S0B0Token: çözüm_sürecinde, S0B1Lemma: çözüm_aktif, S0B1LemmaPOS: çözüm_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_aktif, S0B1Token: çözüm_aktif, S0Lemma: çözüm, S0POS: Noun, S0Token: çözüm, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, çözüm_isGouvernedBy_süreç: true, çözüm_isGouvernedBy_süreç_POSSESSOR: true, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sürecinde, aktif, rol ,.. ]
+
+B0Lemma: süreç, B0POS: Noun, B0Token: sürecinde, B1Lemma: aktif, B1POS: Adj, B1Token: aktif, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sürecinde]   B= [aktif, rol, sahibi ,.. ]
+
+B0Lemma: aktif, B0POS: Adj, B0Token: aktif, B1Lemma: rol, B1POS: Noun, B1Token: rol, S0B0Distance: 1, S0B0Lemma: süreç_aktif, S0B0LemmaPOS: süreç_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_aktif, S0B0Token: sürecinde_aktif, S0B1Lemma: süreç_rol, S0B1LemmaPOS: süreç_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_rol, S0B1Token: sürecinde_rol, S0Lemma: süreç, S0POS: Noun, S0Token: sürecinde, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aktif, rol, sahibi ,.. ]
+
+B0Lemma: aktif, B0POS: Adj, B0Token: aktif, B1Lemma: rol, B1POS: Noun, B1Token: rol, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aktif]   B= [rol, sahibi, ülkelerin ,.. ]
+
+B0Lemma: rol, B0POS: Noun, B0Token: rol, B1Lemma: sahip, B1POS: Noun, B1Token: sahibi, S0B0Distance: 1, S0B0Lemma: aktif_rol, S0B0LemmaPOS: aktif_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_rol, S0B0Token: aktif_rol, S0B1Lemma: aktif_sahip, S0B1LemmaPOS: aktif_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_sahip, S0B1Token: aktif_sahibi, S0Lemma: aktif, S0POS: Adj, S0Token: aktif, aktif_isGouvernedBy_rol: true, aktif_isGouvernedBy_rol_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rol, sahibi, ülkelerin ,.. ]
+
+B0Lemma: rol, B0POS: Noun, B0Token: rol, B1Lemma: sahip, B1POS: Noun, B1Token: sahibi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rol]   B= [sahibi, ülkelerin, _ ,.. ]
+
+B0Lemma: sahip, B0POS: Noun, B0Token: sahibi, B1Lemma: ülke, B1POS: Noun, B1Token: ülkelerin, S0B0Distance: 1, S0B0Lemma: rol_sahip, S0B0LemmaPOS: rol_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_sahip, S0B0Token: rol_sahibi, S0B1Lemma: rol_ülke, S0B1LemmaPOS: rol_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_ülke, S0B1Token: rol_ülkelerin, S0Lemma: rol, S0POS: Noun, S0Token: rol, rol_isGouvernedBy_sahip: true, rol_isGouvernedBy_sahip_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sahibi, ülkelerin, _ ,.. ]
+
+B0Lemma: sahip, B0POS: Noun, B0Token: sahibi, B1Lemma: ülke, B1POS: Noun, B1Token: ülkelerin, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sahibi]   B= [ülkelerin, _, şiddetli ,.. ]
+
+B0Lemma: ülke, B0POS: Noun, B0Token: ülkelerin, B1Lemma: şiddet, B1POS: Noun, B1Token: _, S0B0Distance: 1, S0B0Lemma: sahip_ülke, S0B0LemmaPOS: sahip_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_ülke, S0B0Token: sahibi_ülkelerin, S0B1Lemma: sahip_şiddet, S0B1LemmaPOS: sahip_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_şiddet, S0B1Token: sahibi__, S0Lemma: sahip, S0POS: Noun, S0Token: sahibi, sahip_isGouvernedBy_ülke: true, sahip_isGouvernedBy_ülke_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ülkelerin, _, şiddetli ,.. ]
+
+B0Lemma: ülke, B0POS: Noun, B0Token: ülkelerin, B1Lemma: şiddet, B1POS: Noun, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ülkelerin]   B= [_, şiddetli, tepkilerine ,.. ]
+
+B0Lemma: şiddet, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: şiddetli, S0B0Distance: 1, S0B0Lemma: ülke_şiddet, S0B0LemmaPOS: ülke_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_şiddet, S0B0Token: ülkelerin__, S0B1Lemma: ülke__, S0B1LemmaPOS: ülke_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: ülkelerin_şiddetli, S0Lemma: ülke, S0POS: Noun, S0Token: ülkelerin, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, ülke_isGouvernedBy_tepki: true, ülke_isGouvernedBy_tepki_POSSESSOR: true, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, şiddetli, tepkilerine ,.. ]
+
+B0Lemma: şiddet, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: şiddetli, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [şiddetli, tepkilerine, karşılık ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: şiddetli, B1Lemma: tepki, B1POS: Noun, B1Token: tepkilerine, S0B0Distance: 1, S0B0Lemma: şiddet__, S0B0LemmaPOS: şiddet_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: __şiddetli, S0B1Lemma: şiddet_tepki, S0B1LemmaPOS: şiddet_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_tepki, S0B1Token: __tepkilerine, S0Lemma: şiddet, S0POS: Noun, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, şiddet_isGouvernedBy__: true, şiddet_isGouvernedBy___DERIV: true, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [şiddetli, tepkilerine, karşılık ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: şiddetli, B1Lemma: tepki, B1POS: Noun, B1Token: tepkilerine, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [şiddetli]   B= [tepkilerine, karşılık, olarak ,.. ]
+
+B0Lemma: tepki, B0POS: Noun, B0Token: tepkilerine, B1Lemma: karşılık, B1POS: Noun, B1Token: karşılık, S0B0Distance: 1, S0B0Lemma: __tepki, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_tepki, S0B0Token: şiddetli_tepkilerine, S0B1Lemma: __karşılık, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_karşılık, S0B1Token: şiddetli_karşılık, S0Lemma: _, S0POS: Adj, S0Token: şiddetli, __isGouvernedBy_tepki: true, __isGouvernedBy_tepki_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tepkilerine, karşılık, olarak ,.. ]
+
+B0Lemma: tepki, B0POS: Noun, B0Token: tepkilerine, B1Lemma: karşılık, B1POS: Noun, B1Token: karşılık, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tepkilerine]   B= [karşılık, olarak, , ,.. ]
+
+B0Lemma: karşılık, B0POS: Noun, B0Token: karşılık, B1Lemma: olarak, B1POS: Postp, B1Token: olarak, S0B0Distance: 1, S0B0Lemma: tepki_karşılık, S0B0LemmaPOS: tepki_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_karşılık, S0B0Token: tepkilerine_karşılık, S0B1Lemma: tepki_olarak, S0B1LemmaPOS: tepki_Postp, S0B1POS: Noun_Postp, S0B1POSLemma: Noun_olarak, S0B1Token: tepkilerine_olarak, S0Lemma: tepki, S0POS: Noun, S0Token: tepkilerine, tepki_isGouvernedBy_olarak: true, tepki_isGouvernedBy_olarak_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [karşılık, olarak, , ,.. ]
+
+B0Lemma: karşılık, B0POS: Noun, B0Token: karşılık, B1Lemma: olarak, B1POS: Postp, B1Token: olarak, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [karşılık]   B= [olarak, ,, kısa ,.. ]
+
+B0Lemma: olarak, B0POS: Postp, B0Token: olarak, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 1, S0B0Lemma: karşılık_olarak, S0B0LemmaPOS: karşılık_Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_olarak, S0B0Token: karşılık_olarak, S0B1Lemma: karşılık_,, S0B1LemmaPOS: karşılık_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: karşılık_,, S0Lemma: karşılık, S0POS: Noun, S0Token: karşılık, karşılık_isGouvernedBy_olarak: true, karşılık_isGouvernedBy_olarak_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [olarak, ,, kısa ,.. ]
+
+B0Lemma: olarak, B0POS: Postp, B0Token: olarak, B1Lemma: ,, B1POS: Punc, B1Token: ,, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [olarak]   B= [,, kısa, bir ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: kısa, B1POS: Adj, B1Token: kısa, S0B0Distance: 1, S0B0Lemma: olarak_,, S0B0LemmaPOS: olarak_Punc, S0B0POS: Postp_Punc, S0B0POSLemma: Postp_,, S0B0Token: olarak_,, S0B1Lemma: olarak_kısa, S0B1LemmaPOS: olarak_Adj, S0B1POS: Postp_Adj, S0B1POSLemma: Postp_kısa, S0B1Token: olarak_kısa, S0Lemma: olarak, S0POS: Postp, S0Token: olarak, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, kısa, bir ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: kısa, B1POS: Adj, B1Token: kısa, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [kısa, bir, süre ,.. ]
+
+B0Lemma: kısa, B0POS: Adj, B0Token: kısa, B1Lemma: bir, B1POS: Adj, B1Token: bir, S0B0Distance: 1, S0B0Lemma: ,_kısa, S0B0LemmaPOS: ,_Adj, S0B0POS: Punc_Adj, S0B0POSLemma: Punc_kısa, S0B0Token: ,_kısa, S0B1Lemma: ,_bir, S0B1LemmaPOS: ,_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc_bir, S0B1Token: ,_bir, S0Lemma: ,, S0POS: Punc, S0Token: ,, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kısa, bir, süre ,.. ]
+
+B0Lemma: kısa, B0POS: Adj, B0Token: kısa, B1Lemma: bir, B1POS: Adj, B1Token: bir, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kısa]   B= [bir, süre, önce ,.. ]
+
+B0Lemma: bir, B0POS: Adj, B0Token: bir, B1Lemma: süre, B1POS: Noun, B1Token: süre, S0B0Distance: 1, S0B0Lemma: kısa_bir, S0B0LemmaPOS: kısa_Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_bir, S0B0Token: kısa_bir, S0B1Lemma: kısa_süre, S0B1LemmaPOS: kısa_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_süre, S0B1Token: kısa_süre, S0Lemma: kısa, S0POS: Adj, S0Token: kısa, kısa_isGouvernedBy_süre: true, kısa_isGouvernedBy_süre_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bir, süre, önce ,.. ]
+
+B0Lemma: bir, B0POS: Adj, B0Token: bir, B1Lemma: süre, B1POS: Noun, B1Token: süre, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bir]   B= [süre, önce, Moskova'yı ,.. ]
+
+B0Lemma: süre, B0POS: Noun, B0Token: süre, B1Lemma: önce, B1POS: Adverb, B1Token: önce, S0B0Distance: 1, S0B0Lemma: bir_süre, S0B0LemmaPOS: bir_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_süre, S0B0Token: bir_süre, S0B1Lemma: bir_önce, S0B1LemmaPOS: bir_Adverb, S0B1POS: Adj_Adverb, S0B1POSLemma: Adj_önce, S0B1Token: bir_önce, S0Lemma: bir, S0POS: Adj, S0Token: bir, bir_isGouvernedBy_süre: true, bir_isGouvernedBy_süre_DETERMINER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [süre, önce, Moskova'yı ,.. ]
+
+B0Lemma: süre, B0POS: Noun, B0Token: süre, B1Lemma: önce, B1POS: Adverb, B1Token: önce, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [süre]   B= [önce, Moskova'yı, ziyaret ,.. ]
+
+B0Lemma: önce, B0POS: Adverb, B0Token: önce, B1Lemma: Moskova, B1POS: Noun, B1Token: Moskova'yı, S0B0Distance: 1, S0B0Lemma: süre_önce, S0B0LemmaPOS: süre_Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun_önce, S0B0Token: süre_önce, S0B1Lemma: süre_Moskova, S0B1LemmaPOS: süre_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Moskova, S0B1Token: süre_Moskova'yı, S0Lemma: süre, S0POS: Noun, S0Token: süre, süre_isGouvernedBy_önce: true, süre_isGouvernedBy_önce_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [önce, Moskova'yı, ziyaret ,.. ]
+
+B0Lemma: önce, B0POS: Adverb, B0Token: önce, B1Lemma: Moskova, B1POS: Noun, B1Token: Moskova'yı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [önce]   B= [Moskova'yı, ziyaret, _ ,.. ]
+
+B0Lemma: Moskova, B0POS: Noun, B0Token: Moskova'yı, B1Lemma: ziyaret, B1POS: Noun, B1Token: ziyaret, S0B0Distance: 1, S0B0Lemma: önce_Moskova, S0B0LemmaPOS: önce_Noun, S0B0POS: Adverb_Noun, S0B0POSLemma: Adverb_Moskova, S0B0Token: önce_Moskova'yı, S0B1Lemma: önce_ziyaret, S0B1LemmaPOS: önce_Noun, S0B1POS: Adverb_Noun, S0B1POSLemma: Adverb_ziyaret, S0B1Token: önce_ziyaret, S0Lemma: önce, S0POS: Adverb, S0Token: önce, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, önce_isGouvernedBy_et: true, önce_isGouvernedBy_et_MODIFIER: true, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Moskova'yı, ziyaret, _ ,.. ]
+
+B0Lemma: Moskova, B0POS: Noun, B0Token: Moskova'yı, B1Lemma: ziyaret, B1POS: Noun, B1Token: ziyaret, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Moskova'yı]   B= [ziyaret, _, eden ,.. ]
+
+B0Lemma: ziyaret, B0POS: Noun, B0Token: ziyaret, B1Lemma: et, B1POS: Verb, B1Token: _, Moskova_isGouvernedBy_et: true, Moskova_isGouvernedBy_et_OBJECT: true, S0B0Distance: 1, S0B0Lemma: Moskova_ziyaret, S0B0LemmaPOS: Moskova_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_ziyaret, S0B0Token: Moskova'yı_ziyaret, S0B1Lemma: Moskova_et, S0B1LemmaPOS: Moskova_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_et, S0B1Token: Moskova'yı__, S0Lemma: Moskova, S0POS: Noun, S0Token: Moskova'yı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ziyaret, _, eden ,.. ]
+
+B0Lemma: ziyaret, B0POS: Noun, B0Token: ziyaret, B1Lemma: et, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ziyaret]   B= [_, eden, Dışişleri ,.. ]
+
+B0Lemma: et, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: eden, S0B0Distance: 1, S0B0Lemma: ziyaret_et, S0B0LemmaPOS: ziyaret_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_et, S0B0Token: ziyaret__, S0B1Lemma: ziyaret__, S0B1LemmaPOS: ziyaret_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: ziyaret_eden, S0Lemma: ziyaret, S0POS: Noun, S0Token: ziyaret, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, ziyaret_isGouvernedBy_et: true, ziyaret_isGouvernedBy_et_MWE: true, 
+
+54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ziyaret, _]   B= [eden, Dışişleri, Bakanı ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: eden, B1Lemma: dışişleri, B1POS: Noun, B1Token: Dışişleri, S0B0Distance: 1, S0B0Lemma: et__, S0B0LemmaPOS: et_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __eden, S0B1Lemma: et_dışişleri, S0B1LemmaPOS: et_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_dışişleri, S0B1Token: __Dışişleri, S0Lemma: et, S0POS: Verb, S0Token: _, S1B0Lemma: ziyaret__, S1B0LemmaPOS: ziyaret_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: ziyaret_eden, S1Lemma: ziyaret, S1POS: Noun, S1S0Lemma: ziyaret_et, S1S0LemmaPOS: ziyaret_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_et, S1S0Token: ziyaret__, S1Token: ziyaret, SyntaxicRelation: -MWE, et_isGouvernedBy__: true, et_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+55- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ziyaret]   B= [eden, Dışişleri, Bakanı ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: eden, B1Lemma: dışişleri, B1POS: Noun, B1Token: Dışişleri, S0B0Distance: 2, S0B0Lemma: ziyaret__, S0B0LemmaPOS: ziyaret_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: ziyaret_eden, S0B1Lemma: ziyaret_dışişleri, S0B1LemmaPOS: ziyaret_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_dışişleri, S0B1Token: ziyaret_Dışişleri, S0Lemma: ziyaret, S0POS: Noun, S0Token: ziyaret, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+56- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ziyaret, eden]   B= [Dışişleri, Bakanı, Tansu ,.. ]
+
+B0Lemma: dışişleri, B0POS: Noun, B0Token: Dışişleri, B1Lemma: bakan, B1POS: Noun, B1Token: Bakanı, S0B0Distance: 1, S0B0Lemma: __dışişleri, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_dışişleri, S0B0Token: eden_Dışişleri, S0B1Lemma: __bakan, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_bakan, S0B1Token: eden_Bakanı, S0Lemma: _, S0POS: Adj, S0Token: eden, S1B0Lemma: ziyaret_dışişleri, S1B0LemmaPOS: ziyaret_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_dışişleri, S1B0Token: ziyaret_Dışişleri, S1Lemma: ziyaret, S1POS: Noun, S1S0Lemma: ziyaret__, S1S0LemmaPOS: ziyaret_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: ziyaret_eden, S1Token: ziyaret, __isGouvernedBy_Çiller: true, __isGouvernedBy_Çiller_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+57- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ziyaret, eden]]   B= [Dışişleri, Bakanı, Tansu ,.. ]
+
+B0Lemma: dışişleri, B0POS: Noun, B0Token: Dışişleri, B1Lemma: bakan, B1POS: Noun, B1Token: Bakanı, S0B0Distance: 1, S0B0Lemma: ziyaret___dışişleri, S0B0LemmaPOS: ziyaret___Noun, S0B0POS: Noun_Adj_Noun, S0B0POSLemma: Noun_Adj_dışişleri, S0B0Token: ziyaret_eden_Dışişleri, S0B1Lemma: ziyaret___bakan, S0B1LemmaPOS: ziyaret___Noun, S0B1POS: Noun_Adj_Noun, S0B1POSLemma: Noun_Adj_bakan, S0B1Token: ziyaret_eden_Bakanı, S0Lemma: ziyaret__, S0POS: Noun_Adj, S0Token: ziyaret_eden, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Dışişleri, Bakanı, Tansu ,.. ]
+
+B0Lemma: dışişleri, B0POS: Noun, B0Token: Dışişleri, B1Lemma: bakan, B1POS: Noun, B1Token: Bakanı, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Dışişleri]   B= [Bakanı, Tansu, Çiller'e ,.. ]
+
+B0Lemma: bakan, B0POS: Noun, B0Token: Bakanı, B1Lemma: Tansu, B1POS: Noun, B1Token: Tansu, S0B0Distance: 1, S0B0Lemma: dışişleri_bakan, S0B0LemmaPOS: dışişleri_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_bakan, S0B0Token: Dışişleri_Bakanı, S0B1Lemma: dışişleri_Tansu, S0B1LemmaPOS: dışişleri_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Tansu, S0B1Token: Dışişleri_Tansu, S0Lemma: dışişleri, S0POS: Noun, S0Token: Dışişleri, dışişleri_isGouvernedBy_bakan: true, dışişleri_isGouvernedBy_bakan_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Bakanı, Tansu, Çiller'e ,.. ]
+
+B0Lemma: bakan, B0POS: Noun, B0Token: Bakanı, B1Lemma: Tansu, B1POS: Noun, B1Token: Tansu, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Bakanı]   B= [Tansu, Çiller'e, _ ,.. ]
+
+B0Lemma: Tansu, B0POS: Noun, B0Token: Tansu, B1Lemma: Çiller, B1POS: Noun, B1Token: Çiller'e, S0B0Distance: 1, S0B0Lemma: bakan_Tansu, S0B0LemmaPOS: bakan_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Tansu, S0B0Token: Bakanı_Tansu, S0B1Lemma: bakan_Çiller, S0B1LemmaPOS: bakan_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Çiller, S0B1Token: Bakanı_Çiller'e, S0Lemma: bakan, S0POS: Noun, S0Token: Bakanı, bakan_isGouvernedBy_Tansu: true, bakan_isGouvernedBy_Tansu_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Tansu, Çiller'e, _ ,.. ]
+
+B0Lemma: Tansu, B0POS: Noun, B0Token: Tansu, B1Lemma: Çiller, B1POS: Noun, B1Token: Çiller'e, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Tansu]   B= [Çiller'e, _, verdiği ,.. ]
+
+B0Lemma: Çiller, B0POS: Noun, B0Token: Çiller'e, B1Lemma: ver, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: Tansu_Çiller, S0B0LemmaPOS: Tansu_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Çiller, S0B0Token: Tansu_Çiller'e, S0B1Lemma: Tansu_ver, S0B1LemmaPOS: Tansu_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_ver, S0B1Token: Tansu__, S0Lemma: Tansu, S0POS: Noun, S0Token: Tansu, Tansu_isGouvernedBy_Çiller: true, Tansu_isGouvernedBy_Çiller_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Çiller'e, _, verdiği ,.. ]
+
+B0Lemma: Çiller, B0POS: Noun, B0Token: Çiller'e, B1Lemma: ver, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Çiller'e]   B= [_, verdiği, yanıtı ,.. ]
+
+B0Lemma: ver, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: verdiği, S0B0Distance: 1, S0B0Lemma: Çiller_ver, S0B0LemmaPOS: Çiller_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ver, S0B0Token: Çiller'e__, S0B1Lemma: Çiller__, S0B1LemmaPOS: Çiller_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: Çiller'e_verdiği, S0Lemma: Çiller, S0POS: Noun, S0Token: Çiller'e, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, Çiller_isGouvernedBy_ver: true, Çiller_isGouvernedBy_ver_MODIFIER: true, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, verdiği, yanıtı ,.. ]
+
+B0Lemma: ver, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: verdiği, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [verdiği, yanıtı, _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: verdiği, B1Lemma: yanıt, B1POS: Noun, B1Token: yanıtı, S0B0Distance: 1, S0B0Lemma: ver__, S0B0LemmaPOS: ver_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __verdiği, S0B1Lemma: ver_yanıt, S0B1LemmaPOS: ver_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_yanıt, S0B1Token: __yanıtı, S0Lemma: ver, S0POS: Verb, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, ver_isGouvernedBy__: true, ver_isGouvernedBy___DERIV: true, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [verdiği, yanıtı, _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: verdiği, B1Lemma: yanıt, B1POS: Noun, B1Token: yanıtı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği]   B= [yanıtı, _, tekrarlayan ,.. ]
+
+B0Lemma: yanıt, B0POS: Noun, B0Token: yanıtı, B1Lemma: tekrarla, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: __yanıt, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_yanıt, S0B0Token: verdiği_yanıtı, S0B1Lemma: __tekrarla, S0B1LemmaPOS: __Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_tekrarla, S0B1Token: verdiği__, S0Lemma: _, S0POS: Adj, S0Token: verdiği, __isGouvernedBy_yanıt: true, __isGouvernedBy_yanıt_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+70- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [_, tekrarlayan, yetkililer ,.. ]
+
+B0Lemma: tekrarla, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: tekrarlayan, S0B0Distance: 1, S0B0Lemma: yanıt_tekrarla, S0B0LemmaPOS: yanıt_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_tekrarla, S0B0Token: yanıtı__, S0B1Lemma: yanıt__, S0B1LemmaPOS: yanıt_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: yanıtı_tekrarlayan, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __tekrarla, S1B0LemmaPOS: __Verb, S1B0POS: Adj_Verb, S1B0POSLemma: Adj_tekrarla, S1B0Token: verdiği__, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, yanıt_isGouvernedBy_tekrarla: true, yanıt_isGouvernedBy_tekrarla_OBJECT: true, 
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, _]   B= [tekrarlayan, yetkililer, ve ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: tekrarlayan, B1Lemma: yetkili, B1POS: Noun, B1Token: yetkililer, S0B0Distance: 1, S0B0Lemma: tekrarla__, S0B0LemmaPOS: tekrarla_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __tekrarlayan, S0B1Lemma: tekrarla_yetkili, S0B1LemmaPOS: tekrarla_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_yetkili, S0B1Token: __yetkililer, S0Lemma: tekrarla, S0POS: Verb, S0Token: _, S1B0Lemma: yanıt__, S1B0LemmaPOS: yanıt_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: yanıtı_tekrarlayan, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_tekrarla, S1S0LemmaPOS: yanıt_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_tekrarla, S1S0Token: yanıtı__, S1Token: yanıtı, SyntaxicRelation: -OBJECT, tekrarla_isGouvernedBy__: true, tekrarla_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [tekrarlayan, yetkililer, ve ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: tekrarlayan, B1Lemma: yetkili, B1POS: Noun, B1Token: yetkililer, S0B0Distance: 2, S0B0Lemma: yanıt__, S0B0LemmaPOS: yanıt_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: yanıtı_tekrarlayan, S0B1Lemma: yanıt_yetkili, S0B1LemmaPOS: yanıt_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_yetkili, S0B1Token: yanıtı_yetkililer, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: ___, S1B0LemmaPOS: __Adj, S1B0POS: Adj_Adj, S1B0POSLemma: Adj__, S1B0Token: verdiği_tekrarlayan, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 000, 
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, tekrarlayan]   B= [yetkililer, ve, onu ,.. ]
+
+B0Lemma: yetkili, B0POS: Noun, B0Token: yetkililer, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: __yetkili, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_yetkili, S0B0Token: tekrarlayan_yetkililer, S0B1Lemma: __ve, S0B1LemmaPOS: __Conj, S0B1POS: Adj_Conj, S0B1POSLemma: Adj_ve, S0B1Token: tekrarlayan_ve, S0Lemma: _, S0POS: Adj, S0Token: tekrarlayan, S1B0Lemma: yanıt_yetkili, S1B0LemmaPOS: yanıt_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_yetkili, S1B0Token: yanıtı_yetkililer, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt__, S1S0LemmaPOS: yanıt_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: yanıtı_tekrarlayan, S1Token: yanıtı, __isGouvernedBy_yetkili: true, __isGouvernedBy_yetkili_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [yetkililer, ve, onu ,.. ]
+
+B0Lemma: yetkili, B0POS: Noun, B0Token: yetkililer, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 3, S0B0Lemma: yanıt_yetkili, S0B0LemmaPOS: yanıt_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_yetkili, S0B0Token: yanıtı_yetkililer, S0B1Lemma: yanıt_ve, S0B1LemmaPOS: yanıt_Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_ve, S0B1Token: yanıtı_ve, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __yetkili, S1B0LemmaPOS: __Noun, S1B0POS: Adj_Noun, S1B0POSLemma: Adj_yetkili, S1B0Token: verdiği_yetkililer, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, yetkililer]   B= [ve, onu, _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: o, B1POS: Pron, B1Token: onu, S0B0Distance: 1, S0B0Lemma: yetkili_ve, S0B0LemmaPOS: yetkili_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: yetkililer_ve, S0B1Lemma: yetkili_o, S0B1LemmaPOS: yetkili_Pron, S0B1POS: Noun_Pron, S0B1POSLemma: Noun_o, S0B1Token: yetkililer_onu, S0Lemma: yetkili, S0POS: Noun, S0Token: yetkililer, S1B0Lemma: yanıt_ve, S1B0LemmaPOS: yanıt_Conj, S1B0POS: Noun_Conj, S1B0POSLemma: Noun_ve, S1B0Token: yanıtı_ve, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_yetkili, S1S0LemmaPOS: yanıt_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun_yetkili, S1S0Token: yanıtı_yetkililer, S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [ve, onu, _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: o, B1POS: Pron, B1Token: onu, S0B0Distance: 4, S0B0Lemma: yanıt_ve, S0B0LemmaPOS: yanıt_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: yanıtı_ve, S0B1Lemma: yanıt_o, S0B1LemmaPOS: yanıt_Pron, S0B1POS: Noun_Pron, S0B1POSLemma: Noun_o, S0B1Token: yanıtı_onu, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __ve, S1B0LemmaPOS: __Conj, S1B0POS: Adj_Conj, S1B0POSLemma: Adj_ve, S1B0Token: verdiği_ve, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, ve]   B= [onu, _, destekleyen ,.. ]
+
+B0Lemma: o, B0POS: Pron, B0Token: onu, B1Lemma: destekle, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: ve_o, S0B0LemmaPOS: ve_Pron, S0B0POS: Conj_Pron, S0B0POSLemma: Conj_o, S0B0Token: ve_onu, S0B1Lemma: ve_destekle, S0B1LemmaPOS: ve_Verb, S0B1POS: Conj_Verb, S0B1POSLemma: Conj_destekle, S0B1Token: ve__, S0Lemma: ve, S0POS: Conj, S0Token: ve, S1B0Lemma: yanıt_o, S1B0LemmaPOS: yanıt_Pron, S1B0POS: Noun_Pron, S1B0POSLemma: Noun_o, S1B0Token: yanıtı_onu, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_ve, S1S0LemmaPOS: yanıt_Conj, S1S0POS: Noun_Conj, S1S0POSLemma: Noun_ve, S1S0Token: yanıtı_ve, S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [onu, _, destekleyen ,.. ]
+
+B0Lemma: o, B0POS: Pron, B0Token: onu, B1Lemma: destekle, B1POS: Verb, B1Token: _, S0B0Distance: 5, S0B0Lemma: yanıt_o, S0B0LemmaPOS: yanıt_Pron, S0B0POS: Noun_Pron, S0B0POSLemma: Noun_o, S0B0Token: yanıtı_onu, S0B1Lemma: yanıt_destekle, S0B1LemmaPOS: yanıt_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_destekle, S0B1Token: yanıtı__, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __o, S1B0LemmaPOS: __Pron, S1B0POS: Adj_Pron, S1B0POSLemma: Adj_o, S1B0Token: verdiği_onu, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, onu]   B= [_, destekleyen, Rus ,.. ]
+
+B0Lemma: destekle, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: destekleyen, S0B0Distance: 1, S0B0Lemma: o_destekle, S0B0LemmaPOS: o_Verb, S0B0POS: Pron_Verb, S0B0POSLemma: Pron_destekle, S0B0Token: onu__, S0B1Lemma: o__, S0B1LemmaPOS: o_Adj, S0B1POS: Pron_Adj, S0B1POSLemma: Pron__, S0B1Token: onu_destekleyen, S0Lemma: o, S0POS: Pron, S0Token: onu, S1B0Lemma: yanıt_destekle, S1B0LemmaPOS: yanıt_Verb, S1B0POS: Noun_Verb, S1B0POSLemma: Noun_destekle, S1B0Token: yanıtı__, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_o, S1S0LemmaPOS: yanıt_Pron, S1S0POS: Noun_Pron, S1S0POSLemma: Noun_o, S1S0Token: yanıtı_onu, S1Token: yanıtı, o_isGouvernedBy_destekle: true, o_isGouvernedBy_destekle_OBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [_, destekleyen, Rus ,.. ]
+
+B0Lemma: destekle, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: destekleyen, S0B0Distance: 6, S0B0Lemma: yanıt_destekle, S0B0LemmaPOS: yanıt_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_destekle, S0B0Token: yanıtı__, S0B1Lemma: yanıt__, S0B1LemmaPOS: yanıt_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: yanıtı_destekleyen, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __destekle, S1B0LemmaPOS: __Verb, S1B0POS: Adj_Verb, S1B0POSLemma: Adj_destekle, S1B0Token: verdiği__, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, _]   B= [destekleyen, Rus, basını ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: destekleyen, B1Lemma: Rus, B1POS: Adj, B1Token: Rus, S0B0Distance: 1, S0B0Lemma: destekle__, S0B0LemmaPOS: destekle_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __destekleyen, S0B1Lemma: destekle_Rus, S0B1LemmaPOS: destekle_Adj, S0B1POS: Verb_Adj, S0B1POSLemma: Verb_Rus, S0B1Token: __Rus, S0Lemma: destekle, S0POS: Verb, S0Token: _, S1B0Lemma: yanıt__, S1B0LemmaPOS: yanıt_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: yanıtı_destekleyen, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_destekle, S1S0LemmaPOS: yanıt_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_destekle, S1S0Token: yanıtı__, S1Token: yanıtı, destekle_isGouvernedBy__: true, destekle_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [destekleyen, Rus, basını ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: destekleyen, B1Lemma: Rus, B1POS: Adj, B1Token: Rus, S0B0Distance: 7, S0B0Lemma: yanıt__, S0B0LemmaPOS: yanıt_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: yanıtı_destekleyen, S0B1Lemma: yanıt_Rus, S0B1LemmaPOS: yanıt_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_Rus, S0B1Token: yanıtı_Rus, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: ___, S1B0LemmaPOS: __Adj, S1B0POS: Adj_Adj, S1B0POSLemma: Adj__, S1B0Token: verdiği_destekleyen, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, destekleyen]   B= [Rus, basını, , ,.. ]
+
+B0Lemma: Rus, B0POS: Adj, B0Token: Rus, B1Lemma: bas, B1POS: Noun, B1Token: basını, S0B0Distance: 1, S0B0Lemma: __Rus, S0B0LemmaPOS: __Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_Rus, S0B0Token: destekleyen_Rus, S0B1Lemma: __bas, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_bas, S0B1Token: destekleyen_basını, S0Lemma: _, S0POS: Adj, S0Token: destekleyen, S1B0Lemma: yanıt_Rus, S1B0LemmaPOS: yanıt_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun_Rus, S1B0Token: yanıtı_Rus, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt__, S1S0LemmaPOS: yanıt_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: yanıtı_destekleyen, S1Token: yanıtı, __isGouvernedBy_bas: true, __isGouvernedBy_bas_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [Rus, basını, , ,.. ]
+
+B0Lemma: Rus, B0POS: Adj, B0Token: Rus, B1Lemma: bas, B1POS: Noun, B1Token: basını, S0B0Distance: 8, S0B0Lemma: yanıt_Rus, S0B0LemmaPOS: yanıt_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_Rus, S0B0Token: yanıtı_Rus, S0B1Lemma: yanıt_bas, S0B1LemmaPOS: yanıt_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_bas, S0B1Token: yanıtı_basını, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __Rus, S1B0LemmaPOS: __Adj, S1B0POS: Adj_Adj, S1B0POSLemma: Adj_Rus, S1B0Token: verdiği_Rus, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, Rus]   B= [basını, ,, satışın ,.. ]
+
+B0Lemma: bas, B0POS: Noun, B0Token: basını, B1Lemma: ,, B1POS: Punc, B1Token: ,, Rus_isGouvernedBy_bas: true, Rus_isGouvernedBy_bas_MODIFIER: true, S0B0Distance: 1, S0B0Lemma: Rus_bas, S0B0LemmaPOS: Rus_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_bas, S0B0Token: Rus_basını, S0B1Lemma: Rus_,, S0B1LemmaPOS: Rus_Punc, S0B1POS: Adj_Punc, S0B1POSLemma: Adj_,, S0B1Token: Rus_,, S0Lemma: Rus, S0POS: Adj, S0Token: Rus, S1B0Lemma: yanıt_bas, S1B0LemmaPOS: yanıt_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_bas, S1B0Token: yanıtı_basını, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_Rus, S1S0LemmaPOS: yanıt_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun_Rus, S1S0Token: yanıtı_Rus, S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [basını, ,, satışın ,.. ]
+
+B0Lemma: bas, B0POS: Noun, B0Token: basını, B1Lemma: ,, B1POS: Punc, B1Token: ,, S0B0Distance: 9, S0B0Lemma: yanıt_bas, S0B0LemmaPOS: yanıt_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_bas, S0B0Token: yanıtı_basını, S0B1Lemma: yanıt_,, S0B1LemmaPOS: yanıt_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_,, S0B1Token: yanıtı_,, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __bas, S1B0LemmaPOS: __Noun, S1B0POS: Adj_Noun, S1B0POSLemma: Adj_bas, S1B0Token: verdiği_basını, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, basını]   B= [,, satışın, " ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: satış, B1POS: Noun, B1Token: satışın, S0B0Distance: 1, S0B0Lemma: bas_,, S0B0LemmaPOS: bas_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: basını_,, S0B1Lemma: bas_satış, S0B1LemmaPOS: bas_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_satış, S0B1Token: basını_satışın, S0Lemma: bas, S0POS: Noun, S0Token: basını, S1B0Lemma: yanıt_,, S1B0LemmaPOS: yanıt_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_,, S1B0Token: yanıtı_,, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_bas, S1S0LemmaPOS: yanıt_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun_bas, S1S0Token: yanıtı_basını, S1Token: yanıtı, bas_,_hasRighDep_PUNCTUATION: true, bas_hasRighDep_PUNCTUATION: true, bas_isGouvernedBy_görüş: true, bas_isGouvernedBy_görüş_COORDINATION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [,, satışın, " ,.. ]
+
+B0Lemma: ,, B0POS: Punc, B0Token: ,, B1Lemma: satış, B1POS: Noun, B1Token: satışın, S0B0Distance: 10, S0B0Lemma: yanıt_,, S0B0LemmaPOS: yanıt_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_,, S0B0Token: yanıtı_,, S0B1Lemma: yanıt_satış, S0B1LemmaPOS: yanıt_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_satış, S0B1Token: yanıtı_satışın, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __,, S1B0LemmaPOS: __Punc, S1B0POS: Adj_Punc, S1B0POSLemma: Adj_,, S1B0Token: verdiği_,, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, ,]   B= [satışın, ", sadece ,.. ]
+
+B0Lemma: satış, B0POS: Noun, B0Token: satışın, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: ,_satış, S0B0LemmaPOS: ,_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_satış, S0B0Token: ,_satışın, S0B1Lemma: ,_", S0B1LemmaPOS: ,_Punc, S0B1POS: Punc_Punc, S0B1POSLemma: Punc_", S0B1Token: ,_", S0Lemma: ,, S0POS: Punc, S0Token: ,, S1B0Lemma: yanıt_satış, S1B0LemmaPOS: yanıt_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_satış, S1B0Token: yanıtı_satışın, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_,, S1S0LemmaPOS: yanıt_Punc, S1S0POS: Noun_Punc, S1S0POSLemma: Noun_,, S1S0Token: yanıtı_,, S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [satışın, ", sadece ,.. ]
+
+B0Lemma: satış, B0POS: Noun, B0Token: satışın, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 11, S0B0Lemma: yanıt_satış, S0B0LemmaPOS: yanıt_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_satış, S0B0Token: yanıtı_satışın, S0B1Lemma: yanıt_", S0B1LemmaPOS: yanıt_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: yanıtı_", S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __satış, S1B0LemmaPOS: __Noun, S1B0POS: Adj_Noun, S1B0POSLemma: Adj_satış, S1B0Token: verdiği_satışın, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, satışın]   B= [", sadece, ticari ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: sadece, B1POS: Adverb, B1Token: sadece, S0B0Distance: 1, S0B0Lemma: satış_", S0B0LemmaPOS: satış_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_", S0B0Token: satışın_", S0B1Lemma: satış_sadece, S0B1LemmaPOS: satış_Adverb, S0B1POS: Noun_Adverb, S0B1POSLemma: Noun_sadece, S0B1Token: satışın_sadece, S0Lemma: satış, S0POS: Noun, S0Token: satışın, S1B0Lemma: yanıt_", S1B0LemmaPOS: yanıt_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_", S1B0Token: yanıtı_", S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_satış, S1S0LemmaPOS: yanıt_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun_satış, S1S0Token: yanıtı_satışın, S1Token: yanıtı, hasRighDep_PUNCTUATION: true, satış_"_hasRighDep_PUNCTUATION: true, satış_hasRighDep_PUNCTUATION: true, satış_isGouvernedBy_görüş: true, satış_isGouvernedBy_görüş_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [", sadece, ticari ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: sadece, B1POS: Adverb, B1Token: sadece, S0B0Distance: 12, S0B0Lemma: yanıt_", S0B0LemmaPOS: yanıt_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_", S0B0Token: yanıtı_", S0B1Lemma: yanıt_sadece, S0B1LemmaPOS: yanıt_Adverb, S0B1POS: Noun_Adverb, S0B1POSLemma: Noun_sadece, S0B1Token: yanıtı_sadece, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __", S1B0LemmaPOS: __Punc, S1B0POS: Adj_Punc, S1B0POSLemma: Adj_", S1B0Token: verdiği_", S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, "]   B= [sadece, ticari, amaçlı ,.. ]
+
+B0Lemma: sadece, B0POS: Adverb, B0Token: sadece, B1Lemma: ticari, B1POS: Adj, B1Token: ticari, S0B0Distance: 1, S0B0Lemma: "_sadece, S0B0LemmaPOS: "_Adverb, S0B0POS: Punc_Adverb, S0B0POSLemma: Punc_sadece, S0B0Token: "_sadece, S0B1Lemma: "_ticari, S0B1LemmaPOS: "_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc_ticari, S0B1Token: "_ticari, S0Lemma: ", S0POS: Punc, S0Token: ", S1B0Lemma: yanıt_sadece, S1B0LemmaPOS: yanıt_Adverb, S1B0POS: Noun_Adverb, S1B0POSLemma: Noun_sadece, S1B0Token: yanıtı_sadece, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_", S1S0LemmaPOS: yanıt_Punc, S1S0POS: Noun_Punc, S1S0POSLemma: Noun_", S1S0Token: yanıtı_", S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [sadece, ticari, amaçlı ,.. ]
+
+B0Lemma: sadece, B0POS: Adverb, B0Token: sadece, B1Lemma: ticari, B1POS: Adj, B1Token: ticari, S0B0Distance: 13, S0B0Lemma: yanıt_sadece, S0B0LemmaPOS: yanıt_Adverb, S0B0POS: Noun_Adverb, S0B0POSLemma: Noun_sadece, S0B0Token: yanıtı_sadece, S0B1Lemma: yanıt_ticari, S0B1LemmaPOS: yanıt_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_ticari, S0B1Token: yanıtı_ticari, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __sadece, S1B0LemmaPOS: __Adverb, S1B0POS: Adj_Adverb, S1B0POSLemma: Adj_sadece, S1B0Token: verdiği_sadece, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, sadece]   B= [ticari, amaçlı, " ,.. ]
+
+B0Lemma: ticari, B0POS: Adj, B0Token: ticari, B1Lemma: amaçlı, B1POS: Adj, B1Token: amaçlı, S0B0Distance: 1, S0B0Lemma: sadece_ticari, S0B0LemmaPOS: sadece_Adj, S0B0POS: Adverb_Adj, S0B0POSLemma: Adverb_ticari, S0B0Token: sadece_ticari, S0B1Lemma: sadece_amaçlı, S0B1LemmaPOS: sadece_Adj, S0B1POS: Adverb_Adj, S0B1POSLemma: Adverb_amaçlı, S0B1Token: sadece_amaçlı, S0Lemma: sadece, S0POS: Adverb, S0Token: sadece, S1B0Lemma: yanıt_ticari, S1B0LemmaPOS: yanıt_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun_ticari, S1B0Token: yanıtı_ticari, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_sadece, S1S0LemmaPOS: yanıt_Adverb, S1S0POS: Noun_Adverb, S1S0POSLemma: Noun_sadece, S1S0Token: yanıtı_sadece, S1Token: yanıtı, sadece_isGouvernedBy_amaçlı: true, sadece_isGouvernedBy_amaçlı_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [ticari, amaçlı, " ,.. ]
+
+B0Lemma: ticari, B0POS: Adj, B0Token: ticari, B1Lemma: amaçlı, B1POS: Adj, B1Token: amaçlı, S0B0Distance: 14, S0B0Lemma: yanıt_ticari, S0B0LemmaPOS: yanıt_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_ticari, S0B0Token: yanıtı_ticari, S0B1Lemma: yanıt_amaçlı, S0B1LemmaPOS: yanıt_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_amaçlı, S0B1Token: yanıtı_amaçlı, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __ticari, S1B0LemmaPOS: __Adj, S1B0POS: Adj_Adj, S1B0POSLemma: Adj_ticari, S1B0Token: verdiği_ticari, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, ticari]   B= [amaçlı, ", ve ,.. ]
+
+B0Lemma: amaçlı, B0POS: Adj, B0Token: amaçlı, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: ticari_amaçlı, S0B0LemmaPOS: ticari_Adj, S0B0POS: Adj_Adj, S0B0POSLemma: Adj_amaçlı, S0B0Token: ticari_amaçlı, S0B1Lemma: ticari_", S0B1LemmaPOS: ticari_Punc, S0B1POS: Adj_Punc, S0B1POSLemma: Adj_", S0B1Token: ticari_", S0Lemma: ticari, S0POS: Adj, S0Token: ticari, S1B0Lemma: yanıt_amaçlı, S1B0LemmaPOS: yanıt_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun_amaçlı, S1B0Token: yanıtı_amaçlı, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_ticari, S1S0LemmaPOS: yanıt_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun_ticari, S1S0Token: yanıtı_ticari, S1Token: yanıtı, ticari_isGouvernedBy_amaçlı: true, ticari_isGouvernedBy_amaçlı_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [amaçlı, ", ve ,.. ]
+
+B0Lemma: amaçlı, B0POS: Adj, B0Token: amaçlı, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 15, S0B0Lemma: yanıt_amaçlı, S0B0LemmaPOS: yanıt_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun_amaçlı, S0B0Token: yanıtı_amaçlı, S0B1Lemma: yanıt_", S0B1LemmaPOS: yanıt_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: yanıtı_", S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __amaçlı, S1B0LemmaPOS: __Adj, S1B0POS: Adj_Adj, S1B0POSLemma: Adj_amaçlı, S1B0Token: verdiği_amaçlı, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, amaçlı]   B= [", ve, " ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: amaçlı_", S0B0LemmaPOS: amaçlı_Punc, S0B0POS: Adj_Punc, S0B0POSLemma: Adj_", S0B0Token: amaçlı_", S0B1Lemma: amaçlı_ve, S0B1LemmaPOS: amaçlı_Conj, S0B1POS: Adj_Conj, S0B1POSLemma: Adj_ve, S0B1Token: amaçlı_ve, S0Lemma: amaçlı, S0POS: Adj, S0Token: amaçlı, S1B0Lemma: yanıt_", S1B0LemmaPOS: yanıt_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_", S1B0Token: yanıtı_", S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_amaçlı, S1S0LemmaPOS: yanıt_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun_amaçlı, S1S0Token: yanıtı_amaçlı, S1Token: yanıtı, amaçlı_"_hasRighDep_PUNCTUATION: true, amaçlı_hasRighDep_CONJUNCTION: true, amaçlı_hasRighDep_PUNCTUATION: true, amaçlı_isGouvernedBy__: true, amaçlı_isGouvernedBy___COORDINATION: true, amaçlı_ve_hasRighDep_CONJUNCTION: true, hasRighDep_CONJUNCTION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [", ve, " ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 16, S0B0Lemma: yanıt_", S0B0LemmaPOS: yanıt_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_", S0B0Token: yanıtı_", S0B1Lemma: yanıt_ve, S0B1LemmaPOS: yanıt_Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_ve, S0B1Token: yanıtı_ve, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __", S1B0LemmaPOS: __Punc, S1B0POS: Adj_Punc, S1B0POSLemma: Adj_", S1B0Token: verdiği_", S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, "]   B= [ve, ", _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: "_ve, S0B0LemmaPOS: "_Conj, S0B0POS: Punc_Conj, S0B0POSLemma: Punc_ve, S0B0Token: "_ve, S0B1Lemma: "_", S0B1LemmaPOS: "_Punc, S0B1POS: Punc_Punc, S0B1POSLemma: Punc_", S0B1Token: "_", S0Lemma: ", S0POS: Punc, S0Token: ", S1B0Lemma: yanıt_ve, S1B0LemmaPOS: yanıt_Conj, S1B0POS: Noun_Conj, S1B0POSLemma: Noun_ve, S1B0Token: yanıtı_ve, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_", S1S0LemmaPOS: yanıt_Punc, S1S0POS: Noun_Punc, S1S0POSLemma: Noun_", S1S0Token: yanıtı_", S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [ve, ", _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 17, S0B0Lemma: yanıt_ve, S0B0LemmaPOS: yanıt_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_ve, S0B0Token: yanıtı_ve, S0B1Lemma: yanıt_", S0B1LemmaPOS: yanıt_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: yanıtı_", S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __ve, S1B0LemmaPOS: __Conj, S1B0POS: Adj_Conj, S1B0POSLemma: Adj_ve, S1B0Token: verdiği_ve, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, ve]   B= [", _, zararsız ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: zarar, B1POS: Noun, B1Token: _, S0B0Distance: 1, S0B0Lemma: ve_", S0B0LemmaPOS: ve_Punc, S0B0POS: Conj_Punc, S0B0POSLemma: Conj_", S0B0Token: ve_", S0B1Lemma: ve_zarar, S0B1LemmaPOS: ve_Noun, S0B1POS: Conj_Noun, S0B1POSLemma: Conj_zarar, S0B1Token: ve__, S0Lemma: ve, S0POS: Conj, S0Token: ve, S1B0Lemma: yanıt_", S1B0LemmaPOS: yanıt_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_", S1B0Token: yanıtı_", S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_ve, S1S0LemmaPOS: yanıt_Conj, S1S0POS: Noun_Conj, S1S0POSLemma: Noun_ve, S1S0Token: yanıtı_ve, S1Token: yanıtı, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, ve_"_hasRighDep_PUNCTUATION: true, ve_hasRighDep_PUNCTUATION: true, 
+
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [", _, zararsız ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: zarar, B1POS: Noun, B1Token: _, S0B0Distance: 18, S0B0Lemma: yanıt_", S0B0LemmaPOS: yanıt_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_", S0B0Token: yanıtı_", S0B1Lemma: yanıt_zarar, S0B1LemmaPOS: yanıt_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_zarar, S0B1Token: yanıtı__, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __", S1B0LemmaPOS: __Punc, S1B0POS: Adj_Punc, S1B0POSLemma: Adj_", S1B0Token: verdiği_", S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, "]   B= [_, zararsız, " ,.. ]
+
+B0Lemma: zarar, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: zararsız, S0B0Distance: 1, S0B0Lemma: "_zarar, S0B0LemmaPOS: "_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_zarar, S0B0Token: "__, S0B1Lemma: "__, S0B1LemmaPOS: "_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc__, S0B1Token: "_zararsız, S0Lemma: ", S0POS: Punc, S0Token: ", S1B0Lemma: yanıt_zarar, S1B0LemmaPOS: yanıt_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_zarar, S1B0Token: yanıtı__, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_", S1S0LemmaPOS: yanıt_Punc, S1S0POS: Noun_Punc, S1S0POSLemma: Noun_", S1S0Token: yanıtı_", S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [_, zararsız, " ,.. ]
+
+B0Lemma: zarar, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: zararsız, S0B0Distance: 19, S0B0Lemma: yanıt_zarar, S0B0LemmaPOS: yanıt_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_zarar, S0B0Token: yanıtı__, S0B1Lemma: yanıt__, S0B1LemmaPOS: yanıt_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: yanıtı_zararsız, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __zarar, S1B0LemmaPOS: __Noun, S1B0POS: Adj_Noun, S1B0POSLemma: Adj_zarar, S1B0Token: verdiği__, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, _]   B= [zararsız, ", _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: zararsız, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: zarar__, S0B0LemmaPOS: zarar_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: __zararsız, S0B1Lemma: zarar_", S0B1LemmaPOS: zarar_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: __", S0Lemma: zarar, S0POS: Noun, S0Token: _, S1B0Lemma: yanıt__, S1B0LemmaPOS: yanıt_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: yanıtı_zararsız, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_zarar, S1S0LemmaPOS: yanıt_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun_zarar, S1S0Token: yanıtı__, S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, zarar_isGouvernedBy__: true, zarar_isGouvernedBy___DERIV: true, 
+
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [zararsız, ", _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: zararsız, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 20, S0B0Lemma: yanıt__, S0B0LemmaPOS: yanıt_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: yanıtı_zararsız, S0B1Lemma: yanıt_", S0B1LemmaPOS: yanıt_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: yanıtı_", S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: ___, S1B0LemmaPOS: __Adj, S1B0POS: Adj_Adj, S1B0POSLemma: Adj__, S1B0Token: verdiği_zararsız, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, zararsız]   B= [", _, olduğu ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: ol, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: __", S0B0LemmaPOS: __Punc, S0B0POS: Adj_Punc, S0B0POSLemma: Adj_", S0B0Token: zararsız_", S0B1Lemma: __ol, S0B1LemmaPOS: __Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_ol, S0B1Token: zararsız__, S0Lemma: _, S0POS: Adj, S0Token: zararsız, S1B0Lemma: yanıt_", S1B0LemmaPOS: yanıt_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_", S1B0Token: yanıtı_", S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt__, S1S0LemmaPOS: yanıt_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: yanıtı_zararsız, S1Token: yanıtı, __"_hasRighDep_PUNCTUATION: true, __hasRighDep_PUNCTUATION: true, __isGouvernedBy_görüş: true, __isGouvernedBy_görüş_COORDINATION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [", _, olduğu ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: ol, B1POS: Verb, B1Token: _, S0B0Distance: 21, S0B0Lemma: yanıt_", S0B0LemmaPOS: yanıt_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_", S0B0Token: yanıtı_", S0B1Lemma: yanıt_ol, S0B1LemmaPOS: yanıt_Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_ol, S0B1Token: yanıtı__, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __", S1B0LemmaPOS: __Punc, S1B0POS: Adj_Punc, S1B0POSLemma: Adj_", S1B0Token: verdiği_", S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, "]   B= [_, olduğu, görüşünde ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: olduğu, S0B0Distance: 1, S0B0Lemma: "_ol, S0B0LemmaPOS: "_Verb, S0B0POS: Punc_Verb, S0B0POSLemma: Punc_ol, S0B0Token: "__, S0B1Lemma: "__, S0B1LemmaPOS: "_Adj, S0B1POS: Punc_Adj, S0B1POSLemma: Punc__, S0B1Token: "_olduğu, S0Lemma: ", S0POS: Punc, S0Token: ", S1B0Lemma: yanıt_ol, S1B0LemmaPOS: yanıt_Verb, S1B0POS: Noun_Verb, S1B0POSLemma: Noun_ol, S1B0Token: yanıtı__, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_", S1S0LemmaPOS: yanıt_Punc, S1S0POS: Noun_Punc, S1S0POSLemma: Noun_", S1S0Token: yanıtı_", S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [_, olduğu, görüşünde ,.. ]
+
+B0Lemma: ol, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: olduğu, S0B0Distance: 22, S0B0Lemma: yanıt_ol, S0B0LemmaPOS: yanıt_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ol, S0B0Token: yanıtı__, S0B1Lemma: yanıt__, S0B1LemmaPOS: yanıt_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: yanıtı_olduğu, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __ol, S1B0LemmaPOS: __Verb, S1B0POS: Adj_Verb, S1B0POSLemma: Adj_ol, S1B0Token: verdiği__, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, _]   B= [olduğu, görüşünde, . ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: olduğu, B1Lemma: görüş, B1POS: Noun, B1Token: görüşünde, S0B0Distance: 1, S0B0Lemma: ol__, S0B0LemmaPOS: ol_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __olduğu, S0B1Lemma: ol_görüş, S0B1LemmaPOS: ol_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_görüş, S0B1Token: __görüşünde, S0Lemma: ol, S0POS: Verb, S0Token: _, S1B0Lemma: yanıt__, S1B0LemmaPOS: yanıt_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: yanıtı_olduğu, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_ol, S1S0LemmaPOS: yanıt_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_ol, S1S0Token: yanıtı__, S1Token: yanıtı, ol_isGouvernedBy__: true, ol_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [olduğu, görüşünde, . ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: olduğu, B1Lemma: görüş, B1POS: Noun, B1Token: görüşünde, S0B0Distance: 23, S0B0Lemma: yanıt__, S0B0LemmaPOS: yanıt_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: yanıtı_olduğu, S0B1Lemma: yanıt_görüş, S0B1LemmaPOS: yanıt_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_görüş, S0B1Token: yanıtı_görüşünde, S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: ___, S1B0LemmaPOS: __Adj, S1B0POS: Adj_Adj, S1B0POSLemma: Adj__, S1B0Token: verdiği_olduğu, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, olduğu]   B= [görüşünde, . ,.. ]
+
+B0Lemma: görüş, B0POS: Noun, B0Token: görüşünde, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: __görüş, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_görüş, S0B0Token: olduğu_görüşünde, S0B1Lemma: __., S0B1LemmaPOS: __Punc, S0B1POS: Adj_Punc, S0B1POSLemma: Adj_., S0B1Token: olduğu_., S0Lemma: _, S0POS: Adj, S0Token: olduğu, S1B0Lemma: yanıt_görüş, S1B0LemmaPOS: yanıt_Noun, S1B0POS: Noun_Noun, S1B0POSLemma: Noun_görüş, S1B0Token: yanıtı_görüşünde, S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt__, S1S0LemmaPOS: yanıt_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: yanıtı_olduğu, S1Token: yanıtı, __isGouvernedBy_görüş: true, __isGouvernedBy_görüş_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [görüşünde, . ,.. ]
+
+B0Lemma: görüş, B0POS: Noun, B0Token: görüşünde, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 24, S0B0Lemma: yanıt_görüş, S0B0LemmaPOS: yanıt_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_görüş, S0B0Token: yanıtı_görüşünde, S0B1Lemma: yanıt_., S0B1LemmaPOS: yanıt_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: yanıtı_., S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __görüş, S1B0LemmaPOS: __Noun, S1B0POS: Adj_Noun, S1B0POSLemma: Adj_görüş, S1B0Token: verdiği_görüşünde, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, görüşünde]   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: görüş_., S0B0LemmaPOS: görüş_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_., S0B0Token: görüşünde_., S0Lemma: görüş, S0POS: Noun, S0Token: görüşünde, S1B0Lemma: yanıt_., S1B0LemmaPOS: yanıt_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_., S1B0Token: yanıtı_., S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_görüş, S1S0LemmaPOS: yanıt_Noun, S1S0POS: Noun_Noun, S1S0POSLemma: Noun_görüş, S1S0Token: yanıtı_görüşünde, S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 25, S0B0Lemma: yanıt_., S0B0LemmaPOS: yanıt_Punc, S0B0POS: Noun_Punc, S0B0POSLemma: Noun_., S0B0Token: yanıtı_., S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1B0Lemma: __., S1B0LemmaPOS: __Punc, S1B0POS: Adj_Punc, S1B0POSLemma: Adj_., S1B0Token: verdiği_., S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı, .]   B= [ ]
+
+S0Lemma: ., S0POS: Punc, S0Token: ., S1Lemma: yanıt, S1POS: Noun, S1S0Lemma: yanıt_., S1S0LemmaPOS: yanıt_Punc, S1S0POS: Noun_Punc, S1S0POSLemma: Noun_., S1S0Token: yanıtı_., S1Token: yanıtı, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği, yanıtı]   B= [ ]
+
+S0Lemma: yanıt, S0POS: Noun, S0Token: yanıtı, S1Lemma: _, S1POS: Adj, S1S0Lemma: __yanıt, S1S0LemmaPOS: __Noun, S1S0POS: Adj_Noun, S1S0POSLemma: Adj_yanıt, S1S0Token: verdiği_yanıtı, S1Token: verdiği, SyntaxicRelation: -MODIFIER, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+121- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verdiği]   B= [ ]
+
+S0Lemma: _, S0POS: Adj, S0Token: verdiği, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 8052 - 
+Rus Dışişleri Bakanlığı sözcüsü Gennadi Tarasov'un _ önceki gün _ yaptığı _ açıklamada yer _ alan " Güney Kıbrıs'ın sözkonusu silah ihtiyacı için ihale _ açıldığı ve _ _ katılanlar arasında birçok Batılı ülkenin de yer _ aldığı " iddiasına gazeteler de destek verdi . 
+### Existing MWEs: 
+1- **yer alan** (ID)
+2- **yer aldığı** (ID)
+3- **destek verdi** (OTH)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Rus, Dışişleri, Bakanlığı ,.. ]
+
+B0Lemma: Rus, B0POS: Adj, B0Token: Rus, B1Lemma: dışişi, B1POS: Noun, B1Token: Dışişleri, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Rus]   B= [Dışişleri, Bakanlığı, sözcüsü ,.. ]
+
+B0Lemma: dışişi, B0POS: Noun, B0Token: Dışişleri, B1Lemma: bakanlık, B1POS: Noun, B1Token: Bakanlığı, Rus_isGouvernedBy_dışişi: true, Rus_isGouvernedBy_dışişi_MODIFIER: true, S0B0Distance: 1, S0B0Lemma: Rus_dışişi, S0B0LemmaPOS: Rus_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_dışişi, S0B0Token: Rus_Dışişleri, S0B1Lemma: Rus_bakanlık, S0B1LemmaPOS: Rus_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_bakanlık, S0B1Token: Rus_Bakanlığı, S0Lemma: Rus, S0POS: Adj, S0Token: Rus, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Dışişleri, Bakanlığı, sözcüsü ,.. ]
+
+B0Lemma: dışişi, B0POS: Noun, B0Token: Dışişleri, B1Lemma: bakanlık, B1POS: Noun, B1Token: Bakanlığı, transitionHistoryLength1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Dışişleri]   B= [Bakanlığı, sözcüsü, Gennadi ,.. ]
+
+B0Lemma: bakanlık, B0POS: Noun, B0Token: Bakanlığı, B1Lemma: sözcü, B1POS: Noun, B1Token: sözcüsü, S0B0Distance: 1, S0B0Lemma: dışişi_bakanlık, S0B0LemmaPOS: dışişi_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_bakanlık, S0B0Token: Dışişleri_Bakanlığı, S0B1Lemma: dışişi_sözcü, S0B1LemmaPOS: dışişi_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_sözcü, S0B1Token: Dışişleri_sözcüsü, S0Lemma: dışişi, S0POS: Noun, S0Token: Dışişleri, dışişi_isGouvernedBy_ver: true, dışişi_isGouvernedBy_ver_SUBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Bakanlığı, sözcüsü, Gennadi ,.. ]
+
+B0Lemma: bakanlık, B0POS: Noun, B0Token: Bakanlığı, B1Lemma: sözcü, B1POS: Noun, B1Token: sözcüsü, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Bakanlığı]   B= [sözcüsü, Gennadi, Tarasov'un ,.. ]
+
+B0Lemma: sözcü, B0POS: Noun, B0Token: sözcüsü, B1Lemma: Gennadi, B1POS: Noun, B1Token: Gennadi, S0B0Distance: 1, S0B0Lemma: bakanlık_sözcü, S0B0LemmaPOS: bakanlık_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_sözcü, S0B0Token: Bakanlığı_sözcüsü, S0B1Lemma: bakanlık_Gennadi, S0B1LemmaPOS: bakanlık_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_Gennadi, S0B1Token: Bakanlığı_Gennadi, S0Lemma: bakanlık, S0POS: Noun, S0Token: Bakanlığı, bakanlık_isGouvernedBy_sözcü: true, bakanlık_isGouvernedBy_sözcü_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sözcüsü, Gennadi, Tarasov'un ,.. ]
+
+B0Lemma: sözcü, B0POS: Noun, B0Token: sözcüsü, B1Lemma: Gennadi, B1POS: Noun, B1Token: Gennadi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sözcüsü]   B= [Gennadi, Tarasov'un, _ ,.. ]
+
+B0Lemma: Gennadi, B0POS: Noun, B0Token: Gennadi, B1Lemma: Tarasov'un, B1POS: ?, B1Token: Tarasov'un, S0B0Distance: 1, S0B0Lemma: sözcü_Gennadi, S0B0LemmaPOS: sözcü_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_Gennadi, S0B0Token: sözcüsü_Gennadi, S0B1Lemma: sözcü_Tarasov'un, S0B1LemmaPOS: sözcü_?, S0B1POS: Noun_?, S0B1POSLemma: Noun_Tarasov'un, S0B1Token: sözcüsü_Tarasov'un, S0Lemma: sözcü, S0POS: Noun, S0Token: sözcüsü, sözcü_isGouvernedBy_yap: true, sözcü_isGouvernedBy_yap_SUBJECT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Gennadi, Tarasov'un, _ ,.. ]
+
+B0Lemma: Gennadi, B0POS: Noun, B0Token: Gennadi, B1Lemma: Tarasov'un, B1POS: ?, B1Token: Tarasov'un, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Gennadi]   B= [Tarasov'un, _, önceki ,.. ]
+
+B0Lemma: Tarasov'un, B0POS: ?, B0Token: Tarasov'un, B1Lemma: önce, B1POS: Noun, B1Token: _, Gennadi_isGouvernedBy_Tarasov'un: true, Gennadi_isGouvernedBy_Tarasov'un_MWE: true, S0B0Distance: 1, S0B0Lemma: Gennadi_Tarasov'un, S0B0LemmaPOS: Gennadi_?, S0B0POS: Noun_?, S0B0POSLemma: Noun_Tarasov'un, S0B0Token: Gennadi_Tarasov'un, S0B1Lemma: Gennadi_önce, S0B1LemmaPOS: Gennadi_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_önce, S0B1Token: Gennadi__, S0Lemma: Gennadi, S0POS: Noun, S0Token: Gennadi, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Tarasov'un, _, önceki ,.. ]
+
+B0Lemma: Tarasov'un, B0POS: ?, B0Token: Tarasov'un, B1Lemma: önce, B1POS: Noun, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Tarasov'un]   B= [_, önceki, gün ,.. ]
+
+B0Lemma: önce, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: önceki, S0B0Distance: 1, S0B0Lemma: Tarasov'un_önce, S0B0LemmaPOS: Tarasov'un_Noun, S0B0POS: ?_Noun, S0B0POSLemma: ?_önce, S0B0Token: Tarasov'un__, S0B1Lemma: Tarasov'un__, S0B1LemmaPOS: Tarasov'un_Adj, S0B1POS: ?_Adj, S0B1POSLemma: ?__, S0B1Token: Tarasov'un_önceki, S0Lemma: Tarasov'un, S0POS: ?, S0Token: Tarasov'un, Tarasov'un_isGouvernedBy_yap: true, Tarasov'un_isGouvernedBy_yap_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, önceki, gün ,.. ]
+
+B0Lemma: önce, B0POS: Noun, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: önceki, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [önceki, gün, _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: önceki, B1Lemma: gün, B1POS: Noun, B1Token: gün, S0B0Distance: 1, S0B0Lemma: önce__, S0B0LemmaPOS: önce_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: __önceki, S0B1Lemma: önce_gün, S0B1LemmaPOS: önce_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_gün, S0B1Token: __gün, S0Lemma: önce, S0POS: Noun, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, önce_isGouvernedBy__: true, önce_isGouvernedBy___DERIV: true, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [önceki, gün, _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: önceki, B1Lemma: gün, B1POS: Noun, B1Token: gün, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [önceki]   B= [gün, _, yaptığı ,.. ]
+
+B0Lemma: gün, B0POS: Noun, B0Token: gün, B1Lemma: yap, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: __gün, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_gün, S0B0Token: önceki_gün, S0B1Lemma: __yap, S0B1LemmaPOS: __Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_yap, S0B1Token: önceki__, S0Lemma: _, S0POS: Adj, S0Token: önceki, __isGouvernedBy_gün: true, __isGouvernedBy_gün_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gün, _, yaptığı ,.. ]
+
+B0Lemma: gün, B0POS: Noun, B0Token: gün, B1Lemma: yap, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gün]   B= [_, yaptığı, _ ,.. ]
+
+B0Lemma: yap, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: yaptığı, S0B0Distance: 1, S0B0Lemma: gün_yap, S0B0LemmaPOS: gün_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_yap, S0B0Token: gün__, S0B1Lemma: gün__, S0B1LemmaPOS: gün_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: gün_yaptığı, S0Lemma: gün, S0POS: Noun, S0Token: gün, gün_isGouvernedBy_yap: true, gün_isGouvernedBy_yap_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, yaptığı, _ ,.. ]
+
+B0Lemma: yap, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: yaptığı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [yaptığı, _, açıklamada ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: yaptığı, B1Lemma: açıkla, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: yap__, S0B0LemmaPOS: yap_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __yaptığı, S0B1Lemma: yap_açıkla, S0B1LemmaPOS: yap_Verb, S0B1POS: Verb_Verb, S0B1POSLemma: Verb_açıkla, S0B1Token: ___, S0Lemma: yap, S0POS: Verb, S0Token: _, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yap_isGouvernedBy__: true, yap_isGouvernedBy___DERIV: true, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yaptığı, _, açıklamada ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: yaptığı, B1Lemma: açıkla, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yaptığı]   B= [_, açıklamada, yer ,.. ]
+
+B0Lemma: açıkla, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: açıklamada, S0B0Distance: 1, S0B0Lemma: __açıkla, S0B0LemmaPOS: __Verb, S0B0POS: Adj_Verb, S0B0POSLemma: Adj_açıkla, S0B0Token: yaptığı__, S0B1Lemma: ___, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj__, S0B1Token: yaptığı_açıklamada, S0Lemma: _, S0POS: Adj, S0Token: yaptığı, __isGouvernedBy__: true, __isGouvernedBy___MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, açıklamada, yer ,.. ]
+
+B0Lemma: açıkla, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: açıklamada, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [açıklamada, yer, _ ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: açıklamada, B1Lemma: yer, B1POS: Noun, B1Token: yer, S0B0Distance: 1, S0B0Lemma: açıkla__, S0B0LemmaPOS: açıkla_Noun, S0B0POS: Verb_Noun, S0B0POSLemma: Verb__, S0B0Token: __açıklamada, S0B1Lemma: açıkla_yer, S0B1LemmaPOS: açıkla_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb_yer, S0B1Token: __yer, S0Lemma: açıkla, S0POS: Verb, S0Token: _, açıkla_isGouvernedBy__: true, açıkla_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [açıklamada, yer, _ ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: açıklamada, B1Lemma: yer, B1POS: Noun, B1Token: yer, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [açıklamada]   B= [yer, _, alan ,.. ]
+
+B0Lemma: yer, B0POS: Noun, B0Token: yer, B1Lemma: al, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: __yer, S0B0LemmaPOS: __Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_yer, S0B0Token: açıklamada_yer, S0B1Lemma: __al, S0B1LemmaPOS: __Verb, S0B1POS: Noun_Verb, S0B1POSLemma: Noun_al, S0B1Token: açıklamada__, S0Lemma: _, S0POS: Noun, S0Token: açıklamada, __isGouvernedBy_al: true, __isGouvernedBy_al_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yer, _, alan ,.. ]
+
+B0Lemma: yer, B0POS: Noun, B0Token: yer, B1Lemma: al, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer]   B= [_, alan, " ,.. ]
+
+B0Lemma: al, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: alan, S0B0Distance: 1, S0B0Lemma: yer_al, S0B0LemmaPOS: yer_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_al, S0B0Token: yer__, S0B1Lemma: yer__, S0B1LemmaPOS: yer_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: yer_alan, S0Lemma: yer, S0POS: Noun, S0Token: yer, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yer_isGouvernedBy_al: true, yer_isGouvernedBy_al_MWE: true, 
+
+28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer, _]   B= [alan, ", Güney ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: alan, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: al__, S0B0LemmaPOS: al_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __alan, S0B1Lemma: al_", S0B1LemmaPOS: al_Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_", S0B1Token: __", S0Lemma: al, S0POS: Verb, S0Token: _, S1B0Lemma: yer__, S1B0LemmaPOS: yer_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: yer_alan, S1Lemma: yer, S1POS: Noun, S1S0Lemma: yer_al, S1S0LemmaPOS: yer_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_al, S1S0Token: yer__, S1Token: yer, SyntaxicRelation: -MWE, al_isGouvernedBy__: true, al_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer]   B= [alan, ", Güney ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: alan, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 2, S0B0Lemma: yer__, S0B0LemmaPOS: yer_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: yer_alan, S0B1Lemma: yer_", S0B1LemmaPOS: yer_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: yer_", S0Lemma: yer, S0POS: Noun, S0Token: yer, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer, alan]   B= [", Güney, Kıbrıs'ın ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: güney, B1POS: Adj, B1Token: Güney, S0B0Distance: 1, S0B0Lemma: __", S0B0LemmaPOS: __Punc, S0B0POS: Adj_Punc, S0B0POSLemma: Adj_", S0B0Token: alan_", S0B1Lemma: __güney, S0B1LemmaPOS: __Adj, S0B1POS: Adj_Adj, S0B1POSLemma: Adj_güney, S0B1Token: alan_Güney, S0Lemma: _, S0POS: Adj, S0Token: alan, S1B0Lemma: yer_", S1B0LemmaPOS: yer_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_", S1B0Token: yer_", S1Lemma: yer, S1POS: Noun, S1S0Lemma: yer__, S1S0LemmaPOS: yer_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: yer_alan, S1Token: yer, __"_hasRighDep_PUNCTUATION: true, __hasRighDep_PUNCTUATION: true, __isGouvernedBy__: true, __isGouvernedBy___COORDINATION: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+31- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[yer, alan]]   B= [", Güney, Kıbrıs'ın ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: güney, B1POS: Adj, B1Token: Güney, S0B0Distance: 1, S0B0Lemma: yer___", S0B0LemmaPOS: yer___Punc, S0B0POS: Noun_Adj_Punc, S0B0POSLemma: Noun_Adj_", S0B0Token: yer_alan_", S0B1Lemma: yer___güney, S0B1LemmaPOS: yer___Adj, S0B1POS: Noun_Adj_Adj, S0B1POSLemma: Noun_Adj_güney, S0B1Token: yer_alan_Güney, S0Lemma: yer__, S0POS: Noun_Adj, S0Token: yer_alan, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", Güney, Kıbrıs'ın ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: güney, B1POS: Adj, B1Token: Güney, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [Güney, Kıbrıs'ın, sözkonusu ,.. ]
+
+B0Lemma: güney, B0POS: Adj, B0Token: Güney, B1Lemma: Kıbrıs, B1POS: Noun, B1Token: Kıbrıs'ın, S0B0Distance: 1, S0B0Lemma: "_güney, S0B0LemmaPOS: "_Adj, S0B0POS: Punc_Adj, S0B0POSLemma: Punc_güney, S0B0Token: "_Güney, S0B1Lemma: "_Kıbrıs, S0B1LemmaPOS: "_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_Kıbrıs, S0B1Token: "_Kıbrıs'ın, S0Lemma: ", S0POS: Punc, S0Token: ", transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Güney, Kıbrıs'ın, sözkonusu ,.. ]
+
+B0Lemma: güney, B0POS: Adj, B0Token: Güney, B1Lemma: Kıbrıs, B1POS: Noun, B1Token: Kıbrıs'ın, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Güney]   B= [Kıbrıs'ın, sözkonusu, silah ,.. ]
+
+B0Lemma: Kıbrıs, B0POS: Noun, B0Token: Kıbrıs'ın, B1Lemma: sözkonus, B1POS: Noun, B1Token: sözkonusu, S0B0Distance: 1, S0B0Lemma: güney_Kıbrıs, S0B0LemmaPOS: güney_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_Kıbrıs, S0B0Token: Güney_Kıbrıs'ın, S0B1Lemma: güney_sözkonus, S0B1LemmaPOS: güney_Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_sözkonus, S0B1Token: Güney_sözkonusu, S0Lemma: güney, S0POS: Adj, S0Token: Güney, güney_isGouvernedBy_Kıbrıs: true, güney_isGouvernedBy_Kıbrıs_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Kıbrıs'ın, sözkonusu, silah ,.. ]
+
+B0Lemma: Kıbrıs, B0POS: Noun, B0Token: Kıbrıs'ın, B1Lemma: sözkonus, B1POS: Noun, B1Token: sözkonusu, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Kıbrıs'ın]   B= [sözkonusu, silah, ihtiyacı ,.. ]
+
+B0Lemma: sözkonus, B0POS: Noun, B0Token: sözkonusu, B1Lemma: silah, B1POS: Noun, B1Token: silah, Kıbrıs_isGouvernedBy_sözkonus: true, Kıbrıs_isGouvernedBy_sözkonus_POSSESSOR: true, S0B0Distance: 1, S0B0Lemma: Kıbrıs_sözkonus, S0B0LemmaPOS: Kıbrıs_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_sözkonus, S0B0Token: Kıbrıs'ın_sözkonusu, S0B1Lemma: Kıbrıs_silah, S0B1LemmaPOS: Kıbrıs_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_silah, S0B1Token: Kıbrıs'ın_silah, S0Lemma: Kıbrıs, S0POS: Noun, S0Token: Kıbrıs'ın, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sözkonusu, silah, ihtiyacı ,.. ]
+
+B0Lemma: sözkonus, B0POS: Noun, B0Token: sözkonusu, B1Lemma: silah, B1POS: Noun, B1Token: silah, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sözkonusu]   B= [silah, ihtiyacı, için ,.. ]
+
+B0Lemma: silah, B0POS: Noun, B0Token: silah, B1Lemma: ihtiyaç, B1POS: Noun, B1Token: ihtiyacı, S0B0Distance: 1, S0B0Lemma: sözkonus_silah, S0B0LemmaPOS: sözkonus_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_silah, S0B0Token: sözkonusu_silah, S0B1Lemma: sözkonus_ihtiyaç, S0B1LemmaPOS: sözkonus_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_ihtiyaç, S0B1Token: sözkonusu_ihtiyacı, S0Lemma: sözkonus, S0POS: Noun, S0Token: sözkonusu, sözkonus_isGouvernedBy__: true, sözkonus_isGouvernedBy___MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [silah, ihtiyacı, için ,.. ]
+
+B0Lemma: silah, B0POS: Noun, B0Token: silah, B1Lemma: ihtiyaç, B1POS: Noun, B1Token: ihtiyacı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [silah]   B= [ihtiyacı, için, ihale ,.. ]
+
+B0Lemma: ihtiyaç, B0POS: Noun, B0Token: ihtiyacı, B1Lemma: için, B1POS: Postp, B1Token: için, S0B0Distance: 1, S0B0Lemma: silah_ihtiyaç, S0B0LemmaPOS: silah_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_ihtiyaç, S0B0Token: silah_ihtiyacı, S0B1Lemma: silah_için, S0B1LemmaPOS: silah_Postp, S0B1POS: Noun_Postp, S0B1POSLemma: Noun_için, S0B1Token: silah_için, S0Lemma: silah, S0POS: Noun, S0Token: silah, silah_isGouvernedBy_ihtiyaç: true, silah_isGouvernedBy_ihtiyaç_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ihtiyacı, için, ihale ,.. ]
+
+B0Lemma: ihtiyaç, B0POS: Noun, B0Token: ihtiyacı, B1Lemma: için, B1POS: Postp, B1Token: için, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ihtiyacı]   B= [için, ihale, _ ,.. ]
+
+B0Lemma: için, B0POS: Postp, B0Token: için, B1Lemma: ihale, B1POS: Noun, B1Token: ihale, S0B0Distance: 1, S0B0Lemma: ihtiyaç_için, S0B0LemmaPOS: ihtiyaç_Postp, S0B0POS: Noun_Postp, S0B0POSLemma: Noun_için, S0B0Token: ihtiyacı_için, S0B1Lemma: ihtiyaç_ihale, S0B1LemmaPOS: ihtiyaç_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_ihale, S0B1Token: ihtiyacı_ihale, S0Lemma: ihtiyaç, S0POS: Noun, S0Token: ihtiyacı, ihtiyaç_isGouvernedBy_için: true, ihtiyaç_isGouvernedBy_için_ARGUMENT: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [için, ihale, _ ,.. ]
+
+B0Lemma: için, B0POS: Postp, B0Token: için, B1Lemma: ihale, B1POS: Noun, B1Token: ihale, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [için]   B= [ihale, _, açıldığı ,.. ]
+
+B0Lemma: ihale, B0POS: Noun, B0Token: ihale, B1Lemma: aç, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: için_ihale, S0B0LemmaPOS: için_Noun, S0B0POS: Postp_Noun, S0B0POSLemma: Postp_ihale, S0B0Token: için_ihale, S0B1Lemma: için_aç, S0B1LemmaPOS: için_Verb, S0B1POS: Postp_Verb, S0B1POSLemma: Postp_aç, S0B1Token: için__, S0Lemma: için, S0POS: Postp, S0Token: için, için_isGouvernedBy__: true, için_isGouvernedBy___MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ihale, _, açıldığı ,.. ]
+
+B0Lemma: ihale, B0POS: Noun, B0Token: ihale, B1Lemma: aç, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ihale]   B= [_, açıldığı, ve ,.. ]
+
+B0Lemma: aç, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: açıldığı, S0B0Distance: 1, S0B0Lemma: ihale_aç, S0B0LemmaPOS: ihale_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_aç, S0B0Token: ihale__, S0B1Lemma: ihale__, S0B1LemmaPOS: ihale_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: ihale_açıldığı, S0Lemma: ihale, S0POS: Noun, S0Token: ihale, ihale_isGouvernedBy__: true, ihale_isGouvernedBy___MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, açıldığı, ve ,.. ]
+
+B0Lemma: aç, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: açıldığı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [açıldığı, ve, _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: açıldığı, B1Lemma: ve, B1POS: Conj, B1Token: ve, S0B0Distance: 1, S0B0Lemma: aç__, S0B0LemmaPOS: aç_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __açıldığı, S0B1Lemma: aç_ve, S0B1LemmaPOS: aç_Conj, S0B1POS: Verb_Conj, S0B1POSLemma: Verb_ve, S0B1Token: __ve, S0Lemma: aç, S0POS: Verb, S0Token: _, aç_isGouvernedBy__: true, aç_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [açıldığı, ve, _ ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: açıldığı, B1Lemma: ve, B1POS: Conj, B1Token: ve, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [açıldığı]   B= [ve, _, _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: kat, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: __ve, S0B0LemmaPOS: __Conj, S0B0POS: Adj_Conj, S0B0POSLemma: Adj_ve, S0B0Token: açıldığı_ve, S0B1Lemma: __kat, S0B1LemmaPOS: __Verb, S0B1POS: Adj_Verb, S0B1POSLemma: Adj_kat, S0B1Token: açıldığı__, S0Lemma: _, S0POS: Adj, S0Token: açıldığı, __hasRighDep_CONJUNCTION: true, __isGouvernedBy_ver: true, __isGouvernedBy_ver_COORDINATION: true, __ve_hasRighDep_CONJUNCTION: true, hasRighDep_CONJUNCTION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ve, _, _ ,.. ]
+
+B0Lemma: ve, B0POS: Conj, B0Token: ve, B1Lemma: kat, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ve]   B= [_, _, katılanlar ,.. ]
+
+B0Lemma: kat, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: _, S0B0Distance: 1, S0B0Lemma: ve_kat, S0B0LemmaPOS: ve_Verb, S0B0POS: Conj_Verb, S0B0POSLemma: Conj_kat, S0B0Token: ve__, S0B1Lemma: ve__, S0B1LemmaPOS: ve_Adj, S0B1POS: Conj_Adj, S0B1POSLemma: Conj__, S0B1Token: ve__, S0Lemma: ve, S0POS: Conj, S0Token: ve, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, _, katılanlar ,.. ]
+
+B0Lemma: kat, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [_, katılanlar, arasında ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: katılanlar, S0B0Distance: 1, S0B0Lemma: kat__, S0B0LemmaPOS: kat_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: ___, S0B1Lemma: kat__, S0B1LemmaPOS: kat_Noun, S0B1POS: Verb_Noun, S0B1POSLemma: Verb__, S0B1Token: __katılanlar, S0Lemma: kat, S0POS: Verb, S0Token: _, kat_isGouvernedBy__: true, kat_isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [_, katılanlar, arasında ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: _, B1Lemma: _, B1POS: Noun, B1Token: katılanlar, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [_]   B= [katılanlar, arasında, birçok ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: katılanlar, B1Lemma: ara, B1POS: Noun, B1Token: arasında, S0B0Distance: 1, S0B0Lemma: ___, S0B0LemmaPOS: __Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj__, S0B0Token: __katılanlar, S0B1Lemma: __ara, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_ara, S0B1Token: __arasında, S0Lemma: _, S0POS: Adj, S0Token: _, __isGouvernedBy__: true, __isGouvernedBy___DERIV: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [katılanlar, arasında, birçok ,.. ]
+
+B0Lemma: _, B0POS: Noun, B0Token: katılanlar, B1Lemma: ara, B1POS: Noun, B1Token: arasında, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [katılanlar]   B= [arasında, birçok, Batılı ,.. ]
+
+B0Lemma: ara, B0POS: Noun, B0Token: arasında, B1Lemma: birçok, B1POS: Det, B1Token: birçok, S0B0Distance: 1, S0B0Lemma: __ara, S0B0LemmaPOS: __Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_ara, S0B0Token: katılanlar_arasında, S0B1Lemma: __birçok, S0B1LemmaPOS: __Det, S0B1POS: Noun_Det, S0B1POSLemma: Noun_birçok, S0B1Token: katılanlar_birçok, S0Lemma: _, S0POS: Noun, S0Token: katılanlar, __isGouvernedBy_ara: true, __isGouvernedBy_ara_POSSESSOR: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [arasında, birçok, Batılı ,.. ]
+
+B0Lemma: ara, B0POS: Noun, B0Token: arasında, B1Lemma: birçok, B1POS: Det, B1Token: birçok, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [arasında]   B= [birçok, Batılı, ülkenin ,.. ]
+
+B0Lemma: birçok, B0POS: Det, B0Token: birçok, B1Lemma: batılı, B1POS: Adj, B1Token: Batılı, S0B0Distance: 1, S0B0Lemma: ara_birçok, S0B0LemmaPOS: ara_Det, S0B0POS: Noun_Det, S0B0POSLemma: Noun_birçok, S0B0Token: arasında_birçok, S0B1Lemma: ara_batılı, S0B1LemmaPOS: ara_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun_batılı, S0B1Token: arasında_Batılı, S0Lemma: ara, S0POS: Noun, S0Token: arasında, ara_isGouvernedBy_ver: true, ara_isGouvernedBy_ver_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [birçok, Batılı, ülkenin ,.. ]
+
+B0Lemma: birçok, B0POS: Det, B0Token: birçok, B1Lemma: batılı, B1POS: Adj, B1Token: Batılı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [birçok]   B= [Batılı, ülkenin, de ,.. ]
+
+B0Lemma: batılı, B0POS: Adj, B0Token: Batılı, B1Lemma: ülke, B1POS: Noun, B1Token: ülkenin, S0B0Distance: 1, S0B0Lemma: birçok_batılı, S0B0LemmaPOS: birçok_Adj, S0B0POS: Det_Adj, S0B0POSLemma: Det_batılı, S0B0Token: birçok_Batılı, S0B1Lemma: birçok_ülke, S0B1LemmaPOS: birçok_Noun, S0B1POS: Det_Noun, S0B1POSLemma: Det_ülke, S0B1Token: birçok_ülkenin, S0Lemma: birçok, S0POS: Det, S0Token: birçok, birçok_isGouvernedBy_ülke: true, birçok_isGouvernedBy_ülke_DETERMINER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Batılı, ülkenin, de ,.. ]
+
+B0Lemma: batılı, B0POS: Adj, B0Token: Batılı, B1Lemma: ülke, B1POS: Noun, B1Token: ülkenin, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Batılı]   B= [ülkenin, de, yer ,.. ]
+
+B0Lemma: ülke, B0POS: Noun, B0Token: ülkenin, B1Lemma: de, B1POS: Conj, B1Token: de, S0B0Distance: 1, S0B0Lemma: batılı_ülke, S0B0LemmaPOS: batılı_Noun, S0B0POS: Adj_Noun, S0B0POSLemma: Adj_ülke, S0B0Token: Batılı_ülkenin, S0B1Lemma: batılı_de, S0B1LemmaPOS: batılı_Conj, S0B1POS: Adj_Conj, S0B1POSLemma: Adj_de, S0B1Token: Batılı_de, S0Lemma: batılı, S0POS: Adj, S0Token: Batılı, batılı_isGouvernedBy_ülke: true, batılı_isGouvernedBy_ülke_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ülkenin, de, yer ,.. ]
+
+B0Lemma: ülke, B0POS: Noun, B0Token: ülkenin, B1Lemma: de, B1POS: Conj, B1Token: de, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ülkenin]   B= [de, yer, _ ,.. ]
+
+B0Lemma: de, B0POS: Conj, B0Token: de, B1Lemma: yer, B1POS: Noun, B1Token: yer, S0B0Distance: 1, S0B0Lemma: ülke_de, S0B0LemmaPOS: ülke_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_de, S0B0Token: ülkenin_de, S0B1Lemma: ülke_yer, S0B1LemmaPOS: ülke_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_yer, S0B1Token: ülkenin_yer, S0Lemma: ülke, S0POS: Noun, S0Token: ülkenin, hasRighDep_INTENSIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, ülke_de_hasRighDep_INTENSIFIER: true, ülke_hasRighDep_INTENSIFIER: true, ülke_isGouvernedBy__: true, ülke_isGouvernedBy___POSSESSOR: true, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, yer, _ ,.. ]
+
+B0Lemma: de, B0POS: Conj, B0Token: de, B1Lemma: yer, B1POS: Noun, B1Token: yer, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [yer, _, aldığı ,.. ]
+
+B0Lemma: yer, B0POS: Noun, B0Token: yer, B1Lemma: al, B1POS: Verb, B1Token: _, S0B0Distance: 1, S0B0Lemma: de_yer, S0B0LemmaPOS: de_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_yer, S0B0Token: de_yer, S0B1Lemma: de_al, S0B1LemmaPOS: de_Verb, S0B1POS: Conj_Verb, S0B1POSLemma: Conj_al, S0B1Token: de__, S0Lemma: de, S0POS: Conj, S0Token: de, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [yer, _, aldığı ,.. ]
+
+B0Lemma: yer, B0POS: Noun, B0Token: yer, B1Lemma: al, B1POS: Verb, B1Token: _, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer]   B= [_, aldığı, " ,.. ]
+
+B0Lemma: al, B0POS: Verb, B0Token: _, B1Lemma: _, B1POS: Adj, B1Token: aldığı, S0B0Distance: 1, S0B0Lemma: yer_al, S0B0LemmaPOS: yer_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_al, S0B0Token: yer__, S0B1Lemma: yer__, S0B1LemmaPOS: yer_Adj, S0B1POS: Noun_Adj, S0B1POSLemma: Noun__, S0B1Token: yer_aldığı, S0Lemma: yer, S0POS: Noun, S0Token: yer, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, yer_isGouvernedBy_al: true, yer_isGouvernedBy_al_MWE: true, 
+
+72- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer, _]   B= [aldığı, ", iddiasına ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: aldığı, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 1, S0B0Lemma: al__, S0B0LemmaPOS: al_Adj, S0B0POS: Verb_Adj, S0B0POSLemma: Verb__, S0B0Token: __aldığı, S0B1Lemma: al_", S0B1LemmaPOS: al_Punc, S0B1POS: Verb_Punc, S0B1POSLemma: Verb_", S0B1Token: __", S0Lemma: al, S0POS: Verb, S0Token: _, S1B0Lemma: yer__, S1B0LemmaPOS: yer_Adj, S1B0POS: Noun_Adj, S1B0POSLemma: Noun__, S1B0Token: yer_aldığı, S1Lemma: yer, S1POS: Noun, S1S0Lemma: yer_al, S1S0LemmaPOS: yer_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_al, S1S0Token: yer__, S1Token: yer, SyntaxicRelation: -MWE, al_isGouvernedBy__: true, al_isGouvernedBy___DERIV: true, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+73- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer]   B= [aldığı, ", iddiasına ,.. ]
+
+B0Lemma: _, B0POS: Adj, B0Token: aldığı, B1Lemma: ", B1POS: Punc, B1Token: ", S0B0Distance: 2, S0B0Lemma: yer__, S0B0LemmaPOS: yer_Adj, S0B0POS: Noun_Adj, S0B0POSLemma: Noun__, S0B0Token: yer_aldığı, S0B1Lemma: yer_", S0B1LemmaPOS: yer_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_", S0B1Token: yer_", S0Lemma: yer, S0POS: Noun, S0Token: yer, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+74- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [yer, aldığı]   B= [", iddiasına, gazeteler ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: iddia, B1POS: Noun, B1Token: iddiasına, S0B0Distance: 1, S0B0Lemma: __", S0B0LemmaPOS: __Punc, S0B0POS: Adj_Punc, S0B0POSLemma: Adj_", S0B0Token: aldığı_", S0B1Lemma: __iddia, S0B1LemmaPOS: __Noun, S0B1POS: Adj_Noun, S0B1POSLemma: Adj_iddia, S0B1Token: aldığı_iddiasına, S0Lemma: _, S0POS: Adj, S0Token: aldığı, S1B0Lemma: yer_", S1B0LemmaPOS: yer_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_", S1B0Token: yer_", S1Lemma: yer, S1POS: Noun, S1S0Lemma: yer__, S1S0LemmaPOS: yer_Adj, S1S0POS: Noun_Adj, S1S0POSLemma: Noun__, S1S0Token: yer_aldığı, S1Token: yer, __"_hasRighDep_PUNCTUATION: true, __hasRighDep_PUNCTUATION: true, __isGouvernedBy_ver: true, __isGouvernedBy_ver_MODIFIER: true, hasRighDep_PUNCTUATION: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 200, 
+
+75- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[yer, aldığı]]   B= [", iddiasına, gazeteler ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: iddia, B1POS: Noun, B1Token: iddiasına, S0B0Distance: 1, S0B0Lemma: yer___", S0B0LemmaPOS: yer___Punc, S0B0POS: Noun_Adj_Punc, S0B0POSLemma: Noun_Adj_", S0B0Token: yer_aldığı_", S0B1Lemma: yer___iddia, S0B1LemmaPOS: yer___Noun, S0B1POS: Noun_Adj_Noun, S0B1POSLemma: Noun_Adj_iddia, S0B1Token: yer_aldığı_iddiasına, S0Lemma: yer__, S0POS: Noun_Adj, S0Token: yer_aldığı, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", iddiasına, gazeteler ,.. ]
+
+B0Lemma: ", B0POS: Punc, B0Token: ", B1Lemma: iddia, B1POS: Noun, B1Token: iddiasına, transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 102, 
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [iddiasına, gazeteler, de ,.. ]
+
+B0Lemma: iddia, B0POS: Noun, B0Token: iddiasına, B1Lemma: gazete, B1POS: Noun, B1Token: gazeteler, S0B0Distance: 1, S0B0Lemma: "_iddia, S0B0LemmaPOS: "_Noun, S0B0POS: Punc_Noun, S0B0POSLemma: Punc_iddia, S0B0Token: "_iddiasına, S0B1Lemma: "_gazete, S0B1LemmaPOS: "_Noun, S0B1POS: Punc_Noun, S0B1POSLemma: Punc_gazete, S0B1Token: "_gazeteler, S0Lemma: ", S0POS: Punc, S0Token: ", transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iddiasına, gazeteler, de ,.. ]
+
+B0Lemma: iddia, B0POS: Noun, B0Token: iddiasına, B1Lemma: gazete, B1POS: Noun, B1Token: gazeteler, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 021, 
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iddiasına]   B= [gazeteler, de, destek ,.. ]
+
+B0Lemma: gazete, B0POS: Noun, B0Token: gazeteler, B1Lemma: de, B1POS: Conj, B1Token: de, S0B0Distance: 1, S0B0Lemma: iddia_gazete, S0B0LemmaPOS: iddia_Noun, S0B0POS: Noun_Noun, S0B0POSLemma: Noun_gazete, S0B0Token: iddiasına_gazeteler, S0B1Lemma: iddia_de, S0B1LemmaPOS: iddia_Conj, S0B1POS: Noun_Conj, S0B1POSLemma: Noun_de, S0B1Token: iddiasına_de, S0Lemma: iddia, S0POS: Noun, S0Token: iddiasına, iddia_isGouvernedBy_ver: true, iddia_isGouvernedBy_ver_MODIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gazeteler, de, destek ,.. ]
+
+B0Lemma: gazete, B0POS: Noun, B0Token: gazeteler, B1Lemma: de, B1POS: Conj, B1Token: de, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gazeteler]   B= [de, destek, verdi ,.. ]
+
+B0Lemma: de, B0POS: Conj, B0Token: de, B1Lemma: destek, B1POS: Noun, B1Token: destek, S0B0Distance: 1, S0B0Lemma: gazete_de, S0B0LemmaPOS: gazete_Conj, S0B0POS: Noun_Conj, S0B0POSLemma: Noun_de, S0B0Token: gazeteler_de, S0B1Lemma: gazete_destek, S0B1LemmaPOS: gazete_Noun, S0B1POS: Noun_Noun, S0B1POSLemma: Noun_destek, S0B1Token: gazeteler_destek, S0Lemma: gazete, S0POS: Noun, S0Token: gazeteler, gazete_de_hasRighDep_INTENSIFIER: true, gazete_hasRighDep_INTENSIFIER: true, gazete_isGouvernedBy_ver: true, gazete_isGouvernedBy_ver_SUBJECT: true, hasRighDep_INTENSIFIER: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, destek, verdi ,.. ]
+
+B0Lemma: de, B0POS: Conj, B0Token: de, B1Lemma: destek, B1POS: Noun, B1Token: destek, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [destek, verdi, . ,.. ]
+
+B0Lemma: destek, B0POS: Noun, B0Token: destek, B1Lemma: ver, B1POS: Verb, B1Token: verdi, S0B0Distance: 1, S0B0Lemma: de_destek, S0B0LemmaPOS: de_Noun, S0B0POS: Conj_Noun, S0B0POSLemma: Conj_destek, S0B0Token: de_destek, S0B1Lemma: de_ver, S0B1LemmaPOS: de_Verb, S0B1POS: Conj_Verb, S0B1POSLemma: Conj_ver, S0B1Token: de_verdi, S0Lemma: de, S0POS: Conj, S0Token: de, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [destek, verdi, . ,.. ]
+
+B0Lemma: destek, B0POS: Noun, B0Token: destek, B1Lemma: ver, B1POS: Verb, B1Token: verdi, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [destek]   B= [verdi, . ,.. ]
+
+B0Lemma: ver, B0POS: Verb, B0Token: verdi, B1Lemma: ., B1POS: Punc, B1Token: ., S0B0Distance: 1, S0B0Lemma: destek_ver, S0B0LemmaPOS: destek_Verb, S0B0POS: Noun_Verb, S0B0POSLemma: Noun_ver, S0B0Token: destek_verdi, S0B1Lemma: destek_., S0B1LemmaPOS: destek_Punc, S0B1POS: Noun_Punc, S0B1POSLemma: Noun_., S0B1Token: destek_., S0Lemma: destek, S0POS: Noun, S0Token: destek, destek_isGouvernedBy_ver: true, destek_isGouvernedBy_ver_MWE: true, transitionHistoryLength1: 2, transitionHistoryLength2: 20, transitionHistoryLength3: 202, 
+
+86- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [destek, verdi]   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: ver_., S0B0LemmaPOS: ver_Punc, S0B0POS: Verb_Punc, S0B0POSLemma: Verb_., S0B0Token: verdi_., S0Lemma: ver, S0POS: Verb, S0Token: verdi, S1B0Lemma: destek_., S1B0LemmaPOS: destek_Punc, S1B0POS: Noun_Punc, S1B0POSLemma: Noun_., S1B0Token: destek_., S1Lemma: destek, S1POS: Noun, S1S0Lemma: destek_ver, S1S0LemmaPOS: destek_Verb, S1S0POS: Noun_Verb, S1S0POSLemma: Noun_ver, S1S0Token: destek_verdi, S1Token: destek, transitionHistoryLength1: 0, transitionHistoryLength2: 02, transitionHistoryLength3: 020, 
+
+87- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[destek, verdi]]   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., S0B0Distance: 1, S0B0Lemma: destek_ver_., S0B0LemmaPOS: destek_ver_Punc, S0B0POS: Noun_Verb_Punc, S0B0POSLemma: Noun_Verb_., S0B0Token: destek_verdi_., S0Lemma: destek_ver, S0POS: Noun_Verb, S0Token: destek_verdi, transitionHistoryLength1: 0, transitionHistoryLength2: 00, transitionHistoryLength3: 002, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: Punc, B0Token: ., transitionHistoryLength1: 1, transitionHistoryLength2: 10, transitionHistoryLength3: 100, 
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: Punc, S0Token: ., transitionHistoryLength1: 2, transitionHistoryLength2: 21, transitionHistoryLength3: 210, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

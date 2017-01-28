@@ -5,9 +5,7 @@ Jų parengtoje ataskaitoje pažymima , kad ekonomikos susitraukimo procesas apė
 ## Sentence No. 291 - 
 BNS žiniomis , teisėsauga tiria , ar Maisto ir veterinarijos tarnyba ar jai pavaldžios įstaigos galėjo gauti informacijos iš užsienio kompetetingų žinybų apie šaldytų maisto produktų gamintojos „ Judex “ produkcijoje rastą žmonių sveikatai pavojingos listerijos bakterijos užkratą , tačiau šį faktą nuslėpė ir , įtariama , nesiėmė veiksmų .
 ### Existing MWEs: 
-1- **nesiėmė veiksmų** (LVC, 1)
-### Identified MWEs: 
-1- **nesiėmė veiksmų** 
+1- **nesiėmė veiksmų** (LVC)
 ## Sentence No. 526 - 
 Paskelbus Europos bankų streso testų rezultatus , Italijos bankų akcijos nusirito žemyn
 ### Existing MWEs: 
@@ -51,7 +49,7 @@ Jungtinių Valstijų elektromobilių gamintoja „ Tesla “ pirmadienį praneš
 ## Sentence No. 2466 - 
 Teisėsauga yra pranešusi , kad jos turimi duomenys leidžia įtarti , jog maisto produktus gaminančios bendrovės vadovai , norėdami , kad įmonė išvengtų nuobaudų , kurios paprastai taikomos aptikus darbų saugos , pakavimo , ženklinimo , higienos ar kitus pažeidimus , savo neteisėtų tikslų siekė papirkdami įvairius atsakingus specialistus arba asmenis , galinčius tokiems specialistams , pareigūnams daryti poveikį .
 ### Existing MWEs: 
-1- **daryti poveikį** (LVC, 4)
+1- **daryti poveikį** (LVC, 3)
 ### Identified MWEs: 
 1- **daryti poveikį** 
 ## Sentence No. 2521 - 
@@ -71,7 +69,7 @@ Finansų ministerija pabrėžia , kad siekiant , jog kredito gavėjai nepriimtų
 ## Sentence No. 2941 - 
 – Tačiau tokių sprendimų Australijos atsargų bankas negali priimti .
 ### Existing MWEs: 
-1- **sprendimų priimti** (LVC, 1)
+1- **sprendimų priimti** (LVC)
 ## Sentence No. 2951 - 
 Rio de Žaneiro olimpiados atidarymo scenarijus sukėlė tikrą audrą : G . Bundchen apiplėšiama ?
 ### Existing MWEs: 
@@ -267,7 +265,7 @@ Turint omenyje , kad ji gali gana ilgai ir sklandžiai kalbėti ir be lapelio , 
 ## Sentence No. 11256 - 
 P . Gražulis atsisakė duoti parodymus .
 ### Existing MWEs: 
-1- **duoti parodymus** (LVC, 10)
+1- **duoti parodymus** (LVC, 9)
 ### Identified MWEs: 
 1- **duoti parodymus** 
 ## Sentence No. 11381 - 
@@ -281,7 +279,7 @@ Buvo pradėtas ikiteisminis tyrimas , byla pasiekė teismą , tačiau taškas jo
 ## Sentence No. 12001 - 
 Jų grįžimas kelia papildomą grėsmę mūsų nacionaliniam saugumui “ , – sakė ministras pirmininkas , remdamasis Prancūzijos žvalgybos duomenimis .
 ### Existing MWEs: 
-1- **kelia grėsmę** (LVC, 2)
+1- **kelia grėsmę** (LVC, 1)
 ## Sentence No. 12041 - 
 Rusija , prisidengdama kova prieš terorizmą , įveda apribojimus religinėms ir tautinėms bendruomenėms .
 ### Existing MWEs: 

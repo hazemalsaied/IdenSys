@@ -25,9 +25,6 @@ class Identifier:
                     trainingSents, testingSents = Identifier.getTrainAndTestSents(realExper, corpus)
                     Parser.mweDictionary, Parser.mweTokenDic = Identifier.getMWEDic(trainingSents)
                     Report.createMWELexic(Parser.mweDictionary, dir)
-                    report = '# The experiementations on ' + dir + '\n'
-                    with open(Parameters.readMe, "a") as staticParsingFile:
-                        staticParsingFile.write(report)
                     for configFile in configFiles:
                         if not configFile.endswith('.json'):
                             continue
@@ -81,6 +78,15 @@ class Identifier:
                         else:
                             mweTokenDictionary[token.text] = 1
 
+        for key1 in mweDictionary.keys():
+            for key2 in mweDictionary.keys():
+                if key1 != key2:
+                    if key1 in key2:
+                        #if ('\'' in  key1 and '\\' not in  key1) or ('\'' in  key2 and '\\' not in  key2) :
+                        #    continue
+                        mweDictionary.pop(key1, None)
+                    elif key2 in key1:
+                        mweDictionary.pop(key2, None)
         return mweDictionary, mweTokenDictionary
 
     @staticmethod

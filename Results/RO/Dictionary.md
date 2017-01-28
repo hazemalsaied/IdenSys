@@ -1,10 +1,6 @@
-avea loc: 368
-
 sine desfășura: 224
 
 sine afla: 145
-
-avea drept: 72
 
 sine adresa: 67
 
@@ -138,8 +134,6 @@ sine datora: 9
 
 sine menține: 9
 
-sine prezent: 8
-
 sine alătura: 8
 
 sine apropia: 8
@@ -189,8 +183,6 @@ avea parte: 6
 sine opune: 6
 
 sine face: 6
-
-s desfășura: 6
 
 lua hotărâre: 6
 
@@ -258,15 +250,11 @@ s opri: 5
 
 referi sine: 5
 
-sine lăsa: 5
-
 sine întinde: 5
 
 sine dovedi: 5
 
 eu gândi: 5
-
-pune capăt: 5
 
 avea la origine: 5
 
@@ -320,8 +308,6 @@ cifra sine: 4
 
 s consuma: 4
 
-sine juca: 4
-
 avut în vedere: 4
 
 sine căsători: 4
@@ -369,10 +355,6 @@ eu referi: 3
 sine manifesta: 3
 
 sine pensiona: 3
-
-trece peste: 3
-
-s solda: 3
 
 sine reflecta: 3
 
@@ -497,8 +479,6 @@ sine înălța: 2
 s răsturna: 2
 
 sine preocupa: 2
-
-sine conform: 2
 
 adresa sine: 2
 
@@ -840,8 +820,6 @@ pus în funcțiune: 1
 
 sine lăsa întuneric: 1
 
-decizie lua: 1
-
 în joc pus: 1
 
 luat în stăpânire: 1
@@ -977,8 +955,6 @@ da asigurare: 1
 sări în ochi: 1
 
 s înfrunta: 1
-
-s: 1
 
 pune în scenă: 1
 

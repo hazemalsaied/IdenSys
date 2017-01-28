@@ -20,6 +20,8 @@ Profesör Türker Alkan _ Radikal'deki köşesinde Diyanet İşleri Başkanı ' 
 1- **_** 
 2- **yapar** 
 3- **_** 
+4- **alet ederek** 
+5- **tahvil etmek** 
 ## Sentence No. 14845 - 
 Mahmut Görür _ isimli sanık Susurluk'ta büyükkonsolosluğumuza teslim ol demiştir " _ şeklindeydi . Hepsini düzelttik yine de Mahmut _ demesini engelleyemedik . Hanım da sonradan ısrar etti . " Mahkemede ismini değiştirin o zaman " diye . Yine de Hanım azimli . " Bir katil daha teslim alınız hemen , ismisini doğru söyleyeyim " diye talimat verdi . _ Umutluyum . Hanım bir ismi tam _ _ söyleyene kadar bütün faili meçhul cinayetlerin birer faili bulunabilir , hatta yetmez , yeni cinayetler de gerekebilir . Üçüncü vaka , Rus füzelerinin Rum füzesi olaraktan _ konuşlandırılması . Şu mübarek ayda tam manasıyla Allah'ın bize bir lütfu oldu Hocam . Hanım hastane mutfağı teftişi , yanlış _ isimli sanık _ açıklama gibi dış işlerden daha dış işlere bakamıyordu . Şimdi ihtisas alanına döndü . Önce , " O Rus füzeleri Ay'a gitmeyecek " , ya da " Müzeleri vururuz " veya " Kıbrıs Rus kesimi " hatta " Rus salatası " gibi demeç teşebbüslerini cansiperane şekilde durdurduk , sıra savaş için dua _ etmemize geldi . Füzelerin _ Amerika'daki mülkleri de _ vuracak hali yok ya . Hem böylesine ciddi bir milli mesele _ patlayınca _ akan sular durur . _ Akan sulara Susurluk Çayı da _ dahildir . Hoş onu zati imeceyle kurutmaktayız . Kimse merak buyurmasın , " yine herşey eskisi gibi olacak'tır . Bu arada _ unutmadan bildireyim Hocam , ben de oruç tutuyorum . İftara kadar nefsime hakim _ olup haram filan yemiyorum . Tabii sahura kadar da bunu telafi _ etmeye gayret ediyorum . Ellerinden öperim , _ dönüp bi daha öperim Hocam . _ Şaşıran Şahin Hanım'ın tezgah şeyhi _ Uçuran Cinlerbakan biraderin . 
 ### Existing MWEs: 
@@ -109,9 +111,7 @@ Geçen cumartesi günü , bizim " _ Nerelerdesiniz . " diye _ biten yazımızdan
 3- **_** 
 4- **teşhir edilirken** 
 5- **perişan ettiğini** 
-6- **gözlerinin açılması** 
-7- **Hapisten çıkayım** 
-8- **yapacağım** 
+6- **yapacağım** 
 ## Sentence No. 3895 - 
 Partisine aralarında emekli askerlerin de _ bulunduğu katılım töreninde _ konuşan Yazıcıoğlu RP'ye _ yüklenirken şu görüşleri dile getirdi : " Meydanlarda adaletsizliği ve zulmü _ kınayarak iktidara gelmiş _ _ olanlar şimdi neden memura zulmetmektedir . İktidara _ _ gelenler ne sözlerini yerine getiriyor , ne iktidar _ olmanın gereği _ olan sözlere uyuyor ne de milleti dinliyorlar . ` Yaptık oldu bitti ' diyorlar . Böyle bir vurdumduymazlık karşısında elbette susamayız . Türkiye'de yolsuzluk ve rüşvet _ alıp başını _ giderken , ortaya _ atılan sis bombasının arka planında sahne _ değiştirilmeye çalışılıyor . Bunları görüyoruz . Şu ana kadar _ yapılan doğru işlere destek olduk , istikrardan yana tavır koyduk ancak sadece istikrar için yanlış işlere destek olmayız . " . 
 ### Existing MWEs: 
@@ -207,8 +207,9 @@ Bireycilik üzerine kurulu _ olan kapitalizmin , bireyin _ doğasındaki kısa v
 3- **ileri süren** (ID, 6)
 4- **çözüm üretme** (ID, 8)
 ### Identified MWEs: 
-1- **tehlikeye attığını** 
-2- **çözüm üretme** 
+1- **öne çıkarma** 
+2- **tehlikeye attığını** 
+3- **çözüm üretme** 
 ## Sentence No. 9850 - 
 Yer " mi var ki . Var , hem de çok güzel bir yer var : Kümbet Cezaevi . Daha doğrusu " cezaevi idi . " . Bu cezaevi , Adalet Bakanlığı'ndan devralındı . Yunus Emre Yatılı İlköğretim Bölge Okulu yapıldı . 1200 öğrencimiz şimdi " cezaevinden bozma okulda " okuyor . Bakanlar Kurulu toplantısı için bundan daha uygun " mekan " olur mu . MUŞLULAR ile işsizliği konuşuyorduk . DYP Milletvekili Necmettin Dede üç örnek verdi . Birinci örnek : - 70 _ imama ihtiyaç _ vardı . Tam 1071 kişi başvurdu . İkinci örnek : - Sağlık müdürlüğüne 16 kişi alınacaktı . Şoför , odacı gibi . 1100 kişi başvurdu . Üçüncü örnek : - PTT'nin 30 personele ihtiyacı var . 571 kişi başvurdu . BELEDİYE Başkanı Abdülkadir Turan eski eğitimci . " Kökeni " sol . Eski Töb - Der başkanı . Bir aşiret reisinin oğlu . Özal döneminde ANAP'tan Belediye Başkanı idi . Şimdi Refah'ta . " Başkan , işsizlik " diyecek olduk . Abdülkadir Turan : - Bir şey söyleyeceğim , inanmayacaksınız . - İnanırız . - Çevre sağlığında 150 kişiyi , 6 milyon maaşla çalıştırıyorum . - Başkan , _ yazıktır . _ Günahtır . - Sorma . İçim kan ağlıyor . İçlerinde lise mezunları var . Ve " Çöp işinde " çalışıyorlar . İş yok , aş yok . MİLLİ Eğitim Müdürü Cezmi Toplu " bölgenin evladı . " . Eğitim diye çırpınıyor . Ankara " görevini " yapmış , Muş'a tam 487 öğretmen atamış . Cezmi Bey hemen Ankara'ya koşmuş . Muş'a _ _ atananlara " otobüs biletiniz benden " demiş : - Gelin , görün . Seveceksiniz . Sonuç . Cezmi Toplu " sonuç " konusunda üzgün : - Gele , gele 80 öğretmen geldi . Muş Milli Eğitim Müdürü , Muş'ta görev _ yapan bazı " ilkokul öğretmenlerinden " bahsetti : - Siyasal Bilgiler Fakültesi mezunları var . Veteriner mezunları var . Ziraat mühendisleri , makine mühendisleri var . " Yeter " dedik : - Devam etme . Dayanamıyoruz . BELEDİYE Başbakanı Abdülkadir Bey dedi ki " şu anda terörle mücadele adı altında , sivrisinek yok ediliyor . 
 ### Existing MWEs: 
@@ -326,8 +327,7 @@ Sarı - _ Lacivertli kulübün İkinci Başkanı Vefa Küçük , G . Saray'ın s
 2- **devreden çıkarıldığını** (ID, 5)
 3- **iddia etti** (LVC, 29)
 ### Identified MWEs: 
-1- **devreden çıkarıldığını** 
-2- **iddia etti** 
+1- **iddia etti** 
 ## Sentence No. 4885 - 
 Bakın Demirkent ne diyor : " Bizim _ bildiğimiz kadarıyla 10 Ocak bir bayram günü değildi . Bir direniş _ günüdür . Kim bayram ilan etti hatırlamıyoruz . 10 Ocak , çalışanların patronlara karşı _ başkaldırışı idi . Üç gün süreyle gazete _ çıkarmamaya karar _ veren gazete sahiplerinin boykotunu _ kırmak _ isteyen genç gazeteciler , okuru _ gazetesiz _ bırakmamak için Basın Gazetesi'ni çıkarmış ve _ bastırıp dağıtmışlardı . Üstelik o günlerin teknolojisi bu kadar müsait değildi , ekonomik koşullar deseniz kimsenin cebinde doğru dürüst para _ yoktu . Ne var ki ; sendikanın başında idealist , mesleğine saygı _ duyan insanlar _ vardı . Onların öncülüğünde bu başarı sağlandı ve böylece meşhur 212 _ sayılı yasa yürürlüğe girdi . Bugün _ olduğu gibi 1961 yılında çalışanlar , patronların her _ dediğine evet demiyorlardı . Nedeni de çok _ basitti . _ Aldıkları para fazla değildi ve her zaman _ aldıkları parayı başka işlerden _ kazanmaları _ mümkündü . Bugün gazetelerde astronomik ücretler _ ödendiğinden artık 212 sayılı yasanın önemi kalmadı ama patronların egemenliği arttı . 10 Ocak her yıl hatırlanmalıdır . Bunu _ yapacak _ olan da _ sendikadır . _ Örgütlenmenin ne biçim bir güç _ yarattığı o günlerde görülmüştür . Maalesef _ bugünkü eylemler genelde sokaklarda _ yürümek , bilemediniz bir sol gazeteye ilan _ vermekten öteye geçmiyor . Çünkü _ örgütlü toplum _ olma özlemi içinde _ olmamıza rağmen _ örgütlenmekten korkuluyor . " . 
 ### Existing MWEs: 
@@ -337,10 +337,9 @@ Bakın Demirkent ne diyor : " Bizim _ bildiğimiz kadarıyla 10 Ocak bir bayram 
 ### Identified MWEs: 
 1- **ilan etti** 
 2- **karar veren** 
-3- **saygı duyan** 
-4- **yürürlüğe girdi** 
-5- **_** 
-6- **ilan vermekten** 
+3- **yürürlüğe girdi** 
+4- **_** 
+5- **ilan vermekten** 
 ## Sentence No. 5610 - 
 Kıbrıs Rum Meclisi Başkanı Spiros Kiprianu ise dün Rum Milli Muhafız Ordusu karargahını ziyaret _ ederek , özellikle S - 300 füze sistemleri hakkında bilgi aldı ve konuya ilişkin Meclis'e de bilgi _ verileceğini kaydetti . 
 ### Existing MWEs: 
@@ -396,7 +395,8 @@ Susurluk : " Skandal halen yargıya intikal etmedi . Somut , elle _ tutulan bir 
 3- **İfadelerin verileceği** (OTH, 42)
 ### Identified MWEs: 
 1- **intikal etmedi** 
-2- **yapacak** 
+2- **elle tutulan** 
+3- **yapacak** 
 ## Sentence No. 7530 - 
 DİSK Başkanı Rıdvan Budak ise , konuşmasının başında başarılı miting için Meral'a teşekkür etti ancak Türk - İş'in bir büyüklük kompleksi içinde hareket _ ettiğini öne sürdü . 
 ### Existing MWEs: 
@@ -552,7 +552,8 @@ RP yetkilileri ve Başbakan Erbakan'ın iktidara _ gelince söylemlerinin _ yumu
 1- **şikayet ettikleri** (LVC, 3)
 3- **müzakere edilemez** (LVC)
 ### Identified MWEs: 
-1- **şikayet ettikleri** 
+1- **müzakere edecekleri** 
+2- **şikayet ettikleri** 
 ## Sentence No. 11675 - 
 Bunların hepsini yakalarsak bizim arkadaşlar şok olur " diyor . Hevesle sürünün üzerine gidiyoruz . _ Elimizdeki zıpkınları denize doğru fırlatıyoruz . Sonuç sıfır . Denize _ eğilip durum tespiti yapıyorum . Aaa . O da ne . Reha'nın balina _ dediği sürü meğer hamsi _ sürüsüymüş . YORUMU : _ Abartılı TV haberlerinden bıkmışsınız . En iyisi radyo dinleyin ve rayting avcılarını şok edin . Çorum'dan Suavi : - Rüyamda Bay ve Bayan Çiller'leri görüyorum . Özer Bey Banka müdürü . Rüya bu ya , müdürü _ olduğu bankanın veznesine bir hortum takıyor . Kendi _ kurduğu firmalara kredi _ verip paraların üzerine yatıyor . Bankayı batırıyor . Bayan Çiller daha sonra İstanbul Belediye Başkanı Dalan'ın danışmanı oluyor . Sarıyer Kilyos havalesinde imara kapalı arazileri ucuza _ kapatıp sonra teker teker Belediye'den imar izni çıkartıyor , bir gecede milyarlar kazanıyor . Peşinden daha büyük bir arsa _ arayıp Türkiye'ye göz dikiyorlar . Bay ve Bayan Çiller'i bir lokantada kocaman bir istakozun içini _ boşaltırken görüyorum . İmdaaat Türkiye'nin içini boşaltıyorlar diye bağırıyorum . _ Terleyerek uyanıyorum . YORUMU : Buna rüya değil kabus denir . Kabus servisimiz henüz hizmete _ girmediği için herhangi bir yorum yapamayacağız . 
 ### Existing MWEs: 
@@ -583,8 +584,9 @@ OSMAN neyin gerçeğini _ öğrenmek _ istediğini anlatır : " Bak , ben _ _ i�
 1- **satın alımı** 
 2- **dile getiriyor** 
 3- **ileri sürerken** 
-4- **dile getirdi** 
-5- **öne sürdü** 
+4- **satın alımının** 
+5- **dile getirdi** 
+6- **öne sürdü** 
 ## Sentence No. 13605 - 
 KUVVETLİ bir alkış geldi , alkışın hakkını _ vermek lazım , lafa devam ettik : " Oktay Ekşi ile ortak arkadaşlarımızdan biri sitem etti , beni niye çağırmadı _ demeye getirdi . Kendisine şöyle dedik : - Bak , senin önünde beş yıl gibi uzun bir süre ve beş kişilik kısıtlı bir kontenjan var , bu zamanını iyi _ değerlendir , çalış , çabala , uğraş Oktay Ekşi'ye layık ol , ellinci yılın elli kişilik kontenjanına seni de alabilir . " . 
 ### Existing MWEs: 
@@ -594,7 +596,8 @@ KUVVETLİ bir alkış geldi , alkışın hakkını _ vermek lazım , lafa devam 
 ### Identified MWEs: 
 1- **hakkını vermek** 
 2- **devam ettik** 
-3- **layık ol** 
+3- **sitem etti** 
+4- **layık ol** 
 ## Sentence No. 13935 - 
 İki _ haftadır tedavi _ gördüğü Pskiyatri Servisi'nde kendisini hapishanede gibi hissetiğini _ belirten Çiftçioğlu , hastaneye _ düştükten sonra Malatya'nın Arguvan ilçesine tayin _ edildiğini _ öğrendiğini _ kaydederek şöyle konuştu : " Kendimi buraya mahpus edilmiş gibi görüyorum . Kendi kendime _ konuştukça iyileşemem . Yanımda ablamı istiyorum , konuşabileceğim , dertleşebileceğim birini , ama izin vermiyorlar . Tedavim 15 gün daha sürecek ama böyle giderse iyileşemeyeceğim . " . 
 ### Existing MWEs: 
@@ -826,7 +829,6 @@ Günün birinde giysilerin , bugün portatif bilgisayarlar ve cep telefonların�
 2- **duruma geleceği** (ID, 1)
 ### Identified MWEs: 
 1- **yapabilecek** 
-2- **duruma geleceği** 
 ## Sentence No. 4710 - 
 Japonya'da _ yayımlanan Mainichi Shimbun _ adlı gazete , Tupac Amaru Devrimci Hareketi'nin , Japon firmalarının üst düzey yöneticilerini serbest _ bırakma karşılığında , 100 milyon dolar talep _ ettiklerini yazdı . 
 ### Existing MWEs: 
@@ -837,8 +839,6 @@ Kandemir'in Adak'ın ziyaretinin Ramazana denk _ gelmesi nedeniyle 15 Ocak'ta T�
 ### Existing MWEs: 
 1- **denk gelmesi** (ID, 3)
 2- **yemeği vereceği** (ID, 66)
-### Identified MWEs: 
-1- **denk gelmesi** 
 ## Sentence No. 4760 - 
 BOSNA - Hersek'te görev süresi sona _ eren NATO Barışı Uygulama Gücü'nün ( İFOR ) yerini alacak İstikrar Gücü'ne ( SFOR ) , Türkiye'nin bin 500 askerle _ katılacağı öğrenildi . 
 ### Existing MWEs: 
@@ -879,8 +879,6 @@ Köşk haklı olarak görevlerinden _ alınan üst _ kademedeki bürokratların 
 ### Existing MWEs: 
 1- **sersefil olmuyor** (LVC)
 2- **perişan olmuyor** (LVC, 2), Interleaving 
-### Identified MWEs: 
-1- **perişan olmuyor** 
 ## Sentence No. 5515 - 
 Barkey , Türkiye'nin PKK'ya karşı kampanyasının , bu örgütün _ _ ılımlılaşması sonucunu _ vermesi olasılığından _ sözederken , dış dünyada yeni bir meşruiyet zeminine ve Ankara'nın dış ilişkilerinde giderek daha fazla Kürt kafesi içine _ girmesi tehlikesine dikkat çekiyor . 
 ### Existing MWEs: 
@@ -998,6 +996,7 @@ Bununla ilgili son vahim _ gelişmelerden biri , Diyarbakır cezaevinde 24 Eylü
 2- **mukayese edilemeyecek** (LVC)
 ### Identified MWEs: 
 1- **haline gelenlerle** 
+2- **mukayese edilemeyecek** 
 ## Sentence No. 6750 - 
 En acısı da , TDK'nın , tutucu kişilerden _ oluşturulacak bir akademi niteliğine _ kavuşması için çaba _ _ harcayanlara , yani öztürkçe karşıtı birtakım kişilere teslim _ _ edilmesidir . 
 ### Existing MWEs: 
@@ -1072,7 +1071,8 @@ Beşiktaş Yönetim Kurulu , Oktay'ın aniden askere _ gitmesi , Rahim'de de sor
 1- **vekalet eden** (LVC)
 2- **ortaya çıkan** (ID, 67)
 ### Identified MWEs: 
-1- **ortaya çıkan** 
+1- **vekalet eden** 
+2- **ortaya çıkan** 
 ## Sentence No. 7280 - 
 Orada o kadar çok şeye tanık olmuş ki , sonunda hiçbir tarikata _ girmemeye karar vermiş . 
 ### Existing MWEs: 
@@ -1200,7 +1200,6 @@ Sergen'in geçen yıl beş maç _ oynamadığını da ifade _ eden Rasim Kara " 
 1- **ifade eden** (LVC, 42)
 ### Identified MWEs: 
 1- **ifade eden** 
-2- **dört verecek** 
 ## Sentence No. 8965 - 
 İkinci aradan sonra Başol , sanıkların başları sarıklı ve _ cübbeli olarak _ duruşmayı takip _ etmelerinin demokratik hukuk düzenine ve bağımsız DGM'ye _ açıkça hakaret _ olduğunu _ belirterek , davadan _ çekilmeye karar _ verdiğini açıkladı . 
 ### Existing MWEs: 
@@ -1280,16 +1279,12 @@ Kendi ayağıyla _ gelip teslim _ olan katilin " _ yakalandığını " iddia etm
 2- **teslim olan** (LVC, 63)
 1- **iddia etmiş** (LVC, 29)
 ### Identified MWEs: 
-1- **Kendi ayağıyla gelip** 
-2- **teslim olan** 
-3- **iddia etmiş** 
+1- **Kendi iddia etmiş** 
 ## Sentence No. 9935 - 
 Kan _ akıtarak değil , barış ve diyalog yöntemleriyle terörün üstesinden _ gelinebileceği _ yolundaki Ecevit doktrinine kanıt vermişti . 
 ### Existing MWEs: 
 1- **üstesinden gelinebileceği** (ID)
 2- **kanıt vermişti** (OTH)
-### Identified MWEs: 
-1- **kanıt vermişti** 
 ## Sentence No. 10010 - 
 Yemekler icat etmiş , bol bol yemiş içmiş , müziği falan bir yana atmış . 
 ### Existing MWEs: 
@@ -1297,7 +1292,6 @@ Yemekler icat etmiş , bol bol yemiş içmiş , müziği falan bir yana atmış 
 2- **bir yana atmış** (ID)
 ### Identified MWEs: 
 1- **icat etmiş** 
-2- **bol yemiş** 
 ## Sentence No. 10035 - 
 Baykal , Türkiye'nin iç durumundan başka dış konjonktürün de " Yunanistan'ı teşvik _ edici veya _ frenleyici " rol _ oynayabileceğini ve Türkiye'nin dış girişimlerini _ yoğunlaştırması _ gerektiğini söyledi . 
 ### Existing MWEs: 
@@ -1524,9 +1518,8 @@ Meslektaşımız Can Kaya İsen , Osmanlı İmaparatorluğu'nun kurucusu Osman G
 2- **yer tutanlar** (ID, 72)
 ### Identified MWEs: 
 1- **_** 
-2- **aklını yener** 
-3- **yer tutanlar** 
-4- **Haklı olduğunda** 
+2- **yer tutanlar** 
+3- **Haklı olduğunda** 
 ## Sentence No. 15365 - 
 Türkiye'de sistemin _ çöktüğünü , devlet otoritesinin yok _ olduğunu ileri _ süren Hasefe sözlerini şöyle noktalıyor : " Türkiye sahipsiz değildir . Bu _ gidişe bir dur _ denilmesi lazım . Güven her şeyin önünde gelir . Biz neye güveneceğiz . Sabancı ve Koç örneklerinde _ olduğu gibi akıl almaz olaylar oluyor . Abdi İpekçi , Çetin Emeç , Uğur Mumcu ve Doğan Öz'ün katilleri hala bulunamıyor . Biz bu kadar aciz miyiz . Devlet vatandaştan bir şeyler istiyorsa bu yumağı _ açmak _ zorundadır . " . 
 ### Existing MWEs: 
@@ -1599,7 +1592,6 @@ KIBRIS Rum tarafının Rusya'dan S - 300 füze sistemleri satın _ alma kararıy
 ### Identified MWEs: 
 1- **satın alma** 
 2- **endişe edecek** 
-3- **önlemleri almakta** 
 ## Sentence No. 15735 - 
 Belediyelerin gelirlerinin enflasyonla _ aşındığını _ söyleyen Boğaziçi Üniversitesi Öğretim Üyesi Prof. Dr. Ersin Kalaycıoğlu ve İstanbul Üniversitesi Öğretim Üyesi Prof. Dr. Nihat Falay ise , Ankara'nın temel mal ve hizmetleri elinde tutmakta _ direnerek yetki devrine _ yanaşmadığına dikkat çekti . 
 ### Existing MWEs: 
@@ -1760,7 +1752,8 @@ Türkçeyi _ _ kullanmayanlara ceza öngeren ve çeşitli çevrelerde ` yasa zor
 ### Existing MWEs: 
 1- **dikkat çekici** (ID, 41)
 ### Identified MWEs: 
-1- **dikkat çekici** 
+1- **vekalet ettiği** 
+2- **dikkat çekici** 
 ## Sentence No. 740 - 
 Çankaya Zirvesi'nde Erbakan'ın MİT'e _ dayanarak _ açıkladığı 59 kişilik listede _ bulunan Fethullah Hoca , Başbakan'ın kamuoyu önünde sözlü bir _ açıklamayla spekülasyonlara bir nokta _ koymamasından rahatsız . 
 ### Existing MWEs: 
@@ -1784,7 +1777,7 @@ Hava harekatıyla yerle bir _ edilen kampların yanı sıra teröristlerden _ te
 ### Existing MWEs: 
 1- **yerle bir edilen** (LVC)
 ### Identified MWEs: 
-1- **yerle bir edilen** 
+1- **yerle temizlenen** 
 ## Sentence No. 785 - 
 _ ÇANKAYA'daki zirvede Başbakan Necmettin Erbakan'ın MİT'e _ dayanarak _ gündeme _ getirdiği 59 kişilik listede _ bulunan Fethullah _ Gülen , " Önce çetenin infaz listesi sandım , aldırmadım . Sonra baktım ki , iş başka " dedi . 
 ### Existing MWEs: 
@@ -1994,8 +1987,6 @@ Bakanlıklar , " hiçbir yetkiyi devredemeyiz . " diye cevap verdi .
 Evrak kayıtta , bir masada 5 memur , dördü boş oturuyor . 
 ### Existing MWEs: 
 1- **boş oturuyor** (ID)
-### Identified MWEs: 
-1- **boş oturuyor** 
 ## Sentence No. 1445 - 
 Gitmezse istifa edecek . 
 ### Existing MWEs: 
@@ -2055,6 +2046,8 @@ The Times Gazetesi'nin haberine göre üç kişinin _ karşılıklı oyun _ oyna
 Küçüklükten terfi _ eden Emrah , Mahsun Kırmızıgül , İbrahim Erkal , İbrahim Tatlıses , Ferdi Tayfur ve Yılmaz Morgül müzik listelerinin üst sıralarında yer aldı . 
 ### Existing MWEs: 
 1- **yer aldı** (ID, 33)
+### Identified MWEs: 
+1- **terfi eden** 
 ## Sentence No. 1730 - 
 Bu sene popçular biraz geride kalacak , çünkü arabesk ve fantezi _ müzikteki çıkış devam edecek . 
 ### Existing MWEs: 
@@ -2123,8 +2116,7 @@ IRAK , Devlet Başkanı Saddam Hüseyin'in oğlu Uday'a yönelik suikast girişi
 ### Existing MWEs: 
 1- **sorumlu tuttu** (ID, 1)
 ### Identified MWEs: 
-1- **sorumlu tuttu** 
-2- **teslim edilmeleri** 
+1- **teslim edilmeleri** 
 ## Sentence No. 1905 - 
 _ Açıklamalar savcılığı harekete geçirdi . 
 ### Existing MWEs: 
@@ -2143,6 +2135,8 @@ Yönetim , futbolcuların transfer ücretlerini . boşa _ harcamaması için dan
 Dostoyevski'nin romanlarını önce Çar _ okuyup , sansür ediyordu . 
 ### Existing MWEs: 
 1- **sansür ediyordu** (LVC)
+### Identified MWEs: 
+1- **sansür ediyordu** 
 ## Sentence No. 2050 - 
 Kürt sorunu üzerinde yasaklar etrafında dans _ eden yazılar yazıyorsunuz . 
 ### Existing MWEs: 
@@ -2213,8 +2207,6 @@ California eyaleti yetkilileri , bir yandan selin _ yıkıp _ geçtiği binlerce
 Sırbistan hükümetinin _ Belgrad'daki 9 seçim bölgesi ile Uzice , Kragujevac ve Zrenjanin'de , " Birlikte " ( Zayedno ) adı _ verilen muhalif koalisyon hareketinin zaferini tanıdığını _ açıklamasının ardından _ konuşan muhalefet yetkilileri , bunun " kısmi " bir çözüm _ olduğunu _ savunarak , gösterilere ara _ vermeyeceklerini kaydettiler . 
 ### Existing MWEs: 
 1- **ara vermeyeceklerini** (ID, 3)
-### Identified MWEs: 
-1- **ara vermeyeceklerini** 
 ## Sentence No. 2345 - 
 Gerillaların eylemlerine devam _ etmesi nedeniyle kendilerinin de birer " rehine " durumuna _ düştüklerini _ belirten Büyükelçi'nin komşuları , basın mensupları ve polis çemberi yüzünden zor günler _ yaşadıklarını belirtiyorlar . 
 ### Existing MWEs: 
@@ -2257,8 +2249,7 @@ IRAK , Devlet Başkanı Saddam Hüseyin'in oğlu Uday'a yönelik suikast girişi
 ### Existing MWEs: 
 1- **yardımcı olmasını** (LVC, 5)
 ### Identified MWEs: 
-1- **sorumlu tuttu** 
-2- **teslim edilmeleri** 
+1- **teslim edilmeleri** 
 ## Sentence No. 2425 - 
 Kurmaylar , İçişleri Bakanlığı Müsteşarı'nın görevde _ kalacağını _ belirtirlerken İstanbul Valiliği için henüz karar _ verilemediğini vurguladı . 
 ### Existing MWEs: 
@@ -2276,7 +2267,7 @@ Hükümet Türk Silahlı Kuvvetleri personeline _ verdiği zammı tüm kamu çal
 ### Existing MWEs: 
 1- **ayrımcılık yapmasın** (LVC)
 ### Identified MWEs: 
-1- **ayrımcılık yapmasın** 
+1- **yapmasın** 
 ## Sentence No. 2505 - 
 Sendikayla hükümeti karşı karşıya _ getiren olaylar şöyle : Çiller'in şok sözleri : Türk - İş'le Refahyol'un arası , Çiller'in hükümet _ kurulduktan hemen sonra kendisini ziyarete _ gelen Meral'e " Türkiye'nin kanını işçiler , SSK ve TÜSİAD emiyor " _ demesiyle bozuldu . 
 ### Existing MWEs: 
@@ -2400,8 +2391,6 @@ Netekim içime bir kurt düştü .
 Zaten can _ çekişen Türkçenin de içine ya edecek ya edecek . 
 ### Existing MWEs: 
 1- **içine edecek** (LVC)
-### Identified MWEs: 
-1- **can çekişen** 
 ## Sentence No. 3430 - 
 Telefon _ edip durumu bildirdiler . 
 ### Existing MWEs: 
@@ -2498,6 +2487,8 @@ Bu kanunun 91'inci maddesine göre tahsil _ edilen % 5 mali sorumluluk sigortas�
 Yukarıda _ belirtilen hafif para cezaları tecil edilemez . 
 ### Existing MWEs: 
 1- **tecil edilemez** (LVC)
+### Identified MWEs: 
+1- **tecil edilemez** 
 ## Sentence No. 3830 - 
 Otoyollarda , konaklama yerleri hariç _ olmak üzere , yapılacak ve açılacak yapı ve tesislerde , _ alkollü içki _ satılmasına izin verilmez . 
 ### Existing MWEs: 
@@ -2509,6 +2500,8 @@ Otoyollarda , konaklama yerleri hariç _ olmak üzere , yapılacak ve açılacak
 Kaddafi'nin ayağına kadar _ gidip Türkiye'nin onurunu iki paralık ediyor . 
 ### Existing MWEs: 
 1- **iki paralık ediyor** (ID)
+### Identified MWEs: 
+1- **paralık ediyor** 
 ## Sentence No. 4005 - 
 Komisyonun _ çalışmalarını _ yürüttüğü , bodrum _ kattaki odanın konumu ise kameramanların , gazetecilerin , görevlilerin adeta belediye otobüsü gibi üst üste _ çalışmalarına neden oluyor . 
 ### Existing MWEs: 
@@ -2535,6 +2528,7 @@ Cundoruk , " Bir genel başkanını ihraç etmiş , birini aday yapmamış , lid
 2- **yapmamış** 
 3- **tehdit etmiştir** 
 4- **devam etti** 
+5- **unufak edilmiştir** 
 ## Sentence No. 4120 - 
 Cindoruk , partisinin _ kurulacağı 7 Ocak'ta , DYP Lideri Tansu Çiller'in Osmaniye mitingiyle , Yeni Oluşumcular'ı _ gölgeleme çabasını şöyle _ değerlendirdi : " Osmaniye'de miting _ yapılmasını doğal karşılıyorum . 7 Ocak'ın , ailece bir gün bile DP'ye ve AP'ye oy _ vermediğini _ söyleyen bir genel başkanca _ hatırlanması da , bana keyif veriyor . Çiller'den dileğim , o gün DP'nin dört kurucusunun adını _ anarken , geçen yıl _ yaptığı gibi kağıda _ bakmadan _ söylemesi . " . 
 ### Existing MWEs: 
@@ -2647,6 +2641,7 @@ Törende Edirne Gazeteciler Cemiyeti'ne katkılarından ötürü Milliyet gazete
 1- **armağan edilen** (LVC, 1)
 ### Identified MWEs: 
 1- **armağan edilen** 
+2- **Atilla'ya verildi** 
 ## Sentence No. 4585 - 
 Mehmet Aydar , _ patlamanın şofbeni _ yakarken meydana _ geldiğini _ belirterek , " Tüp çok dolu _ olduğundan biraz boşalttık . Daha sonra evi _ havalandırdık , ancak yetersiz olmuş . Şofbeni _ yakarken odaya _ dolan gaz alev aldı ve _ patlama oldu " dedi . 
 ### Existing MWEs: 
@@ -2708,6 +2703,8 @@ Ana - Baba Okulu'nda konunun uzmanları Prof. Dr. Ayla Oktay , Prof. Dr. Haluk Y
 Aylık 200 _ dolarlık emekli maaşı üzerinden bu para 5 yılda kendisini amorti ediyor . 
 ### Existing MWEs: 
 1- **amorti ediyor** (LVC)
+### Identified MWEs: 
+1- **amorti ediyor** 
 ## Sentence No. 4905 - 
 Uzmanlar , bu paranın Zorunlu Tasarruf Fonu , Konut _ Edindirme Yardımı gibi devlet tahvili ve hisse senetlerinde _ değerlendirilmesi halinde _ _ çalışanlara herhangi bir yarar _ sağlamayacağını , devletin rantiye kesimine _ olan borçlarını _ kapatmaya _ yarayacağını savunuyorlar . 
 ### Existing MWEs: 
@@ -2824,6 +2821,8 @@ Barçın Yinanç , REFAHYOL iktidarında " yeni İsrail anlaşması'nı _ duyuru
 Bu ziyarete ilişkin bildiride , taraflar _ aralarındaki stratejik ortaklığı _ sürdürmek ve _ geliştirmek _ hususundaki " sarsılmaz kararlılıklarını " belirttiler ve bu ortaklığın , soğuk savaş sonrası dönemde dünyada tek süper devlet konumunda _ olan ABD'nin etkisini _ dengelemeyi ve çok _ kutuplu bir dünya düzeni _ kurulmasını _ hedeflediğini teyit ettiler . 
 ### Existing MWEs: 
 1- **teyit ettiler** (LVC)
+### Identified MWEs: 
+1- **teyit ettiler** 
 ## Sentence No. 5410 - 
 Bu soruları _ yanıtlamaya _ çalışmadan önce , Rusya ile Çin _ arasındaki ortak çıkar alanının kapsam ve içeriğine bir göz atalım . 
 ### Existing MWEs: 
@@ -3060,8 +3059,6 @@ Bu kurumlar Türk eğitim sisteminin dışında kendi anlayışlarına uygun eğ
 Gözlemcilere göre İslam bir dönüm noktasında : İslami düşüncenin şu _ andaki sorunu yenilikçi ruhunu _ yitirmesi , katı , doktriner bir hale gelmiş _ olması . 
 ### Existing MWEs: 
 1- **hale gelmiş** (ID, 21)
-### Identified MWEs: 
-1- **bir hale gelmiş** 
 ## Sentence No. 6325 - 
 " İslamcilar , zaten karşıyamayacakları beklentiler yaratmış _ durumdalar . _ Verilen sözlerin _ tutulamaması , çok ciddi sorunları ortaya getirebilir . Zira bu durumun da iflası halinde geriye birşey kalmayacak . Bu arada dinin , itibarını riske _ attığını _ anımsatmak da gerekli'diyor . 
 ### Existing MWEs: 
@@ -3181,8 +3178,6 @@ Dün sabah iktisatçı bir dostumuzu _ arayıp müjdeyi verdik : - Devlet 10 mil
 Sabah'ın Ankara baskısı _ dönerken Tansu Hanım'ın bu durumdan haberi oluyor . 
 ### Existing MWEs: 
 1- **haberi oluyor** (LVC, 1)
-### Identified MWEs: 
-1- **haberi oluyor** 
 ## Sentence No. 6915 - 
 Kendisi iki hafta önce Şam Büyükelçiliğine teslim olmuş . 
 ### Existing MWEs: 
@@ -3312,6 +3307,7 @@ _ KKTC'deki arkadaşımız Akay Cemal de diplomasi trafiğinin nabzını tutuyor
 2- **_** 
 3- **_** 
 4- **karşı koyamadım** 
+5- **Flört edenler** 
 ## Sentence No. 7335 - 
 İslami camianın büyük çoğunluğu bu tür cinsel suiistimallerden rahatsız olmuş durumda . 
 ### Existing MWEs: 
@@ -3529,10 +3525,14 @@ Vay canına , bir Dışişleri Bakanı ve Başbakan Yardımcısı o saatte hangi
 Bu kanalların iyi niyetli , olsa olsa fazla sansasyon meraklısı yöneticilerinin gözleri önünde bir takım acaip fikir sahipleri oraları bir anda sapık propagandalarının arenası haline çevirivermişlerdir . 
 ### Existing MWEs: 
 1- **haline çevirivermişlerdir** (ID)
+### Identified MWEs: 
+1- **haline çevirivermişlerdir** 
 ## Sentence No. 8220 - 
 Şimdi ne diye zan zun ediyorsun . 
 ### Existing MWEs: 
 1- **zan zun ediyorsun** (ID)
+### Identified MWEs: 
+1- **zun ediyorsun** 
 ## Sentence No. 8240 - 
 OECD , _ _ değerlendirmeleri _ yaparken , özellikle bizim _ sistemimizdeki orta - lise - yüksek benzeri eğitime katılım ve _ harcamaları gözönünde tutuyor ve irdeliyor . 
 ### Existing MWEs: 
@@ -3595,6 +3595,8 @@ Rumlar'ın katliam ve saldırı için göze _ alacakları risk , sadece Türkiye
 Rauf Denktaş _ günlerdir feryad ediyor , politikacılarımız hala suskun . 
 ### Existing MWEs: 
 1- **feryad ediyor** (LVC)
+### Identified MWEs: 
+1- **feryad ediyor** 
 ## Sentence No. 8610 - 
 DSP Karaman Milletvekili Fikret Ünlü bu olaya kafasını takmış , dün telefonda olayın " _ faullü " taraflarını anlatıyor . 
 ### Existing MWEs: 
@@ -3619,6 +3621,8 @@ Ama , ölçü _ kaçırılınca , elden ne gelir .
 Kötülerin kulaklarını sağır etsek . 
 ### Existing MWEs: 
 1- **sağır etsek** (LVC)
+### Identified MWEs: 
+1- **sağır etsek** 
 ## Sentence No. 8720 - 
 KIBRIS Rumlarının argümanı , " Türk işgali'ne karşı kendilerini _ savunmak zorunda _ kaldıkları ve bu sofistike silahları da bu amaçla _ _ aldıklarıdır . 
 ### Existing MWEs: 
@@ -3698,6 +3702,8 @@ Negatif dergisi bu ay yine birbirinder ilginç konulara yer vermiş .
 _ Jandarma komutanı tutukluları _ uyardıklarını , _ direnmeleri üzerine tutanak _ düzenlediklerini _ belirterek tutanağı mahkemeye ibraz etti . 
 ### Existing MWEs: 
 1- **ibraz etti** (LVC)
+### Identified MWEs: 
+1- **ibraz etti** 
 ## Sentence No. 8970 - 
 Bakanlar kurulu bu kez Ağrı'da toplandı , havaalanı ve et kombinasının açılışı yapıldı . 
 ### Existing MWEs: 
@@ -3709,9 +3715,8 @@ Erbakan konuşmasını _ izleyen Patnosluların il _ olma taleplerine ise , " Bi
 ### Existing MWEs: 
 1- **söz vermeyi** (OTH, 24)
 ### Identified MWEs: 
-1- **söz vermeyi** 
-2- **Yapılacak** 
-3- **yapar** 
+1- **Yapılacak** 
+2- **yapar** 
 ## Sentence No. 8990 - 
 Ancak yoksul başına _ düşen ramazan yardımı 500 bin lirayı geçmiyor . 
 ### Existing MWEs: 
@@ -4070,8 +4075,7 @@ Tayan , " 1960'da da Rusya Küba'da üs _ kurmak istedi , ABD de Küba'yı abluk
 ### Existing MWEs: 
 1- **haline getirmeyin** (ID, 19)
 ### Identified MWEs: 
-1- **abluka altına aldı** 
-2- **haline getirmeyin** 
+1- **haline getirmeyin** 
 ## Sentence No. 10425 - 
 Pilot kabinine _ girmesi sonrasında , " rota Kıbrıs'a mı " _ şeklindeki soruya da Tayan , " Tehdit nereden geliyorsa oraya . Biz barış uçuşu yaparız , ama tehdit gelirse cevap veririz " yanıtını verdi . 
 ### Existing MWEs: 
@@ -4215,6 +4219,8 @@ Habitat sırasında Darphane'de _ düzenlediği " Tarihten Günümüze Anadolu'd
 Böylece bakımsız ve terkedilmiş _ olan Darphane binaları da restore edilmiş , yani kurtarılmış oldu . 
 ### Existing MWEs: 
 1- **restore edilmiş** (LVC)
+### Identified MWEs: 
+1- **restore edilmiş** 
 ## Sentence No. 10995 - 
 Ağaç kökleriyle kaplanmış , _ yıkılmak üzere _ olan duvarlar _ sağlama alındı . 
 ### Existing MWEs: 
@@ -4224,7 +4230,8 @@ Vakıf , bu kararın yetkisiz ve dayanaktan _ yoksun _ olduğu kanısıyla dava 
 ### Existing MWEs: 
 1- **dava açtı** (ID, 13)
 ### Identified MWEs: 
-1- **dava açtı** 
+1- **kararın yoksun** 
+2- **dava açtı** 
 ## Sentence No. 11025 - 
 _ Televizyondaki " Evet , Bakanım " dizisinden _ tanıdığımız Nigel Hawtborne ile _ Helen Mirren , Ian Holm gibi ünlü oyuncuların yer _ aldığı bu film , 1788'de III . 
 ### Existing MWEs: 
@@ -4310,6 +4317,8 @@ Bu inceleme iki eksen etrafında yapılmaktadır : _ Modernleşme ve değişim s
 Oysa , asıl çeşitlilik aynı " cemaat " içinde telakki _ _ edilenin _ aykırılığıdır . 
 ### Existing MWEs: 
 1- **telakki edilenin** (LVC)
+### Identified MWEs: 
+1- **telakki edilenin** 
 ## Sentence No. 11255 - 
 Gazi Üniversitesi Hukuk Fakültesi profesörlerinden Yüksel İnan ise , geniş bir yorumla Türkiye'nin geçişe müdahale _ edebileceğini , ancak , Boğazlar'ın özel statüsü ve şimdiye kadar benzer bir olayın _ yaşanmamış _ olması nedeniyle , tezlerini _ uluslararası kamuoyuna anlatmakta _ zorlanacağını belirtti . 
 ### Existing MWEs: 
@@ -4351,6 +4360,8 @@ Tarık muzip de bir _ çocuktu ve babasıyla arkadaşlığına _ güvenerek baze
 Londra'da trene _ binip , sabah kahvaltınızı ediyorsunuz . 
 ### Existing MWEs: 
 1- **kahvaltınızı ediyorsunuz** (LVC)
+### Identified MWEs: 
+1- **kahvaltınızı ediyorsunuz** 
 ## Sentence No. 11515 - 
 Çelik , partisinin Kandıra ilçe kongresinde , Pazar günü çok çirkin bir konuşma yaptı . 
 ### Existing MWEs: 
@@ -4368,7 +4379,7 @@ Küba krizinde , ABD'nin uyarısı Sovyetler'in ve de Küba'nın geri adım _ at
 ### Existing MWEs: 
 1- **geri adım atmasına** (ID)
 ### Identified MWEs: 
-1- **geri adım atmasına** 
+1- **adım atmasına** 
 2- **yol açmıştı** 
 ## Sentence No. 11745 - 
 Susurluk , _ simgelediği envai çeşit kirlilikle , sadece bazı görevlilerin değil , onların _ ardındaki siyasi sorumluların da " hesap _ vermesi " _ gereken bir _ kavşaktır . 
@@ -4422,6 +4433,8 @@ MİLLİYET Gazetesi Genel Yayın Yönetmeni ve Başyazarı Abdi İpekçi'nin _ �
 Yoğun güvenlik önlemleriyle _ duruşma salonuna _ getirilen Yavuz cinayet gününü şöyle anlattı : " Akşam hava _ kararmak üzere idi . Ben arabamı SSK binasının _ bulunduğu Maçka istikametine _ giden yolun kenarına park ettim . Karşı kaldırıma geçtim . Bu sırada silah seslerini duydum . _ Baktığımda elinde silah _ olan kişi içinde İpekçi'nin _ bulunduğu arabanın yanından uzaklaşmakta idi . 15 metre kadar uzaklatıktan sonra , tekrar döndü ve arabaya baktı . Arka tampona doğru yaklaştı . Elinde silah _ olan kişinin 5 - 6 metre kadar uzaklıkta park etmiş _ olan arabaya doğru _ yürüdüğünü gördüm . Arabanın şoför mahallinde bir kişi _ vardı . _ Baktığımda bu arabanın sol arka çamurluğuna yaslanmış ve sol elinde silah _ olan kişiyi de gördüm . Ateş _ eden kişi İpekçi'nin _ ölüp _ ölmediğini kontrol için tekrar _ dönüp _ bakmak _ istediğinde bu şahıs ` tamam , tamam ' dedi . Bu kişi ile ateş _ eden şahıs arabaya _ binmeden _ koşarak olay yerinden uzaklaştı . " . 
 ### Existing MWEs: 
 1- **park ettim** (LVC)
+### Identified MWEs: 
+1- **park ettim** 
 ## Sentence No. 11930 - 
 Erbakan'ın Başbakanlık konutunda _ vereceği iftar yemeği ile tarikatlara sahip _ çıktığını _ göstermeyi _ amaçladığı iddia ediliyor . 
 ### Existing MWEs: 
@@ -4630,7 +4643,6 @@ Rusya ve BDT ülkeleri ile ilişkilerden sorumlu _ bakan _ Ruslan Kutayev'in , g
 ### Identified MWEs: 
 1- **yer alan** 
 2- **destek verdiği** 
-3- **istifalarını verdiler** 
 ## Sentence No. 12895 - 
 Rum _ kesimindeki _ _ silahlanma kampanyasını _ yıllardır gündemde _ tutmaya _ çalıştıklarını _ belirten Denktaş , " Uyarılarımız dikkate alınmadı " diye konuştu . 
 ### Existing MWEs: 
@@ -4789,6 +4801,8 @@ Ekonomilerinde istikrarı _ yakalayan ülkeler öncelikle makro dengelerin _ kor
 Doğan Hızlan gibi , bir sanat , kültür ve yazı adamının _ kullandığı _ kelimeye sitem _ etmek bize mi düştü . 
 ### Existing MWEs: 
 1- **sitem etmek** (ID)
+### Identified MWEs: 
+1- **sitem etmek** 
 ## Sentence No. 13620 - 
 _ Varsın , olmasın , hiç olmazsa Mesudiyeliler , böyle yemek ikramı _ etmesini biliyorlar , buna da şükredin . 
 ### Existing MWEs: 
@@ -4819,6 +4833,8 @@ Acmendi Lideri Gündüz , sohbetlerine _ gelen insanların , _ evdeki kıyafetle
 Akşamları önüne _ konan sarmısak , fesleğen ve kırmızı biberli bir koca tencere makarnayı , üzerine yaprağıyla beraber çekilmiş yeşil renkli , bol zeytinyağı boca _ ederek iştahla _ yiyen . 
 ### Existing MWEs: 
 1- **boca ederek** (LVC)
+### Identified MWEs: 
+1- **boca ederek** 
 ## Sentence No. 13695 - 
 Önerimi _ ustaca hayata geçirdi . 
 ### Existing MWEs: 
@@ -4867,6 +4883,8 @@ Türkiye'nin _ alacağı tutum , olayların bundan sonra _ izleyeceği yolun _ �
 Yılbaşı tatili için Kartalkaya'ya _ gittiği dönemde , İstanbul Sultanbeyli'ye Atatürk büstü _ dikilmesi konusunda sarf _ ettiği sözleriyle ilgili olarak Çelik dün kendini savundu . 
 ### Existing MWEs: 
 1- **sarf ettiği** (LVC)
+### Identified MWEs: 
+1- **sarf ettiği** 
 ## Sentence No. 13900 - 
 Yazıda , Türkiye'nin kredi notunun düşürülmesinin yersiz _ olduğunun _ belirtildiği ifade edildi . 
 ### Existing MWEs: 
@@ -5045,6 +5063,9 @@ Gün görmüş esnaf , derin bir iç çekmiş ; .
 Opera üzerine üç - beş kitap yazmış _ olması , hiçbir bakana sanatçıya saygısızlık _ etme hakkı vermez . " . 
 ### Existing MWEs: 
 1- **saygısızlık etme** (LVC)
+### Identified MWEs: 
+1- **saygısızlık etme** 
+2- **hakkı vermez** 
 ## Sentence No. 14765 - 
 Geçenlerde Erbakan ve Çiller " aynı konuda , birbiriyle _ çelişen " iki ayrı _ açıklama yapıyor . 
 ### Existing MWEs: 
@@ -5081,6 +5102,8 @@ Onat'ı özlemle _ _ anarken , tüm yayın organlarından , isteğim şu : Sansa
 Vaka bolluğunda kısa kısa malumat ve mütalaa _ arzetmekle kifayet edeceğim Hocam . 
 ### Existing MWEs: 
 1- **kifayet edeceğim** (LVC)
+### Identified MWEs: 
+1- **kifayet edeceğim** 
 ## Sentence No. 14875 - 
 _ Bakan Gül , Refahyol iktidarı sonrasında Türk Dış _ politikasındaki değişimi " Şimdiye kadar ihmal _ ettiğimiz potansiyeli _ kullanmaya başladık " diye _ özetlerken , bunun Avrupa ve ABD ile ilişkilerimizi _ zayıflatmayacağını öne sürdü . 
 ### Existing MWEs: 
@@ -5241,7 +5264,8 @@ Düzgün bir gömlek bir pantalon elit görüntüyü temsil _ etmeye başladı .
 ### Existing MWEs: 
 1- **temsil etmeye** (LVC, 4)
 ### Identified MWEs: 
-1- **bir gömlek temsil etmeye** 
+1- **bir gömlek pantalon** 
+2- **temsil etmeye** 
 ## Sentence No. 15630 - 
 Yabancı dergi ilanlarında bu belirgin bir şekilde göze çarpıyor . 
 ### Existing MWEs: 
@@ -5362,7 +5386,7 @@ Müslüman ülkeleri _ düşündüğümüz zaman akla demokrasi gelmiyor .
 ### Existing MWEs: 
 1- **akla gelmiyor** (ID, 4)
 ### Identified MWEs: 
-1- **akla gelmiyor** 
+1- **akla demokrasi gelmiyor** 
 ## Sentence No. 16215 - 
 Bu çok büyük çoğunluğun tek bir partiye oy _ vereceğini _ düşünmek zor . 
 ### Existing MWEs: 
@@ -5447,8 +5471,6 @@ Futbolcuların takım düzeni içerisinde _ yapacakları hataları _ belirleyece
 Ünal da ağır antrenman nedeniyle bir süre antrenmana ara verdi . 
 ### Existing MWEs: 
 1- **ara verdi** (OTH, 1)
-### Identified MWEs: 
-1- **ara verdi** 
 ## Sentence No. 16465 - 
 Portekiz'de takımının başında antrenmanlara _ çıkan Lazaroni'nin aklı bu yüzden Brezilya'da kaldı . 
 ### Existing MWEs: 
@@ -5477,6 +5499,8 @@ Lütfü Oflaz , Leman dergisinde _ yazdığı ve " YazıKatür " adını _ verdi
 Onat'ı _ _ öldürenler bu ülkeye büyük kötülük ettiler . 
 ### Existing MWEs: 
 1- **kötülük ettiler** (LVC)
+### Identified MWEs: 
+1- **kötülük ettiler** 
 ## Sentence No. 16565 - 
 Sanırız bizim gibi daha pek çok kişiyi de tatmin etmedi . 
 ### Existing MWEs: 

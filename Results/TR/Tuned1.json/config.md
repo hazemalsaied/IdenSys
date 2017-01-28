@@ -20,7 +20,7 @@ usePOS = True
 
 S0S1Distance = False
 
-useDictionary = True
+useDictionary = False
 
 S0B0Distance = True
 

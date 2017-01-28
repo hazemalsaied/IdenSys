@@ -24,8 +24,6 @@ einladen: 8
 
 stattfinden: 8
 
-einstellen: 8
-
 abschließen: 8
 
 teilen mit: 7
@@ -44,21 +42,9 @@ kündigen an: 6
 
 stellen fest: 6
 
-stellen vor: 6
-
-kommen an: 5
-
-aufnehmen: 5
-
-umsetzen: 5
-
-antreten: 5
-
 treten an: 5
 
 in Betrieb nehmen: 5
-
-vorstellen: 5
 
 setzen durch: 5
 
@@ -66,23 +52,17 @@ ausfallen: 4
 
 haben zu tun: 4
 
-auflösen: 4
-
 hängen ab: 4
 
 bieten an: 4
 
 stehen fest: 4
 
-machen aus: 4
-
 aufführen: 4
 
 darstellen: 4
 
 einführen: 4
-
-treten auf: 4
 
 gehen ein: 4
 
@@ -91,8 +71,6 @@ festlegen: 4
 ablehnen: 4
 
 angesetzen: 4
-
-teilnehmen: 4
 
 gehören an: 4
 
@@ -109,8 +87,6 @@ Rolle spielen: 4
 kommen infrage: 3
 
 weisen zurück: 3
-
-gehen es um: 3
 
 aufwachsen: 3
 
@@ -144,10 +120,6 @@ ausüben: 3
 
 fordern auf: 3
 
-ausmachen: 3
-
-finden er|es|sie: 3
-
 ausgehen: 3
 
 lösen aus: 3
@@ -155,8 +127,6 @@ lösen aus: 3
 auf Bein stellen: 3
 
 zulassen: 3
-
-herstellen: 3
 
 fortsetzen: 3
 
@@ -171,8 +141,6 @@ schließen aus: 3
 umgehen: 3
 
 belaufen er|es|sie auf: 3
-
-geben aus: 3
 
 handeln er|es|sie um: 3
 
@@ -196,8 +164,6 @@ gibt's: 2
 
 machen Spaß: 2
 
-durchführen: 2
-
 knüpfen an: 2
 
 bekennen geben: 2
@@ -220,21 +186,11 @@ heben hervor: 2
 
 räumt ein: 2
 
-abgelaufen: 2
-
 bringen zu Fall: 2
-
-es gehen: 2
 
 lehnen ab: 2
 
-stellen er|es|sie: 2
-
 ausführen: 2
-
-gehen um: 2
-
-tun er|es|sie: 2
 
 feststehen: 2
 
@@ -252,8 +208,6 @@ melden er|es|sie zu Wort: 2
 
 sprechen aus: 2
 
-unternehmen: 2
-
 haben in+der Griff: 2
 
 laufen auf Hochtour: 2
@@ -262,13 +216,9 @@ in+der Einsatz sein: 2
 
 angekündigen: 2
 
-stellen her: 2
-
 ansehen: 2
 
 grün Licht geben: 2
-
-hinterlassen: 2
 
 sein her: 2
 
@@ -311,8 +261,6 @@ befinden er|es|sie: 2
 fallen auf: 2
 
 fängen an: 2
-
-stehen an: 2
 
 Schritt machen: 2
 
@@ -414,8 +362,6 @@ treffen ein: 2
 
 stoßen auf Kritik: 2
 
-Entscheidung treffen: 2
-
 fallen|fällen aus: 2
 
 bekanntgeben: 2
@@ -431,8 +377,6 @@ zu+der Ziel haben: 2
 stellen ein: 2
 
 anschließen: 2
-
-sehen an: 1
 
 heben Schatzes: 1
 
@@ -461,8 +405,6 @@ nehmen fest: 1
 laufen Vorbereitung: 1
 
 es geht.: 1
-
-anfallen: 1
 
 unterstellen: 1
 
@@ -543,10 +485,6 @@ loszuwerden: 1
 geben grün Licht: 1
 
 Wirkung entfalten: 1
-
-teilnehme: 1
-
-zurückgetret: 1
 
 Taktstock schwingt: 1
 
@@ -638,8 +576,6 @@ beißen er|es|sie durch: 1
 
 gehen in+der Netz: 1
 
-bemühen er|es|sie: 1
-
 kommen zu+der Duell: 1
 
 Sack zumach: 1
@@ -675,8 +611,6 @@ gehen in+der Wochenende: 1
 er|es|sie vorstellen: 1
 
 auf Platz stehen: 1
-
-vorgehen: 1
 
 haben in+der Rücken: 1
 
@@ -848,8 +782,6 @@ er|es|sie entspannen: 1
 
 Baugenehmigung erteilen: 1
 
-stoßen auf: 1
-
 ziehen Kopf aus der Schling: 1
 
 zu+der Kasse bitten: 1
@@ -908,8 +840,6 @@ zu+der Dialog aufrufen: 1
 
 machen Druck: 1
 
-ereignen er|es|sie: 1
-
 starten Flucht nach vorne: 1
 
 uraufgeführt: 1
@@ -929,8 +859,6 @@ falle durch: 1
 heiß es: 1
 
 geht's: 1
-
-stellen auf: 1
 
 willkommen geheiß: 1
 
@@ -1058,8 +986,6 @@ warf vor: 1
 
 Stein von Schultern nommen: 1
 
-eingehe: 1
-
 geben Aufschluß: 1
 
 Spaß machen: 1
@@ -1116,8 +1042,6 @@ ofenfrisch servieren: 1
 
 er|es|sie in Grenze halten: 1
 
-aussiehen: 1
-
 haben pareten: 1
 
 Stellungnahmen: 1
@@ -1172,11 +1096,7 @@ in Schieflage geraten: 1
 
 zu+der Inhalt haben: 1
 
-stehen vor: 1
-
 engagieren er|es|sie: 1
-
-zugeben: 1
 
 ausgestrahlen: 1
 
@@ -1278,8 +1198,6 @@ stillgelegen: 1
 
 legen Fokus: 1
 
-setzen zu: 1
-
 aufheben: 1
 
 zu+der stillschweigen verdonneren: 1
@@ -1327,8 +1245,6 @@ Geheimnis lüften: 1
 einzubringen: 1
 
 er|es|sie äußern: 1
-
-ausschlaggebend: 1
 
 rasten aus: 1
 
@@ -1434,13 +1350,9 @@ Lob zollen: 1
 
 finden Einstieg: 1
 
-ausmach: 1
-
 anzufeuern: 1
 
 in Dienst stellen: 1
-
-aufrufen: 1
 
 stehen unter Einfluß: 1
 
@@ -1470,11 +1382,7 @@ Rolle gespielt: 1
 
 in Lage sehen: 1
 
-gehen es: 1
-
 in+der Gesicht schreiben stehen: 1
-
-ausstellen: 1
 
 groß Rede|Reden schwungen: 1
 
@@ -1490,8 +1398,6 @@ mit er|es|sie begnagen: 1
 
 gut überstehen: 1
 
-absehen: 1
-
 an+der Licht kommen: 1
 
 raufladen: 1
@@ -1503,8 +1409,6 @@ rausgeschmissen: 1
 darum kümmern er|es|sie: 1
 
 Tor fallen: 1
-
-schenken er|es|sie: 1
 
 bringen zu+der Welt: 1
 
@@ -1540,8 +1444,6 @@ er|es|sie bessern: 1
 
 davon kommen: 1
 
-hervorgehen: 1
-
 auffrisch: 1
 
 nachlassen: 1
@@ -1555,8 +1457,6 @@ aufgeheizt: 1
 sehen er|es|sie zwungen: 1
 
 nehmen vor: 1
-
-tren an: 1
 
 auf der Boden der realität gelanden: 1
 
@@ -1585,8 +1485,6 @@ bewerben er|es|sie: 1
 blenden aus: 1
 
 Entscheidung treffen|triefen: 1
-
-eingehen: 1
 
 schicken in+der Rennen: 1
 
@@ -1674,11 +1572,7 @@ Angefang: 1
 
 einmotten: 1
 
-Frage stellen: 1
-
 auszusteigen: 1
-
-vorstell: 1
 
 vortragen: 1
 
@@ -1778,8 +1672,6 @@ in Kauf nehmen: 1
 
 dazu kommen: 1
 
-einfahren: 1
-
 in+der Verdacht stehen: 1
 
 Mut denken|gemenken: 1
@@ -1807,10 +1699,6 @@ in+der Leben rufen: 1
 in+der Aug behalten: 1
 
 gehen über Bühne: 1
-
-eingebroch: 1
-
-abheben: 1
 
 Risiko eingehen: 1
 
@@ -1972,8 +1860,6 @@ kaltstellen: 1
 
 festgestellen: 1
 
-angestimmen: 1
-
 Lied angestimmen: 1
 
 steht's: 1
@@ -1997,8 +1883,6 @@ in+der Grab spuck: 1
 stehen vor der Kamera: 1
 
 es heißen: 1
-
-stehen auf: 1
 
 Leicht Spiel haben: 1
 
@@ -2033,8 +1917,6 @@ politiscch politisch motivieren: 1
 sein an Bord: 1
 
 vorzuschreiben: 1
-
-sehen er|es|sie: 1
 
 eingesehen: 1
 
@@ -2087,8 +1969,6 @@ zu+der Vernunft kommen: 1
 entbehren jeglich Grundlag: 1
 
 kommen sehen: 1
-
-herumschlagen: 1
 
 weit bringen: 1
 
@@ -2144,8 +2024,6 @@ setzen ab: 1
 
 gehen nichts: 1
 
-geben zu: 1
-
 Hoffnung erfüllen: 1
 
 sein mit von der Partie: 1
@@ -2180,8 +2058,6 @@ angelaufen: 1
 
 gehen voran: 1
 
-zunehmen: 1
-
 rechnen ab: 1
 
 in+der Land ziehen: 1
@@ -2189,8 +2065,6 @@ in+der Land ziehen: 1
 setzen er|es|sie zusammen aus: 1
 
 ausstatten: 1
-
-stehen zu: 1
 
 in+der Stau stehen: 1
 
@@ -2242,8 +2116,6 @@ sein in voll Gange: 1
 
 zustimmen: 1
 
-anzulegen: 1
-
 auf Spur sein: 1
 
 Ruhe geherrschen: 1
@@ -2261,8 +2133,6 @@ auf Platz gestehen|stehen: 1
 zu+der Kenntnis nehmen: 1
 
 machen wir weis: 1
-
-abgeben: 1
 
 herausgegeben: 1
 
@@ -2608,8 +2478,6 @@ an boden verlieren: 1
 
 er|es|sie verrennen: 1
 
-machen zu: 1
-
 abgespeisen: 1
 
 erwischen auf falsch Fuß: 1
@@ -2676,8 +2544,6 @@ machen ratlos: 1
 
 kehren zurück: 1
 
-laufen auf: 1
-
 gehen es abwärts: 1
 
 kümmeren er|es|sie um: 1
@@ -2717,8 +2583,6 @@ handel er|es|sie um: 1
 auszuhändigen: 1
 
 ein gehen noch: 1
-
-einbringen: 1
 
 sein zwei Paar Stiefel: 1
 

@@ -91,14 +91,18 @@ class Corpus:
                     if lineParts[5] != '_':
                         morpho = lineParts[5].split('|')
                     if lineParts[6] != '_':
-                        token = Token(lineParts[0], lineParts[1], lemma=lineParts[2], posTag=lineParts[3],
+                        token = Token(lineParts[0], lineParts[1].lower(), lemma=lineParts[2],
                                       abstractPosTag=lineParts[3], morphologicalInfo=morpho,
                                       dependencyParent=int(lineParts[6]),
                                       dependencyLabel=lineParts[7])
                     else:
-                        token = Token(lineParts[0], lineParts[1], lemma=lineParts[2], posTag=lineParts[3],
+                        token = Token(lineParts[0], lineParts[1].lower(), lemma=lineParts[2],
                                       abstractPosTag=lineParts[3], morphologicalInfo=morpho,
                                       dependencyLabel=lineParts[7])
+                    if lineParts[4] != '_':
+                        token.posTag = lineParts[4]
+                    else:
+                        token.posTag = lineParts[3]
                     # Associate the token with the sentence
                     sent.tokens.append(token)
                     sent.text += token.text + ' '

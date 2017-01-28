@@ -26,5 +26,5 @@ S0B0Distance = False
 
 generateS0B2Bigram = False
 
-useStackLength = False
+useStackLength = True
 

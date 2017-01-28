@@ -6,17 +6,16 @@
 ## Number of Interleaving MWEs: 0
 
 ## Number of Continous MWEs: 787
-## Number of Single Word MWEs: 14
-## Number of features used: 825221
+## Number of Single Word MWEs: 14## Number of features used: 825218
 
 ### 1- SVM One Vs Rest: 
-Score: 1.0, Number of merge operation: 322
+Score: 1.0, Number of merge operation: 271
 ### 2- SVM Output Code: 
-Score: 1.0, Number of merge operation: 317
+Score: 1.0, Number of merge operation: 262
 ### 3- SVM One Vs One : 
-Score: 1.0, Number of merge operation: 338
-### The Selected Classifier is: 3
+Score: 1.0, Number of merge operation: 270
+### The Selected Classifier is: 1
 ## Exact Identification Evaluation: 
-#### Recall: 1.017
-#### Precision: 0.098
-#### F-Score: 0.179
+#### Recall: 1.131
+#### Precision: 0.111
+#### F-Score: 0.202

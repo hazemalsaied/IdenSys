@@ -1,3226 +1,2130 @@
-## Sentence No. 12842 - 
-Nel romanzo Fogazzaro esprime per bocca del suo protagonista le proprie convinzioni politiche : « Io lascerò dunque la Camera , augurando che vi entrino presto degli uomini sciolti dalle superstizioni e dalle ignoranze di un certo individualismo liberale , che si crede alla testa dell' umanità , e non s' accorge di passare alla coda ; non si accorge di aver lavorato utilmente sì , a distruggere tante cose , ma di aver lavorato non per sé , sibbene per uno molto più forte , molto più potente , che ora , trovando le vie sgombre , arriva e se lo piglia lui il mondo , e lascerà forse a simili liberali qualche prato d' Arcadia e poche pecore . 
+## Sentence No. 2539 - 
+chi si prende troppo sul serio , in ogni circostanza è alla fine " un povero diavolo " , come si dice dalle nostre parti , incapace di confrontarsicon gli altri , tuttologi di professione , impettiti , convinti di tutto bene fare e di tutto sapere ! 
 ### Existing MWEs: 
-1- **s' accorge** (IReflV)
-2- **si accorge** (IReflV)
+1- **si prende** (IReflV)
+2- **si prende sul serio** (ID), Interleaving 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Nel, romanzo, Fogazzaro ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [chi, si, prende ,.. ]
 
-B0Lemma: in, B0POS: E, B0Token: Nel, 
+B0Lemma: chi, B0POS: PR, B0Token: chi, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Nel]   B= [romanzo, Fogazzaro, esprime ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [chi]   B= [si, prende, troppo ,.. ]
 
-B0Lemma: romanzo, B0POS: S, B0Token: romanzo, S0B0Lemma: in_romanzo, S0B0LemmaPOS: in_S, S0B0POS: E_S, S0B0POSLemma: E_romanzo, S0B0Token: Nel_romanzo, S0B1Lemma: in_Fogazzaro, S0B1LemmaPOS: in_S, S0B1POS: E_S, S0B1POSLemma: E_Fogazzaro, S0B1Token: Nel_Fogazzaro, S0Lemma: in, S0POS: E, S0Token: Nel, hasRighDep_prep: true, in_hasRighDep_prep: true, in_isGouvernedBy_esprimere: true, in_isGouvernedBy_esprimere_comp_loc: true, in_romanzo_hasRighDep_prep: true, 
+B0Lemma: si, B0POS: PC, B0Token: si, S0B0Lemma: chi_si, S0B0LemmaPOS: chi_PC, S0B0POS: PR_PC, S0B0POSLemma: PR_si, S0B0Token: chi_si, S0B1Lemma: chi_prendere, S0B1LemmaPOS: chi_V, S0B1POS: PR_V, S0B1POSLemma: PR_prendere, S0B1Token: chi_prende, S0Lemma: chi, S0POS: PR, S0Token: chi, chi_,_hasRighDep_punc: true, chi_hasRighDep_mod_rel: true, chi_hasRighDep_punc: true, chi_isGouvernedBy_essere: true, chi_isGouvernedBy_essere_subj: true, chi_prendere_hasRighDep_mod_rel: true, hasRighDep_mod_rel: true, hasRighDep_punc: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [romanzo, Fogazzaro, esprime ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, prende, troppo ,.. ]
 
-B0Lemma: romanzo, B0POS: S, B0Token: romanzo, 
+B0Lemma: si, B0POS: PC, B0Token: si, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [romanzo]   B= [Fogazzaro, esprime, per ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [prende, troppo, sul ,.. ]
 
-B0Lemma: Fogazzaro, B0POS: S, B0Token: Fogazzaro, S0B0Lemma: romanzo_Fogazzaro, S0B0LemmaPOS: romanzo_S, S0B0POS: S_S, S0B0POSLemma: S_Fogazzaro, S0B0Token: romanzo_Fogazzaro, S0B1Lemma: romanzo_esprimere, S0B1LemmaPOS: romanzo_V, S0B1POS: S_V, S0B1POSLemma: S_esprimere, S0B1Token: romanzo_esprime, S0Lemma: romanzo, S0POS: S, S0Token: romanzo, hasRighDep_mod: true, romanzo_Fogazzaro_hasRighDep_mod: true, romanzo_hasRighDep_mod: true, 
+B0Lemma: prendere, B0POS: V, B0Token: prende, S0B0Lemma: si_prendere, S0B0LemmaPOS: si_V, S0B0POS: PC_V, S0B0POSLemma: PC_prendere, S0B0Token: si_prende, S0B1Lemma: si_troppo, S0B1LemmaPOS: si_B, S0B1POS: PC_B, S0B1POSLemma: PC_troppo, S0B1Token: si_troppo, S0Lemma: si, S0POS: PC, S0Token: si, si_isGouvernedBy_prendere: true, si_isGouvernedBy_prendere_clit: true, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Fogazzaro, esprime, per ,.. ]
+4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, prende]   B= [troppo, sul, serio ,.. ]
 
-B0Lemma: Fogazzaro, B0POS: S, B0Token: Fogazzaro, transitionHistoryLength3: 020, 
+B0Lemma: troppo, B0POS: B, B0Token: troppo, S0B0Lemma: prendere_troppo, S0B0LemmaPOS: prendere_B, S0B0POS: V_B, S0B0POSLemma: V_troppo, S0B0Token: prende_troppo, S0B1Lemma: prendere_su, S0B1LemmaPOS: prendere_EA, S0B1POS: V_EA, S0B1POSLemma: V_su, S0B1Token: prende_sul, S0Lemma: prendere, S0POS: V, S0S1Distance: 1, S0Token: prende, S1B0Lemma: si_troppo, S1B0LemmaPOS: si_B, S1B0POS: PC_B, S1B0POSLemma: PC_troppo, S1B0Token: si_troppo, S1Lemma: si, S1POS: PC, S1S0Lemma: si_prendere, S1S0LemmaPOS: si_V, S1S0POS: PC_V, S1S0POSLemma: PC_prendere, S1S0Token: si_prende, S1Token: si, StackLengthIs: 2, SyntaxicRelation: -clit, TransHistory3: 020, hasRighDep_comp_loc: true, prendere_hasRighDep_comp_loc: true, prendere_su_hasRighDep_comp_loc: true, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Fogazzaro]   B= [esprime, per, bocca ,.. ]
+5- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[si, prende]]   B= [troppo, sul, serio ,.. ]
 
-B0Lemma: esprimere, B0POS: V, B0Token: esprime, S0B0Lemma: Fogazzaro_esprimere, S0B0LemmaPOS: Fogazzaro_V, S0B0POS: S_V, S0B0POSLemma: S_esprimere, S0B0Token: Fogazzaro_esprime, S0B1Lemma: Fogazzaro_per, S0B1LemmaPOS: Fogazzaro_E, S0B1POS: S_E, S0B1POSLemma: S_per, S0B1Token: Fogazzaro_per, S0Lemma: Fogazzaro, S0POS: S, S0Token: Fogazzaro, transitionHistoryLength3: 202, 
+B0Lemma: troppo, B0POS: B, B0Token: troppo, S0B0Lemma: si_prendere_troppo, S0B0LemmaPOS: si_prendere_B, S0B0POS: PC_V_B, S0B0POSLemma: PC_V_troppo, S0B0Token: si_prende_troppo, S0B1Lemma: si_prendere_su, S0B1LemmaPOS: si_prendere_EA, S0B1POS: PC_V_EA, S0B1POSLemma: PC_V_su, S0B1Token: si_prende_sul, S0Lemma: si_prendere, S0POS: PC_V, S0Token: si_prende, TransHistory3: 002, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [esprime, per, bocca ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [troppo, sul, serio ,.. ]
 
-B0Lemma: esprimere, B0POS: V, B0Token: esprime, transitionHistoryLength3: 020, 
+B0Lemma: troppo, B0POS: B, B0Token: troppo, TransHistory3: 100, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [esprime]   B= [per, bocca, del ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [troppo]   B= [sul, serio, , ,.. ]
 
-B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: esprimere_per, S0B0LemmaPOS: esprimere_E, S0B0POS: V_E, S0B0POSLemma: V_per, S0B0Token: esprime_per, S0B1Lemma: esprimere_bocca, S0B1LemmaPOS: esprimere_S, S0B1POS: V_S, S0B1POSLemma: V_bocca, S0B1Token: esprime_bocca, S0Lemma: esprimere, S0POS: V, S0Token: esprime, transitionHistoryLength3: 202, 
+B0Lemma: su, B0POS: EA, B0Token: sul, S0B0Lemma: troppo_su, S0B0LemmaPOS: troppo_EA, S0B0POS: B_EA, S0B0POSLemma: B_su, S0B0Token: troppo_sul, S0B1Lemma: troppo_serio, S0B1LemmaPOS: troppo_A, S0B1POS: B_A, S0B1POSLemma: B_serio, S0B1Token: troppo_serio, S0Lemma: troppo, S0POS: B, S0Token: troppo, TransHistory3: 210, troppo_isGouvernedBy_su: true, troppo_isGouvernedBy_su_mod: true, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, bocca, del ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sul, serio, , ,.. ]
 
-B0Lemma: per, B0POS: E, B0Token: per, transitionHistoryLength3: 020, 
+B0Lemma: su, B0POS: EA, B0Token: sul, TransHistory3: 021, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [bocca, del, suo ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sul]   B= [serio, ,, in ,.. ]
 
-B0Lemma: bocca, B0POS: S, B0Token: bocca, S0B0Lemma: per_bocca, S0B0LemmaPOS: per_S, S0B0POS: E_S, S0B0POSLemma: E_bocca, S0B0Token: per_bocca, S0B1Lemma: per_di, S0B1LemmaPOS: per_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: per_del, S0Lemma: per, S0POS: E, S0Token: per, hasRighDep_prep: true, per_bocca_hasRighDep_prep: true, per_hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: serio, B0POS: A, B0Token: serio, S0B0Lemma: su_serio, S0B0LemmaPOS: su_A, S0B0POS: EA_A, S0B0POSLemma: EA_serio, S0B0Token: sul_serio, S0B1Lemma: su_,, S0B1LemmaPOS: su_FF, S0B1POS: EA_FF, S0B1POSLemma: EA_,, S0B1Token: sul_,, S0Lemma: su, S0POS: EA, S0Token: sul, TransHistory3: 202, hasRighDep_prep: true, su_hasRighDep_prep: true, su_serio_hasRighDep_prep: true, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bocca, del, suo ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [serio, ,, in ,.. ]
 
-B0Lemma: bocca, B0POS: S, B0Token: bocca, transitionHistoryLength3: 020, 
+B0Lemma: serio, B0POS: A, B0Token: serio, TransHistory3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bocca]   B= [del, suo, protagonista ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [serio]   B= [,, in, ogni ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: del, S0B0Lemma: bocca_di, S0B0LemmaPOS: bocca_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: bocca_del, S0B1Lemma: bocca_suo, S0B1LemmaPOS: bocca_A, S0B1POS: S_A, S0B1POSLemma: S_suo, S0B1Token: bocca_suo, S0Lemma: bocca, S0POS: S, S0Token: bocca, bocca_di_hasRighDep_comp: true, bocca_hasRighDep_comp: true, hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: serio_,, S0B0LemmaPOS: serio_FF, S0B0POS: A_FF, S0B0POSLemma: A_,, S0B0Token: serio_,, S0B1Lemma: serio_in, S0B1LemmaPOS: serio_E, S0B1POS: A_E, S0B1POSLemma: A_in, S0B1Token: serio_in, S0Lemma: serio, S0POS: A, S0Token: serio, TransHistory3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [del, suo, protagonista ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, in, ogni ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: del, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [del]   B= [suo, protagonista, le ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [in, ogni, circostanza ,.. ]
 
-B0Lemma: suo, B0POS: A, B0Token: suo, S0B0Lemma: di_suo, S0B0LemmaPOS: di_A, S0B0POS: E_A, S0B0POSLemma: E_suo, S0B0Token: del_suo, S0B1Lemma: di_protagonista, S0B1LemmaPOS: di_S, S0B1POS: E_S, S0B1POSLemma: E_protagonista, S0B1Token: del_protagonista, S0Lemma: di, S0POS: E, S0Token: del, di_hasRighDep_prep: true, di_protagonista_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: in, B0POS: E, B0Token: in, S0B0Lemma: ,_in, S0B0LemmaPOS: ,_E, S0B0POS: FF_E, S0B0POSLemma: FF_in, S0B0Token: ,_in, S0B1Lemma: ,_ogni, S0B1LemmaPOS: ,_DI, S0B1POS: FF_DI, S0B1POSLemma: FF_ogni, S0B1Token: ,_ogni, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [suo, protagonista, le ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, ogni, circostanza ,.. ]
 
-B0Lemma: suo, B0POS: A, B0Token: suo, transitionHistoryLength3: 020, 
+B0Lemma: in, B0POS: E, B0Token: in, TransHistory3: 020, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [suo]   B= [protagonista, le, proprie ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [ogni, circostanza, è ,.. ]
 
-B0Lemma: protagonista, B0POS: S, B0Token: protagonista, S0B0Lemma: suo_protagonista, S0B0LemmaPOS: suo_S, S0B0POS: A_S, S0B0POSLemma: A_protagonista, S0B0Token: suo_protagonista, S0B1Lemma: suo_il, S0B1LemmaPOS: suo_R, S0B1POS: A_R, S0B1POSLemma: A_il, S0B1Token: suo_le, S0Lemma: suo, S0POS: A, S0Token: suo, suo_isGouvernedBy_protagonista: true, suo_isGouvernedBy_protagonista_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: ogni, B0POS: DI, B0Token: ogni, S0B0Lemma: in_ogni, S0B0LemmaPOS: in_DI, S0B0POS: E_DI, S0B0POSLemma: E_ogni, S0B0Token: in_ogni, S0B1Lemma: in_circostanza, S0B1LemmaPOS: in_S, S0B1POS: E_S, S0B1POSLemma: E_circostanza, S0B1Token: in_circostanza, S0Lemma: in, S0POS: E, S0Token: in, TransHistory3: 202, hasRighDep_prep: true, in_circostanza_hasRighDep_prep: true, in_hasRighDep_prep: true, in_isGouvernedBy_essere: true, in_isGouvernedBy_essere_comp: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [protagonista, le, proprie ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ogni, circostanza, è ,.. ]
 
-B0Lemma: protagonista, B0POS: S, B0Token: protagonista, transitionHistoryLength3: 020, 
+B0Lemma: ogni, B0POS: DI, B0Token: ogni, TransHistory3: 020, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [protagonista]   B= [le, proprie, convinzioni ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ogni]   B= [circostanza, è, alla ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: le, S0B0Lemma: protagonista_il, S0B0LemmaPOS: protagonista_R, S0B0POS: S_R, S0B0POSLemma: S_il, S0B0Token: protagonista_le, S0B1Lemma: protagonista_proprio, S0B1LemmaPOS: protagonista_A, S0B1POS: S_A, S0B1POSLemma: S_proprio, S0B1Token: protagonista_proprie, S0Lemma: protagonista, S0POS: S, S0Token: protagonista, transitionHistoryLength3: 202, 
+B0Lemma: circostanza, B0POS: S, B0Token: circostanza, S0B0Lemma: ogni_circostanza, S0B0LemmaPOS: ogni_S, S0B0POS: DI_S, S0B0POSLemma: DI_circostanza, S0B0Token: ogni_circostanza, S0B1Lemma: ogni_essere, S0B1LemmaPOS: ogni_V, S0B1POS: DI_V, S0B1POSLemma: DI_essere, S0B1Token: ogni_è, S0Lemma: ogni, S0POS: DI, S0Token: ogni, TransHistory3: 202, ogni_isGouvernedBy_circostanza: true, ogni_isGouvernedBy_circostanza_mod: true, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [le, proprie, convinzioni ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [circostanza, è, alla ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: le, transitionHistoryLength3: 020, 
+B0Lemma: circostanza, B0POS: S, B0Token: circostanza, TransHistory3: 020, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [le]   B= [proprie, convinzioni, politiche ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [circostanza]   B= [è, alla, fine ,.. ]
 
-B0Lemma: proprio, B0POS: A, B0Token: proprie, S0B0Lemma: il_proprio, S0B0LemmaPOS: il_A, S0B0POS: R_A, S0B0POSLemma: R_proprio, S0B0Token: le_proprie, S0B1Lemma: il_convinzione, S0B1LemmaPOS: il_S, S0B1POS: R_S, S0B1POSLemma: R_convinzione, S0B1Token: le_convinzioni, S0Lemma: il, S0POS: R, S0Token: le, il_isGouvernedBy_convinzione: true, il_isGouvernedBy_convinzione_det: true, transitionHistoryLength3: 202, 
+B0Lemma: essere, B0POS: V, B0Token: è, S0B0Lemma: circostanza_essere, S0B0LemmaPOS: circostanza_V, S0B0POS: S_V, S0B0POSLemma: S_essere, S0B0Token: circostanza_è, S0B1Lemma: circostanza_al, S0B1LemmaPOS: circostanza_EA, S0B1POS: S_EA, S0B1POSLemma: S_al, S0B1Token: circostanza_alla, S0Lemma: circostanza, S0POS: S, S0Token: circostanza, TransHistory3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [proprie, convinzioni, politiche ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [è, alla, fine ,.. ]
 
-B0Lemma: proprio, B0POS: A, B0Token: proprie, transitionHistoryLength3: 020, 
+B0Lemma: essere, B0POS: V, B0Token: è, TransHistory3: 020, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [proprie]   B= [convinzioni, politiche, : ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [è]   B= [alla, fine, " ,.. ]
 
-B0Lemma: convinzione, B0POS: S, B0Token: convinzioni, S0B0Lemma: proprio_convinzione, S0B0LemmaPOS: proprio_S, S0B0POS: A_S, S0B0POSLemma: A_convinzione, S0B0Token: proprie_convinzioni, S0B1Lemma: proprio_politico, S0B1LemmaPOS: proprio_A, S0B1POS: A_A, S0B1POSLemma: A_politico, S0B1Token: proprie_politiche, S0Lemma: proprio, S0POS: A, S0Token: proprie, proprio_isGouvernedBy_convinzione: true, proprio_isGouvernedBy_convinzione_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: al, B0POS: EA, B0Token: alla, S0B0Lemma: essere_al, S0B0LemmaPOS: essere_EA, S0B0POS: V_EA, S0B0POSLemma: V_al, S0B0Token: è_alla, S0B1Lemma: essere_fine, S0B1LemmaPOS: essere_S, S0B1POS: V_S, S0B1POSLemma: V_fine, S0B1Token: è_fine, S0Lemma: essere, S0POS: V, S0Token: è, TransHistory3: 202, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [convinzioni, politiche, : ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alla, fine, " ,.. ]
 
-B0Lemma: convinzione, B0POS: S, B0Token: convinzioni, transitionHistoryLength3: 020, 
+B0Lemma: al, B0POS: EA, B0Token: alla, TransHistory3: 020, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [convinzioni]   B= [politiche, :, « ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alla]   B= [fine, ", un ,.. ]
 
-B0Lemma: politico, B0POS: A, B0Token: politiche, S0B0Lemma: convinzione_politico, S0B0LemmaPOS: convinzione_A, S0B0POS: S_A, S0B0POSLemma: S_politico, S0B0Token: convinzioni_politiche, S0B1Lemma: convinzione_:, S0B1LemmaPOS: convinzione_F, S0B1POS: S_F, S0B1POSLemma: S_:, S0B1Token: convinzioni_:, S0Lemma: convinzione, S0POS: S, S0Token: convinzioni, convinzione_hasRighDep_mod: true, convinzione_politico_hasRighDep_mod: true, hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: fine, B0POS: S, B0Token: fine, S0B0Lemma: al_fine, S0B0LemmaPOS: al_S, S0B0POS: EA_S, S0B0POSLemma: EA_fine, S0B0Token: alla_fine, S0B1Lemma: al_", S0B1LemmaPOS: al_FB, S0B1POS: EA_FB, S0B1POSLemma: EA_", S0B1Token: alla_", S0Lemma: al, S0POS: EA, S0Token: alla, TransHistory3: 202, al_diavolo_hasRighDep_prep: true, al_fine_hasRighDep_prep: true, al_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [politiche, :, « ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fine, ", un ,.. ]
 
-B0Lemma: politico, B0POS: A, B0Token: politiche, transitionHistoryLength3: 020, 
+B0Lemma: fine, B0POS: S, B0Token: fine, TransHistory3: 020, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [politiche]   B= [:, «, Io ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fine]   B= [", un, povero ,.. ]
 
-B0Lemma: :, B0POS: F, B0Token: :, S0B0Lemma: politico_:, S0B0LemmaPOS: politico_F, S0B0POS: A_F, S0B0POSLemma: A_:, S0B0Token: politiche_:, S0B1Lemma: politico_«, S0B1LemmaPOS: politico_F, S0B1POS: A_F, S0B1POSLemma: A_«, S0B1Token: politiche_«, S0Lemma: politico, S0POS: A, S0Token: politiche, transitionHistoryLength3: 202, 
+B0Lemma: ", B0POS: FB, B0Token: ", S0B0Lemma: fine_", S0B0LemmaPOS: fine_FB, S0B0POS: S_FB, S0B0POSLemma: S_", S0B0Token: fine_", S0B1Lemma: fine_un, S0B1LemmaPOS: fine_RI, S0B1POS: S_RI, S0B1POSLemma: S_un, S0B1Token: fine_un, S0Lemma: fine, S0POS: S, S0Token: fine, TransHistory3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:, «, Io ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", un, povero ,.. ]
 
-B0Lemma: :, B0POS: F, B0Token: :, transitionHistoryLength3: 020, 
+B0Lemma: ", B0POS: FB, B0Token: ", TransHistory3: 020, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [«, Io, lascerò ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [un, povero, diavolo ,.. ]
 
-B0Lemma: «, B0POS: F, B0Token: «, S0B0Lemma: :_«, S0B0LemmaPOS: :_F, S0B0POS: F_F, S0B0POSLemma: F_«, S0B0Token: :_«, S0B1Lemma: :_io, S0B1LemmaPOS: :_P, S0B1POS: F_P, S0B1POSLemma: F_io, S0B1Token: :_Io, S0Lemma: :, S0POS: F, S0Token: :, transitionHistoryLength3: 202, 
+"_isGouvernedBy_diavolo: true, "_isGouvernedBy_diavolo_punc: true, B0Lemma: un, B0POS: RI, B0Token: un, S0B0Lemma: "_un, S0B0LemmaPOS: "_RI, S0B0POS: FB_RI, S0B0POSLemma: FB_un, S0B0Token: "_un, S0B1Lemma: "_povero, S0B1LemmaPOS: "_A, S0B1POS: FB_A, S0B1POSLemma: FB_povero, S0B1Token: "_povero, S0Lemma: ", S0POS: FB, S0Token: ", TransHistory3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [«, Io, lascerò ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, povero, diavolo ,.. ]
 
-B0Lemma: «, B0POS: F, B0Token: «, transitionHistoryLength3: 020, 
+B0Lemma: un, B0POS: RI, B0Token: un, TransHistory3: 020, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [«]   B= [Io, lascerò, dunque ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [povero, diavolo, " ,.. ]
 
-B0Lemma: io, B0POS: P, B0Token: Io, S0B0Lemma: «_io, S0B0LemmaPOS: «_P, S0B0POS: F_P, S0B0POSLemma: F_io, S0B0Token: «_Io, S0B1Lemma: «_lasciare, S0B1LemmaPOS: «_V, S0B1POS: F_V, S0B1POSLemma: F_lasciare, S0B1Token: «_lascerò, S0Lemma: «, S0POS: F, S0Token: «, transitionHistoryLength3: 202, «_isGouvernedBy_lasciare: true, «_isGouvernedBy_lasciare_punc: true, 
+B0Lemma: povero, B0POS: A, B0Token: povero, S0B0Lemma: un_povero, S0B0LemmaPOS: un_A, S0B0POS: RI_A, S0B0POSLemma: RI_povero, S0B0Token: un_povero, S0B1Lemma: un_diavolo, S0B1LemmaPOS: un_S, S0B1POS: RI_S, S0B1POSLemma: RI_diavolo, S0B1Token: un_diavolo, S0Lemma: un, S0POS: RI, S0Token: un, TransHistory3: 202, un_isGouvernedBy_diavolo: true, un_isGouvernedBy_diavolo_det: true, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Io, lascerò, dunque ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [povero, diavolo, " ,.. ]
 
-B0Lemma: io, B0POS: P, B0Token: Io, transitionHistoryLength3: 020, 
+B0Lemma: povero, B0POS: A, B0Token: povero, TransHistory3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Io]   B= [lascerò, dunque, la ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [povero]   B= [diavolo, ", , ,.. ]
 
-B0Lemma: lasciare, B0POS: V, B0Token: lascerò, S0B0Lemma: io_lasciare, S0B0LemmaPOS: io_V, S0B0POS: P_V, S0B0POSLemma: P_lasciare, S0B0Token: Io_lascerò, S0B1Lemma: io_dunque, S0B1LemmaPOS: io_B, S0B1POS: P_B, S0B1POSLemma: P_dunque, S0B1Token: Io_dunque, S0Lemma: io, S0POS: P, S0Token: Io, io_isGouvernedBy_lasciare: true, io_isGouvernedBy_lasciare_subj: true, transitionHistoryLength3: 202, 
+B0Lemma: diavolo, B0POS: S, B0Token: diavolo, S0B0Lemma: povero_diavolo, S0B0LemmaPOS: povero_S, S0B0POS: A_S, S0B0POSLemma: A_diavolo, S0B0Token: povero_diavolo, S0B1Lemma: povero_", S0B1LemmaPOS: povero_FB, S0B1POS: A_FB, S0B1POSLemma: A_", S0B1Token: povero_", S0Lemma: povero, S0POS: A, S0Token: povero, TransHistory3: 202, povero_isGouvernedBy_diavolo: true, povero_isGouvernedBy_diavolo_mod: true, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lascerò, dunque, la ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [diavolo, ", , ,.. ]
 
-B0Lemma: lasciare, B0POS: V, B0Token: lascerò, transitionHistoryLength3: 020, 
+B0Lemma: diavolo, B0POS: S, B0Token: diavolo, TransHistory3: 020, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lascerò]   B= [dunque, la, Camera ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [diavolo]   B= [", ,, come ,.. ]
 
-B0Lemma: dunque, B0POS: B, B0Token: dunque, S0B0Lemma: lasciare_dunque, S0B0LemmaPOS: lasciare_B, S0B0POS: V_B, S0B0POSLemma: V_dunque, S0B0Token: lascerò_dunque, S0B1Lemma: lasciare_il, S0B1LemmaPOS: lasciare_R, S0B1POS: V_R, S0B1POSLemma: V_il, S0B1Token: lascerò_la, S0Lemma: lasciare, S0POS: V, S0Token: lascerò, transitionHistoryLength3: 202, 
+B0Lemma: ", B0POS: FB, B0Token: ", S0B0Lemma: diavolo_", S0B0LemmaPOS: diavolo_FB, S0B0POS: S_FB, S0B0POSLemma: S_", S0B0Token: diavolo_", S0B1Lemma: diavolo_,, S0B1LemmaPOS: diavolo_FF, S0B1POS: S_FF, S0B1POSLemma: S_,, S0B1Token: diavolo_,, S0Lemma: diavolo, S0POS: S, S0Token: diavolo, TransHistory3: 202, diavolo_"_hasRighDep_punc: true, diavolo_come_hasRighDep_mod: true, diavolo_hasRighDep_mod: true, diavolo_hasRighDep_punc: true, diavolo_incapace_hasRighDep_mod: true, hasRighDep_mod: true, hasRighDep_punc: true, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dunque, la, Camera ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", ,, come ,.. ]
 
-B0Lemma: dunque, B0POS: B, B0Token: dunque, transitionHistoryLength3: 020, 
+B0Lemma: ", B0POS: FB, B0Token: ", TransHistory3: 020, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dunque]   B= [la, Camera, , ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [,, come, si ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: la, S0B0Lemma: dunque_il, S0B0LemmaPOS: dunque_R, S0B0POS: B_R, S0B0POSLemma: B_il, S0B0Token: dunque_la, S0B1Lemma: dunque_Camera, S0B1LemmaPOS: dunque_S, S0B1POS: B_S, S0B1POSLemma: B_Camera, S0B1Token: dunque_Camera, S0Lemma: dunque, S0POS: B, S0Token: dunque, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: "_,, S0B0LemmaPOS: "_FF, S0B0POS: FB_FF, S0B0POSLemma: FB_,, S0B0Token: "_,, S0B1Lemma: "_come, S0B1LemmaPOS: "_CS, S0B1POS: FB_CS, S0B1POSLemma: FB_come, S0B1Token: "_come, S0Lemma: ", S0POS: FB, S0Token: ", TransHistory3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, Camera, , ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, come, si ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: la, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [Camera, ,, augurando ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [come, si, dice ,.. ]
 
-B0Lemma: Camera, B0POS: S, B0Token: Camera, S0B0Lemma: il_Camera, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_Camera, S0B0Token: la_Camera, S0B1Lemma: il_,, S0B1LemmaPOS: il_F, S0B1POS: R_F, S0B1POSLemma: R_,, S0B1Token: la_,, S0Lemma: il, S0POS: R, S0Token: la, il_isGouvernedBy_Camera: true, il_isGouvernedBy_Camera_det: true, transitionHistoryLength3: 202, 
+,_isGouvernedBy_come: true, ,_isGouvernedBy_come_punc: true, B0Lemma: come, B0POS: CS, B0Token: come, S0B0Lemma: ,_come, S0B0LemmaPOS: ,_CS, S0B0POS: FF_CS, S0B0POSLemma: FF_come, S0B0Token: ,_come, S0B1Lemma: ,_si, S0B1LemmaPOS: ,_PC, S0B1POS: FF_PC, S0B1POSLemma: FF_si, S0B1Token: ,_si, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Camera, ,, augurando ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [come, si, dice ,.. ]
 
-B0Lemma: Camera, B0POS: S, B0Token: Camera, transitionHistoryLength3: 020, 
+B0Lemma: come, B0POS: CS, B0Token: come, TransHistory3: 020, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Camera]   B= [,, augurando, che ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [come]   B= [si, dice, dalle ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: Camera_,, S0B0LemmaPOS: Camera_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: Camera_,, S0B1Lemma: Camera_augurare, S0B1LemmaPOS: Camera_V, S0B1POS: S_V, S0B1POSLemma: S_augurare, S0B1Token: Camera_augurando, S0Lemma: Camera, S0POS: S, S0Token: Camera, transitionHistoryLength3: 202, 
+B0Lemma: si, B0POS: PC, B0Token: si, S0B0Lemma: come_si, S0B0LemmaPOS: come_PC, S0B0POS: CS_PC, S0B0POSLemma: CS_si, S0B0Token: come_si, S0B1Lemma: come_dire, S0B1LemmaPOS: come_V, S0B1POS: CS_V, S0B1POSLemma: CS_dire, S0B1Token: come_dice, S0Lemma: come, S0POS: CS, S0Token: come, TransHistory3: 202, come_,_hasRighDep_punc: true, come_dire_hasRighDep_sub: true, come_hasRighDep_punc: true, come_hasRighDep_sub: true, hasRighDep_punc: true, hasRighDep_sub: true, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, augurando, che ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, dice, dalle ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: si, B0POS: PC, B0Token: si, TransHistory3: 020, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [augurando, che, vi ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [dice, dalle, nostre ,.. ]
 
-,_isGouvernedBy_augurare: true, ,_isGouvernedBy_augurare_punc: true, B0Lemma: augurare, B0POS: V, B0Token: augurando, S0B0Lemma: ,_augurare, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_augurare, S0B0Token: ,_augurando, S0B1Lemma: ,_che, S0B1LemmaPOS: ,_C, S0B1POS: F_C, S0B1POSLemma: F_che, S0B1Token: ,_che, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: dire, B0POS: V, B0Token: dice, S0B0Lemma: si_dire, S0B0LemmaPOS: si_V, S0B0POS: PC_V, S0B0POSLemma: PC_dire, S0B0Token: si_dice, S0B1Lemma: si_da, S0B1LemmaPOS: si_EA, S0B1POS: PC_EA, S0B1POSLemma: PC_da, S0B1Token: si_dalle, S0Lemma: si, S0POS: PC, S0Token: si, TransHistory3: 202, si_isGouvernedBy_dire: true, si_isGouvernedBy_dire_clit: true, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [augurando, che, vi ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dice, dalle, nostre ,.. ]
 
-B0Lemma: augurare, B0POS: V, B0Token: augurando, transitionHistoryLength3: 020, 
+B0Lemma: dire, B0POS: V, B0Token: dice, TransHistory3: 020, 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [augurando]   B= [che, vi, entrino ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dice]   B= [dalle, nostre, parti ,.. ]
 
-B0Lemma: che, B0POS: C, B0Token: che, S0B0Lemma: augurare_che, S0B0LemmaPOS: augurare_C, S0B0POS: V_C, S0B0POSLemma: V_che, S0B0Token: augurando_che, S0B1Lemma: augurare_vi, S0B1LemmaPOS: augurare_P, S0B1POS: V_P, S0B1POSLemma: V_vi, S0B1Token: augurando_vi, S0Lemma: augurare, S0POS: V, S0Token: augurando, augurare_,_hasRighDep_punc: true, augurare_che_hasRighDep_arg: true, augurare_hasRighDep_arg: true, augurare_hasRighDep_punc: true, hasRighDep_arg: true, hasRighDep_punc: true, transitionHistoryLength3: 202, 
+B0Lemma: da, B0POS: EA, B0Token: dalle, S0B0Lemma: dire_da, S0B0LemmaPOS: dire_EA, S0B0POS: V_EA, S0B0POSLemma: V_da, S0B0Token: dice_dalle, S0B1Lemma: dire_nostro, S0B1LemmaPOS: dire_AP, S0B1POS: V_AP, S0B1POSLemma: V_nostro, S0B1Token: dice_nostre, S0Lemma: dire, S0POS: V, S0Token: dice, TransHistory3: 202, dire_da_hasRighDep_comp: true, dire_hasRighDep_comp: true, hasRighDep_comp: true, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, vi, entrino ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dalle, nostre, parti ,.. ]
 
-B0Lemma: che, B0POS: C, B0Token: che, transitionHistoryLength3: 020, 
+B0Lemma: da, B0POS: EA, B0Token: dalle, TransHistory3: 020, 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [vi, entrino, presto ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dalle]   B= [nostre, parti, , ,.. ]
 
-B0Lemma: vi, B0POS: P, B0Token: vi, S0B0Lemma: che_vi, S0B0LemmaPOS: che_P, S0B0POS: C_P, S0B0POSLemma: C_vi, S0B0Token: che_vi, S0B1Lemma: che_entrare, S0B1LemmaPOS: che_V, S0B1POS: C_V, S0B1POSLemma: C_entrare, S0B1Token: che_entrino, S0Lemma: che, S0POS: C, S0Token: che, che_entrare_hasRighDep_sub: true, che_hasRighDep_sub: true, hasRighDep_sub: true, transitionHistoryLength3: 202, 
+B0Lemma: nostro, B0POS: AP, B0Token: nostre, S0B0Lemma: da_nostro, S0B0LemmaPOS: da_AP, S0B0POS: EA_AP, S0B0POSLemma: EA_nostro, S0B0Token: dalle_nostre, S0B1Lemma: da_parte, S0B1LemmaPOS: da_S, S0B1POS: EA_S, S0B1POSLemma: EA_parte, S0B1Token: dalle_parti, S0Lemma: da, S0POS: EA, S0Token: dalle, TransHistory3: 202, da_hasRighDep_prep: true, da_parte_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vi, entrino, presto ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nostre, parti, , ,.. ]
 
-B0Lemma: vi, B0POS: P, B0Token: vi, transitionHistoryLength3: 020, 
+B0Lemma: nostro, B0POS: AP, B0Token: nostre, TransHistory3: 020, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vi]   B= [entrino, presto, degli ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nostre]   B= [parti, ,, incapace ,.. ]
 
-B0Lemma: entrare, B0POS: V, B0Token: entrino, S0B0Lemma: vi_entrare, S0B0LemmaPOS: vi_V, S0B0POS: P_V, S0B0POSLemma: P_entrare, S0B0Token: vi_entrino, S0B1Lemma: vi_presto, S0B1LemmaPOS: vi_B, S0B1POS: P_B, S0B1POSLemma: P_presto, S0B1Token: vi_presto, S0Lemma: vi, S0POS: P, S0Token: vi, transitionHistoryLength3: 202, vi_isGouvernedBy_entrare: true, vi_isGouvernedBy_entrare_comp: true, 
+B0Lemma: parte, B0POS: S, B0Token: parti, S0B0Lemma: nostro_parte, S0B0LemmaPOS: nostro_S, S0B0POS: AP_S, S0B0POSLemma: AP_parte, S0B0Token: nostre_parti, S0B1Lemma: nostro_,, S0B1LemmaPOS: nostro_FF, S0B1POS: AP_FF, S0B1POSLemma: AP_,, S0B1Token: nostre_,, S0Lemma: nostro, S0POS: AP, S0Token: nostre, TransHistory3: 202, nostro_isGouvernedBy_parte: true, nostro_isGouvernedBy_parte_mod: true, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [entrino, presto, degli ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [parti, ,, incapace ,.. ]
 
-B0Lemma: entrare, B0POS: V, B0Token: entrino, transitionHistoryLength3: 020, 
+B0Lemma: parte, B0POS: S, B0Token: parti, TransHistory3: 020, 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [entrino]   B= [presto, degli, uomini ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [parti]   B= [,, incapace, di ,.. ]
 
-B0Lemma: presto, B0POS: B, B0Token: presto, S0B0Lemma: entrare_presto, S0B0LemmaPOS: entrare_B, S0B0POS: V_B, S0B0POSLemma: V_presto, S0B0Token: entrino_presto, S0B1Lemma: entrare_di, S0B1LemmaPOS: entrare_E, S0B1POS: V_E, S0B1POSLemma: V_di, S0B1Token: entrino_degli, S0Lemma: entrare, S0POS: V, S0Token: entrino, entrare_di_hasRighDep_comp: true, entrare_hasRighDep_comp: true, entrare_hasRighDep_mod_temp: true, entrare_presto_hasRighDep_mod_temp: true, hasRighDep_comp: true, hasRighDep_mod_temp: true, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: parte_,, S0B0LemmaPOS: parte_FF, S0B0POS: S_FF, S0B0POSLemma: S_,, S0B0Token: parti_,, S0B1Lemma: parte_incapace, S0B1LemmaPOS: parte_A, S0B1POS: S_A, S0B1POSLemma: S_incapace, S0B1Token: parti_incapace, S0Lemma: parte, S0POS: S, S0Token: parti, TransHistory3: 202, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [presto, degli, uomini ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, incapace, di ,.. ]
 
-B0Lemma: presto, B0POS: B, B0Token: presto, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [presto]   B= [degli, uomini, sciolti ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [incapace, di, confrontarsicon ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: degli, S0B0Lemma: presto_di, S0B0LemmaPOS: presto_E, S0B0POS: B_E, S0B0POSLemma: B_di, S0B0Token: presto_degli, S0B1Lemma: presto_uomo, S0B1LemmaPOS: presto_S, S0B1POS: B_S, S0B1POSLemma: B_uomo, S0B1Token: presto_uomini, S0Lemma: presto, S0POS: B, S0Token: presto, transitionHistoryLength3: 202, 
+B0Lemma: incapace, B0POS: A, B0Token: incapace, S0B0Lemma: ,_incapace, S0B0LemmaPOS: ,_A, S0B0POS: FF_A, S0B0POSLemma: FF_incapace, S0B0Token: ,_incapace, S0B1Lemma: ,_di, S0B1LemmaPOS: ,_E, S0B1POS: FF_E, S0B1POSLemma: FF_di, S0B1Token: ,_di, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [degli, uomini, sciolti ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [incapace, di, confrontarsicon ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: degli, transitionHistoryLength3: 020, 
+B0Lemma: incapace, B0POS: A, B0Token: incapace, TransHistory3: 020, 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [degli]   B= [uomini, sciolti, dalle ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [incapace]   B= [di, confrontarsicon, gli ,.. ]
 
-B0Lemma: uomo, B0POS: S, B0Token: uomini, S0B0Lemma: di_uomo, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_uomo, S0B0Token: degli_uomini, S0B1Lemma: di_sciogliere, S0B1LemmaPOS: di_V, S0B1POS: E_V, S0B1POSLemma: E_sciogliere, S0B1Token: degli_sciolti, S0Lemma: di, S0POS: E, S0Token: degli, di_hasRighDep_prep: true, di_uomo_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: incapace_di, S0B0LemmaPOS: incapace_E, S0B0POS: A_E, S0B0POSLemma: A_di, S0B0Token: incapace_di, S0B1Lemma: incapace_confrontarsicon, S0B1LemmaPOS: incapace_S, S0B1POS: A_S, S0B1POSLemma: A_confrontarsicon, S0B1Token: incapace_confrontarsicon, S0Lemma: incapace, S0POS: A, S0Token: incapace, TransHistory3: 202, hasRighDep_comp: true, hasRighDep_conj: true, incapace_altro_hasRighDep_conj: true, incapace_di_hasRighDep_comp: true, incapace_hasRighDep_comp: true, incapace_hasRighDep_conj: true, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [uomini, sciolti, dalle ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, confrontarsicon, gli ,.. ]
 
-B0Lemma: uomo, B0POS: S, B0Token: uomini, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: E, B0Token: di, TransHistory3: 020, 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uomini]   B= [sciolti, dalle, superstizioni ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [confrontarsicon, gli, altri ,.. ]
 
-B0Lemma: sciogliere, B0POS: V, B0Token: sciolti, S0B0Lemma: uomo_sciogliere, S0B0LemmaPOS: uomo_V, S0B0POS: S_V, S0B0POSLemma: S_sciogliere, S0B0Token: uomini_sciolti, S0B1Lemma: uomo_da, S0B1LemmaPOS: uomo_E, S0B1POS: S_E, S0B1POSLemma: S_da, S0B1Token: uomini_dalle, S0Lemma: uomo, S0POS: S, S0Token: uomini, hasRighDep_mod: true, transitionHistoryLength3: 202, uomo_hasRighDep_mod: true, uomo_sciogliere_hasRighDep_mod: true, 
+B0Lemma: confrontarsicon, B0POS: S, B0Token: confrontarsicon, S0B0Lemma: di_confrontarsicon, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_confrontarsicon, S0B0Token: di_confrontarsicon, S0B1Lemma: di_il, S0B1LemmaPOS: di_RD, S0B1POS: E_RD, S0B1POSLemma: E_il, S0B1Token: di_gli, S0Lemma: di, S0POS: E, S0Token: di, TransHistory3: 202, di_confrontarsicon_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sciolti, dalle, superstizioni ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [confrontarsicon, gli, altri ,.. ]
 
-B0Lemma: sciogliere, B0POS: V, B0Token: sciolti, transitionHistoryLength3: 020, 
+B0Lemma: confrontarsicon, B0POS: S, B0Token: confrontarsicon, TransHistory3: 020, 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sciolti]   B= [dalle, superstizioni, e ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [confrontarsicon]   B= [gli, altri, , ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: dalle, S0B0Lemma: sciogliere_da, S0B0LemmaPOS: sciogliere_E, S0B0POS: V_E, S0B0POSLemma: V_da, S0B0Token: sciolti_dalle, S0B1Lemma: sciogliere_superstizione, S0B1LemmaPOS: sciogliere_S, S0B1POS: V_S, S0B1POSLemma: V_superstizione, S0B1Token: sciolti_superstizioni, S0Lemma: sciogliere, S0POS: V, S0Token: sciolti, hasRighDep_comp: true, sciogliere_da_hasRighDep_comp: true, sciogliere_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: gli, S0B0Lemma: confrontarsicon_il, S0B0LemmaPOS: confrontarsicon_RD, S0B0POS: S_RD, S0B0POSLemma: S_il, S0B0Token: confrontarsicon_gli, S0B1Lemma: confrontarsicon_altro, S0B1LemmaPOS: confrontarsicon_A, S0B1POS: S_A, S0B1POSLemma: S_altro, S0B1Token: confrontarsicon_altri, S0Lemma: confrontarsicon, S0POS: S, S0Token: confrontarsicon, TransHistory3: 202, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dalle, superstizioni, e ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gli, altri, , ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: dalle, transitionHistoryLength3: 020, 
+B0Lemma: il, B0POS: RD, B0Token: gli, TransHistory3: 020, 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dalle]   B= [superstizioni, e, dalle ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gli]   B= [altri, ,, tuttologi ,.. ]
 
-B0Lemma: superstizione, B0POS: S, B0Token: superstizioni, S0B0Lemma: da_superstizione, S0B0LemmaPOS: da_S, S0B0POS: E_S, S0B0POSLemma: E_superstizione, S0B0Token: dalle_superstizioni, S0B1Lemma: da_e, S0B1LemmaPOS: da_C, S0B1POS: E_C, S0B1POSLemma: E_e, S0B1Token: dalle_e, S0Lemma: da, S0POS: E, S0Token: dalle, da_da_hasRighDep_conj: true, da_e_hasRighDep_con: true, da_hasRighDep_con: true, da_hasRighDep_conj: true, da_hasRighDep_prep: true, da_superstizione_hasRighDep_prep: true, hasRighDep_con: true, hasRighDep_conj: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: altro, B0POS: A, B0Token: altri, S0B0Lemma: il_altro, S0B0LemmaPOS: il_A, S0B0POS: RD_A, S0B0POSLemma: RD_altro, S0B0Token: gli_altri, S0B1Lemma: il_,, S0B1LemmaPOS: il_FF, S0B1POS: RD_FF, S0B1POSLemma: RD_,, S0B1Token: gli_,, S0Lemma: il, S0POS: RD, S0Token: gli, TransHistory3: 202, il_isGouvernedBy_altro: true, il_isGouvernedBy_altro_det: true, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [superstizioni, e, dalle ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [altri, ,, tuttologi ,.. ]
 
-B0Lemma: superstizione, B0POS: S, B0Token: superstizioni, transitionHistoryLength3: 020, 
+B0Lemma: altro, B0POS: A, B0Token: altri, TransHistory3: 020, 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [superstizioni]   B= [e, dalle, ignoranze ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [altri]   B= [,, tuttologi, di ,.. ]
 
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: superstizione_e, S0B0LemmaPOS: superstizione_C, S0B0POS: S_C, S0B0POSLemma: S_e, S0B0Token: superstizioni_e, S0B1Lemma: superstizione_da, S0B1LemmaPOS: superstizione_E, S0B1POS: S_E, S0B1POSLemma: S_da, S0B1Token: superstizioni_dalle, S0Lemma: superstizione, S0POS: S, S0Token: superstizioni, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: altro_,, S0B0LemmaPOS: altro_FF, S0B0POS: A_FF, S0B0POSLemma: A_,, S0B0Token: altri_,, S0B1Lemma: altro_Tuttologi, S0B1LemmaPOS: altro_SP, S0B1POS: A_SP, S0B1POSLemma: A_Tuttologi, S0B1Token: altri_tuttologi, S0Lemma: altro, S0POS: A, S0Token: altri, TransHistory3: 202, altro_,_hasRighDep_con: true, altro_Tuttologi_hasRighDep_conj: true, altro_convincere_hasRighDep_conj: true, altro_hasRighDep_con: true, altro_hasRighDep_conj: true, altro_impettito_hasRighDep_conj: true, hasRighDep_con: true, hasRighDep_conj: true, 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, dalle, ignoranze ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, tuttologi, di ,.. ]
 
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [dalle, ignoranze, di ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [tuttologi, di, professione ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: dalle, S0B0Lemma: e_da, S0B0LemmaPOS: e_E, S0B0POS: C_E, S0B0POSLemma: C_da, S0B0Token: e_dalle, S0B1Lemma: e_ignoranza, S0B1LemmaPOS: e_S, S0B1POS: C_S, S0B1POSLemma: C_ignoranza, S0B1Token: e_ignoranze, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
+B0Lemma: Tuttologi, B0POS: SP, B0Token: tuttologi, S0B0Lemma: ,_Tuttologi, S0B0LemmaPOS: ,_SP, S0B0POS: FF_SP, S0B0POSLemma: FF_Tuttologi, S0B0Token: ,_tuttologi, S0B1Lemma: ,_di, S0B1LemmaPOS: ,_E, S0B1POS: FF_E, S0B1POSLemma: FF_di, S0B1Token: ,_di, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dalle, ignoranze, di ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tuttologi, di, professione ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: dalle, transitionHistoryLength3: 020, 
+B0Lemma: Tuttologi, B0POS: SP, B0Token: tuttologi, TransHistory3: 020, 
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dalle]   B= [ignoranze, di, un ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tuttologi]   B= [di, professione, , ,.. ]
 
-B0Lemma: ignoranza, B0POS: S, B0Token: ignoranze, S0B0Lemma: da_ignoranza, S0B0LemmaPOS: da_S, S0B0POS: E_S, S0B0POSLemma: E_ignoranza, S0B0Token: dalle_ignoranze, S0B1Lemma: da_di, S0B1LemmaPOS: da_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: dalle_di, S0Lemma: da, S0POS: E, S0Token: dalle, da_hasRighDep_prep: true, da_ignoranza_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: Tuttologi_di, S0B0LemmaPOS: Tuttologi_E, S0B0POS: SP_E, S0B0POSLemma: SP_di, S0B0Token: tuttologi_di, S0B1Lemma: Tuttologi_professione, S0B1LemmaPOS: Tuttologi_S, S0B1POS: SP_S, S0B1POSLemma: SP_professione, S0B1Token: tuttologi_professione, S0Lemma: Tuttologi, S0POS: SP, S0Token: tuttologi, TransHistory3: 202, Tuttologi_di_hasRighDep_comp: true, Tuttologi_hasRighDep_comp: true, hasRighDep_comp: true, 
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ignoranze, di, un ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, professione, , ,.. ]
 
-B0Lemma: ignoranza, B0POS: S, B0Token: ignoranze, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: E, B0Token: di, TransHistory3: 020, 
 
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ignoranze]   B= [di, un, certo ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [professione, ,, impettiti ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: ignoranza_di, S0B0LemmaPOS: ignoranza_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: ignoranze_di, S0B1Lemma: ignoranza_un, S0B1LemmaPOS: ignoranza_R, S0B1POS: S_R, S0B1POSLemma: S_un, S0B1Token: ignoranze_un, S0Lemma: ignoranza, S0POS: S, S0Token: ignoranze, hasRighDep_comp: true, ignoranza_di_hasRighDep_comp: true, ignoranza_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: professione, B0POS: S, B0Token: professione, S0B0Lemma: di_professione, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_professione, S0B0Token: di_professione, S0B1Lemma: di_,, S0B1LemmaPOS: di_FF, S0B1POS: E_FF, S0B1POSLemma: E_,, S0B1Token: di_,, S0Lemma: di, S0POS: E, S0Token: di, TransHistory3: 202, di_hasRighDep_prep: true, di_professione_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, un, certo ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [professione, ,, impettiti ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: professione, B0POS: S, B0Token: professione, TransHistory3: 020, 
 
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [un, certo, individualismo ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [professione]   B= [,, impettiti, , ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, S0B0Lemma: di_un, S0B0LemmaPOS: di_R, S0B0POS: E_R, S0B0POSLemma: E_un, S0B0Token: di_un, S0B1Lemma: di_certo, S0B1LemmaPOS: di_A, S0B1POS: E_A, S0B1POSLemma: E_certo, S0B1Token: di_certo, S0Lemma: di, S0POS: E, S0Token: di, di_hasRighDep_prep: true, di_individualismo_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: professione_,, S0B0LemmaPOS: professione_FF, S0B0POS: S_FF, S0B0POSLemma: S_,, S0B0Token: professione_,, S0B1Lemma: professione_impettito, S0B1LemmaPOS: professione_A, S0B1POS: S_A, S0B1POSLemma: S_impettito, S0B1Token: professione_impettiti, S0Lemma: professione, S0POS: S, S0Token: professione, TransHistory3: 202, 
 
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, certo, individualismo ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, impettiti, , ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [certo, individualismo, liberale ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [impettiti, ,, convinti ,.. ]
 
-B0Lemma: certo, B0POS: A, B0Token: certo, S0B0Lemma: un_certo, S0B0LemmaPOS: un_A, S0B0POS: R_A, S0B0POSLemma: R_certo, S0B0Token: un_certo, S0B1Lemma: un_individualismo, S0B1LemmaPOS: un_S, S0B1POS: R_S, S0B1POSLemma: R_individualismo, S0B1Token: un_individualismo, S0Lemma: un, S0POS: R, S0Token: un, transitionHistoryLength3: 202, un_isGouvernedBy_individualismo: true, un_isGouvernedBy_individualismo_det: true, 
+,_isGouvernedBy_impettito: true, ,_isGouvernedBy_impettito_punc: true, B0Lemma: impettito, B0POS: A, B0Token: impettiti, S0B0Lemma: ,_impettito, S0B0LemmaPOS: ,_A, S0B0POS: FF_A, S0B0POSLemma: FF_impettito, S0B0Token: ,_impettiti, S0B1Lemma: ,_,, S0B1LemmaPOS: ,_FF, S0B1POS: FF_FF, S0B1POSLemma: FF_,, S0B1Token: ,_,, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [certo, individualismo, liberale ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [impettiti, ,, convinti ,.. ]
 
-B0Lemma: certo, B0POS: A, B0Token: certo, transitionHistoryLength3: 020, 
+B0Lemma: impettito, B0POS: A, B0Token: impettiti, TransHistory3: 020, 
 
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [certo]   B= [individualismo, liberale, , ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [impettiti]   B= [,, convinti, di ,.. ]
 
-B0Lemma: individualismo, B0POS: S, B0Token: individualismo, S0B0Lemma: certo_individualismo, S0B0LemmaPOS: certo_S, S0B0POS: A_S, S0B0POSLemma: A_individualismo, S0B0Token: certo_individualismo, S0B1Lemma: certo_liberale, S0B1LemmaPOS: certo_A, S0B1POS: A_A, S0B1POSLemma: A_liberale, S0B1Token: certo_liberale, S0Lemma: certo, S0POS: A, S0Token: certo, certo_isGouvernedBy_individualismo: true, certo_isGouvernedBy_individualismo_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: impettito_,, S0B0LemmaPOS: impettito_FF, S0B0POS: A_FF, S0B0POSLemma: A_,, S0B0Token: impettiti_,, S0B1Lemma: impettito_convincere, S0B1LemmaPOS: impettito_V, S0B1POS: A_V, S0B1POSLemma: A_convincere, S0B1Token: impettiti_convinti, S0Lemma: impettito, S0POS: A, S0Token: impettiti, TransHistory3: 202, hasRighDep_punc: true, impettito_,_hasRighDep_punc: true, impettito_hasRighDep_punc: true, 
 
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [individualismo, liberale, , ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, convinti, di ,.. ]
 
-B0Lemma: individualismo, B0POS: S, B0Token: individualismo, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [individualismo]   B= [liberale, ,, che ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [convinti, di, tutto ,.. ]
 
-B0Lemma: liberale, B0POS: A, B0Token: liberale, S0B0Lemma: individualismo_liberale, S0B0LemmaPOS: individualismo_A, S0B0POS: S_A, S0B0POSLemma: S_liberale, S0B0Token: individualismo_liberale, S0B1Lemma: individualismo_,, S0B1LemmaPOS: individualismo_F, S0B1POS: S_F, S0B1POSLemma: S_,, S0B1Token: individualismo_,, S0Lemma: individualismo, S0POS: S, S0Token: individualismo, hasRighDep_mod: true, individualismo_hasRighDep_mod: true, individualismo_liberale_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: convincere, B0POS: V, B0Token: convinti, S0B0Lemma: ,_convincere, S0B0LemmaPOS: ,_V, S0B0POS: FF_V, S0B0POSLemma: FF_convincere, S0B0Token: ,_convinti, S0B1Lemma: ,_di, S0B1LemmaPOS: ,_E, S0B1POS: FF_E, S0B1POSLemma: FF_di, S0B1Token: ,_di, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [liberale, ,, che ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [convinti, di, tutto ,.. ]
 
-B0Lemma: liberale, B0POS: A, B0Token: liberale, transitionHistoryLength3: 020, 
+B0Lemma: convincere, B0POS: V, B0Token: convinti, TransHistory3: 020, 
 
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [liberale]   B= [,, che, si ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [convinti]   B= [di, tutto, bene ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: liberale_,, S0B0LemmaPOS: liberale_F, S0B0POS: A_F, S0B0POSLemma: A_,, S0B0Token: liberale_,, S0B1Lemma: liberale_che, S0B1LemmaPOS: liberale_P, S0B1POS: A_P, S0B1POSLemma: A_che, S0B1Token: liberale_che, S0Lemma: liberale, S0POS: A, S0Token: liberale, transitionHistoryLength3: 202, 
+B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: convincere_di, S0B0LemmaPOS: convincere_E, S0B0POS: V_E, S0B0POSLemma: V_di, S0B0Token: convinti_di, S0B1Lemma: convincere_tutto, S0B1LemmaPOS: convincere_PI, S0B1POS: V_PI, S0B1POSLemma: V_tutto, S0B1Token: convinti_tutto, S0Lemma: convincere, S0POS: V, S0Token: convinti, TransHistory3: 202, convincere_di_hasRighDep_comp: true, convincere_hasRighDep_comp: true, hasRighDep_comp: true, 
 
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, che, si ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, tutto, bene ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: E, B0Token: di, TransHistory3: 020, 
 
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [che, si, crede ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [tutto, bene, fare ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, S0B0Lemma: ,_che, S0B0LemmaPOS: ,_P, S0B0POS: F_P, S0B0POSLemma: F_che, S0B0Token: ,_che, S0B1Lemma: ,_si, S0B1LemmaPOS: ,_P, S0B1POS: F_P, S0B1POSLemma: F_si, S0B1Token: ,_si, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: tutto, B0POS: PI, B0Token: tutto, S0B0Lemma: di_tutto, S0B0LemmaPOS: di_PI, S0B0POS: E_PI, S0B0POSLemma: E_tutto, S0B0Token: di_tutto, S0B1Lemma: di_bene, S0B1LemmaPOS: di_B, S0B1POS: E_B, S0B1POSLemma: E_bene, S0B1Token: di_bene, S0Lemma: di, S0POS: E, S0Token: di, TransHistory3: 202, di_di_hasRighDep_conj: true, di_fare_hasRighDep_prep: true, di_hasRighDep_conj: true, di_hasRighDep_prep: true, di_tutto_hasRighDep_prep: true, hasRighDep_conj: true, hasRighDep_prep: true, 
 
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, si, crede ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tutto, bene, fare ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, transitionHistoryLength3: 020, 
+B0Lemma: tutto, B0POS: PI, B0Token: tutto, TransHistory3: 020, 
 
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [si, crede, alla ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tutto]   B= [bene, fare, e ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, S0B0Lemma: che_si, S0B0LemmaPOS: che_P, S0B0POS: P_P, S0B0POSLemma: P_si, S0B0Token: che_si, S0B1Lemma: che_credere, S0B1LemmaPOS: che_V, S0B1POS: P_V, S0B1POSLemma: P_credere, S0B1Token: che_crede, S0Lemma: che, S0POS: P, S0Token: che, che_isGouvernedBy_credere: true, che_isGouvernedBy_credere_subj: true, transitionHistoryLength3: 202, 
+B0Lemma: bene, B0POS: B, B0Token: bene, S0B0Lemma: tutto_bene, S0B0LemmaPOS: tutto_B, S0B0POS: PI_B, S0B0POSLemma: PI_bene, S0B0Token: tutto_bene, S0B1Lemma: tutto_fare, S0B1LemmaPOS: tutto_V, S0B1POS: PI_V, S0B1POSLemma: PI_fare, S0B1Token: tutto_fare, S0Lemma: tutto, S0POS: PI, S0Token: tutto, TransHistory3: 202, 
 
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, crede, alla ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bene, fare, e ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, transitionHistoryLength3: 020, 
+B0Lemma: bene, B0POS: B, B0Token: bene, TransHistory3: 020, 
 
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [crede, alla, testa ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bene]   B= [fare, e, di ,.. ]
 
-B0Lemma: credere, B0POS: V, B0Token: crede, S0B0Lemma: si_credere, S0B0LemmaPOS: si_V, S0B0POS: P_V, S0B0POSLemma: P_credere, S0B0Token: si_crede, S0B1Lemma: si_al, S0B1LemmaPOS: si_E, S0B1POS: P_E, S0B1POSLemma: P_al, S0B1Token: si_alla, S0Lemma: si, S0POS: P, S0Token: si, si_isGouvernedBy_credere: true, si_isGouvernedBy_credere_clit: true, transitionHistoryLength3: 202, 
+B0Lemma: fare, B0POS: V, B0Token: fare, S0B0Lemma: bene_fare, S0B0LemmaPOS: bene_V, S0B0POS: B_V, S0B0POSLemma: B_fare, S0B0Token: bene_fare, S0B1Lemma: bene_e, S0B1LemmaPOS: bene_CC, S0B1POS: B_CC, S0B1POSLemma: B_e, S0B1Token: bene_e, S0Lemma: bene, S0POS: B, S0Token: bene, TransHistory3: 202, bene_isGouvernedBy_fare: true, bene_isGouvernedBy_fare_mod: true, 
 
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [crede, alla, testa ,.. ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fare, e, di ,.. ]
 
-B0Lemma: credere, B0POS: V, B0Token: crede, transitionHistoryLength3: 020, 
+B0Lemma: fare, B0POS: V, B0Token: fare, TransHistory3: 020, 
 
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [crede]   B= [alla, testa, dell' ,.. ]
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fare]   B= [e, di, tutto ,.. ]
 
-B0Lemma: al, B0POS: E, B0Token: alla, S0B0Lemma: credere_al, S0B0LemmaPOS: credere_E, S0B0POS: V_E, S0B0POSLemma: V_al, S0B0Token: crede_alla, S0B1Lemma: credere_testa, S0B1LemmaPOS: credere_S, S0B1POS: V_S, S0B1POSLemma: V_testa, S0B1Token: crede_testa, S0Lemma: credere, S0POS: V, S0Token: crede, credere_,_hasRighDep_con: true, credere_accorgersi_hasRighDep_conj: true, credere_al_hasRighDep_comp: true, credere_e_hasRighDep_con: true, credere_hasRighDep_comp: true, credere_hasRighDep_con: true, credere_hasRighDep_conj: true, hasRighDep_comp: true, hasRighDep_con: true, hasRighDep_conj: true, transitionHistoryLength3: 202, 
+B0Lemma: e, B0POS: CC, B0Token: e, S0B0Lemma: fare_e, S0B0LemmaPOS: fare_CC, S0B0POS: V_CC, S0B0POSLemma: V_e, S0B0Token: fare_e, S0B1Lemma: fare_di, S0B1LemmaPOS: fare_E, S0B1POS: V_E, S0B1POSLemma: V_di, S0B1Token: fare_di, S0Lemma: fare, S0POS: V, S0Token: fare, TransHistory3: 202, fare_e_hasRighDep_con: true, fare_hasRighDep_con: true, hasRighDep_con: true, 
 
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alla, testa, dell' ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, di, tutto ,.. ]
 
-B0Lemma: al, B0POS: E, B0Token: alla, transitionHistoryLength3: 020, 
+B0Lemma: e, B0POS: CC, B0Token: e, TransHistory3: 020, 
 
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alla]   B= [testa, dell', umanità ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [di, tutto, sapere ,.. ]
 
-B0Lemma: testa, B0POS: S, B0Token: testa, S0B0Lemma: al_testa, S0B0LemmaPOS: al_S, S0B0POS: E_S, S0B0POSLemma: E_testa, S0B0Token: alla_testa, S0B1Lemma: al_di, S0B1LemmaPOS: al_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: alla_dell', S0Lemma: al, S0POS: E, S0Token: alla, al_hasRighDep_prep: true, al_testa_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: e_di, S0B0LemmaPOS: e_E, S0B0POS: CC_E, S0B0POSLemma: CC_di, S0B0Token: e_di, S0B1Lemma: e_tutto, S0B1LemmaPOS: e_B, S0B1POS: CC_B, S0B1POSLemma: CC_tutto, S0B1Token: e_tutto, S0Lemma: e, S0POS: CC, S0Token: e, TransHistory3: 202, 
 
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [testa, dell', umanità ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, tutto, sapere ,.. ]
 
-B0Lemma: testa, B0POS: S, B0Token: testa, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: E, B0Token: di, TransHistory3: 020, 
 
-89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [testa]   B= [dell', umanità, , ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [tutto, sapere, ! ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: dell', S0B0Lemma: testa_di, S0B0LemmaPOS: testa_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: testa_dell', S0B1Lemma: testa_umanità, S0B1LemmaPOS: testa_S, S0B1POS: S_S, S0B1POSLemma: S_umanità, S0B1Token: testa_umanità, S0Lemma: testa, S0POS: S, S0Token: testa, hasRighDep_comp: true, testa_di_hasRighDep_comp: true, testa_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: tutto, B0POS: B, B0Token: tutto, S0B0Lemma: di_tutto, S0B0LemmaPOS: di_B, S0B0POS: E_B, S0B0POSLemma: E_tutto, S0B0Token: di_tutto, S0B1Lemma: di_sapere, S0B1LemmaPOS: di_V, S0B1POS: E_V, S0B1POSLemma: E_sapere, S0B1Token: di_sapere, S0Lemma: di, S0POS: E, S0Token: di, TransHistory3: 202, di_hasRighDep_prep: true, di_sapere_hasRighDep_prep: true, di_tutto_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dell', umanità, , ,.. ]
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tutto, sapere, ! ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: dell', transitionHistoryLength3: 020, 
+B0Lemma: tutto, B0POS: B, B0Token: tutto, TransHistory3: 020, 
 
-91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dell']   B= [umanità, ,, e ,.. ]
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tutto]   B= [sapere, ! ,.. ]
 
-B0Lemma: umanità, B0POS: S, B0Token: umanità, S0B0Lemma: di_umanità, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_umanità, S0B0Token: dell'_umanità, S0B1Lemma: di_,, S0B1LemmaPOS: di_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: dell'_,, S0Lemma: di, S0POS: E, S0Token: dell', di_hasRighDep_prep: true, di_umanità_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: sapere, B0POS: V, B0Token: sapere, S0B0Lemma: tutto_sapere, S0B0LemmaPOS: tutto_V, S0B0POS: B_V, S0B0POSLemma: B_sapere, S0B0Token: tutto_sapere, S0B1Lemma: tutto_!, S0B1LemmaPOS: tutto_FS, S0B1POS: B_FS, S0B1POSLemma: B_!, S0B1Token: tutto_!, S0Lemma: tutto, S0POS: B, S0Token: tutto, TransHistory3: 202, 
 
-92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [umanità, ,, e ,.. ]
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sapere, ! ,.. ]
 
-B0Lemma: umanità, B0POS: S, B0Token: umanità, transitionHistoryLength3: 020, 
+B0Lemma: sapere, B0POS: V, B0Token: sapere, TransHistory3: 020, 
 
-93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [umanità]   B= [,, e, non ,.. ]
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sapere]   B= [!]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: umanità_,, S0B0LemmaPOS: umanità_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: umanità_,, S0B1Lemma: umanità_e, S0B1LemmaPOS: umanità_C, S0B1POS: S_C, S0B1POSLemma: S_e, S0B1Token: umanità_e, S0Lemma: umanità, S0POS: S, S0Token: umanità, transitionHistoryLength3: 202, 
+B0Lemma: !, B0POS: FS, B0Token: !, S0B0Lemma: sapere_!, S0B0LemmaPOS: sapere_FS, S0B0POS: V_FS, S0B0POSLemma: V_!, S0B0Token: sapere_!, S0Lemma: sapere, S0POS: V, S0Token: sapere, TransHistory3: 202, 
 
-94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, e, non ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [!]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: !, B0POS: FS, B0Token: !, TransHistory3: 020, 
 
-95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [e, non, s' ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [!]   B= [ ]
 
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: ,_e, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_e, S0B0Token: ,_e, S0B1Lemma: ,_non, S0B1LemmaPOS: ,_B, S0B1POS: F_B, S0B1POSLemma: F_non, S0B1Token: ,_non, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+S0Lemma: !, S0POS: FS, S0Token: !, TransHistory3: 202, 
 
-96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, non, s' ,.. ]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
-
-97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [non, s', accorge ,.. ]
-
-B0Lemma: non, B0POS: B, B0Token: non, S0B0Lemma: e_non, S0B0LemmaPOS: e_B, S0B0POS: C_B, S0B0POSLemma: C_non, S0B0Token: e_non, S0B1Lemma: e_s', S0B1LemmaPOS: e_P, S0B1POS: C_P, S0B1POSLemma: C_s', S0B1Token: e_s', S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
-
-98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, s', accorge ,.. ]
-
-B0Lemma: non, B0POS: B, B0Token: non, transitionHistoryLength3: 020, 
-
-99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [s', accorge, di ,.. ]
-
-B0Lemma: s', B0POS: P, B0Token: s', S0B0Lemma: non_s', S0B0LemmaPOS: non_P, S0B0POS: B_P, S0B0POSLemma: B_s', S0B0Token: non_s', S0B1Lemma: non_accorgersi, S0B1LemmaPOS: non_V, S0B1POS: B_V, S0B1POSLemma: B_accorgersi, S0B1Token: non_accorge, S0Lemma: non, S0POS: B, S0Token: non, non_isGouvernedBy_accorgersi: true, non_isGouvernedBy_accorgersi_neg: true, transitionHistoryLength3: 202, 
-
-100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s', accorge, di ,.. ]
-
-B0Lemma: s', B0POS: P, B0Token: s', transitionHistoryLength3: 020, 
-
-101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s']   B= [accorge, di, passare ,.. ]
-
-B0Lemma: accorgersi, B0POS: V, B0Token: accorge, S0B0Lemma: s'_accorgersi, S0B0LemmaPOS: s'_V, S0B0POS: P_V, S0B0POSLemma: P_accorgersi, S0B0Token: s'_accorge, S0B1Lemma: s'_di, S0B1LemmaPOS: s'_E, S0B1POS: P_E, S0B1POSLemma: P_di, S0B1Token: s'_di, S0Lemma: s', S0POS: P, S0Token: s', s'_isGouvernedBy_accorgersi: true, s'_isGouvernedBy_accorgersi_clit: true, transitionHistoryLength3: 202, 
-
-102- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s', accorge]   B= [di, passare, alla ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: accorgersi_di, S0B0LemmaPOS: accorgersi_E, S0B0POS: V_E, S0B0POSLemma: V_di, S0B0Token: accorge_di, S0B1Lemma: accorgersi_passare, S0B1LemmaPOS: accorgersi_V, S0B1POS: V_V, S0B1POSLemma: V_passare, S0B1Token: accorge_passare, S0Lemma: accorgersi, S0POS: V, S0S1Distance: 1, S0Token: accorge, S1B0Lemma: s'_di, S1B0LemmaPOS: s'_E, S1B0POS: P_E, S1B0POSLemma: P_di, S1B0Token: s'_di, S1Lemma: s', S1POS: P, S1S0Lemma: s'_accorgersi, S1S0LemmaPOS: s'_V, S1S0POS: P_V, S1S0POSLemma: P_accorgersi, S1S0Token: s'_accorge, S1Token: s', SyntaxicRelation: -clit, accorgersi_di_hasRighDep_arg: true, accorgersi_hasRighDep_arg: true, hasRighDep_arg: true, transitionHistoryLength3: 020, 
-
-103- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s', accorge]]   B= [di, passare, alla ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: s'_accorgersi_di, S0B0LemmaPOS: s'_accorgersi_E, S0B0POS: P_V_E, S0B0POSLemma: P_V_di, S0B0Token: s'_accorge_di, S0B1Lemma: s'_accorgersi_passare, S0B1LemmaPOS: s'_accorgersi_V, S0B1POS: P_V_V, S0B1POSLemma: P_V_passare, S0B1Token: s'_accorge_passare, S0Lemma: s'_accorgersi, S0POS: P_V, S0Token: s'_accorge, transitionHistoryLength3: 002, 
-
-104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, passare, alla ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 100, 
-
-105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [passare, alla, coda ,.. ]
-
-B0Lemma: passare, B0POS: V, B0Token: passare, S0B0Lemma: di_passare, S0B0LemmaPOS: di_V, S0B0POS: E_V, S0B0POSLemma: E_passare, S0B0Token: di_passare, S0B1Lemma: di_al, S0B1LemmaPOS: di_E, S0B1POS: E_E, S0B1POSLemma: E_al, S0B1Token: di_alla, S0Lemma: di, S0POS: E, S0Token: di, di_di_hasRighDep_conj: true, di_hasRighDep_conj: true, di_hasRighDep_prep: true, di_passare_hasRighDep_prep: true, hasRighDep_conj: true, hasRighDep_prep: true, transitionHistoryLength3: 210, 
-
-106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [passare, alla, coda ,.. ]
-
-B0Lemma: passare, B0POS: V, B0Token: passare, transitionHistoryLength3: 021, 
-
-107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [passare]   B= [alla, coda, ; ,.. ]
-
-B0Lemma: al, B0POS: E, B0Token: alla, S0B0Lemma: passare_al, S0B0LemmaPOS: passare_E, S0B0POS: V_E, S0B0POSLemma: V_al, S0B0Token: passare_alla, S0B1Lemma: passare_coda, S0B1LemmaPOS: passare_S, S0B1POS: V_S, S0B1POSLemma: V_coda, S0B1Token: passare_coda, S0Lemma: passare, S0POS: V, S0Token: passare, hasRighDep_arg: true, hasRighDep_comp: true, passare_accorgersi_hasRighDep_arg: true, passare_al_hasRighDep_comp: true, passare_hasRighDep_arg: true, passare_hasRighDep_comp: true, transitionHistoryLength3: 202, 
-
-108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alla, coda, ; ,.. ]
-
-B0Lemma: al, B0POS: E, B0Token: alla, transitionHistoryLength3: 020, 
-
-109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alla]   B= [coda, ;, non ,.. ]
-
-B0Lemma: coda, B0POS: S, B0Token: coda, S0B0Lemma: al_coda, S0B0LemmaPOS: al_S, S0B0POS: E_S, S0B0POSLemma: E_coda, S0B0Token: alla_coda, S0B1Lemma: al_;, S0B1LemmaPOS: al_F, S0B1POS: E_F, S0B1POSLemma: E_;, S0B1Token: alla_;, S0Lemma: al, S0POS: E, S0Token: alla, al_coda_hasRighDep_prep: true, al_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [coda, ;, non ,.. ]
-
-B0Lemma: coda, B0POS: S, B0Token: coda, transitionHistoryLength3: 020, 
-
-111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [coda]   B= [;, non, si ,.. ]
-
-B0Lemma: ;, B0POS: F, B0Token: ;, S0B0Lemma: coda_;, S0B0LemmaPOS: coda_F, S0B0POS: S_F, S0B0POSLemma: S_;, S0B0Token: coda_;, S0B1Lemma: coda_non, S0B1LemmaPOS: coda_B, S0B1POS: S_B, S0B1POSLemma: S_non, S0B1Token: coda_non, S0Lemma: coda, S0POS: S, S0Token: coda, coda_;_hasRighDep_punc: true, coda_hasRighDep_punc: true, hasRighDep_punc: true, transitionHistoryLength3: 202, 
-
-112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [;, non, si ,.. ]
-
-B0Lemma: ;, B0POS: F, B0Token: ;, transitionHistoryLength3: 020, 
-
-113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [;]   B= [non, si, accorge ,.. ]
-
-B0Lemma: non, B0POS: B, B0Token: non, S0B0Lemma: ;_non, S0B0LemmaPOS: ;_B, S0B0POS: F_B, S0B0POSLemma: F_non, S0B0Token: ;_non, S0B1Lemma: ;_si, S0B1LemmaPOS: ;_P, S0B1POS: F_P, S0B1POSLemma: F_si, S0B1Token: ;_si, S0Lemma: ;, S0POS: F, S0Token: ;, transitionHistoryLength3: 202, 
-
-114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, si, accorge ,.. ]
-
-B0Lemma: non, B0POS: B, B0Token: non, transitionHistoryLength3: 020, 
-
-115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [si, accorge, di ,.. ]
-
-B0Lemma: si, B0POS: P, B0Token: si, S0B0Lemma: non_si, S0B0LemmaPOS: non_P, S0B0POS: B_P, S0B0POSLemma: B_si, S0B0Token: non_si, S0B1Lemma: non_accorgersi, S0B1LemmaPOS: non_V, S0B1POS: B_V, S0B1POSLemma: B_accorgersi, S0B1Token: non_accorge, S0Lemma: non, S0POS: B, S0Token: non, non_isGouvernedBy_accorgersi: true, non_isGouvernedBy_accorgersi_neg: true, transitionHistoryLength3: 202, 
-
-116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, accorge, di ,.. ]
-
-B0Lemma: si, B0POS: P, B0Token: si, transitionHistoryLength3: 020, 
-
-117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [accorge, di, aver ,.. ]
-
-B0Lemma: accorgersi, B0POS: V, B0Token: accorge, S0B0Lemma: si_accorgersi, S0B0LemmaPOS: si_V, S0B0POS: P_V, S0B0POSLemma: P_accorgersi, S0B0Token: si_accorge, S0B1Lemma: si_di, S0B1LemmaPOS: si_E, S0B1POS: P_E, S0B1POSLemma: P_di, S0B1Token: si_di, S0Lemma: si, S0POS: P, S0Token: si, si_isGouvernedBy_accorgersi: true, si_isGouvernedBy_accorgersi_clit: true, transitionHistoryLength3: 202, 
-
-118- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, accorge]   B= [di, aver, lavorato ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: accorgersi_di, S0B0LemmaPOS: accorgersi_E, S0B0POS: V_E, S0B0POSLemma: V_di, S0B0Token: accorge_di, S0B1Lemma: accorgersi_avere, S0B1LemmaPOS: accorgersi_V, S0B1POS: V_V, S0B1POSLemma: V_avere, S0B1Token: accorge_aver, S0Lemma: accorgersi, S0POS: V, S0S1Distance: 1, S0Token: accorge, S1B0Lemma: si_di, S1B0LemmaPOS: si_E, S1B0POS: P_E, S1B0POSLemma: P_di, S1B0Token: si_di, S1Lemma: si, S1POS: P, S1S0Lemma: si_accorgersi, S1S0LemmaPOS: si_V, S1S0POS: P_V, S1S0POSLemma: P_accorgersi, S1S0Token: si_accorge, S1Token: si, SyntaxicRelation: -clit, accorgersi_di_hasRighDep_arg: true, accorgersi_hasRighDep_arg: true, accorgersi_hasRighDep_con: true, accorgersi_ma_hasRighDep_con: true, hasRighDep_arg: true, hasRighDep_con: true, transitionHistoryLength3: 020, 
-
-119- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[si, accorge]]   B= [di, aver, lavorato ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: si_accorgersi_di, S0B0LemmaPOS: si_accorgersi_E, S0B0POS: P_V_E, S0B0POSLemma: P_V_di, S0B0Token: si_accorge_di, S0B1Lemma: si_accorgersi_avere, S0B1LemmaPOS: si_accorgersi_V, S0B1POS: P_V_V, S0B1POSLemma: P_V_avere, S0B1Token: si_accorge_aver, S0Lemma: si_accorgersi, S0POS: P_V, S0Token: si_accorge, transitionHistoryLength3: 002, 
-
-120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, aver, lavorato ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 100, 
-
-121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [aver, lavorato, utilmente ,.. ]
-
-B0Lemma: avere, B0POS: V, B0Token: aver, S0B0Lemma: di_avere, S0B0LemmaPOS: di_V, S0B0POS: E_V, S0B0POSLemma: E_avere, S0B0Token: di_aver, S0B1Lemma: di_lavorare, S0B1LemmaPOS: di_V, S0B1POS: E_V, S0B1POSLemma: E_lavorare, S0B1Token: di_lavorato, S0Lemma: di, S0POS: E, S0Token: di, di_hasRighDep_prep: true, di_lavorare_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 210, 
-
-122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aver, lavorato, utilmente ,.. ]
-
-B0Lemma: avere, B0POS: V, B0Token: aver, transitionHistoryLength3: 021, 
-
-123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aver]   B= [lavorato, utilmente, sì ,.. ]
-
-B0Lemma: lavorare, B0POS: V, B0Token: lavorato, S0B0Lemma: avere_lavorare, S0B0LemmaPOS: avere_V, S0B0POS: V_V, S0B0POSLemma: V_lavorare, S0B0Token: aver_lavorato, S0B1Lemma: avere_utilmente, S0B1LemmaPOS: avere_B, S0B1POS: V_B, S0B1POSLemma: V_utilmente, S0B1Token: aver_utilmente, S0Lemma: avere, S0POS: V, S0Token: aver, avere_isGouvernedBy_lavorare: true, avere_isGouvernedBy_lavorare_aux: true, transitionHistoryLength3: 202, 
-
-124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lavorato, utilmente, sì ,.. ]
-
-B0Lemma: lavorare, B0POS: V, B0Token: lavorato, transitionHistoryLength3: 020, 
-
-125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lavorato]   B= [utilmente, sì, , ,.. ]
-
-B0Lemma: utilmente, B0POS: B, B0Token: utilmente, S0B0Lemma: lavorare_utilmente, S0B0LemmaPOS: lavorare_B, S0B0POS: V_B, S0B0POSLemma: V_utilmente, S0B0Token: lavorato_utilmente, S0B1Lemma: lavorare_sì, S0B1LemmaPOS: lavorare_B, S0B1POS: V_B, S0B1POSLemma: V_sì, S0B1Token: lavorato_sì, S0Lemma: lavorare, S0POS: V, S0Token: lavorato, hasRighDep_mod: true, lavorare_a_hasRighDep_mod: true, lavorare_hasRighDep_mod: true, lavorare_sì_hasRighDep_mod: true, lavorare_utilmente_hasRighDep_mod: true, transitionHistoryLength3: 202, 
-
-126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [utilmente, sì, , ,.. ]
-
-B0Lemma: utilmente, B0POS: B, B0Token: utilmente, transitionHistoryLength3: 020, 
-
-127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [utilmente]   B= [sì, ,, a ,.. ]
-
-B0Lemma: sì, B0POS: B, B0Token: sì, S0B0Lemma: utilmente_sì, S0B0LemmaPOS: utilmente_B, S0B0POS: B_B, S0B0POSLemma: B_sì, S0B0Token: utilmente_sì, S0B1Lemma: utilmente_,, S0B1LemmaPOS: utilmente_F, S0B1POS: B_F, S0B1POSLemma: B_,, S0B1Token: utilmente_,, S0Lemma: utilmente, S0POS: B, S0Token: utilmente, transitionHistoryLength3: 202, 
-
-128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sì, ,, a ,.. ]
-
-B0Lemma: sì, B0POS: B, B0Token: sì, transitionHistoryLength3: 020, 
-
-129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sì]   B= [,, a, distruggere ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: sì_,, S0B0LemmaPOS: sì_F, S0B0POS: B_F, S0B0POSLemma: B_,, S0B0Token: sì_,, S0B1Lemma: sì_a, S0B1LemmaPOS: sì_E, S0B1POS: B_E, S0B1POSLemma: B_a, S0B1Token: sì_a, S0Lemma: sì, S0POS: B, S0Token: sì, hasRighDep_punc: true, sì_,_hasRighDep_punc: true, sì_hasRighDep_punc: true, transitionHistoryLength3: 202, 
-
-130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, a, distruggere ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [a, distruggere, tante ,.. ]
-
-B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: ,_a, S0B0LemmaPOS: ,_E, S0B0POS: F_E, S0B0POSLemma: F_a, S0B0Token: ,_a, S0B1Lemma: ,_distruggere, S0B1LemmaPOS: ,_V, S0B1POS: F_V, S0B1POSLemma: F_distruggere, S0B1Token: ,_distruggere, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, distruggere, tante ,.. ]
-
-B0Lemma: a, B0POS: E, B0Token: a, transitionHistoryLength3: 020, 
-
-133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [distruggere, tante, cose ,.. ]
-
-B0Lemma: distruggere, B0POS: V, B0Token: distruggere, S0B0Lemma: a_distruggere, S0B0LemmaPOS: a_V, S0B0POS: E_V, S0B0POSLemma: E_distruggere, S0B0Token: a_distruggere, S0B1Lemma: a_tanto, S0B1LemmaPOS: a_D, S0B1POS: E_D, S0B1POSLemma: E_tanto, S0B1Token: a_tante, S0Lemma: a, S0POS: E, S0Token: a, a_,_hasRighDep_punc: true, a_distruggere_hasRighDep_prep: true, a_hasRighDep_prep: true, a_hasRighDep_punc: true, hasRighDep_prep: true, hasRighDep_punc: true, transitionHistoryLength3: 202, 
-
-134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [distruggere, tante, cose ,.. ]
-
-B0Lemma: distruggere, B0POS: V, B0Token: distruggere, transitionHistoryLength3: 020, 
-
-135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [distruggere]   B= [tante, cose, , ,.. ]
-
-B0Lemma: tanto, B0POS: D, B0Token: tante, S0B0Lemma: distruggere_tanto, S0B0LemmaPOS: distruggere_D, S0B0POS: V_D, S0B0POSLemma: V_tanto, S0B0Token: distruggere_tante, S0B1Lemma: distruggere_cosa, S0B1LemmaPOS: distruggere_S, S0B1POS: V_S, S0B1POSLemma: V_cosa, S0B1Token: distruggere_cose, S0Lemma: distruggere, S0POS: V, S0Token: distruggere, distruggere_cosa_hasRighDep_obj: true, distruggere_hasRighDep_obj: true, hasRighDep_obj: true, transitionHistoryLength3: 202, 
-
-136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tante, cose, , ,.. ]
-
-B0Lemma: tanto, B0POS: D, B0Token: tante, transitionHistoryLength3: 020, 
-
-137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tante]   B= [cose, ,, ma ,.. ]
-
-B0Lemma: cosa, B0POS: S, B0Token: cose, S0B0Lemma: tanto_cosa, S0B0LemmaPOS: tanto_S, S0B0POS: D_S, S0B0POSLemma: D_cosa, S0B0Token: tante_cose, S0B1Lemma: tanto_,, S0B1LemmaPOS: tanto_F, S0B1POS: D_F, S0B1POSLemma: D_,, S0B1Token: tante_,, S0Lemma: tanto, S0POS: D, S0Token: tante, tanto_isGouvernedBy_cosa: true, tanto_isGouvernedBy_cosa_mod: true, transitionHistoryLength3: 202, 
-
-138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cose, ,, ma ,.. ]
-
-B0Lemma: cosa, B0POS: S, B0Token: cose, transitionHistoryLength3: 020, 
-
-139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cose]   B= [,, ma, di ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: cosa_,, S0B0LemmaPOS: cosa_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: cose_,, S0B1Lemma: cosa_ma, S0B1LemmaPOS: cosa_C, S0B1POS: S_C, S0B1POSLemma: S_ma, S0B1Token: cose_ma, S0Lemma: cosa, S0POS: S, S0Token: cose, transitionHistoryLength3: 202, 
-
-140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ma, di ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-141- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ma, di, aver ,.. ]
-
-B0Lemma: ma, B0POS: C, B0Token: ma, S0B0Lemma: ,_ma, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_ma, S0B0Token: ,_ma, S0B1Lemma: ,_di, S0B1LemmaPOS: ,_E, S0B1POS: F_E, S0B1POSLemma: F_di, S0B1Token: ,_di, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-142- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, di, aver ,.. ]
-
-B0Lemma: ma, B0POS: C, B0Token: ma, transitionHistoryLength3: 020, 
-
-143- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [di, aver, lavorato ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: ma_di, S0B0LemmaPOS: ma_E, S0B0POS: C_E, S0B0POSLemma: C_di, S0B0Token: ma_di, S0B1Lemma: ma_avere, S0B1LemmaPOS: ma_V, S0B1POS: C_V, S0B1POSLemma: C_avere, S0B1Token: ma_aver, S0Lemma: ma, S0POS: C, S0Token: ma, transitionHistoryLength3: 202, 
-
-144- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, aver, lavorato ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
-
-145- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [aver, lavorato, non ,.. ]
-
-B0Lemma: avere, B0POS: V, B0Token: aver, S0B0Lemma: di_avere, S0B0LemmaPOS: di_V, S0B0POS: E_V, S0B0POSLemma: E_avere, S0B0Token: di_aver, S0B1Lemma: di_lavorare, S0B1LemmaPOS: di_V, S0B1POS: E_V, S0B1POSLemma: E_lavorare, S0B1Token: di_lavorato, S0Lemma: di, S0POS: E, S0Token: di, di_hasRighDep_prep: true, di_lavorare_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-146- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aver, lavorato, non ,.. ]
-
-B0Lemma: avere, B0POS: V, B0Token: aver, transitionHistoryLength3: 020, 
-
-147- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aver]   B= [lavorato, non, per ,.. ]
-
-B0Lemma: lavorare, B0POS: V, B0Token: lavorato, S0B0Lemma: avere_lavorare, S0B0LemmaPOS: avere_V, S0B0POS: V_V, S0B0POSLemma: V_lavorare, S0B0Token: aver_lavorato, S0B1Lemma: avere_non, S0B1LemmaPOS: avere_B, S0B1POS: V_B, S0B1POSLemma: V_non, S0B1Token: aver_non, S0Lemma: avere, S0POS: V, S0Token: aver, avere_isGouvernedBy_lavorare: true, avere_isGouvernedBy_lavorare_aux: true, transitionHistoryLength3: 202, 
-
-148- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lavorato, non, per ,.. ]
-
-B0Lemma: lavorare, B0POS: V, B0Token: lavorato, transitionHistoryLength3: 020, 
-
-149- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lavorato]   B= [non, per, sé ,.. ]
-
-B0Lemma: non, B0POS: B, B0Token: non, S0B0Lemma: lavorare_non, S0B0LemmaPOS: lavorare_B, S0B0POS: V_B, S0B0POSLemma: V_non, S0B0Token: lavorato_non, S0B1Lemma: lavorare_per, S0B1LemmaPOS: lavorare_E, S0B1POS: V_E, S0B1POSLemma: V_per, S0B1Token: lavorato_per, S0Lemma: lavorare, S0POS: V, S0Token: lavorato, hasRighDep_comp: true, lavorare_hasRighDep_comp: true, lavorare_per_hasRighDep_comp: true, transitionHistoryLength3: 202, 
-
-150- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, per, sé ,.. ]
-
-B0Lemma: non, B0POS: B, B0Token: non, transitionHistoryLength3: 020, 
-
-151- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [per, sé, , ,.. ]
-
-B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: non_per, S0B0LemmaPOS: non_E, S0B0POS: B_E, S0B0POSLemma: B_per, S0B0Token: non_per, S0B1Lemma: non_sé, S0B1LemmaPOS: non_P, S0B1POS: B_P, S0B1POSLemma: B_sé, S0B1Token: non_sé, S0Lemma: non, S0POS: B, S0Token: non, non_isGouvernedBy_per: true, non_isGouvernedBy_per_neg: true, transitionHistoryLength3: 202, 
-
-152- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, sé, , ,.. ]
-
-B0Lemma: per, B0POS: E, B0Token: per, transitionHistoryLength3: 020, 
-
-153- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [sé, ,, sibbene ,.. ]
-
-B0Lemma: sé, B0POS: P, B0Token: sé, S0B0Lemma: per_sé, S0B0LemmaPOS: per_P, S0B0POS: E_P, S0B0POSLemma: E_sé, S0B0Token: per_sé, S0B1Lemma: per_,, S0B1LemmaPOS: per_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: per_,, S0Lemma: per, S0POS: E, S0Token: per, hasRighDep_comp: true, hasRighDep_mod: true, hasRighDep_prep: true, per_hasRighDep_comp: true, per_hasRighDep_mod: true, per_hasRighDep_prep: true, per_per_hasRighDep_comp: true, per_sibbene_hasRighDep_mod: true, per_sé_hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-154- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sé, ,, sibbene ,.. ]
-
-B0Lemma: sé, B0POS: P, B0Token: sé, transitionHistoryLength3: 020, 
-
-155- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sé]   B= [,, sibbene, per ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: sé_,, S0B0LemmaPOS: sé_F, S0B0POS: P_F, S0B0POSLemma: P_,, S0B0Token: sé_,, S0B1Lemma: sé_sibbene, S0B1LemmaPOS: sé_C, S0B1POS: P_C, S0B1POSLemma: P_sibbene, S0B1Token: sé_sibbene, S0Lemma: sé, S0POS: P, S0Token: sé, transitionHistoryLength3: 202, 
-
-156- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, sibbene, per ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-157- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [sibbene, per, uno ,.. ]
-
-,_isGouvernedBy_sibbene: true, ,_isGouvernedBy_sibbene_punc: true, B0Lemma: sibbene, B0POS: C, B0Token: sibbene, S0B0Lemma: ,_sibbene, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_sibbene, S0B0Token: ,_sibbene, S0B1Lemma: ,_per, S0B1LemmaPOS: ,_E, S0B1POS: F_E, S0B1POSLemma: F_per, S0B1Token: ,_per, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-158- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sibbene, per, uno ,.. ]
-
-B0Lemma: sibbene, B0POS: C, B0Token: sibbene, transitionHistoryLength3: 020, 
-
-159- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sibbene]   B= [per, uno, molto ,.. ]
-
-B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: sibbene_per, S0B0LemmaPOS: sibbene_E, S0B0POS: C_E, S0B0POSLemma: C_per, S0B0Token: sibbene_per, S0B1Lemma: sibbene_uno, S0B1LemmaPOS: sibbene_P, S0B1POS: C_P, S0B1POSLemma: C_uno, S0B1Token: sibbene_uno, S0Lemma: sibbene, S0POS: C, S0Token: sibbene, transitionHistoryLength3: 202, 
-
-160- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, uno, molto ,.. ]
-
-B0Lemma: per, B0POS: E, B0Token: per, transitionHistoryLength3: 020, 
-
-161- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [uno, molto, più ,.. ]
-
-B0Lemma: uno, B0POS: P, B0Token: uno, S0B0Lemma: per_uno, S0B0LemmaPOS: per_P, S0B0POS: E_P, S0B0POSLemma: E_uno, S0B0Token: per_uno, S0B1Lemma: per_molto, S0B1LemmaPOS: per_B, S0B1POS: E_B, S0B1POSLemma: E_molto, S0B1Token: per_molto, S0Lemma: per, S0POS: E, S0Token: per, hasRighDep_prep: true, per_hasRighDep_prep: true, per_uno_hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-162- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [uno, molto, più ,.. ]
-
-B0Lemma: uno, B0POS: P, B0Token: uno, transitionHistoryLength3: 020, 
-
-163- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uno]   B= [molto, più, forte ,.. ]
-
-B0Lemma: molto, B0POS: B, B0Token: molto, S0B0Lemma: uno_molto, S0B0LemmaPOS: uno_B, S0B0POS: P_B, S0B0POSLemma: P_molto, S0B0Token: uno_molto, S0B1Lemma: uno_più, S0B1LemmaPOS: uno_B, S0B1POS: P_B, S0B1POSLemma: P_più, S0B1Token: uno_più, S0Lemma: uno, S0POS: P, S0Token: uno, hasRighDep_mod: true, hasRighDep_pred: true, hasRighDep_punc: true, transitionHistoryLength3: 202, uno_,_hasRighDep_punc: true, uno_forte_hasRighDep_pred: true, uno_hasRighDep_mod: true, uno_hasRighDep_pred: true, uno_hasRighDep_punc: true, uno_molto_hasRighDep_mod: true, 
-
-164- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [molto, più, forte ,.. ]
-
-B0Lemma: molto, B0POS: B, B0Token: molto, transitionHistoryLength3: 020, 
-
-165- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [molto]   B= [più, forte, , ,.. ]
-
-B0Lemma: più, B0POS: B, B0Token: più, S0B0Lemma: molto_più, S0B0LemmaPOS: molto_B, S0B0POS: B_B, S0B0POSLemma: B_più, S0B0Token: molto_più, S0B1Lemma: molto_forte, S0B1LemmaPOS: molto_A, S0B1POS: B_A, S0B1POSLemma: B_forte, S0B1Token: molto_forte, S0Lemma: molto, S0POS: B, S0Token: molto, molto_isGouvernedBy_più: true, molto_isGouvernedBy_più_mod: true, transitionHistoryLength3: 202, 
-
-166- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [più, forte, , ,.. ]
-
-B0Lemma: più, B0POS: B, B0Token: più, transitionHistoryLength3: 020, 
-
-167- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [più]   B= [forte, ,, molto ,.. ]
-
-B0Lemma: forte, B0POS: A, B0Token: forte, S0B0Lemma: più_forte, S0B0LemmaPOS: più_A, S0B0POS: B_A, S0B0POSLemma: B_forte, S0B0Token: più_forte, S0B1Lemma: più_,, S0B1LemmaPOS: più_F, S0B1POS: B_F, S0B1POSLemma: B_,, S0B1Token: più_,, S0Lemma: più, S0POS: B, S0Token: più, più_isGouvernedBy_forte: true, più_isGouvernedBy_forte_mod: true, transitionHistoryLength3: 202, 
-
-168- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forte, ,, molto ,.. ]
-
-B0Lemma: forte, B0POS: A, B0Token: forte, transitionHistoryLength3: 020, 
-
-169- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forte]   B= [,, molto, più ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: forte_,, S0B0LemmaPOS: forte_F, S0B0POS: A_F, S0B0POSLemma: A_,, S0B0Token: forte_,, S0B1Lemma: forte_molto, S0B1LemmaPOS: forte_B, S0B1POS: A_B, S0B1POSLemma: A_molto, S0B1Token: forte_molto, S0Lemma: forte, S0POS: A, S0Token: forte, transitionHistoryLength3: 202, 
-
-170- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, molto, più ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-171- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [molto, più, potente ,.. ]
-
-B0Lemma: molto, B0POS: B, B0Token: molto, S0B0Lemma: ,_molto, S0B0LemmaPOS: ,_B, S0B0POS: F_B, S0B0POSLemma: F_molto, S0B0Token: ,_molto, S0B1Lemma: ,_più, S0B1LemmaPOS: ,_B, S0B1POS: F_B, S0B1POSLemma: F_più, S0B1Token: ,_più, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-172- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [molto, più, potente ,.. ]
-
-B0Lemma: molto, B0POS: B, B0Token: molto, transitionHistoryLength3: 020, 
-
-173- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [molto]   B= [più, potente, , ,.. ]
-
-B0Lemma: più, B0POS: B, B0Token: più, S0B0Lemma: molto_più, S0B0LemmaPOS: molto_B, S0B0POS: B_B, S0B0POSLemma: B_più, S0B0Token: molto_più, S0B1Lemma: molto_potente, S0B1LemmaPOS: molto_A, S0B1POS: B_A, S0B1POSLemma: B_potente, S0B1Token: molto_potente, S0Lemma: molto, S0POS: B, S0Token: molto, hasRighDep_concat: true, hasRighDep_mod: true, hasRighDep_punc: true, molto_,_hasRighDep_punc: true, molto_che_hasRighDep_concat: true, molto_hasRighDep_concat: true, molto_hasRighDep_mod: true, molto_hasRighDep_punc: true, molto_potente_hasRighDep_mod: true, transitionHistoryLength3: 202, 
-
-174- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [più, potente, , ,.. ]
-
-B0Lemma: più, B0POS: B, B0Token: più, transitionHistoryLength3: 020, 
-
-175- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [più]   B= [potente, ,, che ,.. ]
-
-B0Lemma: potente, B0POS: A, B0Token: potente, S0B0Lemma: più_potente, S0B0LemmaPOS: più_A, S0B0POS: B_A, S0B0POSLemma: B_potente, S0B0Token: più_potente, S0B1Lemma: più_,, S0B1LemmaPOS: più_F, S0B1POS: B_F, S0B1POSLemma: B_,, S0B1Token: più_,, S0Lemma: più, S0POS: B, S0Token: più, più_isGouvernedBy_potente: true, più_isGouvernedBy_potente_mod: true, transitionHistoryLength3: 202, 
-
-176- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [potente, ,, che ,.. ]
-
-B0Lemma: potente, B0POS: A, B0Token: potente, transitionHistoryLength3: 020, 
-
-177- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [potente]   B= [,, che, ora ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: potente_,, S0B0LemmaPOS: potente_F, S0B0POS: A_F, S0B0POSLemma: A_,, S0B0Token: potente_,, S0B1Lemma: potente_che, S0B1LemmaPOS: potente_C, S0B1POS: A_C, S0B1POSLemma: A_che, S0B1Token: potente_che, S0Lemma: potente, S0POS: A, S0Token: potente, transitionHistoryLength3: 202, 
-
-178- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, che, ora ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-179- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [che, ora, , ,.. ]
-
-B0Lemma: che, B0POS: C, B0Token: che, S0B0Lemma: ,_che, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_che, S0B0Token: ,_che, S0B1Lemma: ,_ora, S0B1LemmaPOS: ,_B, S0B1POS: F_B, S0B1POSLemma: F_ora, S0B1Token: ,_ora, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-180- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, ora, , ,.. ]
-
-B0Lemma: che, B0POS: C, B0Token: che, transitionHistoryLength3: 020, 
-
-181- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [ora, ,, trovando ,.. ]
-
-B0Lemma: ora, B0POS: B, B0Token: ora, S0B0Lemma: che_ora, S0B0LemmaPOS: che_B, S0B0POS: C_B, S0B0POSLemma: C_ora, S0B0Token: che_ora, S0B1Lemma: che_,, S0B1LemmaPOS: che_F, S0B1POS: C_F, S0B1POSLemma: C_,, S0B1Token: che_,, S0Lemma: che, S0POS: C, S0Token: che, che_arrivare_hasRighDep_sub: true, che_hasRighDep_sub: true, hasRighDep_sub: true, transitionHistoryLength3: 202, 
-
-182- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ora, ,, trovando ,.. ]
-
-B0Lemma: ora, B0POS: B, B0Token: ora, transitionHistoryLength3: 020, 
-
-183- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ora]   B= [,, trovando, le ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: ora_,, S0B0LemmaPOS: ora_F, S0B0POS: B_F, S0B0POSLemma: B_,, S0B0Token: ora_,, S0B1Lemma: ora_trovare, S0B1LemmaPOS: ora_V, S0B1POS: B_V, S0B1POSLemma: B_trovare, S0B1Token: ora_trovando, S0Lemma: ora, S0POS: B, S0Token: ora, hasRighDep_punc: true, ora_,_hasRighDep_punc: true, ora_hasRighDep_punc: true, ora_isGouvernedBy_trovare: true, ora_isGouvernedBy_trovare_mod_temp: true, transitionHistoryLength3: 202, 
-
-184- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, trovando, le ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-185- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [trovando, le, vie ,.. ]
-
-B0Lemma: trovare, B0POS: V, B0Token: trovando, S0B0Lemma: ,_trovare, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_trovare, S0B0Token: ,_trovando, S0B1Lemma: ,_il, S0B1LemmaPOS: ,_R, S0B1POS: F_R, S0B1POSLemma: F_il, S0B1Token: ,_le, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-186- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [trovando, le, vie ,.. ]
-
-B0Lemma: trovare, B0POS: V, B0Token: trovando, transitionHistoryLength3: 020, 
-
-187- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [trovando]   B= [le, vie, sgombre ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: le, S0B0Lemma: trovare_il, S0B0LemmaPOS: trovare_R, S0B0POS: V_R, S0B0POSLemma: V_il, S0B0Token: trovando_le, S0B1Lemma: trovare_via, S0B1LemmaPOS: trovare_S, S0B1POS: V_S, S0B1POSLemma: V_via, S0B1Token: trovando_vie, S0Lemma: trovare, S0POS: V, S0Token: trovando, hasRighDep_obj: true, hasRighDep_punc: true, transitionHistoryLength3: 202, trovare_,_hasRighDep_punc: true, trovare_hasRighDep_obj: true, trovare_hasRighDep_punc: true, trovare_isGouvernedBy_arrivare: true, trovare_isGouvernedBy_arrivare_mod: true, trovare_via_hasRighDep_obj: true, 
-
-188- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [le, vie, sgombre ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: le, transitionHistoryLength3: 020, 
-
-189- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [le]   B= [vie, sgombre, , ,.. ]
-
-B0Lemma: via, B0POS: S, B0Token: vie, S0B0Lemma: il_via, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_via, S0B0Token: le_vie, S0B1Lemma: il_sgombro, S0B1LemmaPOS: il_A, S0B1POS: R_A, S0B1POSLemma: R_sgombro, S0B1Token: le_sgombre, S0Lemma: il, S0POS: R, S0Token: le, il_isGouvernedBy_via: true, il_isGouvernedBy_via_det: true, transitionHistoryLength3: 202, 
-
-190- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vie, sgombre, , ,.. ]
-
-B0Lemma: via, B0POS: S, B0Token: vie, transitionHistoryLength3: 020, 
-
-191- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vie]   B= [sgombre, ,, arriva ,.. ]
-
-B0Lemma: sgombro, B0POS: A, B0Token: sgombre, S0B0Lemma: via_sgombro, S0B0LemmaPOS: via_A, S0B0POS: S_A, S0B0POSLemma: S_sgombro, S0B0Token: vie_sgombre, S0B1Lemma: via_,, S0B1LemmaPOS: via_F, S0B1POS: S_F, S0B1POSLemma: S_,, S0B1Token: vie_,, S0Lemma: via, S0POS: S, S0Token: vie, hasRighDep_mod: true, transitionHistoryLength3: 202, via_hasRighDep_mod: true, via_sgombro_hasRighDep_mod: true, 
-
-192- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sgombre, ,, arriva ,.. ]
-
-B0Lemma: sgombro, B0POS: A, B0Token: sgombre, transitionHistoryLength3: 020, 
-
-193- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sgombre]   B= [,, arriva, e ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: sgombro_,, S0B0LemmaPOS: sgombro_F, S0B0POS: A_F, S0B0POSLemma: A_,, S0B0Token: sgombre_,, S0B1Lemma: sgombro_arrivare, S0B1LemmaPOS: sgombro_V, S0B1POS: A_V, S0B1POSLemma: A_arrivare, S0B1Token: sgombre_arriva, S0Lemma: sgombro, S0POS: A, S0Token: sgombre, transitionHistoryLength3: 202, 
-
-194- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, arriva, e ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-195- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [arriva, e, se ,.. ]
-
-B0Lemma: arrivare, B0POS: V, B0Token: arriva, S0B0Lemma: ,_arrivare, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_arrivare, S0B0Token: ,_arriva, S0B1Lemma: ,_e, S0B1LemmaPOS: ,_C, S0B1POS: F_C, S0B1POSLemma: F_e, S0B1Token: ,_e, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-196- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [arriva, e, se ,.. ]
-
-B0Lemma: arrivare, B0POS: V, B0Token: arriva, transitionHistoryLength3: 020, 
-
-197- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [arriva]   B= [e, se, lo ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: arrivare_e, S0B0LemmaPOS: arrivare_C, S0B0POS: V_C, S0B0POSLemma: V_e, S0B0Token: arriva_e, S0B1Lemma: arrivare_se, S0B1LemmaPOS: arrivare_C, S0B1POS: V_C, S0B1POSLemma: V_se, S0B1Token: arriva_se, S0Lemma: arrivare, S0POS: V, S0Token: arriva, arrivare_e_hasRighDep_con: true, arrivare_hasRighDep_con: true, arrivare_hasRighDep_conj: true, arrivare_lasciare_hasRighDep_conj: true, hasRighDep_con: true, hasRighDep_conj: true, transitionHistoryLength3: 202, 
-
-198- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, se, lo ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
-
-199- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [se, lo, piglia ,.. ]
-
-B0Lemma: se, B0POS: C, B0Token: se, S0B0Lemma: e_se, S0B0LemmaPOS: e_C, S0B0POS: C_C, S0B0POSLemma: C_se, S0B0Token: e_se, S0B1Lemma: e_lo, S0B1LemmaPOS: e_P, S0B1POS: C_P, S0B1POSLemma: C_lo, S0B1Token: e_lo, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
-
-200- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, lo, piglia ,.. ]
-
-B0Lemma: se, B0POS: C, B0Token: se, transitionHistoryLength3: 020, 
-
-201- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [lo, piglia, lui ,.. ]
-
-B0Lemma: lo, B0POS: P, B0Token: lo, S0B0Lemma: se_lo, S0B0LemmaPOS: se_P, S0B0POS: C_P, S0B0POSLemma: C_lo, S0B0Token: se_lo, S0B1Lemma: se_pigliare, S0B1LemmaPOS: se_V, S0B1POS: C_V, S0B1POSLemma: C_pigliare, S0B1Token: se_piglia, S0Lemma: se, S0POS: C, S0Token: se, hasRighDep_con: true, hasRighDep_sub: true, se_,_hasRighDep_con: true, se_e_hasRighDep_con: true, se_hasRighDep_con: true, se_hasRighDep_sub: true, se_isGouvernedBy_lasciare: true, se_isGouvernedBy_lasciare_mod: true, se_pigliare_hasRighDep_sub: true, transitionHistoryLength3: 202, 
-
-202- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lo, piglia, lui ,.. ]
-
-B0Lemma: lo, B0POS: P, B0Token: lo, transitionHistoryLength3: 020, 
-
-203- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lo]   B= [piglia, lui, il ,.. ]
-
-B0Lemma: pigliare, B0POS: V, B0Token: piglia, S0B0Lemma: lo_pigliare, S0B0LemmaPOS: lo_V, S0B0POS: P_V, S0B0POSLemma: P_pigliare, S0B0Token: lo_piglia, S0B1Lemma: lo_lui, S0B1LemmaPOS: lo_P, S0B1POS: P_P, S0B1POSLemma: P_lui, S0B1Token: lo_lui, S0Lemma: lo, S0POS: P, S0Token: lo, lo_isGouvernedBy_pigliare: true, lo_isGouvernedBy_pigliare_obj: true, transitionHistoryLength3: 202, 
-
-204- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [piglia, lui, il ,.. ]
-
-B0Lemma: pigliare, B0POS: V, B0Token: piglia, transitionHistoryLength3: 020, 
-
-205- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [piglia]   B= [lui, il, mondo ,.. ]
-
-B0Lemma: lui, B0POS: P, B0Token: lui, S0B0Lemma: pigliare_lui, S0B0LemmaPOS: pigliare_P, S0B0POS: V_P, S0B0POSLemma: V_lui, S0B0Token: piglia_lui, S0B1Lemma: pigliare_il, S0B1LemmaPOS: pigliare_R, S0B1POS: V_R, S0B1POSLemma: V_il, S0B1Token: piglia_il, S0Lemma: pigliare, S0POS: V, S0Token: piglia, hasRighDep_obj: true, hasRighDep_subj: true, pigliare_hasRighDep_obj: true, pigliare_hasRighDep_subj: true, pigliare_lui_hasRighDep_subj: true, pigliare_mondo_hasRighDep_obj: true, transitionHistoryLength3: 202, 
-
-206- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lui, il, mondo ,.. ]
-
-B0Lemma: lui, B0POS: P, B0Token: lui, transitionHistoryLength3: 020, 
-
-207- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lui]   B= [il, mondo, , ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: il, S0B0Lemma: lui_il, S0B0LemmaPOS: lui_R, S0B0POS: P_R, S0B0POSLemma: P_il, S0B0Token: lui_il, S0B1Lemma: lui_mondo, S0B1LemmaPOS: lui_S, S0B1POS: P_S, S0B1POSLemma: P_mondo, S0B1Token: lui_mondo, S0Lemma: lui, S0POS: P, S0Token: lui, transitionHistoryLength3: 202, 
-
-208- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, mondo, , ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: il, transitionHistoryLength3: 020, 
-
-209- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [mondo, ,, e ,.. ]
-
-B0Lemma: mondo, B0POS: S, B0Token: mondo, S0B0Lemma: il_mondo, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_mondo, S0B0Token: il_mondo, S0B1Lemma: il_,, S0B1LemmaPOS: il_F, S0B1POS: R_F, S0B1POSLemma: R_,, S0B1Token: il_,, S0Lemma: il, S0POS: R, S0Token: il, il_isGouvernedBy_mondo: true, il_isGouvernedBy_mondo_det: true, transitionHistoryLength3: 202, 
-
-210- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mondo, ,, e ,.. ]
-
-B0Lemma: mondo, B0POS: S, B0Token: mondo, transitionHistoryLength3: 020, 
-
-211- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mondo]   B= [,, e, lascerà ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: mondo_,, S0B0LemmaPOS: mondo_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: mondo_,, S0B1Lemma: mondo_e, S0B1LemmaPOS: mondo_C, S0B1POS: S_C, S0B1POSLemma: S_e, S0B1Token: mondo_e, S0Lemma: mondo, S0POS: S, S0Token: mondo, transitionHistoryLength3: 202, 
-
-212- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, e, lascerà ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-213- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [e, lascerà, forse ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: ,_e, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_e, S0B0Token: ,_e, S0B1Lemma: ,_lasciare, S0B1LemmaPOS: ,_V, S0B1POS: F_V, S0B1POSLemma: F_lasciare, S0B1Token: ,_lascerà, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-214- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, lascerà, forse ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
-
-215- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [lascerà, forse, a ,.. ]
-
-B0Lemma: lasciare, B0POS: V, B0Token: lascerà, S0B0Lemma: e_lasciare, S0B0LemmaPOS: e_V, S0B0POS: C_V, S0B0POSLemma: C_lasciare, S0B0Token: e_lascerà, S0B1Lemma: e_forse, S0B1LemmaPOS: e_B, S0B1POS: C_B, S0B1POSLemma: C_forse, S0B1Token: e_forse, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
-
-216- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lascerà, forse, a ,.. ]
-
-B0Lemma: lasciare, B0POS: V, B0Token: lascerà, transitionHistoryLength3: 020, 
-
-217- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lascerà]   B= [forse, a, simili ,.. ]
-
-B0Lemma: forse, B0POS: B, B0Token: forse, S0B0Lemma: lasciare_forse, S0B0LemmaPOS: lasciare_B, S0B0POS: V_B, S0B0POSLemma: V_forse, S0B0Token: lascerà_forse, S0B1Lemma: lasciare_a, S0B1LemmaPOS: lasciare_E, S0B1POS: V_E, S0B1POSLemma: V_a, S0B1Token: lascerà_a, S0Lemma: lasciare, S0POS: V, S0Token: lascerà, hasRighDep_comp: true, hasRighDep_mod: true, hasRighDep_obj: true, lasciare_a_hasRighDep_comp: true, lasciare_forse_hasRighDep_mod: true, lasciare_hasRighDep_comp: true, lasciare_hasRighDep_mod: true, lasciare_hasRighDep_obj: true, lasciare_prato_hasRighDep_obj: true, transitionHistoryLength3: 202, 
-
-218- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forse, a, simili ,.. ]
-
-B0Lemma: forse, B0POS: B, B0Token: forse, transitionHistoryLength3: 020, 
-
-219- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forse]   B= [a, simili, liberali ,.. ]
-
-B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: forse_a, S0B0LemmaPOS: forse_E, S0B0POS: B_E, S0B0POSLemma: B_a, S0B0Token: forse_a, S0B1Lemma: forse_simile, S0B1LemmaPOS: forse_A, S0B1POS: B_A, S0B1POSLemma: B_simile, S0B1Token: forse_simili, S0Lemma: forse, S0POS: B, S0Token: forse, transitionHistoryLength3: 202, 
-
-220- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, simili, liberali ,.. ]
-
-B0Lemma: a, B0POS: E, B0Token: a, transitionHistoryLength3: 020, 
-
-221- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [simili, liberali, qualche ,.. ]
-
-B0Lemma: simile, B0POS: A, B0Token: simili, S0B0Lemma: a_simile, S0B0LemmaPOS: a_A, S0B0POS: E_A, S0B0POSLemma: E_simile, S0B0Token: a_simili, S0B1Lemma: a_liberale, S0B1LemmaPOS: a_A, S0B1POS: E_A, S0B1POSLemma: E_liberale, S0B1Token: a_liberali, S0Lemma: a, S0POS: E, S0Token: a, a_hasRighDep_prep: true, a_simile_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-222- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [simili, liberali, qualche ,.. ]
-
-B0Lemma: simile, B0POS: A, B0Token: simili, transitionHistoryLength3: 020, 
-
-223- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [simili]   B= [liberali, qualche, prato ,.. ]
-
-B0Lemma: liberale, B0POS: A, B0Token: liberali, S0B0Lemma: simile_liberale, S0B0LemmaPOS: simile_A, S0B0POS: A_A, S0B0POSLemma: A_liberale, S0B0Token: simili_liberali, S0B1Lemma: simile_qualche, S0B1LemmaPOS: simile_D, S0B1POS: A_D, S0B1POSLemma: A_qualche, S0B1Token: simili_qualche, S0Lemma: simile, S0POS: A, S0Token: simili, hasRighDep_mod: true, simile_hasRighDep_mod: true, simile_liberale_hasRighDep_mod: true, transitionHistoryLength3: 202, 
-
-224- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [liberali, qualche, prato ,.. ]
-
-B0Lemma: liberale, B0POS: A, B0Token: liberali, transitionHistoryLength3: 020, 
-
-225- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [liberali]   B= [qualche, prato, d' ,.. ]
-
-B0Lemma: qualche, B0POS: D, B0Token: qualche, S0B0Lemma: liberale_qualche, S0B0LemmaPOS: liberale_D, S0B0POS: A_D, S0B0POSLemma: A_qualche, S0B0Token: liberali_qualche, S0B1Lemma: liberale_prato, S0B1LemmaPOS: liberale_S, S0B1POS: A_S, S0B1POSLemma: A_prato, S0B1Token: liberali_prato, S0Lemma: liberale, S0POS: A, S0Token: liberali, transitionHistoryLength3: 202, 
-
-226- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qualche, prato, d' ,.. ]
-
-B0Lemma: qualche, B0POS: D, B0Token: qualche, transitionHistoryLength3: 020, 
-
-227- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qualche]   B= [prato, d', Arcadia ,.. ]
-
-B0Lemma: prato, B0POS: S, B0Token: prato, S0B0Lemma: qualche_prato, S0B0LemmaPOS: qualche_S, S0B0POS: D_S, S0B0POSLemma: D_prato, S0B0Token: qualche_prato, S0B1Lemma: qualche_d', S0B1LemmaPOS: qualche_E, S0B1POS: D_E, S0B1POSLemma: D_d', S0B1Token: qualche_d', S0Lemma: qualche, S0POS: D, S0Token: qualche, qualche_isGouvernedBy_prato: true, qualche_isGouvernedBy_prato_mod: true, transitionHistoryLength3: 202, 
-
-228- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prato, d', Arcadia ,.. ]
-
-B0Lemma: prato, B0POS: S, B0Token: prato, transitionHistoryLength3: 020, 
-
-229- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prato]   B= [d', Arcadia, e ,.. ]
-
-B0Lemma: d', B0POS: E, B0Token: d', S0B0Lemma: prato_d', S0B0LemmaPOS: prato_E, S0B0POS: S_E, S0B0POSLemma: S_d', S0B0Token: prato_d', S0B1Lemma: prato_Arcadia, S0B1LemmaPOS: prato_S, S0B1POS: S_S, S0B1POSLemma: S_Arcadia, S0B1Token: prato_Arcadia, S0Lemma: prato, S0POS: S, S0Token: prato, hasRighDep_comp_loc: true, prato_d'_hasRighDep_comp_loc: true, prato_hasRighDep_comp_loc: true, transitionHistoryLength3: 202, 
-
-230- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [d', Arcadia, e ,.. ]
-
-B0Lemma: d', B0POS: E, B0Token: d', transitionHistoryLength3: 020, 
-
-231- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [d']   B= [Arcadia, e, poche ,.. ]
-
-B0Lemma: Arcadia, B0POS: S, B0Token: Arcadia, S0B0Lemma: d'_Arcadia, S0B0LemmaPOS: d'_S, S0B0POS: E_S, S0B0POSLemma: E_Arcadia, S0B0Token: d'_Arcadia, S0B1Lemma: d'_e, S0B1LemmaPOS: d'_C, S0B1POS: E_C, S0B1POSLemma: E_e, S0B1Token: d'_e, S0Lemma: d', S0POS: E, S0Token: d', d'_Arcadia_hasRighDep_prep: true, d'_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-232- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Arcadia, e, poche ,.. ]
-
-B0Lemma: Arcadia, B0POS: S, B0Token: Arcadia, transitionHistoryLength3: 020, 
-
-233- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Arcadia]   B= [e, poche, pecore ,.. ]
-
-Arcadia_e_hasRighDep_con: true, Arcadia_hasRighDep_con: true, Arcadia_hasRighDep_conj: true, Arcadia_pecora_hasRighDep_conj: true, B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: Arcadia_e, S0B0LemmaPOS: Arcadia_C, S0B0POS: S_C, S0B0POSLemma: S_e, S0B0Token: Arcadia_e, S0B1Lemma: Arcadia_poco, S0B1LemmaPOS: Arcadia_D, S0B1POS: S_D, S0B1POSLemma: S_poco, S0B1Token: Arcadia_poche, S0Lemma: Arcadia, S0POS: S, S0Token: Arcadia, hasRighDep_con: true, hasRighDep_conj: true, transitionHistoryLength3: 202, 
-
-234- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, poche, pecore ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
-
-235- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [poche, pecore, . ,.. ]
-
-B0Lemma: poco, B0POS: D, B0Token: poche, S0B0Lemma: e_poco, S0B0LemmaPOS: e_D, S0B0POS: C_D, S0B0POSLemma: C_poco, S0B0Token: e_poche, S0B1Lemma: e_pecora, S0B1LemmaPOS: e_S, S0B1POS: C_S, S0B1POSLemma: C_pecora, S0B1Token: e_pecore, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
-
-236- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [poche, pecore, . ,.. ]
-
-B0Lemma: poco, B0POS: D, B0Token: poche, transitionHistoryLength3: 020, 
-
-237- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [poche]   B= [pecore, . ,.. ]
-
-B0Lemma: pecora, B0POS: S, B0Token: pecore, S0B0Lemma: poco_pecora, S0B0LemmaPOS: poco_S, S0B0POS: D_S, S0B0POSLemma: D_pecora, S0B0Token: poche_pecore, S0B1Lemma: poco_., S0B1LemmaPOS: poco_F, S0B1POS: D_F, S0B1POSLemma: D_., S0B1Token: poche_., S0Lemma: poco, S0POS: D, S0Token: poche, poco_isGouvernedBy_pecora: true, poco_isGouvernedBy_pecora_mod: true, transitionHistoryLength3: 202, 
-
-238- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pecore, . ,.. ]
-
-B0Lemma: pecora, B0POS: S, B0Token: pecore, transitionHistoryLength3: 020, 
-
-239- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pecore]   B= [.]
-
-B0Lemma: ., B0POS: F, B0Token: ., S0B0Lemma: pecora_., S0B0LemmaPOS: pecora_F, S0B0POS: S_F, S0B0POSLemma: S_., S0B0Token: pecore_., S0Lemma: pecora, S0POS: S, S0Token: pecore, transitionHistoryLength3: 202, 
-
-240- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: F, B0Token: ., transitionHistoryLength3: 020, 
-
-241- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: F, S0Token: ., transitionHistoryLength3: 202, 
-
-242- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 12857 - 
-Con " L' origine delle specie ( The Origin of Species ) " , pubblicata nel 1859 , Charles Darwin diede un colpo decisivo alle teorie creazionistiche che si fondavano sulla tradizione biblica dell' origine delle specie . 
+## Sentence No. 2592 - 
+mi sembrava un papicello ! ! ! fra 100 anni forse qualche nostro postero ricorderà questa campagna elettorale di " ragazzini " che giocano a far- si una guerra tutto sommato blanda ! 
 ### Existing MWEs: 
-1- **diede un colpo** (ID)
-2- **si fondavano** (IReflV)
+1- **far- si** (IReflV)
+2- **far- si guerra** (ID), Interleaving 
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Con, ", L' ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mi, sembrava, un ,.. ]
 
-B0Lemma: con, B0POS: E, B0Token: Con, 
+B0Lemma: mi, B0POS: PC, B0Token: mi, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Con]   B= [", L', origine ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mi]   B= [sembrava, un, papicello ,.. ]
 
-B0Lemma: ", B0POS: F, B0Token: ", S0B0Lemma: con_", S0B0LemmaPOS: con_F, S0B0POS: E_F, S0B0POSLemma: E_", S0B0Token: Con_", S0B1Lemma: con_il, S0B1LemmaPOS: con_R, S0B1POS: E_R, S0B1POSLemma: E_il, S0B1Token: Con_L', S0Lemma: con, S0POS: E, S0Token: Con, con_"_hasRighDep_punc: true, con_,_hasRighDep_punc: true, con_hasRighDep_prep: true, con_hasRighDep_punc: true, con_isGouvernedBy_dare: true, con_isGouvernedBy_dare_comp: true, con_origine_hasRighDep_prep: true, hasRighDep_prep: true, hasRighDep_punc: true, 
+B0Lemma: sembrare, B0POS: V, B0Token: sembrava, S0B0Lemma: mi_sembrare, S0B0LemmaPOS: mi_V, S0B0POS: PC_V, S0B0POSLemma: PC_sembrare, S0B0Token: mi_sembrava, S0B1Lemma: mi_un, S0B1LemmaPOS: mi_RI, S0B1POS: PC_RI, S0B1POSLemma: PC_un, S0B1Token: mi_un, S0Lemma: mi, S0POS: PC, S0Token: mi, mi_isGouvernedBy_sembrare: true, mi_isGouvernedBy_sembrare_comp_ind: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", L', origine ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sembrava, un, papicello ,.. ]
 
-B0Lemma: ", B0POS: F, B0Token: ", 
+B0Lemma: sembrare, B0POS: V, B0Token: sembrava, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [L', origine, delle ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sembrava]   B= [un, papicello, ! ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: L', S0B0Lemma: "_il, S0B0LemmaPOS: "_R, S0B0POS: F_R, S0B0POSLemma: F_il, S0B0Token: "_L', S0B1Lemma: "_origine, S0B1LemmaPOS: "_S, S0B1POS: F_S, S0B1POSLemma: F_origine, S0B1Token: "_origine, S0Lemma: ", S0POS: F, S0Token: ", 
+B0Lemma: un, B0POS: RI, B0Token: un, S0B0Lemma: sembrare_un, S0B0LemmaPOS: sembrare_RI, S0B0POS: V_RI, S0B0POSLemma: V_un, S0B0Token: sembrava_un, S0B1Lemma: sembrare_papicello, S0B1LemmaPOS: sembrare_S, S0B1POS: V_S, S0B1POSLemma: V_papicello, S0B1Token: sembrava_papicello, S0Lemma: sembrare, S0POS: V, S0Token: sembrava, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [L', origine, delle ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, papicello, ! ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: L', transitionHistoryLength3: 020, 
+B0Lemma: un, B0POS: RI, B0Token: un, TransHistory3: 020, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [L']   B= [origine, delle, specie ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [papicello, !, ! ,.. ]
 
-B0Lemma: origine, B0POS: S, B0Token: origine, S0B0Lemma: il_origine, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_origine, S0B0Token: L'_origine, S0B1Lemma: il_di, S0B1LemmaPOS: il_E, S0B1POS: R_E, S0B1POSLemma: R_di, S0B1Token: L'_delle, S0Lemma: il, S0POS: R, S0Token: L', il_isGouvernedBy_origine: true, il_isGouvernedBy_origine_det: true, transitionHistoryLength3: 202, 
+B0Lemma: papicello, B0POS: S, B0Token: papicello, S0B0Lemma: un_papicello, S0B0LemmaPOS: un_S, S0B0POS: RI_S, S0B0POSLemma: RI_papicello, S0B0Token: un_papicello, S0B1Lemma: un_!, S0B1LemmaPOS: un_FS, S0B1POS: RI_FS, S0B1POSLemma: RI_!, S0B1Token: un_!, S0Lemma: un, S0POS: RI, S0Token: un, TransHistory3: 202, un_isGouvernedBy_papicello: true, un_isGouvernedBy_papicello_det: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [origine, delle, specie ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [papicello, !, ! ,.. ]
 
-B0Lemma: origine, B0POS: S, B0Token: origine, transitionHistoryLength3: 020, 
+B0Lemma: papicello, B0POS: S, B0Token: papicello, TransHistory3: 020, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [origine]   B= [delle, specie, ( ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [papicello]   B= [!, !, ! ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: delle, S0B0Lemma: origine_di, S0B0LemmaPOS: origine_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: origine_delle, S0B1Lemma: origine_specie, S0B1LemmaPOS: origine_S, S0B1POS: S_S, S0B1POSLemma: S_specie, S0B1Token: origine_specie, S0Lemma: origine, S0POS: S, S0Token: origine, hasRighDep_comp: true, hasRighDep_mod: true, origine_di_hasRighDep_comp: true, origine_hasRighDep_comp: true, origine_hasRighDep_mod: true, origine_pubblicare_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: !, B0POS: FS, B0Token: !, S0B0Lemma: papicello_!, S0B0LemmaPOS: papicello_FS, S0B0POS: S_FS, S0B0POSLemma: S_!, S0B0Token: papicello_!, S0B1Lemma: papicello_!, S0B1LemmaPOS: papicello_FS, S0B1POS: S_FS, S0B1POSLemma: S_!, S0B1Token: papicello_!, S0Lemma: papicello, S0POS: S, S0Token: papicello, TransHistory3: 202, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [delle, specie, ( ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [!, !, ! ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: delle, transitionHistoryLength3: 020, 
+B0Lemma: !, B0POS: FS, B0Token: !, TransHistory3: 020, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [delle]   B= [specie, (, The ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [!]   B= [!, !, fra ,.. ]
 
-B0Lemma: specie, B0POS: S, B0Token: specie, S0B0Lemma: di_specie, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_specie, S0B0Token: delle_specie, S0B1Lemma: di_(, S0B1LemmaPOS: di_F, S0B1POS: E_F, S0B1POSLemma: E_(, S0B1Token: delle_(, S0Lemma: di, S0POS: E, S0Token: delle, di_hasRighDep_prep: true, di_specie_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: !, B0POS: FS, B0Token: !, S0B0Lemma: !_!, S0B0LemmaPOS: !_FS, S0B0POS: FS_FS, S0B0POSLemma: FS_!, S0B0Token: !_!, S0B1Lemma: !_!, S0B1LemmaPOS: !_FS, S0B1POS: FS_FS, S0B1POSLemma: FS_!, S0B1Token: !_!, S0Lemma: !, S0POS: FS, S0Token: !, TransHistory3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [specie, (, The ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [!, !, fra ,.. ]
 
-B0Lemma: specie, B0POS: S, B0Token: specie, transitionHistoryLength3: 020, 
+B0Lemma: !, B0POS: FS, B0Token: !, TransHistory3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [specie]   B= [(, The, Origin ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [!]   B= [!, fra, 100 ,.. ]
 
-B0Lemma: (, B0POS: F, B0Token: (, S0B0Lemma: specie_(, S0B0LemmaPOS: specie_F, S0B0POS: S_F, S0B0POSLemma: S_(, S0B0Token: specie_(, S0B1Lemma: specie_the, S0B1LemmaPOS: specie_S, S0B1POS: S_S, S0B1POSLemma: S_the, S0B1Token: specie_The, S0Lemma: specie, S0POS: S, S0Token: specie, hasRighDep_mod: true, specie_hasRighDep_mod: true, specie_the_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: !, B0POS: FS, B0Token: !, S0B0Lemma: !_!, S0B0LemmaPOS: !_FS, S0B0POS: FS_FS, S0B0POSLemma: FS_!, S0B0Token: !_!, S0B1Lemma: !_fra, S0B1LemmaPOS: !_E, S0B1POS: FS_E, S0B1POSLemma: FS_fra, S0B1Token: !_fra, S0Lemma: !, S0POS: FS, S0Token: !, TransHistory3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, The, Origin ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [!, fra, 100 ,.. ]
 
-B0Lemma: (, B0POS: F, B0Token: (, transitionHistoryLength3: 020, 
+B0Lemma: !, B0POS: FS, B0Token: !, TransHistory3: 020, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [The, Origin, of ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [!]   B= [fra, 100, anni ,.. ]
 
-(_isGouvernedBy_the: true, (_isGouvernedBy_the_punc: true, B0Lemma: the, B0POS: S, B0Token: The, S0B0Lemma: (_the, S0B0LemmaPOS: (_S, S0B0POS: F_S, S0B0POSLemma: F_the, S0B0Token: (_The, S0B1Lemma: (_Origin, S0B1LemmaPOS: (_S, S0B1POS: F_S, S0B1POSLemma: F_Origin, S0B1Token: (_Origin, S0Lemma: (, S0POS: F, S0Token: (, transitionHistoryLength3: 202, 
+B0Lemma: fra, B0POS: E, B0Token: fra, S0B0Lemma: !_fra, S0B0LemmaPOS: !_E, S0B0POS: FS_E, S0B0POSLemma: FS_fra, S0B0Token: !_fra, S0B1Lemma: !_100, S0B1LemmaPOS: !_N, S0B1POS: FS_N, S0B1POSLemma: FS_100, S0B1Token: !_100, S0Lemma: !, S0POS: FS, S0Token: !, TransHistory3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [The, Origin, of ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fra, 100, anni ,.. ]
 
-B0Lemma: the, B0POS: S, B0Token: The, transitionHistoryLength3: 020, 
+B0Lemma: fra, B0POS: E, B0Token: fra, TransHistory3: 020, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [The]   B= [Origin, of, Species ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fra]   B= [100, anni, forse ,.. ]
 
-B0Lemma: Origin, B0POS: S, B0Token: Origin, S0B0Lemma: the_Origin, S0B0LemmaPOS: the_S, S0B0POS: S_S, S0B0POSLemma: S_Origin, S0B0Token: The_Origin, S0B1Lemma: the_of, S0B1LemmaPOS: the_S, S0B1POS: S_S, S0B1POSLemma: S_of, S0B1Token: The_of, S0Lemma: the, S0POS: S, S0Token: The, hasRighDep_mod: true, hasRighDep_punc: true, the_"_hasRighDep_punc: true, the_)_hasRighDep_punc: true, the_,_hasRighDep_punc: true, the_Species_hasRighDep_mod: true, the_hasRighDep_mod: true, the_hasRighDep_punc: true, transitionHistoryLength3: 202, 
+B0Lemma: 100, B0POS: N, B0Token: 100, S0B0Lemma: fra_100, S0B0LemmaPOS: fra_N, S0B0POS: E_N, S0B0POSLemma: E_100, S0B0Token: fra_100, S0B1Lemma: fra_anno, S0B1LemmaPOS: fra_S, S0B1POS: E_S, S0B1POSLemma: E_anno, S0B1Token: fra_anni, S0Lemma: fra, S0POS: E, S0Token: fra, TransHistory3: 202, fra_anno_hasRighDep_prep: true, fra_hasRighDep_prep: true, fra_isGouvernedBy_ricordare: true, fra_isGouvernedBy_ricordare_comp_temp: true, hasRighDep_prep: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Origin, of, Species ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [100, anni, forse ,.. ]
 
-B0Lemma: Origin, B0POS: S, B0Token: Origin, transitionHistoryLength3: 020, 
+B0Lemma: 100, B0POS: N, B0Token: 100, TransHistory3: 020, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Origin]   B= [of, Species, ) ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [100]   B= [anni, forse, qualche ,.. ]
 
-B0Lemma: of, B0POS: S, B0Token: of, Origin_isGouvernedBy_Species: true, Origin_isGouvernedBy_Species_mod: true, S0B0Lemma: Origin_of, S0B0LemmaPOS: Origin_S, S0B0POS: S_S, S0B0POSLemma: S_of, S0B0Token: Origin_of, S0B1Lemma: Origin_Species, S0B1LemmaPOS: Origin_S, S0B1POS: S_S, S0B1POSLemma: S_Species, S0B1Token: Origin_Species, S0Lemma: Origin, S0POS: S, S0Token: Origin, transitionHistoryLength3: 202, 
+100_isGouvernedBy_anno: true, 100_isGouvernedBy_anno_mod: true, B0Lemma: anno, B0POS: S, B0Token: anni, S0B0Lemma: 100_anno, S0B0LemmaPOS: 100_S, S0B0POS: N_S, S0B0POSLemma: N_anno, S0B0Token: 100_anni, S0B1Lemma: 100_forse, S0B1LemmaPOS: 100_B, S0B1POS: N_B, S0B1POSLemma: N_forse, S0B1Token: 100_forse, S0Lemma: 100, S0POS: N, S0Token: 100, TransHistory3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [of, Species, ) ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [anni, forse, qualche ,.. ]
 
-B0Lemma: of, B0POS: S, B0Token: of, transitionHistoryLength3: 020, 
+B0Lemma: anno, B0POS: S, B0Token: anni, TransHistory3: 020, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [of]   B= [Species, ), " ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [anni]   B= [forse, qualche, nostro ,.. ]
 
-B0Lemma: Species, B0POS: S, B0Token: Species, S0B0Lemma: of_Species, S0B0LemmaPOS: of_S, S0B0POS: S_S, S0B0POSLemma: S_Species, S0B0Token: of_Species, S0B1Lemma: of_), S0B1LemmaPOS: of_F, S0B1POS: S_F, S0B1POSLemma: S_), S0B1Token: of_), S0Lemma: of, S0POS: S, S0Token: of, of_isGouvernedBy_Species: true, of_isGouvernedBy_Species_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: forse, B0POS: B, B0Token: forse, S0B0Lemma: anno_forse, S0B0LemmaPOS: anno_B, S0B0POS: S_B, S0B0POSLemma: S_forse, S0B0Token: anni_forse, S0B1Lemma: anno_qualche, S0B1LemmaPOS: anno_DI, S0B1POS: S_DI, S0B1POSLemma: S_qualche, S0B1Token: anni_qualche, S0Lemma: anno, S0POS: S, S0Token: anni, TransHistory3: 202, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Species, ), " ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forse, qualche, nostro ,.. ]
 
-B0Lemma: Species, B0POS: S, B0Token: Species, transitionHistoryLength3: 020, 
+B0Lemma: forse, B0POS: B, B0Token: forse, TransHistory3: 020, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Species]   B= [), ", , ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forse]   B= [qualche, nostro, postero ,.. ]
 
-B0Lemma: ), B0POS: F, B0Token: ), S0B0Lemma: Species_), S0B0LemmaPOS: Species_F, S0B0POS: S_F, S0B0POSLemma: S_), S0B0Token: Species_), S0B1Lemma: Species_", S0B1LemmaPOS: Species_F, S0B1POS: S_F, S0B1POSLemma: S_", S0B1Token: Species_", S0Lemma: Species, S0POS: S, S0Token: Species, transitionHistoryLength3: 202, 
+B0Lemma: qualche, B0POS: DI, B0Token: qualche, S0B0Lemma: forse_qualche, S0B0LemmaPOS: forse_DI, S0B0POS: B_DI, S0B0POSLemma: B_qualche, S0B0Token: forse_qualche, S0B1Lemma: forse_nostro, S0B1LemmaPOS: forse_AP, S0B1POS: B_AP, S0B1POSLemma: B_nostro, S0B1Token: forse_nostro, S0Lemma: forse, S0POS: B, S0Token: forse, TransHistory3: 202, forse_isGouvernedBy_ricordare: true, forse_isGouvernedBy_ricordare_mod: true, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), ", , ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qualche, nostro, postero ,.. ]
 
-B0Lemma: ), B0POS: F, B0Token: ), transitionHistoryLength3: 020, 
+B0Lemma: qualche, B0POS: DI, B0Token: qualche, TransHistory3: 020, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [", ,, pubblicata ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qualche]   B= [nostro, postero, ricorderà ,.. ]
 
-B0Lemma: ", B0POS: F, B0Token: ", S0B0Lemma: )_", S0B0LemmaPOS: )_F, S0B0POS: F_F, S0B0POSLemma: F_", S0B0Token: )_", S0B1Lemma: )_,, S0B1LemmaPOS: )_F, S0B1POS: F_F, S0B1POSLemma: F_,, S0B1Token: )_,, S0Lemma: ), S0POS: F, S0Token: ), transitionHistoryLength3: 202, 
+B0Lemma: nostro, B0POS: AP, B0Token: nostro, S0B0Lemma: qualche_nostro, S0B0LemmaPOS: qualche_AP, S0B0POS: DI_AP, S0B0POSLemma: DI_nostro, S0B0Token: qualche_nostro, S0B1Lemma: qualche_postero, S0B1LemmaPOS: qualche_S, S0B1POS: DI_S, S0B1POSLemma: DI_postero, S0B1Token: qualche_postero, S0Lemma: qualche, S0POS: DI, S0Token: qualche, TransHistory3: 202, qualche_isGouvernedBy_postero: true, qualche_isGouvernedBy_postero_mod: true, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", ,, pubblicata ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nostro, postero, ricorderà ,.. ]
 
-B0Lemma: ", B0POS: F, B0Token: ", transitionHistoryLength3: 020, 
+B0Lemma: nostro, B0POS: AP, B0Token: nostro, TransHistory3: 020, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [,, pubblicata, nel ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nostro]   B= [postero, ricorderà, questa ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: "_,, S0B0LemmaPOS: "_F, S0B0POS: F_F, S0B0POSLemma: F_,, S0B0Token: "_,, S0B1Lemma: "_pubblicare, S0B1LemmaPOS: "_V, S0B1POS: F_V, S0B1POSLemma: F_pubblicare, S0B1Token: "_pubblicata, S0Lemma: ", S0POS: F, S0Token: ", transitionHistoryLength3: 202, 
+B0Lemma: postero, B0POS: S, B0Token: postero, S0B0Lemma: nostro_postero, S0B0LemmaPOS: nostro_S, S0B0POS: AP_S, S0B0POSLemma: AP_postero, S0B0Token: nostro_postero, S0B1Lemma: nostro_ricordare, S0B1LemmaPOS: nostro_V, S0B1POS: AP_V, S0B1POSLemma: AP_ricordare, S0B1Token: nostro_ricorderà, S0Lemma: nostro, S0POS: AP, S0Token: nostro, TransHistory3: 202, nostro_isGouvernedBy_postero: true, nostro_isGouvernedBy_postero_mod: true, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pubblicata, nel ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [postero, ricorderà, questa ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: postero, B0POS: S, B0Token: postero, TransHistory3: 020, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pubblicata, nel, 1859 ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [postero]   B= [ricorderà, questa, campagna ,.. ]
 
-B0Lemma: pubblicare, B0POS: V, B0Token: pubblicata, S0B0Lemma: ,_pubblicare, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_pubblicare, S0B0Token: ,_pubblicata, S0B1Lemma: ,_in, S0B1LemmaPOS: ,_E, S0B1POS: F_E, S0B1POSLemma: F_in, S0B1Token: ,_nel, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: ricordare, B0POS: V, B0Token: ricorderà, S0B0Lemma: postero_ricordare, S0B0LemmaPOS: postero_V, S0B0POS: S_V, S0B0POSLemma: S_ricordare, S0B0Token: postero_ricorderà, S0B1Lemma: postero_questo, S0B1LemmaPOS: postero_DD, S0B1POS: S_DD, S0B1POSLemma: S_questo, S0B1Token: postero_questa, S0Lemma: postero, S0POS: S, S0Token: postero, TransHistory3: 202, postero_isGouvernedBy_ricordare: true, postero_isGouvernedBy_ricordare_subj: true, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pubblicata, nel, 1859 ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ricorderà, questa, campagna ,.. ]
 
-B0Lemma: pubblicare, B0POS: V, B0Token: pubblicata, transitionHistoryLength3: 020, 
+B0Lemma: ricordare, B0POS: V, B0Token: ricorderà, TransHistory3: 020, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pubblicata]   B= [nel, 1859, , ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ricorderà]   B= [questa, campagna, elettorale ,.. ]
 
-B0Lemma: in, B0POS: E, B0Token: nel, S0B0Lemma: pubblicare_in, S0B0LemmaPOS: pubblicare_E, S0B0POS: V_E, S0B0POSLemma: V_in, S0B0Token: pubblicata_nel, S0B1Lemma: pubblicare_1859, S0B1LemmaPOS: pubblicare_N, S0B1POS: V_N, S0B1POSLemma: V_1859, S0B1Token: pubblicata_1859, S0Lemma: pubblicare, S0POS: V, S0Token: pubblicata, hasRighDep_comp_temp: true, pubblicare_hasRighDep_comp_temp: true, pubblicare_in_hasRighDep_comp_temp: true, transitionHistoryLength3: 202, 
+B0Lemma: questo, B0POS: DD, B0Token: questa, S0B0Lemma: ricordare_questo, S0B0LemmaPOS: ricordare_DD, S0B0POS: V_DD, S0B0POSLemma: V_questo, S0B0Token: ricorderà_questa, S0B1Lemma: ricordare_campagna, S0B1LemmaPOS: ricordare_S, S0B1POS: V_S, S0B1POSLemma: V_campagna, S0B1Token: ricorderà_campagna, S0Lemma: ricordare, S0POS: V, S0Token: ricorderà, TransHistory3: 202, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nel, 1859, , ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [questa, campagna, elettorale ,.. ]
 
-B0Lemma: in, B0POS: E, B0Token: nel, transitionHistoryLength3: 020, 
+B0Lemma: questo, B0POS: DD, B0Token: questa, TransHistory3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nel]   B= [1859, ,, Charles ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [questa]   B= [campagna, elettorale, di ,.. ]
 
-B0Lemma: 1859, B0POS: N, B0Token: 1859, S0B0Lemma: in_1859, S0B0LemmaPOS: in_N, S0B0POS: E_N, S0B0POSLemma: E_1859, S0B0Token: nel_1859, S0B1Lemma: in_,, S0B1LemmaPOS: in_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: nel_,, S0Lemma: in, S0POS: E, S0Token: nel, hasRighDep_prep: true, in_1859_hasRighDep_prep: true, in_hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: campagna, B0POS: S, B0Token: campagna, S0B0Lemma: questo_campagna, S0B0LemmaPOS: questo_S, S0B0POS: DD_S, S0B0POSLemma: DD_campagna, S0B0Token: questa_campagna, S0B1Lemma: questo_elettorale, S0B1LemmaPOS: questo_A, S0B1POS: DD_A, S0B1POSLemma: DD_elettorale, S0B1Token: questa_elettorale, S0Lemma: questo, S0POS: DD, S0Token: questa, TransHistory3: 202, questo_isGouvernedBy_campagna: true, questo_isGouvernedBy_campagna_mod: true, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [1859, ,, Charles ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [campagna, elettorale, di ,.. ]
 
-B0Lemma: 1859, B0POS: N, B0Token: 1859, transitionHistoryLength3: 020, 
+B0Lemma: campagna, B0POS: S, B0Token: campagna, TransHistory3: 020, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [1859]   B= [,, Charles, Darwin ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [campagna]   B= [elettorale, di, " ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: 1859_,, S0B0LemmaPOS: 1859_F, S0B0POS: N_F, S0B0POSLemma: N_,, S0B0Token: 1859_,, S0B1Lemma: 1859_Charles, S0B1LemmaPOS: 1859_S, S0B1POS: N_S, S0B1POSLemma: N_Charles, S0B1Token: 1859_Charles, S0Lemma: 1859, S0POS: N, S0Token: 1859, transitionHistoryLength3: 202, 
+B0Lemma: elettorale, B0POS: A, B0Token: elettorale, S0B0Lemma: campagna_elettorale, S0B0LemmaPOS: campagna_A, S0B0POS: S_A, S0B0POSLemma: S_elettorale, S0B0Token: campagna_elettorale, S0B1Lemma: campagna_di, S0B1LemmaPOS: campagna_E, S0B1POS: S_E, S0B1POSLemma: S_di, S0B1Token: campagna_di, S0Lemma: campagna, S0POS: S, S0Token: campagna, TransHistory3: 202, campagna_di_hasRighDep_comp: true, campagna_elettorale_hasRighDep_mod: true, campagna_hasRighDep_comp: true, campagna_hasRighDep_mod: true, hasRighDep_comp: true, hasRighDep_mod: true, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, Charles, Darwin ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [elettorale, di, " ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: elettorale, B0POS: A, B0Token: elettorale, TransHistory3: 020, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [Charles, Darwin, diede ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [elettorale]   B= [di, ", ragazzini ,.. ]
 
-B0Lemma: Charles, B0POS: S, B0Token: Charles, S0B0Lemma: ,_Charles, S0B0LemmaPOS: ,_S, S0B0POS: F_S, S0B0POSLemma: F_Charles, S0B0Token: ,_Charles, S0B1Lemma: ,_Darwin, S0B1LemmaPOS: ,_S, S0B1POS: F_S, S0B1POSLemma: F_Darwin, S0B1Token: ,_Darwin, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: elettorale_di, S0B0LemmaPOS: elettorale_E, S0B0POS: A_E, S0B0POSLemma: A_di, S0B0Token: elettorale_di, S0B1Lemma: elettorale_", S0B1LemmaPOS: elettorale_FB, S0B1POS: A_FB, S0B1POSLemma: A_", S0B1Token: elettorale_", S0Lemma: elettorale, S0POS: A, S0Token: elettorale, TransHistory3: 202, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Charles, Darwin, diede ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, ", ragazzini ,.. ]
 
-B0Lemma: Charles, B0POS: S, B0Token: Charles, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: E, B0Token: di, TransHistory3: 020, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Charles]   B= [Darwin, diede, un ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [", ragazzini, " ,.. ]
 
-B0Lemma: Darwin, B0POS: S, B0Token: Darwin, Charles_isGouvernedBy_Darwin: true, Charles_isGouvernedBy_Darwin_mod: true, S0B0Lemma: Charles_Darwin, S0B0LemmaPOS: Charles_S, S0B0POS: S_S, S0B0POSLemma: S_Darwin, S0B0Token: Charles_Darwin, S0B1Lemma: Charles_dare, S0B1LemmaPOS: Charles_V, S0B1POS: S_V, S0B1POSLemma: S_dare, S0B1Token: Charles_diede, S0Lemma: Charles, S0POS: S, S0Token: Charles, transitionHistoryLength3: 202, 
+B0Lemma: ", B0POS: FB, B0Token: ", S0B0Lemma: di_", S0B0LemmaPOS: di_FB, S0B0POS: E_FB, S0B0POSLemma: E_", S0B0Token: di_", S0B1Lemma: di_ragazzini, S0B1LemmaPOS: di_S, S0B1POS: E_S, S0B1POSLemma: E_ragazzini, S0B1Token: di_ragazzini, S0Lemma: di, S0POS: E, S0Token: di, TransHistory3: 202, di_hasRighDep_prep: true, di_ragazzini_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Darwin, diede, un ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", ragazzini, " ,.. ]
 
-B0Lemma: Darwin, B0POS: S, B0Token: Darwin, transitionHistoryLength3: 020, 
+B0Lemma: ", B0POS: FB, B0Token: ", TransHistory3: 020, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Darwin]   B= [diede, un, colpo ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [ragazzini, ", che ,.. ]
 
-B0Lemma: dare, B0POS: V, B0Token: diede, Darwin_isGouvernedBy_dare: true, Darwin_isGouvernedBy_dare_subj: true, S0B0Lemma: Darwin_dare, S0B0LemmaPOS: Darwin_V, S0B0POS: S_V, S0B0POSLemma: S_dare, S0B0Token: Darwin_diede, S0B1Lemma: Darwin_un, S0B1LemmaPOS: Darwin_R, S0B1POS: S_R, S0B1POSLemma: S_un, S0B1Token: Darwin_un, S0Lemma: Darwin, S0POS: S, S0Token: Darwin, transitionHistoryLength3: 202, 
+"_isGouvernedBy_ragazzini: true, "_isGouvernedBy_ragazzini_punc: true, B0Lemma: ragazzini, B0POS: S, B0Token: ragazzini, S0B0Lemma: "_ragazzini, S0B0LemmaPOS: "_S, S0B0POS: FB_S, S0B0POSLemma: FB_ragazzini, S0B0Token: "_ragazzini, S0B1Lemma: "_", S0B1LemmaPOS: "_FB, S0B1POS: FB_FB, S0B1POSLemma: FB_", S0B1Token: "_", S0Lemma: ", S0POS: FB, S0Token: ", TransHistory3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [diede, un, colpo ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ragazzini, ", che ,.. ]
 
-B0Lemma: dare, B0POS: V, B0Token: diede, transitionHistoryLength3: 020, 
+B0Lemma: ragazzini, B0POS: S, B0Token: ragazzini, TransHistory3: 020, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [diede]   B= [un, colpo, decisivo ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ragazzini]   B= [", che, giocano ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, S0B0Lemma: dare_un, S0B0LemmaPOS: dare_R, S0B0POS: V_R, S0B0POSLemma: V_un, S0B0Token: diede_un, S0B1Lemma: dare_colpo, S0B1LemmaPOS: dare_S, S0B1POS: V_S, S0B1POSLemma: V_colpo, S0B1Token: diede_colpo, S0Lemma: dare, S0POS: V, S0Token: diede, transitionHistoryLength3: 202, 
+B0Lemma: ", B0POS: FB, B0Token: ", S0B0Lemma: ragazzini_", S0B0LemmaPOS: ragazzini_FB, S0B0POS: S_FB, S0B0POSLemma: S_", S0B0Token: ragazzini_", S0B1Lemma: ragazzini_che, S0B1LemmaPOS: ragazzini_PR, S0B1POS: S_PR, S0B1POSLemma: S_che, S0B1Token: ragazzini_che, S0Lemma: ragazzini, S0POS: S, S0Token: ragazzini, TransHistory3: 202, hasRighDep_mod_rel: true, hasRighDep_punc: true, ragazzini_!_hasRighDep_punc: true, ragazzini_"_hasRighDep_punc: true, ragazzini_giocare_hasRighDep_mod_rel: true, ragazzini_hasRighDep_mod_rel: true, ragazzini_hasRighDep_punc: true, 
 
-42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [diede, un]   B= [colpo, decisivo, alle ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", che, giocano ,.. ]
 
-B0Lemma: colpo, B0POS: S, B0Token: colpo, S0B0Lemma: un_colpo, S0B0LemmaPOS: un_S, S0B0POS: R_S, S0B0POSLemma: R_colpo, S0B0Token: un_colpo, S0B1Lemma: un_decisivo, S0B1LemmaPOS: un_A, S0B1POS: R_A, S0B1POSLemma: R_decisivo, S0B1Token: un_decisivo, S0Lemma: un, S0POS: R, S0S1Distance: 1, S0Token: un, S1B0Lemma: dare_colpo, S1B0LemmaPOS: dare_S, S1B0POS: V_S, S1B0POSLemma: V_colpo, S1B0Token: diede_colpo, S1Lemma: dare, S1POS: V, S1S0Lemma: dare_un, S1S0LemmaPOS: dare_R, S1S0POS: V_R, S1S0POSLemma: V_un, S1S0Token: diede_un, S1Token: diede, transitionHistoryLength3: 020, un_isGouvernedBy_colpo: true, un_isGouvernedBy_colpo_det: true, 
+B0Lemma: ", B0POS: FB, B0Token: ", TransHistory3: 020, 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [diede, un, colpo]   B= [decisivo, alle, teorie ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [che, giocano, a ,.. ]
 
-B0Lemma: decisivo, B0POS: A, B0Token: decisivo, S0B0Lemma: colpo_decisivo, S0B0LemmaPOS: colpo_A, S0B0POS: S_A, S0B0POSLemma: S_decisivo, S0B0Token: colpo_decisivo, S0B1Lemma: colpo_al, S0B1LemmaPOS: colpo_E, S0B1POS: S_E, S0B1POSLemma: S_al, S0B1Token: colpo_alle, S0Lemma: colpo, S0POS: S, S0S1Distance: 1, S0Token: colpo, S1B0Lemma: un_decisivo, S1B0LemmaPOS: un_A, S1B0POS: R_A, S1B0POSLemma: R_decisivo, S1B0Token: un_decisivo, S1Lemma: un, S1POS: R, S1S0Lemma: un_colpo, S1S0LemmaPOS: un_S, S1S0POS: R_S, S1S0POSLemma: R_colpo, S1S0Token: un_colpo, S1Token: un, SyntaxicRelation: -det, colpo_decisivo_hasRighDep_mod: true, colpo_hasRighDep_mod: true, hasRighDep_mod: true, transitionHistoryLength3: 002, 
+B0Lemma: che, B0POS: PR, B0Token: che, S0B0Lemma: "_che, S0B0LemmaPOS: "_PR, S0B0POS: FB_PR, S0B0POSLemma: FB_che, S0B0Token: "_che, S0B1Lemma: "_giocare, S0B1LemmaPOS: "_V, S0B1POS: FB_V, S0B1POSLemma: FB_giocare, S0B1Token: "_giocano, S0Lemma: ", S0POS: FB, S0Token: ", TransHistory3: 202, 
 
-44- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [diede, [un, colpo]]   B= [decisivo, alle, teorie ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, giocano, a ,.. ]
 
-B0Lemma: decisivo, B0POS: A, B0Token: decisivo, S0B0Lemma: un_colpo_decisivo, S0B0LemmaPOS: un_colpo_A, S0B0POS: R_S_A, S0B0POSLemma: R_S_decisivo, S0B0Token: un_colpo_decisivo, S0B1Lemma: un_colpo_al, S0B1LemmaPOS: un_colpo_E, S0B1POS: R_S_E, S0B1POSLemma: R_S_al, S0B1Token: un_colpo_alle, S0Lemma: un_colpo, S0POS: R_S, S0Token: un_colpo, S1B0Lemma: dare_decisivo, S1B0LemmaPOS: dare_A, S1B0POS: V_A, S1B0POSLemma: V_decisivo, S1B0Token: diede_decisivo, S1Lemma: dare, S1POS: V, S1S0Lemma: dare_un_colpo, S1S0LemmaPOS: dare_R_S, S1S0POS: V_R_S, S1S0POSLemma: V_un_colpo, S1S0Token: diede_un_colpo, S1Token: diede, transitionHistoryLength3: 000, 
+B0Lemma: che, B0POS: PR, B0Token: che, TransHistory3: 020, 
 
-45- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[diede, [un, colpo]]]   B= [decisivo, alle, teorie ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [giocano, a, far- ,.. ]
 
-B0Lemma: decisivo, B0POS: A, B0Token: decisivo, S0B0Lemma: dare_un_colpo_decisivo, S0B0LemmaPOS: dare_un_colpo_A, S0B0POS: V_R_S_A, S0B0POSLemma: V_R_S_decisivo, S0B0Token: diede_un_colpo_decisivo, S0B1Lemma: dare_un_colpo_al, S0B1LemmaPOS: dare_un_colpo_E, S0B1POS: V_R_S_E, S0B1POSLemma: V_R_S_al, S0B1Token: diede_un_colpo_alle, S0Lemma: dare_un_colpo, S0POS: V_R_S, S0Token: diede_un_colpo, transitionHistoryLength3: 100, 
+B0Lemma: giocare, B0POS: V, B0Token: giocano, S0B0Lemma: che_giocare, S0B0LemmaPOS: che_V, S0B0POS: PR_V, S0B0POSLemma: PR_giocare, S0B0Token: che_giocano, S0B1Lemma: che_a, S0B1LemmaPOS: che_E, S0B1POS: PR_E, S0B1POSLemma: PR_a, S0B1Token: che_a, S0Lemma: che, S0POS: PR, S0Token: che, TransHistory3: 202, che_isGouvernedBy_giocare: true, che_isGouvernedBy_giocare_subj: true, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [decisivo, alle, teorie ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [giocano, a, far- ,.. ]
 
-B0Lemma: decisivo, B0POS: A, B0Token: decisivo, transitionHistoryLength3: 110, 
+B0Lemma: giocare, B0POS: V, B0Token: giocano, TransHistory3: 020, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [decisivo]   B= [alle, teorie, creazionistiche ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [giocano]   B= [a, far-, si ,.. ]
 
-B0Lemma: al, B0POS: E, B0Token: alle, S0B0Lemma: decisivo_al, S0B0LemmaPOS: decisivo_E, S0B0POS: A_E, S0B0POSLemma: A_al, S0B0Token: decisivo_alle, S0B1Lemma: decisivo_teoria, S0B1LemmaPOS: decisivo_S, S0B1POS: A_S, S0B1POSLemma: A_teoria, S0B1Token: decisivo_teorie, S0Lemma: decisivo, S0POS: A, S0Token: decisivo, transitionHistoryLength3: 211, 
+B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: giocare_a, S0B0LemmaPOS: giocare_E, S0B0POS: V_E, S0B0POSLemma: V_a, S0B0Token: giocano_a, S0B1Lemma: giocare_fare, S0B1LemmaPOS: giocare_V, S0B1POS: V_V, S0B1POSLemma: V_fare, S0B1Token: giocano_far-, S0Lemma: giocare, S0POS: V, S0Token: giocano, TransHistory3: 202, giocare_a_hasRighDep_arg: true, giocare_hasRighDep_arg: true, hasRighDep_arg: true, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alle, teorie, creazionistiche ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, far-, si ,.. ]
 
-B0Lemma: al, B0POS: E, B0Token: alle, transitionHistoryLength3: 021, 
+B0Lemma: a, B0POS: E, B0Token: a, TransHistory3: 020, 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alle]   B= [teorie, creazionistiche, che ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [far-, si, una ,.. ]
 
-B0Lemma: teoria, B0POS: S, B0Token: teorie, S0B0Lemma: al_teoria, S0B0LemmaPOS: al_S, S0B0POS: E_S, S0B0POSLemma: E_teoria, S0B0Token: alle_teorie, S0B1Lemma: al_creazionistiche, S0B1LemmaPOS: al_A, S0B1POS: E_A, S0B1POSLemma: E_creazionistiche, S0B1Token: alle_creazionistiche, S0Lemma: al, S0POS: E, S0Token: alle, al_hasRighDep_prep: true, al_teoria_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: fare, B0POS: V, B0Token: far-, S0B0Lemma: a_fare, S0B0LemmaPOS: a_V, S0B0POS: E_V, S0B0POSLemma: E_fare, S0B0Token: a_far-, S0B1Lemma: a_si, S0B1LemmaPOS: a_PC, S0B1POS: E_PC, S0B1POSLemma: E_si, S0B1Token: a_si, S0Lemma: a, S0POS: E, S0Token: a, TransHistory3: 202, a_fare_hasRighDep_prep: true, a_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [teorie, creazionistiche, che ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [far-, si, una ,.. ]
 
-B0Lemma: teoria, B0POS: S, B0Token: teorie, transitionHistoryLength3: 020, 
+B0Lemma: fare, B0POS: V, B0Token: far-, TransHistory3: 020, 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teorie]   B= [creazionistiche, che, si ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [far-]   B= [si, una, guerra ,.. ]
 
-B0Lemma: creazionistiche, B0POS: A, B0Token: creazionistiche, S0B0Lemma: teoria_creazionistiche, S0B0LemmaPOS: teoria_A, S0B0POS: S_A, S0B0POSLemma: S_creazionistiche, S0B0Token: teorie_creazionistiche, S0B1Lemma: teoria_che, S0B1LemmaPOS: teoria_C, S0B1POS: S_C, S0B1POSLemma: S_che, S0B1Token: teorie_che, S0Lemma: teoria, S0POS: S, S0Token: teorie, hasRighDep_mod: true, teoria_creazionistiche_hasRighDep_mod: true, teoria_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: si, B0POS: PC, B0Token: si, S0B0Lemma: fare_si, S0B0LemmaPOS: fare_PC, S0B0POS: V_PC, S0B0POSLemma: V_si, S0B0Token: far-_si, S0B1Lemma: fare_una, S0B1LemmaPOS: fare_RI, S0B1POS: V_RI, S0B1POSLemma: V_una, S0B1Token: far-_una, S0Lemma: fare, S0POS: V, S0Token: far-, TransHistory3: 202, fare_guerra_hasRighDep_pred: true, fare_hasRighDep_clit: true, fare_hasRighDep_pred: true, fare_si_hasRighDep_clit: true, hasRighDep_clit: true, hasRighDep_pred: true, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [creazionistiche, che, si ,.. ]
+52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [far-, si]   B= [una, guerra, tutto ,.. ]
 
-B0Lemma: creazionistiche, B0POS: A, B0Token: creazionistiche, transitionHistoryLength3: 020, 
+B0Lemma: una, B0POS: RI, B0Token: una, S0B0Lemma: si_una, S0B0LemmaPOS: si_RI, S0B0POS: PC_RI, S0B0POSLemma: PC_una, S0B0Token: si_una, S0B1Lemma: si_guerra, S0B1LemmaPOS: si_S, S0B1POS: PC_S, S0B1POSLemma: PC_guerra, S0B1Token: si_guerra, S0Lemma: si, S0POS: PC, S0S1Distance: 1, S0Token: si, S1B0Lemma: fare_una, S1B0LemmaPOS: fare_RI, S1B0POS: V_RI, S1B0POSLemma: V_una, S1B0Token: far-_una, S1Lemma: fare, S1POS: V, S1S0Lemma: fare_si, S1S0LemmaPOS: fare_PC, S1S0POS: V_PC, S1S0POSLemma: V_si, S1S0Token: far-_si, S1Token: far-, StackLengthIs: 2, SyntaxicRelation: +clit, TransHistory3: 020, 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [creazionistiche]   B= [che, si, fondavano ,.. ]
+53- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[far-, si]]   B= [una, guerra, tutto ,.. ]
 
-B0Lemma: che, B0POS: C, B0Token: che, S0B0Lemma: creazionistiche_che, S0B0LemmaPOS: creazionistiche_C, S0B0POS: A_C, S0B0POSLemma: A_che, S0B0Token: creazionistiche_che, S0B1Lemma: creazionistiche_si, S0B1LemmaPOS: creazionistiche_P, S0B1POS: A_P, S0B1POSLemma: A_si, S0B1Token: creazionistiche_si, S0Lemma: creazionistiche, S0POS: A, S0Token: creazionistiche, creazionistiche_che_hasRighDep_arg: true, creazionistiche_hasRighDep_arg: true, hasRighDep_arg: true, transitionHistoryLength3: 202, 
+B0Lemma: una, B0POS: RI, B0Token: una, S0B0Lemma: fare_si_una, S0B0LemmaPOS: fare_si_RI, S0B0POS: V_PC_RI, S0B0POSLemma: V_PC_una, S0B0Token: far-_si_una, S0B1Lemma: fare_si_guerra, S0B1LemmaPOS: fare_si_S, S0B1POS: V_PC_S, S0B1POSLemma: V_PC_guerra, S0B1Token: far-_si_guerra, S0Lemma: fare_si, S0POS: V_PC, S0Token: far-_si, TransHistory3: 002, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, si, fondavano ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [una, guerra, tutto ,.. ]
 
-B0Lemma: che, B0POS: C, B0Token: che, transitionHistoryLength3: 020, 
+B0Lemma: una, B0POS: RI, B0Token: una, TransHistory3: 100, 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [si, fondavano, sulla ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [una]   B= [guerra, tutto, sommato ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, S0B0Lemma: che_si, S0B0LemmaPOS: che_P, S0B0POS: C_P, S0B0POSLemma: C_si, S0B0Token: che_si, S0B1Lemma: che_fondare, S0B1LemmaPOS: che_V, S0B1POS: C_V, S0B1POSLemma: C_fondare, S0B1Token: che_fondavano, S0Lemma: che, S0POS: C, S0Token: che, che_fondare_hasRighDep_sub: true, che_hasRighDep_sub: true, hasRighDep_sub: true, transitionHistoryLength3: 202, 
+B0Lemma: guerra, B0POS: S, B0Token: guerra, S0B0Lemma: una_guerra, S0B0LemmaPOS: una_S, S0B0POS: RI_S, S0B0POSLemma: RI_guerra, S0B0Token: una_guerra, S0B1Lemma: una_tutto, S0B1LemmaPOS: una_PI, S0B1POS: RI_PI, S0B1POSLemma: RI_tutto, S0B1Token: una_tutto, S0Lemma: una, S0POS: RI, S0Token: una, TransHistory3: 210, una_isGouvernedBy_guerra: true, una_isGouvernedBy_guerra_det: true, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, fondavano, sulla ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [guerra, tutto, sommato ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, transitionHistoryLength3: 020, 
+B0Lemma: guerra, B0POS: S, B0Token: guerra, TransHistory3: 021, 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [fondavano, sulla, tradizione ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [guerra]   B= [tutto, sommato, blanda ,.. ]
 
-B0Lemma: fondare, B0POS: V, B0Token: fondavano, S0B0Lemma: si_fondare, S0B0LemmaPOS: si_V, S0B0POS: P_V, S0B0POSLemma: P_fondare, S0B0Token: si_fondavano, S0B1Lemma: si_su, S0B1LemmaPOS: si_E, S0B1POS: P_E, S0B1POSLemma: P_su, S0B1Token: si_sulla, S0Lemma: si, S0POS: P, S0Token: si, si_isGouvernedBy_fondare: true, si_isGouvernedBy_fondare_clit: true, transitionHistoryLength3: 202, 
+B0Lemma: tutto, B0POS: PI, B0Token: tutto, S0B0Lemma: guerra_tutto, S0B0LemmaPOS: guerra_PI, S0B0POS: S_PI, S0B0POSLemma: S_tutto, S0B0Token: guerra_tutto, S0B1Lemma: guerra_sommare, S0B1LemmaPOS: guerra_V, S0B1POS: S_V, S0B1POSLemma: S_sommare, S0B1Token: guerra_sommato, S0Lemma: guerra, S0POS: S, S0Token: guerra, TransHistory3: 202, guerra_blando_hasRighDep_mod: true, guerra_hasRighDep_mod: true, guerra_sommare_hasRighDep_mod: true, hasRighDep_mod: true, 
 
-58- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, fondavano]   B= [sulla, tradizione, biblica ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tutto, sommato, blanda ,.. ]
 
-B0Lemma: su, B0POS: E, B0Token: sulla, S0B0Lemma: fondare_su, S0B0LemmaPOS: fondare_E, S0B0POS: V_E, S0B0POSLemma: V_su, S0B0Token: fondavano_sulla, S0B1Lemma: fondare_tradizione, S0B1LemmaPOS: fondare_S, S0B1POS: V_S, S0B1POSLemma: V_tradizione, S0B1Token: fondavano_tradizione, S0Lemma: fondare, S0POS: V, S0S1Distance: 1, S0Token: fondavano, S1B0Lemma: si_su, S1B0LemmaPOS: si_E, S1B0POS: P_E, S1B0POSLemma: P_su, S1B0Token: si_sulla, S1Lemma: si, S1POS: P, S1S0Lemma: si_fondare, S1S0LemmaPOS: si_V, S1S0POS: P_V, S1S0POSLemma: P_fondare, S1S0Token: si_fondavano, S1Token: si, SyntaxicRelation: -clit, fondare_hasRighDep_comp: true, fondare_su_hasRighDep_comp: true, hasRighDep_comp: true, transitionHistoryLength3: 020, 
+B0Lemma: tutto, B0POS: PI, B0Token: tutto, TransHistory3: 020, 
 
-59- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[si, fondavano]]   B= [sulla, tradizione, biblica ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tutto]   B= [sommato, blanda, ! ,.. ]
 
-B0Lemma: su, B0POS: E, B0Token: sulla, S0B0Lemma: si_fondare_su, S0B0LemmaPOS: si_fondare_E, S0B0POS: P_V_E, S0B0POSLemma: P_V_su, S0B0Token: si_fondavano_sulla, S0B1Lemma: si_fondare_tradizione, S0B1LemmaPOS: si_fondare_S, S0B1POS: P_V_S, S0B1POSLemma: P_V_tradizione, S0B1Token: si_fondavano_tradizione, S0Lemma: si_fondare, S0POS: P_V, S0Token: si_fondavano, transitionHistoryLength3: 002, 
+B0Lemma: sommare, B0POS: V, B0Token: sommato, S0B0Lemma: tutto_sommare, S0B0LemmaPOS: tutto_V, S0B0POS: PI_V, S0B0POSLemma: PI_sommare, S0B0Token: tutto_sommato, S0B1Lemma: tutto_blando, S0B1LemmaPOS: tutto_A, S0B1POS: PI_A, S0B1POSLemma: PI_blando, S0B1Token: tutto_blanda, S0Lemma: tutto, S0POS: PI, S0Token: tutto, TransHistory3: 202, tutto_isGouvernedBy_sommare: true, tutto_isGouvernedBy_sommare_mod: true, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sulla, tradizione, biblica ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sommato, blanda, ! ,.. ]
 
-B0Lemma: su, B0POS: E, B0Token: sulla, transitionHistoryLength3: 100, 
+B0Lemma: sommare, B0POS: V, B0Token: sommato, TransHistory3: 020, 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sulla]   B= [tradizione, biblica, dell' ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sommato]   B= [blanda, ! ,.. ]
 
-B0Lemma: tradizione, B0POS: S, B0Token: tradizione, S0B0Lemma: su_tradizione, S0B0LemmaPOS: su_S, S0B0POS: E_S, S0B0POSLemma: E_tradizione, S0B0Token: sulla_tradizione, S0B1Lemma: su_biblico, S0B1LemmaPOS: su_A, S0B1POS: E_A, S0B1POSLemma: E_biblico, S0B1Token: sulla_biblica, S0Lemma: su, S0POS: E, S0Token: sulla, hasRighDep_prep: true, su_hasRighDep_prep: true, su_tradizione_hasRighDep_prep: true, transitionHistoryLength3: 210, 
+B0Lemma: blando, B0POS: A, B0Token: blanda, S0B0Lemma: sommare_blando, S0B0LemmaPOS: sommare_A, S0B0POS: V_A, S0B0POSLemma: V_blando, S0B0Token: sommato_blanda, S0B1Lemma: sommare_!, S0B1LemmaPOS: sommare_FS, S0B1POS: V_FS, S0B1POSLemma: V_!, S0B1Token: sommato_!, S0Lemma: sommare, S0POS: V, S0Token: sommato, TransHistory3: 202, 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tradizione, biblica, dell' ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [blanda, ! ,.. ]
 
-B0Lemma: tradizione, B0POS: S, B0Token: tradizione, transitionHistoryLength3: 021, 
+B0Lemma: blando, B0POS: A, B0Token: blanda, TransHistory3: 020, 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tradizione]   B= [biblica, dell', origine ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [blanda]   B= [!]
 
-B0Lemma: biblico, B0POS: A, B0Token: biblica, S0B0Lemma: tradizione_biblico, S0B0LemmaPOS: tradizione_A, S0B0POS: S_A, S0B0POSLemma: S_biblico, S0B0Token: tradizione_biblica, S0B1Lemma: tradizione_di, S0B1LemmaPOS: tradizione_E, S0B1POS: S_E, S0B1POSLemma: S_di, S0B1Token: tradizione_dell', S0Lemma: tradizione, S0POS: S, S0Token: tradizione, hasRighDep_comp: true, hasRighDep_mod: true, tradizione_biblico_hasRighDep_mod: true, tradizione_di_hasRighDep_comp: true, tradizione_hasRighDep_comp: true, tradizione_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: !, B0POS: FS, B0Token: !, S0B0Lemma: blando_!, S0B0LemmaPOS: blando_FS, S0B0POS: A_FS, S0B0POSLemma: A_!, S0B0Token: blanda_!, S0Lemma: blando, S0POS: A, S0Token: blanda, TransHistory3: 202, 
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biblica, dell', origine ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [!]
 
-B0Lemma: biblico, B0POS: A, B0Token: biblica, transitionHistoryLength3: 020, 
+B0Lemma: !, B0POS: FS, B0Token: !, TransHistory3: 020, 
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biblica]   B= [dell', origine, delle ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [!]   B= [ ]
 
-B0Lemma: di, B0POS: E, B0Token: dell', S0B0Lemma: biblico_di, S0B0LemmaPOS: biblico_E, S0B0POS: A_E, S0B0POSLemma: A_di, S0B0Token: biblica_dell', S0B1Lemma: biblico_origine, S0B1LemmaPOS: biblico_S, S0B1POS: A_S, S0B1POSLemma: A_origine, S0B1Token: biblica_origine, S0Lemma: biblico, S0POS: A, S0Token: biblica, transitionHistoryLength3: 202, 
+S0Lemma: !, S0POS: FS, S0Token: !, TransHistory3: 202, 
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dell', origine, delle ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 
-B0Lemma: di, B0POS: E, B0Token: dell', transitionHistoryLength3: 020, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dell']   B= [origine, delle, specie ,.. ]
-
-B0Lemma: origine, B0POS: S, B0Token: origine, S0B0Lemma: di_origine, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_origine, S0B0Token: dell'_origine, S0B1Lemma: di_di, S0B1LemmaPOS: di_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: dell'_delle, S0Lemma: di, S0POS: E, S0Token: dell', di_hasRighDep_prep: true, di_origine_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [origine, delle, specie ,.. ]
-
-B0Lemma: origine, B0POS: S, B0Token: origine, transitionHistoryLength3: 020, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [origine]   B= [delle, specie, . ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: delle, S0B0Lemma: origine_di, S0B0LemmaPOS: origine_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: origine_delle, S0B1Lemma: origine_specie, S0B1LemmaPOS: origine_S, S0B1POS: S_S, S0B1POSLemma: S_specie, S0B1Token: origine_specie, S0Lemma: origine, S0POS: S, S0Token: origine, hasRighDep_comp: true, origine_di_hasRighDep_comp: true, origine_hasRighDep_comp: true, transitionHistoryLength3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [delle, specie, . ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: delle, transitionHistoryLength3: 020, 
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [delle]   B= [specie, . ,.. ]
-
-B0Lemma: specie, B0POS: S, B0Token: specie, S0B0Lemma: di_specie, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_specie, S0B0Token: delle_specie, S0B1Lemma: di_., S0B1LemmaPOS: di_F, S0B1POS: E_F, S0B1POSLemma: E_., S0B1Token: delle_., S0Lemma: di, S0POS: E, S0Token: delle, di_hasRighDep_prep: true, di_specie_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [specie, . ,.. ]
-
-B0Lemma: specie, B0POS: S, B0Token: specie, transitionHistoryLength3: 020, 
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [specie]   B= [.]
-
-B0Lemma: ., B0POS: F, B0Token: ., S0B0Lemma: specie_., S0B0LemmaPOS: specie_F, S0B0POS: S_F, S0B0POSLemma: S_., S0B0Token: specie_., S0Lemma: specie, S0POS: S, S0Token: specie, transitionHistoryLength3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: F, B0Token: ., transitionHistoryLength3: 020, 
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: F, S0Token: ., transitionHistoryLength3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 12889 - 
-Qui è riconosciuto da Jeanne Dassalle che , rimasta vedova , sperava di poter riallacciare una relazione ma si rende subito conto che Piero è ormai troppo mutato ; venerato come un santo nel paesino di Jenne , Piero va a Roma , contando di convincere lo stesso papa della necessità di una radicale riforma della Chiesa , ma viene ostacolato tanto dai cattolici tradizionalisti che dagli esponenti dello Stato laico . 
+## Sentence No. 2629 - 
+è in questo momento che ci viene dato il benservito ... invece di assumer- ci come sarebbe stato giusto , alle dirette dipendenze della scuola ( per la professionalità acquisita in 5 anni ) , succede che i comuni scaricano i loro bidelli allo stato camuffando tra essi anche persone che nella scuola non avevano mai messo piede ( giusto per far- si degli amici ) , così il fiume cominciava ad ingrossar- si e noi restavamo ancora al palo . 
 ### Existing MWEs: 
-1- **riallacciare una relazione** (ID)
-2- **si rende conto** (ID)
+1- **dato il benservito** (ID)
+2- **far- si amici** (ID)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Qui, è, riconosciuto ,.. ]
-
-B0Lemma: qui, B0POS: B, B0Token: Qui, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Qui]   B= [è, riconosciuto, da ,.. ]
-
-B0Lemma: essere, B0POS: V, B0Token: è, S0B0Lemma: qui_essere, S0B0LemmaPOS: qui_V, S0B0POS: B_V, S0B0POSLemma: B_essere, S0B0Token: Qui_è, S0B1Lemma: qui_riconoscere, S0B1LemmaPOS: qui_V, S0B1POS: B_V, S0B1POSLemma: B_riconoscere, S0B1Token: Qui_riconosciuto, S0Lemma: qui, S0POS: B, S0Token: Qui, qui_isGouvernedBy_riconoscere: true, qui_isGouvernedBy_riconoscere_mod_loc: true, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [è, riconosciuto, da ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [è, in, questo ,.. ]
 
 B0Lemma: essere, B0POS: V, B0Token: è, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [è]   B= [riconosciuto, da, Jeanne ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [è]   B= [in, questo, momento ,.. ]
 
-B0Lemma: riconoscere, B0POS: V, B0Token: riconosciuto, S0B0Lemma: essere_riconoscere, S0B0LemmaPOS: essere_V, S0B0POS: V_V, S0B0POSLemma: V_riconoscere, S0B0Token: è_riconosciuto, S0B1Lemma: essere_da, S0B1LemmaPOS: essere_E, S0B1POS: V_E, S0B1POSLemma: V_da, S0B1Token: è_da, S0Lemma: essere, S0POS: V, S0Token: è, essere_isGouvernedBy_riconoscere: true, essere_isGouvernedBy_riconoscere_aux: true, 
+B0Lemma: in, B0POS: E, B0Token: in, S0B0Lemma: essere_in, S0B0LemmaPOS: essere_E, S0B0POS: V_E, S0B0POSLemma: V_in, S0B0Token: è_in, S0B1Lemma: essere_questo, S0B1LemmaPOS: essere_DD, S0B1POS: V_DD, S0B1POSLemma: V_questo, S0B1Token: è_questo, S0Lemma: essere, S0POS: V, S0Token: è, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [riconosciuto, da, Jeanne ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, questo, momento ,.. ]
 
-B0Lemma: riconoscere, B0POS: V, B0Token: riconosciuto, transitionHistoryLength3: 020, 
+B0Lemma: in, B0POS: E, B0Token: in, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [riconosciuto]   B= [da, Jeanne, Dassalle ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [questo, momento, che ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: da, S0B0Lemma: riconoscere_da, S0B0LemmaPOS: riconoscere_E, S0B0POS: V_E, S0B0POSLemma: V_da, S0B0Token: riconosciuto_da, S0B1Lemma: riconoscere_Jeanne, S0B1LemmaPOS: riconoscere_S, S0B1POS: V_S, S0B1POSLemma: V_Jeanne, S0B1Token: riconosciuto_Jeanne, S0Lemma: riconoscere, S0POS: V, S0Token: riconosciuto, transitionHistoryLength3: 202, 
+B0Lemma: questo, B0POS: DD, B0Token: questo, S0B0Lemma: in_questo, S0B0LemmaPOS: in_DD, S0B0POS: E_DD, S0B0POSLemma: E_questo, S0B0Token: in_questo, S0B1Lemma: in_momento, S0B1LemmaPOS: in_S, S0B1POS: E_S, S0B1POSLemma: E_momento, S0B1Token: in_momento, S0Lemma: in, S0POS: E, S0Token: in, hasRighDep_prep: true, in_hasRighDep_prep: true, in_momento_hasRighDep_prep: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [da, Jeanne, Dassalle ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [questo, momento, che ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: da, transitionHistoryLength3: 020, 
+B0Lemma: questo, B0POS: DD, B0Token: questo, TransHistory3: 020, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [da]   B= [Jeanne, Dassalle, che ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [questo]   B= [momento, che, ci ,.. ]
 
-B0Lemma: Jeanne, B0POS: S, B0Token: Jeanne, S0B0Lemma: da_Jeanne, S0B0LemmaPOS: da_S, S0B0POS: E_S, S0B0POSLemma: E_Jeanne, S0B0Token: da_Jeanne, S0B1Lemma: da_Dassalle, S0B1LemmaPOS: da_S, S0B1POS: E_S, S0B1POSLemma: E_Dassalle, S0B1Token: da_Dassalle, S0Lemma: da, S0POS: E, S0Token: da, da_Dassalle_hasRighDep_prep: true, da_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: momento, B0POS: S, B0Token: momento, S0B0Lemma: questo_momento, S0B0LemmaPOS: questo_S, S0B0POS: DD_S, S0B0POSLemma: DD_momento, S0B0Token: questo_momento, S0B1Lemma: questo_che, S0B1LemmaPOS: questo_PR, S0B1POS: DD_PR, S0B1POSLemma: DD_che, S0B1Token: questo_che, S0Lemma: questo, S0POS: DD, S0Token: questo, TransHistory3: 202, questo_isGouvernedBy_momento: true, questo_isGouvernedBy_momento_mod: true, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Jeanne, Dassalle, che ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [momento, che, ci ,.. ]
 
-B0Lemma: Jeanne, B0POS: S, B0Token: Jeanne, transitionHistoryLength3: 020, 
+B0Lemma: momento, B0POS: S, B0Token: momento, TransHistory3: 020, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Jeanne]   B= [Dassalle, che, , ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [momento]   B= [che, ci, viene ,.. ]
 
-B0Lemma: Dassalle, B0POS: S, B0Token: Dassalle, Jeanne_isGouvernedBy_Dassalle: true, Jeanne_isGouvernedBy_Dassalle_mod: true, S0B0Lemma: Jeanne_Dassalle, S0B0LemmaPOS: Jeanne_S, S0B0POS: S_S, S0B0POSLemma: S_Dassalle, S0B0Token: Jeanne_Dassalle, S0B1Lemma: Jeanne_che, S0B1LemmaPOS: Jeanne_P, S0B1POS: S_P, S0B1POSLemma: S_che, S0B1Token: Jeanne_che, S0Lemma: Jeanne, S0POS: S, S0Token: Jeanne, transitionHistoryLength3: 202, 
+B0Lemma: che, B0POS: PR, B0Token: che, S0B0Lemma: momento_che, S0B0LemmaPOS: momento_PR, S0B0POS: S_PR, S0B0POSLemma: S_che, S0B0Token: momento_che, S0B1Lemma: momento_ci, S0B1LemmaPOS: momento_PC, S0B1POS: S_PC, S0B1POSLemma: S_ci, S0B1Token: momento_ci, S0Lemma: momento, S0POS: S, S0Token: momento, TransHistory3: 202, hasRighDep_mod_rel: true, momento_dare_hasRighDep_mod_rel: true, momento_hasRighDep_mod_rel: true, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Dassalle, che, , ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, ci, viene ,.. ]
 
-B0Lemma: Dassalle, B0POS: S, B0Token: Dassalle, transitionHistoryLength3: 020, 
+B0Lemma: che, B0POS: PR, B0Token: che, TransHistory3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Dassalle]   B= [che, ,, rimasta ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [ci, viene, dato ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, Dassalle_hasRighDep_mod: true, Dassalle_sperare_hasRighDep_mod: true, S0B0Lemma: Dassalle_che, S0B0LemmaPOS: Dassalle_P, S0B0POS: S_P, S0B0POSLemma: S_che, S0B0Token: Dassalle_che, S0B1Lemma: Dassalle_,, S0B1LemmaPOS: Dassalle_F, S0B1POS: S_F, S0B1POSLemma: S_,, S0B1Token: Dassalle_,, S0Lemma: Dassalle, S0POS: S, S0Token: Dassalle, hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: ci, B0POS: PC, B0Token: ci, S0B0Lemma: che_ci, S0B0LemmaPOS: che_PC, S0B0POS: PR_PC, S0B0POSLemma: PR_ci, S0B0Token: che_ci, S0B1Lemma: che_venire, S0B1LemmaPOS: che_VA, S0B1POS: PR_VA, S0B1POSLemma: PR_venire, S0B1Token: che_viene, S0Lemma: che, S0POS: PR, S0Token: che, TransHistory3: 202, che_isGouvernedBy_dare: true, che_isGouvernedBy_dare_subj: true, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, ,, rimasta ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ci, viene, dato ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, transitionHistoryLength3: 020, 
+B0Lemma: ci, B0POS: PC, B0Token: ci, TransHistory3: 020, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [,, rimasta, vedova ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ci]   B= [viene, dato, il ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: che_,, S0B0LemmaPOS: che_F, S0B0POS: P_F, S0B0POSLemma: P_,, S0B0Token: che_,, S0B1Lemma: che_rimanere, S0B1LemmaPOS: che_V, S0B1POS: P_V, S0B1POSLemma: P_rimanere, S0B1Token: che_rimasta, S0Lemma: che, S0POS: P, S0Token: che, che_isGouvernedBy_sperare: true, che_isGouvernedBy_sperare_subj: true, transitionHistoryLength3: 202, 
+B0Lemma: venire, B0POS: VA, B0Token: viene, S0B0Lemma: ci_venire, S0B0LemmaPOS: ci_VA, S0B0POS: PC_VA, S0B0POSLemma: PC_venire, S0B0Token: ci_viene, S0B1Lemma: ci_dare, S0B1LemmaPOS: ci_V, S0B1POS: PC_V, S0B1POSLemma: PC_dare, S0B1Token: ci_dato, S0Lemma: ci, S0POS: PC, S0Token: ci, TransHistory3: 202, ci_isGouvernedBy_dare: true, ci_isGouvernedBy_dare_comp_ind: true, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, rimasta, vedova ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [viene, dato, il ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: venire, B0POS: VA, B0Token: viene, TransHistory3: 020, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [rimasta, vedova, , ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [viene]   B= [dato, il, benservito ,.. ]
 
-,_isGouvernedBy_rimanere: true, ,_isGouvernedBy_rimanere_punc: true, B0Lemma: rimanere, B0POS: V, B0Token: rimasta, S0B0Lemma: ,_rimanere, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_rimanere, S0B0Token: ,_rimasta, S0B1Lemma: ,_vedova, S0B1LemmaPOS: ,_S, S0B1POS: F_S, S0B1POSLemma: F_vedova, S0B1Token: ,_vedova, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: dare, B0POS: V, B0Token: dato, S0B0Lemma: venire_dare, S0B0LemmaPOS: venire_V, S0B0POS: VA_V, S0B0POSLemma: VA_dare, S0B0Token: viene_dato, S0B1Lemma: venire_il, S0B1LemmaPOS: venire_RD, S0B1POS: VA_RD, S0B1POSLemma: VA_il, S0B1Token: viene_il, S0Lemma: venire, S0POS: VA, S0Token: viene, TransHistory3: 202, venire_isGouvernedBy_dare: true, venire_isGouvernedBy_dare_modal: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rimasta, vedova, , ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dato, il, benservito ,.. ]
 
-B0Lemma: rimanere, B0POS: V, B0Token: rimasta, transitionHistoryLength3: 020, 
+B0Lemma: dare, B0POS: V, B0Token: dato, TransHistory3: 020, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rimasta]   B= [vedova, ,, sperava ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dato]   B= [il, benservito, ... ,.. ]
 
-B0Lemma: vedova, B0POS: S, B0Token: vedova, S0B0Lemma: rimanere_vedova, S0B0LemmaPOS: rimanere_S, S0B0POS: V_S, S0B0POSLemma: V_vedova, S0B0Token: rimasta_vedova, S0B1Lemma: rimanere_,, S0B1LemmaPOS: rimanere_F, S0B1POS: V_F, S0B1POSLemma: V_,, S0B1Token: rimasta_,, S0Lemma: rimanere, S0POS: V, S0Token: rimasta, hasRighDep_obj: true, hasRighDep_punc: true, rimanere_,_hasRighDep_punc: true, rimanere_hasRighDep_obj: true, rimanere_hasRighDep_punc: true, rimanere_isGouvernedBy_sperare: true, rimanere_isGouvernedBy_sperare_mod: true, rimanere_vedova_hasRighDep_obj: true, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: il, S0B0Lemma: dare_il, S0B0LemmaPOS: dare_RD, S0B0POS: V_RD, S0B0POSLemma: V_il, S0B0Token: dato_il, S0B1Lemma: dare_benservito, S0B1LemmaPOS: dare_S, S0B1POS: V_S, S0B1POSLemma: V_benservito, S0B1Token: dato_benservito, S0Lemma: dare, S0POS: V, S0Token: dato, TransHistory3: 202, dare_benservito_hasRighDep_obj: true, dare_di_hasRighDep_arg: true, dare_essere_hasRighDep_conj: true, dare_hasRighDep_arg: true, dare_hasRighDep_conj: true, dare_hasRighDep_mod: true, dare_hasRighDep_obj: true, dare_succedere_hasRighDep_mod: true, hasRighDep_arg: true, hasRighDep_conj: true, hasRighDep_mod: true, hasRighDep_obj: true, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vedova, ,, sperava ,.. ]
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dato, il]   B= [benservito, ..., invece ,.. ]
 
-B0Lemma: vedova, B0POS: S, B0Token: vedova, transitionHistoryLength3: 020, 
+B0Lemma: benservito, B0POS: S, B0Token: benservito, S0B0Lemma: il_benservito, S0B0LemmaPOS: il_S, S0B0POS: RD_S, S0B0POSLemma: RD_benservito, S0B0Token: il_benservito, S0B1Lemma: il_..., S0B1LemmaPOS: il_FF, S0B1POS: RD_FF, S0B1POSLemma: RD_..., S0B1Token: il_..., S0Lemma: il, S0POS: RD, S0S1Distance: 1, S0Token: il, S1B0Lemma: dare_benservito, S1B0LemmaPOS: dare_S, S1B0POS: V_S, S1B0POSLemma: V_benservito, S1B0Token: dato_benservito, S1Lemma: dare, S1POS: V, S1S0Lemma: dare_il, S1S0LemmaPOS: dare_RD, S1S0POS: V_RD, S1S0POSLemma: V_il, S1S0Token: dato_il, S1Token: dato, StackLengthIs: 2, TransHistory3: 020, il_isGouvernedBy_benservito: true, il_isGouvernedBy_benservito_det: true, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vedova]   B= [,, sperava, di ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dato, il, benservito]   B= [..., invece, di ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: vedova_,, S0B0LemmaPOS: vedova_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: vedova_,, S0B1Lemma: vedova_sperare, S0B1LemmaPOS: vedova_V, S0B1POS: S_V, S0B1POSLemma: S_sperare, S0B1Token: vedova_sperava, S0Lemma: vedova, S0POS: S, S0Token: vedova, transitionHistoryLength3: 202, 
+B0Lemma: ..., B0POS: FF, B0Token: ..., S0B0Lemma: benservito_..., S0B0LemmaPOS: benservito_FF, S0B0POS: S_FF, S0B0POSLemma: S_..., S0B0Token: benservito_..., S0B1Lemma: benservito_invece, S0B1LemmaPOS: benservito_B, S0B1POS: S_B, S0B1POSLemma: S_invece, S0B1Token: benservito_invece, S0Lemma: benservito, S0POS: S, S0S1Distance: 1, S0Token: benservito, S1B0Lemma: il_..., S1B0LemmaPOS: il_FF, S1B0POS: RD_FF, S1B0POSLemma: RD_..., S1B0Token: il_..., S1Lemma: il, S1POS: RD, S1S0Lemma: il_benservito, S1S0LemmaPOS: il_S, S1S0POS: RD_S, S1S0POSLemma: RD_benservito, S1S0Token: il_benservito, S1Token: il, StackLengthIs: 3, SyntaxicRelation: -det, TransHistory3: 002, benservito_..._hasRighDep_punc: true, benservito_hasRighDep_punc: true, hasRighDep_punc: true, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, sperava, di ,.. ]
+18- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dato, [il, benservito]]   B= [..., invece, di ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: ..., B0POS: FF, B0Token: ..., S0B0Lemma: il_benservito_..., S0B0LemmaPOS: il_benservito_FF, S0B0POS: RD_S_FF, S0B0POSLemma: RD_S_..., S0B0Token: il_benservito_..., S0B1Lemma: il_benservito_invece, S0B1LemmaPOS: il_benservito_B, S0B1POS: RD_S_B, S0B1POSLemma: RD_S_invece, S0B1Token: il_benservito_invece, S0Lemma: il_benservito, S0POS: RD_S, S0Token: il_benservito, S1B0Lemma: dare_..., S1B0LemmaPOS: dare_FF, S1B0POS: V_FF, S1B0POSLemma: V_..., S1B0Token: dato_..., S1Lemma: dare, S1POS: V, S1S0Lemma: dare_il_benservito, S1S0LemmaPOS: dare_RD_S, S1S0POS: V_RD_S, S1S0POSLemma: V_il_benservito, S1S0Token: dato_il_benservito, S1Token: dato, StackLengthIs: 2, TransHistory3: 000, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [sperava, di, poter ,.. ]
+19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[dato, [il, benservito]]]   B= [..., invece, di ,.. ]
 
-B0Lemma: sperare, B0POS: V, B0Token: sperava, S0B0Lemma: ,_sperare, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_sperare, S0B0Token: ,_sperava, S0B1Lemma: ,_di, S0B1LemmaPOS: ,_E, S0B1POS: F_E, S0B1POSLemma: F_di, S0B1Token: ,_di, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: ..., B0POS: FF, B0Token: ..., S0B0Lemma: dare_il_benservito_..., S0B0LemmaPOS: dare_il_benservito_FF, S0B0POS: V_RD_S_FF, S0B0POSLemma: V_RD_S_..., S0B0Token: dato_il_benservito_..., S0B1Lemma: dare_il_benservito_invece, S0B1LemmaPOS: dare_il_benservito_B, S0B1POS: V_RD_S_B, S0B1POSLemma: V_RD_S_invece, S0B1Token: dato_il_benservito_invece, S0Lemma: dare_il_benservito, S0POS: V_RD_S, S0Token: dato_il_benservito, TransHistory3: 100, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sperava, di, poter ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [..., invece, di ,.. ]
 
-B0Lemma: sperare, B0POS: V, B0Token: sperava, transitionHistoryLength3: 020, 
+B0Lemma: ..., B0POS: FF, B0Token: ..., TransHistory3: 110, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sperava]   B= [di, poter, riallacciare ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [...]   B= [invece, di, assumer- ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: sperare_di, S0B0LemmaPOS: sperare_E, S0B0POS: V_E, S0B0POSLemma: V_di, S0B0Token: sperava_di, S0B1Lemma: sperare_potere, S0B1LemmaPOS: sperare_V, S0B1POS: V_V, S0B1POSLemma: V_potere, S0B1Token: sperava_poter, S0Lemma: sperare, S0POS: V, S0Token: sperava, hasRighDep_arg: true, hasRighDep_con: true, hasRighDep_conj: true, sperare_di_hasRighDep_arg: true, sperare_hasRighDep_arg: true, sperare_hasRighDep_con: true, sperare_hasRighDep_conj: true, sperare_ma_hasRighDep_con: true, sperare_rendere_hasRighDep_conj: true, transitionHistoryLength3: 202, 
+B0Lemma: invece, B0POS: B, B0Token: invece, S0B0Lemma: ..._invece, S0B0LemmaPOS: ..._B, S0B0POS: FF_B, S0B0POSLemma: FF_invece, S0B0Token: ..._invece, S0B1Lemma: ..._di, S0B1LemmaPOS: ..._E, S0B1POS: FF_E, S0B1POSLemma: FF_di, S0B1Token: ..._di, S0Lemma: ..., S0POS: FF, S0Token: ..., TransHistory3: 211, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, poter, riallacciare ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [invece, di, assumer- ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: invece, B0POS: B, B0Token: invece, TransHistory3: 021, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [poter, riallacciare, una ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [invece]   B= [di, assumer-, ci ,.. ]
 
-B0Lemma: potere, B0POS: V, B0Token: poter, S0B0Lemma: di_potere, S0B0LemmaPOS: di_V, S0B0POS: E_V, S0B0POSLemma: E_potere, S0B0Token: di_poter, S0B1Lemma: di_riallacciare, S0B1LemmaPOS: di_V, S0B1POS: E_V, S0B1POSLemma: E_riallacciare, S0B1Token: di_riallacciare, S0Lemma: di, S0POS: E, S0Token: di, di_hasRighDep_prep: true, di_riallacciare_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: invece_di, S0B0LemmaPOS: invece_E, S0B0POS: B_E, S0B0POSLemma: B_di, S0B0Token: invece_di, S0B1Lemma: invece_assumere, S0B1LemmaPOS: invece_V, S0B1POS: B_V, S0B1POSLemma: B_assumere, S0B1Token: invece_assumer-, S0Lemma: invece, S0POS: B, S0Token: invece, TransHistory3: 202, invece_isGouvernedBy_di: true, invece_isGouvernedBy_di_mod: true, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [poter, riallacciare, una ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, assumer-, ci ,.. ]
 
-B0Lemma: potere, B0POS: V, B0Token: poter, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: E, B0Token: di, TransHistory3: 020, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [poter]   B= [riallacciare, una, relazione ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [assumer-, ci, come ,.. ]
 
-B0Lemma: riallacciare, B0POS: V, B0Token: riallacciare, S0B0Lemma: potere_riallacciare, S0B0LemmaPOS: potere_V, S0B0POS: V_V, S0B0POSLemma: V_riallacciare, S0B0Token: poter_riallacciare, S0B1Lemma: potere_una, S0B1LemmaPOS: potere_R, S0B1POS: V_R, S0B1POSLemma: V_una, S0B1Token: poter_una, S0Lemma: potere, S0POS: V, S0Token: poter, potere_isGouvernedBy_riallacciare: true, potere_isGouvernedBy_riallacciare_modal: true, transitionHistoryLength3: 202, 
+B0Lemma: assumere, B0POS: V, B0Token: assumer-, S0B0Lemma: di_assumere, S0B0LemmaPOS: di_V, S0B0POS: E_V, S0B0POSLemma: E_assumere, S0B0Token: di_assumer-, S0B1Lemma: di_ci, S0B1LemmaPOS: di_PC, S0B1POS: E_PC, S0B1POSLemma: E_ci, S0B1Token: di_ci, S0Lemma: di, S0POS: E, S0Token: di, TransHistory3: 202, di_assumere_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [riallacciare, una, relazione ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [assumer-, ci, come ,.. ]
 
-B0Lemma: riallacciare, B0POS: V, B0Token: riallacciare, transitionHistoryLength3: 020, 
+B0Lemma: assumere, B0POS: V, B0Token: assumer-, TransHistory3: 020, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [riallacciare]   B= [una, relazione, ma ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [assumer-]   B= [ci, come, sarebbe ,.. ]
 
-B0Lemma: una, B0POS: R, B0Token: una, S0B0Lemma: riallacciare_una, S0B0LemmaPOS: riallacciare_R, S0B0POS: V_R, S0B0POSLemma: V_una, S0B0Token: riallacciare_una, S0B1Lemma: riallacciare_relazione, S0B1LemmaPOS: riallacciare_S, S0B1POS: V_S, S0B1POSLemma: V_relazione, S0B1Token: riallacciare_relazione, S0Lemma: riallacciare, S0POS: V, S0Token: riallacciare, hasRighDep_obj: true, riallacciare_hasRighDep_obj: true, riallacciare_relazione_hasRighDep_obj: true, transitionHistoryLength3: 202, 
+B0Lemma: ci, B0POS: PC, B0Token: ci, S0B0Lemma: assumere_ci, S0B0LemmaPOS: assumere_PC, S0B0POS: V_PC, S0B0POSLemma: V_ci, S0B0Token: assumer-_ci, S0B1Lemma: assumere_come, S0B1LemmaPOS: assumere_B, S0B1POS: V_B, S0B1POSLemma: V_come, S0B1Token: assumer-_come, S0Lemma: assumere, S0POS: V, S0Token: assumer-, TransHistory3: 202, assumere_ci_hasRighDep_comp: true, assumere_come_hasRighDep_mod: true, assumere_hasRighDep_comp: true, assumere_hasRighDep_mod: true, hasRighDep_comp: true, hasRighDep_mod: true, 
 
-30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [riallacciare, una]   B= [relazione, ma, si ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ci, come, sarebbe ,.. ]
 
-B0Lemma: relazione, B0POS: S, B0Token: relazione, S0B0Lemma: una_relazione, S0B0LemmaPOS: una_S, S0B0POS: R_S, S0B0POSLemma: R_relazione, S0B0Token: una_relazione, S0B1Lemma: una_ma, S0B1LemmaPOS: una_C, S0B1POS: R_C, S0B1POSLemma: R_ma, S0B1Token: una_ma, S0Lemma: una, S0POS: R, S0S1Distance: 1, S0Token: una, S1B0Lemma: riallacciare_relazione, S1B0LemmaPOS: riallacciare_S, S1B0POS: V_S, S1B0POSLemma: V_relazione, S1B0Token: riallacciare_relazione, S1Lemma: riallacciare, S1POS: V, S1S0Lemma: riallacciare_una, S1S0LemmaPOS: riallacciare_R, S1S0POS: V_R, S1S0POSLemma: V_una, S1S0Token: riallacciare_una, S1Token: riallacciare, transitionHistoryLength3: 020, una_isGouvernedBy_relazione: true, una_isGouvernedBy_relazione_det: true, 
+B0Lemma: ci, B0POS: PC, B0Token: ci, TransHistory3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [riallacciare, una, relazione]   B= [ma, si, rende ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ci]   B= [come, sarebbe, stato ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, S0B0Lemma: relazione_ma, S0B0LemmaPOS: relazione_C, S0B0POS: S_C, S0B0POSLemma: S_ma, S0B0Token: relazione_ma, S0B1Lemma: relazione_si, S0B1LemmaPOS: relazione_P, S0B1POS: S_P, S0B1POSLemma: S_si, S0B1Token: relazione_si, S0Lemma: relazione, S0POS: S, S0S1Distance: 1, S0Token: relazione, S1B0Lemma: una_ma, S1B0LemmaPOS: una_C, S1B0POS: R_C, S1B0POSLemma: R_ma, S1B0Token: una_ma, S1Lemma: una, S1POS: R, S1S0Lemma: una_relazione, S1S0LemmaPOS: una_S, S1S0POS: R_S, S1S0POSLemma: R_relazione, S1S0Token: una_relazione, S1Token: una, SyntaxicRelation: -det, transitionHistoryLength3: 002, 
+B0Lemma: come, B0POS: B, B0Token: come, S0B0Lemma: ci_come, S0B0LemmaPOS: ci_B, S0B0POS: PC_B, S0B0POSLemma: PC_come, S0B0Token: ci_come, S0B1Lemma: ci_essere, S0B1LemmaPOS: ci_VA, S0B1POS: PC_VA, S0B1POSLemma: PC_essere, S0B1Token: ci_sarebbe, S0Lemma: ci, S0POS: PC, S0Token: ci, TransHistory3: 202, 
 
-32- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [riallacciare, [una, relazione]]   B= [ma, si, rende ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [come, sarebbe, stato ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, S0B0Lemma: una_relazione_ma, S0B0LemmaPOS: una_relazione_C, S0B0POS: R_S_C, S0B0POSLemma: R_S_ma, S0B0Token: una_relazione_ma, S0B1Lemma: una_relazione_si, S0B1LemmaPOS: una_relazione_P, S0B1POS: R_S_P, S0B1POSLemma: R_S_si, S0B1Token: una_relazione_si, S0Lemma: una_relazione, S0POS: R_S, S0Token: una_relazione, S1B0Lemma: riallacciare_ma, S1B0LemmaPOS: riallacciare_C, S1B0POS: V_C, S1B0POSLemma: V_ma, S1B0Token: riallacciare_ma, S1Lemma: riallacciare, S1POS: V, S1S0Lemma: riallacciare_una_relazione, S1S0LemmaPOS: riallacciare_R_S, S1S0POS: V_R_S, S1S0POSLemma: V_una_relazione, S1S0Token: riallacciare_una_relazione, S1Token: riallacciare, transitionHistoryLength3: 000, 
+B0Lemma: come, B0POS: B, B0Token: come, TransHistory3: 020, 
 
-33- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[riallacciare, [una, relazione]]]   B= [ma, si, rende ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [come]   B= [sarebbe, stato, giusto ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, S0B0Lemma: riallacciare_una_relazione_ma, S0B0LemmaPOS: riallacciare_una_relazione_C, S0B0POS: V_R_S_C, S0B0POSLemma: V_R_S_ma, S0B0Token: riallacciare_una_relazione_ma, S0B1Lemma: riallacciare_una_relazione_si, S0B1LemmaPOS: riallacciare_una_relazione_P, S0B1POS: V_R_S_P, S0B1POSLemma: V_R_S_si, S0B1Token: riallacciare_una_relazione_si, S0Lemma: riallacciare_una_relazione, S0POS: V_R_S, S0Token: riallacciare_una_relazione, transitionHistoryLength3: 100, 
+B0Lemma: essere, B0POS: VA, B0Token: sarebbe, S0B0Lemma: come_essere, S0B0LemmaPOS: come_VA, S0B0POS: B_VA, S0B0POSLemma: B_essere, S0B0Token: come_sarebbe, S0B1Lemma: come_essere, S0B1LemmaPOS: come_V, S0B1POS: B_V, S0B1POSLemma: B_essere, S0B1Token: come_stato, S0Lemma: come, S0POS: B, S0Token: come, TransHistory3: 202, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, si, rende ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sarebbe, stato, giusto ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, transitionHistoryLength3: 110, 
+B0Lemma: essere, B0POS: VA, B0Token: sarebbe, TransHistory3: 020, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [si, rende, subito ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sarebbe]   B= [stato, giusto, , ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, S0B0Lemma: ma_si, S0B0LemmaPOS: ma_P, S0B0POS: C_P, S0B0POSLemma: C_si, S0B0Token: ma_si, S0B1Lemma: ma_rendere, S0B1LemmaPOS: ma_V, S0B1POS: C_V, S0B1POSLemma: C_rendere, S0B1Token: ma_rende, S0Lemma: ma, S0POS: C, S0Token: ma, transitionHistoryLength3: 211, 
+B0Lemma: essere, B0POS: V, B0Token: stato, S0B0Lemma: essere_essere, S0B0LemmaPOS: essere_V, S0B0POS: VA_V, S0B0POSLemma: VA_essere, S0B0Token: sarebbe_stato, S0B1Lemma: essere_giusto, S0B1LemmaPOS: essere_S, S0B1POS: VA_S, S0B1POSLemma: VA_giusto, S0B1Token: sarebbe_giusto, S0Lemma: essere, S0POS: VA, S0Token: sarebbe, TransHistory3: 202, essere_isGouvernedBy_essere: true, essere_isGouvernedBy_essere_aux: true, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, rende, subito ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stato, giusto, , ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, transitionHistoryLength3: 021, 
+B0Lemma: essere, B0POS: V, B0Token: stato, TransHistory3: 020, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [rende, subito, conto ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stato]   B= [giusto, ,, alle ,.. ]
 
-B0Lemma: rendere, B0POS: V, B0Token: rende, S0B0Lemma: si_rendere, S0B0LemmaPOS: si_V, S0B0POS: P_V, S0B0POSLemma: P_rendere, S0B0Token: si_rende, S0B1Lemma: si_subito, S0B1LemmaPOS: si_B, S0B1POS: P_B, S0B1POSLemma: P_subito, S0B1Token: si_subito, S0Lemma: si, S0POS: P, S0Token: si, si_isGouvernedBy_rendere: true, si_isGouvernedBy_rendere_clit: true, transitionHistoryLength3: 202, 
+B0Lemma: giusto, B0POS: S, B0Token: giusto, S0B0Lemma: essere_giusto, S0B0LemmaPOS: essere_S, S0B0POS: V_S, S0B0POSLemma: V_giusto, S0B0Token: stato_giusto, S0B1Lemma: essere_,, S0B1LemmaPOS: essere_FF, S0B1POS: V_FF, S0B1POSLemma: V_,, S0B1Token: stato_,, S0Lemma: essere, S0POS: V, S0Token: stato, TransHistory3: 202, essere_al_hasRighDep_comp: true, essere_giusto_hasRighDep_pred: true, essere_hasRighDep_comp: true, essere_hasRighDep_pred: true, hasRighDep_comp: true, hasRighDep_pred: true, 
 
-38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, rende]   B= [subito, conto, che ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [giusto, ,, alle ,.. ]
 
-B0Lemma: subito, B0POS: B, B0Token: subito, S0B0Lemma: rendere_subito, S0B0LemmaPOS: rendere_B, S0B0POS: V_B, S0B0POSLemma: V_subito, S0B0Token: rende_subito, S0B1Lemma: rendere_conto, S0B1LemmaPOS: rendere_S, S0B1POS: V_S, S0B1POSLemma: V_conto, S0B1Token: rende_conto, S0Lemma: rendere, S0POS: V, S0S1Distance: 1, S0Token: rende, S1B0Lemma: si_subito, S1B0LemmaPOS: si_B, S1B0POS: P_B, S1B0POSLemma: P_subito, S1B0Token: si_subito, S1Lemma: si, S1POS: P, S1S0Lemma: si_rendere, S1S0LemmaPOS: si_V, S1S0POS: P_V, S1S0POSLemma: P_rendere, S1S0Token: si_rende, S1Token: si, SyntaxicRelation: -clit, hasRighDep_mod_temp: true, hasRighDep_obj: true, rendere_conto_hasRighDep_obj: true, rendere_hasRighDep_mod_temp: true, rendere_hasRighDep_obj: true, rendere_subito_hasRighDep_mod_temp: true, transitionHistoryLength3: 020, 
+B0Lemma: giusto, B0POS: S, B0Token: giusto, TransHistory3: 020, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, rende, subito]   B= [conto, che, Piero ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [giusto]   B= [,, alle, dirette ,.. ]
 
-B0Lemma: conto, B0POS: S, B0Token: conto, S0B0Lemma: subito_conto, S0B0LemmaPOS: subito_S, S0B0POS: B_S, S0B0POSLemma: B_conto, S0B0Token: subito_conto, S0B1Lemma: subito_che, S0B1LemmaPOS: subito_P, S0B1POS: B_P, S0B1POSLemma: B_che, S0B1Token: subito_che, S0Lemma: subito, S0POS: B, S0S1Distance: 1, S0Token: subito, S1B0Lemma: rendere_conto, S1B0LemmaPOS: rendere_S, S1B0POS: V_S, S1B0POSLemma: V_conto, S1B0Token: rende_conto, S1Lemma: rendere, S1POS: V, S1S0Lemma: rendere_subito, S1S0LemmaPOS: rendere_B, S1S0POS: V_B, S1S0POSLemma: V_subito, S1S0Token: rende_subito, S1Token: rende, SyntaxicRelation: +mod_temp, transitionHistoryLength3: 002, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: giusto_,, S0B0LemmaPOS: giusto_FF, S0B0POS: S_FF, S0B0POSLemma: S_,, S0B0Token: giusto_,, S0B1Lemma: giusto_al, S0B1LemmaPOS: giusto_EA, S0B1POS: S_EA, S0B1POSLemma: S_al, S0B1Token: giusto_alle, S0Lemma: giusto, S0POS: S, S0Token: giusto, TransHistory3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, rende]   B= [conto, che, Piero ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, alle, dirette ,.. ]
 
-B0Lemma: conto, B0POS: S, B0Token: conto, S0B0Lemma: rendere_conto, S0B0LemmaPOS: rendere_S, S0B0POS: V_S, S0B0POSLemma: V_conto, S0B0Token: rende_conto, S0B1Lemma: rendere_che, S0B1LemmaPOS: rendere_P, S0B1POS: V_P, S0B1POSLemma: V_che, S0B1Token: rende_che, S0Lemma: rendere, S0POS: V, S0S1Distance: 1, S0Token: rende, S1B0Lemma: si_conto, S1B0LemmaPOS: si_S, S1B0POS: P_S, S1B0POSLemma: P_conto, S1B0Token: si_conto, S1Lemma: si, S1POS: P, S1S0Lemma: si_rendere, S1S0LemmaPOS: si_V, S1S0POS: P_V, S1S0POSLemma: P_rendere, S1S0Token: si_rende, S1Token: si, SyntaxicRelation: -clit, hasRighDep_obj: true, rendere_conto_hasRighDep_obj: true, rendere_hasRighDep_obj: true, transitionHistoryLength3: 000, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, rende, conto]   B= [che, Piero, è ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [alle, dirette, dipendenze ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, S0B0Lemma: conto_che, S0B0LemmaPOS: conto_P, S0B0POS: S_P, S0B0POSLemma: S_che, S0B0Token: conto_che, S0B1Lemma: conto_Piero, S0B1LemmaPOS: conto_S, S0B1POS: S_S, S0B1POSLemma: S_Piero, S0B1Token: conto_Piero, S0Lemma: conto, S0POS: S, S0S1Distance: 2, S0Token: conto, S1B0Lemma: rendere_che, S1B0LemmaPOS: rendere_P, S1B0POS: V_P, S1B0POSLemma: V_che, S1B0Token: rende_che, S1Lemma: rendere, S1POS: V, S1S0Lemma: rendere_conto, S1S0LemmaPOS: rendere_S, S1S0POS: V_S, S1S0POSLemma: V_conto, S1S0Token: rende_conto, S1Token: rende, SyntaxicRelation: +obj, conto_essere_hasRighDep_mod_rel: true, conto_hasRighDep_mod_rel: true, conto_mutare_hasRighDep_mod_rel: true, hasRighDep_mod_rel: true, transitionHistoryLength3: 200, 
+,_isGouvernedBy_al: true, ,_isGouvernedBy_al_punc: true, B0Lemma: al, B0POS: EA, B0Token: alle, S0B0Lemma: ,_al, S0B0LemmaPOS: ,_EA, S0B0POS: FF_EA, S0B0POSLemma: FF_al, S0B0Token: ,_alle, S0B1Lemma: ,_diretto, S0B1LemmaPOS: ,_A, S0B1POS: FF_A, S0B1POSLemma: FF_diretto, S0B1Token: ,_dirette, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-42- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, [rende, conto]]   B= [che, Piero, è ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alle, dirette, dipendenze ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, S0B0Lemma: rendere_conto_che, S0B0LemmaPOS: rendere_conto_P, S0B0POS: V_S_P, S0B0POSLemma: V_S_che, S0B0Token: rende_conto_che, S0B1Lemma: rendere_conto_Piero, S0B1LemmaPOS: rendere_conto_S, S0B1POS: V_S_S, S0B1POSLemma: V_S_Piero, S0B1Token: rende_conto_Piero, S0Lemma: rendere_conto, S0POS: V_S, S0Token: rende_conto, S1B0Lemma: si_che, S1B0LemmaPOS: si_P, S1B0POS: P_P, S1B0POSLemma: P_che, S1B0Token: si_che, S1Lemma: si, S1POS: P, S1S0Lemma: si_rendere_conto, S1S0LemmaPOS: si_V_S, S1S0POS: P_V_S, S1S0POSLemma: P_rendere_conto, S1S0Token: si_rende_conto, S1Token: si, transitionHistoryLength3: 020, 
+B0Lemma: al, B0POS: EA, B0Token: alle, TransHistory3: 020, 
 
-43- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[si, [rende, conto]]]   B= [che, Piero, è ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alle]   B= [dirette, dipendenze, della ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, S0B0Lemma: si_rendere_conto_che, S0B0LemmaPOS: si_rendere_conto_P, S0B0POS: P_V_S_P, S0B0POSLemma: P_V_S_che, S0B0Token: si_rende_conto_che, S0B1Lemma: si_rendere_conto_Piero, S0B1LemmaPOS: si_rendere_conto_S, S0B1POS: P_V_S_S, S0B1POSLemma: P_V_S_Piero, S0B1Token: si_rende_conto_Piero, S0Lemma: si_rendere_conto, S0POS: P_V_S, S0Token: si_rende_conto, transitionHistoryLength3: 102, 
+B0Lemma: diretto, B0POS: A, B0Token: dirette, S0B0Lemma: al_diretto, S0B0LemmaPOS: al_A, S0B0POS: EA_A, S0B0POSLemma: EA_diretto, S0B0Token: alle_dirette, S0B1Lemma: al_dipendenza, S0B1LemmaPOS: al_S, S0B1POS: EA_S, S0B1POSLemma: EA_dipendenza, S0B1Token: alle_dipendenze, S0Lemma: al, S0POS: EA, S0Token: alle, TransHistory3: 202, al_,_hasRighDep_punc: true, al_dipendenza_hasRighDep_prep: true, al_hasRighDep_prep: true, al_hasRighDep_punc: true, hasRighDep_prep: true, hasRighDep_punc: true, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, Piero, è ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dirette, dipendenze, della ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, transitionHistoryLength3: 110, 
+B0Lemma: diretto, B0POS: A, B0Token: dirette, TransHistory3: 020, 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [Piero, è, ormai ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dirette]   B= [dipendenze, della, scuola ,.. ]
 
-B0Lemma: Piero, B0POS: S, B0Token: Piero, S0B0Lemma: che_Piero, S0B0LemmaPOS: che_S, S0B0POS: P_S, S0B0POSLemma: P_Piero, S0B0Token: che_Piero, S0B1Lemma: che_essere, S0B1LemmaPOS: che_V, S0B1POS: P_V, S0B1POSLemma: P_essere, S0B1Token: che_è, S0Lemma: che, S0POS: P, S0Token: che, che_isGouvernedBy_essere: true, che_isGouvernedBy_essere_subj: true, transitionHistoryLength3: 211, 
+B0Lemma: dipendenza, B0POS: S, B0Token: dipendenze, S0B0Lemma: diretto_dipendenza, S0B0LemmaPOS: diretto_S, S0B0POS: A_S, S0B0POSLemma: A_dipendenza, S0B0Token: dirette_dipendenze, S0B1Lemma: diretto_di, S0B1LemmaPOS: diretto_EA, S0B1POS: A_EA, S0B1POSLemma: A_di, S0B1Token: dirette_della, S0Lemma: diretto, S0POS: A, S0Token: dirette, TransHistory3: 202, diretto_isGouvernedBy_dipendenza: true, diretto_isGouvernedBy_dipendenza_mod: true, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Piero, è, ormai ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dipendenze, della, scuola ,.. ]
 
-B0Lemma: Piero, B0POS: S, B0Token: Piero, transitionHistoryLength3: 021, 
+B0Lemma: dipendenza, B0POS: S, B0Token: dipendenze, TransHistory3: 020, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Piero]   B= [è, ormai, troppo ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dipendenze]   B= [della, scuola, ( ,.. ]
 
-B0Lemma: essere, B0POS: V, B0Token: è, Piero_isGouvernedBy_essere: true, Piero_isGouvernedBy_essere_subj: true, S0B0Lemma: Piero_essere, S0B0LemmaPOS: Piero_V, S0B0POS: S_V, S0B0POSLemma: S_essere, S0B0Token: Piero_è, S0B1Lemma: Piero_ormai, S0B1LemmaPOS: Piero_B, S0B1POS: S_B, S0B1POSLemma: S_ormai, S0B1Token: Piero_ormai, S0Lemma: Piero, S0POS: S, S0Token: Piero, transitionHistoryLength3: 202, 
+B0Lemma: di, B0POS: EA, B0Token: della, S0B0Lemma: dipendenza_di, S0B0LemmaPOS: dipendenza_EA, S0B0POS: S_EA, S0B0POSLemma: S_di, S0B0Token: dipendenze_della, S0B1Lemma: dipendenza_Scuola, S0B1LemmaPOS: dipendenza_SP, S0B1POS: S_SP, S0B1POSLemma: S_Scuola, S0B1Token: dipendenze_scuola, S0Lemma: dipendenza, S0POS: S, S0Token: dipendenze, TransHistory3: 202, dipendenza_di_hasRighDep_comp: true, dipendenza_hasRighDep_comp: true, dipendenza_per_hasRighDep_comp: true, hasRighDep_comp: true, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [è, ormai, troppo ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [della, scuola, ( ,.. ]
 
-B0Lemma: essere, B0POS: V, B0Token: è, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: EA, B0Token: della, TransHistory3: 020, 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [è]   B= [ormai, troppo, mutato ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [della]   B= [scuola, (, per ,.. ]
 
-B0Lemma: ormai, B0POS: B, B0Token: ormai, S0B0Lemma: essere_ormai, S0B0LemmaPOS: essere_B, S0B0POS: V_B, S0B0POSLemma: V_ormai, S0B0Token: è_ormai, S0B1Lemma: essere_troppo, S0B1LemmaPOS: essere_B, S0B1POS: V_B, S0B1POSLemma: V_troppo, S0B1Token: è_troppo, S0Lemma: essere, S0POS: V, S0Token: è, essere_hasRighDep_mod: true, essere_ormai_hasRighDep_mod: true, hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: Scuola, B0POS: SP, B0Token: scuola, S0B0Lemma: di_Scuola, S0B0LemmaPOS: di_SP, S0B0POS: EA_SP, S0B0POSLemma: EA_Scuola, S0B0Token: della_scuola, S0B1Lemma: di_(, S0B1LemmaPOS: di_FB, S0B1POS: EA_FB, S0B1POSLemma: EA_(, S0B1Token: della_(, S0Lemma: di, S0POS: EA, S0Token: della, TransHistory3: 202, di_Scuola_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ormai, troppo, mutato ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [scuola, (, per ,.. ]
 
-B0Lemma: ormai, B0POS: B, B0Token: ormai, transitionHistoryLength3: 020, 
+B0Lemma: Scuola, B0POS: SP, B0Token: scuola, TransHistory3: 020, 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ormai]   B= [troppo, mutato, ; ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [scuola]   B= [(, per, la ,.. ]
 
-B0Lemma: troppo, B0POS: B, B0Token: troppo, S0B0Lemma: ormai_troppo, S0B0LemmaPOS: ormai_B, S0B0POS: B_B, S0B0POSLemma: B_troppo, S0B0Token: ormai_troppo, S0B1Lemma: ormai_mutare, S0B1LemmaPOS: ormai_V, S0B1POS: B_V, S0B1POSLemma: B_mutare, S0B1Token: ormai_mutato, S0Lemma: ormai, S0POS: B, S0Token: ormai, transitionHistoryLength3: 202, 
+B0Lemma: (, B0POS: FB, B0Token: (, S0B0Lemma: Scuola_(, S0B0LemmaPOS: Scuola_FB, S0B0POS: SP_FB, S0B0POSLemma: SP_(, S0B0Token: scuola_(, S0B1Lemma: Scuola_per, S0B1LemmaPOS: Scuola_E, S0B1POS: SP_E, S0B1POSLemma: SP_per, S0B1Token: scuola_per, S0Lemma: Scuola, S0POS: SP, S0Token: scuola, TransHistory3: 202, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [troppo, mutato, ; ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, per, la ,.. ]
 
-B0Lemma: troppo, B0POS: B, B0Token: troppo, transitionHistoryLength3: 020, 
+B0Lemma: (, B0POS: FB, B0Token: (, TransHistory3: 020, 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [troppo]   B= [mutato, ;, venerato ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [per, la, professionalità ,.. ]
 
-B0Lemma: mutare, B0POS: V, B0Token: mutato, S0B0Lemma: troppo_mutare, S0B0LemmaPOS: troppo_V, S0B0POS: B_V, S0B0POSLemma: B_mutare, S0B0Token: troppo_mutato, S0B1Lemma: troppo_;, S0B1LemmaPOS: troppo_F, S0B1POS: B_F, S0B1POSLemma: B_;, S0B1Token: troppo_;, S0Lemma: troppo, S0POS: B, S0Token: troppo, transitionHistoryLength3: 202, troppo_isGouvernedBy_mutare: true, troppo_isGouvernedBy_mutare_mod: true, 
+(_isGouvernedBy_per: true, (_isGouvernedBy_per_punc: true, B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: (_per, S0B0LemmaPOS: (_E, S0B0POS: FB_E, S0B0POSLemma: FB_per, S0B0Token: (_per, S0B1Lemma: (_il, S0B1LemmaPOS: (_RD, S0B1POS: FB_RD, S0B1POSLemma: FB_il, S0B1Token: (_la, S0Lemma: (, S0POS: FB, S0Token: (, TransHistory3: 202, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mutato, ;, venerato ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, la, professionalità ,.. ]
 
-B0Lemma: mutare, B0POS: V, B0Token: mutato, transitionHistoryLength3: 020, 
+B0Lemma: per, B0POS: E, B0Token: per, TransHistory3: 020, 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mutato]   B= [;, venerato, come ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [la, professionalità, acquisita ,.. ]
 
-B0Lemma: ;, B0POS: F, B0Token: ;, S0B0Lemma: mutare_;, S0B0LemmaPOS: mutare_F, S0B0POS: V_F, S0B0POSLemma: V_;, S0B0Token: mutato_;, S0B1Lemma: mutare_venerare, S0B1LemmaPOS: mutare_V, S0B1POS: V_V, S0B1POSLemma: V_venerare, S0B1Token: mutato_venerato, S0Lemma: mutare, S0POS: V, S0Token: mutato, hasRighDep_mod: true, hasRighDep_punc: true, mutare_;_hasRighDep_punc: true, mutare_hasRighDep_mod: true, mutare_hasRighDep_punc: true, mutare_venerare_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: la, S0B0Lemma: per_il, S0B0LemmaPOS: per_RD, S0B0POS: E_RD, S0B0POSLemma: E_il, S0B0Token: per_la, S0B1Lemma: per_professionalità, S0B1LemmaPOS: per_S, S0B1POS: E_S, S0B1POSLemma: E_professionalità, S0B1Token: per_professionalità, S0Lemma: per, S0POS: E, S0Token: per, TransHistory3: 202, hasRighDep_prep: true, hasRighDep_punc: true, per_)_hasRighDep_punc: true, per_hasRighDep_prep: true, per_hasRighDep_punc: true, per_professionalità_hasRighDep_prep: true, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [;, venerato, come ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, professionalità, acquisita ,.. ]
 
-B0Lemma: ;, B0POS: F, B0Token: ;, transitionHistoryLength3: 020, 
+B0Lemma: il, B0POS: RD, B0Token: la, TransHistory3: 020, 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [;]   B= [venerato, come, un ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [professionalità, acquisita, in ,.. ]
 
-B0Lemma: venerare, B0POS: V, B0Token: venerato, S0B0Lemma: ;_venerare, S0B0LemmaPOS: ;_V, S0B0POS: F_V, S0B0POSLemma: F_venerare, S0B0Token: ;_venerato, S0B1Lemma: ;_come, S0B1LemmaPOS: ;_E, S0B1POS: F_E, S0B1POSLemma: F_come, S0B1Token: ;_come, S0Lemma: ;, S0POS: F, S0Token: ;, transitionHistoryLength3: 202, 
+B0Lemma: professionalità, B0POS: S, B0Token: professionalità, S0B0Lemma: il_professionalità, S0B0LemmaPOS: il_S, S0B0POS: RD_S, S0B0POSLemma: RD_professionalità, S0B0Token: la_professionalità, S0B1Lemma: il_acquisire, S0B1LemmaPOS: il_V, S0B1POS: RD_V, S0B1POSLemma: RD_acquisire, S0B1Token: la_acquisita, S0Lemma: il, S0POS: RD, S0Token: la, TransHistory3: 202, il_isGouvernedBy_professionalità: true, il_isGouvernedBy_professionalità_det: true, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [venerato, come, un ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [professionalità, acquisita, in ,.. ]
 
-B0Lemma: venerare, B0POS: V, B0Token: venerato, transitionHistoryLength3: 020, 
+B0Lemma: professionalità, B0POS: S, B0Token: professionalità, TransHistory3: 020, 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [venerato]   B= [come, un, santo ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [professionalità]   B= [acquisita, in, 5 ,.. ]
 
-B0Lemma: come, B0POS: E, B0Token: come, S0B0Lemma: venerare_come, S0B0LemmaPOS: venerare_E, S0B0POS: V_E, S0B0POSLemma: V_come, S0B0Token: venerato_come, S0B1Lemma: venerare_un, S0B1LemmaPOS: venerare_R, S0B1POS: V_R, S0B1POSLemma: V_un, S0B1Token: venerato_un, S0Lemma: venerare, S0POS: V, S0Token: venerato, hasRighDep_comp: true, hasRighDep_mod: true, transitionHistoryLength3: 202, venerare_andare_hasRighDep_mod: true, venerare_come_hasRighDep_comp: true, venerare_hasRighDep_comp: true, venerare_hasRighDep_mod: true, 
+B0Lemma: acquisire, B0POS: V, B0Token: acquisita, S0B0Lemma: professionalità_acquisire, S0B0LemmaPOS: professionalità_V, S0B0POS: S_V, S0B0POSLemma: S_acquisire, S0B0Token: professionalità_acquisita, S0B1Lemma: professionalità_in, S0B1LemmaPOS: professionalità_E, S0B1POS: S_E, S0B1POSLemma: S_in, S0B1Token: professionalità_in, S0Lemma: professionalità, S0POS: S, S0Token: professionalità, TransHistory3: 202, hasRighDep_mod: true, professionalità_acquisire_hasRighDep_mod: true, professionalità_hasRighDep_mod: true, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [come, un, santo ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [acquisita, in, 5 ,.. ]
 
-B0Lemma: come, B0POS: E, B0Token: come, transitionHistoryLength3: 020, 
+B0Lemma: acquisire, B0POS: V, B0Token: acquisita, TransHistory3: 020, 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [come]   B= [un, santo, nel ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [acquisita]   B= [in, 5, anni ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, S0B0Lemma: come_un, S0B0LemmaPOS: come_R, S0B0POS: E_R, S0B0POSLemma: E_un, S0B0Token: come_un, S0B1Lemma: come_santo, S0B1LemmaPOS: come_S, S0B1POS: E_S, S0B1POSLemma: E_santo, S0B1Token: come_santo, S0Lemma: come, S0POS: E, S0Token: come, come_,_hasRighDep_con: true, come_hasRighDep_con: true, come_hasRighDep_prep: true, come_santo_hasRighDep_prep: true, hasRighDep_con: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: in, B0POS: E, B0Token: in, S0B0Lemma: acquisire_in, S0B0LemmaPOS: acquisire_E, S0B0POS: V_E, S0B0POSLemma: V_in, S0B0Token: acquisita_in, S0B1Lemma: acquisire_5, S0B1LemmaPOS: acquisire_N, S0B1POS: V_N, S0B1POSLemma: V_5, S0B1Token: acquisita_5, S0Lemma: acquisire, S0POS: V, S0Token: acquisita, TransHistory3: 202, acquisire_hasRighDep_comp: true, acquisire_in_hasRighDep_comp: true, hasRighDep_comp: true, 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, santo, nel ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, 5, anni ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, transitionHistoryLength3: 020, 
+B0Lemma: in, B0POS: E, B0Token: in, TransHistory3: 020, 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [santo, nel, paesino ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [5, anni, ) ,.. ]
 
-B0Lemma: santo, B0POS: S, B0Token: santo, S0B0Lemma: un_santo, S0B0LemmaPOS: un_S, S0B0POS: R_S, S0B0POSLemma: R_santo, S0B0Token: un_santo, S0B1Lemma: un_in, S0B1LemmaPOS: un_E, S0B1POS: R_E, S0B1POSLemma: R_in, S0B1Token: un_nel, S0Lemma: un, S0POS: R, S0Token: un, transitionHistoryLength3: 202, un_isGouvernedBy_santo: true, un_isGouvernedBy_santo_det: true, 
+B0Lemma: 5, B0POS: N, B0Token: 5, S0B0Lemma: in_5, S0B0LemmaPOS: in_N, S0B0POS: E_N, S0B0POSLemma: E_5, S0B0Token: in_5, S0B1Lemma: in_anno, S0B1LemmaPOS: in_S, S0B1POS: E_S, S0B1POSLemma: E_anno, S0B1Token: in_anni, S0Lemma: in, S0POS: E, S0Token: in, TransHistory3: 202, hasRighDep_prep: true, in_anno_hasRighDep_prep: true, in_hasRighDep_prep: true, 
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [santo, nel, paesino ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [5, anni, ) ,.. ]
 
-B0Lemma: santo, B0POS: S, B0Token: santo, transitionHistoryLength3: 020, 
+B0Lemma: 5, B0POS: N, B0Token: 5, TransHistory3: 020, 
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [santo]   B= [nel, paesino, di ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [5]   B= [anni, ), , ,.. ]
 
-B0Lemma: in, B0POS: E, B0Token: nel, S0B0Lemma: santo_in, S0B0LemmaPOS: santo_E, S0B0POS: S_E, S0B0POSLemma: S_in, S0B0Token: santo_nel, S0B1Lemma: santo_paesino, S0B1LemmaPOS: santo_S, S0B1POS: S_S, S0B1POSLemma: S_paesino, S0B1Token: santo_paesino, S0Lemma: santo, S0POS: S, S0Token: santo, hasRighDep_comp: true, santo_hasRighDep_comp: true, santo_in_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+5_isGouvernedBy_anno: true, 5_isGouvernedBy_anno_mod: true, B0Lemma: anno, B0POS: S, B0Token: anni, S0B0Lemma: 5_anno, S0B0LemmaPOS: 5_S, S0B0POS: N_S, S0B0POSLemma: N_anno, S0B0Token: 5_anni, S0B1Lemma: 5_), S0B1LemmaPOS: 5_FB, S0B1POS: N_FB, S0B1POSLemma: N_), S0B1Token: 5_), S0Lemma: 5, S0POS: N, S0Token: 5, TransHistory3: 202, 
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nel, paesino, di ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [anni, ), , ,.. ]
 
-B0Lemma: in, B0POS: E, B0Token: nel, transitionHistoryLength3: 020, 
+B0Lemma: anno, B0POS: S, B0Token: anni, TransHistory3: 020, 
 
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nel]   B= [paesino, di, Jenne ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [anni]   B= [), ,, succede ,.. ]
 
-B0Lemma: paesino, B0POS: S, B0Token: paesino, S0B0Lemma: in_paesino, S0B0LemmaPOS: in_S, S0B0POS: E_S, S0B0POSLemma: E_paesino, S0B0Token: nel_paesino, S0B1Lemma: in_di, S0B1LemmaPOS: in_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: nel_di, S0Lemma: in, S0POS: E, S0Token: nel, hasRighDep_prep: true, in_hasRighDep_prep: true, in_paesino_hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: ), B0POS: FB, B0Token: ), S0B0Lemma: anno_), S0B0LemmaPOS: anno_FB, S0B0POS: S_FB, S0B0POSLemma: S_), S0B0Token: anni_), S0B1Lemma: anno_,, S0B1LemmaPOS: anno_FF, S0B1POS: S_FF, S0B1POSLemma: S_,, S0B1Token: anni_,, S0Lemma: anno, S0POS: S, S0Token: anni, TransHistory3: 202, 
 
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [paesino, di, Jenne ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), ,, succede ,.. ]
 
-B0Lemma: paesino, B0POS: S, B0Token: paesino, transitionHistoryLength3: 020, 
+B0Lemma: ), B0POS: FB, B0Token: ), TransHistory3: 020, 
 
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [paesino]   B= [di, Jenne, , ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [,, succede, che ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: paesino_di, S0B0LemmaPOS: paesino_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: paesino_di, S0B1Lemma: paesino_Jenne, S0B1LemmaPOS: paesino_S, S0B1POS: S_S, S0B1POSLemma: S_Jenne, S0B1Token: paesino_Jenne, S0Lemma: paesino, S0POS: S, S0Token: paesino, hasRighDep_comp: true, paesino_di_hasRighDep_comp: true, paesino_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: )_,, S0B0LemmaPOS: )_FF, S0B0POS: FB_FF, S0B0POSLemma: FB_,, S0B0Token: )_,, S0B1Lemma: )_succedere, S0B1LemmaPOS: )_V, S0B1POS: FB_V, S0B1POSLemma: FB_succedere, S0B1Token: )_succede, S0Lemma: ), S0POS: FB, S0Token: ), TransHistory3: 202, 
 
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, Jenne, , ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, succede, che ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [Jenne, ,, Piero ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [succede, che, i ,.. ]
 
-B0Lemma: Jenne, B0POS: S, B0Token: Jenne, S0B0Lemma: di_Jenne, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_Jenne, S0B0Token: di_Jenne, S0B1Lemma: di_,, S0B1LemmaPOS: di_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: di_,, S0Lemma: di, S0POS: E, S0Token: di, di_Jenne_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: succedere, B0POS: V, B0Token: succede, S0B0Lemma: ,_succedere, S0B0LemmaPOS: ,_V, S0B0POS: FF_V, S0B0POSLemma: FF_succedere, S0B0Token: ,_succede, S0B1Lemma: ,_che, S0B1LemmaPOS: ,_CS, S0B1POS: FF_CS, S0B1POSLemma: FF_che, S0B1Token: ,_che, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Jenne, ,, Piero ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [succede, che, i ,.. ]
 
-B0Lemma: Jenne, B0POS: S, B0Token: Jenne, transitionHistoryLength3: 020, 
+B0Lemma: succedere, B0POS: V, B0Token: succede, TransHistory3: 020, 
 
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Jenne]   B= [,, Piero, va ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [succede]   B= [che, i, comuni ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: Jenne_,, S0B0LemmaPOS: Jenne_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: Jenne_,, S0B1Lemma: Jenne_Piero, S0B1LemmaPOS: Jenne_S, S0B1POS: S_S, S0B1POSLemma: S_Piero, S0B1Token: Jenne_Piero, S0Lemma: Jenne, S0POS: S, S0Token: Jenne, transitionHistoryLength3: 202, 
+B0Lemma: che, B0POS: CS, B0Token: che, S0B0Lemma: succedere_che, S0B0LemmaPOS: succedere_CS, S0B0POS: V_CS, S0B0POSLemma: V_che, S0B0Token: succede_che, S0B1Lemma: succedere_il, S0B1LemmaPOS: succedere_RD, S0B1POS: V_RD, S0B1POSLemma: V_il, S0B1Token: succede_i, S0Lemma: succedere, S0POS: V, S0Token: succede, TransHistory3: 202, hasRighDep_arg: true, succedere_che_hasRighDep_arg: true, succedere_hasRighDep_arg: true, 
 
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, Piero, va ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, i, comuni ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: che, B0POS: CS, B0Token: che, TransHistory3: 020, 
 
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [Piero, va, a ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [i, comuni, scaricano ,.. ]
 
-B0Lemma: Piero, B0POS: S, B0Token: Piero, S0B0Lemma: ,_Piero, S0B0LemmaPOS: ,_S, S0B0POS: F_S, S0B0POSLemma: F_Piero, S0B0Token: ,_Piero, S0B1Lemma: ,_andare, S0B1LemmaPOS: ,_V, S0B1POS: F_V, S0B1POSLemma: F_andare, S0B1Token: ,_va, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: i, S0B0Lemma: che_il, S0B0LemmaPOS: che_RD, S0B0POS: CS_RD, S0B0POSLemma: CS_il, S0B0Token: che_i, S0B1Lemma: che_comune, S0B1LemmaPOS: che_A, S0B1POS: CS_A, S0B1POSLemma: CS_comune, S0B1Token: che_comuni, S0Lemma: che, S0POS: CS, S0Token: che, TransHistory3: 202, che_hasRighDep_sub: true, che_scaricare_hasRighDep_sub: true, hasRighDep_sub: true, 
 
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Piero, va, a ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [i, comuni, scaricano ,.. ]
 
-B0Lemma: Piero, B0POS: S, B0Token: Piero, transitionHistoryLength3: 020, 
+B0Lemma: il, B0POS: RD, B0Token: i, TransHistory3: 020, 
 
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Piero]   B= [va, a, Roma ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [i]   B= [comuni, scaricano, i ,.. ]
 
-B0Lemma: andare, B0POS: V, B0Token: va, Piero_isGouvernedBy_andare: true, Piero_isGouvernedBy_andare_subj: true, S0B0Lemma: Piero_andare, S0B0LemmaPOS: Piero_V, S0B0POS: S_V, S0B0POSLemma: S_andare, S0B0Token: Piero_va, S0B1Lemma: Piero_a, S0B1LemmaPOS: Piero_E, S0B1POS: S_E, S0B1POSLemma: S_a, S0B1Token: Piero_a, S0Lemma: Piero, S0POS: S, S0Token: Piero, transitionHistoryLength3: 202, 
+B0Lemma: comune, B0POS: A, B0Token: comuni, S0B0Lemma: il_comune, S0B0LemmaPOS: il_A, S0B0POS: RD_A, S0B0POSLemma: RD_comune, S0B0Token: i_comuni, S0B1Lemma: il_scaricare, S0B1LemmaPOS: il_V, S0B1POS: RD_V, S0B1POSLemma: RD_scaricare, S0B1Token: i_scaricano, S0Lemma: il, S0POS: RD, S0Token: i, TransHistory3: 202, il_isGouvernedBy_comune: true, il_isGouvernedBy_comune_det: true, 
 
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [va, a, Roma ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [comuni, scaricano, i ,.. ]
 
-B0Lemma: andare, B0POS: V, B0Token: va, transitionHistoryLength3: 020, 
+B0Lemma: comune, B0POS: A, B0Token: comuni, TransHistory3: 020, 
 
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va]   B= [a, Roma, , ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [comuni]   B= [scaricano, i, loro ,.. ]
 
-B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: andare_a, S0B0LemmaPOS: andare_E, S0B0POS: V_E, S0B0POSLemma: V_a, S0B0Token: va_a, S0B1Lemma: andare_Roma, S0B1LemmaPOS: andare_S, S0B1POS: V_S, S0B1POSLemma: V_Roma, S0B1Token: va_Roma, S0Lemma: andare, S0POS: V, S0Token: va, andare_a_hasRighDep_comp_loc: true, andare_contare_hasRighDep_mod: true, andare_hasRighDep_comp_loc: true, andare_hasRighDep_mod: true, hasRighDep_comp_loc: true, hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: scaricare, B0POS: V, B0Token: scaricano, S0B0Lemma: comune_scaricare, S0B0LemmaPOS: comune_V, S0B0POS: A_V, S0B0POSLemma: A_scaricare, S0B0Token: comuni_scaricano, S0B1Lemma: comune_il, S0B1LemmaPOS: comune_RD, S0B1POS: A_RD, S0B1POSLemma: A_il, S0B1Token: comuni_i, S0Lemma: comune, S0POS: A, S0Token: comuni, TransHistory3: 202, comune_isGouvernedBy_scaricare: true, comune_isGouvernedBy_scaricare_pred: true, 
 
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, Roma, , ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [scaricano, i, loro ,.. ]
 
-B0Lemma: a, B0POS: E, B0Token: a, transitionHistoryLength3: 020, 
+B0Lemma: scaricare, B0POS: V, B0Token: scaricano, TransHistory3: 020, 
 
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [Roma, ,, contando ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [scaricano]   B= [i, loro, bidelli ,.. ]
 
-B0Lemma: Roma, B0POS: S, B0Token: Roma, S0B0Lemma: a_Roma, S0B0LemmaPOS: a_S, S0B0POS: E_S, S0B0POSLemma: E_Roma, S0B0Token: a_Roma, S0B1Lemma: a_,, S0B1LemmaPOS: a_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: a_,, S0Lemma: a, S0POS: E, S0Token: a, a_Roma_hasRighDep_prep: true, a_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: i, S0B0Lemma: scaricare_il, S0B0LemmaPOS: scaricare_RD, S0B0POS: V_RD, S0B0POSLemma: V_il, S0B0Token: scaricano_i, S0B1Lemma: scaricare_loro, S0B1LemmaPOS: scaricare_AP, S0B1POS: V_AP, S0B1POSLemma: V_loro, S0B1Token: scaricano_loro, S0Lemma: scaricare, S0POS: V, S0Token: scaricano, TransHistory3: 202, hasRighDep_obj: true, scaricare_bidello_hasRighDep_obj: true, scaricare_hasRighDep_obj: true, 
 
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Roma, ,, contando ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [i, loro, bidelli ,.. ]
 
-B0Lemma: Roma, B0POS: S, B0Token: Roma, transitionHistoryLength3: 020, 
+B0Lemma: il, B0POS: RD, B0Token: i, TransHistory3: 020, 
 
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Roma]   B= [,, contando, di ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [i]   B= [loro, bidelli, allo ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: Roma_,, S0B0LemmaPOS: Roma_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: Roma_,, S0B1Lemma: Roma_contare, S0B1LemmaPOS: Roma_V, S0B1POS: S_V, S0B1POSLemma: S_contare, S0B1Token: Roma_contando, S0Lemma: Roma, S0POS: S, S0Token: Roma, transitionHistoryLength3: 202, 
+B0Lemma: loro, B0POS: AP, B0Token: loro, S0B0Lemma: il_loro, S0B0LemmaPOS: il_AP, S0B0POS: RD_AP, S0B0POSLemma: RD_loro, S0B0Token: i_loro, S0B1Lemma: il_bidello, S0B1LemmaPOS: il_S, S0B1POS: RD_S, S0B1POSLemma: RD_bidello, S0B1Token: i_bidelli, S0Lemma: il, S0POS: RD, S0Token: i, TransHistory3: 202, il_isGouvernedBy_bidello: true, il_isGouvernedBy_bidello_det: true, 
 
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, contando, di ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [loro, bidelli, allo ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: loro, B0POS: AP, B0Token: loro, TransHistory3: 020, 
 
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [contando, di, convincere ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [loro]   B= [bidelli, allo, stato ,.. ]
 
-,_isGouvernedBy_contare: true, ,_isGouvernedBy_contare_punc: true, B0Lemma: contare, B0POS: V, B0Token: contando, S0B0Lemma: ,_contare, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_contare, S0B0Token: ,_contando, S0B1Lemma: ,_di, S0B1LemmaPOS: ,_E, S0B1POS: F_E, S0B1POSLemma: F_di, S0B1Token: ,_di, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: bidello, B0POS: S, B0Token: bidelli, S0B0Lemma: loro_bidello, S0B0LemmaPOS: loro_S, S0B0POS: AP_S, S0B0POSLemma: AP_bidello, S0B0Token: loro_bidelli, S0B1Lemma: loro_al, S0B1LemmaPOS: loro_EA, S0B1POS: AP_EA, S0B1POSLemma: AP_al, S0B1Token: loro_allo, S0Lemma: loro, S0POS: AP, S0Token: loro, TransHistory3: 202, loro_isGouvernedBy_bidello: true, loro_isGouvernedBy_bidello_mod: true, 
 
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [contando, di, convincere ,.. ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bidelli, allo, stato ,.. ]
 
-B0Lemma: contare, B0POS: V, B0Token: contando, transitionHistoryLength3: 020, 
+B0Lemma: bidello, B0POS: S, B0Token: bidelli, TransHistory3: 020, 
 
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [contando]   B= [di, convincere, lo ,.. ]
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bidelli]   B= [allo, stato, camuffando ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: contare_di, S0B0LemmaPOS: contare_E, S0B0POS: V_E, S0B0POSLemma: V_di, S0B0Token: contando_di, S0B1Lemma: contare_convincere, S0B1LemmaPOS: contare_V, S0B1POS: V_V, S0B1POSLemma: V_convincere, S0B1Token: contando_convincere, S0Lemma: contare, S0POS: V, S0Token: contando, contare_,_hasRighDep_con: true, contare_di_hasRighDep_arg: true, contare_hasRighDep_arg: true, contare_hasRighDep_con: true, contare_hasRighDep_conj: true, contare_ma_hasRighDep_con: true, contare_ostacolare_hasRighDep_conj: true, hasRighDep_arg: true, hasRighDep_con: true, hasRighDep_conj: true, transitionHistoryLength3: 202, 
+B0Lemma: al, B0POS: EA, B0Token: allo, S0B0Lemma: bidello_al, S0B0LemmaPOS: bidello_EA, S0B0POS: S_EA, S0B0POSLemma: S_al, S0B0Token: bidelli_allo, S0B1Lemma: bidello_stato, S0B1LemmaPOS: bidello_S, S0B1POS: S_S, S0B1POSLemma: S_stato, S0B1Token: bidelli_stato, S0Lemma: bidello, S0POS: S, S0Token: bidelli, TransHistory3: 202, bidello_al_hasRighDep_comp: true, bidello_hasRighDep_comp: true, hasRighDep_comp: true, 
 
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, convincere, lo ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [allo, stato, camuffando ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: al, B0POS: EA, B0Token: allo, TransHistory3: 020, 
 
-89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [convincere, lo, stesso ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [allo]   B= [stato, camuffando, tra ,.. ]
 
-B0Lemma: convincere, B0POS: V, B0Token: convincere, S0B0Lemma: di_convincere, S0B0LemmaPOS: di_V, S0B0POS: E_V, S0B0POSLemma: E_convincere, S0B0Token: di_convincere, S0B1Lemma: di_il, S0B1LemmaPOS: di_R, S0B1POS: E_R, S0B1POSLemma: E_il, S0B1Token: di_lo, S0Lemma: di, S0POS: E, S0Token: di, di_convincere_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: stato, B0POS: S, B0Token: stato, S0B0Lemma: al_stato, S0B0LemmaPOS: al_S, S0B0POS: EA_S, S0B0POSLemma: EA_stato, S0B0Token: allo_stato, S0B1Lemma: al_camuffare, S0B1LemmaPOS: al_V, S0B1POS: EA_V, S0B1POSLemma: EA_camuffare, S0B1Token: allo_camuffando, S0Lemma: al, S0POS: EA, S0Token: allo, TransHistory3: 202, al_hasRighDep_prep: true, al_stato_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [convincere, lo, stesso ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stato, camuffando, tra ,.. ]
 
-B0Lemma: convincere, B0POS: V, B0Token: convincere, transitionHistoryLength3: 020, 
+B0Lemma: stato, B0POS: S, B0Token: stato, TransHistory3: 020, 
 
-91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [convincere]   B= [lo, stesso, papa ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stato]   B= [camuffando, tra, essi ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: lo, S0B0Lemma: convincere_il, S0B0LemmaPOS: convincere_R, S0B0POS: V_R, S0B0POSLemma: V_il, S0B0Token: convincere_lo, S0B1Lemma: convincere_stesso, S0B1LemmaPOS: convincere_A, S0B1POS: V_A, S0B1POSLemma: V_stesso, S0B1Token: convincere_stesso, S0Lemma: convincere, S0POS: V, S0Token: convincere, convincere_hasRighDep_obj: true, convincere_papa_hasRighDep_obj: true, hasRighDep_obj: true, transitionHistoryLength3: 202, 
+B0Lemma: camuffare, B0POS: V, B0Token: camuffando, S0B0Lemma: stato_camuffare, S0B0LemmaPOS: stato_V, S0B0POS: S_V, S0B0POSLemma: S_camuffare, S0B0Token: stato_camuffando, S0B1Lemma: stato_tra, S0B1LemmaPOS: stato_E, S0B1POS: S_E, S0B1POSLemma: S_tra, S0B1Token: stato_tra, S0Lemma: stato, S0POS: S, S0Token: stato, TransHistory3: 202, hasRighDep_mod: true, stato_cominciare_hasRighDep_mod: true, stato_hasRighDep_mod: true, 
 
-92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lo, stesso, papa ,.. ]
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [camuffando, tra, essi ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: lo, transitionHistoryLength3: 020, 
+B0Lemma: camuffare, B0POS: V, B0Token: camuffando, TransHistory3: 020, 
 
-93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lo]   B= [stesso, papa, della ,.. ]
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [camuffando]   B= [tra, essi, anche ,.. ]
 
-B0Lemma: stesso, B0POS: A, B0Token: stesso, S0B0Lemma: il_stesso, S0B0LemmaPOS: il_A, S0B0POS: R_A, S0B0POSLemma: R_stesso, S0B0Token: lo_stesso, S0B1Lemma: il_papa, S0B1LemmaPOS: il_S, S0B1POS: R_S, S0B1POSLemma: R_papa, S0B1Token: lo_papa, S0Lemma: il, S0POS: R, S0Token: lo, il_isGouvernedBy_papa: true, il_isGouvernedBy_papa_det: true, transitionHistoryLength3: 202, 
+B0Lemma: tra, B0POS: E, B0Token: tra, S0B0Lemma: camuffare_tra, S0B0LemmaPOS: camuffare_E, S0B0POS: V_E, S0B0POSLemma: V_tra, S0B0Token: camuffando_tra, S0B1Lemma: camuffare_essi, S0B1LemmaPOS: camuffare_PE, S0B1POS: V_PE, S0B1POSLemma: V_essi, S0B1Token: camuffando_essi, S0Lemma: camuffare, S0POS: V, S0Token: camuffando, TransHistory3: 202, camuffare_hasRighDep_comp: true, camuffare_hasRighDep_obj: true, camuffare_isGouvernedBy_cominciare: true, camuffare_isGouvernedBy_cominciare_mod: true, camuffare_persona_hasRighDep_obj: true, camuffare_tra_hasRighDep_comp: true, hasRighDep_comp: true, hasRighDep_obj: true, 
 
-94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stesso, papa, della ,.. ]
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tra, essi, anche ,.. ]
 
-B0Lemma: stesso, B0POS: A, B0Token: stesso, transitionHistoryLength3: 020, 
+B0Lemma: tra, B0POS: E, B0Token: tra, TransHistory3: 020, 
 
-95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stesso]   B= [papa, della, necessità ,.. ]
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tra]   B= [essi, anche, persone ,.. ]
 
-B0Lemma: papa, B0POS: S, B0Token: papa, S0B0Lemma: stesso_papa, S0B0LemmaPOS: stesso_S, S0B0POS: A_S, S0B0POSLemma: A_papa, S0B0Token: stesso_papa, S0B1Lemma: stesso_di, S0B1LemmaPOS: stesso_E, S0B1POS: A_E, S0B1POSLemma: A_di, S0B1Token: stesso_della, S0Lemma: stesso, S0POS: A, S0Token: stesso, stesso_isGouvernedBy_papa: true, stesso_isGouvernedBy_papa_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: essi, B0POS: PE, B0Token: essi, S0B0Lemma: tra_essi, S0B0LemmaPOS: tra_PE, S0B0POS: E_PE, S0B0POSLemma: E_essi, S0B0Token: tra_essi, S0B1Lemma: tra_anche, S0B1LemmaPOS: tra_B, S0B1POS: E_B, S0B1POSLemma: E_anche, S0B1Token: tra_anche, S0Lemma: tra, S0POS: E, S0Token: tra, TransHistory3: 202, hasRighDep_prep: true, tra_essi_hasRighDep_prep: true, tra_hasRighDep_prep: true, 
 
-96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [papa, della, necessità ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [essi, anche, persone ,.. ]
 
-B0Lemma: papa, B0POS: S, B0Token: papa, transitionHistoryLength3: 020, 
+B0Lemma: essi, B0POS: PE, B0Token: essi, TransHistory3: 020, 
 
-97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [papa]   B= [della, necessità, di ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [essi]   B= [anche, persone, che ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, S0B0Lemma: papa_di, S0B0LemmaPOS: papa_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: papa_della, S0B1Lemma: papa_necessità, S0B1LemmaPOS: papa_S, S0B1POS: S_S, S0B1POSLemma: S_necessità, S0B1Token: papa_necessità, S0Lemma: papa, S0POS: S, S0Token: papa, hasRighDep_comp: true, papa_di_hasRighDep_comp: true, papa_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: anche, B0POS: B, B0Token: anche, S0B0Lemma: essi_anche, S0B0LemmaPOS: essi_B, S0B0POS: PE_B, S0B0POSLemma: PE_anche, S0B0Token: essi_anche, S0B1Lemma: essi_persona, S0B1LemmaPOS: essi_S, S0B1POS: PE_S, S0B1POSLemma: PE_persona, S0B1Token: essi_persone, S0Lemma: essi, S0POS: PE, S0Token: essi, TransHistory3: 202, 
 
-98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [della, necessità, di ,.. ]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [anche, persone, che ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, transitionHistoryLength3: 020, 
+B0Lemma: anche, B0POS: B, B0Token: anche, TransHistory3: 020, 
 
-99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [della]   B= [necessità, di, una ,.. ]
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [anche]   B= [persone, che, nella ,.. ]
 
-B0Lemma: necessità, B0POS: S, B0Token: necessità, S0B0Lemma: di_necessità, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_necessità, S0B0Token: della_necessità, S0B1Lemma: di_di, S0B1LemmaPOS: di_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: della_di, S0Lemma: di, S0POS: E, S0Token: della, di_hasRighDep_prep: true, di_necessità_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: persona, B0POS: S, B0Token: persone, S0B0Lemma: anche_persona, S0B0LemmaPOS: anche_S, S0B0POS: B_S, S0B0POSLemma: B_persona, S0B0Token: anche_persone, S0B1Lemma: anche_che, S0B1LemmaPOS: anche_PR, S0B1POS: B_PR, S0B1POSLemma: B_che, S0B1Token: anche_che, S0Lemma: anche, S0POS: B, S0Token: anche, TransHistory3: 202, anche_isGouvernedBy_persona: true, anche_isGouvernedBy_persona_mod: true, 
 
-100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [necessità, di, una ,.. ]
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [persone, che, nella ,.. ]
 
-B0Lemma: necessità, B0POS: S, B0Token: necessità, transitionHistoryLength3: 020, 
+B0Lemma: persona, B0POS: S, B0Token: persone, TransHistory3: 020, 
 
-101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [necessità]   B= [di, una, radicale ,.. ]
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [persone]   B= [che, nella, scuola ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: necessità_di, S0B0LemmaPOS: necessità_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: necessità_di, S0B1Lemma: necessità_una, S0B1LemmaPOS: necessità_R, S0B1POS: S_R, S0B1POSLemma: S_una, S0B1Token: necessità_una, S0Lemma: necessità, S0POS: S, S0Token: necessità, hasRighDep_comp: true, necessità_di_hasRighDep_comp: true, necessità_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: che, B0POS: PR, B0Token: che, S0B0Lemma: persona_che, S0B0LemmaPOS: persona_PR, S0B0POS: S_PR, S0B0POSLemma: S_che, S0B0Token: persone_che, S0B1Lemma: persona_in, S0B1LemmaPOS: persona_EA, S0B1POS: S_EA, S0B1POSLemma: S_in, S0B1Token: persone_nella, S0Lemma: persona, S0POS: S, S0Token: persone, TransHistory3: 202, 
 
-102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, una, radicale ,.. ]
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, nella, scuola ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: che, B0POS: PR, B0Token: che, TransHistory3: 020, 
 
-103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [una, radicale, riforma ,.. ]
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [nella, scuola, non ,.. ]
 
-B0Lemma: una, B0POS: R, B0Token: una, S0B0Lemma: di_una, S0B0LemmaPOS: di_R, S0B0POS: E_R, S0B0POSLemma: E_una, S0B0Token: di_una, S0B1Lemma: di_radicale, S0B1LemmaPOS: di_A, S0B1POS: E_A, S0B1POSLemma: E_radicale, S0B1Token: di_radicale, S0Lemma: di, S0POS: E, S0Token: di, di_hasRighDep_prep: true, di_riforma_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: in, B0POS: EA, B0Token: nella, S0B0Lemma: che_in, S0B0LemmaPOS: che_EA, S0B0POS: PR_EA, S0B0POSLemma: PR_in, S0B0Token: che_nella, S0B1Lemma: che_scuola, S0B1LemmaPOS: che_S, S0B1POS: PR_S, S0B1POSLemma: PR_scuola, S0B1Token: che_scuola, S0Lemma: che, S0POS: PR, S0Token: che, TransHistory3: 202, che_isGouvernedBy_cominciare: true, che_isGouvernedBy_cominciare_subj: true, 
 
-104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [una, radicale, riforma ,.. ]
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nella, scuola, non ,.. ]
 
-B0Lemma: una, B0POS: R, B0Token: una, transitionHistoryLength3: 020, 
+B0Lemma: in, B0POS: EA, B0Token: nella, TransHistory3: 020, 
 
-105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [una]   B= [radicale, riforma, della ,.. ]
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nella]   B= [scuola, non, avevano ,.. ]
 
-B0Lemma: radicale, B0POS: A, B0Token: radicale, S0B0Lemma: una_radicale, S0B0LemmaPOS: una_A, S0B0POS: R_A, S0B0POSLemma: R_radicale, S0B0Token: una_radicale, S0B1Lemma: una_riforma, S0B1LemmaPOS: una_S, S0B1POS: R_S, S0B1POSLemma: R_riforma, S0B1Token: una_riforma, S0Lemma: una, S0POS: R, S0Token: una, transitionHistoryLength3: 202, una_isGouvernedBy_riforma: true, una_isGouvernedBy_riforma_det: true, 
+B0Lemma: scuola, B0POS: S, B0Token: scuola, S0B0Lemma: in_scuola, S0B0LemmaPOS: in_S, S0B0POS: EA_S, S0B0POSLemma: EA_scuola, S0B0Token: nella_scuola, S0B1Lemma: in_non, S0B1LemmaPOS: in_BN, S0B1POS: EA_BN, S0B1POSLemma: EA_non, S0B1Token: nella_non, S0Lemma: in, S0POS: EA, S0Token: nella, TransHistory3: 202, hasRighDep_prep: true, in_hasRighDep_prep: true, in_isGouvernedBy_mettere: true, in_isGouvernedBy_mettere_comp_loc: true, in_scuola_hasRighDep_prep: true, 
 
-106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [radicale, riforma, della ,.. ]
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [scuola, non, avevano ,.. ]
 
-B0Lemma: radicale, B0POS: A, B0Token: radicale, transitionHistoryLength3: 020, 
+B0Lemma: scuola, B0POS: S, B0Token: scuola, TransHistory3: 020, 
 
-107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [radicale]   B= [riforma, della, Chiesa ,.. ]
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [scuola]   B= [non, avevano, mai ,.. ]
 
-B0Lemma: riforma, B0POS: S, B0Token: riforma, S0B0Lemma: radicale_riforma, S0B0LemmaPOS: radicale_S, S0B0POS: A_S, S0B0POSLemma: A_riforma, S0B0Token: radicale_riforma, S0B1Lemma: radicale_di, S0B1LemmaPOS: radicale_E, S0B1POS: A_E, S0B1POSLemma: A_di, S0B1Token: radicale_della, S0Lemma: radicale, S0POS: A, S0Token: radicale, radicale_isGouvernedBy_riforma: true, radicale_isGouvernedBy_riforma_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: non, B0POS: BN, B0Token: non, S0B0Lemma: scuola_non, S0B0LemmaPOS: scuola_BN, S0B0POS: S_BN, S0B0POSLemma: S_non, S0B0Token: scuola_non, S0B1Lemma: scuola_avere, S0B1LemmaPOS: scuola_VA, S0B1POS: S_VA, S0B1POSLemma: S_avere, S0B1Token: scuola_avevano, S0Lemma: scuola, S0POS: S, S0Token: scuola, TransHistory3: 202, 
 
-108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [riforma, della, Chiesa ,.. ]
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, avevano, mai ,.. ]
 
-B0Lemma: riforma, B0POS: S, B0Token: riforma, transitionHistoryLength3: 020, 
+B0Lemma: non, B0POS: BN, B0Token: non, TransHistory3: 020, 
 
-109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [riforma]   B= [della, Chiesa, , ,.. ]
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [avevano, mai, messo ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, S0B0Lemma: riforma_di, S0B0LemmaPOS: riforma_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: riforma_della, S0B1Lemma: riforma_Chiesa, S0B1LemmaPOS: riforma_S, S0B1POS: S_S, S0B1POSLemma: S_Chiesa, S0B1Token: riforma_Chiesa, S0Lemma: riforma, S0POS: S, S0Token: riforma, hasRighDep_comp: true, riforma_di_hasRighDep_comp: true, riforma_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: avere, B0POS: VA, B0Token: avevano, S0B0Lemma: non_avere, S0B0LemmaPOS: non_VA, S0B0POS: BN_VA, S0B0POSLemma: BN_avere, S0B0Token: non_avevano, S0B1Lemma: non_mai, S0B1LemmaPOS: non_B, S0B1POS: BN_B, S0B1POSLemma: BN_mai, S0B1Token: non_mai, S0Lemma: non, S0POS: BN, S0Token: non, TransHistory3: 202, non_isGouvernedBy_mettere: true, non_isGouvernedBy_mettere_neg: true, 
 
-110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [della, Chiesa, , ,.. ]
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [avevano, mai, messo ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, transitionHistoryLength3: 020, 
+B0Lemma: avere, B0POS: VA, B0Token: avevano, TransHistory3: 020, 
 
-111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [della]   B= [Chiesa, ,, ma ,.. ]
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [avevano]   B= [mai, messo, piede ,.. ]
 
-B0Lemma: Chiesa, B0POS: S, B0Token: Chiesa, S0B0Lemma: di_Chiesa, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_Chiesa, S0B0Token: della_Chiesa, S0B1Lemma: di_,, S0B1LemmaPOS: di_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: della_,, S0Lemma: di, S0POS: E, S0Token: della, di_Chiesa_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: mai, B0POS: B, B0Token: mai, S0B0Lemma: avere_mai, S0B0LemmaPOS: avere_B, S0B0POS: VA_B, S0B0POSLemma: VA_mai, S0B0Token: avevano_mai, S0B1Lemma: avere_mettere, S0B1LemmaPOS: avere_V, S0B1POS: VA_V, S0B1POSLemma: VA_mettere, S0B1Token: avevano_messo, S0Lemma: avere, S0POS: VA, S0Token: avevano, TransHistory3: 202, avere_isGouvernedBy_mettere: true, avere_isGouvernedBy_mettere_aux: true, 
 
-112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Chiesa, ,, ma ,.. ]
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, messo, piede ,.. ]
 
-B0Lemma: Chiesa, B0POS: S, B0Token: Chiesa, transitionHistoryLength3: 020, 
+B0Lemma: mai, B0POS: B, B0Token: mai, TransHistory3: 020, 
 
-113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Chiesa]   B= [,, ma, viene ,.. ]
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [messo, piede, ( ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: Chiesa_,, S0B0LemmaPOS: Chiesa_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: Chiesa_,, S0B1Lemma: Chiesa_ma, S0B1LemmaPOS: Chiesa_C, S0B1POS: S_C, S0B1POSLemma: S_ma, S0B1Token: Chiesa_ma, S0Lemma: Chiesa, S0POS: S, S0Token: Chiesa, transitionHistoryLength3: 202, 
+B0Lemma: mettere, B0POS: V, B0Token: messo, S0B0Lemma: mai_mettere, S0B0LemmaPOS: mai_V, S0B0POS: B_V, S0B0POSLemma: B_mettere, S0B0Token: mai_messo, S0B1Lemma: mai_piede, S0B1LemmaPOS: mai_S, S0B1POS: B_S, S0B1POSLemma: B_piede, S0B1Token: mai_piede, S0Lemma: mai, S0POS: B, S0Token: mai, TransHistory3: 202, mai_isGouvernedBy_mettere: true, mai_isGouvernedBy_mettere_mod_temp: true, 
 
-114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ma, viene ,.. ]
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [messo, piede, ( ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: mettere, B0POS: V, B0Token: messo, TransHistory3: 020, 
 
-115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ma, viene, ostacolato ,.. ]
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [messo]   B= [piede, (, giusto ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, S0B0Lemma: ,_ma, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_ma, S0B0Token: ,_ma, S0B1Lemma: ,_venire, S0B1LemmaPOS: ,_V, S0B1POS: F_V, S0B1POSLemma: F_venire, S0B1Token: ,_viene, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: piede, B0POS: S, B0Token: piede, S0B0Lemma: mettere_piede, S0B0LemmaPOS: mettere_S, S0B0POS: V_S, S0B0POSLemma: V_piede, S0B0Token: messo_piede, S0B1Lemma: mettere_(, S0B1LemmaPOS: mettere_FB, S0B1POS: V_FB, S0B1POSLemma: V_(, S0B1Token: messo_(, S0Lemma: mettere, S0POS: V, S0Token: messo, TransHistory3: 202, hasRighDep_arg: true, hasRighDep_obj: true, hasRighDep_punc: true, mettere_)_hasRighDep_punc: true, mettere_,_hasRighDep_punc: true, mettere_hasRighDep_arg: true, mettere_hasRighDep_obj: true, mettere_hasRighDep_punc: true, mettere_isGouvernedBy_cominciare: true, mettere_isGouvernedBy_cominciare_mod: true, mettere_per_hasRighDep_arg: true, mettere_piede_hasRighDep_obj: true, 
 
-116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, viene, ostacolato ,.. ]
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [piede, (, giusto ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, transitionHistoryLength3: 020, 
+B0Lemma: piede, B0POS: S, B0Token: piede, TransHistory3: 020, 
 
-117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [viene, ostacolato, tanto ,.. ]
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [piede]   B= [(, giusto, per ,.. ]
 
-B0Lemma: venire, B0POS: V, B0Token: viene, S0B0Lemma: ma_venire, S0B0LemmaPOS: ma_V, S0B0POS: C_V, S0B0POSLemma: C_venire, S0B0Token: ma_viene, S0B1Lemma: ma_ostacolare, S0B1LemmaPOS: ma_V, S0B1POS: C_V, S0B1POSLemma: C_ostacolare, S0B1Token: ma_ostacolato, S0Lemma: ma, S0POS: C, S0Token: ma, transitionHistoryLength3: 202, 
+B0Lemma: (, B0POS: FB, B0Token: (, S0B0Lemma: piede_(, S0B0LemmaPOS: piede_FB, S0B0POS: S_FB, S0B0POSLemma: S_(, S0B0Token: piede_(, S0B1Lemma: piede_giusto, S0B1LemmaPOS: piede_A, S0B1POS: S_A, S0B1POSLemma: S_giusto, S0B1Token: piede_giusto, S0Lemma: piede, S0POS: S, S0Token: piede, TransHistory3: 202, hasRighDep_mod: true, piede_giusto_hasRighDep_mod: true, piede_hasRighDep_mod: true, 
 
-118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [viene, ostacolato, tanto ,.. ]
+116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, giusto, per ,.. ]
 
-B0Lemma: venire, B0POS: V, B0Token: viene, transitionHistoryLength3: 020, 
+B0Lemma: (, B0POS: FB, B0Token: (, TransHistory3: 020, 
 
-119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [viene]   B= [ostacolato, tanto, dai ,.. ]
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [giusto, per, far- ,.. ]
 
-B0Lemma: ostacolare, B0POS: V, B0Token: ostacolato, S0B0Lemma: venire_ostacolare, S0B0LemmaPOS: venire_V, S0B0POS: V_V, S0B0POSLemma: V_ostacolare, S0B0Token: viene_ostacolato, S0B1Lemma: venire_tanto, S0B1LemmaPOS: venire_B, S0B1POS: V_B, S0B1POSLemma: V_tanto, S0B1Token: viene_tanto, S0Lemma: venire, S0POS: V, S0Token: viene, transitionHistoryLength3: 202, venire_isGouvernedBy_ostacolare: true, venire_isGouvernedBy_ostacolare_modal: true, 
+(_isGouvernedBy_giusto: true, (_isGouvernedBy_giusto_punc: true, B0Lemma: giusto, B0POS: A, B0Token: giusto, S0B0Lemma: (_giusto, S0B0LemmaPOS: (_A, S0B0POS: FB_A, S0B0POSLemma: FB_giusto, S0B0Token: (_giusto, S0B1Lemma: (_per, S0B1LemmaPOS: (_E, S0B1POS: FB_E, S0B1POSLemma: FB_per, S0B1Token: (_per, S0Lemma: (, S0POS: FB, S0Token: (, TransHistory3: 202, 
 
-120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ostacolato, tanto, dai ,.. ]
+118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [giusto, per, far- ,.. ]
 
-B0Lemma: ostacolare, B0POS: V, B0Token: ostacolato, transitionHistoryLength3: 020, 
+B0Lemma: giusto, B0POS: A, B0Token: giusto, TransHistory3: 020, 
 
-121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ostacolato]   B= [tanto, dai, cattolici ,.. ]
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [giusto]   B= [per, far-, si ,.. ]
 
-B0Lemma: tanto, B0POS: B, B0Token: tanto, S0B0Lemma: ostacolare_tanto, S0B0LemmaPOS: ostacolare_B, S0B0POS: V_B, S0B0POSLemma: V_tanto, S0B0Token: ostacolato_tanto, S0B1Lemma: ostacolare_da, S0B1LemmaPOS: ostacolare_E, S0B1POS: V_E, S0B1POSLemma: V_da, S0B1Token: ostacolato_dai, S0Lemma: ostacolare, S0POS: V, S0Token: ostacolato, hasRighDep_comp: true, hasRighDep_mod: true, ostacolare_da_hasRighDep_comp: true, ostacolare_hasRighDep_comp: true, ostacolare_hasRighDep_mod: true, ostacolare_tanto_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: giusto_per, S0B0LemmaPOS: giusto_E, S0B0POS: A_E, S0B0POSLemma: A_per, S0B0Token: giusto_per, S0B1Lemma: giusto_fare, S0B1LemmaPOS: giusto_V, S0B1POS: A_V, S0B1POSLemma: A_fare, S0B1Token: giusto_far-, S0Lemma: giusto, S0POS: A, S0Token: giusto, TransHistory3: 202, 
 
-122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tanto, dai, cattolici ,.. ]
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, far-, si ,.. ]
 
-B0Lemma: tanto, B0POS: B, B0Token: tanto, transitionHistoryLength3: 020, 
+B0Lemma: per, B0POS: E, B0Token: per, TransHistory3: 020, 
 
-123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tanto]   B= [dai, cattolici, tradizionalisti ,.. ]
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [far-, si, degli ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: dai, S0B0Lemma: tanto_da, S0B0LemmaPOS: tanto_E, S0B0POS: B_E, S0B0POSLemma: B_da, S0B0Token: tanto_dai, S0B1Lemma: tanto_cattolico, S0B1LemmaPOS: tanto_A, S0B1POS: B_A, S0B1POSLemma: B_cattolico, S0B1Token: tanto_cattolici, S0Lemma: tanto, S0POS: B, S0Token: tanto, transitionHistoryLength3: 202, 
+B0Lemma: fare, B0POS: V, B0Token: far-, S0B0Lemma: per_fare, S0B0LemmaPOS: per_V, S0B0POS: E_V, S0B0POSLemma: E_fare, S0B0Token: per_far-, S0B1Lemma: per_si, S0B1LemmaPOS: per_PC, S0B1POS: E_PC, S0B1POSLemma: E_si, S0B1Token: per_si, S0Lemma: per, S0POS: E, S0Token: per, TransHistory3: 202, hasRighDep_prep: true, per_fare_hasRighDep_prep: true, per_hasRighDep_prep: true, 
 
-124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dai, cattolici, tradizionalisti ,.. ]
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [far-, si, degli ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: dai, transitionHistoryLength3: 020, 
+B0Lemma: fare, B0POS: V, B0Token: far-, TransHistory3: 020, 
 
-125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dai]   B= [cattolici, tradizionalisti, che ,.. ]
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [far-]   B= [si, degli, amici ,.. ]
 
-B0Lemma: cattolico, B0POS: A, B0Token: cattolici, S0B0Lemma: da_cattolico, S0B0LemmaPOS: da_A, S0B0POS: E_A, S0B0POSLemma: E_cattolico, S0B0Token: dai_cattolici, S0B1Lemma: da_tradizionalista, S0B1LemmaPOS: da_S, S0B1POS: E_S, S0B1POSLemma: E_tradizionalista, S0B1Token: dai_tradizionalisti, S0Lemma: da, S0POS: E, S0Token: dai, da_hasRighDep_prep: true, da_tradizionalista_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: si, B0POS: PC, B0Token: si, S0B0Lemma: fare_si, S0B0LemmaPOS: fare_PC, S0B0POS: V_PC, S0B0POSLemma: V_si, S0B0Token: far-_si, S0B1Lemma: fare_di, S0B1LemmaPOS: fare_EA, S0B1POS: V_EA, S0B1POSLemma: V_di, S0B1Token: far-_degli, S0Lemma: fare, S0POS: V, S0Token: far-, TransHistory3: 202, fare_di_hasRighDep_comp: true, fare_hasRighDep_clit: true, fare_hasRighDep_comp: true, fare_si_hasRighDep_clit: true, hasRighDep_clit: true, hasRighDep_comp: true, 
 
-126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cattolici, tradizionalisti, che ,.. ]
+124- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [far-, si]   B= [degli, amici, ) ,.. ]
 
-B0Lemma: cattolico, B0POS: A, B0Token: cattolici, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: EA, B0Token: degli, S0B0Lemma: si_di, S0B0LemmaPOS: si_EA, S0B0POS: PC_EA, S0B0POSLemma: PC_di, S0B0Token: si_degli, S0B1Lemma: si_amico, S0B1LemmaPOS: si_S, S0B1POS: PC_S, S0B1POSLemma: PC_amico, S0B1Token: si_amici, S0Lemma: si, S0POS: PC, S0S1Distance: 1, S0Token: si, S1B0Lemma: fare_di, S1B0LemmaPOS: fare_EA, S1B0POS: V_EA, S1B0POSLemma: V_di, S1B0Token: far-_degli, S1Lemma: fare, S1POS: V, S1S0Lemma: fare_si, S1S0LemmaPOS: fare_PC, S1S0POS: V_PC, S1S0POSLemma: V_si, S1S0Token: far-_si, S1Token: far-, StackLengthIs: 2, SyntaxicRelation: +clit, TransHistory3: 020, 
 
-127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cattolici]   B= [tradizionalisti, che, dagli ,.. ]
+125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [far-, si, degli]   B= [amici, ), , ,.. ]
 
-B0Lemma: tradizionalista, B0POS: S, B0Token: tradizionalisti, S0B0Lemma: cattolico_tradizionalista, S0B0LemmaPOS: cattolico_S, S0B0POS: A_S, S0B0POSLemma: A_tradizionalista, S0B0Token: cattolici_tradizionalisti, S0B1Lemma: cattolico_che, S0B1LemmaPOS: cattolico_P, S0B1POS: A_P, S0B1POSLemma: A_che, S0B1Token: cattolici_che, S0Lemma: cattolico, S0POS: A, S0Token: cattolici, cattolico_isGouvernedBy_tradizionalista: true, cattolico_isGouvernedBy_tradizionalista_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: amico, B0POS: S, B0Token: amici, S0B0Lemma: di_amico, S0B0LemmaPOS: di_S, S0B0POS: EA_S, S0B0POSLemma: EA_amico, S0B0Token: degli_amici, S0B1Lemma: di_), S0B1LemmaPOS: di_FB, S0B1POS: EA_FB, S0B1POSLemma: EA_), S0B1Token: degli_), S0Lemma: di, S0POS: EA, S0S1Distance: 1, S0Token: degli, S1B0Lemma: si_amico, S1B0LemmaPOS: si_S, S1B0POS: PC_S, S1B0POSLemma: PC_amico, S1B0Token: si_amici, S1Lemma: si, S1POS: PC, S1S0Lemma: si_di, S1S0LemmaPOS: si_EA, S1S0POS: PC_EA, S1S0POSLemma: PC_di, S1S0Token: si_degli, S1Token: si, StackLengthIs: 3, TransHistory3: 002, di_amico_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tradizionalisti, che, dagli ,.. ]
+126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [far-, si]   B= [amici, ), , ,.. ]
 
-B0Lemma: tradizionalista, B0POS: S, B0Token: tradizionalisti, transitionHistoryLength3: 020, 
+B0Lemma: amico, B0POS: S, B0Token: amici, S0B0Lemma: si_amico, S0B0LemmaPOS: si_S, S0B0POS: PC_S, S0B0POSLemma: PC_amico, S0B0Token: si_amici, S0B1Lemma: si_), S0B1LemmaPOS: si_FB, S0B1POS: PC_FB, S0B1POSLemma: PC_), S0B1Token: si_), S0Lemma: si, S0POS: PC, S0S1Distance: 1, S0Token: si, S1B0Lemma: fare_amico, S1B0LemmaPOS: fare_S, S1B0POS: V_S, S1B0POSLemma: V_amico, S1B0Token: far-_amici, S1Lemma: fare, S1POS: V, S1S0Lemma: fare_si, S1S0LemmaPOS: fare_PC, S1S0POS: V_PC, S1S0POSLemma: V_si, S1S0Token: far-_si, S1Token: far-, StackLengthIs: 2, SyntaxicRelation: +clit, TransHistory3: 000, 
 
-129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tradizionalisti]   B= [che, dagli, esponenti ,.. ]
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [far-, si, amici]   B= [), ,, così ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, S0B0Lemma: tradizionalista_che, S0B0LemmaPOS: tradizionalista_P, S0B0POS: S_P, S0B0POSLemma: S_che, S0B0Token: tradizionalisti_che, S0B1Lemma: tradizionalista_da, S0B1LemmaPOS: tradizionalista_E, S0B1POS: S_E, S0B1POSLemma: S_da, S0B1Token: tradizionalisti_dagli, S0Lemma: tradizionalista, S0POS: S, S0Token: tradizionalisti, hasRighDep_comp: true, hasRighDep_mod: true, tradizionalista_che_hasRighDep_mod: true, tradizionalista_da_hasRighDep_comp: true, tradizionalista_hasRighDep_comp: true, tradizionalista_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: ), B0POS: FB, B0Token: ), S0B0Lemma: amico_), S0B0LemmaPOS: amico_FB, S0B0POS: S_FB, S0B0POSLemma: S_), S0B0Token: amici_), S0B1Lemma: amico_,, S0B1LemmaPOS: amico_FF, S0B1POS: S_FF, S0B1POSLemma: S_,, S0B1Token: amici_,, S0Lemma: amico, S0POS: S, S0S1Distance: 2, S0Token: amici, S1B0Lemma: si_), S1B0LemmaPOS: si_FB, S1B0POS: PC_FB, S1B0POSLemma: PC_), S1B0Token: si_), S1Lemma: si, S1POS: PC, S1S0Lemma: si_amico, S1S0LemmaPOS: si_S, S1S0POS: PC_S, S1S0POSLemma: PC_amico, S1S0Token: si_amici, S1Token: si, StackLengthIs: 3, TransHistory3: 200, 
 
-130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, dagli, esponenti ,.. ]
+128- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [far-, [si, amici]]   B= [), ,, così ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, transitionHistoryLength3: 020, 
+B0Lemma: ), B0POS: FB, B0Token: ), S0B0Lemma: si_amico_), S0B0LemmaPOS: si_amico_FB, S0B0POS: PC_S_FB, S0B0POSLemma: PC_S_), S0B0Token: si_amici_), S0B1Lemma: si_amico_,, S0B1LemmaPOS: si_amico_FF, S0B1POS: PC_S_FF, S0B1POSLemma: PC_S_,, S0B1Token: si_amici_,, S0Lemma: si_amico, S0POS: PC_S, S0Token: si_amici, S1B0Lemma: fare_), S1B0LemmaPOS: fare_FB, S1B0POS: V_FB, S1B0POSLemma: V_), S1B0Token: far-_), S1Lemma: fare, S1POS: V, S1S0Lemma: fare_si_amico, S1S0LemmaPOS: fare_PC_S, S1S0POS: V_PC_S, S1S0POSLemma: V_si_amico, S1S0Token: far-_si_amici, S1Token: far-, StackLengthIs: 2, TransHistory3: 020, 
 
-131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [dagli, esponenti, dello ,.. ]
+129- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[far-, [si, amici]]]   B= [), ,, così ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: dagli, S0B0Lemma: che_da, S0B0LemmaPOS: che_E, S0B0POS: P_E, S0B0POSLemma: P_da, S0B0Token: che_dagli, S0B1Lemma: che_esponenti, S0B1LemmaPOS: che_S, S0B1POS: P_S, S0B1POSLemma: P_esponenti, S0B1Token: che_esponenti, S0Lemma: che, S0POS: P, S0Token: che, transitionHistoryLength3: 202, 
+B0Lemma: ), B0POS: FB, B0Token: ), S0B0Lemma: fare_si_amico_), S0B0LemmaPOS: fare_si_amico_FB, S0B0POS: V_PC_S_FB, S0B0POSLemma: V_PC_S_), S0B0Token: far-_si_amici_), S0B1Lemma: fare_si_amico_,, S0B1LemmaPOS: fare_si_amico_FF, S0B1POS: V_PC_S_FF, S0B1POSLemma: V_PC_S_,, S0B1Token: far-_si_amici_,, S0Lemma: fare_si_amico, S0POS: V_PC_S, S0Token: far-_si_amici, TransHistory3: 102, 
 
-132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dagli, esponenti, dello ,.. ]
+130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), ,, così ,.. ]
 
-B0Lemma: da, B0POS: E, B0Token: dagli, transitionHistoryLength3: 020, 
+B0Lemma: ), B0POS: FB, B0Token: ), TransHistory3: 110, 
 
-133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dagli]   B= [esponenti, dello, Stato ,.. ]
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [,, così, il ,.. ]
 
-B0Lemma: esponenti, B0POS: S, B0Token: esponenti, S0B0Lemma: da_esponenti, S0B0LemmaPOS: da_S, S0B0POS: E_S, S0B0POSLemma: E_esponenti, S0B0Token: dagli_esponenti, S0B1Lemma: da_di, S0B1LemmaPOS: da_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: dagli_dello, S0Lemma: da, S0POS: E, S0Token: dagli, da_esponenti_hasRighDep_prep: true, da_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: )_,, S0B0LemmaPOS: )_FF, S0B0POS: FB_FF, S0B0POSLemma: FB_,, S0B0Token: )_,, S0B1Lemma: )_così, S0B1LemmaPOS: )_B, S0B1POS: FB_B, S0B1POSLemma: FB_così, S0B1Token: )_così, S0Lemma: ), S0POS: FB, S0Token: ), TransHistory3: 211, 
 
-134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [esponenti, dello, Stato ,.. ]
+132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, così, il ,.. ]
 
-B0Lemma: esponenti, B0POS: S, B0Token: esponenti, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 021, 
 
-135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [esponenti]   B= [dello, Stato, laico ,.. ]
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [così, il, fiume ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: dello, S0B0Lemma: esponenti_di, S0B0LemmaPOS: esponenti_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: esponenti_dello, S0B1Lemma: esponenti_Stato, S0B1LemmaPOS: esponenti_S, S0B1POS: S_S, S0B1POSLemma: S_Stato, S0B1Token: esponenti_Stato, S0Lemma: esponenti, S0POS: S, S0Token: esponenti, esponenti_di_hasRighDep_comp: true, esponenti_hasRighDep_comp: true, hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: così, B0POS: B, B0Token: così, S0B0Lemma: ,_così, S0B0LemmaPOS: ,_B, S0B0POS: FF_B, S0B0POSLemma: FF_così, S0B0Token: ,_così, S0B1Lemma: ,_il, S0B1LemmaPOS: ,_RD, S0B1POS: FF_RD, S0B1POSLemma: FF_il, S0B1Token: ,_il, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dello, Stato, laico ,.. ]
+134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [così, il, fiume ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: dello, transitionHistoryLength3: 020, 
+B0Lemma: così, B0POS: B, B0Token: così, TransHistory3: 020, 
 
-137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dello]   B= [Stato, laico, . ,.. ]
+135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [così]   B= [il, fiume, cominciava ,.. ]
 
-B0Lemma: Stato, B0POS: S, B0Token: Stato, S0B0Lemma: di_Stato, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_Stato, S0B0Token: dello_Stato, S0B1Lemma: di_laico, S0B1LemmaPOS: di_A, S0B1POS: E_A, S0B1POSLemma: E_laico, S0B1Token: dello_laico, S0Lemma: di, S0POS: E, S0Token: dello, di_Stato_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: il, S0B0Lemma: così_il, S0B0LemmaPOS: così_RD, S0B0POS: B_RD, S0B0POSLemma: B_il, S0B0Token: così_il, S0B1Lemma: così_fiume, S0B1LemmaPOS: così_S, S0B1POS: B_S, S0B1POSLemma: B_fiume, S0B1Token: così_fiume, S0Lemma: così, S0POS: B, S0Token: così, TransHistory3: 202, così_isGouvernedBy_cominciare: true, così_isGouvernedBy_cominciare_mod: true, 
 
-138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Stato, laico, . ,.. ]
+136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, fiume, cominciava ,.. ]
 
-B0Lemma: Stato, B0POS: S, B0Token: Stato, transitionHistoryLength3: 020, 
+B0Lemma: il, B0POS: RD, B0Token: il, TransHistory3: 020, 
 
-139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Stato]   B= [laico, . ,.. ]
+137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [fiume, cominciava, ad ,.. ]
 
-B0Lemma: laico, B0POS: A, B0Token: laico, S0B0Lemma: Stato_laico, S0B0LemmaPOS: Stato_A, S0B0POS: S_A, S0B0POSLemma: S_laico, S0B0Token: Stato_laico, S0B1Lemma: Stato_., S0B1LemmaPOS: Stato_F, S0B1POS: S_F, S0B1POSLemma: S_., S0B1Token: Stato_., S0Lemma: Stato, S0POS: S, S0Token: Stato, Stato_hasRighDep_mod: true, Stato_laico_hasRighDep_mod: true, hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: fiume, B0POS: S, B0Token: fiume, S0B0Lemma: il_fiume, S0B0LemmaPOS: il_S, S0B0POS: RD_S, S0B0POSLemma: RD_fiume, S0B0Token: il_fiume, S0B1Lemma: il_cominciare, S0B1LemmaPOS: il_V, S0B1POS: RD_V, S0B1POSLemma: RD_cominciare, S0B1Token: il_cominciava, S0Lemma: il, S0POS: RD, S0Token: il, TransHistory3: 202, il_isGouvernedBy_fiume: true, il_isGouvernedBy_fiume_det: true, 
 
-140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [laico, . ,.. ]
+138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fiume, cominciava, ad ,.. ]
 
-B0Lemma: laico, B0POS: A, B0Token: laico, transitionHistoryLength3: 020, 
+B0Lemma: fiume, B0POS: S, B0Token: fiume, TransHistory3: 020, 
 
-141- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [laico]   B= [.]
+139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fiume]   B= [cominciava, ad, ingrossar- ,.. ]
 
-B0Lemma: ., B0POS: F, B0Token: ., S0B0Lemma: laico_., S0B0LemmaPOS: laico_F, S0B0POS: A_F, S0B0POSLemma: A_., S0B0Token: laico_., S0Lemma: laico, S0POS: A, S0Token: laico, transitionHistoryLength3: 202, 
+B0Lemma: cominciare, B0POS: V, B0Token: cominciava, S0B0Lemma: fiume_cominciare, S0B0LemmaPOS: fiume_V, S0B0POS: S_V, S0B0POSLemma: S_cominciare, S0B0Token: fiume_cominciava, S0B1Lemma: fiume_ad, S0B1LemmaPOS: fiume_E, S0B1POS: S_E, S0B1POSLemma: S_ad, S0B1Token: fiume_ad, S0Lemma: fiume, S0POS: S, S0Token: fiume, TransHistory3: 202, fiume_isGouvernedBy_cominciare: true, fiume_isGouvernedBy_cominciare_subj: true, 
 
-142- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cominciava, ad, ingrossar- ,.. ]
 
-B0Lemma: ., B0POS: F, B0Token: ., transitionHistoryLength3: 020, 
+B0Lemma: cominciare, B0POS: V, B0Token: cominciava, TransHistory3: 020, 
 
-143- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+141- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cominciava]   B= [ad, ingrossar-, si ,.. ]
 
-S0Lemma: ., S0POS: F, S0Token: ., transitionHistoryLength3: 202, 
+B0Lemma: ad, B0POS: E, B0Token: ad, S0B0Lemma: cominciare_ad, S0B0LemmaPOS: cominciare_E, S0B0POS: V_E, S0B0POSLemma: V_ad, S0B0Token: cominciava_ad, S0B1Lemma: cominciare_ingrossare, S0B1LemmaPOS: cominciare_V, S0B1POS: V_V, S0B1POSLemma: V_ingrossare, S0B1Token: cominciava_ingrossar-, S0Lemma: cominciare, S0POS: V, S0Token: cominciava, TransHistory3: 202, cominciare_ad_hasRighDep_arg: true, cominciare_e_hasRighDep_con: true, cominciare_hasRighDep_arg: true, cominciare_hasRighDep_con: true, cominciare_hasRighDep_conj: true, cominciare_restare_hasRighDep_conj: true, hasRighDep_arg: true, hasRighDep_con: true, hasRighDep_conj: true, 
 
-144- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+142- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ad, ingrossar-, si ,.. ]
 
-## Sentence No. 12937 - 
-Fogazzaro apparteneva dunque a una borghesia moderna e attiva e a un pubblico di tal fatta egli si rivolgeva ; moderno , ma che teneva ben presenti le tradizioni di un cattolicesimo non gretto , ma sostanzialmente conservatore , capace di render- si conto della necessità di accogliere quanto di nuovo lo sviluppo sociale proponesse ma senza stravolgimenti . 
+B0Lemma: ad, B0POS: E, B0Token: ad, TransHistory3: 020, 
+
+143- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ad]   B= [ingrossar-, si, e ,.. ]
+
+B0Lemma: ingrossare, B0POS: V, B0Token: ingrossar-, S0B0Lemma: ad_ingrossare, S0B0LemmaPOS: ad_V, S0B0POS: E_V, S0B0POSLemma: E_ingrossare, S0B0Token: ad_ingrossar-, S0B1Lemma: ad_si, S0B1LemmaPOS: ad_PC, S0B1POS: E_PC, S0B1POSLemma: E_si, S0B1Token: ad_si, S0Lemma: ad, S0POS: E, S0Token: ad, TransHistory3: 202, ad_hasRighDep_prep: true, ad_ingrossare_hasRighDep_prep: true, hasRighDep_prep: true, 
+
+144- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ingrossar-, si, e ,.. ]
+
+B0Lemma: ingrossare, B0POS: V, B0Token: ingrossar-, TransHistory3: 020, 
+
+145- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ingrossar-]   B= [si, e, noi ,.. ]
+
+B0Lemma: si, B0POS: PC, B0Token: si, S0B0Lemma: ingrossare_si, S0B0LemmaPOS: ingrossare_PC, S0B0POS: V_PC, S0B0POSLemma: V_si, S0B0Token: ingrossar-_si, S0B1Lemma: ingrossare_e, S0B1LemmaPOS: ingrossare_CC, S0B1POS: V_CC, S0B1POSLemma: V_e, S0B1Token: ingrossar-_e, S0Lemma: ingrossare, S0POS: V, S0Token: ingrossar-, TransHistory3: 202, hasRighDep_clit: true, ingrossare_hasRighDep_clit: true, ingrossare_si_hasRighDep_clit: true, 
+
+146- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, e, noi ,.. ]
+
+B0Lemma: si, B0POS: PC, B0Token: si, TransHistory3: 020, 
+
+147- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [e, noi, restavamo ,.. ]
+
+B0Lemma: e, B0POS: CC, B0Token: e, S0B0Lemma: si_e, S0B0LemmaPOS: si_CC, S0B0POS: PC_CC, S0B0POSLemma: PC_e, S0B0Token: si_e, S0B1Lemma: si_noi, S0B1LemmaPOS: si_PE, S0B1POS: PC_PE, S0B1POSLemma: PC_noi, S0B1Token: si_noi, S0Lemma: si, S0POS: PC, S0Token: si, TransHistory3: 202, 
+
+148- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, noi, restavamo ,.. ]
+
+B0Lemma: e, B0POS: CC, B0Token: e, TransHistory3: 020, 
+
+149- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [noi, restavamo, ancora ,.. ]
+
+B0Lemma: noi, B0POS: PE, B0Token: noi, S0B0Lemma: e_noi, S0B0LemmaPOS: e_PE, S0B0POS: CC_PE, S0B0POSLemma: CC_noi, S0B0Token: e_noi, S0B1Lemma: e_restare, S0B1LemmaPOS: e_V, S0B1POS: CC_V, S0B1POSLemma: CC_restare, S0B1Token: e_restavamo, S0Lemma: e, S0POS: CC, S0Token: e, TransHistory3: 202, 
+
+150- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [noi, restavamo, ancora ,.. ]
+
+B0Lemma: noi, B0POS: PE, B0Token: noi, TransHistory3: 020, 
+
+151- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [noi]   B= [restavamo, ancora, al ,.. ]
+
+B0Lemma: restare, B0POS: V, B0Token: restavamo, S0B0Lemma: noi_restare, S0B0LemmaPOS: noi_V, S0B0POS: PE_V, S0B0POSLemma: PE_restare, S0B0Token: noi_restavamo, S0B1Lemma: noi_ancora, S0B1LemmaPOS: noi_B, S0B1POS: PE_B, S0B1POSLemma: PE_ancora, S0B1Token: noi_ancora, S0Lemma: noi, S0POS: PE, S0Token: noi, TransHistory3: 202, noi_isGouvernedBy_restare: true, noi_isGouvernedBy_restare_subj: true, 
+
+152- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [restavamo, ancora, al ,.. ]
+
+B0Lemma: restare, B0POS: V, B0Token: restavamo, TransHistory3: 020, 
+
+153- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [restavamo]   B= [ancora, al, palo ,.. ]
+
+B0Lemma: ancora, B0POS: B, B0Token: ancora, S0B0Lemma: restare_ancora, S0B0LemmaPOS: restare_B, S0B0POS: V_B, S0B0POSLemma: V_ancora, S0B0Token: restavamo_ancora, S0B1Lemma: restare_al, S0B1LemmaPOS: restare_EA, S0B1POS: V_EA, S0B1POSLemma: V_al, S0B1Token: restavamo_al, S0Lemma: restare, S0POS: V, S0Token: restavamo, TransHistory3: 202, hasRighDep_comp: true, hasRighDep_mod: true, restare_al_hasRighDep_comp: true, restare_ancora_hasRighDep_mod: true, restare_hasRighDep_comp: true, restare_hasRighDep_mod: true, 
+
+154- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ancora, al, palo ,.. ]
+
+B0Lemma: ancora, B0POS: B, B0Token: ancora, TransHistory3: 020, 
+
+155- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ancora]   B= [al, palo, . ,.. ]
+
+B0Lemma: al, B0POS: EA, B0Token: al, S0B0Lemma: ancora_al, S0B0LemmaPOS: ancora_EA, S0B0POS: B_EA, S0B0POSLemma: B_al, S0B0Token: ancora_al, S0B1Lemma: ancora_palo, S0B1LemmaPOS: ancora_S, S0B1POS: B_S, S0B1POSLemma: B_palo, S0B1Token: ancora_palo, S0Lemma: ancora, S0POS: B, S0Token: ancora, TransHistory3: 202, 
+
+156- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [al, palo, . ,.. ]
+
+B0Lemma: al, B0POS: EA, B0Token: al, TransHistory3: 020, 
+
+157- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [al]   B= [palo, . ,.. ]
+
+B0Lemma: palo, B0POS: S, B0Token: palo, S0B0Lemma: al_palo, S0B0LemmaPOS: al_S, S0B0POS: EA_S, S0B0POSLemma: EA_palo, S0B0Token: al_palo, S0B1Lemma: al_., S0B1LemmaPOS: al_FS, S0B1POS: EA_FS, S0B1POSLemma: EA_., S0B1Token: al_., S0Lemma: al, S0POS: EA, S0Token: al, TransHistory3: 202, al_hasRighDep_prep: true, al_palo_hasRighDep_prep: true, hasRighDep_prep: true, 
+
+158- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [palo, . ,.. ]
+
+B0Lemma: palo, B0POS: S, B0Token: palo, TransHistory3: 020, 
+
+159- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [palo]   B= [.]
+
+B0Lemma: ., B0POS: FS, B0Token: ., S0B0Lemma: palo_., S0B0LemmaPOS: palo_FS, S0B0POS: S_FS, S0B0POSLemma: S_., S0B0Token: palo_., S0Lemma: palo, S0POS: S, S0Token: palo, TransHistory3: 202, 
+
+160- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: FS, B0Token: ., TransHistory3: 020, 
+
+161- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: FS, S0Token: ., TransHistory3: 202, 
+
+162- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2704 - 
+d' altronde lei questi meccanismi li consoce bene visto che di questa campagna elettorale è stato il primo candidato sindaco " eliminato " ( non ho voluto usare il termine trombato che mi sembra brutto e ingiusto verso chi mette la propria faccia nella vita pubblica ) , visto che dopo aver dato la notizia alla stampa si è ritrovato candidato si , ma per il solo consiglio comunale . 
 ### Existing MWEs: 
-1- **teneva presenti** (ID)
-2- **render- si conto** (ID)
+2- **mette la faccia** (ID)
+1- **si è ritrovato** (IReflV)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Fogazzaro, apparteneva, dunque ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [d', altronde, lei ,.. ]
 
-B0Lemma: Fogazzaro, B0POS: S, B0Token: Fogazzaro, 
+B0Lemma: d', B0POS: E, B0Token: d', 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Fogazzaro]   B= [apparteneva, dunque, a ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [d']   B= [altronde, lei, questi ,.. ]
 
-B0Lemma: appartenere, B0POS: V, B0Token: apparteneva, Fogazzaro_isGouvernedBy_appartenere: true, Fogazzaro_isGouvernedBy_appartenere_subj: true, S0B0Lemma: Fogazzaro_appartenere, S0B0LemmaPOS: Fogazzaro_V, S0B0POS: S_V, S0B0POSLemma: S_appartenere, S0B0Token: Fogazzaro_apparteneva, S0B1Lemma: Fogazzaro_dunque, S0B1LemmaPOS: Fogazzaro_B, S0B1POS: S_B, S0B1POSLemma: S_dunque, S0B1Token: Fogazzaro_dunque, S0Lemma: Fogazzaro, S0POS: S, S0Token: Fogazzaro, 
+B0Lemma: altronde, B0POS: B, B0Token: altronde, S0B0Lemma: d'_altronde, S0B0LemmaPOS: d'_B, S0B0POS: E_B, S0B0POSLemma: E_altronde, S0B0Token: d'_altronde, S0B1Lemma: d'_lei, S0B1LemmaPOS: d'_PE, S0B1POS: E_PE, S0B1POSLemma: E_lei, S0B1Token: d'_lei, S0Lemma: d', S0POS: E, S0Token: d', d'_altronde_hasRighDep_prep: true, d'_hasRighDep_prep: true, d'_isGouvernedBy_meccanismo: true, d'_isGouvernedBy_meccanismo_comp: true, d'_lei_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [apparteneva, dunque, a ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [altronde, lei, questi ,.. ]
 
-B0Lemma: appartenere, B0POS: V, B0Token: apparteneva, 
+B0Lemma: altronde, B0POS: B, B0Token: altronde, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [apparteneva]   B= [dunque, a, una ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [altronde]   B= [lei, questi, meccanismi ,.. ]
 
-B0Lemma: dunque, B0POS: B, B0Token: dunque, S0B0Lemma: appartenere_dunque, S0B0LemmaPOS: appartenere_B, S0B0POS: V_B, S0B0POSLemma: V_dunque, S0B0Token: apparteneva_dunque, S0B1Lemma: appartenere_a, S0B1LemmaPOS: appartenere_E, S0B1POS: V_E, S0B1POSLemma: V_a, S0B1Token: apparteneva_a, S0Lemma: appartenere, S0POS: V, S0Token: apparteneva, 
+B0Lemma: lei, B0POS: PE, B0Token: lei, S0B0Lemma: altronde_lei, S0B0LemmaPOS: altronde_PE, S0B0POS: B_PE, S0B0POSLemma: B_lei, S0B0Token: altronde_lei, S0B1Lemma: altronde_questo, S0B1LemmaPOS: altronde_DD, S0B1POS: B_DD, S0B1POSLemma: B_questo, S0B1Token: altronde_questi, S0Lemma: altronde, S0POS: B, S0Token: altronde, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dunque, a, una ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lei, questi, meccanismi ,.. ]
 
-B0Lemma: dunque, B0POS: B, B0Token: dunque, transitionHistoryLength3: 020, 
+B0Lemma: lei, B0POS: PE, B0Token: lei, TransHistory3: 020, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dunque]   B= [a, una, borghesia ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lei]   B= [questi, meccanismi, li ,.. ]
 
-B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: dunque_a, S0B0LemmaPOS: dunque_E, S0B0POS: B_E, S0B0POSLemma: B_a, S0B0Token: dunque_a, S0B1Lemma: dunque_una, S0B1LemmaPOS: dunque_R, S0B1POS: B_R, S0B1POSLemma: B_una, S0B1Token: dunque_una, S0Lemma: dunque, S0POS: B, S0Token: dunque, transitionHistoryLength3: 202, 
+B0Lemma: questo, B0POS: DD, B0Token: questi, S0B0Lemma: lei_questo, S0B0LemmaPOS: lei_DD, S0B0POS: PE_DD, S0B0POSLemma: PE_questo, S0B0Token: lei_questi, S0B1Lemma: lei_meccanismo, S0B1LemmaPOS: lei_S, S0B1POS: PE_S, S0B1POSLemma: PE_meccanismo, S0B1Token: lei_meccanismi, S0Lemma: lei, S0POS: PE, S0Token: lei, TransHistory3: 202, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, una, borghesia ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [questi, meccanismi, li ,.. ]
 
-B0Lemma: a, B0POS: E, B0Token: a, transitionHistoryLength3: 020, 
+B0Lemma: questo, B0POS: DD, B0Token: questi, TransHistory3: 020, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [una, borghesia, moderna ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [questi]   B= [meccanismi, li, consoce ,.. ]
 
-B0Lemma: una, B0POS: R, B0Token: una, S0B0Lemma: a_una, S0B0LemmaPOS: a_R, S0B0POS: E_R, S0B0POSLemma: E_una, S0B0Token: a_una, S0B1Lemma: a_borghesia, S0B1LemmaPOS: a_S, S0B1POS: E_S, S0B1POSLemma: E_borghesia, S0B1Token: a_borghesia, S0Lemma: a, S0POS: E, S0Token: a, a_borghesia_hasRighDep_prep: true, a_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: meccanismo, B0POS: S, B0Token: meccanismi, S0B0Lemma: questo_meccanismo, S0B0LemmaPOS: questo_S, S0B0POS: DD_S, S0B0POSLemma: DD_meccanismo, S0B0Token: questi_meccanismi, S0B1Lemma: questo_li, S0B1LemmaPOS: questo_PC, S0B1POS: DD_PC, S0B1POSLemma: DD_li, S0B1Token: questi_li, S0Lemma: questo, S0POS: DD, S0Token: questi, TransHistory3: 202, questo_isGouvernedBy_meccanismo: true, questo_isGouvernedBy_meccanismo_mod: true, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [una, borghesia, moderna ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [meccanismi, li, consoce ,.. ]
 
-B0Lemma: una, B0POS: R, B0Token: una, transitionHistoryLength3: 020, 
+B0Lemma: meccanismo, B0POS: S, B0Token: meccanismi, TransHistory3: 020, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [una]   B= [borghesia, moderna, e ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [meccanismi]   B= [li, consoce, bene ,.. ]
 
-B0Lemma: borghesia, B0POS: S, B0Token: borghesia, S0B0Lemma: una_borghesia, S0B0LemmaPOS: una_S, S0B0POS: R_S, S0B0POSLemma: R_borghesia, S0B0Token: una_borghesia, S0B1Lemma: una_moderno, S0B1LemmaPOS: una_A, S0B1POS: R_A, S0B1POSLemma: R_moderno, S0B1Token: una_moderna, S0Lemma: una, S0POS: R, S0Token: una, transitionHistoryLength3: 202, una_isGouvernedBy_borghesia: true, una_isGouvernedBy_borghesia_det: true, 
+B0Lemma: li, B0POS: PC, B0Token: li, S0B0Lemma: meccanismo_li, S0B0LemmaPOS: meccanismo_PC, S0B0POS: S_PC, S0B0POSLemma: S_li, S0B0Token: meccanismi_li, S0B1Lemma: meccanismo_consocio, S0B1LemmaPOS: meccanismo_S, S0B1POS: S_S, S0B1POSLemma: S_consocio, S0B1Token: meccanismi_consoce, S0Lemma: meccanismo, S0POS: S, S0Token: meccanismi, TransHistory3: 202, hasRighDep_mod: true, meccanismo_consocio_hasRighDep_mod: true, meccanismo_hasRighDep_mod: true, meccanismo_isGouvernedBy_vedere: true, meccanismo_isGouvernedBy_vedere_subj: true, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [borghesia, moderna, e ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, consoce, bene ,.. ]
 
-B0Lemma: borghesia, B0POS: S, B0Token: borghesia, transitionHistoryLength3: 020, 
+B0Lemma: li, B0POS: PC, B0Token: li, TransHistory3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [borghesia]   B= [moderna, e, attiva ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [consoce, bene, visto ,.. ]
 
-B0Lemma: moderno, B0POS: A, B0Token: moderna, S0B0Lemma: borghesia_moderno, S0B0LemmaPOS: borghesia_A, S0B0POS: S_A, S0B0POSLemma: S_moderno, S0B0Token: borghesia_moderna, S0B1Lemma: borghesia_e, S0B1LemmaPOS: borghesia_C, S0B1POS: S_C, S0B1POSLemma: S_e, S0B1Token: borghesia_e, S0Lemma: borghesia, S0POS: S, S0Token: borghesia, borghesia_hasRighDep_mod: true, borghesia_moderno_hasRighDep_mod: true, hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: consocio, B0POS: S, B0Token: consoce, S0B0Lemma: li_consocio, S0B0LemmaPOS: li_S, S0B0POS: PC_S, S0B0POSLemma: PC_consocio, S0B0Token: li_consoce, S0B1Lemma: li_bene, S0B1LemmaPOS: li_B, S0B1POS: PC_B, S0B1POSLemma: PC_bene, S0B1Token: li_bene, S0Lemma: li, S0POS: PC, S0Token: li, TransHistory3: 202, li_isGouvernedBy_consocio: true, li_isGouvernedBy_consocio_obj: true, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [moderna, e, attiva ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [consoce, bene, visto ,.. ]
 
-B0Lemma: moderno, B0POS: A, B0Token: moderna, transitionHistoryLength3: 020, 
+B0Lemma: consocio, B0POS: S, B0Token: consoce, TransHistory3: 020, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [moderna]   B= [e, attiva, e ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [consoce]   B= [bene, visto, che ,.. ]
 
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: moderno_e, S0B0LemmaPOS: moderno_C, S0B0POS: A_C, S0B0POSLemma: A_e, S0B0Token: moderna_e, S0B1Lemma: moderno_attivo, S0B1LemmaPOS: moderno_A, S0B1POS: A_A, S0B1POSLemma: A_attivo, S0B1Token: moderna_attiva, S0Lemma: moderno, S0POS: A, S0Token: moderna, hasRighDep_con: true, hasRighDep_conj: true, moderno_attivo_hasRighDep_conj: true, moderno_e_hasRighDep_con: true, moderno_hasRighDep_con: true, moderno_hasRighDep_conj: true, transitionHistoryLength3: 202, 
+B0Lemma: bene, B0POS: B, B0Token: bene, S0B0Lemma: consocio_bene, S0B0LemmaPOS: consocio_B, S0B0POS: S_B, S0B0POSLemma: S_bene, S0B0Token: consoce_bene, S0B1Lemma: consocio_vedere, S0B1LemmaPOS: consocio_V, S0B1POS: S_V, S0B1POSLemma: S_vedere, S0B1Token: consoce_visto, S0Lemma: consocio, S0POS: S, S0Token: consoce, TransHistory3: 202, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, attiva, e ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bene, visto, che ,.. ]
 
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
+B0Lemma: bene, B0POS: B, B0Token: bene, TransHistory3: 020, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [attiva, e, a ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bene]   B= [visto, che, di ,.. ]
 
-B0Lemma: attivo, B0POS: A, B0Token: attiva, S0B0Lemma: e_attivo, S0B0LemmaPOS: e_A, S0B0POS: C_A, S0B0POSLemma: C_attivo, S0B0Token: e_attiva, S0B1Lemma: e_e, S0B1LemmaPOS: e_C, S0B1POS: C_C, S0B1POSLemma: C_e, S0B1Token: e_e, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
+B0Lemma: vedere, B0POS: V, B0Token: visto, S0B0Lemma: bene_vedere, S0B0LemmaPOS: bene_V, S0B0POS: B_V, S0B0POSLemma: B_vedere, S0B0Token: bene_visto, S0B1Lemma: bene_che, S0B1LemmaPOS: bene_CS, S0B1POS: B_CS, S0B1POSLemma: B_che, S0B1Token: bene_che, S0Lemma: bene, S0POS: B, S0Token: bene, TransHistory3: 202, bene_isGouvernedBy_vedere: true, bene_isGouvernedBy_vedere_mod: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [attiva, e, a ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [visto, che, di ,.. ]
 
-B0Lemma: attivo, B0POS: A, B0Token: attiva, transitionHistoryLength3: 020, 
+B0Lemma: vedere, B0POS: V, B0Token: visto, TransHistory3: 020, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [attiva]   B= [e, a, un ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [visto]   B= [che, di, questa ,.. ]
 
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: attivo_e, S0B0LemmaPOS: attivo_C, S0B0POS: A_C, S0B0POSLemma: A_e, S0B0Token: attiva_e, S0B1Lemma: attivo_a, S0B1LemmaPOS: attivo_E, S0B1POS: A_E, S0B1POSLemma: A_a, S0B1Token: attiva_a, S0Lemma: attivo, S0POS: A, S0Token: attiva, transitionHistoryLength3: 202, 
+B0Lemma: che, B0POS: CS, B0Token: che, S0B0Lemma: vedere_che, S0B0LemmaPOS: vedere_CS, S0B0POS: V_CS, S0B0POSLemma: V_che, S0B0Token: visto_che, S0B1Lemma: vedere_di, S0B1LemmaPOS: vedere_E, S0B1POS: V_E, S0B1POSLemma: V_di, S0B1Token: visto_di, S0Lemma: vedere, S0POS: V, S0Token: visto, TransHistory3: 202, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, a, un ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, di, questa ,.. ]
 
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
+B0Lemma: che, B0POS: CS, B0Token: che, TransHistory3: 020, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [a, un, pubblico ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [di, questa, campagna ,.. ]
 
-B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: e_a, S0B0LemmaPOS: e_E, S0B0POS: C_E, S0B0POSLemma: C_a, S0B0Token: e_a, S0B1Lemma: e_un, S0B1LemmaPOS: e_R, S0B1POS: C_R, S0B1POSLemma: C_un, S0B1Token: e_un, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
+B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: che_di, S0B0LemmaPOS: che_E, S0B0POS: CS_E, S0B0POSLemma: CS_di, S0B0Token: che_di, S0B1Lemma: che_questo, S0B1LemmaPOS: che_DD, S0B1POS: CS_DD, S0B1POSLemma: CS_questo, S0B1Token: che_questa, S0Lemma: che, S0POS: CS, S0Token: che, TransHistory3: 202, che_di_hasRighDep_sub: true, che_essere_hasRighDep_sub: true, che_hasRighDep_conj: true, che_hasRighDep_sub: true, che_per_hasRighDep_conj: true, hasRighDep_conj: true, hasRighDep_sub: true, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, un, pubblico ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, questa, campagna ,.. ]
 
-B0Lemma: a, B0POS: E, B0Token: a, transitionHistoryLength3: 020, 
+B0Lemma: di, B0POS: E, B0Token: di, TransHistory3: 020, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [un, pubblico, di ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [questa, campagna, elettorale ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, S0B0Lemma: a_un, S0B0LemmaPOS: a_R, S0B0POS: E_R, S0B0POSLemma: E_un, S0B0Token: a_un, S0B1Lemma: a_pubblico, S0B1LemmaPOS: a_S, S0B1POS: E_S, S0B1POSLemma: E_pubblico, S0B1Token: a_pubblico, S0Lemma: a, S0POS: E, S0Token: a, a_hasRighDep_prep: true, a_isGouvernedBy_rivolgere: true, a_isGouvernedBy_rivolgere_comp: true, a_pubblico_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: questo, B0POS: DD, B0Token: questa, S0B0Lemma: di_questo, S0B0LemmaPOS: di_DD, S0B0POS: E_DD, S0B0POSLemma: E_questo, S0B0Token: di_questa, S0B1Lemma: di_campagna, S0B1LemmaPOS: di_S, S0B1POS: E_S, S0B1POSLemma: E_campagna, S0B1Token: di_campagna, S0Lemma: di, S0POS: E, S0Token: di, TransHistory3: 202, di_campagna_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, pubblico, di ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [questa, campagna, elettorale ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, transitionHistoryLength3: 020, 
+B0Lemma: questo, B0POS: DD, B0Token: questa, TransHistory3: 020, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [pubblico, di, tal ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [questa]   B= [campagna, elettorale, è ,.. ]
 
-B0Lemma: pubblico, B0POS: S, B0Token: pubblico, S0B0Lemma: un_pubblico, S0B0LemmaPOS: un_S, S0B0POS: R_S, S0B0POSLemma: R_pubblico, S0B0Token: un_pubblico, S0B1Lemma: un_di, S0B1LemmaPOS: un_E, S0B1POS: R_E, S0B1POSLemma: R_di, S0B1Token: un_di, S0Lemma: un, S0POS: R, S0Token: un, transitionHistoryLength3: 202, un_isGouvernedBy_pubblico: true, un_isGouvernedBy_pubblico_det: true, 
+B0Lemma: campagna, B0POS: S, B0Token: campagna, S0B0Lemma: questo_campagna, S0B0LemmaPOS: questo_S, S0B0POS: DD_S, S0B0POSLemma: DD_campagna, S0B0Token: questa_campagna, S0B1Lemma: questo_elettorale, S0B1LemmaPOS: questo_A, S0B1POS: DD_A, S0B1POSLemma: DD_elettorale, S0B1Token: questa_elettorale, S0Lemma: questo, S0POS: DD, S0Token: questa, TransHistory3: 202, questo_isGouvernedBy_campagna: true, questo_isGouvernedBy_campagna_mod: true, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pubblico, di, tal ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [campagna, elettorale, è ,.. ]
 
-B0Lemma: pubblico, B0POS: S, B0Token: pubblico, transitionHistoryLength3: 020, 
+B0Lemma: campagna, B0POS: S, B0Token: campagna, TransHistory3: 020, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pubblico]   B= [di, tal, fatta ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [campagna]   B= [elettorale, è, stato ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: pubblico_di, S0B0LemmaPOS: pubblico_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: pubblico_di, S0B1Lemma: pubblico_tal, S0B1LemmaPOS: pubblico_D, S0B1POS: S_D, S0B1POSLemma: S_tal, S0B1Token: pubblico_tal, S0Lemma: pubblico, S0POS: S, S0Token: pubblico, hasRighDep_comp: true, pubblico_di_hasRighDep_comp: true, pubblico_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: elettorale, B0POS: A, B0Token: elettorale, S0B0Lemma: campagna_elettorale, S0B0LemmaPOS: campagna_A, S0B0POS: S_A, S0B0POSLemma: S_elettorale, S0B0Token: campagna_elettorale, S0B1Lemma: campagna_essere, S0B1LemmaPOS: campagna_VA, S0B1POS: S_VA, S0B1POSLemma: S_essere, S0B1Token: campagna_è, S0Lemma: campagna, S0POS: S, S0Token: campagna, TransHistory3: 202, campagna_elettorale_hasRighDep_mod: true, campagna_hasRighDep_mod: true, hasRighDep_mod: true, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, tal, fatta ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [elettorale, è, stato ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: elettorale, B0POS: A, B0Token: elettorale, TransHistory3: 020, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [tal, fatta, egli ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [elettorale]   B= [è, stato, il ,.. ]
 
-B0Lemma: tal, B0POS: D, B0Token: tal, S0B0Lemma: di_tal, S0B0LemmaPOS: di_D, S0B0POS: E_D, S0B0POSLemma: E_tal, S0B0Token: di_tal, S0B1Lemma: di_fare, S0B1LemmaPOS: di_V, S0B1POS: E_V, S0B1POSLemma: E_fare, S0B1Token: di_fatta, S0Lemma: di, S0POS: E, S0Token: di, di_fare_hasRighDep_prep: true, di_hasRighDep_prep: true, di_tal_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: essere, B0POS: VA, B0Token: è, S0B0Lemma: elettorale_essere, S0B0LemmaPOS: elettorale_VA, S0B0POS: A_VA, S0B0POSLemma: A_essere, S0B0Token: elettorale_è, S0B1Lemma: elettorale_essere, S0B1LemmaPOS: elettorale_V, S0B1POS: A_V, S0B1POSLemma: A_essere, S0B1Token: elettorale_stato, S0Lemma: elettorale, S0POS: A, S0Token: elettorale, TransHistory3: 202, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal, fatta, egli ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [è, stato, il ,.. ]
 
-B0Lemma: tal, B0POS: D, B0Token: tal, transitionHistoryLength3: 020, 
+B0Lemma: essere, B0POS: VA, B0Token: è, TransHistory3: 020, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal]   B= [fatta, egli, si ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [è]   B= [stato, il, primo ,.. ]
 
-B0Lemma: fare, B0POS: V, B0Token: fatta, S0B0Lemma: tal_fare, S0B0LemmaPOS: tal_V, S0B0POS: D_V, S0B0POSLemma: D_fare, S0B0Token: tal_fatta, S0B1Lemma: tal_egli, S0B1LemmaPOS: tal_P, S0B1POS: D_P, S0B1POSLemma: D_egli, S0B1Token: tal_egli, S0Lemma: tal, S0POS: D, S0Token: tal, transitionHistoryLength3: 202, 
+B0Lemma: essere, B0POS: V, B0Token: stato, S0B0Lemma: essere_essere, S0B0LemmaPOS: essere_V, S0B0POS: VA_V, S0B0POSLemma: VA_essere, S0B0Token: è_stato, S0B1Lemma: essere_il, S0B1LemmaPOS: essere_RD, S0B1POS: VA_RD, S0B1POSLemma: VA_il, S0B1Token: è_il, S0Lemma: essere, S0POS: VA, S0Token: è, TransHistory3: 202, essere_isGouvernedBy_essere: true, essere_isGouvernedBy_essere_aux: true, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fatta, egli, si ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stato, il, primo ,.. ]
 
-B0Lemma: fare, B0POS: V, B0Token: fatta, transitionHistoryLength3: 020, 
+B0Lemma: essere, B0POS: V, B0Token: stato, TransHistory3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fatta]   B= [egli, si, rivolgeva ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stato]   B= [il, primo, candidato ,.. ]
 
-B0Lemma: egli, B0POS: P, B0Token: egli, S0B0Lemma: fare_egli, S0B0LemmaPOS: fare_P, S0B0POS: V_P, S0B0POSLemma: V_egli, S0B0Token: fatta_egli, S0B1Lemma: fare_si, S0B1LemmaPOS: fare_P, S0B1POS: V_P, S0B1POSLemma: V_si, S0B1Token: fatta_si, S0Lemma: fare, S0POS: V, S0Token: fatta, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: il, S0B0Lemma: essere_il, S0B0LemmaPOS: essere_RD, S0B0POS: V_RD, S0B0POSLemma: V_il, S0B0Token: stato_il, S0B1Lemma: essere_primo, S0B1LemmaPOS: essere_NO, S0B1POS: V_NO, S0B1POSLemma: V_primo, S0B1Token: stato_primo, S0Lemma: essere, S0POS: V, S0Token: stato, TransHistory3: 202, essere_candidato_hasRighDep_pred: true, essere_hasRighDep_pred: true, hasRighDep_pred: true, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [egli, si, rivolgeva ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, primo, candidato ,.. ]
 
-B0Lemma: egli, B0POS: P, B0Token: egli, transitionHistoryLength3: 020, 
+B0Lemma: il, B0POS: RD, B0Token: il, TransHistory3: 020, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [egli]   B= [si, rivolgeva, ; ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [primo, candidato, sindaco ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, S0B0Lemma: egli_si, S0B0LemmaPOS: egli_P, S0B0POS: P_P, S0B0POSLemma: P_si, S0B0Token: egli_si, S0B1Lemma: egli_rivolgere, S0B1LemmaPOS: egli_V, S0B1POS: P_V, S0B1POSLemma: P_rivolgere, S0B1Token: egli_rivolgeva, S0Lemma: egli, S0POS: P, S0Token: egli, egli_isGouvernedBy_rivolgere: true, egli_isGouvernedBy_rivolgere_subj: true, transitionHistoryLength3: 202, 
+B0Lemma: primo, B0POS: NO, B0Token: primo, S0B0Lemma: il_primo, S0B0LemmaPOS: il_NO, S0B0POS: RD_NO, S0B0POSLemma: RD_primo, S0B0Token: il_primo, S0B1Lemma: il_candidato, S0B1LemmaPOS: il_S, S0B1POS: RD_S, S0B1POSLemma: RD_candidato, S0B1Token: il_candidato, S0Lemma: il, S0POS: RD, S0Token: il, TransHistory3: 202, il_isGouvernedBy_candidato: true, il_isGouvernedBy_candidato_det: true, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, rivolgeva, ; ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [primo, candidato, sindaco ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, transitionHistoryLength3: 020, 
+B0Lemma: primo, B0POS: NO, B0Token: primo, TransHistory3: 020, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [rivolgeva, ;, moderno ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [primo]   B= [candidato, sindaco, " ,.. ]
 
-B0Lemma: rivolgere, B0POS: V, B0Token: rivolgeva, S0B0Lemma: si_rivolgere, S0B0LemmaPOS: si_V, S0B0POS: P_V, S0B0POSLemma: P_rivolgere, S0B0Token: si_rivolgeva, S0B1Lemma: si_;, S0B1LemmaPOS: si_F, S0B1POS: P_F, S0B1POSLemma: P_;, S0B1Token: si_;, S0Lemma: si, S0POS: P, S0Token: si, si_isGouvernedBy_rivolgere: true, si_isGouvernedBy_rivolgere_clit: true, transitionHistoryLength3: 202, 
+B0Lemma: candidato, B0POS: S, B0Token: candidato, S0B0Lemma: primo_candidato, S0B0LemmaPOS: primo_S, S0B0POS: NO_S, S0B0POSLemma: NO_candidato, S0B0Token: primo_candidato, S0B1Lemma: primo_sindaco, S0B1LemmaPOS: primo_S, S0B1POS: NO_S, S0B1POSLemma: NO_sindaco, S0B1Token: primo_sindaco, S0Lemma: primo, S0POS: NO, S0Token: primo, TransHistory3: 202, primo_isGouvernedBy_candidato: true, primo_isGouvernedBy_candidato_mod: true, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rivolgeva, ;, moderno ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [candidato, sindaco, " ,.. ]
 
-B0Lemma: rivolgere, B0POS: V, B0Token: rivolgeva, transitionHistoryLength3: 020, 
+B0Lemma: candidato, B0POS: S, B0Token: candidato, TransHistory3: 020, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rivolgeva]   B= [;, moderno, , ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [candidato]   B= [sindaco, ", eliminato ,.. ]
 
-B0Lemma: ;, B0POS: F, B0Token: ;, S0B0Lemma: rivolgere_;, S0B0LemmaPOS: rivolgere_F, S0B0POS: V_F, S0B0POSLemma: V_;, S0B0Token: rivolgeva_;, S0B1Lemma: rivolgere_moderno, S0B1LemmaPOS: rivolgere_A, S0B1POS: V_A, S0B1POSLemma: V_moderno, S0B1Token: rivolgeva_moderno, S0Lemma: rivolgere, S0POS: V, S0Token: rivolgeva, hasRighDep_arg: true, hasRighDep_con: true, hasRighDep_punc: true, rivolgere_;_hasRighDep_punc: true, rivolgere_hasRighDep_arg: true, rivolgere_hasRighDep_con: true, rivolgere_hasRighDep_punc: true, rivolgere_ma_hasRighDep_con: true, rivolgere_moderno_hasRighDep_arg: true, rivolgere_tenere_hasRighDep_arg: true, transitionHistoryLength3: 202, 
+B0Lemma: sindaco, B0POS: S, B0Token: sindaco, S0B0Lemma: candidato_sindaco, S0B0LemmaPOS: candidato_S, S0B0POS: S_S, S0B0POSLemma: S_sindaco, S0B0Token: candidato_sindaco, S0B1Lemma: candidato_", S0B1LemmaPOS: candidato_FB, S0B1POS: S_FB, S0B1POSLemma: S_", S0B1Token: candidato_", S0Lemma: candidato, S0POS: S, S0Token: candidato, TransHistory3: 202, candidato_eliminare_hasRighDep_mod: true, candidato_hasRighDep_mod: true, candidato_sindaco_hasRighDep_mod: true, hasRighDep_mod: true, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [;, moderno, , ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sindaco, ", eliminato ,.. ]
 
-B0Lemma: ;, B0POS: F, B0Token: ;, transitionHistoryLength3: 020, 
+B0Lemma: sindaco, B0POS: S, B0Token: sindaco, TransHistory3: 020, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [;]   B= [moderno, ,, ma ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sindaco]   B= [", eliminato, " ,.. ]
 
-B0Lemma: moderno, B0POS: A, B0Token: moderno, S0B0Lemma: ;_moderno, S0B0LemmaPOS: ;_A, S0B0POS: F_A, S0B0POSLemma: F_moderno, S0B0Token: ;_moderno, S0B1Lemma: ;_,, S0B1LemmaPOS: ;_F, S0B1POS: F_F, S0B1POSLemma: F_,, S0B1Token: ;_,, S0Lemma: ;, S0POS: F, S0Token: ;, transitionHistoryLength3: 202, 
+B0Lemma: ", B0POS: FB, B0Token: ", S0B0Lemma: sindaco_", S0B0LemmaPOS: sindaco_FB, S0B0POS: S_FB, S0B0POSLemma: S_", S0B0Token: sindaco_", S0B1Lemma: sindaco_eliminare, S0B1LemmaPOS: sindaco_V, S0B1POS: S_V, S0B1POSLemma: S_eliminare, S0B1Token: sindaco_eliminato, S0Lemma: sindaco, S0POS: S, S0Token: sindaco, TransHistory3: 202, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [moderno, ,, ma ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", eliminato, " ,.. ]
 
-B0Lemma: moderno, B0POS: A, B0Token: moderno, transitionHistoryLength3: 020, 
+B0Lemma: ", B0POS: FB, B0Token: ", TransHistory3: 020, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [moderno]   B= [,, ma, che ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [eliminato, ", ( ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: moderno_,, S0B0LemmaPOS: moderno_F, S0B0POS: A_F, S0B0POSLemma: A_,, S0B0Token: moderno_,, S0B1Lemma: moderno_ma, S0B1LemmaPOS: moderno_C, S0B1POS: A_C, S0B1POSLemma: A_ma, S0B1Token: moderno_ma, S0Lemma: moderno, S0POS: A, S0Token: moderno, hasRighDep_con: true, moderno_,_hasRighDep_con: true, moderno_hasRighDep_con: true, transitionHistoryLength3: 202, 
+"_isGouvernedBy_eliminare: true, "_isGouvernedBy_eliminare_punc: true, B0Lemma: eliminare, B0POS: V, B0Token: eliminato, S0B0Lemma: "_eliminare, S0B0LemmaPOS: "_V, S0B0POS: FB_V, S0B0POSLemma: FB_eliminare, S0B0Token: "_eliminato, S0B1Lemma: "_", S0B1LemmaPOS: "_FB, S0B1POS: FB_FB, S0B1POSLemma: FB_", S0B1Token: "_", S0Lemma: ", S0POS: FB, S0Token: ", TransHistory3: 202, 
 
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ma, che ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [eliminato, ", ( ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: eliminare, B0POS: V, B0Token: eliminato, TransHistory3: 020, 
 
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ma, che, teneva ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [eliminato]   B= [", (, non ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, S0B0Lemma: ,_ma, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_ma, S0B0Token: ,_ma, S0B1Lemma: ,_che, S0B1LemmaPOS: ,_P, S0B1POS: F_P, S0B1POSLemma: F_che, S0B1Token: ,_che, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: ", B0POS: FB, B0Token: ", S0B0Lemma: eliminare_", S0B0LemmaPOS: eliminare_FB, S0B0POS: V_FB, S0B0POSLemma: V_", S0B0Token: eliminato_", S0B1Lemma: eliminare_(, S0B1LemmaPOS: eliminare_FB, S0B1POS: V_FB, S0B1POSLemma: V_(, S0B1Token: eliminato_(, S0Lemma: eliminare, S0POS: V, S0Token: eliminato, TransHistory3: 202, eliminare_"_hasRighDep_punc: true, eliminare_hasRighDep_conj: true, eliminare_hasRighDep_punc: true, eliminare_usare_hasRighDep_conj: true, hasRighDep_conj: true, hasRighDep_punc: true, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, che, teneva ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [", (, non ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, transitionHistoryLength3: 020, 
+B0Lemma: ", B0POS: FB, B0Token: ", TransHistory3: 020, 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [che, teneva, ben ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ["]   B= [(, non, ho ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, S0B0Lemma: ma_che, S0B0LemmaPOS: ma_P, S0B0POS: C_P, S0B0POSLemma: C_che, S0B0Token: ma_che, S0B1Lemma: ma_tenere, S0B1LemmaPOS: ma_V, S0B1POS: C_V, S0B1POSLemma: C_tenere, S0B1Token: ma_teneva, S0Lemma: ma, S0POS: C, S0Token: ma, transitionHistoryLength3: 202, 
+B0Lemma: (, B0POS: FB, B0Token: (, S0B0Lemma: "_(, S0B0LemmaPOS: "_FB, S0B0POS: FB_FB, S0B0POSLemma: FB_(, S0B0Token: "_(, S0B1Lemma: "_non, S0B1LemmaPOS: "_BN, S0B1POS: FB_BN, S0B1POSLemma: FB_non, S0B1Token: "_non, S0Lemma: ", S0POS: FB, S0Token: ", TransHistory3: 202, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, teneva, ben ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [(, non, ho ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, transitionHistoryLength3: 020, 
+B0Lemma: (, B0POS: FB, B0Token: (, TransHistory3: 020, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [teneva, ben, presenti ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [(]   B= [non, ho, voluto ,.. ]
 
-B0Lemma: tenere, B0POS: V, B0Token: teneva, S0B0Lemma: che_tenere, S0B0LemmaPOS: che_V, S0B0POS: P_V, S0B0POSLemma: P_tenere, S0B0Token: che_teneva, S0B1Lemma: che_ben, S0B1LemmaPOS: che_B, S0B1POS: P_B, S0B1POSLemma: P_ben, S0B1Token: che_ben, S0Lemma: che, S0POS: P, S0Token: che, che_isGouvernedBy_tenere: true, che_isGouvernedBy_tenere_subj: true, transitionHistoryLength3: 202, 
+(_isGouvernedBy_usare: true, (_isGouvernedBy_usare_punc: true, B0Lemma: non, B0POS: BN, B0Token: non, S0B0Lemma: (_non, S0B0LemmaPOS: (_BN, S0B0POS: FB_BN, S0B0POSLemma: FB_non, S0B0Token: (_non, S0B1Lemma: (_avere, S0B1LemmaPOS: (_VA, S0B1POS: FB_VA, S0B1POSLemma: FB_avere, S0B1Token: (_ho, S0Lemma: (, S0POS: FB, S0Token: (, TransHistory3: 202, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [teneva, ben, presenti ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, ho, voluto ,.. ]
 
-B0Lemma: tenere, B0POS: V, B0Token: teneva, transitionHistoryLength3: 020, 
+B0Lemma: non, B0POS: BN, B0Token: non, TransHistory3: 020, 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teneva]   B= [ben, presenti, le ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [ho, voluto, usare ,.. ]
 
-B0Lemma: ben, B0POS: B, B0Token: ben, S0B0Lemma: tenere_ben, S0B0LemmaPOS: tenere_B, S0B0POS: V_B, S0B0POSLemma: V_ben, S0B0Token: teneva_ben, S0B1Lemma: tenere_presente, S0B1LemmaPOS: tenere_A, S0B1POS: V_A, S0B1POSLemma: V_presente, S0B1Token: teneva_presenti, S0Lemma: tenere, S0POS: V, S0Token: teneva, hasRighDep_obj: true, hasRighDep_pred: true, tenere_hasRighDep_obj: true, tenere_hasRighDep_pred: true, tenere_presente_hasRighDep_pred: true, tenere_tradizione_hasRighDep_obj: true, transitionHistoryLength3: 202, 
+B0Lemma: avere, B0POS: VA, B0Token: ho, S0B0Lemma: non_avere, S0B0LemmaPOS: non_VA, S0B0POS: BN_VA, S0B0POSLemma: BN_avere, S0B0Token: non_ho, S0B1Lemma: non_volere, S0B1LemmaPOS: non_VM, S0B1POS: BN_VM, S0B1POSLemma: BN_volere, S0B1Token: non_voluto, S0Lemma: non, S0POS: BN, S0Token: non, TransHistory3: 202, non_isGouvernedBy_usare: true, non_isGouvernedBy_usare_neg: true, 
 
-50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teneva, ben]   B= [presenti, le, tradizioni ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ho, voluto, usare ,.. ]
 
-B0Lemma: presente, B0POS: A, B0Token: presenti, S0B0Lemma: ben_presente, S0B0LemmaPOS: ben_A, S0B0POS: B_A, S0B0POSLemma: B_presente, S0B0Token: ben_presenti, S0B1Lemma: ben_il, S0B1LemmaPOS: ben_R, S0B1POS: B_R, S0B1POSLemma: B_il, S0B1Token: ben_le, S0Lemma: ben, S0POS: B, S0S1Distance: 1, S0Token: ben, S1B0Lemma: tenere_presente, S1B0LemmaPOS: tenere_A, S1B0POS: V_A, S1B0POSLemma: V_presente, S1B0Token: teneva_presenti, S1Lemma: tenere, S1POS: V, S1S0Lemma: tenere_ben, S1S0LemmaPOS: tenere_B, S1S0POS: V_B, S1S0POSLemma: V_ben, S1S0Token: teneva_ben, S1Token: teneva, ben_isGouvernedBy_presente: true, ben_isGouvernedBy_presente_mod: true, transitionHistoryLength3: 020, 
+B0Lemma: avere, B0POS: VA, B0Token: ho, TransHistory3: 020, 
 
-51- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teneva]   B= [presenti, le, tradizioni ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ho]   B= [voluto, usare, il ,.. ]
 
-B0Lemma: presente, B0POS: A, B0Token: presenti, S0B0Lemma: tenere_presente, S0B0LemmaPOS: tenere_A, S0B0POS: V_A, S0B0POSLemma: V_presente, S0B0Token: teneva_presenti, S0B1Lemma: tenere_il, S0B1LemmaPOS: tenere_R, S0B1POS: V_R, S0B1POSLemma: V_il, S0B1Token: teneva_le, S0Lemma: tenere, S0POS: V, S0Token: teneva, hasRighDep_obj: true, hasRighDep_pred: true, tenere_hasRighDep_obj: true, tenere_hasRighDep_pred: true, tenere_presente_hasRighDep_pred: true, tenere_tradizione_hasRighDep_obj: true, transitionHistoryLength3: 002, 
+B0Lemma: volere, B0POS: VM, B0Token: voluto, S0B0Lemma: avere_volere, S0B0LemmaPOS: avere_VM, S0B0POS: VA_VM, S0B0POSLemma: VA_volere, S0B0Token: ho_voluto, S0B1Lemma: avere_usare, S0B1LemmaPOS: avere_V, S0B1POS: VA_V, S0B1POSLemma: VA_usare, S0B1Token: ho_usare, S0Lemma: avere, S0POS: VA, S0Token: ho, TransHistory3: 202, avere_isGouvernedBy_volere: true, avere_isGouvernedBy_volere_aux: true, 
 
-52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [teneva, presenti]   B= [le, tradizioni, di ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [voluto, usare, il ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: le, S0B0Lemma: presente_il, S0B0LemmaPOS: presente_R, S0B0POS: A_R, S0B0POSLemma: A_il, S0B0Token: presenti_le, S0B1Lemma: presente_tradizione, S0B1LemmaPOS: presente_S, S0B1POS: A_S, S0B1POSLemma: A_tradizione, S0B1Token: presenti_tradizioni, S0Lemma: presente, S0POS: A, S0S1Distance: 2, S0Token: presenti, S1B0Lemma: tenere_il, S1B0LemmaPOS: tenere_R, S1B0POS: V_R, S1B0POSLemma: V_il, S1B0Token: teneva_le, S1Lemma: tenere, S1POS: V, S1S0Lemma: tenere_presente, S1S0LemmaPOS: tenere_A, S1S0POS: V_A, S1S0POSLemma: V_presente, S1S0Token: teneva_presenti, S1Token: teneva, SyntaxicRelation: +pred, transitionHistoryLength3: 200, 
+B0Lemma: volere, B0POS: VM, B0Token: voluto, TransHistory3: 020, 
 
-53- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[teneva, presenti]]   B= [le, tradizioni, di ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [voluto]   B= [usare, il, termine ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: le, S0B0Lemma: tenere_presente_il, S0B0LemmaPOS: tenere_presente_R, S0B0POS: V_A_R, S0B0POSLemma: V_A_il, S0B0Token: teneva_presenti_le, S0B1Lemma: tenere_presente_tradizione, S0B1LemmaPOS: tenere_presente_S, S0B1POS: V_A_S, S0B1POSLemma: V_A_tradizione, S0B1Token: teneva_presenti_tradizioni, S0Lemma: tenere_presente, S0POS: V_A, S0Token: teneva_presenti, transitionHistoryLength3: 020, 
+B0Lemma: usare, B0POS: V, B0Token: usare, S0B0Lemma: volere_usare, S0B0LemmaPOS: volere_V, S0B0POS: VM_V, S0B0POSLemma: VM_usare, S0B0Token: voluto_usare, S0B1Lemma: volere_il, S0B1LemmaPOS: volere_RD, S0B1POS: VM_RD, S0B1POSLemma: VM_il, S0B1Token: voluto_il, S0Lemma: volere, S0POS: VM, S0Token: voluto, TransHistory3: 202, volere_isGouvernedBy_usare: true, volere_isGouvernedBy_usare_modal: true, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [le, tradizioni, di ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [usare, il, termine ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: le, transitionHistoryLength3: 102, 
+B0Lemma: usare, B0POS: V, B0Token: usare, TransHistory3: 020, 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [le]   B= [tradizioni, di, un ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [usare]   B= [il, termine, trombato ,.. ]
 
-B0Lemma: tradizione, B0POS: S, B0Token: tradizioni, S0B0Lemma: il_tradizione, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_tradizione, S0B0Token: le_tradizioni, S0B1Lemma: il_di, S0B1LemmaPOS: il_E, S0B1POS: R_E, S0B1POSLemma: R_di, S0B1Token: le_di, S0Lemma: il, S0POS: R, S0Token: le, il_isGouvernedBy_tradizione: true, il_isGouvernedBy_tradizione_det: true, transitionHistoryLength3: 210, 
+B0Lemma: il, B0POS: RD, B0Token: il, S0B0Lemma: usare_il, S0B0LemmaPOS: usare_RD, S0B0POS: V_RD, S0B0POSLemma: V_il, S0B0Token: usare_il, S0B1Lemma: usare_termine, S0B1LemmaPOS: usare_S, S0B1POS: V_S, S0B1POSLemma: V_termine, S0B1Token: usare_termine, S0Lemma: usare, S0POS: V, S0Token: usare, TransHistory3: 202, hasRighDep_con: true, hasRighDep_mod: true, hasRighDep_obj: true, hasRighDep_punc: true, usare_)_hasRighDep_punc: true, usare_,_hasRighDep_con: true, usare_,_hasRighDep_punc: true, usare_hasRighDep_con: true, usare_hasRighDep_mod: true, usare_hasRighDep_obj: true, usare_hasRighDep_punc: true, usare_ma_hasRighDep_con: true, usare_termine_hasRighDep_obj: true, usare_vedere_hasRighDep_mod: true, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tradizioni, di, un ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, termine, trombato ,.. ]
 
-B0Lemma: tradizione, B0POS: S, B0Token: tradizioni, transitionHistoryLength3: 021, 
+B0Lemma: il, B0POS: RD, B0Token: il, TransHistory3: 020, 
 
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tradizioni]   B= [di, un, cattolicesimo ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [termine, trombato, che ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: tradizione_di, S0B0LemmaPOS: tradizione_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: tradizioni_di, S0B1Lemma: tradizione_un, S0B1LemmaPOS: tradizione_R, S0B1POS: S_R, S0B1POSLemma: S_un, S0B1Token: tradizioni_un, S0Lemma: tradizione, S0POS: S, S0Token: tradizioni, hasRighDep_comp: true, tradizione_di_hasRighDep_comp: true, tradizione_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: termine, B0POS: S, B0Token: termine, S0B0Lemma: il_termine, S0B0LemmaPOS: il_S, S0B0POS: RD_S, S0B0POSLemma: RD_termine, S0B0Token: il_termine, S0B1Lemma: il_trombare, S0B1LemmaPOS: il_V, S0B1POS: RD_V, S0B1POSLemma: RD_trombare, S0B1Token: il_trombato, S0Lemma: il, S0POS: RD, S0Token: il, TransHistory3: 202, il_isGouvernedBy_termine: true, il_isGouvernedBy_termine_det: true, 
 
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, un, cattolicesimo ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [termine, trombato, che ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: termine, B0POS: S, B0Token: termine, TransHistory3: 020, 
 
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [un, cattolicesimo, non ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [termine]   B= [trombato, che, mi ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, S0B0Lemma: di_un, S0B0LemmaPOS: di_R, S0B0POS: E_R, S0B0POSLemma: E_un, S0B0Token: di_un, S0B1Lemma: di_cattolicesimo, S0B1LemmaPOS: di_S, S0B1POS: E_S, S0B1POSLemma: E_cattolicesimo, S0B1Token: di_cattolicesimo, S0Lemma: di, S0POS: E, S0Token: di, di_cattolicesimo_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: trombare, B0POS: V, B0Token: trombato, S0B0Lemma: termine_trombare, S0B0LemmaPOS: termine_V, S0B0POS: S_V, S0B0POSLemma: S_trombare, S0B0Token: termine_trombato, S0B1Lemma: termine_che, S0B1LemmaPOS: termine_CS, S0B1POS: S_CS, S0B1POSLemma: S_che, S0B1Token: termine_che, S0Lemma: termine, S0POS: S, S0Token: termine, TransHistory3: 202, hasRighDep_mod: true, termine_hasRighDep_mod: true, termine_trombare_hasRighDep_mod: true, 
 
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, cattolicesimo, non ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [trombato, che, mi ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, transitionHistoryLength3: 020, 
+B0Lemma: trombare, B0POS: V, B0Token: trombato, TransHistory3: 020, 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [cattolicesimo, non, gretto ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [trombato]   B= [che, mi, sembra ,.. ]
 
-B0Lemma: cattolicesimo, B0POS: S, B0Token: cattolicesimo, S0B0Lemma: un_cattolicesimo, S0B0LemmaPOS: un_S, S0B0POS: R_S, S0B0POSLemma: R_cattolicesimo, S0B0Token: un_cattolicesimo, S0B1Lemma: un_non, S0B1LemmaPOS: un_B, S0B1POS: R_B, S0B1POSLemma: R_non, S0B1Token: un_non, S0Lemma: un, S0POS: R, S0Token: un, transitionHistoryLength3: 202, un_isGouvernedBy_cattolicesimo: true, un_isGouvernedBy_cattolicesimo_det: true, 
+B0Lemma: che, B0POS: CS, B0Token: che, S0B0Lemma: trombare_che, S0B0LemmaPOS: trombare_CS, S0B0POS: V_CS, S0B0POSLemma: V_che, S0B0Token: trombato_che, S0B1Lemma: trombare_mi, S0B1LemmaPOS: trombare_PC, S0B1POS: V_PC, S0B1POSLemma: V_mi, S0B1Token: trombato_mi, S0Lemma: trombare, S0POS: V, S0Token: trombato, TransHistory3: 202, hasRighDep_arg: true, trombare_che_hasRighDep_arg: true, trombare_hasRighDep_arg: true, 
 
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cattolicesimo, non, gretto ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, mi, sembra ,.. ]
 
-B0Lemma: cattolicesimo, B0POS: S, B0Token: cattolicesimo, transitionHistoryLength3: 020, 
+B0Lemma: che, B0POS: CS, B0Token: che, TransHistory3: 020, 
 
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cattolicesimo]   B= [non, gretto, , ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [mi, sembra, brutto ,.. ]
 
-B0Lemma: non, B0POS: B, B0Token: non, S0B0Lemma: cattolicesimo_non, S0B0LemmaPOS: cattolicesimo_B, S0B0POS: S_B, S0B0POSLemma: S_non, S0B0Token: cattolicesimo_non, S0B1Lemma: cattolicesimo_gretto, S0B1LemmaPOS: cattolicesimo_A, S0B1POS: S_A, S0B1POSLemma: S_gretto, S0B1Token: cattolicesimo_gretto, S0Lemma: cattolicesimo, S0POS: S, S0Token: cattolicesimo, cattolicesimo_conservatore_hasRighDep_mod: true, cattolicesimo_gretto_hasRighDep_mod: true, cattolicesimo_hasRighDep_mod: true, hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: mi, B0POS: PC, B0Token: mi, S0B0Lemma: che_mi, S0B0LemmaPOS: che_PC, S0B0POS: CS_PC, S0B0POSLemma: CS_mi, S0B0Token: che_mi, S0B1Lemma: che_sembrare, S0B1LemmaPOS: che_V, S0B1POS: CS_V, S0B1POSLemma: CS_sembrare, S0B1Token: che_sembra, S0Lemma: che, S0POS: CS, S0Token: che, TransHistory3: 202, che_hasRighDep_sub: true, che_sembrare_hasRighDep_sub: true, hasRighDep_sub: true, 
 
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, gretto, , ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mi, sembra, brutto ,.. ]
 
-B0Lemma: non, B0POS: B, B0Token: non, transitionHistoryLength3: 020, 
+B0Lemma: mi, B0POS: PC, B0Token: mi, TransHistory3: 020, 
 
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [gretto, ,, ma ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mi]   B= [sembra, brutto, e ,.. ]
 
-B0Lemma: gretto, B0POS: A, B0Token: gretto, S0B0Lemma: non_gretto, S0B0LemmaPOS: non_A, S0B0POS: B_A, S0B0POSLemma: B_gretto, S0B0Token: non_gretto, S0B1Lemma: non_,, S0B1LemmaPOS: non_F, S0B1POS: B_F, S0B1POSLemma: B_,, S0B1Token: non_,, S0Lemma: non, S0POS: B, S0Token: non, non_isGouvernedBy_gretto: true, non_isGouvernedBy_gretto_neg: true, transitionHistoryLength3: 202, 
+B0Lemma: sembrare, B0POS: V, B0Token: sembra, S0B0Lemma: mi_sembrare, S0B0LemmaPOS: mi_V, S0B0POS: PC_V, S0B0POSLemma: PC_sembrare, S0B0Token: mi_sembra, S0B1Lemma: mi_brutto, S0B1LemmaPOS: mi_A, S0B1POS: PC_A, S0B1POSLemma: PC_brutto, S0B1Token: mi_brutto, S0Lemma: mi, S0POS: PC, S0Token: mi, TransHistory3: 202, mi_isGouvernedBy_sembrare: true, mi_isGouvernedBy_sembrare_comp_ind: true, 
 
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gretto, ,, ma ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sembra, brutto, e ,.. ]
 
-B0Lemma: gretto, B0POS: A, B0Token: gretto, transitionHistoryLength3: 020, 
+B0Lemma: sembrare, B0POS: V, B0Token: sembra, TransHistory3: 020, 
 
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gretto]   B= [,, ma, sostanzialmente ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sembra]   B= [brutto, e, ingiusto ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: gretto_,, S0B0LemmaPOS: gretto_F, S0B0POS: A_F, S0B0POSLemma: A_,, S0B0Token: gretto_,, S0B1Lemma: gretto_ma, S0B1LemmaPOS: gretto_C, S0B1POS: A_C, S0B1POSLemma: A_ma, S0B1Token: gretto_ma, S0Lemma: gretto, S0POS: A, S0Token: gretto, gretto_,_hasRighDep_con: true, gretto_hasRighDep_con: true, gretto_ma_hasRighDep_con: true, hasRighDep_con: true, transitionHistoryLength3: 202, 
+B0Lemma: brutto, B0POS: A, B0Token: brutto, S0B0Lemma: sembrare_brutto, S0B0LemmaPOS: sembrare_A, S0B0POS: V_A, S0B0POSLemma: V_brutto, S0B0Token: sembra_brutto, S0B1Lemma: sembrare_e, S0B1LemmaPOS: sembrare_CC, S0B1POS: V_CC, S0B1POSLemma: V_e, S0B1Token: sembra_e, S0Lemma: sembrare, S0POS: V, S0Token: sembra, TransHistory3: 202, hasRighDep_pred: true, sembrare_brutto_hasRighDep_pred: true, sembrare_hasRighDep_pred: true, 
 
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ma, sostanzialmente ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [brutto, e, ingiusto ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: brutto, B0POS: A, B0Token: brutto, TransHistory3: 020, 
 
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ma, sostanzialmente, conservatore ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [brutto]   B= [e, ingiusto, verso ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, S0B0Lemma: ,_ma, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_ma, S0B0Token: ,_ma, S0B1Lemma: ,_sostanzialmente, S0B1LemmaPOS: ,_B, S0B1POS: F_B, S0B1POSLemma: F_sostanzialmente, S0B1Token: ,_sostanzialmente, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: e, B0POS: CC, B0Token: e, S0B0Lemma: brutto_e, S0B0LemmaPOS: brutto_CC, S0B0POS: A_CC, S0B0POSLemma: A_e, S0B0Token: brutto_e, S0B1Lemma: brutto_ingiusto, S0B1LemmaPOS: brutto_A, S0B1POS: A_A, S0B1POSLemma: A_ingiusto, S0B1Token: brutto_ingiusto, S0Lemma: brutto, S0POS: A, S0Token: brutto, TransHistory3: 202, brutto_e_hasRighDep_con: true, brutto_hasRighDep_con: true, brutto_hasRighDep_conj: true, brutto_ingiusto_hasRighDep_conj: true, hasRighDep_con: true, hasRighDep_conj: true, 
 
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, sostanzialmente, conservatore ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, ingiusto, verso ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, transitionHistoryLength3: 020, 
+B0Lemma: e, B0POS: CC, B0Token: e, TransHistory3: 020, 
 
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [sostanzialmente, conservatore, , ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [ingiusto, verso, chi ,.. ]
 
-B0Lemma: sostanzialmente, B0POS: B, B0Token: sostanzialmente, S0B0Lemma: ma_sostanzialmente, S0B0LemmaPOS: ma_B, S0B0POS: C_B, S0B0POSLemma: C_sostanzialmente, S0B0Token: ma_sostanzialmente, S0B1Lemma: ma_conservatore, S0B1LemmaPOS: ma_S, S0B1POS: C_S, S0B1POSLemma: C_conservatore, S0B1Token: ma_conservatore, S0Lemma: ma, S0POS: C, S0Token: ma, transitionHistoryLength3: 202, 
+B0Lemma: ingiusto, B0POS: A, B0Token: ingiusto, S0B0Lemma: e_ingiusto, S0B0LemmaPOS: e_A, S0B0POS: CC_A, S0B0POSLemma: CC_ingiusto, S0B0Token: e_ingiusto, S0B1Lemma: e_verso, S0B1LemmaPOS: e_E, S0B1POS: CC_E, S0B1POSLemma: CC_verso, S0B1Token: e_verso, S0Lemma: e, S0POS: CC, S0Token: e, TransHistory3: 202, 
 
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sostanzialmente, conservatore, , ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ingiusto, verso, chi ,.. ]
 
-B0Lemma: sostanzialmente, B0POS: B, B0Token: sostanzialmente, transitionHistoryLength3: 020, 
+B0Lemma: ingiusto, B0POS: A, B0Token: ingiusto, TransHistory3: 020, 
 
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sostanzialmente]   B= [conservatore, ,, capace ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ingiusto]   B= [verso, chi, mette ,.. ]
 
-B0Lemma: conservatore, B0POS: S, B0Token: conservatore, S0B0Lemma: sostanzialmente_conservatore, S0B0LemmaPOS: sostanzialmente_S, S0B0POS: B_S, S0B0POSLemma: B_conservatore, S0B0Token: sostanzialmente_conservatore, S0B1Lemma: sostanzialmente_,, S0B1LemmaPOS: sostanzialmente_F, S0B1POS: B_F, S0B1POSLemma: B_,, S0B1Token: sostanzialmente_,, S0Lemma: sostanzialmente, S0POS: B, S0Token: sostanzialmente, sostanzialmente_isGouvernedBy_conservatore: true, sostanzialmente_isGouvernedBy_conservatore_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: verso, B0POS: E, B0Token: verso, S0B0Lemma: ingiusto_verso, S0B0LemmaPOS: ingiusto_E, S0B0POS: A_E, S0B0POSLemma: A_verso, S0B0Token: ingiusto_verso, S0B1Lemma: ingiusto_chi, S0B1LemmaPOS: ingiusto_PR, S0B1POS: A_PR, S0B1POSLemma: A_chi, S0B1Token: ingiusto_chi, S0Lemma: ingiusto, S0POS: A, S0Token: ingiusto, TransHistory3: 202, hasRighDep_comp: true, ingiusto_hasRighDep_comp: true, ingiusto_verso_hasRighDep_comp: true, 
 
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [conservatore, ,, capace ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [verso, chi, mette ,.. ]
 
-B0Lemma: conservatore, B0POS: S, B0Token: conservatore, transitionHistoryLength3: 020, 
+B0Lemma: verso, B0POS: E, B0Token: verso, TransHistory3: 020, 
 
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [conservatore]   B= [,, capace, di ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verso]   B= [chi, mette, la ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: conservatore_,, S0B0LemmaPOS: conservatore_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: conservatore_,, S0B1Lemma: conservatore_capace, S0B1LemmaPOS: conservatore_A, S0B1POS: S_A, S0B1POSLemma: S_capace, S0B1Token: conservatore_capace, S0Lemma: conservatore, S0POS: S, S0Token: conservatore, conservatore_capace_hasRighDep_conj: true, conservatore_hasRighDep_conj: true, hasRighDep_conj: true, transitionHistoryLength3: 202, 
+B0Lemma: chi, B0POS: PR, B0Token: chi, S0B0Lemma: verso_chi, S0B0LemmaPOS: verso_PR, S0B0POS: E_PR, S0B0POSLemma: E_chi, S0B0Token: verso_chi, S0B1Lemma: verso_mettere, S0B1LemmaPOS: verso_V, S0B1POS: E_V, S0B1POSLemma: E_mettere, S0B1Token: verso_mette, S0Lemma: verso, S0POS: E, S0Token: verso, TransHistory3: 202, hasRighDep_prep: true, verso_chi_hasRighDep_prep: true, verso_hasRighDep_prep: true, 
 
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, capace, di ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [chi, mette, la ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: chi, B0POS: PR, B0Token: chi, TransHistory3: 020, 
 
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [capace, di, render- ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [chi]   B= [mette, la, propria ,.. ]
 
-,_isGouvernedBy_capace: true, ,_isGouvernedBy_capace_punc: true, B0Lemma: capace, B0POS: A, B0Token: capace, S0B0Lemma: ,_capace, S0B0LemmaPOS: ,_A, S0B0POS: F_A, S0B0POSLemma: F_capace, S0B0Token: ,_capace, S0B1Lemma: ,_di, S0B1LemmaPOS: ,_E, S0B1POS: F_E, S0B1POSLemma: F_di, S0B1Token: ,_di, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: mettere, B0POS: V, B0Token: mette, S0B0Lemma: chi_mettere, S0B0LemmaPOS: chi_V, S0B0POS: PR_V, S0B0POSLemma: PR_mettere, S0B0Token: chi_mette, S0B1Lemma: chi_il, S0B1LemmaPOS: chi_RD, S0B1POS: PR_RD, S0B1POSLemma: PR_il, S0B1Token: chi_la, S0Lemma: chi, S0POS: PR, S0Token: chi, TransHistory3: 202, chi_hasRighDep_mod_rel: true, chi_mettere_hasRighDep_mod_rel: true, hasRighDep_mod_rel: true, 
 
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [capace, di, render- ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mette, la, propria ,.. ]
 
-B0Lemma: capace, B0POS: A, B0Token: capace, transitionHistoryLength3: 020, 
+B0Lemma: mettere, B0POS: V, B0Token: mette, TransHistory3: 020, 
 
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [capace]   B= [di, render-, si ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mette]   B= [la, propria, faccia ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: capace_di, S0B0LemmaPOS: capace_E, S0B0POS: A_E, S0B0POSLemma: A_di, S0B0Token: capace_di, S0B1Lemma: capace_rendere, S0B1LemmaPOS: capace_V, S0B1POS: A_V, S0B1POSLemma: A_rendere, S0B1Token: capace_render-, S0Lemma: capace, S0POS: A, S0Token: capace, capace_di_hasRighDep_arg: true, capace_hasRighDep_arg: true, hasRighDep_arg: true, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: la, S0B0Lemma: mettere_il, S0B0LemmaPOS: mettere_RD, S0B0POS: V_RD, S0B0POSLemma: V_il, S0B0Token: mette_la, S0B1Lemma: mettere_proprio, S0B1LemmaPOS: mettere_AP, S0B1POS: V_AP, S0B1POSLemma: V_proprio, S0B1Token: mette_propria, S0Lemma: mettere, S0POS: V, S0Token: mette, TransHistory3: 202, hasRighDep_comp: true, hasRighDep_obj: true, mettere_faccia_hasRighDep_obj: true, mettere_hasRighDep_comp: true, mettere_hasRighDep_obj: true, mettere_in_hasRighDep_comp: true, 
 
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, render-, si ,.. ]
+80- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mette, la]   B= [propria, faccia, nella ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: proprio, B0POS: AP, B0Token: propria, S0B0Lemma: il_proprio, S0B0LemmaPOS: il_AP, S0B0POS: RD_AP, S0B0POSLemma: RD_proprio, S0B0Token: la_propria, S0B1Lemma: il_faccia, S0B1LemmaPOS: il_S, S0B1POS: RD_S, S0B1POSLemma: RD_faccia, S0B1Token: la_faccia, S0Lemma: il, S0POS: RD, S0S1Distance: 1, S0Token: la, S1B0Lemma: mettere_proprio, S1B0LemmaPOS: mettere_AP, S1B0POS: V_AP, S1B0POSLemma: V_proprio, S1B0Token: mette_propria, S1Lemma: mettere, S1POS: V, S1S0Lemma: mettere_il, S1S0LemmaPOS: mettere_RD, S1S0POS: V_RD, S1S0POSLemma: V_il, S1S0Token: mette_la, S1Token: mette, StackLengthIs: 2, TransHistory3: 020, il_isGouvernedBy_faccia: true, il_isGouvernedBy_faccia_det: true, 
 
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [render-, si, conto ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mette, la, propria]   B= [faccia, nella, vita ,.. ]
 
-B0Lemma: rendere, B0POS: V, B0Token: render-, S0B0Lemma: di_rendere, S0B0LemmaPOS: di_V, S0B0POS: E_V, S0B0POSLemma: E_rendere, S0B0Token: di_render-, S0B1Lemma: di_si, S0B1LemmaPOS: di_P, S0B1POS: E_P, S0B1POSLemma: E_si, S0B1Token: di_si, S0Lemma: di, S0POS: E, S0Token: di, di_hasRighDep_prep: true, di_rendere_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: faccia, B0POS: S, B0Token: faccia, S0B0Lemma: proprio_faccia, S0B0LemmaPOS: proprio_S, S0B0POS: AP_S, S0B0POSLemma: AP_faccia, S0B0Token: propria_faccia, S0B1Lemma: proprio_in, S0B1LemmaPOS: proprio_EA, S0B1POS: AP_EA, S0B1POSLemma: AP_in, S0B1Token: propria_nella, S0Lemma: proprio, S0POS: AP, S0S1Distance: 1, S0Token: propria, S1B0Lemma: il_faccia, S1B0LemmaPOS: il_S, S1B0POS: RD_S, S1B0POSLemma: RD_faccia, S1B0Token: la_faccia, S1Lemma: il, S1POS: RD, S1S0Lemma: il_proprio, S1S0LemmaPOS: il_AP, S1S0POS: RD_AP, S1S0POSLemma: RD_proprio, S1S0Token: la_propria, S1Token: la, StackLengthIs: 3, TransHistory3: 002, proprio_isGouvernedBy_faccia: true, proprio_isGouvernedBy_faccia_mod: true, 
 
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [render-, si, conto ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mette, la]   B= [faccia, nella, vita ,.. ]
 
-B0Lemma: rendere, B0POS: V, B0Token: render-, transitionHistoryLength3: 020, 
+B0Lemma: faccia, B0POS: S, B0Token: faccia, S0B0Lemma: il_faccia, S0B0LemmaPOS: il_S, S0B0POS: RD_S, S0B0POSLemma: RD_faccia, S0B0Token: la_faccia, S0B1Lemma: il_in, S0B1LemmaPOS: il_EA, S0B1POS: RD_EA, S0B1POSLemma: RD_in, S0B1Token: la_nella, S0Lemma: il, S0POS: RD, S0S1Distance: 1, S0Token: la, S1B0Lemma: mettere_faccia, S1B0LemmaPOS: mettere_S, S1B0POS: V_S, S1B0POSLemma: V_faccia, S1B0Token: mette_faccia, S1Lemma: mettere, S1POS: V, S1S0Lemma: mettere_il, S1S0LemmaPOS: mettere_RD, S1S0POS: V_RD, S1S0POSLemma: V_il, S1S0Token: mette_la, S1Token: mette, StackLengthIs: 2, TransHistory3: 000, il_isGouvernedBy_faccia: true, il_isGouvernedBy_faccia_det: true, 
 
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [render-]   B= [si, conto, della ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mette, la, faccia]   B= [nella, vita, pubblica ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, S0B0Lemma: rendere_si, S0B0LemmaPOS: rendere_P, S0B0POS: V_P, S0B0POSLemma: V_si, S0B0Token: render-_si, S0B1Lemma: rendere_conto, S0B1LemmaPOS: rendere_S, S0B1POS: V_S, S0B1POSLemma: V_conto, S0B1Token: render-_conto, S0Lemma: rendere, S0POS: V, S0Token: render-, hasRighDep_clit: true, hasRighDep_obj: true, rendere_conto_hasRighDep_obj: true, rendere_hasRighDep_clit: true, rendere_hasRighDep_obj: true, rendere_si_hasRighDep_clit: true, transitionHistoryLength3: 202, 
+B0Lemma: in, B0POS: EA, B0Token: nella, S0B0Lemma: faccia_in, S0B0LemmaPOS: faccia_EA, S0B0POS: S_EA, S0B0POSLemma: S_in, S0B0Token: faccia_nella, S0B1Lemma: faccia_vita, S0B1LemmaPOS: faccia_S, S0B1POS: S_S, S0B1POSLemma: S_vita, S0B1Token: faccia_vita, S0Lemma: faccia, S0POS: S, S0S1Distance: 2, S0Token: faccia, S1B0Lemma: il_in, S1B0LemmaPOS: il_EA, S1B0POS: RD_EA, S1B0POSLemma: RD_in, S1B0Token: la_nella, S1Lemma: il, S1POS: RD, S1S0Lemma: il_faccia, S1S0LemmaPOS: il_S, S1S0POS: RD_S, S1S0POSLemma: RD_faccia, S1S0Token: la_faccia, S1Token: la, StackLengthIs: 3, SyntaxicRelation: -det, TransHistory3: 200, 
 
-84- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [render-, si]   B= [conto, della, necessità ,.. ]
+84- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mette, [la, faccia]]   B= [nella, vita, pubblica ,.. ]
 
-B0Lemma: conto, B0POS: S, B0Token: conto, S0B0Lemma: si_conto, S0B0LemmaPOS: si_S, S0B0POS: P_S, S0B0POSLemma: P_conto, S0B0Token: si_conto, S0B1Lemma: si_di, S0B1LemmaPOS: si_E, S0B1POS: P_E, S0B1POSLemma: P_di, S0B1Token: si_della, S0Lemma: si, S0POS: P, S0S1Distance: 1, S0Token: si, S1B0Lemma: rendere_conto, S1B0LemmaPOS: rendere_S, S1B0POS: V_S, S1B0POSLemma: V_conto, S1B0Token: render-_conto, S1Lemma: rendere, S1POS: V, S1S0Lemma: rendere_si, S1S0LemmaPOS: rendere_P, S1S0POS: V_P, S1S0POSLemma: V_si, S1S0Token: render-_si, S1Token: render-, SyntaxicRelation: +clit, transitionHistoryLength3: 020, 
+B0Lemma: in, B0POS: EA, B0Token: nella, S0B0Lemma: il_faccia_in, S0B0LemmaPOS: il_faccia_EA, S0B0POS: RD_S_EA, S0B0POSLemma: RD_S_in, S0B0Token: la_faccia_nella, S0B1Lemma: il_faccia_vita, S0B1LemmaPOS: il_faccia_S, S0B1POS: RD_S_S, S0B1POSLemma: RD_S_vita, S0B1Token: la_faccia_vita, S0Lemma: il_faccia, S0POS: RD_S, S0Token: la_faccia, S1B0Lemma: mettere_in, S1B0LemmaPOS: mettere_EA, S1B0POS: V_EA, S1B0POSLemma: V_in, S1B0Token: mette_nella, S1Lemma: mettere, S1POS: V, S1S0Lemma: mettere_il_faccia, S1S0LemmaPOS: mettere_RD_S, S1S0POS: V_RD_S, S1S0POSLemma: V_il_faccia, S1S0Token: mette_la_faccia, S1Token: mette, StackLengthIs: 2, TransHistory3: 020, 
 
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [render-, si, conto]   B= [della, necessità, di ,.. ]
+85- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[mette, [la, faccia]]]   B= [nella, vita, pubblica ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, S0B0Lemma: conto_di, S0B0LemmaPOS: conto_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: conto_della, S0B1Lemma: conto_necessità, S0B1LemmaPOS: conto_S, S0B1POS: S_S, S0B1POSLemma: S_necessità, S0B1Token: conto_necessità, S0Lemma: conto, S0POS: S, S0S1Distance: 1, S0Token: conto, S1B0Lemma: si_di, S1B0LemmaPOS: si_E, S1B0POS: P_E, S1B0POSLemma: P_di, S1B0Token: si_della, S1Lemma: si, S1POS: P, S1S0Lemma: si_conto, S1S0LemmaPOS: si_S, S1S0POS: P_S, S1S0POSLemma: P_conto, S1S0Token: si_conto, S1Token: si, conto_di_hasRighDep_comp: true, conto_hasRighDep_comp: true, hasRighDep_comp: true, transitionHistoryLength3: 002, 
+B0Lemma: in, B0POS: EA, B0Token: nella, S0B0Lemma: mettere_il_faccia_in, S0B0LemmaPOS: mettere_il_faccia_EA, S0B0POS: V_RD_S_EA, S0B0POSLemma: V_RD_S_in, S0B0Token: mette_la_faccia_nella, S0B1Lemma: mettere_il_faccia_vita, S0B1LemmaPOS: mettere_il_faccia_S, S0B1POS: V_RD_S_S, S0B1POSLemma: V_RD_S_vita, S0B1Token: mette_la_faccia_vita, S0Lemma: mettere_il_faccia, S0POS: V_RD_S, S0Token: mette_la_faccia, TransHistory3: 102, 
 
-86- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [render-, [si, conto]]   B= [della, necessità, di ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nella, vita, pubblica ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, S0B0Lemma: si_conto_di, S0B0LemmaPOS: si_conto_E, S0B0POS: P_S_E, S0B0POSLemma: P_S_di, S0B0Token: si_conto_della, S0B1Lemma: si_conto_necessità, S0B1LemmaPOS: si_conto_S, S0B1POS: P_S_S, S0B1POSLemma: P_S_necessità, S0B1Token: si_conto_necessità, S0Lemma: si_conto, S0POS: P_S, S0Token: si_conto, S1B0Lemma: rendere_di, S1B0LemmaPOS: rendere_E, S1B0POS: V_E, S1B0POSLemma: V_di, S1B0Token: render-_della, S1Lemma: rendere, S1POS: V, S1S0Lemma: rendere_si_conto, S1S0LemmaPOS: rendere_P_S, S1S0POS: V_P_S, S1S0POSLemma: V_si_conto, S1S0Token: render-_si_conto, S1Token: render-, transitionHistoryLength3: 000, 
+B0Lemma: in, B0POS: EA, B0Token: nella, TransHistory3: 110, 
 
-87- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[render-, [si, conto]]]   B= [della, necessità, di ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nella]   B= [vita, pubblica, ) ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, S0B0Lemma: rendere_si_conto_di, S0B0LemmaPOS: rendere_si_conto_E, S0B0POS: V_P_S_E, S0B0POSLemma: V_P_S_di, S0B0Token: render-_si_conto_della, S0B1Lemma: rendere_si_conto_necessità, S0B1LemmaPOS: rendere_si_conto_S, S0B1POS: V_P_S_S, S0B1POSLemma: V_P_S_necessità, S0B1Token: render-_si_conto_necessità, S0Lemma: rendere_si_conto, S0POS: V_P_S, S0Token: render-_si_conto, transitionHistoryLength3: 100, 
+B0Lemma: vita, B0POS: S, B0Token: vita, S0B0Lemma: in_vita, S0B0LemmaPOS: in_S, S0B0POS: EA_S, S0B0POSLemma: EA_vita, S0B0Token: nella_vita, S0B1Lemma: in_pubblico, S0B1LemmaPOS: in_A, S0B1POS: EA_A, S0B1POSLemma: EA_pubblico, S0B1Token: nella_pubblica, S0Lemma: in, S0POS: EA, S0Token: nella, TransHistory3: 211, hasRighDep_prep: true, in_hasRighDep_prep: true, in_vita_hasRighDep_prep: true, 
 
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [della, necessità, di ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vita, pubblica, ) ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, transitionHistoryLength3: 110, 
+B0Lemma: vita, B0POS: S, B0Token: vita, TransHistory3: 021, 
 
-89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [della]   B= [necessità, di, accogliere ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vita]   B= [pubblica, ), , ,.. ]
 
-B0Lemma: necessità, B0POS: S, B0Token: necessità, S0B0Lemma: di_necessità, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_necessità, S0B0Token: della_necessità, S0B1Lemma: di_di, S0B1LemmaPOS: di_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: della_di, S0Lemma: di, S0POS: E, S0Token: della, di_hasRighDep_prep: true, di_necessità_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 211, 
+B0Lemma: pubblico, B0POS: A, B0Token: pubblica, S0B0Lemma: vita_pubblico, S0B0LemmaPOS: vita_A, S0B0POS: S_A, S0B0POSLemma: S_pubblico, S0B0Token: vita_pubblica, S0B1Lemma: vita_), S0B1LemmaPOS: vita_FB, S0B1POS: S_FB, S0B1POSLemma: S_), S0B1Token: vita_), S0Lemma: vita, S0POS: S, S0Token: vita, TransHistory3: 202, hasRighDep_mod: true, vita_hasRighDep_mod: true, vita_pubblico_hasRighDep_mod: true, 
 
-90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [necessità, di, accogliere ,.. ]
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pubblica, ), , ,.. ]
 
-B0Lemma: necessità, B0POS: S, B0Token: necessità, transitionHistoryLength3: 021, 
+B0Lemma: pubblico, B0POS: A, B0Token: pubblica, TransHistory3: 020, 
 
-91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [necessità]   B= [di, accogliere, quanto ,.. ]
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pubblica]   B= [), ,, visto ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: necessità_di, S0B0LemmaPOS: necessità_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: necessità_di, S0B1Lemma: necessità_accogliere, S0B1LemmaPOS: necessità_V, S0B1POS: S_V, S0B1POSLemma: S_accogliere, S0B1Token: necessità_accogliere, S0Lemma: necessità, S0POS: S, S0Token: necessità, hasRighDep_arg: true, necessità_di_hasRighDep_arg: true, necessità_hasRighDep_arg: true, transitionHistoryLength3: 202, 
+B0Lemma: ), B0POS: FB, B0Token: ), S0B0Lemma: pubblico_), S0B0LemmaPOS: pubblico_FB, S0B0POS: A_FB, S0B0POSLemma: A_), S0B0Token: pubblica_), S0B1Lemma: pubblico_,, S0B1LemmaPOS: pubblico_FF, S0B1POS: A_FF, S0B1POSLemma: A_,, S0B1Token: pubblica_,, S0Lemma: pubblico, S0POS: A, S0Token: pubblica, TransHistory3: 202, 
 
-92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, accogliere, quanto ,.. ]
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [), ,, visto ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: ), B0POS: FB, B0Token: ), TransHistory3: 020, 
 
-93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [accogliere, quanto, di ,.. ]
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [)]   B= [,, visto, che ,.. ]
 
-B0Lemma: accogliere, B0POS: V, B0Token: accogliere, S0B0Lemma: di_accogliere, S0B0LemmaPOS: di_V, S0B0POS: E_V, S0B0POSLemma: E_accogliere, S0B0Token: di_accogliere, S0B1Lemma: di_quanto, S0B1LemmaPOS: di_B, S0B1POS: E_B, S0B1POSLemma: E_quanto, S0B1Token: di_quanto, S0Lemma: di, S0POS: E, S0Token: di, di_accogliere_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: )_,, S0B0LemmaPOS: )_FF, S0B0POS: FB_FF, S0B0POSLemma: FB_,, S0B0Token: )_,, S0B1Lemma: )_vedere, S0B1LemmaPOS: )_V, S0B1POS: FB_V, S0B1POSLemma: FB_vedere, S0B1Token: )_visto, S0Lemma: ), S0POS: FB, S0Token: ), TransHistory3: 202, 
 
-94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [accogliere, quanto, di ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, visto, che ,.. ]
 
-B0Lemma: accogliere, B0POS: V, B0Token: accogliere, transitionHistoryLength3: 020, 
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
 
-95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [accogliere]   B= [quanto, di, nuovo ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [visto, che, dopo ,.. ]
 
-B0Lemma: quanto, B0POS: B, B0Token: quanto, S0B0Lemma: accogliere_quanto, S0B0LemmaPOS: accogliere_B, S0B0POS: V_B, S0B0POSLemma: V_quanto, S0B0Token: accogliere_quanto, S0B1Lemma: accogliere_di, S0B1LemmaPOS: accogliere_E, S0B1POS: V_E, S0B1POSLemma: V_di, S0B1Token: accogliere_di, S0Lemma: accogliere, S0POS: V, S0Token: accogliere, accogliere_di_hasRighDep_comp: true, accogliere_hasRighDep_comp: true, accogliere_hasRighDep_mod: true, accogliere_hasRighDep_obj: true, accogliere_quanto_hasRighDep_mod: true, accogliere_sviluppo_hasRighDep_obj: true, hasRighDep_comp: true, hasRighDep_mod: true, hasRighDep_obj: true, transitionHistoryLength3: 202, 
+B0Lemma: vedere, B0POS: V, B0Token: visto, S0B0Lemma: ,_vedere, S0B0LemmaPOS: ,_V, S0B0POS: FF_V, S0B0POSLemma: FF_vedere, S0B0Token: ,_visto, S0B1Lemma: ,_che, S0B1LemmaPOS: ,_CS, S0B1POS: FF_CS, S0B1POSLemma: FF_che, S0B1Token: ,_che, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
 
-96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [quanto, di, nuovo ,.. ]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [visto, che, dopo ,.. ]
 
-B0Lemma: quanto, B0POS: B, B0Token: quanto, transitionHistoryLength3: 020, 
+B0Lemma: vedere, B0POS: V, B0Token: visto, TransHistory3: 020, 
 
-97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [quanto]   B= [di, nuovo, lo ,.. ]
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [visto]   B= [che, dopo, aver ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, S0B0Lemma: quanto_di, S0B0LemmaPOS: quanto_E, S0B0POS: B_E, S0B0POSLemma: B_di, S0B0Token: quanto_di, S0B1Lemma: quanto_nuovo, S0B1LemmaPOS: quanto_A, S0B1POS: B_A, S0B1POSLemma: B_nuovo, S0B1Token: quanto_nuovo, S0Lemma: quanto, S0POS: B, S0Token: quanto, transitionHistoryLength3: 202, 
+B0Lemma: che, B0POS: CS, B0Token: che, S0B0Lemma: vedere_che, S0B0LemmaPOS: vedere_CS, S0B0POS: V_CS, S0B0POSLemma: V_che, S0B0Token: visto_che, S0B1Lemma: vedere_dopo, S0B1LemmaPOS: vedere_E, S0B1POS: V_E, S0B1POSLemma: V_dopo, S0B1Token: visto_dopo, S0Lemma: vedere, S0POS: V, S0Token: visto, TransHistory3: 202, hasRighDep_concat: true, vedere_che_hasRighDep_concat: true, vedere_hasRighDep_concat: true, 
 
-98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [di, nuovo, lo ,.. ]
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, dopo, aver ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: di, transitionHistoryLength3: 020, 
+B0Lemma: che, B0POS: CS, B0Token: che, TransHistory3: 020, 
 
-99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [di]   B= [nuovo, lo, sviluppo ,.. ]
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [dopo, aver, dato ,.. ]
 
-B0Lemma: nuovo, B0POS: A, B0Token: nuovo, S0B0Lemma: di_nuovo, S0B0LemmaPOS: di_A, S0B0POS: E_A, S0B0POSLemma: E_nuovo, S0B0Token: di_nuovo, S0B1Lemma: di_il, S0B1LemmaPOS: di_R, S0B1POS: E_R, S0B1POSLemma: E_il, S0B1Token: di_lo, S0Lemma: di, S0POS: E, S0Token: di, di_hasRighDep_prep: true, di_nuovo_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: dopo, B0POS: E, B0Token: dopo, S0B0Lemma: che_dopo, S0B0LemmaPOS: che_E, S0B0POS: CS_E, S0B0POSLemma: CS_dopo, S0B0Token: che_dopo, S0B1Lemma: che_avere, S0B1LemmaPOS: che_VA, S0B1POS: CS_VA, S0B1POSLemma: CS_avere, S0B1Token: che_aver, S0Lemma: che, S0POS: CS, S0Token: che, TransHistory3: 202, che_hasRighDep_sub: true, che_ritrovare_hasRighDep_sub: true, hasRighDep_sub: true, 
 
-100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nuovo, lo, sviluppo ,.. ]
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dopo, aver, dato ,.. ]
 
-B0Lemma: nuovo, B0POS: A, B0Token: nuovo, transitionHistoryLength3: 020, 
+B0Lemma: dopo, B0POS: E, B0Token: dopo, TransHistory3: 020, 
 
-101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nuovo]   B= [lo, sviluppo, sociale ,.. ]
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dopo]   B= [aver, dato, la ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: lo, S0B0Lemma: nuovo_il, S0B0LemmaPOS: nuovo_R, S0B0POS: A_R, S0B0POSLemma: A_il, S0B0Token: nuovo_lo, S0B1Lemma: nuovo_sviluppo, S0B1LemmaPOS: nuovo_S, S0B1POS: A_S, S0B1POSLemma: A_sviluppo, S0B1Token: nuovo_sviluppo, S0Lemma: nuovo, S0POS: A, S0Token: nuovo, transitionHistoryLength3: 202, 
+B0Lemma: avere, B0POS: VA, B0Token: aver, S0B0Lemma: dopo_avere, S0B0LemmaPOS: dopo_VA, S0B0POS: E_VA, S0B0POSLemma: E_avere, S0B0Token: dopo_aver, S0B1Lemma: dopo_dare, S0B1LemmaPOS: dopo_V, S0B1POS: E_V, S0B1POSLemma: E_dare, S0B1Token: dopo_dato, S0Lemma: dopo, S0POS: E, S0Token: dopo, TransHistory3: 202, dopo_dare_hasRighDep_prep: true, dopo_hasRighDep_prep: true, dopo_isGouvernedBy_ritrovare: true, dopo_isGouvernedBy_ritrovare_comp_temp: true, hasRighDep_prep: true, 
 
-102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lo, sviluppo, sociale ,.. ]
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aver, dato, la ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: lo, transitionHistoryLength3: 020, 
+B0Lemma: avere, B0POS: VA, B0Token: aver, TransHistory3: 020, 
 
-103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lo]   B= [sviluppo, sociale, proponesse ,.. ]
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aver]   B= [dato, la, notizia ,.. ]
 
-B0Lemma: sviluppo, B0POS: S, B0Token: sviluppo, S0B0Lemma: il_sviluppo, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_sviluppo, S0B0Token: lo_sviluppo, S0B1Lemma: il_sociale, S0B1LemmaPOS: il_A, S0B1POS: R_A, S0B1POSLemma: R_sociale, S0B1Token: lo_sociale, S0Lemma: il, S0POS: R, S0Token: lo, il_isGouvernedBy_sviluppo: true, il_isGouvernedBy_sviluppo_det: true, transitionHistoryLength3: 202, 
+B0Lemma: dare, B0POS: V, B0Token: dato, S0B0Lemma: avere_dare, S0B0LemmaPOS: avere_V, S0B0POS: VA_V, S0B0POSLemma: VA_dare, S0B0Token: aver_dato, S0B1Lemma: avere_il, S0B1LemmaPOS: avere_RD, S0B1POS: VA_RD, S0B1POSLemma: VA_il, S0B1Token: aver_la, S0Lemma: avere, S0POS: VA, S0Token: aver, TransHistory3: 202, avere_isGouvernedBy_dare: true, avere_isGouvernedBy_dare_aux: true, 
 
-104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sviluppo, sociale, proponesse ,.. ]
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dato, la, notizia ,.. ]
 
-B0Lemma: sviluppo, B0POS: S, B0Token: sviluppo, transitionHistoryLength3: 020, 
+B0Lemma: dare, B0POS: V, B0Token: dato, TransHistory3: 020, 
 
-105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sviluppo]   B= [sociale, proponesse, ma ,.. ]
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dato]   B= [la, notizia, alla ,.. ]
 
-B0Lemma: sociale, B0POS: A, B0Token: sociale, S0B0Lemma: sviluppo_sociale, S0B0LemmaPOS: sviluppo_A, S0B0POS: S_A, S0B0POSLemma: S_sociale, S0B0Token: sviluppo_sociale, S0B1Lemma: sviluppo_proporre, S0B1LemmaPOS: sviluppo_V, S0B1POS: S_V, S0B1POSLemma: S_proporre, S0B1Token: sviluppo_proponesse, S0Lemma: sviluppo, S0POS: S, S0Token: sviluppo, hasRighDep_mod: true, hasRighDep_mod_rel: true, sviluppo_hasRighDep_mod: true, sviluppo_hasRighDep_mod_rel: true, sviluppo_proporre_hasRighDep_mod_rel: true, sviluppo_sociale_hasRighDep_mod: true, transitionHistoryLength3: 202, 
+B0Lemma: il, B0POS: RD, B0Token: la, S0B0Lemma: dare_il, S0B0LemmaPOS: dare_RD, S0B0POS: V_RD, S0B0POSLemma: V_il, S0B0Token: dato_la, S0B1Lemma: dare_notizia, S0B1LemmaPOS: dare_S, S0B1POS: V_S, S0B1POSLemma: V_notizia, S0B1Token: dato_notizia, S0Lemma: dare, S0POS: V, S0Token: dato, TransHistory3: 202, dare_al_hasRighDep_comp: true, dare_hasRighDep_comp: true, dare_hasRighDep_obj: true, dare_notizia_hasRighDep_obj: true, hasRighDep_comp: true, hasRighDep_obj: true, 
 
-106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sociale, proponesse, ma ,.. ]
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, notizia, alla ,.. ]
 
-B0Lemma: sociale, B0POS: A, B0Token: sociale, transitionHistoryLength3: 020, 
+B0Lemma: il, B0POS: RD, B0Token: la, TransHistory3: 020, 
 
-107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sociale]   B= [proponesse, ma, senza ,.. ]
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [notizia, alla, stampa ,.. ]
 
-B0Lemma: proporre, B0POS: V, B0Token: proponesse, S0B0Lemma: sociale_proporre, S0B0LemmaPOS: sociale_V, S0B0POS: A_V, S0B0POSLemma: A_proporre, S0B0Token: sociale_proponesse, S0B1Lemma: sociale_ma, S0B1LemmaPOS: sociale_C, S0B1POS: A_C, S0B1POSLemma: A_ma, S0B1Token: sociale_ma, S0Lemma: sociale, S0POS: A, S0Token: sociale, transitionHistoryLength3: 202, 
+B0Lemma: notizia, B0POS: S, B0Token: notizia, S0B0Lemma: il_notizia, S0B0LemmaPOS: il_S, S0B0POS: RD_S, S0B0POSLemma: RD_notizia, S0B0Token: la_notizia, S0B1Lemma: il_al, S0B1LemmaPOS: il_EA, S0B1POS: RD_EA, S0B1POSLemma: RD_al, S0B1Token: la_alla, S0Lemma: il, S0POS: RD, S0Token: la, TransHistory3: 202, il_isGouvernedBy_notizia: true, il_isGouvernedBy_notizia_det: true, 
 
-108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [proponesse, ma, senza ,.. ]
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [notizia, alla, stampa ,.. ]
 
-B0Lemma: proporre, B0POS: V, B0Token: proponesse, transitionHistoryLength3: 020, 
+B0Lemma: notizia, B0POS: S, B0Token: notizia, TransHistory3: 020, 
 
-109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [proponesse]   B= [ma, senza, stravolgimenti ,.. ]
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [notizia]   B= [alla, stampa, si ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, S0B0Lemma: proporre_ma, S0B0LemmaPOS: proporre_C, S0B0POS: V_C, S0B0POSLemma: V_ma, S0B0Token: proponesse_ma, S0B1Lemma: proporre_senza, S0B1LemmaPOS: proporre_E, S0B1POS: V_E, S0B1POSLemma: V_senza, S0B1Token: proponesse_senza, S0Lemma: proporre, S0POS: V, S0Token: proponesse, hasRighDep_comp: true, hasRighDep_con: true, proporre_hasRighDep_comp: true, proporre_hasRighDep_con: true, proporre_ma_hasRighDep_con: true, proporre_senza_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: al, B0POS: EA, B0Token: alla, S0B0Lemma: notizia_al, S0B0LemmaPOS: notizia_EA, S0B0POS: S_EA, S0B0POSLemma: S_al, S0B0Token: notizia_alla, S0B1Lemma: notizia_stampa, S0B1LemmaPOS: notizia_S, S0B1POS: S_S, S0B1POSLemma: S_stampa, S0B1Token: notizia_stampa, S0Lemma: notizia, S0POS: S, S0Token: notizia, TransHistory3: 202, 
 
-110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, senza, stravolgimenti ,.. ]
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alla, stampa, si ,.. ]
 
-B0Lemma: ma, B0POS: C, B0Token: ma, transitionHistoryLength3: 020, 
+B0Lemma: al, B0POS: EA, B0Token: alla, TransHistory3: 020, 
 
-111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [senza, stravolgimenti, . ,.. ]
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alla]   B= [stampa, si, è ,.. ]
 
-B0Lemma: senza, B0POS: E, B0Token: senza, S0B0Lemma: ma_senza, S0B0LemmaPOS: ma_E, S0B0POS: C_E, S0B0POSLemma: C_senza, S0B0Token: ma_senza, S0B1Lemma: ma_stravolgimenti, S0B1LemmaPOS: ma_S, S0B1POS: C_S, S0B1POSLemma: C_stravolgimenti, S0B1Token: ma_stravolgimenti, S0Lemma: ma, S0POS: C, S0Token: ma, transitionHistoryLength3: 202, 
+B0Lemma: stampa, B0POS: S, B0Token: stampa, S0B0Lemma: al_stampa, S0B0LemmaPOS: al_S, S0B0POS: EA_S, S0B0POSLemma: EA_stampa, S0B0Token: alla_stampa, S0B1Lemma: al_si, S0B1LemmaPOS: al_PC, S0B1POS: EA_PC, S0B1POSLemma: EA_si, S0B1Token: alla_si, S0Lemma: al, S0POS: EA, S0Token: alla, TransHistory3: 202, al_hasRighDep_prep: true, al_stampa_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [senza, stravolgimenti, . ,.. ]
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stampa, si, è ,.. ]
 
-B0Lemma: senza, B0POS: E, B0Token: senza, transitionHistoryLength3: 020, 
+B0Lemma: stampa, B0POS: S, B0Token: stampa, TransHistory3: 020, 
 
-113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [senza]   B= [stravolgimenti, . ,.. ]
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stampa]   B= [si, è, ritrovato ,.. ]
 
-B0Lemma: stravolgimenti, B0POS: S, B0Token: stravolgimenti, S0B0Lemma: senza_stravolgimenti, S0B0LemmaPOS: senza_S, S0B0POS: E_S, S0B0POSLemma: E_stravolgimenti, S0B0Token: senza_stravolgimenti, S0B1Lemma: senza_., S0B1LemmaPOS: senza_F, S0B1POS: E_F, S0B1POSLemma: E_., S0B1Token: senza_., S0Lemma: senza, S0POS: E, S0Token: senza, hasRighDep_prep: true, senza_hasRighDep_prep: true, senza_stravolgimenti_hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: si, B0POS: PC, B0Token: si, S0B0Lemma: stampa_si, S0B0LemmaPOS: stampa_PC, S0B0POS: S_PC, S0B0POSLemma: S_si, S0B0Token: stampa_si, S0B1Lemma: stampa_essere, S0B1LemmaPOS: stampa_VA, S0B1POS: S_VA, S0B1POSLemma: S_essere, S0B1Token: stampa_è, S0Lemma: stampa, S0POS: S, S0Token: stampa, TransHistory3: 202, 
 
-114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stravolgimenti, . ,.. ]
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, è, ritrovato ,.. ]
 
-B0Lemma: stravolgimenti, B0POS: S, B0Token: stravolgimenti, transitionHistoryLength3: 020, 
+B0Lemma: si, B0POS: PC, B0Token: si, TransHistory3: 020, 
 
-115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stravolgimenti]   B= [.]
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [è, ritrovato, candidato ,.. ]
 
-B0Lemma: ., B0POS: F, B0Token: ., S0B0Lemma: stravolgimenti_., S0B0LemmaPOS: stravolgimenti_F, S0B0POS: S_F, S0B0POSLemma: S_., S0B0Token: stravolgimenti_., S0Lemma: stravolgimenti, S0POS: S, S0Token: stravolgimenti, transitionHistoryLength3: 202, 
+B0Lemma: essere, B0POS: VA, B0Token: è, S0B0Lemma: si_essere, S0B0LemmaPOS: si_VA, S0B0POS: PC_VA, S0B0POSLemma: PC_essere, S0B0Token: si_è, S0B1Lemma: si_ritrovare, S0B1LemmaPOS: si_V, S0B1POS: PC_V, S0B1POSLemma: PC_ritrovare, S0B1Token: si_ritrovato, S0Lemma: si, S0POS: PC, S0Token: si, TransHistory3: 202, si_isGouvernedBy_ritrovare: true, si_isGouvernedBy_ritrovare_clit: true, 
 
-116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+116- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, è]   B= [ritrovato, candidato, si ,.. ]
 
-B0Lemma: ., B0POS: F, B0Token: ., transitionHistoryLength3: 020, 
+B0Lemma: ritrovare, B0POS: V, B0Token: ritrovato, S0B0Lemma: essere_ritrovare, S0B0LemmaPOS: essere_V, S0B0POS: VA_V, S0B0POSLemma: VA_ritrovare, S0B0Token: è_ritrovato, S0B1Lemma: essere_candidato, S0B1LemmaPOS: essere_S, S0B1POS: VA_S, S0B1POSLemma: VA_candidato, S0B1Token: è_candidato, S0Lemma: essere, S0POS: VA, S0S1Distance: 1, S0Token: è, S1B0Lemma: si_ritrovare, S1B0LemmaPOS: si_V, S1B0POS: PC_V, S1B0POSLemma: PC_ritrovare, S1B0Token: si_ritrovato, S1Lemma: si, S1POS: PC, S1S0Lemma: si_essere, S1S0LemmaPOS: si_VA, S1S0POS: PC_VA, S1S0POSLemma: PC_essere, S1S0Token: si_è, S1Token: si, StackLengthIs: 2, TransHistory3: 020, essere_isGouvernedBy_ritrovare: true, essere_isGouvernedBy_ritrovare_aux: true, 
 
-117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, è, ritrovato]   B= [candidato, si, , ,.. ]
 
-S0Lemma: ., S0POS: F, S0Token: ., transitionHistoryLength3: 202, 
+B0Lemma: candidato, B0POS: S, B0Token: candidato, S0B0Lemma: ritrovare_candidato, S0B0LemmaPOS: ritrovare_S, S0B0POS: V_S, S0B0POSLemma: V_candidato, S0B0Token: ritrovato_candidato, S0B1Lemma: ritrovare_si, S0B1LemmaPOS: ritrovare_PC, S0B1POS: V_PC, S0B1POSLemma: V_si, S0B1Token: ritrovato_si, S0Lemma: ritrovare, S0POS: V, S0S1Distance: 1, S0Token: ritrovato, S1B0Lemma: essere_candidato, S1B0LemmaPOS: essere_S, S1B0POS: VA_S, S1B0POSLemma: VA_candidato, S1B0Token: è_candidato, S1Lemma: essere, S1POS: VA, S1S0Lemma: essere_ritrovare, S1S0LemmaPOS: essere_V, S1S0POS: VA_V, S1S0POSLemma: VA_ritrovare, S1S0Token: è_ritrovato, S1Token: è, StackLengthIs: 3, SyntaxicRelation: -aux, TransHistory3: 002, hasRighDep_obj: true, ritrovare_candidato_hasRighDep_obj: true, ritrovare_hasRighDep_obj: true, 
 
-118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+118- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, [è, ritrovato]]   B= [candidato, si, , ,.. ]
 
-## Sentence No. 12972 - 
-Erano temi troppo forti , innaturali per un Fogazzaro che se poteva esprimere il dramma dei sentimenti , non poteva sottrar- si all' idillio nella rappresentazione della vita sociale che , nei suoi romanzi , è « una beata e quieta arcadia , dove tutto va per il suo giusto verso , che è poi il verso gradito a chi sta in alto [ .... ] in lui , profondamente sincero e convinto cattolico , viveva e operava sempre implicito il senso dell' uguaglianza delle anime , e questo non gli faceva avvertire , o gliela faceva avvertire troppo scarsamente , l' ingiustizia delle disparità sociali . 
+B0Lemma: candidato, B0POS: S, B0Token: candidato, S0B0Lemma: essere_ritrovare_candidato, S0B0LemmaPOS: essere_ritrovare_S, S0B0POS: VA_V_S, S0B0POSLemma: VA_V_candidato, S0B0Token: è_ritrovato_candidato, S0B1Lemma: essere_ritrovare_si, S0B1LemmaPOS: essere_ritrovare_PC, S0B1POS: VA_V_PC, S0B1POSLemma: VA_V_si, S0B1Token: è_ritrovato_si, S0Lemma: essere_ritrovare, S0POS: VA_V, S0Token: è_ritrovato, S1B0Lemma: si_candidato, S1B0LemmaPOS: si_S, S1B0POS: PC_S, S1B0POSLemma: PC_candidato, S1B0Token: si_candidato, S1Lemma: si, S1POS: PC, S1S0Lemma: si_essere_ritrovare, S1S0LemmaPOS: si_VA_V, S1S0POS: PC_VA_V, S1S0POSLemma: PC_essere_ritrovare, S1S0Token: si_è_ritrovato, S1Token: si, StackLengthIs: 2, TransHistory3: 000, 
+
+119- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[si, [è, ritrovato]]]   B= [candidato, si, , ,.. ]
+
+B0Lemma: candidato, B0POS: S, B0Token: candidato, S0B0Lemma: si_essere_ritrovare_candidato, S0B0LemmaPOS: si_essere_ritrovare_S, S0B0POS: PC_VA_V_S, S0B0POSLemma: PC_VA_V_candidato, S0B0Token: si_è_ritrovato_candidato, S0B1Lemma: si_essere_ritrovare_si, S0B1LemmaPOS: si_essere_ritrovare_PC, S0B1POS: PC_VA_V_PC, S0B1POSLemma: PC_VA_V_si, S0B1Token: si_è_ritrovato_si, S0Lemma: si_essere_ritrovare, S0POS: PC_VA_V, S0Token: si_è_ritrovato, TransHistory3: 100, 
+
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [candidato, si, , ,.. ]
+
+B0Lemma: candidato, B0POS: S, B0Token: candidato, TransHistory3: 110, 
+
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [candidato]   B= [si, ,, ma ,.. ]
+
+B0Lemma: si, B0POS: PC, B0Token: si, S0B0Lemma: candidato_si, S0B0LemmaPOS: candidato_PC, S0B0POS: S_PC, S0B0POSLemma: S_si, S0B0Token: candidato_si, S0B1Lemma: candidato_,, S0B1LemmaPOS: candidato_FF, S0B1POS: S_FF, S0B1POSLemma: S_,, S0B1Token: candidato_,, S0Lemma: candidato, S0POS: S, S0Token: candidato, TransHistory3: 211, candidato_hasRighDep_clit: true, candidato_si_hasRighDep_clit: true, hasRighDep_clit: true, 
+
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, ,, ma ,.. ]
+
+B0Lemma: si, B0POS: PC, B0Token: si, TransHistory3: 021, 
+
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [,, ma, per ,.. ]
+
+B0Lemma: ,, B0POS: FF, B0Token: ,, S0B0Lemma: si_,, S0B0LemmaPOS: si_FF, S0B0POS: PC_FF, S0B0POSLemma: PC_,, S0B0Token: si_,, S0B1Lemma: si_ma, S0B1LemmaPOS: si_CC, S0B1POS: PC_CC, S0B1POSLemma: PC_ma, S0B1Token: si_ma, S0Lemma: si, S0POS: PC, S0Token: si, TransHistory3: 202, 
+
+124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ma, per ,.. ]
+
+B0Lemma: ,, B0POS: FF, B0Token: ,, TransHistory3: 020, 
+
+125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ma, per, il ,.. ]
+
+B0Lemma: ma, B0POS: CC, B0Token: ma, S0B0Lemma: ,_ma, S0B0LemmaPOS: ,_CC, S0B0POS: FF_CC, S0B0POSLemma: FF_ma, S0B0Token: ,_ma, S0B1Lemma: ,_per, S0B1LemmaPOS: ,_E, S0B1POS: FF_E, S0B1POSLemma: FF_per, S0B1Token: ,_per, S0Lemma: ,, S0POS: FF, S0Token: ,, TransHistory3: 202, 
+
+126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, per, il ,.. ]
+
+B0Lemma: ma, B0POS: CC, B0Token: ma, TransHistory3: 020, 
+
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [per, il, solo ,.. ]
+
+B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: ma_per, S0B0LemmaPOS: ma_E, S0B0POS: CC_E, S0B0POSLemma: CC_per, S0B0Token: ma_per, S0B1Lemma: ma_il, S0B1LemmaPOS: ma_RD, S0B1POS: CC_RD, S0B1POSLemma: CC_il, S0B1Token: ma_il, S0Lemma: ma, S0POS: CC, S0Token: ma, TransHistory3: 202, 
+
+128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, il, solo ,.. ]
+
+B0Lemma: per, B0POS: E, B0Token: per, TransHistory3: 020, 
+
+129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [il, solo, consiglio ,.. ]
+
+B0Lemma: il, B0POS: RD, B0Token: il, S0B0Lemma: per_il, S0B0LemmaPOS: per_RD, S0B0POS: E_RD, S0B0POSLemma: E_il, S0B0Token: per_il, S0B1Lemma: per_solo, S0B1LemmaPOS: per_A, S0B1POS: E_A, S0B1POSLemma: E_solo, S0B1Token: per_solo, S0Lemma: per, S0POS: E, S0Token: per, TransHistory3: 202, hasRighDep_prep: true, per_consiglio_hasRighDep_prep: true, per_hasRighDep_prep: true, 
+
+130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, solo, consiglio ,.. ]
+
+B0Lemma: il, B0POS: RD, B0Token: il, TransHistory3: 020, 
+
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [solo, consiglio, comunale ,.. ]
+
+B0Lemma: solo, B0POS: A, B0Token: solo, S0B0Lemma: il_solo, S0B0LemmaPOS: il_A, S0B0POS: RD_A, S0B0POSLemma: RD_solo, S0B0Token: il_solo, S0B1Lemma: il_consiglio, S0B1LemmaPOS: il_S, S0B1POS: RD_S, S0B1POSLemma: RD_consiglio, S0B1Token: il_consiglio, S0Lemma: il, S0POS: RD, S0Token: il, TransHistory3: 202, il_isGouvernedBy_consiglio: true, il_isGouvernedBy_consiglio_det: true, 
+
+132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [solo, consiglio, comunale ,.. ]
+
+B0Lemma: solo, B0POS: A, B0Token: solo, TransHistory3: 020, 
+
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [solo]   B= [consiglio, comunale, . ,.. ]
+
+B0Lemma: consiglio, B0POS: S, B0Token: consiglio, S0B0Lemma: solo_consiglio, S0B0LemmaPOS: solo_S, S0B0POS: A_S, S0B0POSLemma: A_consiglio, S0B0Token: solo_consiglio, S0B1Lemma: solo_comunale, S0B1LemmaPOS: solo_A, S0B1POS: A_A, S0B1POSLemma: A_comunale, S0B1Token: solo_comunale, S0Lemma: solo, S0POS: A, S0Token: solo, TransHistory3: 202, solo_isGouvernedBy_consiglio: true, solo_isGouvernedBy_consiglio_mod: true, 
+
+134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [consiglio, comunale, . ,.. ]
+
+B0Lemma: consiglio, B0POS: S, B0Token: consiglio, TransHistory3: 020, 
+
+135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [consiglio]   B= [comunale, . ,.. ]
+
+B0Lemma: comunale, B0POS: A, B0Token: comunale, S0B0Lemma: consiglio_comunale, S0B0LemmaPOS: consiglio_A, S0B0POS: S_A, S0B0POSLemma: S_comunale, S0B0Token: consiglio_comunale, S0B1Lemma: consiglio_., S0B1LemmaPOS: consiglio_FS, S0B1POS: S_FS, S0B1POSLemma: S_., S0B1Token: consiglio_., S0Lemma: consiglio, S0POS: S, S0Token: consiglio, TransHistory3: 202, consiglio_comunale_hasRighDep_mod: true, consiglio_hasRighDep_mod: true, hasRighDep_mod: true, 
+
+136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [comunale, . ,.. ]
+
+B0Lemma: comunale, B0POS: A, B0Token: comunale, TransHistory3: 020, 
+
+137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [comunale]   B= [.]
+
+B0Lemma: ., B0POS: FS, B0Token: ., S0B0Lemma: comunale_., S0B0LemmaPOS: comunale_FS, S0B0POS: A_FS, S0B0POSLemma: A_., S0B0Token: comunale_., S0Lemma: comunale, S0POS: A, S0Token: comunale, TransHistory3: 202, 
+
+138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0Lemma: ., B0POS: FS, B0Token: ., TransHistory3: 020, 
+
+139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0Lemma: ., S0POS: FS, S0Token: ., TransHistory3: 202, 
+
+140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2744 - 
+non importa l' idea politica . chi si è esposto ai miei occhi ha preso ( per quanto possa interessare a qualcuno ) 100 punti in più . 
 ### Existing MWEs: 
-1- **sottrar- si** (IReflV)
-2- **va per il verso** (ID)
+1- **si esposto** (IReflV)
+2- **preso punti** (ID)
 
 
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Erano, temi, troppo ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, importa, l' ,.. ]
 
-B0Lemma: essere, B0POS: V, B0Token: Erano, 
+B0Lemma: non, B0POS: BN, B0Token: non, 
 
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Erano]   B= [temi, troppo, forti ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [importa, l', idea ,.. ]
 
-B0Lemma: tema, B0POS: S, B0Token: temi, S0B0Lemma: essere_tema, S0B0LemmaPOS: essere_S, S0B0POS: V_S, S0B0POSLemma: V_tema, S0B0Token: Erano_temi, S0B1Lemma: essere_troppo, S0B1LemmaPOS: essere_B, S0B1POS: V_B, S0B1POSLemma: V_troppo, S0B1Token: Erano_troppo, S0Lemma: essere, S0POS: V, S0Token: Erano, 
+B0Lemma: importare, B0POS: V, B0Token: importa, S0B0Lemma: non_importare, S0B0LemmaPOS: non_V, S0B0POS: BN_V, S0B0POSLemma: BN_importare, S0B0Token: non_importa, S0B1Lemma: non_il, S0B1LemmaPOS: non_RD, S0B1POS: BN_RD, S0B1POSLemma: BN_il, S0B1Token: non_l', S0Lemma: non, S0POS: BN, S0Token: non, non_isGouvernedBy_importare: true, non_isGouvernedBy_importare_neg: true, 
 
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [temi, troppo, forti ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [importa, l', idea ,.. ]
 
-B0Lemma: tema, B0POS: S, B0Token: temi, 
+B0Lemma: importare, B0POS: V, B0Token: importa, 
 
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [temi]   B= [troppo, forti, , ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [importa]   B= [l', idea, politica ,.. ]
 
-B0Lemma: troppo, B0POS: B, B0Token: troppo, S0B0Lemma: tema_troppo, S0B0LemmaPOS: tema_B, S0B0POS: S_B, S0B0POSLemma: S_troppo, S0B0Token: temi_troppo, S0B1Lemma: tema_forte, S0B1LemmaPOS: tema_A, S0B1POS: S_A, S0B1POSLemma: S_forte, S0B1Token: temi_forti, S0Lemma: tema, S0POS: S, S0Token: temi, hasRighDep_con: true, hasRighDep_mod: true, tema_,_hasRighDep_con: true, tema_forte_hasRighDep_mod: true, tema_hasRighDep_con: true, tema_hasRighDep_mod: true, tema_innaturale_hasRighDep_mod: true, 
+B0Lemma: il, B0POS: RD, B0Token: l', S0B0Lemma: importare_il, S0B0LemmaPOS: importare_RD, S0B0POS: V_RD, S0B0POSLemma: V_il, S0B0Token: importa_l', S0B1Lemma: importare_idea, S0B1LemmaPOS: importare_S, S0B1POS: V_S, S0B1POSLemma: V_idea, S0B1Token: importa_idea, S0Lemma: importare, S0POS: V, S0Token: importa, 
 
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [troppo, forti, , ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l', idea, politica ,.. ]
 
-B0Lemma: troppo, B0POS: B, B0Token: troppo, transitionHistoryLength3: 020, 
+B0Lemma: il, B0POS: RD, B0Token: l', TransHistory3: 020, 
 
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [troppo]   B= [forti, ,, innaturali ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l']   B= [idea, politica, . ,.. ]
 
-B0Lemma: forte, B0POS: A, B0Token: forti, S0B0Lemma: troppo_forte, S0B0LemmaPOS: troppo_A, S0B0POS: B_A, S0B0POSLemma: B_forte, S0B0Token: troppo_forti, S0B1Lemma: troppo_,, S0B1LemmaPOS: troppo_F, S0B1POS: B_F, S0B1POSLemma: B_,, S0B1Token: troppo_,, S0Lemma: troppo, S0POS: B, S0Token: troppo, transitionHistoryLength3: 202, troppo_isGouvernedBy_forte: true, troppo_isGouvernedBy_forte_mod: true, 
+B0Lemma: idea, B0POS: S, B0Token: idea, S0B0Lemma: il_idea, S0B0LemmaPOS: il_S, S0B0POS: RD_S, S0B0POSLemma: RD_idea, S0B0Token: l'_idea, S0B1Lemma: il_politico, S0B1LemmaPOS: il_A, S0B1POS: RD_A, S0B1POSLemma: RD_politico, S0B1Token: l'_politica, S0Lemma: il, S0POS: RD, S0Token: l', TransHistory3: 202, il_isGouvernedBy_idea: true, il_isGouvernedBy_idea_det: true, 
 
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forti, ,, innaturali ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [idea, politica, . ,.. ]
 
-B0Lemma: forte, B0POS: A, B0Token: forti, transitionHistoryLength3: 020, 
+B0Lemma: idea, B0POS: S, B0Token: idea, TransHistory3: 020, 
 
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forti]   B= [,, innaturali, per ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [idea]   B= [politica, ., chi ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: forte_,, S0B0LemmaPOS: forte_F, S0B0POS: A_F, S0B0POSLemma: A_,, S0B0Token: forti_,, S0B1Lemma: forte_innaturale, S0B1LemmaPOS: forte_A, S0B1POS: A_A, S0B1POSLemma: A_innaturale, S0B1Token: forti_innaturali, S0Lemma: forte, S0POS: A, S0Token: forti, transitionHistoryLength3: 202, 
+B0Lemma: politico, B0POS: A, B0Token: politica, S0B0Lemma: idea_politico, S0B0LemmaPOS: idea_A, S0B0POS: S_A, S0B0POSLemma: S_politico, S0B0Token: idea_politica, S0B1Lemma: idea_., S0B1LemmaPOS: idea_FS, S0B1POS: S_FS, S0B1POSLemma: S_., S0B1Token: idea_., S0Lemma: idea, S0POS: S, S0Token: idea, TransHistory3: 202, hasRighDep_mod: true, idea_hasRighDep_mod: true, idea_politico_hasRighDep_mod: true, 
 
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, innaturali, per ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [politica, ., chi ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: politico, B0POS: A, B0Token: politica, TransHistory3: 020, 
 
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [innaturali, per, un ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [politica]   B= [., chi, si ,.. ]
 
-B0Lemma: innaturale, B0POS: A, B0Token: innaturali, S0B0Lemma: ,_innaturale, S0B0LemmaPOS: ,_A, S0B0POS: F_A, S0B0POSLemma: F_innaturale, S0B0Token: ,_innaturali, S0B1Lemma: ,_per, S0B1LemmaPOS: ,_E, S0B1POS: F_E, S0B1POSLemma: F_per, S0B1Token: ,_per, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: ., B0POS: FS, B0Token: ., S0B0Lemma: politico_., S0B0LemmaPOS: politico_FS, S0B0POS: A_FS, S0B0POSLemma: A_., S0B0Token: politica_., S0B1Lemma: politico_chi, S0B1LemmaPOS: politico_PR, S0B1POS: A_PR, S0B1POSLemma: A_chi, S0B1Token: politica_chi, S0Lemma: politico, S0POS: A, S0Token: politica, TransHistory3: 202, 
 
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [innaturali, per, un ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., chi, si ,.. ]
 
-B0Lemma: innaturale, B0POS: A, B0Token: innaturali, transitionHistoryLength3: 020, 
+B0Lemma: ., B0POS: FS, B0Token: ., TransHistory3: 020, 
 
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [innaturali]   B= [per, un, Fogazzaro ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [chi, si, è ,.. ]
 
-B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: innaturale_per, S0B0LemmaPOS: innaturale_E, S0B0POS: A_E, S0B0POSLemma: A_per, S0B0Token: innaturali_per, S0B1Lemma: innaturale_un, S0B1LemmaPOS: innaturale_R, S0B1POS: A_R, S0B1POSLemma: A_un, S0B1Token: innaturali_un, S0Lemma: innaturale, S0POS: A, S0Token: innaturali, hasRighDep_comp: true, innaturale_hasRighDep_comp: true, innaturale_per_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: chi, B0POS: PR, B0Token: chi, S0B0Lemma: ._chi, S0B0LemmaPOS: ._PR, S0B0POS: FS_PR, S0B0POSLemma: FS_chi, S0B0Token: ._chi, S0B1Lemma: ._si, S0B1LemmaPOS: ._PC, S0B1POS: FS_PC, S0B1POSLemma: FS_si, S0B1Token: ._si, S0Lemma: ., S0POS: FS, S0Token: ., TransHistory3: 202, 
 
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [per, un, Fogazzaro ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [chi, si, è ,.. ]
 
-B0Lemma: per, B0POS: E, B0Token: per, transitionHistoryLength3: 020, 
+B0Lemma: chi, B0POS: PR, B0Token: chi, TransHistory3: 020, 
 
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [per]   B= [un, Fogazzaro, che ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [chi]   B= [si, è, esposto ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, S0B0Lemma: per_un, S0B0LemmaPOS: per_R, S0B0POS: E_R, S0B0POSLemma: E_un, S0B0Token: per_un, S0B1Lemma: per_Fogazzaro, S0B1LemmaPOS: per_S, S0B1POS: E_S, S0B1POSLemma: E_Fogazzaro, S0B1Token: per_Fogazzaro, S0Lemma: per, S0POS: E, S0Token: per, hasRighDep_prep: true, per_Fogazzaro_hasRighDep_prep: true, per_hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: si, B0POS: PC, B0Token: si, S0B0Lemma: chi_si, S0B0LemmaPOS: chi_PC, S0B0POS: PR_PC, S0B0POSLemma: PR_si, S0B0Token: chi_si, S0B1Lemma: chi_essere, S0B1LemmaPOS: chi_VA, S0B1POS: PR_VA, S0B1POSLemma: PR_essere, S0B1Token: chi_è, S0Lemma: chi, S0POS: PR, S0Token: chi, TransHistory3: 202, chi_isGouvernedBy_esporre: true, chi_isGouvernedBy_esporre_subj: true, 
 
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, Fogazzaro, che ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [si, è, esposto ,.. ]
 
-B0Lemma: un, B0POS: R, B0Token: un, transitionHistoryLength3: 020, 
+B0Lemma: si, B0POS: PC, B0Token: si, TransHistory3: 020, 
 
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [Fogazzaro, che, se ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [è, esposto, ai ,.. ]
 
-B0Lemma: Fogazzaro, B0POS: S, B0Token: Fogazzaro, S0B0Lemma: un_Fogazzaro, S0B0LemmaPOS: un_S, S0B0POS: R_S, S0B0POSLemma: R_Fogazzaro, S0B0Token: un_Fogazzaro, S0B1Lemma: un_che, S0B1LemmaPOS: un_P, S0B1POS: R_P, S0B1POSLemma: R_che, S0B1Token: un_che, S0Lemma: un, S0POS: R, S0Token: un, transitionHistoryLength3: 202, un_isGouvernedBy_Fogazzaro: true, un_isGouvernedBy_Fogazzaro_det: true, 
+B0Lemma: essere, B0POS: VA, B0Token: è, S0B0Lemma: si_essere, S0B0LemmaPOS: si_VA, S0B0POS: PC_VA, S0B0POSLemma: PC_essere, S0B0Token: si_è, S0B1Lemma: si_esporre, S0B1LemmaPOS: si_V, S0B1POS: PC_V, S0B1POSLemma: PC_esporre, S0B1Token: si_esposto, S0Lemma: si, S0POS: PC, S0Token: si, TransHistory3: 202, si_isGouvernedBy_esporre: true, si_isGouvernedBy_esporre_clit: true, 
 
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [Fogazzaro, che, se ,.. ]
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, è]   B= [esposto, ai, miei ,.. ]
 
-B0Lemma: Fogazzaro, B0POS: S, B0Token: Fogazzaro, transitionHistoryLength3: 020, 
+B0Lemma: esporre, B0POS: V, B0Token: esposto, S0B0Lemma: essere_esporre, S0B0LemmaPOS: essere_V, S0B0POS: VA_V, S0B0POSLemma: VA_esporre, S0B0Token: è_esposto, S0B1Lemma: essere_al, S0B1LemmaPOS: essere_EA, S0B1POS: VA_EA, S0B1POSLemma: VA_al, S0B1Token: è_ai, S0Lemma: essere, S0POS: VA, S0S1Distance: 1, S0Token: è, S1B0Lemma: si_esporre, S1B0LemmaPOS: si_V, S1B0POS: PC_V, S1B0POSLemma: PC_esporre, S1B0Token: si_esposto, S1Lemma: si, S1POS: PC, S1S0Lemma: si_essere, S1S0LemmaPOS: si_VA, S1S0POS: PC_VA, S1S0POSLemma: PC_essere, S1S0Token: si_è, S1Token: si, StackLengthIs: 2, TransHistory3: 020, essere_isGouvernedBy_esporre: true, essere_isGouvernedBy_esporre_aux: true, 
 
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [Fogazzaro]   B= [che, se, poteva ,.. ]
+17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si]   B= [esposto, ai, miei ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, Fogazzaro_esprimere_hasRighDep_mod_rel: true, Fogazzaro_hasRighDep_mod_rel: true, S0B0Lemma: Fogazzaro_che, S0B0LemmaPOS: Fogazzaro_P, S0B0POS: S_P, S0B0POSLemma: S_che, S0B0Token: Fogazzaro_che, S0B1Lemma: Fogazzaro_se, S0B1LemmaPOS: Fogazzaro_P, S0B1POS: S_P, S0B1POSLemma: S_se, S0B1Token: Fogazzaro_se, S0Lemma: Fogazzaro, S0POS: S, S0Token: Fogazzaro, hasRighDep_mod_rel: true, transitionHistoryLength3: 202, 
+B0Lemma: esporre, B0POS: V, B0Token: esposto, S0B0Lemma: si_esporre, S0B0LemmaPOS: si_V, S0B0POS: PC_V, S0B0POSLemma: PC_esporre, S0B0Token: si_esposto, S0B1Lemma: si_al, S0B1LemmaPOS: si_EA, S0B1POS: PC_EA, S0B1POSLemma: PC_al, S0B1Token: si_ai, S0Lemma: si, S0POS: PC, S0Token: si, TransHistory3: 002, si_isGouvernedBy_esporre: true, si_isGouvernedBy_esporre_clit: true, 
 
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, se, poteva ,.. ]
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [si, esposto]   B= [ai, miei, occhi ,.. ]
 
-B0Lemma: che, B0POS: P, B0Token: che, transitionHistoryLength3: 020, 
+B0Lemma: al, B0POS: EA, B0Token: ai, S0B0Lemma: esporre_al, S0B0LemmaPOS: esporre_EA, S0B0POS: V_EA, S0B0POSLemma: V_al, S0B0Token: esposto_ai, S0B1Lemma: esporre_mio, S0B1LemmaPOS: esporre_AP, S0B1POS: V_AP, S0B1POSLemma: V_mio, S0B1Token: esposto_miei, S0Lemma: esporre, S0POS: V, S0S1Distance: 2, S0Token: esposto, S1B0Lemma: si_al, S1B0LemmaPOS: si_EA, S1B0POS: PC_EA, S1B0POSLemma: PC_al, S1B0Token: si_ai, S1Lemma: si, S1POS: PC, S1S0Lemma: si_esporre, S1S0LemmaPOS: si_V, S1S0POS: PC_V, S1S0POSLemma: PC_esporre, S1S0Token: si_esposto, S1Token: si, StackLengthIs: 2, TransHistory3: 200, 
 
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [se, poteva, esprimere ,.. ]
+19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[si, esposto]]   B= [ai, miei, occhi ,.. ]
 
-B0Lemma: se, B0POS: P, B0Token: se, S0B0Lemma: che_se, S0B0LemmaPOS: che_P, S0B0POS: P_P, S0B0POSLemma: P_se, S0B0Token: che_se, S0B1Lemma: che_potere, S0B1LemmaPOS: che_V, S0B1POS: P_V, S0B1POSLemma: P_potere, S0B1Token: che_poteva, S0Lemma: che, S0POS: P, S0Token: che, che_isGouvernedBy_esprimere: true, che_isGouvernedBy_esprimere_subj: true, transitionHistoryLength3: 202, 
+B0Lemma: al, B0POS: EA, B0Token: ai, S0B0Lemma: si_esporre_al, S0B0LemmaPOS: si_esporre_EA, S0B0POS: PC_V_EA, S0B0POSLemma: PC_V_al, S0B0Token: si_esposto_ai, S0B1Lemma: si_esporre_mio, S0B1LemmaPOS: si_esporre_AP, S0B1POS: PC_V_AP, S0B1POSLemma: PC_V_mio, S0B1Token: si_esposto_miei, S0Lemma: si_esporre, S0POS: PC_V, S0Token: si_esposto, TransHistory3: 020, 
 
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, poteva, esprimere ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ai, miei, occhi ,.. ]
 
-B0Lemma: se, B0POS: P, B0Token: se, transitionHistoryLength3: 020, 
+B0Lemma: al, B0POS: EA, B0Token: ai, TransHistory3: 102, 
 
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [poteva, esprimere, il ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ai]   B= [miei, occhi, ha ,.. ]
 
-B0Lemma: potere, B0POS: V, B0Token: poteva, S0B0Lemma: se_potere, S0B0LemmaPOS: se_V, S0B0POS: P_V, S0B0POSLemma: P_potere, S0B0Token: se_poteva, S0B1Lemma: se_esprimere, S0B1LemmaPOS: se_V, S0B1POS: P_V, S0B1POSLemma: P_esprimere, S0B1Token: se_esprimere, S0Lemma: se, S0POS: P, S0Token: se, se_isGouvernedBy_esprimere: true, se_isGouvernedBy_esprimere_clit: true, transitionHistoryLength3: 202, 
+B0Lemma: mio, B0POS: AP, B0Token: miei, S0B0Lemma: al_mio, S0B0LemmaPOS: al_AP, S0B0POS: EA_AP, S0B0POSLemma: EA_mio, S0B0Token: ai_miei, S0B1Lemma: al_occhio, S0B1LemmaPOS: al_S, S0B1POS: EA_S, S0B1POSLemma: EA_occhio, S0B1Token: ai_occhi, S0Lemma: al, S0POS: EA, S0Token: ai, TransHistory3: 210, al_hasRighDep_prep: true, al_occhio_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [poteva, esprimere, il ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [miei, occhi, ha ,.. ]
 
-B0Lemma: potere, B0POS: V, B0Token: poteva, transitionHistoryLength3: 020, 
+B0Lemma: mio, B0POS: AP, B0Token: miei, TransHistory3: 021, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [poteva]   B= [esprimere, il, dramma ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [miei]   B= [occhi, ha, preso ,.. ]
 
-B0Lemma: esprimere, B0POS: V, B0Token: esprimere, S0B0Lemma: potere_esprimere, S0B0LemmaPOS: potere_V, S0B0POS: V_V, S0B0POSLemma: V_esprimere, S0B0Token: poteva_esprimere, S0B1Lemma: potere_il, S0B1LemmaPOS: potere_R, S0B1POS: V_R, S0B1POSLemma: V_il, S0B1Token: poteva_il, S0Lemma: potere, S0POS: V, S0Token: poteva, potere_isGouvernedBy_esprimere: true, potere_isGouvernedBy_esprimere_modal: true, transitionHistoryLength3: 202, 
+B0Lemma: occhio, B0POS: S, B0Token: occhi, S0B0Lemma: mio_occhio, S0B0LemmaPOS: mio_S, S0B0POS: AP_S, S0B0POSLemma: AP_occhio, S0B0Token: miei_occhi, S0B1Lemma: mio_avere, S0B1LemmaPOS: mio_VA, S0B1POS: AP_VA, S0B1POSLemma: AP_avere, S0B1Token: miei_ha, S0Lemma: mio, S0POS: AP, S0Token: miei, TransHistory3: 202, mio_isGouvernedBy_occhio: true, mio_isGouvernedBy_occhio_mod: true, 
 
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [esprimere, il, dramma ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [occhi, ha, preso ,.. ]
 
-B0Lemma: esprimere, B0POS: V, B0Token: esprimere, transitionHistoryLength3: 020, 
+B0Lemma: occhio, B0POS: S, B0Token: occhi, TransHistory3: 020, 
 
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [esprimere]   B= [il, dramma, dei ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [occhi]   B= [ha, preso, ( ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: il, S0B0Lemma: esprimere_il, S0B0LemmaPOS: esprimere_R, S0B0POS: V_R, S0B0POSLemma: V_il, S0B0Token: esprimere_il, S0B1Lemma: esprimere_dramma, S0B1LemmaPOS: esprimere_S, S0B1POS: V_S, S0B1POSLemma: V_dramma, S0B1Token: esprimere_dramma, S0Lemma: esprimere, S0POS: V, S0Token: esprimere, esprimere_,_hasRighDep_punc: true, esprimere_dramma_hasRighDep_obj: true, esprimere_hasRighDep_conj: true, esprimere_hasRighDep_obj: true, esprimere_hasRighDep_punc: true, esprimere_sottrarre_hasRighDep_conj: true, hasRighDep_conj: true, hasRighDep_obj: true, hasRighDep_punc: true, transitionHistoryLength3: 202, 
+B0Lemma: avere, B0POS: VA, B0Token: ha, S0B0Lemma: occhio_avere, S0B0LemmaPOS: occhio_VA, S0B0POS: S_VA, S0B0POSLemma: S_avere, S0B0Token: occhi_ha, S0B1Lemma: occhio_prendere, S0B1LemmaPOS: occhio_V, S0B1POS: S_V, S0B1POSLemma: S_prendere, S0B1Token: occhi_preso, S0Lemma: occhio, S0POS: S, S0Token: occhi, TransHistory3: 202, 
 
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, dramma, dei ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ha, preso, ( ,.. ]
 
-B0Lemma: il, B0POS: R, B0Token: il, transitionHistoryLength3: 020, 
+B0Lemma: avere, B0POS: VA, B0Token: ha, TransHistory3: 020, 
 
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [dramma, dei, sentimenti ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ha]   B= [preso, (, per ,.. ]
 
-B0Lemma: dramma, B0POS: S, B0Token: dramma, S0B0Lemma: il_dramma, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_dramma, S0B0Token: il_dramma, S0B1Lemma: il_di, S0B1LemmaPOS: il_E, S0B1POS: R_E, S0B1POSLemma: R_di, S0B1Token: il_dei, S0Lemma: il, S0POS: R, S0Token: il, il_isGouvernedBy_dramma: true, il_isGouvernedBy_dramma_det: true, transitionHistoryLength3: 202, 
+B0Lemma: prendere, B0POS: V, B0Token: preso, S0B0Lemma: avere_prendere, S0B0LemmaPOS: avere_V, S0B0POS: VA_V, S0B0POSLemma: VA_prendere, S0B0Token: ha_preso, S0B1Lemma: avere_(, S0B1LemmaPOS: avere_FB, S0B1POS: VA_FB, S0B1POSLemma: VA_(, S0B1Token: ha_(, S0Lemma: avere, S0POS: VA, S0Token: ha, TransHistory3: 202, avere_isGouvernedBy_prendere: true, avere_isGouvernedBy_prendere_aux: true, 
 
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dramma, dei, sentimenti ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [preso, (, per ,.. ]
 
-B0Lemma: dramma, B0POS: S, B0Token: dramma, transitionHistoryLength3: 020, 
+B0Lemma: prendere, B0POS: V, B0Token: preso, TransHistory3: 020, 
 
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dramma]   B= [dei, sentimenti, , ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [(, per, quanto ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: dei, S0B0Lemma: dramma_di, S0B0LemmaPOS: dramma_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: dramma_dei, S0B1Lemma: dramma_sentimento, S0B1LemmaPOS: dramma_S, S0B1POS: S_S, S0B1POSLemma: S_sentimento, S0B1Token: dramma_sentimenti, S0Lemma: dramma, S0POS: S, S0Token: dramma, dramma_di_hasRighDep_comp: true, dramma_hasRighDep_comp: true, hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: (, B0POS: FB, B0Token: (, S0B0Lemma: prendere_(, S0B0LemmaPOS: prendere_FB, S0B0POS: V_FB, S0B0POSLemma: V_(, S0B0Token: preso_(, S0B1Lemma: prendere_per, S0B1LemmaPOS: prendere_E, S0B1POS: V_E, S0B1POSLemma: V_per, S0B1Token: preso_per, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 202, hasRighDep_conj: true, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_conj: true, prendere_hasRighDep_punc: true, prendere_interessare_hasRighDep_conj: true, 
 
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dei, sentimenti, , ,.. ]
+30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, (]   B= [per, quanto, possa ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: dei, transitionHistoryLength3: 020, 
+(_isGouvernedBy_interessare: true, (_isGouvernedBy_interessare_punc: true, B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: (_per, S0B0LemmaPOS: (_E, S0B0POS: FB_E, S0B0POSLemma: FB_per, S0B0Token: (_per, S0B1Lemma: (_quanto, S0B1LemmaPOS: (_B, S0B1POS: FB_B, S0B1POSLemma: FB_quanto, S0B1Token: (_quanto, S0Lemma: (, S0POS: FB, S0S1Distance: 1, S0Token: (, S1B0Lemma: prendere_per, S1B0LemmaPOS: prendere_E, S1B0POS: V_E, S1B0POSLemma: V_per, S1B0Token: preso_per, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_(, S1S0LemmaPOS: prendere_FB, S1S0POS: V_FB, S1S0POSLemma: V_(, S1S0Token: preso_(, S1Token: preso, StackLengthIs: 2, TransHistory3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dei]   B= [sentimenti, ,, non ,.. ]
+31- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [per, quanto, possa ,.. ]
 
-B0Lemma: sentimento, B0POS: S, B0Token: sentimenti, S0B0Lemma: di_sentimento, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_sentimento, S0B0Token: dei_sentimenti, S0B1Lemma: di_,, S0B1LemmaPOS: di_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: dei_,, S0Lemma: di, S0POS: E, S0Token: dei, di_hasRighDep_prep: true, di_sentimento_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: prendere_per, S0B0LemmaPOS: prendere_E, S0B0POS: V_E, S0B0POSLemma: V_per, S0B0Token: preso_per, S0B1Lemma: prendere_quanto, S0B1LemmaPOS: prendere_B, S0B1POS: V_B, S0B1POSLemma: V_quanto, S0B1Token: preso_quanto, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 002, hasRighDep_conj: true, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_conj: true, prendere_hasRighDep_punc: true, prendere_interessare_hasRighDep_conj: true, 
 
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sentimenti, ,, non ,.. ]
+32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, per]   B= [quanto, possa, interessare ,.. ]
 
-B0Lemma: sentimento, B0POS: S, B0Token: sentimenti, transitionHistoryLength3: 020, 
+B0Lemma: quanto, B0POS: B, B0Token: quanto, S0B0Lemma: per_quanto, S0B0LemmaPOS: per_B, S0B0POS: E_B, S0B0POSLemma: E_quanto, S0B0Token: per_quanto, S0B1Lemma: per_potere, S0B1LemmaPOS: per_VM, S0B1POS: E_VM, S0B1POSLemma: E_potere, S0B1Token: per_possa, S0Lemma: per, S0POS: E, S0S1Distance: 2, S0Token: per, S1B0Lemma: prendere_quanto, S1B0LemmaPOS: prendere_B, S1B0POS: V_B, S1B0POSLemma: V_quanto, S1B0Token: preso_quanto, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_per, S1S0LemmaPOS: prendere_E, S1S0POS: V_E, S1S0POSLemma: V_per, S1S0Token: preso_per, S1Token: preso, StackLengthIs: 2, TransHistory3: 200, hasRighDep_prep: true, per_hasRighDep_prep: true, per_isGouvernedBy_interessare: true, per_isGouvernedBy_interessare_comp: true, per_quanto_hasRighDep_prep: true, 
 
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sentimenti]   B= [,, non, poteva ,.. ]
+33- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [quanto, possa, interessare ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: sentimento_,, S0B0LemmaPOS: sentimento_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: sentimenti_,, S0B1Lemma: sentimento_non, S0B1LemmaPOS: sentimento_B, S0B1POS: S_B, S0B1POSLemma: S_non, S0B1Token: sentimenti_non, S0Lemma: sentimento, S0POS: S, S0Token: sentimenti, transitionHistoryLength3: 202, 
+B0Lemma: quanto, B0POS: B, B0Token: quanto, S0B0Lemma: prendere_quanto, S0B0LemmaPOS: prendere_B, S0B0POS: V_B, S0B0POSLemma: V_quanto, S0B0Token: preso_quanto, S0B1Lemma: prendere_potere, S0B1LemmaPOS: prendere_VM, S0B1POS: V_VM, S0B1POSLemma: V_potere, S0B1Token: preso_possa, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 020, hasRighDep_conj: true, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_conj: true, prendere_hasRighDep_punc: true, prendere_interessare_hasRighDep_conj: true, 
 
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, non, poteva ,.. ]
+34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, quanto]   B= [possa, interessare, a ,.. ]
 
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
+B0Lemma: potere, B0POS: VM, B0Token: possa, S0B0Lemma: quanto_potere, S0B0LemmaPOS: quanto_VM, S0B0POS: B_VM, S0B0POSLemma: B_potere, S0B0Token: quanto_possa, S0B1Lemma: quanto_interessare, S0B1LemmaPOS: quanto_V, S0B1POS: B_V, S0B1POSLemma: B_interessare, S0B1Token: quanto_interessare, S0Lemma: quanto, S0POS: B, S0S1Distance: 3, S0Token: quanto, S1B0Lemma: prendere_potere, S1B0LemmaPOS: prendere_VM, S1B0POS: V_VM, S1B0POSLemma: V_potere, S1B0Token: preso_possa, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_quanto, S1S0LemmaPOS: prendere_B, S1S0POS: V_B, S1S0POSLemma: V_quanto, S1S0Token: preso_quanto, S1Token: preso, StackLengthIs: 2, TransHistory3: 202, 
 
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [non, poteva, sottrar- ,.. ]
+35- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [possa, interessare, a ,.. ]
 
-B0Lemma: non, B0POS: B, B0Token: non, S0B0Lemma: ,_non, S0B0LemmaPOS: ,_B, S0B0POS: F_B, S0B0POSLemma: F_non, S0B0Token: ,_non, S0B1Lemma: ,_potere, S0B1LemmaPOS: ,_V, S0B1POS: F_V, S0B1POSLemma: F_potere, S0B1Token: ,_poteva, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
+B0Lemma: potere, B0POS: VM, B0Token: possa, S0B0Lemma: prendere_potere, S0B0LemmaPOS: prendere_VM, S0B0POS: V_VM, S0B0POSLemma: V_potere, S0B0Token: preso_possa, S0B1Lemma: prendere_interessare, S0B1LemmaPOS: prendere_V, S0B1POS: V_V, S0B1POSLemma: V_interessare, S0B1Token: preso_interessare, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 020, hasRighDep_conj: true, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_conj: true, prendere_hasRighDep_punc: true, prendere_interessare_hasRighDep_conj: true, 
 
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, poteva, sottrar- ,.. ]
+36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, possa]   B= [interessare, a, qualcuno ,.. ]
 
-B0Lemma: non, B0POS: B, B0Token: non, transitionHistoryLength3: 020, 
+B0Lemma: interessare, B0POS: V, B0Token: interessare, S0B0Lemma: potere_interessare, S0B0LemmaPOS: potere_V, S0B0POS: VM_V, S0B0POSLemma: VM_interessare, S0B0Token: possa_interessare, S0B1Lemma: potere_a, S0B1LemmaPOS: potere_E, S0B1POS: VM_E, S0B1POSLemma: VM_a, S0B1Token: possa_a, S0Lemma: potere, S0POS: VM, S0S1Distance: 4, S0Token: possa, S1B0Lemma: prendere_interessare, S1B0LemmaPOS: prendere_V, S1B0POS: V_V, S1B0POSLemma: V_interessare, S1B0Token: preso_interessare, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_potere, S1S0LemmaPOS: prendere_VM, S1S0POS: V_VM, S1S0POSLemma: V_potere, S1S0Token: preso_possa, S1Token: preso, StackLengthIs: 2, TransHistory3: 202, potere_isGouvernedBy_interessare: true, potere_isGouvernedBy_interessare_modal: true, 
 
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [poteva, sottrar-, si ,.. ]
+37- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [interessare, a, qualcuno ,.. ]
 
-B0Lemma: potere, B0POS: V, B0Token: poteva, S0B0Lemma: non_potere, S0B0LemmaPOS: non_V, S0B0POS: B_V, S0B0POSLemma: B_potere, S0B0Token: non_poteva, S0B1Lemma: non_sottrarre, S0B1LemmaPOS: non_V, S0B1POS: B_V, S0B1POSLemma: B_sottrarre, S0B1Token: non_sottrar-, S0Lemma: non, S0POS: B, S0Token: non, non_isGouvernedBy_sottrarre: true, non_isGouvernedBy_sottrarre_neg: true, transitionHistoryLength3: 202, 
+B0Lemma: interessare, B0POS: V, B0Token: interessare, S0B0Lemma: prendere_interessare, S0B0LemmaPOS: prendere_V, S0B0POS: V_V, S0B0POSLemma: V_interessare, S0B0Token: preso_interessare, S0B1Lemma: prendere_a, S0B1LemmaPOS: prendere_E, S0B1POS: V_E, S0B1POSLemma: V_a, S0B1Token: preso_a, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 020, hasRighDep_conj: true, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_conj: true, prendere_hasRighDep_punc: true, prendere_interessare_hasRighDep_conj: true, 
 
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [poteva, sottrar-, si ,.. ]
+38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, interessare]   B= [a, qualcuno, ) ,.. ]
 
-B0Lemma: potere, B0POS: V, B0Token: poteva, transitionHistoryLength3: 020, 
+B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: interessare_a, S0B0LemmaPOS: interessare_E, S0B0POS: V_E, S0B0POSLemma: V_a, S0B0Token: interessare_a, S0B1Lemma: interessare_qualcuno, S0B1LemmaPOS: interessare_PI, S0B1POS: V_PI, S0B1POSLemma: V_qualcuno, S0B1Token: interessare_qualcuno, S0Lemma: interessare, S0POS: V, S0S1Distance: 5, S0Token: interessare, S1B0Lemma: prendere_a, S1B0LemmaPOS: prendere_E, S1B0POS: V_E, S1B0POSLemma: V_a, S1B0Token: preso_a, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_interessare, S1S0LemmaPOS: prendere_V, S1S0POS: V_V, S1S0POSLemma: V_interessare, S1S0Token: preso_interessare, S1Token: preso, StackLengthIs: 2, SyntaxicRelation: +conj, TransHistory3: 202, hasRighDep_comp_ind: true, hasRighDep_obj: true, hasRighDep_punc: true, interessare_)_hasRighDep_punc: true, interessare_a_hasRighDep_comp_ind: true, interessare_hasRighDep_comp_ind: true, interessare_hasRighDep_obj: true, interessare_hasRighDep_punc: true, interessare_punto_hasRighDep_obj: true, 
 
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [poteva]   B= [sottrar-, si, all' ,.. ]
+39- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [a, qualcuno, ) ,.. ]
 
-B0Lemma: sottrarre, B0POS: V, B0Token: sottrar-, S0B0Lemma: potere_sottrarre, S0B0LemmaPOS: potere_V, S0B0POS: V_V, S0B0POSLemma: V_sottrarre, S0B0Token: poteva_sottrar-, S0B1Lemma: potere_si, S0B1LemmaPOS: potere_P, S0B1POS: V_P, S0B1POSLemma: V_si, S0B1Token: poteva_si, S0Lemma: potere, S0POS: V, S0Token: poteva, potere_isGouvernedBy_sottrarre: true, potere_isGouvernedBy_sottrarre_modal: true, transitionHistoryLength3: 202, 
+B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: prendere_a, S0B0LemmaPOS: prendere_E, S0B0POS: V_E, S0B0POSLemma: V_a, S0B0Token: preso_a, S0B1Lemma: prendere_qualcuno, S0B1LemmaPOS: prendere_PI, S0B1POS: V_PI, S0B1POSLemma: V_qualcuno, S0B1Token: preso_qualcuno, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 020, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_punc: true, 
 
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sottrar-, si, all' ,.. ]
+40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, a]   B= [qualcuno, ), 100 ,.. ]
 
-B0Lemma: sottrarre, B0POS: V, B0Token: sottrar-, transitionHistoryLength3: 020, 
+B0Lemma: qualcuno, B0POS: PI, B0Token: qualcuno, S0B0Lemma: a_qualcuno, S0B0LemmaPOS: a_PI, S0B0POS: E_PI, S0B0POSLemma: E_qualcuno, S0B0Token: a_qualcuno, S0B1Lemma: a_), S0B1LemmaPOS: a_FB, S0B1POS: E_FB, S0B1POSLemma: E_), S0B1Token: a_), S0Lemma: a, S0POS: E, S0S1Distance: 6, S0Token: a, S1B0Lemma: prendere_qualcuno, S1B0LemmaPOS: prendere_PI, S1B0POS: V_PI, S1B0POSLemma: V_qualcuno, S1B0Token: preso_qualcuno, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_a, S1S0LemmaPOS: prendere_E, S1S0POS: V_E, S1S0POSLemma: V_a, S1S0Token: preso_a, S1Token: preso, StackLengthIs: 2, TransHistory3: 202, a_hasRighDep_prep: true, a_qualcuno_hasRighDep_prep: true, hasRighDep_prep: true, 
 
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sottrar-]   B= [si, all', idillio ,.. ]
+41- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [qualcuno, ), 100 ,.. ]
 
-B0Lemma: si, B0POS: P, B0Token: si, S0B0Lemma: sottrarre_si, S0B0LemmaPOS: sottrarre_P, S0B0POS: V_P, S0B0POSLemma: V_si, S0B0Token: sottrar-_si, S0B1Lemma: sottrarre_al, S0B1LemmaPOS: sottrarre_E, S0B1POS: V_E, S0B1POSLemma: V_al, S0B1Token: sottrar-_all', S0Lemma: sottrarre, S0POS: V, S0Token: sottrar-, hasRighDep_clit: true, hasRighDep_comp: true, sottrarre_al_hasRighDep_comp: true, sottrarre_hasRighDep_clit: true, sottrarre_hasRighDep_comp: true, sottrarre_in_hasRighDep_comp: true, sottrarre_si_hasRighDep_clit: true, transitionHistoryLength3: 202, 
+B0Lemma: qualcuno, B0POS: PI, B0Token: qualcuno, S0B0Lemma: prendere_qualcuno, S0B0LemmaPOS: prendere_PI, S0B0POS: V_PI, S0B0POSLemma: V_qualcuno, S0B0Token: preso_qualcuno, S0B1Lemma: prendere_), S0B1LemmaPOS: prendere_FB, S0B1POS: V_FB, S0B1POSLemma: V_), S0B1Token: preso_), S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 020, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_punc: true, 
 
-42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sottrar-, si]   B= [all', idillio, nella ,.. ]
+42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, qualcuno]   B= [), 100, punti ,.. ]
 
-B0Lemma: al, B0POS: E, B0Token: all', S0B0Lemma: si_al, S0B0LemmaPOS: si_E, S0B0POS: P_E, S0B0POSLemma: P_al, S0B0Token: si_all', S0B1Lemma: si_idillio, S0B1LemmaPOS: si_S, S0B1POS: P_S, S0B1POSLemma: P_idillio, S0B1Token: si_idillio, S0Lemma: si, S0POS: P, S0S1Distance: 1, S0Token: si, S1B0Lemma: sottrarre_al, S1B0LemmaPOS: sottrarre_E, S1B0POS: V_E, S1B0POSLemma: V_al, S1B0Token: sottrar-_all', S1Lemma: sottrarre, S1POS: V, S1S0Lemma: sottrarre_si, S1S0LemmaPOS: sottrarre_P, S1S0POS: V_P, S1S0POSLemma: V_si, S1S0Token: sottrar-_si, S1Token: sottrar-, SyntaxicRelation: +clit, transitionHistoryLength3: 020, 
+B0Lemma: ), B0POS: FB, B0Token: ), S0B0Lemma: qualcuno_), S0B0LemmaPOS: qualcuno_FB, S0B0POS: PI_FB, S0B0POSLemma: PI_), S0B0Token: qualcuno_), S0B1Lemma: qualcuno_100, S0B1LemmaPOS: qualcuno_N, S0B1POS: PI_N, S0B1POSLemma: PI_100, S0B1Token: qualcuno_100, S0Lemma: qualcuno, S0POS: PI, S0S1Distance: 7, S0Token: qualcuno, S1B0Lemma: prendere_), S1B0LemmaPOS: prendere_FB, S1B0POS: V_FB, S1B0POSLemma: V_), S1B0Token: preso_), S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_qualcuno, S1S0LemmaPOS: prendere_PI, S1S0POS: V_PI, S1S0POSLemma: V_qualcuno, S1S0Token: preso_qualcuno, S1Token: preso, StackLengthIs: 2, TransHistory3: 202, 
 
-43- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[sottrar-, si]]   B= [all', idillio, nella ,.. ]
+43- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [), 100, punti ,.. ]
 
-B0Lemma: al, B0POS: E, B0Token: all', S0B0Lemma: sottrarre_si_al, S0B0LemmaPOS: sottrarre_si_E, S0B0POS: V_P_E, S0B0POSLemma: V_P_al, S0B0Token: sottrar-_si_all', S0B1Lemma: sottrarre_si_idillio, S0B1LemmaPOS: sottrarre_si_S, S0B1POS: V_P_S, S0B1POSLemma: V_P_idillio, S0B1Token: sottrar-_si_idillio, S0Lemma: sottrarre_si, S0POS: V_P, S0Token: sottrar-_si, transitionHistoryLength3: 002, 
+B0Lemma: ), B0POS: FB, B0Token: ), S0B0Lemma: prendere_), S0B0LemmaPOS: prendere_FB, S0B0POS: V_FB, S0B0POSLemma: V_), S0B0Token: preso_), S0B1Lemma: prendere_100, S0B1LemmaPOS: prendere_N, S0B1POS: V_N, S0B1POSLemma: V_100, S0B1Token: preso_100, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 020, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_punc: true, 
 
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [all', idillio, nella ,.. ]
+44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, )]   B= [100, punti, in ,.. ]
 
-B0Lemma: al, B0POS: E, B0Token: all', transitionHistoryLength3: 100, 
+B0Lemma: 100, B0POS: N, B0Token: 100, S0B0Lemma: )_100, S0B0LemmaPOS: )_N, S0B0POS: FB_N, S0B0POSLemma: FB_100, S0B0Token: )_100, S0B1Lemma: )_punto, S0B1LemmaPOS: )_S, S0B1POS: FB_S, S0B1POSLemma: FB_punto, S0B1Token: )_punti, S0Lemma: ), S0POS: FB, S0S1Distance: 8, S0Token: ), S1B0Lemma: prendere_100, S1B0LemmaPOS: prendere_N, S1B0POS: V_N, S1B0POSLemma: V_100, S1B0Token: preso_100, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_), S1S0LemmaPOS: prendere_FB, S1S0POS: V_FB, S1S0POSLemma: V_), S1S0Token: preso_), S1Token: preso, StackLengthIs: 2, TransHistory3: 202, 
 
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [all']   B= [idillio, nella, rappresentazione ,.. ]
+45- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [100, punti, in ,.. ]
 
-B0Lemma: idillio, B0POS: S, B0Token: idillio, S0B0Lemma: al_idillio, S0B0LemmaPOS: al_S, S0B0POS: E_S, S0B0POSLemma: E_idillio, S0B0Token: all'_idillio, S0B1Lemma: al_in, S0B1LemmaPOS: al_E, S0B1POS: E_E, S0B1POSLemma: E_in, S0B1Token: all'_nella, S0Lemma: al, S0POS: E, S0Token: all', al_hasRighDep_prep: true, al_idillio_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 210, 
+B0Lemma: 100, B0POS: N, B0Token: 100, S0B0Lemma: prendere_100, S0B0LemmaPOS: prendere_N, S0B0POS: V_N, S0B0POSLemma: V_100, S0B0Token: preso_100, S0B1Lemma: prendere_punto, S0B1LemmaPOS: prendere_S, S0B1POS: V_S, S0B1POSLemma: V_punto, S0B1Token: preso_punti, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 020, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_punc: true, 
 
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [idillio, nella, rappresentazione ,.. ]
+46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, 100]   B= [punti, in, più ,.. ]
 
-B0Lemma: idillio, B0POS: S, B0Token: idillio, transitionHistoryLength3: 021, 
+100_isGouvernedBy_punto: true, 100_isGouvernedBy_punto_mod: true, B0Lemma: punto, B0POS: S, B0Token: punti, S0B0Lemma: 100_punto, S0B0LemmaPOS: 100_S, S0B0POS: N_S, S0B0POSLemma: N_punto, S0B0Token: 100_punti, S0B1Lemma: 100_in, S0B1LemmaPOS: 100_E, S0B1POS: N_E, S0B1POSLemma: N_in, S0B1Token: 100_in, S0Lemma: 100, S0POS: N, S0S1Distance: 9, S0Token: 100, S1B0Lemma: prendere_punto, S1B0LemmaPOS: prendere_S, S1B0POS: V_S, S1B0POSLemma: V_punto, S1B0Token: preso_punti, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_100, S1S0LemmaPOS: prendere_N, S1S0POS: V_N, S1S0POSLemma: V_100, S1S0Token: preso_100, S1Token: preso, StackLengthIs: 2, TransHistory3: 202, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [idillio]   B= [nella, rappresentazione, della ,.. ]
+47- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso]   B= [punti, in, più ,.. ]
 
-B0Lemma: in, B0POS: E, B0Token: nella, S0B0Lemma: idillio_in, S0B0LemmaPOS: idillio_E, S0B0POS: S_E, S0B0POSLemma: S_in, S0B0Token: idillio_nella, S0B1Lemma: idillio_rappresentazione, S0B1LemmaPOS: idillio_S, S0B1POS: S_S, S0B1POSLemma: S_rappresentazione, S0B1Token: idillio_rappresentazione, S0Lemma: idillio, S0POS: S, S0Token: idillio, transitionHistoryLength3: 202, 
+B0Lemma: punto, B0POS: S, B0Token: punti, S0B0Lemma: prendere_punto, S0B0LemmaPOS: prendere_S, S0B0POS: V_S, S0B0POSLemma: V_punto, S0B0Token: preso_punti, S0B1Lemma: prendere_in, S0B1LemmaPOS: prendere_E, S0B1POS: V_E, S0B1POSLemma: V_in, S0B1Token: preso_in, S0Lemma: prendere, S0POS: V, S0Token: preso, TransHistory3: 020, hasRighDep_punc: true, prendere_._hasRighDep_punc: true, prendere_hasRighDep_punc: true, 
 
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nella, rappresentazione, della ,.. ]
+48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preso, punti]   B= [in, più, . ,.. ]
 
-B0Lemma: in, B0POS: E, B0Token: nella, transitionHistoryLength3: 020, 
+B0Lemma: in, B0POS: E, B0Token: in, S0B0Lemma: punto_in, S0B0LemmaPOS: punto_E, S0B0POS: S_E, S0B0POSLemma: S_in, S0B0Token: punti_in, S0B1Lemma: punto_più, S0B1LemmaPOS: punto_B, S0B1POS: S_B, S0B1POSLemma: S_più, S0B1Token: punti_più, S0Lemma: punto, S0POS: S, S0S1Distance: 10, S0Token: punti, S1B0Lemma: prendere_in, S1B0LemmaPOS: prendere_E, S1B0POS: V_E, S1B0POSLemma: V_in, S1B0Token: preso_in, S1Lemma: prendere, S1POS: V, S1S0Lemma: prendere_punto, S1S0LemmaPOS: prendere_S, S1S0POS: V_S, S1S0POSLemma: V_punto, S1S0Token: preso_punti, S1Token: preso, StackLengthIs: 2, TransHistory3: 202, hasRighDep_comp: true, punto_hasRighDep_comp: true, punto_in_hasRighDep_comp: true, 
 
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nella]   B= [rappresentazione, della, vita ,.. ]
+49- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[preso, punti]]   B= [in, più, . ,.. ]
 
-B0Lemma: rappresentazione, B0POS: S, B0Token: rappresentazione, S0B0Lemma: in_rappresentazione, S0B0LemmaPOS: in_S, S0B0POS: E_S, S0B0POSLemma: E_rappresentazione, S0B0Token: nella_rappresentazione, S0B1Lemma: in_di, S0B1LemmaPOS: in_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: nella_della, S0Lemma: in, S0POS: E, S0Token: nella, hasRighDep_prep: true, in_hasRighDep_prep: true, in_rappresentazione_hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: in, B0POS: E, B0Token: in, S0B0Lemma: prendere_punto_in, S0B0LemmaPOS: prendere_punto_E, S0B0POS: V_S_E, S0B0POSLemma: V_S_in, S0B0Token: preso_punti_in, S0B1Lemma: prendere_punto_più, S0B1LemmaPOS: prendere_punto_B, S0B1POS: V_S_B, S0B1POSLemma: V_S_più, S0B1Token: preso_punti_più, S0Lemma: prendere_punto, S0POS: V_S, S0Token: preso_punti, TransHistory3: 020, 
 
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rappresentazione, della, vita ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, più, . ,.. ]
 
-B0Lemma: rappresentazione, B0POS: S, B0Token: rappresentazione, transitionHistoryLength3: 020, 
+B0Lemma: in, B0POS: E, B0Token: in, TransHistory3: 102, 
 
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rappresentazione]   B= [della, vita, sociale ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [più, . ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, S0B0Lemma: rappresentazione_di, S0B0LemmaPOS: rappresentazione_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: rappresentazione_della, S0B1Lemma: rappresentazione_vita, S0B1LemmaPOS: rappresentazione_S, S0B1POS: S_S, S0B1POSLemma: S_vita, S0B1Token: rappresentazione_vita, S0Lemma: rappresentazione, S0POS: S, S0Token: rappresentazione, hasRighDep_comp: true, rappresentazione_di_hasRighDep_comp: true, rappresentazione_hasRighDep_comp: true, transitionHistoryLength3: 202, 
+B0Lemma: più, B0POS: B, B0Token: più, S0B0Lemma: in_più, S0B0LemmaPOS: in_B, S0B0POS: E_B, S0B0POSLemma: E_più, S0B0Token: in_più, S0B1Lemma: in_., S0B1LemmaPOS: in_FS, S0B1POS: E_FS, S0B1POSLemma: E_., S0B1Token: in_., S0Lemma: in, S0POS: E, S0Token: in, TransHistory3: 210, hasRighDep_prep: true, in_hasRighDep_prep: true, in_più_hasRighDep_prep: true, 
 
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [della, vita, sociale ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [più, . ,.. ]
 
-B0Lemma: di, B0POS: E, B0Token: della, transitionHistoryLength3: 020, 
+B0Lemma: più, B0POS: B, B0Token: più, TransHistory3: 021, 
 
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [della]   B= [vita, sociale, che ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [più]   B= [.]
 
-B0Lemma: vita, B0POS: S, B0Token: vita, S0B0Lemma: di_vita, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_vita, S0B0Token: della_vita, S0B1Lemma: di_sociale, S0B1LemmaPOS: di_A, S0B1POS: E_A, S0B1POSLemma: E_sociale, S0B1Token: della_sociale, S0Lemma: di, S0POS: E, S0Token: della, di_hasRighDep_prep: true, di_vita_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
+B0Lemma: ., B0POS: FS, B0Token: ., S0B0Lemma: più_., S0B0LemmaPOS: più_FS, S0B0POS: B_FS, S0B0POSLemma: B_., S0B0Token: più_., S0Lemma: più, S0POS: B, S0Token: più, TransHistory3: 202, 
 
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vita, sociale, che ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
 
-B0Lemma: vita, B0POS: S, B0Token: vita, transitionHistoryLength3: 020, 
+B0Lemma: ., B0POS: FS, B0Token: ., TransHistory3: 020, 
 
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vita]   B= [sociale, che, , ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
 
-B0Lemma: sociale, B0POS: A, B0Token: sociale, S0B0Lemma: vita_sociale, S0B0LemmaPOS: vita_A, S0B0POS: S_A, S0B0POSLemma: S_sociale, S0B0Token: vita_sociale, S0B1Lemma: vita_che, S0B1LemmaPOS: vita_P, S0B1POS: S_P, S0B1POSLemma: S_che, S0B1Token: vita_che, S0Lemma: vita, S0POS: S, S0Token: vita, hasRighDep_mod: true, hasRighDep_mod_rel: true, transitionHistoryLength3: 202, vita_essere_hasRighDep_mod_rel: true, vita_hasRighDep_mod: true, vita_hasRighDep_mod_rel: true, vita_sociale_hasRighDep_mod: true, 
+S0Lemma: ., S0POS: FS, S0Token: ., TransHistory3: 202, 
 
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sociale, che, , ,.. ]
-
-B0Lemma: sociale, B0POS: A, B0Token: sociale, transitionHistoryLength3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sociale]   B= [che, ,, nei ,.. ]
-
-B0Lemma: che, B0POS: P, B0Token: che, S0B0Lemma: sociale_che, S0B0LemmaPOS: sociale_P, S0B0POS: A_P, S0B0POSLemma: A_che, S0B0Token: sociale_che, S0B1Lemma: sociale_,, S0B1LemmaPOS: sociale_F, S0B1POS: A_F, S0B1POSLemma: A_,, S0B1Token: sociale_,, S0Lemma: sociale, S0POS: A, S0Token: sociale, transitionHistoryLength3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, ,, nei ,.. ]
-
-B0Lemma: che, B0POS: P, B0Token: che, transitionHistoryLength3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [,, nei, suoi ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: che_,, S0B0LemmaPOS: che_F, S0B0POS: P_F, S0B0POSLemma: P_,, S0B0Token: che_,, S0B1Lemma: che_in, S0B1LemmaPOS: che_E, S0B1POS: P_E, S0B1POSLemma: P_in, S0B1Token: che_nei, S0Lemma: che, S0POS: P, S0Token: che, che_isGouvernedBy_essere: true, che_isGouvernedBy_essere_subj: true, transitionHistoryLength3: 202, 
-
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, nei, suoi ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [nei, suoi, romanzi ,.. ]
-
-,_isGouvernedBy_essere: true, ,_isGouvernedBy_essere_punc: true, B0Lemma: in, B0POS: E, B0Token: nei, S0B0Lemma: ,_in, S0B0LemmaPOS: ,_E, S0B0POS: F_E, S0B0POSLemma: F_in, S0B0Token: ,_nei, S0B1Lemma: ,_suo, S0B1LemmaPOS: ,_A, S0B1POS: F_A, S0B1POSLemma: F_suo, S0B1Token: ,_suoi, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nei, suoi, romanzi ,.. ]
-
-B0Lemma: in, B0POS: E, B0Token: nei, transitionHistoryLength3: 020, 
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nei]   B= [suoi, romanzi, , ,.. ]
-
-B0Lemma: suo, B0POS: A, B0Token: suoi, S0B0Lemma: in_suo, S0B0LemmaPOS: in_A, S0B0POS: E_A, S0B0POSLemma: E_suo, S0B0Token: nei_suoi, S0B1Lemma: in_romanzo, S0B1LemmaPOS: in_S, S0B1POS: E_S, S0B1POSLemma: E_romanzo, S0B1Token: nei_romanzi, S0Lemma: in, S0POS: E, S0Token: nei, hasRighDep_prep: true, hasRighDep_punc: true, in_,_hasRighDep_punc: true, in_hasRighDep_prep: true, in_hasRighDep_punc: true, in_isGouvernedBy_essere: true, in_isGouvernedBy_essere_comp: true, in_romanzo_hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [suoi, romanzi, , ,.. ]
-
-B0Lemma: suo, B0POS: A, B0Token: suoi, transitionHistoryLength3: 020, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [suoi]   B= [romanzi, ,, è ,.. ]
-
-B0Lemma: romanzo, B0POS: S, B0Token: romanzi, S0B0Lemma: suo_romanzo, S0B0LemmaPOS: suo_S, S0B0POS: A_S, S0B0POSLemma: A_romanzo, S0B0Token: suoi_romanzi, S0B1Lemma: suo_,, S0B1LemmaPOS: suo_F, S0B1POS: A_F, S0B1POSLemma: A_,, S0B1Token: suoi_,, S0Lemma: suo, S0POS: A, S0Token: suoi, suo_isGouvernedBy_romanzo: true, suo_isGouvernedBy_romanzo_mod: true, transitionHistoryLength3: 202, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [romanzi, ,, è ,.. ]
-
-B0Lemma: romanzo, B0POS: S, B0Token: romanzi, transitionHistoryLength3: 020, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [romanzi]   B= [,, è, « ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: romanzo_,, S0B0LemmaPOS: romanzo_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: romanzi_,, S0B1Lemma: romanzo_essere, S0B1LemmaPOS: romanzo_V, S0B1POS: S_V, S0B1POSLemma: S_essere, S0B1Token: romanzi_è, S0Lemma: romanzo, S0POS: S, S0Token: romanzi, transitionHistoryLength3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, è, « ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [è, «, una ,.. ]
-
-B0Lemma: essere, B0POS: V, B0Token: è, S0B0Lemma: ,_essere, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_essere, S0B0Token: ,_è, S0B1Lemma: ,_«, S0B1LemmaPOS: ,_F, S0B1POS: F_F, S0B1POSLemma: F_«, S0B1Token: ,_«, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [è, «, una ,.. ]
-
-B0Lemma: essere, B0POS: V, B0Token: è, transitionHistoryLength3: 020, 
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [è]   B= [«, una, beata ,.. ]
-
-B0Lemma: «, B0POS: F, B0Token: «, S0B0Lemma: essere_«, S0B0LemmaPOS: essere_F, S0B0POS: V_F, S0B0POSLemma: V_«, S0B0Token: è_«, S0B1Lemma: essere_una, S0B1LemmaPOS: essere_R, S0B1POS: V_R, S0B1POSLemma: V_una, S0B1Token: è_una, S0Lemma: essere, S0POS: V, S0Token: è, essere_,_hasRighDep_punc: true, essere_andare_hasRighDep_pred: true, essere_arcadia_hasRighDep_pred: true, essere_essere_hasRighDep_conj: true, essere_hasRighDep_conj: true, essere_hasRighDep_pred: true, essere_hasRighDep_punc: true, essere_«_hasRighDep_pred: true, hasRighDep_conj: true, hasRighDep_pred: true, hasRighDep_punc: true, transitionHistoryLength3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [«, una, beata ,.. ]
-
-B0Lemma: «, B0POS: F, B0Token: «, transitionHistoryLength3: 020, 
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [«]   B= [una, beata, e ,.. ]
-
-B0Lemma: una, B0POS: R, B0Token: una, S0B0Lemma: «_una, S0B0LemmaPOS: «_R, S0B0POS: F_R, S0B0POSLemma: F_una, S0B0Token: «_una, S0B1Lemma: «_beato, S0B1LemmaPOS: «_A, S0B1POS: F_A, S0B1POSLemma: F_beato, S0B1Token: «_beata, S0Lemma: «, S0POS: F, S0Token: «, transitionHistoryLength3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [una, beata, e ,.. ]
-
-B0Lemma: una, B0POS: R, B0Token: una, transitionHistoryLength3: 020, 
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [una]   B= [beata, e, quieta ,.. ]
-
-B0Lemma: beato, B0POS: A, B0Token: beata, S0B0Lemma: una_beato, S0B0LemmaPOS: una_A, S0B0POS: R_A, S0B0POSLemma: R_beato, S0B0Token: una_beata, S0B1Lemma: una_e, S0B1LemmaPOS: una_C, S0B1POS: R_C, S0B1POSLemma: R_e, S0B1Token: una_e, S0Lemma: una, S0POS: R, S0Token: una, transitionHistoryLength3: 202, una_isGouvernedBy_beato: true, una_isGouvernedBy_beato_det: true, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [beata, e, quieta ,.. ]
-
-B0Lemma: beato, B0POS: A, B0Token: beata, transitionHistoryLength3: 020, 
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [beata]   B= [e, quieta, arcadia ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: beato_e, S0B0LemmaPOS: beato_C, S0B0POS: A_C, S0B0POSLemma: A_e, S0B0Token: beata_e, S0B1Lemma: beato_quieto, S0B1LemmaPOS: beato_A, S0B1POS: A_A, S0B1POSLemma: A_quieto, S0B1Token: beata_quieta, S0Lemma: beato, S0POS: A, S0Token: beata, beato_e_hasRighDep_con: true, beato_hasRighDep_con: true, beato_hasRighDep_conj: true, beato_isGouvernedBy_arcadia: true, beato_isGouvernedBy_arcadia_mod: true, beato_quieto_hasRighDep_conj: true, hasRighDep_con: true, hasRighDep_conj: true, transitionHistoryLength3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, quieta, arcadia ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
-
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [quieta, arcadia, , ,.. ]
-
-B0Lemma: quieto, B0POS: A, B0Token: quieta, S0B0Lemma: e_quieto, S0B0LemmaPOS: e_A, S0B0POS: C_A, S0B0POSLemma: C_quieto, S0B0Token: e_quieta, S0B1Lemma: e_arcadia, S0B1LemmaPOS: e_S, S0B1POS: C_S, S0B1POSLemma: C_arcadia, S0B1Token: e_arcadia, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
-
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [quieta, arcadia, , ,.. ]
-
-B0Lemma: quieto, B0POS: A, B0Token: quieta, transitionHistoryLength3: 020, 
-
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [quieta]   B= [arcadia, ,, dove ,.. ]
-
-B0Lemma: arcadia, B0POS: S, B0Token: arcadia, S0B0Lemma: quieto_arcadia, S0B0LemmaPOS: quieto_S, S0B0POS: A_S, S0B0POSLemma: A_arcadia, S0B0Token: quieta_arcadia, S0B1Lemma: quieto_,, S0B1LemmaPOS: quieto_F, S0B1POS: A_F, S0B1POSLemma: A_,, S0B1Token: quieta_,, S0Lemma: quieto, S0POS: A, S0Token: quieta, transitionHistoryLength3: 202, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [arcadia, ,, dove ,.. ]
-
-B0Lemma: arcadia, B0POS: S, B0Token: arcadia, transitionHistoryLength3: 020, 
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [arcadia]   B= [,, dove, tutto ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: arcadia_,, S0B0LemmaPOS: arcadia_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: arcadia_,, S0B1Lemma: arcadia_dove, S0B1LemmaPOS: arcadia_B, S0B1POS: S_B, S0B1POSLemma: S_dove, S0B1Token: arcadia_dove, S0Lemma: arcadia, S0POS: S, S0Token: arcadia, transitionHistoryLength3: 202, 
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, dove, tutto ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [dove, tutto, va ,.. ]
-
-B0Lemma: dove, B0POS: B, B0Token: dove, S0B0Lemma: ,_dove, S0B0LemmaPOS: ,_B, S0B0POS: F_B, S0B0POSLemma: F_dove, S0B0Token: ,_dove, S0B1Lemma: ,_tutto, S0B1LemmaPOS: ,_P, S0B1POS: F_P, S0B1POSLemma: F_tutto, S0B1Token: ,_tutto, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dove, tutto, va ,.. ]
-
-B0Lemma: dove, B0POS: B, B0Token: dove, transitionHistoryLength3: 020, 
-
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dove]   B= [tutto, va, per ,.. ]
-
-B0Lemma: tutto, B0POS: P, B0Token: tutto, S0B0Lemma: dove_tutto, S0B0LemmaPOS: dove_P, S0B0POS: B_P, S0B0POSLemma: B_tutto, S0B0Token: dove_tutto, S0B1Lemma: dove_andare, S0B1LemmaPOS: dove_V, S0B1POS: B_V, S0B1POSLemma: B_andare, S0B1Token: dove_va, S0Lemma: dove, S0POS: B, S0Token: dove, dove_isGouvernedBy_andare: true, dove_isGouvernedBy_andare_mod_loc: true, transitionHistoryLength3: 202, 
-
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tutto, va, per ,.. ]
-
-B0Lemma: tutto, B0POS: P, B0Token: tutto, transitionHistoryLength3: 020, 
-
-89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tutto]   B= [va, per, il ,.. ]
-
-B0Lemma: andare, B0POS: V, B0Token: va, S0B0Lemma: tutto_andare, S0B0LemmaPOS: tutto_V, S0B0POS: P_V, S0B0POSLemma: P_andare, S0B0Token: tutto_va, S0B1Lemma: tutto_per, S0B1LemmaPOS: tutto_E, S0B1POS: P_E, S0B1POSLemma: P_per, S0B1Token: tutto_per, S0Lemma: tutto, S0POS: P, S0Token: tutto, transitionHistoryLength3: 202, tutto_isGouvernedBy_andare: true, tutto_isGouvernedBy_andare_subj: true, 
-
-90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [va, per, il ,.. ]
-
-B0Lemma: andare, B0POS: V, B0Token: va, transitionHistoryLength3: 020, 
-
-91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va]   B= [per, il, suo ,.. ]
-
-B0Lemma: per, B0POS: E, B0Token: per, S0B0Lemma: andare_per, S0B0LemmaPOS: andare_E, S0B0POS: V_E, S0B0POSLemma: V_per, S0B0Token: va_per, S0B1Lemma: andare_il, S0B1LemmaPOS: andare_R, S0B1POS: V_R, S0B1POSLemma: V_il, S0B1Token: va_il, S0Lemma: andare, S0POS: V, S0Token: va, andare_hasRighDep_comp: true, andare_per_hasRighDep_comp: true, hasRighDep_comp: true, transitionHistoryLength3: 202, 
-
-92- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, per]   B= [il, suo, giusto ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: il, S0B0Lemma: per_il, S0B0LemmaPOS: per_R, S0B0POS: E_R, S0B0POSLemma: E_il, S0B0Token: per_il, S0B1Lemma: per_suo, S0B1LemmaPOS: per_A, S0B1POS: E_A, S0B1POSLemma: E_suo, S0B1Token: per_suo, S0Lemma: per, S0POS: E, S0S1Distance: 1, S0Token: per, S1B0Lemma: andare_il, S1B0LemmaPOS: andare_R, S1B0POS: V_R, S1B0POSLemma: V_il, S1B0Token: va_il, S1Lemma: andare, S1POS: V, S1S0Lemma: andare_per, S1S0LemmaPOS: andare_E, S1S0POS: V_E, S1S0POSLemma: V_per, S1S0Token: va_per, S1Token: va, SyntaxicRelation: +comp, hasRighDep_prep: true, per_hasRighDep_prep: true, per_verso_hasRighDep_prep: true, transitionHistoryLength3: 020, 
-
-93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, per, il]   B= [suo, giusto, verso ,.. ]
-
-B0Lemma: suo, B0POS: A, B0Token: suo, S0B0Lemma: il_suo, S0B0LemmaPOS: il_A, S0B0POS: R_A, S0B0POSLemma: R_suo, S0B0Token: il_suo, S0B1Lemma: il_giusto, S0B1LemmaPOS: il_A, S0B1POS: R_A, S0B1POSLemma: R_giusto, S0B1Token: il_giusto, S0Lemma: il, S0POS: R, S0S1Distance: 1, S0Token: il, S1B0Lemma: per_suo, S1B0LemmaPOS: per_A, S1B0POS: E_A, S1B0POSLemma: E_suo, S1B0Token: per_suo, S1Lemma: per, S1POS: E, S1S0Lemma: per_il, S1S0LemmaPOS: per_R, S1S0POS: E_R, S1S0POSLemma: E_il, S1S0Token: per_il, S1Token: per, il_isGouvernedBy_verso: true, il_isGouvernedBy_verso_det: true, transitionHistoryLength3: 002, 
-
-94- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, per, il, suo]   B= [giusto, verso, , ,.. ]
-
-B0Lemma: giusto, B0POS: A, B0Token: giusto, S0B0Lemma: suo_giusto, S0B0LemmaPOS: suo_A, S0B0POS: A_A, S0B0POSLemma: A_giusto, S0B0Token: suo_giusto, S0B1Lemma: suo_verso, S0B1LemmaPOS: suo_S, S0B1POS: A_S, S0B1POSLemma: A_verso, S0B1Token: suo_verso, S0Lemma: suo, S0POS: A, S0S1Distance: 1, S0Token: suo, S1B0Lemma: il_giusto, S1B0LemmaPOS: il_A, S1B0POS: R_A, S1B0POSLemma: R_giusto, S1B0Token: il_giusto, S1Lemma: il, S1POS: R, S1S0Lemma: il_suo, S1S0LemmaPOS: il_A, S1S0POS: R_A, S1S0POSLemma: R_suo, S1S0Token: il_suo, S1Token: il, suo_isGouvernedBy_verso: true, suo_isGouvernedBy_verso_mod: true, transitionHistoryLength3: 000, 
-
-95- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, per, il]   B= [giusto, verso, , ,.. ]
-
-B0Lemma: giusto, B0POS: A, B0Token: giusto, S0B0Lemma: il_giusto, S0B0LemmaPOS: il_A, S0B0POS: R_A, S0B0POSLemma: R_giusto, S0B0Token: il_giusto, S0B1Lemma: il_verso, S0B1LemmaPOS: il_S, S0B1POS: R_S, S0B1POSLemma: R_verso, S0B1Token: il_verso, S0Lemma: il, S0POS: R, S0S1Distance: 1, S0Token: il, S1B0Lemma: per_giusto, S1B0LemmaPOS: per_A, S1B0POS: E_A, S1B0POSLemma: E_giusto, S1B0Token: per_giusto, S1Lemma: per, S1POS: E, S1S0Lemma: per_il, S1S0LemmaPOS: per_R, S1S0POS: E_R, S1S0POSLemma: E_il, S1S0Token: per_il, S1Token: per, il_isGouvernedBy_verso: true, il_isGouvernedBy_verso_det: true, transitionHistoryLength3: 000, 
-
-96- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, per, il, giusto]   B= [verso, ,, che ,.. ]
-
-B0Lemma: verso, B0POS: S, B0Token: verso, S0B0Lemma: giusto_verso, S0B0LemmaPOS: giusto_S, S0B0POS: A_S, S0B0POSLemma: A_verso, S0B0Token: giusto_verso, S0B1Lemma: giusto_,, S0B1LemmaPOS: giusto_F, S0B1POS: A_F, S0B1POSLemma: A_,, S0B1Token: giusto_,, S0Lemma: giusto, S0POS: A, S0S1Distance: 2, S0Token: giusto, S1B0Lemma: il_verso, S1B0LemmaPOS: il_S, S1B0POS: R_S, S1B0POSLemma: R_verso, S1B0Token: il_verso, S1Lemma: il, S1POS: R, S1S0Lemma: il_giusto, S1S0LemmaPOS: il_A, S1S0POS: R_A, S1S0POSLemma: R_giusto, S1S0Token: il_giusto, S1Token: il, giusto_isGouvernedBy_verso: true, giusto_isGouvernedBy_verso_mod: true, transitionHistoryLength3: 200, 
-
-97- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, per, il]   B= [verso, ,, che ,.. ]
-
-B0Lemma: verso, B0POS: S, B0Token: verso, S0B0Lemma: il_verso, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_verso, S0B0Token: il_verso, S0B1Lemma: il_,, S0B1LemmaPOS: il_F, S0B1POS: R_F, S0B1POSLemma: R_,, S0B1Token: il_,, S0Lemma: il, S0POS: R, S0S1Distance: 1, S0Token: il, S1B0Lemma: per_verso, S1B0LemmaPOS: per_S, S1B0POS: E_S, S1B0POSLemma: E_verso, S1B0Token: per_verso, S1Lemma: per, S1POS: E, S1S0Lemma: per_il, S1S0LemmaPOS: per_R, S1S0POS: E_R, S1S0POSLemma: E_il, S1S0Token: per_il, S1Token: per, il_isGouvernedBy_verso: true, il_isGouvernedBy_verso_det: true, transitionHistoryLength3: 020, 
-
-98- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, per, il, verso]   B= [,, che, è ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: verso_,, S0B0LemmaPOS: verso_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: verso_,, S0B1Lemma: verso_che, S0B1LemmaPOS: verso_P, S0B1POS: S_P, S0B1POSLemma: S_che, S0B1Token: verso_che, S0Lemma: verso, S0POS: S, S0S1Distance: 3, S0Token: verso, S1B0Lemma: il_,, S1B0LemmaPOS: il_F, S1B0POS: R_F, S1B0POSLemma: R_,, S1B0Token: il_,, S1Lemma: il, S1POS: R, S1S0Lemma: il_verso, S1S0LemmaPOS: il_S, S1S0POS: R_S, S1S0POSLemma: R_verso, S1S0Token: il_verso, S1Token: il, SyntaxicRelation: -det, transitionHistoryLength3: 202, 
-
-99- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, per, [il, verso]]   B= [,, che, è ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: il_verso_,, S0B0LemmaPOS: il_verso_F, S0B0POS: R_S_F, S0B0POSLemma: R_S_,, S0B0Token: il_verso_,, S0B1Lemma: il_verso_che, S0B1LemmaPOS: il_verso_P, S0B1POS: R_S_P, S0B1POSLemma: R_S_che, S0B1Token: il_verso_che, S0Lemma: il_verso, S0POS: R_S, S0Token: il_verso, S1B0Lemma: per_,, S1B0LemmaPOS: per_F, S1B0POS: E_F, S1B0POSLemma: E_,, S1B0Token: per_,, S1Lemma: per, S1POS: E, S1S0Lemma: per_il_verso, S1S0LemmaPOS: per_R_S, S1S0POS: E_R_S, S1S0POSLemma: E_il_verso, S1S0Token: per_il_verso, S1Token: per, transitionHistoryLength3: 020, 
-
-100- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va, [per, [il, verso]]]   B= [,, che, è ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: per_il_verso_,, S0B0LemmaPOS: per_il_verso_F, S0B0POS: E_R_S_F, S0B0POSLemma: E_R_S_,, S0B0Token: per_il_verso_,, S0B1Lemma: per_il_verso_che, S0B1LemmaPOS: per_il_verso_P, S0B1POS: E_R_S_P, S0B1POSLemma: E_R_S_che, S0B1Token: per_il_verso_che, S0Lemma: per_il_verso, S0POS: E_R_S, S0Token: per_il_verso, S1B0Lemma: andare_,, S1B0LemmaPOS: andare_F, S1B0POS: V_F, S1B0POSLemma: V_,, S1B0Token: va_,, S1Lemma: andare, S1POS: V, S1S0Lemma: andare_per_il_verso, S1S0LemmaPOS: andare_E_R_S, S1S0POS: V_E_R_S, S1S0POSLemma: V_per_il_verso, S1S0Token: va_per_il_verso, S1Token: va, transitionHistoryLength3: 102, 
-
-101- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[va, [per, [il, verso]]]]   B= [,, che, è ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: andare_per_il_verso_,, S0B0LemmaPOS: andare_per_il_verso_F, S0B0POS: V_E_R_S_F, S0B0POSLemma: V_E_R_S_,, S0B0Token: va_per_il_verso_,, S0B1Lemma: andare_per_il_verso_che, S0B1LemmaPOS: andare_per_il_verso_P, S0B1POS: V_E_R_S_P, S0B1POSLemma: V_E_R_S_che, S0B1Token: va_per_il_verso_che, S0Lemma: andare_per_il_verso, S0POS: V_E_R_S, S0Token: va_per_il_verso, transitionHistoryLength3: 110, 
-
-102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, che, è ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 111, 
-
-103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [che, è, poi ,.. ]
-
-B0Lemma: che, B0POS: P, B0Token: che, S0B0Lemma: ,_che, S0B0LemmaPOS: ,_P, S0B0POS: F_P, S0B0POSLemma: F_che, S0B0Token: ,_che, S0B1Lemma: ,_essere, S0B1LemmaPOS: ,_V, S0B1POS: F_V, S0B1POSLemma: F_essere, S0B1Token: ,_è, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 211, 
-
-104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, è, poi ,.. ]
-
-B0Lemma: che, B0POS: P, B0Token: che, transitionHistoryLength3: 021, 
-
-105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [che]   B= [è, poi, il ,.. ]
-
-B0Lemma: essere, B0POS: V, B0Token: è, S0B0Lemma: che_essere, S0B0LemmaPOS: che_V, S0B0POS: P_V, S0B0POSLemma: P_essere, S0B0Token: che_è, S0B1Lemma: che_poi, S0B1LemmaPOS: che_B, S0B1POS: P_B, S0B1POSLemma: P_poi, S0B1Token: che_poi, S0Lemma: che, S0POS: P, S0Token: che, che_isGouvernedBy_essere: true, che_isGouvernedBy_essere_subj: true, transitionHistoryLength3: 202, 
-
-106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [è, poi, il ,.. ]
-
-B0Lemma: essere, B0POS: V, B0Token: è, transitionHistoryLength3: 020, 
-
-107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [è]   B= [poi, il, verso ,.. ]
-
-B0Lemma: poi, B0POS: B, B0Token: poi, S0B0Lemma: essere_poi, S0B0LemmaPOS: essere_B, S0B0POS: V_B, S0B0POSLemma: V_poi, S0B0Token: è_poi, S0B1Lemma: essere_il, S0B1LemmaPOS: essere_R, S0B1POS: V_R, S0B1POSLemma: V_il, S0B1Token: è_il, S0Lemma: essere, S0POS: V, S0Token: è, essere_hasRighDep_mod: true, essere_hasRighDep_pred: true, essere_poi_hasRighDep_mod: true, essere_verso_hasRighDep_pred: true, hasRighDep_mod: true, hasRighDep_pred: true, transitionHistoryLength3: 202, 
-
-108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [poi, il, verso ,.. ]
-
-B0Lemma: poi, B0POS: B, B0Token: poi, transitionHistoryLength3: 020, 
-
-109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [poi]   B= [il, verso, gradito ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: il, S0B0Lemma: poi_il, S0B0LemmaPOS: poi_R, S0B0POS: B_R, S0B0POSLemma: B_il, S0B0Token: poi_il, S0B1Lemma: poi_verso, S0B1LemmaPOS: poi_S, S0B1POS: B_S, S0B1POSLemma: B_verso, S0B1Token: poi_verso, S0Lemma: poi, S0POS: B, S0Token: poi, transitionHistoryLength3: 202, 
-
-110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, verso, gradito ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: il, transitionHistoryLength3: 020, 
-
-111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [verso, gradito, a ,.. ]
-
-B0Lemma: verso, B0POS: S, B0Token: verso, S0B0Lemma: il_verso, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_verso, S0B0Token: il_verso, S0B1Lemma: il_gradire, S0B1LemmaPOS: il_V, S0B1POS: R_V, S0B1POSLemma: R_gradire, S0B1Token: il_gradito, S0Lemma: il, S0POS: R, S0Token: il, il_isGouvernedBy_verso: true, il_isGouvernedBy_verso_det: true, transitionHistoryLength3: 202, 
-
-112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [verso, gradito, a ,.. ]
-
-B0Lemma: verso, B0POS: S, B0Token: verso, transitionHistoryLength3: 020, 
-
-113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [verso]   B= [gradito, a, chi ,.. ]
-
-B0Lemma: gradire, B0POS: V, B0Token: gradito, S0B0Lemma: verso_gradire, S0B0LemmaPOS: verso_V, S0B0POS: S_V, S0B0POSLemma: S_gradire, S0B0Token: verso_gradito, S0B1Lemma: verso_a, S0B1LemmaPOS: verso_E, S0B1POS: S_E, S0B1POSLemma: S_a, S0B1Token: verso_a, S0Lemma: verso, S0POS: S, S0Token: verso, hasRighDep_mod: true, transitionHistoryLength3: 202, verso_gradire_hasRighDep_mod: true, verso_hasRighDep_mod: true, 
-
-114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gradito, a, chi ,.. ]
-
-B0Lemma: gradire, B0POS: V, B0Token: gradito, transitionHistoryLength3: 020, 
-
-115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gradito]   B= [a, chi, sta ,.. ]
-
-B0Lemma: a, B0POS: E, B0Token: a, S0B0Lemma: gradire_a, S0B0LemmaPOS: gradire_E, S0B0POS: V_E, S0B0POSLemma: V_a, S0B0Token: gradito_a, S0B1Lemma: gradire_chi, S0B1LemmaPOS: gradire_P, S0B1POS: V_P, S0B1POSLemma: V_chi, S0B1Token: gradito_chi, S0Lemma: gradire, S0POS: V, S0Token: gradito, gradire_,_hasRighDep_con: true, gradire_a_hasRighDep_comp: true, gradire_e_hasRighDep_con: true, gradire_fare_hasRighDep_conj: true, gradire_hasRighDep_comp: true, gradire_hasRighDep_con: true, gradire_hasRighDep_conj: true, gradire_vivere_hasRighDep_conj: true, hasRighDep_comp: true, hasRighDep_con: true, hasRighDep_conj: true, transitionHistoryLength3: 202, 
-
-116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, chi, sta ,.. ]
-
-B0Lemma: a, B0POS: E, B0Token: a, transitionHistoryLength3: 020, 
-
-117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [chi, sta, in ,.. ]
-
-B0Lemma: chi, B0POS: P, B0Token: chi, S0B0Lemma: a_chi, S0B0LemmaPOS: a_P, S0B0POS: E_P, S0B0POSLemma: E_chi, S0B0Token: a_chi, S0B1Lemma: a_stare, S0B1LemmaPOS: a_V, S0B1POS: E_V, S0B1POSLemma: E_stare, S0B1Token: a_sta, S0Lemma: a, S0POS: E, S0Token: a, a_chi_hasRighDep_prep: true, a_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [chi, sta, in ,.. ]
-
-B0Lemma: chi, B0POS: P, B0Token: chi, transitionHistoryLength3: 020, 
-
-119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [chi]   B= [sta, in, alto ,.. ]
-
-B0Lemma: stare, B0POS: V, B0Token: sta, S0B0Lemma: chi_stare, S0B0LemmaPOS: chi_V, S0B0POS: P_V, S0B0POSLemma: P_stare, S0B0Token: chi_sta, S0B1Lemma: chi_in, S0B1LemmaPOS: chi_E, S0B1POS: P_E, S0B1POSLemma: P_in, S0B1Token: chi_in, S0Lemma: chi, S0POS: P, S0Token: chi, chi_hasRighDep_mod_rel: true, chi_stare_hasRighDep_mod_rel: true, hasRighDep_mod_rel: true, transitionHistoryLength3: 202, 
-
-120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sta, in, alto ,.. ]
-
-B0Lemma: stare, B0POS: V, B0Token: sta, transitionHistoryLength3: 020, 
-
-121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sta]   B= [in, alto, [ ,.. ]
-
-B0Lemma: in, B0POS: E, B0Token: in, S0B0Lemma: stare_in, S0B0LemmaPOS: stare_E, S0B0POS: V_E, S0B0POSLemma: V_in, S0B0Token: sta_in, S0B1Lemma: stare_alto, S0B1LemmaPOS: stare_A, S0B1POS: V_A, S0B1POSLemma: V_alto, S0B1Token: sta_alto, S0Lemma: stare, S0POS: V, S0Token: sta, hasRighDep_comp: true, stare_hasRighDep_comp: true, stare_in_hasRighDep_comp: true, transitionHistoryLength3: 202, 
-
-122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, alto, [ ,.. ]
-
-B0Lemma: in, B0POS: E, B0Token: in, transitionHistoryLength3: 020, 
-
-123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [alto, [, .... ,.. ]
-
-B0Lemma: alto, B0POS: A, B0Token: alto, S0B0Lemma: in_alto, S0B0LemmaPOS: in_A, S0B0POS: E_A, S0B0POSLemma: E_alto, S0B0Token: in_alto, S0B1Lemma: in_[, S0B1LemmaPOS: in_F, S0B1POS: E_F, S0B1POSLemma: E_[, S0B1Token: in_[, S0Lemma: in, S0POS: E, S0Token: in, hasRighDep_prep: true, in_alto_hasRighDep_prep: true, in_hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alto, [, .... ,.. ]
-
-B0Lemma: alto, B0POS: A, B0Token: alto, transitionHistoryLength3: 020, 
-
-125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alto]   B= [[, ...., ] ,.. ]
-
-B0Lemma: [, B0POS: F, B0Token: [, S0B0Lemma: alto_[, S0B0LemmaPOS: alto_F, S0B0POS: A_F, S0B0POSLemma: A_[, S0B0Token: alto_[, S0B1Lemma: alto_...., S0B1LemmaPOS: alto_F, S0B1POS: A_F, S0B1POSLemma: A_...., S0B1Token: alto_...., S0Lemma: alto, S0POS: A, S0Token: alto, alto_...._hasRighDep_punc: true, alto_[_hasRighDep_punc: true, alto_]_hasRighDep_punc: true, alto_hasRighDep_comp: true, alto_hasRighDep_mod: true, alto_hasRighDep_punc: true, alto_in_hasRighDep_comp: true, alto_sincero_hasRighDep_mod: true, hasRighDep_comp: true, hasRighDep_mod: true, hasRighDep_punc: true, transitionHistoryLength3: 202, 
-
-126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [[, ...., ] ,.. ]
-
-B0Lemma: [, B0POS: F, B0Token: [, transitionHistoryLength3: 020, 
-
-127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[]   B= [...., ], in ,.. ]
-
-B0Lemma: ...., B0POS: F, B0Token: ...., S0B0Lemma: [_...., S0B0LemmaPOS: [_F, S0B0POS: F_F, S0B0POSLemma: F_...., S0B0Token: [_...., S0B1Lemma: [_], S0B1LemmaPOS: [_F, S0B1POS: F_F, S0B1POSLemma: F_], S0B1Token: [_], S0Lemma: [, S0POS: F, S0Token: [, transitionHistoryLength3: 202, 
-
-128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [...., ], in ,.. ]
-
-B0Lemma: ...., B0POS: F, B0Token: ...., transitionHistoryLength3: 020, 
-
-129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [....]   B= [], in, lui ,.. ]
-
-B0Lemma: ], B0POS: F, B0Token: ], S0B0Lemma: ...._], S0B0LemmaPOS: ...._F, S0B0POS: F_F, S0B0POSLemma: F_], S0B0Token: ...._], S0B1Lemma: ...._in, S0B1LemmaPOS: ...._E, S0B1POS: F_E, S0B1POSLemma: F_in, S0B1Token: ...._in, S0Lemma: ...., S0POS: F, S0Token: ...., transitionHistoryLength3: 202, 
-
-130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [], in, lui ,.. ]
-
-B0Lemma: ], B0POS: F, B0Token: ], transitionHistoryLength3: 020, 
-
-131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []]   B= [in, lui, , ,.. ]
-
-B0Lemma: in, B0POS: E, B0Token: in, S0B0Lemma: ]_in, S0B0LemmaPOS: ]_E, S0B0POS: F_E, S0B0POSLemma: F_in, S0B0Token: ]_in, S0B1Lemma: ]_lui, S0B1LemmaPOS: ]_P, S0B1POS: F_P, S0B1POSLemma: F_lui, S0B1Token: ]_lui, S0Lemma: ], S0POS: F, S0Token: ], transitionHistoryLength3: 202, 
-
-132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [in, lui, , ,.. ]
-
-B0Lemma: in, B0POS: E, B0Token: in, transitionHistoryLength3: 020, 
-
-133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [in]   B= [lui, ,, profondamente ,.. ]
-
-B0Lemma: lui, B0POS: P, B0Token: lui, S0B0Lemma: in_lui, S0B0LemmaPOS: in_P, S0B0POS: E_P, S0B0POSLemma: E_lui, S0B0Token: in_lui, S0B1Lemma: in_,, S0B1LemmaPOS: in_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: in_,, S0Lemma: in, S0POS: E, S0Token: in, hasRighDep_prep: true, hasRighDep_punc: true, in_,_hasRighDep_punc: true, in_hasRighDep_prep: true, in_hasRighDep_punc: true, in_lui_hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lui, ,, profondamente ,.. ]
-
-B0Lemma: lui, B0POS: P, B0Token: lui, transitionHistoryLength3: 020, 
-
-135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lui]   B= [,, profondamente, sincero ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: lui_,, S0B0LemmaPOS: lui_F, S0B0POS: P_F, S0B0POSLemma: P_,, S0B0Token: lui_,, S0B1Lemma: lui_profondo, S0B1LemmaPOS: lui_B, S0B1POS: P_B, S0B1POSLemma: P_profondo, S0B1Token: lui_profondamente, S0Lemma: lui, S0POS: P, S0Token: lui, transitionHistoryLength3: 202, 
-
-136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, profondamente, sincero ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [profondamente, sincero, e ,.. ]
-
-B0Lemma: profondo, B0POS: B, B0Token: profondamente, S0B0Lemma: ,_profondo, S0B0LemmaPOS: ,_B, S0B0POS: F_B, S0B0POSLemma: F_profondo, S0B0Token: ,_profondamente, S0B1Lemma: ,_sincero, S0B1LemmaPOS: ,_A, S0B1POS: F_A, S0B1POSLemma: F_sincero, S0B1Token: ,_sincero, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [profondamente, sincero, e ,.. ]
-
-B0Lemma: profondo, B0POS: B, B0Token: profondamente, transitionHistoryLength3: 020, 
-
-139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [profondamente]   B= [sincero, e, convinto ,.. ]
-
-B0Lemma: sincero, B0POS: A, B0Token: sincero, S0B0Lemma: profondo_sincero, S0B0LemmaPOS: profondo_A, S0B0POS: B_A, S0B0POSLemma: B_sincero, S0B0Token: profondamente_sincero, S0B1Lemma: profondo_e, S0B1LemmaPOS: profondo_C, S0B1POS: B_C, S0B1POSLemma: B_e, S0B1Token: profondamente_e, S0Lemma: profondo, S0POS: B, S0Token: profondamente, profondo_isGouvernedBy_sincero: true, profondo_isGouvernedBy_sincero_mod: true, transitionHistoryLength3: 202, 
-
-140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sincero, e, convinto ,.. ]
-
-B0Lemma: sincero, B0POS: A, B0Token: sincero, transitionHistoryLength3: 020, 
-
-141- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sincero]   B= [e, convinto, cattolico ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: sincero_e, S0B0LemmaPOS: sincero_C, S0B0POS: A_C, S0B0POSLemma: A_e, S0B0Token: sincero_e, S0B1Lemma: sincero_convincere, S0B1LemmaPOS: sincero_V, S0B1POS: A_V, S0B1POSLemma: A_convincere, S0B1Token: sincero_convinto, S0Lemma: sincero, S0POS: A, S0Token: sincero, hasRighDep_con: true, hasRighDep_conj: true, sincero_convincere_hasRighDep_conj: true, sincero_e_hasRighDep_con: true, sincero_hasRighDep_con: true, sincero_hasRighDep_conj: true, transitionHistoryLength3: 202, 
-
-142- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, convinto, cattolico ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
-
-143- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [convinto, cattolico, , ,.. ]
-
-B0Lemma: convincere, B0POS: V, B0Token: convinto, S0B0Lemma: e_convincere, S0B0LemmaPOS: e_V, S0B0POS: C_V, S0B0POSLemma: C_convincere, S0B0Token: e_convinto, S0B1Lemma: e_cattolico, S0B1LemmaPOS: e_A, S0B1POS: C_A, S0B1POSLemma: C_cattolico, S0B1Token: e_cattolico, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
-
-144- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [convinto, cattolico, , ,.. ]
-
-B0Lemma: convincere, B0POS: V, B0Token: convinto, transitionHistoryLength3: 020, 
-
-145- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [convinto]   B= [cattolico, ,, viveva ,.. ]
-
-B0Lemma: cattolico, B0POS: A, B0Token: cattolico, S0B0Lemma: convincere_cattolico, S0B0LemmaPOS: convincere_A, S0B0POS: V_A, S0B0POSLemma: V_cattolico, S0B0Token: convinto_cattolico, S0B1Lemma: convincere_,, S0B1LemmaPOS: convincere_F, S0B1POS: V_F, S0B1POSLemma: V_,, S0B1Token: convinto_,, S0Lemma: convincere, S0POS: V, S0Token: convinto, convincere_cattolico_hasRighDep_pred: true, convincere_hasRighDep_pred: true, hasRighDep_pred: true, transitionHistoryLength3: 202, 
-
-146- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cattolico, ,, viveva ,.. ]
-
-B0Lemma: cattolico, B0POS: A, B0Token: cattolico, transitionHistoryLength3: 020, 
-
-147- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cattolico]   B= [,, viveva, e ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: cattolico_,, S0B0LemmaPOS: cattolico_F, S0B0POS: A_F, S0B0POSLemma: A_,, S0B0Token: cattolico_,, S0B1Lemma: cattolico_vivere, S0B1LemmaPOS: cattolico_V, S0B1POS: A_V, S0B1POSLemma: A_vivere, S0B1Token: cattolico_viveva, S0Lemma: cattolico, S0POS: A, S0Token: cattolico, transitionHistoryLength3: 202, 
-
-148- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, viveva, e ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-149- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [viveva, e, operava ,.. ]
-
-B0Lemma: vivere, B0POS: V, B0Token: viveva, S0B0Lemma: ,_vivere, S0B0LemmaPOS: ,_V, S0B0POS: F_V, S0B0POSLemma: F_vivere, S0B0Token: ,_viveva, S0B1Lemma: ,_e, S0B1LemmaPOS: ,_C, S0B1POS: F_C, S0B1POSLemma: F_e, S0B1Token: ,_e, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-150- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [viveva, e, operava ,.. ]
-
-B0Lemma: vivere, B0POS: V, B0Token: viveva, transitionHistoryLength3: 020, 
-
-151- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [viveva]   B= [e, operava, sempre ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: vivere_e, S0B0LemmaPOS: vivere_C, S0B0POS: V_C, S0B0POSLemma: V_e, S0B0Token: viveva_e, S0B1Lemma: vivere_operare, S0B1LemmaPOS: vivere_V, S0B1POS: V_V, S0B1POSLemma: V_operare, S0B1Token: viveva_operava, S0Lemma: vivere, S0POS: V, S0Token: viveva, hasRighDep_con: true, hasRighDep_conj: true, transitionHistoryLength3: 202, vivere_e_hasRighDep_con: true, vivere_hasRighDep_con: true, vivere_hasRighDep_conj: true, vivere_operare_hasRighDep_conj: true, 
-
-152- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, operava, sempre ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
-
-153- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [operava, sempre, implicito ,.. ]
-
-B0Lemma: operare, B0POS: V, B0Token: operava, S0B0Lemma: e_operare, S0B0LemmaPOS: e_V, S0B0POS: C_V, S0B0POSLemma: C_operare, S0B0Token: e_operava, S0B1Lemma: e_sempre, S0B1LemmaPOS: e_B, S0B1POS: C_B, S0B1POSLemma: C_sempre, S0B1Token: e_sempre, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
-
-154- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [operava, sempre, implicito ,.. ]
-
-B0Lemma: operare, B0POS: V, B0Token: operava, transitionHistoryLength3: 020, 
-
-155- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [operava]   B= [sempre, implicito, il ,.. ]
-
-B0Lemma: sempre, B0POS: B, B0Token: sempre, S0B0Lemma: operare_sempre, S0B0LemmaPOS: operare_B, S0B0POS: V_B, S0B0POSLemma: V_sempre, S0B0Token: operava_sempre, S0B1Lemma: operare_implicito, S0B1LemmaPOS: operare_A, S0B1POS: V_A, S0B1POSLemma: V_implicito, S0B1Token: operava_implicito, S0Lemma: operare, S0POS: V, S0Token: operava, hasRighDep_obj: true, hasRighDep_pred: true, operare_hasRighDep_obj: true, operare_hasRighDep_pred: true, operare_implicito_hasRighDep_pred: true, operare_senso_hasRighDep_obj: true, transitionHistoryLength3: 202, 
-
-156- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sempre, implicito, il ,.. ]
-
-B0Lemma: sempre, B0POS: B, B0Token: sempre, transitionHistoryLength3: 020, 
-
-157- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sempre]   B= [implicito, il, senso ,.. ]
-
-B0Lemma: implicito, B0POS: A, B0Token: implicito, S0B0Lemma: sempre_implicito, S0B0LemmaPOS: sempre_A, S0B0POS: B_A, S0B0POSLemma: B_implicito, S0B0Token: sempre_implicito, S0B1Lemma: sempre_il, S0B1LemmaPOS: sempre_R, S0B1POS: B_R, S0B1POSLemma: B_il, S0B1Token: sempre_il, S0Lemma: sempre, S0POS: B, S0Token: sempre, sempre_isGouvernedBy_implicito: true, sempre_isGouvernedBy_implicito_mod: true, transitionHistoryLength3: 202, 
-
-158- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [implicito, il, senso ,.. ]
-
-B0Lemma: implicito, B0POS: A, B0Token: implicito, transitionHistoryLength3: 020, 
-
-159- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [implicito]   B= [il, senso, dell' ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: il, S0B0Lemma: implicito_il, S0B0LemmaPOS: implicito_R, S0B0POS: A_R, S0B0POSLemma: A_il, S0B0Token: implicito_il, S0B1Lemma: implicito_senso, S0B1LemmaPOS: implicito_S, S0B1POS: A_S, S0B1POSLemma: A_senso, S0B1Token: implicito_senso, S0Lemma: implicito, S0POS: A, S0Token: implicito, transitionHistoryLength3: 202, 
-
-160- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il, senso, dell' ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: il, transitionHistoryLength3: 020, 
-
-161- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il]   B= [senso, dell', uguaglianza ,.. ]
-
-B0Lemma: senso, B0POS: S, B0Token: senso, S0B0Lemma: il_senso, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_senso, S0B0Token: il_senso, S0B1Lemma: il_di, S0B1LemmaPOS: il_E, S0B1POS: R_E, S0B1POSLemma: R_di, S0B1Token: il_dell', S0Lemma: il, S0POS: R, S0Token: il, il_isGouvernedBy_senso: true, il_isGouvernedBy_senso_det: true, transitionHistoryLength3: 202, 
-
-162- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [senso, dell', uguaglianza ,.. ]
-
-B0Lemma: senso, B0POS: S, B0Token: senso, transitionHistoryLength3: 020, 
-
-163- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [senso]   B= [dell', uguaglianza, delle ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: dell', S0B0Lemma: senso_di, S0B0LemmaPOS: senso_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: senso_dell', S0B1Lemma: senso_uguaglianza, S0B1LemmaPOS: senso_S, S0B1POS: S_S, S0B1POSLemma: S_uguaglianza, S0B1Token: senso_uguaglianza, S0Lemma: senso, S0POS: S, S0Token: senso, hasRighDep_comp: true, senso_di_hasRighDep_comp: true, senso_hasRighDep_comp: true, transitionHistoryLength3: 202, 
-
-164- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dell', uguaglianza, delle ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: dell', transitionHistoryLength3: 020, 
-
-165- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dell']   B= [uguaglianza, delle, anime ,.. ]
-
-B0Lemma: uguaglianza, B0POS: S, B0Token: uguaglianza, S0B0Lemma: di_uguaglianza, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_uguaglianza, S0B0Token: dell'_uguaglianza, S0B1Lemma: di_di, S0B1LemmaPOS: di_E, S0B1POS: E_E, S0B1POSLemma: E_di, S0B1Token: dell'_delle, S0Lemma: di, S0POS: E, S0Token: dell', di_hasRighDep_prep: true, di_uguaglianza_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-166- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [uguaglianza, delle, anime ,.. ]
-
-B0Lemma: uguaglianza, B0POS: S, B0Token: uguaglianza, transitionHistoryLength3: 020, 
-
-167- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [uguaglianza]   B= [delle, anime, , ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: delle, S0B0Lemma: uguaglianza_di, S0B0LemmaPOS: uguaglianza_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: uguaglianza_delle, S0B1Lemma: uguaglianza_anime, S0B1LemmaPOS: uguaglianza_S, S0B1POS: S_S, S0B1POSLemma: S_anime, S0B1Token: uguaglianza_anime, S0Lemma: uguaglianza, S0POS: S, S0Token: uguaglianza, hasRighDep_comp: true, transitionHistoryLength3: 202, uguaglianza_di_hasRighDep_comp: true, uguaglianza_hasRighDep_comp: true, 
-
-168- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [delle, anime, , ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: delle, transitionHistoryLength3: 020, 
-
-169- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [delle]   B= [anime, ,, e ,.. ]
-
-B0Lemma: anime, B0POS: S, B0Token: anime, S0B0Lemma: di_anime, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_anime, S0B0Token: delle_anime, S0B1Lemma: di_,, S0B1LemmaPOS: di_F, S0B1POS: E_F, S0B1POSLemma: E_,, S0B1Token: delle_,, S0Lemma: di, S0POS: E, S0Token: delle, di_anime_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-170- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [anime, ,, e ,.. ]
-
-B0Lemma: anime, B0POS: S, B0Token: anime, transitionHistoryLength3: 020, 
-
-171- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [anime]   B= [,, e, questo ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: anime_,, S0B0LemmaPOS: anime_F, S0B0POS: S_F, S0B0POSLemma: S_,, S0B0Token: anime_,, S0B1Lemma: anime_e, S0B1LemmaPOS: anime_C, S0B1POS: S_C, S0B1POSLemma: S_e, S0B1Token: anime_e, S0Lemma: anime, S0POS: S, S0Token: anime, transitionHistoryLength3: 202, 
-
-172- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, e, questo ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-173- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [e, questo, non ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, S0B0Lemma: ,_e, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_e, S0B0Token: ,_e, S0B1Lemma: ,_questo, S0B1LemmaPOS: ,_P, S0B1POS: F_P, S0B1POSLemma: F_questo, S0B1Token: ,_questo, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-174- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [e, questo, non ,.. ]
-
-B0Lemma: e, B0POS: C, B0Token: e, transitionHistoryLength3: 020, 
-
-175- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [e]   B= [questo, non, gli ,.. ]
-
-B0Lemma: questo, B0POS: P, B0Token: questo, S0B0Lemma: e_questo, S0B0LemmaPOS: e_P, S0B0POS: C_P, S0B0POSLemma: C_questo, S0B0Token: e_questo, S0B1Lemma: e_non, S0B1LemmaPOS: e_B, S0B1POS: C_B, S0B1POSLemma: C_non, S0B1Token: e_non, S0Lemma: e, S0POS: C, S0Token: e, transitionHistoryLength3: 202, 
-
-176- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [questo, non, gli ,.. ]
-
-B0Lemma: questo, B0POS: P, B0Token: questo, transitionHistoryLength3: 020, 
-
-177- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [questo]   B= [non, gli, faceva ,.. ]
-
-B0Lemma: non, B0POS: B, B0Token: non, S0B0Lemma: questo_non, S0B0LemmaPOS: questo_B, S0B0POS: P_B, S0B0POSLemma: P_non, S0B0Token: questo_non, S0B1Lemma: questo_gli, S0B1LemmaPOS: questo_P, S0B1POS: P_P, S0B1POSLemma: P_gli, S0B1Token: questo_gli, S0Lemma: questo, S0POS: P, S0Token: questo, questo_isGouvernedBy_fare: true, questo_isGouvernedBy_fare_subj: true, transitionHistoryLength3: 202, 
-
-178- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [non, gli, faceva ,.. ]
-
-B0Lemma: non, B0POS: B, B0Token: non, transitionHistoryLength3: 020, 
-
-179- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [non]   B= [gli, faceva, avvertire ,.. ]
-
-B0Lemma: gli, B0POS: P, B0Token: gli, S0B0Lemma: non_gli, S0B0LemmaPOS: non_P, S0B0POS: B_P, S0B0POSLemma: B_gli, S0B0Token: non_gli, S0B1Lemma: non_fare, S0B1LemmaPOS: non_V, S0B1POS: B_V, S0B1POSLemma: B_fare, S0B1Token: non_faceva, S0Lemma: non, S0POS: B, S0Token: non, non_isGouvernedBy_fare: true, non_isGouvernedBy_fare_neg: true, transitionHistoryLength3: 202, 
-
-180- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gli, faceva, avvertire ,.. ]
-
-B0Lemma: gli, B0POS: P, B0Token: gli, transitionHistoryLength3: 020, 
-
-181- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gli]   B= [faceva, avvertire, , ,.. ]
-
-B0Lemma: fare, B0POS: V, B0Token: faceva, S0B0Lemma: gli_fare, S0B0LemmaPOS: gli_V, S0B0POS: P_V, S0B0POSLemma: P_fare, S0B0Token: gli_faceva, S0B1Lemma: gli_avvertire, S0B1LemmaPOS: gli_V, S0B1POS: P_V, S0B1POSLemma: P_avvertire, S0B1Token: gli_avvertire, S0Lemma: gli, S0POS: P, S0Token: gli, gli_isGouvernedBy_fare: true, gli_isGouvernedBy_fare_comp_ind: true, transitionHistoryLength3: 202, 
-
-182- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [faceva, avvertire, , ,.. ]
-
-B0Lemma: fare, B0POS: V, B0Token: faceva, transitionHistoryLength3: 020, 
-
-183- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [faceva]   B= [avvertire, ,, o ,.. ]
-
-B0Lemma: avvertire, B0POS: V, B0Token: avvertire, S0B0Lemma: fare_avvertire, S0B0LemmaPOS: fare_V, S0B0POS: V_V, S0B0POSLemma: V_avvertire, S0B0Token: faceva_avvertire, S0B1Lemma: fare_,, S0B1LemmaPOS: fare_F, S0B1POS: V_F, S0B1POSLemma: V_,, S0B1Token: faceva_,, S0Lemma: fare, S0POS: V, S0Token: faceva, fare_avvertire_hasRighDep_arg: true, fare_fare_hasRighDep_conj: true, fare_hasRighDep_arg: true, fare_hasRighDep_conj: true, fare_hasRighDep_dis: true, fare_o_hasRighDep_dis: true, hasRighDep_arg: true, hasRighDep_conj: true, hasRighDep_dis: true, transitionHistoryLength3: 202, 
-
-184- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [avvertire, ,, o ,.. ]
-
-B0Lemma: avvertire, B0POS: V, B0Token: avvertire, transitionHistoryLength3: 020, 
-
-185- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [avvertire]   B= [,, o, gliela ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: avvertire_,, S0B0LemmaPOS: avvertire_F, S0B0POS: V_F, S0B0POSLemma: V_,, S0B0Token: avvertire_,, S0B1Lemma: avvertire_o, S0B1LemmaPOS: avvertire_C, S0B1POS: V_C, S0B1POSLemma: V_o, S0B1Token: avvertire_o, S0Lemma: avvertire, S0POS: V, S0Token: avvertire, transitionHistoryLength3: 202, 
-
-186- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, o, gliela ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-187- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [o, gliela, faceva ,.. ]
-
-,_isGouvernedBy_o: true, ,_isGouvernedBy_o_punc: true, B0Lemma: o, B0POS: C, B0Token: o, S0B0Lemma: ,_o, S0B0LemmaPOS: ,_C, S0B0POS: F_C, S0B0POSLemma: F_o, S0B0Token: ,_o, S0B1Lemma: ,_gliela, S0B1LemmaPOS: ,_P, S0B1POS: F_P, S0B1POSLemma: F_gliela, S0B1Token: ,_gliela, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-188- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, gliela, faceva ,.. ]
-
-B0Lemma: o, B0POS: C, B0Token: o, transitionHistoryLength3: 020, 
-
-189- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [gliela, faceva, avvertire ,.. ]
-
-B0Lemma: gliela, B0POS: P, B0Token: gliela, S0B0Lemma: o_gliela, S0B0LemmaPOS: o_P, S0B0POS: C_P, S0B0POSLemma: C_gliela, S0B0Token: o_gliela, S0B1Lemma: o_fare, S0B1LemmaPOS: o_V, S0B1POS: C_V, S0B1POSLemma: C_fare, S0B1Token: o_faceva, S0Lemma: o, S0POS: C, S0Token: o, transitionHistoryLength3: 202, 
-
-190- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gliela, faceva, avvertire ,.. ]
-
-B0Lemma: gliela, B0POS: P, B0Token: gliela, transitionHistoryLength3: 020, 
-
-191- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gliela]   B= [faceva, avvertire, troppo ,.. ]
-
-B0Lemma: fare, B0POS: V, B0Token: faceva, S0B0Lemma: gliela_fare, S0B0LemmaPOS: gliela_V, S0B0POS: P_V, S0B0POSLemma: P_fare, S0B0Token: gliela_faceva, S0B1Lemma: gliela_avvertire, S0B1LemmaPOS: gliela_V, S0B1POS: P_V, S0B1POSLemma: P_avvertire, S0B1Token: gliela_avvertire, S0Lemma: gliela, S0POS: P, S0Token: gliela, gliela_isGouvernedBy_fare: true, gliela_isGouvernedBy_fare_comp_ind: true, transitionHistoryLength3: 202, 
-
-192- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [faceva, avvertire, troppo ,.. ]
-
-B0Lemma: fare, B0POS: V, B0Token: faceva, transitionHistoryLength3: 020, 
-
-193- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [faceva]   B= [avvertire, troppo, scarsamente ,.. ]
-
-B0Lemma: avvertire, B0POS: V, B0Token: avvertire, S0B0Lemma: fare_avvertire, S0B0LemmaPOS: fare_V, S0B0POS: V_V, S0B0POSLemma: V_avvertire, S0B0Token: faceva_avvertire, S0B1Lemma: fare_troppo, S0B1LemmaPOS: fare_B, S0B1POS: V_B, S0B1POSLemma: V_troppo, S0B1Token: faceva_troppo, S0Lemma: fare, S0POS: V, S0Token: faceva, fare_avvertire_hasRighDep_arg: true, fare_hasRighDep_arg: true, hasRighDep_arg: true, transitionHistoryLength3: 202, 
-
-194- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [avvertire, troppo, scarsamente ,.. ]
-
-B0Lemma: avvertire, B0POS: V, B0Token: avvertire, transitionHistoryLength3: 020, 
-
-195- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [avvertire]   B= [troppo, scarsamente, , ,.. ]
-
-B0Lemma: troppo, B0POS: B, B0Token: troppo, S0B0Lemma: avvertire_troppo, S0B0LemmaPOS: avvertire_B, S0B0POS: V_B, S0B0POSLemma: V_troppo, S0B0Token: avvertire_troppo, S0B1Lemma: avvertire_scarso, S0B1LemmaPOS: avvertire_B, S0B1POS: V_B, S0B1POSLemma: V_scarso, S0B1Token: avvertire_scarsamente, S0Lemma: avvertire, S0POS: V, S0Token: avvertire, avvertire_hasRighDep_mod: true, avvertire_hasRighDep_obj: true, avvertire_ingiustizia_hasRighDep_obj: true, avvertire_scarso_hasRighDep_mod: true, hasRighDep_mod: true, hasRighDep_obj: true, transitionHistoryLength3: 202, 
-
-196- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [troppo, scarsamente, , ,.. ]
-
-B0Lemma: troppo, B0POS: B, B0Token: troppo, transitionHistoryLength3: 020, 
-
-197- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [troppo]   B= [scarsamente, ,, l' ,.. ]
-
-B0Lemma: scarso, B0POS: B, B0Token: scarsamente, S0B0Lemma: troppo_scarso, S0B0LemmaPOS: troppo_B, S0B0POS: B_B, S0B0POSLemma: B_scarso, S0B0Token: troppo_scarsamente, S0B1Lemma: troppo_,, S0B1LemmaPOS: troppo_F, S0B1POS: B_F, S0B1POSLemma: B_,, S0B1Token: troppo_,, S0Lemma: troppo, S0POS: B, S0Token: troppo, transitionHistoryLength3: 202, troppo_isGouvernedBy_scarso: true, troppo_isGouvernedBy_scarso_mod: true, 
-
-198- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [scarsamente, ,, l' ,.. ]
-
-B0Lemma: scarso, B0POS: B, B0Token: scarsamente, transitionHistoryLength3: 020, 
-
-199- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [scarsamente]   B= [,, l', ingiustizia ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, S0B0Lemma: scarso_,, S0B0LemmaPOS: scarso_F, S0B0POS: B_F, S0B0POSLemma: B_,, S0B0Token: scarsamente_,, S0B1Lemma: scarso_il, S0B1LemmaPOS: scarso_R, S0B1POS: B_R, S0B1POSLemma: B_il, S0B1Token: scarsamente_l', S0Lemma: scarso, S0POS: B, S0Token: scarsamente, hasRighDep_punc: true, scarso_,_hasRighDep_punc: true, scarso_hasRighDep_punc: true, transitionHistoryLength3: 202, 
-
-200- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, l', ingiustizia ,.. ]
-
-B0Lemma: ,, B0POS: F, B0Token: ,, transitionHistoryLength3: 020, 
-
-201- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [l', ingiustizia, delle ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: l', S0B0Lemma: ,_il, S0B0LemmaPOS: ,_R, S0B0POS: F_R, S0B0POSLemma: F_il, S0B0Token: ,_l', S0B1Lemma: ,_ingiustizia, S0B1LemmaPOS: ,_S, S0B1POS: F_S, S0B1POSLemma: F_ingiustizia, S0B1Token: ,_ingiustizia, S0Lemma: ,, S0POS: F, S0Token: ,, transitionHistoryLength3: 202, 
-
-202- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l', ingiustizia, delle ,.. ]
-
-B0Lemma: il, B0POS: R, B0Token: l', transitionHistoryLength3: 020, 
-
-203- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l']   B= [ingiustizia, delle, disparità ,.. ]
-
-B0Lemma: ingiustizia, B0POS: S, B0Token: ingiustizia, S0B0Lemma: il_ingiustizia, S0B0LemmaPOS: il_S, S0B0POS: R_S, S0B0POSLemma: R_ingiustizia, S0B0Token: l'_ingiustizia, S0B1Lemma: il_di, S0B1LemmaPOS: il_E, S0B1POS: R_E, S0B1POSLemma: R_di, S0B1Token: l'_delle, S0Lemma: il, S0POS: R, S0Token: l', il_isGouvernedBy_ingiustizia: true, il_isGouvernedBy_ingiustizia_det: true, transitionHistoryLength3: 202, 
-
-204- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ingiustizia, delle, disparità ,.. ]
-
-B0Lemma: ingiustizia, B0POS: S, B0Token: ingiustizia, transitionHistoryLength3: 020, 
-
-205- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ingiustizia]   B= [delle, disparità, sociali ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: delle, S0B0Lemma: ingiustizia_di, S0B0LemmaPOS: ingiustizia_E, S0B0POS: S_E, S0B0POSLemma: S_di, S0B0Token: ingiustizia_delle, S0B1Lemma: ingiustizia_disparità, S0B1LemmaPOS: ingiustizia_S, S0B1POS: S_S, S0B1POSLemma: S_disparità, S0B1Token: ingiustizia_disparità, S0Lemma: ingiustizia, S0POS: S, S0Token: ingiustizia, hasRighDep_comp: true, ingiustizia_di_hasRighDep_comp: true, ingiustizia_hasRighDep_comp: true, transitionHistoryLength3: 202, 
-
-206- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [delle, disparità, sociali ,.. ]
-
-B0Lemma: di, B0POS: E, B0Token: delle, transitionHistoryLength3: 020, 
-
-207- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [delle]   B= [disparità, sociali, . ,.. ]
-
-B0Lemma: disparità, B0POS: S, B0Token: disparità, S0B0Lemma: di_disparità, S0B0LemmaPOS: di_S, S0B0POS: E_S, S0B0POSLemma: E_disparità, S0B0Token: delle_disparità, S0B1Lemma: di_sociale, S0B1LemmaPOS: di_A, S0B1POS: E_A, S0B1POSLemma: E_sociale, S0B1Token: delle_sociali, S0Lemma: di, S0POS: E, S0Token: delle, di_disparità_hasRighDep_prep: true, di_hasRighDep_prep: true, hasRighDep_prep: true, transitionHistoryLength3: 202, 
-
-208- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [disparità, sociali, . ,.. ]
-
-B0Lemma: disparità, B0POS: S, B0Token: disparità, transitionHistoryLength3: 020, 
-
-209- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [disparità]   B= [sociali, . ,.. ]
-
-B0Lemma: sociale, B0POS: A, B0Token: sociali, S0B0Lemma: disparità_sociale, S0B0LemmaPOS: disparità_A, S0B0POS: S_A, S0B0POSLemma: S_sociale, S0B0Token: disparità_sociali, S0B1Lemma: disparità_., S0B1LemmaPOS: disparità_F, S0B1POS: S_F, S0B1POSLemma: S_., S0B1Token: disparità_., S0Lemma: disparità, S0POS: S, S0Token: disparità, disparità_hasRighDep_mod: true, disparità_sociale_hasRighDep_mod: true, hasRighDep_mod: true, transitionHistoryLength3: 202, 
-
-210- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sociali, . ,.. ]
-
-B0Lemma: sociale, B0POS: A, B0Token: sociali, transitionHistoryLength3: 020, 
-
-211- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sociali]   B= [.]
-
-B0Lemma: ., B0POS: F, B0Token: ., S0B0Lemma: sociale_., S0B0LemmaPOS: sociale_F, S0B0POS: A_F, S0B0POSLemma: A_., S0B0Token: sociali_., S0Lemma: sociale, S0POS: A, S0Token: sociali, transitionHistoryLength3: 202, 
-
-212- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0Lemma: ., B0POS: F, B0Token: ., transitionHistoryLength3: 020, 
-
-213- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0Lemma: ., S0POS: F, S0Token: ., transitionHistoryLength3: 202, 
-
-214- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

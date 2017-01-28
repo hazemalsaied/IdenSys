@@ -6,12 +6,12 @@ from param import Parameters
 
 
 class Report:
-    NumOFSent = '## Number of Sentences: '
-    NumOFMWEs = '\n## Number of MWEs: '
-    NumOFEmbedded = '\n## Number of Embedded MWEs: '
-    NumOFInterleaving = '\n## Number of Interleaving MWEs: '
-    NumContinousMWEs = '\n## Number of Continous MWEs: '
-    NumSingleWordMWEs = '\n## Number of Single Word MWEs: '
+    NumOFSent = '### Number of Sentences: '
+    NumOFMWEs = '\n### Number of MWEs: '
+    NumOFEmbedded = '\n### Number of Embedded MWEs: '
+    NumOFInterleaving = '\n### Number of Interleaving MWEs: '
+    NumContinousMWEs = '\n### Number of Continous MWEs: '
+    NumSingleWordMWEs = '\n### Number of Single Word MWEs: '
 
     @staticmethod
     def createLanguageFolder(langName):
@@ -38,7 +38,7 @@ class Report:
                 corpus.mweNum) + '\n' + Report.NumOFEmbedded + str(
                 corpus.emeddedNum) + '\n' + Report.NumOFInterleaving + str(
                 corpus.intereavingNum) + '\n' + Report.NumContinousMWEs + str(
-                corpus.continousExp) + Report.NumSingleWordMWEs + str(corpus.singleWordExp)
+                corpus.continousExp) + '\n'+ Report.NumSingleWordMWEs + str(corpus.singleWordExp)
             Report.editReadme('w', result)
 
     @staticmethod
@@ -126,18 +126,9 @@ class Report:
 
     @staticmethod
     def editTotalReadMe(fScore, recall, precision, corpus):
-        report = '### The Score of the experiementation ' + str(
-            Parameters.xpName) + ' is' + '\n' + 'F-score: ' + str(
-            "%.3f" % fScore) + ' ,Recall: ' + str("%.3f" % recall) + ' ,Precision: ' + str(
-            "%.3f" % precision) + '\n\n'
-        with open(Parameters.readMe, "a") as staticParsingFile:
-            staticParsingFile.write(report)
-
-        report = Parameters.languageName + ',' + Parameters.xpName + ',' + str(
-            "%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str("%.3f" % precision) + ',' + str(
-            corpus.sentNum) + ',' + str(corpus.mweNum) + ',' + str(
-            corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + str(
-            corpus.singleWordExp) + ',' + str(
-            corpus.emeddedNum) + ',' + Parameters.toBinary() + ',' '\n'
+        report = Parameters.languageName  + ',' + str("%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + \
+                 str("%.3f" % precision) + ',' + str(corpus.sentNum) + ',' + str(corpus.mweNum) + ',' + str(
+            corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + str(corpus.singleWordExp) +\
+                 ',' + str(corpus.emeddedNum) + ',' + Parameters.toBinary() + '\n'
         with open(Parameters.results, "a") as staticParsingFile:
             staticParsingFile.write(report)

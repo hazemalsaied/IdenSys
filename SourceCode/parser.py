@@ -89,8 +89,8 @@ class Parser:
         transDic = {}
         elemIdx = 0
         configuration = transition.configuration
-        if Parameters.useStackLength and len(configuration.stack) > 0:
-            transDic['StackLength'] = len(configuration.stack)
+        if Parameters.useStackLength and len(configuration.stack) > 1:
+            transDic['StackLengthIs'] = len(configuration.stack)
         if len(configuration.stack) >= 2:
             stackElements = [configuration.stack[-2], configuration.stack[-1]]
         else:
@@ -141,22 +141,28 @@ class Parser:
 
     @staticmethod
     def addTransitionHistory(transition, transDic):
-        transitionHistoryLength1 = ''
-        transitionHistoryLength2 = ''
-        transitionHistoryLength3 = ''
-        if transition.previous is not None and transition.previous.type is not None:
-            transitionHistoryLength1 = str(transition.previous.type.value)
-            if transition.previous.previous is not None and transition.previous.previous.type is not None:
-                transitionHistoryLength2 = transitionHistoryLength1 + str(transition.previous.previous.type.value)
-                if transition.previous.previous.previous is not None and transition.previous.previous.previous.type is not None:
-                    transitionHistoryLength3 = transitionHistoryLength2 + str(
-                        transition.previous.previous.previous.type.value)
-        if Parameters.transitionHistoryLength1 and transitionHistoryLength1.strip() != '':
-            transDic['transitionHistoryLength1'] = transitionHistoryLength1
-        if Parameters.transitionHistoryLength2 and transitionHistoryLength2.strip() != '':
-            transDic['transitionHistoryLength2'] = transitionHistoryLength2
-        if Parameters.transitionHistoryLength3 and transitionHistoryLength3.strip() != '':
-            transDic['transitionHistoryLength3'] = transitionHistoryLength3
+
+        if Parameters.transitionHistoryLength1:
+            Parser.getTransitionHistory(transition, 1, 'TransHistory1', transDic)
+        if Parameters.transitionHistoryLength2:
+            Parser.getTransitionHistory(transition, 2, 'TransHistory2', transDic)
+        if Parameters.transitionHistoryLength3:
+            Parser.getTransitionHistory(transition, 3, 'TransHistory3', transDic)
+
+    @staticmethod
+    def getTransitionHistory(transition, length, label, transDic):
+        idx = 0
+        history = ''
+        transRef = transition
+        transition = transition.previous
+        while transition is not None and idx < length:
+            if transition.type is not None:
+                history += str(transition.type.value)
+            transition = transition.previous
+            idx += 1
+        if len(history) == length:
+            transDic[label] = history
+        transition = transRef
 
     @staticmethod
     def generateLinguisticFeatures(token, label, transDic):
