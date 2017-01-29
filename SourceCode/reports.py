@@ -15,14 +15,13 @@ class Report:
 
     @staticmethod
     def createLanguageFolder(langName):
-        if Parameters.printReport:
-            Parameters.langFolder = os.path.join(Parameters.resultPath, langName)
-            if not os.path.exists(Parameters.langFolder):
-                os.makedirs(Parameters.langFolder)
+        Parameters.langFolder = os.path.join(Parameters.resultPath, langName)
+        if not os.path.exists(Parameters.langFolder):
+            os.makedirs(Parameters.langFolder)
 
     @staticmethod
     def createXPFolder(configFile):
-        xpFolder = Parameters.toBinary()
+        #xpFolder = Parameters.toBinary()
         if Parameters.printReport:
             Parameters.xpPath = os.path.join(Parameters.langFolder, configFile)
             if not os.path.exists(Parameters.xpPath):
@@ -43,22 +42,23 @@ class Report:
 
     @staticmethod
     def createMWELexic(dic, dir):
-        sortedDic = sorted(dic.items(), key=operator.itemgetter(1), reverse=True)
-        pathItems = Parameters.resultPath.split('/')
-        if pathItems[-1].split() != '':
-            pathItems = pathItems[:-1]
-        else:
-            pathItems = pathItems[:-2]
-        path = ''
-        for item in pathItems:
-            path += item + '/'
-        path = os.path.join(path, dir + '/Dictionary.md')
-        # path += dir + '/Dictionary.md'
-        result = ''
-        for item in sortedDic:
-            result += str(item[0]) + ': ' + str(item[1]) + '\n\n'
-        dicFile = open(path, 'w')
-        dicFile.write(result)
+        if Parameters.printReport:
+            sortedDic = sorted(dic.items(), key=operator.itemgetter(1), reverse=True)
+            pathItems = Parameters.resultPath.split('/')
+            if pathItems[-1].split() != '':
+                pathItems = pathItems[:-1]
+            else:
+                pathItems = pathItems[:-2]
+            path = ''
+            for item in pathItems:
+                path += item + '/'
+            path = os.path.join(path, dir + '/Dictionary.md')
+            # path += dir + '/Dictionary.md'
+            result = ''
+            for item in sortedDic:
+                result += str(item[0]) + ': ' + str(item[1]) + '\n\n'
+            dicFile = open(path, 'w')
+            dicFile.write(result)
 
     @staticmethod
     def editReadme(mode, text):
@@ -123,6 +123,8 @@ class Report:
 
     @staticmethod
     def editTotalReadMe(fScore, recall, precision, corpus, testSents):
+        if not Parameters.printReport:
+            return
 
         mwes, singleMWE, continousMWEs, interleavingMwes, embeddedMwes = Report.getTestStatistics(testSents)
 

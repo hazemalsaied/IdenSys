@@ -14,7 +14,7 @@ class Parameters:
 
     usePreciseDictionary = False
 
-    printReport = True
+    printReport = False
     serialize = True
 
     # Featue extraction parameters

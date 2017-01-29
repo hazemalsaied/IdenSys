@@ -30,13 +30,14 @@ class Identifier:
                         Report.createXPFolder(configFile)
                         config = Parameters(os.path.join(os.path.join(configPath, dir), configFile))
                         Report.createConfigAndReadMe(corpus)
-                        Identifier.initializeSents(trainingSents)
-                        Identifier.initializeSents(testingSents)
+                        if len(configFiles) != 1:
+                            Identifier.initializeSents(trainingSents)
+                            Identifier.initializeSents(testingSents)
                         clf = Identifier.train('', corpus, trainingSents)
                         fScore, recall, precision = Identifier.parse(testingSents, clf, Parser.mweDictionary,
-                                                                     Parameters.languageName)
+                                                                     Parameters.languageName, realExper=realExper)
                         print Parser.counter
-                        Report.editTotalReadMe(fScore, recall, precision, corpus , testingSents)
+                        Report.editTotalReadMe(fScore, recall, precision, corpus, testingSents)
 
     @staticmethod
     def getTrainAndTestSents(realExper, corpus):
@@ -105,7 +106,7 @@ class Identifier:
                 mwe.isInTrainingCorpus = 0
 
     @staticmethod
-    def parse(testingSents, clf, mweDictionary, languageName, crossIdx=''):
+    def parse(testingSents, clf, mweDictionary, languageName, crossIdx='', realExper=False):
 
         time = datetime.datetime.now()
 
@@ -113,34 +114,40 @@ class Identifier:
         for sent in testingSents:
             Parser.parse(clf[0], clf[1], sent)
 
-        # Adding the source of MWE
-        for sent in testingSents:
-            for mwe in sent.vMWEs:
-                if mwe.getLemmaString() in mweDictionary.keys():
-                    mwe.isInTrainingCorpus = mweDictionary[mwe.getLemmaString()]
-
-        # creating a parsing report
         if Parameters.printReport:
+            # Adding the source of MWE
+            for sent in testingSents:
+                for mwe in sent.vMWEs:
+                    if mwe.getLemmaString() in mweDictionary.keys():
+                        mwe.isInTrainingCorpus = mweDictionary[mwe.getLemmaString()]
+
+            # creating a parsing report
             Report.createParsingReport(testingSents, crossIdx)
             # Evaluation
-
-        fScore, recall, precision = Evaluation.evaluate(testingSents)
+        fScore, recall, precision = 0, 0, 0
+        if not realExper:
+            fScore, recall, precision = Evaluation.evaluate(testingSents)
         # clf.append(fScore)
         print 'Parsing duration: ' + str(datetime.datetime.now() - time)
 
-        goldCorpus = ''
-        for sent in testingSents:
-            goldCorpus += sent.getCorpusText() + '\n'
-        goldtestingCorpusPath = os.path.join(Parameters.xpPath,
-                                             languageName + str(crossIdx) + '.gold')
-        goldtestingCorpusFile = open(goldtestingCorpusPath, 'w')
-        goldtestingCorpusFile.write(goldCorpus)
+        if not realExper:
+            goldCorpus = ''
+            for sent in testingSents:
+                goldCorpus += sent.getCorpusText() + '\n'
+            goldtestingCorpusPath = os.path.join(Parameters.xpPath,
+                                                 languageName + str(crossIdx) + '.gold')
+            goldtestingCorpusFile = open(goldtestingCorpusPath, 'w')
+            goldtestingCorpusFile.write(goldCorpus)
 
         predCorpus = ''
         for sent in testingSents:
             predCorpus += sent.getCorpusText(gold=False) + '\n'
-        goldtestingCorpusPath = os.path.join(
-            Parameters.xpPath, languageName + str(crossIdx) + '.pred')
+        if realExper:
+            goldtestingCorpusPath = os.path.join(os.path.join(Parameters.xpPath, Parameters.languageName),
+                                                 'test.system.parsemetsv')
+        else:
+            goldtestingCorpusPath = os.path.join(
+                Parameters.xpPath, languageName + str(crossIdx) + '.pred')
         goldtestingCorpusFile = open(goldtestingCorpusPath, 'w')
         goldtestingCorpusFile.write(predCorpus)
 
@@ -187,4 +194,4 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 # lst = list(itertools.product([0, 1], repeat=14))
-Identifier.identify('Config')
+Identifier.identify('Config', realExper=True)
