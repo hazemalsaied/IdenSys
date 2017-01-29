@@ -5,7 +5,7 @@
   "useFirstBufferElement": true,
   "useSecondBufferElement": true,
   "generateS0B2Bigram":true,
-  "useDictionary":true,
+  "useDictionary":false,
   "UseLinguistInfo": {
     "useSytax": false,
     "usePOS": true,
@@ -17,5 +17,7 @@
     "transitionHistoryLength1": true,
     "transitionHistoryLength2": true,
     "transitionHistoryLength3": true
-  }
+  },
+    "enableSingleMWE" : false
+
 }

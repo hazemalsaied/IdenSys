@@ -30,3 +30,5 @@ useStackLength = True
 
 enhanceMerge = True
 
+enableSingleMWE = False
+

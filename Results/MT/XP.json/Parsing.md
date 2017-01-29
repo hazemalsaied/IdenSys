@@ -354,9 +354,6 @@ hu spjega kif sitt snin ilu kienet saret talba għal parkeġġ residenzjali iżd
 ### Existing MWEs: 
 1- **saret talba** (LVC)
 2- **saret kundizzjoni** (LVC)
-### Identified MWEs: 
-1- **bi** 
-
 
 
 

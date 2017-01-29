@@ -20,11 +20,13 @@ usePOS = True
 
 S0S1Distance = True
 
-useDictionary = True
+useDictionary = False
 
 S0B0Distance = True
 
 generateS0B2Bigram = True
 
 useStackLength = False
+
+enableSingleMWE = False
 
