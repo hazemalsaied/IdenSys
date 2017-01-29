@@ -3,7 +3,6 @@
   "S0B0Distance":false,
   "S0S1Distance":true,
   "useFirstBufferElement": true,
-  "enableSingleMWE" : true,
   "useSecondBufferElement": false,
   "generateS0B2Bigram":true,
   "useDictionary":true,
@@ -18,5 +17,9 @@
     "transitionHistoryLength1": false,
     "transitionHistoryLength2": false,
     "transitionHistoryLength3": false
-  }
+  },
+
+  "enhanceMerge": true,
+
+  "enableSingleMWE" : true
 }

@@ -1,7 +1,6 @@
 {
   "useStackLength": true,
   "S0B0Distance":true,
-  "enhanceMerge":true,
   "S0S1Distance":true,
   "useFirstBufferElement": true,
   "useSecondBufferElement": true,
@@ -18,5 +17,7 @@
     "transitionHistoryLength1": true,
     "transitionHistoryLength2": true,
     "transitionHistoryLength3": true
-  }
+  },
+
+  "enhanceMerge":true
 }

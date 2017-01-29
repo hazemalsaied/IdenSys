@@ -5,9 +5,6 @@ caro paginazero volevo spiegar- ti che io ho votato contro a ribbeck , perché n
 4- **troverebbe scusa** (LVC)
 2- **fa piacere** (LVC, 1)
 3- **mi troverà** (IReflV)
-### Identified MWEs: 
-1- **mi fa piacere** 
-
 
 
 
@@ -811,21 +808,21 @@ B0Lemma: mi, B0POS: PC, B0Token: mi, S0B0Lemma: non_mi, S0B0LemmaPOS: non_PC, S0
 
 B0Lemma: fare, B0POS: V, B0Token: fa, S0B0Lemma: mi_fare, S0B0LemmaPOS: mi_V, S0B0POS: PC_V, S0B0POSLemma: PC_fare, S0B0Token: mi_fa, S0B1Lemma: mi_piacere, S0B1LemmaPOS: mi_V, S0B1POS: PC_V, S0B1POSLemma: PC_piacere, S0B1Token: mi_piacere, S0Lemma: mi, S0POS: PC, S0Token: mi, TransHistory3: 202, mi_isGouvernedBy_fare: true, mi_isGouvernedBy_fare_comp_ind: true, 
 
-200- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mi, fa]   B= [piacere, visto, che ,.. ]
-
-B0Lemma: piacere, B0POS: V, B0Token: piacere, S0B0Lemma: fare_piacere, S0B0LemmaPOS: fare_V, S0B0POS: V_V, S0B0POSLemma: V_piacere, S0B0Token: fa_piacere, S0B1Lemma: fare_vedere, S0B1LemmaPOS: fare_V, S0B1POS: V_V, S0B1POSLemma: V_vedere, S0B1Token: fa_visto, S0Lemma: fare, S0POS: V, S0S1Distance: 1, S0Token: fa, S1B0Lemma: mi_piacere, S1B0LemmaPOS: mi_V, S1B0POS: PC_V, S1B0POSLemma: PC_piacere, S1B0Token: mi_piacere, S1Lemma: mi, S1POS: PC, S1S0Lemma: mi_fare, S1S0LemmaPOS: mi_V, S1S0POS: PC_V, S1S0POSLemma: PC_fare, S1S0Token: mi_fa, S1Token: mi, SyntaxicRelation: -comp_ind, TransHistory3: 020, fare_hasRighDep_arg: true, fare_piacere_hasRighDep_arg: true, hasRighDep_arg: true, 
-
-201- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mi, fa, piacere]   B= [visto, che, sono ,.. ]
-
-B0Lemma: vedere, B0POS: V, B0Token: visto, S0B0Lemma: piacere_vedere, S0B0LemmaPOS: piacere_V, S0B0POS: V_V, S0B0POSLemma: V_vedere, S0B0Token: piacere_visto, S0B1Lemma: piacere_che, S0B1LemmaPOS: piacere_CS, S0B1POS: V_CS, S0B1POSLemma: V_che, S0B1Token: piacere_che, S0Lemma: piacere, S0POS: V, S0S1Distance: 1, S0Token: piacere, S1B0Lemma: fare_vedere, S1B0LemmaPOS: fare_V, S1B0POS: V_V, S1B0POSLemma: V_vedere, S1B0Token: fa_visto, S1Lemma: fare, S1POS: V, S1S0Lemma: fare_piacere, S1S0LemmaPOS: fare_V, S1S0POS: V_V, S1S0POSLemma: V_piacere, S1S0Token: fa_piacere, S1Token: fa, SyntaxicRelation: +arg, TransHistory3: 002, hasRighDep_mod: true, piacere_hasRighDep_mod: true, piacere_vedere_hasRighDep_mod: true, 
-
-202- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mi, [fa, piacere]]   B= [visto, che, sono ,.. ]
-
-B0Lemma: vedere, B0POS: V, B0Token: visto, S0B0Lemma: fare_piacere_vedere, S0B0LemmaPOS: fare_piacere_V, S0B0POS: V_V_V, S0B0POSLemma: V_V_vedere, S0B0Token: fa_piacere_visto, S0B1Lemma: fare_piacere_che, S0B1LemmaPOS: fare_piacere_CS, S0B1POS: V_V_CS, S0B1POSLemma: V_V_che, S0B1Token: fa_piacere_che, S0Lemma: fare_piacere, S0POS: V_V, S0Token: fa_piacere, S1B0Lemma: mi_vedere, S1B0LemmaPOS: mi_V, S1B0POS: PC_V, S1B0POSLemma: PC_vedere, S1B0Token: mi_visto, S1Lemma: mi, S1POS: PC, S1S0Lemma: mi_fare_piacere, S1S0LemmaPOS: mi_V_V, S1S0POS: PC_V_V, S1S0POSLemma: PC_fare_piacere, S1S0Token: mi_fa_piacere, S1Token: mi, TransHistory3: 000, 
-
-203- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[mi, [fa, piacere]]]   B= [visto, che, sono ,.. ]
+200- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fa, piacere, visto ,.. ]
 
 
+
+201- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fa]   B= [piacere, visto, che ,.. ]
+
+B0Lemma: piacere, B0POS: V, B0Token: piacere, S0B0Lemma: fare_piacere, S0B0LemmaPOS: fare_V, S0B0POS: V_V, S0B0POSLemma: V_piacere, S0B0Token: fa_piacere, S0B1Lemma: fare_vedere, S0B1LemmaPOS: fare_V, S0B1POS: V_V, S0B1POSLemma: V_vedere, S0B1Token: fa_visto, S0Lemma: fare, S0POS: V, S0Token: fa, TransHistory3: 202, fare_hasRighDep_arg: true, fare_piacere_hasRighDep_arg: true, hasRighDep_arg: true, 
+
+202- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [piacere, visto, che ,.. ]
+
+
+
+203- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [piacere]   B= [visto, che, sono ,.. ]
+
+B0Lemma: vedere, B0POS: V, B0Token: visto, S0B0Lemma: piacere_vedere, S0B0LemmaPOS: piacere_V, S0B0POS: V_V, S0B0POSLemma: V_vedere, S0B0Token: piacere_visto, S0B1Lemma: piacere_che, S0B1LemmaPOS: piacere_CS, S0B1POS: V_CS, S0B1POSLemma: V_che, S0B1Token: piacere_che, S0Lemma: piacere, S0POS: V, S0Token: piacere, TransHistory3: 202, hasRighDep_mod: true, piacere_hasRighDep_mod: true, piacere_vedere_hasRighDep_mod: true, 
 
 204- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [visto, che, sono ,.. ]
 
@@ -833,7 +830,7 @@ B0Lemma: vedere, B0POS: V, B0Token: visto, S0B0Lemma: fare_piacere_vedere, S0B0L
 
 205- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [visto]   B= [che, sono, il ,.. ]
 
-B0Lemma: che, B0POS: CS, B0Token: che, S0B0Lemma: vedere_che, S0B0LemmaPOS: vedere_CS, S0B0POS: V_CS, S0B0POSLemma: V_che, S0B0Token: visto_che, S0B1Lemma: vedere_essere, S0B1LemmaPOS: vedere_V, S0B1POS: V_V, S0B1POSLemma: V_essere, S0B1Token: visto_sono, S0Lemma: vedere, S0POS: V, S0Token: visto, TransHistory3: 211, hasRighDep_concat: true, vedere_che_hasRighDep_concat: true, vedere_hasRighDep_concat: true, 
+B0Lemma: che, B0POS: CS, B0Token: che, S0B0Lemma: vedere_che, S0B0LemmaPOS: vedere_CS, S0B0POS: V_CS, S0B0POSLemma: V_che, S0B0Token: visto_che, S0B1Lemma: vedere_essere, S0B1LemmaPOS: vedere_V, S0B1POS: V_V, S0B1POSLemma: V_essere, S0B1Token: visto_sono, S0Lemma: vedere, S0POS: V, S0Token: visto, TransHistory3: 202, hasRighDep_concat: true, vedere_che_hasRighDep_concat: true, vedere_hasRighDep_concat: true, 
 
 206- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [che, sono, il ,.. ]
 

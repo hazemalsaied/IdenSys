@@ -30,5 +30,5 @@ generateS0B2Bigram = False
 
 useStackLength = False
 
-enhanceMerge = True
+enhanceMerge = False
 

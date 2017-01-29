@@ -19,5 +19,6 @@
     "transitionHistoryLength3": true
   },
 
-  "enhanceMerge":true
+  "enhanceMerge":true,
+
 }

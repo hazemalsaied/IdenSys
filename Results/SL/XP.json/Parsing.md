@@ -219,13 +219,7 @@ B0Lemma: ., B0POS: ., B0Token: ., S0B0Lemma: )_., S0B0LemmaPOS: )_., S0B0POS: )_
 2- **se šel** (IReflV, 1)
 3- **se usedel** (IReflV, 1)
 ### Identified MWEs: 
-1- **je** 
-
-2- **bo** 
-
-3- **je ob vsakem** 
-
-4- **bi** 
+1- **je ob vsakem** 
 
 
 
@@ -607,15 +601,9 @@ in ti , dekle , si se morala roditi na drugem koncu sveta , samo zato , da si pr
 2- **se zaljubila** (IReflV)
 3- **da se** (IReflV)
 ### Identified MWEs: 
-1- **si** 
+1- **se roditi** 
 
-2- **se roditi** 
-
-3- **si** 
-
-4- **sva** 
-
-5- **se da** 
+2- **se da** 
 
 
 
@@ -1029,17 +1017,7 @@ proletarci so bili polni tudi zgodb iz svoje " bogate " seksualne zgodovine , v 
 2- **se usmilili** (IReflV)
 3- **pokazali kako se stvari streže** (ID)
 ### Identified MWEs: 
-1- **so** 
-
-2- **bili** 
-
-3- **so** 
-
-4- **se gnetle** 
-
-5- **za** 
-
-6- **so** 
+1- **se gnetle** 
 
 
 
@@ -1429,15 +1407,9 @@ tu in tam pa so se v vnemi spustili na tanek led , saj je tožilka jožica boljt
 2- **označila za** (VPC, 1)
 3- **gre za** (VPC, 64)
 ### Identified MWEs: 
-1- **so** 
+1- **označila za** 
 
-2- **je** 
-
-3- **označila za** 
-
-4- **je** 
-
-5- **gre za** 
+2- **gre za** 
 
 
 

@@ -40,15 +40,30 @@ class Parser:
                 transDicList.append(featDic)
                 transType = classifier.predict(dictVectorizer.transform(featDic))
 
-                if Parameters.enhanceMerge and transType != 0 and len(config.buffer) > 0 and len(
-                        config.stack) > 0 and isinstance(config.stack[-1], Token) and ((isinstance(config.stack[-1], Token) and Parser.areInLexic(
-                    [config.stack[-1], config.buffer[0]])) or (len(config.buffer) > 1  and Parser.areInLexic(
-                    [config.stack[-1], config.buffer[0], config.buffer[1]])) or ( len(config.buffer) > 2  and Parser.areInLexic(
-                    [config.stack[-1], config.buffer[0], config.buffer[1], config.buffer[2]]))  or (len(config.buffer) > 1 and len(config.stack) > 1 and Parser.areInLexic(
-                    [config.stack[-2], config.stack[-1], config.buffer[1]]))):
+                if Parameters.enhanceMerge and  transType != 0 and len(config.buffer) > 0 and len(
+                            config.stack) > 0 and isinstance(config.stack[-1], Token) and (
+                                (isinstance(config.stack[-1], Token) and Parser.areInLexic(
+                                    [config.stack[-1], config.buffer[0]])) or (
+                                    len(config.buffer) > 1 and Parser.areInLexic(
+                                [config.stack[-1], config.buffer[0], config.buffer[1]])) or (
+                                len(config.buffer) > 2 and Parser.areInLexic(
+                            [config.stack[-1], config.buffer[0], config.buffer[1], config.buffer[2]])) or (
+                                len(config.buffer) > 1 and len(config.stack) > 1 and Parser.areInLexic(
+                        [config.stack[-2], config.stack[-1], config.buffer[1]]))):
 
-                    transition = Parser.applyShift(transition)
-                    transLebelsList.append(0)
+                        transition = Parser.applyShift(transition)
+                        transLebelsList.append(0)
+
+                elif Parameters.enhanceMerge and len(config.buffer) > 0 and len(config.stack) > 1 and Parser.areInLexic(
+                        [config.stack[-2], config.buffer[0]]) and not Parser.areInLexic(
+                        [config.stack[-1], config.buffer[0]]):
+                    transition = Parser.applyComplete(transition, sent, parse=True)
+                    transLebelsList.append(2)
+                elif Parameters.enhanceMerge and len(config.buffer) > 1 and len(config.stack) > 1 and Parser.areInLexic(
+                            [config.stack[-2], config.buffer[1]]) and not Parser.areInLexic(
+                        [config.stack[-1], config.buffer[1]]):
+                    transition = Parser.applyComplete(transition, sent, parse=True)
+                    transLebelsList.append(2)
 
                 elif transType == 0:
                     if len(config.buffer) > 0:
@@ -97,6 +112,7 @@ class Parser:
         return [transLebelsList, transDicList]
 
     counter = 0
+
     @staticmethod
     def areInLexic(tokensList):
         text = ''
@@ -115,7 +131,7 @@ class Parser:
                     text += token.text + ' '
         text = text.strip()
         if text in Parser.mweDictionary.keys():
-                return True
+            return True
         return False
 
         # tokenText = tokensList[0].lemma

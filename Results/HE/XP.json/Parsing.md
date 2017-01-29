@@ -6,9 +6,9 @@
 1- **למסור הנפש** (LVC, 2)
 4- **למסור את הנפש** (LVC, 2), Interleaving 
 ### Identified MWEs: 
-1- **למסור את הנפש** 
+1- **למסור הנפש** 
 
-2- **למסור את הנפש** 
+2- **למסור הנפש** 
 
 
 
@@ -137,15 +137,15 @@ B0Token: את, B0_LastThreeLetters: �ת, B0_LastTwoLetters: ת, B1Token: הנפ�
 
 B0Token: הנפש, B0_LastThreeLetters: �ש, B0_LastTwoLetters: ש, B1Token: ואם, B1_LastThreeLetters: �ם, B1_LastTwoLetters: ם, S0B0Token: את_הנפש, S0B1Token: את_ואם, S0B2Token: את_תהיה, S0Token: את, S0_LastThreeLetters: �ת, S0_LastTwoLetters: ת, S1B0Token: למסור_הנפש, S1S0Token: למסור_את, S1Token: למסור, S1_LastThreeLetters: �ר, S1_LastTwoLetters: ר, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
 
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [למסור, את, הנפש]   B= [ואם, תהיה, כפיה ,.. ]
+31- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [למסור]   B= [הנפש, ואם, תהיה ,.. ]
 
-B0Token: ואם, B0_LastThreeLetters: �ם, B0_LastTwoLetters: ם, B1Token: תהיה, B1_LastThreeLetters: �ה, B1_LastTwoLetters: ה, S0B0Token: הנפש_ואם, S0B1Token: הנפש_תהיה, S0B2Token: הנפש_כפיה, S0Token: הנפש, S0_LastThreeLetters: �ש, S0_LastTwoLetters: ש, S1B0Token: את_ואם, S1S0Token: את_הנפש, S1Token: את, S1_LastThreeLetters: �ת, S1_LastTwoLetters: ת, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+B0Token: הנפש, B0_LastThreeLetters: �ש, B0_LastTwoLetters: ש, B1Token: ואם, B1_LastThreeLetters: �ם, B1_LastTwoLetters: ם, S0B0Token: למסור_הנפש, S0B1Token: למסור_ואם, S0B2Token: למסור_תהיה, S0Token: למסור, S0_LastThreeLetters: �ר, S0_LastTwoLetters: ר, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
 
-32- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [למסור, [את, הנפש]]   B= [ואם, תהיה, כפיה ,.. ]
+32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [למסור, הנפש]   B= [ואם, תהיה, כפיה ,.. ]
 
-B0Token: ואם, B0_LastThreeLetters: �ם, B0_LastTwoLetters: ם, B1Token: תהיה, B1_LastThreeLetters: �ה, B1_LastTwoLetters: ה, S0B0Token: את_הנפש_ואם, S0B1Token: את_הנפש_תהיה, S0B2Token: את_הנפש_כפיה, S0Token: את_הנפש, S1B0Token: למסור_ואם, S1S0Token: למסור_את_הנפש, S1Token: למסור, S1_LastThreeLetters: �ר, S1_LastTwoLetters: ר, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+B0Token: ואם, B0_LastThreeLetters: �ם, B0_LastTwoLetters: ם, B1Token: תהיה, B1_LastThreeLetters: �ה, B1_LastTwoLetters: ה, S0B0Token: הנפש_ואם, S0B1Token: הנפש_תהיה, S0B2Token: הנפש_כפיה, S0Token: הנפש, S0_LastThreeLetters: �ש, S0_LastTwoLetters: ש, S1B0Token: למסור_ואם, S1S0Token: למסור_הנפש, S1Token: למסור, S1_LastThreeLetters: �ר, S1_LastTwoLetters: ר, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
 
-33- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[למסור, [את, הנפש]]]   B= [ואם, תהיה, כפיה ,.. ]
+33- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[למסור, הנפש]]   B= [ואם, תהיה, כפיה ,.. ]
 
 
 
@@ -155,7 +155,7 @@ B0Token: ואם, B0_LastThreeLetters: �ם, B0_LastTwoLetters: ם, B1Token: תה�
 
 35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ואם]   B= [תהיה, כפיה, הן ,.. ]
 
-B0Token: תהיה, B0_LastThreeLetters: �ה, B0_LastTwoLetters: ה, B1Token: כפיה, B1_LastThreeLetters: �ה, B1_LastTwoLetters: ה, S0B0Token: ואם_תהיה, S0B1Token: ואם_כפיה, S0B2Token: ואם_הן, S0Token: ואם, S0_LastThreeLetters: �ם, S0_LastTwoLetters: ם, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
+B0Token: תהיה, B0_LastThreeLetters: �ה, B0_LastTwoLetters: ה, B1Token: כפיה, B1_LastThreeLetters: �ה, B1_LastTwoLetters: ה, S0B0Token: ואם_תהיה, S0B1Token: ואם_כפיה, S0B2Token: ואם_הן, S0Token: ואם, S0_LastThreeLetters: �ם, S0_LastTwoLetters: ם, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
 
 36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [תהיה, כפיה, הן ,.. ]
 
@@ -257,15 +257,15 @@ B0Token: את, B0_LastThreeLetters: �ת, B0_LastTwoLetters: ת, B1Token: הנפ�
 
 B0Token: הנפש, B0_LastThreeLetters: �ש, B0_LastTwoLetters: ש, S0B0Token: את_הנפש, S0Token: את, S0_LastThreeLetters: �ת, S0_LastTwoLetters: ת, S1B0Token: למסור_הנפש, S1S0Token: למסור_את, S1Token: למסור, S1_LastThreeLetters: �ר, S1_LastTwoLetters: ר, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
 
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [למסור, את, הנפש]   B= [ ]
+61- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [למסור]   B= [הנפש]
 
-S0Token: הנפש, S0_LastThreeLetters: �ש, S0_LastTwoLetters: ש, S1S0Token: את_הנפש, S1Token: את, S1_LastThreeLetters: �ת, S1_LastTwoLetters: ת, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+B0Token: הנפש, B0_LastThreeLetters: �ש, B0_LastTwoLetters: ש, S0B0Token: למסור_הנפש, S0Token: למסור, S0_LastThreeLetters: �ר, S0_LastTwoLetters: ר, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
 
-62- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [למסור, [את, הנפש]]   B= [ ]
+62- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [למסור, הנפש]   B= [ ]
 
-S0Token: את_הנפש, S1S0Token: למסור_את_הנפש, S1Token: למסור, S1_LastThreeLetters: �ר, S1_LastTwoLetters: ר, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+S0Token: הנפש, S0_LastThreeLetters: �ש, S0_LastTwoLetters: ש, S1S0Token: למסור_הנפש, S1Token: למסור, S1_LastThreeLetters: �ר, S1_LastTwoLetters: ר, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
 
-63- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[למסור, [את, הנפש]]]   B= [ ]
+63- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[למסור, הנפש]]   B= [ ]
 
 
 
@@ -279,9 +279,9 @@ S0Token: את_הנפש, S1S0Token: למסור_את_הנפש, S1Token: למסור
 2- **המו מ** (OTH, 8)
 4- **המו " מ** (OTH, 8), Interleaving 
 ### Identified MWEs: 
-1- **המו " מ** 
+1- **המו מ** 
 
-2- **המו " מ** 
+2- **המו מ** 
 
 
 
@@ -378,15 +378,15 @@ B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", B1Token: מ, B1_LastTh
 
 B0Token: מ, B0_LastThreeLetters: מ, B0_LastTwoLetters: מ, B1Token: של, B1_LastThreeLetters: �ל, B1_LastTwoLetters: ל, S0B0Token: "_מ, S0B1Token: "_של, S0B2Token: "_יוזמי, S0Token: ", S0_LastThreeLetters: ", S0_LastTwoLetters: ", S1B0Token: המו_מ, S1S0Token: המו_", S1Token: המו, S1_LastThreeLetters: �ו, S1_LastTwoLetters: ו, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
 
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המו, ", מ]   B= [של, יוזמי, הסכמות ,.. ]
+23- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המו]   B= [מ, של, יוזמי ,.. ]
 
-B0Token: של, B0_LastThreeLetters: �ל, B0_LastTwoLetters: ל, B1Token: יוזמי, B1_LastThreeLetters: �י, B1_LastTwoLetters: י, S0B0Token: מ_של, S0B1Token: מ_יוזמי, S0B2Token: מ_הסכמות, S0Token: מ, S0_LastThreeLetters: מ, S0_LastTwoLetters: מ, S1B0Token: "_של, S1S0Token: "_מ, S1Token: ", S1_LastThreeLetters: ", S1_LastTwoLetters: ", TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+B0Token: מ, B0_LastThreeLetters: מ, B0_LastTwoLetters: מ, B1Token: של, B1_LastThreeLetters: �ל, B1_LastTwoLetters: ל, S0B0Token: המו_מ, S0B1Token: המו_של, S0B2Token: המו_יוזמי, S0Token: המו, S0_LastThreeLetters: �ו, S0_LastTwoLetters: ו, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
 
-24- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המו, [", מ]]   B= [של, יוזמי, הסכמות ,.. ]
+24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המו, מ]   B= [של, יוזמי, הסכמות ,.. ]
 
-B0Token: של, B0_LastThreeLetters: �ל, B0_LastTwoLetters: ל, B1Token: יוזמי, B1_LastThreeLetters: �י, B1_LastTwoLetters: י, S0B0Token: "_מ_של, S0B1Token: "_מ_יוזמי, S0B2Token: "_מ_הסכמות, S0Token: "_מ, S1B0Token: המו_של, S1S0Token: המו_"_מ, S1Token: המו, S1_LastThreeLetters: �ו, S1_LastTwoLetters: ו, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+B0Token: של, B0_LastThreeLetters: �ל, B0_LastTwoLetters: ל, B1Token: יוזמי, B1_LastThreeLetters: �י, B1_LastTwoLetters: י, S0B0Token: מ_של, S0B1Token: מ_יוזמי, S0B2Token: מ_הסכמות, S0Token: מ, S0_LastThreeLetters: מ, S0_LastTwoLetters: מ, S1B0Token: המו_של, S1S0Token: המו_מ, S1Token: המו, S1_LastThreeLetters: �ו, S1_LastTwoLetters: ו, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
 
-25- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[המו, [", מ]]]   B= [של, יוזמי, הסכמות ,.. ]
+25- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[המו, מ]]   B= [של, יוזמי, הסכמות ,.. ]
 
 
 
@@ -396,7 +396,7 @@ B0Token: של, B0_LastThreeLetters: �ל, B0_LastTwoLetters: ל, B1Token: יוז�
 
 27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [של]   B= [יוזמי, הסכמות, ז ,.. ]
 
-B0Token: יוזמי, B0_LastThreeLetters: �י, B0_LastTwoLetters: י, B1Token: הסכמות, B1_LastThreeLetters: �ת, B1_LastTwoLetters: ת, S0B0Token: של_יוזמי, S0B1Token: של_הסכמות, S0B2Token: של_ז, S0Token: של, S0_LastThreeLetters: �ל, S0_LastTwoLetters: ל, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
+B0Token: יוזמי, B0_LastThreeLetters: �י, B0_LastTwoLetters: י, B1Token: הסכמות, B1_LastThreeLetters: �ת, B1_LastTwoLetters: ת, S0B0Token: של_יוזמי, S0B1Token: של_הסכמות, S0B2Token: של_ז, S0Token: של, S0_LastThreeLetters: �ל, S0_LastTwoLetters: ל, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
 
 28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [יוזמי, הסכמות, ז ,.. ]
 
@@ -474,15 +474,15 @@ B0Token: ", B0_LastThreeLetters: ", B0_LastTwoLetters: ", B1Token: מ, B1_LastTh
 
 B0Token: מ, B0_LastThreeLetters: מ, B0_LastTwoLetters: מ, B1Token: המביך, B1_LastThreeLetters: �ך, B1_LastTwoLetters: ך, S0B0Token: "_מ, S0B1Token: "_המביך, S0B2Token: "_הזה, S0Token: ", S0_LastThreeLetters: ", S0_LastTwoLetters: ", S1B0Token: המו_מ, S1S0Token: המו_", S1Token: המו, S1_LastThreeLetters: �ו, S1_LastTwoLetters: ו, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
 
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המו, ", מ]   B= [המביך, הזה, ניהלו ,.. ]
+47- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המו]   B= [מ, המביך, הזה ,.. ]
 
-B0Token: המביך, B0_LastThreeLetters: �ך, B0_LastTwoLetters: ך, B1Token: הזה, B1_LastThreeLetters: �ה, B1_LastTwoLetters: ה, S0B0Token: מ_המביך, S0B1Token: מ_הזה, S0B2Token: מ_ניהלו, S0Token: מ, S0_LastThreeLetters: מ, S0_LastTwoLetters: מ, S1B0Token: "_המביך, S1S0Token: "_מ, S1Token: ", S1_LastThreeLetters: ", S1_LastTwoLetters: ", TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+B0Token: מ, B0_LastThreeLetters: מ, B0_LastTwoLetters: מ, B1Token: המביך, B1_LastThreeLetters: �ך, B1_LastTwoLetters: ך, S0B0Token: המו_מ, S0B1Token: המו_המביך, S0B2Token: המו_הזה, S0Token: המו, S0_LastThreeLetters: �ו, S0_LastTwoLetters: ו, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
 
-48- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המו, [", מ]]   B= [המביך, הזה, ניהלו ,.. ]
+48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המו, מ]   B= [המביך, הזה, ניהלו ,.. ]
 
-B0Token: המביך, B0_LastThreeLetters: �ך, B0_LastTwoLetters: ך, B1Token: הזה, B1_LastThreeLetters: �ה, B1_LastTwoLetters: ה, S0B0Token: "_מ_המביך, S0B1Token: "_מ_הזה, S0B2Token: "_מ_ניהלו, S0Token: "_מ, S1B0Token: המו_המביך, S1S0Token: המו_"_מ, S1Token: המו, S1_LastThreeLetters: �ו, S1_LastTwoLetters: ו, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+B0Token: המביך, B0_LastThreeLetters: �ך, B0_LastTwoLetters: ך, B1Token: הזה, B1_LastThreeLetters: �ה, B1_LastTwoLetters: ה, S0B0Token: מ_המביך, S0B1Token: מ_הזה, S0B2Token: מ_ניהלו, S0Token: מ, S0_LastThreeLetters: מ, S0_LastTwoLetters: מ, S1B0Token: המו_המביך, S1S0Token: המו_מ, S1Token: המו, S1_LastThreeLetters: �ו, S1_LastTwoLetters: ו, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
 
-49- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[המו, [", מ]]]   B= [המביך, הזה, ניהלו ,.. ]
+49- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[המו, מ]]   B= [המביך, הזה, ניהלו ,.. ]
 
 
 
@@ -492,7 +492,7 @@ B0Token: המביך, B0_LastThreeLetters: �ך, B0_LastTwoLetters: ך, B1Token: �
 
 51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [המביך]   B= [הזה, ניהלו, בצורה ,.. ]
 
-B0Token: הזה, B0_LastThreeLetters: �ה, B0_LastTwoLetters: ה, B1Token: ניהלו, B1_LastThreeLetters: �ו, B1_LastTwoLetters: ו, S0B0Token: המביך_הזה, S0B1Token: המביך_ניהלו, S0B2Token: המביך_בצורה, S0Token: המביך, S0_LastThreeLetters: �ך, S0_LastTwoLetters: ך, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
+B0Token: הזה, B0_LastThreeLetters: �ה, B0_LastTwoLetters: ה, B1Token: ניהלו, B1_LastThreeLetters: �ו, B1_LastTwoLetters: ו, S0B0Token: המביך_הזה, S0B1Token: המביך_ניהלו, S0B2Token: המביך_בצורה, S0Token: המביך, S0_LastThreeLetters: �ך, S0_LastTwoLetters: ך, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
 
 52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [הזה, ניהלו, בצורה ,.. ]
 

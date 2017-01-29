@@ -201,7 +201,7 @@ einen schönen bogen zwischen diesen reden und obamas auftritt schlägt allerdin
 1- **bogen schlägt** (ID)
 2- **es gibt** (ID, 25)
 ### Identified MWEs: 
-1- **schlägt gibt roten** 
+1- **schlägt reagan** 
 ## Sentence No. 1650 - 
 stuttgartder hightech-konzern ibm baut sein cloud-geschäft weiter aus : das unternehmen gab am dienstag die Übernahme der firma softlayer bekannt , die ihren 21.000 kunden it-ressourcen als dienstleistung anbietet und dafür 13 rechenzentren in den usa , asien und europa unterhält . 
 ### Existing MWEs: 
@@ -278,7 +278,7 @@ und die arbeitsinspektoren haben nichts besseres zu tun , als mittagszeitminuten
 1- **ging her** (VPC)
 2- **ging heiß her** (ID), Interleaving 
 ### Identified MWEs: 
-1- **ging ende** 
+1- **es ging** 
 ## Sentence No. 2825 - 
 die staatsanwaltschaft geht davon aus , dass der kahlköpfige türke die fast 30 jahre ältere fkk-club-dame in den frühen morgenstunden des 20. august 2005 in deren erdgeschoss-wohnung an der victoriastraße überfallen , gekidnappt und dabei schwer verletzt hat . 
 ### Existing MWEs: 
@@ -353,7 +353,8 @@ außerdem fanden sich damen unterschiedlichen alters , die sich um die basteleie
 1- **fanden sich** (IReflV, 3)
 2- **sich um kümmern** (IReflV, 2)
 ### Identified MWEs: 
-1- **sich um** 
+1- **fanden sich** 
+2- **sich um** 
 ## Sentence No. 4605 - 
 zeugen , die sachdienliche hinweise zu dem unfallverursachenden fahrzeug machen können , werden gebeten , sich mit der polizei miesbach unter telefon 08025/2990 in verbindung zu setzen . 
 ### Existing MWEs: 
@@ -740,7 +741,7 @@ hier gibt es dienstags ab 14.45 uhr und donnerstags ab 14 uhr noch einige freie 
 ### Existing MWEs: 
 1- **gibt es** (ID, 62)
 ### Identified MWEs: 
-1- **gibt es** 
+1- **gibt ab** 
 ## Sentence No. 1010 - 
 bürgermeister herbert gebhardt nach 45 spielminuten stand es folgerrichtig 16:23 . 
 ### Existing MWEs: 
@@ -852,8 +853,6 @@ pfarrer ulrich parzany wird sich in der liveübertragung aus stuttgart dieses th
 als es ans bezahlen ging , kam es zum streit zwischen den vier männern und dem 44-jährigen besitzer des lokals . 
 ### Existing MWEs: 
 1- **kam es** (ID)
-### Identified MWEs: 
-1- **ging kam** 
 ## Sentence No. 1595 - 
 im zweiten quartal setzte der marktführer mit 6,4 mrd. euro deutlich weniger um als erwartet . 
 ### Existing MWEs: 
@@ -1118,8 +1117,6 @@ baum legt bahn lahm - solinger-tageblatt.de auch talkmaster und tv-produzent hub
 so ging es mit einem 0:0-remis in die pause . 
 ### Existing MWEs: 
 1- **ging es** (ID, 1)
-### Identified MWEs: 
-1- **ging es** 
 ## Sentence No. 2410 - 
 es gibt eine ganz einfache eselsbrücke. zuletzt aktualisiert : 09.10.2013 - 08:32 vorher will er mit vertretern der gemeinde sprechen , deren meinung hören . 
 ### Existing MWEs: 
@@ -1463,7 +1460,7 @@ eine studie , für die im jahr 2011 der dienstleister accenture 3400 berufstäti
 ### Existing MWEs: 
 1- **kommt zu schluss** (ID)
 ### Identified MWEs: 
-1- **kommt sich** 
+1- **kommt sehen** 
 ## Sentence No. 3420 - 
 immer wieder gelingt es ihnen , den weg zum flughafen abzuschneiden . 
 ### Existing MWEs: 
@@ -1519,6 +1516,8 @@ in der folge nehmen jedoch mit auflockerung der bewölkung die sonnigen phasen z
 foto : claus-dieter steyer ebenfalls dagegen spricht , dass bei gesunden erwachsenen die blut-hirn-schranke glutamat den zugang zum gehirn versperrt . 
 ### Existing MWEs: 
 1- **dagegen spricht** (ID, 1)
+### Identified MWEs: 
+1- **dagegen spricht** 
 ## Sentence No. 3600 - 
 wegen des streits sind seit dienstag große teile der öffentlichen verwaltung lahmgelegt . 
 ### Existing MWEs: 
@@ -1555,6 +1554,8 @@ erst wenn das vorbei ist und der papst vor dem petersdom platz genommen hat , tr
 von einigen einheimischen und touristen fehle jede spur , " es besteht absolut kein kontakt " . 
 ### Existing MWEs: 
 1- **fehle jede spur** (ID, 1)
+### Identified MWEs: 
+1- **fehle jede spur** 
 ## Sentence No. 3700 - 
 so ein fall wie mit den fernsehern wäre dann ausgeschlossen . 
 ### Existing MWEs: 
@@ -1689,6 +1690,8 @@ biberacher abenteuerspielplatz ist vorerst gerettet verwaltungsfahrzeug auf tief
 boeing liefert wieder " dreamliner " aus wir alle sollten nicht den fehler machen , das team nur daran zu messen . 
 ### Existing MWEs: 
 1- **fehler machen** (ID, 2)
+### Identified MWEs: 
+1- **fehler machen** 
 ## Sentence No. 4120 - 
 jetzt ist die zeit reif , diese technologie über den pilotmaßstab zur industriellen reife zu bringen . 
 ### Existing MWEs: 
@@ -1739,6 +1742,8 @@ bild : screenshot ( naturfreunde. at ) apa / reuters , 27.9.2013 neu in deren sc
 dann trifft sich die fraktion der grünen - und es geht nicht mehr darum , in die kamera zu lächeln . 
 ### Existing MWEs: 
 1- **geht darum** (ID, 1)
+### Identified MWEs: 
+1- **es geht darum** 
 ## Sentence No. 4290 - 
 appell an die usa landau : 84-jähriger aus landau vermisst " erst an naturphänomen gedacht " kleine zeitung sollte tatsächlich gelingen , was steinbrück und gabriel anstreben - nämlich die ablösung der schwarz-gelben regierung durch rot-grün - dann werden das vor allem die gutverdiener in deutschland zu spüren bekommen . 
 ### Existing MWEs: 
@@ -1782,6 +1787,8 @@ andreas jensch ( 47 ) ist schlecht gelaunt : der polizei-wachschützer und gewer
 westheim belohnt sich nicht der fc 05 schweinfurt ii , topfavorit der a-klasse schweinfurt , ist beim fc westheim die spielerisch bessere mannschaft , tut sich aber gegen defensiv starke hausherren mächtig schwer , zumal a. wahler , r. ottenweller und a. wiesler drei giftige unruheherde im spiel nach vorne sind . 
 ### Existing MWEs: 
 1- **tut schwer** (ID)
+### Identified MWEs: 
+1- **tut sich** 
 ## Sentence No. 4515 - 
 in diesem jahr aber war das lob berechtigt , schweden fiel angenehm auf durch besonderen humor und ironie . 
 ### Existing MWEs: 
@@ -1913,12 +1920,15 @@ der statistikmensch geht um 23.04 ins bett , braucht 15 minuten zum einschlafen 
 ### Existing MWEs: 
 1- **geht ins bett** (ID)
 ### Identified MWEs: 
-1- **ins bett** 
-2- **steht auf** 
+1- **geht um** 
+2- **ins bett** 
+3- **steht auf** 
 ## Sentence No. 4885 - 
 und dabei müssen sich die autoren in den geschäftsberichten nach ansicht kirchhoffs nicht einmal unendlich viele gedanken machen . 
 ### Existing MWEs: 
 1- **gedanken machen** (LVC, 1)
+### Identified MWEs: 
+1- **gedanken machen** 
 ## Sentence No. 4910 - 
 prinz george : fotos von der taufe gegen nutzungsbedingungen verstoßen die regierung hat angekündigt , einen gerichtlich verfügten baustopp im gezi-park am taksim-platz in istanbul zu akzeptieren . 
 ### Existing MWEs: 
@@ -1980,6 +1990,8 @@ regelmäßig bietet er jungen menschen ein freiwilliges soziales jahr an - und d
 sie sieht vor , dass die zumeist hohen abschlussgebühren auf die ersten fünf beitragsjahre verteilt werden müssen . 
 ### Existing MWEs: 
 1- **sieht vor** (VPC, 2)
+### Identified MWEs: 
+1- **sieht vor** 
 ## Sentence No. 5115 - 
 beim abbiegen von der lindauer straße in die martin-luther-straße schleuderte ein 21-jähriger fahrer aus berlin mit seinem opel bei regennasser fahrbahn gegen einen ampelmasten . 
 ### Existing MWEs: 
@@ -2202,6 +2214,8 @@ philipp gante ist 14 und hat schon ein ziemlich gutes fachwissen über lurche un
 sie geben aufschluss , wo sich der airbag befindet , der tank , die batterie und wo die gurtstraffer sind . 
 ### Existing MWEs: 
 1- **geben aufschluss** (ID, 1)
+### Identified MWEs: 
+1- **geben aufschluss** 
 ## Sentence No. 5870 - 
 lesen sie hier : herzogin kate : schlank ohne diät , aber mit viel yoga wunsch-koalition von heiner geißler : schwarz-grün robert seifert überstand drei runden über 500 meter souverän und steht im achtelfinale . 
 ### Existing MWEs: 
