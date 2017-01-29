@@ -1,10 +1,6 @@
 useFirstBufferElement = True
 
-transitionHistoryLength1 = False
-
-transitionHistoryLength3 = False
-
-transitionHistoryLength2 = False
+enableSingleMWE = True
 
 useSecondBufferElement = False
 
@@ -27,4 +23,10 @@ S0B0Distance = False
 generateS0B2Bigram = True
 
 useStackLength = False
+
+transitionHistoryLength1 = False
+
+transitionHistoryLength3 = False
+
+transitionHistoryLength2 = False
 

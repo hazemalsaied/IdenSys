@@ -40,6 +40,8 @@ renata ( isabela garcia ) é uma executiva apaixonada por mauro ( marcello novae
 ### Existing MWEs: 
 1- **dá valor** (LVC)
 2- **se separar** (IReflV, 1)
+### Identified MWEs: 
+1- **se separar** 
 ## Sentence No. 890 - 
 claro que o time do grêmio tem carências , mas o treinador faz esforço para torná-lo pior . 
 ### Existing MWEs: 
@@ -59,6 +61,8 @@ existem momentos em que os treinadores cometem desatinos e pagam caro por eles .
 ### Existing MWEs: 
 1- **cometem desatinos** (LVC)
 2- **pagam caro** (ID, 2)
+### Identified MWEs: 
+1- **pagam caro** 
 ## Sentence No. 1685 - 
 autor de mais de mil gols , dono dos títulos mais importantes do planeta bola , com o boi na sombra , o ex-atacante romário fez o que tinha de fazer : chamou a imprensa e anunciou que pendurou as chuteiras . 
 ### Existing MWEs: 
@@ -150,6 +154,7 @@ fez dois golaços e participou efetivamente dos gols marcados por marcão e iarl
 2- **gols marcados** (LVC, 3)
 ### Identified MWEs: 
 1- **fez golaços** 
+2- **gols marcados** 
 ## Sentence No. 8480 - 
 enquanto o ju se entregava a uma disputa na qual foi malsucedido , os jogadores do inter se dedicavam exclusivamente à preparação para o jogo de domingo . 
 ### Existing MWEs: 
@@ -180,6 +185,7 @@ apesar de três derrotas seguidas para o rival , o time do técnico abel braga e
 2- **passou longe** (ID, 2)
 ### Identified MWEs: 
 1- **entra em campo** 
+2- **passou longe** 
 ## Sentence No. 9320 - 
 pela segunda vez em dez dias , a torcida do inter entrou em campo com o time , não parou um segundo sequer , passou energia para os seus jogadores e deu um show à altura do espetáculo . 
 ### Existing MWEs: 
@@ -217,7 +223,8 @@ celso roth acertou a mão e o grêmio faz campanha .
 2- **acertou a mão** (ID, 1)
 1- **faz campanha** (LVC, 5)
 ### Identified MWEs: 
-1- **faz campanha** 
+1- **acertou a mão** 
+2- **faz campanha** 
 ## Sentence No. 11080 - 
 que este é o problema da lei atual , porque o clube faz contrato de quatro ou cinco anos e , se o jogador não dá certo , fica arcando com altas despesas ? 
 ### Existing MWEs: 
@@ -365,6 +372,8 @@ mesmo quem não conseguiu destacar-se mostrou disposição , correspondendo à e
 ### Existing MWEs: 
 1- **destacar-se** (IReflV)
 2- **mostrou disposição** (LVC, 1)
+### Identified MWEs: 
+1- **mostrou disposição** 
 ## Sentence No. 16710 - 
 para fazer o pedido , a leitora deverá comprovar que as filhas têm necessidades que não estão sendo supridas pelo pensionamento paterno . 
 ### Existing MWEs: 
@@ -372,14 +381,15 @@ para fazer o pedido , a leitora deverá comprovar que as filhas têm necessidade
 2- **têm necessidades** (LVC, 1)
 ### Identified MWEs: 
 1- **fazer pedido** 
-2- **têm necessidades** 
+2- **filhas supridas** 
 ## Sentence No. 17010 - 
 uma declaração feita pelos membros fundadores -- tim farriss , andrew farriss , jon farriss , kirk pengilly e garry beers -- dizia : " nós entendemos que isso deve vir como um duro golpe para todos , mas tudo tem um fim . 
 ### Existing MWEs: 
 1- **declaração feita** (LVC, 1)
 2- **tem fim** (LVC, 3)
 ### Identified MWEs: 
-1- **tem fim** 
+1- **declaração feita** 
+2- **tem fim** 
 ## Sentence No. 17445 - 
 nos últimos dois anos passou por cirurgias e tratamentos contra o câncer . 
 ### Existing MWEs: 
@@ -392,6 +402,8 @@ antecipou sua autocrítica perante o plenário do parlamento do país : " nós ,
 ### Existing MWEs: 
 1- **fazer sacrifícios** (LVC)
 2- **fazer sacrifícios** (LVC), Interleaving 
+### Identified MWEs: 
+1- **se vamos** 
 ## Sentence No. 18865 - 
 o programa fala de como é distribuição das oficinas dentro do caje e eles queriam dizer que acham preconceituosa a forma como a mídia se refere a eles . " 
 ### Existing MWEs: 
@@ -456,6 +468,8 @@ sua tia , simone , já fez esse caminho , mas engravidou , teve o filho e voltou
 ressurge , pois , a velha questão : o que mais prejudica uma equipe é quando o coletivo ou a individualidade deixa a desejar ? 
 ### Existing MWEs: 
 1- **deixa a desejar** (ID, 1)
+### Identified MWEs: 
+1- **deixa a desejar** 
 ## Sentence No. 100 - 
 colorado fez sondagem ? 
 ### Existing MWEs: 
@@ -767,6 +781,8 @@ conforme as notícias que pipocam na internet , a eleita é cearense e chama-se 
 a velocidade 5 ensinei para vocês agora , eu quero ver 
 ### Existing MWEs: 
 1- **quero ver** (ID, 2)
+### Identified MWEs: 
+1- **quero ver** 
 ## Sentence No. 2910 - 
 chama-se interlúdio . 
 ### Existing MWEs: 
@@ -791,7 +807,7 @@ júnior é o caso que mais chama a atenção .
 ### Existing MWEs: 
 1- **chama atenção** (ID, 8)
 ### Identified MWEs: 
-1- **chama atenção** 
+1- **é o caso chama** 
 ## Sentence No. 3065 - 
 após melhorar , júnior teve uma lesão no pé direito . 
 ### Existing MWEs: 
@@ -876,6 +892,8 @@ o casal namorava havia um ano e quatro meses , mas haviam se separado em feverei
 vagner mancini tem consciência disso , porque preserva roger , por exemplo , para estrear no dia 9 de fevereiro , quando estará apto , em vez de colocá-lo na fogueira . 
 ### Existing MWEs: 
 1- **tem consciência** (LVC, 3)
+### Identified MWEs: 
+1- **tem consciência** 
 ## Sentence No. 3695 - 
 o time caxiense tem grandeza suficiente para enfrentamentos com este grau de dificuldade . 
 ### Existing MWEs: 
@@ -1053,6 +1071,8 @@ quem bota filho no mundo tem que ter .
 tiroteio em festa no vale do caí participantes de uma festa realizada no ano novo viveram momentos de pânico na madrugada de ontem no loteamento popular , em são sebastião do caí , no vale do caí . 
 ### Existing MWEs: 
 1- **festa realizada** (LVC, 1)
+### Identified MWEs: 
+1- **festa realizada** 
 ## Sentence No. 5145 - 
 entre as atrações da programação , destacam-se o recanto do escritor , com lançamento de livros e autógrafos , espetáculos musicais , oficinas de artes plásticas , roda de chimarrão e área especial para recreação infantil . 
 ### Existing MWEs: 
@@ -1194,6 +1214,8 @@ bombeiros procuram rapaz em montenegro bombeiros de montenegro fazem buscas no r
 a viatura alcançava os bandidos , já à avenida nilo peçanha , bairro chácara das pedras , quando se chocou com o veículo strada . 
 ### Existing MWEs: 
 1- **se chocou** (IReflV, 1)
+### Identified MWEs: 
+1- **se chocou** 
 ## Sentence No. 6275 - 
 os pms abriram fogo contra a moto e acertaram ambos . 
 ### Existing MWEs: 
@@ -1209,7 +1231,7 @@ quem tem cacos de vidros sobre os muros , deve ter o cuidado de colocar areia pa
 ### Existing MWEs: 
 1- **ter cuidado** (LVC)
 ### Identified MWEs: 
-1- **ter cuidado** 
+1- **deve ter** 
 ## Sentence No. 6345 - 
 os segmentos residenciais e os clientes atendidos com gás natural comprimido ( gnc ) não sofrerão reajustes . 
 ### Existing MWEs: 
@@ -1240,6 +1262,8 @@ o interzinho vem com tudo para o teste do gauchão .
 seu passe pertence a o são josé de porto alegre e o colorado já se mexe para garanti-lo . 
 ### Existing MWEs: 
 1- **se mexe** (IReflV, 1)
+### Identified MWEs: 
+1- **se mexe** 
 ## Sentence No. 6560 - 
 não se esqueça de colocar data , preço , hora e local do evento , além de telefone para contato . 
 ### Existing MWEs: 
@@ -1512,6 +1536,8 @@ mesmo com os problemas que a equipe enfrenta , devido à reformulação , joga t
 na hora de devolver o veículo a o dono , são paradas pela polícia e acabam detidas a o dizer que pegaram o automóvel emprestado . 
 ### Existing MWEs: 
 1- **pegaram emprestado** (ID)
+### Identified MWEs: 
+1- **são paradas** 
 ## Sentence No. 8225 - 
 mas não tenho filhos . 
 ### Existing MWEs: 
@@ -1651,7 +1677,7 @@ o trabalho faz parte do projeto raridades , da gravadora som livre .
 ### Existing MWEs: 
 1- **faz parte** (ID, 24)
 ### Identified MWEs: 
-1- **faz parte** 
+1- **trabalho faz parte** 
 ## Sentence No. 8970 - 
 renato dá uma bronca em betão . 
 ### Existing MWEs: 
@@ -1732,7 +1758,8 @@ caso se confirme a ausência do volante , o técnico abel braga vai ter que acha
 1- **tem obrigação** (LVC, 6)
 ### Identified MWEs: 
 1- **fazer marcando** 
-2- **levar gol** 
+2- **tem obrigação** 
+3- **levar gol** 
 ## Sentence No. 9715 - 
 que tal se embrenhar nesses cabelos ? 
 ### Existing MWEs: 
@@ -1983,6 +2010,8 @@ meninos de 12 e 13 anos já se exibem de armas em punho e carregam a droga para 
 ele tinha ferimentos provocados por golpes de faca nas costas . 
 ### Existing MWEs: 
 1- **tinha ferimentos** (LVC, 3)
+### Identified MWEs: 
+1- **tinha ferimentos** 
 ## Sentence No. 11270 - 
 em depoimento à cpi do detran ontem , o empresário lair ferst afirmou que tem provas contra a fundação carlos chagas . 
 ### Existing MWEs: 
@@ -2021,6 +2050,8 @@ fico sempre preocupada , porque sei o tamanho da capacidade que temos de nos ilu
 a ex-paquita mostrará a que veio na pele de uma sensual secretária em a favorita , novela das oito da tv globo que estréia na próxima segunda-feira . 
 ### Existing MWEs: 
 1- **mostrará a que veio** (ID, 1)
+### Identified MWEs: 
+1- **mostrará a que veio** 
 ## Sentence No. 11510 - 
 no momento em que josé carlos descia de sua motocicleta , dois homens saíam do mercado , após terem realizado um assalto , no qual roubaram cerca de r$ 200 e o telefone celular de um cliente . 
 ### Existing MWEs: 
@@ -2103,6 +2134,8 @@ entre a expectativa do começo , alguns alunos terão aulas em condições prec�
 isso só será possível se a escola pretendida tiver vaga . 
 ### Existing MWEs: 
 1- **tiver vaga** (LVC, 2)
+### Identified MWEs: 
+1- **tiver vaga** 
 ## Sentence No. 11980 - 
 ou seja , a o pé da letra , o condutor disposto a cumprir a lei municipal estará cometendo uma infração de trânsito . 
 ### Existing MWEs: 
@@ -2118,7 +2151,7 @@ estou me sentindo muito bem .
 ### Existing MWEs: 
 1- **me sentindo** (IReflV, 2)
 ### Identified MWEs: 
-1- **sentindo bem** 
+1- **me sentindo** 
 ## Sentence No. 12130 - 
 da mesma forma , se o patrimônio deixado tiver credores , a partilha não será amigável . 
 ### Existing MWEs: 
@@ -2455,6 +2488,8 @@ terça-feira giovane rosa nunes vai a júri por tentativa de homicídio qualific
 mas é também muito calórico e devemos ter bom senso a o oferecê-lo para os pequenos . 
 ### Existing MWEs: 
 1- **ter bom senso** (LVC)
+### Identified MWEs: 
+1- **devemos ter** 
 ## Sentence No. 14620 - 
 deu tudo certo . 
 ### Existing MWEs: 
@@ -2561,6 +2596,8 @@ um operação de rotina tirou de circulação um dos mais procurados assaltantes
 a assessoria de comunicação social da puc informou que o episódio não colocou em risco freqüentadores do hospital nem causou danos a o patrimônio . 
 ### Existing MWEs: 
 1- **colocou em risco** (ID, 1)
+### Identified MWEs: 
+1- **colocou em risco** 
 ## Sentence No. 15605 - 
 então , abra o olho . 
 ### Existing MWEs: 
@@ -2665,6 +2702,8 @@ a diversão ficou por conta do harlem globetrotters , tradicional time de basque
 trégua está mais do que na hora . 
 ### Existing MWEs: 
 1- **está mais do que na hora** (ID, 1)
+### Identified MWEs: 
+1- **está mais do que na hora** 
 ## Sentence No. 16705 - 
 uma leitora conta que é separada , tem duas filhas e seu ex-marido paga a elas r$ 150 mensais , valor insuficiente para ajudar no sustento . 
 ### Existing MWEs: 
@@ -2701,6 +2740,8 @@ o b2 apresenta índice de 2 % de biodiesel , enquanto o b100 é composto 100 % d
 como todo empréstimo , o penhor não tem mistério . 
 ### Existing MWEs: 
 1- **tem mistério** (LVC, 1)
+### Identified MWEs: 
+1- **tem mistério** 
 ## Sentence No. 16940 - 
 estar no segundo ou terceiro ano do ensino médio , ou ter concluído o curso ; ter conhecimentos em informática ; para ambos os sexos . 
 ### Existing MWEs: 
@@ -2739,6 +2780,8 @@ temos que firmar parcerias para que a gente possa cumprir nossa missão que é g
 o pai ( papa woodpecker ) tenta criar o pica - pau que se mostra um bebê revoltado . 
 ### Existing MWEs: 
 1- **se mostra** (IReflV, 4)
+### Identified MWEs: 
+1- **se mostra** 
 ## Sentence No. 17160 - 
 quando estiver próximo dos 100 % , tudo vai correr melhor . 
 ### Existing MWEs: 

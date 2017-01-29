@@ -17,6 +17,7 @@ biorąc pod uwagę zyski pozostałych giełdowych spółek , które bardzo częs
 ### Identified MWEs: 
 1- **biorąc pod uwagę** 
 2- **okazywały się** 
+3- **trzymają się** 
 ## Sentence No. 2725 - 
 janusz o . przyznał się do stawianych mu zarzutów i bez poręczenia majątkowego dziś wyszedł na wolność . 
 ### Existing MWEs: 
@@ -43,8 +44,9 @@ ludzie uważają , że do kłopotów z uzyskaniem zgody przyczynili się inwesto
 1- **przyczynili się** (IReflV, 1)
 2- **starający się** (IReflV, 22)
 ### Identified MWEs: 
-1- **przyczynili się** 
-2- **starający się** 
+1- **uzyskaniem zgody** 
+2- **przyczynili się** 
+3- **starający się** 
 ## Sentence No. 4820 - 
 występując na pierwszej konferencji prasowej od czasu , kiedy miloszewić znalazł się w areszcie , kosztunica powiedział , że były prezydent ponosi wielką odpowiedzialność za szkody wyrządzone jugosławii . 
 ### Existing MWEs: 
@@ -53,7 +55,7 @@ występując na pierwszej konferencji prasowej od czasu , kiedy miloszewić znal
 3- **szkody wyrządzone** (LVC, 1)
 ### Identified MWEs: 
 1- **znalazł się** 
-2- **wyrządzone jugosławii** 
+2- **szkody wyrządzone** 
 ## Sentence No. 5345 - 
 zbigniew stypa , prezes ship service , uważa , że w takiej sytuacji wielu przedsiębiorców może się obawiać podejmowania ryzyka gospodarczego , gdyż np . może mieć obawy jak daną operację handlową potraktują organa karno - skarbowe . 
 ### Existing MWEs: 
@@ -81,6 +83,7 @@ dodał , że jeśli którykolwiek zagraniczny bank nie zgodzi się na zamrożeni
 ### Identified MWEs: 
 1- **zgodzi się** 
 2- **liczyć się** 
+3- **transakcje dokonywane** 
 ## Sentence No. 10010 - 
 oprócz znanych , przeważnie zagranicznych firm , które posiadają w polsce własną sieć sklepów , coraz częściej z tego typu ofertą wychodzą do klientów również niewielkie , pojedyncze sklepy , których właściciele dochodzą do wniosku , że nie powinni pozostawać w tyle za konkurencją . 
 ### Existing MWEs: 
@@ -321,18 +324,21 @@ o postawieniu zarzutu poinformowała w czwartek prokuratura apelacyjna w warszaw
 2- **śledztwo prowadzone** (LVC, 2)
 ### Identified MWEs: 
 1- **postawieniu zarzutu** 
+2- **śledztwo prowadzone** 
 ## Sentence No. 6135 - 
 pomysłodawca sugerujący , by rzuty karne wykonywać przed rozpoczęciem gry wychodzi z założenia , że zwycięzcą rywalizacji w meczu zakończonym remisem będzie zespół , który wygrał konkurs " jedenastek " . 
 ### Existing MWEs: 
 1- **rzuty karne wykonywać** (LVC, 1)
 2- **wychodzi z założenia** (LVC)
 ### Identified MWEs: 
-1- **wykonywać przed** 
+1- **rzuty karne wykonywać** 
 ## Sentence No. 6550 - 
 potrącona przez auto doznała urazów nogi , głowy i wstrząśnienia mózgu . 
 ### Existing MWEs: 
 1- **doznała urazów** (LVC, 2)
 2- **doznała wstrząśnienia mózgu** (LVC), Interleaving 
+### Identified MWEs: 
+1- **doznała urazów** 
 ## Sentence No. 6645 - 
 prezydium sejmu , które ma zdecydować o dalszych losach referendum , zwróciło się wczoraj do państwowej komisji wyborczej o stwierdzenie , czy pod wnioskiem o przeprowadzenie referendum w sprawie podziału i ustroju terytorialnego rp jest złożona wymagana liczba głosów . 
 ### Existing MWEs: 
@@ -450,6 +456,8 @@ od 1988 r . , pod wpływem niekorzystnych dla szwecji orzeczeń europejskiego tr
 ### Existing MWEs: 
 2- **sobie wyobrazić** (IReflV)
 1- **wedrze się** (IReflV)
+### Identified MWEs: 
+1- **się czuje** 
 ## Sentence No. 10700 - 
 wydaje się , że ma mniejsze szanse , ponieważ nie ma mocnego nazwiska i nie jest silną osobowością . 
 ### Existing MWEs: 
@@ -563,6 +571,8 @@ przymykali śmy oko na jego wybryki , ale zaczął przeginać .
 i wtedy ma problem . 
 ### Existing MWEs: 
 1- **ma problem** (LVC, 7)
+### Identified MWEs: 
+1- **ma problem** 
 ## Sentence No. 530 - 
 mam pracę do czerwca , rozbieramy teraz czwarty piec . 
 ### Existing MWEs: 
@@ -583,6 +593,8 @@ gdyby 15-letni chłopak na przepustce zabił człowieka , to dostał by ode mnie
 jej twórca janusz onyszkiewicz ( uw ) zwraca uwagę , że formalnie wzmacnia również stanowisko szefa sztabu generalnego , który w starych aktach prawnych był tylko szefem komórki planistycznej . 
 ### Existing MWEs: 
 1- **zwraca uwagę** (ID, 4)
+### Identified MWEs: 
+1- **zwraca uwagę** 
 ## Sentence No. 585 - 
 dziewiczość i unikatowość tamtejszej przyrody uda się pewnie zachować , bo wkrótce będzie to obszar zamknięty i objęty nadzwyczajną ochroną . 
 ### Existing MWEs: 
@@ -633,6 +645,8 @@ czy mogł em nie śmiać się , kiedy rada europy - której członkiem była i j
 czy mózg jest w stanie zrozumieć mózg ? 
 ### Existing MWEs: 
 1- **jest w stanie** (ID, 15)
+### Identified MWEs: 
+1- **jest w stanie** 
 ## Sentence No. 920 - 
 inżynierowie thomsona obawiali się , by nie został zmarnowany " dorobek własnej myśli technicznej " , zwłaszcza w dziedzinie telewizji cyfrowej ( rozwinięty przez amerykańską filię koncernu ) . 
 ### Existing MWEs: 
@@ -781,6 +795,8 @@ choć nie ma oficjalnych odwiedzin , mama może spotkać się z rodziną w koryt
 w polityce zagranicznej zrobi wszystko , by polska nie znalazła się w rosyjskiej strefie wpływów . 
 ### Existing MWEs: 
 1- **znalazła się** (IReflV, 31)
+### Identified MWEs: 
+1- **znalazła się** 
 ## Sentence No. 1460 - 
 ale w czwartek lider sdrp józef oleksy powiedział " gazecie " , że choć w " uznaniu zasług leszka millera " rozważano taki pomysł , to ani premier cimoszewicz , ani sld propozycji takiej nie złożyli . 
 ### Existing MWEs: 
@@ -1083,6 +1099,8 @@ nikomu nie dawał em polecenia oglądania mebli .
 chyba że , jak ewa , nie mają siły do sprzątania . 
 ### Existing MWEs: 
 1- **mają siły** (LVC, 2)
+### Identified MWEs: 
+1- **mają siły** 
 ## Sentence No. 2965 - 
 w dzieciństwie miał telewizor zamiast niani i do dzisiaj czuje się obciążony psychicznie . 
 ### Existing MWEs: 
@@ -1364,6 +1382,8 @@ formalnie amerykanie nie mogą brać udziału w działaniach bojowych , a cała 
 w kopenhadze kampanię prowadzi brytyjska aktorka vanessa redgrove , obrończyni praw czeczenów . 
 ### Existing MWEs: 
 1- **kampanię prowadzi** (LVC, 1)
+### Identified MWEs: 
+1- **kampanię prowadzi** 
 ## Sentence No. 4225 - 
 policja podała , że niemcy znajdowali się poza wytyczonymi szlakami zjazdowymi . 
 ### Existing MWEs: 
@@ -1402,6 +1422,8 @@ bomba wybuchła o 13 . 40 , kiedy stołówka niemal pękała w szwach .
 skandal ze szpiegostwem przemysłowym wybuchł , gdy odkryto , że ma miejsce przeciekanie tajemnic ericssona do obcych służb wywiadowczych . 
 ### Existing MWEs: 
 1- **ma miejsce** (LVC, 9)
+### Identified MWEs: 
+1- **ma miejsce** 
 ## Sentence No. 4475 - 
 wcześniej kilkakrotnie nie stawiał się na wezwanie sądu , na przedwczorajszą rozprawę przyszedł w asyście funkcjonariuszy . 
 ### Existing MWEs: 
@@ -1493,7 +1515,8 @@ takie połączenie przewiduje porozumienie zawarte 30 października między obu 
 ### Existing MWEs: 
 1- **porozumienie zawarte** (LVC, 1)
 ### Identified MWEs: 
-1- **wydane akcje** 
+1- **porozumienie zawarte** 
+2- **wydane akcje** 
 ## Sentence No. 4780 - 
 estończycy przeciwni członkostwu w ue obawiają się , że ich niewielki kraj ( 1,5 mln mieszkańców ) straci swą tożsamość w zjednoczonej europie . 
 ### Existing MWEs: 
@@ -1620,6 +1643,8 @@ badania genetyczne bakterii będą przeprowadzone w narodowym instytucie zdrowia
 w wolinie podczas minionego weekendu można było przeżyć niecodzienne i mrożące krew w żyłach przygody . 
 ### Existing MWEs: 
 1- **mrożące krew w żyłach** (ID, 1)
+### Identified MWEs: 
+1- **mrożące krew w żyłach** 
 ## Sentence No. 5355 - 
 protest ma charakter kroczący , tzn . że do akcji w województwach : łódzkim , świętokrzyskim i opolskim przystępować będą kolejne regiony . 
 ### Existing MWEs: 
@@ -1800,6 +1825,8 @@ w tegorocznym budżecie gminy są zabezpieczone na ten cel pewne środki , jedna
 sejmowa debata i głosowanie nad wnioskiem o odwołanie ministra skarbu emila wąsacza odbędzie się w sobotę przed południem - poinformował wczoraj marszałek sejmu maciej płażyński . 
 ### Existing MWEs: 
 1- **odbędzie się** (IReflV, 4)
+### Identified MWEs: 
+1- **odbędzie się** 
 ## Sentence No. 6240 - 
 mężczyznę uwolnił dopiero inny pracownik , który zszedł do piwnicy , w której znajdują się pomieszczenia magazynowe . 
 ### Existing MWEs: 
@@ -1810,6 +1837,8 @@ mężczyznę uwolnił dopiero inny pracownik , który zszedł do piwnicy , w kt�
 zarząd powiatu skierował zawiadomienie o popełnieniu przestępstwa w dps-ie w mielnie do prokuratury rejonowej w koszalinie . 
 ### Existing MWEs: 
 1- **popełnieniu przestępstwa** (LVC, 1)
+### Identified MWEs: 
+1- **popełnieniu przestępstwa** 
 ## Sentence No. 6275 - 
 z dniem 1 sierpnia w nowym jorku wchodzi w życie rygorystyczne prawo , pozwalające nawet na . . . konfiskatę auta z tablicami dyplomatycznymi , które jest obciążone mandatami za parkowanie . 
 ### Existing MWEs: 
@@ -1914,6 +1943,8 @@ zdaniem producenta sopockiego festiwalu mirosława Łękowskiego , tegoroczne gw
 brak miejsc przy stolikach oraz wspólne śpiewy mogą świadczyć , że impreza się podobała . 
 ### Existing MWEs: 
 1- **się podobała** (IReflV, 2)
+### Identified MWEs: 
+1- **się podobała** 
 ## Sentence No. 6640 - 
 o realizacji obu inwestycji postanowiła w ub . roku rada miejska decydując się na emisję obligacji komunalnych . 
 ### Existing MWEs: 
@@ -2032,6 +2063,8 @@ regulaminowe decyzje , po wnikliwej analizie protokołu z tego pojedynku , podej
 jednak , jak nam powiedziano w zakładzie telekomunikacji , nic nie stoi na przeszkodzie , by ktoś posiadający już stację , założył sobie drugi czy trzeci telefon . 
 ### Existing MWEs: 
 1- **stoi na przeszkodzie** (ID, 1)
+### Identified MWEs: 
+1- **stoi na przeszkodzie** 
 ## Sentence No. 7185 - 
 w niedzielę jedna z nich osunęła się na trasę narciarską w ovronnaz , małej miejscowości w kantonie valais ( południowo - zachodnia szwajcaria ) . 
 ### Existing MWEs: 
@@ -2046,6 +2079,8 @@ znaleźli się także wśród nich podopieczni ośrodka pomocy społecznej w kos
 84 proc . badanych jest zdania , że uzyskanie dobrego wynagrodzenia za rzetelną pracę jest niezbędne dla rozwoju gospodarki i przyszłego dobrobytu kraju . 
 ### Existing MWEs: 
 1- **jest zdania** (LVC, 4)
+### Identified MWEs: 
+1- **jest zdania** 
 ## Sentence No. 7250 - 
 niesamowity wysiłek , z jakim musiała zmierzyć się nasza zawodniczka 180 kilometrów na rowerze , 42 kilometry biegu i 3 kilometry wpław został wynagrodzony piątą pozycją na mecie . 
 ### Existing MWEs: 
@@ -2162,6 +2197,7 @@ nie sprawdziły się więc obietnice , że płatny postój będzie obowiązywał
 1- **sprawdziły się** (IReflV)
 ### Identified MWEs: 
 1- **sprawdziły się** 
+2- **podpisaniu umowy** 
 ## Sentence No. 7700 - 
 - dane gus przeszły nasze najśmielsze oczekiwania - przyznaje katarzyna zajdel , ekonomistka citibanku . 
 ### Existing MWEs: 
@@ -2263,6 +2299,7 @@ rzecznik nafty polskiej krzysztof nering poinformował pg , że zarząd nafty mo
 1- **podjąć decyzję** (LVC, 14)
 ### Identified MWEs: 
 1- **podjąć decyzję** 
+2- **podpisaniu umowy** 
 ## Sentence No. 8270 - 
 - reformę trzeba przeprowadzić - twierdzi odchodzący dyrektor . 
 ### Existing MWEs: 
@@ -2305,6 +2342,8 @@ stwierdził on , że " wc kwadrans " nosił cechy ideologii faszystowskiej - jak
 tu obserwatorzy uroczystej chwili padli ofiarami drobnej mistyfikacji . 
 ### Existing MWEs: 
 1- **padli ofiarami** (ID, 2)
+### Identified MWEs: 
+1- **padli ofiarami** 
 ## Sentence No. 8360 - 
 osiem osób odniosło lekkie obrażenia w wyniku zderzenia dwóch tramwajów , do którego doszło w czwartek po południu w centrum warszawy . 
 ### Existing MWEs: 
@@ -2565,6 +2604,8 @@ espinoza zdobyła sławę , gdy została zaproszona do popularnego programu tele
 berger nie chciał powiedzieć , ilu osobom mogą zostać przedstawione zarzuty . 
 ### Existing MWEs: 
 1- **przedstawione zarzuty** (LVC, 2)
+### Identified MWEs: 
+1- **przedstawione zarzuty** 
 ## Sentence No. 9190 - 
 stwarzają one zagrożenie dla wszystkich uczestników ruchu , więc powinny być jak najszybciej usunięte . 
 ### Existing MWEs: 
@@ -2804,6 +2845,8 @@ ludzie darzą go szacunkiem za gole , które zdobywał , za to , że jest bogaty
 michał listkiewicz przyjrzał się piłce nożnej ze wszystkich stron . 
 ### Existing MWEs: 
 1- **przyjrzał się** (IReflV, 2)
+### Identified MWEs: 
+1- **przyjrzał się** 
 ## Sentence No. 10695 - 
 potrafi dogadać się prawie z każdym . 
 ### Existing MWEs: 
@@ -2856,6 +2899,8 @@ odpowiedzialność ponoszą także samorządy .
 w połowie grudnia zadecydowano też , że ostatniego dnia roku prawie wszyscy strażacy mają się stawić w swych jednostkach . 
 ### Existing MWEs: 
 1- **się stawić** (IReflV)
+### Identified MWEs: 
+1- **mają się** 
 ## Sentence No. 10995 - 
 paczka doszła bez przeszkód , a osoba , która ją odebrała ( młodociana córka szwagierki wieniawy i francuza ) , czujnie zakopała papiery pod dużym drzewem , żeby nie wpadły w ręce niemców . 
 ### Existing MWEs: 

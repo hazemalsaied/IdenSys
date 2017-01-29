@@ -1,6 +1,10 @@
 useFirstBufferElement = True
 
-enableSingleMWE = False
+transitionHistoryLength1 = True
+
+transitionHistoryLength3 = True
+
+transitionHistoryLength2 = True
 
 useSecondBufferElement = False
 
@@ -24,9 +28,5 @@ generateS0B2Bigram = False
 
 useStackLength = True
 
-transitionHistoryLength1 = True
-
-transitionHistoryLength3 = True
-
-transitionHistoryLength2 = True
+enhanceMerge = True
 

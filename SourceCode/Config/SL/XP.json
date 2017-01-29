@@ -1,5 +1,4 @@
 {
-  "enableSingleMWE":false,
   "useStackLength": false,
   "S0B0Distance":false,
   "S0S1Distance":false,
@@ -18,5 +17,7 @@
     "transitionHistoryLength1": false,
     "transitionHistoryLength2": false,
     "transitionHistoryLength3": true
-  }
+  },
+
+  "enhanceMerge":true
 }

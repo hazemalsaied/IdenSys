@@ -30,15 +30,27 @@ class Parser:
                 transDicList.append({})
                 transLebelsList.append(0)
             elif (len(config.buffer) == 0 and len(config.stack) == 1) or (
-                    len(config.stack) == 1 and isinstance(config.stack[0], list)):
+                            len(config.stack) == 1 and isinstance(config.stack[0], list)):
                 transition = Parser.applyComplete(transition, sent, parse=True)
                 transDicList.append({})
                 transLebelsList.append(2)
+
             else:
                 featDic = Parser.getConfigurationFeatures(transition, sent)
                 transDicList.append(featDic)
                 transType = classifier.predict(dictVectorizer.transform(featDic))
-                if transType == 0:
+
+                if Parameters.enhanceMerge and transType != 0 and len(config.buffer) > 0 and len(
+                        config.stack) > 0 and isinstance(config.stack[-1], Token) and ((isinstance(config.stack[-1], Token) and Parser.areInLexic(
+                    [config.stack[-1], config.buffer[0]])) or (len(config.buffer) > 1  and Parser.areInLexic(
+                    [config.stack[-1], config.buffer[0], config.buffer[1]])) or ( len(config.buffer) > 2  and Parser.areInLexic(
+                    [config.stack[-1], config.buffer[0], config.buffer[1], config.buffer[2]]))  or (len(config.buffer) > 1 and len(config.stack) > 1 and Parser.areInLexic(
+                    [config.stack[-2], config.stack[-1], config.buffer[1]]))):
+
+                    transition = Parser.applyShift(transition)
+                    transLebelsList.append(0)
+
+                elif transType == 0:
                     if len(config.buffer) > 0:
                         transition = Parser.applyShift(transition)
                         transLebelsList.append(0)
@@ -84,6 +96,45 @@ class Parser:
         sent.featuresInfo = [transLebelsList, transDicList]
         return [transLebelsList, transDicList]
 
+    counter = 0
+    @staticmethod
+    def areInLexic(tokensList):
+        text = ''
+        for token in tokensList:
+            if isinstance(token, list):
+                subtokens = Parser.getToken(token)
+                for subtoken in subtokens:
+                    if subtoken.lemma != '':
+                        text += subtoken.lemma + ' '
+                    else:
+                        text += subtoken.text + ' '
+            else:
+                if token.lemma != '':
+                    text += token.lemma + ' '
+                else:
+                    text += token.text + ' '
+        text = text.strip()
+        if text in Parser.mweDictionary.keys():
+                return True
+        return False
+
+        # tokenText = tokensList[0].lemma
+        # if tokenText == '':
+        #     tokenText = tokensList[0].text
+        # for key in Parser.mweDictionary.keys():
+        #     if (' ' + key+ ' ').find(' ' + tokenText + ' ') != -1 and tokenText != key:
+        #         areInLexic = True
+        #         for tokken in tokensList:
+        #             if tokken is not tokensList[0]:
+        #                 anotherTokenText = tokken.lemma
+        #                 if anotherTokenText == '':
+        #                     anotherTokenText = tokken.text
+        #                 if (' ' + key+ ' ').find(' ' + anotherTokenText  + ' ') == -1:
+        #                     areInLexic = False
+        #         if areInLexic:
+        #             return True
+        # return False
+
     @staticmethod
     def getConfigurationFeatures(transition, sent):
 
@@ -108,12 +159,14 @@ class Parser:
 
                             if bufElem.lemma != '' and bufElem.lemma in key:
                                 transDic['S0B' + str(bufidx) + 'ArePartsOfMWE'] = True
-                            if isinstance(elem, Token):
-                                transDic['S0B' + str(bufidx) + 'ArePartsOfMWEDistance'] = sent.tokens.index(bufElem) - sent.tokens.index(elem)
-                            else:
-                                transDic['S0B' + str(bufidx) + 'ArePartsOfMWEDistance'] = sent.tokens.index(
-                                    bufElem) - sent.tokens.index(tokens[-1])
+                                if isinstance(elem, Token):
+                                    transDic['S0B' + str(bufidx) + 'ArePartsOfMWEDistance'] = sent.tokens.index(
+                                        bufElem) - sent.tokens.index(elem)
+                                else:
+                                    transDic['S0B' + str(bufidx) + 'ArePartsOfMWEDistance'] = sent.tokens.index(
+                                        bufElem) - sent.tokens.index(tokens[-1])
                             bufidx += 1
+                        break
 
         if Parameters.useStackLength and len(configuration.stack) > 1:
             transDic['StackLengthIs'] = len(configuration.stack)
@@ -121,6 +174,11 @@ class Parser:
             stackElements = [configuration.stack[-2], configuration.stack[-1]]
         else:
             stackElements = configuration.stack
+
+        # if Parameters.useTriGram and len(stackElements) >2 :
+        #    Parser.generateTriGram(stackElements[-3], stackElements[-2], stackElements[-1], 'S2S1S0', transDic)
+
+
         # General linguistic Informations
         if len(stackElements) > 0:
             elemIdx = len(stackElements) - 1
@@ -139,6 +197,8 @@ class Parser:
             if len(stackElements) > 1:
                 # Generate a Bi-gram
                 Parser.generateBiGram(stackElements[-2], stackElements[-1], 'S1S0', transDic)
+                if Parameters.generateS1B1 and len(configuration.buffer) > 1:
+                    Parser.generateBiGram(stackElements[-2], configuration.buffer[1], 'S1B1', transDic)
             if len(stackElements) > 0 and len(configuration.buffer) > 0:
                 Parser.generateBiGram(stackElements[-1], configuration.buffer[0], 'S0B0', transDic)
                 if len(stackElements) > 1:
@@ -550,7 +610,7 @@ class Parser:
             elif len(vMWETokens) == 1:
                 if Parameters.enableSingleMWE:
                     if vMWETokens[0].lemma in Parser.mweDictionary.keys() or \
-                        vMWETokens[0].text in Parser.mweDictionary.keys():
+                                    vMWETokens[0].text in Parser.mweDictionary.keys():
                         if vMWEId is None:
                             vMWEId = Parser.getVMWENumber(newTokens) + 1
                         vMWE = VMWE(vMWEId, vMWETokens[0], vMWEType)

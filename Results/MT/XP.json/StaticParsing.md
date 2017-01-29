@@ -1,3 +1,1334 @@
+## Sentence No. 639 - 
+filwaqt li l- presidenza tal- kunsill ewropew waslu l- kondoljanzi tagħhom lejn il- familjari tal- ħaddiema , huma ħeġġew dawk kollha involuti fil- ġlied sabiex iħaffu l- proċeduri biex jiffirmaw il- qbil ta’ djibouti biex b’ hekk it- triq għal paċi tkun tista’ tibda tinbena . 
+### Existing MWEs: 
+1- **waslu kondoljanzi** (ID)
+2- **involuti ġlied** (LVC)
+3- **triq għal paċi** (ID)
+4- **tinbena** (ID)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [filwaqt, li, l- ,.. ]
+
+B0Lemma: Filwaqt, B0POS: CONJ_SUB, B0Token: filwaqt, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [filwaqt]   B= [li, l-, presidenza ,.. ]
+
+B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: Filwaqt_li, S0B0LemmaPOS: Filwaqt_COMP, S0B0POS: CONJ_SUB_COMP, S0B0POSLemma: CONJ_SUB_li, S0B0Token: filwaqt_li, S0B1Lemma: Filwaqt_il-, S0B1LemmaPOS: Filwaqt_DEF, S0B1POS: CONJ_SUB_DEF, S0B1POSLemma: CONJ_SUB_il-, S0B1Token: filwaqt_l-, S0Lemma: Filwaqt, S0POS: CONJ_SUB, S0Token: filwaqt, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, l-, presidenza ,.. ]
+
+B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [l-, presidenza, tal- ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: li_il-, S0B0LemmaPOS: li_DEF, S0B0POS: COMP_DEF, S0B0POSLemma: COMP_il-, S0B0Token: li_l-, S0B1Lemma: li_presidenza, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_presidenza, S0B1Token: li_presidenza, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, presidenza, tal- ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [presidenza, tal-, kunsill ,.. ]
+
+B0Lemma: presidenza, B0POS: NOUN, B0Token: presidenza, S0B0Lemma: il-_presidenza, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_presidenza, S0B0Token: l-_presidenza, S0B1Lemma: il-_ta', S0B1LemmaPOS: il-_GEN_DEF, S0B1POS: DEF_GEN_DEF, S0B1POSLemma: DEF_ta', S0B1Token: l-_tal-, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [presidenza, tal-, kunsill ,.. ]
+
+B0Lemma: presidenza, B0POS: NOUN, B0Token: presidenza, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [presidenza]   B= [tal-, kunsill, ewropew ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: presidenza_ta', S0B0LemmaPOS: presidenza_GEN_DEF, S0B0POS: NOUN_GEN_DEF, S0B0POSLemma: NOUN_ta', S0B0Token: presidenza_tal-, S0B1Lemma: presidenza_kunsill, S0B1LemmaPOS: presidenza_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_kunsill, S0B1Token: presidenza_kunsill, S0Lemma: presidenza, S0POS: NOUN, S0Token: presidenza, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, kunsill, ewropew ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [kunsill, ewropew, waslu ,.. ]
+
+B0Lemma: kunsill, B0POS: NOUN, B0Token: kunsill, S0B0Lemma: ta'_kunsill, S0B0LemmaPOS: ta'_NOUN, S0B0POS: GEN_DEF_NOUN, S0B0POSLemma: GEN_DEF_kunsill, S0B0Token: tal-_kunsill, S0B1Lemma: ta'_ewropew, S0B1LemmaPOS: ta'_ADJ, S0B1POS: GEN_DEF_ADJ, S0B1POSLemma: GEN_DEF_ewropew, S0B1Token: tal-_ewropew, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_DEF, S0Token: tal-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kunsill, ewropew, waslu ,.. ]
+
+B0Lemma: kunsill, B0POS: NOUN, B0Token: kunsill, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kunsill]   B= [ewropew, waslu, l- ,.. ]
+
+B0Lemma: ewropew, B0POS: ADJ, B0Token: ewropew, S0B0Lemma: kunsill_ewropew, S0B0LemmaPOS: kunsill_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_ewropew, S0B0Token: kunsill_ewropew, S0B1Lemma: kunsill_wasal, S0B1LemmaPOS: kunsill_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_wasal, S0B1Token: kunsill_waslu, S0Lemma: kunsill, S0POS: NOUN, S0Token: kunsill, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ewropew, waslu, l- ,.. ]
+
+B0Lemma: ewropew, B0POS: ADJ, B0Token: ewropew, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ewropew]   B= [waslu, l-, kondoljanzi ,.. ]
+
+B0IsInLexic: true, B0Lemma: wasal, B0POS: VERB, B0Token: waslu, S0B0Lemma: ewropew_wasal, S0B0LemmaPOS: ewropew_VERB, S0B0POS: ADJ_VERB, S0B0POSLemma: ADJ_wasal, S0B0Token: ewropew_waslu, S0B1Lemma: ewropew_il-, S0B1LemmaPOS: ewropew_DEF, S0B1POS: ADJ_DEF, S0B1POSLemma: ADJ_il-, S0B1Token: ewropew_l-, S0Lemma: ewropew, S0POS: ADJ, S0Token: ewropew, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [waslu, l-, kondoljanzi ,.. ]
+
+B0IsInLexic: true, B0Lemma: wasal, B0POS: VERB, B0Token: waslu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waslu]   B= [l-, kondoljanzi, tagħhom ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: wasal_il-, S0B0LemmaPOS: wasal_DEF, S0B0POS: VERB_DEF, S0B0POSLemma: VERB_il-, S0B0Token: waslu_l-, S0B1Lemma: wasal_kondoljanza, S0B1LemmaPOS: wasal_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_kondoljanza, S0B1Token: waslu_kondoljanzi, S0IsInLexic: true, S0Lemma: wasal, S0POS: VERB, S0Token: waslu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waslu, l-]   B= [kondoljanzi, tagħhom, lejn ,.. ]
+
+B0IsInLexic: true, B0Lemma: kondoljanza, B0POS: NOUN, B0Token: kondoljanzi, S0B0Lemma: il-_kondoljanza, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_kondoljanza, S0B0Token: l-_kondoljanzi, S0B1Lemma: il-_ta', S0B1LemmaPOS: il-_GEN_PRON, S0B1POS: DEF_GEN_PRON, S0B1POSLemma: DEF_ta', S0B1Token: l-_tagħhom, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0S1Distance: 1, S0Token: l-, S1B0Lemma: wasal_kondoljanza, S1B0LemmaPOS: wasal_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_kondoljanza, S1B0Token: waslu_kondoljanzi, S1IsInLexic: true, S1Lemma: wasal, S1POS: VERB, S1S0Lemma: wasal_il-, S1S0LemmaPOS: wasal_DEF, S1S0POS: VERB_DEF, S1S0POSLemma: VERB_il-, S1S0Token: waslu_l-, S1Token: waslu, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+17- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waslu]   B= [kondoljanzi, tagħhom, lejn ,.. ]
+
+B0IsInLexic: true, B0Lemma: kondoljanza, B0POS: NOUN, B0Token: kondoljanzi, S0B0Lemma: wasal_kondoljanza, S0B0LemmaPOS: wasal_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_kondoljanza, S0B0Token: waslu_kondoljanzi, S0B1Lemma: wasal_ta', S0B1LemmaPOS: wasal_GEN_PRON, S0B1POS: VERB_GEN_PRON, S0B1POSLemma: VERB_ta', S0B1Token: waslu_tagħhom, S0IsInLexic: true, S0Lemma: wasal, S0POS: VERB, S0Token: waslu, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waslu, kondoljanzi]   B= [tagħhom, lejn, il- ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tagħhom, S0B0Lemma: kondoljanza_ta', S0B0LemmaPOS: kondoljanza_GEN_PRON, S0B0POS: NOUN_GEN_PRON, S0B0POSLemma: NOUN_ta', S0B0Token: kondoljanzi_tagħhom, S0B1Lemma: kondoljanza_lejn, S0B1LemmaPOS: kondoljanza_PREP, S0B1POS: NOUN_PREP, S0B1POSLemma: NOUN_lejn, S0B1Token: kondoljanzi_lejn, S0IsInLexic: true, S0Lemma: kondoljanza, S0POS: NOUN, S0S1Distance: 2, S0Token: kondoljanzi, S1B0Lemma: wasal_ta', S1B0LemmaPOS: wasal_GEN_PRON, S1B0POS: VERB_GEN_PRON, S1B0POSLemma: VERB_ta', S1B0Token: waslu_tagħhom, S1IsInLexic: true, S1Lemma: wasal, S1POS: VERB, S1S0Lemma: wasal_kondoljanza, S1S0LemmaPOS: wasal_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_kondoljanza, S1S0Token: waslu_kondoljanzi, S1Token: waslu, StackLengthIs: 2, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
+
+19- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[waslu, kondoljanzi]]   B= [tagħhom, lejn, il- ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tagħhom, S0B0Lemma: wasal_kondoljanza_ta', S0B0LemmaPOS: wasal_kondoljanza_GEN_PRON, S0B0POS: VERB_NOUN_GEN_PRON, S0B0POSLemma: VERB_NOUN_ta', S0B0Token: waslu_kondoljanzi_tagħhom, S0B1Lemma: wasal_kondoljanza_lejn, S0B1LemmaPOS: wasal_kondoljanza_PREP, S0B1POS: VERB_NOUN_PREP, S0B1POSLemma: VERB_NOUN_lejn, S0B1Token: waslu_kondoljanzi_lejn, S0Lemma: wasal_kondoljanza, S0POS: VERB_NOUN, S0Token: waslu_kondoljanzi, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tagħhom, lejn, il- ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tagħhom, TransHistory1: 1, TransHistory2: 10, TransHistory3: 102, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tagħhom]   B= [lejn, il-, familjari ,.. ]
+
+B0IsInLexic: true, B0Lemma: lejn, B0POS: PREP, B0Token: lejn, S0B0Lemma: ta'_lejn, S0B0LemmaPOS: ta'_PREP, S0B0POS: GEN_PRON_PREP, S0B0POSLemma: GEN_PRON_lejn, S0B0Token: tagħhom_lejn, S0B1Lemma: ta'_il-, S0B1LemmaPOS: ta'_DEF, S0B1POS: GEN_PRON_DEF, S0B1POSLemma: GEN_PRON_il-, S0B1Token: tagħhom_il-, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_PRON, S0Token: tagħhom, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lejn, il-, familjari ,.. ]
+
+B0IsInLexic: true, B0Lemma: lejn, B0POS: PREP, B0Token: lejn, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lejn]   B= [il-, familjari, tal- ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: il-, S0B0Lemma: lejn_il-, S0B0LemmaPOS: lejn_DEF, S0B0POS: PREP_DEF, S0B0POSLemma: PREP_il-, S0B0Token: lejn_il-, S0B1Lemma: lejn_familjari, S0B1LemmaPOS: lejn_NOUN, S0B1POS: PREP_NOUN, S0B1POSLemma: PREP_familjari, S0B1Token: lejn_familjari, S0IsInLexic: true, S0Lemma: lejn, S0POS: PREP, S0Token: lejn, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il-, familjari, tal- ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: il-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il-]   B= [familjari, tal-, ħaddiema ,.. ]
+
+B0Lemma: familjari, B0POS: NOUN, B0Token: familjari, S0B0Lemma: il-_familjari, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_familjari, S0B0Token: il-_familjari, S0B1Lemma: il-_ta', S0B1LemmaPOS: il-_GEN_DEF, S0B1POS: DEF_GEN_DEF, S0B1POSLemma: DEF_ta', S0B1Token: il-_tal-, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: il-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [familjari, tal-, ħaddiema ,.. ]
+
+B0Lemma: familjari, B0POS: NOUN, B0Token: familjari, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [familjari]   B= [tal-, ħaddiema, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: familjari_ta', S0B0LemmaPOS: familjari_GEN_DEF, S0B0POS: NOUN_GEN_DEF, S0B0POSLemma: NOUN_ta', S0B0Token: familjari_tal-, S0B1Lemma: familjari_ħaddiem, S0B1LemmaPOS: familjari_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_ħaddiem, S0B1Token: familjari_ħaddiema, S0Lemma: familjari, S0POS: NOUN, S0Token: familjari, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, ħaddiema, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [ħaddiema, ,, huma ,.. ]
+
+B0Lemma: ħaddiem, B0POS: NOUN, B0Token: ħaddiema, S0B0Lemma: ta'_ħaddiem, S0B0LemmaPOS: ta'_NOUN, S0B0POS: GEN_DEF_NOUN, S0B0POSLemma: GEN_DEF_ħaddiem, S0B0Token: tal-_ħaddiema, S0B1Lemma: ta'_,, S0B1LemmaPOS: ta'_X_PUN, S0B1POS: GEN_DEF_X_PUN, S0B1POSLemma: GEN_DEF_,, S0B1Token: tal-_,, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_DEF, S0Token: tal-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħaddiema, ,, huma ,.. ]
+
+B0Lemma: ħaddiem, B0POS: NOUN, B0Token: ħaddiema, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħaddiema]   B= [,, huma, ħeġġew ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: ħaddiem_,, S0B0LemmaPOS: ħaddiem_X_PUN, S0B0POS: NOUN_X_PUN, S0B0POSLemma: NOUN_,, S0B0Token: ħaddiema_,, S0B1Lemma: ħaddiem_huma, S0B1LemmaPOS: ħaddiem_PRON_PERS, S0B1POS: NOUN_PRON_PERS, S0B1POSLemma: NOUN_huma, S0B1Token: ħaddiema_huma, S0Lemma: ħaddiem, S0POS: NOUN, S0Token: ħaddiema, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, huma, ħeġġew ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [huma, ħeġġew, dawk ,.. ]
+
+B0Lemma: huma, B0POS: PRON_PERS, B0Token: huma, S0B0Lemma: ,_huma, S0B0LemmaPOS: ,_PRON_PERS, S0B0POS: X_PUN_PRON_PERS, S0B0POSLemma: X_PUN_huma, S0B0Token: ,_huma, S0B1Lemma: ,_ħeġġew, S0B1LemmaPOS: ,_VERB, S0B1POS: X_PUN_VERB, S0B1POSLemma: X_PUN_ħeġġew, S0B1Token: ,_ħeġġew, S0Lemma: ,, S0POS: X_PUN, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [huma, ħeġġew, dawk ,.. ]
+
+B0Lemma: huma, B0POS: PRON_PERS, B0Token: huma, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [huma]   B= [ħeġġew, dawk, kollha ,.. ]
+
+B0Lemma: ħeġġew, B0POS: VERB, B0Token: ħeġġew, S0B0Lemma: huma_ħeġġew, S0B0LemmaPOS: huma_VERB, S0B0POS: PRON_PERS_VERB, S0B0POSLemma: PRON_PERS_ħeġġew, S0B0Token: huma_ħeġġew, S0B1Lemma: huma_dan, S0B1LemmaPOS: huma_PRON_DEM, S0B1POS: PRON_PERS_PRON_DEM, S0B1POSLemma: PRON_PERS_dan, S0B1Token: huma_dawk, S0Lemma: huma, S0POS: PRON_PERS, S0Token: huma, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħeġġew, dawk, kollha ,.. ]
+
+B0Lemma: ħeġġew, B0POS: VERB, B0Token: ħeġġew, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħeġġew]   B= [dawk, kollha, involuti ,.. ]
+
+B0Lemma: dan, B0POS: PRON_DEM, B0Token: dawk, S0B0Lemma: ħeġġew_dan, S0B0LemmaPOS: ħeġġew_PRON_DEM, S0B0POS: VERB_PRON_DEM, S0B0POSLemma: VERB_dan, S0B0Token: ħeġġew_dawk, S0B1Lemma: ħeġġew_kollha, S0B1LemmaPOS: ħeġġew_QUAN, S0B1POS: VERB_QUAN, S0B1POSLemma: VERB_kollha, S0B1Token: ħeġġew_kollha, S0Lemma: ħeġġew, S0POS: VERB, S0Token: ħeġġew, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dawk, kollha, involuti ,.. ]
+
+B0Lemma: dan, B0POS: PRON_DEM, B0Token: dawk, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dawk]   B= [kollha, involuti, fil- ,.. ]
+
+B0Lemma: kollha, B0POS: QUAN, B0Token: kollha, S0B0Lemma: dan_kollha, S0B0LemmaPOS: dan_QUAN, S0B0POS: PRON_DEM_QUAN, S0B0POSLemma: PRON_DEM_kollha, S0B0Token: dawk_kollha, S0B1Lemma: dan_involut, S0B1LemmaPOS: dan_PART_PASS, S0B1POS: PRON_DEM_PART_PASS, S0B1POSLemma: PRON_DEM_involut, S0B1Token: dawk_involuti, S0Lemma: dan, S0POS: PRON_DEM, S0Token: dawk, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kollha, involuti, fil- ,.. ]
+
+B0Lemma: kollha, B0POS: QUAN, B0Token: kollha, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kollha]   B= [involuti, fil-, ġlied ,.. ]
+
+B0IsInLexic: true, B0Lemma: involut, B0POS: PART_PASS, B0Token: involuti, S0B0Lemma: kollha_involut, S0B0LemmaPOS: kollha_PART_PASS, S0B0POS: QUAN_PART_PASS, S0B0POSLemma: QUAN_involut, S0B0Token: kollha_involuti, S0B1Lemma: kollha_fi, S0B1LemmaPOS: kollha_PREP_DEF, S0B1POS: QUAN_PREP_DEF, S0B1POSLemma: QUAN_fi, S0B1Token: kollha_fil-, S0Lemma: kollha, S0POS: QUAN, S0Token: kollha, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [involuti, fil-, ġlied ,.. ]
+
+B0IsInLexic: true, B0Lemma: involut, B0POS: PART_PASS, B0Token: involuti, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [involuti]   B= [fil-, ġlied, sabiex ,.. ]
+
+B0IsInLexic: true, B0Lemma: fi, B0POS: PREP_DEF, B0Token: fil-, S0B0Lemma: involut_fi, S0B0LemmaPOS: involut_PREP_DEF, S0B0POS: PART_PASS_PREP_DEF, S0B0POSLemma: PART_PASS_fi, S0B0Token: involuti_fil-, S0B1Lemma: involut_ġlied, S0B1LemmaPOS: involut_NOUN, S0B1POS: PART_PASS_NOUN, S0B1POSLemma: PART_PASS_ġlied, S0B1Token: involuti_ġlied, S0IsInLexic: true, S0Lemma: involut, S0POS: PART_PASS, S0Token: involuti, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [involuti, fil-]   B= [ġlied, sabiex, iħaffu ,.. ]
+
+B0IsInLexic: true, B0Lemma: ġlied, B0POS: NOUN, B0Token: ġlied, S0B0Lemma: fi_ġlied, S0B0LemmaPOS: fi_NOUN, S0B0POS: PREP_DEF_NOUN, S0B0POSLemma: PREP_DEF_ġlied, S0B0Token: fil-_ġlied, S0B1Lemma: fi_sabiex, S0B1LemmaPOS: fi_CONJ_SUB, S0B1POS: PREP_DEF_CONJ_SUB, S0B1POSLemma: PREP_DEF_sabiex, S0B1Token: fil-_sabiex, S0IsInLexic: true, S0Lemma: fi, S0POS: PREP_DEF, S0S1Distance: 1, S0Token: fil-, S1B0Lemma: involut_ġlied, S1B0LemmaPOS: involut_NOUN, S1B0POS: PART_PASS_NOUN, S1B0POSLemma: PART_PASS_ġlied, S1B0Token: involuti_ġlied, S1IsInLexic: true, S1Lemma: involut, S1POS: PART_PASS, S1S0Lemma: involut_fi, S1S0LemmaPOS: involut_PREP_DEF, S1S0POS: PART_PASS_PREP_DEF, S1S0POSLemma: PART_PASS_fi, S1S0Token: involuti_fil-, S1Token: involuti, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+45- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [involuti]   B= [ġlied, sabiex, iħaffu ,.. ]
+
+B0IsInLexic: true, B0Lemma: ġlied, B0POS: NOUN, B0Token: ġlied, S0B0Lemma: involut_ġlied, S0B0LemmaPOS: involut_NOUN, S0B0POS: PART_PASS_NOUN, S0B0POSLemma: PART_PASS_ġlied, S0B0Token: involuti_ġlied, S0B1Lemma: involut_sabiex, S0B1LemmaPOS: involut_CONJ_SUB, S0B1POS: PART_PASS_CONJ_SUB, S0B1POSLemma: PART_PASS_sabiex, S0B1Token: involuti_sabiex, S0IsInLexic: true, S0Lemma: involut, S0POS: PART_PASS, S0Token: involuti, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [involuti, ġlied]   B= [sabiex, iħaffu, l- ,.. ]
+
+B0Lemma: sabiex, B0POS: CONJ_SUB, B0Token: sabiex, S0B0Lemma: ġlied_sabiex, S0B0LemmaPOS: ġlied_CONJ_SUB, S0B0POS: NOUN_CONJ_SUB, S0B0POSLemma: NOUN_sabiex, S0B0Token: ġlied_sabiex, S0B1Lemma: ġlied_iħaffu, S0B1LemmaPOS: ġlied_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_iħaffu, S0B1Token: ġlied_iħaffu, S0IsInLexic: true, S0Lemma: ġlied, S0POS: NOUN, S0S1Distance: 2, S0Token: ġlied, S1B0Lemma: involut_sabiex, S1B0LemmaPOS: involut_CONJ_SUB, S1B0POS: PART_PASS_CONJ_SUB, S1B0POSLemma: PART_PASS_sabiex, S1B0Token: involuti_sabiex, S1IsInLexic: true, S1Lemma: involut, S1POS: PART_PASS, S1S0Lemma: involut_ġlied, S1S0LemmaPOS: involut_NOUN, S1S0POS: PART_PASS_NOUN, S1S0POSLemma: PART_PASS_ġlied, S1S0Token: involuti_ġlied, S1Token: involuti, StackLengthIs: 2, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
+
+47- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[involuti, ġlied]]   B= [sabiex, iħaffu, l- ,.. ]
+
+B0Lemma: sabiex, B0POS: CONJ_SUB, B0Token: sabiex, S0B0Lemma: involut_ġlied_sabiex, S0B0LemmaPOS: involut_ġlied_CONJ_SUB, S0B0POS: PART_PASS_NOUN_CONJ_SUB, S0B0POSLemma: PART_PASS_NOUN_sabiex, S0B0Token: involuti_ġlied_sabiex, S0B1Lemma: involut_ġlied_iħaffu, S0B1LemmaPOS: involut_ġlied_VERB, S0B1POS: PART_PASS_NOUN_VERB, S0B1POSLemma: PART_PASS_NOUN_iħaffu, S0B1Token: involuti_ġlied_iħaffu, S0Lemma: involut_ġlied, S0POS: PART_PASS_NOUN, S0Token: involuti_ġlied, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sabiex, iħaffu, l- ,.. ]
+
+B0Lemma: sabiex, B0POS: CONJ_SUB, B0Token: sabiex, TransHistory1: 1, TransHistory2: 10, TransHistory3: 102, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sabiex]   B= [iħaffu, l-, proċeduri ,.. ]
+
+B0Lemma: iħaffu, B0POS: VERB, B0Token: iħaffu, S0B0Lemma: sabiex_iħaffu, S0B0LemmaPOS: sabiex_VERB, S0B0POS: CONJ_SUB_VERB, S0B0POSLemma: CONJ_SUB_iħaffu, S0B0Token: sabiex_iħaffu, S0B1Lemma: sabiex_il-, S0B1LemmaPOS: sabiex_DEF, S0B1POS: CONJ_SUB_DEF, S0B1POSLemma: CONJ_SUB_il-, S0B1Token: sabiex_l-, S0Lemma: sabiex, S0POS: CONJ_SUB, S0Token: sabiex, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iħaffu, l-, proċeduri ,.. ]
+
+B0Lemma: iħaffu, B0POS: VERB, B0Token: iħaffu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iħaffu]   B= [l-, proċeduri, biex ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: iħaffu_il-, S0B0LemmaPOS: iħaffu_DEF, S0B0POS: VERB_DEF, S0B0POSLemma: VERB_il-, S0B0Token: iħaffu_l-, S0B1Lemma: iħaffu_proċedura, S0B1LemmaPOS: iħaffu_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_proċedura, S0B1Token: iħaffu_proċeduri, S0Lemma: iħaffu, S0POS: VERB, S0Token: iħaffu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, proċeduri, biex ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [proċeduri, biex, jiffirmaw ,.. ]
+
+B0Lemma: proċedura, B0POS: NOUN, B0Token: proċeduri, S0B0Lemma: il-_proċedura, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_proċedura, S0B0Token: l-_proċeduri, S0B1Lemma: il-_biex, S0B1LemmaPOS: il-_CONJ_SUB, S0B1POS: DEF_CONJ_SUB, S0B1POSLemma: DEF_biex, S0B1Token: l-_biex, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [proċeduri, biex, jiffirmaw ,.. ]
+
+B0Lemma: proċedura, B0POS: NOUN, B0Token: proċeduri, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [proċeduri]   B= [biex, jiffirmaw, il- ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, S0B0Lemma: proċedura_biex, S0B0LemmaPOS: proċedura_CONJ_SUB, S0B0POS: NOUN_CONJ_SUB, S0B0POSLemma: NOUN_biex, S0B0Token: proċeduri_biex, S0B1Lemma: proċedura_iffirma, S0B1LemmaPOS: proċedura_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_iffirma, S0B1Token: proċeduri_jiffirmaw, S0Lemma: proċedura, S0POS: NOUN, S0Token: proċeduri, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, jiffirmaw, il- ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [jiffirmaw, il-, qbil ,.. ]
+
+B0Lemma: iffirma, B0POS: VERB, B0Token: jiffirmaw, S0B0Lemma: biex_iffirma, S0B0LemmaPOS: biex_VERB, S0B0POS: CONJ_SUB_VERB, S0B0POSLemma: CONJ_SUB_iffirma, S0B0Token: biex_jiffirmaw, S0B1Lemma: biex_il-, S0B1LemmaPOS: biex_DEF, S0B1POS: CONJ_SUB_DEF, S0B1POSLemma: CONJ_SUB_il-, S0B1Token: biex_il-, S0Lemma: biex, S0POS: CONJ_SUB, S0Token: biex, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jiffirmaw, il-, qbil ,.. ]
+
+B0Lemma: iffirma, B0POS: VERB, B0Token: jiffirmaw, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jiffirmaw]   B= [il-, qbil, ta’ ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: il-, S0B0Lemma: iffirma_il-, S0B0LemmaPOS: iffirma_DEF, S0B0POS: VERB_DEF, S0B0POSLemma: VERB_il-, S0B0Token: jiffirmaw_il-, S0B1Lemma: iffirma_qbil, S0B1LemmaPOS: iffirma_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_qbil, S0B1Token: jiffirmaw_qbil, S0Lemma: iffirma, S0POS: VERB, S0Token: jiffirmaw, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il-, qbil, ta’ ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: il-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il-]   B= [qbil, ta’, djibouti ,.. ]
+
+B0IsInLexic: true, B0Lemma: qbil, B0POS: NOUN, B0Token: qbil, S0B0Lemma: il-_qbil, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_qbil, S0B0Token: il-_qbil, S0B1Lemma: il-_ta’, S0B1LemmaPOS: il-_VERB, S0B1POS: DEF_VERB, S0B1POSLemma: DEF_ta’, S0B1Token: il-_ta’, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: il-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qbil, ta’, djibouti ,.. ]
+
+B0IsInLexic: true, B0Lemma: qbil, B0POS: NOUN, B0Token: qbil, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qbil]   B= [ta’, djibouti, biex ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta’, B0POS: VERB, B0Token: ta’, S0B0Lemma: qbil_ta’, S0B0LemmaPOS: qbil_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_ta’, S0B0Token: qbil_ta’, S0B1Lemma: qbil_Djibouti, S0B1LemmaPOS: qbil_PART_PASS, S0B1POS: NOUN_PART_PASS, S0B1POSLemma: NOUN_Djibouti, S0B1Token: qbil_djibouti, S0IsInLexic: true, S0Lemma: qbil, S0POS: NOUN, S0Token: qbil, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ta’, djibouti, biex ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta’, B0POS: VERB, B0Token: ta’, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ta’]   B= [djibouti, biex, b’ ,.. ]
+
+B0Lemma: Djibouti, B0POS: PART_PASS, B0Token: djibouti, S0B0Lemma: ta’_Djibouti, S0B0LemmaPOS: ta’_PART_PASS, S0B0POS: VERB_PART_PASS, S0B0POSLemma: VERB_Djibouti, S0B0Token: ta’_djibouti, S0B1Lemma: ta’_biex, S0B1LemmaPOS: ta’_CONJ_SUB, S0B1POS: VERB_CONJ_SUB, S0B1POSLemma: VERB_biex, S0B1Token: ta’_biex, S0IsInLexic: true, S0Lemma: ta’, S0POS: VERB, S0Token: ta’, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [djibouti, biex, b’ ,.. ]
+
+B0Lemma: Djibouti, B0POS: PART_PASS, B0Token: djibouti, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [djibouti]   B= [biex, b’, hekk ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, S0B0Lemma: Djibouti_biex, S0B0LemmaPOS: Djibouti_CONJ_SUB, S0B0POS: PART_PASS_CONJ_SUB, S0B0POSLemma: PART_PASS_biex, S0B0Token: djibouti_biex, S0B1Lemma: Djibouti_b’, S0B1LemmaPOS: Djibouti_NOUN, S0B1POS: PART_PASS_NOUN, S0B1POSLemma: PART_PASS_b’, S0B1Token: djibouti_b’, S0Lemma: Djibouti, S0POS: PART_PASS, S0Token: djibouti, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, b’, hekk ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [b’, hekk, it- ,.. ]
+
+B0IsInLexic: true, B0Lemma: b’, B0POS: NOUN, B0Token: b’, S0B0Lemma: biex_b’, S0B0LemmaPOS: biex_NOUN, S0B0POS: CONJ_SUB_NOUN, S0B0POSLemma: CONJ_SUB_b’, S0B0Token: biex_b’, S0B1Lemma: biex_hekk, S0B1LemmaPOS: biex_ADV, S0B1POS: CONJ_SUB_ADV, S0B1POSLemma: CONJ_SUB_hekk, S0B1Token: biex_hekk, S0Lemma: biex, S0POS: CONJ_SUB, S0Token: biex, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [b’, hekk, it- ,.. ]
+
+B0IsInLexic: true, B0Lemma: b’, B0POS: NOUN, B0Token: b’, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [b’]   B= [hekk, it-, triq ,.. ]
+
+B0IsInLexic: true, B0Lemma: hekk, B0POS: ADV, B0Token: hekk, S0B0Lemma: b’_hekk, S0B0LemmaPOS: b’_ADV, S0B0POS: NOUN_ADV, S0B0POSLemma: NOUN_hekk, S0B0Token: b’_hekk, S0B1Lemma: b’_il-, S0B1LemmaPOS: b’_DEF, S0B1POS: NOUN_DEF, S0B1POSLemma: NOUN_il-, S0B1Token: b’_it-, S0IsInLexic: true, S0Lemma: b’, S0POS: NOUN, S0Token: b’, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hekk, it-, triq ,.. ]
+
+B0IsInLexic: true, B0Lemma: hekk, B0POS: ADV, B0Token: hekk, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hekk]   B= [it-, triq, għal ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: it-, S0B0Lemma: hekk_il-, S0B0LemmaPOS: hekk_DEF, S0B0POS: ADV_DEF, S0B0POSLemma: ADV_il-, S0B0Token: hekk_it-, S0B1Lemma: hekk_raq, S0B1LemmaPOS: hekk_NOUN, S0B1POS: ADV_NOUN, S0B1POSLemma: ADV_raq, S0B1Token: hekk_triq, S0IsInLexic: true, S0Lemma: hekk, S0POS: ADV, S0Token: hekk, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [it-, triq, għal ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: it-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [it-]   B= [triq, għal, paċi ,.. ]
+
+B0IsInLexic: true, B0Lemma: raq, B0POS: NOUN, B0Token: triq, S0B0Lemma: il-_raq, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_raq, S0B0Token: it-_triq, S0B1Lemma: il-_għal, S0B1LemmaPOS: il-_PREP, S0B1POS: DEF_PREP, S0B1POSLemma: DEF_għal, S0B1Token: it-_għal, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: it-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [triq, għal, paċi ,.. ]
+
+B0IsInLexic: true, B0Lemma: raq, B0POS: NOUN, B0Token: triq, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq]   B= [għal, paċi, tkun ,.. ]
+
+B0IsInLexic: true, B0Lemma: għal, B0POS: PREP, B0Token: għal, S0B0Lemma: raq_għal, S0B0LemmaPOS: raq_PREP, S0B0POS: NOUN_PREP, S0B0POSLemma: NOUN_għal, S0B0Token: triq_għal, S0B1Lemma: raq_paċi, S0B1LemmaPOS: raq_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_paċi, S0B1Token: triq_paċi, S0IsInLexic: true, S0Lemma: raq, S0POS: NOUN, S0Token: triq, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+78- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq, għal]   B= [paċi, tkun, tista’ ,.. ]
+
+B0IsInLexic: true, B0Lemma: paċi, B0POS: NOUN, B0Token: paċi, S0B0Lemma: għal_paċi, S0B0LemmaPOS: għal_NOUN, S0B0POS: PREP_NOUN, S0B0POSLemma: PREP_paċi, S0B0Token: għal_paċi, S0B1Lemma: għal_kien, S0B1LemmaPOS: għal_KIEN, S0B1POS: PREP_KIEN, S0B1POSLemma: PREP_kien, S0B1Token: għal_tkun, S0IsInLexic: true, S0Lemma: għal, S0POS: PREP, S0S1Distance: 1, S0Token: għal, S1B0Lemma: raq_paċi, S1B0LemmaPOS: raq_NOUN, S1B0POS: NOUN_NOUN, S1B0POSLemma: NOUN_paċi, S1B0Token: triq_paċi, S1IsInLexic: true, S1Lemma: raq, S1POS: NOUN, S1S0Lemma: raq_għal, S1S0LemmaPOS: raq_PREP, S1S0POS: NOUN_PREP, S1S0POSLemma: NOUN_għal, S1S0Token: triq_għal, S1Token: triq, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq, għal, paċi]   B= [tkun, tista’, tibda ,.. ]
+
+B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: tkun, S0B0Lemma: paċi_kien, S0B0LemmaPOS: paċi_KIEN, S0B0POS: NOUN_KIEN, S0B0POSLemma: NOUN_kien, S0B0Token: paċi_tkun, S0B1Lemma: paċi_tista’, S0B1LemmaPOS: paċi_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_tista’, S0B1Token: paċi_tista’, S0IsInLexic: true, S0Lemma: paċi, S0POS: NOUN, S0S1Distance: 1, S0Token: paċi, S1B0Lemma: għal_kien, S1B0LemmaPOS: għal_KIEN, S1B0POS: PREP_KIEN, S1B0POSLemma: PREP_kien, S1B0Token: għal_tkun, S1IsInLexic: true, S1Lemma: għal, S1POS: PREP, S1S0Lemma: għal_paċi, S1S0LemmaPOS: għal_NOUN, S1S0POS: PREP_NOUN, S1S0POSLemma: PREP_paċi, S1S0Token: għal_paċi, S1Token: għal, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+80- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq, [għal, paċi]]   B= [tkun, tista’, tibda ,.. ]
+
+B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: tkun, S0B0Lemma: għal_paċi_kien, S0B0LemmaPOS: għal_paċi_KIEN, S0B0POS: PREP_NOUN_KIEN, S0B0POSLemma: PREP_NOUN_kien, S0B0Token: għal_paċi_tkun, S0B1Lemma: għal_paċi_tista’, S0B1LemmaPOS: għal_paċi_VERB, S0B1POS: PREP_NOUN_VERB, S0B1POSLemma: PREP_NOUN_tista’, S0B1Token: għal_paċi_tista’, S0Lemma: għal_paċi, S0POS: PREP_NOUN, S0Token: għal_paċi, S1B0Lemma: raq_kien, S1B0LemmaPOS: raq_KIEN, S1B0POS: NOUN_KIEN, S1B0POSLemma: NOUN_kien, S1B0Token: triq_tkun, S1IsInLexic: true, S1Lemma: raq, S1POS: NOUN, S1S0Lemma: raq_għal_paċi, S1S0LemmaPOS: raq_PREP_NOUN, S1S0POS: NOUN_PREP_NOUN, S1S0POSLemma: NOUN_għal_paċi, S1S0Token: triq_għal_paċi, S1Token: triq, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+
+81- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[triq, [għal, paċi]]]   B= [tkun, tista’, tibda ,.. ]
+
+B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: tkun, S0B0Lemma: raq_għal_paċi_kien, S0B0LemmaPOS: raq_għal_paċi_KIEN, S0B0POS: NOUN_PREP_NOUN_KIEN, S0B0POSLemma: NOUN_PREP_NOUN_kien, S0B0Token: triq_għal_paċi_tkun, S0B1Lemma: raq_għal_paċi_tista’, S0B1LemmaPOS: raq_għal_paċi_VERB, S0B1POS: NOUN_PREP_NOUN_VERB, S0B1POSLemma: NOUN_PREP_NOUN_tista’, S0B1Token: triq_għal_paċi_tista’, S0Lemma: raq_għal_paċi, S0POS: NOUN_PREP_NOUN, S0Token: triq_għal_paċi, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
+
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tkun, tista’, tibda ,.. ]
+
+B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: tkun, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tkun]   B= [tista’, tibda, tinbena ,.. ]
+
+B0Lemma: tista’, B0POS: VERB, B0Token: tista’, S0B0Lemma: kien_tista’, S0B0LemmaPOS: kien_VERB, S0B0POS: KIEN_VERB, S0B0POSLemma: KIEN_tista’, S0B0Token: tkun_tista’, S0B1Lemma: kien_beda, S0B1LemmaPOS: kien_VERB, S0B1POS: KIEN_VERB, S0B1POSLemma: KIEN_beda, S0B1Token: tkun_tibda, S0IsInLexic: true, S0Lemma: kien, S0POS: KIEN, S0Token: tkun, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tista’, tibda, tinbena ,.. ]
+
+B0Lemma: tista’, B0POS: VERB, B0Token: tista’, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tista’]   B= [tibda, tinbena, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: beda, B0POS: VERB, B0Token: tibda, S0B0Lemma: tista’_beda, S0B0LemmaPOS: tista’_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_beda, S0B0Token: tista’_tibda, S0B1Lemma: tista’_nbena, S0B1LemmaPOS: tista’_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_nbena, S0B1Token: tista’_tinbena, S0Lemma: tista’, S0POS: VERB, S0Token: tista’, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tibda, tinbena, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: beda, B0POS: VERB, B0Token: tibda, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tibda]   B= [tinbena, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: nbena, B0POS: VERB, B0Token: tinbena, S0B0Lemma: beda_nbena, S0B0LemmaPOS: beda_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_nbena, S0B0Token: tibda_tinbena, S0B1Lemma: beda_., S0B1LemmaPOS: beda_X_PUN, S0B1POS: VERB_X_PUN, S0B1POSLemma: VERB_., S0B1Token: tibda_., S0IsInLexic: true, S0Lemma: beda, S0POS: VERB, S0Token: tibda, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tinbena, . ,.. ]
+
+B0IsInLexic: true, B0Lemma: nbena, B0POS: VERB, B0Token: tinbena, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tinbena]   B= [.]
+
+B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: nbena_., S0B0LemmaPOS: nbena_X_PUN, S0B0POS: VERB_X_PUN, S0B0POSLemma: VERB_., S0B0Token: tinbena_., S0IsInLexic: true, S0Lemma: nbena, S0POS: VERB, S0Token: tinbena, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0IsInLexic: true, S0Lemma: ., S0POS: X_PUN, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 1739 - 
+iżda matul l- aħħar kwarta tal- ewwel taqsima , il- maltin ma baqgħux daqstant konsis ­ ­ tenti biex l- armeni rebħu l- inizjattiva u bdew jibnu attakk wara ieħor biex konna kos ­ ­ ­ ­ ­ tretti nirtiraw lura , niffol ­ law id- difiża , biex nilqgħu l- pres ­ ­ ­ sjoni tal- av ­ ­ ­ ver ­ ­ ­ sarji . 
+### Existing MWEs: 
+1- **rebħu l- inizjattiva** (OTH)
+2- **jibnu attakk** (OTH)
+3- **niffol law id- difiża** (OTH)
+4- **nilqgħu l- pres sjoni** (OTH)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iżda, matul, l- ,.. ]
+
+B0Lemma: Iżda, B0POS: CONJ_CORD, B0Token: iżda, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iżda]   B= [matul, l-, aħħar ,.. ]
+
+B0Lemma: matul, B0POS: PREP, B0Token: matul, S0B0Lemma: Iżda_matul, S0B0LemmaPOS: Iżda_PREP, S0B0POS: CONJ_CORD_PREP, S0B0POSLemma: CONJ_CORD_matul, S0B0Token: iżda_matul, S0B1Lemma: Iżda_il-, S0B1LemmaPOS: Iżda_DEF, S0B1POS: CONJ_CORD_DEF, S0B1POSLemma: CONJ_CORD_il-, S0B1Token: iżda_l-, S0Lemma: Iżda, S0POS: CONJ_CORD, S0Token: iżda, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [matul, l-, aħħar ,.. ]
+
+B0Lemma: matul, B0POS: PREP, B0Token: matul, TransHistory1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [matul]   B= [l-, aħħar, kwarta ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: matul_il-, S0B0LemmaPOS: matul_DEF, S0B0POS: PREP_DEF, S0B0POSLemma: PREP_il-, S0B0Token: matul_l-, S0B1Lemma: matul_aħħar, S0B1LemmaPOS: matul_ADJ, S0B1POS: PREP_ADJ, S0B1POSLemma: PREP_aħħar, S0B1Token: matul_aħħar, S0Lemma: matul, S0POS: PREP, S0Token: matul, TransHistory1: 2, TransHistory2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, aħħar, kwarta ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [aħħar, kwarta, tal- ,.. ]
+
+B0IsInLexic: true, B0Lemma: aħħar, B0POS: ADJ, B0Token: aħħar, S0B0Lemma: il-_aħħar, S0B0LemmaPOS: il-_ADJ, S0B0POS: DEF_ADJ, S0B0POSLemma: DEF_aħħar, S0B0Token: l-_aħħar, S0B1Lemma: il-_kwarta, S0B1LemmaPOS: il-_NOUN, S0B1POS: DEF_NOUN, S0B1POSLemma: DEF_kwarta, S0B1Token: l-_kwarta, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aħħar, kwarta, tal- ,.. ]
+
+B0IsInLexic: true, B0Lemma: aħħar, B0POS: ADJ, B0Token: aħħar, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aħħar]   B= [kwarta, tal-, ewwel ,.. ]
+
+B0Lemma: kwarta, B0POS: NOUN, B0Token: kwarta, S0B0Lemma: aħħar_kwarta, S0B0LemmaPOS: aħħar_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_kwarta, S0B0Token: aħħar_kwarta, S0B1Lemma: aħħar_ta', S0B1LemmaPOS: aħħar_GEN_DEF, S0B1POS: ADJ_GEN_DEF, S0B1POSLemma: ADJ_ta', S0B1Token: aħħar_tal-, S0IsInLexic: true, S0Lemma: aħħar, S0POS: ADJ, S0Token: aħħar, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kwarta, tal-, ewwel ,.. ]
+
+B0Lemma: kwarta, B0POS: NOUN, B0Token: kwarta, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kwarta]   B= [tal-, ewwel, taqsima ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: kwarta_ta', S0B0LemmaPOS: kwarta_GEN_DEF, S0B0POS: NOUN_GEN_DEF, S0B0POSLemma: NOUN_ta', S0B0Token: kwarta_tal-, S0B1Lemma: kwarta_ewwel, S0B1LemmaPOS: kwarta_NUM_ORD, S0B1POS: NOUN_NUM_ORD, S0B1POSLemma: NOUN_ewwel, S0B1Token: kwarta_ewwel, S0Lemma: kwarta, S0POS: NOUN, S0Token: kwarta, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, ewwel, taqsima ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [ewwel, taqsima, , ,.. ]
+
+B0Lemma: ewwel, B0POS: NUM_ORD, B0Token: ewwel, S0B0Lemma: ta'_ewwel, S0B0LemmaPOS: ta'_NUM_ORD, S0B0POS: GEN_DEF_NUM_ORD, S0B0POSLemma: GEN_DEF_ewwel, S0B0Token: tal-_ewwel, S0B1Lemma: ta'_taqsima, S0B1LemmaPOS: ta'_NOUN, S0B1POS: GEN_DEF_NOUN, S0B1POSLemma: GEN_DEF_taqsima, S0B1Token: tal-_taqsima, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_DEF, S0Token: tal-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ewwel, taqsima, , ,.. ]
+
+B0Lemma: ewwel, B0POS: NUM_ORD, B0Token: ewwel, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ewwel]   B= [taqsima, ,, il- ,.. ]
+
+B0Lemma: taqsima, B0POS: NOUN, B0Token: taqsima, S0B0Lemma: ewwel_taqsima, S0B0LemmaPOS: ewwel_NOUN, S0B0POS: NUM_ORD_NOUN, S0B0POSLemma: NUM_ORD_taqsima, S0B0Token: ewwel_taqsima, S0B1Lemma: ewwel_,, S0B1LemmaPOS: ewwel_X_PUN, S0B1POS: NUM_ORD_X_PUN, S0B1POSLemma: NUM_ORD_,, S0B1Token: ewwel_,, S0Lemma: ewwel, S0POS: NUM_ORD, S0Token: ewwel, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [taqsima, ,, il- ,.. ]
+
+B0Lemma: taqsima, B0POS: NOUN, B0Token: taqsima, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [taqsima]   B= [,, il-, maltin ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: taqsima_,, S0B0LemmaPOS: taqsima_X_PUN, S0B0POS: NOUN_X_PUN, S0B0POSLemma: NOUN_,, S0B0Token: taqsima_,, S0B1Lemma: taqsima_il-, S0B1LemmaPOS: taqsima_DEF, S0B1POS: NOUN_DEF, S0B1POSLemma: NOUN_il-, S0B1Token: taqsima_il-, S0Lemma: taqsima, S0POS: NOUN, S0Token: taqsima, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, il-, maltin ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [il-, maltin, ma ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: il-, S0B0Lemma: ,_il-, S0B0LemmaPOS: ,_DEF, S0B0POS: X_PUN_DEF, S0B0POSLemma: X_PUN_il-, S0B0Token: ,_il-, S0B1Lemma: ,_malti, S0B1LemmaPOS: ,_NOUN, S0B1POS: X_PUN_NOUN, S0B1POSLemma: X_PUN_malti, S0B1Token: ,_maltin, S0Lemma: ,, S0POS: X_PUN, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il-, maltin, ma ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: il-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il-]   B= [maltin, ma, baqgħux ,.. ]
+
+B0Lemma: malti, B0POS: NOUN, B0Token: maltin, S0B0Lemma: il-_malti, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_malti, S0B0Token: il-_maltin, S0B1Lemma: il-_ma, S0B1LemmaPOS: il-_NEG, S0B1POS: DEF_NEG, S0B1POSLemma: DEF_ma, S0B1Token: il-_ma, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: il-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [maltin, ma, baqgħux ,.. ]
+
+B0Lemma: malti, B0POS: NOUN, B0Token: maltin, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [maltin]   B= [ma, baqgħux, daqstant ,.. ]
+
+B0IsInLexic: true, B0Lemma: ma, B0POS: NEG, B0Token: ma, S0B0Lemma: malti_ma, S0B0LemmaPOS: malti_NEG, S0B0POS: NOUN_NEG, S0B0POSLemma: NOUN_ma, S0B0Token: maltin_ma, S0B1Lemma: malti_baqa', S0B1LemmaPOS: malti_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_baqa', S0B1Token: maltin_baqgħux, S0Lemma: malti, S0POS: NOUN, S0Token: maltin, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, baqgħux, daqstant ,.. ]
+
+B0IsInLexic: true, B0Lemma: ma, B0POS: NEG, B0Token: ma, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [baqgħux, daqstant, konsis ,.. ]
+
+B0IsInLexic: true, B0Lemma: baqa', B0POS: VERB, B0Token: baqgħux, S0B0Lemma: ma_baqa', S0B0LemmaPOS: ma_VERB, S0B0POS: NEG_VERB, S0B0POSLemma: NEG_baqa', S0B0Token: ma_baqgħux, S0B1Lemma: ma_daqstant, S0B1LemmaPOS: ma_ADV, S0B1POS: NEG_ADV, S0B1POSLemma: NEG_daqstant, S0B1Token: ma_daqstant, S0IsInLexic: true, S0Lemma: ma, S0POS: NEG, S0Token: ma, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [baqgħux, daqstant, konsis ,.. ]
+
+B0IsInLexic: true, B0Lemma: baqa', B0POS: VERB, B0Token: baqgħux, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [baqgħux]   B= [daqstant, konsis, ­ ,.. ]
+
+B0Lemma: daqstant, B0POS: ADV, B0Token: daqstant, S0B0Lemma: baqa'_daqstant, S0B0LemmaPOS: baqa'_ADV, S0B0POS: VERB_ADV, S0B0POSLemma: VERB_daqstant, S0B0Token: baqgħux_daqstant, S0B1Lemma: baqa'_konsis, S0B1LemmaPOS: baqa'_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_konsis, S0B1Token: baqgħux_konsis, S0IsInLexic: true, S0Lemma: baqa', S0POS: VERB, S0Token: baqgħux, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [daqstant, konsis, ­ ,.. ]
+
+B0Lemma: daqstant, B0POS: ADV, B0Token: daqstant, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daqstant]   B= [konsis, ­, ­ ,.. ]
+
+B0Lemma: konsis, B0POS: ADJ, B0Token: konsis, S0B0Lemma: daqstant_konsis, S0B0LemmaPOS: daqstant_ADJ, S0B0POS: ADV_ADJ, S0B0POSLemma: ADV_konsis, S0B0Token: daqstant_konsis, S0B1Lemma: daqstant_­, S0B1LemmaPOS: daqstant_X_ABV, S0B1POS: ADV_X_ABV, S0B1POSLemma: ADV_­, S0B1Token: daqstant_­, S0Lemma: daqstant, S0POS: ADV, S0Token: daqstant, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [konsis, ­, ­ ,.. ]
+
+B0Lemma: konsis, B0POS: ADJ, B0Token: konsis, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [konsis]   B= [­, ­, tenti ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: konsis_­, S0B0LemmaPOS: konsis_X_ABV, S0B0POS: ADJ_X_ABV, S0B0POSLemma: ADJ_­, S0B0Token: konsis_­, S0B1Lemma: konsis_­, S0B1LemmaPOS: konsis_X_ABV, S0B1POS: ADJ_X_ABV, S0B1POSLemma: ADJ_­, S0B1Token: konsis_­, S0Lemma: konsis, S0POS: ADJ, S0Token: konsis, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, tenti ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, tenti, biex ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_tenti, S0B1LemmaPOS: ­_NOUN, S0B1POS: X_ABV_NOUN, S0B1POSLemma: X_ABV_tenti, S0B1Token: ­_tenti, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, tenti, biex ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [tenti, biex, l- ,.. ]
+
+B0Lemma: tenti, B0POS: NOUN, B0Token: tenti, S0B0Lemma: ­_tenti, S0B0LemmaPOS: ­_NOUN, S0B0POS: X_ABV_NOUN, S0B0POSLemma: X_ABV_tenti, S0B0Token: ­_tenti, S0B1Lemma: ­_biex, S0B1LemmaPOS: ­_CONJ_SUB, S0B1POS: X_ABV_CONJ_SUB, S0B1POSLemma: X_ABV_biex, S0B1Token: ­_biex, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tenti, biex, l- ,.. ]
+
+B0Lemma: tenti, B0POS: NOUN, B0Token: tenti, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tenti]   B= [biex, l-, armeni ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, S0B0Lemma: tenti_biex, S0B0LemmaPOS: tenti_CONJ_SUB, S0B0POS: NOUN_CONJ_SUB, S0B0POSLemma: NOUN_biex, S0B0Token: tenti_biex, S0B1Lemma: tenti_il-, S0B1LemmaPOS: tenti_DEF, S0B1POS: NOUN_DEF, S0B1POSLemma: NOUN_il-, S0B1Token: tenti_l-, S0Lemma: tenti, S0POS: NOUN, S0Token: tenti, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, l-, armeni ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [l-, armeni, rebħu ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: biex_il-, S0B0LemmaPOS: biex_DEF, S0B0POS: CONJ_SUB_DEF, S0B0POSLemma: CONJ_SUB_il-, S0B0Token: biex_l-, S0B1Lemma: biex_armen, S0B1LemmaPOS: biex_NOUN, S0B1POS: CONJ_SUB_NOUN, S0B1POSLemma: CONJ_SUB_armen, S0B1Token: biex_armeni, S0Lemma: biex, S0POS: CONJ_SUB, S0Token: biex, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, armeni, rebħu ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [armeni, rebħu, l- ,.. ]
+
+B0Lemma: armen, B0POS: NOUN, B0Token: armeni, S0B0Lemma: il-_armen, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_armen, S0B0Token: l-_armeni, S0B1Lemma: il-_rebaħ, S0B1LemmaPOS: il-_VERB, S0B1POS: DEF_VERB, S0B1POSLemma: DEF_rebaħ, S0B1Token: l-_rebħu, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [armeni, rebħu, l- ,.. ]
+
+B0Lemma: armen, B0POS: NOUN, B0Token: armeni, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [armeni]   B= [rebħu, l-, inizjattiva ,.. ]
+
+B0IsInLexic: true, B0Lemma: rebaħ, B0POS: VERB, B0Token: rebħu, S0B0Lemma: armen_rebaħ, S0B0LemmaPOS: armen_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_rebaħ, S0B0Token: armeni_rebħu, S0B1Lemma: armen_il-, S0B1LemmaPOS: armen_DEF, S0B1POS: NOUN_DEF, S0B1POSLemma: NOUN_il-, S0B1Token: armeni_l-, S0Lemma: armen, S0POS: NOUN, S0Token: armeni, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rebħu, l-, inizjattiva ,.. ]
+
+B0IsInLexic: true, B0Lemma: rebaħ, B0POS: VERB, B0Token: rebħu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rebħu]   B= [l-, inizjattiva, u ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: rebaħ_il-, S0B0LemmaPOS: rebaħ_DEF, S0B0POS: VERB_DEF, S0B0POSLemma: VERB_il-, S0B0Token: rebħu_l-, S0B1Lemma: rebaħ_inizjattiva, S0B1LemmaPOS: rebaħ_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_inizjattiva, S0B1Token: rebħu_inizjattiva, S0IsInLexic: true, S0Lemma: rebaħ, S0POS: VERB, S0Token: rebħu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rebħu, l-]   B= [inizjattiva, u, bdew ,.. ]
+
+B0IsInLexic: true, B0Lemma: inizjattiva, B0POS: NOUN, B0Token: inizjattiva, S0B0Lemma: il-_inizjattiva, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_inizjattiva, S0B0Token: l-_inizjattiva, S0B1Lemma: il-_u, S0B1LemmaPOS: il-_CONJ_CORD, S0B1POS: DEF_CONJ_CORD, S0B1POSLemma: DEF_u, S0B1Token: l-_u, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0S1Distance: 1, S0Token: l-, S1B0Lemma: rebaħ_inizjattiva, S1B0LemmaPOS: rebaħ_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_inizjattiva, S1B0Token: rebħu_inizjattiva, S1IsInLexic: true, S1Lemma: rebaħ, S1POS: VERB, S1S0Lemma: rebaħ_il-, S1S0LemmaPOS: rebaħ_DEF, S1S0POS: VERB_DEF, S1S0POSLemma: VERB_il-, S1S0Token: rebħu_l-, S1Token: rebħu, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rebħu, l-, inizjattiva]   B= [u, bdew, jibnu ,.. ]
+
+B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: inizjattiva_u, S0B0LemmaPOS: inizjattiva_CONJ_CORD, S0B0POS: NOUN_CONJ_CORD, S0B0POSLemma: NOUN_u, S0B0Token: inizjattiva_u, S0B1Lemma: inizjattiva_bieda, S0B1LemmaPOS: inizjattiva_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_bieda, S0B1Token: inizjattiva_bdew, S0IsInLexic: true, S0Lemma: inizjattiva, S0POS: NOUN, S0S1Distance: 1, S0Token: inizjattiva, S1B0Lemma: il-_u, S1B0LemmaPOS: il-_CONJ_CORD, S1B0POS: DEF_CONJ_CORD, S1B0POSLemma: DEF_u, S1B0Token: l-_u, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_inizjattiva, S1S0LemmaPOS: il-_NOUN, S1S0POS: DEF_NOUN, S1S0POSLemma: DEF_inizjattiva, S1S0Token: l-_inizjattiva, S1Token: l-, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+46- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rebħu, [l-, inizjattiva]]   B= [u, bdew, jibnu ,.. ]
+
+B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: il-_inizjattiva_u, S0B0LemmaPOS: il-_inizjattiva_CONJ_CORD, S0B0POS: DEF_NOUN_CONJ_CORD, S0B0POSLemma: DEF_NOUN_u, S0B0Token: l-_inizjattiva_u, S0B1Lemma: il-_inizjattiva_bieda, S0B1LemmaPOS: il-_inizjattiva_VERB, S0B1POS: DEF_NOUN_VERB, S0B1POSLemma: DEF_NOUN_bieda, S0B1Token: l-_inizjattiva_bdew, S0Lemma: il-_inizjattiva, S0POS: DEF_NOUN, S0Token: l-_inizjattiva, S1B0Lemma: rebaħ_u, S1B0LemmaPOS: rebaħ_CONJ_CORD, S1B0POS: VERB_CONJ_CORD, S1B0POSLemma: VERB_u, S1B0Token: rebħu_u, S1IsInLexic: true, S1Lemma: rebaħ, S1POS: VERB, S1S0Lemma: rebaħ_il-_inizjattiva, S1S0LemmaPOS: rebaħ_DEF_NOUN, S1S0POS: VERB_DEF_NOUN, S1S0POSLemma: VERB_il-_inizjattiva, S1S0Token: rebħu_l-_inizjattiva, S1Token: rebħu, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+
+47- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[rebħu, [l-, inizjattiva]]]   B= [u, bdew, jibnu ,.. ]
+
+B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: rebaħ_il-_inizjattiva_u, S0B0LemmaPOS: rebaħ_il-_inizjattiva_CONJ_CORD, S0B0POS: VERB_DEF_NOUN_CONJ_CORD, S0B0POSLemma: VERB_DEF_NOUN_u, S0B0Token: rebħu_l-_inizjattiva_u, S0B1Lemma: rebaħ_il-_inizjattiva_bieda, S0B1LemmaPOS: rebaħ_il-_inizjattiva_VERB, S0B1POS: VERB_DEF_NOUN_VERB, S0B1POSLemma: VERB_DEF_NOUN_bieda, S0B1Token: rebħu_l-_inizjattiva_bdew, S0Lemma: rebaħ_il-_inizjattiva, S0POS: VERB_DEF_NOUN, S0Token: rebħu_l-_inizjattiva, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, bdew, jibnu ,.. ]
+
+B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [bdew, jibnu, attakk ,.. ]
+
+B0Lemma: bieda, B0POS: VERB, B0Token: bdew, S0B0Lemma: u_bieda, S0B0LemmaPOS: u_VERB, S0B0POS: CONJ_CORD_VERB, S0B0POSLemma: CONJ_CORD_bieda, S0B0Token: u_bdew, S0B1Lemma: u_bena, S0B1LemmaPOS: u_VERB, S0B1POS: CONJ_CORD_VERB, S0B1POSLemma: CONJ_CORD_bena, S0B1Token: u_jibnu, S0IsInLexic: true, S0Lemma: u, S0POS: CONJ_CORD, S0Token: u, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bdew, jibnu, attakk ,.. ]
+
+B0Lemma: bieda, B0POS: VERB, B0Token: bdew, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bdew]   B= [jibnu, attakk, wara ,.. ]
+
+B0IsInLexic: true, B0Lemma: bena, B0POS: VERB, B0Token: jibnu, S0B0Lemma: bieda_bena, S0B0LemmaPOS: bieda_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_bena, S0B0Token: bdew_jibnu, S0B1Lemma: bieda_attakk, S0B1LemmaPOS: bieda_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_attakk, S0B1Token: bdew_attakk, S0Lemma: bieda, S0POS: VERB, S0Token: bdew, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jibnu, attakk, wara ,.. ]
+
+B0IsInLexic: true, B0Lemma: bena, B0POS: VERB, B0Token: jibnu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jibnu]   B= [attakk, wara, ieħor ,.. ]
+
+B0IsInLexic: true, B0Lemma: attakk, B0POS: NOUN, B0Token: attakk, S0B0Lemma: bena_attakk, S0B0LemmaPOS: bena_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_attakk, S0B0Token: jibnu_attakk, S0B1Lemma: bena_wara, S0B1LemmaPOS: bena_PREP, S0B1POS: VERB_PREP, S0B1POSLemma: VERB_wara, S0B1Token: jibnu_wara, S0IsInLexic: true, S0Lemma: bena, S0POS: VERB, S0Token: jibnu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jibnu, attakk]   B= [wara, ieħor, biex ,.. ]
+
+B0IsInLexic: true, B0Lemma: wara, B0POS: PREP, B0Token: wara, S0B0Lemma: attakk_wara, S0B0LemmaPOS: attakk_PREP, S0B0POS: NOUN_PREP, S0B0POSLemma: NOUN_wara, S0B0Token: attakk_wara, S0B1Lemma: attakk_ieħor, S0B1LemmaPOS: attakk_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_ieħor, S0B1Token: attakk_ieħor, S0IsInLexic: true, S0Lemma: attakk, S0POS: NOUN, S0S1Distance: 1, S0Token: attakk, S1B0Lemma: bena_wara, S1B0LemmaPOS: bena_PREP, S1B0POS: VERB_PREP, S1B0POSLemma: VERB_wara, S1B0Token: jibnu_wara, S1IsInLexic: true, S1Lemma: bena, S1POS: VERB, S1S0Lemma: bena_attakk, S1S0LemmaPOS: bena_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_attakk, S1S0Token: jibnu_attakk, S1Token: jibnu, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+55- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[jibnu, attakk]]   B= [wara, ieħor, biex ,.. ]
+
+B0IsInLexic: true, B0Lemma: wara, B0POS: PREP, B0Token: wara, S0B0Lemma: bena_attakk_wara, S0B0LemmaPOS: bena_attakk_PREP, S0B0POS: VERB_NOUN_PREP, S0B0POSLemma: VERB_NOUN_wara, S0B0Token: jibnu_attakk_wara, S0B1Lemma: bena_attakk_ieħor, S0B1LemmaPOS: bena_attakk_ADJ, S0B1POS: VERB_NOUN_ADJ, S0B1POSLemma: VERB_NOUN_ieħor, S0B1Token: jibnu_attakk_ieħor, S0Lemma: bena_attakk, S0POS: VERB_NOUN, S0Token: jibnu_attakk, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [wara, ieħor, biex ,.. ]
+
+B0IsInLexic: true, B0Lemma: wara, B0POS: PREP, B0Token: wara, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [wara]   B= [ieħor, biex, konna ,.. ]
+
+B0Lemma: ieħor, B0POS: ADJ, B0Token: ieħor, S0B0Lemma: wara_ieħor, S0B0LemmaPOS: wara_ADJ, S0B0POS: PREP_ADJ, S0B0POSLemma: PREP_ieħor, S0B0Token: wara_ieħor, S0B1Lemma: wara_biex, S0B1LemmaPOS: wara_CONJ_SUB, S0B1POS: PREP_CONJ_SUB, S0B1POSLemma: PREP_biex, S0B1Token: wara_biex, S0IsInLexic: true, S0Lemma: wara, S0POS: PREP, S0Token: wara, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ieħor, biex, konna ,.. ]
+
+B0Lemma: ieħor, B0POS: ADJ, B0Token: ieħor, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ieħor]   B= [biex, konna, kos ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, S0B0Lemma: ieħor_biex, S0B0LemmaPOS: ieħor_CONJ_SUB, S0B0POS: ADJ_CONJ_SUB, S0B0POSLemma: ADJ_biex, S0B0Token: ieħor_biex, S0B1Lemma: ieħor_kien, S0B1LemmaPOS: ieħor_KIEN, S0B1POS: ADJ_KIEN, S0B1POSLemma: ADJ_kien, S0B1Token: ieħor_konna, S0Lemma: ieħor, S0POS: ADJ, S0Token: ieħor, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, konna, kos ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [konna, kos, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: konna, S0B0Lemma: biex_kien, S0B0LemmaPOS: biex_KIEN, S0B0POS: CONJ_SUB_KIEN, S0B0POSLemma: CONJ_SUB_kien, S0B0Token: biex_konna, S0B1Lemma: biex_kos, S0B1LemmaPOS: biex_NOUN, S0B1POS: CONJ_SUB_NOUN, S0B1POSLemma: CONJ_SUB_kos, S0B1Token: biex_kos, S0Lemma: biex, S0POS: CONJ_SUB, S0Token: biex, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [konna, kos, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: konna, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [konna]   B= [kos, ­, ­ ,.. ]
+
+B0Lemma: kos, B0POS: NOUN, B0Token: kos, S0B0Lemma: kien_kos, S0B0LemmaPOS: kien_NOUN, S0B0POS: KIEN_NOUN, S0B0POSLemma: KIEN_kos, S0B0Token: konna_kos, S0B1Lemma: kien_­, S0B1LemmaPOS: kien_ADJ, S0B1POS: KIEN_ADJ, S0B1POSLemma: KIEN_­, S0B1Token: konna_­, S0IsInLexic: true, S0Lemma: kien, S0POS: KIEN, S0Token: konna, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kos, ­, ­ ,.. ]
+
+B0Lemma: kos, B0POS: NOUN, B0Token: kos, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kos]   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: ADJ, B0Token: ­, S0B0Lemma: kos_­, S0B0LemmaPOS: kos_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_­, S0B0Token: kos_­, S0B1Lemma: kos_­, S0B1LemmaPOS: kos_X_ABV, S0B1POS: NOUN_X_ABV, S0B1POSLemma: NOUN_­, S0B1Token: kos_­, S0Lemma: kos, S0POS: NOUN, S0Token: kos, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: ADJ, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: ADJ_X_ABV, S0B0POSLemma: ADJ_­, S0B0Token: ­_­, S0B1Lemma: ­_­, S0B1LemmaPOS: ­_X_ABV, S0B1POS: ADJ_X_ABV, S0B1POSLemma: ADJ_­, S0B1Token: ­_­, S0Lemma: ­, S0POS: ADJ, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_­, S0B1LemmaPOS: ­_X_ABV, S0B1POS: X_ABV_X_ABV, S0B1POSLemma: X_ABV_­, S0B1Token: ­_­, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, tretti ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_­, S0B1LemmaPOS: ­_X_ABV, S0B1POS: X_ABV_X_ABV, S0B1POSLemma: X_ABV_­, S0B1Token: ­_­, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, tretti ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, tretti, nirtiraw ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_tretti, S0B1LemmaPOS: ­_NOUN, S0B1POS: X_ABV_NOUN, S0B1POSLemma: X_ABV_tretti, S0B1Token: ­_tretti, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, tretti, nirtiraw ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [tretti, nirtiraw, lura ,.. ]
+
+B0Lemma: tretti, B0POS: NOUN, B0Token: tretti, S0B0Lemma: ­_tretti, S0B0LemmaPOS: ­_NOUN, S0B0POS: X_ABV_NOUN, S0B0POSLemma: X_ABV_tretti, S0B0Token: ­_tretti, S0B1Lemma: ­_nirtiraw, S0B1LemmaPOS: ­_VERB, S0B1POS: X_ABV_VERB, S0B1POSLemma: X_ABV_nirtiraw, S0B1Token: ­_nirtiraw, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tretti, nirtiraw, lura ,.. ]
+
+B0Lemma: tretti, B0POS: NOUN, B0Token: tretti, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tretti]   B= [nirtiraw, lura, , ,.. ]
+
+B0Lemma: nirtiraw, B0POS: VERB, B0Token: nirtiraw, S0B0Lemma: tretti_nirtiraw, S0B0LemmaPOS: tretti_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_nirtiraw, S0B0Token: tretti_nirtiraw, S0B1Lemma: tretti_lura, S0B1LemmaPOS: tretti_ADV, S0B1POS: NOUN_ADV, S0B1POSLemma: NOUN_lura, S0B1Token: tretti_lura, S0Lemma: tretti, S0POS: NOUN, S0Token: tretti, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nirtiraw, lura, , ,.. ]
+
+B0Lemma: nirtiraw, B0POS: VERB, B0Token: nirtiraw, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nirtiraw]   B= [lura, ,, niffol ,.. ]
+
+B0IsInLexic: true, B0Lemma: lura, B0POS: ADV, B0Token: lura, S0B0Lemma: nirtiraw_lura, S0B0LemmaPOS: nirtiraw_ADV, S0B0POS: VERB_ADV, S0B0POSLemma: VERB_lura, S0B0Token: nirtiraw_lura, S0B1Lemma: nirtiraw_,, S0B1LemmaPOS: nirtiraw_X_PUN, S0B1POS: VERB_X_PUN, S0B1POSLemma: VERB_,, S0B1Token: nirtiraw_,, S0Lemma: nirtiraw, S0POS: VERB, S0Token: nirtiraw, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lura, ,, niffol ,.. ]
+
+B0IsInLexic: true, B0Lemma: lura, B0POS: ADV, B0Token: lura, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lura]   B= [,, niffol, ­ ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: lura_,, S0B0LemmaPOS: lura_X_PUN, S0B0POS: ADV_X_PUN, S0B0POSLemma: ADV_,, S0B0Token: lura_,, S0B1Lemma: lura_niffol, S0B1LemmaPOS: lura_VERB, S0B1POS: ADV_VERB, S0B1POSLemma: ADV_niffol, S0B1Token: lura_niffol, S0IsInLexic: true, S0Lemma: lura, S0POS: ADV, S0Token: lura, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, niffol, ­ ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [niffol, ­, law ,.. ]
+
+B0IsInLexic: true, B0Lemma: niffol, B0POS: VERB, B0Token: niffol, S0B0Lemma: ,_niffol, S0B0LemmaPOS: ,_VERB, S0B0POS: X_PUN_VERB, S0B0POSLemma: X_PUN_niffol, S0B0Token: ,_niffol, S0B1Lemma: ,_­, S0B1LemmaPOS: ,_X_ABV, S0B1POS: X_PUN_X_ABV, S0B1POSLemma: X_PUN_­, S0B1Token: ,_­, S0Lemma: ,, S0POS: X_PUN, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [niffol, ­, law ,.. ]
+
+B0IsInLexic: true, B0Lemma: niffol, B0POS: VERB, B0Token: niffol, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol]   B= [­, law, id- ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: niffol_­, S0B0LemmaPOS: niffol_X_ABV, S0B0POS: VERB_X_ABV, S0B0POSLemma: VERB_­, S0B0Token: niffol_­, S0B1Lemma: niffol_law, S0B1LemmaPOS: niffol_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_law, S0B1Token: niffol_law, S0IsInLexic: true, S0Lemma: niffol, S0POS: VERB, S0Token: niffol, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+86- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, ­]   B= [law, id-, difiża ,.. ]
+
+B0IsInLexic: true, B0Lemma: law, B0POS: VERB, B0Token: law, S0B0Lemma: ­_law, S0B0LemmaPOS: ­_VERB, S0B0POS: X_ABV_VERB, S0B0POSLemma: X_ABV_law, S0B0Token: ­_law, S0B1Lemma: ­_il-, S0B1LemmaPOS: ­_DEF, S0B1POS: X_ABV_DEF, S0B1POSLemma: X_ABV_il-, S0B1Token: ­_id-, S0Lemma: ­, S0POS: X_ABV, S0S1Distance: 1, S0Token: ­, S1B0Lemma: niffol_law, S1B0LemmaPOS: niffol_VERB, S1B0POS: VERB_VERB, S1B0POSLemma: VERB_law, S1B0Token: niffol_law, S1IsInLexic: true, S1Lemma: niffol, S1POS: VERB, S1S0Lemma: niffol_­, S1S0LemmaPOS: niffol_X_ABV, S1S0POS: VERB_X_ABV, S1S0POSLemma: VERB_­, S1S0Token: niffol_­, S1Token: niffol, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+87- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol]   B= [law, id-, difiża ,.. ]
+
+B0IsInLexic: true, B0Lemma: law, B0POS: VERB, B0Token: law, S0B0Lemma: niffol_law, S0B0LemmaPOS: niffol_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_law, S0B0Token: niffol_law, S0B1Lemma: niffol_il-, S0B1LemmaPOS: niffol_DEF, S0B1POS: VERB_DEF, S0B1POSLemma: VERB_il-, S0B1Token: niffol_id-, S0IsInLexic: true, S0Lemma: niffol, S0POS: VERB, S0Token: niffol, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+88- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, law]   B= [id-, difiża, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: id-, S0B0Lemma: law_il-, S0B0LemmaPOS: law_DEF, S0B0POS: VERB_DEF, S0B0POSLemma: VERB_il-, S0B0Token: law_id-, S0B1Lemma: law_difiża, S0B1LemmaPOS: law_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_difiża, S0B1Token: law_difiża, S0IsInLexic: true, S0Lemma: law, S0POS: VERB, S0S1Distance: 2, S0Token: law, S1B0Lemma: niffol_il-, S1B0LemmaPOS: niffol_DEF, S1B0POS: VERB_DEF, S1B0POSLemma: VERB_il-, S1B0Token: niffol_id-, S1IsInLexic: true, S1Lemma: niffol, S1POS: VERB, S1S0Lemma: niffol_law, S1S0LemmaPOS: niffol_VERB, S1S0POS: VERB_VERB, S1S0POSLemma: VERB_law, S1S0Token: niffol_law, S1Token: niffol, StackLengthIs: 2, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, law, id-]   B= [difiża, ,, biex ,.. ]
+
+B0IsInLexic: true, B0Lemma: difiża, B0POS: NOUN, B0Token: difiża, S0B0Lemma: il-_difiża, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_difiża, S0B0Token: id-_difiża, S0B1Lemma: il-_,, S0B1LemmaPOS: il-_X_PUN, S0B1POS: DEF_X_PUN, S0B1POSLemma: DEF_,, S0B1Token: id-_,, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0S1Distance: 1, S0Token: id-, S1B0Lemma: law_difiża, S1B0LemmaPOS: law_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_difiża, S1B0Token: law_difiża, S1IsInLexic: true, S1Lemma: law, S1POS: VERB, S1S0Lemma: law_il-, S1S0LemmaPOS: law_DEF, S1S0POS: VERB_DEF, S1S0POSLemma: VERB_il-, S1S0Token: law_id-, S1Token: law, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+90- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, law, id-, difiża]   B= [,, biex, nilqgħu ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: difiża_,, S0B0LemmaPOS: difiża_X_PUN, S0B0POS: NOUN_X_PUN, S0B0POSLemma: NOUN_,, S0B0Token: difiża_,, S0B1Lemma: difiża_biex, S0B1LemmaPOS: difiża_CONJ_SUB, S0B1POS: NOUN_CONJ_SUB, S0B1POSLemma: NOUN_biex, S0B1Token: difiża_biex, S0IsInLexic: true, S0Lemma: difiża, S0POS: NOUN, S0S1Distance: 1, S0Token: difiża, S1B0Lemma: il-_,, S1B0LemmaPOS: il-_X_PUN, S1B0POS: DEF_X_PUN, S1B0POSLemma: DEF_,, S1B0Token: id-_,, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_difiża, S1S0LemmaPOS: il-_NOUN, S1S0POS: DEF_NOUN, S1S0POSLemma: DEF_difiża, S1S0Token: id-_difiża, S1Token: id-, StackLengthIs: 4, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+91- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, law, [id-, difiża]]   B= [,, biex, nilqgħu ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: il-_difiża_,, S0B0LemmaPOS: il-_difiża_X_PUN, S0B0POS: DEF_NOUN_X_PUN, S0B0POSLemma: DEF_NOUN_,, S0B0Token: id-_difiża_,, S0B1Lemma: il-_difiża_biex, S0B1LemmaPOS: il-_difiża_CONJ_SUB, S0B1POS: DEF_NOUN_CONJ_SUB, S0B1POSLemma: DEF_NOUN_biex, S0B1Token: id-_difiża_biex, S0Lemma: il-_difiża, S0POS: DEF_NOUN, S0Token: id-_difiża, S1B0Lemma: law_,, S1B0LemmaPOS: law_X_PUN, S1B0POS: VERB_X_PUN, S1B0POSLemma: VERB_,, S1B0Token: law_,, S1IsInLexic: true, S1Lemma: law, S1POS: VERB, S1S0Lemma: law_il-_difiża, S1S0LemmaPOS: law_DEF_NOUN, S1S0POS: VERB_DEF_NOUN, S1S0POSLemma: VERB_il-_difiża, S1S0Token: law_id-_difiża, S1Token: law, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+
+92- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, [law, [id-, difiża]]]   B= [,, biex, nilqgħu ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: law_il-_difiża_,, S0B0LemmaPOS: law_il-_difiża_X_PUN, S0B0POS: VERB_DEF_NOUN_X_PUN, S0B0POSLemma: VERB_DEF_NOUN_,, S0B0Token: law_id-_difiża_,, S0B1Lemma: law_il-_difiża_biex, S0B1LemmaPOS: law_il-_difiża_CONJ_SUB, S0B1POS: VERB_DEF_NOUN_CONJ_SUB, S0B1POSLemma: VERB_DEF_NOUN_biex, S0B1Token: law_id-_difiża_biex, S0Lemma: law_il-_difiża, S0POS: VERB_DEF_NOUN, S0Token: law_id-_difiża, S1B0Lemma: niffol_,, S1B0LemmaPOS: niffol_X_PUN, S1B0POS: VERB_X_PUN, S1B0POSLemma: VERB_,, S1B0Token: niffol_,, S1IsInLexic: true, S1Lemma: niffol, S1POS: VERB, S1S0Lemma: niffol_law_il-_difiża, S1S0LemmaPOS: niffol_VERB_DEF_NOUN, S1S0POS: VERB_VERB_DEF_NOUN, S1S0POSLemma: VERB_law_il-_difiża, S1S0Token: niffol_law_id-_difiża, S1Token: niffol, StackLengthIs: 2, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
+
+93- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[niffol, [law, [id-, difiża]]]]   B= [,, biex, nilqgħu ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: niffol_law_il-_difiża_,, S0B0LemmaPOS: niffol_law_il-_difiża_X_PUN, S0B0POS: VERB_VERB_DEF_NOUN_X_PUN, S0B0POSLemma: VERB_VERB_DEF_NOUN_,, S0B0Token: niffol_law_id-_difiża_,, S0B1Lemma: niffol_law_il-_difiża_biex, S0B1LemmaPOS: niffol_law_il-_difiża_CONJ_SUB, S0B1POS: VERB_VERB_DEF_NOUN_CONJ_SUB, S0B1POSLemma: VERB_VERB_DEF_NOUN_biex, S0B1Token: niffol_law_id-_difiża_biex, S0Lemma: niffol_law_il-_difiża, S0POS: VERB_VERB_DEF_NOUN, S0Token: niffol_law_id-_difiża, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
+
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, biex, nilqgħu ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, TransHistory1: 1, TransHistory2: 11, TransHistory3: 111, 
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [biex, nilqgħu, l- ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, S0B0Lemma: ,_biex, S0B0LemmaPOS: ,_CONJ_SUB, S0B0POS: X_PUN_CONJ_SUB, S0B0POSLemma: X_PUN_biex, S0B0Token: ,_biex, S0B1Lemma: ,_laqa', S0B1LemmaPOS: ,_VERB, S0B1POS: X_PUN_VERB, S0B1POSLemma: X_PUN_laqa', S0B1Token: ,_nilqgħu, S0Lemma: ,, S0POS: X_PUN, S0Token: ,, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
+
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, nilqgħu, l- ,.. ]
+
+B0Lemma: biex, B0POS: CONJ_SUB, B0Token: biex, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [nilqgħu, l-, pres ,.. ]
+
+B0IsInLexic: true, B0Lemma: laqa', B0POS: VERB, B0Token: nilqgħu, S0B0Lemma: biex_laqa', S0B0LemmaPOS: biex_VERB, S0B0POS: CONJ_SUB_VERB, S0B0POSLemma: CONJ_SUB_laqa', S0B0Token: biex_nilqgħu, S0B1Lemma: biex_il-, S0B1LemmaPOS: biex_DEF, S0B1POS: CONJ_SUB_DEF, S0B1POSLemma: CONJ_SUB_il-, S0B1Token: biex_l-, S0Lemma: biex, S0POS: CONJ_SUB, S0Token: biex, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nilqgħu, l-, pres ,.. ]
+
+B0IsInLexic: true, B0Lemma: laqa', B0POS: VERB, B0Token: nilqgħu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu]   B= [l-, pres, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: laqa'_il-, S0B0LemmaPOS: laqa'_DEF, S0B0POS: VERB_DEF, S0B0POSLemma: VERB_il-, S0B0Token: nilqgħu_l-, S0B1Lemma: laqa'_pres, S0B1LemmaPOS: laqa'_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_pres, S0B1Token: nilqgħu_pres, S0IsInLexic: true, S0Lemma: laqa', S0POS: VERB, S0Token: nilqgħu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+100- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-]   B= [pres, ­, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: pres, B0POS: NOUN, B0Token: pres, S0B0Lemma: il-_pres, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_pres, S0B0Token: l-_pres, S0B1Lemma: il-_­, S0B1LemmaPOS: il-_INT, S0B1POS: DEF_INT, S0B1POSLemma: DEF_­, S0B1Token: l-_­, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0S1Distance: 1, S0Token: l-, S1B0Lemma: laqa'_pres, S1B0LemmaPOS: laqa'_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_pres, S1B0Token: nilqgħu_pres, S1IsInLexic: true, S1Lemma: laqa', S1POS: VERB, S1S0Lemma: laqa'_il-, S1S0LemmaPOS: laqa'_DEF, S1S0POS: VERB_DEF, S1S0POSLemma: VERB_il-, S1S0Token: nilqgħu_l-, S1Token: nilqgħu, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres]   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: INT, B0Token: ­, S0B0Lemma: pres_­, S0B0LemmaPOS: pres_INT, S0B0POS: NOUN_INT, S0B0POSLemma: NOUN_­, S0B0Token: pres_­, S0B1Lemma: pres_­, S0B1LemmaPOS: pres_X_ABV, S0B1POS: NOUN_X_ABV, S0B1POSLemma: NOUN_­, S0B1Token: pres_­, S0IsInLexic: true, S0Lemma: pres, S0POS: NOUN, S0S1Distance: 1, S0Token: pres, S1B0Lemma: il-_­, S1B0LemmaPOS: il-_INT, S1B0POS: DEF_INT, S1B0POSLemma: DEF_­, S1B0Token: l-_­, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_pres, S1S0LemmaPOS: il-_NOUN, S1S0POS: DEF_NOUN, S1S0POSLemma: DEF_pres, S1S0Token: l-_pres, S1Token: l-, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+102- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres, ­]   B= [­, ­, sjoni ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: INT_X_ABV, S0B0POSLemma: INT_­, S0B0Token: ­_­, S0B1Lemma: ­_­, S0B1LemmaPOS: ­_X_ABV, S0B1POS: INT_X_ABV, S0B1POSLemma: INT_­, S0B1Token: ­_­, S0Lemma: ­, S0POS: INT, S0S1Distance: 1, S0Token: ­, S1B0Lemma: pres_­, S1B0LemmaPOS: pres_X_ABV, S1B0POS: NOUN_X_ABV, S1B0POSLemma: NOUN_­, S1B0Token: pres_­, S1IsInLexic: true, S1Lemma: pres, S1POS: NOUN, S1S0Lemma: pres_­, S1S0LemmaPOS: pres_INT, S1S0POS: NOUN_INT, S1S0POSLemma: NOUN_­, S1S0Token: pres_­, S1Token: pres, StackLengthIs: 4, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+
+103- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres]   B= [­, ­, sjoni ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: pres_­, S0B0LemmaPOS: pres_X_ABV, S0B0POS: NOUN_X_ABV, S0B0POSLemma: NOUN_­, S0B0Token: pres_­, S0B1Lemma: pres_­, S0B1LemmaPOS: pres_X_ABV, S0B1POS: NOUN_X_ABV, S0B1POSLemma: NOUN_­, S0B1Token: pres_­, S0IsInLexic: true, S0Lemma: pres, S0POS: NOUN, S0S1Distance: 1, S0Token: pres, S1B0Lemma: il-_­, S1B0LemmaPOS: il-_X_ABV, S1B0POS: DEF_X_ABV, S1B0POSLemma: DEF_­, S1B0Token: l-_­, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_pres, S1S0LemmaPOS: il-_NOUN, S1S0POS: DEF_NOUN, S1S0POSLemma: DEF_pres, S1S0Token: l-_pres, S1Token: l-, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+
+104- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres, ­]   B= [­, sjoni, tal- ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_sjoni, S0B1LemmaPOS: ­_NOUN, S0B1POS: X_ABV_NOUN, S0B1POSLemma: X_ABV_sjoni, S0B1Token: ­_sjoni, S0Lemma: ­, S0POS: X_ABV, S0S1Distance: 2, S0Token: ­, S1B0Lemma: pres_­, S1B0LemmaPOS: pres_X_ABV, S1B0POS: NOUN_X_ABV, S1B0POSLemma: NOUN_­, S1B0Token: pres_­, S1IsInLexic: true, S1Lemma: pres, S1POS: NOUN, S1S0Lemma: pres_­, S1S0LemmaPOS: pres_X_ABV, S1S0POS: NOUN_X_ABV, S1S0POSLemma: NOUN_­, S1S0Token: pres_­, S1Token: pres, StackLengthIs: 4, TransHistory1: 2, TransHistory2: 20, TransHistory3: 200, 
+
+105- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres]   B= [­, sjoni, tal- ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: pres_­, S0B0LemmaPOS: pres_X_ABV, S0B0POS: NOUN_X_ABV, S0B0POSLemma: NOUN_­, S0B0Token: pres_­, S0B1Lemma: pres_sjoni, S0B1LemmaPOS: pres_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_sjoni, S0B1Token: pres_sjoni, S0IsInLexic: true, S0Lemma: pres, S0POS: NOUN, S0S1Distance: 1, S0Token: pres, S1B0Lemma: il-_­, S1B0LemmaPOS: il-_X_ABV, S1B0POS: DEF_X_ABV, S1B0POSLemma: DEF_­, S1B0Token: l-_­, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_pres, S1S0LemmaPOS: il-_NOUN, S1S0POS: DEF_NOUN, S1S0POSLemma: DEF_pres, S1S0Token: l-_pres, S1Token: l-, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+106- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres, ­]   B= [sjoni, tal-, av ,.. ]
+
+B0IsInLexic: true, B0Lemma: sjoni, B0POS: NOUN, B0Token: sjoni, S0B0Lemma: ­_sjoni, S0B0LemmaPOS: ­_NOUN, S0B0POS: X_ABV_NOUN, S0B0POSLemma: X_ABV_sjoni, S0B0Token: ­_sjoni, S0B1Lemma: ­_ta', S0B1LemmaPOS: ­_GEN_DEF, S0B1POS: X_ABV_GEN_DEF, S0B1POSLemma: X_ABV_ta', S0B1Token: ­_tal-, S0Lemma: ­, S0POS: X_ABV, S0S1Distance: 3, S0Token: ­, S1B0Lemma: pres_sjoni, S1B0LemmaPOS: pres_NOUN, S1B0POS: NOUN_NOUN, S1B0POSLemma: NOUN_sjoni, S1B0Token: pres_sjoni, S1IsInLexic: true, S1Lemma: pres, S1POS: NOUN, S1S0Lemma: pres_­, S1S0LemmaPOS: pres_X_ABV, S1S0POS: NOUN_X_ABV, S1S0POSLemma: NOUN_­, S1S0Token: pres_­, S1Token: pres, StackLengthIs: 4, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+107- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres]   B= [sjoni, tal-, av ,.. ]
+
+B0IsInLexic: true, B0Lemma: sjoni, B0POS: NOUN, B0Token: sjoni, S0B0Lemma: pres_sjoni, S0B0LemmaPOS: pres_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_sjoni, S0B0Token: pres_sjoni, S0B1Lemma: pres_ta', S0B1LemmaPOS: pres_GEN_DEF, S0B1POS: NOUN_GEN_DEF, S0B1POSLemma: NOUN_ta', S0B1Token: pres_tal-, S0IsInLexic: true, S0Lemma: pres, S0POS: NOUN, S0S1Distance: 1, S0Token: pres, S1B0Lemma: il-_sjoni, S1B0LemmaPOS: il-_NOUN, S1B0POS: DEF_NOUN, S1B0POSLemma: DEF_sjoni, S1B0Token: l-_sjoni, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_pres, S1S0LemmaPOS: il-_NOUN, S1S0POS: DEF_NOUN, S1S0POSLemma: DEF_pres, S1S0Token: l-_pres, S1Token: l-, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+108- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres, sjoni]   B= [tal-, av, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: sjoni_ta', S0B0LemmaPOS: sjoni_GEN_DEF, S0B0POS: NOUN_GEN_DEF, S0B0POSLemma: NOUN_ta', S0B0Token: sjoni_tal-, S0B1Lemma: sjoni_av, S0B1LemmaPOS: sjoni_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_av, S0B1Token: sjoni_av, S0IsInLexic: true, S0Lemma: sjoni, S0POS: NOUN, S0S1Distance: 4, S0Token: sjoni, S1B0Lemma: pres_ta', S1B0LemmaPOS: pres_GEN_DEF, S1B0POS: NOUN_GEN_DEF, S1B0POSLemma: NOUN_ta', S1B0Token: pres_tal-, S1IsInLexic: true, S1Lemma: pres, S1POS: NOUN, S1S0Lemma: pres_sjoni, S1S0LemmaPOS: pres_NOUN, S1S0POS: NOUN_NOUN, S1S0POSLemma: NOUN_sjoni, S1S0Token: pres_sjoni, S1Token: pres, StackLengthIs: 4, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+109- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, [pres, sjoni]]   B= [tal-, av, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: pres_sjoni_ta', S0B0LemmaPOS: pres_sjoni_GEN_DEF, S0B0POS: NOUN_NOUN_GEN_DEF, S0B0POSLemma: NOUN_NOUN_ta', S0B0Token: pres_sjoni_tal-, S0B1Lemma: pres_sjoni_av, S0B1LemmaPOS: pres_sjoni_NOUN, S0B1POS: NOUN_NOUN_NOUN, S0B1POSLemma: NOUN_NOUN_av, S0B1Token: pres_sjoni_av, S0Lemma: pres_sjoni, S0POS: NOUN_NOUN, S0Token: pres_sjoni, S1B0Lemma: il-_ta', S1B0LemmaPOS: il-_GEN_DEF, S1B0POS: DEF_GEN_DEF, S1B0POSLemma: DEF_ta', S1B0Token: l-_tal-, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_pres_sjoni, S1S0LemmaPOS: il-_NOUN_NOUN, S1S0POS: DEF_NOUN_NOUN, S1S0POSLemma: DEF_pres_sjoni, S1S0Token: l-_pres_sjoni, S1Token: l-, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+110- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, [l-, [pres, sjoni]]]   B= [tal-, av, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: il-_pres_sjoni_ta', S0B0LemmaPOS: il-_pres_sjoni_GEN_DEF, S0B0POS: DEF_NOUN_NOUN_GEN_DEF, S0B0POSLemma: DEF_NOUN_NOUN_ta', S0B0Token: l-_pres_sjoni_tal-, S0B1Lemma: il-_pres_sjoni_av, S0B1LemmaPOS: il-_pres_sjoni_NOUN, S0B1POS: DEF_NOUN_NOUN_NOUN, S0B1POSLemma: DEF_NOUN_NOUN_av, S0B1Token: l-_pres_sjoni_av, S0Lemma: il-_pres_sjoni, S0POS: DEF_NOUN_NOUN, S0Token: l-_pres_sjoni, S1B0Lemma: laqa'_ta', S1B0LemmaPOS: laqa'_GEN_DEF, S1B0POS: VERB_GEN_DEF, S1B0POSLemma: VERB_ta', S1B0Token: nilqgħu_tal-, S1IsInLexic: true, S1Lemma: laqa', S1POS: VERB, S1S0Lemma: laqa'_il-_pres_sjoni, S1S0LemmaPOS: laqa'_DEF_NOUN_NOUN, S1S0POS: VERB_DEF_NOUN_NOUN, S1S0POSLemma: VERB_il-_pres_sjoni, S1S0Token: nilqgħu_l-_pres_sjoni, S1Token: nilqgħu, StackLengthIs: 2, TransHistory1: 1, TransHistory2: 10, TransHistory3: 102, 
+
+111- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[nilqgħu, [l-, [pres, sjoni]]]]   B= [tal-, av, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: laqa'_il-_pres_sjoni_ta', S0B0LemmaPOS: laqa'_il-_pres_sjoni_GEN_DEF, S0B0POS: VERB_DEF_NOUN_NOUN_GEN_DEF, S0B0POSLemma: VERB_DEF_NOUN_NOUN_ta', S0B0Token: nilqgħu_l-_pres_sjoni_tal-, S0B1Lemma: laqa'_il-_pres_sjoni_av, S0B1LemmaPOS: laqa'_il-_pres_sjoni_NOUN, S0B1POS: VERB_DEF_NOUN_NOUN_NOUN, S0B1POSLemma: VERB_DEF_NOUN_NOUN_av, S0B1Token: nilqgħu_l-_pres_sjoni_av, S0Lemma: laqa'_il-_pres_sjoni, S0POS: VERB_DEF_NOUN_NOUN, S0Token: nilqgħu_l-_pres_sjoni, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
+
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, av, ­ ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, TransHistory1: 1, TransHistory2: 11, TransHistory3: 111, 
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [av, ­, ­ ,.. ]
+
+B0Lemma: av, B0POS: NOUN, B0Token: av, S0B0Lemma: ta'_av, S0B0LemmaPOS: ta'_NOUN, S0B0POS: GEN_DEF_NOUN, S0B0POSLemma: GEN_DEF_av, S0B0Token: tal-_av, S0B1Lemma: ta'_­, S0B1LemmaPOS: ta'_X_ABV, S0B1POS: GEN_DEF_X_ABV, S0B1POSLemma: GEN_DEF_­, S0B1Token: tal-_­, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_DEF, S0Token: tal-, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
+
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [av, ­, ­ ,.. ]
+
+B0Lemma: av, B0POS: NOUN, B0Token: av, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [av]   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: av_­, S0B0LemmaPOS: av_X_ABV, S0B0POS: NOUN_X_ABV, S0B0POSLemma: NOUN_­, S0B0Token: av_­, S0B1Lemma: av_­, S0B1LemmaPOS: av_X_ABV, S0B1POS: NOUN_X_ABV, S0B1POSLemma: NOUN_­, S0B1Token: av_­, S0Lemma: av, S0POS: NOUN, S0Token: av, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, ver ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_­, S0B1LemmaPOS: ­_X_ABV, S0B1POS: X_ABV_X_ABV, S0B1POSLemma: X_ABV_­, S0B1Token: ­_­, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ver ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ver, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_ver, S0B1LemmaPOS: ­_ADJ, S0B1POS: X_ABV_ADJ, S0B1POSLemma: X_ABV_ver, S0B1Token: ­_ver, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ver, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [ver, ­, ­ ,.. ]
+
+B0Lemma: ver, B0POS: ADJ, B0Token: ver, S0B0Lemma: ­_ver, S0B0LemmaPOS: ­_ADJ, S0B0POS: X_ABV_ADJ, S0B0POSLemma: X_ABV_ver, S0B0Token: ­_ver, S0B1Lemma: ­_­, S0B1LemmaPOS: ­_X_ABV, S0B1POS: X_ABV_X_ABV, S0B1POSLemma: X_ABV_­, S0B1Token: ­_­, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ver, ­, ­ ,.. ]
+
+B0Lemma: ver, B0POS: ADJ, B0Token: ver, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ver]   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ver_­, S0B0LemmaPOS: ver_X_ABV, S0B0POS: ADJ_X_ABV, S0B0POSLemma: ADJ_­, S0B0Token: ver_­, S0B1Lemma: ver_­, S0B1LemmaPOS: ver_X_ABV, S0B1POS: ADJ_X_ABV, S0B1POSLemma: ADJ_­, S0B1Token: ver_­, S0Lemma: ver, S0POS: ADJ, S0Token: ver, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, sarji ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_­, S0B1LemmaPOS: ­_X_ABV, S0B1POS: X_ABV_X_ABV, S0B1POSLemma: X_ABV_­, S0B1Token: ­_­, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, sarji ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, sarji, . ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, S0B0Lemma: ­_­, S0B0LemmaPOS: ­_X_ABV, S0B0POS: X_ABV_X_ABV, S0B0POSLemma: X_ABV_­, S0B0Token: ­_­, S0B1Lemma: ­_sarju, S0B1LemmaPOS: ­_ADJ, S0B1POS: X_ABV_ADJ, S0B1POSLemma: X_ABV_sarju, S0B1Token: ­_sarji, S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, sarji, . ,.. ]
+
+B0Lemma: ­, B0POS: X_ABV, B0Token: ­, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [sarji, . ,.. ]
+
+B0Lemma: sarju, B0POS: ADJ, B0Token: sarji, S0B0Lemma: ­_sarju, S0B0LemmaPOS: ­_ADJ, S0B0POS: X_ABV_ADJ, S0B0POSLemma: X_ABV_sarju, S0B0Token: ­_sarji, S0B1Lemma: ­_., S0B1LemmaPOS: ­_X_PUN, S0B1POS: X_ABV_X_PUN, S0B1POSLemma: X_ABV_., S0B1Token: ­_., S0Lemma: ­, S0POS: X_ABV, S0Token: ­, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sarji, . ,.. ]
+
+B0Lemma: sarju, B0POS: ADJ, B0Token: sarji, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sarji]   B= [.]
+
+B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: sarju_., S0B0LemmaPOS: sarju_X_PUN, S0B0POS: ADJ_X_PUN, S0B0POSLemma: ADJ_., S0B0Token: sarji_., S0Lemma: sarju, S0POS: ADJ, S0Token: sarji, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0IsInLexic: true, S0Lemma: ., S0POS: X_PUN, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 656 - 
+qal li s- sena l- oħra l- eks ministru tonio fenech kien ħareġ stqarrija u qal li ntalab tnaqqis fin- nefqa ta’ 0.04 % tal- prodott gross domestiku . “ imbagħad bdejna niskopru li dawn huma € 40 miljun maqtugħa minn setturi bħas- saħħa , ” qal muscat . 
+### Existing MWEs: 
+1- **ħareġ stqarrija** (LVC)
+2- **ntalab tnaqqis** (LVC)
+3- **40 miljun maqtugħa minn setturi** (LVC)
+
+
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qal, li, s- ,.. ]
+
+B0Lemma: qal, B0POS: VERB, B0Token: qal, 
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qal]   B= [li, s-, sena ,.. ]
+
+B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: qal_li, S0B0LemmaPOS: qal_COMP, S0B0POS: VERB_COMP, S0B0POSLemma: VERB_li, S0B0Token: qal_li, S0B1Lemma: qal_il-, S0B1LemmaPOS: qal_DEF, S0B1POS: VERB_DEF, S0B1POSLemma: VERB_il-, S0B1Token: qal_s-, S0Lemma: qal, S0POS: VERB, S0Token: qal, 
+
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, s-, sena ,.. ]
+
+B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, 
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [s-, sena, l- ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: s-, S0B0Lemma: li_il-, S0B0LemmaPOS: li_DEF, S0B0POS: COMP_DEF, S0B0POSLemma: COMP_il-, S0B0Token: li_s-, S0B1Lemma: li_sena, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_sena, S0B1Token: li_sena, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, 
+
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s-, sena, l- ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: s-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s-]   B= [sena, l-, oħra ,.. ]
+
+B0IsInLexic: true, B0Lemma: sena, B0POS: NOUN, B0Token: sena, S0B0Lemma: il-_sena, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_sena, S0B0Token: s-_sena, S0B1Lemma: il-_il-, S0B1LemmaPOS: il-_DEF, S0B1POS: DEF_DEF, S0B1POSLemma: DEF_il-, S0B1Token: s-_l-, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: s-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sena, l-, oħra ,.. ]
+
+B0IsInLexic: true, B0Lemma: sena, B0POS: NOUN, B0Token: sena, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sena]   B= [l-, oħra, l- ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: sena_il-, S0B0LemmaPOS: sena_DEF, S0B0POS: NOUN_DEF, S0B0POSLemma: NOUN_il-, S0B0Token: sena_l-, S0B1Lemma: sena_oħra, S0B1LemmaPOS: sena_ADJ, S0B1POS: NOUN_ADJ, S0B1POSLemma: NOUN_oħra, S0B1Token: sena_oħra, S0IsInLexic: true, S0Lemma: sena, S0POS: NOUN, S0Token: sena, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, oħra, l- ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [oħra, l-, eks ,.. ]
+
+B0Lemma: oħra, B0POS: ADJ, B0Token: oħra, S0B0Lemma: il-_oħra, S0B0LemmaPOS: il-_ADJ, S0B0POS: DEF_ADJ, S0B0POSLemma: DEF_oħra, S0B0Token: l-_oħra, S0B1Lemma: il-_il-, S0B1LemmaPOS: il-_DEF, S0B1POS: DEF_DEF, S0B1POSLemma: DEF_il-, S0B1Token: l-_l-, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [oħra, l-, eks ,.. ]
+
+B0Lemma: oħra, B0POS: ADJ, B0Token: oħra, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [oħra]   B= [l-, eks, ministru ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: oħra_il-, S0B0LemmaPOS: oħra_DEF, S0B0POS: ADJ_DEF, S0B0POSLemma: ADJ_il-, S0B0Token: oħra_l-, S0B1Lemma: oħra_eks, S0B1LemmaPOS: oħra_ADJ, S0B1POS: ADJ_ADJ, S0B1POSLemma: ADJ_eks, S0B1Token: oħra_eks, S0Lemma: oħra, S0POS: ADJ, S0Token: oħra, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, eks, ministru ,.. ]
+
+B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [eks, ministru, tonio ,.. ]
+
+B0Lemma: eks, B0POS: ADJ, B0Token: eks, S0B0Lemma: il-_eks, S0B0LemmaPOS: il-_ADJ, S0B0POS: DEF_ADJ, S0B0POSLemma: DEF_eks, S0B0Token: l-_eks, S0B1Lemma: il-_ministru, S0B1LemmaPOS: il-_NOUN, S0B1POS: DEF_NOUN, S0B1POSLemma: DEF_ministru, S0B1Token: l-_ministru, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [eks, ministru, tonio ,.. ]
+
+B0Lemma: eks, B0POS: ADJ, B0Token: eks, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [eks]   B= [ministru, tonio, fenech ,.. ]
+
+B0Lemma: ministru, B0POS: NOUN, B0Token: ministru, S0B0Lemma: eks_ministru, S0B0LemmaPOS: eks_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_ministru, S0B0Token: eks_ministru, S0B1Lemma: eks_Tonio, S0B1LemmaPOS: eks_NOUN_PROP, S0B1POS: ADJ_NOUN_PROP, S0B1POSLemma: ADJ_Tonio, S0B1Token: eks_tonio, S0Lemma: eks, S0POS: ADJ, S0Token: eks, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ministru, tonio, fenech ,.. ]
+
+B0Lemma: ministru, B0POS: NOUN, B0Token: ministru, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ministru]   B= [tonio, fenech, kien ,.. ]
+
+B0Lemma: Tonio, B0POS: NOUN_PROP, B0Token: tonio, S0B0Lemma: ministru_Tonio, S0B0LemmaPOS: ministru_NOUN_PROP, S0B0POS: NOUN_NOUN_PROP, S0B0POSLemma: NOUN_Tonio, S0B0Token: ministru_tonio, S0B1Lemma: ministru_Fenech, S0B1LemmaPOS: ministru_NOUN_PROP, S0B1POS: NOUN_NOUN_PROP, S0B1POSLemma: NOUN_Fenech, S0B1Token: ministru_fenech, S0Lemma: ministru, S0POS: NOUN, S0Token: ministru, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tonio, fenech, kien ,.. ]
+
+B0Lemma: Tonio, B0POS: NOUN_PROP, B0Token: tonio, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tonio]   B= [fenech, kien, ħareġ ,.. ]
+
+B0Lemma: Fenech, B0POS: NOUN_PROP, B0Token: fenech, S0B0Lemma: Tonio_Fenech, S0B0LemmaPOS: Tonio_NOUN_PROP, S0B0POS: NOUN_PROP_NOUN_PROP, S0B0POSLemma: NOUN_PROP_Fenech, S0B0Token: tonio_fenech, S0B1Lemma: Tonio_kien, S0B1LemmaPOS: Tonio_KIEN, S0B1POS: NOUN_PROP_KIEN, S0B1POSLemma: NOUN_PROP_kien, S0B1Token: tonio_kien, S0Lemma: Tonio, S0POS: NOUN_PROP, S0Token: tonio, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fenech, kien, ħareġ ,.. ]
+
+B0Lemma: Fenech, B0POS: NOUN_PROP, B0Token: fenech, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fenech]   B= [kien, ħareġ, stqarrija ,.. ]
+
+B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: kien, S0B0Lemma: Fenech_kien, S0B0LemmaPOS: Fenech_KIEN, S0B0POS: NOUN_PROP_KIEN, S0B0POSLemma: NOUN_PROP_kien, S0B0Token: fenech_kien, S0B1Lemma: Fenech_ħareġ, S0B1LemmaPOS: Fenech_VERB, S0B1POS: NOUN_PROP_VERB, S0B1POSLemma: NOUN_PROP_ħareġ, S0B1Token: fenech_ħareġ, S0Lemma: Fenech, S0POS: NOUN_PROP, S0Token: fenech, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kien, ħareġ, stqarrija ,.. ]
+
+B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: kien, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kien]   B= [ħareġ, stqarrija, u ,.. ]
+
+B0IsInLexic: true, B0Lemma: ħareġ, B0POS: VERB, B0Token: ħareġ, S0B0Lemma: kien_ħareġ, S0B0LemmaPOS: kien_VERB, S0B0POS: KIEN_VERB, S0B0POSLemma: KIEN_ħareġ, S0B0Token: kien_ħareġ, S0B1Lemma: kien_stqarrija, S0B1LemmaPOS: kien_NOUN, S0B1POS: KIEN_NOUN, S0B1POSLemma: KIEN_stqarrija, S0B1Token: kien_stqarrija, S0IsInLexic: true, S0Lemma: kien, S0POS: KIEN, S0Token: kien, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħareġ, stqarrija, u ,.. ]
+
+B0IsInLexic: true, B0Lemma: ħareġ, B0POS: VERB, B0Token: ħareġ, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħareġ]   B= [stqarrija, u, qal ,.. ]
+
+B0IsInLexic: true, B0Lemma: stqarrija, B0POS: NOUN, B0Token: stqarrija, S0B0Lemma: ħareġ_stqarrija, S0B0LemmaPOS: ħareġ_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_stqarrija, S0B0Token: ħareġ_stqarrija, S0B1Lemma: ħareġ_u, S0B1LemmaPOS: ħareġ_CONJ_CORD, S0B1POS: VERB_CONJ_CORD, S0B1POSLemma: VERB_u, S0B1Token: ħareġ_u, S0IsInLexic: true, S0Lemma: ħareġ, S0POS: VERB, S0Token: ħareġ, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħareġ, stqarrija]   B= [u, qal, li ,.. ]
+
+B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: stqarrija_u, S0B0LemmaPOS: stqarrija_CONJ_CORD, S0B0POS: NOUN_CONJ_CORD, S0B0POSLemma: NOUN_u, S0B0Token: stqarrija_u, S0B1Lemma: stqarrija_qal, S0B1LemmaPOS: stqarrija_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_qal, S0B1Token: stqarrija_qal, S0IsInLexic: true, S0Lemma: stqarrija, S0POS: NOUN, S0S1Distance: 1, S0Token: stqarrija, S1B0Lemma: ħareġ_u, S1B0LemmaPOS: ħareġ_CONJ_CORD, S1B0POS: VERB_CONJ_CORD, S1B0POSLemma: VERB_u, S1B0Token: ħareġ_u, S1IsInLexic: true, S1Lemma: ħareġ, S1POS: VERB, S1S0Lemma: ħareġ_stqarrija, S1S0LemmaPOS: ħareġ_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_stqarrija, S1S0Token: ħareġ_stqarrija, S1Token: ħareġ, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+27- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ħareġ, stqarrija]]   B= [u, qal, li ,.. ]
+
+B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: ħareġ_stqarrija_u, S0B0LemmaPOS: ħareġ_stqarrija_CONJ_CORD, S0B0POS: VERB_NOUN_CONJ_CORD, S0B0POSLemma: VERB_NOUN_u, S0B0Token: ħareġ_stqarrija_u, S0B1Lemma: ħareġ_stqarrija_qal, S0B1LemmaPOS: ħareġ_stqarrija_VERB, S0B1POS: VERB_NOUN_VERB, S0B1POSLemma: VERB_NOUN_qal, S0B1Token: ħareġ_stqarrija_qal, S0Lemma: ħareġ_stqarrija, S0POS: VERB_NOUN, S0Token: ħareġ_stqarrija, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, qal, li ,.. ]
+
+B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [qal, li, ntalab ,.. ]
+
+B0Lemma: qal, B0POS: VERB, B0Token: qal, S0B0Lemma: u_qal, S0B0LemmaPOS: u_VERB, S0B0POS: CONJ_CORD_VERB, S0B0POSLemma: CONJ_CORD_qal, S0B0Token: u_qal, S0B1Lemma: u_li, S0B1LemmaPOS: u_COMP, S0B1POS: CONJ_CORD_COMP, S0B1POSLemma: CONJ_CORD_li, S0B1Token: u_li, S0IsInLexic: true, S0Lemma: u, S0POS: CONJ_CORD, S0Token: u, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qal, li, ntalab ,.. ]
+
+B0Lemma: qal, B0POS: VERB, B0Token: qal, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qal]   B= [li, ntalab, tnaqqis ,.. ]
+
+B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: qal_li, S0B0LemmaPOS: qal_COMP, S0B0POS: VERB_COMP, S0B0POSLemma: VERB_li, S0B0Token: qal_li, S0B1Lemma: qal_ntalab, S0B1LemmaPOS: qal_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_ntalab, S0B1Token: qal_ntalab, S0Lemma: qal, S0POS: VERB, S0Token: qal, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, ntalab, tnaqqis ,.. ]
+
+B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [ntalab, tnaqqis, fin- ,.. ]
+
+B0IsInLexic: true, B0Lemma: ntalab, B0POS: VERB, B0Token: ntalab, S0B0Lemma: li_ntalab, S0B0LemmaPOS: li_VERB, S0B0POS: COMP_VERB, S0B0POSLemma: COMP_ntalab, S0B0Token: li_ntalab, S0B1Lemma: li_tnaqqis, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_tnaqqis, S0B1Token: li_tnaqqis, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ntalab, tnaqqis, fin- ,.. ]
+
+B0IsInLexic: true, B0Lemma: ntalab, B0POS: VERB, B0Token: ntalab, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ntalab]   B= [tnaqqis, fin-, nefqa ,.. ]
+
+B0IsInLexic: true, B0Lemma: tnaqqis, B0POS: NOUN, B0Token: tnaqqis, S0B0Lemma: ntalab_tnaqqis, S0B0LemmaPOS: ntalab_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_tnaqqis, S0B0Token: ntalab_tnaqqis, S0B1Lemma: ntalab_fi, S0B1LemmaPOS: ntalab_PREP_DEF, S0B1POS: VERB_PREP_DEF, S0B1POSLemma: VERB_fi, S0B1Token: ntalab_fin-, S0IsInLexic: true, S0Lemma: ntalab, S0POS: VERB, S0Token: ntalab, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ntalab, tnaqqis]   B= [fin-, nefqa, ta’ ,.. ]
+
+B0IsInLexic: true, B0Lemma: fi, B0POS: PREP_DEF, B0Token: fin-, S0B0Lemma: tnaqqis_fi, S0B0LemmaPOS: tnaqqis_PREP_DEF, S0B0POS: NOUN_PREP_DEF, S0B0POSLemma: NOUN_fi, S0B0Token: tnaqqis_fin-, S0B1Lemma: tnaqqis_nefqa, S0B1LemmaPOS: tnaqqis_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_nefqa, S0B1Token: tnaqqis_nefqa, S0IsInLexic: true, S0Lemma: tnaqqis, S0POS: NOUN, S0S1Distance: 1, S0Token: tnaqqis, S1B0Lemma: ntalab_fi, S1B0LemmaPOS: ntalab_PREP_DEF, S1B0POS: VERB_PREP_DEF, S1B0POSLemma: VERB_fi, S1B0Token: ntalab_fin-, S1IsInLexic: true, S1Lemma: ntalab, S1POS: VERB, S1S0Lemma: ntalab_tnaqqis, S1S0LemmaPOS: ntalab_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_tnaqqis, S1S0Token: ntalab_tnaqqis, S1Token: ntalab, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+37- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ntalab, tnaqqis]]   B= [fin-, nefqa, ta’ ,.. ]
+
+B0IsInLexic: true, B0Lemma: fi, B0POS: PREP_DEF, B0Token: fin-, S0B0Lemma: ntalab_tnaqqis_fi, S0B0LemmaPOS: ntalab_tnaqqis_PREP_DEF, S0B0POS: VERB_NOUN_PREP_DEF, S0B0POSLemma: VERB_NOUN_fi, S0B0Token: ntalab_tnaqqis_fin-, S0B1Lemma: ntalab_tnaqqis_nefqa, S0B1LemmaPOS: ntalab_tnaqqis_NOUN, S0B1POS: VERB_NOUN_NOUN, S0B1POSLemma: VERB_NOUN_nefqa, S0B1Token: ntalab_tnaqqis_nefqa, S0Lemma: ntalab_tnaqqis, S0POS: VERB_NOUN, S0Token: ntalab_tnaqqis, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fin-, nefqa, ta’ ,.. ]
+
+B0IsInLexic: true, B0Lemma: fi, B0POS: PREP_DEF, B0Token: fin-, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fin-]   B= [nefqa, ta’, 0.04 ,.. ]
+
+B0Lemma: nefqa, B0POS: NOUN, B0Token: nefqa, S0B0Lemma: fi_nefqa, S0B0LemmaPOS: fi_NOUN, S0B0POS: PREP_DEF_NOUN, S0B0POSLemma: PREP_DEF_nefqa, S0B0Token: fin-_nefqa, S0B1Lemma: fi_ta’, S0B1LemmaPOS: fi_NOUN, S0B1POS: PREP_DEF_NOUN, S0B1POSLemma: PREP_DEF_ta’, S0B1Token: fin-_ta’, S0IsInLexic: true, S0Lemma: fi, S0POS: PREP_DEF, S0Token: fin-, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
+
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nefqa, ta’, 0.04 ,.. ]
+
+B0Lemma: nefqa, B0POS: NOUN, B0Token: nefqa, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nefqa]   B= [ta’, 0.04, % ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta’, B0POS: NOUN, B0Token: ta’, S0B0Lemma: nefqa_ta’, S0B0LemmaPOS: nefqa_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_ta’, S0B0Token: nefqa_ta’, S0B1Lemma: nefqa_0.04, S0B1LemmaPOS: nefqa_X_DIG, S0B1POS: NOUN_X_DIG, S0B1POSLemma: NOUN_0.04, S0B1Token: nefqa_0.04, S0Lemma: nefqa, S0POS: NOUN, S0Token: nefqa, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ta’, 0.04, % ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta’, B0POS: NOUN, B0Token: ta’, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ta’]   B= [0.04, %, tal- ,.. ]
+
+B0Lemma: 0.04, B0POS: X_DIG, B0Token: 0.04, S0B0Lemma: ta’_0.04, S0B0LemmaPOS: ta’_X_DIG, S0B0POS: NOUN_X_DIG, S0B0POSLemma: NOUN_0.04, S0B0Token: ta’_0.04, S0B1Lemma: ta’_%, S0B1LemmaPOS: ta’_X_PUN, S0B1POS: NOUN_X_PUN, S0B1POSLemma: NOUN_%, S0B1Token: ta’_%, S0IsInLexic: true, S0Lemma: ta’, S0POS: NOUN, S0Token: ta’, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [0.04, %, tal- ,.. ]
+
+B0Lemma: 0.04, B0POS: X_DIG, B0Token: 0.04, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [0.04]   B= [%, tal-, prodott ,.. ]
+
+B0Lemma: %, B0POS: X_PUN, B0Token: %, S0B0Lemma: 0.04_%, S0B0LemmaPOS: 0.04_X_PUN, S0B0POS: X_DIG_X_PUN, S0B0POSLemma: X_DIG_%, S0B0Token: 0.04_%, S0B1Lemma: 0.04_ta', S0B1LemmaPOS: 0.04_GEN_DEF, S0B1POS: X_DIG_GEN_DEF, S0B1POSLemma: X_DIG_ta', S0B1Token: 0.04_tal-, S0Lemma: 0.04, S0POS: X_DIG, S0Token: 0.04, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [%, tal-, prodott ,.. ]
+
+B0Lemma: %, B0POS: X_PUN, B0Token: %, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [%]   B= [tal-, prodott, gross ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: %_ta', S0B0LemmaPOS: %_GEN_DEF, S0B0POS: X_PUN_GEN_DEF, S0B0POSLemma: X_PUN_ta', S0B0Token: %_tal-, S0B1Lemma: %_ipproduċa, S0B1LemmaPOS: %_NOUN, S0B1POS: X_PUN_NOUN, S0B1POSLemma: X_PUN_ipproduċa, S0B1Token: %_prodott, S0Lemma: %, S0POS: X_PUN, S0Token: %, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, prodott, gross ,.. ]
+
+B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [prodott, gross, domestiku ,.. ]
+
+B0Lemma: ipproduċa, B0POS: NOUN, B0Token: prodott, S0B0Lemma: ta'_ipproduċa, S0B0LemmaPOS: ta'_NOUN, S0B0POS: GEN_DEF_NOUN, S0B0POSLemma: GEN_DEF_ipproduċa, S0B0Token: tal-_prodott, S0B1Lemma: ta'_Gross, S0B1LemmaPOS: ta'_NOUN_PROP, S0B1POS: GEN_DEF_NOUN_PROP, S0B1POSLemma: GEN_DEF_Gross, S0B1Token: tal-_gross, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_DEF, S0Token: tal-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prodott, gross, domestiku ,.. ]
+
+B0Lemma: ipproduċa, B0POS: NOUN, B0Token: prodott, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prodott]   B= [gross, domestiku, . ,.. ]
+
+B0Lemma: Gross, B0POS: NOUN_PROP, B0Token: gross, S0B0Lemma: ipproduċa_Gross, S0B0LemmaPOS: ipproduċa_NOUN_PROP, S0B0POS: NOUN_NOUN_PROP, S0B0POSLemma: NOUN_Gross, S0B0Token: prodott_gross, S0B1Lemma: ipproduċa_Domestiku, S0B1LemmaPOS: ipproduċa_NOUN_PROP, S0B1POS: NOUN_NOUN_PROP, S0B1POSLemma: NOUN_Domestiku, S0B1Token: prodott_domestiku, S0Lemma: ipproduċa, S0POS: NOUN, S0Token: prodott, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gross, domestiku, . ,.. ]
+
+B0Lemma: Gross, B0POS: NOUN_PROP, B0Token: gross, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gross]   B= [domestiku, ., “ ,.. ]
+
+B0Lemma: Domestiku, B0POS: NOUN_PROP, B0Token: domestiku, S0B0Lemma: Gross_Domestiku, S0B0LemmaPOS: Gross_NOUN_PROP, S0B0POS: NOUN_PROP_NOUN_PROP, S0B0POSLemma: NOUN_PROP_Domestiku, S0B0Token: gross_domestiku, S0B1Lemma: Gross_., S0B1LemmaPOS: Gross_X_PUN, S0B1POS: NOUN_PROP_X_PUN, S0B1POSLemma: NOUN_PROP_., S0B1Token: gross_., S0Lemma: Gross, S0POS: NOUN_PROP, S0Token: gross, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [domestiku, ., “ ,.. ]
+
+B0Lemma: Domestiku, B0POS: NOUN_PROP, B0Token: domestiku, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [domestiku]   B= [., “, imbagħad ,.. ]
+
+B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: Domestiku_., S0B0LemmaPOS: Domestiku_X_PUN, S0B0POS: NOUN_PROP_X_PUN, S0B0POSLemma: NOUN_PROP_., S0B0Token: domestiku_., S0B1Lemma: Domestiku_“, S0B1LemmaPOS: Domestiku_NOUN, S0B1POS: NOUN_PROP_NOUN, S0B1POSLemma: NOUN_PROP_“, S0B1Token: domestiku_“, S0Lemma: Domestiku, S0POS: NOUN_PROP, S0Token: domestiku, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., “, imbagħad ,.. ]
+
+B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [“, imbagħad, bdejna ,.. ]
+
+B0Lemma: “, B0POS: NOUN, B0Token: “, S0B0Lemma: ._“, S0B0LemmaPOS: ._NOUN, S0B0POS: X_PUN_NOUN, S0B0POSLemma: X_PUN_“, S0B0Token: ._“, S0B1Lemma: ._imbagħad, S0B1LemmaPOS: ._ADV, S0B1POS: X_PUN_ADV, S0B1POSLemma: X_PUN_imbagħad, S0B1Token: ._imbagħad, S0IsInLexic: true, S0Lemma: ., S0POS: X_PUN, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, imbagħad, bdejna ,.. ]
+
+B0Lemma: “, B0POS: NOUN, B0Token: “, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [imbagħad, bdejna, niskopru ,.. ]
+
+B0Lemma: imbagħad, B0POS: ADV, B0Token: imbagħad, S0B0Lemma: “_imbagħad, S0B0LemmaPOS: “_ADV, S0B0POS: NOUN_ADV, S0B0POSLemma: NOUN_imbagħad, S0B0Token: “_imbagħad, S0B1Lemma: “_beda, S0B1LemmaPOS: “_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_beda, S0B1Token: “_bdejna, S0Lemma: “, S0POS: NOUN, S0Token: “, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [imbagħad, bdejna, niskopru ,.. ]
+
+B0Lemma: imbagħad, B0POS: ADV, B0Token: imbagħad, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [imbagħad]   B= [bdejna, niskopru, li ,.. ]
+
+B0IsInLexic: true, B0Lemma: beda, B0POS: VERB, B0Token: bdejna, S0B0Lemma: imbagħad_beda, S0B0LemmaPOS: imbagħad_VERB, S0B0POS: ADV_VERB, S0B0POSLemma: ADV_beda, S0B0Token: imbagħad_bdejna, S0B1Lemma: imbagħad_skopra, S0B1LemmaPOS: imbagħad_VERB, S0B1POS: ADV_VERB, S0B1POSLemma: ADV_skopra, S0B1Token: imbagħad_niskopru, S0Lemma: imbagħad, S0POS: ADV, S0Token: imbagħad, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bdejna, niskopru, li ,.. ]
+
+B0IsInLexic: true, B0Lemma: beda, B0POS: VERB, B0Token: bdejna, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bdejna]   B= [niskopru, li, dawn ,.. ]
+
+B0Lemma: skopra, B0POS: VERB, B0Token: niskopru, S0B0Lemma: beda_skopra, S0B0LemmaPOS: beda_VERB, S0B0POS: VERB_VERB, S0B0POSLemma: VERB_skopra, S0B0Token: bdejna_niskopru, S0B1Lemma: beda_li, S0B1LemmaPOS: beda_COMP, S0B1POS: VERB_COMP, S0B1POSLemma: VERB_li, S0B1Token: bdejna_li, S0IsInLexic: true, S0Lemma: beda, S0POS: VERB, S0Token: bdejna, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [niskopru, li, dawn ,.. ]
+
+B0Lemma: skopra, B0POS: VERB, B0Token: niskopru, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niskopru]   B= [li, dawn, huma ,.. ]
+
+B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: skopra_li, S0B0LemmaPOS: skopra_COMP, S0B0POS: VERB_COMP, S0B0POSLemma: VERB_li, S0B0Token: niskopru_li, S0B1Lemma: skopra_dan, S0B1LemmaPOS: skopra_PRON_DEM, S0B1POS: VERB_PRON_DEM, S0B1POSLemma: VERB_dan, S0B1Token: niskopru_dawn, S0Lemma: skopra, S0POS: VERB, S0Token: niskopru, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, dawn, huma ,.. ]
+
+B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [dawn, huma, € ,.. ]
+
+B0Lemma: dan, B0POS: PRON_DEM, B0Token: dawn, S0B0Lemma: li_dan, S0B0LemmaPOS: li_PRON_DEM, S0B0POS: COMP_PRON_DEM, S0B0POSLemma: COMP_dan, S0B0Token: li_dawn, S0B1Lemma: li_huma, S0B1LemmaPOS: li_PRON_PERS, S0B1POS: COMP_PRON_PERS, S0B1POSLemma: COMP_huma, S0B1Token: li_huma, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dawn, huma, € ,.. ]
+
+B0Lemma: dan, B0POS: PRON_DEM, B0Token: dawn, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dawn]   B= [huma, €, 40 ,.. ]
+
+B0Lemma: huma, B0POS: PRON_PERS, B0Token: huma, S0B0Lemma: dan_huma, S0B0LemmaPOS: dan_PRON_PERS, S0B0POS: PRON_DEM_PRON_PERS, S0B0POSLemma: PRON_DEM_huma, S0B0Token: dawn_huma, S0B1Lemma: dan_€, S0B1LemmaPOS: dan_X_PUN, S0B1POS: PRON_DEM_X_PUN, S0B1POSLemma: PRON_DEM_€, S0B1Token: dawn_€, S0Lemma: dan, S0POS: PRON_DEM, S0Token: dawn, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [huma, €, 40 ,.. ]
+
+B0Lemma: huma, B0POS: PRON_PERS, B0Token: huma, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [huma]   B= [€, 40, miljun ,.. ]
+
+B0Lemma: €, B0POS: X_PUN, B0Token: €, S0B0Lemma: huma_€, S0B0LemmaPOS: huma_X_PUN, S0B0POS: PRON_PERS_X_PUN, S0B0POSLemma: PRON_PERS_€, S0B0Token: huma_€, S0B1Lemma: huma_40, S0B1LemmaPOS: huma_X_DIG, S0B1POS: PRON_PERS_X_DIG, S0B1POSLemma: PRON_PERS_40, S0B1Token: huma_40, S0Lemma: huma, S0POS: PRON_PERS, S0Token: huma, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [€, 40, miljun ,.. ]
+
+B0Lemma: €, B0POS: X_PUN, B0Token: €, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [€]   B= [40, miljun, maqtugħa ,.. ]
+
+B0IsInLexic: true, B0Lemma: 40, B0POS: X_DIG, B0Token: 40, S0B0Lemma: €_40, S0B0LemmaPOS: €_X_DIG, S0B0POS: X_PUN_X_DIG, S0B0POSLemma: X_PUN_40, S0B0Token: €_40, S0B1Lemma: €_miljun, S0B1LemmaPOS: €_NOUN, S0B1POS: X_PUN_NOUN, S0B1POSLemma: X_PUN_miljun, S0B1Token: €_miljun, S0Lemma: €, S0POS: X_PUN, S0Token: €, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [40, miljun, maqtugħa ,.. ]
+
+B0IsInLexic: true, B0Lemma: 40, B0POS: X_DIG, B0Token: 40, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40]   B= [miljun, maqtugħa, minn ,.. ]
+
+B0IsInLexic: true, B0Lemma: miljun, B0POS: NOUN, B0Token: miljun, S0B0Lemma: 40_miljun, S0B0LemmaPOS: 40_NOUN, S0B0POS: X_DIG_NOUN, S0B0POSLemma: X_DIG_miljun, S0B0Token: 40_miljun, S0B1Lemma: 40_maqtugħa, S0B1LemmaPOS: 40_PART_PASS, S0B1POS: X_DIG_PART_PASS, S0B1POSLemma: X_DIG_maqtugħa, S0B1Token: 40_maqtugħa, S0IsInLexic: true, S0Lemma: 40, S0POS: X_DIG, S0Token: 40, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+76- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun]   B= [maqtugħa, minn, setturi ,.. ]
+
+B0IsInLexic: true, B0Lemma: maqtugħa, B0POS: PART_PASS, B0Token: maqtugħa, S0B0Lemma: miljun_maqtugħa, S0B0LemmaPOS: miljun_PART_PASS, S0B0POS: NOUN_PART_PASS, S0B0POSLemma: NOUN_maqtugħa, S0B0Token: miljun_maqtugħa, S0B1Lemma: miljun_minn, S0B1LemmaPOS: miljun_PREP, S0B1POS: NOUN_PREP, S0B1POSLemma: NOUN_minn, S0B1Token: miljun_minn, S0IsInLexic: true, S0Lemma: miljun, S0POS: NOUN, S0S1Distance: 1, S0Token: miljun, S1B0Lemma: 40_maqtugħa, S1B0LemmaPOS: 40_PART_PASS, S1B0POS: X_DIG_PART_PASS, S1B0POSLemma: X_DIG_maqtugħa, S1B0Token: 40_maqtugħa, S1IsInLexic: true, S1Lemma: 40, S1POS: X_DIG, S1S0Lemma: 40_miljun, S1S0LemmaPOS: 40_NOUN, S1S0POS: X_DIG_NOUN, S1S0POSLemma: X_DIG_miljun, S1S0Token: 40_miljun, S1Token: 40, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, maqtugħa]   B= [minn, setturi, bħas- ,.. ]
+
+B0IsInLexic: true, B0Lemma: minn, B0POS: PREP, B0Token: minn, S0B0Lemma: maqtugħa_minn, S0B0LemmaPOS: maqtugħa_PREP, S0B0POS: PART_PASS_PREP, S0B0POSLemma: PART_PASS_minn, S0B0Token: maqtugħa_minn, S0B1Lemma: maqtugħa_settur, S0B1LemmaPOS: maqtugħa_NOUN, S0B1POS: PART_PASS_NOUN, S0B1POSLemma: PART_PASS_settur, S0B1Token: maqtugħa_setturi, S0IsInLexic: true, S0Lemma: maqtugħa, S0POS: PART_PASS, S0S1Distance: 1, S0Token: maqtugħa, S1B0Lemma: miljun_minn, S1B0LemmaPOS: miljun_PREP, S1B0POS: NOUN_PREP, S1B0POSLemma: NOUN_minn, S1B0Token: miljun_minn, S1IsInLexic: true, S1Lemma: miljun, S1POS: NOUN, S1S0Lemma: miljun_maqtugħa, S1S0LemmaPOS: miljun_PART_PASS, S1S0POS: NOUN_PART_PASS, S1S0POSLemma: NOUN_maqtugħa, S1S0Token: miljun_maqtugħa, S1Token: miljun, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
+
+78- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, maqtugħa, minn]   B= [setturi, bħas-, saħħa ,.. ]
+
+B0IsInLexic: true, B0Lemma: settur, B0POS: NOUN, B0Token: setturi, S0B0Lemma: minn_settur, S0B0LemmaPOS: minn_NOUN, S0B0POS: PREP_NOUN, S0B0POSLemma: PREP_settur, S0B0Token: minn_setturi, S0B1Lemma: minn_bħal, S0B1LemmaPOS: minn_PREP_DEF, S0B1POS: PREP_PREP_DEF, S0B1POSLemma: PREP_bħal, S0B1Token: minn_bħas-, S0IsInLexic: true, S0Lemma: minn, S0POS: PREP, S0S1Distance: 1, S0Token: minn, S1B0Lemma: maqtugħa_settur, S1B0LemmaPOS: maqtugħa_NOUN, S1B0POS: PART_PASS_NOUN, S1B0POSLemma: PART_PASS_settur, S1B0Token: maqtugħa_setturi, S1IsInLexic: true, S1Lemma: maqtugħa, S1POS: PART_PASS, S1S0Lemma: maqtugħa_minn, S1S0LemmaPOS: maqtugħa_PREP, S1S0POS: PART_PASS_PREP, S1S0POSLemma: PART_PASS_minn, S1S0Token: maqtugħa_minn, S1Token: maqtugħa, StackLengthIs: 4, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, maqtugħa, minn, setturi]   B= [bħas-, saħħa, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: bħal, B0POS: PREP_DEF, B0Token: bħas-, S0B0Lemma: settur_bħal, S0B0LemmaPOS: settur_PREP_DEF, S0B0POS: NOUN_PREP_DEF, S0B0POSLemma: NOUN_bħal, S0B0Token: setturi_bħas-, S0B1Lemma: settur_saħħa, S0B1LemmaPOS: settur_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_saħħa, S0B1Token: setturi_saħħa, S0IsInLexic: true, S0Lemma: settur, S0POS: NOUN, S0S1Distance: 1, S0Token: setturi, S1B0Lemma: minn_bħal, S1B0LemmaPOS: minn_PREP_DEF, S1B0POS: PREP_PREP_DEF, S1B0POSLemma: PREP_bħal, S1B0Token: minn_bħas-, S1IsInLexic: true, S1Lemma: minn, S1POS: PREP, S1S0Lemma: minn_settur, S1S0LemmaPOS: minn_NOUN, S1S0POS: PREP_NOUN, S1S0POSLemma: PREP_settur, S1S0Token: minn_setturi, S1Token: minn, StackLengthIs: 5, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+
+80- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, maqtugħa, [minn, setturi]]   B= [bħas-, saħħa, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: bħal, B0POS: PREP_DEF, B0Token: bħas-, S0B0Lemma: minn_settur_bħal, S0B0LemmaPOS: minn_settur_PREP_DEF, S0B0POS: PREP_NOUN_PREP_DEF, S0B0POSLemma: PREP_NOUN_bħal, S0B0Token: minn_setturi_bħas-, S0B1Lemma: minn_settur_saħħa, S0B1LemmaPOS: minn_settur_NOUN, S0B1POS: PREP_NOUN_NOUN, S0B1POSLemma: PREP_NOUN_saħħa, S0B1Token: minn_setturi_saħħa, S0Lemma: minn_settur, S0POS: PREP_NOUN, S0Token: minn_setturi, S1B0Lemma: maqtugħa_bħal, S1B0LemmaPOS: maqtugħa_PREP_DEF, S1B0POS: PART_PASS_PREP_DEF, S1B0POSLemma: PART_PASS_bħal, S1B0Token: maqtugħa_bħas-, S1IsInLexic: true, S1Lemma: maqtugħa, S1POS: PART_PASS, S1S0Lemma: maqtugħa_minn_settur, S1S0LemmaPOS: maqtugħa_PREP_NOUN, S1S0POS: PART_PASS_PREP_NOUN, S1S0POSLemma: PART_PASS_minn_settur, S1S0Token: maqtugħa_minn_setturi, S1Token: maqtugħa, StackLengthIs: 4, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
+
+81- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, [maqtugħa, [minn, setturi]]]   B= [bħas-, saħħa, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: bħal, B0POS: PREP_DEF, B0Token: bħas-, S0B0Lemma: maqtugħa_minn_settur_bħal, S0B0LemmaPOS: maqtugħa_minn_settur_PREP_DEF, S0B0POS: PART_PASS_PREP_NOUN_PREP_DEF, S0B0POSLemma: PART_PASS_PREP_NOUN_bħal, S0B0Token: maqtugħa_minn_setturi_bħas-, S0B1Lemma: maqtugħa_minn_settur_saħħa, S0B1LemmaPOS: maqtugħa_minn_settur_NOUN, S0B1POS: PART_PASS_PREP_NOUN_NOUN, S0B1POSLemma: PART_PASS_PREP_NOUN_saħħa, S0B1Token: maqtugħa_minn_setturi_saħħa, S0Lemma: maqtugħa_minn_settur, S0POS: PART_PASS_PREP_NOUN, S0Token: maqtugħa_minn_setturi, S1B0Lemma: miljun_bħal, S1B0LemmaPOS: miljun_PREP_DEF, S1B0POS: NOUN_PREP_DEF, S1B0POSLemma: NOUN_bħal, S1B0Token: miljun_bħas-, S1IsInLexic: true, S1Lemma: miljun, S1POS: NOUN, S1S0Lemma: miljun_maqtugħa_minn_settur, S1S0LemmaPOS: miljun_PART_PASS_PREP_NOUN, S1S0POS: NOUN_PART_PASS_PREP_NOUN, S1S0POSLemma: NOUN_maqtugħa_minn_settur, S1S0Token: miljun_maqtugħa_minn_setturi, S1Token: miljun, StackLengthIs: 3, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
+
+82- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, [miljun, [maqtugħa, [minn, setturi]]]]   B= [bħas-, saħħa, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: bħal, B0POS: PREP_DEF, B0Token: bħas-, S0B0Lemma: miljun_maqtugħa_minn_settur_bħal, S0B0LemmaPOS: miljun_maqtugħa_minn_settur_PREP_DEF, S0B0POS: NOUN_PART_PASS_PREP_NOUN_PREP_DEF, S0B0POSLemma: NOUN_PART_PASS_PREP_NOUN_bħal, S0B0Token: miljun_maqtugħa_minn_setturi_bħas-, S0B1Lemma: miljun_maqtugħa_minn_settur_saħħa, S0B1LemmaPOS: miljun_maqtugħa_minn_settur_NOUN, S0B1POS: NOUN_PART_PASS_PREP_NOUN_NOUN, S0B1POSLemma: NOUN_PART_PASS_PREP_NOUN_saħħa, S0B1Token: miljun_maqtugħa_minn_setturi_saħħa, S0Lemma: miljun_maqtugħa_minn_settur, S0POS: NOUN_PART_PASS_PREP_NOUN, S0Token: miljun_maqtugħa_minn_setturi, S1B0Lemma: 40_bħal, S1B0LemmaPOS: 40_PREP_DEF, S1B0POS: X_DIG_PREP_DEF, S1B0POSLemma: X_DIG_bħal, S1B0Token: 40_bħas-, S1IsInLexic: true, S1Lemma: 40, S1POS: X_DIG, S1S0Lemma: 40_miljun_maqtugħa_minn_settur, S1S0LemmaPOS: 40_NOUN_PART_PASS_PREP_NOUN, S1S0POS: X_DIG_NOUN_PART_PASS_PREP_NOUN, S1S0POSLemma: X_DIG_miljun_maqtugħa_minn_settur, S1S0Token: 40_miljun_maqtugħa_minn_setturi, S1Token: 40, StackLengthIs: 2, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
+
+83- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[40, [miljun, [maqtugħa, [minn, setturi]]]]]   B= [bħas-, saħħa, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: bħal, B0POS: PREP_DEF, B0Token: bħas-, S0B0Lemma: 40_miljun_maqtugħa_minn_settur_bħal, S0B0LemmaPOS: 40_miljun_maqtugħa_minn_settur_PREP_DEF, S0B0POS: X_DIG_NOUN_PART_PASS_PREP_NOUN_PREP_DEF, S0B0POSLemma: X_DIG_NOUN_PART_PASS_PREP_NOUN_bħal, S0B0Token: 40_miljun_maqtugħa_minn_setturi_bħas-, S0B1Lemma: 40_miljun_maqtugħa_minn_settur_saħħa, S0B1LemmaPOS: 40_miljun_maqtugħa_minn_settur_NOUN, S0B1POS: X_DIG_NOUN_PART_PASS_PREP_NOUN_NOUN, S0B1POSLemma: X_DIG_NOUN_PART_PASS_PREP_NOUN_saħħa, S0B1Token: 40_miljun_maqtugħa_minn_setturi_saħħa, S0Lemma: 40_miljun_maqtugħa_minn_settur, S0POS: X_DIG_NOUN_PART_PASS_PREP_NOUN, S0Token: 40_miljun_maqtugħa_minn_setturi, TransHistory1: 1, TransHistory2: 11, TransHistory3: 111, 
+
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bħas-, saħħa, , ,.. ]
+
+B0IsInLexic: true, B0Lemma: bħal, B0POS: PREP_DEF, B0Token: bħas-, TransHistory1: 1, TransHistory2: 11, TransHistory3: 111, 
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bħas-]   B= [saħħa, ,, ” ,.. ]
+
+B0Lemma: saħħa, B0POS: NOUN, B0Token: saħħa, S0B0Lemma: bħal_saħħa, S0B0LemmaPOS: bħal_NOUN, S0B0POS: PREP_DEF_NOUN, S0B0POSLemma: PREP_DEF_saħħa, S0B0Token: bħas-_saħħa, S0B1Lemma: bħal_,, S0B1LemmaPOS: bħal_X_PUN, S0B1POS: PREP_DEF_X_PUN, S0B1POSLemma: PREP_DEF_,, S0B1Token: bħas-_,, S0IsInLexic: true, S0Lemma: bħal, S0POS: PREP_DEF, S0Token: bħas-, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
+
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saħħa, ,, ” ,.. ]
+
+B0Lemma: saħħa, B0POS: NOUN, B0Token: saħħa, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saħħa]   B= [,, ”, qal ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: saħħa_,, S0B0LemmaPOS: saħħa_X_PUN, S0B0POS: NOUN_X_PUN, S0B0POSLemma: NOUN_,, S0B0Token: saħħa_,, S0B1Lemma: saħħa_”, S0B1LemmaPOS: saħħa_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_”, S0B1Token: saħħa_”, S0Lemma: saħħa, S0POS: NOUN, S0Token: saħħa, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ”, qal ,.. ]
+
+B0Lemma: ,, B0POS: X_PUN, B0Token: ,, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [”, qal, muscat ,.. ]
+
+B0Lemma: ”, B0POS: NOUN, B0Token: ”, S0B0Lemma: ,_”, S0B0LemmaPOS: ,_NOUN, S0B0POS: X_PUN_NOUN, S0B0POSLemma: X_PUN_”, S0B0Token: ,_”, S0B1Lemma: ,_qal, S0B1LemmaPOS: ,_VERB, S0B1POS: X_PUN_VERB, S0B1POSLemma: X_PUN_qal, S0B1Token: ,_qal, S0Lemma: ,, S0POS: X_PUN, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [”, qal, muscat ,.. ]
+
+B0Lemma: ”, B0POS: NOUN, B0Token: ”, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [”]   B= [qal, muscat, . ,.. ]
+
+B0Lemma: qal, B0POS: VERB, B0Token: qal, S0B0Lemma: ”_qal, S0B0LemmaPOS: ”_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_qal, S0B0Token: ”_qal, S0B1Lemma: ”_Muscat, S0B1LemmaPOS: ”_NOUN_PROP, S0B1POS: NOUN_NOUN_PROP, S0B1POSLemma: NOUN_Muscat, S0B1Token: ”_muscat, S0Lemma: ”, S0POS: NOUN, S0Token: ”, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qal, muscat, . ,.. ]
+
+B0Lemma: qal, B0POS: VERB, B0Token: qal, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qal]   B= [muscat, . ,.. ]
+
+B0Lemma: Muscat, B0POS: NOUN_PROP, B0Token: muscat, S0B0Lemma: qal_Muscat, S0B0LemmaPOS: qal_NOUN_PROP, S0B0POS: VERB_NOUN_PROP, S0B0POSLemma: VERB_Muscat, S0B0Token: qal_muscat, S0B1Lemma: qal_., S0B1LemmaPOS: qal_X_PUN, S0B1POS: VERB_X_PUN, S0B1POSLemma: VERB_., S0B1Token: qal_., S0Lemma: qal, S0POS: VERB, S0Token: qal, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [muscat, . ,.. ]
+
+B0Lemma: Muscat, B0POS: NOUN_PROP, B0Token: muscat, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [muscat]   B= [.]
+
+B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: Muscat_., S0B0LemmaPOS: Muscat_X_PUN, S0B0POS: NOUN_PROP_X_PUN, S0B0POSLemma: NOUN_PROP_., S0B0Token: muscat_., S0Lemma: Muscat, S0POS: NOUN_PROP, S0Token: muscat, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+S0IsInLexic: true, S0Lemma: ., S0POS: X_PUN, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
+
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
 ## Sentence No. 2689 - 
 jinqdew l- iktar biha dawk li m' għandhomx messaġġ xi jwasslu jew li jkol - lhom bżonn jgħattu xturhom u jaħbu għawwarhom . 
 ### Existing MWEs: 
@@ -547,916 +1878,4 @@ B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., TransHistory1: 1, Trans
 S0IsInLexic: true, S0Lemma: ., S0POS: X_PUN, S0Token: ., TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
 
 86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 4797 - 
-l- ambaxxatur qal li l- unika triq 'il quddiem hi li l- pajjiżi jerfgħu r- reponsabbiltajiet tagħhom u jimxu mal- obbligi tat- protokoll ta' kyoto u jżidu fuqhom . 
-### Existing MWEs: 
-1- **jerfgħu r- reponsabbiltajiet** (LVC)
-3- **jimxu mal-** (LVC), Interleaving 
-2- **mal- obbligi** (LVC)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, ambaxxatur, qal ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [ambaxxatur, qal, li ,.. ]
-
-B0Lemma: ambaxxatur, B0POS: NOUN, B0Token: ambaxxatur, S0B0Lemma: il-_ambaxxatur, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_ambaxxatur, S0B0Token: l-_ambaxxatur, S0B1Lemma: il-_qal, S0B1LemmaPOS: il-_VERB, S0B1POS: DEF_VERB, S0B1POSLemma: DEF_qal, S0B1Token: l-_qal, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ambaxxatur, qal, li ,.. ]
-
-B0Lemma: ambaxxatur, B0POS: NOUN, B0Token: ambaxxatur, TransHistory1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ambaxxatur]   B= [qal, li, l- ,.. ]
-
-B0Lemma: qal, B0POS: VERB, B0Token: qal, S0B0Lemma: ambaxxatur_qal, S0B0LemmaPOS: ambaxxatur_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_qal, S0B0Token: ambaxxatur_qal, S0B1Lemma: ambaxxatur_li, S0B1LemmaPOS: ambaxxatur_COMP, S0B1POS: NOUN_COMP, S0B1POSLemma: NOUN_li, S0B1Token: ambaxxatur_li, S0Lemma: ambaxxatur, S0POS: NOUN, S0Token: ambaxxatur, TransHistory1: 2, TransHistory2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qal, li, l- ,.. ]
-
-B0Lemma: qal, B0POS: VERB, B0Token: qal, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qal]   B= [li, l-, unika ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: qal_li, S0B0LemmaPOS: qal_COMP, S0B0POS: VERB_COMP, S0B0POSLemma: VERB_li, S0B0Token: qal_li, S0B1Lemma: qal_il-, S0B1LemmaPOS: qal_DEF, S0B1POS: VERB_DEF, S0B1POSLemma: VERB_il-, S0B1Token: qal_l-, S0Lemma: qal, S0POS: VERB, S0Token: qal, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, l-, unika ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [l-, unika, triq ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: li_il-, S0B0LemmaPOS: li_DEF, S0B0POS: COMP_DEF, S0B0POSLemma: COMP_il-, S0B0Token: li_l-, S0B1Lemma: li_uniku, S0B1LemmaPOS: li_ADJ, S0B1POS: COMP_ADJ, S0B1POSLemma: COMP_uniku, S0B1Token: li_unika, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, unika, triq ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [unika, triq, 'il ,.. ]
-
-B0Lemma: uniku, B0POS: ADJ, B0Token: unika, S0B0Lemma: il-_uniku, S0B0LemmaPOS: il-_ADJ, S0B0POS: DEF_ADJ, S0B0POSLemma: DEF_uniku, S0B0Token: l-_unika, S0B1Lemma: il-_raq, S0B1LemmaPOS: il-_NOUN, S0B1POS: DEF_NOUN, S0B1POSLemma: DEF_raq, S0B1Token: l-_triq, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [unika, triq, 'il ,.. ]
-
-B0Lemma: uniku, B0POS: ADJ, B0Token: unika, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [unika]   B= [triq, 'il, quddiem ,.. ]
-
-B0IsInLexic: true, B0Lemma: raq, B0POS: NOUN, B0Token: triq, S0B0Lemma: uniku_raq, S0B0LemmaPOS: uniku_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_raq, S0B0Token: unika_triq, S0B1Lemma: uniku_'il, S0B1LemmaPOS: uniku_PREP, S0B1POS: ADJ_PREP, S0B1POSLemma: ADJ_'il, S0B1Token: unika_'il, S0Lemma: uniku, S0POS: ADJ, S0Token: unika, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [triq, 'il, quddiem ,.. ]
-
-B0IsInLexic: true, B0Lemma: raq, B0POS: NOUN, B0Token: triq, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq]   B= ['il, quddiem, hi ,.. ]
-
-B0Lemma: 'il, B0POS: PREP, B0Token: 'il, S0B0Lemma: raq_'il, S0B0LemmaPOS: raq_PREP, S0B0POS: NOUN_PREP, S0B0POSLemma: NOUN_'il, S0B0Token: triq_'il, S0B1Lemma: raq_quddiem, S0B1LemmaPOS: raq_PREP, S0B1POS: NOUN_PREP, S0B1POSLemma: NOUN_quddiem, S0B1Token: triq_quddiem, S0IsInLexic: true, S0Lemma: raq, S0POS: NOUN, S0Token: triq, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= ['il, quddiem, hi ,.. ]
-
-B0Lemma: 'il, B0POS: PREP, B0Token: 'il, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= ['il]   B= [quddiem, hi, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: quddiem, B0POS: PREP, B0Token: quddiem, S0B0Lemma: 'il_quddiem, S0B0LemmaPOS: 'il_PREP, S0B0POS: PREP_PREP, S0B0POSLemma: PREP_quddiem, S0B0Token: 'il_quddiem, S0B1Lemma: 'il_hi, S0B1LemmaPOS: 'il_PRON_PERS, S0B1POS: PREP_PRON_PERS, S0B1POSLemma: PREP_hi, S0B1Token: 'il_hi, S0Lemma: 'il, S0POS: PREP, S0Token: 'il, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [quddiem, hi, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: quddiem, B0POS: PREP, B0Token: quddiem, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [quddiem]   B= [hi, li, l- ,.. ]
-
-B0IsInLexic: true, B0Lemma: hi, B0POS: PRON_PERS, B0Token: hi, S0B0Lemma: quddiem_hi, S0B0LemmaPOS: quddiem_PRON_PERS, S0B0POS: PREP_PRON_PERS, S0B0POSLemma: PREP_hi, S0B0Token: quddiem_hi, S0B1Lemma: quddiem_li, S0B1LemmaPOS: quddiem_COMP, S0B1POS: PREP_COMP, S0B1POSLemma: PREP_li, S0B1Token: quddiem_li, S0IsInLexic: true, S0Lemma: quddiem, S0POS: PREP, S0Token: quddiem, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hi, li, l- ,.. ]
-
-B0IsInLexic: true, B0Lemma: hi, B0POS: PRON_PERS, B0Token: hi, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hi]   B= [li, l-, pajjiżi ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: hi_li, S0B0LemmaPOS: hi_COMP, S0B0POS: PRON_PERS_COMP, S0B0POSLemma: PRON_PERS_li, S0B0Token: hi_li, S0B1Lemma: hi_il-, S0B1LemmaPOS: hi_DEF, S0B1POS: PRON_PERS_DEF, S0B1POSLemma: PRON_PERS_il-, S0B1Token: hi_l-, S0IsInLexic: true, S0Lemma: hi, S0POS: PRON_PERS, S0Token: hi, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, l-, pajjiżi ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [l-, pajjiżi, jerfgħu ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: li_il-, S0B0LemmaPOS: li_DEF, S0B0POS: COMP_DEF, S0B0POSLemma: COMP_il-, S0B0Token: li_l-, S0B1Lemma: li_pajjiż, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_pajjiż, S0B1Token: li_pajjiżi, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, pajjiżi, jerfgħu ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [pajjiżi, jerfgħu, r- ,.. ]
-
-B0IsInLexic: true, B0Lemma: pajjiż, B0POS: NOUN, B0Token: pajjiżi, S0B0Lemma: il-_pajjiż, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_pajjiż, S0B0Token: l-_pajjiżi, S0B1Lemma: il-_jerfgħu, S0B1LemmaPOS: il-_VERB, S0B1POS: DEF_VERB, S0B1POSLemma: DEF_jerfgħu, S0B1Token: l-_jerfgħu, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pajjiżi, jerfgħu, r- ,.. ]
-
-B0IsInLexic: true, B0Lemma: pajjiż, B0POS: NOUN, B0Token: pajjiżi, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pajjiżi]   B= [jerfgħu, r-, reponsabbiltajiet ,.. ]
-
-B0IsInLexic: true, B0Lemma: jerfgħu, B0POS: VERB, B0Token: jerfgħu, S0B0Lemma: pajjiż_jerfgħu, S0B0LemmaPOS: pajjiż_VERB, S0B0POS: NOUN_VERB, S0B0POSLemma: NOUN_jerfgħu, S0B0Token: pajjiżi_jerfgħu, S0B1Lemma: pajjiż_il-, S0B1LemmaPOS: pajjiż_DEF, S0B1POS: NOUN_DEF, S0B1POSLemma: NOUN_il-, S0B1Token: pajjiżi_r-, S0IsInLexic: true, S0Lemma: pajjiż, S0POS: NOUN, S0Token: pajjiżi, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jerfgħu, r-, reponsabbiltajiet ,.. ]
-
-B0IsInLexic: true, B0Lemma: jerfgħu, B0POS: VERB, B0Token: jerfgħu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jerfgħu]   B= [r-, reponsabbiltajiet, tagħhom ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: r-, S0B0Lemma: jerfgħu_il-, S0B0LemmaPOS: jerfgħu_DEF, S0B0POS: VERB_DEF, S0B0POSLemma: VERB_il-, S0B0Token: jerfgħu_r-, S0B1Lemma: jerfgħu_reponsabbiltajiet, S0B1LemmaPOS: jerfgħu_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_reponsabbiltajiet, S0B1Token: jerfgħu_reponsabbiltajiet, S0IsInLexic: true, S0Lemma: jerfgħu, S0POS: VERB, S0Token: jerfgħu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jerfgħu, r-]   B= [reponsabbiltajiet, tagħhom, u ,.. ]
-
-B0IsInLexic: true, B0Lemma: reponsabbiltajiet, B0POS: NOUN, B0Token: reponsabbiltajiet, S0B0Lemma: il-_reponsabbiltajiet, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_reponsabbiltajiet, S0B0Token: r-_reponsabbiltajiet, S0B1Lemma: il-_ta', S0B1LemmaPOS: il-_GEN_PRON, S0B1POS: DEF_GEN_PRON, S0B1POSLemma: DEF_ta', S0B1Token: r-_tagħhom, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0S1Distance: 1, S0Token: r-, S1B0Lemma: jerfgħu_reponsabbiltajiet, S1B0LemmaPOS: jerfgħu_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_reponsabbiltajiet, S1B0Token: jerfgħu_reponsabbiltajiet, S1IsInLexic: true, S1Lemma: jerfgħu, S1POS: VERB, S1S0Lemma: jerfgħu_il-, S1S0LemmaPOS: jerfgħu_DEF, S1S0POS: VERB_DEF, S1S0POSLemma: VERB_il-, S1S0Token: jerfgħu_r-, S1Token: jerfgħu, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jerfgħu, r-, reponsabbiltajiet]   B= [tagħhom, u, jimxu ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tagħhom, S0B0Lemma: reponsabbiltajiet_ta', S0B0LemmaPOS: reponsabbiltajiet_GEN_PRON, S0B0POS: NOUN_GEN_PRON, S0B0POSLemma: NOUN_ta', S0B0Token: reponsabbiltajiet_tagħhom, S0B1Lemma: reponsabbiltajiet_u, S0B1LemmaPOS: reponsabbiltajiet_CONJ_CORD, S0B1POS: NOUN_CONJ_CORD, S0B1POSLemma: NOUN_u, S0B1Token: reponsabbiltajiet_u, S0IsInLexic: true, S0Lemma: reponsabbiltajiet, S0POS: NOUN, S0S1Distance: 1, S0Token: reponsabbiltajiet, S1B0Lemma: il-_ta', S1B0LemmaPOS: il-_GEN_PRON, S1B0POS: DEF_GEN_PRON, S1B0POSLemma: DEF_ta', S1B0Token: r-_tagħhom, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_reponsabbiltajiet, S1S0LemmaPOS: il-_NOUN, S1S0POS: DEF_NOUN, S1S0POSLemma: DEF_reponsabbiltajiet, S1S0Token: r-_reponsabbiltajiet, S1Token: r-, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
-
-30- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jerfgħu, [r-, reponsabbiltajiet]]   B= [tagħhom, u, jimxu ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tagħhom, S0B0Lemma: il-_reponsabbiltajiet_ta', S0B0LemmaPOS: il-_reponsabbiltajiet_GEN_PRON, S0B0POS: DEF_NOUN_GEN_PRON, S0B0POSLemma: DEF_NOUN_ta', S0B0Token: r-_reponsabbiltajiet_tagħhom, S0B1Lemma: il-_reponsabbiltajiet_u, S0B1LemmaPOS: il-_reponsabbiltajiet_CONJ_CORD, S0B1POS: DEF_NOUN_CONJ_CORD, S0B1POSLemma: DEF_NOUN_u, S0B1Token: r-_reponsabbiltajiet_u, S0Lemma: il-_reponsabbiltajiet, S0POS: DEF_NOUN, S0Token: r-_reponsabbiltajiet, S1B0Lemma: jerfgħu_ta', S1B0LemmaPOS: jerfgħu_GEN_PRON, S1B0POS: VERB_GEN_PRON, S1B0POSLemma: VERB_ta', S1B0Token: jerfgħu_tagħhom, S1IsInLexic: true, S1Lemma: jerfgħu, S1POS: VERB, S1S0Lemma: jerfgħu_il-_reponsabbiltajiet, S1S0LemmaPOS: jerfgħu_DEF_NOUN, S1S0POS: VERB_DEF_NOUN, S1S0POSLemma: VERB_il-_reponsabbiltajiet, S1S0Token: jerfgħu_r-_reponsabbiltajiet, S1Token: jerfgħu, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
-
-31- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[jerfgħu, [r-, reponsabbiltajiet]]]   B= [tagħhom, u, jimxu ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tagħhom, S0B0Lemma: jerfgħu_il-_reponsabbiltajiet_ta', S0B0LemmaPOS: jerfgħu_il-_reponsabbiltajiet_GEN_PRON, S0B0POS: VERB_DEF_NOUN_GEN_PRON, S0B0POSLemma: VERB_DEF_NOUN_ta', S0B0Token: jerfgħu_r-_reponsabbiltajiet_tagħhom, S0B1Lemma: jerfgħu_il-_reponsabbiltajiet_u, S0B1LemmaPOS: jerfgħu_il-_reponsabbiltajiet_CONJ_CORD, S0B1POS: VERB_DEF_NOUN_CONJ_CORD, S0B1POSLemma: VERB_DEF_NOUN_u, S0B1Token: jerfgħu_r-_reponsabbiltajiet_u, S0Lemma: jerfgħu_il-_reponsabbiltajiet, S0POS: VERB_DEF_NOUN, S0Token: jerfgħu_r-_reponsabbiltajiet, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tagħhom, u, jimxu ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tagħhom, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tagħhom]   B= [u, jimxu, mal- ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: ta'_u, S0B0LemmaPOS: ta'_CONJ_CORD, S0B0POS: GEN_PRON_CONJ_CORD, S0B0POSLemma: GEN_PRON_u, S0B0Token: tagħhom_u, S0B1Lemma: ta'_mexa, S0B1LemmaPOS: ta'_VERB, S0B1POS: GEN_PRON_VERB, S0B1POSLemma: GEN_PRON_mexa, S0B1Token: tagħhom_jimxu, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_PRON, S0Token: tagħhom, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, jimxu, mal- ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [jimxu, mal-, obbligi ,.. ]
-
-B0IsInLexic: true, B0Lemma: mexa, B0POS: VERB, B0Token: jimxu, S0B0Lemma: u_mexa, S0B0LemmaPOS: u_VERB, S0B0POS: CONJ_CORD_VERB, S0B0POSLemma: CONJ_CORD_mexa, S0B0Token: u_jimxu, S0B1Lemma: u_ma', S0B1LemmaPOS: u_PREP_DEF, S0B1POS: CONJ_CORD_PREP_DEF, S0B1POSLemma: CONJ_CORD_ma', S0B1Token: u_mal-, S0IsInLexic: true, S0Lemma: u, S0POS: CONJ_CORD, S0Token: u, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jimxu, mal-, obbligi ,.. ]
-
-B0IsInLexic: true, B0Lemma: mexa, B0POS: VERB, B0Token: jimxu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jimxu]   B= [mal-, obbligi, tat- ,.. ]
-
-B0IsInLexic: true, B0Lemma: ma', B0POS: PREP_DEF, B0Token: mal-, S0B0Lemma: mexa_ma', S0B0LemmaPOS: mexa_PREP_DEF, S0B0POS: VERB_PREP_DEF, S0B0POSLemma: VERB_ma', S0B0Token: jimxu_mal-, S0B1Lemma: mexa_obbligu, S0B1LemmaPOS: mexa_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_obbligu, S0B1Token: jimxu_obbligi, S0IsInLexic: true, S0Lemma: mexa, S0POS: VERB, S0Token: jimxu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mal-, obbligi, tat- ,.. ]
-
-B0IsInLexic: true, B0Lemma: ma', B0POS: PREP_DEF, B0Token: mal-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mal-]   B= [obbligi, tat-, protokoll ,.. ]
-
-B0IsInLexic: true, B0Lemma: obbligu, B0POS: NOUN, B0Token: obbligi, S0B0Lemma: ma'_obbligu, S0B0LemmaPOS: ma'_NOUN, S0B0POS: PREP_DEF_NOUN, S0B0POSLemma: PREP_DEF_obbligu, S0B0Token: mal-_obbligi, S0B1Lemma: ma'_ta', S0B1LemmaPOS: ma'_GEN_DEF, S0B1POS: PREP_DEF_GEN_DEF, S0B1POSLemma: PREP_DEF_ta', S0B1Token: mal-_tat-, S0IsInLexic: true, S0Lemma: ma', S0POS: PREP_DEF, S0Token: mal-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mal-, obbligi]   B= [tat-, protokoll, ta' ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tat-, S0B0Lemma: obbligu_ta', S0B0LemmaPOS: obbligu_GEN_DEF, S0B0POS: NOUN_GEN_DEF, S0B0POSLemma: NOUN_ta', S0B0Token: obbligi_tat-, S0B1Lemma: obbligu_protokoll, S0B1LemmaPOS: obbligu_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_protokoll, S0B1Token: obbligi_protokoll, S0IsInLexic: true, S0Lemma: obbligu, S0POS: NOUN, S0S1Distance: 1, S0Token: obbligi, S1B0Lemma: ma'_ta', S1B0LemmaPOS: ma'_GEN_DEF, S1B0POS: PREP_DEF_GEN_DEF, S1B0POSLemma: PREP_DEF_ta', S1B0Token: mal-_tat-, S1IsInLexic: true, S1Lemma: ma', S1POS: PREP_DEF, S1S0Lemma: ma'_obbligu, S1S0LemmaPOS: ma'_NOUN, S1S0POS: PREP_DEF_NOUN, S1S0POSLemma: PREP_DEF_obbligu, S1S0Token: mal-_obbligi, S1Token: mal-, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-41- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[mal-, obbligi]]   B= [tat-, protokoll, ta' ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tat-, S0B0Lemma: ma'_obbligu_ta', S0B0LemmaPOS: ma'_obbligu_GEN_DEF, S0B0POS: PREP_DEF_NOUN_GEN_DEF, S0B0POSLemma: PREP_DEF_NOUN_ta', S0B0Token: mal-_obbligi_tat-, S0B1Lemma: ma'_obbligu_protokoll, S0B1LemmaPOS: ma'_obbligu_NOUN, S0B1POS: PREP_DEF_NOUN_NOUN, S0B1POSLemma: PREP_DEF_NOUN_protokoll, S0B1Token: mal-_obbligi_protokoll, S0Lemma: ma'_obbligu, S0POS: PREP_DEF_NOUN, S0Token: mal-_obbligi, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tat-, protokoll, ta' ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tat-, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tat-]   B= [protokoll, ta', kyoto ,.. ]
-
-B0Lemma: protokoll, B0POS: NOUN, B0Token: protokoll, S0B0Lemma: ta'_protokoll, S0B0LemmaPOS: ta'_NOUN, S0B0POS: GEN_DEF_NOUN, S0B0POSLemma: GEN_DEF_protokoll, S0B0Token: tat-_protokoll, S0B1Lemma: ta'_ta', S0B1LemmaPOS: ta'_GEN, S0B1POS: GEN_DEF_GEN, S0B1POSLemma: GEN_DEF_ta', S0B1Token: tat-_ta', S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_DEF, S0Token: tat-, TransHistory1: 2, TransHistory2: 21, TransHistory3: 210, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [protokoll, ta', kyoto ,.. ]
-
-B0Lemma: protokoll, B0POS: NOUN, B0Token: protokoll, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [protokoll]   B= [ta', kyoto, u ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN, B0Token: ta', S0B0Lemma: protokoll_ta', S0B0LemmaPOS: protokoll_GEN, S0B0POS: NOUN_GEN, S0B0POSLemma: NOUN_ta', S0B0Token: protokoll_ta', S0B1Lemma: protokoll_Kyoto, S0B1LemmaPOS: protokoll_NOUN_PROP, S0B1POS: NOUN_NOUN_PROP, S0B1POSLemma: NOUN_Kyoto, S0B1Token: protokoll_kyoto, S0Lemma: protokoll, S0POS: NOUN, S0Token: protokoll, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ta', kyoto, u ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN, B0Token: ta', TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ta']   B= [kyoto, u, jżidu ,.. ]
-
-B0Lemma: Kyoto, B0POS: NOUN_PROP, B0Token: kyoto, S0B0Lemma: ta'_Kyoto, S0B0LemmaPOS: ta'_NOUN_PROP, S0B0POS: GEN_NOUN_PROP, S0B0POSLemma: GEN_Kyoto, S0B0Token: ta'_kyoto, S0B1Lemma: ta'_u, S0B1LemmaPOS: ta'_CONJ_CORD, S0B1POS: GEN_CONJ_CORD, S0B1POSLemma: GEN_u, S0B1Token: ta'_u, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN, S0Token: ta', TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kyoto, u, jżidu ,.. ]
-
-B0Lemma: Kyoto, B0POS: NOUN_PROP, B0Token: kyoto, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kyoto]   B= [u, jżidu, fuqhom ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: Kyoto_u, S0B0LemmaPOS: Kyoto_CONJ_CORD, S0B0POS: NOUN_PROP_CONJ_CORD, S0B0POSLemma: NOUN_PROP_u, S0B0Token: kyoto_u, S0B1Lemma: Kyoto_żied, S0B1LemmaPOS: Kyoto_VERB, S0B1POS: NOUN_PROP_VERB, S0B1POSLemma: NOUN_PROP_żied, S0B1Token: kyoto_jżidu, S0Lemma: Kyoto, S0POS: NOUN_PROP, S0Token: kyoto, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, jżidu, fuqhom ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [jżidu, fuqhom, . ,.. ]
-
-B0Lemma: żied, B0POS: VERB, B0Token: jżidu, S0B0Lemma: u_żied, S0B0LemmaPOS: u_VERB, S0B0POS: CONJ_CORD_VERB, S0B0POSLemma: CONJ_CORD_żied, S0B0Token: u_jżidu, S0B1Lemma: u_fuq, S0B1LemmaPOS: u_PREP_PRON, S0B1POS: CONJ_CORD_PREP_PRON, S0B1POSLemma: CONJ_CORD_fuq, S0B1Token: u_fuqhom, S0IsInLexic: true, S0Lemma: u, S0POS: CONJ_CORD, S0Token: u, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jżidu, fuqhom, . ,.. ]
-
-B0Lemma: żied, B0POS: VERB, B0Token: jżidu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jżidu]   B= [fuqhom, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: fuq, B0POS: PREP_PRON, B0Token: fuqhom, S0B0Lemma: żied_fuq, S0B0LemmaPOS: żied_PREP_PRON, S0B0POS: VERB_PREP_PRON, S0B0POSLemma: VERB_fuq, S0B0Token: jżidu_fuqhom, S0B1Lemma: żied_., S0B1LemmaPOS: żied_X_PUN, S0B1POS: VERB_X_PUN, S0B1POSLemma: VERB_., S0B1Token: jżidu_., S0Lemma: żied, S0POS: VERB, S0Token: jżidu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fuqhom, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: fuq, B0POS: PREP_PRON, B0Token: fuqhom, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fuqhom]   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: fuq_., S0B0LemmaPOS: fuq_X_PUN, S0B0POS: PREP_PRON_X_PUN, S0B0POSLemma: PREP_PRON_., S0B0Token: fuqhom_., S0IsInLexic: true, S0Lemma: fuq, S0POS: PREP_PRON, S0Token: fuqhom, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0IsInLexic: true, S0Lemma: ., S0POS: X_PUN, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 5443 - 
-azzopardi qal li huwa qasam it- triq wara li qalbu l- ‘ pelican lights ’ u kulma jiftakar kien li f’ ħin minnhom intilef minn sensih u meta ġie f’ tiegħu xi ħadd kien qallu li tajritu karozza . 
-### Existing MWEs: 
-1- **qasam it- triq** (OTH)
-2- **intilef minn sensih** (ID)
-3- **ġie f’ tiegħu** (ID)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [azzopardi, qal, li ,.. ]
-
-B0Lemma: Azzopardi, B0POS: NOUN_PROP, B0Token: azzopardi, 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [azzopardi]   B= [qal, li, huwa ,.. ]
-
-B0Lemma: qal, B0POS: VERB, B0Token: qal, S0B0Lemma: Azzopardi_qal, S0B0LemmaPOS: Azzopardi_VERB, S0B0POS: NOUN_PROP_VERB, S0B0POSLemma: NOUN_PROP_qal, S0B0Token: azzopardi_qal, S0B1Lemma: Azzopardi_li, S0B1LemmaPOS: Azzopardi_COMP, S0B1POS: NOUN_PROP_COMP, S0B1POSLemma: NOUN_PROP_li, S0B1Token: azzopardi_li, S0Lemma: Azzopardi, S0POS: NOUN_PROP, S0Token: azzopardi, 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qal, li, huwa ,.. ]
-
-B0Lemma: qal, B0POS: VERB, B0Token: qal, TransHistory1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qal]   B= [li, huwa, qasam ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: qal_li, S0B0LemmaPOS: qal_COMP, S0B0POS: VERB_COMP, S0B0POSLemma: VERB_li, S0B0Token: qal_li, S0B1Lemma: qal_huwa, S0B1LemmaPOS: qal_PRON_PERS, S0B1POS: VERB_PRON_PERS, S0B1POSLemma: VERB_huwa, S0B1Token: qal_huwa, S0Lemma: qal, S0POS: VERB, S0Token: qal, TransHistory1: 2, TransHistory2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, huwa, qasam ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [huwa, qasam, it- ,.. ]
-
-B0IsInLexic: true, B0Lemma: huwa, B0POS: PRON_PERS, B0Token: huwa, S0B0Lemma: li_huwa, S0B0LemmaPOS: li_PRON_PERS, S0B0POS: COMP_PRON_PERS, S0B0POSLemma: COMP_huwa, S0B0Token: li_huwa, S0B1Lemma: li_qasam, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_qasam, S0B1Token: li_qasam, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [huwa, qasam, it- ,.. ]
-
-B0IsInLexic: true, B0Lemma: huwa, B0POS: PRON_PERS, B0Token: huwa, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [huwa]   B= [qasam, it-, triq ,.. ]
-
-B0IsInLexic: true, B0Lemma: qasam, B0POS: NOUN, B0Token: qasam, S0B0Lemma: huwa_qasam, S0B0LemmaPOS: huwa_NOUN, S0B0POS: PRON_PERS_NOUN, S0B0POSLemma: PRON_PERS_qasam, S0B0Token: huwa_qasam, S0B1Lemma: huwa_il-, S0B1LemmaPOS: huwa_DEF, S0B1POS: PRON_PERS_DEF, S0B1POSLemma: PRON_PERS_il-, S0B1Token: huwa_it-, S0IsInLexic: true, S0Lemma: huwa, S0POS: PRON_PERS, S0Token: huwa, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qasam, it-, triq ,.. ]
-
-B0IsInLexic: true, B0Lemma: qasam, B0POS: NOUN, B0Token: qasam, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qasam]   B= [it-, triq, wara ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: it-, S0B0Lemma: qasam_il-, S0B0LemmaPOS: qasam_DEF, S0B0POS: NOUN_DEF, S0B0POSLemma: NOUN_il-, S0B0Token: qasam_it-, S0B1Lemma: qasam_raq, S0B1LemmaPOS: qasam_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_raq, S0B1Token: qasam_triq, S0IsInLexic: true, S0Lemma: qasam, S0POS: NOUN, S0Token: qasam, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qasam, it-]   B= [triq, wara, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: raq, B0POS: NOUN, B0Token: triq, S0B0Lemma: il-_raq, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_raq, S0B0Token: it-_triq, S0B1Lemma: il-_wara, S0B1LemmaPOS: il-_PREP, S0B1POS: DEF_PREP, S0B1POSLemma: DEF_wara, S0B1Token: it-_wara, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0S1Distance: 1, S0Token: it-, S1B0Lemma: qasam_raq, S1B0LemmaPOS: qasam_NOUN, S1B0POS: NOUN_NOUN, S1B0POSLemma: NOUN_raq, S1B0Token: qasam_triq, S1IsInLexic: true, S1Lemma: qasam, S1POS: NOUN, S1S0Lemma: qasam_il-, S1S0LemmaPOS: qasam_DEF, S1S0POS: NOUN_DEF, S1S0POSLemma: NOUN_il-, S1S0Token: qasam_it-, S1Token: qasam, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qasam, it-, triq]   B= [wara, li, qalbu ,.. ]
-
-B0IsInLexic: true, B0Lemma: wara, B0POS: PREP, B0Token: wara, S0B0Lemma: raq_wara, S0B0LemmaPOS: raq_PREP, S0B0POS: NOUN_PREP, S0B0POSLemma: NOUN_wara, S0B0Token: triq_wara, S0B1Lemma: raq_li, S0B1LemmaPOS: raq_COMP, S0B1POS: NOUN_COMP, S0B1POSLemma: NOUN_li, S0B1Token: triq_li, S0IsInLexic: true, S0Lemma: raq, S0POS: NOUN, S0S1Distance: 1, S0Token: triq, S1B0Lemma: il-_wara, S1B0LemmaPOS: il-_PREP, S1B0POS: DEF_PREP, S1B0POSLemma: DEF_wara, S1B0Token: it-_wara, S1IsInLexic: true, S1Lemma: il-, S1POS: DEF, S1S0Lemma: il-_raq, S1S0LemmaPOS: il-_NOUN, S1S0POS: DEF_NOUN, S1S0POSLemma: DEF_raq, S1S0Token: it-_triq, S1Token: it-, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
-
-12- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qasam, [it-, triq]]   B= [wara, li, qalbu ,.. ]
-
-B0IsInLexic: true, B0Lemma: wara, B0POS: PREP, B0Token: wara, S0B0Lemma: il-_raq_wara, S0B0LemmaPOS: il-_raq_PREP, S0B0POS: DEF_NOUN_PREP, S0B0POSLemma: DEF_NOUN_wara, S0B0Token: it-_triq_wara, S0B1Lemma: il-_raq_li, S0B1LemmaPOS: il-_raq_COMP, S0B1POS: DEF_NOUN_COMP, S0B1POSLemma: DEF_NOUN_li, S0B1Token: it-_triq_li, S0Lemma: il-_raq, S0POS: DEF_NOUN, S0Token: it-_triq, S1B0Lemma: qasam_wara, S1B0LemmaPOS: qasam_PREP, S1B0POS: NOUN_PREP, S1B0POSLemma: NOUN_wara, S1B0Token: qasam_wara, S1IsInLexic: true, S1Lemma: qasam, S1POS: NOUN, S1S0Lemma: qasam_il-_raq, S1S0LemmaPOS: qasam_DEF_NOUN, S1S0POS: NOUN_DEF_NOUN, S1S0POSLemma: NOUN_il-_raq, S1S0Token: qasam_it-_triq, S1Token: qasam, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
-
-13- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[qasam, [it-, triq]]]   B= [wara, li, qalbu ,.. ]
-
-B0IsInLexic: true, B0Lemma: wara, B0POS: PREP, B0Token: wara, S0B0Lemma: qasam_il-_raq_wara, S0B0LemmaPOS: qasam_il-_raq_PREP, S0B0POS: NOUN_DEF_NOUN_PREP, S0B0POSLemma: NOUN_DEF_NOUN_wara, S0B0Token: qasam_it-_triq_wara, S0B1Lemma: qasam_il-_raq_li, S0B1LemmaPOS: qasam_il-_raq_COMP, S0B1POS: NOUN_DEF_NOUN_COMP, S0B1POSLemma: NOUN_DEF_NOUN_li, S0B1Token: qasam_it-_triq_li, S0Lemma: qasam_il-_raq, S0POS: NOUN_DEF_NOUN, S0Token: qasam_it-_triq, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [wara, li, qalbu ,.. ]
-
-B0IsInLexic: true, B0Lemma: wara, B0POS: PREP, B0Token: wara, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [wara]   B= [li, qalbu, l- ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: wara_li, S0B0LemmaPOS: wara_COMP, S0B0POS: PREP_COMP, S0B0POSLemma: PREP_li, S0B0Token: wara_li, S0B1Lemma: wara_qaleb, S0B1LemmaPOS: wara_NOUN, S0B1POS: PREP_NOUN, S0B1POSLemma: PREP_qaleb, S0B1Token: wara_qalbu, S0IsInLexic: true, S0Lemma: wara, S0POS: PREP, S0Token: wara, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, qalbu, l- ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [qalbu, l-, ‘ ,.. ]
-
-B0IsInLexic: true, B0Lemma: qaleb, B0POS: NOUN, B0Token: qalbu, S0B0Lemma: li_qaleb, S0B0LemmaPOS: li_NOUN, S0B0POS: COMP_NOUN, S0B0POSLemma: COMP_qaleb, S0B0Token: li_qalbu, S0B1Lemma: li_il-, S0B1LemmaPOS: li_DEF, S0B1POS: COMP_DEF, S0B1POSLemma: COMP_il-, S0B1Token: li_l-, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qalbu, l-, ‘ ,.. ]
-
-B0IsInLexic: true, B0Lemma: qaleb, B0POS: NOUN, B0Token: qalbu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qalbu]   B= [l-, ‘, pelican ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: qaleb_il-, S0B0LemmaPOS: qaleb_DEF, S0B0POS: NOUN_DEF, S0B0POSLemma: NOUN_il-, S0B0Token: qalbu_l-, S0B1Lemma: qaleb_‘, S0B1LemmaPOS: qaleb_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_‘, S0B1Token: qalbu_‘, S0IsInLexic: true, S0Lemma: qaleb, S0POS: NOUN, S0Token: qalbu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, ‘, pelican ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [‘, pelican, lights ,.. ]
-
-B0Lemma: ‘, B0POS: NOUN, B0Token: ‘, S0B0Lemma: il-_‘, S0B0LemmaPOS: il-_NOUN, S0B0POS: DEF_NOUN, S0B0POSLemma: DEF_‘, S0B0Token: l-_‘, S0B1Lemma: il-_pelican, S0B1LemmaPOS: il-_ADJ, S0B1POS: DEF_ADJ, S0B1POSLemma: DEF_pelican, S0B1Token: l-_pelican, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [‘, pelican, lights ,.. ]
-
-B0Lemma: ‘, B0POS: NOUN, B0Token: ‘, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [‘]   B= [pelican, lights, ’ ,.. ]
-
-B0Lemma: pelican, B0POS: ADJ, B0Token: pelican, S0B0Lemma: ‘_pelican, S0B0LemmaPOS: ‘_ADJ, S0B0POS: NOUN_ADJ, S0B0POSLemma: NOUN_pelican, S0B0Token: ‘_pelican, S0B1Lemma: ‘_lights, S0B1LemmaPOS: ‘_NOUN, S0B1POS: NOUN_NOUN, S0B1POSLemma: NOUN_lights, S0B1Token: ‘_lights, S0Lemma: ‘, S0POS: NOUN, S0Token: ‘, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pelican, lights, ’ ,.. ]
-
-B0Lemma: pelican, B0POS: ADJ, B0Token: pelican, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pelican]   B= [lights, ’, u ,.. ]
-
-B0Lemma: lights, B0POS: NOUN, B0Token: lights, S0B0Lemma: pelican_lights, S0B0LemmaPOS: pelican_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_lights, S0B0Token: pelican_lights, S0B1Lemma: pelican_’, S0B1LemmaPOS: pelican_X_ABV, S0B1POS: ADJ_X_ABV, S0B1POSLemma: ADJ_’, S0B1Token: pelican_’, S0Lemma: pelican, S0POS: ADJ, S0Token: pelican, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lights, ’, u ,.. ]
-
-B0Lemma: lights, B0POS: NOUN, B0Token: lights, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lights]   B= [’, u, kulma ,.. ]
-
-B0Lemma: ’, B0POS: X_ABV, B0Token: ’, S0B0Lemma: lights_’, S0B0LemmaPOS: lights_X_ABV, S0B0POS: NOUN_X_ABV, S0B0POSLemma: NOUN_’, S0B0Token: lights_’, S0B1Lemma: lights_u, S0B1LemmaPOS: lights_CONJ_CORD, S0B1POS: NOUN_CONJ_CORD, S0B1POSLemma: NOUN_u, S0B1Token: lights_u, S0Lemma: lights, S0POS: NOUN, S0Token: lights, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [’, u, kulma ,.. ]
-
-B0Lemma: ’, B0POS: X_ABV, B0Token: ’, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [’]   B= [u, kulma, jiftakar ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: ’_u, S0B0LemmaPOS: ’_CONJ_CORD, S0B0POS: X_ABV_CONJ_CORD, S0B0POSLemma: X_ABV_u, S0B0Token: ’_u, S0B1Lemma: ’_li, S0B1LemmaPOS: ’_COMP, S0B1POS: X_ABV_COMP, S0B1POSLemma: X_ABV_li, S0B1Token: ’_kulma, S0Lemma: ’, S0POS: X_ABV, S0Token: ’, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, kulma, jiftakar ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [kulma, jiftakar, kien ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: kulma, S0B0Lemma: u_li, S0B0LemmaPOS: u_COMP, S0B0POS: CONJ_CORD_COMP, S0B0POSLemma: CONJ_CORD_li, S0B0Token: u_kulma, S0B1Lemma: u_ftakar, S0B1LemmaPOS: u_VERB, S0B1POS: CONJ_CORD_VERB, S0B1POSLemma: CONJ_CORD_ftakar, S0B1Token: u_jiftakar, S0IsInLexic: true, S0Lemma: u, S0POS: CONJ_CORD, S0Token: u, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kulma, jiftakar, kien ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: kulma, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kulma]   B= [jiftakar, kien, li ,.. ]
-
-B0Lemma: ftakar, B0POS: VERB, B0Token: jiftakar, S0B0Lemma: li_ftakar, S0B0LemmaPOS: li_VERB, S0B0POS: COMP_VERB, S0B0POSLemma: COMP_ftakar, S0B0Token: kulma_jiftakar, S0B1Lemma: li_kien, S0B1LemmaPOS: li_KIEN, S0B1POS: COMP_KIEN, S0B1POSLemma: COMP_kien, S0B1Token: kulma_kien, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: kulma, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jiftakar, kien, li ,.. ]
-
-B0Lemma: ftakar, B0POS: VERB, B0Token: jiftakar, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jiftakar]   B= [kien, li, f’ ,.. ]
-
-B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: kien, S0B0Lemma: ftakar_kien, S0B0LemmaPOS: ftakar_KIEN, S0B0POS: VERB_KIEN, S0B0POSLemma: VERB_kien, S0B0Token: jiftakar_kien, S0B1Lemma: ftakar_li, S0B1LemmaPOS: ftakar_COMP, S0B1POS: VERB_COMP, S0B1POSLemma: VERB_li, S0B1Token: jiftakar_li, S0Lemma: ftakar, S0POS: VERB, S0Token: jiftakar, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kien, li, f’ ,.. ]
-
-B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: kien, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kien]   B= [li, f’, ħin ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: kien_li, S0B0LemmaPOS: kien_COMP, S0B0POS: KIEN_COMP, S0B0POSLemma: KIEN_li, S0B0Token: kien_li, S0B1Lemma: kien_f’, S0B1LemmaPOS: kien_NOUN, S0B1POS: KIEN_NOUN, S0B1POSLemma: KIEN_f’, S0B1Token: kien_f’, S0IsInLexic: true, S0Lemma: kien, S0POS: KIEN, S0Token: kien, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, f’, ħin ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [f’, ħin, minnhom ,.. ]
-
-B0IsInLexic: true, B0Lemma: f’, B0POS: NOUN, B0Token: f’, S0B0Lemma: li_f’, S0B0LemmaPOS: li_NOUN, S0B0POS: COMP_NOUN, S0B0POSLemma: COMP_f’, S0B0Token: li_f’, S0B1Lemma: li_ħin, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_ħin, S0B1Token: li_ħin, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [f’, ħin, minnhom ,.. ]
-
-B0IsInLexic: true, B0Lemma: f’, B0POS: NOUN, B0Token: f’, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [f’]   B= [ħin, minnhom, intilef ,.. ]
-
-B0IsInLexic: true, B0Lemma: ħin, B0POS: NOUN, B0Token: ħin, S0B0Lemma: f’_ħin, S0B0LemmaPOS: f’_NOUN, S0B0POS: NOUN_NOUN, S0B0POSLemma: NOUN_ħin, S0B0Token: f’_ħin, S0B1Lemma: f’_minn, S0B1LemmaPOS: f’_PREP_PRON, S0B1POS: NOUN_PREP_PRON, S0B1POSLemma: NOUN_minn, S0B1Token: f’_minnhom, S0IsInLexic: true, S0Lemma: f’, S0POS: NOUN, S0Token: f’, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħin, minnhom, intilef ,.. ]
-
-B0IsInLexic: true, B0Lemma: ħin, B0POS: NOUN, B0Token: ħin, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħin]   B= [minnhom, intilef, minn ,.. ]
-
-B0IsInLexic: true, B0Lemma: minn, B0POS: PREP_PRON, B0Token: minnhom, S0B0Lemma: ħin_minn, S0B0LemmaPOS: ħin_PREP_PRON, S0B0POS: NOUN_PREP_PRON, S0B0POSLemma: NOUN_minn, S0B0Token: ħin_minnhom, S0B1Lemma: ħin_intilef, S0B1LemmaPOS: ħin_VERB, S0B1POS: NOUN_VERB, S0B1POSLemma: NOUN_intilef, S0B1Token: ħin_intilef, S0IsInLexic: true, S0Lemma: ħin, S0POS: NOUN, S0Token: ħin, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [minnhom, intilef, minn ,.. ]
-
-B0IsInLexic: true, B0Lemma: minn, B0POS: PREP_PRON, B0Token: minnhom, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [minnhom]   B= [intilef, minn, sensih ,.. ]
-
-B0IsInLexic: true, B0Lemma: intilef, B0POS: VERB, B0Token: intilef, S0B0Lemma: minn_intilef, S0B0LemmaPOS: minn_VERB, S0B0POS: PREP_PRON_VERB, S0B0POSLemma: PREP_PRON_intilef, S0B0Token: minnhom_intilef, S0B1Lemma: minn_minn, S0B1LemmaPOS: minn_PREP, S0B1POS: PREP_PRON_PREP, S0B1POSLemma: PREP_PRON_minn, S0B1Token: minnhom_minn, S0IsInLexic: true, S0Lemma: minn, S0POS: PREP_PRON, S0Token: minnhom, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [intilef, minn, sensih ,.. ]
-
-B0IsInLexic: true, B0Lemma: intilef, B0POS: VERB, B0Token: intilef, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [intilef]   B= [minn, sensih, u ,.. ]
-
-B0IsInLexic: true, B0Lemma: minn, B0POS: PREP, B0Token: minn, S0B0Lemma: intilef_minn, S0B0LemmaPOS: intilef_PREP, S0B0POS: VERB_PREP, S0B0POSLemma: VERB_minn, S0B0Token: intilef_minn, S0B1Lemma: intilef_sens, S0B1LemmaPOS: intilef_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_sens, S0B1Token: intilef_sensih, S0IsInLexic: true, S0Lemma: intilef, S0POS: VERB, S0Token: intilef, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [intilef, minn]   B= [sensih, u, meta ,.. ]
-
-B0IsInLexic: true, B0Lemma: sens, B0POS: NOUN, B0Token: sensih, S0B0Lemma: minn_sens, S0B0LemmaPOS: minn_NOUN, S0B0POS: PREP_NOUN, S0B0POSLemma: PREP_sens, S0B0Token: minn_sensih, S0B1Lemma: minn_u, S0B1LemmaPOS: minn_CONJ_CORD, S0B1POS: PREP_CONJ_CORD, S0B1POSLemma: PREP_u, S0B1Token: minn_u, S0IsInLexic: true, S0Lemma: minn, S0POS: PREP, S0S1Distance: 1, S0Token: minn, S1B0Lemma: intilef_sens, S1B0LemmaPOS: intilef_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_sens, S1B0Token: intilef_sensih, S1IsInLexic: true, S1Lemma: intilef, S1POS: VERB, S1S0Lemma: intilef_minn, S1S0LemmaPOS: intilef_PREP, S1S0POS: VERB_PREP, S1S0POSLemma: VERB_minn, S1S0Token: intilef_minn, S1Token: intilef, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [intilef, minn, sensih]   B= [u, meta, ġie ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: sens_u, S0B0LemmaPOS: sens_CONJ_CORD, S0B0POS: NOUN_CONJ_CORD, S0B0POSLemma: NOUN_u, S0B0Token: sensih_u, S0B1Lemma: sens_meta, S0B1LemmaPOS: sens_CONJ_SUB, S0B1POS: NOUN_CONJ_SUB, S0B1POSLemma: NOUN_meta, S0B1Token: sensih_meta, S0IsInLexic: true, S0Lemma: sens, S0POS: NOUN, S0S1Distance: 1, S0Token: sensih, S1B0Lemma: minn_u, S1B0LemmaPOS: minn_CONJ_CORD, S1B0POS: PREP_CONJ_CORD, S1B0POSLemma: PREP_u, S1B0Token: minn_u, S1IsInLexic: true, S1Lemma: minn, S1POS: PREP, S1S0Lemma: minn_sens, S1S0LemmaPOS: minn_NOUN, S1S0POS: PREP_NOUN, S1S0POSLemma: PREP_sens, S1S0Token: minn_sensih, S1Token: minn, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
-
-50- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [intilef, [minn, sensih]]   B= [u, meta, ġie ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: minn_sens_u, S0B0LemmaPOS: minn_sens_CONJ_CORD, S0B0POS: PREP_NOUN_CONJ_CORD, S0B0POSLemma: PREP_NOUN_u, S0B0Token: minn_sensih_u, S0B1Lemma: minn_sens_meta, S0B1LemmaPOS: minn_sens_CONJ_SUB, S0B1POS: PREP_NOUN_CONJ_SUB, S0B1POSLemma: PREP_NOUN_meta, S0B1Token: minn_sensih_meta, S0Lemma: minn_sens, S0POS: PREP_NOUN, S0Token: minn_sensih, S1B0Lemma: intilef_u, S1B0LemmaPOS: intilef_CONJ_CORD, S1B0POS: VERB_CONJ_CORD, S1B0POSLemma: VERB_u, S1B0Token: intilef_u, S1IsInLexic: true, S1Lemma: intilef, S1POS: VERB, S1S0Lemma: intilef_minn_sens, S1S0LemmaPOS: intilef_PREP_NOUN, S1S0POS: VERB_PREP_NOUN, S1S0POSLemma: VERB_minn_sens, S1S0Token: intilef_minn_sensih, S1Token: intilef, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
-
-51- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[intilef, [minn, sensih]]]   B= [u, meta, ġie ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: intilef_minn_sens_u, S0B0LemmaPOS: intilef_minn_sens_CONJ_CORD, S0B0POS: VERB_PREP_NOUN_CONJ_CORD, S0B0POSLemma: VERB_PREP_NOUN_u, S0B0Token: intilef_minn_sensih_u, S0B1Lemma: intilef_minn_sens_meta, S0B1LemmaPOS: intilef_minn_sens_CONJ_SUB, S0B1POS: VERB_PREP_NOUN_CONJ_SUB, S0B1POSLemma: VERB_PREP_NOUN_meta, S0B1Token: intilef_minn_sensih_meta, S0Lemma: intilef_minn_sens, S0POS: VERB_PREP_NOUN, S0Token: intilef_minn_sensih, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, meta, ġie ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [meta, ġie, f’ ,.. ]
-
-B0Lemma: meta, B0POS: CONJ_SUB, B0Token: meta, S0B0Lemma: u_meta, S0B0LemmaPOS: u_CONJ_SUB, S0B0POS: CONJ_CORD_CONJ_SUB, S0B0POSLemma: CONJ_CORD_meta, S0B0Token: u_meta, S0B1Lemma: u_ġie, S0B1LemmaPOS: u_VERB, S0B1POS: CONJ_CORD_VERB, S0B1POSLemma: CONJ_CORD_ġie, S0B1Token: u_ġie, S0IsInLexic: true, S0Lemma: u, S0POS: CONJ_CORD, S0Token: u, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [meta, ġie, f’ ,.. ]
-
-B0Lemma: meta, B0POS: CONJ_SUB, B0Token: meta, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [meta]   B= [ġie, f’, tiegħu ,.. ]
-
-B0IsInLexic: true, B0Lemma: ġie, B0POS: VERB, B0Token: ġie, S0B0Lemma: meta_ġie, S0B0LemmaPOS: meta_VERB, S0B0POS: CONJ_SUB_VERB, S0B0POSLemma: CONJ_SUB_ġie, S0B0Token: meta_ġie, S0B1Lemma: meta_f’, S0B1LemmaPOS: meta_NOUN, S0B1POS: CONJ_SUB_NOUN, S0B1POSLemma: CONJ_SUB_f’, S0B1Token: meta_f’, S0Lemma: meta, S0POS: CONJ_SUB, S0Token: meta, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ġie, f’, tiegħu ,.. ]
-
-B0IsInLexic: true, B0Lemma: ġie, B0POS: VERB, B0Token: ġie, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ġie]   B= [f’, tiegħu, xi ,.. ]
-
-B0IsInLexic: true, B0Lemma: f’, B0POS: NOUN, B0Token: f’, S0B0Lemma: ġie_f’, S0B0LemmaPOS: ġie_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_f’, S0B0Token: ġie_f’, S0B1Lemma: ġie_ta', S0B1LemmaPOS: ġie_GEN_PRON, S0B1POS: VERB_GEN_PRON, S0B1POSLemma: VERB_ta', S0B1Token: ġie_tiegħu, S0IsInLexic: true, S0Lemma: ġie, S0POS: VERB, S0Token: ġie, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-58- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ġie, f’]   B= [tiegħu, xi, ħadd ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tiegħu, S0B0Lemma: f’_ta', S0B0LemmaPOS: f’_GEN_PRON, S0B0POS: NOUN_GEN_PRON, S0B0POSLemma: NOUN_ta', S0B0Token: f’_tiegħu, S0B1Lemma: f’_xi, S0B1LemmaPOS: f’_QUAN, S0B1POS: NOUN_QUAN, S0B1POSLemma: NOUN_xi, S0B1Token: f’_xi, S0IsInLexic: true, S0Lemma: f’, S0POS: NOUN, S0S1Distance: 1, S0Token: f’, S1B0Lemma: ġie_ta', S1B0LemmaPOS: ġie_GEN_PRON, S1B0POS: VERB_GEN_PRON, S1B0POSLemma: VERB_ta', S1B0Token: ġie_tiegħu, S1IsInLexic: true, S1Lemma: ġie, S1POS: VERB, S1S0Lemma: ġie_f’, S1S0LemmaPOS: ġie_NOUN, S1S0POS: VERB_NOUN, S1S0POSLemma: VERB_f’, S1S0Token: ġie_f’, S1Token: ġie, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ġie, f’, tiegħu]   B= [xi, ħadd, kien ,.. ]
-
-B0IsInLexic: true, B0Lemma: xi, B0POS: QUAN, B0Token: xi, S0B0Lemma: ta'_xi, S0B0LemmaPOS: ta'_QUAN, S0B0POS: GEN_PRON_QUAN, S0B0POSLemma: GEN_PRON_xi, S0B0Token: tiegħu_xi, S0B1Lemma: ta'_ħadd, S0B1LemmaPOS: ta'_PRON_INDEF, S0B1POS: GEN_PRON_PRON_INDEF, S0B1POSLemma: GEN_PRON_ħadd, S0B1Token: tiegħu_ħadd, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_PRON, S0S1Distance: 1, S0Token: tiegħu, S1B0Lemma: f’_xi, S1B0LemmaPOS: f’_QUAN, S1B0POS: NOUN_QUAN, S1B0POSLemma: NOUN_xi, S1B0Token: f’_xi, S1IsInLexic: true, S1Lemma: f’, S1POS: NOUN, S1S0Lemma: f’_ta', S1S0LemmaPOS: f’_GEN_PRON, S1S0POS: NOUN_GEN_PRON, S1S0POSLemma: NOUN_ta', S1S0Token: f’_tiegħu, S1Token: f’, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
-
-60- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ġie, [f’, tiegħu]]   B= [xi, ħadd, kien ,.. ]
-
-B0IsInLexic: true, B0Lemma: xi, B0POS: QUAN, B0Token: xi, S0B0Lemma: f’_ta'_xi, S0B0LemmaPOS: f’_ta'_QUAN, S0B0POS: NOUN_GEN_PRON_QUAN, S0B0POSLemma: NOUN_GEN_PRON_xi, S0B0Token: f’_tiegħu_xi, S0B1Lemma: f’_ta'_ħadd, S0B1LemmaPOS: f’_ta'_PRON_INDEF, S0B1POS: NOUN_GEN_PRON_PRON_INDEF, S0B1POSLemma: NOUN_GEN_PRON_ħadd, S0B1Token: f’_tiegħu_ħadd, S0Lemma: f’_ta', S0POS: NOUN_GEN_PRON, S0Token: f’_tiegħu, S1B0Lemma: ġie_xi, S1B0LemmaPOS: ġie_QUAN, S1B0POS: VERB_QUAN, S1B0POSLemma: VERB_xi, S1B0Token: ġie_xi, S1IsInLexic: true, S1Lemma: ġie, S1POS: VERB, S1S0Lemma: ġie_f’_ta', S1S0LemmaPOS: ġie_NOUN_GEN_PRON, S1S0POS: VERB_NOUN_GEN_PRON, S1S0POSLemma: VERB_f’_ta', S1S0Token: ġie_f’_tiegħu, S1Token: ġie, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
-
-61- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ġie, [f’, tiegħu]]]   B= [xi, ħadd, kien ,.. ]
-
-B0IsInLexic: true, B0Lemma: xi, B0POS: QUAN, B0Token: xi, S0B0Lemma: ġie_f’_ta'_xi, S0B0LemmaPOS: ġie_f’_ta'_QUAN, S0B0POS: VERB_NOUN_GEN_PRON_QUAN, S0B0POSLemma: VERB_NOUN_GEN_PRON_xi, S0B0Token: ġie_f’_tiegħu_xi, S0B1Lemma: ġie_f’_ta'_ħadd, S0B1LemmaPOS: ġie_f’_ta'_PRON_INDEF, S0B1POS: VERB_NOUN_GEN_PRON_PRON_INDEF, S0B1POSLemma: VERB_NOUN_GEN_PRON_ħadd, S0B1Token: ġie_f’_tiegħu_ħadd, S0Lemma: ġie_f’_ta', S0POS: VERB_NOUN_GEN_PRON, S0Token: ġie_f’_tiegħu, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
-
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [xi, ħadd, kien ,.. ]
-
-B0IsInLexic: true, B0Lemma: xi, B0POS: QUAN, B0Token: xi, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
-
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [xi]   B= [ħadd, kien, qallu ,.. ]
-
-B0Lemma: ħadd, B0POS: PRON_INDEF, B0Token: ħadd, S0B0Lemma: xi_ħadd, S0B0LemmaPOS: xi_PRON_INDEF, S0B0POS: QUAN_PRON_INDEF, S0B0POSLemma: QUAN_ħadd, S0B0Token: xi_ħadd, S0B1Lemma: xi_kien, S0B1LemmaPOS: xi_KIEN, S0B1POS: QUAN_KIEN, S0B1POSLemma: QUAN_kien, S0B1Token: xi_kien, S0IsInLexic: true, S0Lemma: xi, S0POS: QUAN, S0Token: xi, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħadd, kien, qallu ,.. ]
-
-B0Lemma: ħadd, B0POS: PRON_INDEF, B0Token: ħadd, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħadd]   B= [kien, qallu, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: kien, S0B0Lemma: ħadd_kien, S0B0LemmaPOS: ħadd_KIEN, S0B0POS: PRON_INDEF_KIEN, S0B0POSLemma: PRON_INDEF_kien, S0B0Token: ħadd_kien, S0B1Lemma: ħadd_qal, S0B1LemmaPOS: ħadd_VERB, S0B1POS: PRON_INDEF_VERB, S0B1POSLemma: PRON_INDEF_qal, S0B1Token: ħadd_qallu, S0Lemma: ħadd, S0POS: PRON_INDEF, S0Token: ħadd, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kien, qallu, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: kien, B0POS: KIEN, B0Token: kien, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kien]   B= [qallu, li, tajritu ,.. ]
-
-B0Lemma: qal, B0POS: VERB, B0Token: qallu, S0B0Lemma: kien_qal, S0B0LemmaPOS: kien_VERB, S0B0POS: KIEN_VERB, S0B0POSLemma: KIEN_qal, S0B0Token: kien_qallu, S0B1Lemma: kien_li, S0B1LemmaPOS: kien_COMP, S0B1POS: KIEN_COMP, S0B1POSLemma: KIEN_li, S0B1Token: kien_li, S0IsInLexic: true, S0Lemma: kien, S0POS: KIEN, S0Token: kien, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qallu, li, tajritu ,.. ]
-
-B0Lemma: qal, B0POS: VERB, B0Token: qallu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qallu]   B= [li, tajritu, karozza ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: qal_li, S0B0LemmaPOS: qal_COMP, S0B0POS: VERB_COMP, S0B0POSLemma: VERB_li, S0B0Token: qallu_li, S0B1Lemma: qal_tajjar, S0B1LemmaPOS: qal_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_tajjar, S0B1Token: qallu_tajritu, S0Lemma: qal, S0POS: VERB, S0Token: qallu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, tajritu, karozza ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [tajritu, karozza, . ,.. ]
-
-B0Lemma: tajjar, B0POS: VERB, B0Token: tajritu, S0B0Lemma: li_tajjar, S0B0LemmaPOS: li_VERB, S0B0POS: COMP_VERB, S0B0POSLemma: COMP_tajjar, S0B0Token: li_tajritu, S0B1Lemma: li_karozza, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_karozza, S0B1Token: li_karozza, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tajritu, karozza, . ,.. ]
-
-B0Lemma: tajjar, B0POS: VERB, B0Token: tajritu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tajritu]   B= [karozza, . ,.. ]
-
-B0Lemma: karozza, B0POS: NOUN, B0Token: karozza, S0B0Lemma: tajjar_karozza, S0B0LemmaPOS: tajjar_NOUN, S0B0POS: VERB_NOUN, S0B0POSLemma: VERB_karozza, S0B0Token: tajritu_karozza, S0B1Lemma: tajjar_., S0B1LemmaPOS: tajjar_X_PUN, S0B1POS: VERB_X_PUN, S0B1POSLemma: VERB_., S0B1Token: tajritu_., S0Lemma: tajjar, S0POS: VERB, S0Token: tajritu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [karozza, . ,.. ]
-
-B0Lemma: karozza, B0POS: NOUN, B0Token: karozza, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [karozza]   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: karozza_., S0B0LemmaPOS: karozza_X_PUN, S0B0POS: NOUN_X_PUN, S0B0POSLemma: NOUN_., S0B0Token: karozza_., S0Lemma: karozza, S0POS: NOUN, S0Token: karozza, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0IsInLexic: true, S0Lemma: ., S0POS: X_PUN, S0Token: ., TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
-
-## Sentence No. 222 - 
-m' għandniex dubju li f' kawżi bħal dawn l- aktar interess li għandu jiġi mħares hu dak tal- minuri , li fl- innoċenza kollha tiegħu sab żewġ adulti li daħħluh f' basla li mhux se joħroġ minnha kif ġieb u laħaq . 
-### Existing MWEs: 
-1- **daħħluh f' basla** (ID)
-2- **kif ġieb u laħaq** (ID)
-
-
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [m', għandniex, dubju ,.. ]
-
-B0IsInLexic: true, B0Lemma: ma, B0POS: NEG, B0Token: m', 
-
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [m']   B= [għandniex, dubju, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: għand, B0POS: VERB_PSEU, B0Token: għandniex, S0B0Lemma: ma_għand, S0B0LemmaPOS: ma_VERB_PSEU, S0B0POS: NEG_VERB_PSEU, S0B0POSLemma: NEG_għand, S0B0Token: m'_għandniex, S0B1Lemma: ma_dubju, S0B1LemmaPOS: ma_NOUN, S0B1POS: NEG_NOUN, S0B1POSLemma: NEG_dubju, S0B1Token: m'_dubju, S0IsInLexic: true, S0Lemma: ma, S0POS: NEG, S0Token: m', 
-
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [għandniex, dubju, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: għand, B0POS: VERB_PSEU, B0Token: għandniex, TransHistory1: 0, 
-
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [għandniex]   B= [dubju, li, f' ,.. ]
-
-B0Lemma: dubju, B0POS: NOUN, B0Token: dubju, S0B0Lemma: għand_dubju, S0B0LemmaPOS: għand_NOUN, S0B0POS: VERB_PSEU_NOUN, S0B0POSLemma: VERB_PSEU_dubju, S0B0Token: għandniex_dubju, S0B1Lemma: għand_li, S0B1LemmaPOS: għand_COMP, S0B1POS: VERB_PSEU_COMP, S0B1POSLemma: VERB_PSEU_li, S0B1Token: għandniex_li, S0IsInLexic: true, S0Lemma: għand, S0POS: VERB_PSEU, S0Token: għandniex, TransHistory1: 2, TransHistory2: 20, 
-
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dubju, li, f' ,.. ]
-
-B0Lemma: dubju, B0POS: NOUN, B0Token: dubju, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dubju]   B= [li, f', kawżi ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: dubju_li, S0B0LemmaPOS: dubju_COMP, S0B0POS: NOUN_COMP, S0B0POSLemma: NOUN_li, S0B0Token: dubju_li, S0B1Lemma: dubju_fi, S0B1LemmaPOS: dubju_PREP, S0B1POS: NOUN_PREP, S0B1POSLemma: NOUN_fi, S0B1Token: dubju_f', S0Lemma: dubju, S0POS: NOUN, S0Token: dubju, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, f', kawżi ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [f', kawżi, bħal ,.. ]
-
-B0IsInLexic: true, B0Lemma: fi, B0POS: PREP, B0Token: f', S0B0Lemma: li_fi, S0B0LemmaPOS: li_PREP, S0B0POS: COMP_PREP, S0B0POSLemma: COMP_fi, S0B0Token: li_f', S0B1Lemma: li_kawża, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_kawża, S0B1Token: li_kawżi, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [f', kawżi, bħal ,.. ]
-
-B0IsInLexic: true, B0Lemma: fi, B0POS: PREP, B0Token: f', TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [f']   B= [kawżi, bħal, dawn ,.. ]
-
-B0IsInLexic: true, B0Lemma: kawża, B0POS: NOUN, B0Token: kawżi, S0B0Lemma: fi_kawża, S0B0LemmaPOS: fi_NOUN, S0B0POS: PREP_NOUN, S0B0POSLemma: PREP_kawża, S0B0Token: f'_kawżi, S0B1Lemma: fi_bħal, S0B1LemmaPOS: fi_PREP, S0B1POS: PREP_PREP, S0B1POSLemma: PREP_bħal, S0B1Token: f'_bħal, S0IsInLexic: true, S0Lemma: fi, S0POS: PREP, S0Token: f', TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kawżi, bħal, dawn ,.. ]
-
-B0IsInLexic: true, B0Lemma: kawża, B0POS: NOUN, B0Token: kawżi, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kawżi]   B= [bħal, dawn, l- ,.. ]
-
-B0IsInLexic: true, B0Lemma: bħal, B0POS: PREP, B0Token: bħal, S0B0Lemma: kawża_bħal, S0B0LemmaPOS: kawża_PREP, S0B0POS: NOUN_PREP, S0B0POSLemma: NOUN_bħal, S0B0Token: kawżi_bħal, S0B1Lemma: kawża_dan, S0B1LemmaPOS: kawża_PRON_DEM, S0B1POS: NOUN_PRON_DEM, S0B1POSLemma: NOUN_dan, S0B1Token: kawżi_dawn, S0IsInLexic: true, S0Lemma: kawża, S0POS: NOUN, S0Token: kawżi, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bħal, dawn, l- ,.. ]
-
-B0IsInLexic: true, B0Lemma: bħal, B0POS: PREP, B0Token: bħal, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bħal]   B= [dawn, l-, aktar ,.. ]
-
-B0Lemma: dan, B0POS: PRON_DEM, B0Token: dawn, S0B0Lemma: bħal_dan, S0B0LemmaPOS: bħal_PRON_DEM, S0B0POS: PREP_PRON_DEM, S0B0POSLemma: PREP_dan, S0B0Token: bħal_dawn, S0B1Lemma: bħal_il-, S0B1LemmaPOS: bħal_DEF, S0B1POS: PREP_DEF, S0B1POSLemma: PREP_il-, S0B1Token: bħal_l-, S0IsInLexic: true, S0Lemma: bħal, S0POS: PREP, S0Token: bħal, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dawn, l-, aktar ,.. ]
-
-B0Lemma: dan, B0POS: PRON_DEM, B0Token: dawn, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dawn]   B= [l-, aktar, interess ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, S0B0Lemma: dan_il-, S0B0LemmaPOS: dan_DEF, S0B0POS: PRON_DEM_DEF, S0B0POSLemma: PRON_DEM_il-, S0B0Token: dawn_l-, S0B1Lemma: dan_aktar, S0B1LemmaPOS: dan_ADJ, S0B1POS: PRON_DEM_ADJ, S0B1POSLemma: PRON_DEM_aktar, S0B1Token: dawn_aktar, S0Lemma: dan, S0POS: PRON_DEM, S0Token: dawn, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, aktar, interess ,.. ]
-
-B0IsInLexic: true, B0Lemma: il-, B0POS: DEF, B0Token: l-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [aktar, interess, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: aktar, B0POS: ADJ, B0Token: aktar, S0B0Lemma: il-_aktar, S0B0LemmaPOS: il-_ADJ, S0B0POS: DEF_ADJ, S0B0POSLemma: DEF_aktar, S0B0Token: l-_aktar, S0B1Lemma: il-_interess, S0B1LemmaPOS: il-_NOUN, S0B1POS: DEF_NOUN, S0B1POSLemma: DEF_interess, S0B1Token: l-_interess, S0IsInLexic: true, S0Lemma: il-, S0POS: DEF, S0Token: l-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aktar, interess, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: aktar, B0POS: ADJ, B0Token: aktar, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aktar]   B= [interess, li, għandu ,.. ]
-
-B0IsInLexic: true, B0Lemma: interess, B0POS: NOUN, B0Token: interess, S0B0Lemma: aktar_interess, S0B0LemmaPOS: aktar_NOUN, S0B0POS: ADJ_NOUN, S0B0POSLemma: ADJ_interess, S0B0Token: aktar_interess, S0B1Lemma: aktar_li, S0B1LemmaPOS: aktar_COMP, S0B1POS: ADJ_COMP, S0B1POSLemma: ADJ_li, S0B1Token: aktar_li, S0IsInLexic: true, S0Lemma: aktar, S0POS: ADJ, S0Token: aktar, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [interess, li, għandu ,.. ]
-
-B0IsInLexic: true, B0Lemma: interess, B0POS: NOUN, B0Token: interess, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [interess]   B= [li, għandu, jiġi ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: interess_li, S0B0LemmaPOS: interess_COMP, S0B0POS: NOUN_COMP, S0B0POSLemma: NOUN_li, S0B0Token: interess_li, S0B1Lemma: interess_għand, S0B1LemmaPOS: interess_VERB_PSEU, S0B1POS: NOUN_VERB_PSEU, S0B1POSLemma: NOUN_għand, S0B1Token: interess_għandu, S0IsInLexic: true, S0Lemma: interess, S0POS: NOUN, S0Token: interess, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, għandu, jiġi ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [għandu, jiġi, mħares ,.. ]
-
-B0IsInLexic: true, B0Lemma: għand, B0POS: VERB_PSEU, B0Token: għandu, S0B0Lemma: li_għand, S0B0LemmaPOS: li_VERB_PSEU, S0B0POS: COMP_VERB_PSEU, S0B0POSLemma: COMP_għand, S0B0Token: li_għandu, S0B1Lemma: li_ġie, S0B1LemmaPOS: li_VERB, S0B1POS: COMP_VERB, S0B1POSLemma: COMP_ġie, S0B1Token: li_jiġi, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [għandu, jiġi, mħares ,.. ]
-
-B0IsInLexic: true, B0Lemma: għand, B0POS: VERB_PSEU, B0Token: għandu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [għandu]   B= [jiġi, mħares, hu ,.. ]
-
-B0IsInLexic: true, B0Lemma: ġie, B0POS: VERB, B0Token: jiġi, S0B0Lemma: għand_ġie, S0B0LemmaPOS: għand_VERB, S0B0POS: VERB_PSEU_VERB, S0B0POSLemma: VERB_PSEU_ġie, S0B0Token: għandu_jiġi, S0B1Lemma: għand_mħares, S0B1LemmaPOS: għand_PART_PASS, S0B1POS: VERB_PSEU_PART_PASS, S0B1POSLemma: VERB_PSEU_mħares, S0B1Token: għandu_mħares, S0IsInLexic: true, S0Lemma: għand, S0POS: VERB_PSEU, S0Token: għandu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jiġi, mħares, hu ,.. ]
-
-B0IsInLexic: true, B0Lemma: ġie, B0POS: VERB, B0Token: jiġi, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jiġi]   B= [mħares, hu, dak ,.. ]
-
-B0Lemma: mħares, B0POS: PART_PASS, B0Token: mħares, S0B0Lemma: ġie_mħares, S0B0LemmaPOS: ġie_PART_PASS, S0B0POS: VERB_PART_PASS, S0B0POSLemma: VERB_mħares, S0B0Token: jiġi_mħares, S0B1Lemma: ġie_hu, S0B1LemmaPOS: ġie_PRON_PERS, S0B1POS: VERB_PRON_PERS, S0B1POSLemma: VERB_hu, S0B1Token: jiġi_hu, S0IsInLexic: true, S0Lemma: ġie, S0POS: VERB, S0Token: jiġi, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mħares, hu, dak ,.. ]
-
-B0Lemma: mħares, B0POS: PART_PASS, B0Token: mħares, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mħares]   B= [hu, dak, tal- ,.. ]
-
-B0IsInLexic: true, B0Lemma: hu, B0POS: PRON_PERS, B0Token: hu, S0B0Lemma: mħares_hu, S0B0LemmaPOS: mħares_PRON_PERS, S0B0POS: PART_PASS_PRON_PERS, S0B0POSLemma: PART_PASS_hu, S0B0Token: mħares_hu, S0B1Lemma: mħares_dan, S0B1LemmaPOS: mħares_PRON_DEM, S0B1POS: PART_PASS_PRON_DEM, S0B1POSLemma: PART_PASS_dan, S0B1Token: mħares_dak, S0Lemma: mħares, S0POS: PART_PASS, S0Token: mħares, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hu, dak, tal- ,.. ]
-
-B0IsInLexic: true, B0Lemma: hu, B0POS: PRON_PERS, B0Token: hu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hu]   B= [dak, tal-, minuri ,.. ]
-
-B0Lemma: dan, B0POS: PRON_DEM, B0Token: dak, S0B0Lemma: hu_dan, S0B0LemmaPOS: hu_PRON_DEM, S0B0POS: PRON_PERS_PRON_DEM, S0B0POSLemma: PRON_PERS_dan, S0B0Token: hu_dak, S0B1Lemma: hu_ta', S0B1LemmaPOS: hu_GEN_DEF, S0B1POS: PRON_PERS_GEN_DEF, S0B1POSLemma: PRON_PERS_ta', S0B1Token: hu_tal-, S0IsInLexic: true, S0Lemma: hu, S0POS: PRON_PERS, S0Token: hu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dak, tal-, minuri ,.. ]
-
-B0Lemma: dan, B0POS: PRON_DEM, B0Token: dak, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dak]   B= [tal-, minuri, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, S0B0Lemma: dan_ta', S0B0LemmaPOS: dan_GEN_DEF, S0B0POS: PRON_DEM_GEN_DEF, S0B0POSLemma: PRON_DEM_ta', S0B0Token: dak_tal-, S0B1Lemma: dan_minuri, S0B1LemmaPOS: dan_ADJ, S0B1POS: PRON_DEM_ADJ, S0B1POSLemma: PRON_DEM_minuri, S0B1Token: dak_minuri, S0Lemma: dan, S0POS: PRON_DEM, S0Token: dak, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, minuri, , ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_DEF, B0Token: tal-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [minuri, ,, li ,.. ]
-
-B0Lemma: minuri, B0POS: ADJ, B0Token: minuri, S0B0Lemma: ta'_minuri, S0B0LemmaPOS: ta'_ADJ, S0B0POS: GEN_DEF_ADJ, S0B0POSLemma: GEN_DEF_minuri, S0B0Token: tal-_minuri, S0B1Lemma: ta'_,, S0B1LemmaPOS: ta'_X_PUN, S0B1POS: GEN_DEF_X_PUN, S0B1POSLemma: GEN_DEF_,, S0B1Token: tal-_,, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_DEF, S0Token: tal-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [minuri, ,, li ,.. ]
-
-B0Lemma: minuri, B0POS: ADJ, B0Token: minuri, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [minuri]   B= [,, li, fl- ,.. ]
-
-B0Lemma: ,, B0POS: X_PUN, B0Token: ,, S0B0Lemma: minuri_,, S0B0LemmaPOS: minuri_X_PUN, S0B0POS: ADJ_X_PUN, S0B0POSLemma: ADJ_,, S0B0Token: minuri_,, S0B1Lemma: minuri_li, S0B1LemmaPOS: minuri_COMP, S0B1POS: ADJ_COMP, S0B1POSLemma: ADJ_li, S0B1Token: minuri_li, S0Lemma: minuri, S0POS: ADJ, S0Token: minuri, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, li, fl- ,.. ]
-
-B0Lemma: ,, B0POS: X_PUN, B0Token: ,, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [li, fl-, innoċenza ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: ,_li, S0B0LemmaPOS: ,_COMP, S0B0POS: X_PUN_COMP, S0B0POSLemma: X_PUN_li, S0B0Token: ,_li, S0B1Lemma: ,_fi, S0B1LemmaPOS: ,_PREP_DEF, S0B1POS: X_PUN_PREP_DEF, S0B1POSLemma: X_PUN_fi, S0B1Token: ,_fl-, S0Lemma: ,, S0POS: X_PUN, S0Token: ,, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, fl-, innoċenza ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [fl-, innoċenza, kollha ,.. ]
-
-B0IsInLexic: true, B0Lemma: fi, B0POS: PREP_DEF, B0Token: fl-, S0B0Lemma: li_fi, S0B0LemmaPOS: li_PREP_DEF, S0B0POS: COMP_PREP_DEF, S0B0POSLemma: COMP_fi, S0B0Token: li_fl-, S0B1Lemma: li_innoċenza, S0B1LemmaPOS: li_NOUN, S0B1POS: COMP_NOUN, S0B1POSLemma: COMP_innoċenza, S0B1Token: li_innoċenza, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fl-, innoċenza, kollha ,.. ]
-
-B0IsInLexic: true, B0Lemma: fi, B0POS: PREP_DEF, B0Token: fl-, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fl-]   B= [innoċenza, kollha, tiegħu ,.. ]
-
-B0Lemma: innoċenza, B0POS: NOUN, B0Token: innoċenza, S0B0Lemma: fi_innoċenza, S0B0LemmaPOS: fi_NOUN, S0B0POS: PREP_DEF_NOUN, S0B0POSLemma: PREP_DEF_innoċenza, S0B0Token: fl-_innoċenza, S0B1Lemma: fi_kollha, S0B1LemmaPOS: fi_QUAN, S0B1POS: PREP_DEF_QUAN, S0B1POSLemma: PREP_DEF_kollha, S0B1Token: fl-_kollha, S0IsInLexic: true, S0Lemma: fi, S0POS: PREP_DEF, S0Token: fl-, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [innoċenza, kollha, tiegħu ,.. ]
-
-B0Lemma: innoċenza, B0POS: NOUN, B0Token: innoċenza, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [innoċenza]   B= [kollha, tiegħu, sab ,.. ]
-
-B0Lemma: kollha, B0POS: QUAN, B0Token: kollha, S0B0Lemma: innoċenza_kollha, S0B0LemmaPOS: innoċenza_QUAN, S0B0POS: NOUN_QUAN, S0B0POSLemma: NOUN_kollha, S0B0Token: innoċenza_kollha, S0B1Lemma: innoċenza_ta', S0B1LemmaPOS: innoċenza_GEN_PRON, S0B1POS: NOUN_GEN_PRON, S0B1POSLemma: NOUN_ta', S0B1Token: innoċenza_tiegħu, S0Lemma: innoċenza, S0POS: NOUN, S0Token: innoċenza, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kollha, tiegħu, sab ,.. ]
-
-B0Lemma: kollha, B0POS: QUAN, B0Token: kollha, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kollha]   B= [tiegħu, sab, żewġ ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tiegħu, S0B0Lemma: kollha_ta', S0B0LemmaPOS: kollha_GEN_PRON, S0B0POS: QUAN_GEN_PRON, S0B0POSLemma: QUAN_ta', S0B0Token: kollha_tiegħu, S0B1Lemma: kollha_sab, S0B1LemmaPOS: kollha_VERB, S0B1POS: QUAN_VERB, S0B1POSLemma: QUAN_sab, S0B1Token: kollha_sab, S0Lemma: kollha, S0POS: QUAN, S0Token: kollha, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tiegħu, sab, żewġ ,.. ]
-
-B0IsInLexic: true, B0Lemma: ta', B0POS: GEN_PRON, B0Token: tiegħu, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tiegħu]   B= [sab, żewġ, adulti ,.. ]
-
-B0IsInLexic: true, B0Lemma: sab, B0POS: VERB, B0Token: sab, S0B0Lemma: ta'_sab, S0B0LemmaPOS: ta'_VERB, S0B0POS: GEN_PRON_VERB, S0B0POSLemma: GEN_PRON_sab, S0B0Token: tiegħu_sab, S0B1Lemma: ta'_żewġ, S0B1LemmaPOS: ta'_NUM_CRD, S0B1POS: GEN_PRON_NUM_CRD, S0B1POSLemma: GEN_PRON_żewġ, S0B1Token: tiegħu_żewġ, S0IsInLexic: true, S0Lemma: ta', S0POS: GEN_PRON, S0Token: tiegħu, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sab, żewġ, adulti ,.. ]
-
-B0IsInLexic: true, B0Lemma: sab, B0POS: VERB, B0Token: sab, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sab]   B= [żewġ, adulti, li ,.. ]
-
-B0Lemma: żewġ, B0POS: NUM_CRD, B0Token: żewġ, S0B0Lemma: sab_żewġ, S0B0LemmaPOS: sab_NUM_CRD, S0B0POS: VERB_NUM_CRD, S0B0POSLemma: VERB_żewġ, S0B0Token: sab_żewġ, S0B1Lemma: sab_adult, S0B1LemmaPOS: sab_ADJ, S0B1POS: VERB_ADJ, S0B1POSLemma: VERB_adult, S0B1Token: sab_adulti, S0IsInLexic: true, S0Lemma: sab, S0POS: VERB, S0Token: sab, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [żewġ, adulti, li ,.. ]
-
-B0Lemma: żewġ, B0POS: NUM_CRD, B0Token: żewġ, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [żewġ]   B= [adulti, li, daħħluh ,.. ]
-
-B0Lemma: adult, B0POS: ADJ, B0Token: adulti, S0B0Lemma: żewġ_adult, S0B0LemmaPOS: żewġ_ADJ, S0B0POS: NUM_CRD_ADJ, S0B0POSLemma: NUM_CRD_adult, S0B0Token: żewġ_adulti, S0B1Lemma: żewġ_li, S0B1LemmaPOS: żewġ_COMP, S0B1POS: NUM_CRD_COMP, S0B1POSLemma: NUM_CRD_li, S0B1Token: żewġ_li, S0Lemma: żewġ, S0POS: NUM_CRD, S0Token: żewġ, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [adulti, li, daħħluh ,.. ]
-
-B0Lemma: adult, B0POS: ADJ, B0Token: adulti, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [adulti]   B= [li, daħħluh, f' ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: adult_li, S0B0LemmaPOS: adult_COMP, S0B0POS: ADJ_COMP, S0B0POSLemma: ADJ_li, S0B0Token: adulti_li, S0B1Lemma: adult_daħħal, S0B1LemmaPOS: adult_VERB, S0B1POS: ADJ_VERB, S0B1POSLemma: ADJ_daħħal, S0B1Token: adulti_daħħluh, S0Lemma: adult, S0POS: ADJ, S0Token: adulti, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, daħħluh, f' ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [daħħluh, f', basla ,.. ]
-
-B0IsInLexic: true, B0Lemma: daħħal, B0POS: VERB, B0Token: daħħluh, S0B0Lemma: li_daħħal, S0B0LemmaPOS: li_VERB, S0B0POS: COMP_VERB, S0B0POSLemma: COMP_daħħal, S0B0Token: li_daħħluh, S0B1Lemma: li_fi, S0B1LemmaPOS: li_PREP, S0B1POS: COMP_PREP, S0B1POSLemma: COMP_fi, S0B1Token: li_f', S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [daħħluh, f', basla ,.. ]
-
-B0IsInLexic: true, B0Lemma: daħħal, B0POS: VERB, B0Token: daħħluh, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daħħluh]   B= [f', basla, li ,.. ]
-
-B0IsInLexic: true, B0Lemma: fi, B0POS: PREP, B0Token: f', S0B0Lemma: daħħal_fi, S0B0LemmaPOS: daħħal_PREP, S0B0POS: VERB_PREP, S0B0POSLemma: VERB_fi, S0B0Token: daħħluh_f', S0B1Lemma: daħħal_basal, S0B1LemmaPOS: daħħal_NOUN, S0B1POS: VERB_NOUN, S0B1POSLemma: VERB_basal, S0B1Token: daħħluh_basla, S0IsInLexic: true, S0Lemma: daħħal, S0POS: VERB, S0Token: daħħluh, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-60- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daħħluh, f']   B= [basla, li, mhux ,.. ]
-
-B0IsInLexic: true, B0Lemma: basal, B0POS: NOUN, B0Token: basla, S0B0Lemma: fi_basal, S0B0LemmaPOS: fi_NOUN, S0B0POS: PREP_NOUN, S0B0POSLemma: PREP_basal, S0B0Token: f'_basla, S0B1Lemma: fi_li, S0B1LemmaPOS: fi_COMP, S0B1POS: PREP_COMP, S0B1POSLemma: PREP_li, S0B1Token: f'_li, S0IsInLexic: true, S0Lemma: fi, S0POS: PREP, S0S1Distance: 1, S0Token: f', S1B0Lemma: daħħal_basal, S1B0LemmaPOS: daħħal_NOUN, S1B0POS: VERB_NOUN, S1B0POSLemma: VERB_basal, S1B0Token: daħħluh_basla, S1IsInLexic: true, S1Lemma: daħħal, S1POS: VERB, S1S0Lemma: daħħal_fi, S1S0LemmaPOS: daħħal_PREP, S1S0POS: VERB_PREP, S1S0POSLemma: VERB_fi, S1S0Token: daħħluh_f', S1Token: daħħluh, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daħħluh, f', basla]   B= [li, mhux, se ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: basal_li, S0B0LemmaPOS: basal_COMP, S0B0POS: NOUN_COMP, S0B0POSLemma: NOUN_li, S0B0Token: basla_li, S0B1Lemma: basal_mhux, S0B1LemmaPOS: basal_PRON_PERS_NEG, S0B1POS: NOUN_PRON_PERS_NEG, S0B1POSLemma: NOUN_mhux, S0B1Token: basla_mhux, S0IsInLexic: true, S0Lemma: basal, S0POS: NOUN, S0S1Distance: 1, S0Token: basla, S1B0Lemma: fi_li, S1B0LemmaPOS: fi_COMP, S1B0POS: PREP_COMP, S1B0POSLemma: PREP_li, S1B0Token: f'_li, S1IsInLexic: true, S1Lemma: fi, S1POS: PREP, S1S0Lemma: fi_basal, S1S0LemmaPOS: fi_NOUN, S1S0POS: PREP_NOUN, S1S0POSLemma: PREP_basal, S1S0Token: f'_basla, S1Token: f', StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
-
-62- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daħħluh, [f', basla]]   B= [li, mhux, se ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: fi_basal_li, S0B0LemmaPOS: fi_basal_COMP, S0B0POS: PREP_NOUN_COMP, S0B0POSLemma: PREP_NOUN_li, S0B0Token: f'_basla_li, S0B1Lemma: fi_basal_mhux, S0B1LemmaPOS: fi_basal_PRON_PERS_NEG, S0B1POS: PREP_NOUN_PRON_PERS_NEG, S0B1POSLemma: PREP_NOUN_mhux, S0B1Token: f'_basla_mhux, S0Lemma: fi_basal, S0POS: PREP_NOUN, S0Token: f'_basla, S1B0Lemma: daħħal_li, S1B0LemmaPOS: daħħal_COMP, S1B0POS: VERB_COMP, S1B0POSLemma: VERB_li, S1B0Token: daħħluh_li, S1IsInLexic: true, S1Lemma: daħħal, S1POS: VERB, S1S0Lemma: daħħal_fi_basal, S1S0LemmaPOS: daħħal_PREP_NOUN, S1S0POS: VERB_PREP_NOUN, S1S0POSLemma: VERB_fi_basal, S1S0Token: daħħluh_f'_basla, S1Token: daħħluh, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
-
-63- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[daħħluh, [f', basla]]]   B= [li, mhux, se ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, S0B0Lemma: daħħal_fi_basal_li, S0B0LemmaPOS: daħħal_fi_basal_COMP, S0B0POS: VERB_PREP_NOUN_COMP, S0B0POSLemma: VERB_PREP_NOUN_li, S0B0Token: daħħluh_f'_basla_li, S0B1Lemma: daħħal_fi_basal_mhux, S0B1LemmaPOS: daħħal_fi_basal_PRON_PERS_NEG, S0B1POS: VERB_PREP_NOUN_PRON_PERS_NEG, S0B1POSLemma: VERB_PREP_NOUN_mhux, S0B1Token: daħħluh_f'_basla_mhux, S0Lemma: daħħal_fi_basal, S0POS: VERB_PREP_NOUN, S0Token: daħħluh_f'_basla, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
-
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, mhux, se ,.. ]
-
-B0IsInLexic: true, B0Lemma: li, B0POS: COMP, B0Token: li, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
-
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [mhux, se, joħroġ ,.. ]
-
-B0IsInLexic: true, B0Lemma: mhux, B0POS: PRON_PERS_NEG, B0Token: mhux, S0B0Lemma: li_mhux, S0B0LemmaPOS: li_PRON_PERS_NEG, S0B0POS: COMP_PRON_PERS_NEG, S0B0POSLemma: COMP_mhux, S0B0Token: li_mhux, S0B1Lemma: li_se, S0B1LemmaPOS: li_FUT, S0B1POS: COMP_FUT, S0B1POSLemma: COMP_se, S0B1Token: li_se, S0IsInLexic: true, S0Lemma: li, S0POS: COMP, S0Token: li, TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
-
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mhux, se, joħroġ ,.. ]
-
-B0IsInLexic: true, B0Lemma: mhux, B0POS: PRON_PERS_NEG, B0Token: mhux, TransHistory1: 0, TransHistory2: 02, TransHistory3: 021, 
-
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mhux]   B= [se, joħroġ, minnha ,.. ]
-
-B0IsInLexic: true, B0Lemma: se, B0POS: FUT, B0Token: se, S0B0Lemma: mhux_se, S0B0LemmaPOS: mhux_FUT, S0B0POS: PRON_PERS_NEG_FUT, S0B0POSLemma: PRON_PERS_NEG_se, S0B0Token: mhux_se, S0B1Lemma: mhux_ħareġ, S0B1LemmaPOS: mhux_VERB, S0B1POS: PRON_PERS_NEG_VERB, S0B1POSLemma: PRON_PERS_NEG_ħareġ, S0B1Token: mhux_joħroġ, S0IsInLexic: true, S0Lemma: mhux, S0POS: PRON_PERS_NEG, S0Token: mhux, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, joħroġ, minnha ,.. ]
-
-B0IsInLexic: true, B0Lemma: se, B0POS: FUT, B0Token: se, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [joħroġ, minnha, kif ,.. ]
-
-B0IsInLexic: true, B0Lemma: ħareġ, B0POS: VERB, B0Token: joħroġ, S0B0Lemma: se_ħareġ, S0B0LemmaPOS: se_VERB, S0B0POS: FUT_VERB, S0B0POSLemma: FUT_ħareġ, S0B0Token: se_joħroġ, S0B1Lemma: se_minn, S0B1LemmaPOS: se_PREP_PRON, S0B1POS: FUT_PREP_PRON, S0B1POSLemma: FUT_minn, S0B1Token: se_minnha, S0IsInLexic: true, S0Lemma: se, S0POS: FUT, S0Token: se, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [joħroġ, minnha, kif ,.. ]
-
-B0IsInLexic: true, B0Lemma: ħareġ, B0POS: VERB, B0Token: joħroġ, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [joħroġ]   B= [minnha, kif, ġieb ,.. ]
-
-B0IsInLexic: true, B0Lemma: minn, B0POS: PREP_PRON, B0Token: minnha, S0B0Lemma: ħareġ_minn, S0B0LemmaPOS: ħareġ_PREP_PRON, S0B0POS: VERB_PREP_PRON, S0B0POSLemma: VERB_minn, S0B0Token: joħroġ_minnha, S0B1Lemma: ħareġ_kif, S0B1LemmaPOS: ħareġ_PRON_INT, S0B1POS: VERB_PRON_INT, S0B1POSLemma: VERB_kif, S0B1Token: joħroġ_kif, S0IsInLexic: true, S0Lemma: ħareġ, S0POS: VERB, S0Token: joħroġ, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [minnha, kif, ġieb ,.. ]
-
-B0IsInLexic: true, B0Lemma: minn, B0POS: PREP_PRON, B0Token: minnha, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [minnha]   B= [kif, ġieb, u ,.. ]
-
-B0IsInLexic: true, B0Lemma: kif, B0POS: PRON_INT, B0Token: kif, S0B0Lemma: minn_kif, S0B0LemmaPOS: minn_PRON_INT, S0B0POS: PREP_PRON_PRON_INT, S0B0POSLemma: PREP_PRON_kif, S0B0Token: minnha_kif, S0B1Lemma: minn_ġieb, S0B1LemmaPOS: minn_VERB, S0B1POS: PREP_PRON_VERB, S0B1POSLemma: PREP_PRON_ġieb, S0B1Token: minnha_ġieb, S0IsInLexic: true, S0Lemma: minn, S0POS: PREP_PRON, S0Token: minnha, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kif, ġieb, u ,.. ]
-
-B0IsInLexic: true, B0Lemma: kif, B0POS: PRON_INT, B0Token: kif, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kif]   B= [ġieb, u, laħaq ,.. ]
-
-B0IsInLexic: true, B0Lemma: ġieb, B0POS: VERB, B0Token: ġieb, S0B0Lemma: kif_ġieb, S0B0LemmaPOS: kif_VERB, S0B0POS: PRON_INT_VERB, S0B0POSLemma: PRON_INT_ġieb, S0B0Token: kif_ġieb, S0B1Lemma: kif_u, S0B1LemmaPOS: kif_CONJ_CORD, S0B1POS: PRON_INT_CONJ_CORD, S0B1POSLemma: PRON_INT_u, S0B1Token: kif_u, S0IsInLexic: true, S0Lemma: kif, S0POS: PRON_INT, S0Token: kif, TransHistory1: 2, TransHistory2: 20, TransHistory3: 202, 
-
-76- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kif, ġieb]   B= [u, laħaq, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: u, B0POS: CONJ_CORD, B0Token: u, S0B0Lemma: ġieb_u, S0B0LemmaPOS: ġieb_CONJ_CORD, S0B0POS: VERB_CONJ_CORD, S0B0POSLemma: VERB_u, S0B0Token: ġieb_u, S0B1Lemma: ġieb_laħaq, S0B1LemmaPOS: ġieb_VERB, S0B1POS: VERB_VERB, S0B1POSLemma: VERB_laħaq, S0B1Token: ġieb_laħaq, S0IsInLexic: true, S0Lemma: ġieb, S0POS: VERB, S0S1Distance: 1, S0Token: ġieb, S1B0Lemma: kif_u, S1B0LemmaPOS: kif_CONJ_CORD, S1B0POS: PRON_INT_CONJ_CORD, S1B0POSLemma: PRON_INT_u, S1B0Token: kif_u, S1IsInLexic: true, S1Lemma: kif, S1POS: PRON_INT, S1S0Lemma: kif_ġieb, S1S0LemmaPOS: kif_VERB, S1S0POS: PRON_INT_VERB, S1S0POSLemma: PRON_INT_ġieb, S1S0Token: kif_ġieb, S1Token: kif, StackLengthIs: 2, TransHistory1: 0, TransHistory2: 02, TransHistory3: 020, 
-
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kif, ġieb, u]   B= [laħaq, . ,.. ]
-
-B0IsInLexic: true, B0Lemma: laħaq, B0POS: VERB, B0Token: laħaq, S0B0Lemma: u_laħaq, S0B0LemmaPOS: u_VERB, S0B0POS: CONJ_CORD_VERB, S0B0POSLemma: CONJ_CORD_laħaq, S0B0Token: u_laħaq, S0B1Lemma: u_., S0B1LemmaPOS: u_X_PUN, S0B1POS: CONJ_CORD_X_PUN, S0B1POSLemma: CONJ_CORD_., S0B1Token: u_., S0IsInLexic: true, S0Lemma: u, S0POS: CONJ_CORD, S0S1Distance: 1, S0Token: u, S1B0Lemma: ġieb_laħaq, S1B0LemmaPOS: ġieb_VERB, S1B0POS: VERB_VERB, S1B0POSLemma: VERB_laħaq, S1B0Token: ġieb_laħaq, S1IsInLexic: true, S1Lemma: ġieb, S1POS: VERB, S1S0Lemma: ġieb_u, S1S0LemmaPOS: ġieb_CONJ_CORD, S1S0POS: VERB_CONJ_CORD, S1S0POSLemma: VERB_u, S1S0Token: ġieb_u, S1Token: ġieb, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 002, 
-
-78- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kif, ġieb, u, laħaq]   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: laħaq_., S0B0LemmaPOS: laħaq_X_PUN, S0B0POS: VERB_X_PUN, S0B0POSLemma: VERB_., S0B0Token: laħaq_., S0IsInLexic: true, S0Lemma: laħaq, S0POS: VERB, S0S1Distance: 1, S0Token: laħaq, S1B0Lemma: u_., S1B0LemmaPOS: u_X_PUN, S1B0POS: CONJ_CORD_X_PUN, S1B0POSLemma: CONJ_CORD_., S1B0Token: u_., S1IsInLexic: true, S1Lemma: u, S1POS: CONJ_CORD, S1S0Lemma: u_laħaq, S1S0LemmaPOS: u_VERB, S1S0POS: CONJ_CORD_VERB, S1S0POSLemma: CONJ_CORD_laħaq, S1S0Token: u_laħaq, S1Token: u, StackLengthIs: 4, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
-
-79- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kif, ġieb, [u, laħaq]]   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: u_laħaq_., S0B0LemmaPOS: u_laħaq_X_PUN, S0B0POS: CONJ_CORD_VERB_X_PUN, S0B0POSLemma: CONJ_CORD_VERB_., S0B0Token: u_laħaq_., S0Lemma: u_laħaq, S0POS: CONJ_CORD_VERB, S0Token: u_laħaq, S1B0Lemma: ġieb_., S1B0LemmaPOS: ġieb_X_PUN, S1B0POS: VERB_X_PUN, S1B0POSLemma: VERB_., S1B0Token: ġieb_., S1IsInLexic: true, S1Lemma: ġieb, S1POS: VERB, S1S0Lemma: ġieb_u_laħaq, S1S0LemmaPOS: ġieb_CONJ_CORD_VERB, S1S0POS: VERB_CONJ_CORD_VERB, S1S0POSLemma: VERB_u_laħaq, S1S0Token: ġieb_u_laħaq, S1Token: ġieb, StackLengthIs: 3, TransHistory1: 0, TransHistory2: 00, TransHistory3: 000, 
-
-80- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kif, [ġieb, [u, laħaq]]]   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: ġieb_u_laħaq_., S0B0LemmaPOS: ġieb_u_laħaq_X_PUN, S0B0POS: VERB_CONJ_CORD_VERB_X_PUN, S0B0POSLemma: VERB_CONJ_CORD_VERB_., S0B0Token: ġieb_u_laħaq_., S0Lemma: ġieb_u_laħaq, S0POS: VERB_CONJ_CORD_VERB, S0Token: ġieb_u_laħaq, S1B0Lemma: kif_., S1B0LemmaPOS: kif_X_PUN, S1B0POS: PRON_INT_X_PUN, S1B0POSLemma: PRON_INT_., S1B0Token: kif_., S1IsInLexic: true, S1Lemma: kif, S1POS: PRON_INT, S1S0Lemma: kif_ġieb_u_laħaq, S1S0LemmaPOS: kif_VERB_CONJ_CORD_VERB, S1S0POS: PRON_INT_VERB_CONJ_CORD_VERB, S1S0POSLemma: PRON_INT_ġieb_u_laħaq, S1S0Token: kif_ġieb_u_laħaq, S1Token: kif, StackLengthIs: 2, TransHistory1: 1, TransHistory2: 10, TransHistory3: 100, 
-
-81- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[kif, [ġieb, [u, laħaq]]]]   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., S0B0Lemma: kif_ġieb_u_laħaq_., S0B0LemmaPOS: kif_ġieb_u_laħaq_X_PUN, S0B0POS: PRON_INT_VERB_CONJ_CORD_VERB_X_PUN, S0B0POSLemma: PRON_INT_VERB_CONJ_CORD_VERB_., S0B0Token: kif_ġieb_u_laħaq_., S0Lemma: kif_ġieb_u_laħaq, S0POS: PRON_INT_VERB_CONJ_CORD_VERB, S0Token: kif_ġieb_u_laħaq, TransHistory1: 1, TransHistory2: 11, TransHistory3: 110, 
-
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
-
-B0IsInLexic: true, B0Lemma: ., B0POS: X_PUN, B0Token: ., TransHistory1: 1, TransHistory2: 11, TransHistory3: 111, 
-
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
-
-S0IsInLexic: true, S0Lemma: ., S0POS: X_PUN, S0Token: ., TransHistory1: 2, TransHistory2: 21, TransHistory3: 211, 
-
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
 

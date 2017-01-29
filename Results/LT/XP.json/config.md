@@ -28,3 +28,5 @@ generateS0B2Bigram = True
 
 useStackLength = True
 
+enhanceMerge = True
+

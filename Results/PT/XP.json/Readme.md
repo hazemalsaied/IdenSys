@@ -17,6 +17,6 @@ Score: 1.0, Number of merge operation: 693
 Score: 1.0, Number of merge operation: 700
 ### The Selected Classifier is: 3
 ## Exact Identification Evaluation: 
-#### Recall: 0.598
-#### Precision: 0.780
-#### F-Score: 0.677
+#### Recall: 0.626
+#### Precision: 0.743
+#### F-Score: 0.679

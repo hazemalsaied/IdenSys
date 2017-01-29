@@ -39,9 +39,12 @@ class Parameters:
     useS0S1Distance = True
     useStackLength = True
 
-    enableSingleMWE = True
 
+    enhanceMerge = False
+    enableSingleMWE = False
     useLexic = False
+
+    generateS1B1 = False
 
     def __init__(self, filePath):
 
@@ -52,7 +55,13 @@ class Parameters:
                 Parameters.xpName = filePath.split('/')[-1].split('.')[0]
             Parameters.configPath = filePath
 
-            if "usePreciseDictionary" in  config.keys():
+            if "generateS1B1" in config.keys():
+                Parameters.generateS1B1 = config["generateS1B1"]
+
+            if "enhanceMerge" in config.keys():
+                Parameters.enhanceMerge = config["enhanceMerge"]
+
+            if "usePreciseDictionary" in config.keys():
                 Parameters.usePreciseDictionary = config["usePreciseDictionary"]
 
             if "useLexic" in config.keys():
@@ -74,6 +83,7 @@ class Parameters:
             Parameters.useStackLength = config["useStackLength"]
             Parameters.useSyntax = config["UseLinguistInfo"]["useSytax"]
             Parameters.generateS0B2Bigram = config["generateS0B2Bigram"]
+
             Parameters.useDictionary = config["useDictionary"]
 
             Parameters.transitionHistoryLength1 = config["useTransitionHistory"]["transitionHistoryLength1"]

@@ -35,6 +35,7 @@ class Identifier:
                         clf = Identifier.train('', corpus, trainingSents)
                         fScore, recall, precision = Identifier.parse(testingSents, clf, Parser.mweDictionary,
                                                                      Parameters.languageName)
+                        print Parser.counter
                         Report.editTotalReadMe(fScore, recall, precision, corpus , testingSents)
 
     @staticmethod

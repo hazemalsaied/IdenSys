@@ -9,10 +9,6 @@ a (2) bekezdésben meghatározottak számítása során , valamint a szavazati j
 3- **forgalomba hozott** (LVC, 4)
 ### Identified MWEs: 
 1- **bekezdésben** 
-2- **felfüggesztése** 
-3- **figyelembe venni** 
-4- **jár el** 
-5- **forgalomba hozott** 
 ## Sentence No. 2385 - 
 tekintettel arra , hogy a cégbíróság a társaság működése felett a ctv. 50. § (1) bekezdés d) pontja alapján törvényességi felügyeletet gyakorol , továbbá arra , hogy az alaptőke leszállításáról rendelkező közgyűlési határozat a gt. ( új ) 239. § (3) bekezdése alapján még annak végrehajtása előtt benyújtásra kerül a cégbírósághoz , a cégbíróságot arról is tájékoztatni kell , ha az alaptőke leszállítása valamely oknál fogva meghiúsult . 
 ### Existing MWEs: 
@@ -107,9 +103,10 @@ a szabálymódosítása a zártkörű forgalomba hozatal fogalmának a változá
 1- **részt venni** (LVC)
 4- **függ össze** (VPC, 4)
 ### Identified MWEs: 
-1- **összefüggésben** 
-2- **előírt** 
-3- **függ össze** 
+1- **forgalomba hozatal** 
+2- **összefüggésben** 
+3- **előírt** 
+4- **függ össze** 
 ## Sentence No. 70 - 
 a kht.-ról rendelkező ptk. 57. § (2) bekezdése azt írja elő , hogy erre a cégformára a kft.-re vonatkozó szabályokat kell megfelelően alkalmazni , ide értve a gt. ( új ) közös és átalakulási szabályait is . 
 ### Existing MWEs: 
@@ -217,8 +214,9 @@ a zártkörű forgalomba hozatal fogalmát a gt. ( új ) 318. § (2) bekezdésé
 1- **bekezdésével** (VPC, 570)
 2- **bekezdésének** (VPC, 570)
 ### Identified MWEs: 
-1- **bekezdésével** 
-2- **bekezdésének** 
+1- **forgalomba hozatal** 
+2- **bekezdésével** 
+3- **bekezdésének** 
 ## Sentence No. 1390 - 
 olyan esetekben , ha az átruházásra nyitvaálló hat hónapos határidő alatt a jogosultnak nem sikerült értékesíteni a részvényeit , vagy bármilyen okból nem értékesítette azokat , a részvénytársaságnak a hat hónapos határidő elteltét követő első közgyűlésen vagy át kell alakítani a dolgozói részvényt más részvényfajtává , vagy pedig az alaptőke megfelelő leszállításával be kell vonni a részvényeket . 
 ### Existing MWEs: 
@@ -301,9 +299,10 @@ amennyiben azonban a részvényes az igazgatóság felhívásában foglaltaknak 
 2- **késedelembe esett** (LVC, 2)
 ### Identified MWEs: 
 1- **felhívásában** 
-2- **alkalmazásra kerül** 
-3- **eljárás** 
-4- **késedelembe esett** 
+2- **tesz eleget** 
+3- **alkalmazásra kerül** 
+4- **eljárás** 
+5- **késedelembe esett** 
 ## Sentence No. 2260 - 
 a további 20%-ot a sikeres részvényjegyzést követően a gt. ( új ) 252. § (2) bekezdése alapján 60 napon belül megtartásra kerülő második közgyűlés megnyitásáig kell befizetni a gt. ( új ) 216. § (3) bekezdésének alkalmazásával . 
 ### Existing MWEs: 
@@ -482,7 +481,9 @@ a felhasználó azonban , ha bizonyítani tudja , hogy a korábbi szerzői enged
 2- **adott engedélye** (LVC, 1)
 3- **felmerült** (VPC, 3)
 ### Identified MWEs: 
-1- **felmerült** 
+1- **előkészületeket tett** 
+2- **adott engedélye** 
+3- **felmerült** 
 ## Sentence No. 3555 - 
 egyebekben a felhasználási szerződésben , a szerző részéről adott felhasználási engedély csak kifejezett kikötés esetén ad a felhasználónak jogot arra , hogy a művet kép- vagy hanghordozóra rögzítse , illetve hogy azt számítógéppel vagy elektronikus adathordozóra másolja [ szjt. ( új ) 47. § (3) ] . 
 ### Existing MWEs: 
@@ -497,7 +498,8 @@ ezért olyan esetekben , ha a jogutód gazdasági társaság nem felel meg a hat
 2- **felel meg** (VPC, 2)
 1- **feltételeinek** (VPC, 68)
 ### Identified MWEs: 
-1- **feltételeinek** 
+1- **felel meg** 
+2- **feltételeinek** 
 ## Sentence No. 75 - 
 ezekhez a társasági jogi közös szabályokhoz azonban a kft. kht.-vá átalakulásánál a gt. ( új ) 69. § (2) bekezdése a fentebb részletezett kivételi szabályokat állapította meg . 
 ### Existing MWEs: 
@@ -537,6 +539,7 @@ beolvadás esetében a beolvadó gazdasági társaság megszűnik és annak vagy
 ### Identified MWEs: 
 1- **beolvadás** 
 2- **beolvadó** 
+3- **száll át** 
 ## Sentence No. 150 - 
 megítélésünk szerint a 73. § (5) bekezdésének a részvénnyel kapcsolatos meghatározása nem áll egészen összhangban a 73. § (3)-(4) bekezdésének a meghatározásával . 
 ### Existing MWEs: 
@@ -573,8 +576,9 @@ ezért olyan esetekben , ha több részvényfajtája , illetve részvényosztál
 1- **előírásait** (VPC, 121)
 2- **megfelelően** (VPC, 88)
 ### Identified MWEs: 
-1- **előírásait** 
-2- **megfelelően** 
+1- **határozat meghozatalánál** 
+2- **előírásait** 
+3- **megfelelően** 
 ## Sentence No. 260 - 
 a gazdasági társaságok mellett a ptk. 60. § (1) bekezdéséből következően a kht.-k szétválására is megfelelően alkalmazni kell a vii. fejezet 5. címének a rendelkezéseit . 
 ### Existing MWEs: 
@@ -692,6 +696,7 @@ a tagkizárás előfeltételét képezi , hogy az igazgató tanács 3/4-es szót
 1- **előfeltételét** 
 2- **határozatot hozzon** 
 3- **kizárás** 
+4- **határozat meghozatalától** 
 ## Sentence No. 635 - 
 az igazgatótanács hozzájárulásával a tagsági jogok más tagra történő átruházásával is ki lehet lépni a vállalatból . 
 ### Existing MWEs: 
@@ -791,7 +796,6 @@ a zártkörű működésnél tehát kizárólag csak zártkörűen kerülhetnek 
 2- **kerülhet hozatalra** (LVC, 1)
 ### Identified MWEs: 
 1- **kerülhetnek forgalomba** 
-2- **kerülhet hozatalra** 
 ## Sentence No. 1195 - 
 ( ez alól az ideiglenes részvénynél újként megfogalmazott kezesi felelősség lehet csak kivétel olyan módon , hogy az ideiglenes részvény birtokosa mellett a jegyzett vagy átvenni vállalt részvényekre teljesítendő vagyoni hozzájárulásból eredő tartozásért az ideiglenes részvény valamennyi volt tulajdonosa is kezesi felelősséggel tartozik . ) 
 ### Existing MWEs: 
@@ -815,6 +819,7 @@ a gt. ( új ) 179. § (2) bekezdése az 1997. január 1-jén hatályba lépett 1
 2- **hatályba lépett** (LVC, 1)
 ### Identified MWEs: 
 1- **bekezdése** 
+2- **hatályba lépett** 
 ## Sentence No. 1230 - 
 ezért ennek a részvénytípusnak az átruházási módja az előállítási formájától függően eltérően alakul és arra a gt. ( új ) , illetve az 1996. évi cxi. törvény szabályait kell megfelelően alkalmazni . 
 ### Existing MWEs: 
@@ -969,7 +974,8 @@ szintén a jegyzési ív tartalmára vonatkozóan is ad útmutatatást a cg. tö
 1- **ad útmutatatást** (LVC)
 2- **fel tüntetni** (VPC, 24)
 ### Identified MWEs: 
-1- **fel tüntetni** 
+1- **kerül sor** 
+2- **fel tüntetni** 
 ## Sentence No. 1950 - 
 az alakuló közgyűlés : a) megállapítja a részvényjegyzés eredményességét ; b) dönt a túljegyzés elfogadásáról vagy visszautasításáról , kivéve , ha az alapítók az alapítási tervezetben ezt a jogot maguknak tartották fenn ; c) megállapítja az alapszabályt ; d) megválasztja az első igazgatóságot , a felügyelő bizottságot és a könyvvizsgálót , kivéve , ha az alapítók az alapítási tervezetben ezt a jogot maguknak tartották fenn . 
 ### Existing MWEs: 
@@ -1040,9 +1046,6 @@ a napirendi pontok megjelölésével és a szavazati jog gyakorlása módjának 
 ### Existing MWEs: 
 2- **feltüntetésével** (VPC, 21)
 1- **határozatokat hozott** (LVC, 7)
-### Identified MWEs: 
-1- **feltüntetésével** 
-2- **határozatokat hozott** 
 ## Sentence No. 2140 - 
 a közgyűlés összehívásáról szóló hirdetményben az igazgatóságnak az alapszabályban előírt rendelkezésekre hivatkozva kell közölnie a szavazati jog gyakorlásának feltételeit . 
 ### Existing MWEs: 
@@ -1050,7 +1053,6 @@ a közgyűlés összehívásáról szóló hirdetményben az igazgatóságnak az
 1- **feltételeit** (VPC, 68)
 ### Identified MWEs: 
 1- **előírt** 
-2- **feltételeit** 
 ## Sentence No. 2185 - 
 a jegyzőkönyvnek mind tartalmilag , mind alakilag olyannak kell lennie , hogy alkalmas legyen annak igazolására , hogy a közgyűlés megtartására a törvényes rendben , a jogszabályi előírásoknak megfelelően került sor . 
 ### Existing MWEs: 
@@ -1059,6 +1061,7 @@ a jegyzőkönyvnek mind tartalmilag , mind alakilag olyannak kell lennie , hogy 
 ### Identified MWEs: 
 1- **előírásoknak** 
 2- **megfelelően** 
+3- **került sor** 
 ## Sentence No. 2205 - 
 a gt. ( új ) 21. § (3) bekezdésével összhangban a törvény rögzíti , hogy a részvénytársaság ügyvezetését az igazgatóság látja el . 
 ### Existing MWEs: 
@@ -1074,7 +1077,8 @@ amennyiben az új igazgatósági tag megválasztására a lemondást követő 60
 2- **lemondás** (VPC, 13)
 ### Identified MWEs: 
 1- **lemondást** 
-2- **lemondás** 
+2- **kerül sor** 
+3- **lemondás** 
 ## Sentence No. 2240 - 
 ha a közgyűlés összehívására az (1) bekezdés a) pontjában meghatározott okból kerül sor , a közgyűlés - a 258. § (1) bekezdésben foglalt korlátok között - határoz a részvénytársaság alaptőkéjének a leszállításáról . 
 ### Existing MWEs: 
@@ -1082,15 +1086,17 @@ ha a közgyűlés összehívására az (1) bekezdés a) pontjában meghatározot
 2- **bekezdésben** (VPC, 570)
 ### Identified MWEs: 
 1- **bekezdés** 
-2- **bekezdésben** 
+2- **kerül sor** 
+3- **bekezdésben** 
 ## Sentence No. 2285 - 
 az alaptőkének új részvények nyilvános forgalomba hozatalával történő felemelése során a részvénytársaság részvényeseit - ezen belül első helyen a forgalomba hozott részvényekkel azonos részvénysorozatba tartozó részvénnyel rendelkező részvényeseket - és a jegyzési jogot biztosító kötvények tulajdonosait - ebben a sorrendben - az alapszabályban vagy az alapszabály felhatalmazása alapján a közgyűlés határozatában meghatározott feltételek szerint jegyzési elsőbbség illeti meg . 
 ### Existing MWEs: 
 1- **forgalomba hozott** (LVC, 4)
 2- **feltételek** (VPC, 68)
 ### Identified MWEs: 
-1- **forgalomba hozott** 
-2- **feltételek** 
+1- **forgalomba hozatalával** 
+2- **forgalomba hozott** 
+3- **feltételek** 
 ## Sentence No. 2310 - 
 az alapító okirat ( alapszabály ) módosításán túlmenően a közgyűlési határozatban meg kell határozni az alaptőke-emelés végrehajtásának formáját ( új részvények kibocsátása , felülbélyegzés , kicserélés ) és végrehajtásának szabályait . 
 ### Existing MWEs: 
@@ -1212,6 +1218,7 @@ ezért a gt. ( új ) 47. § (3) bekezdése a felülvizsgálat iránti kereset be
 ### Identified MWEs: 
 1- **bekezdése** 
 2- **benyújtásának** 
+3- **határozat meghozatalától** 
 ## Sentence No. 2910 - 
 ezzel összefüggésben mondja ki a 301. § (1) bekezdése , hogy olyan esetekben , ha a törvény megváltoztatta valamelyik részvényest megillető jogosultság számításának az alapját , vagy az igénybevétel feltételeit , akkor a gt. ( új ) vonatkozó szabályát a gt. ( új ) életbelépését követő első teljes naptári év eltelte után lehet csak alkalmazni . 
 ### Existing MWEs: 
@@ -1253,6 +1260,7 @@ a gt. ( új ) 318. § (2) bekezdése ugyanis módosította az 1996. évi cxi. t�
 ### Identified MWEs: 
 1- **bekezdése** 
 2- **bekezdés** 
+3- **forgalomba hozatalának** 
 ## Sentence No. 3030 - 
 a gt. ( új ) 311. § (2) bekezdése a szöv. tv. 9. §-át módosította a cégbejegyzési kérelem elutasítása esetén követendő elszámolási mód meghatározásáról . 
 ### Existing MWEs: 
@@ -1933,6 +1941,7 @@ az 1996. évi cxi. törvény 44. § (1) bekezdése alapján a részvények nyilv
 1- **bekezdése** (VPC, 570)
 ### Identified MWEs: 
 1- **bekezdése** 
+2- **forgalomba hozatala** 
 ## Sentence No. 1530 - 
 ilyen átalakításról történő döntés meghozatala után a társaságoknak az 1996. évi cxi. törvény szerinti speciális " részvénycsere " eljárást kell lefolytatniuk . 
 ### Existing MWEs: 
@@ -2029,6 +2038,8 @@ továbbá az 1996. évi cxi. törvény 92. § ( 11 ) bekezdése szerint informá
 a részvénytársaság olyan névre szóló kötvény kibocsátását is elhatározhatja , amely utóbb , az alaptőke új részvények nyilvános forgalomba hozatalával történő felemelésekor - a részvényeseket követően - jegyzési jogot biztosít ( jegyzési jogot biztosító kötvény ) . 
 ### Existing MWEs: 
 1- **forgalomba hozatalával** (LVC, 19)
+### Identified MWEs: 
+1- **forgalomba hozatalával** 
 ## Sentence No. 1735 - 
 e szerint a kötvény névértékének legalább 5 millió forintnak kell lennie , a kötvényről a kibocsátónak információs összeállítást kell készítenie , s főszabályként forgalmazót is igénybe kell venni . 
 ### Existing MWEs: 
@@ -2152,8 +2163,6 @@ az érvényes határozathoz szükséges szavazatarányt - egyszerű szótöbbsé
 a szavazati jog gyakorlásának feltétele , módja 
 ### Existing MWEs: 
 1- **feltétele** (VPC, 68)
-### Identified MWEs: 
-1- **feltétele** 
 ## Sentence No. 2005 - 
 a részvényesi meghatalmazott mindazon részvényesi jogot gyakorolhatja , amely a részvényest megilleti . 
 ### Existing MWEs: 
@@ -2183,8 +2192,6 @@ főszabályként az osztalékot névérték arányosan kell felosztani , a rész
 a szavazati jog gyakorlásának módját - e törvény és az értékpapírokra vonatkozó törvényi előírások keretei között - az alapító okirat ( alapszabály ) határozza meg . 
 ### Existing MWEs: 
 1- **előírások** (VPC, 121)
-### Identified MWEs: 
-1- **előírások** 
 ## Sentence No. 2095 - 
 amennyiben továbbá a társaság azt szükségesnek tartja az alapító okiratban , alapszabályban meghatározott jogügyletek jóváhagyását szintén a felügyelőbizottságra ruházhatja át . 
 ### Existing MWEs: 
@@ -2195,6 +2202,8 @@ amennyiben továbbá a társaság azt szükségesnek tartja az alapító okiratb
 amennyiben a részvényesek a megjelölt határidőben részvényeiket nem nyújtják be a dematerializált értékpapír követelése iránti jogukat elveszítik . 
 ### Existing MWEs: 
 1- **nyújtják be** (VPC, 1)
+### Identified MWEs: 
+1- **nyújtják be** 
 ## Sentence No. 2130 - 
 a működés kétféle módja a zártkörű és nyilvános működésnek megfelelően a törvény a közgyűlés összehívására nézve is eltérő szabályokat állapít meg . 
 ### Existing MWEs: 
@@ -2622,6 +2631,8 @@ vannak viszont olyan esetek , amikor a szerző és a felhasználó közötti jog
 ha e törvény másképp nem rendelkezik , a szerzőt a mű felhasználására adott engedély fejében díjazás illeti meg , amelynek - eltérő megállapodás hiányában - a felhasználáshoz kapcsolódó bevétellel kell arányban állnia . 
 ### Existing MWEs: 
 1- **adott engedély** (LVC, 1)
+### Identified MWEs: 
+1- **adott engedély** 
 ## Sentence No. 3490 - 
 arról már nem is téve említést , hogy a felhasználót semmiféle szabály nem szankcionálja , amennyiben esetleg semmilyen bevételt nem ér el a mű hasznosításából . 
 ### Existing MWEs: 

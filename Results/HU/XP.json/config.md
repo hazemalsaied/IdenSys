@@ -1,6 +1,10 @@
 useFirstBufferElement = True
 
-usePreciseDictionary = False
+transitionHistoryLength1 = True
+
+transitionHistoryLength3 = True
+
+transitionHistoryLength2 = True
 
 useSecondBufferElement = True
 
@@ -16,6 +20,8 @@ usePOS = True
 
 S0S1Distance = False
 
+usePreciseDictionary = False
+
 useDictionary = True
 
 S0B0Distance = False
@@ -24,9 +30,5 @@ generateS0B2Bigram = False
 
 useStackLength = False
 
-transitionHistoryLength1 = True
-
-transitionHistoryLength3 = True
-
-transitionHistoryLength2 = True
+enableSingleMWE = True
 

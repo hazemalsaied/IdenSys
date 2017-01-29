@@ -8,6 +8,8 @@ transitionHistoryLength2 = False
 
 useSecondBufferElement = False
 
+generateS1B1 = False
+
 useBiGram = True
 
 useLemma = True
@@ -27,4 +29,6 @@ S0B0Distance = False
 generateS0B2Bigram = False
 
 useStackLength = False
+
+enhanceMerge = True
 

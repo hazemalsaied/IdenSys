@@ -70,11 +70,7 @@ class Report:
     def createStaticParsingReports(sents, crossValidationIdx=''):
         sentsForPrinting = [s for s in sents if len(s.vMWEs) >= 2]
         sentsForPrinting = sorted(sentsForPrinting, key=lambda Sentence: len(Sentence.vMWEs), reverse=True)
-        if len(sentsForPrinting) - 30 > 0:
-            random = randint(1, len(sentsForPrinting) - 30)
-        else:
-            random = 0
-        sentsForPrinting = sentsForPrinting[random:random + 5]
+        sentsForPrinting = sentsForPrinting[0:5]
         printingPath = os.path.join(Parameters.xpPath, 'StaticParsing' + str(crossValidationIdx) + '.md')
         staticParsingFile = open(printingPath, 'w')
         result = ''
@@ -104,15 +100,16 @@ class Report:
     @staticmethod
     def createParsingReport(testingSents, crossValidationIdx=''):
         sentsForPrinting = [s for s in testingSents if len(s.vMWEs) >= 1]
+
+        result = ''
+        for sent in sentsForPrinting :
+            if sent.id == 2795:
+                result += str(sent)
         sentsForPrinting = sorted(sentsForPrinting, key=lambda Sentence: len(Sentence.vMWEs), reverse=True)
-        if len(sentsForPrinting) - 30 > 0:
-            random = randint(1, len(sentsForPrinting) - 30)
-        else:
-            random = 0
         printingPath = os.path.join(Parameters.xpPath, 'Parsing' + str(crossValidationIdx) + '.md')
         staticParsingFile = open(printingPath, 'w')
-        result = ''
-        for sent in sentsForPrinting[random:random + 5]:
+
+        for sent in sentsForPrinting[0:5]:
             result += str(sent)
         staticParsingFile.write(result)
 

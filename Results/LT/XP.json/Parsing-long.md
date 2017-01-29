@@ -190,6 +190,8 @@ Tuo metu opozicija tiesiog dalyvauja rinkimų kampanijoje , nebent STT ištraukt
 Ji priminė , kad pareigūnams atliekant kratas dalyvavo Seimo kanceliarijos darbuotojas .
 ### Existing MWEs: 
 1- **atliekant kratas** (LVC, 1)
+### Identified MWEs: 
+1- **atliekant kratas** 
 ## Sentence No. 8076 - 
 Šaltinis pridūrė : „ Išgirdęs pirmąją diagnozę , Johnas buvo suakmenėjęs iš siaubo , o dabar jis atrodo daug ramesnis , ir , manau , faktas , kad jis jau kartą tai patyrė , ir žino , ko tikėtis , veikia raminančiai .
 ### Existing MWEs: 

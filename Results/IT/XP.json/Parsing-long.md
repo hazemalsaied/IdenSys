@@ -5,6 +5,8 @@ caro paginazero volevo spiegar- ti che io ho votato contro a ribbeck , perché n
 4- **troverebbe scusa** (LVC)
 2- **fa piacere** (LVC, 1)
 3- **mi troverà** (IReflV)
+### Identified MWEs: 
+1- **mi fa piacere** 
 ## Sentence No. 8425 - 
 valcareggi guidò ancora la nazionale fino ai mondiali di germania del '74 - dove entrò in rotta di collisione con il centravanti della lazio giorgio chinaglia che lo mandò platealmente a quel paese per essere stato richiamato in panchina durante un incontro - e , lasciato il club azzurro , tornò successivamente ad allenare per qualche tempo squadre di club fino a limitar- si a svolgere l' attività da commentatore sportivo . 
 ### Existing MWEs: 
@@ -43,7 +45,7 @@ ed è solo spaziando che mi faccio un' idea personale e a 360 gradi di tutto que
 1- **mi faccio** (IReflV, 1)
 2- **mi faccio un' idea** (ID), Interleaving 
 ### Identified MWEs: 
-1- **faccio un' idea** 
+1- **mi faccio un' idea** 
 ## Sentence No. 1135 - 
 vengo al dunque perché in questi anni non sono state ascoltate la voce degli ambientalisti , di chi sa osservare il territorio , perché si è permesso che le relazioni diventassero liquide a tal punto da mettere in crisi lo stato sociale e l' ambiente stesso perché ... perché in questi anni che siete stati seduti su quelle poltrone non avete pensato ( i panelli solari esistono da più di 5 lustri ) di rivestire i tetti del comune , delle scuole , le facciate ecc ... perchè s non sono state rivestite da panelli solari di ultima generazione , perché non sì è attinto dai fodi comunitari , regionali statali per fare questo ? 
 ### Existing MWEs: 
@@ -74,8 +76,10 @@ e non mi si venga a dire che è proprio in questo caso che si sente il bisogno d
 1- **fatto comodo** (ID, 1)
 2- **far finta** (LVC, 3)
 ### Identified MWEs: 
-1- **far finta** 
-2- **si stabilito** 
+1- **si sente** 
+2- **fatto comodo** 
+3- **far finta** 
+4- **si stabilito** 
 ## Sentence No. 1950 - 
 ( per dar- gli le notizie , perchè da quando ha compreso che con il suo modo di scrivere ... sono io che seguo il blog per suo conto riportando il suo pensiero ) perchè mio padre abbia voluto affrontare questa avventura ; si , lui che non ha mai amato la vita pubblica , che ha avuto sempre un diniego per la politica rifiutando ben più remunerati incarichi offerti da politici che nemmeno vi immaginate ad adria e il sig ferrarese lo sa , si lui che ... che ha sempre rinnegato in tutti questi anni il cambiamento attraverso la politica , si lui che io vorrei aver più a casa con noi , si lui che diceva che i politici , citando , c quell' aforisma che fin da piccolo sentivo dire e che mi ha perfino nauseato di oscar wilde " che fare politica vuol dire l' inizio del fallimento " si lui che ora vuole fallire come persona perchè non vuole che l' ambiente sia ridotto in rovina , non vuole che altri giovani facciano la fine di sua sorella specie li ad adria si lui che ... dice che non sta facendo politica ma che è in missione per conto di dio citando il famoso fil del blus b. si lui che è stanco di quello che stanno facendo questi politici che hanno i soldi per far- si una campagna elettorale da sogli e lui non ha accettato nulla perchè ... in tempi di crisi dice che è meglio dar- li alla gente che ha bisogno . 
 ### Existing MWEs: 
@@ -83,6 +87,7 @@ e non mi si venga a dire che è proprio in questo caso che si sente il bisogno d
 2- **far- si** (IReflV, 10)
 ### Identified MWEs: 
 1- **far- si** 
+2- **ha bisogno** 
 ## Sentence No. 2340 - 
 volete che vi scriva due cosette , bhe dal mio punto di vista contestabilissimo intendiamo- ci ad adria se ci fosse una delle tre coalizioni che oggi o domani annuncerebbero che il proprio candidato si ritira per lasciare il posto ad uno di nuovo con competenze e professionalità e con desiderio veramente di cambiare sulla linea che io vi ho indicato al di la che sia di destra e di sinistra o di centro allora una di queste vincerebbe al primo turno.ma purtroppo , in questa farsa teatrale nessuno rinuncia e mai rinuncerà per il bene della città nessuno farà un passo indietro come m' appresto a fare io per il bene della storia ... 
 ### Existing MWEs: 
@@ -105,8 +110,9 @@ certo , grazie ; lei è una persona molto corretta.ed ha capito quasi tutto ! de
 1- **si presenta l' occasione** (ID)
 2- **mi trovo d' accordo** (ID)
 ### Identified MWEs: 
-1- **avevamo modi** 
-2- **chino la testa** 
+1- **si presenta** 
+2- **avevamo modi** 
+3- **chino la testa** 
 ## Sentence No. 3740 - 
 speriamo che in questi due anni , tempo in cui il piano casa avrà attuazione , riesca a darci una mano . 
 ### Existing MWEs: 
@@ -126,6 +132,8 @@ infatti questo strumento , messo a disposizione dalla modifica della legge 163 s
 ### Existing MWEs: 
 1- **messo a disposizione** (ID, 4)
 2- **invischiar- si** (IReflV)
+### Identified MWEs: 
+1- **messo a disposizione** 
 ## Sentence No. 4490 - 
 di questo uno è stato utilizzato per far fronte ad alcune situazioni di mobilità e cassa integrazione , anche per venire incontro alle aziende nel tentativo di non far- le chiudere . 
 ### Existing MWEs: 
@@ -152,8 +160,10 @@ il corridore statunitense della " discovery channel " che si presenta con un gre
 1- **laureato- si** (IReflV, 1)
 2- **laureato- si vincitore** (ID, 1), Interleaving 
 ### Identified MWEs: 
-1- **laureato- si** 
-2- **reso noto** 
+1- **si presenta** 
+2- **laureato- si** 
+3- **reso noto** 
+4- **ritirar- si** 
 ## Sentence No. 5275 - 
 il proprietario della minardi paul stoddart si rivolge alla magistratura ottenendo una ingiunzione che gli consenta di partecipare , ma successivamente ritorna sui suoi passi e accetta di ritirare l' ingiunzione e di fare rapide modifiche alle sue vetture . 
 ### Existing MWEs: 
@@ -173,11 +183,15 @@ nel 2003 , con la rielezione di sharon , si sentirono al sicuro .
 ### Existing MWEs: 
 1- **si sentirono** (IReflV, 3)
 2- **si sentirono al sicuro** (ID), Interleaving 
+### Identified MWEs: 
+1- **si sentirono** 
 ## Sentence No. 6445 - 
 la squadra ha girato bene , funzionano schemi e scambi , ma deve essere tenuta in considerazione la pochezza dimostrata dagli avversari . 
 ### Existing MWEs: 
 2- **girato bene** (ID)
 1- **tenuta in considerazione** (LVC, 1)
+### Identified MWEs: 
+1- **tenuta in considerazione** 
 ## Sentence No. 6970 - 
 lo spezzino , grande favorito alla vigilia , non è però riuscito a restare con i migliori sull' ultima , impegnativa salita , ed ha perso contatto con i 30 uomini in testa alla corsa a pochi chilometri dall' arrivo , quando il gruppo si è spezzato . 
 ### Existing MWEs: 
@@ -190,6 +204,7 @@ passano sette minuti e l' inter è in gol : martins parte da metà campo , passa
 2- **mette in rete** (ID, 3)
 ### Identified MWEs: 
 1- **mette a destra** 
+2- **mette in rete** 
 ## Sentence No. 9780 - 
 essi spiegarono che il piano a lungo termine della internet brands sarebbe stato per wikitravel di continuare a focalizzar- si su guide oggettive gestite in modo collaborativo , mentre per world66 di focalizzar- si maggiormente sulle esperienze personali e sui resoconti . 
 ### Existing MWEs: 
@@ -230,6 +245,7 @@ le difficoltà economiche e il senso profondo di schiettezza e di giustizia che 
 1- **si chiude in se stessa** (ID)
 ### Identified MWEs: 
 1- **si chiude** 
+2- **si dedica** 
 ## Sentence No. 14725 - 
 tratto dall' omonimo romanzo distopico ( che potrebbe tradur- si letteralmente " un' arancia ad orologeria " ) scritto da anthony burgess nel 1962 , prefigura - appoggiando- si ad uno stile fantascientifico - una società votata ad una esasperata violenza ( giovanile , ma non solo ) e ad un condizionamento del pensiero . 
 ### Existing MWEs: 
@@ -240,6 +256,8 @@ la città si sviluppò a ridosso dei territori controllati dagli etruschi , e or
 ### Existing MWEs: 
 1- **si sviluppò** (IReflV, 2)
 2- **imposero dominio** (LVC)
+### Identified MWEs: 
+1- **si sviluppò** 
 ## Sentence No. 15545 - 
 provenienti da biella , misero a ferro e fuoco il paese spargendo- si per le valli . 
 ### Existing MWEs: 
@@ -259,10 +277,14 @@ riuscivano così a far- si un giro di clienti e di abituè non indifferente , co
 del resto io con la mia personalità mi sono sempre fatta sentire e continuerò su questa strada . 
 ### Existing MWEs: 
 1- **mi fatta sentire** (ID)
+### Identified MWEs: 
+1- **continuerò su questa strada** 
 ## Sentence No. 145 - 
 anzi , quegli " adulti " che hanno voluto etichettar- ci così dovrebbero spiegare a noi come mai in tanti decenni non hanno saputo scegliere governanti migliori che guardassero al futuro , invece di vuotare casse pubbliche , prendere tangenti per lavori senza reale sviluppo , non creando un ambiente sociale che permettesse l' indipendenza dei giovani di oggi. siamo la prima generazione dopo la seconda guerra mondiale a vivere peggio dei propri genitori . 
 ### Existing MWEs: 
 1- **guardassero al futuro** (ID, 1)
+### Identified MWEs: 
+1- **guardassero al futuro** 
 ## Sentence No. 205 - 
 premetto che ho partecipato , in qualità di referente locale della c.n.a. ( confederazione nazionale dell' artigianato e della piccola e media impresa ) ad entrambi gli incontri all' ostello dell' amolara contattato da fabio panetto al quale va il merito di aver sollevato il problema e di aver- lo segnalato alle associazioni di categoria . 
 ### Existing MWEs: 
@@ -288,7 +310,7 @@ la differenza – illogica , ma prevista dalle regole vigenti – è che le emis
 ### Existing MWEs: 
 1- **fa finta** (LVC, 3)
 ### Identified MWEs: 
-1- **fa finta** 
+1- **si fa finta** 
 ## Sentence No. 485 - 
 se invece parliamo di " generazione elettrica " – e qui entra in gioco il carbone , diversamente da come fa zecchin , equivocando il caso dei biocombustibili - , ebbene le direttive ue opportunamente prevedono che , qualora non sia ritenuto utile e conveniente sostituire un vecchio impianto di produzione elettrica con uno più moderno ed efficiente , si possa compensare la co2 emessa in eccesso comperando le quote dalla relativa " borsa delle emissioni " , che oggi quota la co2 a circa 20 euro per tonnellata . 
 ### Existing MWEs: 
@@ -297,6 +319,8 @@ se invece parliamo di " generazione elettrica " – e qui entra in gioco il carb
 da parte nostra ci impegneremmo a mettere insieme un pool di artigiani per partecipare al bando così riemesso . 
 ### Existing MWEs: 
 1- **mettere insieme** (VPC, 2)
+### Identified MWEs: 
+1- **mettere pool** 
 ## Sentence No. 625 - 
 per alcuni si sono dette le stesse parole sul federalismo fiscale che si leggono sui giornali , con commenti per ora poco positivi sui mass media nazionali , mettendo il dito nella piaga dei troppi enti inutili ancora in vita . 
 ### Existing MWEs: 
@@ -325,6 +349,8 @@ ipocrisia , ma anche viltà : dichiarano la vita " indisponibile " perché non h
 ne vale la pena ? 
 ### Existing MWEs: 
 1- **vale la pena** (ID, 1)
+### Identified MWEs: 
+1- **vale la pena** 
 ## Sentence No. 900 - 
 ma se mettessimo un freno sarebbe forse censura ? 
 ### Existing MWEs: 
@@ -333,6 +359,8 @@ ma se mettessimo un freno sarebbe forse censura ?
 gli amici di anna da allora si dedicano ad opere di carità e accoglienza , tutto questo è nato dalla vita " inutile " di una bimba così ! 
 ### Existing MWEs: 
 1- **si dedicano** (IReflV, 1)
+### Identified MWEs: 
+1- **si dedicano** 
 ## Sentence No. 1020 - 
 oggi la schiavitù cambia faccia , si dilata su tutto il pianeta ma il meccanismo è lo stesso . 
 ### Existing MWEs: 
@@ -367,6 +395,8 @@ gli ecologisti si sono resi conto che l' unica alternativa al nucleare sono le v
 l' idv guidata da rosa barzan corre da solo , sta cercando soprattutto di capire se avrà un proprio bacino elettorale e la sua consistenza . 
 ### Existing MWEs: 
 1- **corre da solo** (ID, 1)
+### Identified MWEs: 
+1- **corre da solo** 
 ## Sentence No. 1255 - 
 per quanto criticato panetto fa parlare di sè , dando numeri e dati , facendo forti provocazioni e dando qualche piccolo fastidio a quanti lo snobbano . 
 ### Existing MWEs: 
@@ -376,7 +406,8 @@ quanta voglia mi fate venire di non essere " una signora " ma una che dice alla 
 ### Existing MWEs: 
 1- **prendere decisioni** (LVC, 1)
 ### Identified MWEs: 
-1- **prendere decisioni** 
+1- **mi fate venire** 
+2- **prendere decisioni** 
 ## Sentence No. 1290 - 
 perché dobbiamo buttare alle ortiche impegnando- ci in sterili botte e risposte arrabbiate , quando si può invece ragionare con calma e senza paraocchi e pregiudizi , pensando che adria in fondo siamo noi ! ! ! ! 
 ### Existing MWEs: 
@@ -385,10 +416,14 @@ perché dobbiamo buttare alle ortiche impegnando- ci in sterili botte e risposte
 caro amicoscarparo : già ho avuto modo di apprezzar- ti , sei veramente una persona che avrebbe le caratteristiche giuste per essere candidato sindaco.mi piacerebbe essere con te o lottare contro di te.sembra un controsenso , ma io credo che , quando si ha la mente sgombra da pregiudizi e si vuole solo " crescere " al meglio e contribuire a " far crescere " , anche l' eventuale lotta durante le campagne elettorali e anche dopo , sia stimolante e creativa se fra persone " giuste " , e quali sono queste persone giuste ? ognuno , ovviamente , ha le proprie , è inevitabile che ci siano sintonie diverse , caratteri diversi , storie diverse.ricordo che quando ero in giunta io e vicesindaco ad adria , io ero ( e in fondo sono sempre ) liberale , l' unica liberale in giunta , anche col partito comunista.allora le distinzioni ideologiche e di " bandiera " erano più chiare.qualcuno ebbe a che dire , ma , ti assicuro che è stata un' esperienza molto bella , piena di verve , di scontri anche ! ! quante volte minacciai crisi di giunta ! 
 ### Existing MWEs: 
 1- **ebbe a che dire** (ID)
+### Identified MWEs: 
+1- **avuto modo** 
 ## Sentence No. 1520 - 
 ti sei accorto sottraggo consonati e aggiungo vocali ma se noti fra le innumerevoli righe che nascono fra le reti e sottoreti di questo mondo virtuale , che c' è ancora il problema di capire dove deve esserre collocata la e o quando si deve usare la ed ... tu sai benissimo che la e va usata sempre davanti ad una consonate e la ed quando davanti ad una parola che inizia per la sua gemella ( e sempre ... ) - ( ed era ... ) 
 ### Existing MWEs: 
 1- **ti accorto** (IReflV)
+### Identified MWEs: 
+1- **si deve** 
 ## Sentence No. 1560 - 
 crediamo sia importante mettere delle regole alla civile e duratura convivenza , in modo da evitare la scarsa considerazione degli stranieri che già sta maturando in molti cittadini italiani e che non fa bene a nessuno soprattutto in un periodo di crisi , già a corto di abitazioni e di lavoro . 
 ### Existing MWEs: 
@@ -403,6 +438,8 @@ intanto come si vede al coordinamento regionale c' è forza italia e a quelle pr
 ho trasformato il credito in prodotto di consumo e convinto molti che sarei stato in grado di far nascere denaro dal denaro , senza ricorrere alla zavorra di beni e servizi . 
 ### Existing MWEs: 
 1- **stato in grado** (ID, 12)
+### Identified MWEs: 
+1- **stato in grado** 
 ## Sentence No. 1795 - 
 il segreto è nell' accontentar- si di produrre per vivere , quando ci siamo fatti una casa , quante ancora ne vogliamo ? 
 ### Existing MWEs: 
@@ -411,10 +448,14 @@ il segreto è nell' accontentar- si di produrre per vivere , quando ci siamo fat
 altri aspetti importanti da tenere in considerazione riguardano i requisiti di sicurezza e le caratteristiche fisiche ed energetiche dello stabile . 
 ### Existing MWEs: 
 1- **tenere in considerazione** (LVC, 1)
+### Identified MWEs: 
+1- **tenere in considerazione** 
 ## Sentence No. 1830 - 
 l' eternit in questione si trova a bottrighe , zona ex squero e ex fornace rdb dentro agli argini del po , sulla pista che è stata fatta l' anno scorso per una gara ciclistica e anche oggi ne sono passati alcuni.essendo a pochi metri dall' acqua con la prossima piena verrà trascinato via.da voci che ho sentito ma non verificato sembra che un vigile del fuoco che come me frequenta la zona in quanto pescatore abbia avvertito la forestale e che sia già stata fatta una denuncia contro ignoti.il problema è che con tutta la neve che è scesa quest' anno ci sarà la piena di maggio e se le cose andranno a rilento , tutto andrà a mare 
 ### Existing MWEs: 
 1- **si trova** (IReflV, 52)
+### Identified MWEs: 
+1- **si trova** 
 ## Sentence No. 1845 - 
 mi auguro una italia con il ritorno alla preferenza e al sono calcio nel sedere ai politici che non fanno nulla . 
 ### Existing MWEs: 
@@ -445,6 +486,9 @@ poi nessuno mi dice dove troverà i soldi per sanare un eventuale buco di bilanc
 non è rassegnato ma lui che lavora in un comune quattro volte più grande di quello di adria conosce perfettamente i giochi di potere e sa bene che se una persona che si propone per un cambiamento non ha , incominciando proprio dalle associazioni , appoggio esempio come legaambiente che ha fatto un patto con spinello , perchè questo la gente ha capito ieri leggendo dai giornali poco può fare , anche se il movimento si stà allargando è forse saremo presenti con il simbolo in quattro altri comuni grossi del polesine con lo stesso simbolo e lo stesso programma e proprioi giovani specialmente aporto viro si danno da fare compresa quella sig che ha tirato la bors adosso all' attuale sindaco . 
 ### Existing MWEs: 
 1- **si danno da fare** (ID, 1)
+### Identified MWEs: 
+1- **si propone** 
+2- **si danno da fare** 
 ## Sentence No. 2090 - 
 il problema dei progetti se realizzabili omeno è che , da voci circolanti da mesi fra derivati e mutui ecc ecc ma bisogna prendere in mano la situazione se non ci sarà ..... il futuro sarà l' aumento delle tasse per tutti e lariduzione di alcuni servizi , personale ecc solo per pagare scelte di governo del passato sbagliate . 
 ### Existing MWEs: 
@@ -491,6 +535,8 @@ generalmente le scelte strategiche per gli insediamenti sia residenziali che pro
 sul fatto invece che bobo debba rispondere al pdl , ( ma questo si vedrà con i voti all '8 giugno ) è sempre meglio che avere un candidato ( lo stesso da vent' anni ) che continua a bussare a riscuotere crediti per i favori personali concessi e non per il bene di adria perché altrimenti non avrebbe di che mantener- si . 
 ### Existing MWEs: 
 1- **mantener- si** (IReflV, 1)
+### Identified MWEs: 
+1- **mantener- si** 
 ## Sentence No. 2510 - 
 mentre spinello e company attaccano dal palco l' entourage di barbuiani , a suon di urla e grida , dall' altra il candidato del centrodestra resta in disparte a guardare , ascoltando direttamente le parole di sfida . 
 ### Existing MWEs: 
@@ -509,14 +555,20 @@ riteniamo sia possibile creare progetti di aziende di trasformazione e distribuz
 ora io non l ho offesa , e mi sembra che lei invece vada giù sul pesante ma daltronde e il suo stile ed ognuno mostra in piazza quello che è . 
 ### Existing MWEs: 
 1- **vada giù sul pesante** (ID)
+### Identified MWEs: 
+1- **vada giù** 
 ## Sentence No. 2730 - 
 nuovissime le coreografie e le evoluzioni , non solo latine , che saranno presentate nel corso del tour da alcuni dei ragazzi del corso principianti , intermedio ed avanzato , il tutto sotto la costante regia dei maestri marika , pamela , rossano e marco che sicuramente saranno parte integrante del nuovissimo spettacolo. - tra le varie date in programma si parte con la data " zero " il 01 giugno da polesine camerini , che esattamente come lo scorso anno da il via alle danze , si passa poi il 07 a gavello , il 09 a massafiscaglia ( fe ) , il 12 a lama polesine , il 13 a santa maria in punta , ecc ... 
 ### Existing MWEs: 
 1- **saranno parte** (LVC, 4)
+### Identified MWEs: 
+1- **saranno parte integrante** 
 ## Sentence No. 2735 - 
 e cocciuto per giunta ! ! insiste sulle cose anche s esbagliate tipo il comizio di quel giorno che era più che autorizzatoche poi aver dato il nome di una piazza " migliorini " ci ha fatto un grande onore a me e amio fratello ! perché siamo stati trattati alla stregua di puccini o garibaldi o pascoli etc , insomma tutti nomi di vie di grande importanza ! grazie panetto dunque , anche se mi auguro questo resterà l' unica decisione pubblica tu farai ! adriana ( migliorini ) 
 ### Existing MWEs: 
 1- **mi auguro** (IReflV)
+### Identified MWEs: 
+1- **dato nome** 
 ## Sentence No. 2755 - 
 ( pare che ci sia tantissima altra gente che si sia ricreduta ) . 
 ### Existing MWEs: 
@@ -537,10 +589,13 @@ si , avrei andando contro ogni aspettativa , dato sostegno a barbuiani visto che
 1- **avrà bisogno** (LVC, 5)
 ### Identified MWEs: 
 1- **dato sostegno** 
+2- **avrà bisogno** 
 ## Sentence No. 2870 - 
 e ogni uomo ha bisogno di sentir- si parte di qualcosa . 
 ### Existing MWEs: 
 1- **sentir- si parte** (ID)
+### Identified MWEs: 
+1- **ha bisogno** 
 ## Sentence No. 2885 - 
 pertanto , sempre più anacronistico risulta ritrovar- si in casa , in italia , con un ulteriore doppione giacché palesemente ancora più ridondante ed anacronistico risulta il nostro bicameralismo perfetto . 
 ### Existing MWEs: 
@@ -577,6 +632,8 @@ in italia , come al solito , siamo indietro con la ricerca e lo sviluppo e , non
 le cellule staminali , dal 1988 quando sono state isolate dal genetista james thomson , dando vita ad una serie di brevetti per la loro riprogrammazione in chiave terapeutica , a questa domanda possono essere la risposta . 
 ### Existing MWEs: 
 1- **dando vita** (ID, 1)
+### Identified MWEs: 
+1- **dando vita** 
 ## Sentence No. 3205 - 
 le cellule staminali sono dotate di un potenziale replicativo illimitato ma sono normalmente quiescenti e solo di rado entrano in mitosi ( fa eccezione lo sviluppo embrionale ) . 
 ### Existing MWEs: 
@@ -585,6 +642,8 @@ le cellule staminali sono dotate di un potenziale replicativo illimitato ma sono
 a sollevare dubbi circa la sicurezza della terapia staminale embrionale è stato il caso di un ragazzo che , dopo aver ricevuto una cura con cellule staminali fetali presso un ospedale di mosca nel 2001 , aveva sviluppato , quattro anni dopo , tumori benigni nel cervello e sulla colonna vertebrale . 
 ### Existing MWEs: 
 1- **sollevare dubbi** (LVC)
+### Identified MWEs: 
+1- **stato il caso** 
 ## Sentence No. 3230 - 
 ma oramai la strada è spianata e la chiesa non è più contraria alla ricerca sulle staminali , ma alla distruzione degli embrioni che ne deriva dalla ricerca embrionale . 
 ### Existing MWEs: 
@@ -593,6 +652,8 @@ ma oramai la strada è spianata e la chiesa non è più contraria alla ricerca s
 i militari hanno infine denunciato per frode in commercio sette persone , titolati di altrettante aziende del capoluogo lombardo e dell' hinterland , accusate di aver prodotto e commercializzato integratori alimentari a base di fermenti lattici vivi : peccato che dei fermenti riportati sull' etichetta non ci fosse traccia . 
 ### Existing MWEs: 
 1- **ci fosse traccia** (ID)
+### Identified MWEs: 
+1- **non ci fosse traccia** 
 ## Sentence No. 3395 - 
 " non servono le parole per darci la certezza di riuscire a mandare avanti una famiglia , con i costi quotidiani e i mutui che ogni mese bussano alla porta delle nostre case . 
 ### Existing MWEs: 
@@ -639,6 +700,8 @@ non faccio polemiche ma non faccio nulla di attivo " .
 vista la pericolosità dovuta alla totale mancanza di visibilità in caso di scavalcamento del rail da parte dei ciclisti e pedoni che si devono recare in località piantamelon , si è optato per ovvie ragioni di sicurezza di procedere per la soluzione che garantisce la massima tranquillità . 
 ### Existing MWEs: 
 1- **si recare** (IReflV, 3)
+### Identified MWEs: 
+1- **si recare** 
 ## Sentence No. 3990 - 
 la parità dei diritti si avrà solo quando penseremo ai diritti delle persone , non facendo distinguo fra i sessi . 
 ### Existing MWEs: 
@@ -647,6 +710,8 @@ la parità dei diritti si avrà solo quando penseremo ai diritti delle persone ,
 il presidente della adriese 1906 olivo frizzarin , ha messo a disposizione 20 persone per far funzionare la manifestazione . 
 ### Existing MWEs: 
 1- **messo a disposizione** (ID, 4)
+### Identified MWEs: 
+1- **messo a disposizione** 
 ## Sentence No. 4030 - 
 gli elaborati non rispondenti alle caratteristiche richieste non saranno presi in considerazione . 
 ### Existing MWEs: 
@@ -688,6 +753,8 @@ ha iniziato la serata il neo sindaco barbujani che ha brevemente ricordato il pe
 un segnale che i dirigenti tecnici e soprattutto le amministrazioni sono restie alla comprensione di queste nuove possibilità che la normativa nazionale mette a disposizione per realizzare opere pubbliche . 
 ### Existing MWEs: 
 1- **mette a disposizione** (ID, 4)
+### Identified MWEs: 
+1- **mette a disposizione** 
 ## Sentence No. 4315 - 
 in seguito alla scoperta , da parte della polizia del distretto di guangzhou , di un cospicuo traffico di minori , appositamente mutilati agli arti o sfregiati , atto ad alimentare il numero dei mendicanti , dietro cui si era formato un traffico con dai bilanci d' oro , la gente ha deciso di cambiare il proprio atteggiamento nei confronti di chi chiede l' elemosina . 
 ### Existing MWEs: 
@@ -734,6 +801,8 @@ forse la mia e una utopia ma sarebbe un bel esempio da dare alla ciurmaglia di l
 noi suggeriremmo alla suora , se non è troppo tardi , di dichiarar- si sì suora , ma anche lesbica , o almeno suora incinta , e far- si fare un anatema dal vescovo , come nei film alla moda di almodóvar . 
 ### Existing MWEs: 
 1- **dichiarar- si** (IReflV)
+### Identified MWEs: 
+1- **far- si fare** 
 ## Sentence No. 4570 - 
 anche all' interno del pdl l' aria che si respira è di ricucitura e fini dopo aver deplorato la richiesta di fiducia ha dato mandato al suo fedele scudiero italo bocchino di dichiarare : " la fiducia ? 
 ### Existing MWEs: 
@@ -776,6 +845,8 @@ ora il mondo si stringe nel dolore .
 la data dei funerali - che avverranno non prima di giovedì - sarà decisa dai 117 cardinali riuniti nella prima congregazione generale , che si terrà lunedì in vaticano nella sala detta " del bologna " . 
 ### Existing MWEs: 
 1- **si terrà** (IReflV, 3)
+### Identified MWEs: 
+1- **si terrà lunedì** 
 ## Sentence No. 5020 - 
 il presidente del movimento diritti civili , corbelli ha chiesto che la magistratura faccia luce su quanto accaduto . 
 ### Existing MWEs: 
@@ -786,6 +857,8 @@ il presidente del movimento diritti civili , corbelli ha chiesto che la magistra
 secondo alcuni cittadini di vetralla il colore azzurro delle acque del cinelli indicherebbero presenza di cromo.secondo legambiente si tratterebbe di amianto , metalli pesanti , cromo , diossina e arsenico , talora anche rifiuti radioattivi . 
 ### Existing MWEs: 
 1- **si tratterebbe** (IReflV, 14)
+### Identified MWEs: 
+1- **si tratterebbe** 
 ## Sentence No. 5150 - 
 a render- lo ufficiale è stato un fax inviato dal ministero degli interni alla procura della repubblica di tempio pausania con cui si comunica che la presidenza del consiglio dei ministri non ha più obiezioni sulle ispezioni . 
 ### Existing MWEs: 
@@ -798,10 +871,14 @@ fino a questa volta il ricorso al segreto di stato era stato fatto solo in pochi
 lo sciopero è dovuto al fatto che è in corso un tentativo da parte di persone esterne al corriere della sera di entrare in possesso di un' importante quota azionaria della società rcs , che controlla il giornale . 
 ### Existing MWEs: 
 1- **è in corso** (ID, 1)
+### Identified MWEs: 
+1- **è in corso** 
 ## Sentence No. 5190 - 
 l ' " ansa " riferisce che l' imprenditore romano , immobiliarista , stefano ricucci , che già oggi è il primo azionista di rcs con oltre il 13% , ha intenzione " « se sarà possibile e se la bankitalia lo consentirà » " di aumentare ulteriormente la sua quota . 
 ### Existing MWEs: 
 1- **ha intenzione** (LVC, 2)
+### Identified MWEs: 
+1- **ha intenzione** 
 ## Sentence No. 5205 - 
 l' americano dovrà però prestare attenzione a numerosi concorrenti , come jan ullrich e ivan basso , che ha fatto vedere grandi cose al giro d' italia prima di essere colpito da un virus intestinale che ne ha precluso la lotta per la vittoria della corsa rosa . 
 ### Existing MWEs: 
@@ -826,6 +903,8 @@ mentre nelle posizioni centrali la gara è molto combattuta , räikkönen prende
 prosciolti , per questa accusa , anche 12 funzionari che secondo il gip fecero ingresso alla diaz solo dopo che la parte più cruenta dei pestaggi era già terminata . 
 ### Existing MWEs: 
 1- **fecero ingresso** (LVC, 1)
+### Identified MWEs: 
+1- **fecero ingresso** 
 ## Sentence No. 5340 - 
 in particolare ha chiesto il rinvio a giudizio anche per alcuni funzionari per cui , invece , i pubblici ministeri avevano chiesto il proscioglimento . 
 ### Existing MWEs: 
@@ -837,7 +916,8 @@ la fia non ha accettato nessuna delle due proposte per non togliere validità al
 ### Existing MWEs: 
 1- **prendere il via** (ID, 4)
 ### Identified MWEs: 
-1- **schierate in griglia** 
+1- **prendere il via** 
+2- **schierate in griglia** 
 ## Sentence No. 5370 - 
 grazie alla risposta al servizio ( forse il miglior colpo di daniele ) ha portato a casa il match , adesso incontrerà roddick e se giocherà il suo miglior tennis l' americano dovrà stare attento . 
 ### Existing MWEs: 
@@ -856,12 +936,15 @@ i sei " atleti " della squadra italiana ( stefano attanasio , luca barbieri , fr
 il sindaco giuseppe pericù , il presidente della provincia alessandro repetto e il presidente della regione claudio burlando hanno firmato un comunicato congiunto in cui indicano come ingiusta questa punizione per la città di genova , che paga troppo pesantemente , e si augurano una maggiore equità ed equilibrio . 
 ### Existing MWEs: 
 1- **si augurano** (IReflV, 1)
+### Identified MWEs: 
+1- **si augurano** 
 ## Sentence No. 5480 - 
 una gara che sulla carta doveva essere favorevole alle renault si risolve invece nella prima vera sconfitta dell' anno per la squadra anglo-francese , mai competitiva tra prove e gara mentre le mclaren si trovano a proprio agio . 
 ### Existing MWEs: 
 1- **si trovano a agio** (ID)
 ### Identified MWEs: 
-1- **si trovano** 
+1- **si risolve** 
+2- **si trovano** 
 ## Sentence No. 5640 - 
 l' inter passa il turno battendo in ucraina lo shakhtar per 2-0. 
 ### Existing MWEs: 
@@ -962,6 +1045,8 @@ alla carica di capitano reggente che ha durata di sei mesi , possono accedere so
 raddoppio di jorgensen che riceve da pazzini e di piatto mette in rete alla sinistra di amelia . 
 ### Existing MWEs: 
 1- **mette in rete** (ID, 3)
+### Identified MWEs: 
+1- **mette in rete** 
 ## Sentence No. 7305 - 
 una punizione di recoba nel sette mette in luce le doti di abbiati , che vola e devia in angolo ( 23 ' ) . 
 ### Existing MWEs: 
@@ -1018,6 +1103,8 @@ la squadra siciliana entra in campo rimaneggiata , gioca e convince nel primo te
 il presidente brasiliano ha dovuto lasciare l' italia anzitempo per recar- si in russi da putin . 
 ### Existing MWEs: 
 1- **recar- si** (IReflV, 1)
+### Identified MWEs: 
+1- **recar- si** 
 ## Sentence No. 8105 - 
 dunque , per cortesia , risponda : queste formalità non hanno nulla a che fare con lei » . 
 ### Existing MWEs: 
@@ -1046,6 +1133,8 @@ negli ultimi 20 minuti rimarranno in pista solo dieci vetture che si contenderan
 tutta la montagna era presidiata da gruppi più o meno nutriti , in grado di spostar- si secondo le comunicazioni degli avvistamenti di poliziotti , comunicati via cellulare . 
 ### Existing MWEs: 
 1- **spostar- si** (IReflV, 1)
+### Identified MWEs: 
+1- **spostar- si** 
 ## Sentence No. 8430 - 
 mentre i ministri di usa , regno unito e francia facevano circolare una bozza della risoluzione con parole forti sulle sanzioni , russia e cina si sono opposte all' inserimento di queste ultime . 
 ### Existing MWEs: 
@@ -1060,6 +1149,8 @@ jean-jacques le chenadec è stato aggredito mentre faceva la guardia alle automo
 « c' è però una precondizione , una priorità : si tratta del ripristino della sicurezza e dell' ordine pubblico » . 
 ### Existing MWEs: 
 1- **si tratta** (IReflV, 14)
+### Identified MWEs: 
+1- **si tratta** 
 ## Sentence No. 8620 - 
 la limousine saltellante , con cui entrava in scena , e la frog splash , sua mossa finale , sono diventati i suoi simboli , insieme al suo classico " viva la raza " , accompagnata da tre colpi di pugno sul petto . 
 ### Existing MWEs: 
@@ -1074,6 +1165,7 @@ dal poligono russo di baykonur è stato messo in orbita il primo satellite dei 3
 1- **faranno parte** (LVC, 33)
 ### Identified MWEs: 
 1- **messo in orbita** 
+2- **faranno parte** 
 ## Sentence No. 8780 - 
 un freddo intenso è calato venerdì su tutta l' italia : alla pioggia e alla neve si è così unito il ghiaccio . 
 ### Existing MWEs: 
@@ -1094,10 +1186,14 @@ non è la prima volta che il governo cinese si rende protagonista di questo tipo
 i continui problemi nel servizio ferroviario gestito da trenitalia hanno reso furibondi i passeggeri , in modo particolare i pendolari , costretti a recar- si al lavoro con mezzi sporchi e sovraffollati , in ritardo e con gli aumenti di prezzo provocati dall' eliminazione di molti interregionali parzialmente sostituiti da intercity plus che comportano un ulteriore aumento di 1 euro a causa della prenotazione obbligatoria . 
 ### Existing MWEs: 
 1- **recar- si** (IReflV, 1)
+### Identified MWEs: 
+1- **recar- si** 
 ## Sentence No. 9160 - 
 paul , il big ben e si spinge fino alla centrale elettrica di battersea . 
 ### Existing MWEs: 
 1- **si spinge** (IReflV, 2)
+### Identified MWEs: 
+1- **si spinge** 
 ## Sentence No. 9420 - 
 la circolazione stradale sta progressivamente tornando alla normalità e le stradi principali sono percorribili senza difficoltà , ma alcune difficoltà permangono nelle strade secondarie . 
 ### Existing MWEs: 
@@ -1107,7 +1203,8 @@ da roma , il presidente della corte di appello lo turco , afferma : « È auspic
 ### Existing MWEs: 
 1- **faccia un passo indietro** (ID, 3)
 ### Identified MWEs: 
-1- **faccia un passo indietro** 
+1- **si faccia un passo indietro** 
+2- **si affrontino** 
 ## Sentence No. 9445 - 
 durante la giornata dell' inaugurazione si è svolta la protesta dell' associazione nazionale dei magistrati per le condizioni di degrado in cui è lasciata la giustizia in italia . 
 ### Existing MWEs: 
@@ -1116,6 +1213,8 @@ durante la giornata dell' inaugurazione si è svolta la protesta dell' associazi
 il presidente polacco lech kaczynski , dopo avere annunciato che si recherà domani nella zona dell' incidente , ha proclamato il lutto nazionale . 
 ### Existing MWEs: 
 1- **si recherà** (IReflV, 3)
+### Identified MWEs: 
+1- **si recherà** 
 ## Sentence No. 9575 - 
 anche i calciatori luca toni e massimo mutarelli si sono diplomati in quegli anni , entrambi con attestati regolari . 
 ### Existing MWEs: 
@@ -1154,6 +1253,8 @@ generalmente , i termini " astronomia " o " astrofisica " possono essere usati p
 inoltre , vi sono altre discipline che possono essere considerate parte dell' astronomia , o scienze interdisciplinari che si occupano anche di astronomia : 
 ### Existing MWEs: 
 1- **si occupano** (IReflV, 9)
+### Identified MWEs: 
+1- **si occupano** 
 ## Sentence No. 10230 - 
 applicando a questo sistema l' algoritmo di sostituzione diretta si trovano le soluzioni esatte del sistema , e si dimostra che la complessità totale dell' algoritmo di gauss è [ formula 86 ] . 
 ### Existing MWEs: 
@@ -1174,6 +1275,8 @@ nel distretto di haight-ashbury , a san francisco , hoffman si associò ai digge
 pete townshend affermò successivamente di essere d' accordo con hoffman riguardo l' imprigionamento di john sinclair . 
 ### Existing MWEs: 
 1- **essere d' accordo** (LVC, 6)
+### Identified MWEs: 
+1- **essere d' accordo** 
 ## Sentence No. 10580 - 
 tuttavia , si riprendono verso la metà del decennio con l' album " don 't believe the truth " , che vende 8 milioni di copie e viene seguito da un colossale tour mondiale , che si rivela poi essere uno tra quelli di maggior successo del decennio stesso . 
 ### Existing MWEs: 
@@ -1196,6 +1299,8 @@ cominciano a diffonder- si dispositivi multi-touch.
 il termine probabilmente trae origine da una traduzione volgare del nome latino medievale della regione : " marchia orientalis " , che si traduce anche come " marca orientale " o " confine orientale " , in quanto situata sul margine orientale del sacro romano impero , che è stato anche rispecchiato nel nome " ostmark " . 
 ### Existing MWEs: 
 1- **trae origine** (LVC, 1)
+### Identified MWEs: 
+1- **trae origine** 
 ## Sentence No. 10745 - 
 però il vaticano ha espresso il desiderio di firmare il trattato ed entrare così nell' accordo ufficialmente . 
 ### Existing MWEs: 
@@ -1276,6 +1381,9 @@ l' avventura si tramuterà in una sciagura nel deserto libico , dove verrà trat
 « quando ho saputo di chi si trattava - ha detto - , ho a lungo sperato che non si trattasse di lui » ; saint-exupéry era infatti all' epoca già conosciuto anche in germania , non tanto per il piccolo principe ( scritto nel 1942 ) , quanto per le precedenti pubblicazioni legate al mondo dell' aviazione . 
 ### Existing MWEs: 
 1- **si trattava** (IReflV, 14)
+### Identified MWEs: 
+1- **si trattava** 
+2- **si trattasse** 
 ## Sentence No. 11565 - 
 della zona land-side fanno invece parte l' aerostazione passeggeri , la viabilità , i parcheggi per le autovetture ed altre eventuali strutture aperte al pubblico . 
 ### Existing MWEs: 
@@ -1306,6 +1414,8 @@ nel 1272 abulafia si trovava a patrasso , in grecia .
 nel 1291 scrisse la sua opera più difficile , gli " imre shefer " ( parole di bellezza ) ; dopo questa data si perde ogni traccia di lui . 
 ### Existing MWEs: 
 1- **si perde ogni traccia** (ID)
+### Identified MWEs: 
+1- **data si** 
 ## Sentence No. 11830 - 
 il tegumento , oltre alla funzione di protezione dell' ambiente interno da eventuali pericoli provenienti dall' ambiente esterno all' animale , può nei vari taxa svolgere varie altre funzioni . 
 ### Existing MWEs: 
@@ -1320,6 +1430,8 @@ fanno parte del fitoplancton , hanno quindi un ruolo basilare come produttori ne
 si iscrisse presso l' università degli studi di bari alla facoltà di giurisprudenza , dove prese la laurea , sotto la guida del prof. biagio petrocelli , con una tesi su " la capacità giuridica penale " . 
 ### Existing MWEs: 
 1- **prese la laurea** (LVC)
+### Identified MWEs: 
+1- **si iscrisse** 
 ## Sentence No. 12045 - 
 negli anni settanta e soprattutto dopo le elezioni del 1976 , le quali videro un quasi - sorpasso del pci sulla dc , moro vide l' esigenza di dar vita a governi di " solidarietà nazionale " , che avessero una base parlamentare più ampia , comprendente anche il pci . 
 ### Existing MWEs: 
@@ -1348,10 +1460,14 @@ normalmente il 68000 aveva la priorità su questi accessi ma un flag detto blith
 agli inizi degli anni cinquanta , l' industria passò sotto la gestione dei fratelli giancamillo , michele e diego del mercato , che ben presto la cedettero nelle mani della famiglia lordi di napoli . 
 ### Existing MWEs: 
 1- **cedettero nelle mani** (ID)
+### Identified MWEs: 
+1- **passò sotto la gestione** 
 ## Sentence No. 12575 - 
 " 'fari e fanali ' " : 2660 ( e 1735 ) - faro a lampi bianchi , grp 2 , periodo 6 secondi , portata 13 m , su punta fortino a nw del paese ; 2661 ( e 1734.6 ) - fanale a lampi verdi , periodo 5 secondi , portata 5 m , sulla testata del molo di sopraflutto ( mantener- si a nn meno di 25 m dal fanale ) ; 2661.2 ( e 1734.8 ) - fanale a luce fissa rossa , portata 3 m , sulla testata del molo di sottoflutto . 
 ### Existing MWEs: 
 1- **mantener- si** (IReflV, 1)
+### Identified MWEs: 
+1- **mantener- si** 
 ## Sentence No. 12680 - 
 il piumaggio eclissato del maschio proprio del periodo estivo-autunnale è molto simile a quello della femmina , le piume dalle vivaci colorazioni cadono sostituite da un piumaggio molto meno appariscente , utile a mimetizzar- si quando per un breve periodo è impossibilitato a volare in attesa che le penne remiganti ricrescano . 
 ### Existing MWEs: 
@@ -1364,6 +1480,8 @@ la mandarina , a differenza di altre specie di anatre , possiede una buona agili
 protagonista è un deputato cattolico che si propone la costituzione di un nuovo partito nel panorama dell' italia del tempo , una democrazia cristiana che raccolga l' adesione dei tanti cattolici alla vita politica - vietata allora dal " non expedit " papale - e abbia a capo un uomo di alte qualità intellettuali e morali . 
 ### Existing MWEs: 
 1- **abbia a capo** (ID)
+### Identified MWEs: 
+1- **si propone** 
 ## Sentence No. 12860 - 
 con questo spirito fogazzaro tenne , il 22 febbraio 1891 , una conferenza all' istituto veneto di scienze e lettere di venezia , sul tema " per un recente raffronto delle teorie di sant' agostino e di darwin sull' evoluzione " , che tuttavia scontentò i cattolici senza peraltro conquistar- si le simpatie dei darwiniani . 
 ### Existing MWEs: 
@@ -1380,6 +1498,8 @@ utilizzando il dialetto , introducendo effetti comici con l' impostare figure ma
 il secondo mette a disposizione del programmatore istruzioni più complesse , che a volte mimano quelle dei linguaggi di livello più alto ( ad esempio , la copia di stringhe nei processori x86 ) . 
 ### Existing MWEs: 
 1- **mette a disposizione** (ID, 4)
+### Identified MWEs: 
+1- **mette a disposizione** 
 ## Sentence No. 13380 - 
 durante la seconda guerra mondiale , turing mise le sue capacità matematiche al servizio del " department of communications " inglese per decifrare i codici usati nelle comunicazioni naziste , criptate tramite il cosiddetto sistema enigma ( progettato da arthur scherbius ) . 
 ### Existing MWEs: 
@@ -1402,10 +1522,14 @@ gli sconfitti avevano trovato scampo nella fuga in germania , dove furono accolt
 dopo la guerra gotico-bizantina fu tra i possessi dell' impero romano d' oriente e dopo l' arrivo in italia dei longobardi rimase ancora bizantina , e fece parte della pentapoli marittima assieme alle città di senigallia , fano , pesaro e rimini . 
 ### Existing MWEs: 
 1- **fece parte** (LVC, 33)
+### Identified MWEs: 
+1- **fece parte** 
 ## Sentence No. 13805 - 
 le truppe imperiali avevano preventivamente chiesto ed ottenuto l' alleanza della flotta veneziana : venezia , infatti , aveva colto l' occasione per liberar- si di una rivale nei traffici marittimi . 
 ### Existing MWEs: 
 1- **colto l' occasione** (ID, 1)
+### Identified MWEs: 
+1- **colto l' occasione** 
 ## Sentence No. 13960 - 
 la sanità ad ancona è gestita principalmente dall ' " azienda ospedaliero universitaria - ospedali riuniti " , che si trova accanto alla facoltà di medicina dell' università politecnica delle marche con cui è presente una forte collaborazione , ma sono inoltre presenti anche strutture autonome ed alcune cliniche private . 
 ### Existing MWEs: 
@@ -1424,10 +1548,14 @@ la città di ancona però non diventò romana con un atto di forza , ma lentamen
 È uno dei pochi al mondo , l' unico in italia , che permette anche ai non vedenti di avvicinar- si all' arte facendo toccare calchi in gesso a grandezza naturale di famose opere scultoree , modellini architettonici di celebri monumenti , ma anche reperti archeologici e sculture di artisti contemporanei originali . 
 ### Existing MWEs: 
 1- **avvicinar- si** (IReflV, 1)
+### Identified MWEs: 
+1- **avvicinar- si** 
 ## Sentence No. 14155 - 
 l' arte contemporanea si distingue per il monumento alla resistenza con la scultura di pericle fazzini , la scultura di valeriano trubbiani " mater amabilis " , detta popolarmente " i rinoceronti " , situata in piazza pertini , per la statua a pinocchio di vittorio morelli , che sorge nell' omonimo quartiere ed è molto amata dai cittadini . 
 ### Existing MWEs: 
 1- **si distingue** (IReflV, 4)
+### Identified MWEs: 
+1- **si distingue** 
 ## Sentence No. 14215 - 
 ancona è una tipica città policentrica , dato che sono quattro le piazze che giocano un ruolo centrale : piazza del plebiscito ( del papa ) , il cuore dei rioni più antichi ; piazza della repubblica ( del teatro ) , punto di unione tra il centro e il porto ; piazza roma , il centro della zona dei mercati all' aperto e al coperto ; piazza cavour , la più vasta e alberata , centro dei rioni ottocenteschi . 
 ### Existing MWEs: 
@@ -1442,6 +1570,8 @@ il settore alberghiero , ha infatti , aperto la strada ad un concreto sviluppo n
 intransigente legittimista , nel 1830 , rifiutò di giurare fedeltà agli orléans e fu perciò costretto a lasciare l' insegnamento e a recar- si in esilio , prima in svizzera poi a torino come docente di fisica sublime all' università ( 1831 ) . 
 ### Existing MWEs: 
 1- **recar- si in esilio** (LVC)
+### Identified MWEs: 
+1- **recar- si** 
 ## Sentence No. 14465 - 
 l' atletica leggera trova le sue origini nell' antica grecia : i poemi omerici , la statuaria , pindaro e la pittura vascolare testimoniano la profonda passione sportiva degli antichi greci e l' onore in cui tenevano gli atleti . 
 ### Existing MWEs: 
@@ -1450,10 +1580,14 @@ l' atletica leggera trova le sue origini nell' antica grecia : i poemi omerici ,
 la nascita , gli inizi dell' atletica leggera , si perdono nella notte dei tempi , confondendo- si con i primi gesti dell' uomo , alle prese con le sue necessità di sopravvivenza . 
 ### Existing MWEs: 
 1- **confondendo- si** (IReflV, 1)
+### Identified MWEs: 
+1- **confondendo- si** 
 ## Sentence No. 14475 - 
 la radice di queste competizioni traeva origine , da contenuti religiosi o celebrativi . 
 ### Existing MWEs: 
 1- **traeva origine** (LVC, 1)
+### Identified MWEs: 
+1- **traeva origine** 
 ## Sentence No. 14585 - 
 dalla f1 sono nate la champ car e la formula indy negli stati uniti d' america ( ora formula cart ) , le categorie minori come la gp2 ( ex formula 2 e formula 3000 da cui sono usciti tantissimi talenti ) , la formula 3 ( dove michael schumacher e mika hakkinen si davano battaglia nella loro adolescenza ) , la formula renault , la formula nippon , la formula atlantic , il karting ( la categoria base per tutti i piloti ) e la nuovissima a1 grand prix , il campionato di corse tra nazioni . 
 ### Existing MWEs: 
@@ -1540,6 +1674,8 @@ il simbolo alchemico per l' arsenico è mostrato qui a fianco .
 henry cavendish , nel 1785 , sospettò la presenza dell' argon ( dal greco " argos " , " inerte " ) come costituente dell' aria , ma non fu capace di dimostrar- ne l' esistenza : la scoperta si deve perciò a lord rayleigh e sir william ramsay , che nel 1894 lo isolarono per distillazione dall' aria liquida . 
 ### Existing MWEs: 
 1- **si deve** (IReflV, 1)
+### Identified MWEs: 
+1- **si deve** 
 ## Sentence No. 15100 - 
 tuttavia concentrazioni molto elevate di questo gas danno luogo a una sintomatologia asfittica , poiché non soddisfa la richiesta di ossigeno della respirazione . 
 ### Existing MWEs: 
@@ -1582,6 +1718,8 @@ in ogni caso , non si ha notizia dell' evoluzione degli " aepyornis " in ambient
 prende il nome dall' america , in analogia con l' europio . 
 ### Existing MWEs: 
 1- **prende nome** (LVC, 3)
+### Identified MWEs: 
+1- **prende nome** 
 ## Sentence No. 15595 - 
 il continente non è abitato permanentemente da nessuna popolazione umana , ma nonostante ciò si contano , durante l' anno , tra le 1000 e le 5000 persone che risiedono nelle varie stazioni di ricerca sparse in tutto l' antartide . 
 ### Existing MWEs: 
@@ -1590,6 +1728,8 @@ il continente non è abitato permanentemente da nessuna popolazione umana , ma n
 sono in corso esperimenti condotti da più di 4000 scienziati di varie nazionalità e con diversi interessi di ricerca . 
 ### Existing MWEs: 
 1- **sono in corso** (ID, 1)
+### Identified MWEs: 
+1- **sono in corso** 
 ## Sentence No. 15635 - 
 l' elevazione maggiore si ha in corrispondenza del massiccio vinson ( 4 897 m s.l.m. ) facente parte dei monti ellsworth nella penisola antartica mentre la depressione maggiore è la fossa subglaciale di bentley a 2 538 m sotto il livello del mare , situata nella parte orientale del continente . 
 ### Existing MWEs: 
@@ -1605,7 +1745,7 @@ intorno al continente , soprattutto intorno alla penisola antartica , si trova u
 ### Existing MWEs: 
 1- **si trova** (IReflV, 52)
 ### Identified MWEs: 
-1- **trova un ampio numero** 
+1- **si trova** 
 ## Sentence No. 15660 - 
 a vostok , nel nucleo centrale freddo , la media annua ( 1958-2006 , con interruzioni ) si colloca invece a -55,3 °c. 
 ### Existing MWEs: 
