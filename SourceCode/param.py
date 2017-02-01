@@ -1,5 +1,4 @@
-import json
-
+import json,os
 
 class Parameters:
     xpName = ''
@@ -11,6 +10,8 @@ class Parameters:
     xpPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     langFolder = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     resultPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
+
+    useCrossValidation = True
 
     usePreciseDictionary = False
 
@@ -115,6 +116,37 @@ class Parameters:
         return result
 
     @staticmethod
+    def toABC():
+
+        if Parameters.configPath == '':
+            return ''
+        idxs = 'ABCDEFGHIJKLMNOPQRST'
+        result = ''
+        with open(Parameters.configPath, 'r') as configFile:
+            config = json.load(configFile)
+            idx = 0
+            idxxx = 0
+            #print 'Nmber of Keys: ', len(config.keys())
+            for key in config.keys():
+                if isinstance(config[key], bool):
+                    #print  idxs[idxxx: idxxx  +1], key#, config[key]
+                    if config[key]:
+                        result += str(idxs[idx:idx+1]) + ' '
+                    idx += 1
+                    idxxx += 1
+                elif isinstance(config[key], dict):
+                    for subkey in config[key].keys():
+                        if isinstance(config[key][subkey], bool):
+                            #print idxs[idxxx: idxxx  +1], subkey #, config[key][subkey]
+                            if config[key][subkey]:
+                                result += str(idxs[idx:idx+1]) + ' '
+                        idx += 1
+                        idxxx +=1
+
+        #print result
+        return result
+
+    @staticmethod
     def toString():
         if Parameters.configPath == '':
             return ''
@@ -138,3 +170,13 @@ class Parameters:
                             else:
                                 result += ' = False\n\n'
         return result
+# Parameters.configPath= "Config/BG/XP.json"
+#
+# for subdir, dirs, files in os.walk('Config'):
+#     for dir in dirs:
+#         for subdir1, dirs1, configFiles in os.walk(os.path.join('Config', dir)):
+#             for configFile in configFiles:
+#                 if not configFile.endswith('.json'):
+#                     continue
+#                 Parameters.configPath = os.path.join(os.path.join('Config', dir), configFile)
+#                 Parameters.toABC()

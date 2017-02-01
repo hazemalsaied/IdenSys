@@ -1,6 +1,5 @@
 import operator
 import os
-from random import randint
 
 from param import Parameters
 
@@ -21,7 +20,7 @@ class Report:
 
     @staticmethod
     def createXPFolder(configFile):
-        #xpFolder = Parameters.toBinary()
+        # xpFolder = Parameters.toBinary()
         if Parameters.printReport:
             Parameters.xpPath = os.path.join(Parameters.langFolder, configFile)
             if not os.path.exists(Parameters.xpPath):
@@ -102,7 +101,7 @@ class Report:
         sentsForPrinting = [s for s in testingSents if len(s.vMWEs) >= 1]
 
         result = ''
-        for sent in sentsForPrinting :
+        for sent in sentsForPrinting:
             if sent.id == 2795:
                 result += str(sent)
         sentsForPrinting = sorted(sentsForPrinting, key=lambda Sentence: len(Sentence.vMWEs), reverse=True)
@@ -122,24 +121,33 @@ class Report:
         staticParsingFile.write(result)
 
     @staticmethod
-    def editTotalReadMe(fScore, recall, precision, corpus, testSents):
-        if not Parameters.printReport:
-            return
+    def editTotalReadMe(fScore, recall, precision, corpus, testSents, identifiedIntellegentillyPrecent=.0,
+                        identifiedSemiIntellegentillyPercent=.0):
+        #if not Parameters.printReport:
+        #    return
+        report = ''
+        mwes, singleMWE, continousMWEs, interleavingMwes, embeddedMwes, identifiedMwes, identifiedSingleMWE, identifiedContinousMWEs = 0, 0, 0, 0, 0, 0, 0, 0,
+        if Parameters.useCrossValidation:
+            report = Parameters.languageName + ',' + str("%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str(
+                "%.3f" % precision) + ',' + str("%.3f" % identifiedIntellegentillyPrecent) + ',' + str(
+                "%.3f" % identifiedSemiIntellegentillyPercent) + ',-,-,' + ',' + Parameters.toABC() + '\n'
+        else:
+            mwes, singleMWE, continousMWEs, interleavingMwes, embeddedMwes, identifiedMwes, identifiedSingleMWE, identifiedContinousMWEs = 0, 0, 0, 0, 0, 0, 0, 0,
+            if len(testSents) > 0:
+                mwes, singleMWE, continousMWEs, interleavingMwes, embeddedMwes = Report.getTestStatistics(testSents)
+                identifiedMwes, identifiedSingleMWE, identifiedContinousMWEs = Report.getIdentifiedTestStatistics(
+                    testSents)
 
-        mwes, singleMWE, continousMWEs, interleavingMwes, embeddedMwes = Report.getTestStatistics(testSents)
+            report = Parameters.languageName + ',' + str("%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str(
+                "%.3f" % precision) + ','
 
-        identifiedMwes, identifiedSingleMWE, identifiedContinousMWEs = Report.getIdentifiedTestStatistics(testSents)
-
-        report = Parameters.languageName + ',' + str("%.3f" % fScore) + ',' + str("%.3f" % recall) + ',' + str(
-            "%.3f" % precision) + ','
-
-        report += str(corpus.sentNum) + ',' + str(corpus.mweNum) + ',' + str(
-            corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + str(
-            corpus.singleWordExp) + ',' + str(corpus.emeddedNum) + ','
-
-        report += str(mwes) + ',' + str(identifiedMwes) + ',' + str(singleMWE) + ',' + str(identifiedSingleMWE) + ','
-        report += str(mwes - continousMWEs) + ',' + str(identifiedMwes - identifiedContinousMWEs) + ',' +  Parameters.toBinary() + '\n'
-
+            report += str(corpus.sentNum) + ',' + str(corpus.mweNum) + ',' + str(
+                corpus.mweNum - corpus.continousExp) + ',' + str(corpus.intereavingNum) + ',' + str(
+                corpus.singleWordExp) + ',' + str(corpus.emeddedNum) + ','
+            report += str(mwes) + ',' + str(identifiedMwes) + ',' + str(singleMWE) + ',' + str(
+                identifiedSingleMWE) + ','
+            report += str(mwes - continousMWEs) + ',' + str(
+                identifiedMwes - identifiedContinousMWEs) + ',' + Parameters.toBinary() + '\n'
         with open(Parameters.results, "a") as staticParsingFile:
             staticParsingFile.write(report)
 
