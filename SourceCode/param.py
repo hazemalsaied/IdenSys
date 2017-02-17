@@ -1,4 +1,6 @@
-import json,os
+import json
+import os
+
 
 class Parameters:
     xpName = ''
@@ -11,7 +13,7 @@ class Parameters:
     langFolder = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     resultPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
 
-    useCrossValidation = True
+    useCrossValidation = False
 
     usePreciseDictionary = False
 
@@ -39,7 +41,6 @@ class Parameters:
     useS0B0Distance = True
     useS0S1Distance = True
     useStackLength = True
-
 
     enhanceMerge = False
     enableSingleMWE = False
@@ -126,24 +127,24 @@ class Parameters:
             config = json.load(configFile)
             idx = 0
             idxxx = 0
-            #print 'Nmber of Keys: ', len(config.keys())
+            # print 'Nmber of Keys: ', len(config.keys())
             for key in config.keys():
                 if isinstance(config[key], bool):
-                    #print  idxs[idxxx: idxxx  +1], key#, config[key]
+                    # print  idxs[idxxx: idxxx  +1], key#, config[key]
                     if config[key]:
-                        result += str(idxs[idx:idx+1]) + ' '
+                        result += str(idxs[idx:idx + 1]) + ' ' + key + ' '
                     idx += 1
                     idxxx += 1
                 elif isinstance(config[key], dict):
                     for subkey in config[key].keys():
                         if isinstance(config[key][subkey], bool):
-                            #print idxs[idxxx: idxxx  +1], subkey #, config[key][subkey]
+                            # print idxs[idxxx: idxxx  +1], subkey #, config[key][subkey]
                             if config[key][subkey]:
-                                result += str(idxs[idx:idx+1]) + ' '
+                                result += str(idxs[idx:idx + 1]) + ' ' + subkey + ' '
                         idx += 1
-                        idxxx +=1
+                        idxxx += 1
 
-        #print result
+        # print result
         return result
 
     @staticmethod
@@ -170,13 +171,13 @@ class Parameters:
                             else:
                                 result += ' = False\n\n'
         return result
-# Parameters.configPath= "Config/BG/XP.json"
-#
-# for subdir, dirs, files in os.walk('Config'):
-#     for dir in dirs:
-#         for subdir1, dirs1, configFiles in os.walk(os.path.join('Config', dir)):
-#             for configFile in configFiles:
-#                 if not configFile.endswith('.json'):
-#                     continue
-#                 Parameters.configPath = os.path.join(os.path.join('Config', dir), configFile)
-#                 Parameters.toABC()
+
+
+for subdir, dirs, files in os.walk('Done'):
+    for dir in dirs:
+        for subdir1, dirs1, configFiles in os.walk(os.path.join('Done', dir)):
+            for configFile in configFiles:
+                if not configFile.endswith('.json'):
+                    continue
+                Parameters.configPath = os.path.join(os.path.join('Done', dir), configFile)
+                print Parameters.toABC()

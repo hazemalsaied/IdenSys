@@ -40,7 +40,7 @@ class Parser:
                 transDicList.append(featDic)
                 transType = classifier.predict(dictVectorizer.transform(featDic))
 
-                if Parameters.enhanceMerge and  transType != 0 and len(config.buffer) > 0 and len(
+                if Parameters.enhanceMerge and transType != 0 and len(config.buffer) > 0 and len(
                             config.stack) > 0 and isinstance(config.stack[-1], Token) and (
                                 (isinstance(config.stack[-1], Token) and Parser.areInLexic(
                                     [config.stack[-1], config.buffer[0]])) or (
@@ -211,7 +211,7 @@ class Parser:
         # Bi-Gram Generation
         if Parameters.useBiGram:
             if len(stackElements) > 1:
-                # Generate a Bi-gram
+                # Generate a Bi-gram S1S0 S0B0 S1B0 S0B1
                 Parser.generateBiGram(stackElements[-2], stackElements[-1], 'S1S0', transDic)
                 if Parameters.generateS1B1 and len(configuration.buffer) > 1:
                     Parser.generateBiGram(stackElements[-2], configuration.buffer[1], 'S1B1', transDic)

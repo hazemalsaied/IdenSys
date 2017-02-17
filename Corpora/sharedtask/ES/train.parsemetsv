@@ -293,10 +293,10 @@
 8	Alvarez	_	_
 9	Areces	nsp	_
 10	,	_	_
-11	se	_	1:ID;3:IReflV
-12	mostró	_	1;3
+11	se	_	1:IReflV;2:ID
+12	mostró	_	1;2
 13	hoy	_	_
-14	partidario	_	1
+14	partidario	_	2
 15	de	_	_
 16	que	_	_
 17	el	_	_
@@ -327,11 +327,11 @@
 41	debate	_	_
 42	sobre	_	_
 43	los	_	_
-44	cambios	_	2:ID
+44	cambios	_	3:ID
 45	que	_	_
 46	deben	_	_
 47-48	introducirse	_	_
-47	introducir	_	2
+47	introducir	_	3
 48	se	_	_
 49	en	_	_
 50	el	_	_
@@ -466,8 +466,7 @@
 65	que	_	_
 66	hacer	_	_
 67	"	_	_
-68-69	al	nsp	_
-68	.	_	_
+68	.	nsp	_
 
 # sent_id es-s4508
 # orig_file_sentence 046#8
@@ -584,12 +583,12 @@
 31	"	_	_
 32	y	_	_
 33	que	_	_
-34	se	_	2:IReflV
-35	limite	_	2
+34	se	_	1:IReflV
+35	limite	_	1
 36	a	_	_
-37	cumplir	_	1:ID
+37	cumplir	_	2:ID
 38	el	_	_
-39	papel	_	1
+39	papel	_	2
 40	de	_	_
 41	conducir	_	_
 42	el	_	_
@@ -3753,13 +3752,13 @@
 1	El	_	_
 2	general	_	_
 3	Nyanda	_	_
-4	tuvo	_	2:LVC
+4	tuvo	_	1:LVC
 5	ya	_	_
-6	ocasión	_	2
+6	ocasión	_	1
 7	de	_	_
 8-9	reunirse	_	_
-8	reunir	_	1:IReflV
-9	se	_	1
+8	reunir	_	2:IReflV
+9	se	_	2
 10	con	_	_
 11	el	_	_
 12	ministro	_	_
@@ -4319,20 +4318,20 @@
 3	que	_	_
 4	todas	_	_
 5	las	_	_
-6	decisiones	_	1:LVC
+6	decisiones	_	2:LVC
 7	importantes	_	_
 8	de	_	_
 9	la	_	_
 10	UE	_	_
 11	se	_	_
 12	han	_	_
-13	tomado	_	1
+13	tomado	_	2
 14	hasta	_	_
 15	ahora	_	_
 16	sin	_	_
-17	tener	_	2:ID
-18	en	_	2
-19	cuenta	_	2
+17	tener	_	1:ID
+18	en	_	1
+19	cuenta	_	1
 20	la	_	_
 21	opinión	_	_
 22	de	_	_
@@ -4844,8 +4843,7 @@
 41	en	_	_
 42	la	_	_
 43	Unión	_	_
-44-45	al	nsp	_
-44	.	_	_
+44	.	nsp	_
 
 # sent_id es-s4612
 # orig_file_sentence 047#12
@@ -5206,8 +5204,8 @@
 9	a	_	_
 10	acordar	_	_
 11	que	_	_
-12	se	_	2:IReflV
-13	limiten	_	2
+12	se	_	1:IReflV
+13	limiten	_	1
 14	las	_	_
 15	negociaciones	_	_
 16	a	_	_
@@ -5218,8 +5216,8 @@
 21	tres	_	_
 22	capítulos	_	_
 23	que	_	_
-24	quedaron	_	1:ID
-25	pendientes	_	1
+24	quedaron	_	2:ID
+25	pendientes	_	2
 26	en	_	_
 27	las	_	_
 28	negociaciones	_	_
@@ -5568,8 +5566,7 @@
 58	cifra	_	_
 59	de	_	_
 60	53.273	_	_
-61-62	al	nsp	_
-61	.	_	_
+61	.	nsp	_
 
 # sent_id es-s4626
 # orig_file_sentence 047#26
@@ -6254,8 +6251,7 @@
 85	la	_	_
 86	europea	_	_
 87	"	_	_
-88-89	del	nsp	_
-88	.	_	_
+88	.	nsp	_
 
 # sent_id es-s4637
 # orig_file_sentence 047#37
@@ -8143,8 +8139,7 @@
 63	"	_	_
 64	nominalismos	_	_
 65	"	_	_
-66-67	del	nsp	_
-66	.	_	_
+66	.	nsp	_
 
 # sent_id es-s4674
 # orig_file_sentence 047#74
@@ -8171,9 +8166,9 @@
 21	generales	nsp	_
 22	,	_	_
 23	ya	_	_
-24	se	_	1:ID;2:IReflV
+24	se	_	1:IReflV;2:ID
 25	mostró	_	1;2
-26	partidario	_	1
+26	partidario	_	2
 27	de	_	_
 28	la	_	_
 29	"	_	_
@@ -8924,8 +8919,8 @@
 4	de	_	_
 5	que	_	_
 6	cuando	_	_
-7	dé	_	1:LVC
-8	comienzo	_	1
+7	dé	_	2:LVC
+8	comienzo	_	2
 9	la	_	_
 10	temporada	_	_
 11	y	_	_
@@ -8951,8 +8946,8 @@
 30	van	_	_
 31	a	_	_
 32-33	encontrarse	_	_
-32	encontrar	_	2:IReflV
-33	se	_	2
+32	encontrar	_	1:IReflV
+33	se	_	1
 34	en	_	_
 35	su	_	_
 36	sitio	_	_
@@ -9505,18 +9500,18 @@
 6	ya	_	_
 7	comenzó	_	_
 8	a	_	_
-9	rondar	_	1:ID
-10	en	_	1
-11	la	_	1
-12	cabeza	_	1
+9	rondar	_	2:ID
+10	en	_	2
+11	la	_	2
+12	cabeza	_	2
 13	de	_	_
 14	Steinbrenner	nsp	_
 15	,	_	_
 16	que	_	_
-17	ve	_	2:ID
-18	con	_	2
-19	buenos	_	2
-20	ojos	_	2
+17	ve	_	1:ID
+18	con	_	1
+19	buenos	_	1
+20	ojos	_	1
 21	la	_	_
 22	posibilidad	_	_
 23	de	_	_
@@ -10499,8 +10494,7 @@
 39	millones	_	_
 40	de	_	_
 41	dólares	_	_
-42-43	del	nsp	_
-42	.	_	_
+42	.	nsp	_
 
 # sent_id es-s4729
 # orig_file_sentence 048#29
@@ -11524,9 +11518,9 @@
 2	sabía	_	_
 3	que	_	_
 4	quería	_	_
-5	hacer	_	1:LVC
+5	hacer	_	2:LVC
 6	algún	_	_
-7	movimiento	nsp	1
+7	movimiento	nsp	2
 8	,	_	_
 9-10	distanciarse	_	_
 9	distanciar	_	_
@@ -11549,8 +11543,8 @@
 26	para	_	_
 27	que	_	_
 28	él	_	_
-29	se	_	2:IReflV
-30	desmarcara	_	2
+29	se	_	1:IReflV
+30	desmarcara	_	1
 31	"	nsp	_
 32	.	_	_
 
@@ -11643,8 +11637,7 @@
 83	el	_	_
 84	PP	_	_
 85	"	_	_
-86-87	al	nsp	_
-86	.	_	_
+86	.	nsp	_
 
 # sent_id es-s4756
 # orig_file_sentence 048#56
@@ -14121,8 +14114,7 @@
 50	de	_	_
 51	la	_	_
 52	historia	_	_
-53-54	del	nsp	_
-53	.	_	_
+53	.	nsp	_
 
 # sent_id es-s4808
 # orig_file_sentence 049#8
@@ -14183,8 +14175,7 @@
 54	de	_	_
 55	la	_	_
 56	prueba	_	_
-57-58	al	nsp	_
-57	.	_	_
+57	.	nsp	_
 
 # sent_id es-s4809
 # orig_file_sentence 049#9
@@ -14293,8 +14284,7 @@
 52	polvorienta	_	_
 53	"	nsp	_
 54	)	_	_
-55-56	del	nsp	_
-55	.	_	_
+55	.	nsp	_
 
 # sent_id es-s4811
 # orig_file_sentence 049#11
@@ -14350,8 +14340,7 @@
 49	"	_	_
 50	mountain-bike	_	_
 51	"	_	_
-52-53	del	nsp	_
-52	.	_	_
+52	.	nsp	_
 
 # sent_id es-s4812
 # orig_file_sentence 049#12
@@ -17618,8 +17607,8 @@
 5	demostrar	_	_
 6	que	_	_
 7	no	_	_
-8	se	_	1:IReflV
-9	dopó	nsp	1
+8	se	_	2:IReflV
+9	dopó	nsp	2
 10	,	_	_
 11	presentó	_	_
 12	denuncia	_	_
@@ -17642,8 +17631,8 @@
 28	manipulados	_	_
 29	para	_	_
 30	que	_	_
-31	diera	_	2:ID
-32	positivo	nsp	2
+31	diera	_	1:ID
+32	positivo	nsp	1
 33	.	_	_
 
 # sent_id es-s4886
@@ -18194,8 +18183,7 @@
 79	la	_	_
 80	competencia	_	_
 81	"	_	_
-82-83	al	nsp	_
-82	.	_	_
+82	.	nsp	_
 
 # sent_id es-s4897
 # orig_file_sentence 049#97
@@ -19326,8 +19314,7 @@
 39	de	_	_
 40	la	_	_
 41	paz	_	_
-42-43	del	nsp	_
-42	.	_	_
+42	.	nsp	_
 
 # sent_id es-s4927
 # orig_file_sentence 050#27
@@ -21414,8 +21401,7 @@
 39	los	_	_
 40	1.012,72	_	_
 41	puntos	_	_
-42-43	del	nsp	_
-42	.	_	_
+42	.	nsp	_
 
 # sent_id es-s4973
 # orig_file_sentence 050#73
@@ -22619,13 +22605,13 @@
 23	que	_	_
 24	esta	_	_
 25	mañana	_	_
-26	se	_	1:ID;2:IReflV
+26	se	_	1:IReflV;2:ID
 27	había	_	_
 28	llevado	_	1;2
-29	una	_	1
+29	una	_	2
 30	"	_	_
 31	relativa	_	_
-32	alegría	_	1
+32	alegría	_	2
 33	"	_	_
 34	cuando	_	_
 35	vio	_	_
@@ -24142,8 +24128,7 @@
 44	o	_	_
 45	conducir	_	_
 46	4X4	_	_
-47-48	al	nsp	_
-47	.	_	_
+47	.	nsp	_
 
 # sent_id es-s5031
 # orig_file_sentence 051#31
@@ -26850,8 +26835,7 @@
 57	durante	_	_
 58	22	_	_
 59	años	_	_
-60-61	del	nsp	_
-60	.	_	_
+60	.	nsp	_
 
 # sent_id es-s5085
 # orig_file_sentence 051#85
@@ -27250,10 +27234,10 @@
 2	:	_	_
 3	El	_	_
 4	Valencia	_	_
-5	se	_	1:ID;2:IReflV
+5	se	_	1:IReflV;2:ID
 6	llevó	_	1;2
-7	la	_	1
-8	victoria	_	1
+7	la	_	2
+8	victoria	_	2
 9	de	_	_
 10	Los	_	_
 11	Pajaritos	_	_
@@ -27419,17 +27403,17 @@
 12	y	_	_
 13	cinco	_	_
 14	minutos	_	_
-15	tocando	_	2:ID
+15	tocando	_	1:ID
 16	con	_	_
 17	fluidez	_	_
 18	el	_	_
-19	balón	nsp	2
+19	balón	nsp	1
 20	,	_	_
 21	mientras	_	_
 22	el	_	_
 23	Valencia	_	_
-24	se	_	1:IReflV
-25	mostró	_	1
+24	se	_	2:IReflV
+25	mostró	_	2
 26	indolente	_	_
 27	y	_	_
 28	aturdido	nsp	_
@@ -28008,7 +27992,6 @@
 45	jugadas	_	_
 46	de	_	_
 47	contraataque	_	_
-48-49	al	_	_
 48	"	_	_
 
 # sent_id es-s5112
@@ -28293,14 +28276,14 @@
 36	,	_	_
 37	si	_	_
 38	no	_	_
-39	tenemos	_	2:LVC
-40	ventajas	_	2
+39	tenemos	_	1:LVC
+40	ventajas	_	1
 41	competitivas	nsp	_
 42	,	_	_
-43	no	_	1:ID
-44	queda	_	1
-45	más	_	1
-46	remedio	_	1
+43	no	_	2:ID
+44	queda	_	2
+45	más	_	2
+46	remedio	_	2
 47	que	_	_
 48	estar	_	_
 49	donde	_	_
@@ -28396,9 +28379,9 @@
 
 # sent_id es-s5121
 # orig_file_sentence 052#21
-1	Teniendo	_	2:ID
-2	en	_	2
-3	cuenta	_	2
+1	Teniendo	_	1:ID
+2	en	_	1
+3	cuenta	_	1
 4	el	_	_
 5	futuro	_	_
 6	de	_	_
@@ -28420,8 +28403,8 @@
 22	oferta	_	_
 23	de	_	_
 24-25	instalarse	_	_
-24	instalar	_	1:IReflV
-25	se	_	1
+24	instalar	_	2:IReflV
+25	se	_	2
 26	en	_	_
 27	Madrid	nsp	_
 28	.	_	_
@@ -28879,8 +28862,8 @@
 30	,	_	_
 31	sin	_	_
 32-33	reunirse	_	_
-32	reunir	_	2:IReflV
-33	se	_	2
+32	reunir	_	1:IReflV
+33	se	_	1
 34	físicamente	_	_
 35	en	_	_
 36	Fráncfort	nsp	_
@@ -28890,8 +28873,8 @@
 40	también	_	_
 41	puede	_	_
 42	haber	_	_
-43	restado	_	1:ID
-44	posibilidades	_	1
+43	restado	_	2:ID
+44	posibilidades	_	2
 45	a	_	_
 46	una	_	_
 47	decisión	_	_
@@ -28954,8 +28937,7 @@
 46	por	_	_
 47	el	_	_
 48	eurobanco	_	_
-49-50	del	nsp	_
-49	.	_	_
+49	.	nsp	_
 
 # sent_id es-s5132
 # orig_file_sentence 052#32
@@ -29476,15 +29458,15 @@
 28	)	nsp	_
 29	,	_	_
 30	que	_	_
-31	se	_	2:IReflV
-32	presentó	_	2
+31	se	_	1:IReflV
+32	presentó	_	1
 33	en	_	_
 34	Madrid	_	_
 35	a	_	_
 36	"	_	_
-37	dar	_	1:ID
-38	la	_	1
-39	cara	_	1
+37	dar	_	2:ID
+38	la	_	2
+39	cara	_	2
 40	"	_	_
 41	y	_	_
 42	explicó	_	_
@@ -30317,8 +30299,7 @@
 45	la	_	_
 46	final	_	_
 47	europea	_	_
-48-49	al	nsp	_
-48	.	_	_
+48	.	nsp	_
 
 # sent_id es-s5163
 # orig_file_sentence 052#63
@@ -30577,12 +30558,12 @@
 # sent_id es-s5171
 # orig_file_sentence 052#71
 1	Me	_	_
-2	da	_	1:ID
-3	igual	_	1
+2	da	_	2:ID
+3	igual	_	2
 4	que	_	_
 5	pueda	_	_
-6	tener	_	2:LVC
-7	repercusión	_	2
+6	tener	_	4:LVC
+7	repercusión	_	4
 8	dentro	_	_
 9-10	del	_	_
 9	de	_	_
@@ -30590,10 +30571,10 @@
 11	campo	nsp	_
 12	,	_	_
 13	pero	_	_
-14	estoy	_	3:LVC
-15	en	_	3
+14	estoy	_	1:LVC
+15	en	_	1
 16	el	_	_
-17	deber	_	3
+17	deber	_	1
 18	de	_	_
 19-20	avisarlo	_	_
 19	avisar	_	_
@@ -30611,10 +30592,10 @@
 31	madrileño	_	_
 32	no	_	_
 33	le	_	_
-34	trae	_	4:ID
+34	trae	_	3:ID
 35	"	_	_
 36	buenos	_	_
-37	recuerdos	_	4
+37	recuerdos	_	3
 38	"	nsp	_
 39	.	_	_
 
@@ -31600,8 +31581,7 @@
 47	la	_	_
 48	mayoría	_	_
 49	absoluta	_	_
-50-51	al	nsp	_
-50	.	_	_
+50	.	nsp	_
 
 # sent_id es-s5195
 # orig_file_sentence 052#95
@@ -32552,9 +32532,9 @@
 # sent_id es-s5214
 # orig_file_sentence 053#14
 1	Matutes	_	_
-2	hizo	_	2:LVC
+2	hizo	_	1:LVC
 3	estas	_	_
-4	declaraciones	_	2
+4	declaraciones	_	1
 5	en	_	_
 6	una	_	_
 7	conferencia	_	_
@@ -32573,8 +32553,8 @@
 19	Roque	nsp	_
 20	,	_	_
 21	que	_	_
-22	hizo	_	1:LVC
-23	escala	_	1
+22	hizo	_	2:LVC
+23	escala	_	2
 24	en	_	_
 25	España	_	_
 26	dentro	_	_
@@ -32880,8 +32860,8 @@
 # orig_file_sentence 053#19
 1	Eludió	_	_
 2-3	referirse	_	_
-2	referir	_	1:IReflV
-3	se	_	1
+2	referir	_	2:IReflV
+3	se	_	2
 4	a	_	_
 5	la	_	_
 6	respuesta	_	_
@@ -32891,8 +32871,8 @@
 10	Vaticano	nsp	_
 11	,	_	_
 12	aunque	_	_
-13	se	_	2:IReflV
-14	mostró	_	2
+13	se	_	1:IReflV
+14	mostró	_	1
 15	satisfecho	_	_
 16	"	_	_
 17	por	_	_
@@ -32958,8 +32938,7 @@
 77	ha	_	_
 78	recrudecido	_	_
 79	"	_	_
-80-81	del	nsp	_
-80	.	_	_
+80	.	nsp	_
 
 # sent_id es-s5220
 # orig_file_sentence 053#20
@@ -32969,8 +32948,8 @@
 4	,	_	_
 5	ambos	_	_
 6	dirigentes	_	_
-7	se	_	1:IReflV
-8	refirieron	_	1
+7	se	_	2:IReflV
+8	refirieron	_	2
 9	a	_	_
 10	la	_	_
 11	reciente	_	_
@@ -32981,9 +32960,9 @@
 16	varios	_	_
 17	disidentes	_	_
 18	que	_	_
-19	se	_	2:IReflV
+19	se	_	1:IReflV
 20	habían	_	_
-21	entrevistado	_	2
+21	entrevistado	_	1
 22	con	_	_
 23	el	_	_
 24	presidente	_	_
@@ -33066,8 +33045,8 @@
 2	canciller	_	_
 3	cubano	_	_
 4	quiso	_	_
-5	dejar	_	1:LVC
-6	claro	_	1
+5	dejar	_	2:LVC
+6	claro	_	2
 7	que	_	_
 8	"	_	_
 9	en	_	_
@@ -33080,8 +33059,8 @@
 16	por	_	_
 17-18	haberse	_	_
 17	haber	_	_
-18	se	_	2:IReflV
-19	reunido	_	2
+18	se	_	1:IReflV
+19	reunido	_	1
 20	con	_	_
 21	alguno	_	_
 22	de	_	_
@@ -33256,9 +33235,9 @@
 26	que	_	_
 27	la	_	_
 28	feria	_	_
-29	tiene	_	2:LVC
+29	tiene	_	1:LVC
 30	un	_	_
-31	sentido	_	2
+31	sentido	_	1
 32	"	_	_
 33	promocional	_	_
 34	y	_	_
@@ -33276,9 +33255,9 @@
 46	mercado	_	_
 47	norteamericano	_	_
 48	que	_	_
-49	se	_	1:IReflV
+49	se	_	2:IReflV
 50	le	_	_
-51	niegan	_	1
+51	niegan	_	2
 52	hoy	_	_
 53	a	_	_
 54	niños	nsp	_
@@ -35861,8 +35840,7 @@
 46	su	_	_
 47	público	_	_
 48	"	_	_
-49-50	al	nsp	_
-49	.	_	_
+49	.	nsp	_
 
 # sent_id es-s5276
 # orig_file_sentence 053#76
@@ -35892,8 +35870,8 @@
 24	tres	_	_
 25	próximas	_	_
 26	jornadas	_	_
-27	se	_	2:IReflV
-28	enfrentarán	_	2
+27	se	_	1:IReflV
+28	enfrentarán	_	1
 29-30	al	_	_
 29	a	_	_
 30	el	_	_
@@ -35919,8 +35897,8 @@
 50	,	_	_
 51	el	_	_
 52	Ivesur	_	_
-53	se	_	1:IReflV
-54	jugará	_	1
+53	se	_	2:IReflV
+54	jugará	_	2
 55	la	_	_
 56	clasificación	_	_
 57	para	_	_
@@ -36324,8 +36302,7 @@
 48	frustrar	_	_
 49	los	_	_
 50	trabajos	_	_
-51-52	del	nsp	_
-51	.	_	_
+51	.	nsp	_
 
 # sent_id es-s5285
 # orig_file_sentence 053#85
@@ -36411,8 +36388,7 @@
 45	de	_	_
 46	el	_	_
 47	submarino	_	_
-48-49	del	nsp	_
-48	.	_	_
+48	.	nsp	_
 
 # sent_id es-s5287
 # orig_file_sentence 053#87
@@ -36516,8 +36492,7 @@
 43	unas	_	_
 44	maniobras	_	_
 45	navales	_	_
-46-47	al	nsp	_
-46	.	_	_
+46	.	nsp	_
 
 # sent_id es-s5289
 # orig_file_sentence 053#89
@@ -36545,13 +36520,13 @@
 21	tuvo	_	_
 22	que	_	_
 23-24	detenerse	_	_
-23	detener	_	2:IReflV
-24	se	nsp	2
+23	detener	_	1:IReflV
+24	se	nsp	1
 25	,	_	_
 26	tras	_	_
 27-28	adentrarse	_	_
-27	adentrar	_	1:IReflV
-28	se	_	1
+27	adentrar	_	2:IReflV
+28	se	_	2
 29	seis	_	_
 30	metros	nsp	_
 31	,	_	_
@@ -36568,8 +36543,7 @@
 42	le	_	_
 43	suministraba	_	_
 44	aire	_	_
-45-46	del	nsp	_
-45	.	_	_
+45	.	nsp	_
 
 # sent_id es-s5290
 # orig_file_sentence 053#90
@@ -38647,8 +38621,8 @@
 27	de	_	_
 28	prensa	_	_
 29	posterior	_	_
-30	se	_	2:IReflV
-31	refirió	_	2
+30	se	_	1:IReflV
+31	refirió	_	1
 32	a	_	_
 33	la	_	_
 34	postura	_	_
@@ -38666,9 +38640,9 @@
 46	a	_	_
 47	su	_	_
 48	juicio	_	_
-49	se	_	1:IReflV
+49	se	_	2:IReflV
 50	ha	_	_
-51	comportado	_	1
+51	comportado	_	2
 52	como	_	_
 53	niños	_	_
 54-55	al	_	_
@@ -38813,8 +38787,7 @@
 81	por	_	_
 82	sus	_	_
 83	quejas	_	_
-84-85	al	nsp	_
-84	.	_	_
+84	.	nsp	_
 
 # sent_id es-s5332
 # orig_file_sentence 054#32
@@ -40627,8 +40600,7 @@
 38	la	_	_
 39	Segunda	_	_
 40	División	_	_
-41-42	al	nsp	_
-41	.	_	_
+41	.	nsp	_
 
 # sent_id es-s5384
 # orig_file_sentence 054#84
@@ -40904,8 +40876,8 @@
 10	no	_	_
 11	pueda	_	_
 12-13	hacerse	_	_
-12	hacer	_	2:IReflV
-13	se	_	2
+12	hacer	_	1:IReflV
+13	se	_	1
 14	enteramente	_	_
 15	efectiva	_	_
 16	por	_	_
@@ -40946,9 +40918,9 @@
 51	las	_	_
 52	personas	_	_
 53	que	_	_
-54	estuvieran	_	1:LVC
-55	a	_	1
-56	cargo	_	1
+54	estuvieran	_	2:LVC
+55	a	_	2
+56	cargo	_	2
 57	de	_	_
 58	la	_	_
 59	persona	_	_
@@ -41460,8 +41432,8 @@
 21	las	_	_
 22	grandes	_	_
 23	corporaciones	_	_
-24	se	_	2:IReflV
-25	muestren	_	2
+24	se	_	1:IReflV
+25	muestren	_	1
 26	optimistas	_	_
 27	con	_	_
 28	vistas	_	_
@@ -41475,8 +41447,8 @@
 36	motivo	_	_
 37	suficiente	_	_
 38	para	_	_
-39	poner	_	1:LVC
-40	fin	_	1
+39	poner	_	2:LVC
+40	fin	_	2
 41	a	_	_
 42	los	_	_
 43	tipos	_	_
@@ -41751,8 +41723,8 @@
 3	administración	_	_
 4	de	_	_
 5	Miyazawa	_	_
-6	se	_	1:IReflV
-7	vio	_	1
+6	se	_	2:IReflV
+7	vio	_	2
 8	sacudida	_	_
 9	en	_	_
 10	1992	_	_
@@ -41784,8 +41756,8 @@
 36	derrota	_	_
 37	electoral	_	_
 38	que	_	_
-39	dio	_	2:LVC
-40	origen	_	2
+39	dio	_	1:LVC
+40	origen	_	1
 41-42	al	_	_
 41	a	_	_
 42	el	_	_
@@ -42401,8 +42373,8 @@
 13	de	_	_
 14	Guatemala	_	_
 15	que	_	_
-16	se	_	2:IReflV
-17	mantenían	_	2
+16	se	_	1:IReflV
+17	mantenían	_	1
 18	en	_	_
 19	huelga	_	_
 20	de	_	_
@@ -42430,8 +42402,8 @@
 40	su	_	_
 41	actitud	_	_
 42	y	_	_
-43	se	_	1:IReflV
-44	declararon	_	1
+43	se	_	2:IReflV
+44	declararon	_	2
 45	victoriosos	nsp	_
 46	.	_	_
 
@@ -42878,8 +42850,8 @@
 19	"	_	_
 20	que	_	_
 21	España	_	_
-22	se	_	3:IReflV
-23	opusiera	_	3
+22	se	_	1:IReflV
+23	opusiera	_	1
 24	a	_	_
 25	facilitar	_	_
 26	la	_	_
@@ -42890,16 +42862,16 @@
 31	que	_	_
 32	aspiran	_	_
 33	a	_	_
-34	formar	_	1:ID
-35	parte	_	1
+34	formar	_	2:ID
+35	parte	_	2
 36	de	_	_
 37	la	_	_
 38	Unión	_	_
 39	Europea	nsp	_
 40	,	_	_
 41	aunque	_	_
-42	se	_	2:IReflV
-43	mostró	_	2
+42	se	_	3:IReflV
+43	mostró	_	3
 44	contrario	_	_
 45	a	_	_
 46	establecer	_	_
@@ -43214,8 +43186,7 @@
 46	a	_	_
 47	la	_	_
 48	adhesión	_	_
-49-50	al	nsp	_
-49	.	_	_
+49	.	nsp	_
 
 # sent_id es-s5443
 # orig_file_sentence 055#43
@@ -44548,8 +44519,7 @@
 56	los	_	_
 57	parlamentarios	_	_
 58	verdes	_	_
-59-60	al	nsp	_
-59	.	_	_
+59	.	nsp	_
 
 # sent_id es-s5474
 # orig_file_sentence 055#74
@@ -46018,8 +45988,8 @@
 5	calado	_	_
 6	para	_	_
 7	México	_	_
-8	hace	_	1:LVC
-9	referencia	_	1
+8	hace	_	2:LVC
+9	referencia	_	2
 10-11	al	_	_
 10	a	_	_
 11	el	_	_
@@ -46038,8 +46008,8 @@
 23	los	_	_
 24	Estados	_	_
 25	firmantes	_	_
-26	se	_	2:IReflV
-27	comprometían	_	2
+26	se	_	1:IReflV
+27	comprometían	_	1
 28	a	_	_
 29	hacer	_	_
 30	cumplir	_	_
@@ -46356,8 +46326,8 @@
 23	Francisco	_	_
 24	Garza	nsp	_
 25	,	_	_
-26	se	_	2:IReflV
-27	mostró	_	2
+26	se	_	1:IReflV
+27	mostró	_	1
 28	"	_	_
 29	muy	_	_
 30	satisfecho	_	_
@@ -46389,8 +46359,8 @@
 56	que	_	_
 57	las	_	_
 58	empresas	_	_
-59	se	_	1:IReflV
-60	instalen	_	1
+59	se	_	2:IReflV
+60	instalen	_	2
 61	en	_	_
 62	México	nsp	_
 63	.	_	_
@@ -46542,8 +46512,7 @@
 57	el	_	_
 58	medio	_	_
 59	ambiente	_	_
-60-61	del	nsp	_
-60	.	_	_
+60	.	nsp	_
 
 # sent_id es-s5513
 # orig_file_sentence 056#13
@@ -47118,8 +47087,7 @@
 38	el	_	_
 39	título	_	_
 40	"	_	_
-41-42	al	nsp	_
-41	.	_	_
+41	.	nsp	_
 
 # sent_id es-s5525
 # orig_file_sentence 056#25
@@ -47587,10 +47555,10 @@
 2	cuanto	_	_
 3	a	_	_
 4	la	_	_
-5	repercusión	_	1:LVC
+5	repercusión	_	2:LVC
 6	que	_	_
 7	ha	_	_
-8	tenido	_	1
+8	tenido	_	2
 9	el	_	_
 10	oro	_	_
 11	olímpico	_	_
@@ -47605,9 +47573,9 @@
 20	se	_	_
 21	la	_	_
 22	había	_	_
-23	dado	_	2:LVC
+23	dado	_	1:LVC
 24	mucho	_	_
-25	valor	_	2
+25	valor	_	1
 26	por	_	_
 27	ser	_	_
 28	la	_	_
@@ -49699,8 +49667,7 @@
 58	muy	_	_
 59	unidos	_	_
 60	"	_	_
-61-62	del	nsp	_
-61	.	_	_
+61	.	nsp	_
 
 # sent_id es-s5585
 # orig_file_sentence 056#85
@@ -52863,8 +52830,7 @@
 48	un	_	_
 49	terreno	_	_
 50	minado	_	_
-51-52	del	nsp	_
-51	.	_	_
+51	.	nsp	_
 
 # sent_id es-s5657
 # orig_file_sentence 057#57
@@ -53939,8 +53905,7 @@
 28	el	_	_
 29	entrenador	_	_
 30	"	_	_
-31-32	del	nsp	_
-31	.	_	_
+31	.	nsp	_
 
 # sent_id es-s5682
 # orig_file_sentence 057#82
@@ -54028,8 +53993,7 @@
 33	abductor	_	_
 34	mediano	_	_
 35	izquierdo	_	_
-36-37	al	nsp	_
-36	.	_	_
+36	.	nsp	_
 
 # sent_id es-s5685
 # orig_file_sentence 057#85
@@ -54791,8 +54755,7 @@
 56	murió	_	_
 57	su	_	_
 58	madre	_	_
-59-60	al	nsp	_
-59	.	_	_
+59	.	nsp	_
 
 # sent_id es-s5701
 # orig_file_sentence 058#1
@@ -55173,8 +55136,7 @@
 50	de	_	_
 51	semana	_	_
 52	"	_	_
-53-54	al	nsp	_
-53	.	_	_
+53	.	nsp	_
 
 # sent_id es-s5711
 # orig_file_sentence 058#11
@@ -56516,8 +56478,7 @@
 48	en	_	_
 49	el	_	_
 50	2001	_	_
-51-52	del	nsp	_
-51	.	_	_
+51	.	nsp	_
 
 # sent_id es-s5738
 # orig_file_sentence 058#38
@@ -57823,8 +57784,7 @@
 64	en	_	_
 65	Pamplona	_	_
 66	"	_	_
-67-68	del	nsp	_
-67	.	_	_
+67	.	nsp	_
 
 # sent_id es-s5766
 # orig_file_sentence 058#66
@@ -58737,8 +58697,7 @@
 59	actuar	_	_
 60	en	_	_
 61	adelante	_	_
-62-63	del	nsp	_
-62	.	_	_
+62	.	nsp	_
 
 # sent_id es-s5789
 # orig_file_sentence 058#88
@@ -58962,8 +58921,7 @@
 68	de	_	_
 69	el	_	_
 70	mediodía	_	_
-71-72	del	nsp	_
-71	.	_	_
+71	.	nsp	_
 
 # sent_id es-s5793
 # orig_file_sentence 058#92
@@ -59679,12 +59637,12 @@
 14	constitucional	_	_
 15	a	_	_
 16-17	manifestarse	_	_
-16	manifestar	_	2:IReflV
-17	se	_	2
+16	manifestar	_	1:IReflV
+17	se	_	1
 18	y	_	_
 19	no	_	_
-20	presten	_	1:ID
-21	oídos	_	1
+20	presten	_	2:ID
+21	oídos	_	2
 22	"	_	_
 23	a	_	_
 24	aquellos	_	_
@@ -60135,8 +60093,7 @@
 54	de	_	_
 55	el	_	_
 56	Senado	_	_
-57-58	al	nsp	_
-57	.	_	_
+57	.	nsp	_
 
 # sent_id es-s5817
 # orig_file_sentence 059#17
@@ -60502,8 +60459,7 @@
 25	en	_	_
 26	su	_	_
 27	columna	_	_
-28-29	al	nsp	_
-28	.	_	_
+28	.	nsp	_
 
 # sent_id es-s5828
 # orig_file_sentence 059#28
@@ -60948,8 +60904,7 @@
 43	la	_	_
 44	prensa	_	_
 45	local	_	_
-46-47	al	nsp	_
-46	.	_	_
+46	.	nsp	_
 
 # sent_id es-s5838
 # orig_file_sentence 059#38
@@ -61126,8 +61081,7 @@
 57	los	_	_
 58	30.000	_	_
 59	dólares	_	_
-60-61	al	nsp	_
-60	.	_	_
+60	.	nsp	_
 
 # sent_id es-s5842
 # orig_file_sentence 059#42
@@ -61465,8 +61419,7 @@
 35	de	_	_
 36	falsedad	_	_
 37	documental	_	_
-38-39	al	nsp	_
-38	.	_	_
+38	.	nsp	_
 
 # sent_id es-s5848
 # orig_file_sentence 059#48
@@ -62032,8 +61985,7 @@
 55	el	_	_
 56	masculino	_	_
 57	"	_	_
-58-59	del	nsp	_
-58	.	_	_
+58	.	nsp	_
 
 # sent_id es-s5858
 # orig_file_sentence 059#58
@@ -62139,8 +62091,7 @@
 55	que	_	_
 56	creemos	_	_
 57	"	_	_
-58-59	al	nsp	_
-58	.	_	_
+58	.	nsp	_
 
 # sent_id es-s5860
 # orig_file_sentence 059#60
@@ -62858,15 +62809,15 @@
 8	Eurozona	_	_
 9	quiso	_	_
 10-11	pronunciarse	_	_
-10	pronunciar	_	2:IReflV
-11	se	_	2
+10	pronunciar	_	1:IReflV
+11	se	_	1
 12	sobre	_	_
 13	si	_	_
 14	la	_	_
 15	decisión	_	_
 16	danesa	_	_
-17	tendrá	_	1:LVC
-18	consecuencias	_	1
+17	tendrá	_	2:LVC
+18	consecuencias	_	2
 19	negativas	_	_
 20	en	_	_
 21	Suecia	_	_
@@ -63693,8 +63644,8 @@
 6	C5	nsp	_
 7	,	_	_
 8	que	_	_
-9	se	_	1:IReflV
-10	sitúa	_	1
+9	se	_	2:IReflV
+10	sitúa	_	2
 11	entre	_	_
 12	el	_	_
 13	Xantia	nsp	_
@@ -63724,8 +63675,8 @@
 37	el	_	_
 38	2002	nsp	_
 39	,	_	_
-40	se	_	2:IReflV
-41	situará	_	2
+40	se	_	1:IReflV
+41	situará	_	1
 42	entre	_	_
 43	el	_	_
 44	Saxo	_	_
@@ -64370,9 +64321,9 @@
 25	,	_	_
 26	además	_	_
 27	de	_	_
-28	correr	_	2:LVC
+28	correr	_	1:LVC
 29	el	_	_
-30	riesgo	_	2
+30	riesgo	_	1
 31	de	_	_
 32	no	_	_
 33	tener	_	_
@@ -64396,9 +64347,9 @@
 49	menos	nsp	_
 50	,	_	_
 51	se	_	_
-52	harán	_	1:LVC
+52	harán	_	2:LVC
 53	dos	_	_
-54	paradas	nsp	1
+54	paradas	nsp	2
 55	,	_	_
 56	si	_	_
 57	perdura	_	_
@@ -64565,9 +64516,9 @@
 2	la	_	_
 3	mañana	_	_
 4	solo	_	_
-5	dio	_	1:LVC
+5	dio	_	2:LVC
 6	una	_	_
-7	vuelta	_	1
+7	vuelta	_	2
 8	para	_	_
 9	comprobar	_	_
 10	si	_	_
@@ -64576,8 +64527,8 @@
 13	funcionaba	_	_
 14	correctamente	_	_
 15	y	_	_
-16	se	_	2:IReflV
-17	encontró	_	2
+16	se	_	1:IReflV
+17	encontró	_	1
 18	que	_	_
 19	no	_	_
 20	era	_	_
@@ -64603,8 +64554,7 @@
 39	de	_	_
 40	el	_	_
 41	chasis	_	_
-42-43	del	nsp	_
-42	.	_	_
+42	.	nsp	_
 
 # sent_id es-s5913
 # orig_file_sentence 060#13
@@ -64660,8 +64610,8 @@
 3	no	_	_
 4	le	_	_
 5	ha	_	_
-6	hecho	_	1:ID
-7	falta	_	1
+6	hecho	_	2:ID
+7	falta	_	2
 8	ahorrar	_	_
 9	neumáticos	nsp	_
 10	,	_	_
@@ -64670,9 +64620,9 @@
 13	los	_	_
 14	problemas	_	_
 15	mecánicos	_	_
-16	se	_	2:IReflV
+16	se	_	1:IReflV
 17	han	_	_
-18	encargado	_	2
+18	encargado	_	1
 19	de	_	_
 20-21	hacerlo	_	_
 20	hacer	_	_
@@ -65543,8 +65493,8 @@
 7	que	_	_
 8	Kostunica	_	_
 9	no	_	_
-10	se	_	2:IReflV
-11	presentará	_	2
+10	se	_	1:IReflV
+11	presentará	_	1
 12	a	_	_
 13	la	_	_
 14	segunda	_	_
@@ -65571,9 +65521,9 @@
 35	las	_	_
 36	encuestas	_	_
 37	le	_	_
-38	dan	_	1:LVC
+38	dan	_	2:LVC
 39	como	_	_
-40	ganador	_	1
+40	ganador	_	2
 41	con	_	_
 42	mayoría	_	_
 43	abrumadora	nsp	_
@@ -66963,8 +66913,7 @@
 49	final	_	_
 50	a	_	_
 51	cuatro	_	_
-52-53	al	nsp	_
-52	.	_	_
+52	.	nsp	_
 
 # sent_id es-s5964
 # orig_file_sentence 060#64
@@ -67065,8 +67014,7 @@
 51	segundos	_	_
 52	de	_	_
 53	grupo	_	_
-54-55	al	nsp	_
-54	.	_	_
+54	.	nsp	_
 
 # sent_id es-s5966
 # orig_file_sentence 060#66
@@ -68146,8 +68094,7 @@
 46	les	_	_
 47	duras	_	_
 48	críticas	_	_
-49-50	al	nsp	_
-49	.	_	_
+49	.	nsp	_
 
 # sent_id es-s5988
 # orig_file_sentence 060#88
@@ -71279,8 +71226,7 @@
 68	de	_	_
 69	los	_	_
 70	bienes	_	_
-71-72	del	nsp	_
-71	.	_	_
+71	.	nsp	_
 
 # sent_id es-s6053
 # orig_file_sentence 061#53
@@ -71393,8 +71339,7 @@
 69	con	_	_
 70	146.564	_	_
 71	millones	_	_
-72-73	del	nsp	_
-72	.	_	_
+72	.	nsp	_
 
 # sent_id es-s6055
 # orig_file_sentence 061#55
@@ -71894,8 +71839,7 @@
 36	el	_	_
 37	reparto	_	_
 38	"	_	_
-39-40	del	nsp	_
-39	.	_	_
+39	.	nsp	_
 
 # sent_id es-s6066
 # orig_file_sentence 061#66
@@ -72512,11 +72456,11 @@
 3	,	_	_
 4	entonces	nsp	_
 5	,	_	_
-6	se	_	2:IReflV
-7	dedicó	_	2
+6	se	_	1:IReflV
+7	dedicó	_	1
 8	a	_	_
-9	rendir	_	1:LVC
-10	homenaje	_	1
+9	rendir	_	2:LVC
+10	homenaje	_	2
 11	a	_	_
 12	los	_	_
 13	jugadores	_	_
@@ -73540,8 +73484,7 @@
 28	el	_	_
 29	material	_	_
 30	incautado	_	_
-31-32	del	nsp	_
-31	.	_	_
+31	.	nsp	_
 
 # sent_id es-s6107
 # orig_file_sentence 062#7
@@ -74691,8 +74634,8 @@
 17	la	_	_
 18	convocatoria	_	_
 19	que	_	_
-20	se	_	2:IReflV
-21	enfrentará	_	2
+20	se	_	1:IReflV
+21	enfrentará	_	1
 22	mañana	_	_
 23	Sábado	_	_
 24-25	al	_	_
@@ -74710,8 +74653,8 @@
 35	a	_	_
 36	los	_	_
 37	que	_	_
-38	da	_	1:LVC
-39	descanso	_	1
+38	da	_	2:LVC
+39	descanso	_	2
 40	en	_	_
 41	vísperas	_	_
 42-43	del	_	_
@@ -75617,8 +75560,7 @@
 65	Gobierno	_	_
 66	de	_	_
 67	Aznar	_	_
-68-69	del	nsp	_
-68	.	_	_
+68	.	nsp	_
 
 # sent_id es-s6154
 # orig_file_sentence 062#53
@@ -77732,8 +77674,7 @@
 47	propio	_	_
 48	primer	_	_
 49	asalto	_	_
-50-51	del	nsp	_
-50	.	_	_
+50	.	nsp	_
 
 # sent_id es-s6198
 # orig_file_sentence 062#97
@@ -79385,8 +79326,7 @@
 41	juego	_	_
 42	disputados	_	_
 43	hoy	_	_
-44-45	al	nsp	_
-44	.	_	_
+44	.	nsp	_
 
 # sent_id es-s6243
 # orig_file_sentence 063#43
@@ -80810,8 +80750,8 @@
 20	y	_	_
 21	a	_	_
 22	que	_	_
-23	se	_	2:IReflV
-24	siente	_	2
+23	se	_	1:IReflV
+24	siente	_	1
 25	acosado	_	_
 26	por	_	_
 27	los	_	_
@@ -80826,10 +80766,10 @@
 36	situación	_	_
 37	que	_	_
 38	no	_	_
-39	tiene	_	1:ID
+39	tiene	_	2:ID
 40	nada	_	_
-41	que	_	1
-42	ver	_	1
+41	que	_	2
+42	ver	_	2
 43	con	_	_
 44	los	_	_
 45	derechos	_	_
@@ -81754,8 +81694,7 @@
 45	de	_	_
 46	el	_	_
 47	poder	_	_
-48-49	del	nsp	_
-48	.	_	_
+48	.	nsp	_
 
 # sent_id es-s6296
 # orig_file_sentence 063#96
@@ -85051,8 +84990,7 @@
 32	agregó	_	_
 33	el	_	_
 34	portavoz	_	_
-35-36	al	nsp	_
-35	.	_	_
+35	.	nsp	_
 
 # sent_id es-s6375
 # orig_file_sentence 064#75
@@ -87960,8 +87898,8 @@
 54	en	_	_
 55	las	_	_
 56	series	_	_
-57	tiene	_	2:LVC
-58	ventaja	_	2
+57	tiene	_	1:LVC
+58	ventaja	_	1
 59	de	_	_
 60	5-2	_	_
 61	y	_	_
@@ -87971,8 +87909,8 @@
 64	la	_	_
 65	si	_	_
 66	ambos	_	_
-67	se	_	1:IReflV
-68	enfrentasen	_	1
+67	se	_	2:IReflV
+68	enfrentasen	_	2
 69	en	_	_
 70	el	_	_
 71	Campeonato	_	_
@@ -88119,8 +88057,7 @@
 43	juegos	_	_
 44	de	_	_
 45	ventaja	_	_
-46-47	del	nsp	_
-46	.	_	_
+46	.	nsp	_
 
 # sent_id es-s6437
 # orig_file_sentence 065#37
@@ -89876,8 +89813,7 @@
 61	el	_	_
 62	Pepsi	_	_
 63	Gijón	_	_
-64-65	al	nsp	_
-64	.	_	_
+64	.	nsp	_
 
 # sent_id es-s6477
 # orig_file_sentence 065#77
@@ -90405,14 +90341,14 @@
 3	que	_	_
 4	después	_	_
 5	de	_	_
-6	hacer	_	1:LVC
-7	campaña	_	1
+6	hacer	_	2:LVC
+7	campaña	_	2
 8	sin	_	_
 9	ropa	_	_
 10	se	_	_
-11	dio	_	2:LVC
+11	dio	_	1:LVC
 12	un	_	_
-13	baño	_	2
+13	baño	_	1
 14	refrescante	nsp	_
 15	,	_	_
 16	explicó	_	_
@@ -91272,8 +91208,7 @@
 31	para	_	_
 32	Teruel	_	_
 33	"	_	_
-34-35	al	nsp	_
-34	.	_	_
+34	.	nsp	_
 
 # sent_id es-s6504
 # orig_file_sentence 066#4
@@ -92109,8 +92044,7 @@
 45	NBA	_	_
 46	en	_	_
 47	1994	_	_
-48-49	del	nsp	_
-48	.	_	_
+48	.	nsp	_
 
 # sent_id es-s6524
 # orig_file_sentence 066#24
@@ -92983,8 +92917,7 @@
 60	fusiló	_	_
 61	sin	_	_
 62	apelaciones	_	_
-63-64	del	nsp	_
-63	.	_	_
+63	.	nsp	_
 
 # sent_id es-s6542
 # orig_file_sentence 066#42
@@ -95271,8 +95204,7 @@
 45	de	_	_
 46	el	_	_
 47	Pueblo	_	_
-48-49	del	nsp	_
-48	.	_	_
+48	.	nsp	_
 
 # sent_id es-s6597
 # orig_file_sentence 066#97
@@ -96875,8 +96807,7 @@
 57	de	_	_
 58	la	_	_
 59	oposición	_	_
-60-61	al	nsp	_
-60	.	_	_
+60	.	nsp	_
 
 # sent_id es-s7034
 # orig_file_sentence 071#34
@@ -97150,8 +97081,8 @@
 9	(	nsp	_
 10	OPEP	nsp	_
 11	)	_	_
-12	se	_	3:IReflV
-13	dispone	_	3
+12	se	_	1:IReflV
+13	dispone	_	1
 14	a	_	_
 15	celebrar	_	2:LVC
 16	hoy	_	_
@@ -97178,8 +97109,8 @@
 36	y	_	_
 37	agricultores	_	_
 38	británicos	_	_
-39	se	_	1:IReflV
-40	manifiestan	_	1
+39	se	_	3:IReflV
+40	manifiestan	_	3
 41	en	_	_
 42	contra	_	_
 43	de	_	_
@@ -97362,8 +97293,8 @@
 1	El	_	_
 2	asedio	_	_
 3	no	_	_
-4	se	_	1:IReflV
-5	reduce	_	1
+4	se	_	2:IReflV
+5	reduce	_	2
 6	sólo	_	_
 7-8	al	_	_
 7	a	_	_
@@ -97376,8 +97307,8 @@
 14	que	_	_
 15	las	_	_
 16	movilizaciones	_	_
-17	tienen	_	2:LVC
-18	lugar	_	2
+17	tienen	_	1:LVC
+18	lugar	_	1
 19	en	_	_
 20	otros	_	_
 21	puntos	_	_
@@ -97616,8 +97547,7 @@
 32	de	_	_
 33	el	_	_
 34	carburante	_	_
-35-36	del	nsp	_
-35	.	_	_
+35	.	nsp	_
 
 # sent_id es-s7053
 # orig_file_sentence 071#53
@@ -97800,8 +97730,7 @@
 55	el	_	_
 56	golfo	_	_
 57	Pérsico	_	_
-58-59	del	nsp	_
-58	.	_	_
+58	.	nsp	_
 
 # sent_id es-s7057
 # orig_file_sentence 071#57
@@ -98406,9 +98335,9 @@
 19	el	_	_
 20	pasado	_	_
 21	año	_	_
-22	estuvo	_	2:ID
-23	a	_	2
-24	punto	_	2
+22	estuvo	_	1:ID
+23	a	_	1
+24	punto	_	1
 25	de	_	_
 26-27	conseguirlo	_	_
 26	conseguir	_	_
@@ -98418,10 +98347,10 @@
 30	esta	_	_
 31	ocasión	_	_
 32	puede	_	_
-33	dar	_	1:ID
-34	el	_	1
-35	salto	_	1
-36	definitivo	_	1
+33	dar	_	2:ID
+34	el	_	2
+35	salto	_	2
+36	definitivo	_	2
 37	a	_	_
 38	el	_	_
 39	volante	_	_
@@ -98432,8 +98361,7 @@
 44	fiable	_	_
 45	y	_	_
 46	competitivo	_	_
-47-48	al	nsp	_
-47	.	_	_
+47	.	nsp	_
 
 # sent_id es-s7069
 # orig_file_sentence 071#69
@@ -100640,9 +100568,9 @@
 3	ministro	nsp	_
 4	,	_	_
 5	Brasil	_	_
-6	tiene	_	1:LVC
+6	tiene	_	2:LVC
 7	sus	_	_
-8	propuestas	_	1
+8	propuestas	_	2
 9	para	_	_
 10	frenar	_	_
 11	la	_	_
@@ -100664,8 +100592,8 @@
 26	FMI	nsp	_
 27	)	_	_
 28	que	_	_
-29	se	_	2:IReflV
-30	encuentra	_	2
+29	se	_	1:IReflV
+30	encuentra	_	1
 31	en	_	_
 32	Brasil	_	_
 33	y	_	_
@@ -102319,10 +102247,10 @@
 4	comenzado	_	_
 5	a	_	_
 6-7	hacerse	_	_
-6	hacer	_	1:LVC;2:IReflV
-7	se	_	2
+6	hacer	_	1:IReflV;2:LVC
+7	se	_	1
 8	muy	_	_
-9	evidentes	_	1
+9	evidentes	_	2
 10	a	_	_
 11	el	_	_
 12	inicio	_	_
@@ -102330,8 +102258,7 @@
 14	el	_	_
 15	curso	_	_
 16	actual	_	_
-17-18	al	nsp	_
-17	.	_	_
+17	.	nsp	_
 
 # sent_id es-s7577
 # orig_file_sentence 076#77
@@ -104192,8 +104119,8 @@
 30	moral	_	_
 31	de	_	_
 32-33	quejarse	_	_
-32	quejar	_	3:IReflV
-33	se	nsp	3
+32	quejar	_	2:IReflV
+33	se	nsp	2
 34	,	_	_
 35	pero	_	_
 36	ni	_	_
@@ -104203,9 +104130,9 @@
 40	el	_	_
 41	presidente	_	_
 42	pueden	_	_
-43	perder	_	2:ID
-44	la	_	2
-45	calma	_	2
+43	perder	_	3:ID
+44	la	_	3
+45	calma	_	3
 46	"	nsp	_
 47	.	_	_
 
@@ -106442,8 +106369,8 @@
 11	es	_	_
 12	fácil	_	_
 13-14	resistirse	_	_
-13	resistir	_	2:IReflV
-14	se	_	2
+13	resistir	_	1:IReflV
+14	se	_	1
 15	a	_	_
 16	el	_	_
 17	optimismo	_	_
@@ -106454,10 +106381,9 @@
 22	de	_	_
 23	empezar	_	_
 24	a	_	_
-25	hacer	_	1:LVC
-26	cuentas	_	1
-27-28	al	nsp	_
-27	.	_	_
+25	hacer	_	2:LVC
+26	cuentas	_	2
+27	.	nsp	_
 
 # sent_id es-s8507
 # orig_file_sentence 086#7
@@ -106755,9 +106681,9 @@
 # orig_file_sentence 086#25
 1	Me	_	_
 2	encanta	_	_
-3	coger	_	1:LVC
+3	coger	_	2:LVC
 4	una	_	_
-5	idea	_	1
+5	idea	_	2
 6	y	_	_
 7-8	desarrollarla	_	_
 7	desarrollar	_	_
@@ -106771,10 +106697,10 @@
 15	todo	nsp	_
 16	,	_	_
 17-18	ponerla	_	_
-17	poner	_	2:LVC
+17	poner	_	1:LVC
 18	la	_	_
-19	a	_	2
-20	prueba	_	2
+19	a	_	1
+20	prueba	_	1
 21	con	_	_
 22	público	nsp	_
 23	.	_	_
@@ -107251,8 +107177,7 @@
 23	su	_	_
 24	madre	_	_
 25	"	_	_
-26-27	al	nsp	_
-26	.	_	_
+26	.	nsp	_
 
 # sent_id es-s8540
 # orig_file_sentence 086#40
@@ -108148,8 +108073,7 @@
 53	las	_	_
 54	convocatorias	_	_
 55	internacionales	_	_
-56-57	del	nsp	_
-56	.	_	_
+56	.	nsp	_
 
 # sent_id es-s8567
 # orig_file_sentence 086#67
@@ -108203,15 +108127,15 @@
 # orig_file_sentence 086#69
 1	Como	_	_
 2	nadie	_	_
-3	hizo	_	1:LVC
-4	caso	_	1
+3	hizo	_	2:LVC
+4	caso	_	2
 5	a	_	_
 6	esta	_	_
 7	demanda	nsp	_
 8	,	_	_
 9	Irureta	_	_
-10	echó	_	2:ID
-11	mano	_	2
+10	echó	_	1:ID
+11	mano	_	1
 12	de	_	_
 13	la	_	_
 14	vieja	_	_
@@ -108354,8 +108278,7 @@
 28	obtener	_	_
 29	buenos	_	_
 30	resultados	_	_
-31-32	al	nsp	_
-31	.	_	_
+31	.	nsp	_
 
 # sent_id es-s8573
 # orig_file_sentence 086#73
