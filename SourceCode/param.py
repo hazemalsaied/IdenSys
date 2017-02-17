@@ -8,7 +8,7 @@ class Parameters:
     languageName = ''
     readMe = "/Users/hazemalsaied/Parseme/IdenSys/Results/readMe.md"
     results = "/Users/hazemalsaied/Parseme/IdenSys/Results/results.csv"
-    corpusPath = "/Users/hazemalsaied/Parseme/IdenSys/Corpora/sharedtask/"
+    corpusPath = "/Users/hazemalsaied/Parseme/IdenSys/sharedtask/"
     xpPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     langFolder = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
     resultPath = "/Users/hazemalsaied/Parseme/IdenSys/Results/"
