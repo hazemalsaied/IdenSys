@@ -1,0 +1,6 @@
+java -cp anna-3.3.jar is2.lemmatizer.Lemmatizer -train /Users/halsaied/Documents/IdenSys/sharedtask/FR/train.conllu.mate -model /Users/halsaied/Documents/IdenSys/sharedtask/FR/train.conllu.mate.model
+
+
+java -cp anna-3.3.jar is2.tag.Tagger -train /Users/halsaied/Documents/IdenSys/sharedtask/FR/train.conllu.mate -model /Users/halsaied/Documents/IdenSys/sharedtask/FR/train.conllu.mate.postag.model
+
+java -cp anna-3.3.jar is2.parser.Parser -train /Users/halsaied/Documents/IdenSys/sharedtask/FR/train.conllu.mate -model /Users/halsaied/Documents/IdenSys/sharedtask/FR/train.conllu.mate.parsing.model
