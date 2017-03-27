@@ -9,10 +9,12 @@
 
 ### Number of Single Word MWEs: 0## Number of features used: 2290532
 
-### 1- SVM One Vs Rest: 
-Score: 1.0, Number of merge operation: 0
-### 2- SVM Output Code: 
-Score: 1.0, Number of merge operation: 0
-### 3- SVM One Vs One : 
-Score: 1.0, Number of merge operation: 0
-### The Selected Classifier is: 1
+### Training corpus transitions:
+
+
+##### SHIFT = 593313
+##### Reduce = 580304
+##### MERGE_AS_LVC = 2027
+##### MERGE_AS_IReflV = 7017
+##### MERGE_AS_ID = 1092
+##### WHITE_MERGE = 2871
