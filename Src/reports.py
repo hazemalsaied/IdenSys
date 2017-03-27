@@ -5,13 +5,6 @@ from param import Parameters
 
 
 class Report:
-    NumOFSent = '### Number of Sentences: '
-    NumOFMWEs = '\n### Number of MWEs: '
-    NumOFEmbedded = '\n### Number of Embedded MWEs: '
-    NumOFInterleaving = '\n### Number of Interleaving MWEs: '
-    NumContinousMWEs = '\n### Number of Continous MWEs: '
-    NumSingleWordMWEs = '\n### Number of Single Word MWEs: '
-
     @staticmethod
     def createLanguageFolder(langName):
         Parameters.langFolder = os.path.join(Parameters.resultPath, langName)
@@ -19,28 +12,7 @@ class Report:
             os.makedirs(Parameters.langFolder)
 
     @staticmethod
-    def createXPFolder(configFile):
-        # xpFolder = Parameters.toBinary()
-        if Parameters.printReport:
-            Parameters.xpPath = os.path.join(Parameters.langFolder, configFile)
-            if not os.path.exists(Parameters.xpPath):
-                os.makedirs(Parameters.xpPath)
-
-    @staticmethod
-    def createConfigAndReadMe(corpus):
-        if Parameters.printReport:
-            staticParsingFile = open(os.path.join(Parameters.xpPath, 'config.md'), 'w')
-            staticParsingFile.write(Parameters.toString())
-
-            result = Report.NumOFSent + str(corpus.sentNum) + Report.NumOFMWEs + str(
-                corpus.mweNum) + '\n' + Report.NumOFEmbedded + str(
-                corpus.emeddedNum) + '\n' + Report.NumOFInterleaving + str(
-                corpus.intereavingNum) + '\n' + Report.NumContinousMWEs + str(
-                corpus.continousExp) + '\n' + Report.NumSingleWordMWEs + str(corpus.singleWordExp)
-            Report.editReadme('w', result)
-
-    @staticmethod
-    def createMWELexic(dic, dir):
+    def createMWELexic(dic):
         if Parameters.printReport:
             sortedDic = sorted(dic.items(), key=operator.itemgetter(1), reverse=True)
             pathItems = Parameters.resultPath.split('/')
@@ -51,7 +23,7 @@ class Report:
             path = ''
             for item in pathItems:
                 path += item + '/'
-            path = os.path.join(path, dir + '/Dictionary.md')
+            path = os.path.join(path, Parameters.languageName + '/Dictionary.md')
             # path += dir + '/Dictionary.md'
             result = ''
             for item in sortedDic:
@@ -67,6 +39,8 @@ class Report:
 
     @staticmethod
     def createStaticParsingReports(sents, crossValidationIdx=''):
+        if not Parameters.printReport:
+            return
         sentsForPrinting = [s for s in sents if len(s.vMWEs) >= 2]
         sentsForPrinting = sorted(sentsForPrinting, key=lambda Sentence: len(Sentence.vMWEs), reverse=True)
         sentsForPrinting = sentsForPrinting[0:5]
@@ -97,33 +71,40 @@ class Report:
         return False
 
     @staticmethod
-    def createParsingReport(testingSents, crossValidationIdx=''):
+    def createParsingReport(testingSents, mweDictionary, crossValidationIdx=''):
+
+        if not Parameters.printReport:
+            return
+
+            # Adding the source of MWE
+        for sent in testingSents:
+            for mwe in sent.vMWEs:
+                if mwe.getLemmaString() in mweDictionary.keys():
+                    mwe.isInTrainingCorpus = mweDictionary[mwe.getLemmaString()]
+
         sentsForPrinting = [s for s in testingSents if len(s.vMWEs) >= 1]
 
         result = ''
-        for sent in sentsForPrinting:
-            if sent.id == 2795:
-                result += str(sent)
         sentsForPrinting = sorted(sentsForPrinting, key=lambda Sentence: len(Sentence.vMWEs), reverse=True)
         printingPath = os.path.join(Parameters.xpPath, 'Parsing' + str(crossValidationIdx) + '.md')
-        staticParsingFile = open(printingPath, 'w')
+        parsingFile = open(printingPath, 'w')
 
         for sent in sentsForPrinting[0:5]:
             result += str(sent)
-        staticParsingFile.write(result)
+        parsingFile.write(result)
 
         # Producing a long report
         printingPath = os.path.join(Parameters.xpPath, 'Parsing' + str(crossValidationIdx) + '-long.md')
-        staticParsingFile = open(printingPath, 'w')
+        parsingFile = open(printingPath, 'w')
         result = ''
         for sent in sentsForPrinting:
             result += sent.printSummary()
-        staticParsingFile.write(result)
+        parsingFile.write(result)
 
     @staticmethod
     def editTotalReadMe(fScore, recall, precision, corpus, testSents, identifiedIntellegentillyPrecent=.0,
                         identifiedSemiIntellegentillyPercent=.0):
-        #if not Parameters.printReport:
+        # if not Parameters.printReport:
         #    return
         report = ''
         mwes, singleMWE, continousMWEs, interleavingMwes, embeddedMwes, identifiedMwes, identifiedSingleMWE, identifiedContinousMWEs = 0, 0, 0, 0, 0, 0, 0, 0,
@@ -167,7 +148,7 @@ class Report:
                     singleMWE += 1
                 if mwe.isContinousExp:
                     continousMWEs += 1
-                if mwe.isEmbeded:
+                if mwe.isEmbedded:
                     embeddedMwes += 1
                 if mwe.isInterleaving:
                     embeddedMwes += 1
@@ -187,3 +168,26 @@ class Report:
                     continousMWEs += 1
 
         return mwes, singleMWE, continousMWEs
+
+
+    @staticmethod
+    def createEvaluationFiles(sents):
+
+        if not Parameters.useCrossValidation:
+            if not Parameters.realExper:
+                goldCorpus = ''
+                for sent in sents:
+                    goldCorpus += sent.getCorpusText() + '\n'
+                path =   os.path.join(Parameters.langFolder,Parameters.languageName  + '.gold')
+                wFile = open(path, 'w')
+                wFile.write(goldCorpus)
+
+            predCorpus = ''
+            for sent in sents:
+                predCorpus += sent.getCorpusText(gold=False) + '\n'
+            if Parameters.realExper:
+                path = os.path.join(Parameters.langFolder, 'test.system.parsemetsv')
+            else:
+                path = os.path.join( Parameters.langFolder, Parameters.languageName + '.pred')
+            wFile = open(path, 'w')
+            wFile.write(predCorpus)
