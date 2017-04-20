@@ -1,4 +1,4 @@
-
+Language name, Number of new MWEs, Number of existing MWE, percentage
 
 BG : 107 319 pre: 0.34
 
