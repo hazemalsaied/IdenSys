@@ -1,6 +1,7 @@
 import os
-from param import Parameters
+
 import marmot
+
 
 def ConlluToConll2009(conllu2016Path):
     with open(conllu2016Path) as corpusFile:

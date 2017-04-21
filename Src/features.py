@@ -1,6 +1,6 @@
-from configuration import Configuration
+from Src.transitions import Configuration
 from corpus import Corpus, Sentence, Token
-from param import Parameters
+from param import FeatParams
 
 
 class Extractor:
@@ -25,7 +25,7 @@ class Extractor:
         transDic = {}
         configuration = transition.configuration
 
-        if Parameters.useStackLength and len(configuration.stack) > 1:
+        if FeatParams.useStackLength and len(configuration.stack) > 1:
             transDic['StackLengthIs'] = len(configuration.stack)
 
         if len(configuration.stack) >= 2:
@@ -41,18 +41,18 @@ class Extractor:
                 elemIdx -= 1
 
         if len(configuration.buffer) > 0:
-            if Parameters.useFirstBufferElement:
+            if FeatParams.useFirstBufferElement:
                 Extractor.generateLinguisticFeatures(configuration.buffer[0], 'B0', transDic)
 
-            if Parameters.useSecondBufferElement and len(configuration.buffer) > 1:
+            if FeatParams.useSecondBufferElement and len(configuration.buffer) > 1:
                 Extractor.generateLinguisticFeatures(configuration.buffer[1], 'B1', transDic)
 
         # Bi-Gram Generation
-        if Parameters.useBiGram:
+        if FeatParams.useBiGram:
             if len(stackElements) > 1:
                 # Generate a Bi-gram S1S0 S0B0 S1B0 S0B1
                 Extractor.generateBiGram(stackElements[-2], stackElements[-1], 'S1S0', transDic)
-                if Parameters.generateS1B1 and len(configuration.buffer) > 1:
+                if FeatParams.generateS1B1 and len(configuration.buffer) > 1:
                     Extractor.generateBiGram(stackElements[-2], configuration.buffer[1], 'S1B1', transDic)
             if len(stackElements) > 0 and len(configuration.buffer) > 0:
                 Extractor.generateBiGram(stackElements[-1], configuration.buffer[0], 'S0B0', transDic)
@@ -60,29 +60,29 @@ class Extractor:
                     Extractor.generateBiGram(stackElements[-2], configuration.buffer[0], 'S1B0', transDic)
                 if len(configuration.buffer) > 1:
                     Extractor.generateBiGram(stackElements[-1], configuration.buffer[1], 'S0B1', transDic)
-                    if Parameters.generateS0B2Bigram and len(configuration.buffer) > 2:
+                    if FeatParams.generateS0B2Bigram and len(configuration.buffer) > 2:
                         Extractor.generateBiGram(stackElements[-1], configuration.buffer[2], 'S0B2', transDic)
 
         # Tri-Gram Generation
-        if Parameters.useTriGram and len(stackElements) > 1 and len(configuration.buffer) > 0:
+        if FeatParams.useTriGram and len(stackElements) > 1 and len(configuration.buffer) > 0:
             Extractor.generateTriGram(stackElements[-2], stackElements[-1], configuration.buffer[0], 'S1S0B0', transDic)
 
         # Syntaxic Informations
-        if len(stackElements) > 0 and Parameters.useSyntax:
+        if len(stackElements) > 0 and FeatParams.useSyntax:
             Extractor.generateSyntaxicFeatures(configuration.stack, configuration.buffer, transDic)
 
         # Distance information
-        if Parameters.useS0B0Distance and len(configuration.stack) > 0 and len(configuration.buffer) > 0:
+        if FeatParams.useS0B0Distance and len(configuration.stack) > 0 and len(configuration.buffer) > 0:
             stackTokens = Configuration.getToken(configuration.stack[-1])
             transDic['S0B0Distance'] = str(
                 sent.tokens.index(configuration.buffer[0]) - sent.tokens.index(stackTokens[-1]))
-        if Parameters.useS0S1Distance and len(configuration.stack) > 1 and isinstance(configuration.stack[-1], Token) \
+        if FeatParams.useS0S1Distance and len(configuration.stack) > 1 and isinstance(configuration.stack[-1], Token) \
                 and isinstance(configuration.stack[-2], Token):
             transDic['S0S1Distance'] = str(
                 sent.tokens.index(configuration.stack[-1]) - sent.tokens.index(configuration.stack[-2]))
         Extractor.addTransitionHistory(transition, transDic)
 
-        if Parameters.useLexic and len(configuration.buffer) > 0 and len(configuration.stack) >= 1:
+        if FeatParams.useLexic and len(configuration.buffer) > 0 and len(configuration.stack) >= 1:
             Extractor.generateDisconinousFeatures(configuration, sent, transDic)
 
         Extractor.enhanceMerge(transition, transDic)
@@ -92,7 +92,7 @@ class Extractor:
     @staticmethod
     def enhanceMerge(transition, transDic):
 
-        if not Parameters.enhanceMerge:
+        if not FeatParams.enhanceMerge:
             return
         config = transition.configuration
         if transition.type.value != 0 and len(config.buffer) > 0 and len(
@@ -116,7 +116,7 @@ class Extractor:
             transDic['S0B0tInLexic'] = False
             if len(config.buffer) > 1 and Extractor.areInLexic(
                     [config.stack[-2], config.buffer[1]]) and not Extractor.areInLexic(
-                    [config.stack[-1], config.buffer[1]]):
+                [config.stack[-1], config.buffer[1]]):
                 transDic['S1B1InLexic'] = True
                 transDic['S0B1InLexic'] = False
 
@@ -142,14 +142,14 @@ class Extractor:
         if isinstance(token, list):
             token = Extractor.concatenateTokens([token])[0]
         transDic[label + 'Token'] = token.text
-        if Parameters.usePOS and token.posTag is not None and token.posTag.strip() != '':
+        if FeatParams.usePOS and token.posTag is not None and token.posTag.strip() != '':
             transDic[label + 'POS'] = token.posTag
-        if Parameters.useLemma and token.lemma is not None and token.lemma.strip() != '':
+        if FeatParams.useLemma and token.lemma is not None and token.lemma.strip() != '':
             transDic[label + 'Lemma'] = token.lemma
-        if not Parameters.useLemma and not Parameters.usePOS:
+        if not FeatParams.useLemma and not FeatParams.usePOS:
             transDic[label + '_LastThreeLetters'] = token.text[-3:]
             transDic[label + '_LastTwoLetters'] = token.text[-2:]
-        if Parameters.useDictionary and ((
+        if FeatParams.useDictionary and ((
                                                          token.lemma != '' and token.lemma in Corpus.mweTokenDic.keys()) or token.text in Corpus.mweTokenDic.keys()):
             transDic[label + 'IsInLexic'] = 'true'
 
@@ -236,13 +236,13 @@ class Extractor:
         idx = 0
         for token in tokens:
             if features[idx].lower() == 'l':
-                if Parameters.useLemma:
+                if FeatParams.useLemma:
                     if token.lemma.strip() != '':
                         feature += token.lemma.strip() + '_'
                     else:
                         feature += '*' + '_'
             elif features[idx].lower() == 'p':
-                if Parameters.usePOS:
+                if FeatParams.usePOS:
                     if token.posTag.strip() != '':
                         feature += token.posTag.strip() + '_'
                     else:
@@ -266,11 +266,11 @@ class Extractor:
     @staticmethod
     def addTransitionHistory(transition, transDic):
 
-        if Parameters.historyLength1:
+        if FeatParams.historyLength1:
             Extractor.getTransitionHistory(transition, 1, 'TransHistory1', transDic)
-        if Parameters.historyLength2:
+        if FeatParams.historyLength2:
             Extractor.getTransitionHistory(transition, 2, 'TransHistory2', transDic)
-        if Parameters.historyLength3:
+        if FeatParams.historyLength3:
             Extractor.getTransitionHistory(transition, 3, 'TransHistory3', transDic)
 
     @staticmethod

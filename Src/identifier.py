@@ -1,39 +1,40 @@
-import datetime
 import os
 import sys
 
+from Src.parsers import EmbeddedinParser
 from classification import Classification
 from corpus import Corpus
-from evaluate import Evaluation
-from param import Parameters
-from parser import Parser
+from evaluation import Evaluation
+from param import FeatParams, XPParams, Paths
+from parsers import Parser
 from reports import Report
-from parserOfEmbedding import EmbeddedinParser
+
 
 class Identifier:
     @staticmethod
     def identify():
-        for subdir, dirs, files in os.walk(Parameters.configPath):
+        Report.createRootResultFolder()
+        for subdir, dirs, files in os.walk(Paths.configsFolder):
             for dir in dirs:
-                Parameters.languageName = dir
-                for subdir1, dirs1, configFiles in os.walk(os.path.join(Parameters.configPath, dir)):
+                Paths.languageName = dir
+                for subdir1, dirs1, configFiles in os.walk(os.path.join(Paths.configsFolder, dir)):
 
-                    corpus = Corpus(os.path.join(Parameters.corpusPath, Parameters.languageName))
-                    corpus.printSentsWithEmbeddedMWEs()
+                    corpus = Corpus(os.path.join(Paths.corpusPath, Paths.languageName))
                     for configFile in configFiles:
                         if not configFile.endswith('.json'):
                             continue
-                        Parameters.configPath = os.path.join(Parameters.configPath, Parameters.languageName, configFile)
-                        if Parameters.useCrossValidation:
+                        Paths.configsFolder = os.path.join(Paths.configsFolder, Paths.languageName,
+                                                                configFile)
+                        if XPParams.useCrossValidation:
                             fScore, recall, precision, newIdenMWEs, semiNewIdenMWEs = .0, .0, .0, .0, .0
                             testRange, trainRange = Corpus.getRangs(corpus.trainDataSet)
                             for x in xrange(0, len(testRange)):
-                                Parameters.xpPath = os.path.join(Parameters.langFolder, str(x))
-                                Parameters(Parameters.configPath, corpus=corpus)
-                                corpus.divideSents(testRange,trainRange, x)
+                                Paths.xpPath = os.path.join(Paths.langResultFolder, str(x))
+                                FeatParams(Paths.configsFolder, corpus=corpus)
+                                corpus.divideSents(testRange, trainRange, x)
                                 Corpus.mweDictionary, Corpus.mweTokenDic = Corpus.getMWEDic(corpus.trainingSents)
                                 clf = Classification.train(corpus.trainingSents)
-                                if Parameters.includeEmbedding:
+                                if XPParams.includeEmbedding:
                                     Parser.parse(corpus, clf, EmbeddedinParser)
                                 else:
                                     Parser.parse(corpus, clf, Parser)
@@ -55,11 +56,11 @@ class Identifier:
                             Report.editTotalReadMe(fScore / 5, recall / 5, precision / 5, corpus, [],
                                                    newIdenMWEs, semiNewIdenMWEs)
                         else:
-                            Parameters.xpPath = Parameters.langFolder
-                            Parameters(Parameters.configPath, corpus=corpus)
+                            Paths.xpPath = Paths.langResultFolder
+                            FeatParams(Paths.configsFolder, corpus=corpus)
                             Corpus.mweDictionary, Corpus.mweTokenDic = Corpus.getMWEDic(corpus.trainingSents)
                             clf = Classification.train(corpus.trainingSents)
-                            if Parameters.includeEmbedding:
+                            if XPParams.includeEmbedding:
                                 Parser.parse(corpus, clf, EmbeddedinParser)
                             else:
                                 Parser.parse(corpus, clf, Parser)

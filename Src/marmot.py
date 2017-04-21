@@ -230,7 +230,6 @@ def mergeJckOutFiles(outfilesPath, foldNum, langs):
         outFile.write(lines)
 
 
-
 def removeFinalEmptyLines(linelist):
     emptyLinesNum = 0
     for line in reversed(linelist):
@@ -243,6 +242,7 @@ def removeFinalEmptyLines(linelist):
 
     linelist.append('\n')
     return linelist
+
 
 def verifyAlignment(path1, path2):
     with open(path1) as file1:
@@ -261,18 +261,20 @@ def verifyAlignment(path1, path2):
                     print idx
                     return False
 
-                line1Parts  = line.split('\t')
+                line1Parts = line.split('\t')
                 line2Parts = file2Lines[idx].split('\t')
                 if line1Parts[0].strip() != line2Parts[0].strip():
                     print idx
                     return False
-                idx+=1
+                idx += 1
     return True
+
+
 # creatBatchForMarmotJCK(10, 'FR,HU,CS,PL')
-#mergeJckOutFiles('/Users/halsaied/Documents/IdenSys/MarMot/Jackkniffing/', 10, 'FR')
+# mergeJckOutFiles('/Users/halsaied/Documents/IdenSys/MarMot/Jackkniffing/', 10, 'FR')
 
-#integrateAutoPOS('/Users/halsaied/Documents/IdenSys/sharedtask/FR/test.conllu', '/Users/halsaied/Documents/IdenSys/MarMot/Output/test.out.fr')
+# integrateAutoPOS('/Users/halsaied/Documents/IdenSys/sharedtask/FR/test.conllu', '/Users/halsaied/Documents/IdenSys/MarMot/Output/test.out.fr')
 
-#print verifyAlignment('/Users/halsaied/Documents/IdenSys/sharedtask/HU/train.conllu', '/Users/halsaied/Documents/IdenSys/sharedtask/HU/train.conllu.autoPOS')
+# print verifyAlignment('/Users/halsaied/Documents/IdenSys/sharedtask/HU/train.conllu', '/Users/halsaied/Documents/IdenSys/sharedtask/HU/train.conllu.autoPOS')
 
 mergeJckOutFiles('/Users/halsaied/Documents/IdenSys/MateTools/HU/Jackkniffing/', 10, '')

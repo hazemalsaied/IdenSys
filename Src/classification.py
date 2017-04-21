@@ -7,18 +7,18 @@ from sklearn.multiclass import OneVsOneClassifier
 from sklearn.multiclass import OutputCodeClassifier, OneVsRestClassifier
 from sklearn.svm import LinearSVC
 from corpus import Corpus
-from param import Parameters
+from param import FeatParams,XPParams, PrintParams
 from reports import Report
-from transition import StaticOracle
-from embeddingTransitions import EmbeddingOracle
+from Src.oracles import StaticOracle
+from oracles import EmbeddingOracle
 
 
 class Classification:
     @staticmethod
     def train(sents, crossValidationIdx=''):
-        if Parameters.useCrossValidation:
+        if XPParams.useCrossValidation:
             Corpus.initializeSents(sents)
-        if Parameters.includeEmbedding:
+        if XPParams.includeEmbedding:
             staticParsingData = EmbeddingOracle.parseCorpus(sents, EmbeddingOracle)
         else:
             staticParsingData = StaticOracle.parseCorpus(sents, StaticOracle)
@@ -32,16 +32,22 @@ class Classification:
 
         score = []
         clfs = []
-        oneVsRest = Classification.evaluateOneVsRest(X, Y)
-        report += '### 1- SVM One Vs Rest: \n' + 'Score: ' + str(oneVsRest[0]) + ', Number of merge operation: ' + str(
-            oneVsRest[1]) + '\n'
-        score.append(oneVsRest[1])
-        clfs.append(oneVsRest[2])
+
         outputCode = Classification.evaluateOutputCode(X, Y)
         report += '### 2- SVM Output Code: \n' + 'Score: ' + str(outputCode[0]) + ', Number of merge operation: ' + str(
             outputCode[1]) + '\n'
         score.append(outputCode[1])
         clfs.append(outputCode[2])
+
+        if XPParams.includeEmbedding:
+            return [outputCode[2], vec]
+
+        oneVsRest = Classification.evaluateOneVsRest(X, Y)
+        report += '### 1- SVM One Vs Rest: \n' + 'Score: ' + str(oneVsRest[0]) + ', Number of merge operation: ' + str(
+            oneVsRest[1]) + '\n'
+        score.append(oneVsRest[1])
+        clfs.append(oneVsRest[2])
+
         oneVsOne = Classification.evaluateOneVsOne(X, Y)
         report += '### 3- SVM One Vs One : \n' + 'Score: ' + str(oneVsOne[0]) + ', Number of merge operation: ' + str(
             oneVsOne[1]) + '\n'
@@ -52,16 +58,10 @@ class Classification:
         report += '### The Selected Classifier is: ' + str(idx + 1) + '\n'
         clf = clfs[idx]
 
-        if Parameters.printReport:
+        if PrintParams.printReport:
             Report.editReadme('a', report)
 
         return [clf, vec]
-
-    @staticmethod
-    def trainClassifier(X, Y, clf):
-        X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
-        clf.fit(X_train, Y_train)
-        return clf
 
     @staticmethod
     def evaluateOneVsRest(X, Y, printReport=False):

@@ -1,0 +1,38 @@
+#!/bin/bash
+
+#
+# Training and applying a pipeline system for English
+# 
+#
+# author: Dr. Bernd Bohnet
+#
+# 
+
+models=models/
+dist=dist/anna-3.6.jar
+
+
+train=~/corpora/training-english
+test=~/corpora/test-english
+
+# train the lemmatizer tagger
+lemmatizer_model=$models/lemmatizer-eng-4M-v36.mdl
+out_lemmatizer=results/lemma-eng
+
+#java -Xmx300M -cp $dist is2.lemmatizer.Lemmatizer -train $train -model $lemmatizer_model  -hsize 4000001 
+java -Xmx50M  -cp $dist is2.lemmatizer.Lemmatizer -test $test  -eval $test -out $out_lemmatizer -model $lemmatizer_model 
+
+# train the part-of-speech tagger
+tagger_model=$models/tagger-eng-4M-v36.mdl
+out_tagger=results/tag-eng
+#java -Xmx0.5G -cp $dist is2.tag.Tagger  -train $train  -model $tagger_model -i 10  -hsize 4000001 
+java -Xmx50M  -cp  $dist is2.tag.Tagger -test $out_lemmatizer -out $out_tagger -eval $test -model $tagger_model
+
+# train the part-of-speech tagger
+parser_model=$models/parser-eng-12M-v36.mdl
+out_parser=results/tag-parser
+#java -Xmx1G -cp $dist is2.parser.Parser -train $train     -model $parser_model -i 10  -hsize 12000001 
+java -Xmx200M -cp $dist is2.parser.Parser -test $out_tagger -out $out_parser -eval $test -model $parser_model
+
+
+
