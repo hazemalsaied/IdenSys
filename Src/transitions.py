@@ -1,15 +1,14 @@
 from enum import Enum
 
-from Src.corpus import Token
-from corpus import VMWE, Sentence
-
+from corpus import VMWE, Sentence, Token
+import logging
 
 class TransitionType(Enum):
     SHIFT = 0
     MERGE = 1
     COMPLETE = 2
     MWT_COMPLETE = 3
-    Reduce = 4
+    REDUCE = 4
     MERGE_AS_LVC = 5
     MERGE_AS_VPC = 6
     MERGE_AS_IReflV = 7
@@ -159,7 +158,6 @@ class Shift(Transition):
         self.type = TransitionType.SHIFT
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False):
-        # TODO: Verify of the length of the buffer
         config = parent.configuration
         lastToken = config.buffer[0]
         newStack = list(config.stack)
@@ -227,7 +225,7 @@ class Merge(Transition):
 
 class Reduce(Transition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
-        self.type = TransitionType.Reduce
+        self.type = TransitionType.REDUCE
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False):
         config = parent.configuration

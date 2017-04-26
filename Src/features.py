@@ -1,4 +1,4 @@
-from Src.transitions import Configuration
+from transitions import Configuration
 from corpus import Corpus, Sentence, Token
 from param import FeatParams
 

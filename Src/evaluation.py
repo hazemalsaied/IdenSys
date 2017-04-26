@@ -1,18 +1,18 @@
 from __future__ import division
 
-from param import PrintParams, XPParams, Paths
+from param import  XPParams, Paths
 from reports import Report
-import logging
+import logging, os
 
 
 class Evaluation:
     @staticmethod
-    def evaluate(corpus, resultFilePath=Paths.evalResultsFile):
+    def evaluate(corpus, resultFilePath= os.path.join(Paths.rootResultFolder, 'results.csv')):
         if not XPParams.baseline:
             Report.createEvaluationFiles(corpus.testingSents)
 
         if XPParams.realExper:
-            logging.warning('The evaluation is not possible in **real exeriements**!')
+            logging.warn('The evaluation is not possible in **real exeriements**!')
             return 0, 0, 0
         nubCorrectExpectedAnn, nubFoundAnn, nubCorrectFoundAnn, nubCorrectWithCatFoundAnn = 0, 0, 0, 0
 
@@ -39,7 +39,7 @@ class Evaluation:
             fScore = 2 * (recall * precision) / (recall + precision)
         else:
             fScore = 0
-        logging.info('R: ' + str("%.3f" % recall)+ ' Precision: ' + str("%.3f" % precision)+
+        logging.warn('R: ' + str("%.3f" % recall)+ ' Precision: ' + str("%.3f" % precision)+
                      ' F-Score: ' + str("%.3f" % fScore))
 
         if XPParams.includeEmbedding:
@@ -50,18 +50,9 @@ class Evaluation:
             if r + p != 0:
                 f = (2 * (r * p) / (r + p))
 
-            logging.info('Evaluation of Category identification:')
-            logging.info('R: ' + str("%.3f" % r)+ ' Precision: ' + str("%.3f" % p)+ ' F-Score: ' + str("%.3f" % f))
+            logging.info('Evaluation of embedding and Category identification:')
+            logging.warn('R: ' + str("%.3f" % r)+ ' Precision: ' + str("%.3f" % p)+ ' F-Score: ' + str("%.3f" % f))
 
         if not XPParams.useCrossValidation:
             Report.editTotalReadMe(fScore, recall, precision, corpus, corpus.testingSents, path=resultFilePath)
         return fScore, recall, precision
-
-    @staticmethod
-    def createReport(fScore, recall, precision):
-        if PrintParams.printReport:
-            report = '## Exact Identification Evaluation: ' + '\n'
-            report += '#### Recall: ' + str("%.3f" % recall) + '\n'
-            report += '#### Precision: ' + str("%.3f" % precision) + '\n'
-            report += '#### F-Score: ' + str("%.3f" % fScore) + '\n'
-            Report.editReadme('a', report)

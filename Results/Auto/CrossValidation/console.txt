@@ -1,0 +1,385 @@
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/halsaied/Documents/IdenSys/Src/identifier.py
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: True
+WARNING:root:Automatic Annotation: True
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: False
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/Auto/CrossValidation
+248397
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.559 Precision: 0.659 F-Score: 0.605
+250597
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.513 Precision: 0.689 F-Score: 0.588
+254134
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.465 Precision: 0.649 F-Score: 0.542
+254175
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.407 Precision: 0.671 F-Score: 0.507
+253869
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.468 Precision: 0.653 F-Score: 0.545
+WARNING:root:F: 0.557249530352R: 0.482167518866P: 0.664385504766
+1183272
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.650 Precision: 0.781 F-Score: 0.709
+1190998
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.649 Precision: 0.769 F-Score: 0.704
+1178324
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.632 Precision: 0.777 F-Score: 0.697
+1182670
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.648 Precision: 0.781 F-Score: 0.709
+1188976
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.635 Precision: 0.778 F-Score: 0.699
+WARNING:root:F: 0.703714015449R: 0.642951063847P: 0.77723752657
+192703
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.154 Precision: 0.413 F-Score: 0.224
+192631
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.137 Precision: 0.427 F-Score: 0.208
+192400
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.163 Precision: 0.474 F-Score: 0.243
+193077
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.154 Precision: 0.420 F-Score: 0.225
+193137
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.215 Precision: 0.485 F-Score: 0.298
+WARNING:root:F: 0.239500304294R: 0.164583848759P: 0.443640422002
+224548
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.555 Precision: 0.737 F-Score: 0.633
+225414
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.454 Precision: 0.584 F-Score: 0.510
+233059
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.549 Precision: 0.596 F-Score: 0.571
+227003
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.510 Precision: 0.721 F-Score: 0.597
+228544
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.478 Precision: 0.613 F-Score: 0.538
+WARNING:root:F: 0.569942699446R: 0.509199521126P: 0.650012033977
+158050
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.510 Precision: 0.802 F-Score: 0.623
+157848
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.521 Precision: 0.856 F-Score: 0.647
+157890
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.618 Precision: 0.824 F-Score: 0.706
+158756
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.622 Precision: 0.731 F-Score: 0.672
+166520
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.568 Precision: 0.758 F-Score: 0.649
+WARNING:root:F: 0.659791592009R: 0.567767389873P: 0.794229369971
+71500
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.778 Precision: 0.891 F-Score: 0.831
+73158
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.875 Precision: 0.923 F-Score: 0.898
+76154
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.850 Precision: 0.920 F-Score: 0.884
+76040
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.863 Precision: 0.899 F-Score: 0.880
+75388
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.864 Precision: 0.918 F-Score: 0.890
+WARNING:root:F: 0.876631055136R: 0.846076273668P: 0.909971759135
+699604
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.508 Precision: 0.808 F-Score: 0.624
+702225
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.685 Precision: 0.843 F-Score: 0.756
+699941
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.664 Precision: 0.832 F-Score: 0.738
+701767
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.659 Precision: 0.848 F-Score: 0.741
+700747
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.665 Precision: 0.796 F-Score: 0.725
+WARNING:root:F: 0.7167485575R: 0.636070289562P: 0.825179365477
+161372
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.107 Precision: 0.766 F-Score: 0.187
+160534
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.166 Precision: 0.519 F-Score: 0.252
+160372
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.282 Precision: 0.583 F-Score: 0.380
+158944
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.112 Precision: 0.596 F-Score: 0.189
+157098
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.184 Precision: 0.625 F-Score: 0.284
+WARNING:root:F: 0.258382830944R: 0.170128502315P: 0.617804560553
+137469
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.140 Precision: 0.833 F-Score: 0.239
+139376
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.142 Precision: 0.835 F-Score: 0.243
+140909
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.162 Precision: 0.772 F-Score: 0.268
+138300
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.205 Precision: 0.817 F-Score: 0.328
+137490
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.122 Precision: 0.707 F-Score: 0.209
+WARNING:root:F: 0.257382506953R: 0.15432299689P: 0.792883163755
+582527
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.172 Precision: 0.287 F-Score: 0.215
+615956
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.189 Precision: 0.354 F-Score: 0.246
+651581
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.209 Precision: 0.468 F-Score: 0.289
+622226
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.318 Precision: 0.435 F-Score: 0.368
+626302
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.179 Precision: 0.523 F-Score: 0.267
+WARNING:root:F: 0.277091837264R: 0.213555589085P: 0.41355315337
+336396
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.139 Precision: 0.611 F-Score: 0.227
+332082
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.188 Precision: 0.667 F-Score: 0.294
+331980
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.103 Precision: 0.556 F-Score: 0.174
+336394
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.113 Precision: 0.471 F-Score: 0.182
+340236
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.086 Precision: 0.353 F-Score: 0.138
+WARNING:root:F: 0.202808873028R: 0.125791785201P: 0.53137254902
+225652
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.061 Precision: 0.308 F-Score: 0.101
+226810
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.052 Precision: 0.297 F-Score: 0.089
+226004
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.037 Precision: 0.136 F-Score: 0.058
+225610
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.052 Precision: 0.114 F-Score: 0.071
+224668
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.067 Precision: 0.212 F-Score: 0.102
+WARNING:root:F: 0.0843290617677R: 0.0537926808963P: 0.213422163422
+311696
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.506 Precision: 0.748 F-Score: 0.604
+306190
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.566 Precision: 0.743 F-Score: 0.642
+305690
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.599 Precision: 0.824 F-Score: 0.694
+303182
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.570 Precision: 0.799 F-Score: 0.666
+303154
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.573 Precision: 0.767 F-Score: 0.656
+WARNING:root:F: 0.652289659519R: 0.562858518187P: 0.776218572796
+582086
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.540 Precision: 0.770 F-Score: 0.635
+585074
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.583 Precision: 0.768 F-Score: 0.663
+578520
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.613 Precision: 0.789 F-Score: 0.690
+583038
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.530 Precision: 0.798 F-Score: 0.637
+545738
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.511 Precision: 0.797 F-Score: 0.623
+WARNING:root:F: 0.649587439577R: 0.555538626685P: 0.784498379035
+1247108
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.798 Precision: 0.902 F-Score: 0.847
+1253242
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.811 Precision: 0.922 F-Score: 0.863
+1245656
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.815 Precision: 0.920 F-Score: 0.864
+1245762
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.824 Precision: 0.917 F-Score: 0.868
+1237624
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.838 Precision: 0.883 F-Score: 0.860
+WARNING:root:F: 0.860357275328R: 0.817102401867P: 0.908822063146
+294121
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.282 Precision: 0.513 F-Score: 0.364
+295692
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.335 Precision: 0.581 F-Score: 0.425
+292314
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.288 Precision: 0.509 F-Score: 0.368
+293654
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.318 Precision: 0.509 F-Score: 0.391
+290483
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.325 Precision: 0.358 F-Score: 0.341
+WARNING:root:F: 0.377645807201R: 0.309466112604P: 0.493896815538
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.286 Precision: 1.000 F-Score: 0.444
+WARNING:root:Parser : Normal Parser
+WARNING:root:Evaluation Failed: Zero values
+5496
+5324
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.286 Precision: 0.667 F-Score: 0.400
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.167 Precision: 1.000 F-Score: 0.286
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.083 Precision: 1.000 F-Score: 0.154
+WARNING:root:F: 0.256800976801R: 0.164285714286P: 0.733333333333
+5376
+5376
+5436
+539585
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.587 Precision: 0.545 F-Score: 0.565
+526315
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.558 Precision: 0.690 F-Score: 0.617
+535023
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.465 Precision: 0.863 F-Score: 0.604
+528622
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.641 Precision: 0.537 F-Score: 0.584
+549483
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.642 Precision: 0.582 F-Score: 0.611
+WARNING:root:F: 0.596318342398R: 0.578671450636P: 0.643426265454
+
+Process finished with exit code 0
+
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/halsaied/Documents/IdenSys/Src/identifier.py
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: True
+WARNING:root:Automatic Annotation: False
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: False
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/Auto/CrossValidation
+1183272
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.650 Precision: 0.770 F-Score: 0.705
+1190998
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.635 Precision: 0.759 F-Score: 0.692
+1178324
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.625 Precision: 0.761 F-Score: 0.686
+1182670
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.649 Precision: 0.773 F-Score: 0.706
+1188976
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.634 Precision: 0.768 F-Score: 0.694
+WARNING:root:F: 0.696637609135R: 0.638719323739P: 0.766149597649
+311696
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.593 Precision: 0.826 F-Score: 0.690
+306190
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.638 Precision: 0.807 F-Score: 0.713
+305690
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.667 Precision: 0.888 F-Score: 0.762
+303182
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.629 Precision: 0.881 F-Score: 0.734
+303154
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.647 Precision: 0.832 F-Score: 0.728
+WARNING:root:F: 0.72536874053R: 0.634921275197P: 0.846680850193
+
+Process finished with exit code 0
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/halsaied/Documents/IdenSys/Src/identifier.py
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: True
+WARNING:root:Automatic Annotation: True
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: False
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/Auto/CrossValidation
+699604
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.591 Precision: 0.855 F-Score: 0.699
+702225
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.689 Precision: 0.839 F-Score: 0.757
+699941
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.669 Precision: 0.825 F-Score: 0.739
+701767
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.673 Precision: 0.846 F-Score: 0.750
+700747
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.672 Precision: 0.800 F-Score: 0.730
+WARNING:root:F: 0.734949584452R: 0.658801937601P: 0.833138589561
+137469
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.140 Precision: 0.833 F-Score: 0.239
+139376
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.142 Precision: 0.835 F-Score: 0.243
+140909
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.162 Precision: 0.772 F-Score: 0.268
+138300
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.205 Precision: 0.817 F-Score: 0.328
+137490
+WARNING:root:Parser : Normal Parser
+WARNING:root:R: 0.122 Precision: 0.707 F-Score: 0.209
+WARNING:root:F: 0.257382506953R: 0.15432299689P: 0.792883163755
+
+Process finished with exit code 0

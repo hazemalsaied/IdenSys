@@ -1,0 +1,2402 @@
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/halsaied/Documents/IdenSys/Src/identifier.py
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: True
+WARNING:root:Automatic Annotation: True
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: True
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/Auto/Embedding
+248397
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.528 Precision: 0.651 F-Score: 0.583
+WARNING:root:R: 0.478 Precision: 0.590 F-Score: 0.528
+250597
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.467 Precision: 0.617 F-Score: 0.532
+WARNING:root:R: 0.464 Precision: 0.614 F-Score: 0.529
+254134
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.449 Precision: 0.631 F-Score: 0.524
+WARNING:root:R: 0.419 Precision: 0.589 F-Score: 0.490
+254175
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.371 Precision: 0.660 F-Score: 0.475
+WARNING:root:R: 0.356 Precision: 0.634 F-Score: 0.456
+253869
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.454 Precision: 0.636 F-Score: 0.530
+WARNING:root:R: 0.419 Precision: 0.587 F-Score: 0.489
+WARNING:root:F: 0.52892102268R: 0.453745454359P: 0.639356153076
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1183272
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.659 Precision: 0.773 F-Score: 0.711
+WARNING:root:R: 0.654 Precision: 0.768 F-Score: 0.706
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1190998
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.647 Precision: 0.764 F-Score: 0.701
+WARNING:root:R: 0.645 Precision: 0.762 F-Score: 0.699
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1178324
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.641 Precision: 0.776 F-Score: 0.702
+WARNING:root:R: 0.635 Precision: 0.767 F-Score: 0.695
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1182670
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.651 Precision: 0.786 F-Score: 0.712
+WARNING:root:R: 0.644 Precision: 0.778 F-Score: 0.705
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1188976
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.640 Precision: 0.777 F-Score: 0.702
+WARNING:root:R: 0.631 Precision: 0.767 F-Score: 0.693
+WARNING:root:F: 0.705582777599R: 0.647492143718P: 0.775206861558
+192703
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.235 Precision: 0.543 F-Score: 0.328
+WARNING:root:R: 0.132 Precision: 0.306 F-Score: 0.185
+192631
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.257 Precision: 0.590 F-Score: 0.358
+WARNING:root:R: 0.106 Precision: 0.243 F-Score: 0.148
+192400
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.305 Precision: 0.638 F-Score: 0.412
+WARNING:root:R: 0.151 Precision: 0.317 F-Score: 0.205
+193077
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.326 Precision: 0.657 F-Score: 0.436
+WARNING:root:R: 0.158 Precision: 0.318 F-Score: 0.211
+193137
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.365 Precision: 0.644 F-Score: 0.466
+WARNING:root:R: 0.204 Precision: 0.360 F-Score: 0.260
+WARNING:root:F: 0.400030662697R: 0.297505661616P: 0.61447552071
+224548
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.541 Precision: 0.723 F-Score: 0.619
+WARNING:root:R: 0.499 Precision: 0.667 F-Score: 0.571
+225414
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.450 Precision: 0.608 F-Score: 0.517
+WARNING:root:R: 0.413 Precision: 0.558 F-Score: 0.474
+233059
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.539 Precision: 0.605 F-Score: 0.570
+WARNING:root:R: 0.472 Precision: 0.529 F-Score: 0.499
+227003
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.501 Precision: 0.720 F-Score: 0.591
+WARNING:root:R: 0.452 Precision: 0.649 F-Score: 0.533
+228544
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.491 Precision: 0.648 F-Score: 0.559
+WARNING:root:R: 0.431 Precision: 0.568 F-Score: 0.490
+WARNING:root:F: 0.571128756128R: 0.504438319749P: 0.660683136026
+158050
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.497 Precision: 0.806 F-Score: 0.615
+WARNING:root:R: 0.470 Precision: 0.763 F-Score: 0.582
+157848
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.521 Precision: 0.856 F-Score: 0.647
+WARNING:root:R: 0.495 Precision: 0.814 F-Score: 0.615
+157890
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.618 Precision: 0.832 F-Score: 0.709
+WARNING:root:R: 0.583 Precision: 0.785 F-Score: 0.669
+158756
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.606 Precision: 0.770 F-Score: 0.678
+WARNING:root:R: 0.591 Precision: 0.750 F-Score: 0.661
+166520
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.561 Precision: 0.747 F-Score: 0.641
+WARNING:root:R: 0.538 Precision: 0.717 F-Score: 0.615
+WARNING:root:F: 0.658092016004R: 0.560453625437P: 0.80232685294
+WARNING:root:Parser : Embeddeding Parser
+71500
+WARNING:root:R: 0.774 Precision: 0.844 F-Score: 0.807
+WARNING:root:R: 0.774 Precision: 0.844 F-Score: 0.807
+73158
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.872 Precision: 0.884 F-Score: 0.878
+WARNING:root:R: 0.872 Precision: 0.884 F-Score: 0.878
+76154
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.835 Precision: 0.890 F-Score: 0.862
+WARNING:root:R: 0.835 Precision: 0.890 F-Score: 0.862
+76040
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.863 Precision: 0.874 F-Score: 0.869
+WARNING:root:R: 0.863 Precision: 0.874 F-Score: 0.869
+75388
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.858 Precision: 0.884 F-Score: 0.871
+WARNING:root:R: 0.858 Precision: 0.884 F-Score: 0.871
+WARNING:root:F: 0.857243553442R: 0.840393628964P: 0.875146362994
+699604
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.485 Precision: 0.813 F-Score: 0.608
+WARNING:root:R: 0.475 Precision: 0.795 F-Score: 0.595
+702225
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.680 Precision: 0.833 F-Score: 0.749
+WARNING:root:R: 0.670 Precision: 0.820 F-Score: 0.738
+699941
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.669 Precision: 0.832 F-Score: 0.742
+WARNING:root:R: 0.652 Precision: 0.810 F-Score: 0.722
+701767
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.655 Precision: 0.842 F-Score: 0.737
+WARNING:root:R: 0.641 Precision: 0.823 F-Score: 0.721
+700747
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.661 Precision: 0.788 F-Score: 0.719
+WARNING:root:R: 0.648 Precision: 0.772 F-Score: 0.705
+WARNING:root:F: 0.710791450837R: 0.63024373134P: 0.82130588742
+161372
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.101 Precision: 0.791 F-Score: 0.179
+WARNING:root:R: 0.098 Precision: 0.767 F-Score: 0.174
+160534
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.150 Precision: 0.451 F-Score: 0.225
+WARNING:root:R: 0.134 Precision: 0.402 F-Score: 0.201
+160372
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.262 Precision: 0.629 F-Score: 0.370
+WARNING:root:R: 0.262 Precision: 0.629 F-Score: 0.370
+158944
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.096 Precision: 0.632 F-Score: 0.167
+WARNING:root:R: 0.080 Precision: 0.526 F-Score: 0.139
+157098
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.181 Precision: 0.628 F-Score: 0.281
+WARNING:root:R: 0.151 Precision: 0.523 F-Score: 0.234
+WARNING:root:F: 0.244145154842R: 0.157806950339P: 0.626087073758
+137468
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.825 Precision: 0.816 F-Score: 0.820
+WARNING:root:R: 0.127 Precision: 0.126 F-Score: 0.126
+139376
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.763 Precision: 0.872 F-Score: 0.814
+WARNING:root:R: 0.140 Precision: 0.160 F-Score: 0.150
+140908
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.847 Precision: 0.855 F-Score: 0.851
+WARNING:root:R: 0.144 Precision: 0.145 F-Score: 0.144
+138299
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.846 Precision: 0.764 F-Score: 0.803
+WARNING:root:R: 0.186 Precision: 0.168 F-Score: 0.176
+137489
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.820 Precision: 0.842 F-Score: 0.831
+WARNING:root:R: 0.126 Precision: 0.129 F-Score: 0.128
+WARNING:root:F: 0.823728322387R: 0.820179590995P: 0.829639530108
+582527
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.174 Precision: 0.298 F-Score: 0.220
+WARNING:root:R: 0.163 Precision: 0.280 F-Score: 0.206
+615956
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.189 Precision: 0.361 F-Score: 0.248
+WARNING:root:R: 0.178 Precision: 0.340 F-Score: 0.234
+651581
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.209 Precision: 0.476 F-Score: 0.291
+WARNING:root:R: 0.202 Precision: 0.460 F-Score: 0.281
+622226
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.318 Precision: 0.450 F-Score: 0.373
+WARNING:root:R: 0.308 Precision: 0.436 F-Score: 0.361
+626302
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.184 Precision: 0.556 F-Score: 0.277
+WARNING:root:R: 0.174 Precision: 0.524 F-Score: 0.261
+WARNING:root:F: 0.281719222892R: 0.214987426642P: 0.428377122121
+336396
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.139 Precision: 0.688 F-Score: 0.232
+WARNING:root:R: 0.127 Precision: 0.625 F-Score: 0.211
+332082
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.176 Precision: 0.556 F-Score: 0.268
+WARNING:root:R: 0.165 Precision: 0.519 F-Score: 0.250
+331980
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.103 Precision: 0.556 F-Score: 0.174
+WARNING:root:R: 0.103 Precision: 0.556 F-Score: 0.174
+336394
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.113 Precision: 0.444 F-Score: 0.180
+WARNING:root:R: 0.113 Precision: 0.444 F-Score: 0.180
+340236
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.086 Precision: 0.375 F-Score: 0.140
+WARNING:root:R: 0.086 Precision: 0.375 F-Score: 0.140
+WARNING:root:F: 0.198531859665R: 0.123438844024P: 0.523611111111
+225652
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.061 Precision: 0.316 F-Score: 0.102
+WARNING:root:R: 0.045 Precision: 0.237 F-Score: 0.076
+226810
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.048 Precision: 0.312 F-Score: 0.083
+WARNING:root:R: 0.043 Precision: 0.281 F-Score: 0.074
+226004
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.037 Precision: 0.133 F-Score: 0.057
+WARNING:root:R: 0.037 Precision: 0.133 F-Score: 0.057
+225610
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.062 Precision: 0.136 F-Score: 0.086
+WARNING:root:R: 0.042 Precision: 0.091 F-Score: 0.057
+224668
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.077 Precision: 0.229 F-Score: 0.115
+WARNING:root:R: 0.067 Precision: 0.200 F-Score: 0.101
+WARNING:root:F: 0.0885156021359R: 0.0568467102004P: 0.225311574391
+311696
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.511 Precision: 0.729 F-Score: 0.601
+WARNING:root:R: 0.510 Precision: 0.727 F-Score: 0.599
+306190
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.594 Precision: 0.754 F-Score: 0.664
+WARNING:root:R: 0.594 Precision: 0.754 F-Score: 0.664
+305690
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.620 Precision: 0.790 F-Score: 0.694
+WARNING:root:R: 0.618 Precision: 0.788 F-Score: 0.693
+303182
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.604 Precision: 0.811 F-Score: 0.692
+WARNING:root:R: 0.599 Precision: 0.806 F-Score: 0.687
+303154
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.584 Precision: 0.756 F-Score: 0.659
+WARNING:root:R: 0.579 Precision: 0.749 F-Score: 0.654
+WARNING:root:F: 0.662282122681R: 0.582578724409P: 0.76803875513
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+582086
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.547 Precision: 0.767 F-Score: 0.639
+WARNING:root:R: 0.523 Precision: 0.733 F-Score: 0.611
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+585074
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.592 Precision: 0.776 F-Score: 0.672
+WARNING:root:R: 0.562 Precision: 0.737 F-Score: 0.637
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+578520
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.623 Precision: 0.795 F-Score: 0.698
+WARNING:root:R: 0.596 Precision: 0.761 F-Score: 0.669
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+583038
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.561 Precision: 0.821 F-Score: 0.667
+WARNING:root:R: 0.513 Precision: 0.750 F-Score: 0.609
+545738
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.510 Precision: 0.803 F-Score: 0.624
+WARNING:root:R: 0.482 Precision: 0.759 F-Score: 0.590
+WARNING:root:F: 0.659893509834R: 0.566691775196P: 0.792402095818
+1247108
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.794 Precision: 0.899 F-Score: 0.843
+WARNING:root:R: 0.786 Precision: 0.890 F-Score: 0.835
+1253242
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.810 Precision: 0.922 F-Score: 0.862
+WARNING:root:R: 0.801 Precision: 0.913 F-Score: 0.853
+1245656
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.817 Precision: 0.921 F-Score: 0.866
+WARNING:root:R: 0.812 Precision: 0.916 F-Score: 0.861
+1245762
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.819 Precision: 0.919 F-Score: 0.866
+WARNING:root:R: 0.813 Precision: 0.912 F-Score: 0.860
+1237624
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.837 Precision: 0.886 F-Score: 0.861
+WARNING:root:R: 0.830 Precision: 0.880 F-Score: 0.854
+WARNING:root:F: 0.859727753671R: 0.815329355525P: 0.909570776399
+294121
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.293 Precision: 0.570 F-Score: 0.387
+WARNING:root:R: 0.287 Precision: 0.559 F-Score: 0.380
+295692
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.367 Precision: 0.620 F-Score: 0.461
+WARNING:root:R: 0.354 Precision: 0.597 F-Score: 0.444
+292314
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.298 Precision: 0.635 F-Score: 0.405
+WARNING:root:R: 0.290 Precision: 0.620 F-Score: 0.395
+293654
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.320 Precision: 0.602 F-Score: 0.418
+WARNING:root:R: 0.315 Precision: 0.592 F-Score: 0.411
+290483
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.325 Precision: 0.418 F-Score: 0.366
+WARNING:root:R: 0.325 Precision: 0.418 F-Score: 0.366
+WARNING:root:F: 0.407488675387R: 0.320618696286P: 0.569098940213
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.286 Precision: 0.800 F-Score: 0.421
+WARNING:root:R: 0.286 Precision: 0.800 F-Score: 0.421
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:Evaluation Failed: Zero values
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.286 Precision: 0.667 F-Score: 0.400
+WARNING:root:R: 0.286 Precision: 0.667 F-Score: 0.400
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.167 Precision: 1.000 F-Score: 0.286
+WARNING:root:R: 0.167 Precision: 1.000 F-Score: 0.286
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.083 Precision: 1.000 F-Score: 0.154
+WARNING:root:R: 0.083 Precision: 1.000 F-Score: 0.154
+WARNING:root:F: 0.252122614228R: 0.164285714286P: 0.693333333333
+5496
+5324
+5376
+5376
+5436
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+539585
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.585 Precision: 0.542 F-Score: 0.563
+WARNING:root:R: 0.536 Precision: 0.497 F-Score: 0.516
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+526315
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.554 Precision: 0.686 F-Score: 0.613
+WARNING:root:R: 0.526 Precision: 0.650 F-Score: 0.582
+535023
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.471 Precision: 0.858 F-Score: 0.608
+WARNING:root:R: 0.443 Precision: 0.807 F-Score: 0.572
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+528622
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.645 Precision: 0.533 F-Score: 0.583
+WARNING:root:R: 0.598 Precision: 0.494 F-Score: 0.541
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+549483
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.639 Precision: 0.573 F-Score: 0.604
+WARNING:root:R: 0.586 Precision: 0.526 F-Score: 0.555
+WARNING:root:F: 0.594259283403R: 0.578788186635P: 0.638251972076
+
+Process finished with exit code 0
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/halsaied/Documents/IdenSys/Src/identifier.py
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: True
+WARNING:root:Automatic Annotation: False
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: True
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/Auto/Embedding
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1183272
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.651 Precision: 0.765 F-Score: 0.704
+WARNING:root:R: 0.648 Precision: 0.761 F-Score: 0.700
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1190998
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.643 Precision: 0.758 F-Score: 0.696
+WARNING:root:R: 0.642 Precision: 0.757 F-Score: 0.695
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1178324
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.634 Precision: 0.759 F-Score: 0.691
+WARNING:root:R: 0.626 Precision: 0.750 F-Score: 0.683
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1182670
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.645 Precision: 0.783 F-Score: 0.708
+WARNING:root:R: 0.640 Precision: 0.776 F-Score: 0.701
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+Error: two identic MWEs are defined
+1188976
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.631 Precision: 0.766 F-Score: 0.692
+WARNING:root:R: 0.627 Precision: 0.761 F-Score: 0.687
+WARNING:root:F: 0.697942997382R: 0.640877129393P: 0.766248234047
+311696
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.595 Precision: 0.839 F-Score: 0.696
+WARNING:root:R: 0.592 Precision: 0.834 F-Score: 0.692
+306190
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.648 Precision: 0.824 F-Score: 0.726
+WARNING:root:R: 0.645 Precision: 0.820 F-Score: 0.722
+305690
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.669 Precision: 0.898 F-Score: 0.767
+WARNING:root:R: 0.667 Precision: 0.896 F-Score: 0.765
+303182
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.635 Precision: 0.891 F-Score: 0.741
+WARNING:root:R: 0.630 Precision: 0.885 F-Score: 0.736
+303154
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.654 Precision: 0.851 F-Score: 0.740
+WARNING:root:R: 0.646 Precision: 0.841 F-Score: 0.730
+WARNING:root:F: 0.733852906105R: 0.640027553981P: 0.860721185017
+
+Process finished with exit code 0
+
+
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/halsaied/Documents/IdenSys/Src/identifier.py
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: True
+WARNING:root:Automatic Annotation: True
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: True
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/Auto/Embedding
+699604
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.581 Precision: 0.860 F-Score: 0.694
+WARNING:root:R: 0.566 Precision: 0.836 F-Score: 0.675
+702225
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.681 Precision: 0.826 F-Score: 0.747
+WARNING:root:R: 0.675 Precision: 0.818 F-Score: 0.739
+699941
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.671 Precision: 0.828 F-Score: 0.741
+WARNING:root:R: 0.655 Precision: 0.807 F-Score: 0.723
+701767
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.666 Precision: 0.843 F-Score: 0.744
+WARNING:root:R: 0.654 Precision: 0.828 F-Score: 0.731
+700747
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.666 Precision: 0.798 F-Score: 0.726
+WARNING:root:R: 0.651 Precision: 0.779 F-Score: 0.709
+WARNING:root:F: 0.73029444576R: 0.653180807881P: 0.830693385016
+137468
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.825 Precision: 0.816 F-Score: 0.820
+WARNING:root:R: 0.127 Precision: 0.126 F-Score: 0.126
+139376
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.763 Precision: 0.872 F-Score: 0.814
+WARNING:root:R: 0.140 Precision: 0.160 F-Score: 0.150
+WARNING:root:Parser : Embeddeding Parser
+140908
+WARNING:root:R: 0.847 Precision: 0.855 F-Score: 0.851
+WARNING:root:R: 0.144 Precision: 0.145 F-Score: 0.144
+138299
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.846 Precision: 0.764 F-Score: 0.803
+WARNING:root:R: 0.186 Precision: 0.168 F-Score: 0.176
+137489
+WARNING:root:Parser : Embeddeding Parser
+WARNING:root:R: 0.820 Precision: 0.842 F-Score: 0.831
+WARNING:root:R: 0.126 Precision: 0.129 F-Score: 0.128
+WARNING:root:F: 0.823728322387R: 0.820179590995P: 0.829639530108
+
+Process finished with exit code 0

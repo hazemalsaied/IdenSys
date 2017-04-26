@@ -1,8 +1,5 @@
 import os
 import operator
-import nltk
-from nltk import WordNetLemmatizer
-from nltk.tokenize import WordPunctTokenizer
 from param import FeatParams, XPParams,Paths, PrintParams
 from reports import Report
 
@@ -147,10 +144,13 @@ class Corpus:
                         token = Token(lineParts[0], lineParts[1].lower(), lemma=lineParts[2],
                                       abstractPosTag=lineParts[3], morphologicalInfo=morpho,
                                       dependencyLabel=lineParts[7])
-                    if lineParts[4] != '_':
-                        token.posTag = lineParts[4]
-                    else:
+                    if XPParams.useUniversalPOSTag:
                         token.posTag = lineParts[3]
+                    else:
+                        if lineParts[4] != '_':
+                            token.posTag = lineParts[4]
+                        else:
+                            token.posTag = lineParts[3]
                     # Associate the token with the sentence
                     sent.tokens.append(token)
                     sent.text += token.text + ' '
@@ -288,7 +288,7 @@ class Corpus:
                             mweDictionary.pop(key1, None)
                         elif key2 in key1:
                             mweDictionary.pop(key2, None)
-        path = os.path.join(Paths.langResultFolder,Paths.languageName, 'dic.md')
+        path = os.path.join(Paths.iterationPath, 'dic.txt')
         if not XPParams.useCrossValidation and PrintParams.createDictionary:
             Report.createMWELexic(mweDictionary, path)
         return mweDictionary, mweTokenDictionary
@@ -384,21 +384,6 @@ class Sentence:
         self.initialTransition = None
         self.featuresInfo = []
 
-    @staticmethod
-    def fromTextToSent(text):
-
-        tokenizer = WordPunctTokenizer()
-        wordNetLemmatiser = WordNetLemmatizer()
-        sent = Sentence(0)
-        sent.text = text
-        tokenList = tokenizer.tokenize(text)
-        posTags = nltk.pos_tag(tokenList)
-        for token in tokenList:
-            tokenLemma = wordNetLemmatiser.lemmatize(token)
-            tokenPos = posTags[tokenList.index(token)][1]
-            tokenObj = Token(tokenList.index(token), token, lemma=tokenLemma, posTag=tokenPos)
-            sent.tokens.append(tokenObj)
-        return sent
 
     def getWMWEs(self):
         return self.vMWEs
@@ -572,7 +557,6 @@ class Sentence:
 
     @staticmethod
     def getTokens(elemlist):
-
         if isinstance(elemlist, Token):
             return [elemlist]
         result = []
@@ -683,14 +667,6 @@ class VMWE:
 
     def addToken(self, token):
         self.tokens.append(token)
-
-    @staticmethod
-    def isVerbalMwe(mwe):
-        isVerbal = False
-        for token in mwe.tokens:
-            if token.posTag.startswith('V'):
-                isVerbal = True
-        return isVerbal
 
     @staticmethod
     def getVMWENumber(tokens):
@@ -815,6 +791,15 @@ class VMWE:
                 result += token.text + ' '
         return result[:-1]
 
+    def In(self, vmwes):
+
+        for vmwe in vmwes:
+            if vmwe.getString() == self.getString():
+                return True
+
+        return False
+
+
 
 class Token:
     """
@@ -855,6 +840,12 @@ class Token:
                         self.directParent = parent
                         break
         return self.directParent
+
+    def In(self, vmwe):
+        for token in vmwe.tokens:
+            if token.text.lower() == self.text.lower() and token.position == self.position:
+                return True
+        return False
 
     def __str__(self):
         parentTxt = ''

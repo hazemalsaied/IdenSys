@@ -1,0 +1,6022 @@
+## Sentence No. 7058 - 
+l forțele coaliției anti - irakiene au distrus sâmbătă , în regiunea basra , un imobil în care **se** **desfășura** o reuniune a partidului baas l orașul basra a fost ținta celor mai puternice bombardamente din ultimele zile l la 11 zile de la invadarea irakului , strategia inițială ce prevedea un război scurt a fost revizuită , **luându** - **se** **în** **considerare** o prelungire a campaniei l duminică , trupele aliate **se** **aflau** la circa 100 km de bagdad l bombardamentele americane și britanice au vizat poziții ale gărzii republicane , câteva obiective guvernamentale , depozite de carburant , ținte fiind capitala și orașele mosul , najaf și basra l comandantul apărării aeriene a irakului a fost destituit pentru slabele performanțe ale unităților sale l forțele irakiene au executat numeroși soldați care încercau să dezerteze și să fugă în kurdistan l patru militari americani au murit într - un atentat sinucigaș cu bombă , la najaf l voluntari sirieni și palestinieni au pătruns în irak , pentru a combate forțele americano - britanice l forțele britanice au anunțat că au capturat un general irakian , în timpul luptelor de la basra l pentru prima dată de la începutul războiului , populația unei localități irakiene i - a întâmpinat , luni , cu urale pe militarii aliați l circa 300 de lideri tribali **s** - au **reunit** pentru a stabili modul în care membrii din zonele rurale ar putea lupta împotriva forțelor aliate l televiziunea irakiană a prezentat imagini cu saddam hussein , prezidând o reuniune cu colaboratorii săi l secretarul de stat american , colin powell , a cerut siriei să nu mai sprijine conducerea irakiană l bombardamentele de la bagdad au vizat , marți , palatele prezidențiale , pozițiile gărzilor republicane , clădirea ministerului informațiilor și două centrale telefonice l un mesaj din partea lui saddam hussein a fost citit , la televiziunea irakiană , de către ministrul informațiilor l forțele coaliției de eliberare a irakului au zdrobit , miercuri , diviziile de elită ale gărzilor republicane și **s** - au **apropiat** la circa 30 km de bagdad l comandourile delta force au intervenit , la nasiriyah , pentru eliberarea din captivitatea irakiană a unei tinere de 19 ani , soldat în infanteria s . u . a . l saddam hussein le - a cerut irakienilor să declanșeze jihadul împotriva coaliției americano - britanice l forțele americane au ajuns la 10 km de bagdad și **se** **pregăteau** de atac pentru preluarea controlului asupra principalului aeroport din capitala irakiană l forțele irakiene au suferit pierderi grele și au efectuat manevre disperate , pe fondul avansării trupelor americane l două divizii ale gărzilor republicane au fost scoase din luptă l forțele britanice **s** - au **confruntat** cu rezistența opusă de milițiile irakiene la basra l confruntări între forțele irakiene și combatanți kurzi , sprijiniți de aviația americană , **s** - au **înregistrat** în localitatea khazer l În după - amiaza zilei de joi , militarii americani au ajuns la 15 km de centrul bagdadului , blocând accesul prin sudul capitalei irakiene l tacticile utilizate de aliați au luat prin surprindere gărzile republicane l existau unele indicii că regimul lui saddam hussein nu - și mai poate controla forțele militare l trupele americane **se** **pregătesc** pentru un război de gherilă urbană l ajunsă la porțile bagdadului , armata aliată **se** **afla** în dilemă : 
+### Existing MWEs: 
+11- **se desfășura** (IReflV, 231)Tokens : 
+se
+desfășura
+
+
+1- **luându se în considerare** (LVC)Tokens : 
+luându
+se
+în
+considerare
+
+
+2- **luându în considerare** (LVC, 8), EmbeddedTokens : 
+luându
+în
+considerare
+
+
+3- **se aflau** (IReflV, 144)Tokens : 
+se
+aflau
+
+
+8- **s reunit** (IReflV, 8)Tokens : 
+s
+reunit
+
+
+4- **s apropiat** (IReflV, 1)Tokens : 
+s
+apropiat
+
+
+5- **se pregăteau** (IReflV, 10)Tokens : 
+se
+pregăteau
+
+
+9- **s confruntat** (IReflV, 4)Tokens : 
+s
+confruntat
+
+
+10- **s înregistrat** (IReflV, 18)Tokens : 
+s
+înregistrat
+
+
+6- **se pregătesc** (IReflV, 10)Tokens : 
+se
+pregătesc
+
+
+7- **se afla** (IReflV, 144)Tokens : 
+se
+afla
+
+
+### Identified MWEs: 
+1- **se desfășura** (IReflV)Tokens : 
+se
+desfășura
+
+
+2- **luându în considerare** (LVC)Tokens : 
+luându
+în
+considerare
+
+
+3- **se aflau** (IReflV)Tokens : 
+se
+aflau
+
+
+4- **s reunit** (IReflV)Tokens : 
+s
+reunit
+
+
+5- **s apropiat** (IReflV)Tokens : 
+s
+apropiat
+
+
+6- **se pregăteau** (IReflV)Tokens : 
+se
+pregăteau
+
+
+7- **s confruntat** (IReflV)Tokens : 
+s
+confruntat
+
+
+8- **s înregistrat** (IReflV)Tokens : 
+s
+înregistrat
+
+
+9- **luat prin surprindere** (LVC)Tokens : 
+luat
+prin
+surprindere
+
+
+10- **se pregătesc** (IReflV)Tokens : 
+se
+pregătesc
+
+
+11- **se afla** (IReflV)Tokens : 
+se
+afla
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, forțele, coaliției ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [forțele, coaliției, anti ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, coaliției, anti ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [coaliției, anti, - ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [coaliției, anti, - ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [coaliției]   B= [anti, -, irakiene ,.. ]
+
+
+
+6- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [anti, -, irakiene ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [anti]   B= [-, irakiene, au ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, irakiene, au ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [irakiene, au, distrus ,.. ]
+
+
+
+10- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiene, au, distrus ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiene]   B= [au, distrus, sâmbătă ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, distrus, sâmbătă ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [distrus, sâmbătă, , ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [distrus, sâmbătă, , ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [distrus]   B= [sâmbătă, ,, în ,.. ]
+
+
+
+16- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sâmbătă, ,, în ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sâmbătă]   B= [,, în, regiunea ,.. ]
+
+
+
+18- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, în, regiunea ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [în, regiunea, basra ,.. ]
+
+
+
+20- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, regiunea, basra ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [regiunea, basra, , ,.. ]
+
+
+
+22- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [regiunea, basra, , ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [regiunea]   B= [basra, ,, un ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [basra, ,, un ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [basra]   B= [,, un, imobil ,.. ]
+
+
+
+26- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, un, imobil ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [un, imobil, în ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, imobil, în ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [imobil, în, care ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [imobil, în, care ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [imobil]   B= [în, care, se ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, care, se ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [care, se, desfășura ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [care, se, desfășura ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [care]   B= [se, desfășura, o ,.. ]
+
+
+
+36- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, desfășura, o ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [desfășura, o, reuniune ,.. ]
+
+
+
+38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, desfășura]   B= [o, reuniune, a ,.. ]
+
+
+
+39- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, desfășura]]   B= [o, reuniune, a ,.. ]
+
+
+
+40- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, reuniune, a ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [reuniune, a, partidului ,.. ]
+
+
+
+42- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [reuniune, a, partidului ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [reuniune]   B= [a, partidului, baas ,.. ]
+
+
+
+44- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, partidului, baas ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [partidului, baas, l ,.. ]
+
+
+
+46- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [partidului, baas, l ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [partidului]   B= [baas, l, orașul ,.. ]
+
+
+
+48- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [baas, l, orașul ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [baas]   B= [l, orașul, basra ,.. ]
+
+
+
+50- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, orașul, basra ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [orașul, basra, a ,.. ]
+
+
+
+52- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [orașul, basra, a ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [orașul]   B= [basra, a, fost ,.. ]
+
+
+
+54- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [basra, a, fost ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [basra]   B= [a, fost, ținta ,.. ]
+
+
+
+56- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, fost, ținta ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [fost, ținta, celor ,.. ]
+
+
+
+58- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fost, ținta, celor ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fost]   B= [ținta, celor, mai ,.. ]
+
+
+
+60- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ținta, celor, mai ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ținta]   B= [celor, mai, puternice ,.. ]
+
+
+
+62- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [celor, mai, puternice ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [celor]   B= [mai, puternice, bombardamente ,.. ]
+
+
+
+64- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, puternice, bombardamente ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [puternice, bombardamente, din ,.. ]
+
+
+
+66- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [puternice, bombardamente, din ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [puternice]   B= [bombardamente, din, ultimele ,.. ]
+
+
+
+68- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bombardamente, din, ultimele ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bombardamente]   B= [din, ultimele, zile ,.. ]
+
+
+
+70- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, ultimele, zile ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [ultimele, zile, l ,.. ]
+
+
+
+72- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ultimele, zile, l ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ultimele]   B= [zile, l, la ,.. ]
+
+
+
+74- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zile, l, la ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zile]   B= [l, la, 11 ,.. ]
+
+
+
+76- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, la, 11 ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [la, 11, zile ,.. ]
+
+
+
+78- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, 11, zile ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [11, zile, de ,.. ]
+
+
+
+80- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [11, zile, de ,.. ]
+
+
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [11]   B= [zile, de, la ,.. ]
+
+
+
+82- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zile, de, la ,.. ]
+
+
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zile]   B= [de, la, invadarea ,.. ]
+
+
+
+84- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, la, invadarea ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [la, invadarea, irakului ,.. ]
+
+
+
+86- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, invadarea, irakului ,.. ]
+
+
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [invadarea, irakului, , ,.. ]
+
+
+
+88- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [invadarea, irakului, , ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [invadarea]   B= [irakului, ,, strategia ,.. ]
+
+
+
+90- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakului, ,, strategia ,.. ]
+
+
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakului]   B= [,, strategia, inițială ,.. ]
+
+
+
+92- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, strategia, inițială ,.. ]
+
+
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [strategia, inițială, ce ,.. ]
+
+
+
+94- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [strategia, inițială, ce ,.. ]
+
+
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [strategia]   B= [inițială, ce, prevedea ,.. ]
+
+
+
+96- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [inițială, ce, prevedea ,.. ]
+
+
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [inițială]   B= [ce, prevedea, un ,.. ]
+
+
+
+98- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ce, prevedea, un ,.. ]
+
+
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ce]   B= [prevedea, un, război ,.. ]
+
+
+
+100- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prevedea, un, război ,.. ]
+
+
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prevedea]   B= [un, război, scurt ,.. ]
+
+
+
+102- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, război, scurt ,.. ]
+
+
+
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [război, scurt, a ,.. ]
+
+
+
+104- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [război, scurt, a ,.. ]
+
+
+
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [război]   B= [scurt, a, fost ,.. ]
+
+
+
+106- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [scurt, a, fost ,.. ]
+
+
+
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [scurt]   B= [a, fost, revizuită ,.. ]
+
+
+
+108- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, fost, revizuită ,.. ]
+
+
+
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [fost, revizuită, , ,.. ]
+
+
+
+110- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fost, revizuită, , ,.. ]
+
+
+
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fost]   B= [revizuită, ,, luându ,.. ]
+
+
+
+112- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [revizuită, ,, luându ,.. ]
+
+
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [revizuită]   B= [,, luându, - ,.. ]
+
+
+
+114- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, luându, - ,.. ]
+
+
+
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [luându, -, se ,.. ]
+
+
+
+116- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [luându, -, se ,.. ]
+
+
+
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luându]   B= [-, se, în ,.. ]
+
+
+
+118- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luându, -]   B= [se, în, considerare ,.. ]
+
+
+
+119- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luându]   B= [se, în, considerare ,.. ]
+
+
+
+120- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luându, se]   B= [în, considerare, o ,.. ]
+
+
+
+121- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luându]   B= [în, considerare, o ,.. ]
+
+
+
+122- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luându, în]   B= [considerare, o, prelungire ,.. ]
+
+
+
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luându, în, considerare]   B= [o, prelungire, a ,.. ]
+
+
+
+124- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luându, [în, considerare]]   B= [o, prelungire, a ,.. ]
+
+
+
+125- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[luându, [în, considerare]]]   B= [o, prelungire, a ,.. ]
+
+
+
+126- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, prelungire, a ,.. ]
+
+
+
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [prelungire, a, campaniei ,.. ]
+
+
+
+128- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prelungire, a, campaniei ,.. ]
+
+
+
+129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prelungire]   B= [a, campaniei, l ,.. ]
+
+
+
+130- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, campaniei, l ,.. ]
+
+
+
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [campaniei, l, duminică ,.. ]
+
+
+
+132- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [campaniei, l, duminică ,.. ]
+
+
+
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [campaniei]   B= [l, duminică, , ,.. ]
+
+
+
+134- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, duminică, , ,.. ]
+
+
+
+135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [duminică, ,, trupele ,.. ]
+
+
+
+136- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [duminică, ,, trupele ,.. ]
+
+
+
+137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [duminică]   B= [,, trupele, aliate ,.. ]
+
+
+
+138- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, trupele, aliate ,.. ]
+
+
+
+139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [trupele, aliate, se ,.. ]
+
+
+
+140- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [trupele, aliate, se ,.. ]
+
+
+
+141- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [trupele]   B= [aliate, se, aflau ,.. ]
+
+
+
+142- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aliate, se, aflau ,.. ]
+
+
+
+143- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aliate]   B= [se, aflau, la ,.. ]
+
+
+
+144- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, aflau, la ,.. ]
+
+
+
+145- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [aflau, la, circa ,.. ]
+
+
+
+146- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, aflau]   B= [la, circa, 100 ,.. ]
+
+
+
+147- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, aflau]]   B= [la, circa, 100 ,.. ]
+
+
+
+148- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, circa, 100 ,.. ]
+
+
+
+149- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [circa, 100, km ,.. ]
+
+
+
+150- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [circa, 100, km ,.. ]
+
+
+
+151- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [circa]   B= [100, km, de ,.. ]
+
+
+
+152- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [100, km, de ,.. ]
+
+
+
+153- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [100]   B= [km, de, bagdad ,.. ]
+
+
+
+154- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [km, de, bagdad ,.. ]
+
+
+
+155- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [km]   B= [de, bagdad, l ,.. ]
+
+
+
+156- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, bagdad, l ,.. ]
+
+
+
+157- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [bagdad, l, bombardamentele ,.. ]
+
+
+
+158- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bagdad, l, bombardamentele ,.. ]
+
+
+
+159- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bagdad]   B= [l, bombardamentele, americane ,.. ]
+
+
+
+160- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, bombardamentele, americane ,.. ]
+
+
+
+161- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [bombardamentele, americane, și ,.. ]
+
+
+
+162- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bombardamentele, americane, și ,.. ]
+
+
+
+163- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bombardamentele]   B= [americane, și, britanice ,.. ]
+
+
+
+164- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americane, și, britanice ,.. ]
+
+
+
+165- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americane]   B= [și, britanice, au ,.. ]
+
+
+
+166- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, britanice, au ,.. ]
+
+
+
+167- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [britanice, au, vizat ,.. ]
+
+
+
+168- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [britanice, au, vizat ,.. ]
+
+
+
+169- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [britanice]   B= [au, vizat, poziții ,.. ]
+
+
+
+170- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, vizat, poziții ,.. ]
+
+
+
+171- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [vizat, poziții, ale ,.. ]
+
+
+
+172- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vizat, poziții, ale ,.. ]
+
+
+
+173- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vizat]   B= [poziții, ale, gărzii ,.. ]
+
+
+
+174- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [poziții, ale, gărzii ,.. ]
+
+
+
+175- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [poziții]   B= [ale, gărzii, republicane ,.. ]
+
+
+
+176- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ale, gărzii, republicane ,.. ]
+
+
+
+177- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ale]   B= [gărzii, republicane, , ,.. ]
+
+
+
+178- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gărzii, republicane, , ,.. ]
+
+
+
+179- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gărzii]   B= [republicane, ,, câteva ,.. ]
+
+
+
+180- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [republicane, ,, câteva ,.. ]
+
+
+
+181- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [republicane]   B= [,, câteva, obiective ,.. ]
+
+
+
+182- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, câteva, obiective ,.. ]
+
+
+
+183- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [câteva, obiective, guvernamentale ,.. ]
+
+
+
+184- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [câteva, obiective, guvernamentale ,.. ]
+
+
+
+185- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [câteva]   B= [obiective, guvernamentale, , ,.. ]
+
+
+
+186- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [obiective, guvernamentale, , ,.. ]
+
+
+
+187- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [obiective]   B= [guvernamentale, ,, depozite ,.. ]
+
+
+
+188- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [guvernamentale, ,, depozite ,.. ]
+
+
+
+189- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [guvernamentale]   B= [,, depozite, de ,.. ]
+
+
+
+190- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, depozite, de ,.. ]
+
+
+
+191- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [depozite, de, carburant ,.. ]
+
+
+
+192- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [depozite, de, carburant ,.. ]
+
+
+
+193- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [depozite]   B= [de, carburant, , ,.. ]
+
+
+
+194- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, carburant, , ,.. ]
+
+
+
+195- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [carburant, ,, ținte ,.. ]
+
+
+
+196- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [carburant, ,, ținte ,.. ]
+
+
+
+197- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [carburant]   B= [,, ținte, fiind ,.. ]
+
+
+
+198- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ținte, fiind ,.. ]
+
+
+
+199- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ținte, fiind, capitala ,.. ]
+
+
+
+200- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ținte, fiind, capitala ,.. ]
+
+
+
+201- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ținte]   B= [fiind, capitala, și ,.. ]
+
+
+
+202- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fiind, capitala, și ,.. ]
+
+
+
+203- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fiind]   B= [capitala, și, orașele ,.. ]
+
+
+
+204- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [capitala, și, orașele ,.. ]
+
+
+
+205- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [capitala]   B= [și, orașele, mosul ,.. ]
+
+
+
+206- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, orașele, mosul ,.. ]
+
+
+
+207- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [orașele, mosul, , ,.. ]
+
+
+
+208- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [orașele, mosul, , ,.. ]
+
+
+
+209- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [orașele]   B= [mosul, ,, najaf ,.. ]
+
+
+
+210- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mosul, ,, najaf ,.. ]
+
+
+
+211- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mosul]   B= [,, najaf, și ,.. ]
+
+
+
+212- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, najaf, și ,.. ]
+
+
+
+213- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [najaf, și, basra ,.. ]
+
+
+
+214- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [najaf, și, basra ,.. ]
+
+
+
+215- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [najaf]   B= [și, basra, l ,.. ]
+
+
+
+216- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, basra, l ,.. ]
+
+
+
+217- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [basra, l, comandantul ,.. ]
+
+
+
+218- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [basra, l, comandantul ,.. ]
+
+
+
+219- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [basra]   B= [l, comandantul, apărării ,.. ]
+
+
+
+220- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, comandantul, apărării ,.. ]
+
+
+
+221- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [comandantul, apărării, aeriene ,.. ]
+
+
+
+222- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [comandantul, apărării, aeriene ,.. ]
+
+
+
+223- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [comandantul]   B= [apărării, aeriene, a ,.. ]
+
+
+
+224- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [apărării, aeriene, a ,.. ]
+
+
+
+225- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [apărării]   B= [aeriene, a, irakului ,.. ]
+
+
+
+226- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aeriene, a, irakului ,.. ]
+
+
+
+227- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aeriene]   B= [a, irakului, a ,.. ]
+
+
+
+228- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, irakului, a ,.. ]
+
+
+
+229- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [irakului, a, fost ,.. ]
+
+
+
+230- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakului, a, fost ,.. ]
+
+
+
+231- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakului]   B= [a, fost, destituit ,.. ]
+
+
+
+232- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, fost, destituit ,.. ]
+
+
+
+233- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [fost, destituit, pentru ,.. ]
+
+
+
+234- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fost, destituit, pentru ,.. ]
+
+
+
+235- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fost]   B= [destituit, pentru, slabele ,.. ]
+
+
+
+236- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [destituit, pentru, slabele ,.. ]
+
+
+
+237- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [destituit]   B= [pentru, slabele, performanțe ,.. ]
+
+
+
+238- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, slabele, performanțe ,.. ]
+
+
+
+239- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [slabele, performanțe, ale ,.. ]
+
+
+
+240- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [slabele, performanțe, ale ,.. ]
+
+
+
+241- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [slabele]   B= [performanțe, ale, unităților ,.. ]
+
+
+
+242- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [performanțe, ale, unităților ,.. ]
+
+
+
+243- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [performanțe]   B= [ale, unităților, sale ,.. ]
+
+
+
+244- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ale, unităților, sale ,.. ]
+
+
+
+245- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ale]   B= [unităților, sale, l ,.. ]
+
+
+
+246- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [unităților, sale, l ,.. ]
+
+
+
+247- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [unităților]   B= [sale, l, forțele ,.. ]
+
+
+
+248- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sale, l, forțele ,.. ]
+
+
+
+249- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sale]   B= [l, forțele, irakiene ,.. ]
+
+
+
+250- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, forțele, irakiene ,.. ]
+
+
+
+251- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [forțele, irakiene, au ,.. ]
+
+
+
+252- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, irakiene, au ,.. ]
+
+
+
+253- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [irakiene, au, executat ,.. ]
+
+
+
+254- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiene, au, executat ,.. ]
+
+
+
+255- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiene]   B= [au, executat, numeroși ,.. ]
+
+
+
+256- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, executat, numeroși ,.. ]
+
+
+
+257- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [executat, numeroși, soldați ,.. ]
+
+
+
+258- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [executat, numeroși, soldați ,.. ]
+
+
+
+259- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [executat]   B= [numeroși, soldați, care ,.. ]
+
+
+
+260- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [numeroși, soldați, care ,.. ]
+
+
+
+261- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [numeroși]   B= [soldați, care, încercau ,.. ]
+
+
+
+262- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [soldați, care, încercau ,.. ]
+
+
+
+263- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [soldați]   B= [care, încercau, să ,.. ]
+
+
+
+264- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [care, încercau, să ,.. ]
+
+
+
+265- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [care]   B= [încercau, să, dezerteze ,.. ]
+
+
+
+266- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [încercau, să, dezerteze ,.. ]
+
+
+
+267- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [încercau]   B= [să, dezerteze, și ,.. ]
+
+
+
+268- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [să, dezerteze, și ,.. ]
+
+
+
+269- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [să]   B= [dezerteze, și, să ,.. ]
+
+
+
+270- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dezerteze, și, să ,.. ]
+
+
+
+271- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dezerteze]   B= [și, să, fugă ,.. ]
+
+
+
+272- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, să, fugă ,.. ]
+
+
+
+273- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [să, fugă, în ,.. ]
+
+
+
+274- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [să, fugă, în ,.. ]
+
+
+
+275- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [să]   B= [fugă, în, kurdistan ,.. ]
+
+
+
+276- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fugă, în, kurdistan ,.. ]
+
+
+
+277- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fugă]   B= [în, kurdistan, l ,.. ]
+
+
+
+278- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, kurdistan, l ,.. ]
+
+
+
+279- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [kurdistan, l, patru ,.. ]
+
+
+
+280- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kurdistan, l, patru ,.. ]
+
+
+
+281- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kurdistan]   B= [l, patru, militari ,.. ]
+
+
+
+282- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, patru, militari ,.. ]
+
+
+
+283- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [patru, militari, americani ,.. ]
+
+
+
+284- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [patru, militari, americani ,.. ]
+
+
+
+285- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [patru]   B= [militari, americani, au ,.. ]
+
+
+
+286- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [militari, americani, au ,.. ]
+
+
+
+287- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [militari]   B= [americani, au, murit ,.. ]
+
+
+
+288- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americani, au, murit ,.. ]
+
+
+
+289- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americani]   B= [au, murit, într ,.. ]
+
+
+
+290- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, murit, într ,.. ]
+
+
+
+291- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [murit, într, - ,.. ]
+
+
+
+292- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [murit, într, - ,.. ]
+
+
+
+293- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [murit]   B= [într, -, un ,.. ]
+
+
+
+294- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [într, -, un ,.. ]
+
+
+
+295- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [într]   B= [-, un, atentat ,.. ]
+
+
+
+296- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, un, atentat ,.. ]
+
+
+
+297- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [un, atentat, sinucigaș ,.. ]
+
+
+
+298- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, atentat, sinucigaș ,.. ]
+
+
+
+299- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [atentat, sinucigaș, cu ,.. ]
+
+
+
+300- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atentat, sinucigaș, cu ,.. ]
+
+
+
+301- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atentat]   B= [sinucigaș, cu, bombă ,.. ]
+
+
+
+302- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sinucigaș, cu, bombă ,.. ]
+
+
+
+303- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sinucigaș]   B= [cu, bombă, , ,.. ]
+
+
+
+304- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cu, bombă, , ,.. ]
+
+
+
+305- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cu]   B= [bombă, ,, la ,.. ]
+
+
+
+306- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bombă, ,, la ,.. ]
+
+
+
+307- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bombă]   B= [,, la, najaf ,.. ]
+
+
+
+308- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, la, najaf ,.. ]
+
+
+
+309- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [la, najaf, l ,.. ]
+
+
+
+310- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, najaf, l ,.. ]
+
+
+
+311- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [najaf, l, voluntari ,.. ]
+
+
+
+312- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [najaf, l, voluntari ,.. ]
+
+
+
+313- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [najaf]   B= [l, voluntari, sirieni ,.. ]
+
+
+
+314- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, voluntari, sirieni ,.. ]
+
+
+
+315- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [voluntari, sirieni, și ,.. ]
+
+
+
+316- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [voluntari, sirieni, și ,.. ]
+
+
+
+317- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [voluntari]   B= [sirieni, și, palestinieni ,.. ]
+
+
+
+318- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sirieni, și, palestinieni ,.. ]
+
+
+
+319- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sirieni]   B= [și, palestinieni, au ,.. ]
+
+
+
+320- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, palestinieni, au ,.. ]
+
+
+
+321- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [palestinieni, au, pătruns ,.. ]
+
+
+
+322- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [palestinieni, au, pătruns ,.. ]
+
+
+
+323- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [palestinieni]   B= [au, pătruns, în ,.. ]
+
+
+
+324- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, pătruns, în ,.. ]
+
+
+
+325- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [pătruns, în, irak ,.. ]
+
+
+
+326- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pătruns, în, irak ,.. ]
+
+
+
+327- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pătruns]   B= [în, irak, , ,.. ]
+
+
+
+328- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, irak, , ,.. ]
+
+
+
+329- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [irak, ,, pentru ,.. ]
+
+
+
+330- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irak, ,, pentru ,.. ]
+
+
+
+331- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irak]   B= [,, pentru, a ,.. ]
+
+
+
+332- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pentru, a ,.. ]
+
+
+
+333- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pentru, a, combate ,.. ]
+
+
+
+334- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, a, combate ,.. ]
+
+
+
+335- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [a, combate, forțele ,.. ]
+
+
+
+336- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, combate, forțele ,.. ]
+
+
+
+337- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [combate, forțele, americano ,.. ]
+
+
+
+338- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [combate, forțele, americano ,.. ]
+
+
+
+339- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [combate]   B= [forțele, americano, - ,.. ]
+
+
+
+340- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, americano, - ,.. ]
+
+
+
+341- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [americano, -, britanice ,.. ]
+
+
+
+342- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americano, -, britanice ,.. ]
+
+
+
+343- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americano]   B= [-, britanice, l ,.. ]
+
+
+
+344- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, britanice, l ,.. ]
+
+
+
+345- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [britanice, l, forțele ,.. ]
+
+
+
+346- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [britanice, l, forțele ,.. ]
+
+
+
+347- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [britanice]   B= [l, forțele, britanice ,.. ]
+
+
+
+348- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, forțele, britanice ,.. ]
+
+
+
+349- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [forțele, britanice, au ,.. ]
+
+
+
+350- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, britanice, au ,.. ]
+
+
+
+351- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [britanice, au, anunțat ,.. ]
+
+
+
+352- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [britanice, au, anunțat ,.. ]
+
+
+
+353- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [britanice]   B= [au, anunțat, că ,.. ]
+
+
+
+354- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, anunțat, că ,.. ]
+
+
+
+355- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [anunțat, că, au ,.. ]
+
+
+
+356- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [anunțat, că, au ,.. ]
+
+
+
+357- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [anunțat]   B= [că, au, capturat ,.. ]
+
+
+
+358- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [că, au, capturat ,.. ]
+
+
+
+359- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [că]   B= [au, capturat, un ,.. ]
+
+
+
+360- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, capturat, un ,.. ]
+
+
+
+361- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [capturat, un, general ,.. ]
+
+
+
+362- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [capturat, un, general ,.. ]
+
+
+
+363- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [capturat]   B= [un, general, irakian ,.. ]
+
+
+
+364- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, general, irakian ,.. ]
+
+
+
+365- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [general, irakian, , ,.. ]
+
+
+
+366- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [general, irakian, , ,.. ]
+
+
+
+367- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [general]   B= [irakian, ,, în ,.. ]
+
+
+
+368- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakian, ,, în ,.. ]
+
+
+
+369- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakian]   B= [,, în, timpul ,.. ]
+
+
+
+370- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, în, timpul ,.. ]
+
+
+
+371- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [în, timpul, luptelor ,.. ]
+
+
+
+372- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, timpul, luptelor ,.. ]
+
+
+
+373- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [timpul, luptelor, de ,.. ]
+
+
+
+374- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [timpul, luptelor, de ,.. ]
+
+
+
+375- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [timpul]   B= [luptelor, de, la ,.. ]
+
+
+
+376- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [luptelor, de, la ,.. ]
+
+
+
+377- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luptelor]   B= [de, la, basra ,.. ]
+
+
+
+378- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, la, basra ,.. ]
+
+
+
+379- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [la, basra, l ,.. ]
+
+
+
+380- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, basra, l ,.. ]
+
+
+
+381- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [basra, l, pentru ,.. ]
+
+
+
+382- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [basra, l, pentru ,.. ]
+
+
+
+383- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [basra]   B= [l, pentru, prima ,.. ]
+
+
+
+384- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, pentru, prima ,.. ]
+
+
+
+385- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [pentru, prima, dată ,.. ]
+
+
+
+386- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, prima, dată ,.. ]
+
+
+
+387- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [prima, dată, de ,.. ]
+
+
+
+388- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prima, dată, de ,.. ]
+
+
+
+389- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prima]   B= [dată, de, la ,.. ]
+
+
+
+390- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dată, de, la ,.. ]
+
+
+
+391- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dată]   B= [de, la, începutul ,.. ]
+
+
+
+392- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, la, începutul ,.. ]
+
+
+
+393- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [la, începutul, războiului ,.. ]
+
+
+
+394- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, începutul, războiului ,.. ]
+
+
+
+395- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [începutul, războiului, , ,.. ]
+
+
+
+396- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [începutul, războiului, , ,.. ]
+
+
+
+397- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [începutul]   B= [războiului, ,, populația ,.. ]
+
+
+
+398- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [războiului, ,, populația ,.. ]
+
+
+
+399- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [războiului]   B= [,, populația, unei ,.. ]
+
+
+
+400- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, populația, unei ,.. ]
+
+
+
+401- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [populația, unei, localități ,.. ]
+
+
+
+402- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [populația, unei, localități ,.. ]
+
+
+
+403- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [populația]   B= [unei, localități, irakiene ,.. ]
+
+
+
+404- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [unei, localități, irakiene ,.. ]
+
+
+
+405- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [unei]   B= [localități, irakiene, i ,.. ]
+
+
+
+406- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [localități, irakiene, i ,.. ]
+
+
+
+407- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [localități]   B= [irakiene, i, - ,.. ]
+
+
+
+408- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiene, i, - ,.. ]
+
+
+
+409- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiene]   B= [i, -, a ,.. ]
+
+
+
+410- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [i, -, a ,.. ]
+
+
+
+411- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [i]   B= [-, a, întâmpinat ,.. ]
+
+
+
+412- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, a, întâmpinat ,.. ]
+
+
+
+413- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [a, întâmpinat, , ,.. ]
+
+
+
+414- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, întâmpinat, , ,.. ]
+
+
+
+415- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [întâmpinat, ,, luni ,.. ]
+
+
+
+416- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [întâmpinat, ,, luni ,.. ]
+
+
+
+417- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [întâmpinat]   B= [,, luni, , ,.. ]
+
+
+
+418- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, luni, , ,.. ]
+
+
+
+419- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [luni, ,, cu ,.. ]
+
+
+
+420- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [luni, ,, cu ,.. ]
+
+
+
+421- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luni]   B= [,, cu, urale ,.. ]
+
+
+
+422- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, cu, urale ,.. ]
+
+
+
+423- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [cu, urale, pe ,.. ]
+
+
+
+424- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cu, urale, pe ,.. ]
+
+
+
+425- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cu]   B= [urale, pe, militarii ,.. ]
+
+
+
+426- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [urale, pe, militarii ,.. ]
+
+
+
+427- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [urale]   B= [pe, militarii, aliați ,.. ]
+
+
+
+428- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pe, militarii, aliați ,.. ]
+
+
+
+429- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pe]   B= [militarii, aliați, l ,.. ]
+
+
+
+430- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [militarii, aliați, l ,.. ]
+
+
+
+431- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [militarii]   B= [aliați, l, circa ,.. ]
+
+
+
+432- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aliați, l, circa ,.. ]
+
+
+
+433- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aliați]   B= [l, circa, 300 ,.. ]
+
+
+
+434- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, circa, 300 ,.. ]
+
+
+
+435- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [circa, 300, de ,.. ]
+
+
+
+436- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [circa, 300, de ,.. ]
+
+
+
+437- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [circa]   B= [300, de, lideri ,.. ]
+
+
+
+438- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [300, de, lideri ,.. ]
+
+
+
+439- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [300]   B= [de, lideri, tribali ,.. ]
+
+
+
+440- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, lideri, tribali ,.. ]
+
+
+
+441- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [lideri, tribali, s ,.. ]
+
+
+
+442- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lideri, tribali, s ,.. ]
+
+
+
+443- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lideri]   B= [tribali, s, - ,.. ]
+
+
+
+444- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tribali, s, - ,.. ]
+
+
+
+445- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tribali]   B= [s, -, au ,.. ]
+
+
+
+446- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, au ,.. ]
+
+
+
+447- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, au, reunit ,.. ]
+
+
+
+448- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [au, reunit, pentru ,.. ]
+
+
+
+449- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [au, reunit, pentru ,.. ]
+
+
+
+450- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, au]   B= [reunit, pentru, a ,.. ]
+
+
+
+451- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [reunit, pentru, a ,.. ]
+
+
+
+452- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, reunit]   B= [pentru, a, stabili ,.. ]
+
+
+
+453- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, reunit]]   B= [pentru, a, stabili ,.. ]
+
+
+
+454- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, a, stabili ,.. ]
+
+
+
+455- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [a, stabili, modul ,.. ]
+
+
+
+456- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, stabili, modul ,.. ]
+
+
+
+457- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [stabili, modul, în ,.. ]
+
+
+
+458- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stabili, modul, în ,.. ]
+
+
+
+459- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stabili]   B= [modul, în, care ,.. ]
+
+
+
+460- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [modul, în, care ,.. ]
+
+
+
+461- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [modul]   B= [în, care, membrii ,.. ]
+
+
+
+462- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, care, membrii ,.. ]
+
+
+
+463- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [care, membrii, din ,.. ]
+
+
+
+464- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [care, membrii, din ,.. ]
+
+
+
+465- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [care]   B= [membrii, din, zonele ,.. ]
+
+
+
+466- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [membrii, din, zonele ,.. ]
+
+
+
+467- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [membrii]   B= [din, zonele, rurale ,.. ]
+
+
+
+468- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, zonele, rurale ,.. ]
+
+
+
+469- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [zonele, rurale, ar ,.. ]
+
+
+
+470- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zonele, rurale, ar ,.. ]
+
+
+
+471- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zonele]   B= [rurale, ar, putea ,.. ]
+
+
+
+472- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rurale, ar, putea ,.. ]
+
+
+
+473- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rurale]   B= [ar, putea, lupta ,.. ]
+
+
+
+474- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ar, putea, lupta ,.. ]
+
+
+
+475- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ar]   B= [putea, lupta, împotriva ,.. ]
+
+
+
+476- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [putea, lupta, împotriva ,.. ]
+
+
+
+477- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [putea]   B= [lupta, împotriva, forțelor ,.. ]
+
+
+
+478- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lupta, împotriva, forțelor ,.. ]
+
+
+
+479- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lupta]   B= [împotriva, forțelor, aliate ,.. ]
+
+
+
+480- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [împotriva, forțelor, aliate ,.. ]
+
+
+
+481- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [împotriva]   B= [forțelor, aliate, l ,.. ]
+
+
+
+482- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțelor, aliate, l ,.. ]
+
+
+
+483- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțelor]   B= [aliate, l, televiziunea ,.. ]
+
+
+
+484- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aliate, l, televiziunea ,.. ]
+
+
+
+485- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aliate]   B= [l, televiziunea, irakiană ,.. ]
+
+
+
+486- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, televiziunea, irakiană ,.. ]
+
+
+
+487- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [televiziunea, irakiană, a ,.. ]
+
+
+
+488- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [televiziunea, irakiană, a ,.. ]
+
+
+
+489- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [televiziunea]   B= [irakiană, a, prezentat ,.. ]
+
+
+
+490- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiană, a, prezentat ,.. ]
+
+
+
+491- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiană]   B= [a, prezentat, imagini ,.. ]
+
+
+
+492- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, prezentat, imagini ,.. ]
+
+
+
+493- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [prezentat, imagini, cu ,.. ]
+
+
+
+494- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prezentat, imagini, cu ,.. ]
+
+
+
+495- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prezentat]   B= [imagini, cu, saddam ,.. ]
+
+
+
+496- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [imagini, cu, saddam ,.. ]
+
+
+
+497- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [imagini]   B= [cu, saddam, hussein ,.. ]
+
+
+
+498- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cu, saddam, hussein ,.. ]
+
+
+
+499- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cu]   B= [saddam, hussein, , ,.. ]
+
+
+
+500- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saddam, hussein, , ,.. ]
+
+
+
+501- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saddam]   B= [hussein, ,, prezidând ,.. ]
+
+
+
+502- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hussein, ,, prezidând ,.. ]
+
+
+
+503- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hussein]   B= [,, prezidând, o ,.. ]
+
+
+
+504- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, prezidând, o ,.. ]
+
+
+
+505- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [prezidând, o, reuniune ,.. ]
+
+
+
+506- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prezidând, o, reuniune ,.. ]
+
+
+
+507- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prezidând]   B= [o, reuniune, cu ,.. ]
+
+
+
+508- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [o, reuniune, cu ,.. ]
+
+
+
+509- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [o]   B= [reuniune, cu, colaboratorii ,.. ]
+
+
+
+510- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [reuniune, cu, colaboratorii ,.. ]
+
+
+
+511- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [reuniune]   B= [cu, colaboratorii, săi ,.. ]
+
+
+
+512- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cu, colaboratorii, săi ,.. ]
+
+
+
+513- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cu]   B= [colaboratorii, săi, l ,.. ]
+
+
+
+514- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [colaboratorii, săi, l ,.. ]
+
+
+
+515- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [colaboratorii]   B= [săi, l, secretarul ,.. ]
+
+
+
+516- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [săi, l, secretarul ,.. ]
+
+
+
+517- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [săi]   B= [l, secretarul, de ,.. ]
+
+
+
+518- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, secretarul, de ,.. ]
+
+
+
+519- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [secretarul, de, stat ,.. ]
+
+
+
+520- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [secretarul, de, stat ,.. ]
+
+
+
+521- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [secretarul]   B= [de, stat, american ,.. ]
+
+
+
+522- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, stat, american ,.. ]
+
+
+
+523- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [stat, american, , ,.. ]
+
+
+
+524- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [stat, american, , ,.. ]
+
+
+
+525- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [stat]   B= [american, ,, colin ,.. ]
+
+
+
+526- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [american, ,, colin ,.. ]
+
+
+
+527- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [american]   B= [,, colin, powell ,.. ]
+
+
+
+528- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, colin, powell ,.. ]
+
+
+
+529- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [colin, powell, , ,.. ]
+
+
+
+530- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [colin, powell, , ,.. ]
+
+
+
+531- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [colin]   B= [powell, ,, a ,.. ]
+
+
+
+532- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [powell, ,, a ,.. ]
+
+
+
+533- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [powell]   B= [,, a, cerut ,.. ]
+
+
+
+534- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, a, cerut ,.. ]
+
+
+
+535- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [a, cerut, siriei ,.. ]
+
+
+
+536- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, cerut, siriei ,.. ]
+
+
+
+537- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [cerut, siriei, să ,.. ]
+
+
+
+538- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cerut, siriei, să ,.. ]
+
+
+
+539- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cerut]   B= [siriei, să, nu ,.. ]
+
+
+
+540- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [siriei, să, nu ,.. ]
+
+
+
+541- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [siriei]   B= [să, nu, mai ,.. ]
+
+
+
+542- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [să, nu, mai ,.. ]
+
+
+
+543- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [să]   B= [nu, mai, sprijine ,.. ]
+
+
+
+544- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nu, mai, sprijine ,.. ]
+
+
+
+545- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nu]   B= [mai, sprijine, conducerea ,.. ]
+
+
+
+546- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, sprijine, conducerea ,.. ]
+
+
+
+547- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [sprijine, conducerea, irakiană ,.. ]
+
+
+
+548- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sprijine, conducerea, irakiană ,.. ]
+
+
+
+549- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sprijine]   B= [conducerea, irakiană, l ,.. ]
+
+
+
+550- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [conducerea, irakiană, l ,.. ]
+
+
+
+551- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [conducerea]   B= [irakiană, l, bombardamentele ,.. ]
+
+
+
+552- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiană, l, bombardamentele ,.. ]
+
+
+
+553- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiană]   B= [l, bombardamentele, de ,.. ]
+
+
+
+554- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, bombardamentele, de ,.. ]
+
+
+
+555- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [bombardamentele, de, la ,.. ]
+
+
+
+556- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bombardamentele, de, la ,.. ]
+
+
+
+557- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bombardamentele]   B= [de, la, bagdad ,.. ]
+
+
+
+558- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, la, bagdad ,.. ]
+
+
+
+559- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [la, bagdad, au ,.. ]
+
+
+
+560- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, bagdad, au ,.. ]
+
+
+
+561- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [bagdad, au, vizat ,.. ]
+
+
+
+562- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bagdad, au, vizat ,.. ]
+
+
+
+563- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bagdad]   B= [au, vizat, , ,.. ]
+
+
+
+564- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, vizat, , ,.. ]
+
+
+
+565- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [vizat, ,, marți ,.. ]
+
+
+
+566- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vizat, ,, marți ,.. ]
+
+
+
+567- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vizat]   B= [,, marți, , ,.. ]
+
+
+
+568- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, marți, , ,.. ]
+
+
+
+569- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [marți, ,, palatele ,.. ]
+
+
+
+570- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [marți, ,, palatele ,.. ]
+
+
+
+571- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [marți]   B= [,, palatele, prezidențiale ,.. ]
+
+
+
+572- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, palatele, prezidențiale ,.. ]
+
+
+
+573- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [palatele, prezidențiale, , ,.. ]
+
+
+
+574- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [palatele, prezidențiale, , ,.. ]
+
+
+
+575- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [palatele]   B= [prezidențiale, ,, pozițiile ,.. ]
+
+
+
+576- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prezidențiale, ,, pozițiile ,.. ]
+
+
+
+577- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prezidențiale]   B= [,, pozițiile, gărzilor ,.. ]
+
+
+
+578- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pozițiile, gărzilor ,.. ]
+
+
+
+579- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pozițiile, gărzilor, republicane ,.. ]
+
+
+
+580- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pozițiile, gărzilor, republicane ,.. ]
+
+
+
+581- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pozițiile]   B= [gărzilor, republicane, , ,.. ]
+
+
+
+582- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gărzilor, republicane, , ,.. ]
+
+
+
+583- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gărzilor]   B= [republicane, ,, clădirea ,.. ]
+
+
+
+584- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [republicane, ,, clădirea ,.. ]
+
+
+
+585- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [republicane]   B= [,, clădirea, ministerului ,.. ]
+
+
+
+586- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, clădirea, ministerului ,.. ]
+
+
+
+587- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [clădirea, ministerului, informațiilor ,.. ]
+
+
+
+588- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [clădirea, ministerului, informațiilor ,.. ]
+
+
+
+589- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [clădirea]   B= [ministerului, informațiilor, și ,.. ]
+
+
+
+590- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ministerului, informațiilor, și ,.. ]
+
+
+
+591- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ministerului]   B= [informațiilor, și, două ,.. ]
+
+
+
+592- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [informațiilor, și, două ,.. ]
+
+
+
+593- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [informațiilor]   B= [și, două, centrale ,.. ]
+
+
+
+594- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, două, centrale ,.. ]
+
+
+
+595- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [două, centrale, telefonice ,.. ]
+
+
+
+596- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [două, centrale, telefonice ,.. ]
+
+
+
+597- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [două]   B= [centrale, telefonice, l ,.. ]
+
+
+
+598- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [centrale, telefonice, l ,.. ]
+
+
+
+599- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [centrale]   B= [telefonice, l, un ,.. ]
+
+
+
+600- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [telefonice, l, un ,.. ]
+
+
+
+601- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [telefonice]   B= [l, un, mesaj ,.. ]
+
+
+
+602- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, un, mesaj ,.. ]
+
+
+
+603- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [un, mesaj, din ,.. ]
+
+
+
+604- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, mesaj, din ,.. ]
+
+
+
+605- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [mesaj, din, partea ,.. ]
+
+
+
+606- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mesaj, din, partea ,.. ]
+
+
+
+607- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mesaj]   B= [din, partea, lui ,.. ]
+
+
+
+608- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, partea, lui ,.. ]
+
+
+
+609- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [partea, lui, saddam ,.. ]
+
+
+
+610- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [partea, lui, saddam ,.. ]
+
+
+
+611- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [partea]   B= [lui, saddam, hussein ,.. ]
+
+
+
+612- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lui, saddam, hussein ,.. ]
+
+
+
+613- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lui]   B= [saddam, hussein, a ,.. ]
+
+
+
+614- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saddam, hussein, a ,.. ]
+
+
+
+615- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saddam]   B= [hussein, a, fost ,.. ]
+
+
+
+616- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hussein, a, fost ,.. ]
+
+
+
+617- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hussein]   B= [a, fost, citit ,.. ]
+
+
+
+618- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, fost, citit ,.. ]
+
+
+
+619- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [fost, citit, , ,.. ]
+
+
+
+620- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fost, citit, , ,.. ]
+
+
+
+621- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fost]   B= [citit, ,, la ,.. ]
+
+
+
+622- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [citit, ,, la ,.. ]
+
+
+
+623- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [citit]   B= [,, la, televiziunea ,.. ]
+
+
+
+624- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, la, televiziunea ,.. ]
+
+
+
+625- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [la, televiziunea, irakiană ,.. ]
+
+
+
+626- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, televiziunea, irakiană ,.. ]
+
+
+
+627- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [televiziunea, irakiană, , ,.. ]
+
+
+
+628- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [televiziunea, irakiană, , ,.. ]
+
+
+
+629- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [televiziunea]   B= [irakiană, ,, de ,.. ]
+
+
+
+630- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiană, ,, de ,.. ]
+
+
+
+631- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiană]   B= [,, de, către ,.. ]
+
+
+
+632- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, de, către ,.. ]
+
+
+
+633- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [de, către, ministrul ,.. ]
+
+
+
+634- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, către, ministrul ,.. ]
+
+
+
+635- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [către, ministrul, informațiilor ,.. ]
+
+
+
+636- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [către, ministrul, informațiilor ,.. ]
+
+
+
+637- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [către]   B= [ministrul, informațiilor, l ,.. ]
+
+
+
+638- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ministrul, informațiilor, l ,.. ]
+
+
+
+639- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ministrul]   B= [informațiilor, l, forțele ,.. ]
+
+
+
+640- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [informațiilor, l, forțele ,.. ]
+
+
+
+641- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [informațiilor]   B= [l, forțele, coaliției ,.. ]
+
+
+
+642- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, forțele, coaliției ,.. ]
+
+
+
+643- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [forțele, coaliției, de ,.. ]
+
+
+
+644- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, coaliției, de ,.. ]
+
+
+
+645- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [coaliției, de, eliberare ,.. ]
+
+
+
+646- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [coaliției, de, eliberare ,.. ]
+
+
+
+647- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [coaliției]   B= [de, eliberare, a ,.. ]
+
+
+
+648- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, eliberare, a ,.. ]
+
+
+
+649- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [eliberare, a, irakului ,.. ]
+
+
+
+650- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [eliberare, a, irakului ,.. ]
+
+
+
+651- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [eliberare]   B= [a, irakului, au ,.. ]
+
+
+
+652- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, irakului, au ,.. ]
+
+
+
+653- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [irakului, au, zdrobit ,.. ]
+
+
+
+654- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakului, au, zdrobit ,.. ]
+
+
+
+655- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakului]   B= [au, zdrobit, , ,.. ]
+
+
+
+656- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, zdrobit, , ,.. ]
+
+
+
+657- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [zdrobit, ,, miercuri ,.. ]
+
+
+
+658- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zdrobit, ,, miercuri ,.. ]
+
+
+
+659- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zdrobit]   B= [,, miercuri, , ,.. ]
+
+
+
+660- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, miercuri, , ,.. ]
+
+
+
+661- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [miercuri, ,, diviziile ,.. ]
+
+
+
+662- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [miercuri, ,, diviziile ,.. ]
+
+
+
+663- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [miercuri]   B= [,, diviziile, de ,.. ]
+
+
+
+664- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, diviziile, de ,.. ]
+
+
+
+665- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [diviziile, de, elită ,.. ]
+
+
+
+666- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [diviziile, de, elită ,.. ]
+
+
+
+667- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [diviziile]   B= [de, elită, ale ,.. ]
+
+
+
+668- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, elită, ale ,.. ]
+
+
+
+669- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [elită, ale, gărzilor ,.. ]
+
+
+
+670- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [elită, ale, gărzilor ,.. ]
+
+
+
+671- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [elită]   B= [ale, gărzilor, republicane ,.. ]
+
+
+
+672- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ale, gărzilor, republicane ,.. ]
+
+
+
+673- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ale]   B= [gărzilor, republicane, și ,.. ]
+
+
+
+674- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gărzilor, republicane, și ,.. ]
+
+
+
+675- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gărzilor]   B= [republicane, și, s ,.. ]
+
+
+
+676- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [republicane, și, s ,.. ]
+
+
+
+677- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [republicane]   B= [și, s, - ,.. ]
+
+
+
+678- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, s, - ,.. ]
+
+
+
+679- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [s, -, au ,.. ]
+
+
+
+680- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, au ,.. ]
+
+
+
+681- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, au, apropiat ,.. ]
+
+
+
+682- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [au, apropiat, la ,.. ]
+
+
+
+683- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [au, apropiat, la ,.. ]
+
+
+
+684- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, au]   B= [apropiat, la, circa ,.. ]
+
+
+
+685- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [apropiat, la, circa ,.. ]
+
+
+
+686- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, apropiat]   B= [la, circa, 30 ,.. ]
+
+
+
+687- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, apropiat]]   B= [la, circa, 30 ,.. ]
+
+
+
+688- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, circa, 30 ,.. ]
+
+
+
+689- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [circa, 30, km ,.. ]
+
+
+
+690- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [circa, 30, km ,.. ]
+
+
+
+691- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [circa]   B= [30, km, de ,.. ]
+
+
+
+692- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [30, km, de ,.. ]
+
+
+
+693- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [30]   B= [km, de, bagdad ,.. ]
+
+
+
+694- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [km, de, bagdad ,.. ]
+
+
+
+695- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [km]   B= [de, bagdad, l ,.. ]
+
+
+
+696- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, bagdad, l ,.. ]
+
+
+
+697- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [bagdad, l, comandourile ,.. ]
+
+
+
+698- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bagdad, l, comandourile ,.. ]
+
+
+
+699- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bagdad]   B= [l, comandourile, delta ,.. ]
+
+
+
+700- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, comandourile, delta ,.. ]
+
+
+
+701- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [comandourile, delta, force ,.. ]
+
+
+
+702- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [comandourile, delta, force ,.. ]
+
+
+
+703- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [comandourile]   B= [delta, force, au ,.. ]
+
+
+
+704- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [delta, force, au ,.. ]
+
+
+
+705- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [delta]   B= [force, au, intervenit ,.. ]
+
+
+
+706- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [force, au, intervenit ,.. ]
+
+
+
+707- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [force]   B= [au, intervenit, , ,.. ]
+
+
+
+708- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, intervenit, , ,.. ]
+
+
+
+709- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [intervenit, ,, la ,.. ]
+
+
+
+710- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [intervenit, ,, la ,.. ]
+
+
+
+711- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [intervenit]   B= [,, la, nasiriyah ,.. ]
+
+
+
+712- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, la, nasiriyah ,.. ]
+
+
+
+713- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [la, nasiriyah, , ,.. ]
+
+
+
+714- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, nasiriyah, , ,.. ]
+
+
+
+715- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [nasiriyah, ,, pentru ,.. ]
+
+
+
+716- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nasiriyah, ,, pentru ,.. ]
+
+
+
+717- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nasiriyah]   B= [,, pentru, eliberarea ,.. ]
+
+
+
+718- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pentru, eliberarea ,.. ]
+
+
+
+719- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pentru, eliberarea, din ,.. ]
+
+
+
+720- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, eliberarea, din ,.. ]
+
+
+
+721- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [eliberarea, din, captivitatea ,.. ]
+
+
+
+722- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [eliberarea, din, captivitatea ,.. ]
+
+
+
+723- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [eliberarea]   B= [din, captivitatea, irakiană ,.. ]
+
+
+
+724- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, captivitatea, irakiană ,.. ]
+
+
+
+725- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [captivitatea, irakiană, a ,.. ]
+
+
+
+726- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [captivitatea, irakiană, a ,.. ]
+
+
+
+727- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [captivitatea]   B= [irakiană, a, unei ,.. ]
+
+
+
+728- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiană, a, unei ,.. ]
+
+
+
+729- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiană]   B= [a, unei, tinere ,.. ]
+
+
+
+730- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, unei, tinere ,.. ]
+
+
+
+731- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [unei, tinere, de ,.. ]
+
+
+
+732- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [unei, tinere, de ,.. ]
+
+
+
+733- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [unei]   B= [tinere, de, 19 ,.. ]
+
+
+
+734- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tinere, de, 19 ,.. ]
+
+
+
+735- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tinere]   B= [de, 19, ani ,.. ]
+
+
+
+736- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, 19, ani ,.. ]
+
+
+
+737- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [19, ani, , ,.. ]
+
+
+
+738- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [19, ani, , ,.. ]
+
+
+
+739- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [19]   B= [ani, ,, soldat ,.. ]
+
+
+
+740- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ani, ,, soldat ,.. ]
+
+
+
+741- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ani]   B= [,, soldat, în ,.. ]
+
+
+
+742- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, soldat, în ,.. ]
+
+
+
+743- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [soldat, în, infanteria ,.. ]
+
+
+
+744- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [soldat, în, infanteria ,.. ]
+
+
+
+745- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [soldat]   B= [în, infanteria, s ,.. ]
+
+
+
+746- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, infanteria, s ,.. ]
+
+
+
+747- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [infanteria, s, . ,.. ]
+
+
+
+748- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [infanteria, s, . ,.. ]
+
+
+
+749- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [infanteria]   B= [s, ., u ,.. ]
+
+
+
+750- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, ., u ,.. ]
+
+
+
+751- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [., u, . ,.. ]
+
+
+
+752- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., u, . ,.. ]
+
+
+
+753- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [u, ., a ,.. ]
+
+
+
+754- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, ., a ,.. ]
+
+
+
+755- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [., a, . ,.. ]
+
+
+
+756- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., a, . ,.. ]
+
+
+
+757- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [a, ., l ,.. ]
+
+
+
+758- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, ., l ,.. ]
+
+
+
+759- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [., l, saddam ,.. ]
+
+
+
+760- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., l, saddam ,.. ]
+
+
+
+761- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [l, saddam, hussein ,.. ]
+
+
+
+762- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, saddam, hussein ,.. ]
+
+
+
+763- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [saddam, hussein, le ,.. ]
+
+
+
+764- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saddam, hussein, le ,.. ]
+
+
+
+765- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saddam]   B= [hussein, le, - ,.. ]
+
+
+
+766- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hussein, le, - ,.. ]
+
+
+
+767- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hussein]   B= [le, -, a ,.. ]
+
+
+
+768- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [le, -, a ,.. ]
+
+
+
+769- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [le]   B= [-, a, cerut ,.. ]
+
+
+
+770- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, a, cerut ,.. ]
+
+
+
+771- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [a, cerut, irakienilor ,.. ]
+
+
+
+772- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, cerut, irakienilor ,.. ]
+
+
+
+773- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [cerut, irakienilor, să ,.. ]
+
+
+
+774- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cerut, irakienilor, să ,.. ]
+
+
+
+775- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cerut]   B= [irakienilor, să, declanșeze ,.. ]
+
+
+
+776- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakienilor, să, declanșeze ,.. ]
+
+
+
+777- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakienilor]   B= [să, declanșeze, jihadul ,.. ]
+
+
+
+778- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [să, declanșeze, jihadul ,.. ]
+
+
+
+779- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [să]   B= [declanșeze, jihadul, împotriva ,.. ]
+
+
+
+780- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [declanșeze, jihadul, împotriva ,.. ]
+
+
+
+781- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [declanșeze]   B= [jihadul, împotriva, coaliției ,.. ]
+
+
+
+782- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jihadul, împotriva, coaliției ,.. ]
+
+
+
+783- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jihadul]   B= [împotriva, coaliției, americano ,.. ]
+
+
+
+784- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [împotriva, coaliției, americano ,.. ]
+
+
+
+785- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [împotriva]   B= [coaliției, americano, - ,.. ]
+
+
+
+786- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [coaliției, americano, - ,.. ]
+
+
+
+787- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [coaliției]   B= [americano, -, britanice ,.. ]
+
+
+
+788- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americano, -, britanice ,.. ]
+
+
+
+789- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americano]   B= [-, britanice, l ,.. ]
+
+
+
+790- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, britanice, l ,.. ]
+
+
+
+791- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [britanice, l, forțele ,.. ]
+
+
+
+792- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [britanice, l, forțele ,.. ]
+
+
+
+793- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [britanice]   B= [l, forțele, americane ,.. ]
+
+
+
+794- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, forțele, americane ,.. ]
+
+
+
+795- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [forțele, americane, au ,.. ]
+
+
+
+796- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, americane, au ,.. ]
+
+
+
+797- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [americane, au, ajuns ,.. ]
+
+
+
+798- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americane, au, ajuns ,.. ]
+
+
+
+799- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americane]   B= [au, ajuns, la ,.. ]
+
+
+
+800- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, ajuns, la ,.. ]
+
+
+
+801- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [ajuns, la, 10 ,.. ]
+
+
+
+802- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ajuns, la, 10 ,.. ]
+
+
+
+803- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ajuns]   B= [la, 10, km ,.. ]
+
+
+
+804- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, 10, km ,.. ]
+
+
+
+805- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [10, km, de ,.. ]
+
+
+
+806- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [10, km, de ,.. ]
+
+
+
+807- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [10]   B= [km, de, bagdad ,.. ]
+
+
+
+808- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [km, de, bagdad ,.. ]
+
+
+
+809- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [km]   B= [de, bagdad, și ,.. ]
+
+
+
+810- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, bagdad, și ,.. ]
+
+
+
+811- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [bagdad, și, se ,.. ]
+
+
+
+812- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bagdad, și, se ,.. ]
+
+
+
+813- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bagdad]   B= [și, se, pregăteau ,.. ]
+
+
+
+814- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, se, pregăteau ,.. ]
+
+
+
+815- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [se, pregăteau, de ,.. ]
+
+
+
+816- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, pregăteau, de ,.. ]
+
+
+
+817- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [pregăteau, de, atac ,.. ]
+
+
+
+818- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, pregăteau]   B= [de, atac, pentru ,.. ]
+
+
+
+819- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, pregăteau]]   B= [de, atac, pentru ,.. ]
+
+
+
+820- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, atac, pentru ,.. ]
+
+
+
+821- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [atac, pentru, preluarea ,.. ]
+
+
+
+822- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [atac, pentru, preluarea ,.. ]
+
+
+
+823- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [atac]   B= [pentru, preluarea, controlului ,.. ]
+
+
+
+824- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, preluarea, controlului ,.. ]
+
+
+
+825- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [preluarea, controlului, asupra ,.. ]
+
+
+
+826- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [preluarea, controlului, asupra ,.. ]
+
+
+
+827- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [preluarea]   B= [controlului, asupra, principalului ,.. ]
+
+
+
+828- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [controlului, asupra, principalului ,.. ]
+
+
+
+829- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [controlului]   B= [asupra, principalului, aeroport ,.. ]
+
+
+
+830- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [asupra, principalului, aeroport ,.. ]
+
+
+
+831- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [asupra]   B= [principalului, aeroport, din ,.. ]
+
+
+
+832- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [principalului, aeroport, din ,.. ]
+
+
+
+833- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [principalului]   B= [aeroport, din, capitala ,.. ]
+
+
+
+834- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aeroport, din, capitala ,.. ]
+
+
+
+835- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aeroport]   B= [din, capitala, irakiană ,.. ]
+
+
+
+836- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, capitala, irakiană ,.. ]
+
+
+
+837- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [capitala, irakiană, l ,.. ]
+
+
+
+838- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [capitala, irakiană, l ,.. ]
+
+
+
+839- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [capitala]   B= [irakiană, l, forțele ,.. ]
+
+
+
+840- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiană, l, forțele ,.. ]
+
+
+
+841- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiană]   B= [l, forțele, irakiene ,.. ]
+
+
+
+842- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, forțele, irakiene ,.. ]
+
+
+
+843- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [forțele, irakiene, au ,.. ]
+
+
+
+844- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, irakiene, au ,.. ]
+
+
+
+845- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [irakiene, au, suferit ,.. ]
+
+
+
+846- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiene, au, suferit ,.. ]
+
+
+
+847- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiene]   B= [au, suferit, pierderi ,.. ]
+
+
+
+848- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, suferit, pierderi ,.. ]
+
+
+
+849- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [suferit, pierderi, grele ,.. ]
+
+
+
+850- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [suferit, pierderi, grele ,.. ]
+
+
+
+851- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [suferit]   B= [pierderi, grele, și ,.. ]
+
+
+
+852- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pierderi, grele, și ,.. ]
+
+
+
+853- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pierderi]   B= [grele, și, au ,.. ]
+
+
+
+854- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [grele, și, au ,.. ]
+
+
+
+855- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [grele]   B= [și, au, efectuat ,.. ]
+
+
+
+856- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, au, efectuat ,.. ]
+
+
+
+857- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [au, efectuat, manevre ,.. ]
+
+
+
+858- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, efectuat, manevre ,.. ]
+
+
+
+859- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [efectuat, manevre, disperate ,.. ]
+
+
+
+860- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [efectuat, manevre, disperate ,.. ]
+
+
+
+861- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [efectuat]   B= [manevre, disperate, , ,.. ]
+
+
+
+862- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [manevre, disperate, , ,.. ]
+
+
+
+863- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [manevre]   B= [disperate, ,, pe ,.. ]
+
+
+
+864- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [disperate, ,, pe ,.. ]
+
+
+
+865- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [disperate]   B= [,, pe, fondul ,.. ]
+
+
+
+866- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, pe, fondul ,.. ]
+
+
+
+867- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [pe, fondul, avansării ,.. ]
+
+
+
+868- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pe, fondul, avansării ,.. ]
+
+
+
+869- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pe]   B= [fondul, avansării, trupelor ,.. ]
+
+
+
+870- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fondul, avansării, trupelor ,.. ]
+
+
+
+871- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fondul]   B= [avansării, trupelor, americane ,.. ]
+
+
+
+872- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [avansării, trupelor, americane ,.. ]
+
+
+
+873- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [avansării]   B= [trupelor, americane, l ,.. ]
+
+
+
+874- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [trupelor, americane, l ,.. ]
+
+
+
+875- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [trupelor]   B= [americane, l, două ,.. ]
+
+
+
+876- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americane, l, două ,.. ]
+
+
+
+877- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americane]   B= [l, două, divizii ,.. ]
+
+
+
+878- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, două, divizii ,.. ]
+
+
+
+879- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [două, divizii, ale ,.. ]
+
+
+
+880- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [două, divizii, ale ,.. ]
+
+
+
+881- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [două]   B= [divizii, ale, gărzilor ,.. ]
+
+
+
+882- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [divizii, ale, gărzilor ,.. ]
+
+
+
+883- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [divizii]   B= [ale, gărzilor, republicane ,.. ]
+
+
+
+884- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ale, gărzilor, republicane ,.. ]
+
+
+
+885- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ale]   B= [gărzilor, republicane, au ,.. ]
+
+
+
+886- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gărzilor, republicane, au ,.. ]
+
+
+
+887- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gărzilor]   B= [republicane, au, fost ,.. ]
+
+
+
+888- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [republicane, au, fost ,.. ]
+
+
+
+889- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [republicane]   B= [au, fost, scoase ,.. ]
+
+
+
+890- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, fost, scoase ,.. ]
+
+
+
+891- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [fost, scoase, din ,.. ]
+
+
+
+892- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fost, scoase, din ,.. ]
+
+
+
+893- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fost]   B= [scoase, din, luptă ,.. ]
+
+
+
+894- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [scoase, din, luptă ,.. ]
+
+
+
+895- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [scoase]   B= [din, luptă, l ,.. ]
+
+
+
+896- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, luptă, l ,.. ]
+
+
+
+897- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [luptă, l, forțele ,.. ]
+
+
+
+898- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [luptă, l, forțele ,.. ]
+
+
+
+899- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luptă]   B= [l, forțele, britanice ,.. ]
+
+
+
+900- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, forțele, britanice ,.. ]
+
+
+
+901- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [forțele, britanice, s ,.. ]
+
+
+
+902- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, britanice, s ,.. ]
+
+
+
+903- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [britanice, s, - ,.. ]
+
+
+
+904- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [britanice, s, - ,.. ]
+
+
+
+905- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [britanice]   B= [s, -, au ,.. ]
+
+
+
+906- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, au ,.. ]
+
+
+
+907- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, au, confruntat ,.. ]
+
+
+
+908- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [au, confruntat, cu ,.. ]
+
+
+
+909- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [au, confruntat, cu ,.. ]
+
+
+
+910- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, au]   B= [confruntat, cu, rezistența ,.. ]
+
+
+
+911- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [confruntat, cu, rezistența ,.. ]
+
+
+
+912- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, confruntat]   B= [cu, rezistența, opusă ,.. ]
+
+
+
+913- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, confruntat]]   B= [cu, rezistența, opusă ,.. ]
+
+
+
+914- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cu, rezistența, opusă ,.. ]
+
+
+
+915- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cu]   B= [rezistența, opusă, de ,.. ]
+
+
+
+916- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rezistența, opusă, de ,.. ]
+
+
+
+917- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rezistența]   B= [opusă, de, milițiile ,.. ]
+
+
+
+918- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [opusă, de, milițiile ,.. ]
+
+
+
+919- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [opusă]   B= [de, milițiile, irakiene ,.. ]
+
+
+
+920- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, milițiile, irakiene ,.. ]
+
+
+
+921- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [milițiile, irakiene, la ,.. ]
+
+
+
+922- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [milițiile, irakiene, la ,.. ]
+
+
+
+923- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [milițiile]   B= [irakiene, la, basra ,.. ]
+
+
+
+924- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiene, la, basra ,.. ]
+
+
+
+925- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiene]   B= [la, basra, l ,.. ]
+
+
+
+926- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, basra, l ,.. ]
+
+
+
+927- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [basra, l, confruntări ,.. ]
+
+
+
+928- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [basra, l, confruntări ,.. ]
+
+
+
+929- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [basra]   B= [l, confruntări, între ,.. ]
+
+
+
+930- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, confruntări, între ,.. ]
+
+
+
+931- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [confruntări, între, forțele ,.. ]
+
+
+
+932- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [confruntări, între, forțele ,.. ]
+
+
+
+933- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [confruntări]   B= [între, forțele, irakiene ,.. ]
+
+
+
+934- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [între, forțele, irakiene ,.. ]
+
+
+
+935- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [între]   B= [forțele, irakiene, și ,.. ]
+
+
+
+936- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, irakiene, și ,.. ]
+
+
+
+937- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [irakiene, și, combatanți ,.. ]
+
+
+
+938- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiene, și, combatanți ,.. ]
+
+
+
+939- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiene]   B= [și, combatanți, kurzi ,.. ]
+
+
+
+940- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, combatanți, kurzi ,.. ]
+
+
+
+941- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [combatanți, kurzi, , ,.. ]
+
+
+
+942- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [combatanți, kurzi, , ,.. ]
+
+
+
+943- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [combatanți]   B= [kurzi, ,, sprijiniți ,.. ]
+
+
+
+944- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kurzi, ,, sprijiniți ,.. ]
+
+
+
+945- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kurzi]   B= [,, sprijiniți, de ,.. ]
+
+
+
+946- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, sprijiniți, de ,.. ]
+
+
+
+947- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [sprijiniți, de, aviația ,.. ]
+
+
+
+948- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sprijiniți, de, aviația ,.. ]
+
+
+
+949- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sprijiniți]   B= [de, aviația, americană ,.. ]
+
+
+
+950- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, aviația, americană ,.. ]
+
+
+
+951- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [aviația, americană, , ,.. ]
+
+
+
+952- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aviația, americană, , ,.. ]
+
+
+
+953- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aviația]   B= [americană, ,, s ,.. ]
+
+
+
+954- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americană, ,, s ,.. ]
+
+
+
+955- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americană]   B= [,, s, - ,.. ]
+
+
+
+956- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, s, - ,.. ]
+
+
+
+957- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [s, -, au ,.. ]
+
+
+
+958- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, au ,.. ]
+
+
+
+959- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, au, înregistrat ,.. ]
+
+
+
+960- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [au, înregistrat, în ,.. ]
+
+
+
+961- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [au, înregistrat, în ,.. ]
+
+
+
+962- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, au]   B= [înregistrat, în, localitatea ,.. ]
+
+
+
+963- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [înregistrat, în, localitatea ,.. ]
+
+
+
+964- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, înregistrat]   B= [în, localitatea, khazer ,.. ]
+
+
+
+965- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, înregistrat]]   B= [în, localitatea, khazer ,.. ]
+
+
+
+966- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, localitatea, khazer ,.. ]
+
+
+
+967- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [localitatea, khazer, l ,.. ]
+
+
+
+968- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [localitatea, khazer, l ,.. ]
+
+
+
+969- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [localitatea]   B= [khazer, l, În ,.. ]
+
+
+
+970- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [khazer, l, În ,.. ]
+
+
+
+971- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [khazer]   B= [l, În, după ,.. ]
+
+
+
+972- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, În, după ,.. ]
+
+
+
+973- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [În, după, - ,.. ]
+
+
+
+974- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [În, după, - ,.. ]
+
+
+
+975- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [În]   B= [după, -, amiaza ,.. ]
+
+
+
+976- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [după, -, amiaza ,.. ]
+
+
+
+977- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [după]   B= [-, amiaza, zilei ,.. ]
+
+
+
+978- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, amiaza, zilei ,.. ]
+
+
+
+979- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [amiaza, zilei, de ,.. ]
+
+
+
+980- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [amiaza, zilei, de ,.. ]
+
+
+
+981- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [amiaza]   B= [zilei, de, joi ,.. ]
+
+
+
+982- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [zilei, de, joi ,.. ]
+
+
+
+983- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [zilei]   B= [de, joi, , ,.. ]
+
+
+
+984- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, joi, , ,.. ]
+
+
+
+985- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [joi, ,, militarii ,.. ]
+
+
+
+986- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [joi, ,, militarii ,.. ]
+
+
+
+987- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [joi]   B= [,, militarii, americani ,.. ]
+
+
+
+988- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, militarii, americani ,.. ]
+
+
+
+989- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [militarii, americani, au ,.. ]
+
+
+
+990- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [militarii, americani, au ,.. ]
+
+
+
+991- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [militarii]   B= [americani, au, ajuns ,.. ]
+
+
+
+992- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americani, au, ajuns ,.. ]
+
+
+
+993- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americani]   B= [au, ajuns, la ,.. ]
+
+
+
+994- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, ajuns, la ,.. ]
+
+
+
+995- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [ajuns, la, 15 ,.. ]
+
+
+
+996- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ajuns, la, 15 ,.. ]
+
+
+
+997- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ajuns]   B= [la, 15, km ,.. ]
+
+
+
+998- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, 15, km ,.. ]
+
+
+
+999- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [15, km, de ,.. ]
+
+
+
+1000- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [15, km, de ,.. ]
+
+
+
+1001- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [15]   B= [km, de, centrul ,.. ]
+
+
+
+1002- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [km, de, centrul ,.. ]
+
+
+
+1003- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [km]   B= [de, centrul, bagdadului ,.. ]
+
+
+
+1004- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, centrul, bagdadului ,.. ]
+
+
+
+1005- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [centrul, bagdadului, , ,.. ]
+
+
+
+1006- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [centrul, bagdadului, , ,.. ]
+
+
+
+1007- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [centrul]   B= [bagdadului, ,, blocând ,.. ]
+
+
+
+1008- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bagdadului, ,, blocând ,.. ]
+
+
+
+1009- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bagdadului]   B= [,, blocând, accesul ,.. ]
+
+
+
+1010- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, blocând, accesul ,.. ]
+
+
+
+1011- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [blocând, accesul, prin ,.. ]
+
+
+
+1012- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [blocând, accesul, prin ,.. ]
+
+
+
+1013- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [blocând]   B= [accesul, prin, sudul ,.. ]
+
+
+
+1014- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [accesul, prin, sudul ,.. ]
+
+
+
+1015- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [accesul]   B= [prin, sudul, capitalei ,.. ]
+
+
+
+1016- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prin, sudul, capitalei ,.. ]
+
+
+
+1017- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prin]   B= [sudul, capitalei, irakiene ,.. ]
+
+
+
+1018- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sudul, capitalei, irakiene ,.. ]
+
+
+
+1019- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sudul]   B= [capitalei, irakiene, l ,.. ]
+
+
+
+1020- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [capitalei, irakiene, l ,.. ]
+
+
+
+1021- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [capitalei]   B= [irakiene, l, tacticile ,.. ]
+
+
+
+1022- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [irakiene, l, tacticile ,.. ]
+
+
+
+1023- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [irakiene]   B= [l, tacticile, utilizate ,.. ]
+
+
+
+1024- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, tacticile, utilizate ,.. ]
+
+
+
+1025- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [tacticile, utilizate, de ,.. ]
+
+
+
+1026- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tacticile, utilizate, de ,.. ]
+
+
+
+1027- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tacticile]   B= [utilizate, de, aliați ,.. ]
+
+
+
+1028- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [utilizate, de, aliați ,.. ]
+
+
+
+1029- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [utilizate]   B= [de, aliați, au ,.. ]
+
+
+
+1030- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, aliați, au ,.. ]
+
+
+
+1031- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [aliați, au, luat ,.. ]
+
+
+
+1032- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aliați, au, luat ,.. ]
+
+
+
+1033- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aliați]   B= [au, luat, prin ,.. ]
+
+
+
+1034- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, luat, prin ,.. ]
+
+
+
+1035- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [luat, prin, surprindere ,.. ]
+
+
+
+1036- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [luat, prin, surprindere ,.. ]
+
+
+
+1037- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luat]   B= [prin, surprindere, gărzile ,.. ]
+
+
+
+1038- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luat, prin]   B= [surprindere, gărzile, republicane ,.. ]
+
+
+
+1039- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luat, prin, surprindere]   B= [gărzile, republicane, l ,.. ]
+
+
+
+1040- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [luat, [prin, surprindere]]   B= [gărzile, republicane, l ,.. ]
+
+
+
+1041- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[luat, [prin, surprindere]]]   B= [gărzile, republicane, l ,.. ]
+
+
+
+1042- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gărzile, republicane, l ,.. ]
+
+
+
+1043- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gărzile]   B= [republicane, l, existau ,.. ]
+
+
+
+1044- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [republicane, l, existau ,.. ]
+
+
+
+1045- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [republicane]   B= [l, existau, unele ,.. ]
+
+
+
+1046- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, existau, unele ,.. ]
+
+
+
+1047- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [existau, unele, indicii ,.. ]
+
+
+
+1048- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [existau, unele, indicii ,.. ]
+
+
+
+1049- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [existau]   B= [unele, indicii, că ,.. ]
+
+
+
+1050- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [unele, indicii, că ,.. ]
+
+
+
+1051- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [unele]   B= [indicii, că, regimul ,.. ]
+
+
+
+1052- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [indicii, că, regimul ,.. ]
+
+
+
+1053- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [indicii]   B= [că, regimul, lui ,.. ]
+
+
+
+1054- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [că, regimul, lui ,.. ]
+
+
+
+1055- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [că]   B= [regimul, lui, saddam ,.. ]
+
+
+
+1056- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [regimul, lui, saddam ,.. ]
+
+
+
+1057- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [regimul]   B= [lui, saddam, hussein ,.. ]
+
+
+
+1058- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lui, saddam, hussein ,.. ]
+
+
+
+1059- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lui]   B= [saddam, hussein, nu ,.. ]
+
+
+
+1060- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saddam, hussein, nu ,.. ]
+
+
+
+1061- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saddam]   B= [hussein, nu, - ,.. ]
+
+
+
+1062- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hussein, nu, - ,.. ]
+
+
+
+1063- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hussein]   B= [nu, -, și ,.. ]
+
+
+
+1064- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nu, -, și ,.. ]
+
+
+
+1065- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nu]   B= [-, și, mai ,.. ]
+
+
+
+1066- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, și, mai ,.. ]
+
+
+
+1067- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [și, mai, poate ,.. ]
+
+
+
+1068- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, mai, poate ,.. ]
+
+
+
+1069- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [mai, poate, controla ,.. ]
+
+
+
+1070- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [mai, poate, controla ,.. ]
+
+
+
+1071- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [mai]   B= [poate, controla, forțele ,.. ]
+
+
+
+1072- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [poate, controla, forțele ,.. ]
+
+
+
+1073- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [poate]   B= [controla, forțele, militare ,.. ]
+
+
+
+1074- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [controla, forțele, militare ,.. ]
+
+
+
+1075- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [controla]   B= [forțele, militare, l ,.. ]
+
+
+
+1076- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [forțele, militare, l ,.. ]
+
+
+
+1077- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [forțele]   B= [militare, l, trupele ,.. ]
+
+
+
+1078- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [militare, l, trupele ,.. ]
+
+
+
+1079- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [militare]   B= [l, trupele, americane ,.. ]
+
+
+
+1080- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, trupele, americane ,.. ]
+
+
+
+1081- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [trupele, americane, se ,.. ]
+
+
+
+1082- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [trupele, americane, se ,.. ]
+
+
+
+1083- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [trupele]   B= [americane, se, pregătesc ,.. ]
+
+
+
+1084- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [americane, se, pregătesc ,.. ]
+
+
+
+1085- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [americane]   B= [se, pregătesc, pentru ,.. ]
+
+
+
+1086- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, pregătesc, pentru ,.. ]
+
+
+
+1087- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [pregătesc, pentru, un ,.. ]
+
+
+
+1088- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, pregătesc]   B= [pentru, un, război ,.. ]
+
+
+
+1089- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, pregătesc]]   B= [pentru, un, război ,.. ]
+
+
+
+1090- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pentru, un, război ,.. ]
+
+
+
+1091- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pentru]   B= [un, război, de ,.. ]
+
+
+
+1092- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, război, de ,.. ]
+
+
+
+1093- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [război, de, gherilă ,.. ]
+
+
+
+1094- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [război, de, gherilă ,.. ]
+
+
+
+1095- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [război]   B= [de, gherilă, urbană ,.. ]
+
+
+
+1096- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, gherilă, urbană ,.. ]
+
+
+
+1097- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [gherilă, urbană, l ,.. ]
+
+
+
+1098- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gherilă, urbană, l ,.. ]
+
+
+
+1099- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gherilă]   B= [urbană, l, ajunsă ,.. ]
+
+
+
+1100- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [urbană, l, ajunsă ,.. ]
+
+
+
+1101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [urbană]   B= [l, ajunsă, la ,.. ]
+
+
+
+1102- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l, ajunsă, la ,.. ]
+
+
+
+1103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l]   B= [ajunsă, la, porțile ,.. ]
+
+
+
+1104- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ajunsă, la, porțile ,.. ]
+
+
+
+1105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ajunsă]   B= [la, porțile, bagdadului ,.. ]
+
+
+
+1106- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, porțile, bagdadului ,.. ]
+
+
+
+1107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [porțile, bagdadului, , ,.. ]
+
+
+
+1108- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [porțile, bagdadului, , ,.. ]
+
+
+
+1109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [porțile]   B= [bagdadului, ,, armata ,.. ]
+
+
+
+1110- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bagdadului, ,, armata ,.. ]
+
+
+
+1111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bagdadului]   B= [,, armata, aliată ,.. ]
+
+
+
+1112- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, armata, aliată ,.. ]
+
+
+
+1113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [armata, aliată, se ,.. ]
+
+
+
+1114- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [armata, aliată, se ,.. ]
+
+
+
+1115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [armata]   B= [aliată, se, afla ,.. ]
+
+
+
+1116- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aliată, se, afla ,.. ]
+
+
+
+1117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aliată]   B= [se, afla, în ,.. ]
+
+
+
+1118- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, afla, în ,.. ]
+
+
+
+1119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [afla, în, dilemă ,.. ]
+
+
+
+1120- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, afla]   B= [în, dilemă, : ,.. ]
+
+
+
+1121- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, afla]]   B= [în, dilemă, : ,.. ]
+
+
+
+1122- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, dilemă, : ,.. ]
+
+
+
+1123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [dilemă, : ,.. ]
+
+
+
+1124- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dilemă, : ,.. ]
+
+
+
+1125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dilemă]   B= [:]
+
+
+
+1126- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [:]
+
+
+
+1127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [:]   B= [ ]
+
+
+
+1128- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 648 - 
+astfel , în perioada 18 iulie - 15 august **se** va **deplasa** în portugalia unde va participa la două festivaluri internaționale de gen . În continuare , la sfârșitul lunii august , ansamblul condus de maeștrii achim ciucur și marius ursu va **lua** **parte** la un alt festival ce **se** va **desfășura** la barcelona , în spania . 
+### Existing MWEs: 
+1- **se deplasa** (IReflV, 21)Tokens : 
+se
+deplasa
+
+
+3- **lua parte** (LVC, 17)Tokens : 
+lua
+parte
+
+
+2- **se desfășura** (IReflV, 231)Tokens : 
+se
+desfășura
+
+
+### Identified MWEs: 
+1- **se deplasa** (IReflV)Tokens : 
+se
+deplasa
+
+
+2- **lua parte** (LVC)Tokens : 
+lua
+parte
+
+
+3- **se desfășura** (IReflV)Tokens : 
+se
+desfășura
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [astfel, ,, în ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [astfel]   B= [,, în, perioada ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, în, perioada ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [în, perioada, 18 ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, perioada, 18 ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [perioada, 18, iulie ,.. ]
+
+
+
+6- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [perioada, 18, iulie ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [perioada]   B= [18, iulie, - ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [18, iulie, - ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [18]   B= [iulie, -, 15 ,.. ]
+
+
+
+10- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iulie, -, 15 ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iulie]   B= [-, 15, august ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, 15, august ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [15, august, se ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [15, august, se ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [15]   B= [august, se, va ,.. ]
+
+
+
+16- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [august, se, va ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [august]   B= [se, va, deplasa ,.. ]
+
+
+
+18- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, va, deplasa ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [va, deplasa, în ,.. ]
+
+
+
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, va]   B= [deplasa, în, portugalia ,.. ]
+
+
+
+21- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [deplasa, în, portugalia ,.. ]
+
+
+
+22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, deplasa]   B= [în, portugalia, unde ,.. ]
+
+
+
+23- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, deplasa]]   B= [în, portugalia, unde ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, portugalia, unde ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [portugalia, unde, va ,.. ]
+
+
+
+26- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [portugalia, unde, va ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [portugalia]   B= [unde, va, participa ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [unde, va, participa ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [unde]   B= [va, participa, la ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [va, participa, la ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va]   B= [participa, la, două ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [participa, la, două ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [participa]   B= [la, două, festivaluri ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, două, festivaluri ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [două, festivaluri, internaționale ,.. ]
+
+
+
+36- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [două, festivaluri, internaționale ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [două]   B= [festivaluri, internaționale, de ,.. ]
+
+
+
+38- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [festivaluri, internaționale, de ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [festivaluri]   B= [internaționale, de, gen ,.. ]
+
+
+
+40- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [internaționale, de, gen ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [internaționale]   B= [de, gen, . ,.. ]
+
+
+
+42- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, gen, . ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [gen, ., În ,.. ]
+
+
+
+44- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gen, ., În ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gen]   B= [., În, continuare ,.. ]
+
+
+
+46- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., În, continuare ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [În, continuare, , ,.. ]
+
+
+
+48- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [În, continuare, , ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [În]   B= [continuare, ,, la ,.. ]
+
+
+
+50- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [continuare, ,, la ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [continuare]   B= [,, la, sfârșitul ,.. ]
+
+
+
+52- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, la, sfârșitul ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [la, sfârșitul, lunii ,.. ]
+
+
+
+54- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, sfârșitul, lunii ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [sfârșitul, lunii, august ,.. ]
+
+
+
+56- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sfârșitul, lunii, august ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sfârșitul]   B= [lunii, august, , ,.. ]
+
+
+
+58- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lunii, august, , ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lunii]   B= [august, ,, ansamblul ,.. ]
+
+
+
+60- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [august, ,, ansamblul ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [august]   B= [,, ansamblul, condus ,.. ]
+
+
+
+62- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ansamblul, condus ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ansamblul, condus, de ,.. ]
+
+
+
+64- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ansamblul, condus, de ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ansamblul]   B= [condus, de, maeștrii ,.. ]
+
+
+
+66- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [condus, de, maeștrii ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [condus]   B= [de, maeștrii, achim ,.. ]
+
+
+
+68- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, maeștrii, achim ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [maeștrii, achim, ciucur ,.. ]
+
+
+
+70- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [maeștrii, achim, ciucur ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [maeștrii]   B= [achim, ciucur, și ,.. ]
+
+
+
+72- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [achim, ciucur, și ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [achim]   B= [ciucur, și, marius ,.. ]
+
+
+
+74- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ciucur, și, marius ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ciucur]   B= [și, marius, ursu ,.. ]
+
+
+
+76- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, marius, ursu ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [marius, ursu, va ,.. ]
+
+
+
+78- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [marius, ursu, va ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [marius]   B= [ursu, va, lua ,.. ]
+
+
+
+80- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ursu, va, lua ,.. ]
+
+
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ursu]   B= [va, lua, parte ,.. ]
+
+
+
+82- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [va, lua, parte ,.. ]
+
+
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [va]   B= [lua, parte, la ,.. ]
+
+
+
+84- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lua, parte, la ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lua]   B= [parte, la, un ,.. ]
+
+
+
+86- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lua, parte]   B= [la, un, alt ,.. ]
+
+
+
+87- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[lua, parte]]   B= [la, un, alt ,.. ]
+
+
+
+88- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, un, alt ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [un, alt, festival ,.. ]
+
+
+
+90- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [un, alt, festival ,.. ]
+
+
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [un]   B= [alt, festival, ce ,.. ]
+
+
+
+92- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [alt, festival, ce ,.. ]
+
+
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [alt]   B= [festival, ce, se ,.. ]
+
+
+
+94- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [festival, ce, se ,.. ]
+
+
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [festival]   B= [ce, se, va ,.. ]
+
+
+
+96- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ce, se, va ,.. ]
+
+
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ce]   B= [se, va, desfășura ,.. ]
+
+
+
+98- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [se, va, desfășura ,.. ]
+
+
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [va, desfășura, la ,.. ]
+
+
+
+100- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, va]   B= [desfășura, la, barcelona ,.. ]
+
+
+
+101- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se]   B= [desfășura, la, barcelona ,.. ]
+
+
+
+102- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [se, desfășura]   B= [la, barcelona, , ,.. ]
+
+
+
+103- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[se, desfășura]]   B= [la, barcelona, , ,.. ]
+
+
+
+104- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, barcelona, , ,.. ]
+
+
+
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [barcelona, ,, în ,.. ]
+
+
+
+106- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [barcelona, ,, în ,.. ]
+
+
+
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [barcelona]   B= [,, în, spania ,.. ]
+
+
+
+108- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, în, spania ,.. ]
+
+
+
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [în, spania, . ,.. ]
+
+
+
+110- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, spania, . ,.. ]
+
+
+
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [spania, . ,.. ]
+
+
+
+112- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [spania, . ,.. ]
+
+
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [spania]   B= [.]
+
+
+
+114- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+116- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 3524 - 
+inserția țării noastre în universul nou creat **s** - a **produs** din fazele de cercetare , cu puțină distanță de ceea ce **s** - a **petrecut** în s . u . a . sau în europa occidentală , chiar dacă marile aplicații nu ni **s** - au **datorat** . 
+### Existing MWEs: 
+1- **s produs** (IReflV, 19)Tokens : 
+s
+produs
+
+
+2- **s petrecut** (IReflV, 7)Tokens : 
+s
+petrecut
+
+
+3- **s datorat** (IReflV, 5)Tokens : 
+s
+datorat
+
+
+### Identified MWEs: 
+1- **s produs** (IReflV)Tokens : 
+s
+produs
+
+
+2- **s petrecut** (IReflV)Tokens : 
+s
+petrecut
+
+
+3- **s datorat** (IReflV)Tokens : 
+s
+datorat
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [inserția, țării, noastre ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [inserția]   B= [țării, noastre, în ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [țării, noastre, în ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [țării]   B= [noastre, în, universul ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [noastre, în, universul ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [noastre]   B= [în, universul, nou ,.. ]
+
+
+
+6- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, universul, nou ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [universul, nou, creat ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [universul, nou, creat ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [universul]   B= [nou, creat, s ,.. ]
+
+
+
+10- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nou, creat, s ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nou]   B= [creat, s, - ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [creat, s, - ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [creat]   B= [s, -, a ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, a ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, a, produs ,.. ]
+
+
+
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [a, produs, din ,.. ]
+
+
+
+17- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [a, produs, din ,.. ]
+
+
+
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, a]   B= [produs, din, fazele ,.. ]
+
+
+
+19- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [produs, din, fazele ,.. ]
+
+
+
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, produs]   B= [din, fazele, de ,.. ]
+
+
+
+21- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, produs]]   B= [din, fazele, de ,.. ]
+
+
+
+22- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [din, fazele, de ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [din]   B= [fazele, de, cercetare ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fazele, de, cercetare ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fazele]   B= [de, cercetare, , ,.. ]
+
+
+
+26- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, cercetare, , ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [cercetare, ,, cu ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cercetare, ,, cu ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cercetare]   B= [,, cu, puțină ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, cu, puțină ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [cu, puțină, distanță ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cu, puțină, distanță ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cu]   B= [puțină, distanță, de ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [puțină, distanță, de ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [puțină]   B= [distanță, de, ceea ,.. ]
+
+
+
+36- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [distanță, de, ceea ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [distanță]   B= [de, ceea, ce ,.. ]
+
+
+
+38- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, ceea, ce ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [ceea, ce, s ,.. ]
+
+
+
+40- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ceea, ce, s ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ceea]   B= [ce, s, - ,.. ]
+
+
+
+42- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ce, s, - ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ce]   B= [s, -, a ,.. ]
+
+
+
+44- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, a ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, a, petrecut ,.. ]
+
+
+
+46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [a, petrecut, în ,.. ]
+
+
+
+47- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [a, petrecut, în ,.. ]
+
+
+
+48- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, a]   B= [petrecut, în, s ,.. ]
+
+
+
+49- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [petrecut, în, s ,.. ]
+
+
+
+50- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, petrecut]   B= [în, s, . ,.. ]
+
+
+
+51- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, petrecut]]   B= [în, s, . ,.. ]
+
+
+
+52- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, s, . ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [s, ., u ,.. ]
+
+
+
+54- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, ., u ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [., u, . ,.. ]
+
+
+
+56- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., u, . ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [u, ., a ,.. ]
+
+
+
+58- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, ., a ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [., a, . ,.. ]
+
+
+
+60- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., a, . ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [a, ., sau ,.. ]
+
+
+
+62- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, ., sau ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [., sau, în ,.. ]
+
+
+
+64- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., sau, în ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [sau, în, europa ,.. ]
+
+
+
+66- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sau, în, europa ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sau]   B= [în, europa, occidentală ,.. ]
+
+
+
+68- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, europa, occidentală ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [europa, occidentală, , ,.. ]
+
+
+
+70- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [europa, occidentală, , ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [europa]   B= [occidentală, ,, chiar ,.. ]
+
+
+
+72- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [occidentală, ,, chiar ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [occidentală]   B= [,, chiar, dacă ,.. ]
+
+
+
+74- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, chiar, dacă ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [chiar, dacă, marile ,.. ]
+
+
+
+76- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [chiar, dacă, marile ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [chiar]   B= [dacă, marile, aplicații ,.. ]
+
+
+
+78- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dacă, marile, aplicații ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dacă]   B= [marile, aplicații, nu ,.. ]
+
+
+
+80- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [marile, aplicații, nu ,.. ]
+
+
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [marile]   B= [aplicații, nu, ni ,.. ]
+
+
+
+82- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aplicații, nu, ni ,.. ]
+
+
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aplicații]   B= [nu, ni, s ,.. ]
+
+
+
+84- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nu, ni, s ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nu]   B= [ni, s, - ,.. ]
+
+
+
+86- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ni, s, - ,.. ]
+
+
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ni]   B= [s, -, au ,.. ]
+
+
+
+88- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, au ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, au, datorat ,.. ]
+
+
+
+90- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [au, datorat, . ,.. ]
+
+
+
+91- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [au, datorat, . ,.. ]
+
+
+
+92- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, au]   B= [datorat, . ,.. ]
+
+
+
+93- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [datorat, . ,.. ]
+
+
+
+94- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, datorat]   B= [.]
+
+
+
+95- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, datorat]]   B= [.]
+
+
+
+96- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+98- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 7014 - 
+oamenii legii **s** **-** **au** **deplasat** la fața locului , au urcat în turlă , iar aici au **dat** **nas** **în** **nas** cu i . f . , cel care susținea recitalul de clopote . 
+### Existing MWEs: 
+1- **s - au deplasat** (IReflV)Tokens : 
+s
+-
+au
+deplasat
+
+
+2- **s deplasat** (IReflV, 10), EmbeddedTokens : 
+s
+deplasat
+
+
+3- **dat nas în nas** (ID, 2)Tokens : 
+dat
+nas
+în
+nas
+
+
+### Identified MWEs: 
+1- **s deplasat** (IReflV)Tokens : 
+s
+deplasat
+
+
+2- **dat nas în nas** (ID)Tokens : 
+dat
+nas
+în
+nas
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [oamenii, legii, s ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [oamenii]   B= [legii, s, - ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [legii, s, - ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [legii]   B= [s, -, au ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s, -, au ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [-, au, deplasat ,.. ]
+
+
+
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, -]   B= [au, deplasat, la ,.. ]
+
+
+
+7- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [au, deplasat, la ,.. ]
+
+
+
+8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, au]   B= [deplasat, la, fața ,.. ]
+
+
+
+9- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s]   B= [deplasat, la, fața ,.. ]
+
+
+
+10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s, deplasat]   B= [la, fața, locului ,.. ]
+
+
+
+11- **MERGE_AS_IReflV**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[s, deplasat]]   B= [la, fața, locului ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [la, fața, locului ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [la]   B= [fața, locului, , ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fața, locului, , ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fața]   B= [locului, ,, au ,.. ]
+
+
+
+16- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [locului, ,, au ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [locului]   B= [,, au, urcat ,.. ]
+
+
+
+18- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, au, urcat ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [au, urcat, în ,.. ]
+
+
+
+20- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, urcat, în ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [urcat, în, turlă ,.. ]
+
+
+
+22- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [urcat, în, turlă ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [urcat]   B= [în, turlă, , ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [în, turlă, , ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [în]   B= [turlă, ,, iar ,.. ]
+
+
+
+26- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [turlă, ,, iar ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [turlă]   B= [,, iar, aici ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, iar, aici ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [iar, aici, au ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iar, aici, au ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iar]   B= [aici, au, dat ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aici, au, dat ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aici]   B= [au, dat, nas ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [au, dat, nas ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [au]   B= [dat, nas, în ,.. ]
+
+
+
+36- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dat, nas, în ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dat]   B= [nas, în, nas ,.. ]
+
+
+
+38- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dat, nas]   B= [în, nas, cu ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dat, nas, în]   B= [nas, cu, i ,.. ]
+
+
+
+40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dat, nas, în, nas]   B= [cu, i, . ,.. ]
+
+
+
+41- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dat, nas, [în, nas]]   B= [cu, i, . ,.. ]
+
+
+
+42- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dat, [nas, [în, nas]]]   B= [cu, i, . ,.. ]
+
+
+
+43- **MERGE_AS_ID**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[dat, [nas, [în, nas]]]]   B= [cu, i, . ,.. ]
+
+
+
+44- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cu, i, . ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cu]   B= [i, ., f ,.. ]
+
+
+
+46- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [i, ., f ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [i]   B= [., f, . ,.. ]
+
+
+
+48- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., f, . ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [f, ., , ,.. ]
+
+
+
+50- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [f, ., , ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [f]   B= [., ,, cel ,.. ]
+
+
+
+52- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., ,, cel ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [,, cel, care ,.. ]
+
+
+
+54- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, cel, care ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [cel, care, susținea ,.. ]
+
+
+
+56- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [cel, care, susținea ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [cel]   B= [care, susținea, recitalul ,.. ]
+
+
+
+58- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [care, susținea, recitalul ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [care]   B= [susținea, recitalul, de ,.. ]
+
+
+
+60- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [susținea, recitalul, de ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [susținea]   B= [recitalul, de, clopote ,.. ]
+
+
+
+62- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [recitalul, de, clopote ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [recitalul]   B= [de, clopote, . ,.. ]
+
+
+
+64- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [de, clopote, . ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [de]   B= [clopote, . ,.. ]
+
+
+
+66- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [clopote, . ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [clopote]   B= [.]
+
+
+
+68- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+70- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 8472 - 
+gata să - **și** **pună** **capăt** **vieții** , a **dat** **viață** : 
+### Existing MWEs: 
+1- **și pună capăt vieții** (ID)Tokens : 
+și
+pună
+capăt
+vieții
+
+
+3- **pună capăt** (ID, 5), EmbeddedTokens : 
+pună
+capăt
+
+
+2- **dat viață** (ID)Tokens : 
+dat
+viață
+
+
+### Identified MWEs: 
+1- **pună capăt** (ID)Tokens : 
+pună
+capăt
+
+
+2- **a :** (LVC)Tokens : 
+a
+:
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gata, să, - ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gata]   B= [să, -, și ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [să, -, și ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [să]   B= [-, și, pună ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, și, pună ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [și, pună, capăt ,.. ]
+
+
+
+6- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [și, pună, capăt ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [și]   B= [pună, capăt, vieții ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [pună, capăt, vieții ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pună]   B= [capăt, vieții, , ,.. ]
+
+
+
+10- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [pună, capăt]   B= [vieții, ,, a ,.. ]
+
+
+
+11- **MERGE_AS_ID**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[pună, capăt]]   B= [vieții, ,, a ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [vieții, ,, a ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [vieții]   B= [,, a, dat ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, a, dat ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [a, dat, viață ,.. ]
+
+
+
+16- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [a, dat, viață ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [dat, viață, : ,.. ]
+
+
+
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a, dat]   B= [viață, : ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a, dat, viață]   B= [:]
+
+
+
+20- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a, [dat, viață]]   B= [:]
+
+
+
+21- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a]   B= [:]
+
+
+
+22- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [a, :]   B= [ ]
+
+
+
+23- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[a, :]]   B= [ ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+

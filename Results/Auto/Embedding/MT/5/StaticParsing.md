@@ -1,0 +1,1963 @@
+## Sentence No. 639 - 
+filwaqt li l- presidenza tal- kunsill ewropew **waslu** l- **kondoljanzi** tagħhom lejn il- familjari tal- ħaddiema , huma ħeġġew dawk kollha **involuti** fil- **ġlied** sabiex iħaffu l- proċeduri biex jiffirmaw il- qbil ta’ djibouti biex b’ hekk it- **triq** **għal** **paċi** tkun tista’ tibda **tinbena** . 
+### Existing MWEs: 
+1- **waslu kondoljanzi** (ID)Tokens : 
+waslu
+kondoljanzi
+
+
+2- **involuti ġlied** (LVC)Tokens : 
+involuti
+ġlied
+
+
+3- **triq għal paċi** (ID)Tokens : 
+triq
+għal
+paċi
+
+
+4- **tinbena** (ID)Tokens : 
+tinbena
+
+
+### Identified MWEs: 
+4- **tinbena** Tokens : 
+tinbena
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [filwaqt, li, l- ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [filwaqt]   B= [li, l-, presidenza ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, l-, presidenza ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [l-, presidenza, tal- ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, presidenza, tal- ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [presidenza, tal-, kunsill ,.. ]
+
+
+
+6- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [presidenza, tal-, kunsill ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [presidenza]   B= [tal-, kunsill, ewropew ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, kunsill, ewropew ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [kunsill, ewropew, waslu ,.. ]
+
+
+
+10- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kunsill, ewropew, waslu ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kunsill]   B= [ewropew, waslu, l- ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ewropew, waslu, l- ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ewropew]   B= [waslu, l-, kondoljanzi ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [waslu, l-, kondoljanzi ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waslu]   B= [l-, kondoljanzi, tagħhom ,.. ]
+
+
+
+16- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waslu, l-]   B= [kondoljanzi, tagħhom, lejn ,.. ]
+
+
+
+17- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waslu]   B= [kondoljanzi, tagħhom, lejn ,.. ]
+
+
+
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waslu, kondoljanzi]   B= [tagħhom, lejn, il- ,.. ]
+
+
+
+19- **MERGE_AS_ID**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[waslu, kondoljanzi]]   B= [tagħhom, lejn, il- ,.. ]
+
+
+
+20- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tagħhom, lejn, il- ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tagħhom]   B= [lejn, il-, familjari ,.. ]
+
+
+
+22- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lejn, il-, familjari ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lejn]   B= [il-, familjari, tal- ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il-, familjari, tal- ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il-]   B= [familjari, tal-, ħaddiema ,.. ]
+
+
+
+26- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [familjari, tal-, ħaddiema ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [familjari]   B= [tal-, ħaddiema, , ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, ħaddiema, , ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [ħaddiema, ,, huma ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħaddiema, ,, huma ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħaddiema]   B= [,, huma, ħeġġew ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, huma, ħeġġew ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [huma, ħeġġew, dawk ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [huma, ħeġġew, dawk ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [huma]   B= [ħeġġew, dawk, kollha ,.. ]
+
+
+
+36- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħeġġew, dawk, kollha ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħeġġew]   B= [dawk, kollha, involuti ,.. ]
+
+
+
+38- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dawk, kollha, involuti ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dawk]   B= [kollha, involuti, fil- ,.. ]
+
+
+
+40- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kollha, involuti, fil- ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kollha]   B= [involuti, fil-, ġlied ,.. ]
+
+
+
+42- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [involuti, fil-, ġlied ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [involuti]   B= [fil-, ġlied, sabiex ,.. ]
+
+
+
+44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [involuti, fil-]   B= [ġlied, sabiex, iħaffu ,.. ]
+
+
+
+45- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [involuti]   B= [ġlied, sabiex, iħaffu ,.. ]
+
+
+
+46- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [involuti, ġlied]   B= [sabiex, iħaffu, l- ,.. ]
+
+
+
+47- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[involuti, ġlied]]   B= [sabiex, iħaffu, l- ,.. ]
+
+
+
+48- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sabiex, iħaffu, l- ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sabiex]   B= [iħaffu, l-, proċeduri ,.. ]
+
+
+
+50- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iħaffu, l-, proċeduri ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iħaffu]   B= [l-, proċeduri, biex ,.. ]
+
+
+
+52- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, proċeduri, biex ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [proċeduri, biex, jiffirmaw ,.. ]
+
+
+
+54- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [proċeduri, biex, jiffirmaw ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [proċeduri]   B= [biex, jiffirmaw, il- ,.. ]
+
+
+
+56- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, jiffirmaw, il- ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [jiffirmaw, il-, qbil ,.. ]
+
+
+
+58- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jiffirmaw, il-, qbil ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jiffirmaw]   B= [il-, qbil, ta’ ,.. ]
+
+
+
+60- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il-, qbil, ta’ ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il-]   B= [qbil, ta’, djibouti ,.. ]
+
+
+
+62- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qbil, ta’, djibouti ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qbil]   B= [ta’, djibouti, biex ,.. ]
+
+
+
+64- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ta’, djibouti, biex ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ta’]   B= [djibouti, biex, b’ ,.. ]
+
+
+
+66- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [djibouti, biex, b’ ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [djibouti]   B= [biex, b’, hekk ,.. ]
+
+
+
+68- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, b’, hekk ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [b’, hekk, it- ,.. ]
+
+
+
+70- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [b’, hekk, it- ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [b’]   B= [hekk, it-, triq ,.. ]
+
+
+
+72- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [hekk, it-, triq ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [hekk]   B= [it-, triq, għal ,.. ]
+
+
+
+74- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [it-, triq, għal ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [it-]   B= [triq, għal, paċi ,.. ]
+
+
+
+76- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [triq, għal, paċi ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq]   B= [għal, paċi, tkun ,.. ]
+
+
+
+78- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq, għal]   B= [paċi, tkun, tista’ ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq, għal, paċi]   B= [tkun, tista’, tibda ,.. ]
+
+
+
+80- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [triq, [għal, paċi]]   B= [tkun, tista’, tibda ,.. ]
+
+
+
+81- **MERGE_AS_ID**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[triq, [għal, paċi]]]   B= [tkun, tista’, tibda ,.. ]
+
+
+
+82- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tkun, tista’, tibda ,.. ]
+
+
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tkun]   B= [tista’, tibda, tinbena ,.. ]
+
+
+
+84- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tista’, tibda, tinbena ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tista’]   B= [tibda, tinbena, . ,.. ]
+
+
+
+86- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tibda, tinbena, . ,.. ]
+
+
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tibda]   B= [tinbena, . ,.. ]
+
+
+
+88- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tinbena, . ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tinbena]   B= [.]
+
+
+
+90- MWT_COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+92- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 1739 - 
+iżda matul l- aħħar kwarta tal- ewwel taqsima , il- maltin ma baqgħux daqstant konsis ­ ­ tenti biex l- armeni **rebħu** **l-** **inizjattiva** u bdew **jibnu** **attakk** wara ieħor biex konna kos ­ ­ ­ ­ ­ tretti nirtiraw lura , **niffol** ­ **law** **id-** **difiża** , biex **nilqgħu** **l-** **pres** ­ ­ ­ **sjoni** tal- av ­ ­ ­ ver ­ ­ ­ sarji . 
+### Existing MWEs: 
+1- **rebħu l- inizjattiva** (OTH)Tokens : 
+rebħu
+l-
+inizjattiva
+
+
+2- **jibnu attakk** (OTH)Tokens : 
+jibnu
+attakk
+
+
+3- **niffol law id- difiża** (OTH)Tokens : 
+niffol
+law
+id-
+difiża
+
+
+4- **nilqgħu l- pres sjoni** (OTH)Tokens : 
+nilqgħu
+l-
+pres
+sjoni
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iżda, matul, l- ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iżda]   B= [matul, l-, aħħar ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [matul, l-, aħħar ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [matul]   B= [l-, aħħar, kwarta ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, aħħar, kwarta ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [aħħar, kwarta, tal- ,.. ]
+
+
+
+6- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [aħħar, kwarta, tal- ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [aħħar]   B= [kwarta, tal-, ewwel ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kwarta, tal-, ewwel ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kwarta]   B= [tal-, ewwel, taqsima ,.. ]
+
+
+
+10- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, ewwel, taqsima ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [ewwel, taqsima, , ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ewwel, taqsima, , ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ewwel]   B= [taqsima, ,, il- ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [taqsima, ,, il- ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [taqsima]   B= [,, il-, maltin ,.. ]
+
+
+
+16- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, il-, maltin ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [il-, maltin, ma ,.. ]
+
+
+
+18- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il-, maltin, ma ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il-]   B= [maltin, ma, baqgħux ,.. ]
+
+
+
+20- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [maltin, ma, baqgħux ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [maltin]   B= [ma, baqgħux, daqstant ,.. ]
+
+
+
+22- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, baqgħux, daqstant ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [baqgħux, daqstant, konsis ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [baqgħux, daqstant, konsis ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [baqgħux]   B= [daqstant, konsis, ­ ,.. ]
+
+
+
+26- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [daqstant, konsis, ­ ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [daqstant]   B= [konsis, ­, ­ ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [konsis, ­, ­ ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [konsis]   B= [­, ­, tenti ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, tenti ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, tenti, biex ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, tenti, biex ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [tenti, biex, l- ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tenti, biex, l- ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tenti]   B= [biex, l-, armeni ,.. ]
+
+
+
+36- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, l-, armeni ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [l-, armeni, rebħu ,.. ]
+
+
+
+38- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, armeni, rebħu ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [armeni, rebħu, l- ,.. ]
+
+
+
+40- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [armeni, rebħu, l- ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [armeni]   B= [rebħu, l-, inizjattiva ,.. ]
+
+
+
+42- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [rebħu, l-, inizjattiva ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rebħu]   B= [l-, inizjattiva, u ,.. ]
+
+
+
+44- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rebħu, l-]   B= [inizjattiva, u, bdew ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rebħu, l-, inizjattiva]   B= [u, bdew, jibnu ,.. ]
+
+
+
+46- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [rebħu, [l-, inizjattiva]]   B= [u, bdew, jibnu ,.. ]
+
+
+
+47- **MERGE_AS_OTH**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[rebħu, [l-, inizjattiva]]]   B= [u, bdew, jibnu ,.. ]
+
+
+
+48- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, bdew, jibnu ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [bdew, jibnu, attakk ,.. ]
+
+
+
+50- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bdew, jibnu, attakk ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bdew]   B= [jibnu, attakk, wara ,.. ]
+
+
+
+52- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jibnu, attakk, wara ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jibnu]   B= [attakk, wara, ieħor ,.. ]
+
+
+
+54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jibnu, attakk]   B= [wara, ieħor, biex ,.. ]
+
+
+
+55- **MERGE_AS_OTH**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[jibnu, attakk]]   B= [wara, ieħor, biex ,.. ]
+
+
+
+56- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [wara, ieħor, biex ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [wara]   B= [ieħor, biex, konna ,.. ]
+
+
+
+58- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ieħor, biex, konna ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ieħor]   B= [biex, konna, kos ,.. ]
+
+
+
+60- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, konna, kos ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [konna, kos, ­ ,.. ]
+
+
+
+62- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [konna, kos, ­ ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [konna]   B= [kos, ­, ­ ,.. ]
+
+
+
+64- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kos, ­, ­ ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kos]   B= [­, ­, ­ ,.. ]
+
+
+
+66- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, ­ ,.. ]
+
+
+
+68- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, ­ ,.. ]
+
+
+
+70- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, tretti ,.. ]
+
+
+
+72- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, tretti ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, tretti, nirtiraw ,.. ]
+
+
+
+74- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, tretti, nirtiraw ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [tretti, nirtiraw, lura ,.. ]
+
+
+
+76- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tretti, nirtiraw, lura ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tretti]   B= [nirtiraw, lura, , ,.. ]
+
+
+
+78- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nirtiraw, lura, , ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nirtiraw]   B= [lura, ,, niffol ,.. ]
+
+
+
+80- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lura, ,, niffol ,.. ]
+
+
+
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lura]   B= [,, niffol, ­ ,.. ]
+
+
+
+82- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, niffol, ­ ,.. ]
+
+
+
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [niffol, ­, law ,.. ]
+
+
+
+84- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [niffol, ­, law ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol]   B= [­, law, id- ,.. ]
+
+
+
+86- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, ­]   B= [law, id-, difiża ,.. ]
+
+
+
+87- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol]   B= [law, id-, difiża ,.. ]
+
+
+
+88- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, law]   B= [id-, difiża, , ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, law, id-]   B= [difiża, ,, biex ,.. ]
+
+
+
+90- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, law, id-, difiża]   B= [,, biex, nilqgħu ,.. ]
+
+
+
+91- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, law, [id-, difiża]]   B= [,, biex, nilqgħu ,.. ]
+
+
+
+92- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niffol, [law, [id-, difiża]]]   B= [,, biex, nilqgħu ,.. ]
+
+
+
+93- **MERGE_AS_OTH**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[niffol, [law, [id-, difiża]]]]   B= [,, biex, nilqgħu ,.. ]
+
+
+
+94- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, biex, nilqgħu ,.. ]
+
+
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [biex, nilqgħu, l- ,.. ]
+
+
+
+96- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, nilqgħu, l- ,.. ]
+
+
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [nilqgħu, l-, pres ,.. ]
+
+
+
+98- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nilqgħu, l-, pres ,.. ]
+
+
+
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu]   B= [l-, pres, ­ ,.. ]
+
+
+
+100- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-]   B= [pres, ­, ­ ,.. ]
+
+
+
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres]   B= [­, ­, ­ ,.. ]
+
+
+
+102- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres, ­]   B= [­, ­, sjoni ,.. ]
+
+
+
+103- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres]   B= [­, ­, sjoni ,.. ]
+
+
+
+104- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres, ­]   B= [­, sjoni, tal- ,.. ]
+
+
+
+105- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres]   B= [­, sjoni, tal- ,.. ]
+
+
+
+106- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres, ­]   B= [sjoni, tal-, av ,.. ]
+
+
+
+107- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres]   B= [sjoni, tal-, av ,.. ]
+
+
+
+108- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, pres, sjoni]   B= [tal-, av, ­ ,.. ]
+
+
+
+109- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, l-, [pres, sjoni]]   B= [tal-, av, ­ ,.. ]
+
+
+
+110- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nilqgħu, [l-, [pres, sjoni]]]   B= [tal-, av, ­ ,.. ]
+
+
+
+111- **MERGE_AS_OTH**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[nilqgħu, [l-, [pres, sjoni]]]]   B= [tal-, av, ­ ,.. ]
+
+
+
+112- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, av, ­ ,.. ]
+
+
+
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [av, ­, ­ ,.. ]
+
+
+
+114- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [av, ­, ­ ,.. ]
+
+
+
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [av]   B= [­, ­, ­ ,.. ]
+
+
+
+116- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+
+
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, ver ,.. ]
+
+
+
+118- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ver ,.. ]
+
+
+
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ver, ­ ,.. ]
+
+
+
+120- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ver, ­ ,.. ]
+
+
+
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [ver, ­, ­ ,.. ]
+
+
+
+122- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ver, ­, ­ ,.. ]
+
+
+
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ver]   B= [­, ­, ­ ,.. ]
+
+
+
+124- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, ­ ,.. ]
+
+
+
+125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, ­, sarji ,.. ]
+
+
+
+126- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, ­, sarji ,.. ]
+
+
+
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [­, sarji, . ,.. ]
+
+
+
+128- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [­, sarji, . ,.. ]
+
+
+
+129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [­]   B= [sarji, . ,.. ]
+
+
+
+130- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sarji, . ,.. ]
+
+
+
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sarji]   B= [.]
+
+
+
+132- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+134- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 656 - 
+qal li s- sena l- oħra l- eks ministru tonio fenech kien **ħareġ** **stqarrija** u qal li **ntalab** **tnaqqis** fin- nefqa ta’ 0.04 % tal- prodott gross domestiku . “ imbagħad bdejna niskopru li dawn huma € **40** **miljun** **maqtugħa** **minn** **setturi** bħas- saħħa , ” qal muscat . 
+### Existing MWEs: 
+1- **ħareġ stqarrija** (LVC)Tokens : 
+ħareġ
+stqarrija
+
+
+2- **ntalab tnaqqis** (LVC)Tokens : 
+ntalab
+tnaqqis
+
+
+3- **40 miljun maqtugħa minn setturi** (LVC)Tokens : 
+40
+miljun
+maqtugħa
+minn
+setturi
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qal, li, s- ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qal]   B= [li, s-, sena ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, s-, sena ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [s-, sena, l- ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [s-, sena, l- ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [s-]   B= [sena, l-, oħra ,.. ]
+
+
+
+6- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [sena, l-, oħra ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [sena]   B= [l-, oħra, l- ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, oħra, l- ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [oħra, l-, eks ,.. ]
+
+
+
+10- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [oħra, l-, eks ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [oħra]   B= [l-, eks, ministru ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, eks, ministru ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [eks, ministru, tonio ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [eks, ministru, tonio ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [eks]   B= [ministru, tonio, fenech ,.. ]
+
+
+
+16- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ministru, tonio, fenech ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ministru]   B= [tonio, fenech, kien ,.. ]
+
+
+
+18- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tonio, fenech, kien ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tonio]   B= [fenech, kien, ħareġ ,.. ]
+
+
+
+20- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fenech, kien, ħareġ ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fenech]   B= [kien, ħareġ, stqarrija ,.. ]
+
+
+
+22- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kien, ħareġ, stqarrija ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kien]   B= [ħareġ, stqarrija, u ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħareġ, stqarrija, u ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħareġ]   B= [stqarrija, u, qal ,.. ]
+
+
+
+26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħareġ, stqarrija]   B= [u, qal, li ,.. ]
+
+
+
+27- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ħareġ, stqarrija]]   B= [u, qal, li ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, qal, li ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [qal, li, ntalab ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qal, li, ntalab ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qal]   B= [li, ntalab, tnaqqis ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, ntalab, tnaqqis ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [ntalab, tnaqqis, fin- ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ntalab, tnaqqis, fin- ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ntalab]   B= [tnaqqis, fin-, nefqa ,.. ]
+
+
+
+36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ntalab, tnaqqis]   B= [fin-, nefqa, ta’ ,.. ]
+
+
+
+37- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ntalab, tnaqqis]]   B= [fin-, nefqa, ta’ ,.. ]
+
+
+
+38- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [fin-, nefqa, ta’ ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [fin-]   B= [nefqa, ta’, 0.04 ,.. ]
+
+
+
+40- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nefqa, ta’, 0.04 ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nefqa]   B= [ta’, 0.04, % ,.. ]
+
+
+
+42- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ta’, 0.04, % ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ta’]   B= [0.04, %, tal- ,.. ]
+
+
+
+44- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [0.04, %, tal- ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [0.04]   B= [%, tal-, prodott ,.. ]
+
+
+
+46- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [%, tal-, prodott ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [%]   B= [tal-, prodott, gross ,.. ]
+
+
+
+48- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tal-, prodott, gross ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tal-]   B= [prodott, gross, domestiku ,.. ]
+
+
+
+50- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [prodott, gross, domestiku ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [prodott]   B= [gross, domestiku, . ,.. ]
+
+
+
+52- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [gross, domestiku, . ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [gross]   B= [domestiku, ., “ ,.. ]
+
+
+
+54- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [domestiku, ., “ ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [domestiku]   B= [., “, imbagħad ,.. ]
+
+
+
+56- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., “, imbagħad ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [“, imbagħad, bdejna ,.. ]
+
+
+
+58- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, imbagħad, bdejna ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [imbagħad, bdejna, niskopru ,.. ]
+
+
+
+60- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [imbagħad, bdejna, niskopru ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [imbagħad]   B= [bdejna, niskopru, li ,.. ]
+
+
+
+62- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bdejna, niskopru, li ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bdejna]   B= [niskopru, li, dawn ,.. ]
+
+
+
+64- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [niskopru, li, dawn ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [niskopru]   B= [li, dawn, huma ,.. ]
+
+
+
+66- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, dawn, huma ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [dawn, huma, € ,.. ]
+
+
+
+68- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dawn, huma, € ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dawn]   B= [huma, €, 40 ,.. ]
+
+
+
+70- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [huma, €, 40 ,.. ]
+
+
+
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [huma]   B= [€, 40, miljun ,.. ]
+
+
+
+72- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [€, 40, miljun ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [€]   B= [40, miljun, maqtugħa ,.. ]
+
+
+
+74- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [40, miljun, maqtugħa ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40]   B= [miljun, maqtugħa, minn ,.. ]
+
+
+
+76- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun]   B= [maqtugħa, minn, setturi ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, maqtugħa]   B= [minn, setturi, bħas- ,.. ]
+
+
+
+78- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, maqtugħa, minn]   B= [setturi, bħas-, saħħa ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, maqtugħa, minn, setturi]   B= [bħas-, saħħa, , ,.. ]
+
+
+
+80- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, maqtugħa, [minn, setturi]]   B= [bħas-, saħħa, , ,.. ]
+
+
+
+81- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, miljun, [maqtugħa, [minn, setturi]]]   B= [bħas-, saħħa, , ,.. ]
+
+
+
+82- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [40, [miljun, [maqtugħa, [minn, setturi]]]]   B= [bħas-, saħħa, , ,.. ]
+
+
+
+83- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[40, [miljun, [maqtugħa, [minn, setturi]]]]]   B= [bħas-, saħħa, , ,.. ]
+
+
+
+84- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bħas-, saħħa, , ,.. ]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bħas-]   B= [saħħa, ,, ” ,.. ]
+
+
+
+86- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [saħħa, ,, ” ,.. ]
+
+
+
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [saħħa]   B= [,, ”, qal ,.. ]
+
+
+
+88- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ”, qal ,.. ]
+
+
+
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [”, qal, muscat ,.. ]
+
+
+
+90- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [”, qal, muscat ,.. ]
+
+
+
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [”]   B= [qal, muscat, . ,.. ]
+
+
+
+92- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qal, muscat, . ,.. ]
+
+
+
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qal]   B= [muscat, . ,.. ]
+
+
+
+94- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [muscat, . ,.. ]
+
+
+
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [muscat]   B= [.]
+
+
+
+96- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+98- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2689 - 
+jinqdew l- iktar biha dawk li m' għandhomx **messaġġ** xi **jwasslu** jew li jkol - lhom bżonn **jgħattu** **xturhom** u **jaħbu** **għawwarhom** . 
+### Existing MWEs: 
+1- **messaġġ jwasslu** (LVC)Tokens : 
+messaġġ
+jwasslu
+
+
+2- **jgħattu xturhom** (ID)Tokens : 
+jgħattu
+xturhom
+
+
+3- **jaħbu għawwarhom** (ID)Tokens : 
+jaħbu
+għawwarhom
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jinqdew, l-, iktar ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jinqdew]   B= [l-, iktar, biha ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, iktar, biha ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [iktar, biha, dawk ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [iktar, biha, dawk ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [iktar]   B= [biha, dawk, li ,.. ]
+
+
+
+6- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biha, dawk, li ,.. ]
+
+
+
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biha]   B= [dawk, li, m' ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [dawk, li, m' ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [dawk]   B= [li, m', għandhomx ,.. ]
+
+
+
+10- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, m', għandhomx ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [m', għandhomx, messaġġ ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [m', għandhomx, messaġġ ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [m']   B= [għandhomx, messaġġ, xi ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [għandhomx, messaġġ, xi ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [għandhomx]   B= [messaġġ, xi, jwasslu ,.. ]
+
+
+
+16- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [messaġġ, xi, jwasslu ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [messaġġ]   B= [xi, jwasslu, jew ,.. ]
+
+
+
+18- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [messaġġ, xi]   B= [jwasslu, jew, li ,.. ]
+
+
+
+19- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [messaġġ]   B= [jwasslu, jew, li ,.. ]
+
+
+
+20- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [messaġġ, jwasslu]   B= [jew, li, jkol ,.. ]
+
+
+
+21- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[messaġġ, jwasslu]]   B= [jew, li, jkol ,.. ]
+
+
+
+22- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jew, li, jkol ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jew]   B= [li, jkol, - ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [li, jkol, - ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [li]   B= [jkol, -, lhom ,.. ]
+
+
+
+26- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jkol, -, lhom ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jkol]   B= [-, lhom, bżonn ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [-, lhom, bżonn ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [-]   B= [lhom, bżonn, jgħattu ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [lhom, bżonn, jgħattu ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [lhom]   B= [bżonn, jgħattu, xturhom ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bżonn, jgħattu, xturhom ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bżonn]   B= [jgħattu, xturhom, u ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jgħattu, xturhom, u ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jgħattu]   B= [xturhom, u, jaħbu ,.. ]
+
+
+
+36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jgħattu, xturhom]   B= [u, jaħbu, għawwarhom ,.. ]
+
+
+
+37- **MERGE_AS_ID**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[jgħattu, xturhom]]   B= [u, jaħbu, għawwarhom ,.. ]
+
+
+
+38- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, jaħbu, għawwarhom ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [jaħbu, għawwarhom, . ,.. ]
+
+
+
+40- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jaħbu, għawwarhom, . ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jaħbu]   B= [għawwarhom, . ,.. ]
+
+
+
+42- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jaħbu, għawwarhom]   B= [.]
+
+
+
+43- **MERGE_AS_ID**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[jaħbu, għawwarhom]]   B= [.]
+
+
+
+44- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+46- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+
+## Sentence No. 2776 - 
+“ jiena **miniex** **tajba** biex nippritkalkom imma t- tiġrib ta' bniedma waħda , ħażina għal kollox , imsejkna għal kollox , jista' jkun maħżen ta' twiddib tajjeb għall- qarrejja . ” il- misruq **ma** **jintroddx** **lura** u l- ebda **tewba** ma **ssir** . 
+### Existing MWEs: 
+1- **miniex tajba** (LVC)Tokens : 
+miniex
+tajba
+
+
+2- **ma jintroddx lura** (LVC)Tokens : 
+ma
+jintroddx
+lura
+
+
+3- **tewba ssir** (LVC)Tokens : 
+tewba
+ssir
+
+
+
+
+
+0- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [“, jiena, miniex ,.. ]
+
+
+
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [“]   B= [jiena, miniex, tajba ,.. ]
+
+
+
+2- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jiena, miniex, tajba ,.. ]
+
+
+
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jiena]   B= [miniex, tajba, biex ,.. ]
+
+
+
+4- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [miniex, tajba, biex ,.. ]
+
+
+
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [miniex]   B= [tajba, biex, nippritkalkom ,.. ]
+
+
+
+6- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [miniex, tajba]   B= [biex, nippritkalkom, imma ,.. ]
+
+
+
+7- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[miniex, tajba]]   B= [biex, nippritkalkom, imma ,.. ]
+
+
+
+8- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [biex, nippritkalkom, imma ,.. ]
+
+
+
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [biex]   B= [nippritkalkom, imma, t- ,.. ]
+
+
+
+10- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [nippritkalkom, imma, t- ,.. ]
+
+
+
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [nippritkalkom]   B= [imma, t-, tiġrib ,.. ]
+
+
+
+12- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [imma, t-, tiġrib ,.. ]
+
+
+
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [imma]   B= [t-, tiġrib, ta' ,.. ]
+
+
+
+14- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [t-, tiġrib, ta' ,.. ]
+
+
+
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [t-]   B= [tiġrib, ta', bniedma ,.. ]
+
+
+
+16- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tiġrib, ta', bniedma ,.. ]
+
+
+
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tiġrib]   B= [ta', bniedma, waħda ,.. ]
+
+
+
+18- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ta', bniedma, waħda ,.. ]
+
+
+
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ta']   B= [bniedma, waħda, , ,.. ]
+
+
+
+20- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [bniedma, waħda, , ,.. ]
+
+
+
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [bniedma]   B= [waħda, ,, ħażina ,.. ]
+
+
+
+22- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [waħda, ,, ħażina ,.. ]
+
+
+
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [waħda]   B= [,, ħażina, għal ,.. ]
+
+
+
+24- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, ħażina, għal ,.. ]
+
+
+
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [ħażina, għal, kollox ,.. ]
+
+
+
+26- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ħażina, għal, kollox ,.. ]
+
+
+
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ħażina]   B= [għal, kollox, , ,.. ]
+
+
+
+28- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [għal, kollox, , ,.. ]
+
+
+
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [għal]   B= [kollox, ,, imsejkna ,.. ]
+
+
+
+30- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kollox, ,, imsejkna ,.. ]
+
+
+
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kollox]   B= [,, imsejkna, għal ,.. ]
+
+
+
+32- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, imsejkna, għal ,.. ]
+
+
+
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [imsejkna, għal, kollox ,.. ]
+
+
+
+34- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [imsejkna, għal, kollox ,.. ]
+
+
+
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [imsejkna]   B= [għal, kollox, , ,.. ]
+
+
+
+36- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [għal, kollox, , ,.. ]
+
+
+
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [għal]   B= [kollox, ,, jista' ,.. ]
+
+
+
+38- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [kollox, ,, jista' ,.. ]
+
+
+
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [kollox]   B= [,, jista', jkun ,.. ]
+
+
+
+40- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [,, jista', jkun ,.. ]
+
+
+
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [,]   B= [jista', jkun, maħżen ,.. ]
+
+
+
+42- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jista', jkun, maħżen ,.. ]
+
+
+
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jista']   B= [jkun, maħżen, ta' ,.. ]
+
+
+
+44- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [jkun, maħżen, ta' ,.. ]
+
+
+
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [jkun]   B= [maħżen, ta', twiddib ,.. ]
+
+
+
+46- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [maħżen, ta', twiddib ,.. ]
+
+
+
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [maħżen]   B= [ta', twiddib, tajjeb ,.. ]
+
+
+
+48- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ta', twiddib, tajjeb ,.. ]
+
+
+
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ta']   B= [twiddib, tajjeb, għall- ,.. ]
+
+
+
+50- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [twiddib, tajjeb, għall- ,.. ]
+
+
+
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [twiddib]   B= [tajjeb, għall-, qarrejja ,.. ]
+
+
+
+52- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tajjeb, għall-, qarrejja ,.. ]
+
+
+
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tajjeb]   B= [għall-, qarrejja, . ,.. ]
+
+
+
+54- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [għall-, qarrejja, . ,.. ]
+
+
+
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [għall-]   B= [qarrejja, ., ” ,.. ]
+
+
+
+56- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [qarrejja, ., ” ,.. ]
+
+
+
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [qarrejja]   B= [., ”, il- ,.. ]
+
+
+
+58- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [., ”, il- ,.. ]
+
+
+
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [”, il-, misruq ,.. ]
+
+
+
+60- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [”, il-, misruq ,.. ]
+
+
+
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [”]   B= [il-, misruq, ma ,.. ]
+
+
+
+62- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [il-, misruq, ma ,.. ]
+
+
+
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [il-]   B= [misruq, ma, jintroddx ,.. ]
+
+
+
+64- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [misruq, ma, jintroddx ,.. ]
+
+
+
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [misruq]   B= [ma, jintroddx, lura ,.. ]
+
+
+
+66- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ma, jintroddx, lura ,.. ]
+
+
+
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma]   B= [jintroddx, lura, u ,.. ]
+
+
+
+68- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma, jintroddx]   B= [lura, u, l- ,.. ]
+
+
+
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma, jintroddx, lura]   B= [u, l-, ebda ,.. ]
+
+
+
+70- WHITE_MERGE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ma, [jintroddx, lura]]   B= [u, l-, ebda ,.. ]
+
+
+
+71- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[ma, [jintroddx, lura]]]   B= [u, l-, ebda ,.. ]
+
+
+
+72- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [u, l-, ebda ,.. ]
+
+
+
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [u]   B= [l-, ebda, tewba ,.. ]
+
+
+
+74- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [l-, ebda, tewba ,.. ]
+
+
+
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [l-]   B= [ebda, tewba, ma ,.. ]
+
+
+
+76- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ebda, tewba, ma ,.. ]
+
+
+
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [ebda]   B= [tewba, ma, ssir ,.. ]
+
+
+
+78- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [tewba, ma, ssir ,.. ]
+
+
+
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tewba]   B= [ma, ssir, . ,.. ]
+
+
+
+80- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tewba, ma]   B= [ssir, . ,.. ]
+
+
+
+81- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tewba]   B= [ssir, . ,.. ]
+
+
+
+82- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [tewba, ssir]   B= [.]
+
+
+
+83- **MERGE_AS_LVC**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [[tewba, ssir]]   B= [.]
+
+
+
+84- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [.]
+
+
+
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= [.]   B= [ ]
+
+
+
+86- Reduce&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;S= []   B= [ ]
+

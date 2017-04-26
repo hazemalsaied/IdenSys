@@ -1,21 +1,19 @@
-from Src.transitions import Reduce, WhiteMerge, MergeAsID, MergeAsLVC, MergeAsVPC, MergeAsIReflV, \
-    MergeAsOTH
-from corpus import Corpus
-from corpus import Token
+from transitions import Reduce, WhiteMerge, MergeAsID, MergeAsLVC, MergeAsVPC, MergeAsIReflV, \
+    MergeAsOTH, Transition, Complete, Shift, Merge, MWTComplete
+from corpus import Corpus, Token
 from features import Extractor
 from param import FeatParams, XPParams
 from reports import Report
-from transitions import Transition, Complete, Shift, Merge, MWTComplete
-
+import logging
 
 class Parser:
     @staticmethod
     def parse(corpus, clf, cls, crossIdx=''):
-
         if XPParams.useCrossValidation:
             Corpus.initializeSents(corpus.testingSents)
         # Parsing the test phrases
         for sent in corpus.testingSents:
+            logging.debug(str(sent))
             cls.parseSentence(clf[0], clf[1], sent, cls)
 
         # creating a parsing report
@@ -28,6 +26,8 @@ class Parser:
         transition = initialTransition
         feats, labels = [], []
         while not transition.configuration.isTerminalConf():
+            logging.debug(str(transition.configuration))
+            logging.debug(str( transition.type))
             newTransition = cls.getNextTransition(transition, sent, classifier, dictVectorizer, feats)
             if newTransition is not None:
                 newTransition.apply(transition, sent=sent, parse=True)
@@ -88,7 +88,7 @@ class Parser:
         return None
 
 
-class EmbeddedinParser(Parser):
+class EmbeddedingParser(Parser):
     @staticmethod
     def getNextTransition(transition, sent, classifier, dictVectorizer, feats):
 

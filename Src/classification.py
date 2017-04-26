@@ -7,10 +7,9 @@ from sklearn.multiclass import OneVsOneClassifier
 from sklearn.multiclass import OutputCodeClassifier, OneVsRestClassifier
 from sklearn.svm import LinearSVC
 from corpus import Corpus
-from param import FeatParams,XPParams, PrintParams
+from param import XPParams, PrintParams
 from reports import Report
-from Src.oracles import StaticOracle
-from oracles import EmbeddingOracle
+from oracles import StaticOracle, EmbeddingOracle, DynamicOracle
 
 
 class Classification:
@@ -19,7 +18,10 @@ class Classification:
         if XPParams.useCrossValidation:
             Corpus.initializeSents(sents)
         if XPParams.includeEmbedding:
-            staticParsingData = EmbeddingOracle.parseCorpus(sents, EmbeddingOracle)
+            if XPParams.useDynamicOracle:
+                staticParsingData = DynamicOracle.parseCorpus(sents, DynamicOracle)
+            else:
+                staticParsingData = EmbeddingOracle.parseCorpus(sents, EmbeddingOracle)
         else:
             staticParsingData = StaticOracle.parseCorpus(sents, StaticOracle)
         Report.createStaticParsingReports(sents, crossValidationIdx)

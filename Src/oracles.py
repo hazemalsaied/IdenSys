@@ -1,9 +1,10 @@
-from Src.features import Extractor
-from Src.transitions import Reduce, WhiteMerge, MergeAsID, MergeAsLVC, MergeAsVPC, MergeAsIReflV, MergeAsOTH, \
+from features import Extractor
+from transitions import Reduce, WhiteMerge, MergeAsID, MergeAsLVC, MergeAsVPC, MergeAsIReflV, MergeAsOTH, \
     Transition, \
     Complete, TransitionType, MWTComplete, Merge
 from corpus import VMWE, Sentence, Token
 from transitions import Shift
+import operator
 
 
 class StaticOracle:
@@ -28,7 +29,7 @@ class StaticOracle:
             transition = cls.getNextTransition(transition, sent, cls)
         sent.initialTransition = transition.getRoot()
         labels, features = Extractor.extract(sent)
-        if sent.isPrintable():
+        if True or sent.isPrintable():
             print sent
         return labels, features
 
@@ -243,3 +244,194 @@ class EmbeddingOracle(StaticOracle):
             return complete
 
         return None
+
+
+class DynamicOracle(StaticOracle):
+
+
+    @staticmethod
+    def getNextTransition(parent, sent, cls):
+
+        costDic = {}
+        transitions = {}
+        transitions[TransitionType.SHIFT] = Shift()
+        transitions[TransitionType.REDUCE] = Reduce()
+        transitions[TransitionType.WHITE_MERGE] = WhiteMerge()
+        transitions[TransitionType.MERGE_AS_IReflV] = MergeAsIReflV()
+        transitions[TransitionType.MERGE_AS_ID] = MergeAsID()
+        transitions[TransitionType.MERGE_AS_LVC] = MergeAsLVC()
+        transitions[TransitionType.MERGE_AS_VPC] = MergeAsVPC()
+        transitions[TransitionType.MERGE_AS_OTH] = MergeAsOTH()
+
+        for transitionType in transitions.keys():
+            costDic[transitionType] = DynamicOracle.getCost(parent.configuration, sent, transitionType)
+
+        sortedCostDic = sorted(costDic.items(), key=operator.itemgetter(1))
+        for item in sortedCostDic:
+            print item[0]
+            print item[1].configuration
+        transition = transitions(sortedCostDic[0][0])
+
+        transition.apply(parent, sent=sent, vMWEId=None, parse=False)
+        return transition
+
+
+    @staticmethod
+    def getCost(config, sent, transitionType):
+
+        if transitionType == TransitionType.SHIFT:
+            return DynamicOracle.getShiftCost(config, sent)
+        elif transitionType == TransitionType.REDUCE:
+            return DynamicOracle.getReduceCost(config, sent)
+
+        elif transitionType == TransitionType.WHITE_MERGE:
+            return DynamicOracle.getWhiteMergeCost(config, sent)
+        else:
+            return DynamicOracle.getMergeAsCost(config, sent, transitionType)
+
+    @staticmethod
+    def getShiftCost(config, sent):
+
+        cost = 0
+        for vmwe in sent.vMWEs:
+            if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
+                continue
+            nonTopStackElementBelongsToVMW = False
+            if config.stack is not None and len(
+                    config.stack) > 0 and isinstance(config.stack[0], Token) and not config.stack[0].In(vmwe):
+
+                for s in config.stack[1:]:
+                    if s.In(vmwe):
+                        nonTopStackElementBelongsToVMW = True
+                        break
+            elif config.stack is not None and len(
+                    config.stack) > 0 and isinstance(config.stack[0], list):
+                for token in Sentence.getTokens(config.stack[0]):
+                    if token.In(vmwe):
+                        nonTopStackElementBelongsToVMW = True
+                        break
+            if not vmwe.In(sent.identifiedVMWEs) and config is not None and config.buffer is not None and len(
+                    config.buffer) > 0 and config.buffer[0].In(vmwe) and nonTopStackElementBelongsToVMW:
+                cost += 1
+        return cost
+
+    @staticmethod
+    def getReduceCost(config, sent):
+
+        cost = 0
+        for vmwe in sent.vMWEs:
+            if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
+                continue
+            if config.stack is not None and len(
+                    config.stack) > 0 and isinstance(config.stack[0], Token) and config.stack[0].In(vmwe):
+                increaseCost = False
+                for s in config.stack[1:]:
+                    for token in Sentence.getTokens(s):
+                        if token.In(vmwe):
+                            increaseCost = True
+                            break
+                if increaseCost:
+                    cost += 1
+                else:
+                    for b in config.buffer:
+                        if b.In(vmwe):
+                            cost += 1
+                            break
+            elif config.stack is not None and len(
+                    config.stack) > 0 and isinstance(config.stack[0], list):
+                allBelongstoVmwe = True
+                for token in Sentence.getTokens(config.stack[0]):
+                    if not token.In(vmwe):
+                        allBelongstoVmwe = False
+                        break
+                if allBelongstoVmwe:
+                    increaseCost = False
+                    for s in config.stack[1:]:
+                        for token in Sentence.getTokens(s):
+                            if token.In(vmwe):
+                                increaseCost = True
+                                break
+                        if increaseCost:
+                            cost += 1
+        return cost
+
+    @staticmethod
+    def getWhiteMergeCost(config, sent):
+
+        cost = 0
+        for vmwe in sent.vMWEs:
+            if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
+                continue
+            someElementsBelongToVmwe = False
+            someElementsdobotBelongToVmwe = False
+            if config.stack is not None and len(config.stack) > 0:
+                for token in Sentence.getTokens(config.stack[0]):
+                    if token.In(vmwe):
+                        someElementsBelongToVmwe = True
+                    else:
+                        someElementsdobotBelongToVmwe = True
+                increaseCost = False
+                if someElementsBelongToVmwe and someElementsdobotBelongToVmwe:
+                    for s in config.stack[1:]:
+                        for token in Sentence.getTokens(s):
+                            if token.In(vmwe):
+                                increaseCost = True
+                                break
+                        if increaseCost:
+                            break
+                    if not increaseCost:
+                        for b in config.buffer:
+                            if b.In(vmwe):
+                                increaseCost = True
+                                break
+                if increaseCost:
+                    cost += 1
+                else:
+                    s0String = ''
+                    for token in Sentence.getTokens(config.stack[0]):
+                        s0String += token.text + ' '
+                    s0String = s0String[:-1]
+                    if vmwe.getString().lower() == s0String.lower():
+                        cost += 1
+        return cost
+
+    @staticmethod
+    def getMergeAsCost(config, sent, transitionType):
+
+        cost = 0
+        for vmwe in sent.vMWEs:
+            if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
+                continue
+            someElementsBelongToVmwe = False
+            someElementsdobotBelongToVmwe = False
+            if config.stack is not None and len(config.stack) > 0:
+                for token in Sentence.getTokens(config.stack[0]):
+                    if token.In(vmwe):
+                        someElementsBelongToVmwe = True
+                    else:
+                        someElementsdobotBelongToVmwe = True
+                increaseCost = False
+                if someElementsBelongToVmwe and someElementsdobotBelongToVmwe:
+                    for s in config.stack[1:]:
+                        for token in Sentence.getTokens(s):
+                            if token.In(vmwe):
+                                increaseCost = True
+                                break
+                        if increaseCost:
+                            break
+                    if not increaseCost:
+                        for b in config.buffer:
+                            if b.In(vmwe):
+                                increaseCost = True
+                                break
+                if increaseCost:
+                    cost += 1
+                else:
+                    s0String = ''
+                    for token in Sentence.getTokens(config.stack[0]):
+                        s0String += token.text + ' '
+                    s0String = s0String[:-1]
+                    if vmwe.getString().lower() == s0String.lower():
+                        if transitionType != vmwe.type:
+                            cost += 1
+        return cost
