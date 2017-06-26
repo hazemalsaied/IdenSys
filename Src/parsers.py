@@ -1,148 +1,47 @@
-from transitions import Reduce, WhiteMerge, MergeAsID, MergeAsLVC, MergeAsVPC, MergeAsIReflV, \
-    MergeAsOTH, Transition, Complete, Shift, Merge, MWTComplete
-from corpus import Corpus, Token
+import reports
+from corpus import Corpus
 from features import Extractor
-from param import FeatParams, XPParams
-from reports import Report
-import logging
+from param import XPParams, Counters
+from transTypes import TransitionType
+from transitions import EmbeddingTransition, Transition
 
 class Parser:
+
     @staticmethod
-    def parse(corpus, clf, cls, crossIdx=''):
+    def parse(corpus, clf):
+        Counters.initCounters()
         if XPParams.useCrossValidation:
-            Corpus.initializeSents(corpus.testingSents)
-        # Parsing the test phrases
+            corpus.initializeSents(training=False)
         for sent in corpus.testingSents:
-            logging.debug(str(sent))
-            cls.parseSentence(clf[0], clf[1], sent, cls)
-
-        # creating a parsing report
-        Report.createParsingReport(corpus.testingSents, Corpus.mweDictionary, crossIdx)
-
-    @staticmethod
-    def parseSentence(classifier, dictVectorizer, sent, cls):
-
-        initialTransition = Transition(None, isInitial=True, sent=sent)
-        transition = initialTransition
-        feats, labels = [], []
-        while not transition.configuration.isTerminalConf():
-            logging.debug(str(transition.configuration))
-            logging.debug(str( transition.type))
-            newTransition = cls.getNextTransition(transition, sent, classifier, dictVectorizer, feats)
-            if newTransition is not None:
-                newTransition.apply(transition, sent=sent, parse=True)
-                labels.append(newTransition.type.value)
-                transition = newTransition
+            if XPParams.includeEmbedding:
+                sent.initialTransition = EmbeddingTransition(None, isInitial=True, sent=sent)
             else:
-                print 'Error: transition generation is broken for the sent = ', sent
-                break
-        sent.initialTransition = initialTransition
-        sent.featuresInfo = [labels, feats]
-        return sent
+                sent.initialTransition = Transition(None, isInitial=True, sent=sent)
+            transition = sent.initialTransition
+            feats, labels = [], []
+            while not transition.configuration.isTerminalConf():
+                newTransition = Parser.getNextTransition(transition, sent, clf[0], clf[1], feats)
+                if newTransition is not None:
+                    newTransition.apply(transition, sent, parse=True)
+                    labels.append(newTransition.type.value)
+                    transition = newTransition
+            sent.featuresInfo = [labels, feats]
+        reports.createParsingReport(corpus.testingSents, Corpus.mweDictionary)
 
     @staticmethod
     def getNextTransition(transition, sent, classifier, dictVectorizer, feats):
 
-        config = transition.configuration
-        complete, mwtComplete, shift, merge = Complete(), MWTComplete(), Shift(), Merge()
-        if len(config.stack) == 0 and len(config.buffer) > 0:
-            feats.append({})
-            return Shift()
-
-        if (len(config.buffer) == 0 and len(config.stack) == 1) \
-                or (len(config.stack) == 1 and isinstance(config.stack[0], list)):
-            if FeatParams.enableSingleMWE:
-                if isinstance(config.stack[0], Token) and config.stack[0].lemma in Corpus.mweDictionary.keys():
-                    feats.append({})
-                    return mwtComplete
-            feats.append({})
-            return Complete()
-
-        acceptedTrans = [shift, complete, mwtComplete, merge]
-        if not FeatParams.enableSingleMWE:
-            acceptedTrans.remove(mwtComplete)
-
-        if len(config.stack) == 0:
-            acceptedTrans.remove(complete)
-
-        if len(config.stack) < 2:
-            acceptedTrans.remove(merge)
-
-        if len(config.buffer) == 0:
-            acceptedTrans.remove(shift)
-
-        if len(acceptedTrans) == 1:
-            feats.append({})
-            return acceptedTrans[0]
-
+        legalTansDic = transition.getLegalTransDic()
+        if len(legalTansDic) == 1:
+            return Transition.initialize(legalTansDic.keys()[0], sent)
         featDic = Extractor.getFeatures(transition, sent)
-        transType = classifier.predict(dictVectorizer.transform(featDic))[0]
-
-        for elem in acceptedTrans:
-            if elem.type.value == transType:
-                feats.append(featDic)
-                return elem
-
-        if len(acceptedTrans) > 0:
-            return acceptedTrans[0]
-        return None
-
-
-class EmbeddedingParser(Parser):
-    @staticmethod
-    def getNextTransition(transition, sent, classifier, dictVectorizer, feats):
-
-        config = transition.configuration
-        reduce, mwtComplete, shift, mergeAsID, mergeAsOTH, mergeAsIReflV, mergeAsVPC, mergeAsLVC, whiteMerge = Reduce(), MWTComplete(), Shift(), MergeAsID(), MergeAsOTH(), MergeAsIReflV(), MergeAsVPC(), MergeAsLVC(), WhiteMerge()
-        if len(config.stack) == 0 and len(config.buffer) > 0:
-            feats.append({})
-            return Shift()
-
-        if len(config.stack) > 0 and FeatParams.enableSingleMWE:
-            if isinstance(config.stack[0], Token) and config.stack[0].lemma in Corpus.mweDictionary.keys():
-                feats.append({})
-                return mwtComplete
-
-        if (len(config.buffer) == 0 and len(config.stack) == 1):
-            # or (len(config.stack) == 1 and isinstance(config.stack[0], list)):
-            feats.append({})
-            return Reduce()
-
-        acceptedTrans = [shift, reduce, whiteMerge, mergeAsID, mergeAsOTH, mergeAsIReflV, mergeAsVPC,
-                         mergeAsLVC, mwtComplete]
-        if not FeatParams.enableSingleMWE:
-            acceptedTrans.remove(mwtComplete)
-
-        if len(config.stack) == 0:
-            acceptedTrans.remove(reduce)
-            if mwtComplete in acceptedTrans:
-                acceptedTrans.remove(mwtComplete)
-
-        if len(config.stack) < 2:
-            acceptedTrans.remove(mergeAsID)
-            acceptedTrans.remove(mergeAsOTH)
-            acceptedTrans.remove(mergeAsIReflV)
-            acceptedTrans.remove(mergeAsVPC)
-            acceptedTrans.remove(mergeAsLVC)
-            acceptedTrans.remove(whiteMerge)
-
-        if len(config.buffer) == 0:
-            acceptedTrans.remove(shift)
-
-        if len(acceptedTrans) == 1:
-            feats.append({})
-            return acceptedTrans[0]
-
-        featDic = Extractor.getFeatures(transition, sent)  # classifier.predict(dictVectorizer.transform(featDic))
-        transType = classifier.predict(dictVectorizer.transform(featDic))[0]
-
-        for elem in acceptedTrans:
-            if elem.type.value == transType:
-                feats.append(featDic)
-                return elem
-
-        if len(acceptedTrans) > 0:
-            return acceptedTrans[0]
-        return None
-
-
+        if not isinstance(featDic,list):
+            featDic = [featDic]
+        transTypeValue = classifier.predict(dictVectorizer.transform(featDic))[0]
+        transType = TransitionType.getType(transTypeValue)
+        if transType in legalTansDic:
+            return legalTansDic[transType]
+        if len(legalTansDic):
+            return Transition.initialize(legalTansDic.keys()[0], sent)
+        print sent
+        raise

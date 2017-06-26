@@ -1,84 +1,105 @@
+import logging
 import os
 import sys
 
-from classification import Classification
+from oracles import Oracle, DynamicOracle
 from corpus import Corpus
 from evaluation import Evaluation
 from param import FeatParams, XPParams, Paths
-from parsers import Parser, EmbeddedingParser
-from reports import Report
-import logging
+from parsers import Parser
+import reports
 
+def identify():
+    reports.createRootResultFolder()
+    constantConfigFolder = Paths.configsFolder
+    for configFile in os.listdir(Paths.configsFolder):
+        if not configFile.endswith('.json'):
+            continue
+        corpus = Corpus(configFile[:2])
+        reports.getEmbeddedSents(corpus)
+        FeatParams(os.path.join(constantConfigFolder, configFile), corpus=corpus)
+        if XPParams.useCrossValidation:
+            scores = [0] * 12
+            testRange, trainRange = corpus.getRangs()
+            for x in range(len(testRange)):
+                logging.warn('Iteration no.' + str(x + 1))
+                XPParams.currentIteration = x
+                Paths.iterationPath = os.path.join(Paths.langResultFolder, str(x + 1))
+                if not os.path.exists(Paths.iterationPath):
+                    os.makedirs(Paths.iterationPath)
+                evalScores = identifyCorpus(corpus)
+                for i in range(len(evalScores)):
+                    scores[i] += evalScores[i]
+            for i in range(len(scores)):
+                scores[i] = scores[i] / float(len(testRange))
+            logging.warn(' F-Score: ' + str(scores[0]))
+            reports.editTotalReadMe(scores, corpus)
+        else:
+            # identifyCorpusWithIterations(corpus)
+            scores = identifyCorpus(corpus)
+            reports.editTotalReadMe(scores, corpus)
 
-class Identifier:
-    @staticmethod
-    def identify():
-        logging.basicConfig(level=logging.DEBUG)
-        Report.createRootResultFolder()
-        constantConfigFolder = Paths.configsFolder
-        for subdir, dirs, files in os.walk(constantConfigFolder):
-            for dir in dirs:
-                Paths.languageName = dir
-                for subdir1, dirs1, configFiles in os.walk(os.path.join(constantConfigFolder, dir)):
-                    logging.info('Processing : ' + Paths.languageName)
-                    corpus = Corpus(os.path.join(Paths.corporaPath, Paths.languageName))
-                    logging.info('corpus reading is done!')
-                    for configFile in configFiles:
-                        if not configFile.endswith('.json'):
-                            continue
-                        Paths.configsFolder = os.path.join(constantConfigFolder, Paths.languageName,
-                                                           configFile)
-                        if XPParams.useCrossValidation:
-                            logging.info('Cross validation iterations:')
-                            fScore, recall, precision, newIdenMWEs, semiNewIdenMWEs = .0, .0, .0, .0, .0
-                            testRange, trainRange = Corpus.getRangs(corpus.trainDataSet)
-                            for x in xrange(0, len(testRange)):
-                                logging.info('Iteration no.' + str(x + 1))
-                                Paths.iterationPath = os.path.join(Paths.langResultFolder, str(x + 1))
-                                if not os.path.exists(Paths.iterationPath):
-                                    os.makedirs(Paths.iterationPath)
-                                FeatParams(Paths.configsFolder, corpus=corpus)
-                                corpus.divideSents(testRange, trainRange, x)
-                                Corpus.mweDictionary, Corpus.mweTokenDic = Corpus.getMWEDic(corpus.trainingSents)
-                                logging.info('Training : ')
-                                clf = Classification.train(corpus.trainingSents)
-                                if XPParams.includeEmbedding:
-                                    logging.warn('Parser : Embeddeding Parser')
-                                    Parser.parse(corpus, clf, EmbeddedingParser)
-                                else:
-                                    logging.warn('Parser : Normal Parser')
-                                    Parser.parse(corpus, clf, Parser)
-                                tempfScore, temprecall, tempprecision = Evaluation.evaluate(corpus)
+def identifyCorpus(corpus):
+    corpus.update()
+    clf = Oracle.train(corpus)
+    Parser.parse(corpus, clf)
+    scores = Evaluation.evaluate(corpus)
+    return scores
 
-                                fScore += tempfScore
-                                recall += temprecall
-                                precision += tempprecision
+def identifyCorpusWithIterations(corpus):
+    foldSize = 5
+    corpus.update()
+    for i in range(int(XPParams.perceptronIterations / foldSize)):
+        if i == 0:
+            clf = DynamicOracle.trainFolds(corpus)
+        else:
+            clf = DynamicOracle.trainFolds(corpus, clf[0] , clf[1], foldSize)
+        corpus.initializeSents(training=False)
+        Parser.parse(corpus, clf)
+        scores = Evaluation.evaluate(corpus)
+        reports.editTotalReadMe(scores, corpus)
+        report = ''
+        report2 = ''
+        for sent in corpus.testingSents:
+            if len(sent.vMWEs) > 0:
+                report += str(sent)
+            if len(sent.identifiedVMWEs)> 0:
+                report2 += str(sent)
+        p2 = os.path.join(Paths.langResultFolder, str(i) + ' - testSents.md')
+        with open(p2, 'w') as f:
+            f.write(report)
+        p3 = os.path.join(Paths.langResultFolder, str(i) + ' - testSents - Identified.md')
+        with open(p3, 'w') as f:
+            f.write(report2)
 
-                                x, y = Corpus.getNewIdentifiedMWE(corpus.testingSents)
-                                newIdenMWEs += x
-                                semiNewIdenMWEs += y
-
-                            logging.warn('F: ' + str(fScore / 5) + 'R: ' + str(recall / 5) + 'P: ' + str(precision / 5))
-                            if newIdenMWEs != 0:
-                                newIdenMWEs = newIdenMWEs / 5
-                            if semiNewIdenMWEs != 0:
-                                semiNewIdenMWEs = semiNewIdenMWEs / 5
-                            Report.editTotalReadMe(fScore / 5, recall / 5, precision / 5, corpus, [],
-                                                   newIdenMWEs, semiNewIdenMWEs, path= os.path.join(Paths.rootResultFolder, 'results.csv'))
-                        else:
-
-                            FeatParams(Paths.configsFolder, corpus=corpus)
-                            Corpus.mweDictionary, Corpus.mweTokenDic = Corpus.getMWEDic(corpus.trainingSents)
-                            logging.info('Trainging')
-                            clf = Classification.train(corpus.trainingSents)
-                            if XPParams.includeEmbedding:
-                                Parser.parse(corpus, clf, EmbeddedingParser)
-                            else:
-                                Parser.parse(corpus, clf, Parser)
-                            Evaluation.evaluate(corpus, resultFilePath= os.path.join(Paths.rootResultFolder, 'results.csv'))
-
+    return scores
 
 reload(sys)
 sys.setdefaultencoding('utf8')
+logging.basicConfig(level=logging.WARNING)
 
-Identifier.identify()
+identify()
+
+# FeatParams.smartMWTDetection = True
+# XPParams.useCrossValidation = True
+# XPParams.perceptronIterations = 7
+# XPParams.explorationIteration = 6
+#
+# # #CV + static + simpl + preceptron
+# # XPParams.includeEmbedding = False
+# # XPParams.usePerceptron = True
+# # identify()
+# #
+# #
+# # XPParams.includeEmbedding = True
+# # XPParams.usePerceptron = False
+# # #CV + static + Embedd + Sci-kit
+# # identify()
+# #
+# # XPParams.usePerceptron = True
+# # identify()
+# # XPParams.useHybridOracle= True
+# # identify()
+# XPParams.useDynamicOracle= True
+# identify()
+#

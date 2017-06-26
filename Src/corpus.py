@@ -1,30 +1,32 @@
-import os
+import logging
 import operator
-from param import FeatParams, XPParams,Paths, PrintParams
-from reports import Report
+import os
 
+from param import FeatParams, XPParams,Paths, PrintParams
+import reports
+import collections
 
 class Corpus:
     """
         a class used to encapsulate all the information of the corpus
     """
 
-    mweTokenDic = {}
-    mweDictionary = {}
+    mweTokenDic, mweDictionary, mwtDictionary = {}, {}, {}
 
-    def __init__(self, path):
+    def __init__(self, langName):
         """
             an initializer of the corpus, responsible of creating a structure of objects encapsulating all the information
             of the corpus, its sentences, tokens and MWEs.
 
             This function iterate over the lines of corpus document to create the precedent ontology
-        :param path: the physical path of the corpus document
         """
 
-        Report.createLanguageFolder()
-        self.sentNum, self.mweNum, self.intereavingNum, self.emeddedNum, self.singleWordExp, \
+        logging.warn(langName)
+        path = os.path.join(Paths.corporaPath, langName)
+        reports.createLanguageFolder(langName)
+        self.sentNum, self.tokenNum, self.mweNum, self.intereavingNum, self.emeddedNum, self.singleWordExp, \
         self.continousExp, self.trainingSents, self.testingSents, self.trainDataSet,mweFile,testBlind  = \
-            0, 0, 0, 0, 0, 0, [], [], [], os.path.join(path, 'train.parsemetsv'), os.path.join(path, 'test.blind.parsemetsv')
+            0, 0, 0, 0, 0, 0, 0, [], [], [], os.path.join(path, 'train.parsemetsv'), os.path.join(path, 'test.blind.parsemetsv')
         conlluFile , testConllu = self.getTrainAndTestConlluPath(path)
 
         testBlind = os.path.join(path, 'test.blind.parsemetsv')
@@ -35,7 +37,8 @@ class Corpus:
             self.sentNum = len(self.trainDataSet)
 
             for sent in self.trainDataSet:
-                self.emeddedNum += sent.recognizeEmbeddedVMWEs()
+                self.tokenNum += len(sent.tokens)
+                self.emeddedNum += sent.recognizeEmbedded()
                 self.intereavingNum += sent.recognizeInterleavingVMWEs()
                 x, y = sent.recognizeContinouosandSingleVMWEs()
                 self.singleWordExp += x
@@ -46,15 +49,26 @@ class Corpus:
             self.trainDataSet, self.sentNum, self.mweNum = Corpus.readSentences(mweFile)
             self.testDataSet, x, y = Corpus.readSentences(testBlind, forTest=True)
             for sent in self.trainDataSet:
-                self.emeddedNum += sent.recognizeEmbeddedVMWEs()
+                self.tokenNum += len(sent.tokens)
+                self.emeddedNum += sent.recognizeEmbedded()
                 self.intereavingNum += sent.recognizeInterleavingVMWEs()
                 x, y = sent.recognizeContinouosandSingleVMWEs()
                 self.singleWordExp += x
                 self.continousExp += y
         self.getTrainAndTestSents()
+        if XPParams.useCrossValidation:
+            self.testRange, self.trainRange = self.getRangs()
+        else:
+            self.testRange, self.trainRange = None, None
 
+        # self.printSentsWithEmbeddedMWEs()
 
-        self.printSentsWithEmbeddedMWEs()
+    def update(self):
+        if XPParams.useCrossValidation:
+            self.divideSents()
+            self.initializeSents()
+        Corpus.mweDictionary, Corpus.mweTokenDic, Corpus.mwtDictionary = Corpus.getMWEDic(self.trainingSents)
+
 
 
     def getTrainAndTestConlluPath(self,path):
@@ -73,20 +87,6 @@ class Corpus:
             if os.path.isfile(os.path.join(path, 'test.conllu')):
                 testConllu = os.path.join(path, 'test.conllu')
         return conlluFile, testConllu
-
-
-    def printSentsWithEmbeddedMWEs(self):
-        if not PrintParams.printSentsWithEmbeddedMWEs:
-            return
-        for sent in self.trainDataSet:
-            printSent = False
-            for mwe in sent.vMWEs:
-                if mwe.isEmbedded:
-                    printSent = True
-                    break
-            if printSent:
-                print sent
-
 
     @staticmethod
     def readConlluFile(conlluFile):
@@ -219,7 +219,7 @@ class Corpus:
                         # Represent the sentence as a sequece of tokens and POS tags
                         sent.setTextandPOS()
                         if not forTest:
-                            sent.recognizeEmbeddedVMWEs()
+                            sent.recognizeEmbedded()
                             sent.recognizeInterleavingVMWEs()
 
                     sent = Sentence(senIdx)
@@ -261,20 +261,23 @@ class Corpus:
             return sentences, sentNum, mweNum
 
     @staticmethod
-    def getMWEDic(trainingSents):
-        mweTokenDictionary = {}
-        mweDictionary = {}
-        for sent in trainingSents:
+    def getMWEDic(sents):
+        mweDictionary, mweTokenDictionary, mwtDictionary = {}, {}, {}
+        for sent in sents:
             for mwe in sent.vMWEs:
-                if mwe.getLemmaString() in mweDictionary.keys():
-                    mweDictionary[mwe.getLemmaString()] += 1
+                lemmaString = mwe.getLemmaString()
+                if len(mwe.tokens) == 1:
+                    if lemmaString not in mwtDictionary:
+                        mwtDictionary[lemmaString] = mwe.type
+                if lemmaString in mweDictionary:
+                    mweDictionary[lemmaString] += 1
                     for token in mwe.tokens:
                         if token.lemma.strip() != '':
                             mweTokenDictionary[token.lemma] = 1
                         else:
                             mweTokenDictionary[token.text] = 1
                 else:
-                    mweDictionary[mwe.getLemmaString()] = 1
+                    mweDictionary[lemmaString] = 1
                     for token in mwe.tokens:
                         if token.lemma.strip() != '':
                             mweTokenDictionary[token.lemma] = 1
@@ -290,16 +293,22 @@ class Corpus:
                             mweDictionary.pop(key2, None)
         path = os.path.join(Paths.iterationPath, 'dic.txt')
         if not XPParams.useCrossValidation and PrintParams.createDictionary:
-            Report.createMWELexic(mweDictionary, path)
-        return mweDictionary, mweTokenDictionary
+            reports.createMWELexic(mweDictionary, path)
 
-    @staticmethod
-    def initializeSents(sents):
+
+        return mweDictionary, mweTokenDictionary, mwtDictionary
+
+    def initializeSents(self, training=True):
         # Erasing each effect of the previous iteration
+        sents = self.trainingSents
+        if not training:
+            sents = self.testingSents
+
         for sent in sents:
             sent.identifiedVMWEs = []
             sent.initialTransition = None
             sent.featuresInfo = []
+            sent.blackMergeNum = 0
             for mwe in sent.vMWEs:
                 mwe.isInTrainingCorpus = 0
 
@@ -310,6 +319,8 @@ class Corpus:
             self.testingSents = self.testDataSet
 
         if XPParams.useCrossValidation:
+            self.trainDataSet = self.trainDataSet
+            self.testDataSet = []
             return [], []
 
         if len(self.trainingSents) <= 0:
@@ -324,9 +335,8 @@ class Corpus:
 
         return self.trainingSents, self.testingSents
 
-    @staticmethod
-    def getRangs(sents):
-
+    def getRangs(self):
+        sents = self.trainDataSet
         testNum = int(len(sents) * 0.2)
         testRanges = [[0, testNum], [testNum, 2 * testNum], [2 * testNum, 3 * testNum], [3 * testNum, 4 * testNum],
                       [4 * testNum, len(sents)]]
@@ -335,16 +345,18 @@ class Corpus:
                        [0, 2 * testNum, 3 * testNum, len(sents)], [0, 3 * testNum, 4 * testNum, len(sents)],
                        [0, 4 * testNum]]
 
-        return [testRanges, trainRanges]
+        return testRanges, trainRanges
 
-    def divideSents(self, testing, training, x):
-
-        self.testingSents = self.trainDataSet[testing[x][0]: testing[x][1]]
-        if len(training[x]) == 2:
-            self.trainingSents = self.trainDataSet[training[x][0]: training[x][1]]
+    def divideSents(self):
+        x =  XPParams.currentIteration
+        if self.testRange is None or self.trainRange is None :
+            return
+        self.testingSents = self.trainDataSet[self.testRange[x][0]: self.testRange[x][1]]
+        if len(self.trainRange[x]) == 2:
+            self.trainingSents = self.trainDataSet[self.trainRange[x][0]: self.trainRange[x][1]]
         else:
-            self.trainingSents = self.trainDataSet[training[x][0]: training[x][1]] + \
-                                 self.trainDataSet[training[x][2]: training[x][3]]
+            self.trainingSents = self.trainDataSet[self.trainRange[x][0]: self.trainRange[x][1]] + \
+                                 self.trainDataSet[self.trainRange[x][2]: self.trainRange[x][3]]
 
     @staticmethod
     def getNewIdentifiedMWE(testingSents):
@@ -368,6 +380,20 @@ class Corpus:
 
         return float(newIdenMWEs) / idenMWEs, float(semiNewIdenMWEs) / idenMWEs
 
+    @staticmethod
+    def getLangsAnalysis():
+        reports.createRootResultFolder()
+        constantConfigFolder = Paths.configsFolder
+        for subdir, dirs, files in os.walk(constantConfigFolder):
+            for dir in dirs:
+                corpus = Corpus(dir)
+                reports.printLangAnalysis(corpus)
+
+
+    def __iter__(self):
+        for sent in self.trainingSents:
+            yield sent
+
 class Sentence:
     """
        a class used to encapsulate all the information of a sentence
@@ -383,6 +409,11 @@ class Sentence:
         self.text = ''
         self.initialTransition = None
         self.featuresInfo = []
+        self.containsEmbedding = False
+        self.containsInterleaving = False
+        self.containsDistributedEmbedding = False
+        self.withRandomSelection = False
+        self.blackMergeNum, self.interleavingNum,self.embeddedNum ,self.distributedEmbeddingNum = 0,0,0,0
 
 
     def getWMWEs(self):
@@ -409,34 +440,45 @@ class Sentence:
             tokensTextList.append(token.text)
         self.text = self.text.strip()
 
-    def recognizeEmbeddedVMWEs(self):
-        if len(self.vMWEs) <= 1:
+    def recognizeEmbedded(self, recognizeIdentified=False):
+        if recognizeIdentified:
+            vmws = self.identifiedVMWEs
+        else:
+            vmws = self.vMWEs
+
+        if len(vmws) <= 1:
             return 0
         result = 0
-        traitedPairs = []
-        for vMwe1 in self.vMWEs:
-            for vMwe2 in self.vMWEs:
-                if vMwe1 is not vMwe2:
-                    isTraited = False
-                    for pair in traitedPairs:
-                        if vMwe1 in pair and vMwe2 in pair:
-                            isTraited = True
-                    if not isTraited:
-                        traitedPairs.append([vMwe1, vMwe2])
-                        # Get The longer VMWE
-                        masterVmwe = vMwe1
-                        slaveVmwe = vMwe2
-                        if len(vMwe2.tokens) > len(vMwe2.tokens):
-                            masterVmwe = vMwe2
-                            slaveVmwe = vMwe1
-                        slaveVmwe.isEmbedded = True
-                        for token in slaveVmwe.tokens:
-                            if masterVmwe not in token.parentMWEs:
-                                slaveVmwe.isEmbedded = False
-                        if slaveVmwe.isEmbedded:
-                            slaveVmwe.directParent = masterVmwe
+        # [x1; x2; x3
+        for vMwe1 in vmws:
+            if vMwe1.isEmbedded:
+                continue
+            for vMwe2 in vmws:
+                if vMwe1 is not vMwe2 and len(vMwe1.tokens) < len(vMwe2.tokens):
+                    if vMwe1.getString() in vMwe2.getString():
+                        vMwe1.isEmbedded = True
+                        if not recognizeIdentified:
+                            self.embeddedNum += 1
+                            self.containsEmbedding = True
+                        result += 1
+                    else:
+                        isEmbedded = True
+                        vMwe2Lemma = vMwe2.getLemmaString()
+                        for token in vMwe1.tokens:
+                            if token.getLemma() not in vMwe2Lemma:
+                                isEmbedded = False
+                                break
+                        if isEmbedded:
+                            vMwe1.isDistributedEmbedding = True
+                            vMwe1.isEmbedded = True
+                            if not recognizeIdentified:
+                                self.containsDistributedEmbedding = True
+                                self.embeddedNum += 1
+                                self.distributedEmbeddingNum += 1
+                                self.containsEmbedding = True
                             result += 1
-        self.getDirectParents()
+        if not recognizeIdentified:
+            self.getDirectParents()
         return result
 
     def recognizeContinouosandSingleVMWEs(self):
@@ -474,12 +516,15 @@ class Sentence:
                 if len(token.parentMWEs) > 1:
                     for parent in token.parentMWEs:
                         if parent is not vmwe:
-                            if parent.isEmbedded:
+                            if parent.isEmbedded or parent.isInterleaving:
                                 continue
-                            parents = sorted(token.parentMWEs, key=lambda VMWE: VMWE.id)
-                            if parent != parents[0]:
+                            if len(parent.tokens) <= len(vmwe.tokens):
                                 parent.isInterleaving = True
-                                result += 1
+                            else:
+                                vmwe.isInterleaving = True
+                            self.containsInterleaving = True
+                            self.interleavingNum +=1
+                            result += 1
         return result
 
     def getCorpusText(self, gold=True):
@@ -532,12 +577,13 @@ class Sentence:
         return lines
 
     def isPrintable(self):
-
-        if not PrintParams.printSentsWithEmbeddedMWEs:
-            return
-        for mwe in self.vMWEs:
-            if mwe.isEmbedded:
-                return True
+        if len(self.vMWEs )> 2:
+            return True
+        # if not PrintParams.printSentsWithEmbeddedMWEs:
+        #     return
+        # for mwe in self.vMWEs:
+        #     if mwe.isEmbedded:
+        #         return True
         return False
 
 
@@ -554,18 +600,19 @@ class Sentence:
         for token in self.tokens:
             token.getDirectParent()
 
-
     @staticmethod
     def getTokens(elemlist):
         if isinstance(elemlist, Token):
             return [elemlist]
-        result = []
-        for elem in elemlist:
-            if isinstance(elem, Token):
-                result.append(elem)
-            elif isinstance(elem, list):
-                result.extend(Sentence.getTokens(elem))
-        return result
+        if isinstance(elemlist, collections.Iterable):
+            result = []
+            for elem in elemlist:
+                if isinstance(elem, Token):
+                    result.append(elem)
+                elif isinstance(elem, list):
+                    result.extend(Sentence.getTokens(elem))
+            return result
+        return [elemlist]
 
     @staticmethod
     def getTokenLemmas(tokens):
@@ -603,26 +650,25 @@ class Sentence:
                 identifiedMWE += str(mwe) + '\n\n'
         else:
             identifiedMWE = ''
-        featuresInfo = ''
+        # featuresInfo = ''
 
         result = ''
         transition = self.initialTransition
         idx = 0
+        tab = '&nbsp;'
         while True:
-            type = ''
-            configuration = ''
             if transition is not None:
                 if transition.type is not None:
                     type = transition.type.name
                 else:
-                    type = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+                    type = tab * 8
                 configuration = str(transition.configuration)
-                if type.startswith('MERGE') :
-                    type = '**'+type+'**&nbsp;&nbsp;&nbsp;'
+                if type.startswith('MERGE') or type.startswith('WHITE') :
+                    type = '**'+type+'**' + tab * 3
                 if len(type) == 'SHIFT':
-                    type = type + '&nbsp;&nbsp;&nbsp;'
+                    type = type  + tab * 3
                 result += '\n\n' + str(
-                    transition.id) + '- ' + type + '&nbsp;&nbsp;&nbsp;' + '>' + '&nbsp;&nbsp;&nbsp;' + configuration + '\n\n'
+                    transition.id) + '- ' + type + tab * 3 + '>'  + tab * 3 + configuration + '\n\n'
                 if transition.next is None:
                     break
                 transition = transition.next
@@ -640,15 +686,19 @@ class Sentence:
             else: text+=  token.text +  ' '
 
         return '## Sentence No. ' + str(self.id) + ' - ' + self.sentid + '\n' + text + \
-               '\n### Existing MWEs: \n' + vMWEText + identifiedMWE \
-               + '\n' + result # + str(self.initialTransition) + '\n### Features: \n' + featuresInfo
+               '\n### Existing MWEs: \n' + vMWEText + identifiedMWE  #+ 'black Merge Num : ' + str(self.blackMergeNum) + ' Interleaving Num: ' + str(self.interleavingNum) \
+               #+ '\n' + result #+ str(self.initialTransition) + '\n### Features: \n' + featuresInfo
+
+    def __iter__(self):
+        for vmwe in self.vMWEs:
+            yield vmwe
 
 class VMWE:
     """
         A class used to encapsulate the information of a verbal multi-word expression
     """
 
-    def __init__(self, id, token=None, type='', isEmbedded=False, isInterleaving=False, isInTrainingCorpus=0):
+    def __init__(self, id, token=None, type='', isEmbedded=False, isInterleaving=False,isDistributedEmbedding= False, isInTrainingCorpus=0):
         self.id = int(id)
         self.isInTrainingCorpus = isInTrainingCorpus
         self.tokens = []
@@ -658,6 +708,7 @@ class VMWE:
             self.tokens.append(token)
         self.type = type
         self.isEmbedded = isEmbedded
+        self.isDistributedEmbedding = isDistributedEmbedding
         self.isInterleaving = isInterleaving
         self.isVerbal = True
         self.directParent = None
@@ -678,61 +729,79 @@ class VMWE:
 
     @staticmethod
     def haveSameParents(tokens):
-        hasParent = True
         # Do they have all a parent?
         for token in tokens:
-            if len(token.parentMWEs) == 0:
-                return False
+            if not token.parentMWEs:
+                return None
         # Get all parents of tokens
-        parents = []
+        parents = set()
         for token in tokens:
             for parent in token.parentMWEs:
-                if parent not in parents:
-                    parents.append(parent)
+                    parents.add(parent)
+        if len(parents) == 1:
+            return list(parents)
+
         selectedParents = list(parents)
-        for parent in list(parents):
+        for parent in parents:
             for token in tokens:
                 if parent not in token.parentMWEs:
                     if parent in selectedParents:
                         selectedParents.remove(parent)
-        if len(selectedParents) >= 1:
-            return True
-        return False
 
-    @staticmethod
-    def haveSameDirectParents(s0, s1):
-        if isinstance(s0, Token) and isinstance(s1, Token):
-            return s0.directParent == s1.directParent
+        for parent in list(selectedParents):
+            if parent.isInterleaving or parent.isDistributedEmbedding:
+                selectedParents.remove(parent)
+        return selectedParents
+
+    # @staticmethod
+    # def haveSameDirectParents(s0, s1):
+    #     if isinstance(s0, Token) and isinstance(s1, Token):
+    #         return s0.directParent == s1.directParent
         #if isinstance(s0, list):
 
 
     @staticmethod
-    def getSharedVMWEs(tokens):
-        hasParent = True
+    def getParents(tokens, type=None):
+        if len(tokens) == 1:
+            if tokens[0].parentMWEs:
+                for vmwe in tokens[0].parentMWEs:
+                    if len(vmwe.tokens) == 1:# and vmwe.type.lower() != type:
+                        if type is not None:
+                            if vmwe.type.lower() == type.lower():
+                                return [vmwe]
+                            else:
+                                return None
+                        else:
+                            return [vmwe]
+
         # Do they have all a parent?
         for token in tokens:
             if len(token.parentMWEs) == 0:
-                hasParent = False
-                break
-        if hasParent:
-            # Get all parents of tokens
-            parents = []
+                return None
+
+        # Get all parents of tokens
+        parents = set()
+        for token in tokens:
+            for parent in token.parentMWEs:
+                parents.add(parent)
+        selectedParents = list(parents)
+        for parent in parents:
+            if len(parent.tokens) != len(tokens):
+                if parent in selectedParents:
+                    selectedParents.remove(parent)
+                continue
             for token in tokens:
-                for parent in token.parentMWEs:
-                    if parent not in parents:
-                        parents.append(parent)
-            selectedParents = list(parents)
-            for parent in list(parents):
-                if len(parent.tokens) != len(tokens):
+                if parent not in token.parentMWEs:
                     if parent in selectedParents:
                         selectedParents.remove(parent)
-                    continue
-                for token in tokens:
-                    if parent not in token.parentMWEs:
-                        if parent in selectedParents:
-                            selectedParents.remove(parent)
-            return selectedParents
-        return None
+        for parent in list(selectedParents):
+            if parent.isInterleaving or parent.isDistributedEmbedding:
+                selectedParents.remove(parent)
+        if type is not None:
+            for parent in list(selectedParents):
+                if parent.type.lower() != type:
+                    selectedParents.remove(parent)
+        return selectedParents
 
     # def getDirectParent(self):
     #     self.directParent = None
@@ -757,13 +826,13 @@ class VMWE:
             isInterleaving = ', Interleaving '
         isEmbedded = ''
         if self.isEmbedded:
-            isEmbedded = ', Embedded'
+            if self.isDistributedEmbedding:
+                isEmbedded = ', DistributedEmbedding '
+            else:
+                isEmbedded = ', Embedded '
             # isContinousExp =''
             # if self.isContinousExp:
             # isContinousExp = 'Continous'
-        inTrainingCorpus = ''
-        if self.isInTrainingCorpus != 0:
-            inTrainingCorpus = ', ' + str(self.isInTrainingCorpus)
         type = ''
         if self.type != '':
             type = '(' + self.type
@@ -771,16 +840,17 @@ class VMWE:
                 type += ', ' + str(self.isInTrainingCorpus) + ')'
             else:
                 type += ')'
-        tokenText = 'Tokens : \n'
-        for token in self.tokens:
-            tokenText += token.text + '\n' # ' parent: ' + str(token.directParent.id) + '\n'
-        return str(self.id) + '- ' + '**' + tokensStr + '** ' + type + isEmbedded + isInterleaving + tokenText
+        return str(self.id) + '- ' + '**' + tokensStr + '** ' + type + isEmbedded + isInterleaving
+
+    def __iter__(self):
+        for t in self.tokens:
+            yield t
 
     def getString(self):
         result = ''
         for token in self.tokens:
             result += token.text + ' '
-        return result[:-1]
+        return result[:-1].lower()
 
     def getLemmaString(self):
         result = ''
@@ -789,7 +859,7 @@ class VMWE:
                 result += token.lemma + ' '
             else:
                 result += token.text + ' '
-        return result[:-1]
+        return result[:-1].lower()
 
     def In(self, vmwes):
 
@@ -799,7 +869,27 @@ class VMWE:
 
         return False
 
+    def __eq__(self, other):
+        if  not isinstance(other, VMWE):
+            raise TypeError()
+        if self.getLemmaString() == other.getLemmaString():
+            return True
+        return False
 
+    def __hash__(self):
+        return hash(self.getLemmaString())
+
+    def __contains__(self, vmwe):
+        if not isinstance(vmwe, VMWE):
+            raise TypeError()
+        if vmwe is self or vmwe.getLemmaString() == self.getLemmaString():
+            return False
+        if vmwe.getLemmaString() in self.getLemmaString():
+            return True
+        for token in vmwe.tokens:
+            if token.getLemma() not in self.getLemmaString():
+                return False
+        return True
 
 class Token:
     """
@@ -846,6 +936,13 @@ class Token:
             if token.text.lower() == self.text.lower() and token.position == self.position:
                 return True
         return False
+
+    def isMWT(self):
+        if self.parentMWEs:
+            for vmw in self.parentMWEs:
+                if len(vmw.tokens) == 1:
+                    return vmw
+        return None
 
     def __str__(self):
         parentTxt = ''

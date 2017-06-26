@@ -1,0 +1,605 @@
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/halsaied/Documents/IdenSys/Src/identifier.py
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: False
+WARNING:root:Automatic Annotation: True
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: True
+WARNING:root:use Dynamic Oracle: True
+WARNING:root:online Training: True
+WARNING:root:learn With Errors: False
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/Auto/CV/DynamicOracle
+WARNING:root:BG
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 17408.0 315294
+WARNING:root:Traingin Time: 0:01:14.624030
+WARNING:root:Ordinary:  F-Score: 0.627 Recall: 0.553 Precision: 0.724
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 18540.0 315294
+WARNING:root:Traingin Time: 0:01:15.850532
+WARNING:root:Ordinary:  F-Score: 0.582 Recall: 0.472 Precision: 0.759
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 20596.0 315294
+WARNING:root:Traingin Time: 0:01:11.602230
+WARNING:root:Ordinary:  F-Score: 0.548 Recall: 0.446 Precision: 0.711
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 20463.0 315294
+WARNING:root:Traingin Time: 0:01:12.881943
+WARNING:root:Ordinary:  F-Score: 0.520 Recall: 0.400 Precision: 0.743
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 20194.0 315294
+WARNING:root:Traingin Time: 0:01:10.219746
+WARNING:root:Ordinary:  F-Score: 0.547 Recall: 0.446 Precision: 0.708
+WARNING:root:CS
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 94481.0 1481060
+WARNING:root:Traingin Time: 0:17:34.446900
+WARNING:root:Ordinary:  F-Score: 0.732 Recall: 0.651 Precision: 0.836
+WARNING:root:On Embedded only:  F-Score: 1.379 Recall: 1.000 Precision: 2.222
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 98822.0 1481060
+WARNING:root:Traingin Time: 0:17:48.066627
+WARNING:root:Ordinary:  F-Score: 0.726 Recall: 0.645 Precision: 0.829
+WARNING:root:On Embedded only:  F-Score: 0.769 Recall: 1.000 Precision: 0.625
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 92342.0 1481060
+WARNING:root:Traingin Time: 0:16:26.545765
+WARNING:root:Ordinary:  F-Score: 0.717 Recall: 0.636 Precision: 0.821
+WARNING:root:On Embedded only:  F-Score: 1.286 Recall: 1.000 Precision: 1.800
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 94351.0 1481060
+WARNING:root:Traingin Time: 0:17:51.294359
+WARNING:root:Ordinary:  F-Score: 0.719 Recall: 0.651 Precision: 0.804
+WARNING:root:On Embedded only:  F-Score: 1.481 Recall: 1.000 Precision: 2.857
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 97708.0 1481060
+WARNING:root:Traingin Time: 0:18:03.570887
+WARNING:root:Ordinary:  F-Score: 0.712 Recall: 0.631 Precision: 0.817
+WARNING:root:On Embedded only:  F-Score: 1.407 Recall: 1.000 Precision: 2.375
+WARNING:root:DE
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 15417.0 241680
+WARNING:root:Traingin Time: 0:01:36.233391
+WARNING:root:Ordinary:  F-Score: 0.343 Recall: 0.239 Precision: 0.605
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 15222.0 241680
+WARNING:root:Traingin Time: 0:02:03.578147
+WARNING:root:Ordinary:  F-Score: 0.392 Recall: 0.273 Precision: 0.698
+WARNING:root:Cateforization:  F-Score: 0.003 Recall: 0.002 Precision: 0.005
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 15277.0 241680
+WARNING:root:Traingin Time: 0:01:44.918538
+WARNING:root:Ordinary:  F-Score: 0.408 Recall: 0.289 Precision: 0.693
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 15707.0 241680
+WARNING:root:Traingin Time: 0:01:52.140067
+WARNING:root:Ordinary:  F-Score: 0.435 Recall: 0.312 Precision: 0.722
+WARNING:root:On Embedded only:  F-Score: 1.333 Recall: 1.000 Precision: 2.000
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 15567.0 241680
+WARNING:root:Traingin Time: 0:02:06.255964
+WARNING:root:Ordinary:  F-Score: 0.476 Recall: 0.362 Precision: 0.692
+WARNING:root:On Embedded only:  F-Score: 1.200 Recall: 1.000 Precision: 1.500
+WARNING:root:EL
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 15747.0 284644
+WARNING:root:Traingin Time: 0:02:53.702715
+WARNING:root:Ordinary:  F-Score: 0.654 Recall: 0.569 Precision: 0.767
+WARNING:root:Cateforization:  F-Score: 0.007 Recall: 0.006 Precision: 0.008
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 15967.0 284644
+WARNING:root:Traingin Time: 0:03:09.155875
+WARNING:root:Ordinary:  F-Score: 0.491 Recall: 0.428 Precision: 0.578
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 19919.0 284644
+WARNING:root:Traingin Time: 0:03:21.915844
+WARNING:root:Ordinary:  F-Score: 0.589 Recall: 0.575 Precision: 0.603
+WARNING:root:Cateforization:  F-Score: 0.005 Recall: 0.005 Precision: 0.005
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 16899.0 284644
+WARNING:root:Traingin Time: 0:02:43.612910
+WARNING:root:Ordinary:  F-Score: 0.611 Recall: 0.505 Precision: 0.773
+WARNING:root:Cateforization:  F-Score: 0.008 Recall: 0.006 Precision: 0.010
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 17597.0 284644
+WARNING:root:Traingin Time: 0:02:58.192805
+WARNING:root:Ordinary:  F-Score: 0.536 Recall: 0.453 Precision: 0.656
+WARNING:root:Cateforization:  F-Score: 0.010 Recall: 0.009 Precision: 0.013
+WARNING:root:ES
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 10706.0 199766
+WARNING:root:Traingin Time: 0:00:54.899313
+WARNING:root:Ordinary:  F-Score: 0.605 Recall: 0.477 Precision: 0.828
+WARNING:root:On Embedded only:  F-Score: 1.600 Recall: 1.000 Precision: 4.000
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 10506.0 199766
+WARNING:root:Traingin Time: 0:01:02.298272
+WARNING:root:Ordinary:  F-Score: 0.669 Recall: 0.521 Precision: 0.935
+WARNING:root:On Embedded only:  F-Score: 1.333 Recall: 1.000 Precision: 2.000
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 10587.0 199766
+WARNING:root:Traingin Time: 0:01:08.719531
+WARNING:root:Ordinary:  F-Score: 0.680 Recall: 0.569 Precision: 0.845
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 11132.0 199766
+WARNING:root:Traingin Time: 0:01:09.362445
+WARNING:root:Ordinary:  F-Score: 0.726 Recall: 0.646 Precision: 0.828
+WARNING:root:On Embedded only:  F-Score: 1.000 Recall: 1.000 Precision: 1.000
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 15325.0 199766
+WARNING:root:Traingin Time: 0:01:05.198114
+WARNING:root:Ordinary:  F-Score: 0.630 Recall: 0.523 Precision: 0.793
+WARNING:root:FA
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 4513.0 93060
+WARNING:root:Traingin Time: 0:00:44.621338
+WARNING:root:Ordinary:  F-Score: 0.802 Recall: 0.733 Precision: 0.885
+WARNING:root:Cateforization:  F-Score: 0.802 Recall: 0.733 Precision: 0.885
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 5334.0 93060
+WARNING:root:Traingin Time: 0:00:43.433925
+WARNING:root:Ordinary:  F-Score: 0.840 Recall: 0.804 Precision: 0.879
+WARNING:root:Cateforization:  F-Score: 0.840 Recall: 0.804 Precision: 0.879
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 6960.0 93060
+WARNING:root:Traingin Time: 0:00:37.040302
+WARNING:root:Ordinary:  F-Score: 0.825 Recall: 0.808 Precision: 0.842
+WARNING:root:Cateforization:  F-Score: 0.825 Recall: 0.808 Precision: 0.842
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 6807.0 93060
+WARNING:root:Traingin Time: 0:00:39.117669
+WARNING:root:Ordinary:  F-Score: 0.829 Recall: 0.856 Precision: 0.803
+WARNING:root:Cateforization:  F-Score: 0.829 Recall: 0.856 Precision: 0.803
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 6566.0 93060
+WARNING:root:Traingin Time: 0:00:35.837262
+WARNING:root:Ordinary:  F-Score: 0.844 Recall: 0.823 Precision: 0.865
+WARNING:root:Cateforization:  F-Score: 0.844 Recall: 0.823 Precision: 0.865
+WARNING:root:FR
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 52984.0 876072
+WARNING:root:Traingin Time: 0:08:13.767907
+WARNING:root:Ordinary:  F-Score: 0.705 Recall: 0.587 Precision: 0.882
+WARNING:root:On Embedded only:  F-Score: 0.200 Recall: 1.000 Precision: 0.111
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 54586.0 876072
+WARNING:root:Traingin Time: 0:08:12.793663
+WARNING:root:Ordinary:  F-Score: 0.779 Recall: 0.706 Precision: 0.868
+WARNING:root:On Embedded only:  F-Score: 0.667 Recall: 1.000 Precision: 0.500
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 53371.0 876072
+WARNING:root:Traingin Time: 0:07:53.676567
+WARNING:root:Ordinary:  F-Score: 0.765 Recall: 0.689 Precision: 0.860
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 53926.0 876072
+WARNING:root:Traingin Time: 0:07:56.245116
+WARNING:root:Ordinary:  F-Score: 0.769 Recall: 0.687 Precision: 0.873
+WARNING:root:On Embedded only:  F-Score: 1.273 Recall: 1.000 Precision: 1.750
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 53442.0 876072
+WARNING:root:Traingin Time: 0:08:36.132722
+WARNING:root:Ordinary:  F-Score: 0.750 Recall: 0.674 Precision: 0.844
+WARNING:root:On Embedded only:  F-Score: 0.222 Recall: 1.000 Precision: 0.125
+WARNING:root:HE
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 13206.0 199580
+WARNING:root:Traingin Time: 0:01:19.973023
+WARNING:root:Ordinary:  F-Score: 0.192 Recall: 0.110 Precision: 0.755
+WARNING:root:Cateforization:  F-Score: 0.062 Recall: 0.036 Precision: 0.245
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 12904.0 199580
+WARNING:root:Traingin Time: 0:01:12.682351
+WARNING:root:Ordinary:  F-Score: 0.294 Recall: 0.182 Precision: 0.763
+WARNING:root:Cateforization:  F-Score: 0.085 Recall: 0.053 Precision: 0.220
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 12749.0 199580
+WARNING:root:Traingin Time: 0:01:11.110233
+WARNING:root:Ordinary:  F-Score: 0.404 Recall: 0.282 Precision: 0.712
+WARNING:root:Cateforization:  F-Score: 0.077 Recall: 0.054 Precision: 0.136
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 12075.0 199580
+WARNING:root:Traingin Time: 0:01:07.889159
+WARNING:root:Ordinary:  F-Score: 0.219 Recall: 0.128 Precision: 0.762
+WARNING:root:Cateforization:  F-Score: 0.089 Recall: 0.052 Precision: 0.310
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 11064.0 199580
+WARNING:root:Traingin Time: 0:01:07.190439
+WARNING:root:Ordinary:  F-Score: 0.306 Recall: 0.197 Precision: 0.678
+WARNING:root:Cateforization:  F-Score: 0.104 Recall: 0.067 Precision: 0.230
+WARNING:root:On Embedded only:  F-Score: 1.333 Recall: 1.000 Precision: 2.000
+WARNING:root:HU
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 10951.0 175554
+WARNING:root:Traingin Time: 0:02:30.913552
+WARNING:root:Ordinary:  F-Score: 0.814 Recall: 0.823 Precision: 0.805
+WARNING:root:On Embedded only:  F-Score: 0.359 Recall: 1.000 Precision: 0.219
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 11936.0 175554
+WARNING:root:Traingin Time: 0:02:23.984315
+WARNING:root:Ordinary:  F-Score: 0.809 Recall: 0.760 Precision: 0.864
+WARNING:root:On Embedded only:  F-Score: 0.800 Recall: 1.000 Precision: 0.667
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 12826.0 175554
+WARNING:root:Traingin Time: 0:02:28.546147
+WARNING:root:Ordinary:  F-Score: 0.852 Recall: 0.859 Precision: 0.845
+WARNING:root:On Embedded only:  F-Score: 0.059 Recall: 1.000 Precision: 0.030
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 11344.0 175554
+WARNING:root:Traingin Time: 0:02:16.534707
+WARNING:root:Ordinary:  F-Score: 0.795 Recall: 0.841 Precision: 0.754
+WARNING:root:On Embedded only:  F-Score: 0.250 Recall: 1.000 Precision: 0.143
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 11039.0 175554
+WARNING:root:Traingin Time: 0:02:17.998930
+WARNING:root:Ordinary:  F-Score: 0.826 Recall: 0.816 Precision: 0.835
+WARNING:root:On Embedded only:  F-Score: 0.054 Recall: 1.000 Precision: 0.028
+WARNING:root:IT
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 27634.0 774650
+WARNING:root:Traingin Time: 0:05:04.716993
+WARNING:root:Ordinary:  F-Score: 0.230 Recall: 0.178 Precision: 0.325
+WARNING:root:On Embedded only:  F-Score: 0.571 Recall: 1.000 Precision: 0.400
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 45263.0 774650
+WARNING:root:Traingin Time: 0:05:25.899432
+WARNING:root:Ordinary:  F-Score: 0.242 Recall: 0.183 Precision: 0.357
+WARNING:root:On Embedded only:  F-Score: 0.400 Recall: 1.000 Precision: 0.250
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 63815.0 774650
+WARNING:root:Traingin Time: 0:05:02.182527
+WARNING:root:Ordinary:  F-Score: 0.256 Recall: 0.174 Precision: 0.485
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 48659.0 774650
+WARNING:root:Traingin Time: 0:04:39.409944
+WARNING:root:Ordinary:  F-Score: 0.368 Recall: 0.301 Precision: 0.475
+WARNING:root:On Embedded only:  F-Score: 0.500 Recall: 1.000 Precision: 0.333
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 50704.0 774650
+WARNING:root:Traingin Time: 0:04:45.682283
+WARNING:root:Ordinary:  F-Score: 0.264 Recall: 0.174 Precision: 0.546
+WARNING:root:LT
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 27440.0 419272
+WARNING:root:Traingin Time: 0:01:50.409386
+WARNING:root:Ordinary:  F-Score: 0.191 Recall: 0.114 Precision: 0.600
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 25229.0 419272
+WARNING:root:Traingin Time: 0:01:47.925585
+WARNING:root:Ordinary:  F-Score: 0.264 Recall: 0.165 Precision: 0.667
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 25176.0 419272
+WARNING:root:Traingin Time: 0:01:36.408905
+WARNING:root:Ordinary:  F-Score: 0.164 Recall: 0.093 Precision: 0.692
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 27433.0 419272
+WARNING:root:Traingin Time: 0:01:25.915960
+WARNING:root:Ordinary:  F-Score: 0.145 Recall: 0.085 Precision: 0.500
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 29388.0 419272
+WARNING:root:Traingin Time: 0:01:32.059255
+WARNING:root:Ordinary:  F-Score: 0.120 Recall: 0.071 Precision: 0.385
+WARNING:root:MT
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 17361.0 282192
+WARNING:root:Traingin Time: 0:01:40.233216
+WARNING:root:Ordinary:  F-Score: 0.086 Recall: 0.051 Precision: 0.294
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 18164.0 282192
+WARNING:root:Traingin Time: 0:01:20.348454
+WARNING:root:Ordinary:  F-Score: 0.092 Recall: 0.052 Precision: 0.367
+WARNING:root:Cateforization:  F-Score: 0.008 Recall: 0.005 Precision: 0.033
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 17584.0 282192
+WARNING:root:Traingin Time: 0:01:22.042327
+WARNING:root:Ordinary:  F-Score: 0.041 Recall: 0.024 Precision: 0.125
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 17330.0 282192
+WARNING:root:Traingin Time: 0:01:30.571380
+WARNING:root:Ordinary:  F-Score: 0.063 Recall: 0.042 Precision: 0.129
+WARNING:root:Cateforization:  F-Score: 0.031 Recall: 0.021 Precision: 0.065
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 16634.0 282192
+WARNING:root:Traingin Time: 0:01:27.896179
+WARNING:root:Ordinary:  F-Score: 0.092 Recall: 0.058 Precision: 0.231
+WARNING:root:PL
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 28035.0 382478
+WARNING:root:Traingin Time: 0:02:31.819986
+WARNING:root:Ordinary:  F-Score: 0.716 Recall: 0.587 Precision: 0.919
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 24857.0 382478
+WARNING:root:Traingin Time: 0:03:01.278415
+WARNING:root:Ordinary:  F-Score: 0.734 Recall: 0.632 Precision: 0.877
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 24589.0 382478
+WARNING:root:Traingin Time: 0:02:44.352069
+WARNING:root:Ordinary:  F-Score: 0.786 Recall: 0.678 Precision: 0.934
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 23521.0 382478
+WARNING:root:Traingin Time: 0:03:34.909084
+WARNING:root:Ordinary:  F-Score: 0.756 Recall: 0.637 Precision: 0.928
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 23271.0 382478
+WARNING:root:Traingin Time: 0:03:04.394691
+WARNING:root:Ordinary:  F-Score: 0.732 Recall: 0.629 Precision: 0.876
+WARNING:root:On Embedded only:  F-Score: 1.200 Recall: 1.000 Precision: 1.500
+WARNING:root:PT
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 49898.0 718690
+WARNING:root:Traingin Time: 0:10:06.631330
+WARNING:root:Ordinary:  F-Score: 0.679 Recall: 0.592 Precision: 0.797
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 51294.0 718690
+WARNING:root:Traingin Time: 0:06:18.894327
+WARNING:root:Ordinary:  F-Score: 0.685 Recall: 0.603 Precision: 0.792
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 48216.0 718690
+WARNING:root:Traingin Time: 0:06:10.640627
+WARNING:root:Ordinary:  F-Score: 0.703 Recall: 0.620 Precision: 0.813
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 50555.0 718690
+WARNING:root:Traingin Time: 0:05:56.276877
+WARNING:root:Ordinary:  F-Score: 0.671 Recall: 0.563 Precision: 0.832
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 30414.0 718690
+WARNING:root:Traingin Time: 0:05:25.754736
+WARNING:root:Ordinary:  F-Score: 0.653 Recall: 0.537 Precision: 0.834
+WARNING:root:RO
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 100781.0 1557348
+WARNING:root:Traingin Time: 0:09:59.689477
+WARNING:root:Ordinary:  F-Score: 0.854 Recall: 0.805 Precision: 0.910
+WARNING:root:On Embedded only:  F-Score: 0.727 Recall: 1.000 Precision: 0.571
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 104368.0 1557348
+WARNING:root:Traingin Time: 0:15:33.440535
+WARNING:root:Ordinary:  F-Score: 0.873 Recall: 0.821 Precision: 0.933
+WARNING:root:On Embedded only:  F-Score: 0.500 Recall: 1.000 Precision: 0.333
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 100599.0 1557348
+WARNING:root:Traingin Time: 0:15:14.500613
+WARNING:root:Ordinary:  F-Score: 0.868 Recall: 0.816 Precision: 0.927
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 100422.0 1557348
+WARNING:root:Traingin Time: 0:15:22.251581
+WARNING:root:Ordinary:  F-Score: 0.883 Recall: 0.840 Precision: 0.931
+WARNING:root:On Embedded only:  F-Score: 0.500 Recall: 1.000 Precision: 0.333
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 96378.0 1557348
+WARNING:root:Traingin Time: 0:15:48.888457
+WARNING:root:Ordinary:  F-Score: 0.855 Recall: 0.825 Precision: 0.887
+WARNING:root:On Embedded only:  F-Score: 0.333 Recall: 1.000 Precision: 0.200
+WARNING:root:SL
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 23595.0 366570
+WARNING:root:Traingin Time: 0:03:04.590647
+WARNING:root:Ordinary:  F-Score: 0.428 Recall: 0.304 Precision: 0.724
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 24078.0 366570
+WARNING:root:Traingin Time: 0:02:37.947790
+WARNING:root:Ordinary:  F-Score: 0.447 Recall: 0.319 Precision: 0.744
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 22516.0 366570
+WARNING:root:Traingin Time: 0:02:41.677527
+WARNING:root:Ordinary:  F-Score: 0.429 Recall: 0.307 Precision: 0.712
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 23111.0 366570
+WARNING:root:Traingin Time: 0:02:42.672464
+WARNING:root:Ordinary:  F-Score: 0.423 Recall: 0.309 Precision: 0.669
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 21346.0 366570
+WARNING:root:Traingin Time: 0:02:47.333626
+WARNING:root:Ordinary:  F-Score: 0.404 Recall: 0.332 Precision: 0.516
+WARNING:root:SV
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 490.0 6752
+WARNING:root:Traingin Time: 0:00:01.308384
+WARNING:root:Ordinary:  F-Score: 0.333 Recall: 0.214 Precision: 0.750
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 420.0 6752
+WARNING:root:Traingin Time: 0:00:01.207086
+WARNING:root:Ordinary:  F-Score: 0.111 Recall: 0.059 Precision: 1.000
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 444.0 6752
+WARNING:root:Traingin Time: 0:00:01.224025
+WARNING:root:Ordinary:  F-Score: 0.364 Recall: 0.286 Precision: 0.500
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 418.0 6752
+WARNING:root:Traingin Time: 0:00:01.250653
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 430.0 6752
+WARNING:root:Traingin Time: 0:00:05.079211
+WARNING:root:Ordinary:  F-Score: 0.154 Recall: 0.083 Precision: 1.000
+WARNING:root:TR
+WARNING:root:Iteration no.1
+WARNING:root:train as batch
+WARNING:root:Randomlly selected : 43975.0 669760
+WARNING:root:Traingin Time: 0:05:20.555048
+WARNING:root:Ordinary:  F-Score: 0.578 Recall: 0.596 Precision: 0.560
+WARNING:root:Cateforization:  F-Score: 0.058 Recall: 0.060 Precision: 0.056
+WARNING:root:Iteration no.2
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 36802.0 669760
+WARNING:root:Traingin Time: 0:05:09.056929
+WARNING:root:Ordinary:  F-Score: 0.624 Recall: 0.567 Precision: 0.693
+WARNING:root:Cateforization:  F-Score: 0.055 Recall: 0.050 Precision: 0.061
+WARNING:root:On Embedded only:  F-Score: 0.167 Recall: 1.000 Precision: 0.091
+WARNING:root:Iteration no.3
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 41498.0 669760
+WARNING:root:Traingin Time: 0:05:40.615556
+WARNING:root:Ordinary:  F-Score: 0.623 Recall: 0.482 Precision: 0.882
+WARNING:root:Cateforization:  F-Score: 0.060 Recall: 0.047 Precision: 0.085
+WARNING:root:Iteration no.4
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 38174.0 669760
+WARNING:root:Traingin Time: 0:04:15.490204
+WARNING:root:Ordinary:  F-Score: 0.588 Recall: 0.641 Precision: 0.543
+WARNING:root:Cateforization:  F-Score: 0.058 Recall: 0.063 Precision: 0.054
+WARNING:root:Iteration no.5
+WARNING:root:train as batch
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 49508.0 669760
+WARNING:root:Traingin Time: 0:05:22.453275
+WARNING:root:Ordinary:  F-Score: 0.613 Recall: 0.640 Precision: 0.587
+WARNING:root:Cateforization:  F-Score: 0.043 Recall: 0.045 Precision: 0.041
+
+Process finished with exit code 0

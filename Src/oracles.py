@@ -1,437 +1,319 @@
-from features import Extractor
-from transitions import Reduce, WhiteMerge, MergeAsID, MergeAsLVC, MergeAsVPC, MergeAsIReflV, MergeAsOTH, \
-    Transition, \
-    Complete, TransitionType, MWTComplete, Merge
-from corpus import VMWE, Sentence, Token
-from transitions import Shift
-import operator
+import datetime
+import logging
+import random
+import numpy as np
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.linear_model import Perceptron
+from sklearn.multiclass import OutputCodeClassifier
+from sklearn.svm import LinearSVC
 
+import reports
+from transTypes import TransitionType
+from features import Extractor
+from param import XPParams
+from perceptron import MultiClassPerceptron, Vectorizer
+from transitions import Reduce, BlackMerge, Transition, \
+    Complete, MWTComplete, Merge, EmbeddingTransition, MergeAsMWT
+from transitions import Shift
+
+
+class Oracle:
+    @staticmethod
+    def train(corpus):
+        time = datetime.datetime.now()
+        if XPParams.useDynamicOracle:
+            clf = DynamicOracle.train(corpus)
+        elif XPParams.useHybridOracle:
+            logging.info('Hybrid Oracle training')
+            clf = HybridOracle.train(corpus)
+        else:
+            clf = StaticOracle.train(corpus)
+        reports.createStaticParsingReports(corpus.trainingSents)
+        # reports.createOracleErrorsReport(corpus)
+        logging.info('Traingin Time: ' + str(int((datetime.datetime.now() - time).seconds / 60.)))
+        return clf
 
 class StaticOracle:
+
+    @staticmethod
+    def train(corpus):
+        if XPParams.includeEmbedding:
+            logging.info('Static Embedding Oracle')
+            Y, X_dic = StaticOracle.parseCorpus(corpus.trainingSents, EmbeddingOracle)
+        else:
+            logging.info('Static Oracle')
+            Y, X_dic = StaticOracle.parseCorpus(corpus.trainingSents, StaticOracle)
+
+        vec = DictVectorizer()
+        X = vec.fit_transform(X_dic)
+        if XPParams.usePerceptron:
+            transTypes = TransitionType.getAllClasses()
+            featureData = []
+            vec = Vectorizer()
+            for i in range(len(Y)):
+                featureData.append([Y[i], vec.vectorize(X_dic[i])])
+            clf = MultiClassPerceptron(transTypes, featureSet=vec.featureSet, featureData=featureData)
+            clf.train()
+        else:
+            clf = OutputCodeClassifier(Perceptron())
+            # LinearSVC(random_state=0), code_size=2, random_state=0)
+            clf.fit(X, Y)
+        return clf, vec
+
     @staticmethod
     def parseCorpus(sents, cls):
-        features = []
-        labels = []
+        labels, features = [],[]
         for sent in sents:
             # Parse the sentence
             trainingInfo = cls.parseSentence(sent, cls)
             if trainingInfo is not None:
                 labels.extend(trainingInfo[0])
                 features.extend(trainingInfo[1])
-        print len(labels)
-        return [labels, features]
 
-    @staticmethod
-    def parseSentence(sent, cls):
-        # Create the initial transition
-        transition = Transition(isInitial=True, sent=sent)
-        while not transition.isTerminal():
-            transition = cls.getNextTransition(transition, sent, cls)
-        sent.initialTransition = transition.getRoot()
-        labels, features = Extractor.extract(sent)
-        if True or sent.isPrintable():
-            print sent
         return labels, features
 
     @staticmethod
-    def getNextTransition(parent, sent, cls):
+    def parseSentence(sent, cls):
+
+        # Create the initial transition
+        transition = Transition(isInitial=True, sent=sent)
+        while not transition.isTerminal():
+            transition = cls.getNextTransition(transition, sent)
+        sent.initialTransition = transition.getRoot()
+        labels, features = Extractor.extract(sent)
+        return labels, features
+
+    @staticmethod
+    def getNextTransition(parent, sent):
 
         config = parent.configuration
         if config.isInitial:
-            shift = Shift()
-            shift.apply(parent)
+            shift = Shift(sent=sent)
+            shift.apply(parent, sent)
             return shift
 
-        newTransition = cls.checkForMWTComplete(config, parent, sent)
+        newTransition = MWTComplete.check( parent)
         if newTransition is not None:
             return newTransition
 
         # Check for VMWE complete
-        newTransition = cls.checkForVMWEComplete(config, parent, sent)
+        newTransition = Complete.checkForVMWE( parent)
         if newTransition is not None:
             return newTransition
 
-        newTransition = cls.checkForMerge(config, parent)
+        newTransition = Merge.check(parent)
         if newTransition is not None:
             return newTransition
 
         # Check for VMWE complete
-        newTransition = cls.checkForTokenComplete(config, parent, sent)
+        newTransition = Complete.checkForToken(parent)
         if newTransition is not None:
             return newTransition
 
-        if len(config.buffer) == 0 and len(config.stack) > 0:
-            complete = Complete()
+        if not config.buffer and config.stack:
+            complete = Complete(sent=sent)
             complete.apply(parent, sent)
             return complete
         # Apply the default transition: SHIFT
-        shift = Shift()
-        shift.apply(parent)
+        shift = Shift(sent=sent)
+        shift.apply(parent,sent)
         return shift
 
-    @staticmethod
-    def checkForVMWEComplete(config, transition, sent):
-        # Check up for a possible COMPLETE of MWE after a MERGE transition
-        if transition.type == TransitionType.MERGE:
-            if len(config.stack) == 1 and isinstance(config.stack[0], list):
-                vMWE = None
-                parents = []
-                tokens = Sentence.getTokens(config.stack[0])
-                for token in tokens:
-                    if len(token.parentMWEs) == 1:
-                        vMWE = token.parentMWEs[0]
-                        break
-                    for parent in token.parentMWEs:
-                        if parent not in parents:
-                            parents.append(parent)
-                if vMWE is None:
-                    for parent in parents:
-                        for token in tokens:
-                            if parent not in token.parentMWEs:
-                                parents.remove(parent)
-                    if len(parents) > 1:
-                        for parent in parents:
-                            if parent.isInterleaving or parent.isEmbedded:
-                                parents.remove(parent)
-                    vMWE = parents[0]
-                if vMWE is not None and len(vMWE.tokens) == len(tokens):
-                    complete = Complete()
-                    complete.apply(transition, sent, vMWE.id, vMWE.type)
-                    return complete
-        return None
-
-    @staticmethod
-    def checkForTokenComplete(config, parent, sent):
-        # Check again for one word COMPLETE
-        if len(config.stack) > 0 and config.stack[-1] is not None and not isinstance(config.stack[-1], list):
-            if (len(config.stack[-1].parentMWEs) == 0):
-                complete = Complete()
-                complete.apply(parent, sent)
-                return complete
-
-            complete = True
-            for parentVme in config.stack[-1].parentMWEs:
-                if not parentVme.isEmbedded and not parentVme.isInterleaving:
-                    complete = False
-            if complete:
-                complete = Complete()
-                complete.apply(parent, sent)
-                return complete
-
-    @staticmethod
-    def checkForMWTComplete(config, transition, sent):
-
-        if len(config.stack) >= 1 and isinstance(config.stack[0], Token) \
-                and config.stack[0].parentMWEs is not None and len(config.stack[0].parentMWEs) == 1 \
-                and len(config.stack[0].parentMWEs[0].tokens) == 1:
-            mWTComplete = MWTComplete()
-            mWTComplete.apply(transition, sent, config.stack[0].parentMWEs[0].id,
-                              config.stack[0].parentMWEs[0].type)
-            return mWTComplete
-        return None
-
-    @staticmethod
-    def checkForMerge(config, transition):
-        # Check up of a possible MERGE
-        if len(config.stack) > 1:
-            tokens = Sentence.getTokens(config.stack)
-            selectedParents = VMWE.getSharedVMWEs(tokens)
-            if selectedParents is not None and len(selectedParents) == 1 and not selectedParents[0].isEmbedded \
-                    and not selectedParents[0].isInterleaving:
-                merge = Merge()
-                merge.apply(transition)
-                return merge
-        return None
-
-
 class EmbeddingOracle(StaticOracle):
+
     @staticmethod
-    def getNextTransition(parent, sent, cls):
+    def parseSentence(sent, cls):
+
+        sent.initialTransition = EmbeddingTransition(isInitial=True, sent=sent)
+        transition = sent.initialTransition
+        while not transition.isTerminal():
+            transition = cls.getNextTransition(transition, sent)
+        labels, features = Extractor.extract(sent)
+        return labels, features
+
+    @staticmethod
+    def getNextTransition(parent, sent):
         # if len(sent.vMWEs) > 0:
         #     pass
         config = parent.configuration
         if config.isInitial:
-            shift = Shift()
-            shift.apply(parent)
+            shift = Shift(sent=sent)
+            shift.apply(parent, sent)
             return shift
 
-        newTransition = cls.checkForMWTComplete(config, parent, sent)
+        newTransition = MergeAsMWT.check(parent)
         if newTransition is not None:
             return newTransition
 
-        newTransition = cls.checkForMerge(config, parent)
+        newTransition = BlackMerge.check( parent)
         if newTransition is not None:
             return newTransition
 
         # Check for VMWE complete
-        newTransition = cls.checkForReduce(config, parent, sent)
+        newTransition = Reduce.check(parent)
         if newTransition is not None:
             return newTransition
 
         # Apply the default transition: SHIFT
-        shift = Shift()
-        shift.apply(parent)
+        shift = Shift(sent=sent)
+        shift.apply(parent,sent)
         return shift
 
-    @staticmethod
-    def checkForMerge(config, transition):
-        # Check up of a possible MERGE
-        if len(config.stack) > 1:
-
-            s0 = config.stack[-1]
-            s1 = config.stack[-2]
-            #
-            s0Tokens = Sentence.getTokens(s0)
-            s1Tokens = Sentence.getTokens(s1)
-            # #TODO getParent MWE for WHite merge
-            tokens = s1Tokens + s0Tokens
-            shouldMerge = True
-            for token in tokens:
-                if token.directParent is not tokens[0].directParent:
-                    shouldMerge = False
-            # tokens = Sentence.getTokens(config.stack)
-            selectedParents = VMWE.getSharedVMWEs(tokens)
-            if selectedParents is not None and len(selectedParents) > 1:
-                print 'Error'
-            if selectedParents is not None and len(selectedParents) == 1:
-
-                selectedParent = selectedParents[0]
-                if selectedParent.type is not None and selectedParent.type != '':
-                    if selectedParent.type.lower() == 'id':
-                        merge = MergeAsID()
-                    elif selectedParent.type.lower() == 'ireflv':
-                        merge = MergeAsIReflV()
-                    elif selectedParent.type.lower() == 'lvc':
-                        merge = MergeAsLVC()
-                    elif selectedParent.type.lower() == 'vpc':
-                        merge = MergeAsVPC()
-                    else:
-                        merge = MergeAsOTH()
-                    merge.apply(transition)
-                    return merge
-            selectedParents = VMWE.getSharedVMWEs(Sentence.getTokens(config.stack))
-            if selectedParents is not None and len(selectedParents) > 1:
-                print 'Error: two identic MWEs are defined'
-            if selectedParents is not None and len(selectedParents) == 1:
-                if len(config.stack) > 2:
-                    merge = WhiteMerge()
-                    merge.apply(transition)
-                    return merge
-
-        return None
+class DynamicOracle:
 
     @staticmethod
-    def checkForReduce(config, parent, sent):
-
-        empyBufferWithFullStack = len(config.buffer) == 0 and len(config.stack) > 0
-
-        stackWithTopTokenWitoutParents = len(config.stack) > 0 and isinstance(config.stack[-1], Token) and (
-            config.stack[-1].parentMWEs is None or len(config.stack[-1].parentMWEs) == 0)
-
-        stackWithTopTokenOfInterleavingMWE = len(config.stack) > 0 and isinstance(config.stack[-1], Token) and (
-            config.stack[-1].parentMWEs is not None and len(config.stack[-1].parentMWEs) == 1 and
-            config.stack[-1].parentMWEs[0].isInterleaving)
-
-        stackWithSingleListWitOneSharedParentOnly = False
-        if len(config.stack) > 0 and isinstance(config.stack[-1], list):
-            tokens = Sentence.getTokens(config.stack[-1])
-            if len(VMWE.getSharedVMWEs(tokens)) == 1 and not VMWE.getSharedVMWEs(tokens)[0].isEmbedded:
-                stackWithSingleListWitOneSharedParentOnly = True
-
-        if empyBufferWithFullStack or stackWithTopTokenWitoutParents or stackWithSingleListWitOneSharedParentOnly or stackWithTopTokenOfInterleavingMWE:
-            complete = Reduce()
-            complete.apply(parent, sent)
-            return complete
-
-        return None
-
-
-class DynamicOracle(StaticOracle):
-
-
-    @staticmethod
-    def getNextTransition(parent, sent, cls):
-
-        costDic = {}
-        transitions = {}
-        transitions[TransitionType.SHIFT] = Shift()
-        transitions[TransitionType.REDUCE] = Reduce()
-        transitions[TransitionType.WHITE_MERGE] = WhiteMerge()
-        transitions[TransitionType.MERGE_AS_IReflV] = MergeAsIReflV()
-        transitions[TransitionType.MERGE_AS_ID] = MergeAsID()
-        transitions[TransitionType.MERGE_AS_LVC] = MergeAsLVC()
-        transitions[TransitionType.MERGE_AS_VPC] = MergeAsVPC()
-        transitions[TransitionType.MERGE_AS_OTH] = MergeAsOTH()
-
-        for transitionType in transitions.keys():
-            costDic[transitionType] = DynamicOracle.getCost(parent.configuration, sent, transitionType)
-
-        sortedCostDic = sorted(costDic.items(), key=operator.itemgetter(1))
-        for item in sortedCostDic:
-            print item[0]
-            print item[1].configuration
-        transition = transitions(sortedCostDic[0][0])
-
-        transition.apply(parent, sent=sent, vMWEId=None, parse=False)
-        return transition
-
-
-    @staticmethod
-    def getCost(config, sent, transitionType):
-
-        if transitionType == TransitionType.SHIFT:
-            return DynamicOracle.getShiftCost(config, sent)
-        elif transitionType == TransitionType.REDUCE:
-            return DynamicOracle.getReduceCost(config, sent)
-
-        elif transitionType == TransitionType.WHITE_MERGE:
-            return DynamicOracle.getWhiteMergeCost(config, sent)
-        else:
-            return DynamicOracle.getMergeAsCost(config, sent, transitionType)
-
-    @staticmethod
-    def getShiftCost(config, sent):
-
-        cost = 0
-        for vmwe in sent.vMWEs:
-            if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
-                continue
-            nonTopStackElementBelongsToVMW = False
-            if config.stack is not None and len(
-                    config.stack) > 0 and isinstance(config.stack[0], Token) and not config.stack[0].In(vmwe):
-
-                for s in config.stack[1:]:
-                    if s.In(vmwe):
-                        nonTopStackElementBelongsToVMW = True
-                        break
-            elif config.stack is not None and len(
-                    config.stack) > 0 and isinstance(config.stack[0], list):
-                for token in Sentence.getTokens(config.stack[0]):
-                    if token.In(vmwe):
-                        nonTopStackElementBelongsToVMW = True
-                        break
-            if not vmwe.In(sent.identifiedVMWEs) and config is not None and config.buffer is not None and len(
-                    config.buffer) > 0 and config.buffer[0].In(vmwe) and nonTopStackElementBelongsToVMW:
-                cost += 1
-        return cost
-
-    @staticmethod
-    def getReduceCost(config, sent):
-
-        cost = 0
-        for vmwe in sent.vMWEs:
-            if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
-                continue
-            if config.stack is not None and len(
-                    config.stack) > 0 and isinstance(config.stack[0], Token) and config.stack[0].In(vmwe):
-                increaseCost = False
-                for s in config.stack[1:]:
-                    for token in Sentence.getTokens(s):
-                        if token.In(vmwe):
-                            increaseCost = True
-                            break
-                if increaseCost:
-                    cost += 1
+    def train(corpus):
+        transTypes = TransitionType.getAllClasses()
+        clf = MultiClassPerceptron(transTypes)
+        vec = Vectorizer(clf)
+        trainIdx= 0
+        for iterIdx in range(XPParams.perceptronIterations):
+            if iterIdx >= XPParams.explorationIteration:
+                logging.warn('With Exploration')
+            np.random.shuffle(corpus.trainingSents)
+            printIdx = 0
+            for sent in corpus:
+                printSent = False
+                if len(sent.vMWEs) > 1 and (len(sent.vMWEs[0].tokens) == 1 or len(sent.vMWEs[1].tokens) == 1) and printIdx  < 7:
+                    printIdx += 1
+                    printSent = False
+                    # print sent
+                if XPParams.includeEmbedding:
+                    transition = EmbeddingTransition(isInitial=True, sent=sent)
                 else:
-                    for b in config.buffer:
-                        if b.In(vmwe):
-                            cost += 1
-                            break
-            elif config.stack is not None and len(
-                    config.stack) > 0 and isinstance(config.stack[0], list):
-                allBelongstoVmwe = True
-                for token in Sentence.getTokens(config.stack[0]):
-                    if not token.In(vmwe):
-                        allBelongstoVmwe = False
-                        break
-                if allBelongstoVmwe:
-                    increaseCost = False
-                    for s in config.stack[1:]:
-                        for token in Sentence.getTokens(s):
-                            if token.In(vmwe):
-                                increaseCost = True
-                                break
-                        if increaseCost:
-                            cost += 1
-        return cost
+                    transition = Transition(isInitial=True, sent=sent)
+                while not transition.isTerminal():
+                    trainIdx += 1
+                    legalTransDic = transition.getLegalTransDic()
+                    if printSent:
+                        print 'legalTransDic', legalTransDic.keys()
+                    zeroCostTransTypes = TransitionType.sort(transition.getZeroCostTransType())
+                    if printSent:
+                        print 'zeroCostTransTypes', zeroCostTransTypes
+                    featureDict = vec.vectorize(Extractor.getFeatures(transition, sent),updateWeights=True)
+                    argMax, predictedTransTypeValue = 0, transTypes[0]
+                    for transType in transTypes:
+                        current_activation = clf.getCurrentActivation(featureDict, transType)
+                        if current_activation >= argMax:
+                            argMax, predictedTransTypeValue = current_activation, transType
+                    if printSent:
+                        print 'predictedTransTypeValue', predictedTransTypeValue
+                    argMax, zeroCostTransTypevalue = 0, zeroCostTransTypes[0].value
+                    for transType in zeroCostTransTypes:
+                        current_activation = clf.getCurrentActivation(featureDict, transType.value)
+                        if current_activation >= argMax:
+                            argMax, zeroCostTransTypevalue = current_activation, transType.value
+                    if printSent:
+                        print 'zeroCostTransTypevalue', zeroCostTransTypevalue
+                    if not TransitionType.inZeroCostTrans(predictedTransTypeValue, zeroCostTransTypes):
+                        clf.updateWeights(featureDict, zeroCostTransTypevalue, trainIdx=trainIdx)
+                        clf.updateWeights(featureDict, predictedTransTypeValue, add=False, trainIdx=trainIdx)
+                        if DynamicOracle.explore(iterIdx):
+                            predictedTransType = TransitionType.getType(predictedTransTypeValue)
+                            if predictedTransType not in legalTransDic.keys():
+                                nextTransition = random.choice(legalTransDic.values())
+                            else:
+                                nextTransition = legalTransDic[predictedTransType]
+                        else:
+                            nextTransition = Transition.initialize(zeroCostTransTypevalue, sent)
+                    else:
+                        nextTransition = Transition.initialize(predictedTransTypeValue, sent)
+                    if printSent:
+                        print 'nextTransition', nextTransition.type
+                    nextTransition.apply(transition, sent)
+                    transition = nextTransition
+        clf.getAveregedWeights(trainIdx)
+        reports.creatOnlineTrainingReport()
+        return [clf, vec]
 
     @staticmethod
-    def getWhiteMergeCost(config, sent):
-
-        cost = 0
-        for vmwe in sent.vMWEs:
-            if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
-                continue
-            someElementsBelongToVmwe = False
-            someElementsdobotBelongToVmwe = False
-            if config.stack is not None and len(config.stack) > 0:
-                for token in Sentence.getTokens(config.stack[0]):
-                    if token.In(vmwe):
-                        someElementsBelongToVmwe = True
-                    else:
-                        someElementsdobotBelongToVmwe = True
-                increaseCost = False
-                if someElementsBelongToVmwe and someElementsdobotBelongToVmwe:
-                    for s in config.stack[1:]:
-                        for token in Sentence.getTokens(s):
-                            if token.In(vmwe):
-                                increaseCost = True
-                                break
-                        if increaseCost:
-                            break
-                    if not increaseCost:
-                        for b in config.buffer:
-                            if b.In(vmwe):
-                                increaseCost = True
-                                break
-                if increaseCost:
-                    cost += 1
+    def trainFolds(corpus, clf=None, vec=None, foldSize=5):
+        transTypes = TransitionType.getAllClasses()
+        if clf is None or vec is None:
+            clf = MultiClassPerceptron(transTypes)
+            vec = Vectorizer(clf)
+        trainIdx = 0
+        for iterIdx in range(foldSize):
+            np.random.shuffle(corpus.trainingSents)
+            for sent in corpus:
+                if XPParams.includeEmbedding:
+                    transition = EmbeddingTransition(isInitial=True, sent=sent)
                 else:
-                    s0String = ''
-                    for token in Sentence.getTokens(config.stack[0]):
-                        s0String += token.text + ' '
-                    s0String = s0String[:-1]
-                    if vmwe.getString().lower() == s0String.lower():
-                        cost += 1
-        return cost
+                    transition = Transition(isInitial=True, sent=sent)
+                while not transition.isTerminal():
+                    trainIdx += 1
+                    legalTransDic = transition.getLegalTransDic()
+                    zeroCostTransTypes = TransitionType.sort(transition.getZeroCostTransType())
+                    featureDict = vec.vectorize(Extractor.getFeatures(transition, sent), updateWeights=True)
+                    argMax, predictedTransTypeValue = 0, transTypes[0]
+                    for transType in transTypes:
+                        current_activation = clf.getCurrentActivation(featureDict, transType)
+                        if current_activation >= argMax:
+                            argMax, predictedTransTypeValue = current_activation, transType
+
+                    argMax, zeroCostTransTypevalue = 0, zeroCostTransTypes[0].value
+                    for transType in zeroCostTransTypes:
+                        current_activation = clf.getCurrentActivation(featureDict, transType.value)
+                        if current_activation >= argMax:
+                            argMax, zeroCostTransTypevalue = current_activation, transType.value
+                    if not TransitionType.inZeroCostTrans(predictedTransTypeValue, zeroCostTransTypes):
+                        clf.updateWeights(featureDict, zeroCostTransTypevalue, trainIdx=trainIdx)
+                        clf.updateWeights(featureDict, predictedTransTypeValue, add=False, trainIdx=trainIdx)
+                        if DynamicOracle.explore(iterIdx):
+                            predictedTransType = TransitionType.getType(predictedTransTypeValue)
+                            if predictedTransType not in legalTransDic.keys():
+                                nextTransition = Transition.initialize(random.choice(legalTransDic.keys()), sent)
+                            else:
+                                nextTransition = Transition.initialize(predictedTransType, sent)
+                        else:
+                            nextTransition = Transition.initialize(zeroCostTransTypevalue, sent)
+                    else:
+                        nextTransition = Transition.initialize(predictedTransTypeValue, sent)
+                    nextTransition.apply(transition, sent)
+                    transition = nextTransition
+        return [clf, vec]
 
     @staticmethod
-    def getMergeAsCost(config, sent, transitionType):
+    def explore(iterationIdx):
+        if iterationIdx >= XPParams.explorationIteration and random.getrandbits(1):
+            return True
+        return False
 
-        cost = 0
-        for vmwe in sent.vMWEs:
-            if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
-                continue
-            someElementsBelongToVmwe = False
-            someElementsdobotBelongToVmwe = False
-            if config.stack is not None and len(config.stack) > 0:
-                for token in Sentence.getTokens(config.stack[0]):
-                    if token.In(vmwe):
-                        someElementsBelongToVmwe = True
-                    else:
-                        someElementsdobotBelongToVmwe = True
-                increaseCost = False
-                if someElementsBelongToVmwe and someElementsdobotBelongToVmwe:
-                    for s in config.stack[1:]:
-                        for token in Sentence.getTokens(s):
-                            if token.In(vmwe):
-                                increaseCost = True
-                                break
-                        if increaseCost:
-                            break
-                    if not increaseCost:
-                        for b in config.buffer:
-                            if b.In(vmwe):
-                                increaseCost = True
-                                break
-                if increaseCost:
-                    cost += 1
+class HybridOracle:
+
+    @staticmethod
+    def train(corpus):
+        if XPParams.useCrossValidation:
+            corpus.initializeSents()
+        logging.warn('HybridOracle')
+        clf = OutputCodeClassifier(LinearSVC(random_state=0), code_size=2, random_state=0)
+        feats, labels, transitinIdx, transitionThreshold, randommlySelectedIdx = [], [], 0, int(
+            corpus.tokenNum * 2 * XPParams.randomSelectionPercentage), 0
+        for sent in corpus.trainingSents:
+            transition = EmbeddingTransition(isInitial=True, sent=sent)
+            transitinIdx += 1
+            while not transition.isTerminal():
+                legalTransDic = transition.getLegalTransDic()
+                randomSelection = XPParams.useHybridOracle and transitinIdx >= transitionThreshold and random.getrandbits(
+                    1)
+                optimalTransTypes = transition.getOptimalTransTypes()
+                if randomSelection:
+                    sent.withRandomSelection = True
+                    randommlySelectedIdx += 1
+                    nextTransition = random.choice(legalTransDic.values())
                 else:
-                    s0String = ''
-                    for token in Sentence.getTokens(config.stack[0]):
-                        s0String += token.text + ' '
-                    s0String = s0String[:-1]
-                    if vmwe.getString().lower() == s0String.lower():
-                        if transitionType != vmwe.type:
-                            cost += 1
-        return cost
+                    nextTransition = legalTransDic[optimalTransTypes[0]]
+                feats.append(Extractor.getFeatures(transition, sent))
+                labels.append(optimalTransTypes[0].value)
+                nextTransition.apply(transition, sent)
+
+                transition = nextTransition
+                transitinIdx += 1
+        logging.warn('Randomlly selected : ' + str(randommlySelectedIdx) + ' ' + str((corpus.tokenNum * 2)))
+
+        vec = DictVectorizer()
+        X = vec.fit_transform(feats)
+        Y = np.asarray(labels)
+        clf.fit(X, Y)
+        return clf, vec
+

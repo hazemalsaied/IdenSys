@@ -1,33 +1,35 @@
 import os
+
 from corpus import Corpus, VMWE
 from evaluation import Evaluation
 from param import FeatParams, Paths, XPParams
-import logging
-from reports import Report
+import reports
 
 
 class BaseLine:
     @staticmethod
     def identify():
+        """
+        skjdksdjls
+        :return: skjdksdjls
+        """
         if not XPParams.baseline:
             raise Exception('Hazem : Contradictory parameters!')
 
         analysisResults = ''
-        Report.createRootResultFolder()
+        reports.createRootResultFolder()
 
         constantConfigFolder = Paths.configsFolder
         for subdir, dirs, files in os.walk(constantConfigFolder):
             for dir in dirs:
-                Paths.languageName = dir
                 for subdir1, dirs1, configFiles in os.walk(os.path.join(constantConfigFolder, dir)):
-                    corpus = Corpus(os.path.join(Paths.corporaPath, Paths.languageName))
+                    corpus = Corpus(dir)
                     for configFile in configFiles:
                         if not configFile.endswith('.json'):
                             continue
                         configFilePath = os.path.join(constantConfigFolder, Paths.languageName, configFile)
-
                         FeatParams(configFilePath, corpus=corpus)
-                        Corpus.mweDictionary, Corpus.mweTokenDic = Corpus.getMWEDic(corpus.trainingSents)
+                        Corpus.mweDictionary, Corpus.mweTokenDic, Corpus.mwtDictionary = Corpus.getMWEDic(corpus.trainingSents)
                         report = ''
                         for sent in corpus.testingSents:
                             if len(sent.vMWEs) > 1:
@@ -60,14 +62,15 @@ class BaseLine:
                                 report += str(sent)
 
                         with open(os.path.join(Paths.iterationPath, 'examples.md'),
-                                  'w+') as reportFile:
-                            reportFile.write(report)
+                                  'w+') as f:
+                            f.write(report)
 
-                        Evaluation.evaluate(corpus, resultFilePath=os.path.join(Paths.rootResultFolder, '_RESULTS.csv'))
+                        Evaluation.evaluate(corpus)
                         analysisResults += BaseLine.analyze(corpus) +  '\n'
         with open(os.path.join(Paths.rootResultFolder, '_statistics.md'),
-                  'w+') as reportFile:
-            reportFile.write(analysisResults)
+                  'w+') as f:
+            f.write(analysisResults)
+            f.close()
 
 
 
@@ -102,4 +105,4 @@ class BaseLine:
             reportFile.write(newStr)
         return  result
 
-BaseLine.identify()
+# BaseLine.identify()

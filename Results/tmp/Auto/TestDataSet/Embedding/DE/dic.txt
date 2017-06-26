@@ -1,0 +1,2736 @@
+geben es: 62
+
+es geben: 25
+
+heißen es: 18
+
+finden statt: 17
+
+gehen aus: 13
+
+anbieten: 11
+
+einsetzen: 11
+
+feststellen: 10
+
+gehen davon aus: 10
+
+ankündigen: 9
+
+mitteilen: 9
+
+einladen: 8
+
+stattfinden: 8
+
+einstellen: 8
+
+abschließen: 8
+
+teilen mit: 7
+
+nehmen teil: 7
+
+auslösen: 6
+
+laden ein: 6
+
+auftreten: 6
+
+spielen rolle: 6
+
+kündigen an: 6
+
+stellen fest: 6
+
+stellen vor: 6
+
+kommen an: 5
+
+aufnehmen: 5
+
+antreten: 5
+
+umsetzen: 5
+
+treten an: 5
+
+setzen durch: 5
+
+vorstellen: 5
+
+in betrieb nehmen: 5
+
+ausfallen: 4
+
+haben zu tun: 4
+
+auflösen: 4
+
+hängen ab: 4
+
+bieten an: 4
+
+stehen fest: 4
+
+machen aus: 4
+
+aufführen: 4
+
+darstellen: 4
+
+einführen: 4
+
+treten auf: 4
+
+gehen ein: 4
+
+festlegen: 4
+
+ablehnen: 4
+
+angesetzen: 4
+
+teilnehmen: 4
+
+gehen hervor: 4
+
+durchsetzen: 4
+
+gehören an: 4
+
+aufgeben: 4
+
+austragen: 4
+
+rolle spielen: 4
+
+kommen infrage: 3
+
+weisen zurück: 3
+
+gehen es um: 3
+
+anlegen: 3
+
+aufwachsen: 3
+
+werfen vor: 3
+
+absetzen: 3
+
+um+der leben kommen: 3
+
+angesagen: 3
+
+festnehmen: 3
+
+stellen heraus: 3
+
+zuschlagen: 3
+
+ernst nehmen: 3
+
+schließen aus: 3
+
+abziehen: 3
+
+abstimmen: 3
+
+stellen klar: 3
+
+fängen an: 3
+
+ausüben: 3
+
+fordern auf: 3
+
+ausmachen: 3
+
+lernen kennen: 3
+
+finden er|es|sie: 3
+
+ausgehen: 3
+
+lösen aus: 3
+
+zulassen: 3
+
+herstellen: 3
+
+fortsetzen: 3
+
+herausstellen: 3
+
+hinnehmen: 3
+
+halten zurück: 3
+
+umgehen: 3
+
+belaufen er|es|sie auf: 3
+
+geben aus: 3
+
+deuten an: 3
+
+handeln er|es|sie um: 3
+
+kümmern er|es|sie um: 3
+
+laufen aus: 3
+
+auf bein stellen: 3
+
+stehen zu+der verfügung: 2
+
+sehen vor: 2
+
+es gelten: 2
+
+tragen vor: 2
+
+schritt machen: 2
+
+bestehen chance: 2
+
+gibt's: 2
+
+durchführen: 2
+
+knüpfen an: 2
+
+bekennen geben: 2
+
+angeben: 2
+
+zu+der ziel haben: 2
+
+ablösen: 2
+
+melden er|es|sie zu wort: 2
+
+fallen|fällen schwer: 2
+
+zu wort kommen: 2
+
+fest stehen: 2
+
+gab's: 2
+
+wegziehen: 2
+
+nach haus gehen: 2
+
+heben hervor: 2
+
+räumt ein: 2
+
+abgelaufen: 2
+
+unter druck setzen: 2
+
+es gehen: 2
+
+lehnen ab: 2
+
+stellen er|es|sie: 2
+
+ausführen: 2
+
+halten auf: 2
+
+machen spaß: 2
+
+in+der einsatz sein: 2
+
+gehen um: 2
+
+tun er|es|sie: 2
+
+haben chance: 2
+
+feststehen: 2
+
+der fall sein: 2
+
+machen luft: 2
+
+mitgeteilen: 2
+
+grün licht geben: 2
+
+halten fest: 2
+
+weich stellen: 2
+
+sprechen aus: 2
+
+unternehmen: 2
+
+angekündigen: 2
+
+stellen her: 2
+
+ansehen: 2
+
+hinterlassen: 2
+
+sein her: 2
+
+aufrecht erhalten: 2
+
+vorgewerfen: 2
+
+sein auf gut weg: 2
+
+nehmezugest: 2
+
+fehler machen: 2
+
+kommen zugute: 2
+
+tun kein abbruch: 2
+
+stellen vor herausforderung: 2
+
+aussehen: 2
+
+ausrücken: 2
+
+haben bock: 2
+
+führen an: 2
+
+äußern er|es|sie: 2
+
+legen zu: 2
+
+nachgegangen: 2
+
+sagen zu: 2
+
+befinden er|es|sie: 2
+
+fallen auf: 2
+
+stehen an: 2
+
+stehen auf programm: 2
+
+auskunft geben: 2
+
+stoßen auf kritik: 2
+
+bereiten vor: 2
+
+deutlich machen: 2
+
+üben kritik: 2
+
+anschluß finden: 2
+
+anbringen: 2
+
+ausgesuchen: 2
+
+gut zu gesicht stehen: 2
+
+unter druck stehen: 2
+
+zu+der verfügung stehen: 2
+
+zu+der zug kommen: 2
+
+abhalten: 2
+
+gut gehen: 2
+
+stimmen zu: 2
+
+kennenlernen: 2
+
+fortgesetzen: 2
+
+festgenehmen: 2
+
+bringen zu fall: 2
+
+fallen|fällen aus: 2
+
+eingerichten: 2
+
+in+der mittelpunkt stehen: 2
+
+sicherstellen: 2
+
+haben in+der griff: 2
+
+schicken in+der rennen: 2
+
+unterbringen: 2
+
+auffallen: 2
+
+räumen ein: 2
+
+absagen: 2
+
+hinweisen: 2
+
+auslaufen: 2
+
+weisen auf: 2
+
+angreifen: 2
+
+er|es|sie um kümmern: 2
+
+laufen auf hochtour: 2
+
+in+der stich lassen: 2
+
+entscheidung treffen: 2
+
+ausrichten: 2
+
+durchgesetzen: 2
+
+stehen bevor: 2
+
+vorwerfen: 2
+
+abgeweisen: 2
+
+zugehen: 2
+
+aussprechen: 2
+
+fügen an: 2
+
+nichts zuschulden kommen lassen: 2
+
+eingebrochen: 2
+
+stehen da: 2
+
+treffen ein: 2
+
+zu+der verfügung stellen: 2
+
+legen wert: 2
+
+aufgetreten: 2
+
+finden toll: 2
+
+bekanntgeben: 2
+
+stürzen ab: 2
+
+eintragen: 2
+
+stellen ein: 2
+
+anschließen: 2
+
+sehen an: 1
+
+aufzustocken: 1
+
+als sieger hervorgehen: 1
+
+vortrugen: 1
+
+gehen baden: 1
+
+reise antreten: 1
+
+nehmen fest: 1
+
+es geht.: 1
+
+anfallen: 1
+
+unterstellen: 1
+
+deuten hin: 1
+
+es sein denn: 1
+
+er|es|sie ein bild machen: 1
+
+nehmen an: 1
+
+aus der staub machen: 1
+
+weisen hin: 1
+
+speisen ein: 1
+
+anliegerbeitrag erheben: 1
+
+annehmen: 1
+
+ausgerichten: 1
+
+finden einstieg: 1
+
+er|es|sie überschlagen: 1
+
+vorliegen: 1
+
+in kauf nehmen: 1
+
+laufen vorbereitung: 1
+
+sein mit von der partie: 1
+
+von glück sprechen: 1
+
+stehen in+der tatverdacht: 1
+
+zu+der folge haben: 1
+
+haben alle hand voll zu tun: 1
+
+finden hinweis: 1
+
+fertigzustellen: 1
+
+bemüh er|es|sie: 1
+
+sitzen in+der gefängnis: 1
+
+gutgeheißen: 1
+
+starten flucht nach vorne: 1
+
+loszuwerden: 1
+
+probe ernstfall: 1
+
+teilnehme: 1
+
+liegen auf augenhöhe: 1
+
+zurückgetret: 1
+
+gefängnisstrafe verbüßen: 1
+
+stellen er|es|sie tot: 1
+
+richten ein: 1
+
+auszuschöpfen: 1
+
+sitzt auf der trockene: 1
+
+nachgesagen: 1
+
+in mitleidenschaft zogen: 1
+
+aufgepäppeln: 1
+
+an auftrag kommen: 1
+
+zurücksetzen: 1
+
+klischees bedienen: 1
+
+in widerspruch verstricken: 1
+
+erklärung abgeben: 1
+
+er|es|sie nähern: 1
+
+böt erfahrungsschatz: 1
+
+gern sehen: 1
+
+hand anzulegen: 1
+
+aus auge verlieren: 1
+
+abschneide: 1
+
+er|es|sie beschäftig: 1
+
+ruf an: 1
+
+brechen ab: 1
+
+von+der tisch wisch: 1
+
+beziehen er|es|sie: 1
+
+brechen an: 1
+
+name fallen|fällen: 1
+
+rümpfen nase: 1
+
+idee gebären: 1
+
+herrschen hochbetrieb: 1
+
+kommen an+der licht: 1
+
+nerv treffen|triefen: 1
+
+zugestimmen: 1
+
+hergestellt: 1
+
+leiten ein: 1
+
+hinzugefügen: 1
+
+vergessen machen: 1
+
+er|es|sie versöhnen: 1
+
+auf spur bringen: 1
+
+knöpfen er|es|sie vor: 1
+
+fangen an: 1
+
+erzielen ergebnis: 1
+
+mut denken|gemenken: 1
+
+beißen er|es|sie durch: 1
+
+beweis tren an: 1
+
+punkt einfahren: 1
+
+bemühen er|es|sie: 1
+
+groß rede|reden schwungen: 1
+
+auf der sprünge helfen: 1
+
+randthemen widmen: 1
+
+festhalten: 1
+
+angezeigen: 1
+
+in+der visier nehmen: 1
+
+herunterlude: 1
+
+halten negativrekord: 1
+
+machen lust auf mehr: 1
+
+nase vorn haben: 1
+
+liegen in+der bett: 1
+
+nach er|es|sie ziehen: 1
+
+bringen zu+der welt: 1
+
+stehen auf der spiel: 1
+
+nicht entgehen lassen: 1
+
+frist abgelaufen: 1
+
+anrichten: 1
+
+luft nach oben sehen: 1
+
+stehen in+der mittelpunkt: 1
+
+ahmen nach: 1
+
+dagegen sprechen: 1
+
+fehlen es: 1
+
+schüren rezessionsäng: 1
+
+vorgehen: 1
+
+gehen zu ende: 1
+
+verwahren wir: 1
+
+werden zu+der verhängnis: 1
+
+fahrerflucht begehen: 1
+
+auflaueren: 1
+
+kommen nicht von ungefähr: 1
+
+sitzen auf bank: 1
+
+liegengebleiben: 1
+
+stehen unter alkoholeinfluß: 1
+
+machen eindruck: 1
+
+ablichten: 1
+
+frei kaufen: 1
+
+sein aus alter heraus: 1
+
+machen deutlich: 1
+
+in brand setzen: 1
+
+richten aus: 1
+
+zusprechen: 1
+
+haben in+der rücken: 1
+
+über bühne bringen: 1
+
+wert legen: 1
+
+zeigen nach oben: 1
+
+steuer hinterziehen: 1
+
+selbstständig machen: 1
+
+machen gut figur: 1
+
+kommen in genuß: 1
+
+aufpassen: 1
+
+zustimmung geben: 1
+
+prangeren an: 1
+
+weg gehen: 1
+
+vorsehen: 1
+
+umgesetzen: 1
+
+geldabheben: 1
+
+zu viel köche der in+der brei herumrühren: 1
+
+machen mobil: 1
+
+erfahrung machen: 1
+
+werfen auf: 1
+
+legen nach: 1
+
+fertigstellen: 1
+
+schalen ein: 1
+
+streben an: 1
+
+ausgeben: 1
+
+angefang: 1
+
+zu gesicht bekommen: 1
+
+in bein fähren: 1
+
+zuspruch finden: 1
+
+auf tisch legen: 1
+
+zeihen|ziehen an: 1
+
+plattform geben: 1
+
+bleiben übrig: 1
+
+sein zu gast: 1
+
+eindruck vermitteln: 1
+
+abbrechen: 1
+
+anfangen: 1
+
+zurücklegen: 1
+
+fallen in zuständigkeit: 1
+
+er|es|sie geleisten: 1
+
+entscheiden für er|es|sie: 1
+
+auf trainerbank sitzen: 1
+
+in+der bett liegen: 1
+
+auf bühne stehen: 1
+
+um gehen es: 1
+
+hoffnung versprach: 1
+
+lossagen: 1
+
+aufgedecken: 1
+
+ziehen lo: 1
+
+ausschlassen: 1
+
+festzulegen: 1
+
+fallen zu+der opfer: 1
+
+machen aus der not ein tugend: 1
+
+stehen dumm da: 1
+
+in+der visier nommen: 1
+
+ausgerückt: 1
+
+lotto-doppeljackpot knacken: 1
+
+geben er|es|sie: 1
+
+taktstock schwingt: 1
+
+zu+der diskussion stehen: 1
+
+lieferen er|es|sie verfolgungsjagd: 1
+
+stehen gut da: 1
+
+schlafengehen: 1
+
+hauptrolle spallen: 1
+
+beugen er|es|sie: 1
+
+beine denken|gemenken: 1
+
+stecken an: 1
+
+rekord halten: 1
+
+liegen in hand: 1
+
+in+der gesicht schreiben stehen: 1
+
+anknüpfen: 1
+
+bleiben ersparen: 1
+
+erlaubnis geben: 1
+
+tor fallen: 1
+
+er|es|sie versammeln: 1
+
+an glanz verlieren: 1
+
+drohen todesstrafe: 1
+
+er|es|sie um drehen: 1
+
+in+der bett gehen: 1
+
+stoßen auf: 1
+
+machen schluß: 1
+
+finden platz: 1
+
+künden an: 1
+
+stehen auf der bühne: 1
+
+er|es|sie verkriech: 1
+
+statten aus: 1
+
+stein von schultern nommen: 1
+
+vorbereitung laufen: 1
+
+machen du zu+der aff: 1
+
+nehmen ein: 1
+
+auf platz stehen: 1
+
+spaziergang machen: 1
+
+sein außer puste: 1
+
+tiefpunkt erreichen: 1
+
+schuld geben: 1
+
+machen auf weg: 1
+
+er|es|sie zu+der wehr setzen: 1
+
+treeben zu+der verzweiflung: 1
+
+übernehmen ruder: 1
+
+gehen daneben: 1
+
+es aussiehen: 1
+
+gehen an der start: 1
+
+bekannt geben: 1
+
+laufen gespräch: 1
+
+hegen plan: 1
+
+auf programm stehen: 1
+
+ereignen er|es|sie: 1
+
+nach haus geschickt: 1
+
+uraufgeführt: 1
+
+gelten es: 1
+
+machen unsich: 1
+
+zurückkehren: 1
+
+stellen aus: 1
+
+falle durch: 1
+
+heiß es: 1
+
+geht's: 1
+
+stellen auf: 1
+
+willkommen geheiß: 1
+
+klar machen: 1
+
+ausgenehmen: 1
+
+einzubringen: 1
+
+fallen ein: 1
+
+giben er|es|sie: 1
+
+zu tun geben: 1
+
+machen schwer: 1
+
+unter er|es|sie ausmachen: 1
+
+geben ab: 1
+
+er|es|sie nicht nehmen lassen: 1
+
+nachweisen: 1
+
+name nennen: 1
+
+ausdrücken: 1
+
+stellten vor: 1
+
+aus bahn werfen: 1
+
+haben schmerz: 1
+
+sein in voll gange: 1
+
+machen mut: 1
+
+an start gehen: 1
+
+setzen er|es|sie ab: 1
+
+harren aus: 1
+
+angesehen: 1
+
+perfekt machen: 1
+
+hoch hergehen: 1
+
+liegen in+der zeitplan: 1
+
+glich aus: 1
+
+er|es|sie blicken lassen: 1
+
+hochgerechnen: 1
+
+vorschlag unterbreiten: 1
+
+gehen notruf ein: 1
+
+bringen mit er|es|sie: 1
+
+werfen schlecht licht: 1
+
+finden fantastisch: 1
+
+davon absehen: 1
+
+angerichtet: 1
+
+sand in auge streu: 1
+
+ausgeschlagen: 1
+
+anstehen: 1
+
+anzubien: 1
+
+vorführen: 1
+
+aufgespüren: 1
+
+durch kakao zogen: 1
+
+drohen strafe: 1
+
+in führung gehen: 1
+
+wachen auf: 1
+
+saisonsieg eingefahren: 1
+
+ausgelaufen: 1
+
+zu+der vernunft kommen: 1
+
+gehen auf+der ganze: 1
+
+ausgebildet: 1
+
+zu kurz kommen: 1
+
+darauf ankommen lassen: 1
+
+machen auftakt: 1
+
+es ben: 1
+
+sehen gelb-rot: 1
+
+entbehren jeglich grundlag: 1
+
+warf vor: 1
+
+ausben: 1
+
+leiten untersuchung ein: 1
+
+in welt setzen: 1
+
+eingehe: 1
+
+ich schämen: 1
+
+in schieflage geraten: 1
+
+spaß haben: 1
+
+anziehen: 1
+
+wissen was kommen: 1
+
+stellen sicher: 1
+
+darlegen: 1
+
+kennen gelernt: 1
+
+risiko eingehen: 1
+
+hoffnung erfüllen: 1
+
+schenken er|es|sie nichts: 1
+
+weltrekord geknackt: 1
+
+sein der ausschlaggebend punkt: 1
+
+rufen zurück: 1
+
+zu+der witwe brauchen|gemachen: 1
+
+einfluß nehmen: 1
+
+in der wege geleiten|leiten: 1
+
+ausschalten: 1
+
+stehen in+der vordergrund: 1
+
+auszuklammern: 1
+
+auf temperatur bringen: 1
+
+aufgekehmen: 1
+
+haben pech: 1
+
+ofenfrisch servieren: 1
+
+vor idee sprühen: 1
+
+aussiehen: 1
+
+haben pareten: 1
+
+anzubringen: 1
+
+nehmen zu+der vorbild: 1
+
+kommen um+der leben: 1
+
+erkundigen er|es|sie: 1
+
+los gehen es: 1
+
+abzuschließen: 1
+
+wehren ab: 1
+
+heben schatzes: 1
+
+der weg sein der ziel: 1
+
+blöd klingt: 1
+
+ausgefallen: 1
+
+einbrech: 1
+
+spiel bestreiten: 1
+
+auf lang bank schieben: 1
+
+abtragen: 1
+
+ausgerasten: 1
+
+auf tagesordnung setzen: 1
+
+lassen es er|es|sie nicht nehmen: 1
+
+gehen auf tour: 1
+
+auf straße gehen: 1
+
+geraten unter druck: 1
+
+in+der verdacht stehen: 1
+
+auf punkt bringen: 1
+
+streten ab: 1
+
+stehen vor: 1
+
+engagieren er|es|sie: 1
+
+zugeben: 1
+
+ausgestrahlen: 1
+
+geben aus.: 1
+
+genieren ich: 1
+
+drohen insolvenz: 1
+
+zu bieten haben: 1
+
+luft holen: 1
+
+sein versehen: 1
+
+anstimmen: 1
+
+liegen in führung: 1
+
+eingeschalten: 1
+
+baugenehmigung erteilen: 1
+
+hauen raus: 1
+
+weitergehen: 1
+
+eingesetzen: 1
+
+zu+der inhalt haben: 1
+
+in schublade passen: 1
+
+er|es|sie schämen: 1
+
+rolle spielten: 1
+
+mit alle mittel|mitteln wehren: 1
+
+vorzubereit: 1
+
+kurz treten: 1
+
+abzuhängen: 1
+
+gehen es um+der: 1
+
+kommen zu+der duell: 1
+
+verständigen er|es|sie: 1
+
+aufhalten: 1
+
+lassen kalt: 1
+
+in konflikt kommen: 1
+
+eingetragen: 1
+
+haben spaß: 1
+
+in gang setzen: 1
+
+geben ein aus: 1
+
+laufen schief: 1
+
+auf lauer gelegen|langen: 1
+
+anführen: 1
+
+stellen unter beweis: 1
+
+in empfang genommen: 1
+
+er|es|sie der leben nehmen: 1
+
+in lage sein: 1
+
+reichen nicht: 1
+
+aufweisen: 1
+
+zahlen aus: 1
+
+in+der schwarz treffen|triefen: 1
+
+verstehen es: 1
+
+stillgelegen: 1
+
+setzen zu: 1
+
+aufheben: 1
+
+zu+der stillschweigen verdonneren: 1
+
+sein nicht mehr der jüngst: 1
+
+freisprechen: 1
+
+tragen aus: 1
+
+in schuss halten: 1
+
+geben debüt: 1
+
+haben eindruck: 1
+
+bezahln teuer: 1
+
+sitzen auf anklagebank: 1
+
+haben frei bahn: 1
+
+liegen hauptaugenmerk auf: 1
+
+markiert 1:0-führung: 1
+
+setz ein: 1
+
+kommen jed hilfe zu spät: 1
+
+geld in hand nehmen: 1
+
+online gehen: 1
+
+abzureißen: 1
+
+greifen über: 1
+
+vornehm: 1
+
+an pranger stellen: 1
+
+festhälen: 1
+
+hals haben: 1
+
+er|es|sie äußern: 1
+
+erstatten anzeige: 1
+
+stehen in+der fokus: 1
+
+handlungsbedarf bestehen: 1
+
+ausschlaggebend: 1
+
+rasten aus: 1
+
+kommen durch: 1
+
+überschreiten rot linie: 1
+
+vorzunehmen: 1
+
+beschwerde eingehen: 1
+
+klar stellen: 1
+
+er|es|sie befreien: 1
+
+stacheln an: 1
+
+klingen nach: 1
+
+stehen für tod: 1
+
+herauszurücken: 1
+
+schließen an: 1
+
+von dauer sein: 1
+
+nehmen in pflicht: 1
+
+betrieb aufnehmen: 1
+
+vermögen eingefror: 1
+
+sein gut beispiel: 1
+
+teiln mit: 1
+
+ausgenommen: 1
+
+begnügen er|es|sie mit: 1
+
+in wohlgefalle auflösen: 1
+
+sein an+der zug: 1
+
+einzuwend: 1
+
+eindruck machen: 1
+
+schlagen nieder: 1
+
+erst stehen: 1
+
+finden mut: 1
+
+abgefertigen: 1
+
+in pflicht nehmen: 1
+
+gehen leer aus: 1
+
+vorarbeit laufen: 1
+
+er|es|sie einstellen: 1
+
+anrufen: 1
+
+geben gas: 1
+
+stehen unter einfluß: 1
+
+machen bewußt: 1
+
+fortgeschritten: 1
+
+stimmt ein: 1
+
+aufgebrochen: 1
+
+kröte schlucken: 1
+
+ermittlung aufnehmen: 1
+
+durch finger schauen: 1
+
+ausmach: 1
+
+anzufeuern: 1
+
+auf der strich schicken: 1
+
+service abgeben: 1
+
+aufrufen: 1
+
+machen angabe: 1
+
+nachben: 1
+
+wiederkehren: 1
+
+gehen zu+der tagesordnung über: 1
+
+ausgeweisen: 1
+
+es stehen: 1
+
+anzubrech: 1
+
+zu+der dialog aufrufen: 1
+
+gehen es: 1
+
+anordnen: 1
+
+ausstellen: 1
+
+zu+der ziel setzen: 1
+
+dfb-pokal holen: 1
+
+auf vordermann bringen: 1
+
+weisen ab: 1
+
+hoffnung schöpfen: 1
+
+mit er|es|sie begnagen: 1
+
+gut überstehen: 1
+
+absehen: 1
+
+legen messlatte hoch: 1
+
+ein gehen noch: 1
+
+haben in+der gepäck: 1
+
+raufladen: 1
+
+werfen in raum: 1
+
+tat begehen: 1
+
+zugeziehen: 1
+
+rausgeschmissen: 1
+
+darum kümmern er|es|sie: 1
+
+schenken er|es|sie: 1
+
+machen druck: 1
+
+aufgeführen: 1
+
+kommen auf sein kosten: 1
+
+in+der zentrum stehen: 1
+
+an+der licht kommen: 1
+
+kommen aus: 1
+
+in verlängerung gehen: 1
+
+vorgefall: 1
+
+gefangen nehmen: 1
+
+vor problem stellen: 1
+
+auswirken: 1
+
+nehmen entgegen: 1
+
+machen er|es|sie sorge|sorgen: 1
+
+hausbesuch machen: 1
+
+er|es|sie bessern: 1
+
+davon kommen: 1
+
+hervorgehen: 1
+
+auffrisch: 1
+
+nachlassen: 1
+
+geben nach: 1
+
+aufgeheizt: 1
+
+sehen er|es|sie zwungen: 1
+
+nehmen vor: 1
+
+tren an: 1
+
+einlassen: 1
+
+schlassen ab: 1
+
+anstellen: 1
+
+er|es|sie gelohnt: 1
+
+bis auf der knochen blamieren: 1
+
+sein zu finden: 1
+
+stehen unter motto: 1
+
+bewerben er|es|sie: 1
+
+blenden aus: 1
+
+geld fließen: 1
+
+eingehen: 1
+
+wissen zu schätzen: 1
+
+zeigen größe: 1
+
+fahren kralle|krallen aus: 1
+
+mit nach haus nehmen: 1
+
+stimmung vermie: 1
+
+stoßen bitter auf: 1
+
+aufgehalten: 1
+
+müh er|es|sie ab: 1
+
+mit auf der weg geben: 1
+
+eindruck erwecken: 1
+
+fall zurück: 1
+
+er|es|sie vertragen: 1
+
+durchfahren|durchführen: 1
+
+auf achs sein: 1
+
+machen zu: 1
+
+lassen in karte schauen: 1
+
+fallen aus: 1
+
+sein hammer: 1
+
+zurücktren: 1
+
+beitreten: 1
+
+festgehalten: 1
+
+abgesetzt: 1
+
+erklären für verrückt: 1
+
+haben hinter er|es|sie: 1
+
+stehen still: 1
+
+kämen vor: 1
+
+spreu von+der reiz|weizen trennen: 1
+
+zu berichten wissen: 1
+
+bringen in bedrängnis: 1
+
+lassen er|es|sie umsetzen: 1
+
+in der jahr kommen: 1
+
+melden an: 1
+
+machen bekanntschaft: 1
+
+auf weg führen: 1
+
+einmotten: 1
+
+auszusteigen: 1
+
+vorstell: 1
+
+vortragen: 1
+
+kommen auf markt: 1
+
+gehen in+der wochenende: 1
+
+ausweichen: 1
+
+in alarmbereitschaft versetzen: 1
+
+sack zumach: 1
+
+in+der gespräch kommen: 1
+
+versetzen werden: 1
+
+rausgewerfen: 1
+
+stehen in erst reihe: 1
+
+der kurz ziehen: 1
+
+herrschen atmosphäre: 1
+
+in gewalt bringen: 1
+
+sein an bord: 1
+
+aushalt: 1
+
+er|es|sie entspannen: 1
+
+in+der rennen gehen: 1
+
+er|es|sie hoffnung machen: 1
+
+stimmt mit ein: 1
+
+geben zu bedenken: 1
+
+stehen unter denkmalschutz: 1
+
+kommen zu kurzschluß: 1
+
+als maßstab nehmen: 1
+
+geben konzert: 1
+
+zu ende gehen: 1
+
+liegen vermutung: 1
+
+anfang machen: 1
+
+einrücken: 1
+
+mit der schlimmst rechnen: 1
+
+er|es|sie mit befassen: 1
+
+schlagen in kerb: 1
+
+hinter fassade stecken: 1
+
+anregen: 1
+
+geben vorstellung: 1
+
+ablegen: 1
+
+beitragen: 1
+
+leicht spiel haben: 1
+
+in besitz nehmen: 1
+
+ruhe geherrschen: 1
+
+untersuchung erben: 1
+
+machen stimmung: 1
+
+eindruck hinterlassen: 1
+
+bieten leistung: 1
+
+unterstützung erfahren: 1
+
+darauf kommen an: 1
+
+machen zu schaffen: 1
+
+schub verleihen: 1
+
+es galt: 1
+
+heruntergeladen: 1
+
+abhängen: 1
+
+in ungnade fallen|gefallen: 1
+
+lohnen er|es|sie: 1
+
+aufstellen: 1
+
+giben zu+der gut: 1
+
+sehen entgegen: 1
+
+plus machen: 1
+
+liegen blank: 1
+
+er|es|sie vorstellen: 1
+
+dazu kommen: 1
+
+einfahren: 1
+
+behalten oberhand: 1
+
+es gehen um: 1
+
+erklären für tabu: 1
+
+drücken aus: 1
+
+einhergehen: 1
+
+einspennen: 1
+
+gutgeschreiben: 1
+
+zeigen auf: 1
+
+er|es|sie stellen: 1
+
+eingebroch: 1
+
+zustimmung erfahren: 1
+
+bilde aus: 1
+
+stehen unter druck: 1
+
+abnehmen: 1
+
+auf plan rufen: 1
+
+vorstellig werden: 1
+
+zurechtkehmen: 1
+
+zu+der ausdruck bringen: 1
+
+nehmen aus: 1
+
+bericht erstatten: 1
+
+geben recht: 1
+
+auf eis legen: 1
+
+richten an: 1
+
+auszuhalt: 1
+
+setzen fest: 1
+
+kein gute haar lassen: 1
+
+steuern bei: 1
+
+machen sinn: 1
+
+anwenden: 1
+
+tun leid: 1
+
+mit beschäftigen er|es|sie: 1
+
+leichter fallen|gefallen: 1
+
+abgesondern: 1
+
+groß werden: 1
+
+sorge|sorgen machen: 1
+
+meistertitel holen: 1
+
+abreißen: 1
+
+ziehen kopf aus der schling: 1
+
+entscheidung treffen|triefen: 1
+
+gehen außer haus: 1
+
+durchgefallen: 1
+
+lösen auf: 1
+
+rahme ab­gestecken: 1
+
+tun weh: 1
+
+marke knacken: 1
+
+aufgewachsen: 1
+
+wollen heißen: 1
+
+eingesetzt: 1
+
+rechnen damit: 1
+
+greifen zu+der bewertungskeule: 1
+
+durchblicken lassen: 1
+
+stehen in+der weg: 1
+
+bringen zu gehör: 1
+
+greifen an: 1
+
+gehen in+der netz: 1
+
+gehen nicht viel: 1
+
+herzuziehen: 1
+
+einräumen: 1
+
+wirken mit: 1
+
+an+der telefon gehen: 1
+
+laufen ermittlung: 1
+
+tun er|es|sie schwer: 1
+
+heimgeholen: 1
+
+sinn ergeben: 1
+
+ausstatten: 1
+
+ansetzen: 1
+
+sacken ein: 1
+
+sein zu ende: 1
+
+in lage sehen: 1
+
+einiges tun: 1
+
+mit offen auge gehen: 1
+
+in kontakt kommen: 1
+
+lassen nach: 1
+
+setzen ein: 1
+
+ausbilden: 1
+
+angebracht: 1
+
+zugesetzen: 1
+
+auf spur sein: 1
+
+machen weis: 1
+
+lied angestimmen: 1
+
+in+der leben rufen: 1
+
+in+der aug behalten: 1
+
+fallen in zeit: 1
+
+eingestrich: 1
+
+spaß machen: 1
+
+dran bleiben: 1
+
+abschneiden: 1
+
+auskommen: 1
+
+gefallen finden: 1
+
+abgesehen: 1
+
+haben nachsehen: 1
+
+kaltstellen: 1
+
+über tisch gelauf: 1
+
+festgestellen: 1
+
+angestimmen: 1
+
+sein zwei paar stiefel: 1
+
+steht's: 1
+
+ausgeschildern: 1
+
+vergangenheit angehören: 1
+
+doppel-titel erringen: 1
+
+auftrittschance geben: 1
+
+abgegeben: 1
+
+zurückgetreten: 1
+
+gefügig machen: 1
+
+stellen rekord auf: 1
+
+zeigen der vogel: 1
+
+in lage bringen: 1
+
+losgehen: 1
+
+ergebnis erzielen: 1
+
+es heißen: 1
+
+stehen auf: 1
+
+folge drehen: 1
+
+nähren verdacht: 1
+
+auf prioritätenliste stehen: 1
+
+abzuschöpfen: 1
+
+machen ratlos: 1
+
+austreten: 1
+
+in betrieb genommen: 1
+
+klär auf: 1
+
+zeihen|ziehen vor: 1
+
+gehen an börse: 1
+
+treten in erscheinung: 1
+
+geben ein chance: 1
+
+wirkung entfalten: 1
+
+richten er|es|sie: 1
+
+politiscch politisch motivieren: 1
+
+außer acht lassen: 1
+
+kommen zu+der vorschein: 1
+
+vorzuschreiben: 1
+
+lob zollen: 1
+
+sehen er|es|sie: 1
+
+opfer bringen: 1
+
+eingesehen: 1
+
+voraussetzung erfüllen: 1
+
+sehen aus: 1
+
+ausgeräumen: 1
+
+festzuhalten: 1
+
+hegen verdacht: 1
+
+aus volle schöpfen: 1
+
+stehen in+der raum: 1
+
+einbinden: 1
+
+auf platz gestehen|stehen: 1
+
+abbieg: 1
+
+außer kraft setzen: 1
+
+aufmachen: 1
+
+nehmen mund voll: 1
+
+stellen auf der bein: 1
+
+geben grün licht: 1
+
+schlagen vor: 1
+
+giben es: 1
+
+bemühen er|es|sie um: 1
+
+ausgebroch: 1
+
+lassen los: 1
+
+erwartungen übertroffen: 1
+
+können auswärtssieg: 1
+
+durchhalt: 1
+
+eingebüßen: 1
+
+eingeladen: 1
+
+um verzeihung bitten: 1
+
+abstellen: 1
+
+haben nas vorn: 1
+
+zu+der anzeig bringen: 1
+
+fiebert entgegen: 1
+
+kommen sehen: 1
+
+herumschlagen: 1
+
+zu buche schlage: 1
+
+weit bringen: 1
+
+einschließen: 1
+
+setzen er|es|sie ein: 1
+
+können leisten: 1
+
+abzulenken: 1
+
+einleuchten: 1
+
+auf der boden der realität gelanden: 1
+
+machen dampf: 1
+
+bleiben aus: 1
+
+ich erwisch: 1
+
+machen klar: 1
+
+sein in bewegung: 1
+
+auf suche gehen: 1
+
+ausgestellen: 1
+
+niederzulegen: 1
+
+zu+der kasse bitten: 1
+
+einweisen: 1
+
+zeigen zuversichtlich: 1
+
+bruchlanden: 1
+
+leisten erst hilfe: 1
+
+hochgelade: 1
+
+wir geleisten: 1
+
+setzen an: 1
+
+setzen ab: 1
+
+gehen Ära zu ende: 1
+
+gehen nichts: 1
+
+geben zu: 1
+
+gehen weiter: 1
+
+gedanke machen: 1
+
+aufriss machen: 1
+
+abspielen: 1
+
+verbergen er|es|sie: 1
+
+herumzuhacken: 1
+
+an er|es|sie nehmen: 1
+
+bedienen er|es|sie: 1
+
+in frage stellen: 1
+
+sein drauf und dran: 1
+
+lassen er|es|sie nicht lange bitten: 1
+
+eingeblenden: 1
+
+in dienst stellen: 1
+
+angelaufen: 1
+
+gehen voran: 1
+
+zunehmen: 1
+
+in+der rennen geschickt: 1
+
+rechnen ab: 1
+
+setzen er|es|sie zusammen aus: 1
+
+in+der stau stehen: 1
+
+stehen zu: 1
+
+in der gang kommen: 1
+
+stehen zu+der disposition: 1
+
+machen weihnachtsgeschenk: 1
+
+stehen unter konkurrenzdruck: 1
+
+sagen kampf an: 1
+
+auf ihr platz zurückverweisen: 1
+
+angenehmen: 1
+
+abzuleiten: 1
+
+zu+der kenntnis nehmen: 1
+
+mitmachen: 1
+
+spitzen zu: 1
+
+tat ereignen er|es|sie: 1
+
+in+der zeug legen: 1
+
+fügen er|es|sie ein: 1
+
+um vermögen bringen: 1
+
+stellen sie: 1
+
+runterbrech: 1
+
+klingen aus: 1
+
+vollen der lobes sein: 1
+
+stehen an.: 1
+
+stehen vor scherbenhaufe: 1
+
+zustimmen: 1
+
+anzulegen: 1
+
+unternehmen ausflug: 1
+
+finger davon lassen: 1
+
+beißen er|es|sie zähne aus: 1
+
+geltung verschaffen: 1
+
+eingeschränken: 1
+
+anzapfen: 1
+
+gespräch führen: 1
+
+haben weich knie: 1
+
+machen wir weis: 1
+
+abgeben: 1
+
+herausgegeben: 1
+
+angepassen: 1
+
+in+der grab spuck: 1
+
+durchbruch schaffen: 1
+
+kommen vor: 1
+
+erleben an+der eigen leib: 1
+
+rolle gespielt: 1
+
+angebot unterbreiten: 1
+
+auf suche beben: 1
+
+heimspiel bestreiten: 1
+
+machen unterschied: 1
+
+weigern er|es|sie: 1
+
+er|es|sie herumschlagen: 1
+
+übersehen: 1
+
+einbrachen: 1
+
+greifen auf: 1
+
+verantwortlich zeichnen: 1
+
+risiko berg: 1
+
+kommen zu stand: 1
+
+weichen aus: 1
+
+zugriffsrecht erteilen: 1
+
+treten auf plan: 1
+
+messen|issen der auge mit: 1
+
+nehmen zu er|es|sie: 1
+
+nimmst an: 1
+
+aufhören: 1
+
+sein in+der kast: 1
+
+bien an: 1
+
+stehen vor der kamera: 1
+
+geben zu tun: 1
+
+zu+der tanze bringen: 1
+
+stellungnahmen: 1
+
+aufzubiet: 1
+
+aufgelauern: 1
+
+angeschlagen: 1
+
+tanzbein schwingen: 1
+
+links liegen lassen: 1
+
+auf idee kommen: 1
+
+einzusehen: 1
+
+ticket lösen: 1
+
+lafen auf hochtour: 1
+
+fliegen auf: 1
+
+schlagen bogen: 1
+
+stellen er|es|sie heraus: 1
+
+in bewegung setzen: 1
+
+sein in zwickmühle: 1
+
+beißen aus: 1
+
+ausgesagen: 1
+
+spenden lob: 1
+
+sein auf leinwand zu sehen: 1
+
+beifall ernten: 1
+
+dastehen: 1
+
+gehen in+der leere: 1
+
+wirken nach: 1
+
+eeinbringen: 1
+
+in rechnung stellen: 1
+
+auffielen: 1
+
+gehen über+der parkett: 1
+
+haben der sage|sagen: 1
+
+schießen ein: 1
+
+zustimmung erteilen: 1
+
+stellen dar: 1
+
+unterscheiden er|es|sie: 1
+
+eingeziehen: 1
+
+erwischen auf falsch fuß: 1
+
+zu tun haben: 1
+
+gehen los: 1
+
+schöpfen hoffnung: 1
+
+zollen anerkennung: 1
+
+kraft walten: 1
+
+in+der klinikum einliefern: 1
+
+wenden ab: 1
+
+geheim halten: 1
+
+straftat verüben: 1
+
+setzen zusammen: 1
+
+erliegen verletzung: 1
+
+nehmen zu+der anlaß: 1
+
+auf der straße gehen: 1
+
+auszustatten: 1
+
+geben abschied: 1
+
+weise aus: 1
+
+fehlen jed spur: 1
+
+aufgewachst: 1
+
+in anspruch nehmen: 1
+
+einnehmen: 1
+
+angelegt: 1
+
+in+der spiel kommen: 1
+
+er|es|sie bedienen: 1
+
+einschränken: 1
+
+anzeigen: 1
+
+sportart treiben: 1
+
+gut machen: 1
+
+in erscheinung treten: 1
+
+wiederzugeben: 1
+
+auf schild hieben: 1
+
+fragen er|es|sie: 1
+
+fündig werden: 1
+
+geben auf: 1
+
+in+der spiel finden: 1
+
+bringen er|es|sie ein: 1
+
+abgestellen: 1
+
+film drehen: 1
+
+fallen durch rost: 1
+
+erweisen er|es|sie: 1
+
+sein in lage: 1
+
+warten auf: 1
+
+gehen darum: 1
+
+sehen gefahr: 1
+
+anreichern: 1
+
+halten an: 1
+
+leisten beitrag: 1
+
+lassen offen: 1
+
+lösen ab: 1
+
+zu+der welt kommen: 1
+
+wache scheben: 1
+
+über bühne gehen: 1
+
+verdient machen: 1
+
+plädieren auf nicht schuldig: 1
+
+über kreuz liegen: 1
+
+anklage erheben: 1
+
+einmischen: 1
+
+steuer sozialabgabe anfallen: 1
+
+fassen zusammen: 1
+
+aufgetauchen: 1
+
+herauszuhalen: 1
+
+machen erfahrung: 1
+
+geben aufschluß: 1
+
+haben in+der reisegepäck: 1
+
+aufgefalle: 1
+
+haben zu bieten: 1
+
+anzubieten: 1
+
+ausweisen: 1
+
+treffen zu: 1
+
+begeben sie: 1
+
+heimreis antreten: 1
+
+toben machtkampf: 1
+
+machen karriere: 1
+
+sitzen in untersuchungshaft: 1
+
+halten kontakt: 1
+
+antretend: 1
+
+gewähren einblick: 1
+
+aufgebürden: 1
+
+sanierungsarbeit laufen: 1
+
+unterhalten er|es|sie: 1
+
+knöpfen vor: 1
+
+publik machen: 1
+
+in+der land ziehen: 1
+
+machen vorwürfe: 1
+
+geln es: 1
+
+kommen zu bundesliga-einsatz: 1
+
+sein dran: 1
+
+mach halt: 1
+
+setzt ab: 1
+
+ergriffen initiative: 1
+
+bringen nichts: 1
+
+befassen er|es|sie mit: 1
+
+korb geben: 1
+
+halten er|es|sie an: 1
+
+umgegangen: 1
+
+gehen schief: 1
+
+in waagschale werfen: 1
+
+haderen mit er|es|sie: 1
+
+eintreten: 1
+
+kein ende nehmen: 1
+
+schobe er|es|sie der schwarz peter zu: 1
+
+sein ein anliegen: 1
+
+er|es|sie der tatsache bewußt sein: 1
+
+in+der fokus stehen: 1
+
+bloßzustellen: 1
+
+ringen mit der tod: 1
+
+hervorbringen: 1
+
+habhaft werden: 1
+
+abheben: 1
+
+spagat gewagen|langen: 1
+
+halten entgegen: 1
+
+ausgeloben: 1
+
+sack zugebund: 1
+
+antrag stellen: 1
+
+bringen ein: 1
+
+in brand gesteckt: 1
+
+tragen mitverantwortung: 1
+
+entfachen hoffnung: 1
+
+brechen ein neu epoche an: 1
+
+beachtung finden: 1
+
+vorschlagen: 1
+
+an boden verlieren: 1
+
+geheimnis lüften: 1
+
+einbringen: 1
+
+er|es|sie verrennen: 1
+
+blut fließen: 1
+
+abgespeisen: 1
+
+ausschlag geben: 1
+
+sein in der lage: 1
+
+heueren an: 1
+
+stehen vor kamera: 1
+
+fuß fassen: 1
+
+eingreifen: 1
+
+gehen auf sendung: 1
+
+machen er|es|sie nützlich: 1
+
+halten es: 1
+
+in+der gespräch bringen: 1
+
+über tellerrand schauen: 1
+
+scheiden aus: 1
+
+haben ahnung: 1
+
+gesetz verabschieden: 1
+
+eingehalten: 1
+
+wirft vor: 1
+
+gehen in ruhestand: 1
+
+schlassen aus: 1
+
+an ein strang ziehen: 1
+
+aufgenehmen: 1
+
+riegelen ab: 1
+
+hoffnung ruhen: 1
+
+aufblühen: 1
+
+abdecken: 1
+
+giben auf: 1
+
+sein regel ausnahme: 1
+
+funke sprüh: 1
+
+anmerken: 1
+
+nehmen unter vertrag: 1
+
+kreuzchen machen: 1
+
+in runde schweifen: 1
+
+liegen vor: 1
+
+zog halbjahresbilanz: 1
+
+wackelig wie ein pudding: 1
+
+freundschaft schließen: 1
+
+aufgewenden: 1
+
+treten amt an: 1
+
+kehren zurück: 1
+
+laufen auf: 1
+
+frage stellen: 1
+
+gehen es abwärts: 1
+
+kümmeren er|es|sie um: 1
+
+in ohr liegen: 1
+
+legen fokus: 1
+
+brechen aus: 1
+
+gehen über bühne: 1
+
+treiben in höhe: 1
+
+machen aus herz mördergrub: 1
+
+breiten aus: 1
+
+aufmerksam machen: 1
+
+es laufen: 1
+
+es giben: 1
+
+teilnehmend: 1
+
+fielen an: 1
+
+werden rechen: 1
+
+handel er|es|sie um: 1
+
+auszuhändigen: 1
+
+machen bogen: 1
+
+kein gut haar lassen: 1
+
+sehen anders: 1
+
+es richten: 1
+
+leisten widerstand: 1
+
+in aussicht stellen: 1
+
+herhalten: 1
+
+befinden wir: 1
+
+freiben: 1
+
+er|es|sie in grenze halten: 1
+
+spielen er|es|sie ball hin und her: 1
+
+ausgesparen: 1
+

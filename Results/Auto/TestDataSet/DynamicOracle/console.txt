@@ -1,0 +1,84 @@
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: False
+WARNING:root:Automatic Annotation: True
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: True
+WARNING:root:use Dynamic Oracle: True
+WARNING:root:online Training: True
+WARNING:root:learn With Errors: False
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/BatchTrain/Auto/TestDataSet/DynamicOracle
+WARNING:root:BG
+WARNING:root:Randomlly selected : 18738.0 315294
+WARNING:root:Traingin Time: 0:01:33.729710
+WARNING:root:Ordinary:  F-Score: 0.633 Recall: 0.530 Precision: 0.785
+WARNING:root:CS
+WARNING:root:Randomlly selected : 96571.0 1481060
+WARNING:root:Traingin Time: 0:17:03.518847
+WARNING:root:Ordinary:  F-Score: 0.733 Recall: 0.659 Precision: 0.824
+WARNING:root:On Embedded only:  F-Score: 1.071 Recall: 1.000 Precision: 1.154
+WARNING:root:DE
+WARNING:root:Randomlly selected : 14715.0 241680
+WARNING:root:Traingin Time: 0:01:28.935871
+WARNING:root:Ordinary:  F-Score: 0.364 Recall: 0.259 Precision: 0.612
+WARNING:root:On Embedded only:  F-Score: 1.000 Recall: 1.000 Precision: 1.000
+WARNING:root:EL
+WARNING:root:Randomlly selected : 17330.0 284644
+WARNING:root:Traingin Time: 0:03:03.623797
+WARNING:root:Ordinary:  F-Score: 0.641 Recall: 0.556 Precision: 0.757
+WARNING:root:Cateforization:  F-Score: 0.007 Recall: 0.006 Precision: 0.009
+WARNING:root:ES
+WARNING:root:Randomlly selected : 11001.0 199766
+WARNING:root:Traingin Time: 0:00:50.279707
+WARNING:root:Ordinary:  F-Score: 0.733 Recall: 0.635 Precision: 0.868
+WARNING:root:On Embedded only:  F-Score: 0.667 Recall: 1.000 Precision: 0.500
+WARNING:root:FA
+WARNING:root:Randomlly selected : 5973.0 93060
+WARNING:root:Traingin Time: 0:00:29.549535
+WARNING:root:Ordinary:  F-Score: 0.842 Recall: 0.815 Precision: 0.870
+WARNING:root:Cateforization:  F-Score: 0.842 Recall: 0.815 Precision: 0.870
+WARNING:root:FR
+WARNING:root:Randomlly selected : 53174.0 876072
+WARNING:root:Traingin Time: 0:07:50.279624
+WARNING:root:Ordinary:  F-Score: 0.774 Recall: 0.701 Precision: 0.863
+WARNING:root:On Embedded only:  F-Score: 0.182 Recall: 1.000 Precision: 0.100
+WARNING:root:HE
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 12330.0 199580
+WARNING:root:Traingin Time: 0:00:59.134277
+WARNING:root:Ordinary:  F-Score: 0.346 Recall: 0.219 Precision: 0.831
+WARNING:root:Cateforization:  F-Score: 0.141 Recall: 0.089 Precision: 0.338
+WARNING:root:On Embedded only:  F-Score: 0.286 Recall: 1.000 Precision: 0.167
+WARNING:root:HU
+WARNING:root:Randomlly selected : 11613.0 175554
+WARNING:root:Traingin Time: 0:01:42.478951
+WARNING:root:Ordinary:  F-Score: 0.845 Recall: 0.851 Precision: 0.838
+WARNING:root:On Embedded only:  F-Score: 0.150 Recall: 1.000 Precision: 0.081
+WARNING:root:IT
+WARNING:root:Randomlly selected : 45001.0 774650
+WARNING:root:Traingin Time: 0:03:36.742017
+WARNING:root:Ordinary:  F-Score: 0.276 Recall: 0.218 Precision: 0.376
+WARNING:root:On Embedded only:  F-Score: 0.400 Recall: 1.000 Precision: 0.250
+WARNING:root:LT
+WARNING:root:Randomlly selected : 27218.0 419272
+WARNING:root:Traingin Time: 0:01:25.746497
+WARNING:root:Ordinary:  F-Score: 0.169 Recall: 0.100 Precision: 0.538
+WARNING:root:MT
+WARNING:root:Randomlly selected : 17177.0 282192
+WARNING:root:Traingin Time: 0:01:16.495533
+WARNING:root:Ordinary:  F-Score: 0.112 Recall: 0.066 Precision: 0.367
+WARNING:root:PL
+WARNING:root:Oracle is not working well, please review the Report
+WARNING:root:Randomlly selected : 25161.0 382478
+WARNING:root:Traingin Time: 0:01:59.970592
+WARNING:root:Ordinary:  F-Score: 0.754 Recall: 0.645 Precision: 0.907
+WARNING:root:PT
+WARNING:root:Randomlly selected : 45648.0 718690
+WARNING:root:Traingin Time: 0:05:16.843012
+WARNING:root:Ordinary:  F-Score: 0.711 Recall: 0.634 Precision: 0.809
+WARNING:root:RO
+WARNING:root:Randomlly selected : 97709.0 1557348
+WARNING:root:Traingin Time: 0:14:25.938636
+
+
+Process finished with exit code 0

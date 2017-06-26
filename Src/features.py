@@ -1,21 +1,17 @@
-from transitions import Configuration
 from corpus import Corpus, Sentence, Token
 from param import FeatParams
-
+from config import Configuration
+from param import XPParams
 
 class Extractor:
     @staticmethod
     def extract(sent):
         transition = sent.initialTransition
         labels, features = [], []
-        while True:
-            if transition.next is None:
-                break
-            if transition.next.type.value != 3:
-                labels.append(transition.next.type.value)
-                features.append(Extractor.getFeatures(transition, sent))
+        while transition.next:
+            labels.append(transition.next.type.value)
+            features.append(Extractor.getFeatures(transition, sent))
             transition = transition.next
-
         sent.featuresInfo = [labels, features]
         return labels, features
 
@@ -25,6 +21,14 @@ class Extractor:
         transDic = {}
         configuration = transition.configuration
 
+        if FeatParams.smartMWTDetection:
+            if configuration.stack and isinstance(configuration.stack[-1], Token) and configuration.stack[-1].getLemma() in Corpus.mwtDictionary:
+                if XPParams.includeEmbedding:
+                    transDic['isMWT_' + Corpus.mwtDictionary[configuration.stack[-1].getLemma()].lower()] = True
+                else:
+                    transDic['isMWT'] = True
+                # return transDic
+        # TODO return transDic directly in this case
         if FeatParams.useStackLength and len(configuration.stack) > 1:
             transDic['StackLengthIs'] = len(configuration.stack)
 
@@ -34,7 +38,7 @@ class Extractor:
             stackElements = configuration.stack
 
         # General linguistic Informations
-        if len(stackElements) > 0:
+        if stackElements:
             elemIdx = len(stackElements) - 1
             for elem in stackElements:
                 Extractor.generateLinguisticFeatures(elem, 'S' + str(elemIdx), transDic)

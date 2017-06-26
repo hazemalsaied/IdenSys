@@ -1,0 +1,94 @@
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/halsaied/Documents/IdenSys/Src/identifier.py
+WARNING:root:Experiement configurations:
+WARNING:root:Real Expermintation: False
+WARNING:root:Cross Validation: False
+WARNING:root:Automatic Annotation: True
+WARNING:root:Baseline: False
+WARNING:root:Include Embedding: True
+WARNING:root:use Dynamic Oracle: True
+WARNING:root:online Training: True
+WARNING:root:learn With Errors: False
+WARNING:root:Root Result Folder: /Users/halsaied/Documents/IdenSys/Results/Auto/TestDataSet/Embedding
+WARNING:root:BG
+WARNING:root:Traingin Time: 0:02:50.576785
+WARNING:root:Ordinary:  F-Score: 0.601 Recall: 0.515 Precision: 0.720
+WARNING:root:Cateforization:  F-Score: 0.595 Recall: 0.510 Precision: 0.713
+WARNING:root:CS
+WARNING:root:Traingin Time: 1:07:32.007682
+WARNING:root:Ordinary:  F-Score: 0.722 Recall: 0.657 Precision: 0.800
+WARNING:root:Cateforization:  F-Score: 0.718 Recall: 0.654 Precision: 0.796
+WARNING:root:On Embedded only:  F-Score: 0.842 Recall: 1.000 Precision: 0.727
+WARNING:root:DE
+WARNING:root:Traingin Time: 0:03:00.849511
+WARNING:root:Ordinary:  F-Score: 0.367 Recall: 0.280 Precision: 0.533
+WARNING:root:Cateforization:  F-Score: 0.182 Recall: 0.139 Precision: 0.265
+WARNING:root:On Embedded only:  F-Score: 0.250 Recall: 1.000 Precision: 0.143
+WARNING:root:EL
+WARNING:root:Traingin Time: 0:04:45.688505
+WARNING:root:Ordinary:  F-Score: 0.635 Recall: 0.566 Precision: 0.724
+WARNING:root:Cateforization:  F-Score: 0.572 Recall: 0.509 Precision: 0.652
+WARNING:root:ES
+WARNING:root:Traingin Time: 0:01:07.263651
+WARNING:root:Ordinary:  F-Score: 0.723 Recall: 0.654 Precision: 0.810
+WARNING:root:Cateforization:  F-Score: 0.702 Recall: 0.635 Precision: 0.786
+WARNING:root:On Embedded only:  F-Score: 0.500 Recall: 1.000 Precision: 0.333
+WARNING:root:FA
+WARNING:root:Traingin Time: 0:00:28.896955
+WARNING:root:Ordinary:  F-Score: 0.829 Recall: 0.813 Precision: 0.846
+WARNING:root:Cateforization:  F-Score: 0.829 Recall: 0.813 Precision: 0.846
+WARNING:root:FR
+WARNING:root:Traingin Time: 0:11:25.418189
+WARNING:root:Ordinary:  F-Score: 0.770 Recall: 0.715 Precision: 0.834
+WARNING:root:Cateforization:  F-Score: 0.750 Recall: 0.697 Precision: 0.813
+WARNING:root:On Embedded only:  F-Score: 0.105 Recall: 1.000 Precision: 0.056
+WARNING:root:HE
+WARNING:root:Traingin Time: 0:01:50.030974
+WARNING:root:Ordinary:  F-Score: 0.346 Recall: 0.219 Precision: 0.831
+WARNING:root:Cateforization:  F-Score: 0.340 Recall: 0.215 Precision: 0.817
+WARNING:root:On Embedded only:  F-Score: 0.333 Recall: 1.000 Precision: 0.200
+WARNING:root:HU
+WARNING:root:Traingin Time: 0:00:57.537067
+WARNING:root:Ordinary:  F-Score: 0.852 Recall: 0.858 Precision: 0.846
+WARNING:root:Cateforization:  F-Score: 0.161 Recall: 0.162 Precision: 0.160
+WARNING:root:On Embedded only:  F-Score: 0.150 Recall: 1.000 Precision: 0.081
+WARNING:root:IT
+WARNING:root:Traingin Time: 0:08:34.943298
+WARNING:root:Ordinary:  F-Score: 0.280 Recall: 0.226 Precision: 0.366
+WARNING:root:Cateforization:  F-Score: 0.263 Recall: 0.213 Precision: 0.345
+WARNING:root:On Embedded only:  F-Score: 0.333 Recall: 1.000 Precision: 0.200
+WARNING:root:LT
+WARNING:root:Traingin Time: 0:03:38.988792
+WARNING:root:Ordinary:  F-Score: 0.171 Recall: 0.100 Precision: 0.583
+WARNING:root:Cateforization:  F-Score: 0.171 Recall: 0.100 Precision: 0.583
+WARNING:root:MT
+WARNING:root:Traingin Time: 0:01:35.338358
+WARNING:root:Ordinary:  F-Score: 0.121 Recall: 0.078 Precision: 0.271
+WARNING:root:Cateforization:  F-Score: 0.102 Recall: 0.066 Precision: 0.229
+WARNING:root:PL
+WARNING:root:Traingin Time: 0:03:42.788221
+WARNING:root:Ordinary:  F-Score: 0.744 Recall: 0.653 Precision: 0.863
+WARNING:root:Cateforization:  F-Score: 0.734 Recall: 0.645 Precision: 0.852
+WARNING:root:PT
+WARNING:root:Traingin Time: 0:11:03.197463
+WARNING:root:Ordinary:  F-Score: 0.709 Recall: 0.642 Precision: 0.793
+WARNING:root:Cateforization:  F-Score: 0.680 Recall: 0.615 Precision: 0.760
+WARNING:root:On Embedded only:  F-Score: 0.667 Recall: 1.000 Precision: 0.500
+WARNING:root:RO
+WARNING:root:Traingin Time: 0:39:41.721898
+WARNING:root:Ordinary:  F-Score: 0.875 Recall: 0.843 Precision: 0.910
+WARNING:root:Cateforization:  F-Score: 0.867 Recall: 0.835 Precision: 0.902
+WARNING:root:On Embedded only:  F-Score: 0.667 Recall: 1.000 Precision: 0.500
+WARNING:root:SL
+WARNING:root:Traingin Time: 0:04:39.990049
+WARNING:root:Ordinary:  F-Score: 0.436 Recall: 0.354 Precision: 0.570
+WARNING:root:Cateforization:  F-Score: 0.416 Recall: 0.337 Precision: 0.543
+WARNING:root:SV
+WARNING:root:Traingin Time: 0:00:02.327066
+WARNING:root:Ordinary:  F-Score: 0.375 Recall: 0.250 Precision: 0.750
+WARNING:root:Cateforization:  F-Score: 0.375 Recall: 0.250 Precision: 0.750
+WARNING:root:TR
+WARNING:root:Traingin Time: 0:09:33.283180
+WARNING:root:Ordinary:  F-Score: 0.624 Recall: 0.585 Precision: 0.670
+WARNING:root:Cateforization:  F-Score: 0.591 Recall: 0.554 Precision: 0.634
+
+Process finished with exit code 0
