@@ -261,14 +261,13 @@ def getLangDetails(corpus, titles, values):
     values.append(corpus.emeddedNum)
 
 def createEvaluationFiles(sents):
-    if not XPParams.useCrossValidation:
-        if not XPParams.realExper:
-            goldCorpus = ''
-            for sent in sents:
-                goldCorpus += sent.getCorpusText() + '\n'
-            path = os.path.join(Paths.iterationPath, 'gold.txt')
-            wFile = open(path, 'w')
-            wFile.write(goldCorpus)
+    if  XPParams.realExper:
+        # goldCorpus = ''
+        # for sent in sents:
+        #     goldCorpus += sent.getCorpusText() + '\n'
+        # path = os.path.join(Paths.iterationPath, 'gold.txt')
+        # wFile = open(path, 'w')
+        # wFile.write(goldCorpus)
 
         predCorpus = ''
         for sent in sents:

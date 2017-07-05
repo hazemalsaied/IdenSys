@@ -1,76 +1,82 @@
-## Sentence No. 11815 - 
-peres oznámil , že izraelské úřady návštěvu samozřejmě povolí , vždyť proti ní **nemají** žádné **námitky** , a když **si** paní bhuttová **nepřeje** **setkat** **se** s izraelci - **nemusí** ; 
+## Sentence No. 875 - 
+**rozejde** **se** parlament , **rozjedou** **se** ústavní i jiní činitelé , občas **se** občan **dozví** , kdo z nich kde byl , kdy **se** **vrátil** a kam **se** zase **chystá** . 
 ### Existing MWEs: 
-1- **nemají námitky** (LVC, 2)
+1- **rozejde se** (IReflV)
 
-2- **si nepřeje** (IReflV, 32)
+2- **rozjedou se** (IReflV)
 
-3- **setkat se nemusí** (IReflV)
+3- **se dozví** (IReflV, 32)
 
-4- **setkat se** (IReflV, 7), Embedded 
+4- **se vrátil** (IReflV, 86)
+
+5- **se chystá** (IReflV, 21)
 
 ### Identified MWEs: 
-1- **setkat se** (IReflV)
+1- **rozejde se** (IReflV)
 
-2- **nepřeje setkat se** (IReflV)
+2- **rozjedou se** (IReflV)
 
-## Sentence No. 19205 - 
-francie **se** také značně **rozdělila** podle generací : na mládež , která **se** evropského dobrodružství **nebojí** , a starší generaci , která by , jak **se** **patří** , radši zůstala při starém . 
+3- **se dozví** (IReflV)
+
+4- **se vrátil** (IReflV)
+
+5- **se chystá** (IReflV)
+
+## Sentence No. 2954 - 
+námitka **je** **nabíledni** : jinak **se** **dívají** na suverenitu a sebeurčení národy , jejichž existence nikdy **nebyla** **brána** **v** **potaz** , a jinak národy , jejichž existence po staletí nebyla samozřejmá a které **mají** ještě i dnes **dost** **důvodů** do budoucnosti nahlížet s opatrností . 
 ### Existing MWEs: 
-1- **se rozdělila** (IReflV, 2)
+1- **je nabíledni** (ID, 1)
 
-2- **se nebojí** (IReflV, 28)
+2- **se dívají** (IReflV, 14)
 
-3- **se patří** (ID, 2)
+3- **nebyla brána v potaz** (ID)
 
-4- **se patří** (IReflV, 2), Interleaving 
+4- **mají dost důvodů** (LVC)
 
 ### Identified MWEs: 
-1- **se nebojí** (IReflV)
+1- **se dívají** (IReflV)
 
-## Sentence No. 31490 - 
-**zakládá** - li **si** někdo na tom , že **se** **vyhýbá** cizím slovům , pak **udělá** **nejlíp** , když **se** nikdy **nepodívá** do etymologického slovníku jazyka českého . 
+2- **brána v potaz** (ID)
+
+## Sentence No. 4822 - 
+když **si** něco podobného **dovolí** opoziční politik v oblasti ekonomiky , je mu vlastně také odpuštěno - předvolební boj začíná vyhlášením výsledků minulých voleb a opozice **si** **může** **vymýšlet** , až **se** **hory** **zelenají** . 
 ### Existing MWEs: 
-1- **zakládá si** (IReflV, 1)
+1- **si dovolí** (IReflV, 5)
 
-2- **se vyhýbá** (IReflV, 9)
+2- **si může vymýšlet** (IReflV, 1)
 
-3- **udělá nejlíp** (ID, 1)
+3- **se hory zelenají** (ID)
 
-4- **se nepodívá** (IReflV, 8)
+4- **se zelenají** (IReflV, 1)
 
 ### Identified MWEs: 
-1- **se vyhýbá** (IReflV)
+1- **se hory zelenají** (IReflV)
 
-2- **si udělá** (IReflV)
-
-3- **se nepodívá** (IReflV)
-
-## Sentence No. 2045 - 
-tam **se** totiž nejlépe **prokázalo** , že **mají** - li strany konfliktu skutečný **zájem** **nalézt** **řešení** , lze odstranit všechny překážky . 
+## Sentence No. 60 - 
+náš student je cílevědomý , pragmatický , **má** většinou konkrétní **představy** o svém budoucím zaměření a v posledních dvou letech **se** **zdá** , že **se** **zvyšuje** i jeho odpovědnost v přístupu ke studiu . 
 ### Existing MWEs: 
-1- **se prokázalo** (IReflV)
+1- **má představy** (LVC, 6)
 
-2- **mají zájem** (LVC, 44)
+2- **se zdá** (IReflV, 73)
 
-3- **nalézt řešení** (LVC)
+3- **se zvyšuje** (IReflV, 12)
 
 ### Identified MWEs: 
-1- **se prokázalo** (IReflV)
+1- **se zdá** (IReflV)
 
-2- **mají zájem** (LVC)
-
-## Sentence No. 2240 - 
-některé fondy **se** ovšem v druhé vlně **dostávají** **na** **tenký** **led** ( srozumitelně řečeno : **pokoušejí** **se** fixlovat ) . 
+## Sentence No. 101 - 
+poté **se** **dostavili** jiní zástupci inkriminované firmy a žádali , abychom **dali** **pokoj** , že dluh bude určitě uhražen , jakmile **budou** **k** **dispozici** prostředky . 
 ### Existing MWEs: 
-1- **se dostávají na tenký led** (ID)
+1- **se dostavili** (IReflV, 17)
 
-2- **se dostávají** (IReflV, 30), Embedded 
+2- **dali pokoj** (ID)
 
-3- **pokoušejí se** (IReflV, 3)
+3- **budou k dispozici** (ID, 36)
 
 ### Identified MWEs: 
-1- **se dostávají** (IReflV)
+1- **se dostavili** (IReflV)
 
-2- **pokoušejí se** (IReflV)
+2- **dali pokoj** (LVC)
+
+3- **budou k dispozici** (ID)
 

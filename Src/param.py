@@ -55,13 +55,11 @@ class XPParams:
         if not XPParams.useHybridOracle and not XPParams.useDynamicOracle:
             logging.warn('Manula perceptron' if XPParams.usePerceptron else 'Scikit classifier')
 
-
 class PrintParams:
     createDictionary = True
     printReport = True
     printSentsWithEmbeddedMWEs = True
     printFeaturesOfSent = False
-
 
 class Paths:
     xpName = ''
@@ -73,7 +71,6 @@ class Paths:
     langResultFolder = os.path.join(projectPath, "Results/")
     rootResultFolder = os.path.join(projectPath, "Results/")
     onlineTrainingReport = os.path.join(projectPath, "Results/")
-
 
 class FeatParams:
     usePreciseDictionary = False
@@ -251,8 +248,6 @@ class FeatParams:
                             else:
                                 result += ' = False\n\n'
         return result
-
-
 
 class Counters:
     shiftNum, completeNum, mWTCompleteNum, mergeNum = 0, 0, 0, 0

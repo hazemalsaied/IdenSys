@@ -1,84 +1,67 @@
-## Sentence No. 65 - Europar.550_00191
-nous voulons protéger notre droit à **avoir** des **idées** , des **sentiments** , des **émotions** , contre l' invasion technologique de les grands frères , comme nous le **laisse** **à** **penser** le cas récent d' Échelon , sur lequel cette assemblée **se** **penchera** sous peu . 
+## Sentence No. 579 - emea-fr-dev_00056
+**il** **convient** en outre de ne pas l' utiliser chez les patients **ayant** eu une **hémorragie** récente , **souffrant** **d'** **hypertension** aiguë ou **présentant** des **troubles** graves de les reins , ou encore chez les patients **présentant** une **infection** cardiaque . 
 ### Existing MWEs: 
-1- **avoir idées** (LVC, 3)
+2- **il convient** (ID, 9)
 
-3- **avoir sentiments** (LVC, 2), Interleaving 
+1- **ayant hémorragie** (LVC)
 
-4- **avoir émotions** (LVC), Interleaving 
+3- **souffrant d' hypertension** (LVC)
 
-2- **laisse à penser** (ID)
+4- **présentant troubles** (LVC)
 
-5- **se penchera** (IReflV, 1)
+5- **présentant infection** (LVC)
 
 ### Identified MWEs: 
-1- **avoir idées** (LVC)
+1- **il convient** (ID)
 
-2- **nous laisse** (IReflV)
-
-3- **se penchera** (IReflV)
-
-## Sentence No. 390 - Europar.550_00516
-parce que ce rapport indique à plusieurs reprises qu' **il** **faut** contrôler , qu' **il** **faut** réagir à le vieillissement de la population - le nombre de personnes âgées ne cesse d' augmenter et cette situation rend difficile le soutien de les systèmes de pension - , qu' **il** **faut** **se** **montrer** vigilants et inviter les États membres à dépenser toujours moins d' argent pour le paiement de les pensions de les personnes âgées . 
+## Sentence No. 538 - emea-fr-dev_00015
+il est utilisé en conjonction avec de l' aspirine et du clopidogel ( médicaments contribuant à prévenir les caillots sanguins ) chez les patients sur le point de **subir** un **traitement** pour leur sca , comme un **traitement** médicamenteux , **subissant** une **angioplastie** ou un **pontage** coronarien . 
 ### Existing MWEs: 
-1- **il faut** (ID, 91)
+1- **subir traitement** (LVC, 1)
 
-2- **il faut** (ID, 91)
+4- **subir traitement** (LVC, 1)
 
-3- **il faut** (ID, 91)
+2- **subissant angioplastie** (LVC)
 
-4- **se montrer** (IReflV)
+3- **subissant pontage** (LVC)
 
 ### Identified MWEs: 
-1- **il faut** (ID)
+1- **subir traitement** (LVC)
 
-2- **il faut** (ID)
-
-3- **il faut** (ID)
-
-## Sentence No. 20 - Europar.550_00146
-**il** **faut** donc **prendre** des **mesures** dans le cadre de la politique commune de pêche et affecter les ressources financières adéquates afin d' assurer le rendement qui **s'** **appuie** exclusivement sur l' activité de pêche , plus précisément à des périodes de paralysie ou de réduction de l' activité de pêche . 
+## Sentence No. 583 - emea-fr-dev_00060
+le comité a conclu que les bénéfices de angiox sont supérieurs à les **risques** qu' il **comporte** pour le traitement de les patients adultes **souffrant** **de** **sca** et devant **subir** une **intervention** urgente ou précoce , avec de l' aspirine et du clopidogrel , et comme anticoagulant chez les patients **subissant** une **intervention** coronaire percutanée ( icp ) . 
 ### Existing MWEs: 
-1- **il faut** (ID, 91)
+1- **risques comporte** (LVC)
 
-2- **prendre mesures** (LVC, 6)
+4- **souffrant de sca** (LVC)
 
-3- **s' appuie** (IReflV)
+2- **subir intervention** (LVC)
+
+3- **subissant intervention** (LVC)
+
+## Sentence No. 1586 - Europar.550_00045
+donc l' autriche **a** tout à fait le **droit** de former un gouvernement et le président de la commission **a** parfaitement le **droit** , et **a** même le **devoir** , de **présenter** ses meilleurs **voeux** à l' autriche . 
+### Existing MWEs: 
+1- **a droit** (LVC, 17)
+
+3- **a droit** (LVC, 17)
+
+2- **a devoir** (LVC, 3)
+
+4- **présenter voeux** (LVC)
 
 ### Identified MWEs: 
-1- **il faut** (ID)
+1- **a devoir** (LVC)
 
-2- **prendre mesures** (LVC)
-
-3- **assurer rendement** (LVC)
-
-4- **s' appuie** (IReflV)
-
-## Sentence No. 150 - Europar.550_00276
-**il** **y** **a** un problème général de sécurité , dont je sais que le haut représentant **s'** **occupe** comme **il** le **faut** . 
+## Sentence No. 102 - annodis.er_00103
+**s'** **apercevant** que son mari avait soudainement **perdu** **connaissance** , l' épouse , passagère avant , a tenté de garder le véhicule en ligne droite en **se** **saisissant** de le volant . 
 ### Existing MWEs: 
-1- **il y a** (ID, 140)
+1- **s' apercevant** (IReflV, 1)
 
-3- **s' occupe** (IReflV, 1)
+2- **perdu connaissance** (ID)
 
-2- **il faut** (ID, 91)
+3- **se saisissant** (IReflV)
 
 ### Identified MWEs: 
-1- **il y a** (ID)
-
-2- **s' occupe** (IReflV)
-
-3- **il faut** (ID)
-
-## Sentence No. 370 - Europar.550_00496
-à le cours de cette visite , j' ai été très honorée que vous m' ayez **donné** l' **occasion** de **m'** **exprimer** dans l' hémicycle de le parlement slovène et je dois dire que , avec m. podestá , vice-président chargé de l' élargissement , avec m. brok , président de la commission de les affaires étrangères et m. ebner , président de la délégation , nous avons été très impressionnés par les **progrès** considérables que votre pays avait **accomplis** dans la voie de l' appartenance à l' europe . 
-### Existing MWEs: 
-1- **donné occasion** (ID, 2)
-
-2- **m' exprimer** (IReflV, 2)
-
-3- **progrès accomplis** (LVC, 1)
-
-### Identified MWEs: 
-1- **donné occasion** (ID)
+1- **s' apercevant** (IReflV)
 

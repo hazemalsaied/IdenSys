@@ -1,0 +1,2626 @@
+udać się: 70
+
+pojawić się: 67
+
+znajdować się: 64
+
+stać się: 61
+
+okazać się: 55
+
+zajmować się: 42
+
+wziąć udział: 42
+
+znaleźć się: 39
+
+spotkać się: 33
+
+wydawać się: 27
+
+starać się: 27
+
+domagać się: 24
+
+dowiedzieć się: 24
+
+brać udział: 23
+
+cieszyć się: 22
+
+mieć szansa: 19
+
+zwrócić się: 18
+
+być w stan: 18
+
+podjąć decyzja: 17
+
+się stać: 16
+
+zdecydować się: 16
+
+zgodzić się: 16
+
+zająć się: 15
+
+stawać się: 15
+
+spodziewać się: 15
+
+pojawiać się: 15
+
+bać się: 14
+
+mieć prawo: 14
+
+składać się: 14
+
+zdarzać się: 13
+
+mieścić się: 13
+
+obawiać się: 13
+
+mieć charakter: 13
+
+czuć się: 13
+
+dziać się: 12
+
+okazywać się: 12
+
+znajdywać się: 12
+
+się dziać: 11
+
+mieć na cel: 11
+
+mieć problem: 11
+
+mieć miejsce: 11
+
+wejść w życie: 10
+
+decyzja podjąć: 10
+
+powoływać się: 10
+
+przyglądać się: 10
+
+zastanawiać się: 10
+
+zgadzać się: 9
+
+znęcać się: 9
+
+dać się: 9
+
+różnić się: 9
+
+interesować się: 8
+
+przeprowadzić badanie: 8
+
+spotykać się: 8
+
+mieć dostęp: 8
+
+mieć nadzieja: 8
+
+się spodziewać: 8
+
+liczyć się: 8
+
+przyznać się: 8
+
+opowiedzieć się: 7
+
+doczekać się: 7
+
+prowadzić praca: 7
+
+się dowiedzieć: 7
+
+zapowiadać się: 7
+
+mieć wątpliwość: 7
+
+poruszać się: 7
+
+wywodzić się: 7
+
+postawić zarzut: 7
+
+ubiegać się: 7
+
+odnieść obrażenie: 7
+
+odwoływać się: 7
+
+opowiadać się: 6
+
+być zdanie: 6
+
+wybrać się: 6
+
+pełnić funkcja: 6
+
+zachować się: 6
+
+się zdarzyć: 6
+
+zwracać uwaga: 6
+
+nie mieć mowa: 6
+
+sprzeciwiać się: 6
+
+się zgodzić: 6
+
+mieć pomysł: 6
+
+sprawować władza: 6
+
+brać pod uwaga: 6
+
+mieć zamiar: 6
+
+posługiwać się: 6
+
+skarżyć się: 6
+
+mieć okazja: 6
+
+wybierać się: 6
+
+złożyć wniosek: 6
+
+dostać się: 6
+
+zachowywać się: 6
+
+w skład wchodzić: 5
+
+mieć wpływ: 5
+
+zdawać siebie sprawa: 5
+
+pełnić obowiązek: 5
+
+wprowadzić zakaz: 5
+
+mieć kontakt: 5
+
+prowadzić działalność: 5
+
+zawrzeć umowa: 5
+
+dojść do wniosek: 5
+
+przekonać się: 5
+
+mieć znaczenie: 5
+
+zorientować się: 5
+
+dogadać się: 5
+
+mieć obowiązek: 5
+
+się okazać: 5
+
+wykazać się: 5
+
+mieć czas: 5
+
+mieć wartość: 5
+
+decydować się: 5
+
+odwołać się: 5
+
+porozumieć się: 5
+
+opiekować się: 5
+
+spodobać się: 5
+
+zjawić się: 5
+
+mieć możliwość: 5
+
+uzyskać zgoda: 5
+
+odbyć się: 5
+
+nadawać się: 5
+
+zawrzeć porozumienie: 5
+
+podejmować decyzja: 5
+
+zwrócić uwaga: 5
+
+prowadzić rozmowa: 4
+
+strzelić gol: 4
+
+modlić się: 4
+
+przeprowadzić reforma: 4
+
+akcja prowadzić: 4
+
+troszczyć się: 4
+
+udawać się: 4
+
+przyznawać się: 4
+
+przyjrzeć się: 4
+
+przeprowadzić akcja: 4
+
+zwracać się: 4
+
+spisywać się: 4
+
+się zajmować: 4
+
+przyjść na świat: 4
+
+się starać: 4
+
+stosować się: 4
+
+zmierzyć się: 4
+
+otrzymać nagroda: 4
+
+mieć punkt: 4
+
+się znajdować: 4
+
+dokonać zakup: 4
+
+spełniać rola: 4
+
+wywiązać się: 4
+
+mieć sens: 4
+
+popełnić błąd: 4
+
+ankieta przeprowadzić: 4
+
+dopatrzyć się: 4
+
+odgrywać rola: 4
+
+zainteresować się: 4
+
+wypowiedzieć się: 4
+
+prowadzić śledztwo: 4
+
+zdarzyć się: 4
+
+równać się: 4
+
+się pojawić: 4
+
+popełnić samobójstwo: 4
+
+mieć powód: 4
+
+dokonać zmiana: 4
+
+nie mieć co: 4
+
+dopuścić się: 3
+
+się dać: 3
+
+podejmować ryzyko: 3
+
+śmiać się: 3
+
+świadczyć usługa: 3
+
+kłopot mieć: 3
+
+dawać szansa: 3
+
+prezentować się: 3
+
+mieć siła: 3
+
+stawić się: 3
+
+podać do wiadomość: 3
+
+mieć plan: 3
+
+trzymać się: 3
+
+wchodzić w gra: 3
+
+wykonywać praca: 3
+
+wykonać praca: 3
+
+problem mieć: 3
+
+podobać się: 3
+
+się podobać: 3
+
+należeć się: 3
+
+transakcja dokonywać: 3
+
+dziwić się: 3
+
+stawiać zarzut: 3
+
+udział wziąć: 3
+
+nagroda przyznać: 3
+
+oddać hołd: 3
+
+prowadzić sprawa: 3
+
+zdobyć punkt: 3
+
+pełnić służba: 3
+
+podpis złożyć: 3
+
+wchodzić w życie: 3
+
+przedstawić zarzut: 3
+
+kręcić się: 3
+
+trafiać się: 3
+
+składać wniosek: 3
+
+błąd popełnić: 3
+
+odnieść sukces: 3
+
+prowadzić kampania: 3
+
+mieć kłopot: 3
+
+przeprowadzić kontrola: 3
+
+wysadzić w powietrze: 3
+
+porozumiewać się: 3
+
+paść ofiara: 3
+
+wziąć pod uwaga: 3
+
+wyjść na dobry: 3
+
+mieć szczęście: 3
+
+pozbyć się: 3
+
+pełnić dyżur: 3
+
+natknąć się: 3
+
+podjąć uchwała: 3
+
+działanie prowadzić: 3
+
+wstydzić się: 3
+
+mieć strata: 3
+
+skierować wniosek: 3
+
+podpisać się: 3
+
+nagroda otrzymać: 3
+
+wypowiadać się: 3
+
+dokonywać zakup: 3
+
+popełnić przestępstwo: 3
+
+wpaść na pomysł: 3
+
+się cieszyć: 3
+
+postawić warunek: 3
+
+prowadzić postępowanie: 3
+
+robić interes: 3
+
+się domyślać: 3
+
+się bać: 3
+
+akcja przeprowadzić: 3
+
+mieć gwarancja: 3
+
+decyzja podejmować: 3
+
+mieć do czynić: 3
+
+zdobyć bramka: 3
+
+wymknąć się: 3
+
+nosić imię: 3
+
+doznać uraz: 3
+
+stanąć przed sąd: 3
+
+prowadzić wykopalisko: 3
+
+wchodzić w skład: 3
+
+stwarzać zagrożenie: 3
+
+wniosek złożyć: 3
+
+żalić się: 3
+
+śledztwo prowadzić: 3
+
+siebie poradzić: 3
+
+nakładać obowiązek: 2
+
+podejmować działanie: 2
+
+mylić się: 2
+
+prowadzić dochodzenie: 2
+
+przejść do historia: 2
+
+się udać: 2
+
+badanie przeprowadzić: 2
+
+odszkodowanie przyznać: 2
+
+się obawiać: 2
+
+przyznać kredyt: 2
+
+złożyć doniesienie: 2
+
+rola odgrywać: 2
+
+prawo mieć: 2
+
+mieć moc: 2
+
+wyciągać wniosek: 2
+
+piąć się: 2
+
+porozumienie zawrzeć: 2
+
+spierać się: 2
+
+badanie prowadzić: 2
+
+odegrać rola: 2
+
+uprawiać seks: 2
+
+oddać się: 2
+
+wyobrażać siebie: 2
+
+wniosek skierować: 2
+
+kłaść podwalina: 2
+
+mieć racja: 2
+
+śmierć ponieść: 2
+
+bić się: 2
+
+wyrazić zgoda: 2
+
+się przyjąć: 2
+
+prowadzić polityka: 2
+
+rozstać się: 2
+
+zaopiekować się: 2
+
+praca wykonać: 2
+
+zeznanie składać: 2
+
+przyczynić się: 2
+
+kampania prowadzić: 2
+
+zdobyć uznanie: 2
+
+się okazywać: 2
+
+mieć pech: 2
+
+zdobyć nagroda: 2
+
+się obejść: 2
+
+nie życzyć siebie: 2
+
+stać na przeszkoda: 2
+
+podjąć się: 2
+
+zdanie być: 2
+
+stanowić zagrożenie: 2
+
+pobić rekord: 2
+
+góra być: 2
+
+wydać oświadczenie: 2
+
+prowadzić badanie: 2
+
+rzut karny wykonywać: 2
+
+składać oferta: 2
+
+być na ręka: 2
+
+mieć zaufanie: 2
+
+przedstawiać się: 2
+
+szansa mieć: 2
+
+warunek postawić: 2
+
+niepokoić się: 2
+
+mieć kształt: 2
+
+odnieść zwycięstwo: 2
+
+udzielać kredyt: 2
+
+oddać strzał: 2
+
+wykonywać operacja: 2
+
+wyłaniać się: 2
+
+w skład wejść: 2
+
+udzielić kredyt: 2
+
+robić zakup: 2
+
+punkt zdobyć: 2
+
+wydać pozwolenie: 2
+
+rola pełnić: 2
+
+wnieść pozew: 2
+
+dogrzebać się: 2
+
+przyznać nagroda: 2
+
+otrzymywać pomoc: 2
+
+się śmiać: 2
+
+podpisać umowa: 2
+
+wykluć się: 2
+
+pobrać się: 2
+
+się sprawdzić: 2
+
+wejść w skład: 2
+
+się czuć: 2
+
+wydatek ponieść: 2
+
+mieć powiązanie: 2
+
+się wydawać: 2
+
+przydać się: 2
+
+włamać się: 2
+
+wywiązywać się: 2
+
+pozostawiać wiele do życzyć: 2
+
+wpaść w ręka: 2
+
+kontrola przeprowadzić: 2
+
+się spotkać: 2
+
+pozostawić ślad: 2
+
+mieć dług: 2
+
+gol zdobyć: 2
+
+mieć skutek: 2
+
+rozejść się: 2
+
+mieć aspiracja: 2
+
+mieć uprawnienie: 2
+
+stanąć na czoło: 2
+
+wydarzyć się: 2
+
+wykonywać zadanie: 2
+
+zdawać się: 2
+
+osiągnąć korzyść: 2
+
+rozmowa prowadzić: 2
+
+zarzut postawić: 2
+
+ulatniać się: 2
+
+upominać się: 2
+
+komunikować się: 2
+
+zdawać sobie sprawa: 2
+
+przynieść dochód: 2
+
+poczuć się: 2
+
+mrozić krew w żyła: 2
+
+się wypowiedzieć: 2
+
+mieć poparcie: 2
+
+stawiać sprawa: 2
+
+mieć na myśl: 2
+
+stawiać opór: 2
+
+ciągnąć się: 2
+
+udzielić pomoc: 2
+
+nieść pomoc: 2
+
+rozgrywać mecz: 2
+
+szkoda wyrządzić: 2
+
+wyróżniać się: 2
+
+rozprawić się: 2
+
+dostać nagroda: 2
+
+ponosić strata: 2
+
+mieć spokój: 2
+
+cud dokonać: 2
+
+udzielać świadczenie: 2
+
+wydawać polecenie: 2
+
+zadawać pytanie: 2
+
+sprawować funkcja: 2
+
+się ustrzec: 2
+
+stać pod znak zapytanie: 2
+
+dochodzić do wniosek: 2
+
+dokonać włamanie: 2
+
+się zgadzać: 2
+
+wcielać w życie: 2
+
+mieć praca: 2
+
+podejmować próba: 2
+
+rozchodzić się: 2
+
+cierpieć na zaburzenie: 2
+
+mieć za zadanie: 2
+
+sondaż przeprowadzić: 2
+
+wprowadzać w błąd: 2
+
+mieć udział: 2
+
+złożyć dymisja: 2
+
+godzić się: 2
+
+mieć do czynienie: 2
+
+przyjąć zawiadomienie: 2
+
+zawierać transakcja: 2
+
+umowa zawrzeć: 2
+
+zakwalifikować się: 2
+
+odpowiadać przed sąd: 2
+
+oferta złożyć: 2
+
+rana odnieść: 2
+
+uzyskać wynik: 2
+
+obyć się: 2
+
+dojść do skutek: 2
+
+zadać cios: 2
+
+być mowa: 2
+
+postawić w stan: 2
+
+zdać się: 2
+
+pełnić rola: 2
+
+mieć rana: 2
+
+się nadawać: 2
+
+odnieść się: 2
+
+czynić staranie: 2
+
+kara wymierzyć: 2
+
+strata ponieść: 2
+
+wydać decyzja: 2
+
+ponosić odpowiedzialność: 2
+
+przewaga mieć: 2
+
+mieć waga: 2
+
+dać do zrozumienie: 2
+
+się domagać: 2
+
+mieć związek: 2
+
+doznać szok: 1
+
+złożyć zobowiązanie: 1
+
+podejmować być decyzja: 1
+
+embargo nałożyć: 1
+
+stanąć przed oko: 1
+
+mieć tożsamość: 1
+
+próba prowadzić: 1
+
+dostać koncesja: 1
+
+mieć ciąg daleki: 1
+
+poprzestać na mały: 1
+
+rzucić się: 1
+
+wykonywać ruch: 1
+
+dokonywać obliczenie: 1
+
+wywierać nacisk: 1
+
+mieć cenzor: 1
+
+wystąpić z wniosek: 1
+
+cnota stracić: 1
+
+powieść się: 1
+
+upiec się: 1
+
+morderstwo dokonać: 1
+
+złożyć skarga: 1
+
+powstydzić się: 1
+
+decyzja wydać: 1
+
+średnia mieć: 1
+
+wypełnić rola: 1
+
+ponosić koszt: 1
+
+dopiąć na ostatni guzik: 1
+
+dysponować uprawnienie: 1
+
+udzielać sakrament: 1
+
+złożyć rezygnacja: 1
+
+uderzać pięść w stół: 1
+
+w gra wchodzić: 1
+
+toczyć wojna: 1
+
+upodobać siebie: 1
+
+przerzucać most: 1
+
+wizyta odbyć: 1
+
+działanie mieć: 1
+
+się sprawować: 1
+
+wydać instrukcja: 1
+
+wychodzić z siebie: 1
+
+imać się: 1
+
+dostać upust: 1
+
+ofiara złożyć: 1
+
+mieć ochota: 1
+
+zwycięstwo odnieść: 1
+
+pożyczka zaciągnąć: 1
+
+czynić cud: 1
+
+trafić szlag: 1
+
+wydać się: 1
+
+sprawa prowadzić: 1
+
+dysponować wpływ: 1
+
+składać w ofiara: 1
+
+mieć trudność: 1
+
+mieć zakaz: 1
+
+mieć pojęcie: 1
+
+robić doktorat: 1
+
+dopatrywać się: 1
+
+obłożyć podatek: 1
+
+mieć zniżka: 1
+
+zrobić wywiad: 1
+
+poddać operacja: 1
+
+przeprowadzać inwentaryzacja: 1
+
+widzieć światełko w tunel: 1
+
+sporządzać zapisek: 1
+
+wystąpić w rola: 1
+
+siedzieć na garnuszek: 1
+
+rekord bić: 1
+
+mieć zadanie: 1
+
+prowadzić proces: 1
+
+się czaić: 1
+
+posiadać opinia: 1
+
+nadzór sprawować: 1
+
+przyjmować się: 1
+
+zanosić się: 1
+
+spełznąć na nic: 1
+
+się skręcać: 1
+
+dokonywać wpłata: 1
+
+dostać w nagroda: 1
+
+dokonywać skok: 1
+
+stoczyć walka: 1
+
+przyznawać zasiłek: 1
+
+z propozycja wystąpić: 1
+
+wystąpić z petycja: 1
+
+mieć władza: 1
+
+praca mieć: 1
+
+spać spokojnie: 1
+
+się dołożyć: 1
+
+się powieść: 1
+
+zaprzątać siebie głowa: 1
+
+wprowadzić w błąd: 1
+
+przebywać na zwolnienie: 1
+
+robić świństwo: 1
+
+przymykać oko: 1
+
+mieć rezerwa: 1
+
+wykonywać zwrot: 1
+
+wydawać zakaz: 1
+
+dokonać odprawa: 1
+
+oświadczać się: 1
+
+zatroszczyć się: 1
+
+odpowiedzialność ponieść: 1
+
+wydać zarządzenie: 1
+
+być góra: 1
+
+się przydać: 1
+
+prowadzić akcja: 1
+
+mieć krzywda: 1
+
+zadowalać się: 1
+
+znaczenie mieć: 1
+
+wprowadzić ograniczenie: 1
+
+furora robić: 1
+
+obowiązek pełnić: 1
+
+wyjaśnienie złożyć: 1
+
+podpisywać się: 1
+
+dowód przeprowadzać: 1
+
+stracić twarz: 1
+
+krzywić się: 1
+
+nie wiedzieć czemu: 1
+
+zawiązać się: 1
+
+przyjąć komunia: 1
+
+skłaniać się: 1
+
+wyjść na wolność: 1
+
+się mylić: 1
+
+propozycja złożyć: 1
+
+dawać o sobie znać: 1
+
+bić rekord: 1
+
+umowa sporządzić: 1
+
+stawiać warunek: 1
+
+mieć asystent: 1
+
+uzyskać dopłata: 1
+
+prowadzić wykopaliska: 1
+
+posiadać umiejętność: 1
+
+się konsultować: 1
+
+złożyć zamówienie: 1
+
+mieć obrażenie: 1
+
+toczyć walka: 1
+
+zaniepokoić się: 1
+
+się dłużyć: 1
+
+prezentacja dokonać: 1
+
+iść w zaprzeć: 1
+
+mieć obawa: 1
+
+wziąć w nawias: 1
+
+się wziąć: 1
+
+odcisnąć piętno: 1
+
+przeprowadzić gra: 1
+
+się napić: 1
+
+mieć wrażenie: 1
+
+ulegać spalenie: 1
+
+znać się: 1
+
+odpowiedź dać: 1
+
+robić swój: 1
+
+się pochwalić: 1
+
+stanąć po strona: 1
+
+przyznać uprawnienie: 1
+
+znaleźć zastosowanie: 1
+
+osiągnąć dochód: 1
+
+uzasadnienie wydać: 1
+
+udzielać porada: 1
+
+dokonać analiza: 1
+
+w ślad pójść: 1
+
+zdobyć wynik: 1
+
+strzał oddać: 1
+
+dostać zakaz: 1
+
+dokonać inwazja: 1
+
+dostawać upust: 1
+
+cierpieć na białaczka: 1
+
+oddawać pod sąd: 1
+
+pełnić straż: 1
+
+skakać o tyczka: 1
+
+przyjmować na siebie: 1
+
+przynieść uznanie: 1
+
+się napracować: 1
+
+otrzymać oferta: 1
+
+mieć przywilej: 1
+
+wydać przyjąć: 1
+
+otrzymać wyrok: 1
+
+nosić numer: 1
+
+wykonywać wznoszenie: 1
+
+otrzymać propozycja: 1
+
+zabawiać się: 1
+
+się niepokoić: 1
+
+się ostać: 1
+
+mieć zezwolenie: 1
+
+pech mieć: 1
+
+pochłonąć ofiara: 1
+
+zrównać z ziemia: 1
+
+rozegrać trening: 1
+
+nosić się: 1
+
+odbić się echo: 1
+
+mieć status: 1
+
+wykonywać zawód: 1
+
+dokonać akt: 1
+
+wyssać z palec: 1
+
+poprowadzić rozmowa: 1
+
+mieć deficyt: 1
+
+brać kredyt: 1
+
+napędzić strach: 1
+
+posadzić do areszt: 1
+
+przestępstwo dokonywać: 1
+
+charakter mieć: 1
+
+dostać renta: 1
+
+ponieść koszt: 1
+
+otrzymywać wsparcie: 1
+
+stara się: 1
+
+się ubiegać: 1
+
+ponieść strata: 1
+
+skakać przez płotek: 1
+
+dostać buziak: 1
+
+mieć złoty serce: 1
+
+się zaprzeć: 1
+
+otrzymywać odsetka: 1
+
+posiadać zdolność: 1
+
+przeprowadzić remont: 1
+
+podjąć inicjatywa: 1
+
+dowiadywać się: 1
+
+dokonać inauguracja: 1
+
+złożyć zeznanie: 1
+
+dawać na taca: 1
+
+osunąć się: 1
+
+wystosować prośba: 1
+
+osiągnąć sława: 1
+
+pożalić się: 1
+
+połączenie wykonywać: 1
+
+obrażać się: 1
+
+otrzymać wypłata: 1
+
+się przebić: 1
+
+rzecz brać: 1
+
+prezentować forma: 1
+
+dostać ulga: 1
+
+przetaczać się: 1
+
+stracić zimny krew: 1
+
+stać się zadość: 1
+
+pytanie zadać: 1
+
+nałożyć kara: 1
+
+przydawać się: 1
+
+się pospieszyć: 1
+
+ciążyć na serce: 1
+
+przecierać droga: 1
+
+nota mieć: 1
+
+przeprowadzić wywiad: 1
+
+mieć wielkość: 1
+
+mieć wymiar: 1
+
+posiadać obywatelstwo: 1
+
+rządzić się: 1
+
+sukces odnieść: 1
+
+działanie podejmować: 1
+
+przewrócić do góra noga: 1
+
+przechodzić test: 1
+
+mieć doświadczenie: 1
+
+stawać otwór: 1
+
+przyjmować do wiadomość: 1
+
+tryb życie prowadzić: 1
+
+roić się: 1
+
+posiadać renoma: 1
+
+wyprowadzić się: 1
+
+prowadzić handel: 1
+
+zabrać się: 1
+
+otrzymać polecenie: 1
+
+dochowywać wierność: 1
+
+nosić cecha: 1
+
+zajść w ciąża: 1
+
+delektować się: 1
+
+dokonywać obchód: 1
+
+starzyć się: 1
+
+rozegrać wyścig: 1
+
+zachowywać milczenie: 1
+
+przynieść pożytek: 1
+
+się wydać: 1
+
+wywrzeć presja: 1
+
+meldować się: 1
+
+operacja przejść: 1
+
+posypać się: 1
+
+wprowadzać wymóg: 1
+
+uzyskać pozwolenie: 1
+
+siebie wyobrazić: 1
+
+wyjść z założenie: 1
+
+udzielić gwarancja: 1
+
+eksperyment przeprowadzić: 1
+
+rozegrać sparing: 1
+
+się opiekować: 1
+
+stać na stanowisko: 1
+
+rozkaz wydać: 1
+
+z oferta wychodzić: 1
+
+sprawdzić się: 1
+
+dać sobie rada: 1
+
+uwijać się jak w ukrop: 1
+
+pękać w szew: 1
+
+nosić nazwa: 1
+
+przeszczep przeprowadzać: 1
+
+mieć premiera: 1
+
+otoczyć tajemnica: 1
+
+kajać się: 1
+
+przynosić zysk: 1
+
+złożyć podpis: 1
+
+bóg raczyć wiedzieć: 1
+
+kariera robić: 1
+
+się stawić: 1
+
+poddawać zabieg: 1
+
+udział mieć: 1
+
+zbić jak pies: 1
+
+dokonywać oszustwo: 1
+
+dochód czerpać: 1
+
+się poczuć: 1
+
+się gniewać: 1
+
+wyobrazić siebie: 1
+
+zadomowić się: 1
+
+dawać swoboda: 1
+
+zdobyć gol: 1
+
+nie chcieć słyszeć: 1
+
+przeprowadzić aukcja: 1
+
+gwałt dokonać: 1
+
+przeprowadzać analiza: 1
+
+dokonać przeszczep: 1
+
+położyć zasługa: 1
+
+nałożyć powinność: 1
+
+się bić: 1
+
+napić się: 1
+
+doznać wstrząśnienie mózg: 1
+
+się wyróżniać: 1
+
+dać słowo: 1
+
+odkrycie dokonać: 1
+
+kontrakt zawierać: 1
+
+wzorować się: 1
+
+wykonywać pętla: 1
+
+włamywać się: 1
+
+przeprowadzać symulacja: 1
+
+przyczyniać się: 1
+
+szczęka opaść: 1
+
+kredyt przyznać: 1
+
+prowadzić walka: 1
+
+dokonać przestępstwo: 1
+
+wydać wniosek: 1
+
+podszywać się: 1
+
+propozycja zgłosić: 1
+
+rola grać: 1
+
+zapisać na konto: 1
+
+mieć się: 1
+
+się śmieć: 1
+
+zachować ostrożność: 1
+
+ani przez myśl nie przejść: 1
+
+udrzeć się: 1
+
+wykonać ćwiczenie: 1
+
+dostawać miłość: 1
+
+mieć na sumienie: 1
+
+wcielić w czyn: 1
+
+nabrzmiewać ironia: 1
+
+pytanie zadawać: 1
+
+się zadawać: 1
+
+się kojarzyć: 1
+
+skupiać się: 1
+
+zlecenie otrzymać: 1
+
+prowadzić sprzedaż: 1
+
+wymieniać się: 1
+
+wykonywać władza: 1
+
+odbyć stosunek: 1
+
+popełnić wykroczenie: 1
+
+wieść egzystencja: 1
+
+wnieść wkład: 1
+
+robić przerwa: 1
+
+zdobyć sława: 1
+
+składać broń: 1
+
+zdobyć się: 1
+
+zgłoszenie składać: 1
+
+przebywać na emigracja: 1
+
+odżegnywać się: 1
+
+bramka zdobywać: 1
+
+zaprzyjaźnić się: 1
+
+się pokrywać: 1
+
+wić się: 1
+
+wykonywać jedenastka: 1
+
+wykonywać manewr: 1
+
+mieć wiedza: 1
+
+wykonywać skok: 1
+
+dokonać zabójstwo: 1
+
+poddać kontrola: 1
+
+stawiać wymaganie: 1
+
+poddawać omówienie: 1
+
+mieć wolny ręka: 1
+
+mieć poczucie: 1
+
+dostać rekomendacja: 1
+
+przetrącić kręgosłup: 1
+
+rozpływać się: 1
+
+udzielać wsparcie: 1
+
+historia lubić się powtarzać: 1
+
+okazywać miłosierdzie: 1
+
+donos złożyć: 1
+
+z żądanie wystąpić: 1
+
+popisywać się: 1
+
+zdobywać punkt: 1
+
+darzyć szacunek: 1
+
+uzyskać atest: 1
+
+wykonywać odlew: 1
+
+wypierać się: 1
+
+zaklinać się: 1
+
+bramka zdobyć: 1
+
+z przebywać na emigracja: 1
+
+mieć obrona: 1
+
+złożyć przyrzeczenie: 1
+
+oddawać strzał: 1
+
+robić uwaga: 1
+
+odnieść rana: 1
+
+przynieść skutek: 1
+
+zrobić biznes: 1
+
+uprawiać indoktrynacja: 1
+
+się zjawić: 1
+
+się przeliczyć: 1
+
+prowadzić czynność: 1
+
+z twarz odejść: 1
+
+wpaść w własny sidło: 1
+
+pchać się: 1
+
+przynosić potwierdzić: 1
+
+dyżur pełnić: 1
+
+otrzymać pożyczka: 1
+
+rola w wystąpić: 1
+
+mieć myśl: 1
+
+czynić zarzut: 1
+
+w ogień stanąć: 1
+
+dać się w znak: 1
+
+wpływ mieć: 1
+
+się wybrać: 1
+
+utrzymywać stosunek: 1
+
+mieć akcja: 1
+
+wykonywać obowiązek: 1
+
+wina ponosić: 1
+
+dawać się w znak: 1
+
+odbyć służba: 1
+
+się spieszyć: 1
+
+trzymać jak daleko: 1
+
+w nagroda dostać: 1
+
+mieć chłop: 1
+
+uzbroić się w cierpliwość: 1
+
+się radować: 1
+
+brać odwet: 1
+
+odbyć szkolenie: 1
+
+zrobić się: 1
+
+brać zastrzyk: 1
+
+targnąć się: 1
+
+się troszczyć: 1
+
+zjawiać się: 1
+
+dawać polecenie: 1
+
+wić się jak piskorz: 1
+
+obrażenie doznać: 1
+
+odbywać zgromadzenie: 1
+
+się wymigać: 1
+
+składać wyjaśnienie: 1
+
+odbyć konsultacja: 1
+
+sprawować nadzór: 1
+
+rozgrywać spotkanie: 1
+
+dostać stypendium: 1
+
+mieć wada: 1
+
+się mrowić: 1
+
+zawierać kontrakt: 1
+
+zebrać pochwała: 1
+
+dobijać się: 1
+
+przejść badanie: 1
+
+wydać wyrok: 1
+
+sprawować kontrola: 1
+
+wyłamywać się: 1
+
+wydać komunikat: 1
+
+dokonać operacja: 1
+
+złożyć głos: 1
+
+się dodzwonić: 1
+
+doznać szkoda: 1
+
+przyjść do głowa: 1
+
+mieć cierpliwość: 1
+
+wyznawać pogląd: 1
+
+pójść w zapasy: 1
+
+ruszyć w droga: 1
+
+mieć współpraca: 1
+
+ulegać wątpliwość: 1
+
+się porozumieć: 1
+
+stłoczyć się: 1
+
+spieszyć się: 1
+
+bój toczyć: 1
+
+okryć tajemnica: 1
+
+się trafiać: 1
+
+udzielić absolutorium: 1
+
+skierować skarga: 1
+
+minisonda przeprowadzić: 1
+
+mieć tendencja: 1
+
+pasować jak ulać: 1
+
+grać rola: 1
+
+możliwość mieć: 1
+
+rozmyślić się: 1
+
+poddać krytyka: 1
+
+wdrapywać się: 1
+
+ferować wyrok: 1
+
+przejść oczekiwanie: 1
+
+transplantacja przeprowadzić: 1
+
+dawać siebie rada: 1
+
+mieć poziom: 1
+
+rozpychać się: 1
+
+mieć zgoda: 1
+
+stawiać się: 1
+
+mieć inklinacja: 1
+
+wziąć się: 1
+
+wyzionąć duch: 1
+
+przebywać na wakacje: 1
+
+dokonać gwałt: 1
+
+wypłynąć na światło dzienny: 1
+
+się posunąć: 1
+
+poddawać analiza: 1
+
+przekonać być się: 1
+
+mieć zarzut: 1
+
+mieć wzrost: 1
+
+odprawiać cyrk: 1
+
+ośmielić się: 1
+
+wymierzyć sprawiedliwość: 1
+
+podróż odbywać: 1
+
+rozglądać się: 1
+
+mieć umowa o praca: 1
+
+zapewniać możliwość: 1
+
+skierować akt oskarżenie: 1
+
+zrobić kariera: 1
+
+mieć przebieg: 1
+
+bierzmowanie udzielić: 1
+
+przedostawać się: 1
+
+polityka prowadzić: 1
+
+wyróżnienie otrzymać: 1
+
+się rozstać: 1
+
+się interesować: 1
+
+czynić dobrze: 1
+
+nie mieć cień: 1
+
+zaciągnąć pożyczka: 1
+
+zbierać recenzja: 1
+
+się sprzeczać: 1
+
+zapewnić przyczepność: 1
+
+się liczyć: 1
+
+przeprowadzić nalot: 1
+
+osiągnąć kompromis: 1
+
+się składać: 1
+
+przeprowadzić czystka: 1
+
+mieć zdanie: 1
+
+przyjąć życzenia: 1
+
+świecić pustka: 1
+
+pocić się: 1
+
+dostać spadek: 1
+
+iść jak woda: 1
+
+przychodzić na świat: 1
+
+stracić przytomność: 1
+
+do odpowiedzialność pociągnąć: 1
+
+mieć ulga: 1
+
+udzielić błogosławieństwo: 1
+
+sprawiać trudność: 1
+
+dostać odszkodowanie: 1
+
+puszczać wodza wyobraźnia: 1
+
+zadanie przeprowadzić: 1
+
+rozwodzić się: 1
+
+spostrzec się: 1
+
+się rozglądać: 1
+
+w rachuba wchodzić: 1
+
+mieć wymaganie: 1
+
+oddać w ręka: 1
+
+udzielić pełnomocnictwo: 1
+
+porozumienie zawierać: 1
+
+wykonać rzut wolny: 1
+
+wziąć prysznic: 1
+
+złożyć wizyta: 1
+
+uwaga zwrócić: 1
+
+wyrzucać za drzwi: 1
+
+posunąć się: 1
+
+przeprowadzić sekcja zwłoki: 1
+
+wydać zakaz: 1
+
+ulec rozszerzyć: 1
+
+zejść z oko: 1
+
+sobie wyobrazić: 1
+
+zdanie mieć: 1
+
+wyprowadzać się: 1
+
+sprzedaż dokonać: 1
+
+przebywać na urlop: 1
+
+się rozrastać: 1
+
+dokonać otwarcie: 1
+
+dostać w swój ręka: 1
+
+stanąć na ślubny kobierzec: 1
+
+wyobrazić sobie: 1
+
+dostać zlecenie: 1
+
+się równać: 1
+
+stanowić wartość: 1
+
+przyjść z pomoc: 1
+
+prowadzić kontrola: 1
+
+mieć w pamięć: 1
+
+wyjść na jaw: 1
+
+utrzymać w moc: 1
+
+odebrać sobie życie: 1
+
+sprawować obowiązek: 1
+
+nagroda odebrać: 1
+
+mieć siebie równy: 1
+
+wychodzić z założenie: 1
+
+emisja przeprowadzić: 1
+
+prowadzić negocjacja: 1
+
+świecić przykład: 1
+
+mieć związać ręka: 1
+
+odebrać nagroda: 1
+
+zrobić ruch: 1
+
+przebić się: 1
+
+powołać się: 1
+
+uporać się: 1
+
+wprowadzić w życie: 1
+
+przyjąć korzyść: 1
+
+zagnieździć się: 1
+
+dawać przykład: 1
+
+licytacja prowadzić: 1
+
+odwdzięczyć się: 1
+
+skupić się: 1
+
+się prosić: 1
+
+mieć podłoże: 1
+
+dokonać morderstwo: 1
+
+opłacać się: 1
+
+się różnić: 1
+
+konsultować się: 1
+
+głos zabrać: 1
+
+otrzymać zwrot: 1
+
+mieć kaprys: 1
+
+wziąć w swój ręka: 1
+
+zawierać związek: 1
+
+wdzierać się: 1
+
+sprawiać problem: 1
+
+oddać pole: 1
+
+atak przypuścić: 1
+
+pozostawać w tyle: 1
+
+odbyć zajęcia: 1
+
+się podziać: 1
+
+wystawa mieć: 1
+
+składać zlecenie: 1
+
+mieć opinia: 1
+
+udzielać wyjaśnienie: 1
+
+postawić wymaganie: 1
+
+wydać rozkaz: 1
+
+wydać orzeczenie: 1
+
+dokonać rzeź: 1
+
+żyć życie: 1
+
+ofiara paść: 1
+
+się dostać: 1
+
+przebywać z wizyta: 1
+
+wziąć żywiec: 1
+
+koszt ponieść: 1
+
+przyznać odszkodowanie: 1
+
+śmieć się: 1
+
+złożyć pozew: 1
+
+oglądać się: 1
+
+zrobić zakup: 1
+
+poszczycić się: 1
+
+mieć powierzchnia: 1
+
+zamach dokonać: 1
+
+prowadzić skup: 1
+
+osiągnąć zwycięstwo: 1
+
+dawać zlecenie: 1
+
+cel uświęcać środek: 1
+
+mieć kontrola: 1
+
+reforma przeprowadzić: 1
+
+rozciągać się: 1
+
+samookreślenie się: 1
+
+udzielić sakrament: 1
+
+wydać zgoda: 1
+
+obudzić zainteresowanie: 1
+
+dać początek: 1
+
+stanowisko piastować: 1
+
+odważyć się: 1
+
+konsekracja dokonać: 1
+
+korzeń sięgać: 1
+
+otrzymać wyróżnienie: 1
+
+przed sąd postawić: 1
+
+dać koncert: 1
+
+poparcie mieć: 1
+
+przeżyć szok: 1
+
+schodzić się: 1
+
+się zdarzać: 1
+
+rzucać przekleństwo: 1
+
+po sobie pokazić: 1
+
+walić prosto z most: 1
+
+dostać policzek: 1
+
+postawić weto: 1
+
+rozmowa przeprowadzić: 1
+
+złożyć życzenie: 1
+
+mieć nadwaga: 1
+
+pójść na swój: 1
+
+złożyć życzenia: 1
+
+mieć na imię: 1
+
+wystąpić z oskarżyć: 1
+
+zachować zimny krew: 1
+
+pojęcie mieć: 1
+
+mieć daleki ciąg: 1
+
+mieć otarcie: 1
+
+udzielać schronienie: 1
+
+się droczyć: 1
+
+rozegrać gem: 1
+
+natykać się: 1
+
+odpowiedzialność ponosić: 1
+
+przedzierać się: 1
+
+się przyznać: 1
+
+życzenie odebrać: 1
+
+dokonać wybór: 1
+
+mieć mandat: 1
+
+zakup robić: 1
+
+sprawić satysfakcja: 1
+
+przed sąd stanąć: 1
+
+grać mecz: 1
+
+wybór dokonać: 1
+
+szkolenie prowadzić: 1
+
+się trzymać: 1
+
+składać zeznanie: 1
+
+się spełnić: 1
+
+się przyglądać: 1
+
+wykonywać kontrola: 1
+
+wykonać reperacja: 1
+
+wotum nieufność postawić: 1
+
+zakaz wydać: 1
+
+wpadać w ucho: 1
+
+otrzymać doniesienie: 1
+
+postarać się: 1
+
+mieć na oko: 1
+
+świecić się: 1
+
+mieć na widok: 1
+
+mieć w zwyczaj: 1
+
+ciągnąć zysk: 1
+
+dokonywać absorpcja: 1
+
+mieć znaczyć: 1
+
+ogłosić wyrok: 1
+
+liczyć siebie: 1
+
+nagroda przyznawać: 1
+
+mieć świadomość: 1
+
+para pójść w gwizdek: 1
+
+mieć przyczepność: 1
+
+złapać oddech: 1
+
+udzielać chrzest: 1
+
+dostać zarzut: 1
+
+się spierać: 1
+
+otrzymać kara: 1
+
+zgoda wyrazić: 1
+
+wyrażać zgoda: 1
+
+mieć gorączka: 1
+
+wykonywać nurkowanie: 1
+
+walka prowadzić: 1
+
+gorączkować się: 1
+
+postępowanie prowadzić: 1
+
+przeprowadzać dokumentacja: 1
+
+dawać jałmużna: 1
+
+mieć zarobek: 1
+
+szkoda ponieść: 1
+
+mieć świętość: 1
+
+zyskać punkt: 1
+
+oddać salwa: 1
+
+dawać się: 1
+
+zaczajać się: 1
+
+sięgnąć szczyt: 1
+
+przynieść klęska: 1
+
+rzucić urok: 1
+
+podawać w wątpliwość: 1
+
+na pomysł wpaść: 1
+
+zaczynać od zero: 1
+
+pomylić się: 1
+
+wydać rozporządzenie: 1
+
+mieć w czub: 1
+
+umowa zawierać: 1
+
+ponieść śmierć: 1
+
+dać popis: 1
+
+bić na alarm: 1
+
+operacja przeprowadzać: 1
+
+popełnić grzech: 1
+
+na własny oko widzieć: 1
+
+przychylać się: 1
+
+cało wyjść: 1
+
+udzielić się: 1
+
+zawieść się: 1
+
+wyliczenie przeprowadzić: 1
+
+nic siebie nie robić: 1
+
+dopiąć swój: 1
+
+opaść z siła: 1
+
+wnieść aport: 1
+
+mieć wyłączność: 1
+
+przynieść w teczka: 1
+
+postanowienie zawrzeć: 1
+
+porażka doznać: 1
+
+zagrożenie nieść: 1
+
+zysk osiągnąć: 1
+
+podzielić się: 1
+
+zeznanie złożyć: 1
+
+się odwołać: 1
+
+mieć dość: 1
+
+wznosić się: 1
+
+przeprowadzić strajk: 1
+
+spędzać sen z powieka: 1
+
+się prezentować: 1
+
+zdystansować się: 1
+
+posiadać uprawnienie: 1
+
+ścigać się: 1
+
+widzieć kto: 1
+
+przynieść szkoda: 1
+
+snuć się: 1
+
+dokonywać zmiana: 1
+
+brać być na serio: 1
+
+legitymować się: 1
+
+wyrwać z korzeń: 1
+
+wieść życie: 1
+
+mieć na własność: 1
+
+przynieść ofiara: 1
+
+wieść prym: 1
+
+przynieść efekt: 1
+
+dodzwonić się: 1
+
+przeprowadzić transakcja: 1
+
+w ślad iść: 1
+
+prowadzić analiza: 1
+
+ekspertyza przeprowadzić: 1
+
+dać być: 1
+
+zakup dokonać: 1
+
+korzyść ponieść: 1
+
+złożyć sprzeciw: 1
+
+przekroczyć próg: 1
+
+wylegiwać się: 1
+
+oferta zgłosić: 1
+
+doszukać się: 1
+
+oferta składać: 1
+
+mieć dobry sława: 1
+
+nałożyć się: 1
+
+upierać się: 1
+
+mieć wkład: 1
+
+wnieść apelacja: 1
+
+nakaz wydać: 1
+
+szkoda spowodować: 1
+
+udzielać gwarancja: 1
+
+zapuścić korzeń: 1
+
+przymknąć oko: 1
+
+znaleźć zrozumienie: 1
+
+się zachowywać: 1
+
+stosunek mieć: 1
+
+powołać do życie: 1
+
+raczyć się: 1
+
+doznawać obrażenie: 1
+
+doznać obrażenie: 1
+
+wyróżnienie przyznawać: 1
+
+prowadzić głodówka: 1
+
+mieć wysokość: 1
+
+dokonać podsumować: 1
+
+mieć kompetencja: 1
+
+nie chcieć znać: 1
+
+przyjąć rezolucja: 1
+
+przynieść sukces: 1
+
+wedrzeć się: 1
+
+uprawiać miłość: 1
+
+mieć praktyka: 1
+
+dokonać czyn: 1
+
+dostawać tygodniówka: 1
+
+dostać telefon: 1
+
+imię nosić: 1
+
+się przekonać: 1
+
+otrzymywać rekompensata: 1
+
+znać od podszewka: 1
+
+udzielać wypowiedź: 1
+
+padać ofiara: 1
+
+znajdować potwierdzenie: 1
+
+wchodzić w reakcja: 1
+
+mieć działanie: 1
+
+krótko mówić: 1
+
+podnosić głos: 1
+
+czekać na godot: 1
+
+wodzić za nos: 1
+
+uchylić się: 1
+
+wynosić się: 1
+
+uprawiać proceder: 1
+
+podejmować współpraca: 1
+
+uprzeć się: 1
+
+odciąć się: 1
+
+z wniosek wystąpić: 1
+
+się wypowiadać: 1
+
+dokonać aresztowanie: 1
+
+wymierzyć kara: 1
+
+mieć romans: 1
+
+aktywność przejawiać: 1
+
+mieć specyfika: 1
+
+się zająć: 1
+
+mieć oblicze: 1
+
+się zdawać: 1
+
+zatoczyć koło: 1
+
+się znać: 1
+
+posiadać zezwolenie: 1
+
+się wymieniać: 1
+
+przynieść wynik: 1
+
+żeby piorun trzasnąć: 1
+
+dostać pozwolenie: 1
+
+wyciąć hołubiec: 1
+
+mieć niewyparzony język: 1
+
+dokonać reforma: 1
+
+zaprzątać sobie głowa: 1
+
+leżeć w natura: 1
+
+piastować stanowisko: 1
+
+mieć za złe: 1
+
+przewóz zrealizować: 1
+
+wyrządzić szkoda: 1
+
+wykonywać badanie: 1
+
+zastosowanie znaleźć: 1
+
+leżeć w ręka: 1
+
+mieć za zły: 1
+
+się pożegnać: 1
+
+zrobić studium: 1
+
+stanąć w płomień: 1
+

@@ -6,7 +6,4 @@ This system has participated in the competition of MWE Shared task - EACL 2017 (
 
 **Results**: results of experiements on 18 languages with multiple reports reflecting the progress of the identification process.
 
-**SourceCode**: the code of the system.
-
-### You have to change pathes in SouceCode/param.py
- 
+**SourceCode**: The folder Src

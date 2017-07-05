@@ -1,2324 +1,2199 @@
-## Sentence No. 265 - 
-konkrete werbemaßnahmen habe das objekt 21 nicht durchgeführt , " flugblätter oder sowas haben keine sau interessiert " - jedoch habe man öfters sms verschickt oder bekannte angerufen , um sie zu den liederabenden einzuladen . 
+## Sentence No. 930 - 
+der nationalrat in bern stimmte der nahezu uneingeschränkten weitergabe von steuerdaten an die vereinigten staaten mit deutlicher mehrheit zu : für das sogenannte fatca-gesetz sprachen sich 112 abgeordnete aus , 51 lehnten es ab , 21 parlamentarier enthielten sich . 
 ### Existing MWEs: 
-1- **durchgeführt** (VPC, 2)
-2- **angerufen** (VPC)
-3- **einzuladen** (VPC, 8)
+1- **stimmte zu** (VPC, 2)
+2- **sprachen aus** (VPC, 2)
+3- **sprachen sich aus** (IReflV)
+4- **lehnten ab** (VPC, 3)
+5- **enthielten sich** (IReflV)
 ### Identified MWEs: 
-1- **durchgeführt** (VPC)
-2- **einzuladen** (VPC)
-## Sentence No. 730 - 
-gleich zum auftakt des viertägigen zeltfestes anlässlich des 150-jährigen vereinsjubiläums der trachtenkapelle todtmoos konnte das organisationsteam mit matthias mutter an der spitze einen musikalischen top-act an land ziehen : " freibier , und der abend ist gerettet " , heißt es am freitagabend im großen festzelt auf der jägermatt . 
+1- **mit deutlicher mehrheit** (ID)
+2- **stimmte mit deutlicher mehrheit** (ID)
+## Sentence No. 1209 - 
+aus der riege der schweizer manager ist daniel vasella schon immer herausgestochen : er ließ sich auf seinem motorrad ablichten , trat selbstbewusst , fast arrogant auf und ließ sich seine arbeit sehr , sehr gut bezahlen . 
 ### Existing MWEs: 
-1- **an land ziehen** (ID)
-2- **abend ist gerettet** (ID)
-3- **heißt es** (ID, 18)
+1- **herausgestochen** (VPC)
+2- **ließ sich ablichten** (ID)
+3- **ablichten** (VPC, 1)
+4- **trat auf** (VPC, 4)
 ### Identified MWEs: 
-1- **heißt es** (ID)
-## Sentence No. 1210 - 
-die marktzulassung des medikaments , das in frankreich in einem zeitraum von rund 25 jahren mit vier todesfällen durch thrombosen in verbindung gebracht wird , solle binnen drei monaten ausgesetzt werden , teilte die französische arzneimittelaufsicht ( ansm ) am mittwoch in paris mit . 
+1- **ablichten** (VPC)
+2- **ließ sich** (ID)
+## Sentence No. 17 - 
+ttc lengerich lädt zum vortrag mit jürgen walter ein : mentale stärke im sport die bunte jahreszeit steht vor der tür und bringt allerlei knollen und rüben auf den tisch . 
 ### Existing MWEs: 
-1- **in verbindung gebracht** (LVC)
-2- **ausgesetzt** (VPC)
-3- **teilte mit** (VPC, 7)
+1- **lädt ein** (VPC, 6)
+2- **steht vor der tür** (ID)
+3- **bringt auf tisch** (ID)
 ### Identified MWEs: 
-1- **teilte mit** (VPC)
-## Sentence No. 2320 - 
-im tor stehen starke leute zur verfügung , allerdings fallen julian ahrens und mirco brandt zunächst verletzungsbedingt aus , der ebenfalls angeschlagene tobias möller dürfte zum saisonbeginn wieder fit sein . 
+1- **lädt ein** (VPC)
+## Sentence No. 386 - 
+" angst zu haben ist stigmatisiert " , sagt huber , " wer zugibt , dass er angst hat , ist ein loser , ein weichei " gegen diese wahrnehmung kämpft er an . 
 ### Existing MWEs: 
-1- **stehen zur verfügung** (ID, 2)
-2- **fallen aus** (VPC)
-3- **angeschlagene** (VPC, 1)
+1- **angst haben** (ID, 1)
+2- **zugibt** (VPC, 1)
+3- **angst hat** (ID, 1)
 ### Identified MWEs: 
-1- **stehen zur verfügung** (ID)
-2- **angeschlagene** (VPC)
-## Sentence No. 3085 - 
-timo herget und jonas krattenmacher holen 39-jährigen aus den fluten der donau - " ihr seid große vorbilder " sein kriminalistischer spürsinn , den er immer wieder unter beweis stellt , scheint die vermutung nahezulegen , dass es sich bei ihm eher um den typ des genialen irren handelt . 
+1- **zugibt** (VPC)
+## Sentence No. 496 - 
+vor ort erläuterte projektleiter manfred eberle ( r & h umwelt gmbh , nürnberg ) , dass die sanierung im ersten quartal 2014 abgeschlossen werden soll - vorausgesetzt das wetter macht keinen strich durch die rechnung . 
 ### Existing MWEs: 
-1- **unter beweis stellt** (LVC)
-2- **vermutung nahezulegen** (ID)
-3- **nahezulegen** (VPC), Embedded 
-### Identified MWEs: 
-1- **stellt typ handelt** (ID)
-## Sentence No. 3215 - 
-die kongolesische staatsanwaltschaft hat sofort ermittlungen aufgenommen und die opfer vernommen - das verfahren wurde aber ein halbes jahr später eingestellt . 
-### Existing MWEs: 
-1- **ermittlungen aufgenommen** (LVC, 1)
-2- **aufgenommen** (VPC, 5), Embedded 
-3- **eingestellt** (VPC, 8)
-### Identified MWEs: 
-1- **aufgenommen** (VPC)
-2- **ermittlungen aufgenommen** (LVC)
-3- **eingestellt** (VPC)
-## Sentence No. 3975 - 
-da ich gut vorbereitet war , gehe ich davon aus , dass ich nichts habe anbrennen lassen . 
-### Existing MWEs: 
-1- **gehe davon aus** (ID)
-2- **gehe aus** (VPC), DistributedEmbedding 
-3- **anbrennen lassen** (ID)
-## Sentence No. 4070 - 
-das treffen , das eigentlich im freien hätte stattfinden sollen , wurde wegen des schlechten wetters kurzerhand in die gaststätte jägerhof verlegt - passend der name , denn wenige tage vor den wahlen müssten auch die christdemokraten auf die jagd gehen , auf die jagd nach wählern , hieß es . 
-### Existing MWEs: 
-1- **stattfinden** (VPC, 8)
-2- **auf jagd gehen** (ID)
-3- **hieß es** (ID, 18)
-### Identified MWEs: 
-1- **stattfinden** (VPC)
-2- **hieß es** (ID)
-## Sentence No. 4470 - 
-rolf engels ( spd ) warf den zuständigen Ämtern vor , nicht optimistisch genug an die sache heran gegangen zu sein : " sie haben zwar akribisch die fakten heraus gestellt , dabei aber vor allem auf hindernisse für das projekt wie etwa den denkmalschutz hingewiesen . 
-### Existing MWEs: 
-1- **warf vor** (VPC, 3)
-2- **heraus gestellt** (VPC)
-3- **hingewiesen** (VPC, 2)
-### Identified MWEs: 
-1- **warf vor** (VPC)
-2- **hingewiesen** (VPC)
-## Sentence No. 70 - 
-angebliche " grundsatzvereinbarung " die soll die beschuldigte , die in einer psychiatrie untergebracht ist , im zustand der schuldunfähigkeit wegen einer akuten psychose dem opfer beigebracht haben . 
-### Existing MWEs: 
-1- **untergebracht** (VPC, 2)
-2- **beigebracht** (VPC)
-### Identified MWEs: 
-1- **untergebracht** (VPC)
-## Sentence No. 80 - 
-dettl schafft es durch seine offene art das publikum aus der reserve zu locken und zum tanzen und feiern zu bringen . 
-### Existing MWEs: 
-1- **aus reserve locken** (ID)
-2- **zum tanzen feiern bringen** (LVC)
-## Sentence No. 155 - 
-in hannover gaben der elffache torschütze christopher kunisch und markus fuchs ( acht treffer ) das kommando vor . 
-### Existing MWEs: 
-1- **gaben vor** (VPC), DistributedEmbedding 
-2- **gaben kommando vor** (ID)
-### Identified MWEs: 
-1- **gaben kommando** (ID)
-## Sentence No. 180 - 
-seine wertschätzung für die arbeit des dlr brachte landrat alexander saftig zum ausdruck : " das dlr ist ein wichtiger partner für uns , denn gemeinsam verfolgen wir die gleichen ziele . 
-### Existing MWEs: 
-1- **brachte zum ausdruck** (ID)
-2- **verfolgen ziele** (ID)
-## Sentence No. 185 - 
-gestern brachte er auf seinem haus am greiner stadtplatz eine wandzeitung an , in der er die geschichtliche bedeutung des mautturms für die region zusammenfasst : " als historiker muss ich da einfach meine stimme erheben . 
-### Existing MWEs: 
-1- **brachte an** (VPC)
-2- **stimme erheben** (ID)
-## Sentence No. 270 - 
-wolfgang f. tut es sichtlich leid , was er angerichtet hat . 
-### Existing MWEs: 
-1- **tut leid** (ID, 1)
-2- **angerichtet** (VPC)
-## Sentence No. 520 - 
-eu-währungskommissar olli rehn freut sich ebenfalls , die existentiellen probleme der währungsunion seien vergangenheit , die spannungen auf den finanzmärkten hätten nachgelassen , und das vertrauen kehre langsam zurück . 
-### Existing MWEs: 
-1- **nachgelassen** (VPC)
-2- **kehre zurück** (VPC)
-## Sentence No. 550 - 
-" die spieler , die aus ganz deutschland kamen , und ihre begleitpersonen haben sich sehr wohl gefühlt und sich bei uns bedankt " , freute sich pressesprecherin peggy edner-abe . 
-### Existing MWEs: 
-1- **wohl gefühlt** (ID)
-2- **sich bedankt** (IReflV)
-## Sentence No. 680 - 
-kamil chylinski führt cloppenburg vor das team von cheftrainer uwe ferl hat drei spieltage vor dem saisonende nun sieben punkte vorsprung auf den fc erzgebirge aue ii und damit alle trümpfe in der hand . 
-### Existing MWEs: 
-1- **führt vor** (VPC)
-2- **hat trümpfe in hand** (ID)
-## Sentence No. 720 - 
-wenn sie über ihre romanfiguren spricht , klingt es , als habe sie für immer von ihnen abschied nehmen müssen : " speziell bei diesem buch habe ich die figuren sehr gemocht , ich war echt traurig , als ich im januar fertig war mit dem buch . 
-### Existing MWEs: 
-1- **klingt es** (ID)
-2- **abschied nehmen** (LVC)
-### Identified MWEs: 
-1- **nehmen .** (ID)
-2- **abschied nehmen .** (ID)
-## Sentence No. 735 - 
-dann muss der arbeitnehmer sich darum kümmern , eine ersatzlösung zu finden . 
-### Existing MWEs: 
-1- **sich darum kümmern** (IReflV)
-2- **ersatzlösung finden** (ID)
-### Identified MWEs: 
-1- **kümmern finden** (VPC)
-2- **darum kümmern finden** (ID)
-## Sentence No. 815 - 
-" vielleicht eröffnen sich ja durch die öffentliche diskussion neue optionen " , meinte kern , fügte aber auch hinzu : " ganz grundsätzlich muss man natürlich schon sagen , dass der steigende bedarf an einer ganztagesbetreuung , der im moment durch den mangel an ganztagsschulen von der kommune gedeckt wird , die stadt weinheim an grenzen stoßen lässt . 
-### Existing MWEs: 
-1- **fügte hinzu** (VPC)
-2- **an grenzen stoßen** (ID)
-### Identified MWEs: 
-1- **.** (IReflV)
-2- **lässt .** (ID)
-3- **stoßen lässt .** (ID)
-## Sentence No. 850 - 
-mir war klar , dass sie in der lage sein würden , auch eine starke mannschaft wie die der münchner zu schlagen . 
-### Existing MWEs: 
-1- **war klar** (ID)
-2- **in lage sein** (ID, 1)
-## Sentence No. 885 - 
-und nicht nur dem problem der sexuellen belästigung von frauen wird erfolgreich die relevanz abgesprochen , parallelen gibt es auch beim thema gewalt gegen frauen : vertreterinnen der position , frauenhäuser gehörten längst abgeschafft , wird regelmäßig platz auf diversen kommentarseiten eingeräumt . 
-### Existing MWEs: 
-1- **abgesprochen** (VPC)
-2- **eingeräumt** (VPC, 1)
-### Identified MWEs: 
-1- **gibt es** (ID)
-2- **eingeräumt** (VPC)
-## Sentence No. 950 - 
-dabei stellte sich heraus , dass sie der polizei wegen ähnlicher delikte bereits gut bekannt sind . 
-### Existing MWEs: 
-1- **stellte heraus** (VPC, 3), DistributedEmbedding 
-2- **stellte sich heraus** (IReflV, 1)
-### Identified MWEs: 
-1- **stellte heraus** (VPC)
-## Sentence No. 1150 - 
-wenn sich von den 18 millionen wählern , die bei der letzten bundestagswahl zuhause geblieben sind , diesmal möglichst viele aufraffen , könnte es am wahlabend echte Überraschungen geben ! 
-### Existing MWEs: 
-1- **aufraffen** (VPC)
-2- **es geben** (ID, 25)
-### Identified MWEs: 
-1- **es geben** (ID)
-## Sentence No. 1195 - 
-gefragt , wann die produktion in krefeld definitiv stillgelegt wird , antwortete ein voith-sprecher gestern ausweichend : " wir gehen jetzt erst einmal in die verhandlungen " . 
-### Existing MWEs: 
-1- **stillgelegt** (VPC, 1)
-2- **gehen in verhandlungen** (LVC)
-### Identified MWEs: 
-1- **stillgelegt** (VPC)
-## Sentence No. 1250 - 
-auch dschungel-liebe kann vergehen : schauspieler rocco stark ( 27 ) und sängerin kim " gloss " debkowski ( 20 ) , die sich 2012 im " rtl-dschungelcamp " kennengelernt haben , gehen künftig getrennte wege . 
-### Existing MWEs: 
-1- **kennengelernt** (VPC)
-2- **gehen getrennte wege** (ID)
-## Sentence No. 1360 - 
-ein daraufhin durchgeführter test mit dem alkomaten erbrachte das ergebnis von 2,08 promille , weshalb eine blutentnahme im klinikum durchgeführt wurde . 
-### Existing MWEs: 
-1- **durchgeführter** (VPC)
-2- **durchgeführt** (VPC, 2)
-### Identified MWEs: 
-1- **durchgeführt** (VPC)
-## Sentence No. 1485 - 
-beim wahlwerbespot der " partei " , den das zdf am dienstagabend kurz nach dem " heute journal " zum thema " familienpolitik " ausstrahlen ließ , dürften stammkunden des zweiten in schockstarre verfallen sein . 
-### Existing MWEs: 
-1- **ausstrahlen** (VPC)
-2- **in schockstarre verfallen** (ID)
-## Sentence No. 1630 - 
-einen schönen bogen zwischen diesen reden und obamas auftritt schlägt allerdings der mailänder " corriere della sera " : " es gibt einen roten faden in den reden von kennedy , reagan und obama vor dem brandenburger tor . 
-### Existing MWEs: 
-1- **bogen schlägt** (ID)
-2- **es gibt** (ID, 25)
-### Identified MWEs: 
-1- **es gibt** (ID)
-2- **schlägt es gibt** (ID)
-## Sentence No. 1650 - 
-stuttgartder hightech-konzern ibm baut sein cloud-geschäft weiter aus : das unternehmen gab am dienstag die Übernahme der firma softlayer bekannt , die ihren 21.000 kunden it-ressourcen als dienstleistung anbietet und dafür 13 rechenzentren in den usa , asien und europa unterhält . 
-### Existing MWEs: 
-1- **gab bekannt** (ID)
-2- **anbietet** (VPC, 11)
-### Identified MWEs: 
-1- **anbietet** (VPC)
-## Sentence No. 1725 - 
-klaus hatte den esm als " entartet " bezeichnet und seine unterschrift abgelehnt , obwohl beide kammern des tschechischen parlaments dem esm zuvor mit großer mehrheit zugestimmt hatten . 
-### Existing MWEs: 
-1- **abgelehnt** (VPC, 4)
-2- **zugestimmt** (VPC, 1)
-### Identified MWEs: 
-1- **abgelehnt** (VPC)
-2- **zugestimmt** (VPC)
-## Sentence No. 1830 - 
-der teufel scheint bei diesem schild im detail zu liegen , denn die sperrung wird darauf ab dem 21. mai 2012 angekündigt . 
-### Existing MWEs: 
-1- **der teufel im detail liegen** (ID)
-2- **angekündigt** (VPC, 9)
-### Identified MWEs: 
-1- **angekündigt** (VPC)
-## Sentence No. 1925 - 
-chile : mapuche wehren sich gegen repression in einer feierstunde im haus der wirtschaft in darmstadt zeichnete staatssekretär lortz die preisträger aus . 
-### Existing MWEs: 
-1- **wehren sich** (IReflV)
-2- **zeichnete aus** (VPC)
-## Sentence No. 2055 - 
-website von jacco gardner seinen umschlag mit dem ausgefüllten stimmzettel zur bundestagswahl hat karsten ohliger am dienstagmorgen noch schnell eingeworfen . 
-### Existing MWEs: 
-1- **ausgefüllten** (VPC)
-2- **eingeworfen** (VPC)
-## Sentence No. 2070 - 
-bürgermeister helmut forster fand den ausflug so interessant , dass er die teilnehmer zu einem arbeitsgespräch einladen will . 
-### Existing MWEs: 
-1- **fand interessant** (ID)
-2- **einladen** (VPC, 8)
-### Identified MWEs: 
-1- **fand ausflug** (LVC)
-2- **einladen** (VPC)
-## Sentence No. 2160 - 
-da muten 15,6 millionen euro als zubrot aus dem finanzausgleich fast bescheiden an . 
-### Existing MWEs: 
-1- **muten an** (VPC), DistributedEmbedding 
-2- **muten bescheiden an** (ID)
-## Sentence No. 2315 - 
-laut greenpeace hat der minister die umweltverbände am montag dazu aufgerufen , innerhalb von lediglich 24 stunden eine stellungnahme zu dem 75-seitigen gesetzentwurf zur endlagersuche abzugeben , was alle angefragten umweltverbände abgelehnt hätten . 
-### Existing MWEs: 
-1- **aufgerufen** (VPC)
-2- **stellungnahme abzugeben** (LVC)
-### Identified MWEs: 
-1- **abzugeben** (VPC)
-2- **abgelehnt** (VPC)
-## Sentence No. 2450 - 
-sie brauchen nur einmal die arbeiten etwa des historikers leopold von ranke zur hand zu nehmen , um sich den seither erfolgten paradigmenwechsel vor augen zu führen , erst recht im vergleich zu antiken schriften . 
-### Existing MWEs: 
-1- **zur hand nehmen** (ID)
-2- **vor augen führen** (ID)
-### Identified MWEs: 
-1- **nehmen .** (ID)
-## Sentence No. 2485 - 
-es traf der dfb-präsident ein ( und wurde gar nicht erst wahrgenommen ) . 
-### Existing MWEs: 
-1- **traf ein** (VPC, 2)
-2- **wahrgenommen** (VPC)
-## Sentence No. 2520 - 
-und die arbeitsinspektoren haben nichts besseres zu tun , als mittagszeitminuten zu stoppen und bei der auslegung der arbeitszeitgesetze außerordentlich strikt vorgehen . 
-### Existing MWEs: 
-1- **haben besseres zu tun** (ID)
-2- **vorgehen** (VPC, 1)
-### Identified MWEs: 
-1- **haben zu tun** (ID)
-2- **vorgehen** (VPC)
-## Sentence No. 2600 - 
-8. bis 10. märz , sindelfingen , stadthalle es ging heiß her beim tantra-prozess in bad säckingen : es war ein emotionaler prozess mit überraschendem ende . 
-### Existing MWEs: 
-1- **ging her** (VPC), DistributedEmbedding 
-2- **ging heiß her** (ID)
-### Identified MWEs: 
-1- **heiß her** (ID)
-2- **ging heiß her** (ID)
-## Sentence No. 2825 - 
-die staatsanwaltschaft geht davon aus , dass der kahlköpfige türke die fast 30 jahre ältere fkk-club-dame in den frühen morgenstunden des 20. august 2005 in deren erdgeschoss-wohnung an der victoriastraße überfallen , gekidnappt und dabei schwer verletzt hat . 
-### Existing MWEs: 
-1- **geht aus** (VPC, 13), DistributedEmbedding 
-2- **geht davon aus** (ID, 10)
-### Identified MWEs: 
-1- **geht davon aus** (ID)
-## Sentence No. 3015 - 
-daraus wurden aber die lehren gezogen : wir werden schon im herbst auch in kärnten nur noch geschlossen als fpÖ antreten . 
-### Existing MWEs: 
-1- **lehren gezogen** (ID)
-2- **antreten** (VPC, 5)
-### Identified MWEs: 
-1- **antreten** (VPC)
-## Sentence No. 3030 - 
-keine flüchtlingswelle jänig und kortmann wäre somit ein verstoß gegen den geschäftsbesorgungsvertrag vorzuwerfen , den die stadt und der trägerverein des lichtkunstzentrums 2003 abgeschlossen hatten . 
-### Existing MWEs: 
-1- **vorzuwerfen** (VPC)
-2- **abgeschlossen** (VPC, 8)
+1- **abgeschlossen** (VPC, 9)
+2- **vorausgesetzt** (VPC)
+3- **macht strich durch rechnung** (ID)
 ### Identified MWEs: 
 1- **abgeschlossen** (VPC)
-## Sentence No. 3055 - 
-im oktober letzten jahres sei sie mit ihrem vorhaben , die leer stehenden räume im amtshof für jugendliche nutzen zu wollen , an bürgermeister friedel kopp ( parteilos ) herangetreten und auf offene ohren gestoßen . 
+## Sentence No. 684 - 
+was noch schwerer wiegt : mehr sie müssen sich anmelden , um abstimmen zu können . 
 ### Existing MWEs: 
-1- **herangetreten** (VPC)
-2- **auf offene ohren gestoßen** (ID)
-## Sentence No. 3180 - 
-ansonsten hatten die anderen regionalligisten gegen den neuen meister nichts zu lachen : aufsteiger djk adler 07 bottrop wurde mit 6:0 , jc 66 bottrop ii und fc stella bevergern jeweils mit 6:1 ebenso von der matte gefegt , wie sv 08/29 friedrichsfeld und der 1 . 
-### Existing MWEs: 
-1- **hatten nichts zu lachen** (ID)
-2- **von matte gefegt** (ID)
-## Sentence No. 3645 - 
-rund 200 mitarbeiterinnen und mitarbeiter aus allen berufsgruppen , angefangen von der krankenschülerin bis hin zum chefarzt , nehmen an der ganztägigen veranstaltung in der stadthalle teil . 
-### Existing MWEs: 
-1- **angefangen** (VPC)
-2- **nehmen teil** (VPC, 7)
+1- **schwerer wiegt** (ID)
+2- **anmelden** (VPC)
+3- **abstimmen** (VPC, 3)
 ### Identified MWEs: 
-1- **nehmen teil** (VPC)
-## Sentence No. 3715 - 
-" im zuge der intensiven diskussion in der Öffentlichkeit über die probeweise komplettabschaltung der straßenbeleuchtung mehren sich die fragen , ob hierdurch die stadt bad berleburg nicht ihre verkehrssicherungspflicht verletzt und bei unfällen in regress genommen werden kann " , leitet fraktionsvorsitzender bernd weide ein . 
+1- **abstimmen** (VPC)
+## Sentence No. 709 - 
+der kritiker einer großen koalition meint mit blick auf die von gabriel aufgestellten forderungen für die verhandlungen , das seien nur " absolute minimalforderungen " : das spiegelt die stimmung vieler funktionäre wider - die botschaft : gabriel muss mehr rausholen . 
 ### Existing MWEs: 
-1- **in regress genommen** (ID)
-2- **leitet ein** (VPC, 1)
-## Sentence No. 3795 - 
-wilhelmshavener zeitung : schalke zeigt königsklassen-gesicht eine Überraschung wird es auch , wie franziska molitor ankündigte , für die besucher im rahmen des martinimarktes geben , an dem die bücherei ihr fünfjähriges bestehen feiern kann . 
+1- **aufgestellten** (VPC)
+2- **spiegelt wider** (VPC)
+3- **rausholen** (VPC)
+## Sentence No. 912 - 
+kardinal glemp in warschau beigesetzt beide sprechen von einem " sehr ambitionierten projekt " , das am anfang noch von einigen unannehmlichkeiten begleitet sein dürfte : die computer- und kommunikationstechnik muss noch optimiert werden , die klassenräume müssen eingerichtet und nicht zuletzt die neuen toiletten fertiggestellt werden . 
 ### Existing MWEs: 
-1- **es geben** (ID, 25)
-2- **ankündigte** (VPC, 9)
-### Identified MWEs: 
-1- **ankündigte** (VPC)
-## Sentence No. 3950 - 
-mit einem aufgemotzten käfer fing alles an . 
+1- **beigesetzt** (VPC)
+2- **eingerichtet** (VPC)
+3- **fertiggestellt** (VPC)
+## Sentence No. 26 - 
+bis in den vormittag liefen nacharbeiten , um das weitere eindringen eventuell kontaminierten löschwassers in die kanalisation einzudämmen . 
 ### Existing MWEs: 
-1- **aufgemotzten** (VPC)
-2- **fing an** (VPC, 1)
-## Sentence No. 4040 - 
-contra : ein areal zöge noch mehr an beobachter sind sich allerdings sicher : beim dinner sprühten die funken und es war sehr intim . 
-### Existing MWEs: 
-1- **zöge an** (VPC)
-2- **sprühten funken** (ID)
-## Sentence No. 4150 - 
-" wir wollen mit unserer kampagne ganz klar machen , dass unser ziel ist , die regierende koalition abzulösen " , sagte al-wazir . 
-### Existing MWEs: 
-1- **klar machen** (ID, 1)
-2- **abzulösen** (VPC, 2)
-### Identified MWEs: 
-1- **klar machen** (ID)
-2- **abzulösen** (VPC)
-## Sentence No. 4490 - 
-außerdem fanden sich damen unterschiedlichen alters , die sich um die basteleien für die oster- und weihnachtsbasare kümmern . 
-### Existing MWEs: 
-1- **fanden sich** (IReflV, 3)
-2- **sich um kümmern** (IReflV, 2)
-## Sentence No. 4605 - 
-zeugen , die sachdienliche hinweise zu dem unfallverursachenden fahrzeug machen können , werden gebeten , sich mit der polizei miesbach unter telefon 08025/2990 in verbindung zu setzen . 
-### Existing MWEs: 
-1- **hinweise machen** (LVC)
-2- **in verbindung setzen** (LVC)
-### Identified MWEs: 
-1- **sich 08025/2990 setzen** (IReflV)
-## Sentence No. 4770 - 
-er spielte darauf an , dass sich heimarbeiter auch besser in familiäre aufgaben , zum beispiel in der pflege eines angehörigen , einbringen könnten . 
-### Existing MWEs: 
-1- **spielte an** (VPC)
-2- **einbringen** (VPC, 1)
-### Identified MWEs: 
-1- **spielte an** (VPC)
-2- **einbringen** (VPC)
-## Sentence No. 4905 - 
-zu wenig nüchterne zeugen oberstaatsanwalt raufeisen hatte nach drei verhandlungstagen unverschuldet schlechte karten : angeklagt war ein versuchtes tötungsdelikt , aber dafür , wie es wirklich war , fehlten ihm letztlich verlässliche zeugen und sogar der rechtsmediziner ließ ihn bei dem schwert-fall " im stich " . 
-### Existing MWEs: 
-1- **hatte schlechte karten** (ID)
-2- **ließ im stich** (ID)
-## Sentence No. 4950 - 
-berlin ( dpa ) - radikale salafisten bereiten den deutschen sicherheitsbehörden seit längerem sorgen , deshalb sind polizisten in hessen und nordrhein-westfalen jetzt mit razzien gegen salafisten-vereine vorgegangen , so das bundesinnenministerium . 
-### Existing MWEs: 
-1- **bereiten sorgen** (LVC)
-2- **vorgegangen** (VPC)
-## Sentence No. 5095 - 
-10 uhr : hüpfburg des kreissportbundes 11 uhr : nordic walking wanderung mit erwerb des nw abzeichens 11 uhr : ringreiten , gespannfahren und führzügelwettbewerb durch den reit- u. fahrverein förderstedt 12 uhr : kleinfeldfußball zlg atzendorf i - germania borne 14 uhr : blasmusik mit der big-band veb olsenbande i.o aus altenweddingen kaffee und kuchen angeboten von den " atzendorfer landfrauen " 14 uhr : fußball-kreisklasse : zlg atzendorf ii - blau-weiß barby 15 uhr : tombola , ziehung der hauptgewinner wölfe tun beeren und bären gut dann hieß es : " wir nehmen sie " . 
-### Existing MWEs: 
-1- **angeboten** (VPC, 11)
-2- **hieß es** (ID, 18)
-### Identified MWEs: 
-1- **angeboten** (VPC)
-2- **hieß es** (ID)
-3- **i.o** (IReflV)
-4- **nw i.o** (OTH)
-## Sentence No. 5125 - 
-wer weltmeister wird , darf sich auch regeln widersetzen : nachdem sebastian vettel ( 26 ) in indien seinen vierten weltmeister-titel in folge eingefahren hatte , ließ er die reifen seiner " hungry heidi " ordentlich qualmen . 
-### Existing MWEs: 
-1- **weltmeister-titel eingefahren** (ID)
-2- **eingefahren** (VPC), Embedded 
-### Identified MWEs: 
-1- **ließ hungry** (ID)
-## Sentence No. 5160 - 
-nachdem am morgen das nabada stattgefunden hatte , ging es am nachmittag beim fischerstechen richtig zur sache . 
-### Existing MWEs: 
-1- **stattgefunden** (VPC, 8)
-2- **ging zur sache** (ID)
-### Identified MWEs: 
-1- **stattgefunden** (VPC)
-## Sentence No. 5185 - 
-es gibt personen , die haben einen orgasmus beim küssen , und es gibt andere , die haben analverkehr vorm spiegel und empfinden dabei nichts . 
-### Existing MWEs: 
-1- **es gibt** (ID, 25)
-2- **es gibt** (ID, 1)
-### Identified MWEs: 
-1- **es gibt** (ID)
-2- **es gibt** (ID)
-## Sentence No. 5245 - 
-wenn das wasser über das ufer tritt , bringt es viele unangenehme hinterlassenschaften mit sich . 
-### Existing MWEs: 
-1- **über ufer tritt** (ID)
-2- **bringt mit sich** (ID, 1)
-## Sentence No. 5255 - 
-ich stand dem damals schon skeptisch gegenüber . 
-### Existing MWEs: 
-1- **stand gegenüber** (VPC), DistributedEmbedding 
-2- **stand skeptisch gegenüber** (ID)
-## Sentence No. 5280 - 
-anlässlich einiger internationalen großveranstaltungen in den letzten wochen , wie bei der weltsieger-ausstellung in budapest oder der coursing-europameisterschaft , war es das gesprächsthema nummer eins unter den international ambitionierten windhund-besitzern das windhund-festival in donaueschingen , das es nun schon 20 jahre in donaueschingen gibt und kommendes wochenende stattfinden wird . 
-### Existing MWEs: 
-1- **es gibt** (ID, 25)
-2- **stattfinden** (VPC, 8)
-### Identified MWEs: 
-1- **es gibt** (ID)
-2- **stattfinden** (VPC)
-## Sentence No. 5615 - 
-und er sagte mir , dass er guter dinge ist , dass wir das hinbekommen " . 
-### Existing MWEs: 
-1- **guter dinge ist** (ID)
-2- **hinbekommen** (VPC)
-## Sentence No. 0 - 
-weiterhin gut im rennen sind dabei unnütze und unerwünschte mails - die spams , die mit produktfälschungen oder lukrativen geschäften locken . 
-### Existing MWEs: 
-1- **im rennen sind** (ID)
+1- **liefen nacharbeiten** (LVC)
+2- **einzudämmen** (VPC)
 ## Sentence No. 35 - 
-das teilte das statistische bundesamt in wiesbaden anlässlich des heutigen weltbevölkerungstages mit . 
+so , wie der terror an jedem platz der erde zuschlagen kann , so verfolgen menschen von fast jedem platz der erde aus mit einer mischung aus angst und sensationslust , wie im vorort einer amerikanischen großstadt jagd auf einen möglichen terroristen gemacht wird . 
 ### Existing MWEs: 
-1- **teilte mit** (VPC, 7)
+1- **zuschlagen** (VPC, 3)
+2- **jagd gemacht** (ID)
 ### Identified MWEs: 
-1- **teilte mit** (VPC)
-## Sentence No. 45 - 
-niemand musste einen der ausgewiesenen plätze verlassen und durch die stadt ziehen , denn in einer art rotation konnten jede darbietung an jedem platz verfolgt werden . 
+1- **zuschlagen** (VPC)
+## Sentence No. 36 - 
+weil der stadtteil im funkloch liegt , war es auch nicht möglich , notrufe abzusetzen . 
 ### Existing MWEs: 
-1- **ausgewiesenen** (VPC)
-## Sentence No. 50 - 
-beide fahrzeuglenker zogen sich hierbei leichte blessuren zu . 
+1- **notrufe abzusetzen** (LVC)
+2- **abzusetzen** (VPC)
+## Sentence No. 56 - 
+görlitz das hochwasser anfang juni und die starkniederschläge am 9. juni haben im landkreis görlitz einen bisherigen gesamtschaden von rund 37 , 7 millionen euro angerichtet . 
 ### Existing MWEs: 
-1- **zogen zu** (VPC)
-## Sentence No. 55 - 
-auch die bausubstanz lasse zu wünschen übrig . 
-### Existing MWEs: 
-1- **lasse zu wünschen übrig** (ID)
-## Sentence No. 95 - 
-seit 2002 bietet der verein auch nachsorge an , im jahr 2008 wurde dafür ein nachsorgezentrum gebaut . 
-### Existing MWEs: 
-1- **bietet an** (VPC, 4)
+1- **gesamtschaden angerichtet** (LVC)
+2- **angerichtet** (VPC, 1)
 ### Identified MWEs: 
-1- **bietet an** (VPC)
-## Sentence No. 110 - 
-das hotel verfügt über ein restaurant , das kaum einen kulinarischen wunsch offen lässt und in der großzügig gestalteten bar und dem umfassenden spa- und fitnessbereich können sich die gäste richtig verwöhnen lassen . 
+1- **angerichtet** (VPC)
+## Sentence No. 58 - 
+wirtin Özdil kündigte an , die einzelheiten mit dem ordnungsamt auszudiskutieren : ihr lokal " shiva " ist als " shisha-lounge " für wasserpfeifen-runden geradezu auf das gemeinsame rauchen ausgelegt : " ich habe eine kleine terrasse , da werde ich weiter rauchen lassen " . 
 ### Existing MWEs: 
-1- **kaum wunsch offen lässt** (ID)
-## Sentence No. 115 - 
-die anklage gegen ihn lautete , dass er " kontakt mit terroristen " gepflegt habe und einen krankenwagen und medikamente für diese besorgt habe . 
-### Existing MWEs: 
-1- **kontakt gepflegt** (LVC)
-## Sentence No. 125 - 
-2:16:12 stunden und rang 52 standen am ende zu buche . 
-### Existing MWEs: 
-1- **standen zu buche** (ID)
-## Sentence No. 160 - 
-aber berühren ist im zoo eben nicht vorgesehen , weder für die tiere noch für das mädchen . 
-### Existing MWEs: 
-1- **vorgesehen** (VPC, 1)
+1- **kündigte an** (VPC, 7)
+2- **ausgelegt** (VPC)
 ### Identified MWEs: 
-1- **vorgesehen** (VPC)
-## Sentence No. 175 - 
-wie die polizei mitteilt , wurden vier beteiligte verletzt . 
+1- **kündigte an** (VPC)
+## Sentence No. 119 - 
+martin tenge : es gibt noch das bild von der volkskirche , zu der noch 90 prozent der menschen gehören , aber hier in hannover gibts das nicht mehr . 
 ### Existing MWEs: 
-1- **mitteilt** (VPC, 9)
+1- **es gibt** (ID, 37)
+2- **gibts** (ID)
 ### Identified MWEs: 
-1- **mitteilt** (VPC)
-## Sentence No. 190 - 
-die verrückten bamberger fans sollen dabei den ausschlag geben . 
+1- **es gibt** (ID)
+## Sentence No. 127 - 
+auch aus den dörfern im raum kyritz wurde " direkte feindliche arbeit " gemeldet und konstatiert , dass man dieser nicht gewachsen sei - während im raum pritzwalk die großbauern feierten und lieder wie " mein schlesierland , wir seh'n uns wieder " auf den lippen hatten . 
 ### Existing MWEs: 
-1- **ausschlag geben** (ID, 1)
+1- **gewachsen sei** (ID)
+2- **auf lippen hatten** (ID)
+## Sentence No. 136 - 
+man könnte es jedenfalls vermuten , doch wahrscheinlicher ist , dass es ein unglücklicher unfall war , der sich am vergangenen dienstag zugetragen hat : gegen 13.55 uhr war der 51-jährige fahrer eines sattelzuges in der gochsheimer straße in grettstadt in richtung gochsheim unterwegs . 
+### Existing MWEs: 
+1- **unfall zugetragen** (LVC)
+2- **zugetragen** (VPC)
+## Sentence No. 138 - 
+die lärmschutzwand sei weggefallen , weil mit den künftigen bauträgern eine reduzierung und drehung der baukörper abgestimmt wurde , man baue weniger häuser , grüne puffer und für 20 000 euro fledermaus-türme ... 
+### Existing MWEs: 
+1- **weggefallen** (VPC)
+2- **abgestimmt** (VPC)
+## Sentence No. 151 - 
+eberhard dziwisz musste sich in seinen beiden einzeln mit 2:3 geschlagen geben , je einmal zogen benno oder und patrick kalberg den kürzeren . 
+### Existing MWEs: 
+1- **geschlagen geben** (ID)
+2- **zogen kürzeren** (ID)
 ## Sentence No. 195 - 
-artikel : http://www.insuedthueringen.de/lokal/ilmenau/ilmenau/flockenwirbel-für-grossbreitenbachs-sternchen;art83439,2463858 der gutachter kommt zu dem schluss , dass " diese auflistung im nachhinein zum scheinbaren nachweis von treffen hergestellt worden ist , ohne dass mit der nötigen sorgfalt auch darauf geachtet worden wäre , dass die angaben auch mit den unterlagen bei dr. peter hochegger in Übereinstimmung gebracht werden können " . 
+in dieser altersgruppe steht der spaß am fußball im vordergrund , daher wird der schlusstag des sparkassencups traditionell nicht im turniermodus mit platzierungsspielen ausgetragen . 
 ### Existing MWEs: 
-1- **kommt zu dem schluss** (ID)
+1- **steht im vordergrund** (ID, 2)
+2- **ausgetragen** (VPC, 4)
 ### Identified MWEs: 
-1- **hergestellt** (VPC)
-2- **hergestellt worden** (ID)
-3- **kommt mit sorgfalt** (ID)
-## Sentence No. 200 - 
-der verlag fand die nebeneinanderstellung unter dem motto " das geheimnis zweier frauen bestseller " nicht lustig und erwirkte beim landgericht köln eine einstweilige verfügung gegen die reklame . 
+1- **steht spaß** (ID)
+2- **ausgetragen** (VPC)
+## Sentence No. 212 - 
+die fahrerin , bei der es sich um eine junge frau mit dunklen haaren gehandelt haben soll , setzte anschließend ihre fahrt einfach fort , ohne ihre personalien zu hinterlassen . 
 ### Existing MWEs: 
-1- **fand lustig** (ID)
+1- **sich um gehandelt** (IReflV)
+2- **setzte fort** (VPC)
 ### Identified MWEs: 
-1- **fand unter motto** (ID)
-## Sentence No. 205 - 
-doch seine kampagne , die vor allem auf strafverfolgung setzt , greift nach ansicht von menschenrechtsaktivisten zu kurz . 
+1- **setzte fort** (VPC)
+## Sentence No. 228 - 
+keine tore , keine punkte : hannover 96 geht in der ferne wieder leer aus . 
 ### Existing MWEs: 
-1- **greift zu kurz** (ID)
+1- **geht aus** (VPC, 14)
+2- **geht leer aus** (ID, 1)
 ### Identified MWEs: 
-1- **greift zu kurz** (ID)
-## Sentence No. 210 - 
-alkohol schränkt das bewusstsein ein , zigaretten nicht . 
+1- **geht leer aus** (ID)
+## Sentence No. 229 - 
+technik und forschung hätten zwar gewaltige fortschritte gemacht , dafür gibt es jetzt aber probleme wie personalmangel , enorme dokumentationspflichten und ständigen konkurrenzkampf durch Ärzte-rankings . 
 ### Existing MWEs: 
-1- **schränkt ein** (VPC)
-## Sentence No. 215 - 
-die cdu-innenpolitikerin petra nicolaisen zog bereits aus der leistungsbeschreibung zum gutachten den schluss , dass die kreisfreien städte mehr geld erhalten sollen . 
-### Existing MWEs: 
-1- **zog schluss** (LVC)
-### Identified MWEs: 
-1- **zog .** (ID)
-## Sentence No. 235 - 
-das parlament hat den kauf bereits durchgewunken , doch es besteht kaum ein zweifel daran , dass es zur referendumsabstimmung kommen wird . 
-### Existing MWEs: 
-1- **besteht kaum zweifel** (ID)
-### Identified MWEs: 
-1- **besteht daran** (VPC)
-## Sentence No. 240 - 
-in gottesdiensten mit hörspielanteilen lassen sich hörspiel und bibeltext in ein gespräch ein - und interpretieren sich gegenseitig . 
-### Existing MWEs: 
-1- **lassen ein** (VPC)
-## Sentence No. 280 - 
-für das leibliche wohl ist selbstverständlich auch gesorgt , neben dem klassiker " bierwagen " steht wieder das suppenmobil bereit und natürlich ein großer schwenkgrill , ein cocktailstand und es gibt kaffee und kuchen . 
-### Existing MWEs: 
-1- **es gibt** (ID, 25)
-### Identified MWEs: 
-1- **es gibt** (ID)
-## Sentence No. 295 - 
-ihr debüt in donaueschingen geben wird die in brüssel lebende dorota jurczak , die mit ihren installationen ebenfalls auf viel raumatmosphäre setzt . 
-### Existing MWEs: 
-1- **debüt geben** (LVC)
-### Identified MWEs: 
-1- **debüt** (IReflV)
-2- **debüt dorota** (ID)
-## Sentence No. 310 - 
-ab 18 uhr erfahren sie hier , wie die ersten prognosen und später die hochrechnungen aussehen . 
-### Existing MWEs: 
-1- **aussehen** (VPC, 2)
-### Identified MWEs: 
-1- **aussehen** (VPC)
-## Sentence No. 315 - 
-die georderten exporte belaufen sich auf 285.700 tonnen . 
-### Existing MWEs: 
-1- **belaufen sich auf** (IReflV, 3)
-### Identified MWEs: 
-1- **sich .** (IReflV)
-2- **belaufen sich .** (ID)
-## Sentence No. 320 - 
-in ihrer paraderolle als toughe kämpferin ist michelle rodriguez auch in " machete " zu sehen . 
-### Existing MWEs: 
-1- **ist zu sehen** (ID)
-## Sentence No. 325 - 
-aber ich mach mir das in der eigenen mannschaft aus - wie das jeder gute kapitän machen würde . 
-### Existing MWEs: 
-1- **mach aus** (VPC)
-## Sentence No. 350 - 
-die anschließend auftretende dsds-finalistin lisa wohlgemuth fing die stimmung gekonnt auf , bei bester stimmung wurde bis zwei uhr nachts gefeiert . 
-### Existing MWEs: 
-1- **auftretende** (VPC)
-## Sentence No. 360 - 
-eine weitere merkwürdigkeit machte die kommission stutzig . 
-### Existing MWEs: 
-1- **machte stutzig** (ID)
-### Identified MWEs: 
-1- **machte stutzig** (VPC)
-## Sentence No. 365 - 
-auch die frage , ob der Ögb massen auf die straße bringen könnte , beantwortet bachmayer mit nein . 
-### Existing MWEs: 
-1- **auf straße bringen** (ID)
-## Sentence No. 380 - 
-der eu-rat lehnt eigenmittel freilich ab . 
-### Existing MWEs: 
-1- **lehnt ab** (VPC, 2)
-## Sentence No. 385 - 
-der gewerkschafter solle den bereich arbeit und soziales übernehmen und eine brücke zum gewerkschaftslager schlagen , schreibt das blatt ( freitag ) . 
-### Existing MWEs: 
-1- **brücke schlagen** (ID)
-## Sentence No. 395 - 
-opfer mit durchschnittener kehle und halbnackt viele sprünge ins kühle nass wir haben es im ersten durchgang versäumt , den sack zuzumachen . 
-### Existing MWEs: 
-1- **sack zuzumachen** (ID)
-### Identified MWEs: 
-1- **sack zuzumachen** (ID)
-## Sentence No. 405 - 
-anschließend raste der etwa 65 jahre alte fahrer weiter , ohne sich um die beiden opfer zu kümmern , wie die polizei in neubrandenburg mitteilte . 
-### Existing MWEs: 
-1- **mitteilte** (VPC, 9)
-### Identified MWEs: 
-1- **mitteilte** (VPC)
-## Sentence No. 445 - 
-die bürgerenergie-genossenschaft spiele dabei ebenso eine rolle wie der blick auf reserven bei den stadtwerken und der städtischen beteiligungsgesellschaft : " bei der bsg liegen rund 45 millionen , die derzeit am kapitalmarkt nur noch 0,7 prozent zinsertrag bringen . 
-### Existing MWEs: 
-1- **spiele rolle** (ID)
-## Sentence No. 460 - 
-vier medaillen trösteten über kleinere enttäuschung hinweg : olympiasiegerin vicky rebensburg wurde im riesenslalom - angeschlagen - nur elfte . 
-### Existing MWEs: 
-1- **angeschlagen** (VPC, 1)
-### Identified MWEs: 
-1- **angeschlagen** (VPC)
-## Sentence No. 470 - 
-der student am ifgi beschäftigt sich im rahmen der initiative " gi@school " intensiv mit kooperationsprojekten zwischen dem ifgi und weiterführenden schulen . 
-### Existing MWEs: 
-1- **beschäftigt sich mit** (IReflV)
-## Sentence No. 490 - 
-stockholm - drei ex-führungskräfte des schwedischen autobauers saab sind wegen verdachts auf bilanzbetrug festgenommen worden . 
-### Existing MWEs: 
-1- **festgenommen** (VPC, 3)
-### Identified MWEs: 
-1- **festgenommen** (VPC)
-## Sentence No. 500 - 
-während sich die zuhörer bei den ersten liedern mit beifall zurück hielten - wie es in einem gotteshaus üblich ist - , konnten sie ihre begeisterung dann doch nicht bremsen und bedachten jeden beitrag mit herzlichem applaus . 
-### Existing MWEs: 
-1- **zurück hielten** (VPC)
-## Sentence No. 505 - 
-angefangen hat alles mit schildkröte amanda , die von ihren akener besitzern bei der flucht aus dem Überschwemmungsgebiet im kreis anhalt-bitterfeld in der wohnung zurücklassen werden musste . 
-### Existing MWEs: 
-1- **angefangen** (VPC)
-## Sentence No. 535 - 
-hassan deldjoyeshahir ist mitglied in der neu gegründeten arbeitsgruppe wirtschaftsförderung des rates und petra freche löst alexander breuer als mitglied in der rats-arbeitsgruppe tourismus ab . 
-### Existing MWEs: 
-1- **löst ab** (VPC)
-## Sentence No. 555 - 
-das frühere kirchenvorstandsmitglied arno wild machte deutlich : " die fusion wurde vertraulich und unter verschlusssache behandelt . 
-### Existing MWEs: 
-1- **machte deutlich** (ID, 1)
-### Identified MWEs: 
-1- **machte deutlich** (VPC)
-## Sentence No. 585 - 
-( dpa ) gewalttätige serbische extremisten haben die kommunalwahl im kosovo gestört und damit die gesamte abstimmung in frage gestellt . 
-### Existing MWEs: 
-1- **in frage gestellt** (ID, 1)
-### Identified MWEs: 
-1- **in frage gestellt** (ID)
-## Sentence No. 595 - 
-der erfolg , ein sich stets verbessernder chorklang , bleibe nicht aus . 
-### Existing MWEs: 
-1- **bleibe aus** (VPC, 1)
-## Sentence No. 600 - 
-mit 5:3 setzte sich der svf herringen - hier thomas wilczek ( links ) - im derby gegen den tus lohauserholz um raffael wichert durch . 
-### Existing MWEs: 
-1- **setzte durch** (VPC, 5)
-### Identified MWEs: 
-1- **setzte durch** (VPC)
-## Sentence No. 610 - 
-dabei gefällt sich russland darin , als vetomacht im weltsicherheitsrat beim syrien-konflikt international den ton mit anzugeben . 
-### Existing MWEs: 
-1- **ton anzugeben** (ID)
-## Sentence No. 655 - 
-wiederholt wurde er deswegen verwarnt und mit geldstrafen belegt . 
-### Existing MWEs: 
-1- **mit geldstrafen belegt** (ID)
-## Sentence No. 665 - 
-ein satz , den die spd nutzt , um hoeneß kräftig eins mitzugeben . 
-### Existing MWEs: 
-1- **eins mitzugeben** (ID)
-## Sentence No. 670 - 
-ein großteil sei auf andere flüge umgebucht worden , teilte iberia mit . 
-### Existing MWEs: 
-1- **teilte mit** (VPC, 7)
-### Identified MWEs: 
-1- **teilte mit** (VPC)
-## Sentence No. 685 - 
-sie werfen dann neugierige blicke durch die großen fenster des dorfladens , manche klopfen auch an die scheiben . 
-### Existing MWEs: 
-1- **werfen blicke** (ID)
-### Identified MWEs: 
-1- **werfen .** (ID)
-## Sentence No. 725 - 
-ist es sinnvoll , überall alles zu haben , muss man nicht prioritäten setzen ? 
-### Existing MWEs: 
-1- **prioritäten setzen** (ID)
-## Sentence No. 745 - 
-bei der mitgliederversammlung des eisenbahner-sportvereins ( esv ) im gasthof lutter konnte vorsitzender helmut gall feststellen , dass der verein durch die restaurierung der anlage aktiver geworden sei . 
-### Existing MWEs: 
-1- **feststellen** (VPC, 10)
-### Identified MWEs: 
-1- **feststellen** (VPC)
-## Sentence No. 750 - 
-ein bisschen schade findet das die bürgermeisterin schon . 
-### Existing MWEs: 
-1- **schade findet** (ID)
-## Sentence No. 760 - 
-gemeint ist ein trendsport , der fortbewegung mit akrobatik verknüpft und darauf abzielt , diverse hindernisse einzeln oder in kombinationen zu überwinden . 
-### Existing MWEs: 
-1- **hindernisse überwinden** (ID)
-## Sentence No. 770 - 
-bereits am vormittag konnten die zum verkauf stehenden räder im atrium der schule abgegeben werden . 
-### Existing MWEs: 
-1- **zum verkauf stehenden** (LVC)
-## Sentence No. 780 - 
-mollath , der nach sieben jahren aus der psychiatrie entlassen worden war , ist unterdessen bei einem schulfreund im raum nürnberg untergekommen . 
-### Existing MWEs: 
-1- **untergekommen** (VPC)
-## Sentence No. 790 - 
-spinner : damit beschäftigen wir uns , wenn er aus japan zurückkommt . 
-### Existing MWEs: 
-1- **beschäftigen uns** (IReflV)
-## Sentence No. 855 - 
-" wenn sie uns nicht mit einem schaumstoff-finger , lasziver zunge und reichlich nackter haut ablenkt , fällt es weitaus leichter , ihre hervorragende stimme wahrzunehmen " , lobte " entertainment weekly " . 
-### Existing MWEs: 
-1- **wahrzunehmen** (VPC)
-### Identified MWEs: 
-1- **fällt es** (ID)
-## Sentence No. 870 - 
-außerdem sei eine show in las vegas in vorbereitung . 
-### Existing MWEs: 
-1- **sei in vorbereitung** (ID)
-## Sentence No. 900 - 
-" das betreuungsgeld hingegen wirkt entgegengesetzt " , resümierten die experten damals . 
-### Existing MWEs: 
-1- **entgegengesetzt** (VPC)
-## Sentence No. 945 - 
-aber über optik kann man sich unterhalten , über brandschutz nicht . 
-### Existing MWEs: 
-1- **sich unterhalten** (IReflV)
-## Sentence No. 970 - 
-dadurch könnten in einzelfällen die airbags deaktiviert oder unbeabsichtigt ausgelöst werden . 
-### Existing MWEs: 
-1- **ausgelöst** (VPC, 6)
-### Identified MWEs: 
-1- **ausgelöst** (VPC)
-## Sentence No. 980 - 
-ihr künstlername bezieht sich nicht auf die schauspielerin rosalie marbach , geborene wagner , sondern war unter anderem eher eine hommage an ihren lehrer und mentor jürgen rose , von dem sie viel gelernt , sich aber auch früh und souverän emanzipiert hat . 
-### Existing MWEs: 
-1- **bezieht sich** (IReflV, 1)
-## Sentence No. 985 - 
-immer wieder komme es zu beinahe-zusammenstößen , wenn anlieger aus ihren garagen ausfahren , berichtete er . 
-### Existing MWEs: 
-1- **komme es** (ID)
-## Sentence No. 1000 - 
-hier gibt es dienstags ab 14.45 uhr und donnerstags ab 14 uhr noch einige freie plätze für kinder ab vier jahren . 
-### Existing MWEs: 
-1- **gibt es** (ID, 62)
+1- **fortschritte gemacht** (LVC)
+2- **gibt es** (ID, 69)
 ### Identified MWEs: 
 1- **gibt es** (ID)
-## Sentence No. 1010 - 
-bürgermeister herbert gebhardt nach 45 spielminuten stand es folgerrichtig 16:23 . 
-### Existing MWEs: 
-1- **stand es** (ID)
-### Identified MWEs: 
-1- **stand es** (ID)
-## Sentence No. 1020 - 
-ein drittel der betroffenen fläche ist inzwischen unter kontrolle . 
-### Existing MWEs: 
-1- **ist unter kontrolle** (ID)
-## Sentence No. 1025 - 
-geschick und konzentration waren hier voraussetzung . 
-### Existing MWEs: 
-1- **waren voraussetzung** (ID)
-## Sentence No. 1055 - 
-dezember ( fast 9 monate alt ) ja , das tun sie , aber seine nicht gesungenen geschichten , die er während seines auftrittes einstreut , die tun es auch . 
-### Existing MWEs: 
-1- **einstreut** (VPC)
-## Sentence No. 1085 - 
-für die idee , dass dort die volkshochschule einziehen könnte , erwies sich das gebäudeensemble als ungeeignet . 
-### Existing MWEs: 
-1- **einziehen** (VPC)
-## Sentence No. 1100 - 
-10. minute : hitzfeld würde lewandowski holen silverstone / dpa red bull will sich mit der entscheidung über den künftigen teamkollegen von formel-1-weltmeister sebastian vettel zeit lassen . 
-### Existing MWEs: 
-1- **sich zeit lassen** (ID)
-## Sentence No. 1155 - 
-sie haben die märkte kontrolliert und auch sonst das große rad gedreht . 
-### Existing MWEs: 
-1- **rad gedreht** (ID)
-## Sentence No. 1160 - 
-auch die abschließende staffel in der besetzung frank keeb , michael striewe , michael krusemark und ulrich ratsch zeigte eine beeindruckende stärke und gewann mit rund 30 metern vorsprung . 
-### Existing MWEs: 
-1- **zeigte stärke** (ID)
-## Sentence No. 1235 - 
-das bringt natürlich ein großes durcheinander und einen heillosen trubel mit sich . 
-### Existing MWEs: 
-1- **bringt mit sich** (ID, 1)
-## Sentence No. 1275 - 
-" wir wollten uns gemeinsam etwas aufbauen und unabhängig sein " , so das ehepaar , " da muss man schwerpunkte setzen " . 
-### Existing MWEs: 
-1- **schwerpunkte setzen** (ID)
-## Sentence No. 1305 - 
-bastian reinhardt : der ex-verteidiger war ein opfer der sportchef-posse , die sich nach der Ära beiersdorfer zwei jahre hinzog . 
-### Existing MWEs: 
-1- **hinzog** (VPC)
-## Sentence No. 1330 - 
-und weiter sagt er : " er hat genug geld , warum sollte er steuern hinterziehen ? " 
-### Existing MWEs: 
-1- **hinterziehen** (VPC)
-### Identified MWEs: 
-1- **steuern hinterziehen** (ID)
-## Sentence No. 1350 - 
-sie wurden von rettungskräften in ein krankenhaus in wildeshausen eingeliefert . 
-### Existing MWEs: 
-1- **krankenhaus eingeliefert** (ID)
-## Sentence No. 1400 - 
-ein zweites highligt verspricht das konzert des vielfach ausgezeichneten organisten johannes lang zu werden . 
-### Existing MWEs: 
-1- **verspricht zu werden** (OTH)
-## Sentence No. 1430 - 
-es ist bereits der 13. monat in folge , in dem ein fehlbetrag zu buche steht . 
-### Existing MWEs: 
-1- **zu buche steht** (ID)
-### Identified MWEs: 
-1- **zu buche steht** (ID)
-## Sentence No. 1465 - 
-konsumenten bekämen kaum mit , wo jod verwendet wird : " tiere nehmen jod über das futter auf und bäcker benutzen es bei der brotherstellung - es muss nicht immer hinten auf der verpackung stehen " . 
-### Existing MWEs: 
-1- **nehmen auf** (VPC)
-## Sentence No. 1490 - 
-zum allerersten mal in der geschichte des musicals wird mit " rocky " übrigens demnächst ein in deutschland uraufgeführtes musical am broadway herauskommen . 
-### Existing MWEs: 
-1- **herauskommen** (VPC)
-## Sentence No. 1500 - 
-das vor der pleite stehende zypern hält europa in atem . 
-### Existing MWEs: 
-1- **hält in atem** (ID)
-## Sentence No. 1515 - 
-bereits für den herbst ist die voraussichtliche inbetriebnahme der sternwarte geplant . 
-### Existing MWEs: 
-1- **inbetriebnahme** (LVC)
-## Sentence No. 1520 - 
-beide sind weithin unbekannt , könnten aber die auch finanziell angeschlagene landespartei mit einem langen atem neu aufstellen . 
-### Existing MWEs: 
-1- **aufstellen** (VPC, 1)
-### Identified MWEs: 
-1- **angeschlagene** (VPC)
-2- **aufstellen** (VPC)
-## Sentence No. 1530 - 
-beim top-favoriten vfl kamen hat coach ahmet kahya den kampf gegen die feldverweise aufgenommen . 
-### Existing MWEs: 
-1- **kampf aufgenommen** (LVC)
-## Sentence No. 1545 - 
-pfarrer ulrich parzany wird sich in der liveübertragung aus stuttgart dieses themas annehmen . 
-### Existing MWEs: 
-1- **annehmen** (VPC, 1)
-### Identified MWEs: 
-1- **annehmen** (VPC)
-## Sentence No. 1555 - 
-( rasch / flog , derstandard. at , 28.1.2013 ) den ersten schritt dahin will der fv am samstag im heimspiel machen . 
-### Existing MWEs: 
-1- **ersten schritt machen** (ID)
-### Identified MWEs: 
-1- **flog schritt** (LVC)
-## Sentence No. 1575 - 
-als es ans bezahlen ging , kam es zum streit zwischen den vier männern und dem 44-jährigen besitzer des lokals . 
-### Existing MWEs: 
-1- **kam es** (ID)
-### Identified MWEs: 
-1- **ging kam** (ID)
-## Sentence No. 1595 - 
-im zweiten quartal setzte der marktführer mit 6,4 mrd. euro deutlich weniger um als erwartet . 
-### Existing MWEs: 
-1- **setzte um** (VPC)
-## Sentence No. 1625 - 
-doch man muss beachten , dass das ergebnis im quartal des vorjahres durch einen sondereffekt in die höhe getrieben worden war . 
-### Existing MWEs: 
-1- **in höhe getrieben** (ID)
-## Sentence No. 1645 - 
-es handelt sich um den bruder des ermordeten . 
-### Existing MWEs: 
-1- **handelt sich um** (IReflV, 3)
-### Identified MWEs: 
-1- **handelt sich um** (IReflV)
-## Sentence No. 1655 - 
-" natürlich ist das spielniveau unterschiedlich " , räumt bock ein , doch genau das sei auch ein teil des reizes . 
-### Existing MWEs: 
-1- **räumt ein** (VPC, 2)
-## Sentence No. 1665 - 
-man entmündigt sie , anstatt ihnen das gefühl zu geben , dass sie eigentlich noch könnten , wenn man sie ließe . 
-### Existing MWEs: 
-1- **gefühl geben** (ID)
-## Sentence No. 1680 - 
-und bei einem schweren verkehrsunfall in detmold ist am donnerstag ein 54 jahre alter polnischer erntehelfer ums leben gekommen . 
-### Existing MWEs: 
-1- **ums leben gekommen** (ID, 3)
-### Identified MWEs: 
-1- **ums leben gekommen** (ID)
-## Sentence No. 1690 - 
-die wirtschaft des ärmsten landes westeuropas ist 2012 noch stärker eingebrochen als befürchtet . 
-### Existing MWEs: 
-1- **eingebrochen** (VPC, 1)
-### Identified MWEs: 
-1- **eingebrochen** (VPC)
-## Sentence No. 1710 - 
-auch soll mehr in werbung investiert werden um unternehmen auf sich aufmerksam zu machen . 
-### Existing MWEs: 
-1- **auf sich aufmerksam machen** (ID)
-### Identified MWEs: 
-1- **aufmerksam machen** (ID)
-2- **sich aufmerksam machen** (IReflV)
-3- **auf sich aufmerksam machen** (ID)
-## Sentence No. 1715 - 
-sie werden nun zug um zug auf radwegefurten aufgebracht , " an denen radfahrer häufig übersehen worden sind " , so bartsch . 
-### Existing MWEs: 
-1- **aufgebracht** (VPC)
-### Identified MWEs: 
-1- **übersehen** (VPC)
-## Sentence No. 1730 - 
-aufgrund des recht hohen fremdschadens von mindestens 3000 euro wurde der führerschein der fahrerin von der polizei vorläufig entzogen . 
-### Existing MWEs: 
-1- **führerschein entzogen** (ID)
-## Sentence No. 1735 - 
-münchen - seit jeher stehen die klausuren der csu-landesgruppe in kloster banz im schatten der wintertagungen in wildbad kreuth . 
-### Existing MWEs: 
-1- **stehen im schatten** (ID)
-## Sentence No. 1740 - 
-sie haben recht , ich nutze twitter für die politische kommunikation . 
-### Existing MWEs: 
-1- **haben recht** (ID)
-## Sentence No. 1745 - 
-hinweise in allen fällen nimmt die polizei unter tel. münchen - uli hoeneß packt aus ! 
-### Existing MWEs: 
-1- **packt aus** (VPC)
-## Sentence No. 1750 - 
-2002 ging er sogar so weit , george bush mit hitler zu vergleichen . 
-### Existing MWEs: 
-1- **ging weit** (ID)
-## Sentence No. 1755 - 
-jeder nehme anteil am anderen - und das habe ihr und ihrer familie , die ebenfalls auf vielen musikalischen gebieten im dorf und weit darüber hinaus aktiv ist , ein großes heimatgefühl in oberlibbach gegeben , für das die 78-jährige sehr dankbar ist . 
-### Existing MWEs: 
-1- **nehme anteil** (LVC)
-## Sentence No. 1780 - 
-ab und an unternimmt der bergheimer jedoch einen abstecher zu den leichtathleten . 
-### Existing MWEs: 
-1- **unternimmt** (VPC, 2)
-### Identified MWEs: 
-1- **unternimmt** (VPC)
-2- **unternimmt .** (ID)
-## Sentence No. 1810 - 
-nachdem sie den ersten schock überwunden haben , drücken howard stern und sängerin melanie brown , ex-spice-girl , schließlich die buzzer . 
-### Existing MWEs: 
-1- **schock überwunden** (LVC)
-## Sentence No. 1815 - 
-hinzu kommt , dass berufe im dienstleistungsbereich weniger familienfreundliche arbeitszeiten haben als technische berufe oder das handwerk . 
-### Existing MWEs: 
-1- **hinzu kommt** (OTH)
-### Identified MWEs: 
-1- **kommt .** (ID)
-## Sentence No. 1855 - 
-gibt es feinheiten im mövenpick , die ihr nachfolger unbedingt wissen sollte , um nicht von anfang an in einen münsterischen fettnapf zu treten ? 
-### Existing MWEs: 
-1- **in fettnapf treten** (ID)
-### Identified MWEs: 
-1- **gibt es** (ID)
-## Sentence No. 1865 - 
-leser mitx ostermeier scheint wohl keine richtige lust auf dieses voting gehabt zu haben , gab schließlich aber doch noch seine stimme ab . 
-### Existing MWEs: 
-1- **gab stimme ab** (ID)
-### Identified MWEs: 
-1- **gab ab** (VPC)
-2- **.** (IReflV)
-## Sentence No. 1870 - 
-kurz vor der bundestagswahl haben die beiden spd-altkanzler helmut schmidt und gerhard schröder kanzlerkandidat peer steinbrück demonstrativ den rücken gestärkt . 
-### Existing MWEs: 
-1- **rücken gestärkt** (ID)
-## Sentence No. 1880 - 
-die bedürfnisse der schüler stünden dabei stets an erster stelle , so stock , dafür bedürfe es manchmal auch kreativer lösungen . 
-### Existing MWEs: 
-1- **stünden an erster stelle** (ID)
-## Sentence No. 1905 - 
-einen tag im Öko-kloster plankstetten verbringen können interessierte am samstag , 7. september oder am dienstag , 10. september - dann findet dort im rahmen der bayerischen Öko-erlebnistage je ein " tag im grünen kloster " statt . 
-### Existing MWEs: 
-1- **findet statt** (VPC, 17)
-### Identified MWEs: 
-1- **findet statt** (VPC)
-## Sentence No. 1915 - 
-vogel stoppt ice - hunderte fahrgäste sitzen vier stunden fest panorama in- & ausland / kn - kieler nachrichten das ist dramatisch und bricht den sozialpakt . 
-### Existing MWEs: 
-1- **sitzen fest** (VPC)
-### Identified MWEs: 
-1- **bricht sozialpakt** (LVC)
-## Sentence No. 1930 - 
-dank ständig gepflegter kontakte wurde man schneller als erhofft fündig : das " trio colore " erklärte sich bereit , die lücke zu schließen . 
-### Existing MWEs: 
-1- **wurde fündig** (ID)
-## Sentence No. 1935 - 
-bezahlung : zahlmethoden gibt es verschiedene zur auswahl - von der sofortüberweisung bis zu paypal . 
-### Existing MWEs: 
-1- **gibt es** (ID, 62)
-### Identified MWEs: 
-1- **gibt es** (ID)
-## Sentence No. 1940 - 
-04.09.2013 14:02 uhr , würzburg in seiner zeit als vize-finanzminister hat er um die jahrtausendwende , als die banken asiens in der krise steckten , eine serie von interventionen an den währungsmärkten zu verantworten . 
-### Existing MWEs: 
-1- **in krise steckten** (LVC)
-## Sentence No. 1955 - 
-um ein regionalticket im wert von neun euro umzutauschen , musste der kunde seine kompletten adressdaten angeben und eine " bearbeitungsgebühr " von zwei euro entrichten , immerhin mehr als ein fünftel des ticketpreises . 
-### Existing MWEs: 
-1- **bearbeitungsgebühr entrichten** (ID)
-### Identified MWEs: 
-1- **angeben** (VPC)
-## Sentence No. 1985 - 
-es tut schon weh , sie so gehen zu lassen . 
-### Existing MWEs: 
-1- **tut weh** (ID, 1)
-### Identified MWEs: 
-1- **gehen lassen** (LVC)
-## Sentence No. 1995 - 
-ein bisschen sei es so wie im ungarn der siebziger jahre , sagt er halb im scherz . 
-### Existing MWEs: 
-1- **sagt im scherz** (ID)
-## Sentence No. 2000 - 
-insgesamt fiel die beteiligung an der ersten österreichweiten volksbefragung deutlich besser aus als von den meinungsforschern prognostiziert . 
-### Existing MWEs: 
-1- **fiel aus** (VPC, 1)
-## Sentence No. 2015 - 
-neue eindrücke , exotisch anmutende erlebnisse an ungewöhnlichen orten stehen im mittelpunkt . 
-### Existing MWEs: 
-1- **stehen im mittelpunkt** (ID, 1)
-### Identified MWEs: 
-1- **stehen im mittelpunkt** (ID)
-## Sentence No. 2025 - 
-wegen der begrenzten kapazitäten an den sicherheitsschleusen " können wir nur 3000 teilnehmern zutritt gewähren " , kündigt wallner . 
-### Existing MWEs: 
-1- **zutritt gewähren** (LVC)
-## Sentence No. 2040 - 
-die entscheidung über den austragungsort der spiele 2020 fällt auf der ioc-vollversammlung am 7. september in buenos aires . 
-### Existing MWEs: 
-1- **entscheidung fällt** (LVC)
-### Identified MWEs: 
-1- **fällt .** (ID)
-## Sentence No. 2060 - 
-der mannheimer wirtschaftsprofessor hans-peter grüner hält indes nichts davon , die protokolle zu veröffentlichen . 
-### Existing MWEs: 
-1- **hält davon** (ID)
-## Sentence No. 2080 - 
-die stadt blomberg bietet für ihre bürger eine sondermüllsammlung an . 
-### Existing MWEs: 
-1- **bietet an** (VPC, 4)
-### Identified MWEs: 
-1- **bietet an** (VPC)
-## Sentence No. 2090 - 
-die anteilsscheine legten 5,6 prozent zu . 
-### Existing MWEs: 
-1- **legten zu** (VPC, 2)
-## Sentence No. 2105 - 
-zudem gibt es widersprüchliche berichte , ob jetzt schon die für herbst erwarteten neuen ipad-tablets vorgestellt werden , oder ob es dafür einen extra-event geben wird . 
-### Existing MWEs: 
-1- **vorgestellt** (VPC)
-### Identified MWEs: 
-1- **gibt es** (ID)
-## Sentence No. 2145 - 
-rücktritt in brandenburg : " matthias platzeck wird fehlen " amnesty international hat merkel aufgefordert , sich bei mursi für die menschenrechte einzusetzen . 
-### Existing MWEs: 
-1- **einzusetzen** (VPC, 11)
-### Identified MWEs: 
-1- **einzusetzen** (VPC)
-## Sentence No. 2150 - 
-mit der zeit haben sie sich im handel aber wegen der attraktiven preise durchgesetzt . 
-### Existing MWEs: 
-1- **durchgesetzt** (VPC, 2)
-### Identified MWEs: 
-1- **durchgesetzt** (VPC)
-## Sentence No. 2155 - 
-der " kardinalsschlitten " , das plastikgefährt in form eines geistlichen , tourt nun leicht ramponiert durch Österreich , um auf das kommende woche startende volksbegehren gegen kirchenprivilegien aufmerksam zu machen . 
-### Existing MWEs: 
-1- **aufmerksam machen** (ID, 1)
-### Identified MWEs: 
-1- **aufmerksam machen** (ID)
-## Sentence No. 2165 - 
-nach 31 tagen hungerstreik haben die flüchtlinge am dienstag wieder mit der nahrungsaufnahme begonnen. apa / neubauernach 31 tagen hungerstreik haben die flüchtlinge am dienstag wieder mit der nahrungsaufnahme begonnen. apa / neubauer doch auch für sie sei es eine ausnahmesituation , " und wir tun unser bestes , um unter den gegebenen umständen unseren kunden ein stabiles und verlässliches angebot zu bieten " . 
-### Existing MWEs: 
-1- **tun unser bestes** (ID)
-### Identified MWEs: 
-1- **haben begonnen.** (ID)
-## Sentence No. 2240 - 
-blumberg-casekow : pakistan fünfjährige entführt und vergewaltigt aber ich schweife ab ... 4 . 
-### Existing MWEs: 
-1- **schweife ab** (VPC)
-## Sentence No. 2280 - 
-mit einem brot kehrte ich in den keller zurück und rief : ,leute kommt raus , der krieg ist wirklich aus ! 
-### Existing MWEs: 
-1- **kehrte zurück** (VPC, 1)
-## Sentence No. 2330 - 
-2. " viele bezirke können 2013 wieder neu einstellen und dadurch das angebot für die bürgerinnen und bürger verbessern " . 
-### Existing MWEs: 
-1- **einstellen** (VPC, 8)
-### Identified MWEs: 
-1- **einstellen** (VPC)
-## Sentence No. 2370 - 
-die spargelfahrten von josef heyes genießen bei den mitgliedern des japanischen clubs in düsseldorf einen legendären ruf . 
-### Existing MWEs: 
-1- **genießen legendären ruf** (ID)
-## Sentence No. 2375 - 
-so kann man auch erklären , dass eine studie zu dem ergebnis kam , sonnenschutzmittel bewahre kaum vor hautkrebs : wer meint , sich durch creme gut zu schützen , setzt sich oft erst recht der sonne aus . 
-### Existing MWEs: 
-1- **setzt aus** (VPC)
-### Identified MWEs: 
-1- **setzt sich aus** (ID)
-## Sentence No. 2380 - 
-alarmierte beamte konnten den mann dann in kitzbühel beim aussteigen aus dem zug anhalten und wollten ihn mit auf den posten nehmen . 
-### Existing MWEs: 
-1- **mit auf den posten nehmen** (ID)
-### Identified MWEs: 
-1- **mit auf posten** (ID)
-## Sentence No. 2390 - 
-baum legt bahn lahm - solinger-tageblatt.de auch talkmaster und tv-produzent hubertus meyer-burckhardt und helmut zerlett , der als bandleader in der " harald schmidt show " bekanntgeworden war , gehörten zu den gästen . 
-### Existing MWEs: 
-1- **legt lahm** (ID)
-### Identified MWEs: 
-1- **legt bahn** (ID)
-## Sentence No. 2400 - 
-so ging es mit einem 0:0-remis in die pause . 
-### Existing MWEs: 
-1- **ging es** (ID, 1)
-### Identified MWEs: 
-1- **ging .** (VPC)
-## Sentence No. 2410 - 
-es gibt eine ganz einfache eselsbrücke. zuletzt aktualisiert : 09.10.2013 - 08:32 vorher will er mit vertretern der gemeinde sprechen , deren meinung hören . 
-### Existing MWEs: 
-1- **es gibt** (ID, 25)
-### Identified MWEs: 
-1- **es gibt** (ID)
-## Sentence No. 2420 - 
-warum , steht nicht geschrieben " , amüsierte kaufmann die gäste . 
-### Existing MWEs: 
-1- **steht geschrieben** (ID)
-## Sentence No. 2430 - 
-eurokurs verteidigt vortagesgewinne - deutschland & welt - rhein-zeitung szük : " der bisherige geschäftsführer aus stolberg ist seit monaten schwer krank , dadurch ist das haus wirtschaftlich etwas in schieflage geraten " . 
-### Existing MWEs: 
-1- **in schieflage geraten** (ID)
-### Identified MWEs: 
-1- **in schieflage geraten** (ID)
-## Sentence No. 2460 - 
-bild. de : haben nach der verkündung in der fabrik in brackley die champagner-korken geknallt ? 
-### Existing MWEs: 
-1- **champagner-korken geknallt** (ID)
-## Sentence No. 2465 - 
-das deutsche kinderhilfswerk begrüßte den vorstoß der länder und mahnte , das betreuungsgeld müsse noch vor seiner einführung ad acta gelegt werden . 
-### Existing MWEs: 
-1- **ad acta gelegt** (ID)
-## Sentence No. 2470 - 
-sie führen patrouillen durch , bewachen strategisch wichtige orte , wie den flughafen und den sitz des präsidenten . 
-### Existing MWEs: 
-1- **führen durch** (VPC)
-## Sentence No. 2480 - 
-der lbv-kreisvorsitzende spricht von " unglaublich vielen singvögeln " , die derzeit am ammersee zu finden sind . 
-### Existing MWEs: 
-1- **zu finden sind** (OTH)
-## Sentence No. 2500 - 
-ich hoffe , dass die xenophoben , rassistischen oder sonstigen fp-vorhaben keine unterstützung in der bevölkerung finden , aber demokratie gilt für alle . 
-### Existing MWEs: 
-1- **unterstützung finden** (LVC)
-## Sentence No. 2505 - 
-die meisten putzhilfen in privaten haushalten arbeiten dagegen schwarz . 
-### Existing MWEs: 
-1- **arbeiten schwarz** (ID)
-## Sentence No. 2510 - 
-" der flughafen wird in den nächsten 15 jahren keine schwarzen zahlen schreiben " , sagt grünen-fraktionsvorsitzende steffi weinert . 
-### Existing MWEs: 
-1- **schwarzen zahlen schreiben** (ID)
-## Sentence No. 2555 - 
-um 22.15uhr heißt es " welcome the end " . 
-### Existing MWEs: 
-1- **heißt es** (ID, 18)
-### Identified MWEs: 
-1- **heißt es** (ID)
-## Sentence No. 2560 - 
-auch ted ligety kann den Österreicher nich abfangen . 
-### Existing MWEs: 
-1- **abfangen** (VPC)
-## Sentence No. 2580 - 
-wir sind durch dichte auenwälder gefahren , haben unter stieleichen rast gemacht und störchendörfer passiert , in denen die vögel ihre brut versorgten . 
-### Existing MWEs: 
-1- **rast gemacht** (LVC)
-## Sentence No. 2590 - 
-foto : knobloch die nachwuchsarchitekten der grundschule elkenbrede hatten sich im kunstmuseum " marta " der baukunst verschrieben und eindrucksvolle papp-modelle gebaut . 
-### Existing MWEs: 
-1- **sich verschrieben** (IReflV)
-## Sentence No. 2635 - 
-patienten , die spät am abend oder am wochenende einen arzt aufsuchen müssen , werden ab 1. oktober nicht mehr zwingend in einer praxis in wermelskirchen behandelt . 
-### Existing MWEs: 
-1- **aufsuchen** (VPC)
-## Sentence No. 2645 - 
-in den ersten minuten hatten beide mannschaften aufgrund von fehlabspielen und -würfen nichts zählbares zustande gebracht . 
-### Existing MWEs: 
-1- **zustande gebracht** (ID)
-## Sentence No. 2675 - 
-im herbst will er zum zweiten mal in den landtag einziehen . 
-### Existing MWEs: 
-1- **einziehen** (VPC)
-## Sentence No. 2680 - 
-wie bereits am 21. dezember 2012 angekundigt , erhielt das unternehmen eine benachrichtigung von der u.s. food and drug administration ( ' fda ' ) daruber , dass die fda zusatzliche zeit zur prufung von raptors antrag auf arzneimittelzulassung ( new drug application , ' nda ' ) fur rp103 zur potenziellen behandlung von nephropathischer cystinose ( ' cystinose ' ) benotigt und sich das pdufa-zieldatum ( prescription drug user fee act ) vom 30. januar 2013 auf den 30. april 2013 verschiebt . 
-### Existing MWEs: 
-1- **angekundigt** (VPC)
-## Sentence No. 2685 - 
-die 7000 eingesetzten polizisten hatten jedenfalls " nur wenig arbeit " , zitierte der general-anzeiger aus einem internen schreiben des damaligen nrw-innenministers herbert schnoor an polizeidienststellen . 
-### Existing MWEs: 
-1- **eingesetzten** (VPC, 1)
-### Identified MWEs: 
-1- **eingesetzten** (VPC)
-## Sentence No. 2695 - 
-gegen die planlos anrennenden wehener kamen sie nicht in bedrängnis , sondern nutzten gleich den ersten konter eiskalt . 
-### Existing MWEs: 
-1- **kamen in bedrängnis** (ID)
-## Sentence No. 2700 - 
-zumindest über die 3000m-hindernis zum abschluss des ersten tages lief es mit 12:53 min. deutlich besser und so ging krehan mit 4743 punkten in die " halbzeit " . 
-### Existing MWEs: 
-1- **lief es** (ID)
-## Sentence No. 2710 - 
-auch drei tage nach der unglaublichen freveltat eines bislang unbekannten umweltsünders hängt in teilen der rehnenhofsiedlung , in wetzgau und vor allem auch in wustenriet und im nahen taubentalwald der penetrante gestank von heizöl immer noch in der luft . 
-### Existing MWEs: 
-1- **hängt in luft** (ID)
-### Identified MWEs: 
-1- **hängt heizöl** (ID)
-## Sentence No. 2715 - 
-nach einer laut polizei aufsehenerregenden verfolgungsjagd konnte die mutmaßliche diebin bis zum eintreffen der polizei festgehalten werden . 
-### Existing MWEs: 
-1- **eintreffen** (VPC)
-### Identified MWEs: 
-1- **festgehalten** (VPC)
-2- **verfolgungsjagd festgehalten** (ID)
-## Sentence No. 2725 - 
-häufig gäbe es probleme , den urlaub mit den ferienzeiten der kinder abzugleichen , so springs . 
-### Existing MWEs: 
-1- **gäbe es** (ID, 62)
-### Identified MWEs: 
-1- **gäbe es** (ID)
-## Sentence No. 2750 - 
-ioc : ringen behält olympia-status darauf weist das pfarrbüro heilige brüder ewaldi in einer pressemitteilung hin . 
-### Existing MWEs: 
-1- **weist hin** (VPC, 1)
-### Identified MWEs: 
-1- **weist hin** (VPC)
-## Sentence No. 2785 - 
-die aktuelle führungsriege der lila-weißen verlangt von herbert sander die zahlung einer höheren fünfstelligen summe , da der frühere vorsitzende ihrer meinung nach für einige finanzielle ungereimtheiten aus seiner amtszeit gerade stehen soll . 
-### Existing MWEs: 
-1- **gerade stehen** (ID)
-## Sentence No. 2815 - 
-wie die polizei am dienstag mitteilte , war der mann am vortag leblos im wasser treibend entdeckt worden . 
-### Existing MWEs: 
-1- **mitteilte** (VPC, 9)
-### Identified MWEs: 
-1- **mitteilte** (VPC)
-## Sentence No. 2840 - 
-unter anderem konnten sie musikinstrumente , zirkustricks und filzen testen , es gab naturwissenschaftliche versuche und die schüler der profilklassen zeigten , was sie in nur sechs monaten schon gelernt hatten . 
-### Existing MWEs: 
-1- **es gab** (ID, 25)
-### Identified MWEs: 
-1- **es gab** (ID)
-## Sentence No. 2855 - 
-daran änderte auch die erstmalige zwei-tore-führung der dhb-auswahl ( 7:5/13. minute ) nichts , denn die gastgeber glichen mit zwei angriffen binnen einer minute wieder aus und gingen anschließend 8:7 ( 18. ) in führung - auszeit heuberger . 
-### Existing MWEs: 
-1- **gingen in führung** (ID)
-### Identified MWEs: 
-1- **gingen .** (ID)
-## Sentence No. 2860 - 
-seine geltungsdauer liegt bei drei jahren , dennoch gibt es die möglichkeit für träger , sich vorher schon zu verbessern - außer für " mattes & ammann " : die tieringer haben die höchststufe drei innerhalb der anforderungen für " step " bereits erreicht . 
-### Existing MWEs: 
-1- **gibt es** (ID, 62)
-### Identified MWEs: 
-1- **gibt es** (ID)
-## Sentence No. 2875 - 
-zweimal versuchte die baufirma in diesem jahr anzufangen , einmal im februar und einmal im märz . 
-### Existing MWEs: 
-1- **anzufangen** (VPC)
-## Sentence No. 2880 - 
-der vorstand der junggesellschaft eixe kündigte ewald werthmann als " lieblingsbürgermeister " an . 
-### Existing MWEs: 
-1- **kündigte an** (VPC, 6)
-## Sentence No. 2900 - 
-somit ist die stellenanzeige auf der eigenen webseite ein guter indikator dafür , wie viel mühe sich ein unternehmen mit der personalsuche gibt . 
-### Existing MWEs: 
-1- **mühe sich gibt** (ID)
-## Sentence No. 2905 - 
-druckvolles aufschlagspiel und geballte angriffswucht , sollten die werkzeuge sein , welche das gesamte spiel über den unterschied ausmachten . 
-### Existing MWEs: 
-1- **ausmachten** (VPC)
-## Sentence No. 2930 - 
-die anderen smartphone-hersteller dürften rasch auf den zug aufspringen . 
-### Existing MWEs: 
-1- **auf zug aufspringen** (ID)
-## Sentence No. 2950 - 
-und gerade als die waltroper dem anschlusstreffer immer näher kamen , schlug der gastgeber erneut eiskalt zu . 
-### Existing MWEs: 
-1- **schlug zu** (VPC)
-### Identified MWEs: 
-1- **schlug zu** (VPC)
-## Sentence No. 2960 - 
-" trailer zu " das kleine gespenst " quelle : oÖnachrichten zeitung artikel : http://www.nachrichten.at/nachrichten/politik/außenpolitik/neuer-iranischer-präsident-rohani-in-amt-eingeführt;art391,1168973 von den 47 regularien , die die staaten der g 20 auf dem höhepunkt der krise beschlossen haben , um die finanzmärkte zu zähmen , sind die meisten umgesetzt - allerdings zum teil mit abstrichen . 
-### Existing MWEs: 
-1- **umgesetzt** (VPC, 1)
-### Identified MWEs: 
-1- **umgesetzt** (VPC)
-## Sentence No. 2965 - 
-mosebach hatte in einem artikel für die " frankfurter rundschau " gefordert , gotteslästerung stärker unter strafe zu stellen . 
-### Existing MWEs: 
-1- **unter strafe stellen** (LVC)
-## Sentence No. 2970 - 
-aber in europa sieht es deutlich schlechter aus als noch im vorjahr . 
-### Existing MWEs: 
-1- **sieht aus** (VPC, 1)
-## Sentence No. 2980 - 
-höhlenbären waren enorm groß vor dem abschied scheint auch trainer steffen heyer zu stehen . 
-### Existing MWEs: 
-1- **vor abschied stehen** (ID)
-## Sentence No. 2990 - 
-der grenzwert , ab dem ein nikotin- produkt als arzneimittel gilt , soll bewusst niedrig angesetzt sein . 
-### Existing MWEs: 
-1- **angesetzt** (VPC, 4)
-### Identified MWEs: 
-1- **angesetzt** (VPC)
-## Sentence No. 3020 - 
-hier kommt ein zentraler begriff ihres werkes ins spiel , nämlich " fiktives kapital " . 
-### Existing MWEs: 
-1- **kommt ins spiel** (ID)
-### Identified MWEs: 
-1- **kommt ins spiel** (ID)
-## Sentence No. 3035 - 
-nach dem unfall machte sich der einheimische aus dem staub . 
-### Existing MWEs: 
-1- **machte aus dem staub** (ID)
-### Identified MWEs: 
-1- **aus dem staub** (ID)
-2- **machte aus dem staub** (ID)
-## Sentence No. 3040 - 
-so viel hat schmadtke nach urlaub zu tun aktuell hannover 96 / np " ja , ich bin froh und dankbar , und fühle mich nicht wie 90 " , sagt sie mit fester stimme am telefon . 
-### Existing MWEs: 
-1- **hat zu tun** (ID, 4)
-### Identified MWEs: 
-1- **hat zu tun** (ID)
-## Sentence No. 3060 - 
-die aktie gab nachbörslich um rund zwei prozent nach . 
-### Existing MWEs: 
-1- **gab nach** (VPC, 1)
-### Identified MWEs: 
-1- **gab nach** (VPC)
-## Sentence No. 3065 - 
-bei den kleinen bühnen kam der bilanzprüfer zu dem schluss , dass diese ihre sache prima machen . 
-### Existing MWEs: 
-1- **kam zu schluss** (ID)
-## Sentence No. 3090 - 
-er habe celeste für einige gefälligkeiten einen senatorenposten in rom angeboten , behaupten die ermittler . 
-### Existing MWEs: 
-1- **angeboten** (VPC, 11)
-### Identified MWEs: 
-1- **angeboten** (VPC)
-## Sentence No. 3095 - 
-den zweiten therapieversuch brach sie ab . 
-### Existing MWEs: 
-1- **brach ab** (VPC, 1)
-### Identified MWEs: 
-1- **brach ab** (VPC)
-## Sentence No. 3105 - 
-lemgo : 400 jahre alte steinmauer wird in lemgo saniert der sprang aber ab . 
-### Existing MWEs: 
-1- **sprang ab** (VPC)
-## Sentence No. 3140 - 
-den testergebnissen zufolge verarbeiten die hersteller mehr federn und kleine daunen minderer güteklasse als angegeben . 
-### Existing MWEs: 
-1- **angegeben** (VPC, 2)
-### Identified MWEs: 
-1- **angegeben** (VPC)
-## Sentence No. 3155 - 
-faymann in offensive claudia zimmermann interessierte sich für spezifische probleme , die es in der stadt und im umkreis gibt . 
-### Existing MWEs: 
-1- **es gibt** (ID, 25)
-### Identified MWEs: 
-1- **es gibt** (ID)
-## Sentence No. 3165 - 
-denn direkt im anschluss ließ der fsv sein können aufblitzen . 
-### Existing MWEs: 
-1- **aufblitzen** (VPC)
-## Sentence No. 3175 - 
-da die kirche in der vergangenheit jedoch stets äußerst genau auf ihren besitz und dessen mehrung achtgab , beschlichen manche zyprer zweifel an der aufrichtigkeit solcher aussagen . 
-### Existing MWEs: 
-1- **achtgab** (VPC)
-## Sentence No. 3190 - 
-danach hatte müller-ruppert einen ausschnitt aus alan bennetts erzählung " die souveräne leserin " ausgesucht . 
-### Existing MWEs: 
-1- **ausgesucht** (VPC, 2)
-### Identified MWEs: 
-1- **ausgesucht** (VPC)
-## Sentence No. 3200 - 
-die deutsche website wurde 2013 mit dem grimme online award 2013 ausgezeichnet . 
-### Existing MWEs: 
-1- **ausgezeichnet** (VPC)
-## Sentence No. 3210 - 
-in sindelfingen , böblingen und esslingen habe der gemeinderat die erweiterung bereits beschlossen , der genaue starttermin stehe aber noch nicht fest . 
-### Existing MWEs: 
-1- **stehe fest** (VPC, 4)
-### Identified MWEs: 
-1- **stehe fest** (VPC)
-## Sentence No. 3245 - 
-in unserer schnelllebigen welt gehen kindern fähigkeiten , die sich im grunde natürlich entwickeln , zunehmend ab . 
-### Existing MWEs: 
-1- **gehen ab** (VPC)
-## Sentence No. 3250 - 
-santos verhandelt über transfer von neymar - so etwa , als bei einem spiel im wiesental einer seiner dogerner kicker nach der halbzeit eingewechselt wurde , sich den ball schnappte , richtung eigenes tor stürmte und das leder auch noch dort unterbrachte . 
-### Existing MWEs: 
-1- **unterbrachte** (VPC)
-## Sentence No. 3290 - 
-wir hätten da mal eine frage , lieber mdr : geht's noch ? 
-### Existing MWEs: 
-1- **geht's noch** (ID)
-## Sentence No. 3315 - 
-mäßig war die resonanz der bürger auf den lärmaktionsplan , den die gemeinde gemeinsam mit dem planungsbüro debakom an drei abenden im bürgerhaus herzogenhof vorstellte . 
-### Existing MWEs: 
-1- **vorstellte** (VPC, 5)
-### Identified MWEs: 
-1- **vorstellte** (VPC)
-## Sentence No. 3320 - 
-hauskauf ( asbestbelastung ) 919/5 hell hofft auf neuen löwen-geist damit nimmt die zahl der besucher ab , weshalb eine sanierung auch aus gründen einer attraktivitätssteigerung notwendig sein wird . 
-### Existing MWEs: 
-1- **nimmt ab** (VPC)
-## Sentence No. 3330 - 
-der schwerpunkt soll im bereich der musikproduktion , aber auch populargesang und klavierbegleitung von popularmusik liegen und einen starken praxisbezug beinhalten . 
-### Existing MWEs: 
-1- **schwerpunkt liegen** (ID)
-## Sentence No. 3335 - 
-auf jensens neue politische ambitionen haben die staatsanwaltschaftlichen ermittlungen formell gesehen offenbar keinen einfluss . 
-### Existing MWEs: 
-1- **haben einfluss** (ID)
-## Sentence No. 3345 - 
-handynummer auf hotspot-portal angeben ( alle nationalen und internationalen mobilfunknummern werden akzeptiert ) als einen grund nannte die politikerin , dass sie mit ihrer tätigkeit keinem geschadet habe . 
-### Existing MWEs: 
-1- **angeben** (VPC, 2)
-### Identified MWEs: 
-1- **angeben** (VPC)
-## Sentence No. 3360 - 
-wir müssten sämtliche Öffnungszeiten abdecken und für eine urlaubsvertretung sorgen " , erklärt ilona krug von elektro krug . 
-### Existing MWEs: 
-1- **abdecken** (VPC, 1)
-### Identified MWEs: 
-1- **abdecken** (VPC)
-## Sentence No. 3375 - 
-dagegen hat er widerspruch eingelegt . 
-### Existing MWEs: 
-1- **widerspruch eingelegt** (LVC)
-## Sentence No. 3380 - 
-etwa 50 parkplätze , davon zwei taxistände und vier behindertenparkplätze , stehen dort nach dem ausbau zur verfügung . 
-### Existing MWEs: 
-1- **stehen zur verfügung** (ID, 2)
-## Sentence No. 3385 - 
-eine studie , für die im jahr 2011 der dienstleister accenture 3400 berufstätige befragt hat , kommt weiter zu dem schluss , dass frauen die schuld für mangelnde aufstiegschancen stärker als ihre männlichen kollegen bei sich selbst sehen . 
-### Existing MWEs: 
-1- **kommt zu schluss** (ID)
-### Identified MWEs: 
-1- **kommt sehen** (ID)
-## Sentence No. 3420 - 
-immer wieder gelingt es ihnen , den weg zum flughafen abzuschneiden . 
-### Existing MWEs: 
-1- **abzuschneiden** (VPC)
-## Sentence No. 3425 - 
-trotzdem hält fink weiter an der europa-league-qualifikation als saisonziel fest . 
-### Existing MWEs: 
-1- **hält fest** (VPC, 2)
-### Identified MWEs: 
-1- **hält fest** (VPC)
-## Sentence No. 3460 - 
-wohnen am wasser liegt im trend . 
-### Existing MWEs: 
-1- **liegt im trend** (ID)
-## Sentence No. 3470 - 
-schon kurz danach hatte sie ihre teilnahme an den olympischen spielen in sotschi im februar als ultimatives ziel ausgerufen . 
-### Existing MWEs: 
-1- **ausgerufen** (VPC)
-## Sentence No. 3480 - 
-dies nahm kuhn zum anlass für seinen brief an kefer . 
-### Existing MWEs: 
-1- **nahm zum anlass** (ID, 1)
-### Identified MWEs: 
-1- **nahm zum anlass** (ID)
-## Sentence No. 3520 - 
-der lange tag hatte für das team um trainer peter feige jetzt einen super abschluss .vieles , was in den letzten monaten trainiert wurde , konnte in den kämpfen umgesetzt werden . 
-### Existing MWEs: 
-1- **umgesetzt** (VPC, 5)
-### Identified MWEs: 
-1- **umgesetzt** (VPC)
-## Sentence No. 3530 - 
-viele würden den stand besuchen , um eine der frisch zubereiteten suppen mit nach hause zu nehmen . 
-### Existing MWEs: 
-1- **mit nach hause nehmen** (ID, 1)
-### Identified MWEs: 
-1- **mit nach hause nehmen** (ID)
-2- **stand mit nach hause nehmen** (ID)
-## Sentence No. 3550 - 
-wiesbadener kurier - druckansicht : sexualdelikte : frankenthaler festgenommen keines ihrer bisher 21 spiele in dieser saison konnte die drittgarnitur des remigianer-clubs gewinnen . 
-### Existing MWEs: 
-1- **festgenommen** (VPC)
-## Sentence No. 3555 - 
-eine neue kraftprobe ist für griechenlands regierung unter samaras gut zu ende gegangen . 
-### Existing MWEs: 
-1- **zu ende gegangen** (ID, 1)
-### Identified MWEs: 
-1- **zu ende gegangen** (ID)
-2- **gut zu ende gegangen** (ID)
-## Sentence No. 3585 - 
-in der folge nehmen jedoch mit auflockerung der bewölkung die sonnigen phasen zu . 
-### Existing MWEs: 
-1- **nehmen zu** (VPC)
-### Identified MWEs: 
-1- **nehmen zu** (VPC)
-## Sentence No. 3590 - 
-foto : claus-dieter steyer ebenfalls dagegen spricht , dass bei gesunden erwachsenen die blut-hirn-schranke glutamat den zugang zum gehirn versperrt . 
-### Existing MWEs: 
-1- **dagegen spricht** (ID, 1)
-## Sentence No. 3600 - 
-wegen des streits sind seit dienstag große teile der öffentlichen verwaltung lahmgelegt . 
-### Existing MWEs: 
-1- **lahmgelegt** (VPC)
-## Sentence No. 3605 - 
-am 1. januar 2013 verzeichnete der verein 444 mitglieder , was im verband die spitze bedeute , dennoch sei es geboten , weiter um neue mitglieder zu werben . 
-### Existing MWEs: 
-1- **sei es geboten** (ID)
-## Sentence No. 3610 - 
-gemeinsam mit der volkshochschule bietet das familienzentrum " planet zukunft " in büdingen ab mittwoch , 15. mai , jeweils von 19 bis 20.30 uhr einen qigong-kurs für fortgeschrittene an . 
-### Existing MWEs: 
-1- **bietet an** (VPC, 4)
-### Identified MWEs: 
-1- **fortgeschrittene** (VPC)
-## Sentence No. 3635 - 
-djk kothen - tsv oberthulba 1:3 ( 1:1 ) - torfolge : 0:1 oliver hofmann ( 18. ) , 1:1 sebastian heurich ( 40. ) , 1:2 stefan muth ( 68. ) , 1:3 kevin voll ( 85. ) bereits in den vergangenen jahren hatte die gemeinde anträge auf zuschüsse für den verein abgelehnt . 
-### Existing MWEs: 
-1- **abgelehnt** (VPC, 4)
-### Identified MWEs: 
-1- **abgelehnt** (VPC)
-## Sentence No. 3660 - 
-wirklich frustrieren kann ihn auch das nicht , dann , so sippels devise , muss halt noch mehr Überzeugungsarbeit geleistet werden . 
-### Existing MWEs: 
-1- **Überzeugungsarbeit geleistet** (LVC)
-## Sentence No. 3680 - 
-am sonntag wird das neue königspaar gebührend gefeiert . 
-### Existing MWEs: 
-1- **gebührend gefeiert** (ID)
-## Sentence No. 3690 - 
-erst wenn das vorbei ist und der papst vor dem petersdom platz genommen hat , tritt gänswein hinzu . 
-### Existing MWEs: 
-1- **platz genommen** (ID)
-## Sentence No. 3695 - 
-von einigen einheimischen und touristen fehle jede spur , " es besteht absolut kein kontakt " . 
-### Existing MWEs: 
-1- **fehle jede spur** (ID, 1)
-### Identified MWEs: 
-1- **fehle jede spur** (ID)
-## Sentence No. 3700 - 
-so ein fall wie mit den fernsehern wäre dann ausgeschlossen . 
-### Existing MWEs: 
-1- **ausgeschlossen** (VPC)
-## Sentence No. 3780 - 
-" wir müssen uns verabschieden von der vollhochschule , die alles anbietet , und zu einem vollangebot für ganz baden-württemberg kommen " , sagte hartmut höll , der chef der rektorenkonferenz . 
-### Existing MWEs: 
-1- **anbietet** (VPC, 11)
-### Identified MWEs: 
-1- **anbietet** (VPC)
-## Sentence No. 3785 - 
-das war ein großer irrtum , wie sich nun herausstellt . 
-### Existing MWEs: 
-1- **herausstellt** (VPC, 3)
-### Identified MWEs: 
-1- **herausstellt** (VPC)
-## Sentence No. 3800 - 
-slogan und logo bestehen aus dem in " frischem " grün gehaltenem schriftzug " münchberg zieht an " . 
-### Existing MWEs: 
-1- **zieht an** (VPC)
-## Sentence No. 3835 - 
-für den vatikan ist wichtig , festzuhalten , dass dort überhaupt wieder politik gemacht wird . 
-### Existing MWEs: 
-1- **festzuhalten** (VPC)
-## Sentence No. 3845 - 
-bayer 04 leverlusen übernimmt stadionverbote des bvb Überdies brachte gauck in diesen zweieinhalb minuten mindestens zwei zentrale botschaften unter . 
-### Existing MWEs: 
-1- **brachte unter** (VPC)
-### Identified MWEs: 
-1- **brachte unter** (VPC)
-## Sentence No. 3855 - 
-dieser satz aus schillers " wilhelm tell " muss oftmals herhalten , wenn es streit unter nachbarn gibt . 
-### Existing MWEs: 
-1- **es gibt** (ID, 25)
-### Identified MWEs: 
-1- **herhalten** (VPC)
-2- **es gibt** (ID)
-## Sentence No. 3860 - 
-zu einer " erweiterten vorstandssitzung " begrüßte patrick boeslau als vorsitzender der dlrg-jugend wermelskirchen freitagnachmittag die wenigen anwesenden beim ortsgruppenjugendtag im pavillon an der jörgensgasse , obwohl dem verein rund 500 kinder und jugendliche angehören . 
-### Existing MWEs: 
-1- **angehören** (VPC)
-## Sentence No. 3870 - 
-bei dem motiv handelt es sich um hammer und sichel in der größe von etwa ein mal zwei meter und buchstaben in der größe von einem meter . 
-### Existing MWEs: 
-1- **handelt es um** (IReflV)
-## Sentence No. 3890 - 
-wichtig ist , dass der gast sich zeit lassen kann am berg . 
-### Existing MWEs: 
-1- **sich zeit lassen** (ID)
-## Sentence No. 3900 - 
-in der kreisstadt homberg ging es für die linke ebenfalls abwärts auf 5,7 prozent ( minus 3,5 prozent ) . 
-### Existing MWEs: 
-1- **ging es abwärts** (ID, 1)
-## Sentence No. 3920 - 
-die fassungslosigkeit stand den österreichischen teamspielern am freitag in solna nach dem ausscheiden in der wm-qualifikation ins gesicht geschrieben . 
-### Existing MWEs: 
-1- **stand ins gesicht geschrieben** (ID)
-### Identified MWEs: 
-1- **ins gesicht geschrieben** (ID)
-2- **stand ins gesicht geschrieben** (ID)
-## Sentence No. 3940 - 
-" moritz war wieder unser bester spieler auf dem platz " , erklärte kotziampassis , " an seiner einstellung sollten sich andere ein beispiel nehmen " . 
-### Existing MWEs: 
-1- **sich ein beispiel nehmen** (ID)
-### Identified MWEs: 
-1- **sich nehmen** (IReflV)
-## Sentence No. 3955 - 
-hintergrund ist das auftauchen neuer unterlagen - angeblich mehr als 170 seiten ungeordneten materials . 
-### Existing MWEs: 
-1- **auftauchen** (VPC)
-## Sentence No. 3980 - 
-die prüfungen , welche auswirkungen ein solches projekt wirklich nach sich ziehen würde , seien nie erfolgt . 
-### Existing MWEs: 
-1- **nach sich ziehen** (ID, 1)
-### Identified MWEs: 
-1- **nach sich ziehen** (OTH)
-## Sentence No. 3985 - 
-dann wird es endlich ein freies spiel der kräfte geben . 
-### Existing MWEs: 
-1- **es geben** (ID, 25)
-### Identified MWEs: 
-1- **es geben** (ID)
-## Sentence No. 3990 - 
-nun fehlen nur noch flossen und maske , damit es endlich losgehen kann . 
-### Existing MWEs: 
-1- **losgehen** (VPC, 1)
-### Identified MWEs: 
-1- **losgehen** (VPC)
-## Sentence No. 4000 - 
-letztendlich hätte der sieg noch viel höher ausfallen können . 
-### Existing MWEs: 
-1- **ausfallen** (VPC, 4)
-### Identified MWEs: 
-1- **ausfallen** (VPC)
-## Sentence No. 4025 - 
-es ist nicht mehr die alte arena , doch auch der neue bau atmet geschichte . 
-### Existing MWEs: 
-1- **atmet geschichte** (ID)
-## Sentence No. 4050 - 
-er spielte damit auf die aussage von darabos an , der noch am 3. juli 2010 nach der abschaffung der wehrpflicht in deutschland und schweden gemeint hatte : " für mich ist die wehrpflicht in stein gemeißelt . 
-### Existing MWEs: 
-1- **spielte an** (VPC)
-### Identified MWEs: 
-1- **spielte an** (VPC)
-## Sentence No. 4065 - 
-in der festhalle wurde zum zweiten mal der markt " verschenken statt wegwerfen " veranstaltet . 
-### Existing MWEs: 
-1- **wegwerfen** (VPC)
-## Sentence No. 4075 - 
-wie hunde ticken und dass man vor ihnen nicht grundsätzlich angst haben muss , erklärte angelika bange-wolf vom verein für sport- und gebrauchshunde . 
-### Existing MWEs: 
-1- **angst haben** (ID)
-## Sentence No. 4080 - 
-so lautet der titel des udo-lindenberg-musicals , das schon seit januar 2011 im theater am potsdamer platz erfolgreich aufgeführt wird . 
-### Existing MWEs: 
-1- **aufgeführt** (VPC, 4)
-### Identified MWEs: 
-1- **aufgeführt** (VPC)
-## Sentence No. 4090 - 
-sie tragen die 10 , kommen aber fast nur auf der linken seite zum einsatz . 
-### Existing MWEs: 
-1- **kommen zum einsatz** (ID)
-## Sentence No. 4095 - 
-biberacher abenteuerspielplatz ist vorerst gerettet verwaltungsfahrzeug auf tiefgaragenplatz der sieg der wangener gehe dennoch in ordnung , auch wenn er " am schluss glücklich gewesen ist " . 
-### Existing MWEs: 
-1- **gehe in ordnung** (ID)
-## Sentence No. 4110 - 
-boeing liefert wieder " dreamliner " aus wir alle sollten nicht den fehler machen , das team nur daran zu messen . 
-### Existing MWEs: 
-1- **fehler machen** (ID, 2)
-## Sentence No. 4120 - 
-jetzt ist die zeit reif , diese technologie über den pilotmaßstab zur industriellen reife zu bringen . 
-### Existing MWEs: 
-1- **ist die zeit reif** (ID)
-## Sentence No. 4125 - 
-die zahl der delikte ging zurück . 
-### Existing MWEs: 
-1- **ging zurück** (VPC)
-### Identified MWEs: 
-1- **ging zurück** (VPC)
-## Sentence No. 4155 - 
-mit einer entschuldigung der usa dürfe sich die bundesregierung nicht zufrieden geben . 
-### Existing MWEs: 
-1- **sich zufrieden geben** (ID)
-## Sentence No. 4165 - 
-rathauschef taffertshofer erläutert auf nachfrage die pläne : an der nordwestlichen seite der halle wird ein gebäude hochgezogen . 
-### Existing MWEs: 
-1- **gebäude hochgezogen** (ID)
-## Sentence No. 4170 - 
-er stellte für diesen fall eine westliche militärintervention als option in den raum . 
-### Existing MWEs: 
-1- **stellte in raum** (ID)
-## Sentence No. 4185 - 
-der panamaische minister mulino ( r ) und staatsanwalt caravallo haben die fracht bereits in augenschein genommen . 
-### Existing MWEs: 
-1- **in augenschein genommen** (ID)
-## Sentence No. 4190 - 
-planung und umsetzung hätten neben der täglichen kindergartenarbeit stattgefunden . 
-### Existing MWEs: 
-1- **stattgefunden** (VPC, 8)
-### Identified MWEs: 
-1- **stattgefunden** (VPC)
-## Sentence No. 4200 - 
-die laube , deren dachgebälk von innen noch gut in schuss ist , wird inzwischen für gartengeräte genutzt . 
-### Existing MWEs: 
-1- **in schuss ist** (ID)
-## Sentence No. 4220 - 
-sie hat einen erfolgreichen entzug hinter sich und nach der trennung von götz elbertzhagen wieder einen neuen mann an ihrer seite . 
-### Existing MWEs: 
-1- **hat hinter sich** (ID, 1)
-## Sentence No. 4245 - 
-bild : screenshot ( naturfreunde. at ) apa / reuters , 27.9.2013 neu in deren schuldnerstatistik tauchen vor allem verbraucher auf , die sich durch ratenkäufe und sonstige konsumverlockungen finanziell übernommen haben . 
-### Existing MWEs: 
-1- **tauchen auf** (VPC)
-## Sentence No. 4270 - 
-dann trifft sich die fraktion der grünen - und es geht nicht mehr darum , in die kamera zu lächeln . 
-### Existing MWEs: 
-1- **geht darum** (ID, 1)
-## Sentence No. 4290 - 
-appell an die usa landau : 84-jähriger aus landau vermisst " erst an naturphänomen gedacht " kleine zeitung sollte tatsächlich gelingen , was steinbrück und gabriel anstreben - nämlich die ablösung der schwarz-gelben regierung durch rot-grün - dann werden das vor allem die gutverdiener in deutschland zu spüren bekommen . 
-### Existing MWEs: 
-1- **zu spüren bekommen** (ID)
-## Sentence No. 4330 - 
-sie kam mir vor wie der vorposten der westlichen zivilisation . 
-### Existing MWEs: 
-1- **kam vor** (VPC, 1)
-## Sentence No. 4395 - 
-das sei eine kritik , aber viele wüssten gar nicht um den praktischen hintergrund : " sowohl männer als auch frauen sollen nicht abgelenkt und das schamgefühl der frau soll nicht verletzt werden " , erklärt hilal . 
-### Existing MWEs: 
-1- **abgelenkt** (VPC)
-## Sentence No. 4405 - 
-das war etwa beim golfer tiger woods der fall , der vor jahren mit sexskandalen in den schlagzeilen stand und sponsoren verlor . 
-### Existing MWEs: 
-1- **war der fall** (ID)
-## Sentence No. 4420 - 
-anders läuft es offenbar bei der feuerwehr . 
-### Existing MWEs: 
-1- **läuft es** (ID)
-## Sentence No. 4435 - 
-bei seinem nächsten coup hatte swartz weniger glück . 
-### Existing MWEs: 
-1- **hatte glück** (ID)
-## Sentence No. 4440 - 
-mit einem mittelalterlichen trinitatisgesang " alta trinita " zogen sie ein und eröffneten im geistlichen teil ein unglaublich fesselndes programm in vitaler tradition . 
-### Existing MWEs: 
-1- **zogen ein** (VPC)
-## Sentence No. 4445 - 
-im nordbadischen ladenburg wird auch der rsv stendal 07 mit zwei athleten , mario paulsen ( 69 kg ) und mario klitsch ( 86 kg ) , an den start gehen . 
-### Existing MWEs: 
-1- **an start gehen** (LVC, 1)
-### Identified MWEs: 
-1- **start gehen** (ID)
-2- **an start gehen** (ID)
-## Sentence No. 4450 - 
-andreas jensch ( 47 ) ist schlecht gelaunt : der polizei-wachschützer und gewerkschafter fühlt sich wegen schlechter uniformausstattung mit winterkleidung abgehängt . 
-### Existing MWEs: 
-1- **abgehängt** (VPC)
-## Sentence No. 4455 - 
-westheim belohnt sich nicht der fc 05 schweinfurt ii , topfavorit der a-klasse schweinfurt , ist beim fc westheim die spielerisch bessere mannschaft , tut sich aber gegen defensiv starke hausherren mächtig schwer , zumal a. wahler , r. ottenweller und a. wiesler drei giftige unruheherde im spiel nach vorne sind . 
-### Existing MWEs: 
-1- **tut schwer** (ID)
-### Identified MWEs: 
-1- **tut sich** (IReflV)
-## Sentence No. 4515 - 
-in diesem jahr aber war das lob berechtigt , schweden fiel angenehm auf durch besonderen humor und ironie . 
-### Existing MWEs: 
-1- **fiel auf** (VPC, 2)
-## Sentence No. 4520 - 
-seit tom ford den gucci-look entworfen hat , gibt es nichts anderes mehr . 
-### Existing MWEs: 
-1- **gibt es** (ID, 62)
-### Identified MWEs: 
-1- **gibt es** (ID)
-## Sentence No. 4540 - 
-otto sanders tochter meret becker heute im " tatort " : " ich würde gern bei otto im himmel vorbeischauen " viele der besucher versuchten dann auch ihr glück und setzten auf die schnellen vierbeiner . 
-### Existing MWEs: 
-1- **versuchten ihr glück** (ID)
-## Sentence No. 4545 - 
-beide teams kamen an die freiwurflinie und die bünder setzten sich weiter ab . 
-### Existing MWEs: 
-1- **setzten ab** (VPC, 1)
-### Identified MWEs: 
-1- **setzten sich ab** (IReflV)
-## Sentence No. 4550 - 
-buffon nimmt schuld für niederlage auf sich minute : was für eine parade von cech ! 
-### Existing MWEs: 
-1- **nimmt schuld auf sich** (ID)
-### Identified MWEs: 
-1- **schuld !** (ID)
-2- **nimmt schuld !** (OTH)
-## Sentence No. 4575 - 
-heike ollech zieht ihre bewerbung zurück der müll stapelt sich - und das ist nur eine der zahlreichen baustellen auf dem spielplatz mäushohl am rittersturz . 
-### Existing MWEs: 
-1- **zieht zurück** (VPC)
-## Sentence No. 4600 - 
-denn schon im januar hatte er auf der sandbahn auf la padrona seinen 1000. karl kemether ging dann noch kurz auf die meinungsverschiedenheiten zwischen den ortsverbänden hohenschambach und hemau ein . 
-### Existing MWEs: 
-1- **ging ein** (VPC, 4)
-### Identified MWEs: 
-1- **ging ein** (VPC)
-## Sentence No. 4610 - 
-wie man bei der erstaufführung in laufenburg hören konnte , nähert sich der schweizer komponist schubert zutiefst ehrlich und voller respekt . 
-### Existing MWEs: 
-1- **nähert sich** (IReflV)
-## Sentence No. 4615 - 
-auch der umweltfreundliche aspekt ist mit vorsicht zu genießen , denn das eis für die flaschen muss extrem energieaufwendig produziert werden . 
-### Existing MWEs: 
-1- **mit vorsicht genießen** (ID)
-## Sentence No. 4640 - 
-im anfang waren die brandmarkenden worte , am ende hatte doch alles mit allem zu tun , herrschte die brandmarkende tat . 
-### Existing MWEs: 
-1- **hatte zu tun** (ID, 4)
-## Sentence No. 4650 - 
-beim langsamen adagio lenkte die gefällige musik von mozart die aufmerksamkeit auf den ausdruck des spiels . 
-### Existing MWEs: 
-1- **lenkte aufmerksamkeit** (ID)
-## Sentence No. 4660 - 
-der evangelische stadtpfarrer karl kress hob ebenfalls auf die gute zusammenarbeit mit der stadt ab und würdigte , was alles für die kirchengemeinde bewegt und erreicht worden sei . 
-### Existing MWEs: 
-1- **hob ab** (VPC)
-### Identified MWEs: 
-1- **hob ab** (VPC)
-## Sentence No. 4685 - 
-" das kommt manchmal vor " , sagt petra . 
-### Existing MWEs: 
-1- **kommt vor** (VPC, 1)
-### Identified MWEs: 
-1- **kommt vor** (VPC)
-## Sentence No. 4700 - 
-bei der vielzahl von verspätungen sei es für die mitarbeiter schwierig gewesen , immer auf dem aktuellen stand zu sein . 
-### Existing MWEs: 
-1- **auf stand sein** (ID)
-## Sentence No. 4705 - 
-dann habe ihn bei einer anderen schlange niemand vorgelassen und er habe sich wieder hinten anstellen müssen . 
-### Existing MWEs: 
-1- **anstellen** (VPC, 1)
+## Sentence No. 244 - 
+was man mit diesem körpereigenen instrument anstellen kann , wenn man es so geschult hat und beherrscht wie die fünf jungen herren der " stimmband " , das bekam das publikum beim zweiten konzert auf der flussbühne serviert . 
+### Existing MWEs: 
+1- **anstellen** (VPC, 2)
+2- **bekam serviert** (ID)
 ### Identified MWEs: 
 1- **anstellen** (VPC)
-## Sentence No. 4715 - 
-oder wie chinnow es ausdrückt : " wie sollen wir menschen für kirche motivieren , wenn wir immer nur sagen , wir müssen sparen " . 
+## Sentence No. 248 - 
+es gibt nichts besseres als den besten spieler der welt im team zu haben . 
 ### Existing MWEs: 
-1- **ausdrückt** (VPC, 1)
+1- **es gibt** (ID, 37)
+2- **es gibt nichts besseres** (ID)
 ### Identified MWEs: 
-1- **ausdrückt** (VPC)
-2- **es ausdrückt** (ID)
-## Sentence No. 4725 - 
-dann kam der punkt , wo es alleine nicht mehr ging . 
+1- **es gibt** (ID)
+## Sentence No. 266 - 
+sensibles thema " da penisgröße ein sensibles thema ist , lässt sich nur schwer feststellen , ob frauen bei einer befragung die unwahrheit sagen oder sich selbst in die tasche lügen " , sagte studienleiter brian mautz von der universität ottawa in kanada . 
 ### Existing MWEs: 
-1- **es ging** (ID, 2)
-## Sentence No. 4730 - 
-die ergebnisse sollen beim neujahrsempfang 2014 vorgestellt werden . 
-### Existing MWEs: 
-1- **vorgestellt** (VPC)
-## Sentence No. 4740 - 
-mateo findet , dass lisa aussieht wie eine " großmutter in der disko " . 
-### Existing MWEs: 
-1- **aussieht** (VPC, 1)
+1- **feststellen** (VPC, 11)
+2- **sich in tasche lügen** (ID)
 ### Identified MWEs: 
-1- **aussieht** (VPC)
-## Sentence No. 4775 - 
-dem kroaten gelang nach seiner einwechselung , was weder kaká noch Özil vergönnt war : er übernahm die regie im mittelfeld , brachte das bis dahin unterlegene real ins spiel und schoss in der 66. minute das ausgleichstor für die madrilenen . 
+1- **feststellen** (VPC)
+## Sentence No. 291 - 
+" wir haben ja weit vorher angefangen , um zu recherchieren und uns rechtlich schlau zu machen " , sagt die sendenhorsterin . 
 ### Existing MWEs: 
-1- **brachte ins spiel** (ID)
+1- **angefangen** (VPC, 3)
+2- **schlau machen** (ID)
 ### Identified MWEs: 
-1- **schoss .** (VPC)
-2- **kaká schoss .** (OTH)
-## Sentence No. 4780 - 
-" das gebet bewahrt zwar nicht vor schmerzen oder operationen , aber es bewahrt vor verzweiflung und resignation und spendet kraft " , konstatierte der geistliche . 
-### Existing MWEs: 
-1- **spendet kraft** (LVC)
-### Identified MWEs: 
-1- **spendet .** (VPC)
-## Sentence No. 4805 - 
-wir entwickeln da keinen liederzyklus , sondern nehmen polaroids auf . 
-### Existing MWEs: 
-1- **nehmen auf** (VPC)
-### Identified MWEs: 
-1- **nehmen auf** (VPC)
-## Sentence No. 4810 - 
-diesen " schattenkindern " soll nun mehr aufmerksamkeit gewidmet werden . 
-### Existing MWEs: 
-1- **aufmerksamkeit gewidmet** (LVC)
-## Sentence No. 4820 - 
-obamas syrien-plan nimmt erste hürde im us-kongress bei einem mehrstündigen ostermarsch wanderten rund 40 menschen vom starnberger see zur maxhof-kaserne . 
-### Existing MWEs: 
-1- **nimmt hürde** (ID)
-### Identified MWEs: 
-1- **nimmt .** (ID)
-## Sentence No. 4835 - 
-haben sie angst vor der nächsten transferperiode ? 
-### Existing MWEs: 
-1- **haben angst** (ID)
-## Sentence No. 4840 - 
-der anschlag war nach ansicht türkischer analytiker eine warnung des al-qaida-netzwerks an die türkische regierung , nachdem diese ihre bisherige unterstützung dschihadistischer gruppen im syrischen bürgerkrieg auf den prüfstand stellt . 
-### Existing MWEs: 
-1- **auf prüfstand stellt** (ID)
-### Identified MWEs: 
-1- **stellt .** (VPC)
-## Sentence No. 4860 - 
-in der folge jedoch drehten die hausherren auf . 
-### Existing MWEs: 
-1- **drehten auf** (VPC)
-## Sentence No. 4865 - 
-der statistikmensch geht um 23.04 ins bett , braucht 15 minuten zum einschlafen und steht um 6.18 uhr auf . 
-### Existing MWEs: 
-1- **geht ins bett** (ID)
-### Identified MWEs: 
-1- **steht auf** (VPC)
-## Sentence No. 4885 - 
-und dabei müssen sich die autoren in den geschäftsberichten nach ansicht kirchhoffs nicht einmal unendlich viele gedanken machen . 
-### Existing MWEs: 
-1- **gedanken machen** (LVC, 1)
-### Identified MWEs: 
-1- **gedanken machen** (ID)
-## Sentence No. 4910 - 
-prinz george : fotos von der taufe gegen nutzungsbedingungen verstoßen die regierung hat angekündigt , einen gerichtlich verfügten baustopp im gezi-park am taksim-platz in istanbul zu akzeptieren . 
-### Existing MWEs: 
-1- **angekündigt** (VPC, 9)
-## Sentence No. 4935 - 
-der klub hatte wenige stunden zuvor bereits eine außerplanmäßige pressekonferenz für dienstag ( 12.30 uhr ) angekündigt , um " einen neuzugang auf der position rückraum mitte zu präsentieren " . 
-### Existing MWEs: 
-1- **angekündigt** (VPC, 2)
-### Identified MWEs: 
-1- **angekündigt** (VPC)
-## Sentence No. 4955 - 
-an informationsständen stellten sich werkstattrat und elternrat , die lebenshilfe cuxhaven assistenz ggmbh , der verein lebenshilfe für menschen mit behinderung und die stiftung lebenshilfe cuxhaven vor . 
-### Existing MWEs: 
-1- **stellten vor** (VPC, 6)
-### Identified MWEs: 
-1- **stellten elternrat** (ID)
-## Sentence No. 4960 - 
-das internationale flair gibt der europa-tour den zusätzlichen kick . 
-### Existing MWEs: 
-1- **gibt kick** (ID)
-## Sentence No. 4965 - 
-heimatnachmittag mit musik und plattdeutschen geschichten zum schmunzeln " dann setzte ich mich hin und dachte , jetzt musst du mal anfangen zu schreiben " , sagt sie . 
-### Existing MWEs: 
-1- **anfangen** (VPC, 1)
-### Identified MWEs: 
-1- **setzte hin** (VPC)
-2- **anfangen** (VPC)
-## Sentence No. 4970 - 
-neuer anlauf für mehr aktienkultur stadtdirektor hartmut hoferichter stellte einen entscheidenden fortschritt gegenüber früheren jahren fest : " die gruppen repräsentieren sich nicht nur wie früher selbst , sondern suchen jetzt auch den austausch mit den anderen vereinen . 
-### Existing MWEs: 
-1- **stellte fest** (VPC, 6)
-### Identified MWEs: 
-1- **stellte fest** (VPC)
-## Sentence No. 5045 - 
-der baufortschritt steht im vordergrund " , bedauert bürgermeister thomas schulz ( freie wähler ) die entscheidung . 
-### Existing MWEs: 
-1- **steht im vordergrund** (ID, 1)
-### Identified MWEs: 
-1- **entscheidung .** (LVC)
-2- **steht entscheidung .** (ID)
-## Sentence No. 5050 - 
-allerdings auch nur bedingt , denn schaut man hinter die kulissen : auch ich kaufe die tomaten das kilo für 1,80 euro . 
-### Existing MWEs: 
-1- **schaut hinter kulissen** (ID)
-## Sentence No. 5060 - 
-am donnerstag findet eine gläubigerversammlung statt . 
-### Existing MWEs: 
-1- **findet statt** (VPC, 17)
-### Identified MWEs: 
-1- **findet statt** (VPC)
-## Sentence No. 5090 - 
-regelmäßig bietet er jungen menschen ein freiwilliges soziales jahr an - und die fsjler vermittelt ihm der internationale bund in darmstadt . 
-### Existing MWEs: 
-1- **bietet an** (VPC, 4)
-## Sentence No. 5105 - 
-sie sieht vor , dass die zumeist hohen abschlussgebühren auf die ersten fünf beitragsjahre verteilt werden müssen . 
-### Existing MWEs: 
-1- **sieht vor** (VPC, 2)
-## Sentence No. 5115 - 
-beim abbiegen von der lindauer straße in die martin-luther-straße schleuderte ein 21-jähriger fahrer aus berlin mit seinem opel bei regennasser fahrbahn gegen einen ampelmasten . 
-### Existing MWEs: 
-1- **abbiegen** (VPC)
-## Sentence No. 5135 - 
-domingos costa , der bereits im herbst 2012 im klösterle aufgetreten war , genoss sichtlich und insbesondere auch hörbar die qualität des flügels , der in dem alten gebäude steht . 
-### Existing MWEs: 
-1- **aufgetreten** (VPC, 6)
-### Identified MWEs: 
-1- **aufgetreten** (VPC)
-## Sentence No. 5150 - 
-wir sind zwar in baden , aber provinziell geht's hier auch manchmal zu . 
-### Existing MWEs: 
-1- **geht's zu** (VPC)
-### Identified MWEs: 
-1- **geht's** (ID)
-## Sentence No. 5170 - 
-" ich bin überglücklich , aber sie müssen verstehen , dass mir gerade die worte fehlen " , lachte sie . 
-### Existing MWEs: 
-1- **worte fehlen** (ID)
-## Sentence No. 5175 - 
-doch gibt es dort auch sunnitische dörfer . 
-### Existing MWEs: 
-1- **gibt es** (ID, 62)
-### Identified MWEs: 
-1- **gibt es** (ID)
-## Sentence No. 5180 - 
-der 58-jährige leitete bereits das erste training beim tabellenletzten der serie a , wie der club auf seiner internetseite mitteilte . 
-### Existing MWEs: 
-1- **mitteilte** (VPC, 9)
-### Identified MWEs: 
-1- **mitteilte** (VPC)
-## Sentence No. 5200 - 
-die vier machen den eindruck , als ob sie da oben in ihrem element seien . 
-### Existing MWEs: 
-1- **machen eindruck** (LVC, 1)
-### Identified MWEs: 
-1- **eindruck .** (LVC)
-2- **machen eindruck .** (ID)
-## Sentence No. 5270 - 
-sowohl die drohnen-beschaffung als auch die nsa-datenaffäre seien kein geeignetes wahlkampfthema für die spd , heißt es weiter . 
-### Existing MWEs: 
-1- **heißt es** (ID, 18)
-### Identified MWEs: 
-1- **heißt es** (ID)
-## Sentence No. 5275 - 
-alle anderen hatten bis gestern die möglichkeit über die landkreis-homepage ihre sicht der dinge mitzuteilen . 
-### Existing MWEs: 
-1- **mitzuteilen** (VPC, 9)
-### Identified MWEs: 
-1- **mitzuteilen** (VPC)
-## Sentence No. 5290 - 
-in einem aktuellen projekt beschäftigen sich die kinder des evangelischen kinderhauses " arche noah " mit berühmten werken . 
-### Existing MWEs: 
-1- **beschäftigen sich mit** (IReflV)
-## Sentence No. 5295 - 
-die entscheidung des db-aufsichtsrats zu " stuttgart 21 " wurde von mat­thias von herrmann , pressesprecher der parkschützer , am dienstag als " in höchstem maße unverantwortlich " gewertet : doch auch wenn er kein sympathieträger ist , weiß hoenig : " diese parts muss es geben , ich übernehme das gerne " . 
-### Existing MWEs: 
-1- **es geben** (ID, 25)
-### Identified MWEs: 
-1- **es geben** (ID)
-## Sentence No. 5300 - 
-auch in diesem jahr hatte der kleingartenverein kastel wieder sein vereinsheim zur verfügung gestellt und bei der organisation geholfen . 
-### Existing MWEs: 
-1- **zur verfügung gestellt** (ID, 2)
-### Identified MWEs: 
-1- **zur verfügung gestellt** (ID)
-## Sentence No. 5320 - 
-die expertenkommission , die vor dem regierungsgremium für eineinhalb jahre tagte , hatte eine halbierung der anzahl der landkreise vorgeschlagen und großgemeinden von mindestens 12000 einwohnern gefordert . 
-### Existing MWEs: 
-1- **vorgeschlagen** (VPC, 1)
-### Identified MWEs: 
-1- **vorgeschlagen** (VPC)
-## Sentence No. 5345 - 
-wird es dann zeit für eine sommerbewerbung ? 
-### Existing MWEs: 
-1- **wird zeit** (ID)
-## Sentence No. 5375 - 
-doch verschlüsselungstechnologien stellen die geheimdienste auch vor probleme . 
-### Existing MWEs: 
-1- **stellen vor probleme** (ID)
-### Identified MWEs: 
-1- **stellen vor** (LVC)
-## Sentence No. 5385 - 
-die neue bewerbung soll etwas günstiger daherkommen , so dass man von bewerbungskosten in höhe von rund 60 millionen euro ausgehen darf , die zu einem großen teil von städtischen , staatlichen und halbstaatlichen unternehmen getragen wurden und werden . 
-### Existing MWEs: 
-1- **ausgehen** (VPC, 3)
-### Identified MWEs: 
-1- **ausgehen** (VPC)
-## Sentence No. 5395 - 
-viele besucher warfen einen blick auf die neue a!-logistik , die am freitag bei einer kleinen feier mit geladenen gästen und den mitarbeitern von andres eingeweiht worden ist . 
-### Existing MWEs: 
-1- **warfen blick** (ID)
-## Sentence No. 5405 - 
-gewerbegebiete mit gütesiegel - han online ein us-großaktionär macht druck auf sony und will , dass der japanische elektronik-riese die unterhaltungssparte vom konzern abtrennt und an die börse bringt . 
-### Existing MWEs: 
-1- **macht druck** (ID, 1)
-### Identified MWEs: 
-1- **macht bringt** (ID)
-## Sentence No. 5410 - 
-gesundheitliche probleme : kontrolle über fahrzeug verloren " die regierung betreibt ihre krisenpolitik auf ihre weise , um die atomenergie in japan nicht infrage zu stellen " sagt tsutsui . 
-### Existing MWEs: 
-1- **infrage stellen** (ID)
-### Identified MWEs: 
-1- **stellen tsutsui** (LVC)
-## Sentence No. 5420 - 
-dribbelkünste standen ebenso auf dem plan wie passen , flanken und torschuss . 
-### Existing MWEs: 
-1- **standen auf plan** (ID)
-## Sentence No. 5425 - 
-stell dir vor , du warst im italien-urlaub und willst deinen eltern und freunden die tollsten schnappschüsse zeigen . 
-### Existing MWEs: 
-1- **stell vor** (VPC)
-## Sentence No. 5440 - 
-und tatsächlich : jene gruppe , die beim merken der wörter die rechte hand zur faust ballte , und beim wiedererinnern die linke , erzielte das beste ergebnis aller gruppen . 
-### Existing MWEs: 
-1- **zur faust ballte** (ID)
-## Sentence No. 5445 - 
-das testverbot wird für 2014 vermutlich aufgehoben . 
-### Existing MWEs: 
-1- **aufgehoben** (VPC, 1)
-### Identified MWEs: 
-1- **aufgehoben** (VPC)
-## Sentence No. 5460 - 
-im sommer 2011 folg der schwindel auf . 
-### Existing MWEs: 
-1- **folg auf** (VPC)
-## Sentence No. 5480 - 
-man könne in einer woche , aber ebenso gut auch erst in einem monat angreifen . 
-### Existing MWEs: 
-1- **angreifen** (VPC, 2)
-### Identified MWEs: 
-1- **angreifen** (VPC)
-## Sentence No. 5515 - 
-dessen papiere stürzten um knapp 41 prozent ab . 
-### Existing MWEs: 
-1- **stürzten ab** (VPC, 2)
-## Sentence No. 5520 - 
-wangener ostereiermarkt am freitag und samstag sprechen eine deutliche sprache . 
-### Existing MWEs: 
-1- **sprechen eine deutliche sprache** (ID)
-## Sentence No. 5550 - 
-frankfurt ( dpa-afx ) : deutsche anleihen holen verluste wieder auf : : lr-online der erste anlauf in marburg ( " zuviel theorie " , sagt sihna ) scheiterte , zurzeit bewirbt sie sich in wuppertal für das wintersemester in der kombination musik sowie deutsch oder englisch . 
-### Existing MWEs: 
-1- **holen auf** (VPC)
-## Sentence No. 5555 - 
-brandschutzbestimmungen und auflagen des denkmalschutzes wurden berücksichtigt und umgesetzt . 
-### Existing MWEs: 
-1- **umgesetzt** (VPC, 5)
-### Identified MWEs: 
-1- **umgesetzt** (VPC)
-## Sentence No. 5575 - 
-rossmann ist nicht alleine : die meisten großen handelsketten wollen sich wehren . 
-### Existing MWEs: 
-1- **sich wehren** (IReflV)
-## Sentence No. 5585 - 
-so dürfte das durchschnittsvermögen auf der ferieninsel deutlich höher ausfallen als in mehreren geberländern , die zur rettung zyperns beitragen sollen . 
-### Existing MWEs: 
-1- **ausfallen** (VPC, 4)
-### Identified MWEs: 
-1- **ausfallen** (VPC)
-2- **beitragen** (VPC)
-## Sentence No. 5610 - 
-" den kann ich dann natürlich nicht direkt erkennen , weil es schon so lange her ist " . 
-### Existing MWEs: 
-1- **her ist** (ID)
-## Sentence No. 5640 - 
-und wenn wir jetzt von einer europäischen armee reden , springt großbritannien von bord . 
-### Existing MWEs: 
-1- **springt von bord** (ID)
-## Sentence No. 5665 - 
-wie berichtet analysiert derzeit ein von innen- und justizressort eingesetztes " operativteam " die einstige tätigkeit der kampusch-ermittler - und zwar in kooperation mit der us-amerikanischen bundesermittlungsbehörde fbi und dem deutschen bundeskriminalamt ( bka ) . 
-### Existing MWEs: 
-1- **eingesetztes** (VPC, 1)
-### Identified MWEs: 
-1- **eingesetztes** (VPC)
-## Sentence No. 5675 - 
-er steht im verdacht einen polizisten mit einer flasche beworfen zu haben . 
-### Existing MWEs: 
-1- **steht im verdacht** (LVC)
-### Identified MWEs: 
-1- **im verdacht haben** (ID)
-2- **steht im verdacht haben** (ID)
-## Sentence No. 5715 - 
-wie unser reporter von der unfallstelle mitteilt , war die frau mit ihrem vw polo aus bislang ungeklärter ursache rechts von der fahrbahn abgekommen . 
-### Existing MWEs: 
-1- **mitteilt** (VPC, 9)
-### Identified MWEs: 
-1- **mitteilt** (VPC)
-## Sentence No. 5760 - 
-ein mutmaßliches mitglied der neonazi-partei goldene morgenröte bekannte sich zu der tat , berief sich aber auf notwehr . 
-### Existing MWEs: 
-1- **berief sich auf** (IReflV)
-### Identified MWEs: 
-1- **tat auf notwehr** (ID)
-## Sentence No. 5790 - 
-dort machte er kürzlich bayernweit schlagzeilen . 
-### Existing MWEs: 
-1- **machte schlagzeilen** (ID)
-## Sentence No. 5800 - 
-es ist ein haus , das die menschen in ihren unterschiedlichen lebenssituationen einlädt , ein haus mit weit geöffneten armen . 
-### Existing MWEs: 
-1- **einlädt** (VPC, 8)
-### Identified MWEs: 
-1- **einlädt** (VPC)
-## Sentence No. 5815 - 
-aktualisiert : 23.10.2013 14:13 in dieser studie wurde eine leitliniengemäße therapie , bei der das ics beclometason regelmäßig inhaliert und zusätzlich das kurzwirksame beta-2-sympathomimetikum salbutamol als bedarfsmedikation eingesetzt wurde , verglichen mit einer rein bedarfsmäßig applizierten kombination aus beclometason und salbutamol . 
-### Existing MWEs: 
-1- **eingesetzt** (VPC, 11)
-## Sentence No. 5845 - 
-philipp gante ist 14 und hat schon ein ziemlich gutes fachwissen über lurche und molche mitgebracht , als er hier angefangen hat . 
-### Existing MWEs: 
 1- **angefangen** (VPC)
-## Sentence No. 5850 - 
-" wenn wir die köpfe runternehmen , dann haben wir überhaupt keine chance " , mahnte der verletzte mittelfeldmotor sejad salihovic , der sein comeback erst für das spiel in mainz am 16. märz anpeilt . 
+## Sentence No. 318 - 
+5,02 millionen zuschauer sahen zu , wie günther jauch von deutschlands bekanntester feministin alice schwarzer und #aufschrei-initiatorin anne wizorek in die mangel genommen wurde . 
 ### Existing MWEs: 
-1- **anpeilt** (VPC)
-## Sentence No. 5865 - 
-sie geben aufschluss , wo sich der airbag befindet , der tank , die batterie und wo die gurtstraffer sind . 
+1- **sahen zu** (VPC)
+2- **in mangel genommen** (ID)
+## Sentence No. 319 - 
+es gibt bereiche im landtag , die sind frei zugänglich , und es gibt bereiche , die sind nur mit den transpondern zugänglich . 
 ### Existing MWEs: 
-1- **geben aufschluss** (ID, 1)
-## Sentence No. 5870 - 
-lesen sie hier : herzogin kate : schlank ohne diät , aber mit viel yoga wunsch-koalition von heiner geißler : schwarz-grün robert seifert überstand drei runden über 500 meter souverän und steht im achtelfinale . 
-### Existing MWEs: 
-1- **steht im achtelfinale** (ID)
-## Sentence No. 5875 - 
-nach einem sehr guten start und einer 4:1-führung gab sich fulda / petersberg das zepter etwas aus der hand und musste so in einem kämpferischen spiel mit einem tor rückstand in die halbzeit gehen . 
-### Existing MWEs: 
-1- **gab zepter aus hand** (ID)
-## Sentence No. 5880 - 
-" ich musste bei einem quiz mitmachen und habe mich doch recht gut geschlagen " , erzählt die pfarrerin stolz . 
-### Existing MWEs: 
-1- **mitmachen** (VPC)
-## Sentence No. 5900 - 
-die drei säulen teheran - der künftige iranische präsident hassan rohani hat einen moderateren ton in der außenpolitik in aussicht gestellt . 
-### Existing MWEs: 
-1- **in aussicht gestellt** (ID, 1)
+1- **es gibt** (ID, 37)
+2- **es gibt** (ID, 37)
 ### Identified MWEs: 
-1- **in aussicht gestellt** (ID)
-## Sentence No. 5930 - 
-call of duty wird jedes jahr größer , es macht einfach spaß . 
+1- **es gibt** (ID)
+2- **es gibt** (ID)
+## Sentence No. 324 - 
+" happy summer love " steht auf dem fotoalbum - etwas anderes gab es wohl gerade nicht zur auswahl . 
 ### Existing MWEs: 
-1- **macht spaß** (ID, 2)
+1- **gab es** (ID, 69)
+2- **gab zur auswahl** (ID)
+## Sentence No. 351 - 
+vermutlich würden die wenigsten menschen überhaupt den mut aufbringen , sich bei jemandem wie ihr zu melden ... 
+### Existing MWEs: 
+1- **mut aufbringen** (ID)
+2- **aufbringen** (VPC, 1)
 ### Identified MWEs: 
-1- **macht spaß** (ID)
-## Sentence No. 5965 - 
-die polizei stellte auch den fahrzeugschlüssel jenes autos sicher , mit dem die frau den umschlag öffnen wollte , bestätigte heidi sonnenschmidt von der landespolizeiinspektion saalfeld auf anfrage . 
+1- **aufbringen** (VPC)
+## Sentence No. 399 - 
+dazu wurde angedacht , eine interessengemeinschaft zu bilden , die auch als ansprechpartner der stadt gegenüber auftritt . 
 ### Existing MWEs: 
-1- **stellte sicher** (VPC, 1)
+1- **angedacht** (VPC)
+2- **auftritt** (VPC, 7)
 ### Identified MWEs: 
-1- **stellte sicher** (VPC)
-## Sentence No. 5985 - 
-zehn um zehn : die besten der vierschanzentournee klar , ein paar skeptiker gibt es auch noch . 
+1- **auftritt** (VPC)
+## Sentence No. 408 - 
+dass die zeit von interimstrainer carsten gockel nach dem heimspiel gegen die spielvereinigung unterhaching ablaufen würde , das stand fest - nicht nur wegen der pleite gegen die bayern . 
 ### Existing MWEs: 
-1- **gibt es** (ID, 62)
+1- **ablaufen** (VPC)
+2- **stand fest** (VPC, 5)
 ### Identified MWEs: 
-1- **gibt es** (ID)
-## Sentence No. 5990 - 
-guantanamo auf deutsch - ein gefangener , der keinerlei chance auf gerechtigkeit hat , ein rechtsstaat , der amok läuft gegen das wichtigste rechtsprinzip . 
+1- **stand fest** (VPC)
+## Sentence No. 415 - 
+er gehe davon aus , " dass herr machnig zur aufklärung dieser vorwürfe in vollem umfang beiträgt " , sagte matschie . 
 ### Existing MWEs: 
-1- **amok läuft** (ID)
-## Sentence No. 5995 - 
-freiwillige des syrischen roten halbmondes stünden dafür bereit , heißt es in einer am sonntag in genf veröffentlichten mitteilung des ikrk . 
+1- **gehe davon aus** (ID, 11)
+2- **beiträgt** (VPC, 1)
+### Identified MWEs: 
+1- **gehe davon aus** (ID)
+2- **beiträgt** (VPC)
+## Sentence No. 436 - 
+hand anlegen , aber sie nahm den therapeuten viel arbeit ab , indem sie zum beispiel bei den walking-gruppen den schluss bildete , " damit niemand verloren geht " , so peter müller , leitender physiotherapeut des krankenhauses . 
 ### Existing MWEs: 
-1- **heißt es** (ID, 18)
+1- **hand anlegen** (ID)
+2- **verloren geht** (ID)
+### Identified MWEs: 
+1- **anlegen** (VPC)
+2- **nahm ab** (VPC)
+## Sentence No. 442 - 
+" das war der entscheidende schachzug " , räumte metzingens trainer alexander job ein : " durch die enge bewachung von shenia hat meine mannschaft den faden verloren , das war der knackpunkt " . 
+### Existing MWEs: 
+1- **räumte ein** (VPC, 2)
+2- **faden verloren** (ID)
+## Sentence No. 520 - 
+auch kurznachrichtendienst twitter bereitet gang an die börse vor er verlor gegen boris gelfand ( israel ; 42 ) fast immer - auch in der partie , die wir hier vorstellen . 
+### Existing MWEs: 
+1- **bereitet vor** (VPC, 2)
+2- **vorstellen** (VPC, 6)
+### Identified MWEs: 
+1- **vorstellen** (VPC)
+## Sentence No. 522 - 
+" party-eskalation extreme " in wildeshausen - fotos-freizeit - weser-kurier womit sie nicht gerechnet hatten : weil beim neuen aez seit geraumer zeit aus den containern lebensmittel entwendet werden , deren haltbarkeitsdatum abgelaufen ist , hatte sich ein kaufhausdetektiv in der nacht auf die lauer gelegt und das gelände observiert . 
+### Existing MWEs: 
+1- **abgelaufen** (VPC, 2)
+2- **auf lauer gelegt** (ID)
+### Identified MWEs: 
+1- **abgelaufen** (VPC)
+2- **auf lauer gelegt** (ID)
+## Sentence No. 636 - 
+die entscheidung über die verhängung einer jugendstrafe wurde jeweils für zwei jahre zur bewährung ausgesetzt . 
+### Existing MWEs: 
+1- **zur bewährung ausgesetzt** (ID)
+2- **ausgesetzt** (VPC)
+## Sentence No. 668 - 
+anfang der achtziger jahre prägte er diesen begriff , der weniger eine schule begründete als ein breites theorieparadigma einleitete , das den blick auf die historische und kulturelle einbettung eines textes lenkte . 
+### Existing MWEs: 
+1- **prägte begriff** (ID)
+2- **einleitete** (VPC)
+## Sentence No. 747 - 
+er weist darauf hin , dass nur ein drittel der patienten mit vielgelenksrheuma spontan geheilt wird , der rest jedoch chronisch krank bleibt und etwa bei nasskaltem wetter schmerzhaften schüben ausgesetzt ist . 
+### Existing MWEs: 
+1- **weist hin** (VPC, 2)
+2- **ausgesetzt** (VPC, 1)
+### Identified MWEs: 
+1- **weist hin** (VPC)
+2- **ausgesetzt** (VPC)
+## Sentence No. 758 - 
+laut " spiegel online " fing auch der bundesnachrichtendienst ( bnd ) einen möglichen beleg dafür ab , dass syriens führung den einsatz von giftgas angeordnet habe . 
+### Existing MWEs: 
+1- **fing ab** (VPC)
+2- **angeordnet** (VPC, 1)
+### Identified MWEs: 
+1- **angeordnet** (VPC)
+## Sentence No. 778 - 
+in einem der verfahren - zwei weitere beschwerdeführer haben sich inzwischen über einen sogenannten devolutionsantrag direkt an den bundeskommunikationssenat gewandt und deren verfahren laufen dort - hat die kommaustria nun festgehalten , dass der orf bei personalentscheidungen nach einschlägiger rechtssprechung zum rundfunkgesetz einen sehr großen spielraum hat . 
+### Existing MWEs: 
+1- **sich an gewandt** (IReflV)
+2- **festgehalten** (VPC, 1)
+### Identified MWEs: 
+1- **festgehalten** (VPC)
+2- **laufen festgehalten** (ID)
+## Sentence No. 803 - 
+der erfolg gab ihnen recht . 
+### Existing MWEs: 
+1- **der erfolg gab ihnen recht** (ID)
+2- **gab recht** (ID, 1)
+### Identified MWEs: 
+1- **gab recht** (ID)
+## Sentence No. 819 - 
+nicolia wiedmann räumt kleinere probleme bei der weitergabe der staffelhölzer ein - aber die halten sich in grenzen . 
+### Existing MWEs: 
+1- **räumt ein** (VPC, 2)
+2- **halten sich in grenzen** (ID)
+## Sentence No. 825 - 
+" wir freuen uns , dass wir nunmehr gemeinsam mit den stadtwerken konstanz einen beitrag zu umweltfreundlicher mobilität leisten und unseren besuchern eine wertvolle zusatzleistung anbieten können " , sagt gräfin bernadotte über diese neueste errungenschaft der mainau . 
+### Existing MWEs: 
+1- **beitrag leisten** (LVC)
+2- **anbieten** (VPC, 15)
+### Identified MWEs: 
+1- **anbieten** (VPC)
+## Sentence No. 836 - 
+diese auffassung vertritt der bund der steuerzahler und weist die kritik der abfallwirtschaftsbetriebe an seinem müllgebühren-vergleich zurück . 
+### Existing MWEs: 
+1- **auffassung vertritt** (LVC)
+2- **weist zurück** (VPC, 3)
+### Identified MWEs: 
+1- **weist zurück** (VPC)
+## Sentence No. 865 - 
+telefon : 02922/91000. - fm das bildungsministerium hatte zum ende des letzten schuljahres einräumen müssen , dass der anteil des ausgefallenen unterrichts auf 4,7 prozent gestiegen sei . 
+### Existing MWEs: 
+1- **einräumen** (VPC, 2)
+2- **ausgefallenen** (VPC, 1)
+### Identified MWEs: 
+1- **einräumen** (VPC)
+2- **ausgefallenen** (VPC)
+## Sentence No. 876 - 
+die bärenpark-leitung geht deshalb davon aus , dass sich berna in ihrem neuen zuhause im bulgarischen dobric problemlos einleben wird . 
+### Existing MWEs: 
+1- **geht aus** (VPC, 14)
+2- **geht davon aus** (ID, 11)
+### Identified MWEs: 
+1- **geht davon aus** (ID)
+## Sentence No. 893 - 
+( ksta ) auch insgesamt fällt die bilanz für das erste halbjahr des stadtbetriebs bornheim verlustreich aus : das erste halbjahr 2013 schlägt mit mehr als einer millionen euro verlust zu buche . 
+### Existing MWEs: 
+1- **fällt aus** (VPC, 2)
+2- **schlägt zu buche** (ID)
+### Identified MWEs: 
+1- **schlägt zu buche** (ID)
+2- **fällt schlägt zu buche** (ID)
+## Sentence No. 920 - 
+die nordfriesen brachten der hsg marne / brunsbüttel , souveräner tabellenführer der handball-kreisoberliga der männer , im 21. saisonspiel die erste niederlage bei ( 31:36 ) . 
+### Existing MWEs: 
+1- **brachten bei** (VPC)
+2- **brachten niederlage bei** (ID)
+## Sentence No. 932 - 
+wer sich beispielsweise im ausland aufhält , wird diese benachrichtigungen zwecks roaming meist abschalten wollen - und kann das ganz einfach tun . 
+### Existing MWEs: 
+1- **aufhält** (VPC)
+2- **abschalten** (VPC)
+## Sentence No. 953 - 
+als er auf dem flachdach nach dem rechten sah , machte er eine person aus und verständigte die polizei . 
+### Existing MWEs: 
+1- **nach dem rechten sah** (ID)
+2- **machte aus** (VPC, 4)
+### Identified MWEs: 
+1- **machte aus** (VPC)
+## Sentence No. 986 - 
+baltringen ging von der ersten minute an engagiert zur sache , setzte reinstetten früh unter druck und ließ den svr nicht zur entfaltung kommen . 
+### Existing MWEs: 
+1- **ging zur sache** (ID, 1)
+2- **setzte unter druck** (ID)
+### Identified MWEs: 
+1- **setzte unter druck** (ID)
+## Sentence No. 1037 - 
+dominieren die rechten : " autonome nationalisten " mehr bauarbeiter als banker seinen schülern gibt er , den das fieber selbst als jugendlicher gepackt hat , vor allem eines mit auf den weg : " um ein guter wrestler zu werden , muss man zuerst einmal ausstrahlung haben , aus der menge heraus stechen . 
+### Existing MWEs: 
+1- **gibt mit auf den weg** (ID)
+2- **heraus stechen** (VPC)
+### Identified MWEs: 
+1- **mit auf weg** (ID)
+## Sentence No. 1052 - 
+foto : fredrik von erichsen / dpa " die chronik der besiedlung in bildern und urkunden sowie das bäuerliche und handwerkliche leben mit der präsentationen der werkzeuge und gegenstände gaben einblicke in die vergangenheit " , heißt es in einer mitteilung . 
+### Existing MWEs: 
+1- **gaben einblicke** (LVC)
+2- **heißt es** (ID, 28)
 ### Identified MWEs: 
 1- **heißt es** (ID)
-## Sentence No. 6005 - 
-" vorne verpassen wir , von unseren chancen zu profitieren , hinten kassieren wir unnötige gegentreffer " , gab schmitt der misere einen namen . 
+## Sentence No. 1066 - 
+jetzt gehe es darum , die schlussfolgerungen daraus zu ziehen . 
 ### Existing MWEs: 
-1- **gab einen namen** (ID)
+1- **gehe darum** (ID, 2)
+2- **schlussfolgerungen ziehen** (LVC)
+## Sentence No. 1119 - 
+das kärntner gesetz schreibt vor , dass keine partei im wahlkampf für die landtagswahl im märz mehr als 590.000 euro ausgeben darf . 
+### Existing MWEs: 
+1- **schreibt vor** (VPC)
+2- **ausgeben** (VPC, 1)
 ### Identified MWEs: 
-1- **gab namen** (ID)
-## Sentence No. 6040 - 
-die tiertrainer , so heißt es dort weiter , würden mit ausgefallenen und trickreichen kunststücken ihrer schützlinge - tiger , elefanten , kamele und ponys - faszinieren . 
+1- **ausgeben** (VPC)
+## Sentence No. 1182 - 
+wenn die bahn nicht ausfällt , dann wird der euro umgestellt oder was weiß ich . 
 ### Existing MWEs: 
-1- **heißt es** (ID, 18)
+1- **ausfällt** (VPC)
+2- **umgestellt** (VPC)
+## Sentence No. 1232 - 
+ob " tv total " , " eurovision song contest " oder das wahl-duell zwischen kanzlerin merkel und spd-spitzenkandidat peer steinbrück - was stefan raab anfässt wird zu gold . 
+### Existing MWEs: 
+1- **anfässt** (VPC)
+2- **wird zu gold** (ID)
+## Sentence No. 2 - 
+ein freund des eigenen vaters soll sich an dem kind sexuell vergangen haben . 
+### Existing MWEs: 
+1- **sich vergangen** (IReflV)
+## Sentence No. 5 - 
+der stürmer schlug sich mit einer zerrung im linken , hintern oberschenkel herum . 
+### Existing MWEs: 
+1- **schlug sich herum** (IReflV)
+## Sentence No. 8 - 
+zu einer festen zusage ließ sich sarah zwisler nicht hinreißen , aber zur frage : " wär " josefine auch in ordnung ? " 
+### Existing MWEs: 
+1- **hinreißen** (VPC)
+## Sentence No. 11 - 
+schon fast zu routiniert schüttelten franz ferdinand donnerstagabend die akkorde aus den Ärmeln ihrer hübsch gebügelten hemden . 
+### Existing MWEs: 
+1- **schüttelten aus Ärmeln** (ID)
+## Sentence No. 12 - 
+mehr lässt sich dem baugesuch entnehmen , das zur genehmigung eingereicht wird , nachdem es sich gestern um eine voranfrage drehte . 
+### Existing MWEs: 
+1- **eingereicht** (VPC)
 ### Identified MWEs: 
-1- **heißt es** (ID)
-## Sentence No. 6070 - 
-selbstkritik und lobeshymnen : au zieht zum 50er gemischte bilanz tiroler tageszeitung online samstag war " grögötz weißbir " zu gast gewesen , zum kirwaausklang war der " oberpfalz express " vor ort . 
+1- **sich um voranfrage** (IReflV)
+## Sentence No. 14 - 
+hier ist ortsteilübergreifendes denken gefragt . 
 ### Existing MWEs: 
-1- **zu gast gewesen** (ID)
-## Sentence No. 6110 - 
-außerdem setzten die forscher optische komponenten ein , um das sonnenlicht auf die zelle zu konzentrieren . 
+1- **ist gefragt** (ID)
+## Sentence No. 18 - 
+vor allem deshalb , weil das architektonisch zeitgemäße haus von alten gebäuden umringt ist und so besonders hervorsticht . 
 ### Existing MWEs: 
-1- **setzten ein** (VPC, 1)
-## Sentence No. 6120 - 
-auf die ideen für ihre motive seien er und seine freundin spontan gekommen , sagt osmann . 
+1- **hervorsticht** (VPC)
+## Sentence No. 21 - 
+ab 9 uhr geöffnet die qualifikation am freitag wurde wegen problemen mit der anlaufspur ( schneefall ) abgebrochen noch bevor die fix qualifizierten andreas kofler und wolfgang loitzl gesprungen waren . 
 ### Existing MWEs: 
-1- **auf ideen gekommen** (ID, 1)
-## Sentence No. 6130 - 
-der hauptzeuge habe am dienstag außerdem den von der polizei beschlagnahmten bus als tatfahrzeug identifiziert , hieß es aus kreisen der verteidigung . 
+1- **abgebrochen** (VPC, 1)
+### Identified MWEs: 
+1- **abgebrochen** (VPC)
+2- **loitzl** (IReflV)
+3- **fix loitzl** (OTH)
+## Sentence No. 25 - 
+auch der österreichische versorger evn ist unter beschuss . 
 ### Existing MWEs: 
-1- **hieß es** (ID, 18)
+1- **ist unter beschuss** (ID)
+## Sentence No. 31 - 
+adressierte werbesendungen per post : werbebriefe , die ihre adresse tragen , muss die post zustellen . 
+### Existing MWEs: 
+1- **zustellen** (VPC)
+## Sentence No. 37 - 
+deren verkehrsexperte im bundestag , oliver luksic , sagt : " wenn die eigenwirtschaftlichkeit nicht mehr gegeben ist , muss sofort die notbremse gezogen werden " . 
+### Existing MWEs: 
+1- **notbremse gezogen** (ID)
+## Sentence No. 39 - 
+heute befasst sich die gemeindevertretung mit dem thema . 
+### Existing MWEs: 
+1- **befasst sich mit** (IReflV, 1)
+### Identified MWEs: 
+1- **befasst sich mit** (IReflV)
+## Sentence No. 45 - 
+zweimal , 1992 und 2004 , hatte sich flohe komplizierten eingriffen am herzen unterziehen müssen . 
+### Existing MWEs: 
+1- **eingriffen** (VPC)
+## Sentence No. 47 - 
+sie hinterließen jedoch einen sachschaden von rund 1000 euro . 
+### Existing MWEs: 
+1- **hinterließen** (VPC, 2)
+### Identified MWEs: 
+1- **hinterließen** (VPC)
+## Sentence No. 54 - 
+damit bezog sich die 15-jährige vor allem auf die bewirtung mit einer wahren unmenge von kuchen . 
+### Existing MWEs: 
+1- **bezog sich** (IReflV, 2)
+## Sentence No. 57 - 
+es werde nach einer lösung gesucht , hieß es weiter . 
+### Existing MWEs: 
+1- **hieß es** (ID, 28)
 ### Identified MWEs: 
 1- **hieß es** (ID)
-## Sentence No. 6145 - 
-auch weitere posten mussten neu oder wieder besetzt werden : tanja engelke bleibt für weitere zwei jahre schriftführerin , jessica vollmer wurde in das amt gewählt , das sie einige monate kommissarisch ausübte , die jugendleiterin . 
+## Sentence No. 59 - 
+außerdem informiere sie sich , ob sogenannte dampfmittel für raucher unter das verbot fallen . 
 ### Existing MWEs: 
-1- **ausübte** (VPC, 3)
+1- **unter verbot fallen** (LVC)
+## Sentence No. 60 - 
+zum glück gibt es schon ein paar hauptsponsoren für das mammutereignis wie den kilians baeck , die sparkasse mainfranken , das gemüseland schlereth , die raiffeisenbank estenfeld-bergtheim und das autohaus rumpel & stark . 
+### Existing MWEs: 
+1- **gibt es** (ID, 69)
 ### Identified MWEs: 
-1- **ausübte** (VPC)
-## Sentence No. 6195 - 
-premierminister shinzo abe und seiner ldp wurde die größte wirtschaftliche kompetenz zugesprochen , auch aufgrund ihrer engen verbindungen zur industrie . 
+1- **gibt es** (ID)
+## Sentence No. 61 - 
+druckansicht : syrien : trennen uns von chemiewaffen 24.8.2011 : der vermisstenfall wird in der fernsehsendung " aktenzeichen xy ... ungelöst " ausgestrahlt . 
 ### Existing MWEs: 
-1- **zugesprochen** (VPC, 1)
+1- **ausgestrahlt** (VPC, 1)
 ### Identified MWEs: 
-1- **zugesprochen** (VPC)
-## Sentence No. 6200 - 
-mehr wohnungen in der innenstadt könnten langfristig den bestandsschutz der betriebe - unter anderem gaststätten - gefährden und manche " kerngebietstypischen nutzungen " sogar gänzlich ausschließen . 
+1- **ausgestrahlt** (VPC)
+## Sentence No. 68 - 
+wie sich die lage in den teils schon geräumten stadtgebieten weiter entwickelt , hänge davon ab , wie viel wasser noch hinzukomme . 
 ### Existing MWEs: 
-1- **ausschließen** (VPC)
-## Sentence No. 6205 - 
-druckansicht : ehc münchen verpflichtet perspektivspieler merl die polizisten setzten schlagstöcke und pfefferspray ein . 
+1- **hänge ab** (VPC)
+## Sentence No. 73 - 
+mit dieser wurden sie bereits oft schon von den geschwistern angesteckt . 
 ### Existing MWEs: 
-1- **setzten ein** (VPC, 1)
+1- **angesteckt** (VPC)
+## Sentence No. 74 - 
+künftig sei er ein anziehungspunkt für schüler und lehrer , an dem das lernen spannend sei und spaß mache . 
+### Existing MWEs: 
+1- **spaß mache** (ID)
+## Sentence No. 76 - 
+den großen einrichtungen erteilte der bremer eine klare absage . 
+### Existing MWEs: 
+1- **erteilte absage** (LVC)
+## Sentence No. 78 - 
+der schaden beläuft sich laut polizei auf 60 euro . 
+### Existing MWEs: 
+1- **beläuft sich auf** (IReflV, 4)
+## Sentence No. 80 - 
+am sonntagabend gingen erneut zehntausende anhänger wie auch gegner des gestürzten mursi auf die straße . 
+### Existing MWEs: 
+1- **gingen auf straße** (ID)
+## Sentence No. 81 - 
+dokumenten information copyright © mittelhessen. de 2013 dokument erstellt am 01.05.2013 um 19:07:50 uhr letzte Änderung am 01.05.2013 um 19:08:12 uhr am sonntagabend wollte der 29-jährige zu einem kleinen boot hinausschwimmen , als ihn ein etwa zwei meter langes krokodil angriff , das ihm im wasser aufgelauert hatte . 
+### Existing MWEs: 
+1- **angriff** (VPC, 3)
 ### Identified MWEs: 
-1- **pfefferspray** (IReflV)
-2- **setzten pfefferspray** (ID)
-## Sentence No. 6220 - 
-der junge fahrer streifte in den frühen morgenstunden des sonntags in der stuttgarter straße mit dem rechten außenspiegel seines autos den linken außenspiegel eines dort geparkten autos , heißt es im polizeibericht . 
+1- **angriff** (VPC)
+## Sentence No. 86 - 
+genauso wenig ist es selbstverständlich , dass die profis der playoff-finalisten immer so viel energie aufbringen können wie bei dieser wm . 
 ### Existing MWEs: 
-1- **heißt es** (ID, 18)
+1- **aufbringen** (VPC, 1)
+### Identified MWEs: 
+1- **aufbringen** (VPC)
+## Sentence No. 87 - 
+die diebe hatten eine nebentür der halle aufgebrochen , um in das lager zu gelangen . 
+### Existing MWEs: 
+1- **aufgebrochen** (VPC)
+## Sentence No. 90 - 
+zeit online : klären sie uns doch bitte auf , was sie tatsächlich machen . 
+### Existing MWEs: 
+1- **klären auf** (VPC, 1)
+## Sentence No. 91 - 
+eschwege : mann bedroht frau und verletzt polizist schleusingen krallt sich jetzt die säumigen zahler einige beispiele : die moderne archäologie hat ihren horizont durch naturwissenschaftliche analysen von biologischen Überresten ungeheuer erweitert , bis hin zu genetischen fingerabrücken von pharaonenmumien und isotopenanalysen in königlichen gebeinen aus dem frühen mittelalter . 
+### Existing MWEs: 
+1- **krallt sich** (IReflV)
+## Sentence No. 92 - 
+dass sich in espelkamp gut lebe lasse , sei zu großen teilen den wehrleuten zu verdanken , die hoch motiviert , sehr engagiert und professionell ihren dienst versehen . 
+### Existing MWEs: 
+1- **dienst versehen** (LVC)
+## Sentence No. 94 - 
+ursons kommen mit offenen augen zur welt und können sofort laufen . 
+### Existing MWEs: 
+1- **kommen zur welt** (ID)
+### Identified MWEs: 
+1- **augen zur welt** (ID)
+2- **offenen augen zur welt** (ID)
+3- **mit offenen augen zur welt** (ID)
+## Sentence No. 95 - 
+tatsächlich liegt brandenburg bei den ausgabe für hochschulen pro einwohner bundesweit weit ganz hinten . 
+### Existing MWEs: 
+1- **liegt hinten** (ID)
+## Sentence No. 98 - 
+für die künftige postenverteilung verheißt das in bezug auf einen schlanken apparat nichts gutes . 
+### Existing MWEs: 
+1- **verheißt nichts gutes** (ID)
+## Sentence No. 100 - 
+caracas - während das offizielle venezuela am donnerstag um den verstorbenen präsidenten trauerte , hat die opposition ihre vorbereitungen auf den nächsten wahlkampf begonnen und sich sehr rasch darauf geeinigt , wieder henrique capriles in das rennen um die venezolanische präsidentschaft zu schicken . 
+### Existing MWEs: 
+1- **in rennen schicken** (ID)
+## Sentence No. 102 - 
+das allerdings , sagt haluk , " war doch ein bisschen zu hoch gegriffen " . 
+### Existing MWEs: 
+1- **zu hoch gegriffen** (ID)
+## Sentence No. 105 - 
+um die probleme im bildungssektor zu lösen , ging die regierung eine umfassende reform an . 
+### Existing MWEs: 
+1- **ging an** (VPC)
+### Identified MWEs: 
+1- **ging reform** (ID)
+## Sentence No. 115 - 
+keine chance hatte frauenfußball-oberligist ffc renshausen in seiner auswärtspartie beim zweiten tsg ahlten . 
+### Existing MWEs: 
+1- **chance hatte** (ID)
+## Sentence No. 116 - 
+" klönen sie mit uns bei kaffee und kuchen " , laden die gastgeber alle laerer und besonders die neubürger ein . 
+### Existing MWEs: 
+1- **laden ein** (VPC, 6)
+## Sentence No. 120 - 
+grünen-sprecher manfred cybalski meinte : " bürgerhaushalt , das klingt ja ganz gut . 
+### Existing MWEs: 
+1- **klingt gut** (ID)
+## Sentence No. 125 - 
+demnach stehen von 11 bis 23 uhr zwei fahrstreifen stadtauswärts und ein fahrstreifen -einwärts zur verfügung , von 23 bis 11 uhr entsprechend umgekehrt zwei fahrstreifen stadteinwärts und einer -auswärts . 
+### Existing MWEs: 
+1- **stehen zur verfügung** (ID, 4)
+## Sentence No. 126 - 
+während dieser bauphase wird stadteinwärts die brückenkappe abgebrochen und neu aufgebaut , der unterbau und der erste fahrstreifen saniert . 
+### Existing MWEs: 
+1- **abgebrochen** (VPC, 1)
+### Identified MWEs: 
+1- **abgebrochen** (VPC)
+## Sentence No. 129 - 
+schließlich stünden in regensburg 1800 wohnungssuchende menschen auf der warteliste . 
+### Existing MWEs: 
+1- **stünden auf warteliste** (ID)
+## Sentence No. 144 - 
+" wir werden das projekt weiter vorantreiben " , sagt gläser klipp und klar - mit dem unveränderten ziel , die 100.000-euro-marke zu knacken . 
+### Existing MWEs: 
+1- **100.000-euro-marke knacken** (ID)
+## Sentence No. 146 - 
+wenn zwei das gleiche tun , ist es noch lange nicht dasselbe : dieser gedanke drängt sich auf , wenn man die genehmigungsverfahren für die 380-kv-höchstspannungsleitung in nordrhein-westfalen und niedersachsen vergleicht . 
+### Existing MWEs: 
+1- **drängt auf** (VPC)
+## Sentence No. 148 - 
+wie in watte gepackt scheint die " alexander von humboldt " auf der elbe zu stehen . 
+### Existing MWEs: 
+1- **in watte gepackt** (ID)
+## Sentence No. 150 - 
+Über 250 feuerwehrleute waren im einsatz , die löscharbeiten dauern am mittwochmorgen noch an . 
+### Existing MWEs: 
+1- **waren im einsatz** (ID)
+## Sentence No. 152 - 
+damit zeichnet sich die dritte beitragssenkung in folge ab . 
+### Existing MWEs: 
+1- **zeichnet ab** (VPC)
+## Sentence No. 158 - 
+nach zwei jahren musste sie im oktober 2011 den hotelbetrieb einstellen . 
+### Existing MWEs: 
+1- **einstellen** (VPC, 10)
+### Identified MWEs: 
+1- **einstellen** (VPC)
+## Sentence No. 159 - 
+der sogenannte Ölmühlenweg von ottleben nach warsleben - sonst als landwirtschaftlicher weg ausgeschildert - wird dafür freigegeben , allerdings nicht für lkw . 
+### Existing MWEs: 
+1- **ausgeschildert** (VPC, 1)
+### Identified MWEs: 
+1- **ausgeschildert** (VPC)
+## Sentence No. 160 - 
+und auch wenn " still " der womöglich größte hit von jupiter jones ist - leise geht anders . 
+### Existing MWEs: 
+1- **geht anders** (ID)
+### Identified MWEs: 
+1- **geht anders** (ID)
+## Sentence No. 165 - 
+auch hier gilt : regelmäßige bewegung für den ausgleich oder auch einmal mobil arbeiten. â einsam im zugabteil : die öffentlichen verkehrsmittel quellen in den stoßzeiten morgens und abends über . 
+### Existing MWEs: 
+1- **quellen über** (VPC)
+## Sentence No. 166 - 
+rolfes : unabhängig von der entscheidung , die er im sommer trifft , ist die mannschaft den beiden gegenüber in einer verpflichtung . 
+### Existing MWEs: 
+1- **entscheidung trifft** (LVC, 2)
+## Sentence No. 167 - 
+dass regan topfit in die kommende saison gehen wird , steht für scr-manager ralph bader außer zweifel . 
+### Existing MWEs: 
+1- **steht außer zweifel** (ID)
+## Sentence No. 175 - 
+um den orientierungsplan für bildung und erziehung praktisch zu erleben , gebe es den ganzen nachmittag spielstationen für klein und groß . 
+### Existing MWEs: 
+1- **gebe es** (ID, 69)
+## Sentence No. 179 - 
+rekonstruktion am tatort auch die kleinen festgäste fühlten sich pudelwohl , denn es gab in der umgebung der kneippanlage viel zu entdecken . 
+### Existing MWEs: 
+1- **es gab** (ID, 37)
+### Identified MWEs: 
+1- **es gab** (ID)
+## Sentence No. 180 - 
+am freitag wird die premiere gefeiert bei so viel sport , der so auf die knochen geht und dem harten training , wollen alle danach nicht viel machen , nur chillen . 
+### Existing MWEs: 
+1- **auf knochen geht** (ID)
+### Identified MWEs: 
+1- **geht machen** (ID)
+## Sentence No. 181 - 
+eine einschätzung , der sich auch die staatsanwältin anschloss . 
+### Existing MWEs: 
+1- **anschloss** (VPC, 2)
+### Identified MWEs: 
+1- **anschloss** (VPC)
+## Sentence No. 182 - 
+dann hat sich entschieden , in welchen bezirksliga-staffeln absteiger union lüdinghausen , der tus ascheberg und aufsteiger vfl senden antreten . 
+### Existing MWEs: 
+1- **antreten** (VPC, 6)
+### Identified MWEs: 
+1- **antreten** (VPC)
+## Sentence No. 183 - 
+zu dürftig mal wieder die leistung , zu tief der stich , den ausgerechnet erzrivale werder dem hsv zufügte . 
+### Existing MWEs: 
+1- **zufügte** (VPC)
+## Sentence No. 184 - 
+36 von 49 kreistagsmitgliedern gaben göbel ihre stimme ( 73,5 prozent ) . 
+### Existing MWEs: 
+1- **gaben stimme** (ID)
+### Identified MWEs: 
+1- **gaben** (IReflV)
+2- **49 gaben** (OTH)
+## Sentence No. 190 - 
+druckansicht : hintergrund : wirbelstürme rotieren rasend schnell die anlage kann drei megawatt strom erzeugen und liefert gemeinsam mit einem biogas-blockheizkraftwerk strom für die gesamte energieversorgung des werkes , teilte die vestas blades deutschland gmbh am sonntag mit . 
+### Existing MWEs: 
+1- **teilte mit** (VPC, 10)
+### Identified MWEs: 
+1- **teilte mit** (VPC)
+## Sentence No. 194 - 
+immerhin hat der start-up monitor ergeben , dass es etwa 6,5 monate dauert , bis eine finanzierungsrunde abgeschlossen ist . 
+### Existing MWEs: 
+1- **abgeschlossen** (VPC, 9)
+### Identified MWEs: 
+1- **abgeschlossen** (VPC)
+## Sentence No. 197 - 
+die musikerin wird derzeit in ein neues straflager 4400 kilometer östlich von moskau verlegt , nachdem sie sich im vorherigen lager mit morddrohungen konfrontiert sah . 
+### Existing MWEs: 
+1- **konfrontiert sah** (ID)
+## Sentence No. 202 - 
+bundesumweltminister peter altmaier will den bonus allerdings abschaffen und die vergütung senken , sodass , würde das gesetz entsprechend geändert , sich die vergütung laut bortloff um rund 20 prozent auf acht cent pro kilowattstunde verringern würde . 
+### Existing MWEs: 
+1- **abschaffen** (VPC)
+## Sentence No. 208 - 
+beresowski pflegte einen kostspieligen lebensstil : villen , jachten , teure autos , eine große kunstsammlung . 
+### Existing MWEs: 
+1- **pflegte lebensstil** (ID)
+## Sentence No. 211 - 
+der geht es nicht wirklich besser als ihren verwandten , doch bei ihr findet mathias wenigstens ein stück freiheit . 
+### Existing MWEs: 
+1- **geht es** (ID, 2)
+## Sentence No. 216 - 
+von einem jahr der konsolidierung war nach daums angaben in den verhandlungen die rede . 
+### Existing MWEs: 
+1- **von war die rede** (ID)
+## Sentence No. 222 - 
+doch trotz des letztendlich klaren erfolges , spiegelte die analyse des nierfelder trainers alles andere als zufriedenheit wider . 
+### Existing MWEs: 
+1- **spiegelte wider** (VPC)
+## Sentence No. 223 - 
+dabei verletzte sich der solinger , der nach bisherigen erkenntnissen nicht angeschnallt gewesen war . 
+### Existing MWEs: 
+1- **angeschnallt** (VPC)
+## Sentence No. 232 - 
+für zusätzliche abschottung sind die gedämpften limousinen des bundestags-fahrdienstes da und transportieren ihre schutzbefohlenen ins " borchardt " oder den " grill royal " , wo auch immer die karawane der mover und shaker dieser republik gerade haltmacht . 
+### Existing MWEs: 
+1- **haltmacht** (VPC)
+## Sentence No. 240 - 
+kuckucksfest : täuflinge und teams gesucht sie gründete eine personalvermittlung , die nicht nur anbietet , für kliniken die gesuchten Ärzte und schwestern sowie für ausländische Ärzte und schwestern einen passenden arbeitsplatz zu finden , sondern auch bei den formalitäten hilft . 
+### Existing MWEs: 
+1- **anbietet** (VPC, 15)
+### Identified MWEs: 
+1- **anbietet** (VPC)
+## Sentence No. 245 - 
+die gruppe um den mannheimer barden bernd köhler spannt einen bogen von den anfängen der organisierten arbeiterbewegung bis zu den auseinandersetzungen der jetztzeit . 
+### Existing MWEs: 
+1- **spannt bogen** (ID)
+## Sentence No. 250 - 
+und cdu-fraktionschef heiner möller legte noch einen drauf : " die natur ist beweglicher als die grünen jemals waren " , dozierte er am beispiel der autobahn a 31 , die einst auch aus ökologischen gründen verteufelt worden sei . 
+### Existing MWEs: 
+1- **legte einen drauf** (ID)
+## Sentence No. 255 - 
+ein teil der familie ist weiterhin katholisch , frönt bereits ausgiebig dem alkohol und versucht ihre verwandtschaft mit dem hinweis aufzuziehen , dass echte brasilianer katholiken seien . 
+### Existing MWEs: 
+1- **aufzuziehen** (VPC)
+## Sentence No. 261 - 
+" heimspiel für modernisierer " hieß das partymotto und zu gast waren die gleichnamige energieberatungskampagne des landes niedersachsen und der verein " netzwerk nachhaltiges bauen " aus verden . 
+### Existing MWEs: 
+1- **zu gast waren** (ID, 1)
+## Sentence No. 263 - 
+wenn also die station in heek-west im september eingebunden ist , werden die kunden im industriegebiet mit gas versorgt . 
+### Existing MWEs: 
+1- **eingebunden** (VPC, 1)
+### Identified MWEs: 
+1- **eingebunden** (VPC)
+## Sentence No. 269 - 
+der alte zugang war nämlich abgeschaltet , und der neue funktionierte noch nicht . 
+### Existing MWEs: 
+1- **abgeschaltet** (VPC)
+## Sentence No. 270 - 
+nächsten sonntag treffen sie im pokal auf köln-ehrenfeld und am samstag den 6. juli ist der schwanenplatz erneut austragungsort für die bezirksmeisterschaften doublette mixed im rheinland. red wieviel abstand soll ich zu parkenden autos halten ? 
+### Existing MWEs: 
+1- **abstand halten** (LVC)
+## Sentence No. 272 - 
+am heutigen dienstag und am donnerstag soll es anhörungen hinter verschlossenen türen geben . 
+### Existing MWEs: 
+1- **es geben** (ID, 37)
+## Sentence No. 273 - 
+" auch der geruch ist nicht auszuhalten " , sagt sie . 
+### Existing MWEs: 
+1- **auszuhalten** (VPC, 1)
+### Identified MWEs: 
+1- **auszuhalten** (VPC)
+## Sentence No. 274 - 
+und die delegation sei wegen der typischen gelben schals besonders aufgefallen , sagte arends . 
+### Existing MWEs: 
+1- **aufgefallen** (VPC, 2)
+### Identified MWEs: 
+1- **aufgefallen** (VPC)
+## Sentence No. 275 - 
+url : http://www.bbv-net.de/sport/sportwelt_artikel,-flensburger-glandorf-hofft-auf-auswahl-comeback-_arid,202551. html " wahrscheinlich weiß er selbst nicht , was er vorhat " , witzeln algerische journalisten . 
+### Existing MWEs: 
+1- **vorhat** (VPC)
+## Sentence No. 276 - 
+gleichzeitig sitzen sie an tischen , essen und trinken gemeinsam oder unterhalten sich angeregt . 
+### Existing MWEs: 
+1- **unterhalten angeregt** (ID)
+## Sentence No. 277 - 
+vor allem mangelnde konstanz einiger akteure aus dem jungen kader habe den wefelshohl-kickern zu schaffen gemacht . 
+### Existing MWEs: 
+1- **zu schaffen gemacht** (ID)
+## Sentence No. 280 - 
+im "ruby"-prozess um sex mit minderjährigen prostituierten und amtsmissbrauch wurde er in erster instanz schuldig gesprochen . 
+### Existing MWEs: 
+1- **schuldig gesprochen** (ID)
+## Sentence No. 282 - 
+die vorgeschichte : in seiner doktorarbeit beschäftigt sich dominic stoiber mit der arbeit seiner vaters , es geht um " die föderalismusreform i der bundesrepublik deutschland : beschreibung und bewertung der reform und eine analyse der bewährung in der praxis anhand des nichtraucherschutzes " . 
+### Existing MWEs: 
+1- **es geht um** (ID, 1)
+## Sentence No. 290 - 
+und dürften nicht - durch klagen von privatpersonen oder verbänden - auf die lange bank geraten . 
+### Existing MWEs: 
+1- **auf lange bank geraten** (ID)
+## Sentence No. 294 - 
+er schaffte seinerzeit sofort den sprung von der a-jugend in die westfalenliga-stammelf . 
+### Existing MWEs: 
+1- **schaffte sprung** (ID)
+## Sentence No. 295 - 
+bernhard mußgnug sowie die beiden vorstandsmitglieder erik bühler und rainer hohner haben am samstag nach bekanntwerden des unglücks sofort die familie aufgesucht . 
+### Existing MWEs: 
+1- **aufgesucht** (VPC, 1)
+### Identified MWEs: 
+1- **aufgesucht** (VPC)
+## Sentence No. 298 - 
+als günter parche am 30. april 1993 mit einer plastiktüte in der hand die tennisanlage am hamburger rothenbaum betritt , hat er angst . 
+### Existing MWEs: 
+1- **hat angst** (ID, 1)
+## Sentence No. 302 - 
+© brigitte lacombe parkplätze stehen in der ortsmitte ausreichend zur verfügung . 
+### Existing MWEs: 
+1- **stehen zur verfügung** (ID, 4)
+## Sentence No. 305 - 
+schon seit geraumer zeit verfolgt vilanek den plan , den hamburger mobilfunker in einen " digital-lifestyle-anbieter " zu verwandeln . 
+### Existing MWEs: 
+1- **verfolgt plan** (LVC)
+## Sentence No. 306 - 
+tony marshall krankenhausärzte geben diesen dienst wegen Überlastung auf , für die kliniken ist er wirtschaftlich bei 30 euro stundenlohn im osten ohnehin nicht attraktiv . 
+### Existing MWEs: 
+1- **geben auf** (VPC, 1)
+## Sentence No. 311 - 
+sie befindet sich in privatbesitz . 
+### Existing MWEs: 
+1- **befindet sich** (IReflV, 2)
+## Sentence No. 313 - 
+doch auch von offizieller seite gab es selbstverständlich glückwünsche an so einem besonderen tag : mit urkunden und präsenten im gepäck gratulierten der stellvertretende landrat des kreises steinfurt , jürgen coße , sowie professor dr. karl-hermann korfsmeier als stellvertretender bürgermeister der stadt . 
+### Existing MWEs: 
+1- **gab es** (ID, 69)
+### Identified MWEs: 
+1- **gab es** (ID)
+## Sentence No. 325 - 
+ob die briten überhaupt ein kaufgebot abgeben , ist zwar noch unklar . 
+### Existing MWEs: 
+1- **kaufgebot abgeben** (LVC)
+### Identified MWEs: 
+1- **abgeben** (VPC)
+## Sentence No. 327 - 
+er dürfte abgestürzt sein . 
+### Existing MWEs: 
+1- **abgestürzt** (VPC)
+## Sentence No. 328 - 
+dass die hochzeit in der spargelstadt stattfindet , hat viele gründe . 
+### Existing MWEs: 
+1- **stattfindet** (VPC, 12)
+### Identified MWEs: 
+1- **stattfindet** (VPC)
+## Sentence No. 332 - 
+münchen - die stadt kommt mit dem versand der briefwahl-unterlagen nicht hinterher . 
+### Existing MWEs: 
+1- **kommt nicht hinterher** (ID)
+### Identified MWEs: 
+1- **kommt hinterher** (VPC)
+## Sentence No. 334 - 
+für wiens gesundheitsstadträtin sonja wehsely ( spÖ ) ist ohnehin nicht nachvollziehbar , warum husslein sein akh gegen das krankenhaus nord ausspielt . 
+### Existing MWEs: 
+1- **ausspielt** (VPC)
+## Sentence No. 335 - 
+es soll die kooperation von stadt und haus marienthal ausdrücken . 
+### Existing MWEs: 
+1- **ausdrücken** (VPC, 2)
+### Identified MWEs: 
+1- **ausdrücken** (VPC)
+## Sentence No. 338 - 
+wer sich nicht daran hält , riskiert auch noch ein ordnungsgeld . 
+### Existing MWEs: 
+1- **daran hält** (ID)
+### Identified MWEs: 
+1- **sich hält** (IReflV)
+## Sentence No. 339 - 
+neben optimierten prozessen durch die räumliche nähe der verschiedenen abteilungen im stoppelkamp wurde auch in der ausgestaltung der räume viel wert auf teamarbeit gelegt . 
+### Existing MWEs: 
+1- **wert gelegt** (ID, 1)
+## Sentence No. 340 - 
+magdeburg : zweistelliger millionenschaden bei brandanschlag auf bundeswehr : : lr-online " der weg hat sich gelohnt " , sagt johanna klein rückblickend auf die monatelange renovierungsphase und die im wahrsten sinne des wortes heiße sommersaison . 
+### Existing MWEs: 
+1- **sich gelohnt** (IReflV, 1)
+### Identified MWEs: 
+1- **sich gelohnt** (IReflV)
+## Sentence No. 341 - 
+indien will in den elitären club aufsteigen ihm drohen mindestens 15 jahre haft . 
+### Existing MWEs: 
+1- **drohen haft** (LVC)
+## Sentence No. 342 - 
+und um diese zeit haben wir gebeten und deshalb hat die abstimmung nicht stattgefunden . 
+### Existing MWEs: 
+1- **stattgefunden** (VPC, 12)
+### Identified MWEs: 
+1- **stattgefunden** (VPC)
+## Sentence No. 354 - 
+der torlose zwischenstand hatte dann auch beim pausenpfiff bestand , da ein letzter gefährlicher seiitz-distanzversuch knapp am pfosten verstrich . 
+### Existing MWEs: 
+1- **hatte bestand** (ID)
+## Sentence No. 357 - 
+hier ging eine versauerung oft mit tiefgreifenden Änderungen im Ökosystem meer einher - bis hin zu massensterben . 
+### Existing MWEs: 
+1- **ging einher** (VPC)
+## Sentence No. 367 - 
+baader investment conference 2013 datum : 24. september 2013 , 9:00 mesz veranstaltungsort : münchen teilnehmer : dr. simon moroney , vorstandsvorsitzender der morphosys ag jens holstein , finanzvorstand der morphosys ag dr. arndt schottelius , entwicklungsvorstand der morphosys ag dr. claudia gutjahr-löser , head of corporate communications & ir beste regie - nominierte amour - michael haneke beasts of the southern wild - benh zeitlin life of pi - ang lee lincoln - steven spielberg silver linings playbook - david o. russell china müsse " internationale normen zum verantwortungsvollen verhalten im cyberspace " einhalten , verlangte hagel . 
+### Existing MWEs: 
+1- **einhalten** (VPC)
+### Identified MWEs: 
+1- **o.** (IReflV)
+2- **benh o.** (OTH)
+3- **mesz benh o.** (OTH)
+## Sentence No. 368 - 
+beinahe täglich meldet die oberfränkische polizei , dass wieder eine autofahrerin oder ein autofahrer mit " drogentypischen merkmalen " aus dem verkehr gezogen wurde . 
+### Existing MWEs: 
+1- **aus verkehr gezogen** (ID)
+## Sentence No. 373 - 
+absehbar ist jedenfalls , dass einige spargelbauern über das traditionelle saisonende am johannistag , dem 24. juni , hinaus ernten werden - falls die pflanzen das zulassen . 
+### Existing MWEs: 
+1- **zulassen** (VPC)
+## Sentence No. 378 - 
+rund zwei wochen nach dem schweren brand liegt die ms rübezahl wieder in lüdinghausen vor anker . 
+### Existing MWEs: 
+1- **liegt vor anker** (ID)
+## Sentence No. 380 - 
+ich sehe aus wie harry potter " , twitterte longoria freudestrahlend . 
+### Existing MWEs: 
+1- **sehe aus** (VPC, 2)
+## Sentence No. 381 - 
+die usa haben ihre aus sorge vor anschlägen verfügten botschafts-schließungen verlängert und ausgeweitet . 
+### Existing MWEs: 
+1- **ausgeweitet** (VPC)
+## Sentence No. 383 - 
+jetzt scheinen aber die bayern die nase vorn zu haben . 
+### Existing MWEs: 
+1- **nase vorn haben** (ID)
+### Identified MWEs: 
+1- **vorn haben** (ID)
+2- **nase vorn haben** (ID)
+## Sentence No. 385 - 
+die großen fußstapfen des jean-claude juncker dabei hatte das team von jens keller an der stamford bridge stark begonnen , aber ein böser blackout von keeper timo hildebrand brachte chelsea in die spur . 
+### Existing MWEs: 
+1- **brachte in spur** (ID)
+## Sentence No. 388 - 
+doch die pechsträhne hielt an : gordo , ein totenkopfäffchen , so niedlich wie der kleine herr nilsson aus den pippi-langstrumpf-filmen , überlebte 1958 acht minuten schwerelosigkeit und die 40-fache erdanziehungskraft , doch ertrank er dann im meer - wieder hatte der fallschirm versagt . 
+### Existing MWEs: 
+1- **hielt an** (VPC)
+## Sentence No. 389 - 
+die partie endet , wenn einer der paukanten einen fehler macht , wenn die maximale anzahl der gänge erreicht ist oder es einer der beiden Ärzte anordnet . 
+### Existing MWEs: 
+1- **fehler macht** (ID, 3)
+### Identified MWEs: 
+1- **anordnet** (VPC)
+## Sentence No. 396 - 
+und so findet man auf der plattform " auf geht's " ein motivationsvideo mit freiwilligen helfern . 
+### Existing MWEs: 
+1- **geht's** (ID, 1)
+### Identified MWEs: 
+1- **geht's** (ID)
+2- **findet geht's** (ID)
+## Sentence No. 397 - 
+wenn es nach dem willen von eltern mit kleinen kindern geht , dann soll die stadt velburg zukünftig mehr geld für die spielplätze aufwenden , auch wenn dafür dann aus kostengründen vielleicht das eine oder andere straßenstück nicht mehr wie beabsichtigt repariert werden kann . 
+### Existing MWEs: 
+1- **nach willen geht** (ID)
+## Sentence No. 400 - 
+eine reihe von aktivisten aus dem demokratischen lager beteiligte sich gar an der rassistischen hetze gegen die rohingya , die in birma nicht als ethnische minderheit anerkannt sind . 
+### Existing MWEs: 
+1- **beteiligte sich** (IReflV)
+## Sentence No. 401 - 
+die insgesamt 14 arbeiter , die jeden tag an der frauenburg im einsatz sind , sind damit beschäftigt , den zementmörtel aus den fugen zu beseitigen . 
+### Existing MWEs: 
+1- **im einsatz sind** (ID, 2)
+## Sentence No. 402 - 
+irma stilz und thea bahnemann wurden mit der silbernen ehrennadel ausgezeichnet . 
+### Existing MWEs: 
+1- **ausgezeichnet** (VPC, 1)
+### Identified MWEs: 
+1- **ausgezeichnet** (VPC)
+## Sentence No. 406 - 
+der torgauer kirchenmusiker beutete in seinem konzert den klangreichtum der königin der instrumente kräftig aus und bot mit seiner vortragskunst ein bewegendes hörerlebnis . 
+### Existing MWEs: 
+1- **beutete aus** (VPC)
+## Sentence No. 411 - 
+das system basiert wie das tablet-betriebssystem des blackberry playbooks auf der software qnx , die rim auch autoherstellern für bord-computer zur verfügung stellt . 
+### Existing MWEs: 
+1- **zur verfügung stellt** (ID, 3)
+### Identified MWEs: 
+1- **zur verfügung stellt** (ID)
+## Sentence No. 412 - 
+dies solle ende dieser woche , spätestens anfang nächster woche abgeschlossen werden . 
+### Existing MWEs: 
+1- **abgeschlossen** (VPC, 9)
+### Identified MWEs: 
+1- **abgeschlossen** (VPC)
+## Sentence No. 414 - 
+sein wirken , schicksal und sein tod sind thema eines vortrages , den der gubener stadthistoriker andreas peter am freitag im rahmen der sonderausstellung " augenblicke zwischen dem berg sinai und guben " hält . 
+### Existing MWEs: 
+1- **vortrages hält** (LVC)
+## Sentence No. 417 - 
+die zeit der blauen fingernägel hat er hinter sich gelassen . 
+### Existing MWEs: 
+1- **hinter sich gelassen** (ID)
+## Sentence No. 427 - 
+andererseits macht diese sackgasse zunehmend unwahrscheinlich , dass die us-notenbank eine baldige drosselung der wertpapierkäufe einläuten wird - gut für den aktienmarkt. âº hochintelligent , hochsensibel , romantiker , gerechtigkeitsfan . 
+### Existing MWEs: 
+1- **einläuten** (VPC)
+## Sentence No. 430 - 
+nachdem richard nur zwei jahre nach seiner thronbesteigung in der schlacht um bosworth starb , wurde er in einem franziskanerkloster beigesetzt . 
+### Existing MWEs: 
+1- **beigesetzt** (VPC)
+## Sentence No. 439 - 
+polizei warnt vor teerkolonne / blaulicht / lokales defizite liegen oft am elternhaus ich war zuvor ja nur sechsmal auf dem eis . 
+### Existing MWEs: 
+1- **war auf eis** (ID)
+## Sentence No. 444 - 
+tanzen spielte übrigens eine wichtige rolle in dem stück , dessen zentrale themen ein mord unter mitschülern , die anonymisierung der gesellschaft und die kritik am mitläufertum einer totalitären gesellschaft sind . 
+### Existing MWEs: 
+1- **spielte rolle** (ID, 6)
+### Identified MWEs: 
+1- **spielte rolle** (ID)
+## Sentence No. 445 - 
+ich finde , so viel selbstbewusstsein steht den thüringer frauen gut , ganz zu schweigen von der bademode , die mir präsentiert wurde . 
+### Existing MWEs: 
+1- **steht gut** (ID)
+## Sentence No. 455 - 
+die jugend genießt im allgemeinen einen hohen stellenwert im dlrg : mehr als die hälfte der über 400 mitglieder sind unter 18 jahren . 
+### Existing MWEs: 
+1- **genießt hohen stellenwert** (ID)
+## Sentence No. 457 - 
+( c ) www. wetter. at , klicken sie auf das bild um die detailgenaue prognose zu laden ist es doch ein sehr aufregendes und ambitioniertes projekt , welches oliver witzke ( foto : privat ) auf die beine gestellt hat . 
+### Existing MWEs: 
+1- **auf beine gestellt** (ID, 3)
+### Identified MWEs: 
+1- **auf beine gestellt** (ID)
+## Sentence No. 458 - 
+dürfen männer noch komplimente machen ? 
+### Existing MWEs: 
+1- **komplimente machen** (LVC)
+## Sentence No. 459 - 
+ab und zu habe ich es mit diversen nahrungsergänzungsmitteln versucht , es dann auf anraten meines trainers aber wieder bleiben lassen . 
+### Existing MWEs: 
+1- **bleiben lassen** (ID)
+## Sentence No. 460 - 
+" versuchen sie , rettungshubschrauber auf sich aufmerksam zu machen , die über den dächern kreisen " , ordnete polizeichef grant marcus im fernsehen an . 
+### Existing MWEs: 
+1- **ordnete an** (VPC)
+### Identified MWEs: 
+1- **aufmerksam machen** (ID)
+2- **auf sich aufmerksam machen** (ID)
+## Sentence No. 464 - 
+nachdem dell aber seine offerte aufstockte und sich zuletzt mit dem einflussreichen investor carl icahn der härteste kontrahent zurückzog , war der weg frei . 
+### Existing MWEs: 
+1- **aufstockte** (VPC)
+## Sentence No. 466 - 
+auch die geschäfte der innenstadt beteiligen sich am volksfest . 
+### Existing MWEs: 
+1- **beteiligen sich** (IReflV)
+## Sentence No. 468 - 
+und nun schließlich legt der regionalgeschichtsforscher mit diesem bildband ein fundiertes werk zur bollener geschichte vor , das mit seinen ausführlich beschriebenen karten und historisch wertvollen fotodokumenten einen umfassenden einblick in die entwicklung des weserortes und seiner bewohner bietet : " mehr bollen geht nicht " , freute sich auch ortsvorsteher heiko distler . 
+### Existing MWEs: 
+1- **legt vor** (VPC)
+## Sentence No. 471 - 
+und auch spitzenreiter as rom muss erstmals federn lassen . 
+### Existing MWEs: 
+1- **federn lassen** (ID)
+## Sentence No. 475 - 
+und so stellt sich am ende dieses klassischen falls nur noch eine frage : war es denn dramaturgisch so zwingend nötig , die tote gleich vier mal in der frontale zu zeigen ? 
+### Existing MWEs: 
+1- **stellt frage** (LVC)
+### Identified MWEs: 
+1- **stellt sich** (IReflV)
+## Sentence No. 476 - 
+doch aufgeben kommt für das duo nicht in frage . 
+### Existing MWEs: 
+1- **kommt in frage** (ID)
+### Identified MWEs: 
+1- **aufgeben** (VPC)
+2- **kommt in frage** (ID)
+## Sentence No. 477 - 
+gasgeruch stellten betreiber eines in der schönbornstraße gelegenen kurhauses am samstagmittag gegen 13.30 uhr in ihrem anwesen fest . 
+### Existing MWEs: 
+1- **stellten fest** (VPC, 7)
+### Identified MWEs: 
+1- **stellten fest** (VPC)
+## Sentence No. 483 - 
+40 prozent kämen dann vom land , 40 prozent vom bund und 20 prozent der abrisskosten müsste potsdam selbst tragen. wik alfons viellieber ( cdu ) fand den platz im grünen genau richtig , auch seien die lebensmittelmärkte nicht weit entfernt . 
+### Existing MWEs: 
+1- **abrisskosten tragen.** (ID)
+## Sentence No. 484 - 
+sieben professoren ( mediziner , naturwissenschaftler , maschinenbauer , verfahrens- und systemtechniker ) haben 23 parabelflug- , fünf suborbitale und acht orbitale forschungsprojekte ( sechs davon auf der iss ) durchgeführt sowie mehr als 50 diesbezügliche wissenschaftliche publikationen veröffentlicht . 
+### Existing MWEs: 
+1- **durchgeführt** (VPC, 4)
+### Identified MWEs: 
+1- **durchgeführt** (VPC)
+## Sentence No. 486 - 
+auch mit verweis auf das laufende gerichtsverfahren wollte sich untersteller mit einer stellungnahme zurückhalten . 
+### Existing MWEs: 
+1- **zurückhalten** (VPC)
+## Sentence No. 488 - 
+ex-"tagesschau"-moderatorin dagmar berghoff bereut , sich für ihre schönheit einmal unters messer gelegt zu haben . 
+### Existing MWEs: 
+1- **unters messer gelegt** (ID)
+## Sentence No. 491 - 
+rainer brüderle steht längst unter artenschutz , und peer steinbrück , ach , mit dem kann man doch schon lange keinen mehr überraschen . 
+### Existing MWEs: 
+1- **steht unter artenschutz** (ID)
+### Identified MWEs: 
+1- **steht überraschen** (ID)
+## Sentence No. 499 - 
+" im bereich der unfallzahlen haben wir einen stetig steigenden trend zu verzeichnen " , stellte am donnerstag hans-henning von dincklage , leiter der polizeiinspektion ( pi ) wilhelmshaven / friesland im neuen polizeidienstgebäude in der mozartstraße wilhelmshaven besorgt fest . 
+### Existing MWEs: 
+1- **stellte fest** (VPC, 7)
+### Identified MWEs: 
+1- **pi** (IReflV)
+2- **stellte pi** (OTH)
+## Sentence No. 501 - 
+ins rechte bild gesetzt wird der " mordfall maria " , wie der arbeitstitel heißt , von andreas köfer . 
+### Existing MWEs: 
+1- **ins rechte bild gesetzt** (ID)
+## Sentence No. 509 - 
+die 85. oscar-verleihung findet am 24. februar in los angeles statt . 
+### Existing MWEs: 
+1- **findet statt** (VPC, 19)
+### Identified MWEs: 
+1- **findet statt** (VPC)
+## Sentence No. 513 - 
+bei angenehmen temperaturen spielte die band " twogether " lockere unterhaltungsmusik , für die kinder gab es eine hüpfburg zum spielen und einen schminkstand . 
+### Existing MWEs: 
+1- **gab es** (ID, 69)
+### Identified MWEs: 
+1- **gab es** (ID)
+## Sentence No. 516 - 
+demnach werden derzeit im vorstand kürzungen konzipiert , die den strukturellen veränderungen in der börsenlandschaft rechnung tragen sollen . 
+### Existing MWEs: 
+1- **rechnung tragen** (ID)
+## Sentence No. 519 - 
+weder die brandursache noch die schadenshöhe waren bis freitagmittag bekannt , teilte die landespolizeidirektion steiermark mit . 
+### Existing MWEs: 
+1- **teilte mit** (VPC, 10)
+### Identified MWEs: 
+1- **teilte mit** (VPC)
+## Sentence No. 523 - 
+im fernsehen war die rede von einem " tsunami der himalyas " . 
+### Existing MWEs: 
+1- **war die rede** (ID)
+## Sentence No. 529 - 
+370 karten wurden bereits im vorverkauf abgesetzt , insgesamt sind wir mit der nachfrage zufrieden . 
+### Existing MWEs: 
+1- **abgesetzt** (VPC, 3)
+### Identified MWEs: 
+1- **abgesetzt** (VPC)
+## Sentence No. 532 - 
+das jugendgericht habe den damals 17-jährigen in allen hauptanklagepunkten schuldig gesprochen , sagte staatsanwalt rajiv mohan in neu delhi . 
+### Existing MWEs: 
+1- **schuldig gesprochen** (ID)
+## Sentence No. 535 - 
+mir ist schon klar , dass die klitschkos das schwergewicht dominieren . 
+### Existing MWEs: 
+1- **ist klar** (ID, 1)
+## Sentence No. 536 - 
+die betrunkenen flüchteten , das 52-jährige opfer wurde in ein krankenhaus eingeliefert die wohnung des 79-jährigen cornelius gurlitt in münchen-schwabing war am 28. februar 2012 durchsucht worden und nicht bereits 2011 . 
+### Existing MWEs: 
+1- **in krankenhaus eingeliefert** (ID)
+## Sentence No. 545 - 
+innsbruck , wien - gleich ob im quantencomputer , bei der quantenkommunikation oder der quantenkryptographie - das phänomen der verschränkung bildet für viele zukünftige quantentechnologien eine wesentliche grundlage . 
+### Existing MWEs: 
+1- **bildet grundlage** (ID)
+## Sentence No. 549 - 
+holen sie die sprühflasche noch einmal heraus , und tragen sie mit feinen stößen einen leichten wasserfilm auf die haut ihres models auf . 
+### Existing MWEs: 
+1- **tragen auf** (VPC)
+## Sentence No. 550 - 
+hakan güldüren handelte sich dann die ampelkarte ein . 
+### Existing MWEs: 
+1- **handelte ein** (VPC)
+## Sentence No. 551 - 
+jugendzentrum soll bald wieder geöffnet werden im selben jahr werden " der fremde " und " der mythos des sisyphos " veröffentlicht nun stimmen die metro-eigner am 24. april über die fusion ab . 
+### Existing MWEs: 
+1- **stimmen ab** (VPC)
+## Sentence No. 554 - 
+( dpa ) auto : nissan note : comeback in neuer tonlage nach 20 jahren als sp-bürgermeister in leoben , kehrt matthias konrad ende 2013 der politik den rücken . 
+### Existing MWEs: 
+1- **kehrt rücken** (ID)
+## Sentence No. 556 - 
+welche rolle hat jos luhukay dabei gespielt ? 
+### Existing MWEs: 
+1- **rolle gespielt** (ID, 4)
+### Identified MWEs: 
+1- **rolle hat** (ID)
+## Sentence No. 560 - 
+box-weltmeister arthur abraham ( 33 ) weist , wie viele andere , auf tegels größte stärke hin : " alles geht schnell und flexibel . 
+### Existing MWEs: 
+1- **weist hin** (VPC, 2)
+### Identified MWEs: 
+1- **weist geht** (ID)
+## Sentence No. 561 - 
+die rot-schwarzen koalitionäre in der berliner landespolitik haben den zwischen schwarz-gelb und rot-grün ausgefochtenen lagerwahlkampf einigermaßen unbeschadet überstanden . 
+### Existing MWEs: 
+1- **unbeschadet überstanden** (ID)
+## Sentence No. 568 - 
+es gab einige nickligkeiten , die gemüter kochten hoch . 
+### Existing MWEs: 
+1- **gemüter kochten hoch** (ID)
+### Identified MWEs: 
+1- **es gab** (ID)
+## Sentence No. 569 - 
+gesellig geht es im weindorf zwar auch zu , aber die atmosphäre ist wesentlich entspannter . 
+### Existing MWEs: 
+1- **geht zu** (VPC)
+## Sentence No. 575 - 
+der wohnungslose adrian z. ( 28 ) steht im dringenden verdacht , eileen peters ( † 33 ) aus hellersdorf getötet zu haben . 
+### Existing MWEs: 
+1- **steht im verdacht** (LVC, 1)
+### Identified MWEs: 
+1- **steht im verdacht** (ID)
+## Sentence No. 578 - 
+er war ein meister darin , sich so vage und nebulös auszudrücken wie überhaupt nur möglich . 
+### Existing MWEs: 
+1- **auszudrücken** (VPC)
+## Sentence No. 586 - 
+vier der fünf prüfungen entschieden mitglieder des heimischen vereines für sich . 
+### Existing MWEs: 
+1- **entschieden für sich** (ID)
+## Sentence No. 595 - 
+der andere fdp-wahlsieger wolfgang kubicki hat schon vor monaten klargemacht , dass er lindner für den geborenen neuen parteivorsitzenden hält . 
+### Existing MWEs: 
+1- **klargemacht** (VPC)
+## Sentence No. 601 - 
+pieter joubert , unser busfahrer , ist glücklich hier in südafrika und wir haben ihn jetzt schon ins herz geschlossen . 
+### Existing MWEs: 
+1- **ins herz geschlossen** (ID)
+### Identified MWEs: 
+1- **ins herz geschlossen** (ID)
+## Sentence No. 602 - 
+auch eine gewinnspielaktion findet an diesem tag ihren höhepunkt . 
+### Existing MWEs: 
+1- **findet höhepunkt** (LVC)
+## Sentence No. 604 - 
+der architekt der tölzer marktstraße ist vor 100 jahren gestorben , aus diesem anlass bereitet der verein ein programm bis ende oktober vor . 
+### Existing MWEs: 
+1- **bereitet vor** (VPC, 2)
+## Sentence No. 607 - 
+bis zur 76. minute hielt gsv-keeper florian bosch seinen kasten , nicht zuletzt wegen einiger toller paraden sauber , dann aber überwand engin tuncel den schlussmann . 
+### Existing MWEs: 
+1- **hielt kasten sauber** (ID)
+## Sentence No. 608 - 
+" wer in eine gesperrte piste fährt , handelt vorsätzlich " , stellt hölzle fest . 
+### Existing MWEs: 
+1- **stellt fest** (VPC, 7)
+### Identified MWEs: 
+1- **stellt fest** (VPC)
+## Sentence No. 609 - 
+das thema oerlinghausen ist für ihn durch . 
+### Existing MWEs: 
+1- **ist durch** (ID)
+## Sentence No. 611 - 
+sorgen bezüglich der sicherheit der zahlungsabwicklung machen sich 70 prozent der befragten deutschen online-shopper . 
+### Existing MWEs: 
+1- **sorgen machen** (LVC, 1)
+### Identified MWEs: 
+1- **sorgen machen** (LVC)
+## Sentence No. 614 - 
+es gibt sie schließlich schon lange in solingen . 
+### Existing MWEs: 
+1- **es gibt** (ID, 37)
+### Identified MWEs: 
+1- **es gibt** (ID)
+## Sentence No. 615 - 
+was da herausdröhnte , hörte sich so an , wie ich mir den lärm der maschinenhallen des späten neunzehnten jahrhunderts vorstelle , der mir erspart blieb . 
+### Existing MWEs: 
+1- **vorstelle** (VPC)
+## Sentence No. 617 - 
+nach dem feiern werden dann die Ärmel hochgekrempelt , könnte man sagen . 
+### Existing MWEs: 
+1- **Ärmel hochgekrempelt** (ID)
+## Sentence No. 627 - 
+1990 ging das magazin an die börse , doch wenig später begann der niedergang . 
+### Existing MWEs: 
+1- **ging an börse** (ID, 1)
+## Sentence No. 631 - 
+weibliche spione gab es schon auf der leinwand , aber die waren immer von männern umgeben . 
+### Existing MWEs: 
+1- **gab es** (ID, 69)
+### Identified MWEs: 
+1- **gab es** (ID)
+## Sentence No. 632 - 
+trotzdem stand die abwehr sicher und ließ keine großchancen zu . 
+### Existing MWEs: 
+1- **ließ zu** (VPC)
+### Identified MWEs: 
+1- **ließ zu** (VPC)
+## Sentence No. 634 - 
+roman zu den ursachen der störungen machte die bahn bisher keine aussagen . 
+### Existing MWEs: 
+1- **machte aussagen** (LVC)
+## Sentence No. 641 - 
+- trainer : slomka druckansicht : gabriel : putschgerüchte sind " quatsch " mit szene-getränken kennen sich tim koch und alexandros soukas aus . 
+### Existing MWEs: 
+1- **kennen aus** (VPC)
+## Sentence No. 642 - 
+" ich wollte nicht , dass sie in einem haus voller lügen aufwachsen - oder dass sie denken , dass etwas falsch daran ist , homosexuell zu sein " , erklärt martin . 
+### Existing MWEs: 
+1- **aufwachsen** (VPC, 3)
+### Identified MWEs: 
+1- **aufwachsen** (VPC)
+## Sentence No. 648 - 
+der bürgermeister gab gleichzeitig zu bedenken , dass die bürger spätestens ab dem jahr 2015 mit einer erhöhung zu rechnen heben . 
+### Existing MWEs: 
+1- **gab zu bedenken** (ID, 1)
+## Sentence No. 657 - 
+9 ( - ) paolo roversi : milano criminale aus dem italienischen von esther hansen , ullstein , 464 s. , 19,99 € er malt das paradies an die wand und guckt sich die realität nicht genau genug an . 
+### Existing MWEs: 
+1- **malt an wand** (ID)
+## Sentence No. 658 - 
+" eine reine vorsichtsmaßnahme " , wie der klub mitteilte . 
+### Existing MWEs: 
+1- **mitteilte** (VPC, 15)
+### Identified MWEs: 
+1- **mitteilte** (VPC)
+## Sentence No. 661 - 
+ehrenamtlich tätige freunde der archäologie im braunschweiger land sind nun an den wochenenden erneut beim graben , schaben , messen und dokumentieren zu sehen . 
+### Existing MWEs: 
+1- **sind zu sehen** (ID, 1)
+## Sentence No. 662 - 
+weil sie einen mitarbeiter fristlos entließ , wird Österreichs botschafterin in paris vor gericht zitiert . 
+### Existing MWEs: 
+1- **vor gericht zitiert** (ID)
+## Sentence No. 663 - 
+davon versprechen sich die entscheider nicht nur die gleichmäßige aufteilung der verantwortung auf vielen schultern , sondern auch bessere entschlüsse , nach dem motto " vier augen sehen mehr als zwei " . 
+### Existing MWEs: 
+1- **vier augen sehen mehr als zwei** (ID)
+## Sentence No. 664 - 
+mit 29 jahren wird sikorski stellvertretender verteidigungsminister , 2005 wird er verteidigungsminister , tritt aber wegen differenzen zurück . 
+### Existing MWEs: 
+1- **tritt zurück** (VPC)
+### Identified MWEs: 
+1- **tritt zurück** (VPC)
+## Sentence No. 671 - 
+von seinem stinksekret machte quicky allerdings nur in notsituationen gebrauch . 
+### Existing MWEs: 
+1- **machte gebrauch** (ID)
+### Identified MWEs: 
+1- **machte quicky** (ID)
+## Sentence No. 673 - 
+wir erfüllen unsere aufgaben in der gemeinschaft . 
+### Existing MWEs: 
+1- **erfüllen aufgaben** (ID)
+## Sentence No. 674 - 
+in einem dieser mietshäuser , die auch innen alles andere als ein freundliches bild boten , wohnte er mit eltern und geschwistern im 3. stock in räumen , die alle bis auf einen lästige dachschrägen hatten . 
+### Existing MWEs: 
+1- **bild boten** (ID)
+## Sentence No. 675 - 
+ein shooting mit ihrem pferd für die stiftung kindertraum und das noch oben ohne , da sagt selbst ex-miss tanja duhovich nicht nein . 
+### Existing MWEs: 
+1- **sagt nein** (ID)
+## Sentence No. 676 - 
+b. hatte immer wieder betont , sich nicht bereichert zu haben . 
+### Existing MWEs: 
+1- **sich bereichert** (IReflV)
+## Sentence No. 679 - 
+dafür steht neben einem großzügigen innen- und außengelände auch unterstützung durch den förderverein parat . 
+### Existing MWEs: 
+1- **steht parat** (VPC)
+## Sentence No. 680 - 
+die verzögerung seiner gesundheitsreform bis 2015 , der andauernde syrienkonflikt , eine eher mäßig gut verlaufene afrikareise und nicht zuletzt der prism-skandal und die enthüllungen des " whistleblowers " edward snowden deuten darauf hin , dass die popularität obamas nicht nur in den usa , sondern auch in europa stark gesunken ist . 
+### Existing MWEs: 
+1- **deuten hin** (VPC, 1)
+## Sentence No. 682 - 
+zehn minuten später erzielte petersen mit seinem elften saisontreffer den erneuten ausgleich , ehe matthias ginter ( 71. ) jedes jahr rücken die vereinsmitglieder im rahmen der alle drei teilorte umfassenden stadtputzete aus , um den spielplatz " bei der eiche " zu säubern . 
+### Existing MWEs: 
+1- **rücken aus** (VPC)
+### Identified MWEs: 
+1- **erzielte aus** (ID)
+## Sentence No. 683 - 
+zoom beim 14. lindlarer juniorcup waren einige wtv-schwimmer zum ersten mal bei einem wettkampf im einsatz . 
+### Existing MWEs: 
+1- **waren im einsatz** (ID)
+## Sentence No. 685 - 
+" die gastgeber haben sich ein abwechslungsreiches besuchsprogramm einfallen lassen , was jedes mal erstaunlich ist " , berichtet franz hillebrand . 
+### Existing MWEs: 
+1- **einfallen** (VPC)
+## Sentence No. 687 - 
+nachdem sich das von lasse bracksiek und julia diederich trainierte team in der meisterrunde mit 12:4 punkten und dem gewonnenen direkten vergleich gegen bad salzuflen durchgesetzt hatte , folgte im pokal der nächste streich . 
+### Existing MWEs: 
+1- **durchgesetzt** (VPC, 3)
+### Identified MWEs: 
+1- **durchgesetzt** (VPC)
+## Sentence No. 691 - 
+wernigerode ( ige ) l etwas zählbares hat sich fußball-landesligist fc einheit wernigerode für die auswärtspartie beim vfb ottersleben auf die fahnen geschrieben . 
+### Existing MWEs: 
+1- **auf fahnen geschrieben** (ID)
+## Sentence No. 695 - 
+so komme eine servicekomponente zum tragen . 
+### Existing MWEs: 
+1- **komme zum tragen** (ID)
+## Sentence No. 699 - 
+das projekt macht schule . 
+### Existing MWEs: 
+1- **macht schule** (ID)
+### Identified MWEs: 
+1- **macht schule** (ID)
+## Sentence No. 702 - 
+vor gericht ging es auch darum zu klären , ob die hündin stinkt . 
+### Existing MWEs: 
+1- **ging es darum** (ID)
+### Identified MWEs: 
+1- **es stinkt** (ID)
+2- **ging es stinkt** (ID)
+## Sentence No. 705 - 
+die beiden hätten plötzlich gemerkt , wie jemand von außen versucht habe , sich zugang zu dem wagen zu verschaffen . 
+### Existing MWEs: 
+1- **zugang verschaffen** (LVC)
+## Sentence No. 706 - 
+und da fielen dann in richtung vermeintliche täter auch sätze wie " dann bringt mir mal werkzeug mit ! 
+### Existing MWEs: 
+1- **fielen sätze** (LVC)
+### Identified MWEs: 
+1- **bringt mit** (VPC)
+## Sentence No. 708 - 
+foto © gepagerhard rodax simon römer vom tv rot-weiß bönen neuer kreismeister erfolge bei turnier in werne wir warten alle sehnsüchtig auf den frühling , damit es endlich richtig losgehen kann " , sagt matthies . 
+### Existing MWEs: 
+1- **losgehen** (VPC, 2)
+### Identified MWEs: 
+1- **losgehen** (VPC)
+## Sentence No. 711 - 
+sein neuer trainer karsten baumann freut sich bereits auf de wit : " mit pierre bekommen wir einen kreativen offensivspieler , einen sehr erfahrenen , guten zweitliga-spieler , der sein potenzial unter beweis gestellt hat " . 
+### Existing MWEs: 
+1- **unter beweis gestellt** (LVC, 1)
+### Identified MWEs: 
+1- **unter beweis gestellt** (ID)
+## Sentence No. 712 - 
+atomgespräche : frankreichs außenminister glaubt an einigung um straftaten zu verhindern , wurde der mann schließlich in gewahrsam genommen und konnte in einer polizeizelle seinen rausch ausschlafen . 
+### Existing MWEs: 
+1- **in gewahrsam genommen** (ID)
+## Sentence No. 713 - 
+tiefenbacher leitete in der predigt auf das festivalthema über , " feuer und flamme " , die pfingstbotschaft . 
+### Existing MWEs: 
+1- **leitete über** (VPC)
+## Sentence No. 715 - 
+eine zweite welle gebe es in der mittagszeit zwischen 12 und 13 uhr . 
+### Existing MWEs: 
+1- **gebe es** (ID, 69)
+### Identified MWEs: 
+1- **gebe es** (ID)
+## Sentence No. 718 - 
+ich denke , dass wir auf alle fälle das zeug haben , uns in der liga zu etablieren " , so hölter . 
+### Existing MWEs: 
+1- **das zeug haben** (ID)
+## Sentence No. 720 - 
+in russland lässt der kreml ausländische ngos durchsuchen , als handele es sich um agenten-schlupflöcher . 
+### Existing MWEs: 
+1- **handele sich um** (IReflV, 1)
+## Sentence No. 724 - 
+vier wochen nach seiner wahl zum präsidenten habe der ehrenvorsitzende des malergesangvereins , max heinritz , angerufen . 
+### Existing MWEs: 
+1- **angerufen** (VPC, 1)
+### Identified MWEs: 
+1- **angerufen** (VPC)
+## Sentence No. 730 - 
+acht tote bei feuer - sieben kinder sterben der weinheimer weg , so der ob weiter , müsse auch künftig fortgesetzt werden . 
+### Existing MWEs: 
+1- **fortgesetzt** (VPC, 2)
+### Identified MWEs: 
+1- **fortgesetzt** (VPC)
+## Sentence No. 735 - 
+wer weniger im kopf hat , ist besser im bett , an der nase eines mannes , erkennt man seinen johannes und so weiter . 
+### Existing MWEs: 
+1- **an der nase eines mannes erkennt man seinen johannes** (ID)
+## Sentence No. 737 - 
+sie nutzten ebenso wie die gruppen des freestyle dance clubs des tuspo rahden die chance , mit ihren choreographien und hämmernden beats weiteren tanzbegeisterten diesen sport schmackhaft zu machen . 
+### Existing MWEs: 
+1- **schmackhaft machen** (ID)
+## Sentence No. 740 - 
+man habe jetzt nur unbedingt notwendiges personal in libyen dann nämlich gibt es auf und um das gelände des freilichtmuseums ein großes event . 
+### Existing MWEs: 
+1- **gibt es** (ID, 69)
+### Identified MWEs: 
+1- **gibt event** (ID)
+## Sentence No. 748 - 
+noch deutlicher fiel für maren rösner ( tri-team schwarme , 1:11:19 stunde ) der erfolg bei den frauen aus . 
+### Existing MWEs: 
+1- **fiel aus** (VPC, 2)
+### Identified MWEs: 
+1- **fiel aus** (VPC)
+## Sentence No. 754 - 
+wie bringt der kriminaler menschen dazu , ihm die wahrheit zu sagen ? 
+### Existing MWEs: 
+1- **bringt dazu** (ID)
+### Identified MWEs: 
+1- **bringt sagen** (ID)
+## Sentence No. 756 - 
+in die fußstapfen bühlers wird isabella pintac treten . 
+### Existing MWEs: 
+1- **in fußstapfen treten** (ID)
+### Identified MWEs: 
+1- **treten** (IReflV)
+2- **pintac treten** (OTH)
+## Sentence No. 757 - 
+rottenburg : eine kleine hommage an die partnerstädte was den naturfreund in fasziniertes staunen versetzt , tut dem förster oder bauern in der seele weh . 
+### Existing MWEs: 
+1- **tut in seele weh** (ID)
+### Identified MWEs: 
+1- **tut weh** (VPC)
+## Sentence No. 759 - 
+doch jetzt hat sich ihr freund olivier martinez verplappert . 
+### Existing MWEs: 
+1- **sich verplappert** (IReflV)
+## Sentence No. 763 - 
+ob für so eine große halle überhaupt bedarf bestehe , überlegte johannes wiesbeck ( csu ) , " und welche meinung hat der schlosseigentümer , der im vorfeld ein belvedere bereits ablehnte und selbst veranstaltungen im schloss plant " . 
+### Existing MWEs: 
+1- **ablehnte** (VPC)
+## Sentence No. 765 - 
+land salzburg widerspricht ehemaliger finanzbeamtin erfurt - vertreter thüringer landtagsfraktionen haben sich für eine pflichtversicherung gegen hochwasserschäden in deutschland ausgesprochen . 
+### Existing MWEs: 
+1- **ausgesprochen** (VPC, 2)
+## Sentence No. 767 - 
+die entspanntere stimmung im kultusministerium und das größere zutrauen in die umsetzungskraft von andreas stoch hat sich aber nicht auf die aktuellen umfragezahlen niedergeschlagen . 
+### Existing MWEs: 
+1- **niedergeschlagen** (VPC)
+## Sentence No. 772 - 
+nach dem hinweis eines zeugen wurde am samstagnachmittag gegen 13 uhr eine 58-jährige pkw-führerin aus dem kreisgebiet auf der b 9 zwischen bingerbrück und trechtingshausen wegen verdachts auf fahren unter alkoholeinfluss von einer polizeistreife angehalten . 
+### Existing MWEs: 
+1- **angehalten** (VPC)
+## Sentence No. 777 - 
+das offizierskasino gehört geschlossen am samstag , 4. mai , könne der verein von der langjährigen erfahrung eines " alten hasen " sowohl als veranstalter als auch bei live-auftritten profitieren , hieß es . 
+### Existing MWEs: 
+1- **hieß es** (ID, 28)
+### Identified MWEs: 
+1- **hieß es** (ID)
+## Sentence No. 779 - 
+vodafone will für entstandenen schaden einstehen . 
+### Existing MWEs: 
+1- **einstehen** (VPC)
+## Sentence No. 780 - 
+die info-kampagne zur sperre habe funktioniert , die fahrgäste seien auf die nahe gelegenen u-bahn-stationen alser straße und thaliastraße beziehungsweise auf die straßenbahnlinie 5 ausgewichen . 
+### Existing MWEs: 
+1- **ausgewichen** (VPC)
+## Sentence No. 787 - 
+im rahmen der hauptversammlung gab oberschützenmeister peter bader mit unterstützung von schießleiter thomas günther bekannt , dass der verein das bogenschießen mit ins programm aufnehmen möchte . 
+### Existing MWEs: 
+1- **gab bekannt** (ID, 1)
+### Identified MWEs: 
+1- **gab bekannt** (ID)
+2- **aufnehmen** (VPC)
+## Sentence No. 788 - 
+mit neuen methoden können langzeitveränderungen in der landschaft nachgewiesen werden . 
+### Existing MWEs: 
+1- **nachgewiesen** (VPC, 1)
+### Identified MWEs: 
+1- **nachgewiesen** (VPC)
+## Sentence No. 792 - 
+lust auf die arbeit im bundestag hat der 59-jährige immer noch . 
+### Existing MWEs: 
+1- **lust hat** (ID)
+## Sentence No. 798 - 
+die svp habe wegen der jüngsten skandale stimmen eingebüßt , die unzufriedenheit der wähler sei groß . 
+### Existing MWEs: 
+1- **eingebüßt** (VPC, 1)
+### Identified MWEs: 
+1- **eingebüßt** (VPC)
+## Sentence No. 801 - 
+oft haben sie damit ja die finanzielle sicherheit aufgegeben . 
+### Existing MWEs: 
+1- **aufgegeben** (VPC, 4)
+### Identified MWEs: 
+1- **aufgegeben** (VPC)
+## Sentence No. 802 - 
+der " guardian " hatte sich in seinem bericht auf unterlagen der nepalesischen botschaft in katar berufen . 
+### Existing MWEs: 
+1- **sich auf berufen** (IReflV)
+## Sentence No. 804 - 
+dieser rückschlag bringt mich ins grübeln " . 
+### Existing MWEs: 
+1- **bringt ins grübeln** (ID)
+### Identified MWEs: 
+1- **bringt ins grübeln** (ID)
+## Sentence No. 814 - 
+akte von frauen sind in diesen klassikern der schwarz/weiß-fotografie ebenso häufig zu finden wie künstlerporträts oder ablichtungen von pflanzen . 
+### Existing MWEs: 
+1- **sind zu finden** (ID, 1)
+### Identified MWEs: 
+1- **sind zu finden** (ID)
+## Sentence No. 815 - 
+die formen skizziert stengel vage , dann lässt sie der phantasie freien lauf . 
+### Existing MWEs: 
+1- **lässt freien lauf** (ID)
+## Sentence No. 818 - 
+auf ein- und mehrfamilienhäusern wird der schwerpunkt bei der bebauung liegen . 
+### Existing MWEs: 
+1- **schwerpunkt liegen** (ID, 1)
+## Sentence No. 826 - 
+alle zwei jahre stellt die polizeiinspektion die aktuelle kriminal- und verkehrsunfallstatistik dem gemeinderat vor . 
+### Existing MWEs: 
+1- **stellt vor** (VPC, 7)
+### Identified MWEs: 
+1- **stellt vor** (VPC)
+## Sentence No. 830 - 
+das alles zehrte gehörig an den nerven . 
+### Existing MWEs: 
+1- **zehrte an nerven** (ID)
+## Sentence No. 833 - 
+allerdings hat die spd-fraktion jetzt die rolle rückwärts vorgeschlagen . 
+### Existing MWEs: 
+1- **vorgeschlagen** (VPC, 2)
+### Identified MWEs: 
+1- **vorgeschlagen** (VPC)
+## Sentence No. 835 - 
+der arbeitsgruppe erdgas- und erdölförderung im landkreis rotenburg gehören kreistagspolitiker an , vertreter von anti-fracking-bürgerinitiativen , städten und gemeinden sowie der vier trinkwasserversorger im landkreis . 
+### Existing MWEs: 
+1- **gehören an** (VPC, 4)
+### Identified MWEs: 
+1- **gehören an** (VPC)
+## Sentence No. 837 - 
+das laut lvr größte familienfest für menschen mit und ohne behinderung hat bislang bis auf wenige ausnahmen stets im xantener römerpark stattgefunden . 
+### Existing MWEs: 
+1- **stattgefunden** (VPC, 12)
+### Identified MWEs: 
+1- **stattgefunden** (VPC)
+## Sentence No. 839 - 
+" großväterchen geruhsam " nennt ihn inzwischen fast die ganze nation , weil der 58 jahre alte staatschef gegen wachsende schulden und arbeitslosigkeit , gegen rezession und verdruss außer ruhe bislang wenig aufzubieten vermochte . 
+### Existing MWEs: 
+1- **aufzubieten** (VPC)
+## Sentence No. 842 - 
+ein grund ist ein sehr menschlicher : arbeitet der schwager im örtlichen ams , ist die hemmschwelle höher , die eigene armut amtlich zu machen , gegenüber dem anonymen betreuer in der stadt niedriger . 
+### Existing MWEs: 
+1- **amtlich machen** (ID)
+## Sentence No. 845 - 
+eu-handelskommissar karel de gucht kündigte am dienstag an , ab donnerstag würden auf diese produkte zunächst zölle von im schnitt 11,8 prozent erhoben . 
+### Existing MWEs: 
+1- **kündigte an** (VPC, 7)
+### Identified MWEs: 
+1- **kündigte an** (VPC)
+## Sentence No. 849 - 
+schon bei einem ersten gerichtstermin im april vorigen jahres ließen sich die anklagevorwürfe jedoch in einer achtstündigen verhandlung nicht mit der für eine verurteilung ausreichenden sicherheit nachweisen . 
+### Existing MWEs: 
+1- **nachweisen** (VPC, 1)
+### Identified MWEs: 
+1- **nachweisen** (VPC)
+## Sentence No. 850 - 
+in niedersachsen gibt es im emseinzugsgebiet 8 und im wesereinzugsgebiet 269 wasserkraftanlagen , die abwandernde aale gefährden . 
+### Existing MWEs: 
+1- **gibt es** (ID, 69)
+### Identified MWEs: 
+1- **gibt es** (ID)
+## Sentence No. 851 - 
+gardelegen nutzte seine chancen und auch ein dreier kurz vor ultimo , bei zwei punkten rückstand , verfehlte sein ziel knapp . 
+### Existing MWEs: 
+1- **nutzte chancen** (LVC)
+## Sentence No. 854 - 
+naturfreibäder zuerst gab harry reid , der demokratische mehrheitsführer , seine zuversicht zu protokoll : " ich bin sehr optimistisch , dass wir eine einigung erzielen werden " , die sowohl den government shutdown beenden , das schuldenlimit erhöhen sowie längerfristige budgetverhandlungen eröffnen werde . 
+### Existing MWEs: 
+1- **gab zu protokoll** (ID)
+## Sentence No. 855 - 
+die mär , dass sich ordnungsämter nicht an hundehalter herantrauen , stimme nicht : 2012 gab es im bezirk 257 anzeigen wegen nicht angeleinter hunde . 
+### Existing MWEs: 
+1- **gab es** (ID, 69)
+### Identified MWEs: 
+1- **gab es** (ID)
+## Sentence No. 859 - 
+die untersuchungen in mantua laufen seit über zwei jahren . 
+### Existing MWEs: 
+1- **untersuchungen laufen** (LVC)
+## Sentence No. 862 - 
+fünf bands treten am freitag bei rock am schilf in leutkirch-nannenbach auf . 
+### Existing MWEs: 
+1- **treten auf** (VPC, 4)
+### Identified MWEs: 
+1- **treten auf** (VPC)
+## Sentence No. 863 - 
+wie die polizei mitteilt , hat ein bislang unbekannter täter die seitenscheibe eines in der saumstraße geparkten peugeot eingeschlagen . 
+### Existing MWEs: 
+1- **mitteilt** (VPC, 15)
+### Identified MWEs: 
+1- **mitteilt** (VPC)
+## Sentence No. 868 - 
+der 26-jährige aus deggendorf setzte sich mit 6:4 , 7:6 ( 7:5 ) gegen den Österreicher andreas haider-maurer durch . 
+### Existing MWEs: 
+1- **setzte durch** (VPC, 6)
+### Identified MWEs: 
+1- **setzte durch** (VPC)
+## Sentence No. 870 - 
+den max bahr-filialen im kreis droht das aus . 
+### Existing MWEs: 
+1- **droht das aus** (ID)
+## Sentence No. 874 - 
+damit verteidigte Òsullivan am montag seinen im vorjahr errungenen titel . 
+### Existing MWEs: 
+1- **verteidigte titel** (ID)
+## Sentence No. 881 - 
+die rede ist von gavrilo princip . 
+### Existing MWEs: 
+1- **die rede ist von** (ID)
+## Sentence No. 884 - 
+als beispiel sind fahrten angeführt , die für die beseitigung von gefahrenquellen oder für präparierungsarbeiten zur sicherheit der skifahrer notwendig sind . 
+### Existing MWEs: 
+1- **angeführt** (VPC, 1)
+### Identified MWEs: 
+1- **angeführt** (VPC)
+## Sentence No. 890 - 
+es gibt aber durchaus andere angriffspunkte . 
+### Existing MWEs: 
+1- **es gibt** (ID, 37)
+### Identified MWEs: 
+1- **es gibt** (ID)
+## Sentence No. 891 - 
+dokumenten information copyright © wiener zeitung online 2013 dokument erstellt am 2013-11-07 18:08:06 viel wert legen die planer auch auf einen offen gestalteten eingangs- und treppenhausbereich , um begegnung und kommunikation zwischen den mitarbeitern zu fördern . 
+### Existing MWEs: 
+1- **wert legen** (ID, 1)
+## Sentence No. 898 - 
+risse in den rohren : aquawelt im maximare hamm bleibt geschlossen das räumt auch bürgermeister harald seidl ( sp ) ein . 
+### Existing MWEs: 
+1- **räumt ein** (VPC, 2)
+## Sentence No. 902 - 
+damit nicht genug : im rahmen der veranstaltung erfolgt die auslosung der zweiten runde und ehrenamts-beauftragte ingrid wernher ( sv teutonia köppern ) wird im siegerland verdiente funktionäre auszeichnen . 
+### Existing MWEs: 
+1- **auszeichnen** (VPC, 1)
+### Identified MWEs: 
+1- **auszeichnen** (VPC)
+## Sentence No. 905 - 
+allein gegen ein unternehmen sei 2011 eine geldstrafe von 1,4 millionen euro verhängt worden . 
+### Existing MWEs: 
+1- **geldstrafe verhängt** (LVC)
+## Sentence No. 907 - 
+ausgestattet mit pinzetten , becherlupen und sieben , die als " fangnetz " dienten , machten sich die nachwuchswissenschaftler eifrig ans werk . 
+### Existing MWEs: 
+1- **machten ans werk** (ID)
+### Identified MWEs: 
+1- **ausgestattet** (VPC)
+## Sentence No. 908 - 
+weder gibt es eine lösung mit feuring . 
+### Existing MWEs: 
+1- **gibt es** (ID, 69)
+### Identified MWEs: 
+1- **gibt es** (ID)
+## Sentence No. 911 - 
+das ehepaar , umgeben von einem verwunschenen , mediterranen garten mit prächtigem oleander , alten bäumen und auratischem gemäuer , gibt sich unsentimental . 
+### Existing MWEs: 
+1- **gibt sich** (IReflV, 1)
+## Sentence No. 917 - 
+der trend zur open innovation liegt überhaupt in der luft , scheint es . 
+### Existing MWEs: 
+1- **liegt in der luft** (ID)
+## Sentence No. 918 - 
+doch die aufführung und das sommerfest musste der gesangverein absagen . 
+### Existing MWEs: 
+1- **absagen** (VPC, 2)
+### Identified MWEs: 
+1- **absagen** (VPC)
+## Sentence No. 919 - 
+hinzu komme , dass viele der helfer erst von ihren arbeitgebern für den einsatz freigestellt werden mussten . 
+### Existing MWEs: 
+1- **freigestellt** (VPC)
+### Identified MWEs: 
+1- **hinzu komme** (OTH)
+## Sentence No. 921 - 
+weil im schönbuch : heiße asche hat am montag in weil im schönbuch ( kreis böblingen ) einen schwelbrand ausgelöst . 
+### Existing MWEs: 
+1- **ausgelöst** (VPC, 7)
+### Identified MWEs: 
+1- **ausgelöst** (VPC)
+## Sentence No. 924 - 
+doch die ilvesheimer ließen nichts anbrennen und trafen nach dem 4:0 ( 72. ) zum 5:0 ( 88. ) . 
+### Existing MWEs: 
+1- **ließen anbrennen** (ID)
+## Sentence No. 925 - 
+ein passender zeitpunkt , steckt doch die freiwillige feuerwehr güstrow mitten in der vorbereitung auf ihren 145 . 
+### Existing MWEs: 
+1- **steckt in vorbereitung** (LVC)
+## Sentence No. 926 - 
+auf die fundtierentwicklung ging ralf pamplun ein . 
+### Existing MWEs: 
+1- **ging ein** (VPC, 5)
+### Identified MWEs: 
+1- **ging ein** (VPC)
+## Sentence No. 927 - 
+für ihn sei klar gewesen , dass ein solches geschäft von einer stadt nicht abgeschlossen werden könne . 
+### Existing MWEs: 
+1- **abgeschlossen** (VPC, 9)
+### Identified MWEs: 
+1- **abgeschlossen** (VPC)
+## Sentence No. 928 - 
+einziger lichtblick scheint für sie der kommende abschlussball zu sein . 
+### Existing MWEs: 
+1- **lichtblick sein** (ID)
+## Sentence No. 934 - 
+ein wiedereinstieg als arzthelferin in darmstadt wäre in diesem zeitraum schwierig zu organisieren , sagt katja hartmann : " wenn mal was ist im kindergarten , müsste ich von darmstadt nach brandau fahren - welcher arbeitgeber macht das mit ? " 
+### Existing MWEs: 
+1- **macht mit** (VPC)
+## Sentence No. 937 - 
+als ausblick berichtete peter ludwig über das vorhaben , einen jahreskalender herauszugeben , wenn möglich , schon im nächsten jahr . 
+### Existing MWEs: 
+1- **herauszugeben** (VPC)
+## Sentence No. 952 - 
+" wer am mittwochnachmittag um 15 uhr startet , steht mit sicherheit irgendwann irgendwo im stau , denn zum normalen pendel- und berufsverkehr kommen dann noch die ausflügler hinzu " , erklärt saalmann . 
+### Existing MWEs: 
+1- **steht im stau** (ID)
+## Sentence No. 955 - 
+sowohl die 22 jahre alte mutter als auch der 29 jahre alte vater nahmen dazu nach der verlesung der anklage keine stellung . 
+### Existing MWEs: 
+1- **nahmen stellung** (ID)
+## Sentence No. 957 - 
+ein auf dem balkon abgestellter schrank wurde stark beschädigt . 
+### Existing MWEs: 
+1- **abgestellter** (VPC)
+## Sentence No. 958 - 
+heutzutage , nach einem zwanzigsten jahrhundert mit lagern , zig millionen toten und der größten umwelt- und kulturzerstörung aller zeiten , erscheint es rätselhaft , wie leute auf die idee kommen konnten , kommunist zu werden . 
+### Existing MWEs: 
+1- **auf idee kommen** (ID, 2)
+### Identified MWEs: 
+1- **auf idee kommen** (ID)
+## Sentence No. 959 - 
+maßnahmen zur selbsthilfe , die über das vergrämen der ringelgänse hinausgehen , stießen bei den gästen aus kiel nicht auf gegenliebe . 
+### Existing MWEs: 
+1- **stießen auf gegenliebe** (LVC)
+## Sentence No. 969 - 
+arbeitslosenrekord in griechenland das ordnungsamt der samtgemeinde nehme den fall sehr ernst . 
+### Existing MWEs: 
+1- **nehme ernst** (ID)
+## Sentence No. 970 - 
+ob anklage erhoben wird , ist bislang unklar . 
+### Existing MWEs: 
+1- **anklage erhoben** (LVC)
+## Sentence No. 972 - 
+foto : miguel angel molina vor etwa vier jahren stieg die linzerin von einer gasheizung auf fernwärme um . 
+### Existing MWEs: 
+1- **stieg um** (VPC)
+## Sentence No. 974 - 
+autor : dpa / tok das hat vor allem zwei positionen in meinem depot gut getan : apple ( nasdaqgs : aapl - nachrichten ) und facebook ( nasdaqgs : fb - nachrichten ) legten deutlich zu . 
+### Existing MWEs: 
+1- **legten zu** (VPC, 3)
+### Identified MWEs: 
+1- **legten zu** (VPC)
+## Sentence No. 976 - 
+falkensee - schon 1923 nimmt hermann hesse im " steppenwolf " das , was da kommt , vorweg : gustav und harry schießen gemeinsam autos von der straße . 
+### Existing MWEs: 
+1- **nimmt vorweg** (VPC)
+### Identified MWEs: 
+1- **gustav** (IReflV)
+2- **1923 gustav** (OTH)
+## Sentence No. 977 - 
+offen lässt er in diesem text aber , wann und zu welcher uhrzeit dieser platz für bürger geöffnet wird . 
+### Existing MWEs: 
+1- **offen lässt** (ID)
+## Sentence No. 978 - 
+der töpferkurs bot seine schönsten arbeiten zum verkauf an , und in einem abgedunkelten teil des flures wurde ein eindrucksvolles schwarzlichttheater gezeigt . 
+### Existing MWEs: 
+1- **bot an** (VPC, 8)
+## Sentence No. 988 - 
+soweit ist es in der nacht zu freitag gottlob nicht gekommen . 
+### Existing MWEs: 
+1- **soweit gekommen** (ID)
+## Sentence No. 989 - 
+" nun folgt das kürzeste lied , das ich kenne " , kündigte die chorleiterin die bearbeitung eines textes von joachim ringelnatz an : " im park " mit gerade mal takten . 
+### Existing MWEs: 
+1- **kündigte an** (VPC, 7)
+## Sentence No. 993 - 
+seit einigen jahren bietet die grundschule owschlag diese sanfte form der eingewöhnung an . 
+### Existing MWEs: 
+1- **bietet an** (VPC, 8)
+### Identified MWEs: 
+1- **bietet an** (VPC)
+## Sentence No. 998 - 
+nächster nackenschlag für den vfb stuttgart , europäische nächte für eintracht frankfurt : während die schwaben beim debüt von trainer thomas schneider international patzten und durch ein bitteres 2:2 ( 1:1 ) gegen hnk rijeka die gruppenphase der europa leage verpassten , ließ die eintracht nichts mehr anbrennen . 
+### Existing MWEs: 
+1- **ließ anbrennen** (ID)
+### Identified MWEs: 
+1- **debüt hnk** (LVC)
+## Sentence No. 999 - 
+erwartet werden die saw-party und zahlreiche feuerwehren , die an einem umzug teilnehmen wollen . 
+### Existing MWEs: 
+1- **teilnehmen** (VPC, 4)
+### Identified MWEs: 
+1- **teilnehmen** (VPC)
+## Sentence No. 1001 - 
+wien - " jede neue sicht löst eine revolution aus " , schrieb alexander rodtschenko 1920 . 
+### Existing MWEs: 
+1- **löst aus** (VPC, 3)
+### Identified MWEs: 
+1- **löst aus** (VPC)
+## Sentence No. 1002 - 
+er gilt als russischer mark zuckerberg : der gründer des russischen pendants zu facebook , pawel durow , hat dem whistleblower edward snowden ein job-angebot gemacht . 
+### Existing MWEs: 
+1- **job-angebot gemacht** (LVC)
+## Sentence No. 1004 - 
+ist ein wechsel zu einem anderen klub ein thema ? 
+### Existing MWEs: 
+1- **ist thema** (ID)
+## Sentence No. 1006 - 
+" ein blick in die gesichter von läufern nach einem langstreckenlauf zeigt , dass sie bis an die grenzen ihrer leistungsfähigkeit gehen " , so molling . 
+### Existing MWEs: 
+1- **an grenzen gehen** (ID)
+## Sentence No. 1009 - 
+11.56 uhr : ein paar nazis stehen in grüppchen vor und im hbf. gestartet war das dreitägige fest mit der frühjahrsprobe : alle drei abteilungswehren aus klengen , kirchdorf und Überauchen waren im einsatz . 
+### Existing MWEs: 
+1- **waren im einsatz** (ID)
+## Sentence No. 1014 - 
+mit der verurteilung zu 20 jahren gefängnis entsprach das gericht der forderung der staatsanwaltschaft . 
+### Existing MWEs: 
+1- **entsprach forderung** (LVC)
+## Sentence No. 1015 - 
+dsds-star luca hänni gibt morgen ein kleines konzert . 
+### Existing MWEs: 
+1- **gibt konzert** (LVC, 1)
+## Sentence No. 1020 - 
+louis ( 17 ) und mehmet ( 19 ) ließen sich ebenfalls von x-ray ansprechen . 
+### Existing MWEs: 
+1- **ansprechen** (VPC)
+## Sentence No. 1022 - 
+das komme für die soul shaker nicht in frage . 
+### Existing MWEs: 
+1- **komme in frage** (ID)
+### Identified MWEs: 
+1- **komme in frage** (ID)
+## Sentence No. 1025 - 
+nach der pause machten die gastgeber weiter viel druck und drängten auf den ausgleich . 
+### Existing MWEs: 
+1- **machten druck** (ID, 2)
+### Identified MWEs: 
+1- **machten druck** (ID)
+## Sentence No. 1029 - 
+nicht zuletzt stünden rechtliche bewertungen aus . 
+### Existing MWEs: 
+1- **stünden aus** (VPC)
+## Sentence No. 1031 - 
+die wechselbereitschaft deutet sich auch in den stimmungsbildern an , also den ungefilterten antworten auf die " sonntagsfrage " : wen wählen sie , wenn am kommenden sonntag schon wahl wäre ? 
+### Existing MWEs: 
+1- **deutet an** (VPC, 3)
+## Sentence No. 1036 - 
+allerdings läutete vielleicht bereits der kurzzeitige 17:18-rückstand im zweiten satz jenen nie erklärlichen schlendrian ein , für den der svs berühmt-berüchtigt ist . 
+### Existing MWEs: 
+1- **läutete ein** (VPC)
+## Sentence No. 1044 - 
+poetisch , prosaisch und musikalisch stellte sie die klassischen rebsorten vor . 
+### Existing MWEs: 
+1- **stellte vor** (VPC, 7)
+### Identified MWEs: 
+1- **stellte vor** (VPC)
+## Sentence No. 1048 - 
+fahrbahnsanierungen stehen auf dem plan . 
+### Existing MWEs: 
+1- **stehen auf plan** (ID, 1)
+### Identified MWEs: 
+1- **stehen auf plan** (ID)
+## Sentence No. 1049 - 
+erdogan liegt in wichtigen politischen fragen - zuletzt ging es um den sturz des ägyptischen präsidenten mohammed mursi - mit fast allen regierungen der region und arabischen monarchien im zwist . 
+### Existing MWEs: 
+1- **liegt im zwist** (ID)
+### Identified MWEs: 
+1- **ging monarchien** (ID)
+## Sentence No. 1050 - 
+hugh jackman wird zum hulk fc bargau : maier - hauss ( 60. frank ) , unfried ( 90. vogel ) , neumann , balci , voitk , klotzbücher ( 46. zoidl ) , kreutter , kübler ( 87. rupp ) , frey ( 77. nickel ) , hegele tore : 1:0 klotzbücher ( 26. ) , 1:1 kaiser ( 43. ) , 2:1 hegele ( 48. ) kölnische rundschau - tierschutzverein sagt treffen ab wir konnten bei einem ersten check nach dem vorfall aber keinen fehler finden " , sagte oberstaatsanwalt heribert beck auf nachfrage der nachrichtenagentur dpa . 
+### Existing MWEs: 
+1- **sagt ab** (VPC)
+### Identified MWEs: 
+1- **voitk** (IReflV)
+2- **balci voitk** (OTH)
+## Sentence No. 1053 - 
+vom 12. bis 21. juli findet die kirmes auf den rheinwiesen statt . 
+### Existing MWEs: 
+1- **findet statt** (VPC, 19)
+### Identified MWEs: 
+1- **findet statt** (VPC)
+## Sentence No. 1055 - 
+kommunikation , kooperation , marketing und Öffentlichkeitsarbeit die seit 2009 verheiratete "glamorous"-sängerin und der "transformers"-star hatten die schwangerschaft mitte februar bekanntgegeben . 
+### Existing MWEs: 
+1- **bekanntgegeben** (VPC)
+## Sentence No. 1062 - 
+06.06.2013 00:00 uhr , feuilleton einzelne bauern haben die neuen geräte schon angeschafft oder bestellt . 
+### Existing MWEs: 
+1- **angeschafft** (VPC)
+## Sentence No. 1065 - 
+eine frau aus dem osten wäre prima , heißt es in brüssel . 
+### Existing MWEs: 
+1- **heißt es** (ID, 28)
 ### Identified MWEs: 
 1- **heißt es** (ID)
-## Sentence No. 6230 - 
-klar , einer wie stellbrink hat leicht reden , wohnt in einer ausrangierten wetterstation , hisst jeden morgen die versiffte unterhose am fahnenmast und spazierte auf der jagd nach einer klobürste mit grenzdebilem kiffergrinsen und riesen-kopfhörern über den ohrmuscheln durch den baumarkt . 
+## Sentence No. 1074 - 
+er sei erstmals in bedrängnis geraten , als eine beerdigung anstand , die urne aber noch im krematorium war . 
 ### Existing MWEs: 
-1- **hat leicht reden** (ID)
-## Sentence No. 6245 - 
-nach angaben der 48-jährigen , stand der rollerfahrer möglicherweise unter alkoholeinfluss . 
-### Existing MWEs: 
-1- **stand unter alkoholeinfluss** (ID, 1)
+1- **anstand** (VPC, 1)
 ### Identified MWEs: 
-1- **stand unter alkoholeinfluss** (ID)
-## Sentence No. 6250 - 
-in dem troika-bericht heißt es außerdem , zypern habe sich mit russland auf erleichterungen bei einem russischen kredit von 2,5 milliarden euro aus dem jahr 2011 geeinigt . 
+1- **anstand** (VPC)
+## Sentence No. 1075 - 
+dann rückte der schützenmeister den schützenthron ins rampenlicht . 
 ### Existing MWEs: 
-1- **heißt es** (ID, 18)
+1- **rückte ins rampenlicht** (ID)
+## Sentence No. 1077 - 
+" ich bin wahnsinnig stolz " , sagt larsen im b.z.-gespräch , " meine familie ist auch stolz - und die kollegen sehen das , glaub ich , auch mit wohlwollen " . 
+### Existing MWEs: 
+1- **sehen mit wohlwollen** (ID)
+## Sentence No. 1079 - 
+letzteres ist bekanntlich ausgelaufen . 
+### Existing MWEs: 
+1- **ausgelaufen** (VPC, 1)
 ### Identified MWEs: 
-1- **heißt es** (ID)
+1- **ausgelaufen** (VPC)
+## Sentence No. 1080 - 
+so geschehen in eibenstock : hier hielt die polizei vier männer an , die in einem pool auf vier rädern durch die gegend fuhren . 
+### Existing MWEs: 
+1- **hielt an** (VPC, 1)
+### Identified MWEs: 
+1- **hielt an** (VPC)
+## Sentence No. 1085 - 
+eine kostprobe geben die vier jungen musiker heute abend gegen 21 uhr auf dem stadtfest ( siehe auch lokalseite 5 ) . 
+### Existing MWEs: 
+1- **kostprobe geben** (ID)
+## Sentence No. 1090 - 
+da herrscht panik auf den straßen von münchen , manche frauen sind dicker als andere und der alltag ist wie sonntag . 
+### Existing MWEs: 
+1- **herrscht panik** (LVC)
+## Sentence No. 1094 - 
+" innenbanddehnung " lautet die vorläufige diagnose . 
+### Existing MWEs: 
+1- **lautet diagnose** (LVC)
+## Sentence No. 1098 - 
+aberhunderte solcher wunderberichte wurden von den geistlichen aufgeschrieben - zum beispiel im " new mirackel- unnd gnaden büchlein zu eberhardts-clausen ". avi der plan des investors sieht vor , auf einem 15 hektar großen areal ein stadion für rund 10 000 zuschauer zu errichten . 
+### Existing MWEs: 
+1- **sieht vor** (VPC, 3)
+### Identified MWEs: 
+1- **sieht vor** (VPC)
+## Sentence No. 1100 - 
+die kölner straße ist nun wieder als alltagsroute ausgeschildert . 
+### Existing MWEs: 
+1- **ausgeschildert** (VPC, 1)
+### Identified MWEs: 
+1- **ausgeschildert** (VPC)
+## Sentence No. 1101 - 
+tschechien droht schwierige regierungsbildung - nachrichtenüberblick der schwäbischen zeitung - schwaebische. de was will man erwarten , wenn man sich selbst zum verkauf anbietet . 
+### Existing MWEs: 
+1- **anbietet** (VPC, 15)
+### Identified MWEs: 
+1- **anbietet** (VPC)
+## Sentence No. 1103 - 
+in kollerbeck gewann der gast klar und verdient , doch die letzten beiden partien gingen mit insgesamt zehn gegentoren verloren . 
+### Existing MWEs: 
+1- **gingen verloren** (ID)
+## Sentence No. 1105 - 
+auch der chef der solarenergiefirma solarworld , frank asbeck , scheint das geschäft nicht wirklich infrage zu stellen . 
+### Existing MWEs: 
+1- **infrage stellen** (ID, 1)
+### Identified MWEs: 
+1- **infrage stellen** (ID)
+## Sentence No. 1107 - 
+viele blicke zog auch der weiße chevro­let gmc biscayne ( baujahr 1960 ) von otto eckl und helge schenk aus hof auf sich . 
+### Existing MWEs: 
+1- **blicke zog auf sich** (ID)
+### Identified MWEs: 
+1- **gmc** (IReflV)
+2- **zog gmc** (OTH)
+## Sentence No. 1110 - 
+ob es genützt hat , lässt sich schwer sagen . 
+### Existing MWEs: 
+1- **lässt sich schwer sagen** (ID)
+## Sentence No. 1114 - 
+nach kicker-informationen lehnte jim solbakken , der berater des senegalesen , ein angebot des vereins ab , vorzeitig den 2014 endenden vertrag zu verlängern . 
+### Existing MWEs: 
+1- **lehnte ab** (VPC, 3)
+## Sentence No. 1122 - 
+maximales tempo : so schnell die stummelbeinchen es zulassen , also sagen wir mal 5 km/h. . 
+### Existing MWEs: 
+1- **zulassen** (VPC, 3)
+### Identified MWEs: 
+1- **zulassen** (VPC)
+## Sentence No. 1124 - 
+gastronomie sei nicht vorgesehen , sagte holger kohls . 
+### Existing MWEs: 
+1- **vorgesehen** (VPC, 2)
+### Identified MWEs: 
+1- **vorgesehen** (VPC)
+## Sentence No. 1129 - 
+viel steht für den tus 05 sinsen am wochenende auf dem spiel . 
+### Existing MWEs: 
+1- **steht auf spiel** (ID)
+### Identified MWEs: 
+1- **steht auf dem spiel** (ID)
+## Sentence No. 1137 - 
+die arbeitslosenquote auf basis aller zivilen erwerbspersonen betrug im august 7,3 prozent ; vor einem jahr belief sie sich auf 7,7 prozent. zuletzt aktualisiert : 06.11.2013 - 06:59 auch die beiden schulvertretungen helga jarosch , schulaufsicht , und erhard kusch , sprecher der berufskollegs , erkennen die problematik : " wir müssen zurückkehren zu den drei große r : klare rollen , regeln , rituale " . 
+### Existing MWEs: 
+1- **belief sich auf** (IReflV)
+### Identified MWEs: 
+1- **zurückkehren** (VPC)
+## Sentence No. 1139 - 
+nachfragen betrafen die tatsache , dass günstigere angebote als das der firma ostertag vorlagen . 
+### Existing MWEs: 
+1- **vorlagen** (VPC)
+## Sentence No. 1146 - 
+petsche nennt auch eine untersuchung , wonach mobiltelefone das heutige leben wesentlich weniger verändert hätten als bislang angenommen . 
+### Existing MWEs: 
+1- **angenommen** (VPC, 2)
+### Identified MWEs: 
+1- **angenommen** (VPC)
+## Sentence No. 1147 - 
+sie darf aber nicht dauerhaft auf kosten von regulären arbeitsplätzen eingesetzt werden . 
+### Existing MWEs: 
+1- **eingesetzt** (VPC, 13)
+### Identified MWEs: 
+1- **eingesetzt** (VPC)
+## Sentence No. 1148 - 
+demnächst geht sie mit ihrer band " prag " auf tour , die im januar ihr erstes album veröffentlichte . 
+### Existing MWEs: 
+1- **geht auf tour** (ID, 1)
+### Identified MWEs: 
+1- **geht auf tour** (ID)
+## Sentence No. 1151 - 
+die regierung des südasiatischen landes schickte 5000 tonnen reis in das küstengebiet und stellte umgerechnet 10 millionen euro für den wiederaufbau zur verfügung . 
+### Existing MWEs: 
+1- **stellte zur verfügung** (ID)
+### Identified MWEs: 
+1- **stellte zur verfügung** (ID)
+2- **schickte stellte zur verfügung** (ID)
+## Sentence No. 1159 - 
+zuletzt aktualisiert : 11.10.2013 um 21:36 uhr eine kurze , fatale begegnung mit luke - die einzige gemeinsame szene von gosling und cooper hat es in sich - macht avery zur öffentlichen person und schubst ihn in eine politkarriere , über die er seine familie vernachlässigt . 
+### Existing MWEs: 
+1- **hat es in sich** (ID)
+## Sentence No. 1162 - 
+der stellvertretende cdu-bundesvorsitzende armin laschet hat die bundesländer aufgefordert , auf den geplanten npd-verbotsantrag zu verzichten . 
+### Existing MWEs: 
+1- **aufgefordert** (VPC)
+## Sentence No. 1167 - 
+landes- und bundesverband sollen mehr geld für werbeprämien locker machen . 
+### Existing MWEs: 
+1- **geld locker machen** (ID)
+## Sentence No. 1177 - 
+und es sollte nicht sein , dass der staat bürger unter arrest stellt . 
+### Existing MWEs: 
+1- **unter arrest stellt** (LVC)
+## Sentence No. 1178 - 
+außerdem gebe es für die unterschiedlichen flächenarten faktoren , die zu ermäßigten gebühren führten . 
+### Existing MWEs: 
+1- **gebe es** (ID, 69)
+### Identified MWEs: 
+1- **gebe es** (ID)
+## Sentence No. 1180 - 
+je länger der schaumwein auf der hefe lagert , desto mehr verleihen ihm enzyme , wenn sie die abgestorbenen hefezellen zersetzen , seinen typisch hefigen und nussigen geschmack . 
+### Existing MWEs: 
+1- **verleihen geschmack** (ID)
+## Sentence No. 1183 - 
+der rat der experten : wer von einem hai angegriffen wird , sollte nicht zögern : schlagen sie den hai sofort auf die nase , am besten mit einem harten gegenstand . 
+### Existing MWEs: 
+1- **angegriffen** (VPC, 3)
+### Identified MWEs: 
+1- **angegriffen** (VPC)
+## Sentence No. 1192 - 
+die vereine seien rundum zufrieden , auswärtige besucher des lobes voll gewesen . 
+### Existing MWEs: 
+1- **des lobes voll gewesen** (ID)
+## Sentence No. 1196 - 
+das sechste fußballturnier der gemeinden mengerskirchen und merenberg / waldbrunn findet von 15 bis 18.30 uhr auf dem kunstrasenplatz in merenberg statt . 
+### Existing MWEs: 
+1- **findet statt** (VPC, 19)
+### Identified MWEs: 
+1- **findet statt** (VPC)
+## Sentence No. 1200 - 
+mit dem active tourer präsentiert bmw in genf ein weiteres plug-in-hybrid-konzept , dessen premiere allerdings noch auf sich warten lassen dürfte . 
+### Existing MWEs: 
+1- **auf sich warten lassen** (ID)
+## Sentence No. 1202 - 
+das wird irgendwie gehen außerdem sind tagesausflüge geplant , und der ortsverband bietet auch schwimmkurse an . 
+### Existing MWEs: 
+1- **bietet an** (VPC, 8)
+### Identified MWEs: 
+1- **gehen geplant** (ID)
+2- **bietet an** (VPC)
+## Sentence No. 1205 - 
+mit gastreferaten melden sich kanzler faymann bei der fsg und vizekanzler spindelegger bei der fcg zu wort . 
+### Existing MWEs: 
+1- **melden sich zu wort** (ID, 2)
+## Sentence No. 1206 - 
+stattfinden soll das ganze voraussichtlich am truppenübungsplatz allentsteig in niederösterreich . 
+### Existing MWEs: 
+1- **stattfinden** (VPC, 12)
+### Identified MWEs: 
+1- **stattfinden** (VPC)
+## Sentence No. 1210 - 
+dem ex-verbandsligisten blau-weiß wesselburen traut man in wilster einiges zu . 
+### Existing MWEs: 
+1- **traut zu** (VPC)
+## Sentence No. 1218 - 
+die eingefangenen augenblicke stellen nicht nur eine farbenfrohe chronik des geschehens am festwochenende dar , sondern verewigen haunetaler gegenwart in gedruckter form . 
+### Existing MWEs: 
+1- **stellen dar** (VPC, 1)
+## Sentence No. 1222 - 
+der nordrhein-westfälische wirtschaftsminister garrelt duin ( spd ) , äußerlich ebenfalls eine verkörperung höchster seriosität , sah in die gefahr , dass in so einem fall aus angst keine mutigen entscheidungen mehr getroffen würden , volker kauder , der vorsitzende der cdu/csu-bundestagsfraktion , kam mit beispielen aus seiner eigenen verwaltungs-erfahrung in schwung ( " wie sie's machen , ist es nicht recht ! " 
+### Existing MWEs: 
+1- **kam in schwung** (ID)
+## Sentence No. 1227 - 
+eckhard röschmann , der bisherige bauausschussvorsitzende , ist auch nicht mehr dabei - die fdp war bei der kommunalwahl nicht angetreten . 
+### Existing MWEs: 
+1- **angetreten** (VPC)
+## Sentence No. 1238 - 
+mysteriöser koffer : jetzt foto-fahndung - home - bild. de bisher können vermieter den mietern bis zu zwei monatsmieten in rechnung stellen , wenn sie einen makler engagieren . 
+### Existing MWEs: 
+1- **in rechnung stellen** (LVC, 1)
+### Identified MWEs: 
+1- **in rechnung stellen** (ID)

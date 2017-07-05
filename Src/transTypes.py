@@ -96,4 +96,5 @@ class MWTTransitionType(Enum):
     MERGE_AS_MWT_IREFLV = 21
     MERGE_AS_MWT_ID = 22
     MERGE_AS_MWT_LVC = 23
+    MERGE_AS_MWT_OTH = 24
 

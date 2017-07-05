@@ -16,7 +16,7 @@ def identify():
         if not configFile.endswith('.json'):
             continue
         corpus = Corpus(configFile[:2])
-        reports.getEmbeddedSents(corpus)
+        # reports.getEmbeddedSents(corpus)
         FeatParams(os.path.join(constantConfigFolder, configFile), corpus=corpus)
         if XPParams.useCrossValidation:
             scores = [0] * 12
@@ -44,6 +44,26 @@ def identifyCorpus(corpus):
     clf = Oracle.train(corpus)
     Parser.parse(corpus, clf)
     scores = Evaluation.evaluate(corpus)
+    # report = ''
+    # for sent in corpus.testingSents:
+    #     if sent.identifiedVMWEs:
+    #         for vmwe1 in sent.identifiedVMWEs:
+    #            if len(vmwe1.tokens) == 1:
+    #                exist = False
+    #                for vmwe2 in sent.vMWEs:
+    #                    if vmwe1 == vmwe2:
+    #                        exist = True
+    #                if not exist:
+    #                    report += '#' + vmwe1.getLemmaString() + '\n\n' + '##Training dataset:'+ '\n\n'
+    #                    if vmwe1.getLemmaString() in Corpus.mwtDictionaryWithSent and Corpus.mwtDictionaryWithSent[vmwe1.getLemmaString()] is not None :
+    #                        for sent1 in Corpus.mwtDictionaryWithSent[vmwe1.getLemmaString()]:
+    #                            report += str(sent1) + '\n\n'
+    #                        report += '##Testing dataset:'+ '\n\n' + str(sent)
+    # path = os.path.join(Paths.rootResultFolder, 'DE-MWT-annotation issues.md')
+    # with open(path, 'a') as f:
+    #     f.write(report)
+
+
     return scores
 
 def identifyCorpusWithIterations(corpus):
@@ -58,8 +78,7 @@ def identifyCorpusWithIterations(corpus):
         Parser.parse(corpus, clf)
         scores = Evaluation.evaluate(corpus)
         reports.editTotalReadMe(scores, corpus)
-        report = ''
-        report2 = ''
+        report, report2 = '', ''
         for sent in corpus.testingSents:
             if len(sent.vMWEs) > 0:
                 report += str(sent)
@@ -77,6 +96,8 @@ def identifyCorpusWithIterations(corpus):
 reload(sys)
 sys.setdefaultencoding('utf8')
 logging.basicConfig(level=logging.WARNING)
+
+XPParams.realExper = True
 
 identify()
 
@@ -103,3 +124,28 @@ identify()
 # XPParams.useDynamicOracle= True
 # identify()
 #
+
+
+
+
+# corpus.update()
+# print len(corpus.trainingSents)
+# print len(corpus.testingSents)
+# newvmweNum, vmweNum = 0, 0
+# print corpus.mweNum
+# newDic, newDicTotal = {}, {}
+# for sent in corpus.testingSents:
+#     for vmwe in sent.vMWEs:
+#         vmweNum += 1
+#         newDicTotal[vmwe.getLemmaString()] = 1
+#         if vmwe.getLemmaString() not in Corpus.mweDictionary:
+#             newvmweNum += 1
+#             if vmwe.getLemmaString() in newDic:
+#                 newDic[vmwe.getLemmaString()] += 1
+#             else:
+#                 newDic[vmwe.getLemmaString()] = 0
+# print float(newvmweNum) / vmweNum
+# print len(newDic)
+# print len(newDicTotal)
+
+

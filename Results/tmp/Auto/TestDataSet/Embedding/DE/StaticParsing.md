@@ -20,6 +20,15 @@ kanzlerin merkel zu privataudienz bei papst franziskus konkret **geht** es **dar
 
 4- **einfluss nehmen** (LVC)
 
+## Sentence No. 265 - 
+konkrete werbemaßnahmen habe das objekt 21 nicht **durchgeführt** , " flugblätter oder sowas haben keine sau interessiert " - jedoch habe man öfters sms verschickt oder bekannte **angerufen** , um sie zu den liederabenden **einzuladen** . 
+### Existing MWEs: 
+1- **durchgeführt** (VPC)
+
+2- **angerufen** (VPC)
+
+3- **einzuladen** (VPC)
+
 ## Sentence No. 596 - 
 ihre **hoffnung** **schöpfen** sie aus dem fall der 20-jährigen jutta schenk in rosenberg bei aalen , die ähnliche symptome **aufwies** und deren zustand **sich** stark **gebessert** hat . 
 ### Existing MWEs: 
@@ -37,13 +46,4 @@ ihre **hoffnung** **schöpfen** sie aus dem fall der 20-jährigen jutta schenk i
 2- **steine von schultern genommen** (ID)
 
 3- **kündigte an** (VPC)
-
-## Sentence No. 839 - 
-der bürgermeister **zeigte** sich gegenüber dem echo **zuversichtlich** , dass **es** bis zum kommenden jahr , wenn das oberstufengebäude der pds **in** **betrieb** **genommen** wird , lösungen **geben** wird . 
-### Existing MWEs: 
-1- **zeigte zuversichtlich** (ID)
-
-2- **es geben** (ID)
-
-3- **in betrieb genommen** (LVC)
 

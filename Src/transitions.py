@@ -414,8 +414,6 @@ class EmbeddingTransition(Transition):
 
         elif transitionType == TransitionType.WHITE_MERGE:
             return WhiteMerge.getCost(config)
-        # elif transitionType == TransitionType.MERGE_AS_MWT:
-        #     return MergeAsMWT.getCost(config)
         elif transitionType == MWTTransitionType.MERGE_AS_MWT_ID:
             return MergeAsMWT_ID.getCost(config)
         elif transitionType == MWTTransitionType.MERGE_AS_MWT_IREFLV:
@@ -424,6 +422,8 @@ class EmbeddingTransition(Transition):
             return MergeAsMWT_VPC.getCost(config)
         elif transitionType == MWTTransitionType.MERGE_AS_MWT_LVC:
             return MergeAsMWT_LVC.getCost(config)
+        elif transitionType == MWTTransitionType.MERGE_AS_MWT_OTH:
+            return MergeAsMWT_OTH.getCost(config)
         else:
             return BlackMerge.getCost(config,  transitionType)
 
@@ -440,6 +440,7 @@ class EmbeddingTransition(Transition):
             transitions[MWTTransitionType.MERGE_AS_MWT_VPC] = MergeAsMWT_VPC(sent=self.sent)
             transitions[MWTTransitionType.MERGE_AS_MWT_LVC] = MergeAsMWT_LVC(sent=self.sent)
             transitions[MWTTransitionType.MERGE_AS_MWT_IREFLV] = MergeAsMWT_IREFLF(sent=self.sent)
+            transitions[MWTTransitionType.MERGE_AS_MWT_OTH] = MergeAsMWT_OTH(sent=self.sent)
 
             # transitions[TransitionType.MERGE_AS_MWT.value] = MergeAsMWT()
 
@@ -746,6 +747,7 @@ class WhiteMerge(EmbeddingTransition):
 
 class BlackMerge(EmbeddingTransition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
+        self.type = type
         super(BlackMerge, self).__init__(type, config, previous, next, isInitial, sent)
 
     def apply(self, parent, sent, vMWEId=None, parse=False, vMWEType=None, mwtMerge=False):
@@ -860,8 +862,10 @@ class BlackMerge(EmbeddingTransition):
                         merge = MergeAsVPC(sent=sent)
                     else:
                         merge = MergeAsOTH(sent=sent)
-                    merge.apply(transition, sent=sent)
-                    return merge
+                else:
+                    merge = MergeAsOTH(sent=sent)
+                merge.apply(transition, sent=sent)
+                return merge
             # selectedParents = VMWE.getSharedVMWEs(Sentence.getTokens(config.stack))
             # if selectedParents and len(selectedParents) > 1:
             #     reports.annotationReport += str(sent)
@@ -966,9 +970,7 @@ class MergeAsMWT(BlackMerge):
             elif type.lower() == 'id':
                 mWTComplete = MergeAsMWT_ID(sent=sent)
             else:
-                print '### Error: MWT With non Valid type'
-                print sent
-                mWTComplete = BlackMerge()
+                mWTComplete = MergeAsMWT_OTH(sent=sent)
             mWTComplete.apply(transition, sent, vMWEId=config.stack[-1].parentMWEs[0].id,
                               vMWEType=type, mwtMerge=True)
             return mWTComplete
@@ -1025,4 +1027,16 @@ class MergeAsMWT_IREFLF(MergeAsMWT):
 
     @staticmethod
     def getCost(config, transType=None, type='IReflV'):
+        return MergeAsMWT.getCost(config, transType, type)
+
+class MergeAsMWT_OTH(MergeAsMWT):
+    def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
+        super(MergeAsMWT_OTH, self).__init__(MWTTransitionType.MERGE_AS_MWT_OTH, config, previous, next, isInitial, sent)
+
+    def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=True):
+        Counters.mergeAsOTHNum += 1
+        super(MergeAsMWT, self).apply(parent, sent, vMWEId, parse, vMWEType='OTH', mwtMerge=mwtMerge)
+
+    @staticmethod
+    def getCost(config, transType=None, type='OTH'):
         return MergeAsMWT.getCost(config, transType, type)

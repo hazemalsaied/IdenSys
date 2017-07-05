@@ -1,0 +1,1352 @@
+avea loc: 460
+
+sine desfășura: 275
+
+sine afla: 175
+
+avea drept: 85
+
+sine adresa: 82
+
+face parte: 81
+
+sine derula: 58
+
+s naște: 54
+
+avea în vedere: 52
+
+sine înscrie: 51
+
+sine prezenta: 49
+
+sine ridica: 47
+
+sine încheia: 37
+
+sine număra: 37
+
+pune la dispoziție: 37
+
+fi vorbă: 36
+
+pune în vânzare: 36
+
+tu adresa: 34
+
+sine adăuga: 33
+
+sine situa: 30
+
+sine deplasa: 27
+
+s desfășurat: 24
+
+sine referi: 23
+
+s încheia: 23
+
+s prezenta: 23
+
+sine propune: 23
+
+s înregistra: 23
+
+s întâlni: 22
+
+s afla: 22
+
+sine întâlni: 21
+
+s produce: 21
+
+avea întâlnire: 21
+
+fi nevoie: 20
+
+s califica: 20
+
+avea nevoie: 20
+
+sine impune: 20
+
+sine împlini: 19
+
+lua parte: 19
+
+sta la dispoziție: 18
+
+ține cont: 18
+
+pus la dispoziție: 18
+
+sine încadra: 18
+
+sine dispută: 17
+
+sine găsi: 17
+
+intra în vigoare: 17
+
+atrage atenție: 17
+
+avea la dispoziție: 16
+
+sine adresă: 16
+
+sine pregăti: 15
+
+sine mări: 15
+
+s deplasa: 15
+
+ține seamă: 15
+
+sine ocupa: 15
+
+sine părea: 14
+
+sine întâmpla: 14
+
+sine bucura: 14
+
+sine confrunta: 13
+
+sine califica: 13
+
+lua în considerare: 12
+
+lua ființă: 12
+
+intra în posesie: 12
+
+sine regăsi: 12
+
+trimite în judecată: 12
+
+s reuni: 11
+
+eu bucura: 11
+
+sine apropia: 11
+
+s petrece: 11
+
+trimis în judecată: 10
+
+s înscrie: 10
+
+sine numi: 10
+
+s bucura: 10
+
+sine datora: 10
+
+sine întoarce: 10
+
+aduce la cunoștință: 10
+
+s clasa: 10
+
+sine implica: 9
+
+sine prezent: 9
+
+s impune: 9
+
+sine alătura: 9
+
+eu da seamă: 9
+
+face cunoscut: 9
+
+face dovadă: 9
+
+pus în vânzare: 9
+
+și propune: 9
+
+sine menține: 9
+
+avea parte: 8
+
+lua decizie: 8
+
+pune bază: 8
+
+afla sine: 8
+
+lua hotărâre: 8
+
+sine petrece: 8
+
+purta semnătură: 8
+
+sine ascunde: 8
+
+sine supune: 8
+
+s ridica: 8
+
+s putea: 7
+
+s confrunta: 7
+
+sine intitula: 7
+
+s - lăsa: 7
+
+lua în calcul: 7
+
+s referi: 7
+
+s prăbuși: 7
+
+s alege: 7
+
+s întoarce: 7
+
+sine retrage: 7
+
+cifra sine: 7
+
+s retrage: 7
+
+sine sustrage: 7
+
+s datora: 7
+
+s duce: 7
+
+face referire: 7
+
+pune capăt: 7
+
+hotărâre luat: 6
+
+sine încălzi: 6
+
+sine opune: 6
+
+sine baza: 6
+
+sine putea: 6
+
+s lăsa: 6
+
+dat în folosință: 6
+
+și pierde viață: 6
+
+sine face: 6
+
+s desfășura: 6
+
+sine produce: 6
+
+sine arăta: 6
+
+s arăta: 6
+
+sine familiariza: 6
+
+s opri: 6
+
+s angaja: 6
+
+s ocupa: 6
+
+efectua deplasare: 6
+
+referi sine: 6
+
+sine lăsa: 6
+
+eu gândi: 6
+
+s întâmpla: 6
+
+s trezi: 5
+
+sine îndrepta: 5
+
+s derula: 5
+
+sine întrece: 5
+
+s izbi: 5
+
+sine reuni: 5
+
+tu prezenta: 5
+
+sine gândi: 5
+
+sine sinucide: 5
+
+sine perfecționa: 5
+
+s aduna: 5
+
+sine constitui: 5
+
+sine înălța: 5
+
+ridica sine: 5
+
+sine transforma: 5
+
+s asigura: 5
+
+sine simți: 5
+
+luat în considerare: 5
+
+s solda: 5
+
+s concretiza: 5
+
+s gândi: 5
+
+eu numi: 5
+
+s disputa: 5
+
+s consuma: 5
+
+face față: 5
+
+avut în vedere: 5
+
+pune accent: 5
+
+sine asigura: 5
+
+sine întinde: 5
+
+sine dovedi: 5
+
+sine plimba: 5
+
+s situa: 5
+
+avea la origine: 5
+
+sine alinia: 4
+
+puna în vânzare: 4
+
+ieși de sub tipar: 4
+
+eu duce: 4
+
+aduce contribuție: 4
+
+sine opri: 4
+
+lua legătură: 4
+
+sine răci: 4
+
+da socoteală: 4
+
+sta la bază: 4
+
+eu referi: 4
+
+sine asuma: 4
+
+și face apariție: 4
+
+da consimțământ: 4
+
+scoate la rampă: 4
+
+pune întrebare: 4
+
+s implica: 4
+
+sine naște: 4
+
+prinde viață: 4
+
+sine deschide: 4
+
+sine întruni: 4
+
+derula sine: 4
+
+sine juca: 4
+
+sine căsători: 4
+
+sine termina: 4
+
+sine cifra: 4
+
+tu referi: 4
+
+s îndrepta: 4
+
+da curs: 3
+
+s pronunța: 3
+
+sine clasa: 3
+
+sine pensiona: 3
+
+decizie luat: 3
+
+adresa sine: 3
+
+tu adresă: 3
+
+lua start: 3
+
+sine mândri: 3
+
+avea ocazie: 3
+
+sine instala: 3
+
+s interesa: 3
+
+sine schimba: 3
+
+sine informa: 3
+
+sine aduna: 3
+
+fi de părere: 3
+
+începe cu stâng: 3
+
+avea acces: 3
+
+sine dezvolta: 3
+
+lua cu asalt: 3
+
+sine diminua: 3
+
+s împlini: 3
+
+m întoarce: 3
+
+sine manifesta: 3
+
+s lua: 3
+
+sine antrena: 3
+
+trece peste: 3
+
+fi de acord: 3
+
+sine reflecta: 3
+
+s afirma: 3
+
+sine disputa: 3
+
+pune în pericol: 3
+
+s reîntoarce: 3
+
+eu ruga: 3
+
+sine culca: 3
+
+sine duce: 3
+
+lua foc: 3
+
+sine înfățișa: 3
+
+avea în proprietate: 3
+
+s hotărî: 3
+
+avea la bază: 3
+
+și însuși: 3
+
+sine conforma: 3
+
+sine ruga: 3
+
+sine comporta: 3
+
+pune în practic: 3
+
+da nas în nas: 3
+
+metru întoarce: 3
+
+punere în posesie: 3
+
+sine pune speranță: 3
+
+face rost: 3
+
+s întruni: 3
+
+sine convinge: 3
+
+sine ngrijește: 3
+
+sine teme: 3
+
+desfășura sine: 3
+
+sine aduce aport: 2
+
+sine prăbuși: 2
+
+eu adresa: 2
+
+decizie lua: 2
+
+s părea: 2
+
+pune în vedere: 2
+
+veni să crede: 2
+
+s solda cu moarte: 2
+
+sine reduce: 2
+
+pune mână: 2
+
+s vedea: 2
+
+adresa tu: 2
+
+pus în scenă: 2
+
+pune la punct: 2
+
+pune la cale: 2
+
+s isca: 2
+
+adresat tu: 2
+
+și adjudeca: 2
+
+s preda: 2
+
+sine lansa: 2
+
+s căsători: 2
+
+sine folosi: 2
+
+avea efectua un control: 2
+
+vedea lumină tipar: 2
+
+lua cunoștință: 2
+
+avea contribuție: 2
+
+face și apariție: 2
+
+s epuiza: 2
+
+intra în coliziune: 2
+
+avea grijă: 2
+
+s recomanda: 2
+
+sine cifră: 2
+
+s deschide: 2
+
+s ascunde: 2
+
+lua cuvânt: 2
+
+spune adio: 2
+
+s strânge: 2
+
+da de urmă: 2
+
+s refugia: 2
+
+s răsturna: 2
+
+sine preocupa: 2
+
+sine conform: 2
+
+sine îmbogăți: 2
+
+s întinde: 2
+
+face uz: 2
+
+sine nghesuiau: 2
+
+da în judecată: 2
+
+pierde și viață: 2
+
+s opune: 2
+
+da naștere: 2
+
+baza sine: 2
+
+accent pune: 2
+
+s îmbolnăvi: 2
+
+sine da concurs: 2
+
+sta de vorbă: 2
+
+s conforma: 2
+
+sine așeza: 2
+
+s apleca: 2
+
+s muta: 2
+
+alătura sine: 2
+
+puna la dispoziție: 2
+
+da ordin: 2
+
+scoate la iveală: 2
+
+sine caracteriza: 2
+
+sine îngriji: 2
+
+punere în circulație: 2
+
+avea intenție: 2
+
+sine pronunța: 2
+
+sine desprinde: 2
+
+tu aduce aminte: 2
+
+sine concretiza: 2
+
+s învrednici: 2
+
+sine mulțumi: 2
+
+ține la curent: 2
+
+duce la bun sfârșit: 2
+
+eu aduce aminte: 2
+
+sine aduce aminte: 2
+
+sine îmbunătăți: 2
+
+puna în circulație: 2
+
+s recăsători: 2
+
+eu îndoi: 2
+
+sine umfla: 2
+
+și prezenta demisie: 2
+
+sine distinge: 2
+
+face dragoste: 2
+
+intra în conflict: 2
+
+sine suprapune: 2
+
+sine scurge: 2
+
+sine aștepta: 2
+
+sine distra: 2
+
+pune piatră de temelie: 2
+
+da în folosință: 2
+
+s apropia: 2
+
+pus în aplicare: 2
+
+avea de gând: 2
+
+s număra: 2
+
+asuma și: 2
+
+sine orienta: 2
+
+s axa: 2
+
+s stabili: 2
+
+axa sine: 2
+
+sine reorganiza: 2
+
+adăuga sine: 2
+
+sine hazarda: 2
+
+tu număra: 2
+
+da citire: 2
+
+s manifesta: 2
+
+adus la cunoștință: 2
+
+s rupe: 2
+
+s îndrăgosti: 2
+
+face ravagiu: 1
+
+sine afla în frunte: 1
+
+datora sine: 1
+
+sine ivi: 1
+
+pune la îndoială: 1
+
+s avea adresa: 1
+
+și da concurs: 1
+
+constitui sine: 1
+
+sine întrepătrunde: 1
+
+încheia sine: 1
+
+eu cere scuză: 1
+
+sine urca: 1
+
+și lua nevastă: 1
+
+sine solda: 1
+
+pune piedică: 1
+
+s mări: 1
+
+sine răspândi: 1
+
+s avea achita: 1
+
+avea origine: 1
+
+sine consulta: 1
+
+pune pe tapet: 1
+
+pus în circulație: 1
+
+s obliga: 1
+
+s scurge: 1
+
+m duce: 1
+
+s acumula: 1
+
+sine identifica: 1
+
+băga ban în buzunar: 1
+
+intra în istorie: 1
+
+sine documenta: 1
+
+șterge de pe față pământ: 1
+
+trece hop: 1
+
+situa sine: 1
+
+număra sine: 1
+
+declarație dat: 1
+
+da concert: 1
+
+remarca sine: 1
+
+da atac: 1
+
+impune sine: 1
+
+sine satura: 1
+
+da un fugă: 1
+
+sine împărți: 1
+
+avea impact: 1
+
+prinde bine: 1
+
+lua zbor: 1
+
+sine odihni: 1
+
+primi un ajutor: 1
+
+sine muta: 1
+
+sine trezi: 1
+
+sine axă: 1
+
+s năpusti: 1
+
+și face cruce: 1
+
+sine clasă: 1
+
+sine axa: 1
+
+eu lua nevastă: 1
+
+s îndepărta: 1
+
+start da: 1
+
+s deteriora: 1
+
+suferi modificare: 1
+
+sine detașa: 1
+
+luare în evidență: 1
+
+parte face: 1
+
+s converti: 1
+
+împărtăși eu: 1
+
+pus la bătaie: 1
+
+încadra tu: 1
+
+sine răsfrânge: 1
+
+deschide foc: 1
+
+aduce un rază de lumină: 1
+
+sine împărtăși: 1
+
+ieșit din comun: 1
+
+alegere face: 1
+
+sine achita: 1
+
+da start: 1
+
+sine hotărește: 1
+
+eu împrieteni: 1
+
+și câștiga existență: 1
+
+în calc luat: 1
+
+ține - în frâu: 1
+
+s evapora: 1
+
+s majora: 1
+
+regăsi sine: 1
+
+s concentra: 1
+
+da drept: 1
+
+s convinge: 1
+
+s descurca: 1
+
+avea avea loc: 1
+
+lume începe și sine termina: 1
+
+da dovadă: 1
+
+avea dreptate: 1
+
+s termina: 1
+
+identifica sine: 1
+
+lua contact: 1
+
+pune în evidență: 1
+
+sine da în spectacol: 1
+
+și pune capăt viață: 1
+
+sud desfășura: 1
+
+sine instaura: 1
+
+și face socoteală: 1
+
+sine evapora: 1
+
+fura somn: 1
+
+la dispoziție pus: 1
+
+face lumină: 1
+
+s mândri: 1
+
+sine înregistra: 1
+
+cinci muta: 1
+
+duce un viață: 1
+
+lua în seamă: 1
+
+sine descurca: 1
+
+s - avea deplasa: 1
+
+pus în funcțiune: 1
+
+sine lăsa întuneric: 1
+
+s încăiera: 1
+
+în joc pus: 1
+
+s avea dezvolta: 1
+
+luat în stăpânire: 1
+
+sine cutremura: 1
+
+pus în slujbă: 1
+
+sine stinge pe picior: 1
+
+sine îneca: 1
+
+sud deplasa: 1
+
+sine dilata: 1
+
+sine evidenția: 1
+
+avea intra în relație: 1
+
+lua cale: 1
+
+trece și în cont: 1
+
+sud specializa: 1
+
+sine împleti: 1
+
+avea face senzație: 1
+
+sine potrivi: 1
+
+sine dezangaja: 1
+
+acord dat: 1
+
+după avea: 1
+
+sine înclina: 1
+
+s electrocuta: 1
+
+s constitui: 1
+
+deschide ochi: 1
+
+întâlnire avea: 1
+
+da viață: 1
+
+sine stabili: 1
+
+avea pe grilă de start: 1
+
+solda sine: 1
+
+pus la cale: 1
+
+s răsuci: 1
+
+avea trece peste: 1
+
+vrea adresa: 1
+
+sine abține: 1
+
+contribuție adus: 1
+
+sine refugia: 1
+
+pune în aplicare: 1
+
+sine dedica: 1
+
+s diversifica: 1
+
+sine compune: 1
+
+și permite: 1
+
+eu limita: 1
+
+avea da rod: 1
+
+încheiat un acord: 1
+
+s avea afla: 1
+
+trezi sine: 1
+
+eu pronunța: 1
+
+sine lua prin surprindere: 1
+
+s - conecta: 1
+
+duce în cârcă: 1
+
+dedica sine: 1
+
+s înțelege: 1
+
+face tot ce sta în putere: 1
+
+s autodefini: 1
+
+spirit s încinge: 1
+
+s face: 1
+
+spune ultim cuvânt: 1
+
+și vărsa nerv: 1
+
+izbi sine: 1
+
+s înfățișa: 1
+
+și câștiga pâine: 1
+
+face sex: 1
+
+sine chema: 1
+
+impact avea: 1
+
+avea un schimb de părere: 1
+
+sine echilibra: 1
+
+sine asocia: 1
+
+nu privi cu ochi bun: 1
+
+s materializa: 1
+
+face schimb: 1
+
+da foc: 1
+
+purta negociere: 1
+
+să trage un semnal de alarmă: 1
+
+da asigurare: 1
+
+sări în ochi: 1
+
+sine reface: 1
+
+s înfrunta: 1
+
+s: 1
+
+s ameliora: 1
+
+pune în scenă: 1
+
+sine delecta: 1
+
+teme sine: 1
+
+sine lupta: 1
+
+trece clasă: 1
+
+lua sine în considerare: 1
+
+eu ocupa: 1
+
+m trezi: 1
+
+sine contura: 1
+
+sine da bătut: 1
+
+sine înapoia: 1
+
+ține în palmă: 1
+
+sine consacra: 1
+
+nu el veni să crede: 1
+
+tu baza: 1
+
+sud naște: 1
+
+sine regla: 1
+
+da pe gât: 1
+
+ieși la iveală: 1
+
+sine atinge: 1
+
+s desprinde: 1
+
+pregăti sine: 1
+
+luat decizie: 1
+
+încadra sine: 1
+
+eu vedea: 1
+
+trece în neființă: 1
+
+ieși la pensie: 1
+
+pune în circulație: 1
+
+transforma sine: 1
+
+face control: 1
+
+deplasa sine: 1
+
+sine învecina: 1
+
+sine materializa: 1
+
+instala sine: 1
+
+s lumina: 1
+
+face cu sare și oțet: 1
+
+aduce pe lume: 1
+
+avea cunoștință: 1
+
+lua distanță: 1
+
+face invitație: 1
+
+s mișca: 1
+
+sine angaja: 1
+
+lupta cu bătrânețe: 1
+
+da alarmă: 1
+
+eu aminti: 1
+
+face recunoaștere: 1
+
+m ocupa: 1
+
+să depăși propriu limită: 1
+
+cinci adresa: 1
+
+sine vedea: 1
+
+sine îndepărta: 1
+
+sine da seamă: 1
+
+sine cinsti: 1
+
+avea cădea de acord: 1
+
+pune problemă: 1
+
+eu hotărî: 1
+
+sine zbate: 1
+
+lăsa sine: 1
+
+s nărui: 1
+
+pune punct final: 1
+
+oferi un imagine: 1
+
+s adresa: 1
+
+pune în valoare: 1
+
+tu afla: 1
+
+schimba idee: 1
+
+împărți pâine și sare: 1
+
+s sinucide: 1
+
+avea în vizor: 1
+
+sine autogospodări: 1
+
+intra în funcțiune: 1
+
+sine deosebi: 1
+
+lua destin în propriu mână: 1
+
+și da acord: 1
+
+sud înregistra: 1
+
+îngheța sânge în vână: 1
+
+ține hăț în mână: 1
+
+avut la dispoziție: 1
+
+s cifra: 1
+
+îmbunătățire adus: 1
+
+sine interesa: 1
+
+s plictisi: 1
+
+s destrăma: 1
+
+s reduce: 1
+
+s înrăutăți: 1
+
+sine remarca: 1
+
+și depune demisie: 1
+
+luat măsură: 1
+
+sine pretinde: 1
+
+măsură luat: 1
+
+sine adesează: 1
+
+sine feri: 1
+
+da lovitură: 1
+
+sine încerca șansă: 1
+
+veni cu propunere: 1
+
+lua un gustare: 1
+
+lua naștere: 1
+
+parcă avea vedea pe dumnezeu: 1
+
+sine recicla: 1
+
+găsi drum în viață: 1
+
+discuție purta: 1
+
+zice din vers: 1
+
+sine răscoli: 1
+
+scoate basma curat: 1
+
+înmulți sine: 1
+
+călca hoț: 1
+
+tu bizui: 1
+
+duce înapoi: 1
+
+lăsa la un parte: 1
+
+lua rămas bun: 1
+
+s așeza: 1
+
+s inspira: 1
+
+sine revolta: 1
+
+purta discuție: 1
+
+destin sine juca: 1
+
+pune la bătaie: 1
+
+s lua la ceartă: 1
+
+s alinia: 1
+
+ține post: 1
+
+ciocni sine: 1
+
+cădea în sarcină: 1
+
+ieși și din fire: 1
+
+avea voie: 1
+
+aduce îmbunătățire: 1
+

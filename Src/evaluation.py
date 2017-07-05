@@ -2,51 +2,48 @@ from __future__ import division
 
 import logging
 
-from param import XPParams, Counters
+from param import XPParams, Counters, Paths
+import reports, os
 
 
 class Evaluation:
     @staticmethod
     def evaluate(corpus):
-        if XPParams.realExper:
-            logging.warn('The evaluation is not possible in **real exeriements** or in exluding the embedding!')
-            return [0] * 9
+        reports.createEvaluationFiles(corpus.testDataSet)
 
         tp, p, t, tpCat, pCat, tCat = Evaluation.getStatistics(corpus)
-        scores = Evaluation.calculateScores(tp, t, p,'Ordinary: ')
-        scores = scores +  Evaluation.calculateScores(tpCat, pCat, tCat, 'Categorization: ')
-
-        tp, p, t = Evaluation.getCategoryStatistics(corpus, 'id')
-        logging.warn('id: tp, p, t: ' + str(tp) + ', ' + str(p) + ', ' + str(t))
-        Evaluation.calculateScores(tp, t, p, 'id categorization: ')
-        tp, p, t = Evaluation.getCategoryStatistics(corpus, 'vpc')
-        logging.warn('vpc: tp, p, t: ' + str(tp) + ', ' + str(p) + ', ' + str(t))
-        Evaluation.calculateScores(tp, t, p, 'vpc categorization: ')
-        tp, p, t = Evaluation.getCategoryStatistics(corpus, 'lvc')
-        logging.warn('lvc: tp, p, t: ' + str(tp) + ', ' + str(p) + ', ' + str(t))
-        Evaluation.calculateScores(tp, t, p, 'lvc categorization: ')
-        tp, p, t = Evaluation.getCategoryStatistics(corpus, 'ireflv')
-        logging.warn('ireflv: tp, p, t: ' + str(tp) + ', ' + str(p) + ', ' + str(t))
-        Evaluation.calculateScores(tp, t, p, 'ireflv categorization: ')
-        tp, p, t = Evaluation.getCategoryStatistics(corpus, 'oth')
-        logging.warn('oth: tp, p, t: ' + str(tp) + ', ' + str(p) + ', ' + str(t))
-        Evaluation.calculateScores(tp, t, p, 'oth categorization: ')
-
-
+        scores = Evaluation.calculateScores(tp, p, t,'Ordinary: ')
+        scores += Evaluation.calculateScores(tpCat, pCat, tCat, 'Categorization: ')
+        catList = ['lvc', 'ireflv', 'vpc', 'id', 'oth']
+        # catList = ['id','vpc', 'lvc','ireflv', 'oth']
+        for cat in catList:
+            tp, p, t = Evaluation.getCategoryStatistics(corpus, cat)
+            scores += Evaluation.calculateScores(tp, p, t, cat + ' categorization: ')
         tp, p, t, tpCat, pCat, tCat = Evaluation.getMWTStatistics(corpus)
-
-        Evaluation.calculateScores(tp, t, p, 'MWT identification: ')
-        Evaluation.calculateScores(tpCat, t, p, 'MWT Categorization: ')
-
+        scores += Evaluation.calculateScores(tp, p, t, 'MWT: ')
+        scores += Evaluation.calculateScores(tpCat, p, t, 'MWT Categorization: ')
         tp, p, t = Evaluation.getEmbeddedStatistics(corpus)
-        if corpus.emeddedNum > 10:
+        if corpus.emeddedNum > 0:
             scores += Evaluation.calculateScores(tp, p, t, 'Embedded: ')
         else:
             scores += [0] * 3
-        tp, p, t, tpCat, pCat, tCat = Evaluation.getMWTStatistics(corpus)
-        scores += Evaluation.calculateScores(tp, p, t, 'MWT: ')
+        res = Evaluation.toString(scores)
+        path = os.path.join(Paths.rootResultFolder, 'ArticleRes.csv')
+        with open(path, 'a') as f:
+            f.write(res)
+
         Counters.initCounters()
         return scores
+
+    @staticmethod
+    def toString(scores):
+        comma = ','
+        line = Paths.languageName + comma
+        for i in range(len(scores)):
+            if i % 3 == 0:
+                line += str(scores[i]) + comma
+        line = line[:-1] + '\n'
+        return line
 
     @staticmethod
     def getStatistics(corpus):
@@ -151,7 +148,7 @@ class Evaluation:
         """
         if p == 0 or t == 0 or tp == 0:
             # logging.warn(title + ' F-Score:0, Recall: 0, Precision: 0' )
-            return [0] * 3
+            return  [0] * 3
 
         p = (float)(tp / p)
         r = (float)(tp / t)

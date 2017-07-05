@@ -8,10 +8,14 @@ class Extractor:
     def extract(sent):
         transition = sent.initialTransition
         labels, features = [], []
+
         while transition.next:
-            labels.append(transition.next.type.value)
-            features.append(Extractor.getFeatures(transition, sent))
-            transition = transition.next
+            if transition.next is None or transition.next.type is None:
+                pass
+            if transition.next is not None and transition.next.type:
+                labels.append(transition.next.type.value)
+                features.append(Extractor.getFeatures(transition, sent))
+                transition = transition.next
         sent.featuresInfo = [labels, features]
         return labels, features
 

@@ -11,7 +11,7 @@ class Corpus:
         a class used to encapsulate all the information of the corpus
     """
 
-    mweTokenDic, mweDictionary, mwtDictionary = {}, {}, {}
+    mweTokenDic, mweDictionary, mwtDictionary, mwtDictionaryWithSent = {}, {}, {}, {}
 
     def __init__(self, langName):
         """
@@ -20,16 +20,17 @@ class Corpus:
 
             This function iterate over the lines of corpus document to create the precedent ontology
         """
-
-        logging.warn(langName)
+        self.testSentNum, self.testMweNum = 0, 0
+        # logging.warn(langName)
+        print langName
         path = os.path.join(Paths.corporaPath, langName)
         reports.createLanguageFolder(langName)
         self.sentNum, self.tokenNum, self.mweNum, self.intereavingNum, self.emeddedNum, self.singleWordExp, \
-        self.continousExp, self.trainingSents, self.testingSents, self.trainDataSet,mweFile,testBlind  = \
-            0, 0, 0, 0, 0, 0, 0, [], [], [], os.path.join(path, 'train.parsemetsv'), os.path.join(path, 'test.blind.parsemetsv')
+        self.continousExp, self.trainingSents, self.testingSents, self.trainDataSet,mweFile, testMweFile = \
+            0, 0, 0, 0, 0, 0, 0, [], [], [], os.path.join(path, 'train.parsemetsv'),os.path.join(path, 'test.parsemetsv')
         conlluFile , testConllu = self.getTrainAndTestConlluPath(path)
 
-        testBlind = os.path.join(path, 'test.blind.parsemetsv')
+        testFile = os.path.join(path, 'test.parsemetsv')
 
         if conlluFile is not None and testConllu is not None:
             self.trainDataSet = Corpus.readConlluFile(conlluFile)
@@ -45,9 +46,10 @@ class Corpus:
                 self.continousExp += y
             if XPParams.realExper:
                 self.testDataSet = Corpus.readConlluFile(testConllu)
+                Corpus.readMweFile(testMweFile, self.testDataSet)
         else:
             self.trainDataSet, self.sentNum, self.mweNum = Corpus.readSentences(mweFile)
-            self.testDataSet, x, y = Corpus.readSentences(testBlind, forTest=True)
+            self.testDataSet, self.testSentNum, self.testMweNum = Corpus.readSentences(testFile, forTest=True)
             for sent in self.trainDataSet:
                 self.tokenNum += len(sent.tokens)
                 self.emeddedNum += sent.recognizeEmbedded()
@@ -218,16 +220,15 @@ class Corpus:
                     if sent is not None:
                         # Represent the sentence as a sequece of tokens and POS tags
                         sent.setTextandPOS()
-                        if not forTest:
-                            sent.recognizeEmbedded()
-                            sent.recognizeInterleavingVMWEs()
+                        # if not forTest:
+                        sent.recognizeEmbedded()
+                        sent.recognizeInterleavingVMWEs()
 
                     sent = Sentence(senIdx)
                     senIdx += 1
                     sentences.append(sent)
 
                 elif line.startswith('# sentence-text:'):
-                    sentText = ''
                     if len(line.split(':')) > 1:
                         sent.text = line.split('# sentence-text:')[1]
 
@@ -238,7 +239,8 @@ class Corpus:
                     continue
                 token = Token(lineParts[0], lineParts[1])
                 # Trait the MWE
-                if not forTest and lineParts[3] != '_':
+                # if not forTest and lineParts[3] != '_':
+                if lineParts[3] != '_':
                     vMWEids = lineParts[3].split(';')
                     for vMWEid in vMWEids:
                         id = int(vMWEid.split(':')[0])
@@ -269,6 +271,10 @@ class Corpus:
                 if len(mwe.tokens) == 1:
                     if lemmaString not in mwtDictionary:
                         mwtDictionary[lemmaString] = mwe.type
+                    if lemmaString not in Corpus.mwtDictionaryWithSent:
+                        Corpus.mwtDictionaryWithSent[lemmaString] = [sent]
+                    elif lemmaString in Corpus.mwtDictionaryWithSent and Corpus.mwtDictionaryWithSent[lemmaString] is not None:
+                        Corpus.mwtDictionaryWithSent[lemmaString] = Corpus.mwtDictionaryWithSent[lemmaString].append(sent)
                 if lemmaString in mweDictionary:
                     mweDictionary[lemmaString] += 1
                     for token in mwe.tokens:

@@ -1,0 +1,702 @@
+duoti parodymus: 11
+
+daryti poveikį: 5
+
+daryti įtaką: 4
+
+kelia grėsmę: 3
+
+trinti suolą: 3
+
+užkirsti kelią: 3
+
+turi poveikį: 2
+
+turi reikšmę: 2
+
+atlikusi patikrinimą: 2
+
+atranda kelią: 2
+
+nesiėmė veiksmų: 2
+
+stovime ant slenksčio: 2
+
+sukėlė audrą: 2
+
+sprendimų priimti: 2
+
+daryti išvadą: 2
+
+kalba eina: 2
+
+pramušė dugną: 2
+
+peržengė ribą: 2
+
+priims sprendimą: 2
+
+atvers kelią: 2
+
+padarė pažangą: 2
+
+kraunasi lagaminus: 2
+
+surengė derybas: 2
+
+priimtų sprendimą: 2
+
+įvykdyti perversmą: 2
+
+padarė išvadą: 2
+
+turint omenyje: 2
+
+atliekant kratas: 2
+
+nusirito žemyn: 2
+
+spaudimą tebedaro: 2
+
+leido laiką: 2
+
+žengė žingsnį: 2
+
+atidaviau į geras rankas: 2
+
+atliks šūvius: 2
+
+sprendimą priimti: 1
+
+žaidžia slėpynes: 1
+
+veiksite visais frontais: 1
+
+gula ant pečių: 1
+
+vykdyti nurodymą: 1
+
+išlieti prakaito ašarų: 1
+
+sudaryti galimybę: 1
+
+akis traukiantis: 1
+
+braunasi ne į savo daržą: 1
+
+rengti išpuolius: 1
+
+įdėti pastangų: 1
+
+turime ambiciją: 1
+
+stos prie vairo: 1
+
+pakelti kartelę: 1
+
+neriasi iš kailio: 1
+
+suderinti kampus: 1
+
+atlikus tarnybą: 1
+
+peržengti ribą: 1
+
+savo eilės laukia: 1
+
+nesprogs muilo burbulas: 1
+
+atliekant darbus: 1
+
+skrajoja padebesiais: 1
+
+į akis krenta: 1
+
+nepriimtų sprendimų: 1
+
+atliko kratą: 1
+
+šovė į viršų: 1
+
+tvarką įvesti: 1
+
+keliai linko: 1
+
+suakmenėjęs iš siaubo: 1
+
+vertinimą atlikti: 1
+
+priėmė sprendimų: 1
+
+sudėliotų viską į savo vietas: 1
+
+laikytųsi atokiai: 1
+
+pastūmėjo į glėbį: 1
+
+surengė antskrydžius: 1
+
+neturi įtakos: 1
+
+pastumti į priekį: 1
+
+įtakos turi: 1
+
+liks už durų: 1
+
+laikykite sukryžiuotus pirštus: 1
+
+padavimus atlikti: 1
+
+garbės nedaro: 1
+
+suteikia galią: 1
+
+priėmusi sprendimą: 1
+
+teikia konsultacijas: 1
+
+taškas nepadėtas: 1
+
+atlikti analizę: 1
+
+paliko ant ledo: 1
+
+žaisti slėpynes: 1
+
+pranašumą atiduoti: 1
+
+tarnybą vykdys: 1
+
+peržengus slenkstį: 1
+
+būna visko: 1
+
+užsidedate kaukę: 1
+
+neturėjo įtakos: 1
+
+nuo žodžių pereiti prie darbų: 1
+
+į gyvenimą kabintis: 1
+
+čiuožia žemyn: 1
+
+pėdomis seka: 1
+
+išspardytų užpakalius: 1
+
+iš kelio šlavusios: 1
+
+apvertė aukštyn kojomis: 1
+
+sėkmė garantuota: 1
+
+atliko smūgius: 1
+
+apsukti galvą: 1
+
+į priekį stumia: 1
+
+turint galvoje: 1
+
+įjungta atbulinė pavara: 1
+
+pakelti ranką: 1
+
+priimsime sprendimą: 1
+
+koją kišo: 1
+
+meilė neturi ribų: 1
+
+kaip ant mielių augantį: 1
+
+atliko kratas: 1
+
+vesti pamokas: 1
+
+leistis į kraštutinumus: 1
+
+lipti ant to paties grėblio: 1
+
+smurtas gimdo smurtą: 1
+
+sėdi be darbo: 1
+
+imtis veiksmų: 1
+
+neįvykdė nurodymo: 1
+
+griebėsi už galvos: 1
+
+kėlė prielaidas: 1
+
+uždegė žalią šviesą: 1
+
+dedantys pastangas: 1
+
+atliktas testavimas: 1
+
+į šoną nustūmė: 1
+
+vairą pasuko: 1
+
+analizei atlikti: 1
+
+neperžengti ribos: 1
+
+kiekvienas kvailys žino: 1
+
+patyrė nesėkmę: 1
+
+žengti žingsnį: 1
+
+priėmusi sprendimo: 1
+
+grąžina skolą: 1
+
+nuo grandinės nutrūkusio: 1
+
+šešėlis krito: 1
+
+it žemė tylėjo: 1
+
+ekspertizę atlikę: 1
+
+buriama vandeny šakėmis: 1
+
+burbulo nepučia: 1
+
+smūgį sudavė: 1
+
+susikrauti lagaminus: 1
+
+stypčiojusi vietoje: 1
+
+sušvirkštė injekcijas: 1
+
+sulošti partiją: 1
+
+suteikti galimybę: 1
+
+keliai susikirstų: 1
+
+žingsnį žengia: 1
+
+vykdė kampaniją: 1
+
+spaudimo vykdoma: 1
+
+pasakas sekti: 1
+
+apsaugą vykdė: 1
+
+atliko kratų: 1
+
+leidžiant laiką: 1
+
+perlipa slenkstį: 1
+
+nebuvo girdėti nė garso: 1
+
+susidaro nuomonę: 1
+
+užkirstų kelią: 1
+
+į ugnį žibalo įpylė: 1
+
+nenuleis rankų: 1
+
+skirtingais keliais pasuko: 1
+
+traukia tarsi magnetas: 1
+
+atliko patikrinimą: 1
+
+priėmėme sprendimą: 1
+
+pramušusi „ dugną “: 1
+
+vykdė pareigą: 1
+
+padarė poveikį: 1
+
+pakišti koją: 1
+
+akys užkliūva: 1
+
+slenkstį mynė: 1
+
+kyšo ausys: 1
+
+laukia aušros: 1
+
+nenuleidžia rankų: 1
+
+priėmę pataisą: 1
+
+nekėlė triukšmo: 1
+
+ateina į galvą: 1
+
+turės dėmę: 1
+
+pakiša koją: 1
+
+mundurą nusiplauti: 1
+
+duos vaisių: 1
+
+pasiekusi susitarimą: 1
+
+stumiame į kampą: 1
+
+išspardys užpakalius: 1
+
+gelbėjimosi ratą švystelėjo: 1
+
+eina į pabaigą: 1
+
+gero nelauk: 1
+
+turėti pasirinkimą: 1
+
+pridarė nuostolių: 1
+
+kreivai žiūri: 1
+
+sėdėjome tarsi ant parako statinės: 1
+
+laužti juokus: 1
+
+įveda apribojimus: 1
+
+ieškoti teisybės: 1
+
+krito šešėlis: 1
+
+turės įtakos: 1
+
+atėjo sunkūs laikai: 1
+
+duoti parodymų: 1
+
+darantis spaudimą: 1
+
+nuveda pasaulio galą: 1
+
+priemones priims: 1
+
+prikėlęs iš pelenų: 1
+
+pasuko skirtingais keliais: 1
+
+padarę pažeidimų: 1
+
+apsivertė aukštyn kojomis: 1
+
+kilnojo stogą: 1
+
+pabruko uodegą: 1
+
+dingsta nuo žemės paviršiaus: 1
+
+turėsiu galimybę: 1
+
+kūrė pasakas: 1
+
+atsisuka prieš juos pačius: 1
+
+patyrė laimėjimų: 1
+
+savo kailiu įsitikinti: 1
+
+atsakomybę prisiėmė: 1
+
+imti į rankas: 1
+
+žiūrint iš šono: 1
+
+nuskinti laurus: 1
+
+vykdė perkėlimą: 1
+
+skrydžius vykdys: 1
+
+vykdyti stebėjimą: 1
+
+įvykdė ataką: 1
+
+vykdyti teisingumą: 1
+
+turės poreikį: 1
+
+darė spaudimą: 1
+
+laužė galvas: 1
+
+patyrė nuostolių: 1
+
+turi įtaką: 1
+
+šaudymus atlieka: 1
+
+rankų nenuleidžiu: 1
+
+rado laimę: 1
+
+žodžių į vatą nevyniojo: 1
+
+buvo uždegta žalia šviesa: 1
+
+pasirodymą surengė: 1
+
+mūsų šalyje nėra vietos: 1
+
+turi įtakos: 1
+
+savo kailiu patyrė: 1
+
+duris atvers: 1
+
+eiti iki galo: 1
+
+išlipti sausas iš vandens: 1
+
+pastato laiptu aukščiau: 1
+
+stojate į kovą: 1
+
+pažangą padaręs: 1
+
+atlaisvinti kumštį: 1
+
+turime pranašumą: 1
+
+darė užuominas: 1
+
+skirti laiko: 1
+
+kirto atgal: 1
+
+suteiks įžvalgų: 1
+
+liejo prakaitą: 1
+
+subyrėjo lyg smėlio bokštai: 1
+
+daro meškos paslaugą: 1
+
+atlikti patikrinimą: 1
+
+vykdyti priežiūrą: 1
+
+pakėlė sparnus: 1
+
+apeiti kliūtį: 1
+
+darė įtaką: 1
+
+užkirto kelią: 1
+
+parodymus duoti: 1
+
+duodant atkirtį: 1
+
+atsidūręs kreivųjų veidrodžių karalystėje ,: 1
+
+mane užknisa: 1
+
+kalba eitų: 1
+
+radau antrus namus .: 1
+
+laužti iš piršto: 1
+
+kur ritasi pasaulis: 1
+
+persėdo į krėslą: 1
+
+keliai susikirs: 1
+
+sprogus burbulams: 1
+
+nevykdo įsipareigojimų: 1
+
+stojo į savo vietas: 1
+
+atgauti reputaciją: 1
+
+daro įtaką: 1
+
+užsidėti kaukę: 1
+
+nusileido iki dugno: 1
+
+sėkmė nusišypsojo: 1
+
+važiuojant buldozeriu: 1
+
+įtakos turėjo: 1
+
+įvykdęs nusikaltimą: 1
+
+prisiimti įsipareigojimų: 1
+
+atimanti žadą: 1
+
+atliekant kratą: 1
+
+šaudymus vykdė: 1
+
+atliks pasirodymą: 1
+
+deda pastangų: 1
+
+laimė nenusišypsojo: 1
+
+perlenks lazdą: 1
+
+likti nuošalyje: 1
+
+vykdyti skrydžius: 1
+
+jaučiasi , kaip namie: 1
+
+šokinėjo iš laimės: 1
+
+akies krašteliu pažvelgti: 1
+
+daryti išvadų: 1
+
+pateikė protestą: 1
+
+ore pakibo: 1
+
+liežuviu malti: 1
+
+kovos kirvį išsitraukė: 1
+
+ribas trinanti: 1
+
+skiria dėmesys: 1
+
+ištrauktų kortą: 1
+
+šaudymus atlikusi: 1
+
+nugesintų bangą: 1
+
+plin­ta lyg vi­ru­sas: 1
+
+priėmęs sprendimą: 1
+
+sulaukė pasisekimo: 1
+
+deda paskutinius štrichus: 1
+
+priimti sprendimą: 1
+
+čia bergždžias reikalas: 1
+
+numoja ranka: 1
+
+kritęs šešėlis: 1
+
+kristi ant pečių: 1
+
+siunčia signalą: 1
+
+padėjo pamatus: 1
+
+priėmė už gryną pinigą: 1
+
+turėjome veiklų: 1
+
+kaip bebūtų keista: 1
+
+užkerta kelią: 1
+
+išvertė iš koto: 1
+
+pakėlė ranką: 1
+
+įvykdo skrydžių: 1
+
+užkrauta našta: 1
+
+išvadas daryti: 1
+
+iki švarių laikų dar nekvepia: 1
+
+atvertų kelią: 1
+
+įtakos neturi: 1
+
+darančių įtaką: 1
+
+sklisdavo iš lūpų į lūpas: 1
+
+akis paganyti: 1
+
+nepriėmęs sprendimo: 1
+
+patyriau persileidimą: 1
+
+roges ruošk vasarą , o ratus – žiemą: 1
+
+pėdomis žengti: 1
+
+širdį skauda: 1
+
+būti „ čia ir dabar “: 1
+
+suteiks galimybę: 1
+
+žodžio kišenėje neieškantis: 1
+
+žvalgybą vykdo: 1
+
+turėtų gražią ateitį: 1
+
+išvedama iš rikiuotės: 1
+
+griauti mūsų valstybės pamatų: 1
+
+keliai išsiskyrė: 1
+
+peržengia ribą: 1
+
+turėti galvoje: 1
+
+atiduodu visą save: 1
+
+vykdyti įsipareigojimą: 1
+
+žemai nusilenkė: 1
+
+duoklę atiduoda: 1
+
+skolą atidaviau: 1
+
+pamoką gavo: 1
+
+pralaimėjimą patyrė: 1
+
+veiksmų imtis: 1
+
+turi prasmę: 1
+
+nebeturi priekaištų: 1
+
+atsidūrę ant slenksčio: 1
+
+eiti į priekį: 1
+
+sukurti geresnį rytojų: 1
+
+taurė perpildyta: 1
+
+vietos ras: 1
+

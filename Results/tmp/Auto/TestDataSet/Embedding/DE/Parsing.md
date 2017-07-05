@@ -1,64 +1,70 @@
-## Sentence No. 265 - 
-konkrete werbemaßnahmen habe das objekt 21 nicht **durchgeführt** , " flugblätter oder sowas haben keine sau interessiert " - jedoch habe man öfters sms verschickt oder bekannte **angerufen** , um sie zu den liederabenden **einzuladen** . 
+## Sentence No. 930 - 
+der nationalrat in bern **stimmte** der nahezu uneingeschränkten weitergabe von steuerdaten an die vereinigten staaten mit deutlicher mehrheit **zu** : für das sogenannte fatca-gesetz **sprachen** **sich** 112 abgeordnete **aus** , 51 **lehnten** es **ab** , 21 parlamentarier **enthielten** **sich** . 
 ### Existing MWEs: 
-1- **durchgeführt** (VPC, 2)
+1- **stimmte zu** (VPC, 2)
 
-2- **angerufen** (VPC)
+2- **sprachen aus** (VPC, 2)
 
-3- **einzuladen** (VPC, 8)
+3- **sprachen sich aus** (IReflV)
+
+4- **lehnten ab** (VPC, 3)
+
+5- **enthielten sich** (IReflV)
 
 ### Identified MWEs: 
-1- **durchgeführt** (VPC)
+1- **mit deutlicher mehrheit** (ID)
 
-2- **einzuladen** (VPC)
+2- **stimmte mit deutlicher mehrheit** (ID)
 
-## Sentence No. 730 - 
-gleich zum auftakt des viertägigen zeltfestes anlässlich des 150-jährigen vereinsjubiläums der trachtenkapelle todtmoos konnte das organisationsteam mit matthias mutter an der spitze einen musikalischen top-act **an** **land** **ziehen** : " freibier , und der **abend** **ist** **gerettet** " , **heißt** **es** am freitagabend im großen festzelt auf der jägermatt . 
+## Sentence No. 1209 - 
+aus der riege der schweizer manager ist daniel vasella schon immer **herausgestochen** : er **ließ** **sich** auf seinem motorrad **ablichten** , **trat** selbstbewusst , fast arrogant **auf** und ließ sich seine arbeit sehr , sehr gut bezahlen . 
 ### Existing MWEs: 
-1- **an land ziehen** (ID)
+1- **herausgestochen** (VPC)
 
-2- **abend ist gerettet** (ID)
+2- **ließ sich ablichten** (ID)
 
-3- **heißt es** (ID, 18)
+3- **ablichten** (VPC, 1)
+
+4- **trat auf** (VPC, 4)
 
 ### Identified MWEs: 
-1- **heißt es** (ID)
+1- **ablichten** (VPC)
 
-## Sentence No. 1210 - 
-die marktzulassung des medikaments , das in frankreich in einem zeitraum von rund 25 jahren mit vier todesfällen durch thrombosen **in** **verbindung** **gebracht** wird , solle binnen drei monaten **ausgesetzt** werden , **teilte** die französische arzneimittelaufsicht ( ansm ) am mittwoch in paris **mit** . 
+2- **ließ sich** (ID)
+
+## Sentence No. 17 - 
+ttc lengerich **lädt** zum vortrag mit jürgen walter **ein** : mentale stärke im sport die bunte jahreszeit **steht** **vor** **der** **tür** und **bringt** allerlei knollen und rüben **auf** den **tisch** . 
 ### Existing MWEs: 
-1- **in verbindung gebracht** (LVC)
+1- **lädt ein** (VPC, 6)
 
-2- **ausgesetzt** (VPC)
+2- **steht vor der tür** (ID)
 
-3- **teilte mit** (VPC, 7)
+3- **bringt auf tisch** (ID)
 
 ### Identified MWEs: 
-1- **teilte mit** (VPC)
+1- **lädt ein** (VPC)
 
-## Sentence No. 2320 - 
-im tor **stehen** starke leute **zur** **verfügung** , allerdings **fallen** julian ahrens und mirco brandt zunächst verletzungsbedingt **aus** , der ebenfalls **angeschlagene** tobias möller dürfte zum saisonbeginn wieder fit sein . 
+## Sentence No. 386 - 
+" **angst** zu **haben** ist stigmatisiert " , sagt huber , " wer **zugibt** , dass er **angst** **hat** , ist ein loser , ein weichei " gegen diese wahrnehmung kämpft er an . 
 ### Existing MWEs: 
-1- **stehen zur verfügung** (ID, 2)
+1- **angst haben** (ID, 1)
 
-2- **fallen aus** (VPC)
+2- **zugibt** (VPC, 1)
 
-3- **angeschlagene** (VPC, 1)
+3- **angst hat** (ID, 1)
 
 ### Identified MWEs: 
-1- **stehen zur verfügung** (ID)
+1- **zugibt** (VPC)
 
-2- **angeschlagene** (VPC)
-
-## Sentence No. 3085 - 
-timo herget und jonas krattenmacher holen 39-jährigen aus den fluten der donau - " ihr seid große vorbilder " sein kriminalistischer spürsinn , den er immer wieder **unter** **beweis** **stellt** , scheint die **vermutung** **nahezulegen** , dass es sich bei ihm eher um den typ des genialen irren handelt . 
+## Sentence No. 496 - 
+vor ort erläuterte projektleiter manfred eberle ( r & h umwelt gmbh , nürnberg ) , dass die sanierung im ersten quartal 2014 **abgeschlossen** werden soll - **vorausgesetzt** das wetter **macht** keinen **strich** **durch** die **rechnung** . 
 ### Existing MWEs: 
-1- **unter beweis stellt** (LVC)
+1- **abgeschlossen** (VPC, 9)
 
-2- **vermutung nahezulegen** (ID)
+2- **vorausgesetzt** (VPC)
 
-3- **nahezulegen** (VPC), Embedded 
+3- **macht strich durch rechnung** (ID)
 
 ### Identified MWEs: 
-1- **stellt typ handelt** (ID)
+1- **abgeschlossen** (VPC)
 

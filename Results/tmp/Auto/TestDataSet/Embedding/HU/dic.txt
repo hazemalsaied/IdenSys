@@ -1,0 +1,1002 @@
+bekezdés: 700
+
+előírás: 147
+
+hozzájárulás: 135
+
+megfelelő: 120
+
+feltétel: 89
+
+átruházás: 88
+
+eljárás: 80
+
+kivétel: 48
+
+előállított: 37
+
+ír elő: 34
+
+benyújtás: 30
+
+fel tüntet: 30
+
+figyelem vesz: 29
+
+előírt: 28
+
+összefüggés: 26
+
+feltüntetés: 25
+
+jog gyakorolhat: 25
+
+beszámoló: 24
+
+jön létre: 23
+
+beolvadás: 22
+
+forgalom hozatal: 21
+
+előállítás: 20
+
+összeolvadás: 20
+
+lemondás: 17
+
+előír: 16
+
+lehetőség ad: 16
+
+felszámolási: 15
+
+előírhat: 15
+
+kivéve: 15
+
+kivételi: 15
+
+végrehajtás: 14
+
+felmondás: 14
+
+elszámolás: 13
+
+feltüntet: 12
+
+feltételes: 12
+
+meghaladó: 12
+
+összefüggő: 12
+
+benyújt: 12
+
+gyakorolhat jog: 11
+
+felszámolás: 10
+
+beolvadó: 10
+
+eljár: 10
+
+átruházási: 10
+
+határozat hoz: 9
+
+jog gyakorol: 9
+
+ellátás: 9
+
+tevékenység folytat: 9
+
+előállítási: 9
+
+végelszámoló: 9
+
+fennállás: 9
+
+nyilvánosság hoz: 9
+
+lát el: 9
+
+elszámol: 8
+
+fennálló: 8
+
+kikötés: 8
+
+forgalom hozott: 8
+
+be nyújtott: 7
+
+gyakorol jog: 7
+
+kötött szerződés: 7
+
+lejárta: 7
+
+átruház: 7
+
+hozzájárul: 7
+
+kizárás: 7
+
+be nyújt: 7
+
+haladhat meg: 7
+
+tesz elég: 7
+
+nyilvánosság hozott: 6
+
+végelszámolás: 6
+
+írhat elő: 6
+
+megfelel: 6
+
+előállít: 6
+
+nyújt fedezet: 6
+
+foglal állás: 5
+
+tarthat igény: 5
+
+eljárási: 5
+
+felmerülhet: 5
+
+engedély ad: 5
+
+áll rendelkezés: 5
+
+hozzájárulás teljesít: 5
+
+üzletpolitika folytat: 5
+
+átruházhatóság: 5
+
+hozhat határozat: 5
+
+felmerült: 5
+
+közreműködés: 5
+
+ruházhat át: 5
+
+kivételes: 5
+
+jog gyakorlás: 5
+
+ellát: 5
+
+mondhat le: 5
+
+hozott döntés: 5
+
+függ össze: 5
+
+közreműködő: 4
+
+lejárt: 4
+
+figyelem véve: 4
+
+határozat meghozatal: 4
+
+gyakorolható jog: 4
+
+meghalad: 4
+
+lemond: 4
+
+hozott határozat: 4
+
+merülhet fel: 4
+
+adott engedély: 4
+
+joggyakorlás: 4
+
+átruházó: 4
+
+felruházott: 4
+
+forgalom hozatali: 4
+
+folytat eljárás: 4
+
+el számol: 4
+
+jár el: 4
+
+hoz határozat: 4
+
+átszállás: 4
+
+határozat hozhat: 4
+
+kizárhat: 4
+
+szándéknyilatkozat tesz: 4
+
+késedelem esett: 4
+
+eljáró: 4
+
+támaszt alá: 3
+
+kizár: 3
+
+meg felel: 3
+
+feltételez: 3
+
+engedély megad: 3
+
+hoz összhang: 3
+
+összhang hoz: 3
+
+szerződés köt: 3
+
+beolvad: 3
+
+kivétel képez: 3
+
+járhat el: 3
+
+léphet fel: 3
+
+összeolvadó: 3
+
+lép élet: 3
+
+feltüntetett: 3
+
+száll át: 3
+
+igény vesz: 3
+
+tüntet fel: 3
+
+nyilatkozat tesz: 3
+
+visszaélés: 3
+
+figyelembevétel: 3
+
+láthat el: 3
+
+felmentés ad: 3
+
+kibocsátás kerülő: 3
+
+hoz nyilvánosság: 3
+
+előállító: 3
+
+állít elő: 3
+
+közgyűlés tart: 3
+
+felszámoló: 3
+
+felel meg: 3
+
+ok adó: 3
+
+utalás történik: 3
+
+elszámolási: 3
+
+le járt: 3
+
+ruházhat fel: 2
+
+ad lehetőség: 2
+
+ki tér: 2
+
+nyújt be: 2
+
+előkészület tesz: 2
+
+gyakorol befolyás: 2
+
+nyilatkozattétel: 2
+
+vehet igény: 2
+
+forgalom hoz: 2
+
+szabályozás ad: 2
+
+egybeesik: 2
+
+tájékoztatás ad: 2
+
+nyilvántartás vett: 2
+
+kerül kibocsátás: 2
+
+tesz különbség: 2
+
+ajánlat tesz: 2
+
+tart ülés: 2
+
+eljárás lefolytat: 2
+
+elállás: 2
+
+kívülálló: 2
+
+nyújtott szolgáltatás: 2
+
+kerülhet hozatal: 2
+
+kapott ajánlat: 2
+
+döntéshozatal: 2
+
+elállási: 2
+
+átruházható: 2
+
+belátás: 2
+
+leszállítás: 2
+
+rendelkezés bocsát: 2
+
+áll fenn: 2
+
+nyújt biztosíték: 2
+
+vehet rész: 2
+
+felmerülő: 2
+
+állás foglal: 2
+
+szerződéskötés: 2
+
+hatály lépett: 2
+
+alkalmazás kerül: 2
+
+fennáll: 2
+
+kikötött: 2
+
+nyújthat kölcsön: 2
+
+halad meg: 2
+
+hoz forgalom: 2
+
+tevékenység végezhet: 2
+
+felmondhat: 2
+
+létrejön: 2
+
+lép hatály: 2
+
+összetétel: 2
+
+felfüggeszt: 2
+
+tett szándéknyilatkozat: 2
+
+létrejötte: 2
+
+hozzá járuló: 2
+
+nyújtott hozzájárulás: 2
+
+felmondási: 2
+
+felhívás: 2
+
+előterjeszt: 2
+
+szerződés megkötés: 2
+
+változás hoz: 2
+
+biztosíték nyújt: 2
+
+hozandó határozat: 2
+
+elég tesz: 2
+
+járul hozzá: 2
+
+felfüggesztés: 2
+
+eltekintve: 2
+
+rész vesz: 2
+
+okozott kár: 2
+
+részesedés jogosít: 2
+
+határozathozatal: 2
+
+nyilvántartás vezet: 2
+
+rendelkezés álló: 2
+
+forgalom hozhat: 2
+
+útmutatás ad: 2
+
+elsőbbség élvez: 2
+
+benyújtásáiga: 2
+
+végrehajtott: 1
+
+szavazatelsőbbség adó: 1
+
+védelem élvez: 1
+
+szerződés köthet: 1
+
+átruházott: 1
+
+rendelkezés áll: 1
+
+tart közgyűlés: 1
+
+állhat el: 1
+
+ad útmutatatást: 1
+
+alá ír: 1
+
+ülés tartás: 1
+
+tehet szer: 1
+
+megkülönböztetés kerül: 1
+
+nyújt védelem: 1
+
+alátámasztó: 1
+
+juttat kifejezés: 1
+
+esik el: 1
+
+meghaladott: 1
+
+téve említés: 1
+
+kerül meghatározás: 1
+
+megállapodás köt: 1
+
+felfüggesztett: 1
+
+árverés kerül: 1
+
+hozhat nyilvánosság: 1
+
+felhatalmazás ad: 1
+
+vállal kötelezettség: 1
+
+előállítható: 1
+
+egybevetés: 1
+
+számlaszerződés köt: 1
+
+megad válasz: 1
+
+tevékenység folytató: 1
+
+tudomás vesz: 1
+
+ad eligazítás: 1
+
+le folytat: 1
+
+betekintési: 1
+
+gyakorolható vétójog: 1
+
+beválik: 1
+
+fel sorol: 1
+
+jogkör gyakorol: 1
+
+sorol fel: 1
+
+közzététel tesz: 1
+
+hozott törv.: 1
+
+le szállít: 1
+
+megbízás adó: 1
+
+benyújtandó: 1
+
+hozhat forgalom: 1
+
+fel tüntetve: 1
+
+elutasítás: 1
+
+nyilatkozattevő: 1
+
+nyújt szakvélemény: 1
+
+kiad: 1
+
+határozat döntés: 1
+
+ellátott: 1
+
+tett nyilatkozat: 1
+
+beleegyezés megadás: 1
+
+teljesíthet kifizetés: 1
+
+hajt végre: 1
+
+fennállott: 1
+
+fedezetelvonás követ: 1
+
+felvilágosítás ad: 1
+
+történik utalás: 1
+
+létrejövő: 1
+
+szabály ad: 1
+
+definíció ad: 1
+
+megtesz szándéknyilatkozat: 1
+
+adta lehetőség: 1
+
+szabály hoz: 1
+
+félrevezető: 1
+
+gyakorolható jogosítvány: 1
+
+segítség ad: 1
+
+képezhet akadály: 1
+
+ad haladék: 1
+
+szerep kap: 1
+
+megrendelés adhat: 1
+
+osztalékelsőbbség adó: 1
+
+végelszámolási: 1
+
+ad útbaigazítás: 1
+
+ad megoldás: 1
+
+kilettek játszva: 1
+
+kerül hozatal: 1
+
+intézkedés megtehet: 1
+
+árverés tart: 1
+
+beemelés történik: 1
+
+szolgáltatás nyújtás: 1
+
+ellátó: 1
+
+tehet nyilatkozat: 1
+
+kifejezés juttat: 1
+
+tér enged: 1
+
+feltételezett: 1
+
+kitüntetett: 1
+
+folytatható tevékenység: 1
+
+tett elkészültekre: 1
+
+vétójog gyakorolhat: 1
+
+kerülhet forgalom: 1
+
+végrehajtás vezet: 1
+
+tehet jognyilatkozat: 1
+
+kapcsolódó adott: 1
+
+tárgyalás kerülő: 1
+
+tekinthet el: 1
+
+árverés kerülő: 1
+
+igény támaszthat: 1
+
+kívülálló(k): 1
+
+benyújtás kerül: 1
+
+válasz ad: 1
+
+kiállított: 1
+
+igény tart: 1
+
+támpont ad: 1
+
+kerül kiadás: 1
+
+tehet indítvány: 1
+
+átruházhatatlanság: 1
+
+kerül sor: 1
+
+elállhat: 1
+
+bejelentés megtesz: 1
+
+kijátszás: 1
+
+üzletrész-átruházás: 1
+
+el vethet: 1
+
+megoldás hoz: 1
+
+leszűrhető: 1
+
+összefüggés hozható: 1
+
+határozat meghozott: 1
+
+forgalom kerül: 1
+
+megtartás kerülő: 1
+
+mód ad: 1
+
+nyilvánosság került: 1
+
+felelősség vállalhat: 1
+
+végelszámolás lefolytat: 1
+
+von kétség: 1
+
+történik kifizetés: 1
+
+kitűnik: 1
+
+ruház fel: 1
+
+kötött számlaszerződés: 1
+
+tudomás szerezhet: 1
+
+felügyelet gyakorol: 1
+
+kifizetés kerül: 1
+
+közreműködhet: 1
+
+létre: 1
+
+bírhat jelentőség: 1
+
+végrehajtási: 1
+
+bejelentés megtétel: 1
+
+biztosít jog gyakorlás: 1
+
+munkáltatói jog: 1
+
+összhang hozva: 1
+
+kiadás kerülő: 1
+
+vet fel: 1
+
+ad alkalom: 1
+
+megfelelőség: 1
+
+eltekint: 1
+
+ad mód: 1
+
+figyelem lesz: 1
+
+kerül veszély: 1
+
+lemondott: 1
+
+figyelembevenni: 1
+
+felosztás kerülő: 1
+
+vagyonátruházási: 1
+
+irányítás gyakorol: 1
+
+számítás vesz: 1
+
+le mond: 1
+
+határ szab: 1
+
+esik alá: 1
+
+elvetés: 1
+
+feltételezés: 1
+
+feltüntetési: 1
+
+meghozott határozat: 1
+
+iránymutatás ad: 1
+
+tevékenység folytathat: 1
+
+kerül megalkotás: 1
+
+visszaél: 1
+
+kifejezés juttatva: 1
+
+ad jog: 1
+
+fel függeszt: 1
+
+kivétel jelenthet: 1
+
+kiemelés: 1
+
+nyilatkozat megtesz: 1
+
+tér ad: 1
+
+végrehajt: 1
+
+fedezet szolgál: 1
+
+eljárhat: 1
+
+kerül forgalom: 1
+
+feltételezve: 1
+
+kerül megállapítás: 1
+
+ki derül: 1
+
+rész képező: 1
+
+elszámolható: 1
+
+jóváírás: 1
+
+tesz előkészület: 1
+
+meghaladhat: 1
+
+letét helyezett: 1
+
+felfüggesztő: 1
+
+felállítás: 1
+
+utasítás adhat: 1
+
+intézkedés megtétel: 1
+
+döntés hozó: 1
+
+előírva: 1
+
+köthet szerződés: 1
+
+végzett tevékenység: 1
+
+közzétesz: 1
+
+kerülhet kibocsátás: 1
+
+zár ki: 1
+
+előállítandó: 1
+
+említés kerül: 1
+
+befolyás gyakorol: 1
+
+összeolvad: 1
+
+ad szabályozás: 1
+
+történik rendelkezés: 1
+
+ellenbizonyítás él: 1
+
+esik egybe: 1
+
+állhat fenn: 1
+
+szám vet: 1
+
+többletszabály ad: 1
+
+át ruház: 1
+
+cégeljárás: 1
+
+élet léptet: 1
+
+többletfeltétel: 1
+
+törzstőke-leszállítás: 1
+
+leszállít: 1
+
+eljárás folytat: 1
+
+bevétel realizál: 1
+
+jogosítvány gyakorolhat: 1
+
+félrevezetés: 1
+
+nyilvánosság hozó: 1
+
+összefügg: 1
+
+döntés hozhat: 1
+
+rész képez: 1
+
+osztalékelsőbbség ad: 1
+
+beleegyezés megad: 1
+
+megtartott ülés: 1
+
+helytáll: 1
+
+tesz eleget: 1
+
+eljárva: 1
+
+kizárt: 1
+
+alátámasztott: 1
+
+fel vesz: 1
+
+végezhet tevékenység: 1
+
+fel hív: 1
+
+eligazítás ad: 1
+
+adhat szabályozás: 1
+
+kivétel jelent: 1
+
+szakvélemény ad: 1
+
+végrehajthat: 1
+
+tett jognyilatkozat: 1
+
+döntéshozó: 1
+
+alá támaszt: 1
+
+hozzájárulás megad: 1
+
+információ ad: 1
+
+állít fel: 1
+
+vonhat jogkör: 1
+
+szab határidő: 1
+
+be tart: 1
+
+merül fel: 1
+
+késedelem eső: 1
+
+ajánlat bekezdés tesz: 1
+
+teljesített hozzájárulás: 1
+
+hozott ítélet: 1
+
+ruház át: 1
+
+kifizetés eszközöl: 1
+
+átszáll: 1
+
+magyarázat ad: 1
+
+előállíttatás: 1
+
+jóváírás kerül: 1
+
+adhat megbízás: 1
+
+fel merülhet: 1
+
+kerül alkalmazás: 1
+
+hajthat végre: 1
+
+eljárás lefolytatás: 1
+
+jöhet szó: 1
+
+benyújtott: 1
+
+tehet ki: 1
+
+élet lépő: 1
+
+előfeltétel: 1
+
+szerez tudomás: 1
+
+értékelés ad: 1
+
+eladás kerül: 1
+
+végzett intézkedés: 1
+
+létjogosultság ad: 1
+
+igény támaszt: 1
+
+hozott hozott: 1
+
+hozandó döntés: 1
+
+vet szám: 1
+
+befolyás: 1
+

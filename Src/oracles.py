@@ -6,7 +6,10 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import Perceptron
 from sklearn.multiclass import OutputCodeClassifier
 from sklearn.svm import LinearSVC
-
+from sklearn.model_selection import train_test_split
+from sklearn.multiclass import OneVsOneClassifier
+from sklearn.multiclass import  OneVsRestClassifier
+from sklearn.metrics import precision_recall_fscore_support
 import reports
 from transTypes import TransitionType
 from features import Extractor
@@ -15,7 +18,8 @@ from perceptron import MultiClassPerceptron, Vectorizer
 from transitions import Reduce, BlackMerge, Transition, \
     Complete, MWTComplete, Merge, EmbeddingTransition, MergeAsMWT
 from transitions import Shift
-
+from sklearn.multiclass import OutputCodeClassifier
+from sklearn.svm import LinearSVC
 
 class Oracle:
     @staticmethod
@@ -55,9 +59,29 @@ class StaticOracle:
             clf = MultiClassPerceptron(transTypes, featureSet=vec.featureSet, featureData=featureData)
             clf.train()
         else:
-            clf = OutputCodeClassifier(Perceptron())
+            X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+
+            classifiers = [OutputCodeClassifier(LinearSVC(random_state=0), code_size=2, random_state=0),OneVsRestClassifier(LinearSVC(random_state=0)), OneVsOneClassifier(LinearSVC(random_state=0)) ]
+            # scores, trainedClf =  [], []
+            # for idx in range(len(classifiers)):
+            #     clf = classifiers[idx]
+            #     clf.fit(X_train, Y_train)
+            #     trainedClf.append(clf)
+            #     Y_test_pred = clf.predict(X_test)
+            #     p1 = precision_recall_fscore_support(Y_test, Y_test_pred, average='macro', labels=[10])[0]
+            #     p2 = precision_recall_fscore_support(Y_test, Y_test_pred, average='macro', labels=[7])[0]
+            #     p3 = precision_recall_fscore_support(Y_test, Y_test_pred, average='macro', labels=[9])[0]
+            #     p = (p1 + p2 + p3)/3
+            #     print p
+            #     scores.append(p)
+            idx,goldenIdx, max = 0, 0, 0
+            # for idx in range(len(scores)):
+            #     if scores[idx] > max:
+            #         goldenIdx = idx
+            clf = classifiers[goldenIdx]
+            clf.fit(X,Y)
             # LinearSVC(random_state=0), code_size=2, random_state=0)
-            clf.fit(X, Y)
+            # clf.fit(X, Y)
         return clf, vec
 
     @staticmethod
@@ -123,7 +147,8 @@ class EmbeddingOracle(StaticOracle):
 
     @staticmethod
     def parseSentence(sent, cls):
-
+        if sent.id == 7208:
+            pass
         sent.initialTransition = EmbeddingTransition(isInitial=True, sent=sent)
         transition = sent.initialTransition
         while not transition.isTerminal():
@@ -135,12 +160,6 @@ class EmbeddingOracle(StaticOracle):
     def getNextTransition(parent, sent):
         # if len(sent.vMWEs) > 0:
         #     pass
-        config = parent.configuration
-        if config.isInitial:
-            shift = Shift(sent=sent)
-            shift.apply(parent, sent)
-            return shift
-
         newTransition = MergeAsMWT.check(parent)
         if newTransition is not None:
             return newTransition
