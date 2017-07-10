@@ -6,7 +6,7 @@ Corpora
 -------
 All annotated data come from the annual workshop on statistical
 machine translation, [WMT 2015](http://statmt.org/wmt15/translation-task.html#download)
-news2013: News Crawl: articles from 2013.
+news2013: News Crawl: articles from 2013 (Bojar et al. 2016).
 
 Extra corpus data
 -----------------
@@ -40,4 +40,17 @@ The lemmas, POS-tags, morphological features and dependency tags (contained in t
 Contact
 ----------
 fabienne.cap@lingfil.uu.se
+
+References
+----------
+Bojar et al. 2016 "Findings of the 2016 conference on machine translation (WMT16)". In Proceedings of the First Conference on Machine Translation.
+
+@inproceedings{bojar2016findings,
+  title={Findings of the 2016 conference on machine translation (WMT16)},
+  author={Bojar, Ondrej and Chatterjee, Rajen and Federmann, Christian and Graham, Yvette and Haddow, Barry and Huck, Matthias and Yepes, Antonio Jimeno and Koehn, Philipp and Logacheva, Varvara and Monz, Christof and others},
+  booktitle={Proceedings of the First Conference on Machine Translation (WMT)},
+  volume={2},
+  pages={131--198},
+  year={2016}
+}
 

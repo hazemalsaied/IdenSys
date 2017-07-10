@@ -43,6 +43,7 @@ vor ort erläuterte projektleiter manfred eberle ( r & h umwelt gmbh , nürnberg
 3- **macht strich durch rechnung** (ID)
 ### Identified MWEs: 
 1- **abgeschlossen** (VPC)
+2- **h** (IReflV)
 ## Sentence No. 684 - 
 was noch schwerer wiegt : mehr sie müssen sich anmelden , um abstimmen zu können . 
 ### Existing MWEs: 
@@ -63,6 +64,8 @@ kardinal glemp in warschau beigesetzt beide sprechen von einem " sehr ambitionie
 1- **beigesetzt** (VPC)
 2- **eingerichtet** (VPC)
 3- **fertiggestellt** (VPC)
+### Identified MWEs: 
+1- **glemp** (IReflV)
 ## Sentence No. 26 - 
 bis in den vormittag liefen nacharbeiten , um das weitere eindringen eventuell kontaminierten löschwassers in die kanalisation einzudämmen . 
 ### Existing MWEs: 
@@ -106,11 +109,15 @@ auch aus den dörfern im raum kyritz wurde " direkte feindliche arbeit " gemelde
 ### Existing MWEs: 
 1- **gewachsen sei** (ID)
 2- **auf lippen hatten** (ID)
+### Identified MWEs: 
+1- **seh'n** (IReflV)
 ## Sentence No. 136 - 
 man könnte es jedenfalls vermuten , doch wahrscheinlicher ist , dass es ein unglücklicher unfall war , der sich am vergangenen dienstag zugetragen hat : gegen 13.55 uhr war der 51-jährige fahrer eines sattelzuges in der gochsheimer straße in grettstadt in richtung gochsheim unterwegs . 
 ### Existing MWEs: 
 1- **unfall zugetragen** (LVC)
 2- **zugetragen** (VPC)
+### Identified MWEs: 
+1- **13.55** (IReflV)
 ## Sentence No. 138 - 
 die lärmschutzwand sei weggefallen , weil mit den künftigen bauträgern eine reduzierung und drehung der baukörper abgestimmt wurde , man baue weniger häuser , grüne puffer und für 20 000 euro fledermaus-türme ... 
 ### Existing MWEs: 
@@ -121,6 +128,8 @@ eberhard dziwisz musste sich in seinen beiden einzeln mit 2:3 geschlagen geben ,
 ### Existing MWEs: 
 1- **geschlagen geben** (ID)
 2- **zogen kürzeren** (ID)
+### Identified MWEs: 
+1- **dziwisz** (IReflV)
 ## Sentence No. 195 - 
 in dieser altersgruppe steht der spaß am fußball im vordergrund , daher wird der schlusstag des sparkassencups traditionell nicht im turniermodus mit platzierungsspielen ausgetragen . 
 ### Existing MWEs: 
@@ -171,6 +180,7 @@ sensibles thema " da penisgröße ein sensibles thema ist , lässt sich nur schw
 2- **sich in tasche lügen** (ID)
 ### Identified MWEs: 
 1- **feststellen** (VPC)
+2- **ottawa** (IReflV)
 ## Sentence No. 291 - 
 " wir haben ja weit vorher angefangen , um zu recherchieren und uns rechtlich schlau zu machen " , sagt die sendenhorsterin . 
 ### Existing MWEs: 
@@ -196,6 +206,8 @@ es gibt bereiche im landtag , die sind frei zugänglich , und es gibt bereiche ,
 ### Existing MWEs: 
 1- **gab es** (ID, 69)
 2- **gab zur auswahl** (ID)
+### Identified MWEs: 
+1- **happy** (IReflV)
 ## Sentence No. 351 - 
 vermutlich würden die wenigsten menschen überhaupt den mut aufbringen , sich bei jemandem wie ihr zu melden ... 
 ### Existing MWEs: 
@@ -263,6 +275,8 @@ anfang der achtziger jahre prägte er diesen begriff , der weniger eine schule b
 ### Existing MWEs: 
 1- **prägte begriff** (ID)
 2- **einleitete** (VPC)
+### Identified MWEs: 
+1- **lenkte** (IReflV)
 ## Sentence No. 747 - 
 er weist darauf hin , dass nur ein drittel der patienten mit vielgelenksrheuma spontan geheilt wird , der rest jedoch chronisch krank bleibt und etwa bei nasskaltem wetter schmerzhaften schüben ausgesetzt ist . 
 ### Existing MWEs: 
@@ -320,6 +334,7 @@ telefon : 02922/91000. - fm das bildungsministerium hatte zum ende des letzten s
 ### Identified MWEs: 
 1- **einräumen** (VPC)
 2- **ausgefallenen** (VPC)
+3- **fm** (IReflV)
 ## Sentence No. 876 - 
 die bärenpark-leitung geht deshalb davon aus , dass sich berna in ihrem neuen zuhause im bulgarischen dobric problemlos einleben wird . 
 ### Existing MWEs: 
@@ -359,6 +374,7 @@ baltringen ging von der ersten minute an engagiert zur sache , setzte reinstette
 2- **setzte unter druck** (ID)
 ### Identified MWEs: 
 1- **setzte unter druck** (ID)
+2- **svr** (IReflV)
 ## Sentence No. 1037 - 
 dominieren die rechten : " autonome nationalisten " mehr bauarbeiter als banker seinen schülern gibt er , den das fieber selbst als jugendlicher gepackt hat , vor allem eines mit auf den weg : " um ein guter wrestler zu werden , muss man zuerst einmal ausstrahlung haben , aus der menge heraus stechen . 
 ### Existing MWEs: 
@@ -373,6 +389,7 @@ foto : fredrik von erichsen / dpa " die chronik der besiedlung in bildern und ur
 2- **heißt es** (ID, 28)
 ### Identified MWEs: 
 1- **heißt es** (ID)
+2- **gaben** (IReflV)
 ## Sentence No. 1066 - 
 jetzt gehe es darum , die schlussfolgerungen daraus zu ziehen . 
 ### Existing MWEs: 
@@ -437,6 +454,8 @@ ab 9 uhr geöffnet die qualifikation am freitag wurde wegen problemen mit der an
 auch der österreichische versorger evn ist unter beschuss . 
 ### Existing MWEs: 
 1- **ist unter beschuss** (ID)
+### Identified MWEs: 
+1- **evn** (IReflV)
 ## Sentence No. 31 - 
 adressierte werbesendungen per post : werbebriefe , die ihre adresse tragen , muss die post zustellen . 
 ### Existing MWEs: 
@@ -465,6 +484,8 @@ sie hinterließen jedoch einen sachschaden von rund 1000 euro .
 damit bezog sich die 15-jährige vor allem auf die bewirtung mit einer wahren unmenge von kuchen . 
 ### Existing MWEs: 
 1- **bezog sich** (IReflV, 2)
+### Identified MWEs: 
+1- **bezog** (IReflV)
 ## Sentence No. 57 - 
 es werde nach einer lösung gesucht , hieß es weiter . 
 ### Existing MWEs: 
@@ -475,6 +496,8 @@ es werde nach einer lösung gesucht , hieß es weiter .
 außerdem informiere sie sich , ob sogenannte dampfmittel für raucher unter das verbot fallen . 
 ### Existing MWEs: 
 1- **unter verbot fallen** (LVC)
+### Identified MWEs: 
+1- **fallen** (IReflV)
 ## Sentence No. 60 - 
 zum glück gibt es schon ein paar hauptsponsoren für das mammutereignis wie den kilians baeck , die sparkasse mainfranken , das gemüseland schlereth , die raiffeisenbank estenfeld-bergtheim und das autohaus rumpel & stark . 
 ### Existing MWEs: 
@@ -487,6 +510,7 @@ druckansicht : syrien : trennen uns von chemiewaffen 24.8.2011 : der vermisstenf
 1- **ausgestrahlt** (VPC, 1)
 ### Identified MWEs: 
 1- **ausgestrahlt** (VPC)
+2- **xy** (IReflV)
 ## Sentence No. 68 - 
 wie sich die lage in den teils schon geräumten stadtgebieten weiter entwickelt , hänge davon ab , wie viel wasser noch hinzukomme . 
 ### Existing MWEs: 
@@ -511,6 +535,8 @@ der schaden beläuft sich laut polizei auf 60 euro .
 am sonntagabend gingen erneut zehntausende anhänger wie auch gegner des gestürzten mursi auf die straße . 
 ### Existing MWEs: 
 1- **gingen auf straße** (ID)
+### Identified MWEs: 
+1- **gingen** (IReflV)
 ## Sentence No. 81 - 
 dokumenten information copyright © mittelhessen. de 2013 dokument erstellt am 01.05.2013 um 19:07:50 uhr letzte Änderung am 01.05.2013 um 19:08:12 uhr am sonntagabend wollte der 29-jährige zu einem kleinen boot hinausschwimmen , als ihn ein etwa zwei meter langes krokodil angriff , das ihm im wasser aufgelauert hatte . 
 ### Existing MWEs: 
@@ -637,6 +663,8 @@ und auch wenn " still " der womöglich größte hit von jupiter jones ist - leis
 auch hier gilt : regelmäßige bewegung für den ausgleich oder auch einmal mobil arbeiten. â einsam im zugabteil : die öffentlichen verkehrsmittel quellen in den stoßzeiten morgens und abends über . 
 ### Existing MWEs: 
 1- **quellen über** (VPC)
+### Identified MWEs: 
+1- **â** (IReflV)
 ## Sentence No. 166 - 
 rolfes : unabhängig von der entscheidung , die er im sommer trifft , ist die mannschaft den beiden gegenüber in einer verpflichtung . 
 ### Existing MWEs: 
@@ -796,6 +824,8 @@ vor allem mangelnde konstanz einiger akteure aus dem jungen kader habe den wefel
 im "ruby"-prozess um sex mit minderjährigen prostituierten und amtsmissbrauch wurde er in erster instanz schuldig gesprochen . 
 ### Existing MWEs: 
 1- **schuldig gesprochen** (ID)
+### Identified MWEs: 
+1- **sex** (IReflV)
 ## Sentence No. 282 - 
 die vorgeschichte : in seiner doktorarbeit beschäftigt sich dominic stoiber mit der arbeit seiner vaters , es geht um " die föderalismusreform i der bundesrepublik deutschland : beschreibung und bewertung der reform und eine analyse der bewährung in der praxis anhand des nichtraucherschutzes " . 
 ### Existing MWEs: 
@@ -818,6 +848,8 @@ bernhard mußgnug sowie die beiden vorstandsmitglieder erik bühler und rainer h
 als günter parche am 30. april 1993 mit einer plastiktüte in der hand die tennisanlage am hamburger rothenbaum betritt , hat er angst . 
 ### Existing MWEs: 
 1- **hat angst** (ID, 1)
+### Identified MWEs: 
+1- **1993** (IReflV)
 ## Sentence No. 302 - 
 © brigitte lacombe parkplätze stehen in der ortsmitte ausreichend zur verfügung . 
 ### Existing MWEs: 
@@ -906,6 +938,8 @@ der torlose zwischenstand hatte dann auch beim pausenpfiff bestand , da ein letz
 hier ging eine versauerung oft mit tiefgreifenden Änderungen im Ökosystem meer einher - bis hin zu massensterben . 
 ### Existing MWEs: 
 1- **ging einher** (VPC)
+### Identified MWEs: 
+1- **ging** (IReflV)
 ## Sentence No. 367 - 
 baader investment conference 2013 datum : 24. september 2013 , 9:00 mesz veranstaltungsort : münchen teilnehmer : dr. simon moroney , vorstandsvorsitzender der morphosys ag jens holstein , finanzvorstand der morphosys ag dr. arndt schottelius , entwicklungsvorstand der morphosys ag dr. claudia gutjahr-löser , head of corporate communications & ir beste regie - nominierte amour - michael haneke beasts of the southern wild - benh zeitlin life of pi - ang lee lincoln - steven spielberg silver linings playbook - david o. russell china müsse " internationale normen zum verantwortungsvollen verhalten im cyberspace " einhalten , verlangte hagel . 
 ### Existing MWEs: 
@@ -945,6 +979,8 @@ jetzt scheinen aber die bayern die nase vorn zu haben .
 die großen fußstapfen des jean-claude juncker dabei hatte das team von jens keller an der stamford bridge stark begonnen , aber ein böser blackout von keeper timo hildebrand brachte chelsea in die spur . 
 ### Existing MWEs: 
 1- **brachte in spur** (ID)
+### Identified MWEs: 
+1- **brachte** (IReflV)
 ## Sentence No. 388 - 
 doch die pechsträhne hielt an : gordo , ein totenkopfäffchen , so niedlich wie der kleine herr nilsson aus den pippi-langstrumpf-filmen , überlebte 1958 acht minuten schwerelosigkeit und die 40-fache erdanziehungskraft , doch ertrank er dann im meer - wieder hatte der fallschirm versagt . 
 ### Existing MWEs: 
@@ -970,6 +1006,8 @@ wenn es nach dem willen von eltern mit kleinen kindern geht , dann soll die stad
 eine reihe von aktivisten aus dem demokratischen lager beteiligte sich gar an der rassistischen hetze gegen die rohingya , die in birma nicht als ethnische minderheit anerkannt sind . 
 ### Existing MWEs: 
 1- **beteiligte sich** (IReflV)
+### Identified MWEs: 
+1- **rohingya** (IReflV)
 ## Sentence No. 401 - 
 die insgesamt 14 arbeiter , die jeden tag an der frauenburg im einsatz sind , sind damit beschäftigt , den zementmörtel aus den fugen zu beseitigen . 
 ### Existing MWEs: 
@@ -990,6 +1028,7 @@ das system basiert wie das tablet-betriebssystem des blackberry playbooks auf de
 1- **zur verfügung stellt** (ID, 3)
 ### Identified MWEs: 
 1- **zur verfügung stellt** (ID)
+2- **qnx** (IReflV)
 ## Sentence No. 412 - 
 dies solle ende dieser woche , spätestens anfang nächster woche abgeschlossen werden . 
 ### Existing MWEs: 
@@ -1008,6 +1047,8 @@ die zeit der blauen fingernägel hat er hinter sich gelassen .
 andererseits macht diese sackgasse zunehmend unwahrscheinlich , dass die us-notenbank eine baldige drosselung der wertpapierkäufe einläuten wird - gut für den aktienmarkt. âº hochintelligent , hochsensibel , romantiker , gerechtigkeitsfan . 
 ### Existing MWEs: 
 1- **einläuten** (VPC)
+### Identified MWEs: 
+1- **âº** (IReflV)
 ## Sentence No. 430 - 
 nachdem richard nur zwei jahre nach seiner thronbesteigung in der schlacht um bosworth starb , wurde er in einem franziskanerkloster beigesetzt . 
 ### Existing MWEs: 
@@ -1096,6 +1137,7 @@ sieben professoren ( mediziner , naturwissenschaftler , maschinenbauer , verfahr
 1- **durchgeführt** (VPC, 4)
 ### Identified MWEs: 
 1- **durchgeführt** (VPC)
+2- **parabelflug-** (IReflV)
 ## Sentence No. 486 - 
 auch mit verweis auf das laufende gerichtsverfahren wollte sich untersteller mit einer stellungnahme zurückhalten . 
 ### Existing MWEs: 
@@ -1153,6 +1195,7 @@ im fernsehen war die rede von einem " tsunami der himalyas " .
 1- **abgesetzt** (VPC, 3)
 ### Identified MWEs: 
 1- **abgesetzt** (VPC)
+2- **370** (IReflV)
 ## Sentence No. 532 - 
 das jugendgericht habe den damals 17-jährigen in allen hauptanklagepunkten schuldig gesprochen , sagte staatsanwalt rajiv mohan in neu delhi . 
 ### Existing MWEs: 
@@ -1217,6 +1260,7 @@ der wohnungslose adrian z. ( 28 ) steht im dringenden verdacht , eileen peters (
 1- **steht im verdacht** (LVC, 1)
 ### Identified MWEs: 
 1- **steht im verdacht** (ID)
+2- **†** (IReflV)
 ## Sentence No. 578 - 
 er war ein meister darin , sich so vage und nebulös auszudrücken wie überhaupt nur möglich . 
 ### Existing MWEs: 
@@ -1311,10 +1355,14 @@ roman zu den ursachen der störungen machte die bahn bisher keine aussagen .
 der bürgermeister gab gleichzeitig zu bedenken , dass die bürger spätestens ab dem jahr 2015 mit einer erhöhung zu rechnen heben . 
 ### Existing MWEs: 
 1- **gab zu bedenken** (ID, 1)
+### Identified MWEs: 
+1- **heben** (IReflV)
 ## Sentence No. 657 - 
 9 ( - ) paolo roversi : milano criminale aus dem italienischen von esther hansen , ullstein , 464 s. , 19,99 € er malt das paradies an die wand und guckt sich die realität nicht genau genug an . 
 ### Existing MWEs: 
 1- **malt an wand** (ID)
+### Identified MWEs: 
+1- **464** (IReflV)
 ## Sentence No. 658 - 
 " eine reine vorsichtsmaßnahme " , wie der klub mitteilte . 
 ### Existing MWEs: 
@@ -1397,6 +1445,8 @@ wernigerode ( ige ) l etwas zählbares hat sich fußball-landesligist fc einheit
 so komme eine servicekomponente zum tragen . 
 ### Existing MWEs: 
 1- **komme zum tragen** (ID)
+### Identified MWEs: 
+1- **komme** (IReflV)
 ## Sentence No. 699 - 
 das projekt macht schule . 
 ### Existing MWEs: 
@@ -1420,6 +1470,7 @@ und da fielen dann in richtung vermeintliche täter auch sätze wie " dann bring
 1- **fielen sätze** (LVC)
 ### Identified MWEs: 
 1- **bringt mit** (VPC)
+2- **fielen** (IReflV)
 ## Sentence No. 708 - 
 foto © gepagerhard rodax simon römer vom tv rot-weiß bönen neuer kreismeister erfolge bei turnier in werne wir warten alle sehnsüchtig auf den frühling , damit es endlich richtig losgehen kann " , sagt matthies . 
 ### Existing MWEs: 
@@ -1454,6 +1505,8 @@ ich denke , dass wir auf alle fälle das zeug haben , uns in der liga zu etablie
 in russland lässt der kreml ausländische ngos durchsuchen , als handele es sich um agenten-schlupflöcher . 
 ### Existing MWEs: 
 1- **handele sich um** (IReflV, 1)
+### Identified MWEs: 
+1- **kreml** (IReflV)
 ## Sentence No. 724 - 
 vier wochen nach seiner wahl zum präsidenten habe der ehrenvorsitzende des malergesangvereins , max heinritz , angerufen . 
 ### Existing MWEs: 
@@ -1474,6 +1527,8 @@ wer weniger im kopf hat , ist besser im bett , an der nase eines mannes , erkenn
 sie nutzten ebenso wie die gruppen des freestyle dance clubs des tuspo rahden die chance , mit ihren choreographien und hämmernden beats weiteren tanzbegeisterten diesen sport schmackhaft zu machen . 
 ### Existing MWEs: 
 1- **schmackhaft machen** (ID)
+### Identified MWEs: 
+1- **tuspo** (IReflV)
 ## Sentence No. 740 - 
 man habe jetzt nur unbedingt notwendiges personal in libyen dann nämlich gibt es auf und um das gelände des freilichtmuseums ein großes event . 
 ### Existing MWEs: 
@@ -1562,6 +1617,7 @@ die svp habe wegen der jüngsten skandale stimmen eingebüßt , die unzufriedenh
 1- **eingebüßt** (VPC, 1)
 ### Identified MWEs: 
 1- **eingebüßt** (VPC)
+2- **svp** (IReflV)
 ## Sentence No. 801 - 
 oft haben sie damit ja die finanzielle sicherheit aufgegeben . 
 ### Existing MWEs: 
@@ -1620,6 +1676,7 @@ das laut lvr größte familienfest für menschen mit und ohne behinderung hat bi
 1- **stattgefunden** (VPC, 12)
 ### Identified MWEs: 
 1- **stattgefunden** (VPC)
+2- **lvr** (IReflV)
 ## Sentence No. 839 - 
 " großväterchen geruhsam " nennt ihn inzwischen fast die ganze nation , weil der 58 jahre alte staatschef gegen wachsende schulden und arbeitslosigkeit , gegen rezession und verdruss außer ruhe bislang wenig aufzubieten vermochte . 
 ### Existing MWEs: 
@@ -1646,6 +1703,7 @@ in niedersachsen gibt es im emseinzugsgebiet 8 und im wesereinzugsgebiet 269 was
 1- **gibt es** (ID, 69)
 ### Identified MWEs: 
 1- **gibt es** (ID)
+2- **269** (IReflV)
 ## Sentence No. 851 - 
 gardelegen nutzte seine chancen und auch ein dreier kurz vor ultimo , bei zwei punkten rückstand , verfehlte sein ziel knapp . 
 ### Existing MWEs: 
@@ -1710,6 +1768,8 @@ es gibt aber durchaus andere angriffspunkte .
 dokumenten information copyright © wiener zeitung online 2013 dokument erstellt am 2013-11-07 18:08:06 viel wert legen die planer auch auf einen offen gestalteten eingangs- und treppenhausbereich , um begegnung und kommunikation zwischen den mitarbeitern zu fördern . 
 ### Existing MWEs: 
 1- **wert legen** (ID, 1)
+### Identified MWEs: 
+1- **2013-11-07** (IReflV)
 ## Sentence No. 898 - 
 risse in den rohren : aquawelt im maximare hamm bleibt geschlossen das räumt auch bürgermeister harald seidl ( sp ) ein . 
 ### Existing MWEs: 
@@ -1802,6 +1862,8 @@ als ausblick berichtete peter ludwig über das vorhaben , einen jahreskalender h
 sowohl die 22 jahre alte mutter als auch der 29 jahre alte vater nahmen dazu nach der verlesung der anklage keine stellung . 
 ### Existing MWEs: 
 1- **nahmen stellung** (ID)
+### Identified MWEs: 
+1- **nahmen** (IReflV)
 ## Sentence No. 957 - 
 ein auf dem balkon abgestellter schrank wurde stark beschädigt . 
 ### Existing MWEs: 
@@ -1834,6 +1896,7 @@ autor : dpa / tok das hat vor allem zwei positionen in meinem depot gut getan : 
 1- **legten zu** (VPC, 3)
 ### Identified MWEs: 
 1- **legten zu** (VPC)
+2- **aapl** (IReflV)
 ## Sentence No. 976 - 
 falkensee - schon 1923 nimmt hermann hesse im " steppenwolf " das , was da kommt , vorweg : gustav und harry schießen gemeinsam autos von der straße . 
 ### Existing MWEs: 
@@ -1897,6 +1960,8 @@ ist ein wechsel zu einem anderen klub ein thema ?
 11.56 uhr : ein paar nazis stehen in grüppchen vor und im hbf. gestartet war das dreitägige fest mit der frühjahrsprobe : alle drei abteilungswehren aus klengen , kirchdorf und Überauchen waren im einsatz . 
 ### Existing MWEs: 
 1- **waren im einsatz** (ID)
+### Identified MWEs: 
+1- **11.56** (IReflV)
 ## Sentence No. 1014 - 
 mit der verurteilung zu 20 jahren gefängnis entsprach das gericht der forderung der staatsanwaltschaft . 
 ### Existing MWEs: 
@@ -1933,6 +1998,8 @@ die wechselbereitschaft deutet sich auch in den stimmungsbildern an , also den u
 allerdings läutete vielleicht bereits der kurzzeitige 17:18-rückstand im zweiten satz jenen nie erklärlichen schlendrian ein , für den der svs berühmt-berüchtigt ist . 
 ### Existing MWEs: 
 1- **läutete ein** (VPC)
+### Identified MWEs: 
+1- **svs** (IReflV)
 ## Sentence No. 1044 - 
 poetisch , prosaisch und musikalisch stellte sie die klassischen rebsorten vor . 
 ### Existing MWEs: 
@@ -2022,6 +2089,7 @@ aberhunderte solcher wunderberichte wurden von den geistlichen aufgeschrieben - 
 1- **sieht vor** (VPC, 3)
 ### Identified MWEs: 
 1- **sieht vor** (VPC)
+2- **avi** (IReflV)
 ## Sentence No. 1100 - 
 die kölner straße ist nun wieder als alltagsroute ausgeschildert . 
 ### Existing MWEs: 
@@ -2038,6 +2106,8 @@ tschechien droht schwierige regierungsbildung - nachrichtenüberblick der schwä
 in kollerbeck gewann der gast klar und verdient , doch die letzten beiden partien gingen mit insgesamt zehn gegentoren verloren . 
 ### Existing MWEs: 
 1- **gingen verloren** (ID)
+### Identified MWEs: 
+1- **gingen** (IReflV)
 ## Sentence No. 1105 - 
 auch der chef der solarenergiefirma solarworld , frank asbeck , scheint das geschäft nicht wirklich infrage zu stellen . 
 ### Existing MWEs: 
@@ -2065,6 +2135,7 @@ maximales tempo : so schnell die stummelbeinchen es zulassen , also sagen wir ma
 1- **zulassen** (VPC, 3)
 ### Identified MWEs: 
 1- **zulassen** (VPC)
+2- **km/h.** (IReflV)
 ## Sentence No. 1124 - 
 gastronomie sei nicht vorgesehen , sagte holger kohls . 
 ### Existing MWEs: 
@@ -2128,6 +2199,8 @@ landes- und bundesverband sollen mehr geld für werbeprämien locker machen .
 und es sollte nicht sein , dass der staat bürger unter arrest stellt . 
 ### Existing MWEs: 
 1- **unter arrest stellt** (LVC)
+### Identified MWEs: 
+1- **stellt** (IReflV)
 ## Sentence No. 1178 - 
 außerdem gebe es für die unterschiedlichen flächenarten faktoren , die zu ermäßigten gebühren führten . 
 ### Existing MWEs: 
@@ -2169,6 +2242,8 @@ das wird irgendwie gehen außerdem sind tagesausflüge geplant , und der ortsver
 mit gastreferaten melden sich kanzler faymann bei der fsg und vizekanzler spindelegger bei der fcg zu wort . 
 ### Existing MWEs: 
 1- **melden sich zu wort** (ID, 2)
+### Identified MWEs: 
+1- **fcg** (IReflV)
 ## Sentence No. 1206 - 
 stattfinden soll das ganze voraussichtlich am truppenübungsplatz allentsteig in niederösterreich . 
 ### Existing MWEs: 

@@ -549,6 +549,8 @@ class Sentence:
                         line += str(mwe.id)
                     else:
                         line += ';' + str(mwe.id)
+                    if token == mwe.tokens[0]:
+                        line += ':' + str(mwe.type)
             if line.endswith('\t'):
                 line += '_'
             lines += line + '\n'

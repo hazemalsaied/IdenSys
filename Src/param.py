@@ -65,7 +65,7 @@ class Paths:
     xpName = ''
     languageName = ''
     projectPath = os.path.dirname(__file__)[:-len(os.path.basename(os.path.dirname(__file__)))]
-    configsFolder = os.path.join(projectPath, 'Experiments/Config')
+    configsFolder = os.path.join(projectPath, 'Experiments/Langs')
     corporaPath = os.path.join(projectPath, "sharedtask/")
     iterationPath = os.path.join(projectPath, "Results/")
     langResultFolder = os.path.join(projectPath, "Results/")

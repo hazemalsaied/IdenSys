@@ -526,6 +526,7 @@ rovněž poptávka v západní evropě se patrně zvýší a sníží se tak jeh
 2- **sníží se** (IReflV, 1)
 ### Identified MWEs: 
 1- **se zvýší** (IReflV)
+2- **se** (IReflV)
 ## Sentence No. 976 - 
 od konce roku 1993 se zvyšuje poptávka , do nemalé míry ji ovšem eliminují značné zásoby a dodávky z transformujících se zemí . 
 ### Existing MWEs: 
@@ -835,6 +836,8 @@ kam se poděla má bojovnost ? ptala se sama sebe po utkání martinezová .
 ### Existing MWEs: 
 1- **se poděla** (IReflV)
 2- **ptala se** (IReflV, 19)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 2079 - 
 ve třetím setu jsem zmalomyslněla , hlavou se mi honila spousta věcí , které zcela vytlačily tenis , nemohla se vzpamatovat martinezová . 
 ### Existing MWEs: 
@@ -1179,6 +1182,7 @@ známe spoustu českých knih , které by se mohly těšit čtenářskému zájm
 2- **se týká** (IReflV, 81)
 ### Identified MWEs: 
 1- **se mohly těšit** (IReflV)
+2- **se** (IReflV)
 ## Sentence No. 3045 - 
 když jsem poté přijížděl do prahy , měl jsem možnost setkávat se i se samizdatovou literaturou . 
 ### Existing MWEs: 
@@ -2793,6 +2797,8 @@ pokud se produkce omezí , budou letošní ceny stabilní a příští rok se m�
 loňskou rostoucí spotřebu plně vykryly dodávky z transformujících se zemí a ze státních zásob usa . 
 ### Existing MWEs: 
 1- **transformujících se** (IReflV, 2)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 973 - 
 země produkující cín sice míní omezit produkci , ale ve hře jsou ještě velké brazilské zásoby . 
 ### Existing MWEs: 
@@ -3108,6 +3114,7 @@ lidovým novinám se podařilo získat preambuli ústavního zákona o vyrovnan�
 1- **se podařilo** (IReflV, 169)
 ### Identified MWEs: 
 1- **se podařilo** (IReflV)
+2- **kterou** (IReflV)
 ## Sentence No. 1253 - 
 praví se v ní : parlament České republiky , vědom si své odpovědnosti vůči současným i budoucím generacím občanů Čr , je přesvědčen , že vyrovnanost veřejných financí je základním příspěvkem státu k vytváření stabilního ekonomického prostředí , které je nezbytnou podmínkou dlouhodobého rozvoje společnosti . 
 ### Existing MWEs: 
@@ -3182,6 +3189,8 @@ prohlédl si velitelské stanoviště v korenici a předsunuté monitorovací st
 zdůraznil , jaký význam má zkušenost z chorvatska pro budování nové moderní české armády , a naznačil , že se o korenickém praporu uvažuje jako o základu budoucí české brigády rychlého nasazení . 
 ### Existing MWEs: 
 1- **význam má** (LVC, 2)
+### Identified MWEs: 
+1- **význam** (IReflV)
 ## Sentence No. 1322 - 
 hudba : vzpomínáte si na miroslava macháčka , jak naléhavě vančurovsky šeptal ve středometrážním dokumentu praha , neklidné srdce evropy režisérky věry chytilové ? 
 ### Existing MWEs: 
@@ -3911,6 +3920,8 @@ upadl do dluhů , které po něm někdo tvrdě vymáhal , nebo s blížícím se
 po místnosti se batolila asi roční holčička . 
 ### Existing MWEs: 
 1- **se batolila** (IReflV)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 1907 - 
 no a pak se rozhodl , že udělá ten velký maratón . 
 ### Existing MWEs: 
@@ -4209,6 +4220,8 @@ závazné rozhodnutí ale jen těžko padne před 27 . září , kdy zasedá mě
 kolem žluté sochařské konstrukce karla nepraše se houfují novináři . 
 ### Existing MWEs: 
 1- **se houfují** (IReflV)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 2108 - 
 na protějším svahu se rozhlíží po kraji nenápadný svalnatý muž . 
 ### Existing MWEs: 
@@ -4241,6 +4254,8 @@ konečně se jim podaří zmizet ve dveřích chalupy .
 ale možná se jen pletu a je to střídání stráží . 
 ### Existing MWEs: 
 1- **se pletu** (IReflV, 6)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 2126 - 
 zdá se mi , že ženský element vnáší do politiky určité prvky , zabarvení a motivy , které tam pánové nejsou schopni vnést . 
 ### Existing MWEs: 
@@ -4759,6 +4774,7 @@ rivalita mezi českým a slovenským hokejem se často politizuje a nemá smysl 
 1- **nemá smysl** (LVC, 11)
 ### Identified MWEs: 
 1- **nemá smysl** (LVC)
+2- **se** (IReflV)
 ## Sentence No. 2511 - 
 jestliže výkony nově se tvořící české reprezentace potěšily , pak totéž nelze říct o podmínkách , které jí byly zvláště při krátkém soustředění v liberci a během přípravných zápasů s německem poskytnuty . 
 ### Existing MWEs: 
@@ -4982,6 +4998,7 @@ tuto kompenzaci jsme schopni poskytnout nejvýše tisíci předplatitelů , což
 1- **kompenzaci poskytnout** (LVC)
 ### Identified MWEs: 
 1- **je** (IReflV)
+2- **poskytnout** (IReflV)
 ## Sentence No. 2711 - 
 v havířově se rekonstrukce fotbalového stadionu zdrží 
 ### Existing MWEs: 
@@ -5060,6 +5077,8 @@ papež vykoná návštěvu při nejbližší vhodné příležitosti .
 prezident bosny alija izetbegović vyjádřil nad rozhodnutím vatikánu politování . 
 ### Existing MWEs: 
 1- **vyjádřil politování** (LVC)
+### Identified MWEs: 
+1- **vyjádřil** (IReflV)
 ## Sentence No. 2770 - 
 rok 1989 nepřinesl složité a nečekané problémy jen východní a střední evropě , ale i těm , kteří se možné komunistické agrese čtyřicet let přehledně báli . 
 ### Existing MWEs: 
@@ -5453,6 +5472,8 @@ podobně působí i scénografické řešení - zprvu navozuje dojem depresívn�
 později se však scéna rozevře v prostranství evokující atmosféru mondénních přímořských lázní , výtvarně ozvláštněnou toyenovskými reminiscencemi . 
 ### Existing MWEs: 
 1- **se rozevře** (IReflV)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 3129 - 
 přestavby jsou řešeny klouzavým pohybem jednotlivých kulis , které se zvolna shlukují či odplouvají - nejpůsobivější je úvodní seskupení . 
 ### Existing MWEs: 
@@ -5599,6 +5620,8 @@ od dubna loňského roku se rozběhl vlastní prodej jednotlivých domků .
 banka zase přislíbila úvěry pro klienty , účastnící se této výstavby . 
 ### Existing MWEs: 
 1- **účastnící se** (IReflV)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 3245 - 
 mimo to bude mít fnm v trvalém držení majetek za 67 mld kč . 
 ### Existing MWEs: 
@@ -5937,6 +5960,8 @@ přestože primárky proběhnou až za rok , zmocnily se této neudálosti sděl
 programy jednotlivých kandidátů , pokud s nimi vůbec vystoupili , se však scvrkly do jednořádkových bonmotů . 
 ### Existing MWEs: 
 1- **se scvrkly** (IReflV)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 3550 - 
 těm se televize věnovala nejvíce . 
 ### Existing MWEs: 
@@ -6245,6 +6270,8 @@ i v emali se kolem naší exoticky bílé skupinky seběhne houf .
 je uzounká , bez krajnic , okolní země se stále hlouběji zakusuje do zbytků asfaltu . 
 ### Existing MWEs: 
 1- **se zakusuje** (IReflV)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 3837 - 
 Řidiči , převážně za volanty přetížených náklaďáků , si tedy nemohou lámat hlavu , po které straně jet . 
 ### Existing MWEs: 
@@ -7012,6 +7039,8 @@ v okamžiku , kdy po něm vztáhnete ruku , začne cenit jehličkovité zoubky a
 vybavuje se mi vzpomínka na návštěvu u přítelkyně , v jejíž rodině vládl krásný kříženec ovčáka a dobrmana . - 
 ### Existing MWEs: 
 1- **vybavuje se** (IReflV)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 4486 - 
 víš , on je náš baryk docela hodnej , ale prosím tě , hlavně si teď sedni a už se nezvedej . 
 ### Existing MWEs: 
@@ -7272,6 +7301,8 @@ delegace ods na ně přišla rozhodnuta přimět slovenskou stranu , aby odkryla
 pokud bude slovenská reprezentace dál operovat touto schizofrenní variantou , byla ods rozhodnuta jednání o sestavení federální vlády ukončit . 
 ### Existing MWEs: 
 1- **sestavení vlády** (LVC, 1)
+### Identified MWEs: 
+1- **sestavení** (IReflV)
 ## Sentence No. 4650 - 
 václav klaus předsedovi mečiarovi navrhl , aby oba vstoupili do federální vlády , a tím dali veřejnosti zřetelně najevo , že obě strany alespoň na čas počítají se společným státem . 
 ### Existing MWEs: 
@@ -7606,6 +7637,8 @@ předseda kdu - Čsl josef lux i čeští a moravští biskupové včera kritizo
 Čeští a moravští biskupové vyjádřili nad klausovými výroky politování . 
 ### Existing MWEs: 
 1- **vyjádřili politování** (LVC)
+### Identified MWEs: 
+1- **vyjádřili** (IReflV)
 ## Sentence No. 4988 - 
 " nezdá se nám adekvátní pro představitele demokratického státu chtít určovat , co televize má , nebo nemá přenášet . 
 ### Existing MWEs: 
@@ -7891,6 +7924,7 @@ pokud tím myslíme základní institucionální změny v podobě změny zákon�
 1- **nemá právo** (LVC, 55)
 ### Identified MWEs: 
 1- **nemá právo** (LVC)
+2- **se** (IReflV)
 ## Sentence No. 5227 - 
 na cestě k podnikatelským ctnostem jsme se ale k rubikonu příliš nepřiblížili . 
 ### Existing MWEs: 
@@ -8138,6 +8172,8 @@ přes třicet podnikatelů Českobudějovicka už zaplatilo pět až deset tisí
 ze sportovnÍ gymnastky bÁrtovÉ se pŘes zimu stala atletka 
 ### Existing MWEs: 
 1- **se stala** (IReflV, 358)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 5395 - 
 na ženy trojskokanky si už veřejnost zvykla . 
 ### Existing MWEs: 

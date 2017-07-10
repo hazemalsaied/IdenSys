@@ -1531,6 +1531,8 @@ issa l- politiċi jafu li qegħdin 'il bogħod minn elezzjoni u għalhekk jistg�
 Ħadd ma assuma responsabbilta għad- dmija u meta l- gvern libjan qed ikompli jsibha diffiċli biex jikkontrolla eks- gruppi ta' ribelli u ġellieda iżlamiċi li jibqgħu bħala periklu fost it- taqlib li għadu sa llum jikkaratterizza l- libja wara l- waqgħa tal- eks- reġim ( ta' gaddafi ) matul is- sajf tal- 2011 . 
 ### Existing MWEs: 
 1- **jsibha diffiċli** (ID, 1)
+### Identified MWEs: 
+1- **waqgħa** (IReflV)
 ## Sentence No. 3669 - 
 tfaċċa dubju wkoll jekk l- ixkejjer kollha fil- fatt inġarrux ! 
 ### Existing MWEs: 
@@ -1697,6 +1699,8 @@ naturalment , dcg ħassitha urtata ħafna u fetħet il- bibien tal- infern kontr
 il- kor ippreżenta lil malta fil- festival credo in unum deum festival li kien organizzat mill- fondazzjoni tal- kon - katidral ta’ san Ġwann ( 2005 ) , kien il- kor ewlieni fl- opra ’ dido and aeneas ta’ purcell li ttellgħet bħala parti mill- bov opera festival ( 2005 ) , tella’ kunċert fil- berġa ta’ kastilja waqt l- ewwel notte bianca f’ malta ( 2006 ) , tella’ kunċert għal din l- art Ħelwa f’ palazzo parisio fin- naxxar ( 2007 ) , ta kunċert fil- kon - katidral ta’ san Ġwann fil- belt valletta ( october , 2008 ) u ieħor f’ palazzo parisio f’ valletta li kien mtella’ mill- ministeru għal affarijiet barranin . 
 ### Existing MWEs: 
 1- **tella’ kunċert** (LVC)
+### Identified MWEs: 
+1- **mtella’** (IReflV)
 ## Sentence No. 4062 - 
 kien fit- 22 ta’ awwissu tal- 2011 , li s- saċerdoti kienu kundannati 11 -il sena ħabs bejniethom mill- maġistrat saviour demicoli , wara li nstabu ħatja li abbużaw mis- subien meta kienu fil- kustodja tagħhom waqt li kienu jgħixu f’ dar san Ġużepp li tinsab santa venera . 
 ### Existing MWEs: 

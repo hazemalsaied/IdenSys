@@ -642,6 +642,8 @@ ten od razu rzucił się na zwierzaka i rozszarpał go na kawałki .
 ale prokurator twardo ufa złodziejowi i kieruje wniosek do sądu o aresztowanie policjantów . 
 ### Existing MWEs: 
 1- **kieruje wniosek** (LVC)
+### Identified MWEs: 
+1- **wniosek** (IReflV)
 ## Sentence No. 325 - 
 kiedy policjanci dotarli do białki , okazało się , że " długi " jest na polowaniu . 
 ### Existing MWEs: 
@@ -1905,6 +1907,8 @@ cementowe spoiny do płytek ceramicznych , czyli tzw . fugi , są zwykle wodoodp
 szef mon jerzy szmajdziński poinformował o powrocie z tego kraju dwóch naszych oficerów , którzy przeprowadzili ostatni rekonesans przed wyjazdem polskiego kontyngentu . 
 ### Existing MWEs: 
 1- **przeprowadzili rekonesans** (LVC)
+### Identified MWEs: 
+1- **przeprowadzili** (IReflV)
 ## Sentence No. 1478 - 
 w ciągu kilku najbliższych dni mają zostać podjęte ostateczne decyzje . 
 ### Existing MWEs: 
@@ -2011,6 +2015,7 @@ najsilniejsze ugrupowanie akcji wyborczej rs aws sprzeciwia się przeprowadzeniu
 1- **sprzeciwia się** (IReflV, 6)
 ### Identified MWEs: 
 1- **sprzeciwia się** (IReflV)
+2- **przeprowadzeniu** (IReflV)
 ## Sentence No. 1532 - 
 system komunikacyjny warszawy sypie się jak wiadukt w al . jerozolimskich . 
 ### Existing MWEs: 

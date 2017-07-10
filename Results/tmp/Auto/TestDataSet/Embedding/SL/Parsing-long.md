@@ -55,6 +55,7 @@ merila sta se izpod čela , oče je dvignil skodelico in spustil po grlu zadnji 
 ### Identified MWEs: 
 1- **se dvignil** (IReflV)
 2- **sta** (IReflV)
+3- **merila** (IReflV)
 ## Sentence No. 42 - 
 prisotni v sobi so se že napolnili s tremi dvojnimi odmerki vodke , kot običajno so pognali po grlu eno za drugo , takoj nato pa prižgali vsak svoj zavitek - to je bil hkrati trenutek , ko je glasba s svojimi temnimi toni preplavila hišo in se razlila prek trga , tako da so nekje na polovici zvitka zaslišali trkanje po vratih pameti , le trenutek zatem pa sta jo pijača in dim zavzela v enem samem naskoku in jo zdrobila v prah . 
 ### Existing MWEs: 
@@ -113,6 +114,7 @@ ravna se po načelu , da gre samo osel dvakrat na led .
 2- **gre samo osel dvakrat na led** (ID)
 ### Identified MWEs: 
 1- **ravna se** (IReflV)
+2- **načelu** (IReflV)
 ## Sentence No. 460 - 
 nasvet : če vaša oblačila dajejo vtis , da jih ni težko sleči , mu gre to zelo težko iz glave . 
 ### Existing MWEs: 
@@ -135,6 +137,7 @@ zanesete se lahko , da vas bo pripeljal do vrhunca .
 2- **pripeljal do** (LVC, 1)
 ### Identified MWEs: 
 1- **se pripeljal** (IReflV)
+2- **zanesete** (IReflV)
 ## Sentence No. 486 - 
 vodnar in lev : na začetku se zdi njuno razmerje vznemirljivo in obetavno , sčasoma pa lahko pride do prave zmešnjave . 
 ### Existing MWEs: 
@@ -474,6 +477,8 @@ v kakšen vrtinec nizkotnosti sem padel !
 in nazaj naj bi jo dobil z igro , ki je nisem poznal - v nasprotju s temi izkoreninjenimi otroki , ki niti z očesom ne trenejo , ko se poslavljajo od svojih mater ! 
 ### Existing MWEs: 
 1- **z očesom trenejo** (ID)
+### Identified MWEs: 
+1- **trenejo** (IReflV)
 ## Sentence No. 132 - 
 kaj naj si mislimo o igri takšnih otrok ? 
 ### Existing MWEs: 
@@ -680,6 +685,7 @@ eno najprimernejših mest za odlaganje jajc bi bila v hrvaškem delu jadrana lah
 1- **se izogibajo** (IReflV, 1)
 ### Identified MWEs: 
 1- **najprimernejših** (IReflV)
+2- **eno** (IReflV)
 ## Sentence No. 363 - 
 do zdaj so zasledili 22 označenih primerkov , po čemer sklepajo , da je zanje hrvaška obala precej pomemben migracijski koridor , zlasti za želve , ki se parijo v grčiji . 
 ### Existing MWEs: 
@@ -1111,6 +1117,8 @@ od tega mojega idiotskega spodnjega rakurza se mi je zvrtelo , skoraj bi se razb
 sila , ki si je zamislila ti dve stavbi , je bila več kot človeška . 
 ### Existing MWEs: 
 1- **si zamislila** (IReflV, 1)
+### Identified MWEs: 
+1- **bila** (IReflV)
 ## Sentence No. 898 - 
 ampak nisem si mogel kaj , da se ne bi vračal k stolpoma , kamero sta mi dobesedno posrkavala ta nebesna svoda . 
 ### Existing MWEs: 
@@ -1327,6 +1335,8 @@ gre za sinergično interakcijo militarizacije , desničarskih družinskih ideolo
 tisto , za kar gre v razpravah o modernizmu in postmodernizmu , je vzorec razmerij med telesi in jezikom ter v njih . 
 ### Existing MWEs: 
 1- **za gre** (VPC, 6)
+### Identified MWEs: 
+1- **gre** (IReflV)
 ## Sentence No. 1186 - 
 ta " konzervativna " razsežnost pri wilsonu in številnih drugih sociobiologih je bila predmet ostre kritike s strani evolucijskih teoretikov , ki so si upali mnogo dlje pri procesu denaturiranja koordinacijskih načel na vseh stopnjah biotske organizacije v organski biologiji od genskih fragmentov do ekosistemov . 
 ### Existing MWEs: 
@@ -1424,6 +1434,8 @@ skozi tirolske alpske doline se prek inntalske avtoceste z nemčije na jug v ita
 nobeno od dejanj spričo okoliščin ne deluje bog ve kako “ rešilno ” , saj s tistim strelom ali injekcijo zadev res nismo kaj prida rešili ali razrešili . 
 ### Existing MWEs: 
 1- **bog ve** (ID)
+### Identified MWEs: 
+1- **okoliščin** (IReflV)
 ## Sentence No. 1326 - 
 ob navedenih primerih rabe govorice naletimo tudi na različne kombinacije , kot so : “ milostni ” strel , strel iz “ usmiljenja ” , vendar bi tudi analiza teh zvez pokazala podobne rezultate . 
 ### Existing MWEs: 
@@ -1469,6 +1481,8 @@ janja je vedela , da je noseča po ' klasičnih ' nosečniških znakih - izostan
 domačim dolgo nisva povedala , vendar če nekaj skrivaš , se še prej razve . « 
 ### Existing MWEs: 
 1- **se razve** (IReflV)
+### Identified MWEs: 
+1- **domačim** (IReflV)
 ## Sentence No. 1379 - 
 kljub temu pa bi morali uvesti podporno službo , ki bi v prvi fazi skrbela predvsem za nadzor nad delovanjem podajalcev , kasneje pa tudi za nadzor nad delovanjem bralnih enot , če bi jih uporabili za samodejno sprejemanje plačilnih kartic . 
 ### Existing MWEs: 
@@ -1687,6 +1701,8 @@ poskušal sem se tudi zbrati za primer , če bi našla kaj nepričakovanega .
 od srca se mi je odvalil tono težak kamen . 
 ### Existing MWEs: 
 1- **od srca se odvalil kamen** (ID)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 1702 - 
 casanova se je zavedal , da bolj kakor vse drugo pogreša svojega najboljšega prijatelja . 
 ### Existing MWEs: 
@@ -1730,10 +1746,14 @@ stefano lusa , eden od analitikov demografskega gibanja v slovenski istri , je z
 Če je vodilo neke nacionalne pripadnosti kakršen koli finančni , materialni ali drugi interes , potem lahko sklepamo , da je bilo leta 1991 več italijanov zato , ker se je tedaj po takšni logiki izplačalo biti italijan . 
 ### Existing MWEs: 
 1- **se izplačalo** (IReflV, 1)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 1782 - 
 po zadnjem štetju v sloveniji pa se ne izplača biti nič ( ne samo italijan ali madžar ) : tudi slovencev je 58 tisoč manj , manj je srbov , hrvatov , muslimanov in Črnogorcev . 
 ### Existing MWEs: 
 1- **se izplača** (IReflV, 1)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 1790 - 
 slišal sem , da se je s podjetništvom začel ukvarjati že kot študent . 
 ### Existing MWEs: 
@@ -1744,6 +1764,7 @@ nimate veliko stika z žogo in rokometaši pravijo , da je vaša naloga » delat
 1- **delati gužvo** (LVC)
 ### Identified MWEs: 
 1- **veliko stika z** (OTH)
+2- **nimate** (IReflV)
 ## Sentence No. 1822 - 
 vsekakor pa si za vsako takšno podobo predstavljamo , da je prava . 
 ### Existing MWEs: 
@@ -1863,6 +1884,8 @@ bolj brezupno ko se počuti , boljše bo .
 vsak novinec pričakuje med nami tovrstnega duha , tako da ob spoznanju , da se ne gremo lova na čarovnice , občuti neznansko olajšanje . 
 ### Existing MWEs: 
 1- **se gremo** (IReflV, 2)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 1941 - 
 nadalje smo mnenja , da mu ne smete nikoli govoriti , kaj da mora ukreniti v zvezi s svojim pitjem . 
 ### Existing MWEs: 
@@ -1967,6 +1990,8 @@ seveda se knjižici danes pozna tedanje kulturno politično ozračje , pri » Č
 premnoge zgradbe so priča neusmiljenemu izmaličenju zgodovinske in narodne dediščine . 
 ### Existing MWEs: 
 1- **so priča** (LVC, 2)
+### Identified MWEs: 
+1- **premnoge** (IReflV)
 ## Sentence No. 2078 - 
 danes stane povprečno stanovanje 10 letnih plač , ob tem pa petina slovencev nima za kruh . 
 ### Existing MWEs: 
@@ -1989,6 +2014,7 @@ studeno pri postojni , 6. - sorodniki , ki so v soboto zvečer prišli k 70 - le
 1- **naleteli na** (VPC, 6)
 ### Identified MWEs: 
 1- **naleteli na** (VPC)
+2- **postojni** (IReflV)
 ## Sentence No. 2114 - 
 dekle je zadevo prijavilo dan potem , ko se je zgodila . 
 ### Existing MWEs: 
@@ -2135,6 +2161,8 @@ vendar v procesu zastoja niso igrali vloge samo omenjeni osnovni dejavniki , tem
 " domačije ne urejamo zaradi nagrad , temveč zaradi boljšega počutja , " pravi starihova , ki tudi meni , da zadnja leta na marsikateri kmečki domačiji vzorno skrbijo za urejenost , a morda ne vedo za akcijo ali pa se nanjo ne prijavijo zaradi svoje skromnosti . 
 ### Existing MWEs: 
 1- **skrbijo za** (VPC, 1)
+### Identified MWEs: 
+1- **se** (IReflV)
 ## Sentence No. 2397 - 
 kot dober primer pripravljenosti , da bi v praksi lahko uresničevali akcijski program ukrepov nacionalnega programa varstva okolja ( npvo ) in strategije za ohranjevanje biotske raznovrstnosti , krajinske pestrosti ter varstva naravnih vrednot , pozivamo naslovnike , naj čimprej skličejo sestanek ribiške družine ribnica in izvajalcev gradbenih del ter se ob bistrici na kraju samem dogovorijo o nadaljnih delih oz. boljšem sodelovanju . 
 ### Existing MWEs: 

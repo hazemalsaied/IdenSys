@@ -46,6 +46,7 @@ class Main(object):
             g = self.gold.popleft()
             p = self.pred.popleft()
             self.filter_categories(g)
+            self.filter_categories(p)
             self.compare_sentences(g, p)
             g_mwes, p_mwes = self.to_mwes(g), self.to_mwes(p)
             if self.args.debug:
@@ -56,7 +57,7 @@ class Main(object):
             c_tokbased.increment_tokbased(g_mwes, p_mwes)
 
             if self.args.debug:
-                print("DEBUG:", file=sys.stderr)
+                print("DEBUG:")
 
         self.print_stats(c_mwebased)
         self.print_stats(c_tokbased)
@@ -101,6 +102,8 @@ class Main(object):
                     in word.mwes_id_categ() if mwe_categ in self.categs_to_filter)
             sentence.words[i] = word._replace(mwe_codes={m for m in word.mwe_codes
                     if tsvlib.mwe_code_to_id_categ(m)[0] in good_mwe_ids})
+        # if good_mwe_ids:
+        #     print(good_mwe_ids)
 
 
     def to_mwes(self, tsv_sent):
@@ -225,7 +228,7 @@ class ParsemeBipartiteGraph:
     def cost(self, g, p):
         r"""cost(set, set) -> int"""
         return - self.weight(g, p)
-    
+
     def weight(self, g, p):
         r"""weight(set, set) -> int"""
         return len(g&p)

@@ -286,6 +286,8 @@ framför allt när man har en sådan tung akt som killer mike på scen den här 
 från början var det tänkt att man skulle nöja sig med en ombyggnad av den befintliga förskolan . 
 ### Existing MWEs: 
 1- **nöja sig** (IReflV)
+### Identified MWEs: 
+1- **nöja** (IReflV)
 ## Sentence No. 267 - 
 bo spelade en framträdande roll , som socialläkare med sin gedigna psykoanalytiska kompetens kom han att bli en auktoritet , särskilt skickad att handleda läkare , psykologer och socionomer för att ta sig an de allra svåraste fallen . 
 ### Existing MWEs: 
@@ -316,6 +318,8 @@ ute i världen drog många människor i många länder en suck av lättnad , om 
 • gammal handduk som går att fläcka ner 
 ### Existing MWEs: 
 1- **fläcka ner** (VPC)
+### Identified MWEs: 
+1- **ner** (IReflV)
 ## Sentence No. 297 - 
 det kan vara en växt som är felplanterad eller en trädgårdsmöbel som helt enkelt inte passar in för tillfället . 
 ### Existing MWEs: 

@@ -81,6 +81,7 @@ es un objetivo ambicioso , si se tiene en cuenta que en la presentación de el m
 1- **pusieron de relieve** (ID)
 ### Identified MWEs: 
 1- **se tiene** (IReflV)
+2- **pusieron** (IReflV)
 ## Sentence No. 353 - 
 pero aquí , en ese resto , también se cuecen sus propias habas : por ejemplo , la organización federativa de comisiones obreras impugna ante los tribunales el acuerdo a el que en su día llegaron la dirección de el hospital de sant pau y la asociación profesional de enfermería . 
 ### Existing MWEs: 
@@ -415,6 +416,8 @@ tejiendo alianzas en la españa plural
 el actor es el único que puede comunicar se con el público 
 ### Existing MWEs: 
 1- **comunicar se** (IReflV)
+### Identified MWEs: 
+1- **público** (IReflV)
 ## Sentence No. 39 - 
 españa se mantiene quinta en el ranking de la fifa a tres semanas de el mundial 
 ### Existing MWEs: 
@@ -439,6 +442,8 @@ un 70 % de los presos en latinoamérica no ha sido condenado sino que está bajo
 españa debe levantar el manto de silencio 
 ### Existing MWEs: 
 1- **levantar manto de silencio** (ID)
+### Identified MWEs: 
+1- **silencio** (IReflV)
 ## Sentence No. 138 - 
 occidente se equivoca con rusia 
 ### Existing MWEs: 
@@ -453,6 +458,8 @@ si no atraemos alumnos de todo el mundo , es que algo no va bien
 encarcelado en málaga un hombre por mantener relaciones sexuales con una menor de 13 años 
 ### Existing MWEs: 
 1- **mantener relaciones sexuales** (LVC)
+### Identified MWEs: 
+1- **años** (IReflV)
 ## Sentence No. 160 - 
 el jurista que se opuso a la retirada de el respirador de echevarría cree que es delito 
 ### Existing MWEs: 
@@ -463,6 +470,8 @@ el jurista que se opuso a la retirada de el respirador de echevarría cree que e
 ten cuidado : 'eso ' sigue pasando 
 ### Existing MWEs: 
 1- **ten cuidado** (LVC)
+### Identified MWEs: 
+1- **pasando** (IReflV)
 ## Sentence No. 177 - 
 contador no se rinde y atacará 
 ### Existing MWEs: 
@@ -1533,6 +1542,8 @@ hablar de el español de américa como un subdialecto de el andaluz no deja de s
 dicen que la causa de ese silbido o ese zumbido es la irritación de el nervio acústico , y a mí no me extraña que el martillo , el yunque y el estribo puedan de golpe poner se a armar follón sólo porque sí , porque les viene en gana . 
 ### Existing MWEs: 
 1- **viene en gana** (ID)
+### Identified MWEs: 
+1- **poner** (IReflV)
 ## Sentence No. 1234 - 
 y ¿ qué querrá decir incendiar el conjunto ? 
 ### Existing MWEs: 

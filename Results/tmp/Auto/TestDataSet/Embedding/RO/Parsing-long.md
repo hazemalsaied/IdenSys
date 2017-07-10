@@ -665,6 +665,8 @@ tradiția bisericească ne spune că fecioara maria a fost fiica lui ioachim și
 maria nu și - a pierdut cumpătul în fața acestei solii creștine , ci îndrăznește să întrebe , plină de curaj : 
 ### Existing MWEs: 
 1- **și pierdut cumpătul** (ID)
+### Identified MWEs: 
+1- **și** (IReflV)
 ## Sentence No. 1052 - 
 acestei întrebări arhanghelul îi dezvăluie modul minunat în care se va petrece zămislirea pruncului , subliniind din nou dumnezeirea lui : 
 ### Existing MWEs: 
@@ -1405,6 +1407,8 @@ manifestarea se va desfășura în data de 27 martie , ora 19 , la facultatea de
 startul se va da la ora 10 , 01 , din parcarea hotelului „ continental “ , și va fi urmat de un autoslalom paralel pe str . i . c . brătianu ; 
 ### Existing MWEs: 
 1- **startul da** (ID, 1)
+### Identified MWEs: 
+1- **startul** (IReflV)
 ## Sentence No. 2898 - 
 un asemenea curs , de legumicultori , se va desfășura în curând pe zona timișoara , data de începere urmând a fi stabilită după înscrierea a cel puțin 15 persoane . 
 ### Existing MWEs: 
@@ -1508,6 +1512,8 @@ prima schimbare majoră la aproape 30 de ani de la introducerea întâiului cod 
 la dispoziția clienților , „ poșta română “ va pune un set de 3 volume : 
 ### Existing MWEs: 
 1- **la dispoziția pune** (LVC)
+### Identified MWEs: 
+1- **pune** (IReflV)
 ## Sentence No. 3029 - 
 la inițiativa prefecturii timiș , în 6 martie , la timișoara a avut loc o întâlnire a principalelor firme cu activități de export din județ . 
 ### Existing MWEs: 
