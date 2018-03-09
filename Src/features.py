@@ -1,7 +1,7 @@
-from corpus import Corpus, Sentence, Token
-from param import FeatParams
 from config import Configuration
-from param import XPParams
+from corpus import Corpus, Sentence, Token, getTokens
+from param import FeatParams
+
 
 class Extractor:
     @staticmethod
@@ -26,11 +26,9 @@ class Extractor:
         configuration = transition.configuration
 
         if FeatParams.smartMWTDetection:
-            if configuration.stack and isinstance(configuration.stack[-1], Token) and configuration.stack[-1].getLemma() in Corpus.mwtDictionary:
-                if XPParams.includeEmbedding:
-                    transDic['isMWT_' + Corpus.mwtDictionary[configuration.stack[-1].getLemma()].lower()] = True
-                else:
-                    transDic['isMWT'] = True
+            if configuration.stack and isinstance(configuration.stack[-1], Token) and configuration.stack[
+                -1].getLemma() in Corpus.mwtDictionary:
+                transDic['isMWT_' + Corpus.mwtDictionary[configuration.stack[-1].getLemma()].lower()] = True
                 # return transDic
         # TODO return transDic directly in this case
         if FeatParams.useStackLength and len(configuration.stack) > 1:
@@ -81,7 +79,7 @@ class Extractor:
 
         # Distance information
         if FeatParams.useS0B0Distance and len(configuration.stack) > 0 and len(configuration.buffer) > 0:
-            stackTokens = Configuration.getToken(configuration.stack[-1])
+            stackTokens = getTokens(configuration.stack[-1])
             transDic['S0B0Distance'] = str(
                 sent.tokens.index(configuration.buffer[0]) - sent.tokens.index(stackTokens[-1]))
         if FeatParams.useS0S1Distance and len(configuration.stack) > 1 and isinstance(configuration.stack[-1], Token) \
@@ -137,7 +135,7 @@ class Extractor:
                 bufidx = 0
                 for bufElem in configuration.buffer[:5]:
                     if bufElem.lemma != '' and (
-                                    (tokenTxt + ' ' + bufElem.lemma) in key or (bufElem.lemma + ' ' + tokenTxt) in key):
+                            (tokenTxt + ' ' + bufElem.lemma) in key or (bufElem.lemma + ' ' + tokenTxt) in key):
                         transDic['S0B' + str(bufidx) + 'ArePartsOfMWE'] = True
                         transDic['S0B' + str(bufidx) + 'ArePartsOfMWEDistance'] = sent.tokens.index(
                             bufElem) - sent.tokens.index(tokens[-1])
@@ -158,7 +156,7 @@ class Extractor:
             transDic[label + '_LastThreeLetters'] = token.text[-3:]
             transDic[label + '_LastTwoLetters'] = token.text[-2:]
         if FeatParams.useDictionary and ((
-                                                         token.lemma != '' and token.lemma in Corpus.mweTokenDic.keys()) or token.text in Corpus.mweTokenDic.keys()):
+                                                 token.lemma != '' and token.lemma in Corpus.mweTokenDic.keys()) or token.text in Corpus.mweTokenDic.keys()):
             transDic[label + 'IsInLexic'] = 'true'
 
     @staticmethod

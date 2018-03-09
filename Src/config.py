@@ -1,7 +1,5 @@
-from corpus import Token
-import  collections
 class Configuration:
-    def __init__(self, buffer=[], stack=[], tokens=[], isInitial=False,sent=None, transition=None, isTerminal=False):
+    def __init__(self, stack, buffer, tokens, sent, transition, isInitial=False ):
 
         self.buffer = buffer
         self.stack = stack
@@ -13,71 +11,42 @@ class Configuration:
         self.legalTrans = {}
 
     def isTerminalConf(self):
-        if len(self.buffer) == 0 and len(self.stack) == 0:
+        if not self.buffer and not self.stack:
             return True
         return False
 
     def __str__(self):
+        stackStr = printStack(self.stack)
+        buffStr = '[ '
+        if self.buffer:
+            for elem in self.buffer[:2]:
+                buffStr += elem.text + ','
+            buffStr += ' ..' if len(self.buffer) > 2 else ''
+        buffStr += ']'
+        return 'S=' + stackStr + ' B=' + buffStr
 
-        stackStr = Configuration.printStack(self.stack)
-        if len(self.buffer) > 0:
-            buffStr = '[' + self.buffer[0].text
-            if len(self.buffer) > 1:
-                buffStr += ', ' + self.buffer[1].text
-                if len(self.buffer) > 2:
-                    buffStr += ', ' + self.buffer[2].text + ' ,.. '
-                else:
-                    buffStr += ' ,.. '
-            buffStr += ']'
+
+def printStack(elemlist):
+    stackStr = ''
+    elemlistStrs = getStackElems(elemlist)
+    for r in elemlistStrs:
+        if r == '[' or r == ']':
+            if stackStr.endswith(', '):
+                stackStr = stackStr[:-2]
+            stackStr += r
         else:
-            buffStr = '[ ]'
-        return 'S= ' + stackStr + ' B= ' + buffStr  # + ' ; VMWEs = ' + tokensStr
+            stackStr += r + ', '
+    return stackStr + ' ' * (25 - len(stackStr))
 
-    @staticmethod
-    def printStack(elemlist):
 
-        result = '['
-        for elem in elemlist:
-            if isinstance(elem, Token):
-                result += elem.text + ', '
-            elif isinstance(elem, list):
-                result += Configuration.printStack(elem)
-        if result == '[':
-            return result + ']  '
-        return result[:-2] + ']  '
-
-    @staticmethod
-    def getStackFeatures(elem, pos):
-        transDic = {}
-        elemTitle = 'S' + pos
-        if isinstance(elem, Token):
-
-            transDic[elemTitle + 'Token'] = elem.text
-            transDic[elemTitle + 'POS'] = elem.posTag
-            transDic[elemTitle + 'Lemma'] = elem.lemma
-            return transDic
-        elif isinstance(elem, list):
-            tokens = Configuration.getToken(elem)
-            transDic[elemTitle + 'Token'] = ''
-            transDic[elemTitle + 'POS'] = ''
-            transDic[elemTitle + 'Lemma'] = ''
-            for token in tokens:
-                transDic[elemTitle + 'Token'] += token.text + '-'
-                transDic[elemTitle + 'POS'] += token.posTag + '-'
-                transDic[elemTitle + 'Lemma'] += token.lemma + '-'
-
-        return transDic
-
-    @staticmethod
-    def getToken(elemlist):
-        if isinstance(elemlist, Token):
-            return [elemlist]
-        if isinstance(elemlist, collections.Iterable):
-            result = []
-            for elem in elemlist:
-                if isinstance(elem, Token):
-                    result.append(elem)
-                elif isinstance(elem, list):
-                    result.extend(Configuration.getToken(elem))
-            return result
-        return [elemlist]
+def getStackElems(elemlist):
+    elemlistStrs = ['[']
+    for elem in elemlist:
+        if str(elem.__class__) == 'corpus.Token':
+            elemlistStrs.append(elem.text)
+        elif isinstance(elem, list) and len(elem) == 1 and isinstance(elem[0], list):
+            elemlistStrs.extend(getStackElems(elem[0]))
+        elif isinstance(elem, list) and len(elem):
+            elemlistStrs.extend(getStackElems(elem))
+    elemlistStrs.append(']')
+    return elemlistStrs
