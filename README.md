@@ -9,7 +9,7 @@ This system has participated in the competition of MWE Shared task - EACL 2017 (
 **SourceCode**: The folder Src
 
 
-Overview of the source code:
+***Overview of the source code***:
 
 The identifier runs using identify function (identifier.py).
 The input of the system is a set of configurations:
@@ -26,13 +26,13 @@ The actual version is very light (No reports, no analysis and no code for additi
 
 A good start to understand the code is to start with the identifier script and to follow the code.
 
-**N.B:**The folder script contain multiple secondary scripts used for
+**NB:**The folder script contain multiple secondary scripts used for
 1- **baseline.py**: creating a baseline system for identifying Sharedtask MWE using string matching techniques
 2- **marmot.py** and **mateParsing.py** which were used to generate the automatic annotation (POS tags and syntaxic annotations) for languages whose annotations where manulally annotated (FR, CS, HU, and PL).
 
 
 
-*Citation:*
+***Citation:***
 
 Al Saied, H., Constant, M., & Candito, M. (2017). The atilf-llf system for parseme shared task: a transition-based verbal multiword expression tagger. In Proceedings of the 13th Workshop on Multiword Expressions (MWE 2017) (pp. 127-132).
 
