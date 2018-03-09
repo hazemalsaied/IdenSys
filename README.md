@@ -13,13 +13,17 @@ This system has participated in the competition of MWE Shared task - EACL 2017 (
 
 The identifier runs using identify function (identifier.py).
 The input of the system is a set of configurations:
+
 1- the language you want to test and its feature group (This should be represented as a json file in "Experiments/xp").
-N.B. configuration files with our preferred feature group are available in 'Experiments/Langs'.
+
+**NB** configuration files with our preferred feature group are available in 'Experiments/Langs'.
 
 2- The mode of evaluation:
 
 A- Debug mode: used during development for faster execution time;
+
 B- Test Mode: using the full version of Shared task train and test data sets;
+
 C- Cross validation mode: A 5-fold cross validation evaluation over the  Shared task train data (No shuffle used).
 
 The actual version is very light (No reports, no analysis and no code for additional experiments).
