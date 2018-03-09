@@ -28,7 +28,10 @@ def identify():
             for x in range(len(testRange)):
                 logging.warn('Iteration no.' + str(x + 1))
                 XPParams.currentIteration = x
-                evalScores = identifyCorpus(corpus)
+                corpus.update()
+                clf = train(corpus)
+                parse(corpus, clf)
+                evalScores = evaluate(corpus)
                 for i in range(len(evalScores)):
                     scores[i] += evalScores[i]
             for i in range(len(scores)):
@@ -36,14 +39,12 @@ def identify():
             logging.warn(' F-Score: ' + str(scores[0]))
         else:
             # evaluation over Train-dev or Train-Test:
-            identifyCorpus(corpus)
+            corpus.update()
+            clf = train(corpus)
+            parse(corpus, clf)
+            evaluate(corpus)
 
-def identifyCorpus(corpus):
-    corpus.update()
-    clf = train(corpus)
-    parse(corpus, clf)
-    scores = evaluate(corpus)
-    return scores
+
 
 
 reload(sys)
@@ -53,7 +54,7 @@ logging.basicConfig(level=logging.WARNING)
 
 # Run the identifier
 if __name__ == '__main__':
-    XPParams.realExper = True
+    XPParams.debug = True
     identify()
 
 

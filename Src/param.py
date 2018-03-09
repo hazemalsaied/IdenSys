@@ -4,7 +4,7 @@ import os
 
 # Experiment settings
 class XPParams:
-    debug = True
+    debug = False
     realExper = False
     useCrossValidation = False
     currentIteration = 0
