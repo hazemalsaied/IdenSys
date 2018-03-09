@@ -1,9 +1,8 @@
 import reports
 from config import Configuration
-from transTypes import TransitionType, MWTTransitionType
 from corpus import VMWE, Sentence, Token
 from param import XPParams, Counters
-
+from transTypes import TransitionType, MWTTransitionType
 
 
 class Transition(object):
@@ -155,21 +154,22 @@ class Transition(object):
         pass
 
     def __str__(self):
-        result , tab = '', '&nbsp;'
+        result, tab = '', '&nbsp;'
         transition = self
 
         while True:
             if transition.type is not None:
                 type = transition.type.name
             else:
-                type = tab*8
+                type = tab * 8
             configuration = str(transition.configuration)
             result += str(
-                transition.id) + '- **' + type + '**' + tab*6 +  '>' + tab*3 + configuration + '\n\n'
+                transition.id) + '- **' + type + '**' + tab * 6 + '>' + tab * 3 + configuration + '\n\n'
             if transition.next is None:
                 break
             transition = transition.next
         return result
+
 
 class Complete(Transition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
@@ -177,7 +177,7 @@ class Complete(Transition):
         self.type = TransitionType.COMPLETE
 
     def apply(self, parent, sent, vMWEId=None, parse=False):
-        Counters.completeNum +=1
+        Counters.completeNum += 1
         config = parent.configuration
         newBuffer = list(config.buffer)
         newStack = list(config.stack)
@@ -202,7 +202,7 @@ class Complete(Transition):
         super(Complete, self).__init__(config=newConfig, previous=parent, sent=sent)
 
     @staticmethod
-    def checkForVMWE( transition):
+    def checkForVMWE(transition):
         config = transition.configuration
         sent = config.sent
         # Check up for a possible COMPLETE of MWE after a MERGE transition
@@ -235,7 +235,7 @@ class Complete(Transition):
         return None
 
     @staticmethod
-    def checkForToken( parent):
+    def checkForToken(parent):
         config = parent.configuration
         sent = config.sent
         # Check again for one word COMPLETE
@@ -262,19 +262,19 @@ class Complete(Transition):
             for vmwe in sent.vMWEs:
                 if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
                     continue
-                allInList, someInList= True, False
+                allInList, someInList = True, False
                 stackTokens = Sentence.getTokens(config.stack[-1])
-                for t in stackTokens :
+                for t in stackTokens:
                     if not t.In(vmwe):
                         allInList = False
                     else:
                         someInList = True
-                if len(stackTokens) == len(vmwe.tokens) and allInList :
+                if len(stackTokens) == len(vmwe.tokens) and allInList:
                     return 0
                 else:
                     allInList = False
                 if not allInList and someInList:
-                    cost +=1
+                    cost += 1
 
         elif isinstance(config.stack[-1], Token):
             if config.stack[-1].parentMWEs is None or len(config.stack[-1].parentMWEs) == 0:
@@ -282,25 +282,27 @@ class Complete(Transition):
             else:
                 for vmwe in config.stack[-1].parentMWEs:
                     if config.stack[-1].In(vmwe) and len(vmwe.tokens) > 1:
-                        cost +=1
+                        cost += 1
                 return cost
         return cost
+
 
 class Merge(Transition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
         super(Merge, self).__init__(type, config, previous, next, isInitial, sent)
         self.type = TransitionType.MERGE
 
-    def apply(self, parent, sent,vMWEId=None,parse=False):
+    def apply(self, parent, sent, vMWEId=None, parse=False):
         Counters.mergeNum += 1
         config = parent.configuration
         newStack = list(config.stack)[:-2]
         newStack.append([config.stack[-2], config.stack[-1]])
-        newConfig = Configuration(stack=newStack, buffer=list(config.buffer), tokens=list(config.tokens), sent=sent, transition=self)
+        newConfig = Configuration(stack=newStack, buffer=list(config.buffer), tokens=list(config.tokens), sent=sent,
+                                  transition=self)
         super(Merge, self).__init__(config=newConfig, previous=parent, sent=sent)
 
     @staticmethod
-    def check(transition ):
+    def check(transition):
         config = transition.configuration
         sent = config.sent
         # Check up of a possible MERGE
@@ -345,6 +347,7 @@ class Merge(Transition):
             return True
         return False
 
+
 class MWTComplete(Transition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
         super(MWTComplete, self).__init__(type, config, previous, next, isInitial, sent)
@@ -360,7 +363,8 @@ class MWTComplete(Transition):
         if parse:
             sent.identifiedVMWEs.append(vMWE)
         newTokens.append(vMWE)
-        newConfig = Configuration(stack=list(config.stack)[:-1], buffer=list(config.buffer), tokens=newTokens, sent=sent, transition=self)
+        newConfig = Configuration(stack=list(config.stack)[:-1], buffer=list(config.buffer), tokens=newTokens,
+                                  sent=sent, transition=self)
         super(MWTComplete, self).__init__(config=newConfig, previous=parent, sent=sent)
 
     @staticmethod
@@ -375,6 +379,7 @@ class MWTComplete(Transition):
                               config.stack[0].parentMWEs[0].type)
             return mWTComplete
         return None
+
     @staticmethod
     def getCost(config, transType=None):
         sent = config.sent
@@ -383,7 +388,7 @@ class MWTComplete(Transition):
             if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
                 continue
 
-            if isinstance(config.stack[-1],Token) and not config.stack[-1].isMWT():
+            if isinstance(config.stack[-1], Token) and not config.stack[-1].isMWT():
                 cost += 1
         # Precision score:
         if isinstance(config.stack[-1], list):
@@ -396,6 +401,7 @@ class MWTComplete(Transition):
         if self.configuration.stack:
             return True
         return False
+
 
 class EmbeddingTransition(Transition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
@@ -425,7 +431,7 @@ class EmbeddingTransition(Transition):
         elif transitionType == MWTTransitionType.MERGE_AS_MWT_OTH:
             return MergeAsMWT_OTH.getCost(config)
         else:
-            return BlackMerge.getCost(config,  transitionType)
+            return BlackMerge.getCost(config, transitionType)
 
     def getLegalTransDic(self):
         if not XPParams.includeEmbedding:
@@ -498,7 +504,6 @@ class EmbeddingTransition(Transition):
             if EmbeddingTransition.getCost(config, transitionType) == 0:
                 costDic.append(transitionType)
 
-
         if not costDic:
             costDic = self.getOptimalTransTypes()
             reports.onlineTrainingProblems += str(self.sent) + str(config)
@@ -527,6 +532,7 @@ class EmbeddingTransition(Transition):
             result = result + valList
         return result
 
+
 class Shift(EmbeddingTransition):
 
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
@@ -539,11 +545,12 @@ class Shift(EmbeddingTransition):
         lastToken = config.buffer[0]
         newStack = list(config.stack)
         newStack.append(lastToken)
-        newConfig = Configuration(buffer=list(config.buffer)[1:], stack=newStack, tokens=list(config.tokens), sent=sent, transition=self)
+        newConfig = Configuration(buffer=list(config.buffer)[1:], stack=newStack, tokens=list(config.tokens), sent=sent,
+                                  transition=self)
         super(Shift, self).__init__(config=newConfig, previous=parent, sent=sent)
 
     @staticmethod
-    def getCost(config, transType=None ):
+    def getCost(config, transType=None):
         sent = config.sent
         cost = 0
         for vmwe in sent.vMWEs:
@@ -580,6 +587,7 @@ class Shift(EmbeddingTransition):
             return True
         return False
 
+
 class Reduce(EmbeddingTransition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
         super(Reduce, self).__init__(TransitionType.REDUCE, config, previous, next, isInitial, sent)
@@ -595,7 +603,7 @@ class Reduce(EmbeddingTransition):
         super(Reduce, self).__init__(config=newConfig, previous=parent, sent=sent)
 
     @staticmethod
-    def getCost(config, transType=None ):
+    def getCost(config, transType=None):
         sent = config.sent
         cost = 0
         for vmwe in sent.vMWEs:
@@ -608,7 +616,7 @@ class Reduce(EmbeddingTransition):
                     s0BelongsToVmwe = False
             if len(vmwe.tokens) == 1 and s0BelongsToVmwe:
                 if isinstance(config.stack[-1], Token):
-                    cost +=1
+                    cost += 1
                     continue
                 elif isinstance(config.stack[-1], list) and len(config.stack[-1]) == 1:
                     if len(config.stack[-1][0].parentMWEs) == 1:
@@ -632,14 +640,14 @@ class Reduce(EmbeddingTransition):
         return cost
 
     @staticmethod
-    def check( parent):
+    def check(parent):
         config = parent.configuration
         sent = config.sent
 
         reduce = Reduce(sent=sent)
 
         stackWithTopTokenWitoutParents = config.stack and isinstance(config.stack[-1], Token) and (
-        not config.stack[-1].parentMWEs)
+            not config.stack[-1].parentMWEs)
         if stackWithTopTokenWitoutParents:
             reduce.apply(parent, sent)
             return reduce
@@ -649,8 +657,9 @@ class Reduce(EmbeddingTransition):
             reduce.apply(parent, sent)
             return reduce
 
-        stackWithMWT = config.stack and isinstance(config.stack[-1], list) and len(config.stack[-1]) == 1 and config.stack[-1][0].parentMWEs == 1
-        if stackWithMWT :
+        stackWithMWT = config.stack and isinstance(config.stack[-1], list) and len(config.stack[-1]) == 1 and \
+                       config.stack[-1][0].parentMWEs == 1
+        if stackWithMWT:
             reduce.apply(parent, sent)
             return reduce
 
@@ -660,13 +669,15 @@ class Reduce(EmbeddingTransition):
             if len(VMWE.getParents(tokens)) == 1 and not VMWE.getParents(tokens)[0].isEmbedded:
                 stackWithSingleListWitOneSharedParentOnly = True
 
-        if stackWithSingleListWitOneSharedParentOnly :
+        if stackWithSingleListWitOneSharedParentOnly:
             reduce.apply(parent, sent)
             return reduce
 
-        stackWithTopTokenOfInterleavingMWE = sent.containsInterleaving and  config.stack and isinstance(config.stack[-1], Token) and (
-            config.stack[-1].parentMWEs and len(config.stack[-1].parentMWEs) == 1 and
-            config.stack[-1].parentMWEs[0].isInterleaving)
+        stackWithTopTokenOfInterleavingMWE = sent.containsInterleaving and config.stack and isinstance(config.stack[-1],
+                                                                                                       Token) and (
+                                                     config.stack[-1].parentMWEs and len(
+                                                 config.stack[-1].parentMWEs) == 1 and
+                                                     config.stack[-1].parentMWEs[0].isInterleaving)
 
         if stackWithTopTokenOfInterleavingMWE:
             reduce.apply(parent, sent)
@@ -677,6 +688,7 @@ class Reduce(EmbeddingTransition):
         if self.configuration.stack:
             return True
         return False
+
 
 class WhiteMerge(EmbeddingTransition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
@@ -694,7 +706,7 @@ class WhiteMerge(EmbeddingTransition):
         super(WhiteMerge, self).__init__(config=newConfig, previous=parent, sent=sent)
 
     @staticmethod
-    def getCost(config, transType=None ):
+    def getCost(config, transType=None):
         sent = config.sent
         cost = 0
         for vmwe in sent.vMWEs:
@@ -745,6 +757,7 @@ class WhiteMerge(EmbeddingTransition):
             return True
         return False
 
+
 class BlackMerge(EmbeddingTransition):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
         self.type = type
@@ -774,7 +787,7 @@ class BlackMerge(EmbeddingTransition):
             if vMWEType is not None:
                 vMWE.type = vMWEType
             newTokens.append(vMWE)
-        elif len(vMWETokens) == 1 :
+        elif len(vMWETokens) == 1:
             newTokens.append(vMWETokens[0])
 
         newConfig = Configuration(stack=newStack, buffer=newBuffer, tokens=newTokens, sent=sent, transition=self)
@@ -782,7 +795,7 @@ class BlackMerge(EmbeddingTransition):
         super(BlackMerge, self).__init__(config=newConfig, previous=parent, sent=sent)
 
     @staticmethod
-    def getCost(config, transType=None ):
+    def getCost(config, transType=None):
         sent = config.sent
         cost = 0
         for vmwe in sent.vMWEs:
@@ -825,7 +838,7 @@ class BlackMerge(EmbeddingTransition):
         # Precision score:
         correctlyIdentified = False
         vmwes = VMWE.getParents(Sentence.getTokens(config.stack[-2:]))
-        if vmwes :
+        if vmwes:
             for vmwe in vmwes:
                 if vmwe.type.lower() in str(transType.name).lower():
                     correctlyIdentified = True
@@ -870,9 +883,9 @@ class BlackMerge(EmbeddingTransition):
             # if selectedParents and len(selectedParents) > 1:
             #     reports.annotationReport += str(sent)
             selectedParents = VMWE.haveSameParents(tokens)
-            if selectedParents  and len(selectedParents) == 1:
+            if selectedParents and len(selectedParents) == 1:
                 if selectedParents[0].tokens[-1] == tokens[-1]:
-                # if len(config.stack) > 2:
+                    # if len(config.stack) > 2:
                     merge = WhiteMerge(sent=sent)
                     merge.apply(transition, sent)
                     return merge
@@ -884,21 +897,24 @@ class BlackMerge(EmbeddingTransition):
             return True
         return False
 
+
 class MergeAsID(BlackMerge):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
         super(MergeAsID, self).__init__(TransitionType.MERGE_AS_ID, config, previous, next, isInitial, sent)
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=False):
-        Counters.mergeAsIDNum +=1
+        Counters.mergeAsIDNum += 1
         super(MergeAsID, self).apply(parent, sent, vMWEId, parse, vMWEType='ID', mwtMerge=mwtMerge)
+
 
 class MergeAsLVC(BlackMerge):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
         super(MergeAsLVC, self).__init__(TransitionType.MERGE_AS_LVC, config, previous, next, isInitial, sent)
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=False):
-        Counters.mergeAsLVCNum+= 1
+        Counters.mergeAsLVCNum += 1
         super(MergeAsLVC, self).apply(parent, sent, vMWEId, parse, vMWEType='LVC', mwtMerge=mwtMerge)
+
 
 class MergeAsVPC(BlackMerge):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
@@ -908,6 +924,7 @@ class MergeAsVPC(BlackMerge):
         Counters.mergeAsVPCNum += 1
         super(MergeAsVPC, self).apply(parent, sent, vMWEId, parse, vMWEType='VPC', mwtMerge=mwtMerge)
 
+
 class MergeAsIReflV(BlackMerge):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
         super(MergeAsIReflV, self).__init__(TransitionType.MERGE_AS_IReflV, config, previous, next, isInitial, sent)
@@ -915,6 +932,7 @@ class MergeAsIReflV(BlackMerge):
     def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=False):
         Counters.mergeAsIReflVNum += 1
         super(MergeAsIReflV, self).apply(parent, sent, vMWEId, parse, vMWEType='IReflV', mwtMerge=mwtMerge)
+
 
 class MergeAsOTH(BlackMerge):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
@@ -924,22 +942,23 @@ class MergeAsOTH(BlackMerge):
         Counters.mergeAsOTHNum += 1
         super(MergeAsOTH, self).apply(parent, sent, vMWEId, parse, vMWEType='OTH', mwtMerge=mwtMerge)
 
+
 class MergeAsMWT(BlackMerge):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
         super(MergeAsMWT, self).__init__(type, config, previous, next, isInitial, sent)
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=False):
 
-        super(MergeAsMWT, self).apply(parent,sent=sent, vMWEId=vMWEId, parse=parse, vMWEType=vMWEType, mwtMerge=True)
+        super(MergeAsMWT, self).apply(parent, sent=sent, vMWEId=vMWEId, parse=parse, vMWEType=vMWEType, mwtMerge=True)
 
     @staticmethod
-    def getCost(config, transType=None, type=None ):
+    def getCost(config, transType=None, type=None):
         sent = config.sent
         cost = 0
         for vmwe in sent.vMWEs:
             if vmwe.isInterleaving or vmwe.In(sent.identifiedVMWEs):
                 continue
-            if (config.stack[-1]).In(vmwe) and len(vmwe.tokens) == 1 and vmwe.type.lower()==type.lower():
+            if (config.stack[-1]).In(vmwe) and len(vmwe.tokens) == 1 and vmwe.type.lower() == type.lower():
                 return 0
             if (config.stack[-1]).In(vmwe) and len(vmwe.tokens) > 1:
                 cost += 1
@@ -947,7 +966,7 @@ class MergeAsMWT(BlackMerge):
 
         # Precision score:
         vmwes = VMWE.getParents(Sentence.getTokens(config.stack[-1]), type.lower())
-        if not vmwes :
+        if not vmwes:
             cost += 1
         return cost
 
@@ -981,21 +1000,25 @@ class MergeAsMWT(BlackMerge):
             return True
         return False
 
+
 class MergeAsMWT_VPC(MergeAsMWT):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
-        super(MergeAsMWT_VPC, self).__init__(MWTTransitionType.MERGE_AS_MWT_VPC, config, previous, next, isInitial, sent)
+        super(MergeAsMWT_VPC, self).__init__(MWTTransitionType.MERGE_AS_MWT_VPC, config, previous, next, isInitial,
+                                             sent)
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=True):
-        Counters.mergeAsVPCNum+= 1
+        Counters.mergeAsVPCNum += 1
         super(MergeAsMWT, self).apply(parent, sent, vMWEId, parse, vMWEType='VPC', mwtMerge=mwtMerge)
 
     @staticmethod
     def getCost(config, transType=None, type='VPC'):
-        return MergeAsMWT.getCost(config,transType, type)
+        return MergeAsMWT.getCost(config, transType, type)
+
 
 class MergeAsMWT_LVC(MergeAsMWT):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
-        super(MergeAsMWT_LVC, self).__init__(MWTTransitionType.MERGE_AS_MWT_LVC, config, previous, next, isInitial, sent)
+        super(MergeAsMWT_LVC, self).__init__(MWTTransitionType.MERGE_AS_MWT_LVC, config, previous, next, isInitial,
+                                             sent)
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=True):
         Counters.mergeAsLVCNum += 1
@@ -1004,6 +1027,7 @@ class MergeAsMWT_LVC(MergeAsMWT):
     @staticmethod
     def getCost(config, transType=None, type='LVC'):
         return MergeAsMWT.getCost(config, transType, type)
+
 
 class MergeAsMWT_ID(MergeAsMWT):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
@@ -1017,9 +1041,11 @@ class MergeAsMWT_ID(MergeAsMWT):
     def getCost(config, transType=None, type='ID'):
         return MergeAsMWT.getCost(config, transType, type)
 
+
 class MergeAsMWT_IREFLF(MergeAsMWT):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
-        super(MergeAsMWT_IREFLF, self).__init__(MWTTransitionType.MERGE_AS_MWT_IREFLV, config, previous, next, isInitial, sent)
+        super(MergeAsMWT_IREFLF, self).__init__(MWTTransitionType.MERGE_AS_MWT_IREFLV, config, previous, next,
+                                                isInitial, sent)
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=True):
         Counters.mergeAsIReflVNum += 1
@@ -1029,9 +1055,11 @@ class MergeAsMWT_IREFLF(MergeAsMWT):
     def getCost(config, transType=None, type='IReflV'):
         return MergeAsMWT.getCost(config, transType, type)
 
+
 class MergeAsMWT_OTH(MergeAsMWT):
     def __init__(self, type=None, config=None, previous=None, next=None, isInitial=False, sent=None):
-        super(MergeAsMWT_OTH, self).__init__(MWTTransitionType.MERGE_AS_MWT_OTH, config, previous, next, isInitial, sent)
+        super(MergeAsMWT_OTH, self).__init__(MWTTransitionType.MERGE_AS_MWT_OTH, config, previous, next, isInitial,
+                                             sent)
 
     def apply(self, parent, sent=None, vMWEId=None, parse=False, vMWEType=None, mwtMerge=True):
         Counters.mergeAsOTHNum += 1

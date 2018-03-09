@@ -15,7 +15,6 @@ class Evaluation:
         scores = Evaluation.calculateScores(tp, p, t,'Ordinary: ')
         scores += Evaluation.calculateScores(tpCat, pCat, tCat, 'Categorization: ')
         catList = ['lvc', 'ireflv', 'vpc', 'id', 'oth']
-        # catList = ['id','vpc', 'lvc','ireflv', 'oth']
         for cat in catList:
             tp, p, t = Evaluation.getCategoryStatistics(corpus, cat)
             scores += Evaluation.calculateScores(tp, p, t, cat + ' categorization: ')
