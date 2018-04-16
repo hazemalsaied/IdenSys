@@ -376,6 +376,26 @@ class Corpus:
         for sent in self.trainingSents:
             yield sent
 
+    def __str__(self):
+        res = ''
+        for sent in self.testingSents:
+            tokenList = []
+            for token in sent.tokens:
+                tokenList.append(token.text.strip())
+            labels = ['_'] * len(tokenList)
+            for mwe in sent.identifiedVMWEs:
+                for token in mwe.tokens:
+                    if labels[token.position - 1] == '_':
+                        labels[token.position - 1] = str(mwe.id)
+                    else:
+                        labels[token.position - 1] += ';' + str(mwe.id)
+                    if mwe.tokens[0] == token and mwe.type:
+                        labels[token.position - 1] += ':' + mwe.type
+
+            for i in range(len(tokenList)):
+                res += '{0}\t{1}\t{2}\t{3}\n'.format(i + 1, tokenList[i], '_', labels[i])
+            res += '\n'
+        return res
 
 class Sentence:
     """
